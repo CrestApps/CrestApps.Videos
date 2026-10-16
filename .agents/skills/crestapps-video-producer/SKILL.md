@@ -54,7 +54,8 @@ recordings, frames, builds, MP4s) out of git. Commit only what is listed under "
 ```
 videos/<slug>/
   README.md         what the video covers, and how to record it again (the site, the seed data)
-  video.json        the YouTube title, description, tags, chapters, links, and the video's YouTube id once uploaded
+  video.json        the YouTube title, description, tags, chapters, links, playlists, and the YouTube id once published
+  thumbnail.jpg     the YouTube thumbnail: the opening card (build/00-intro.png) saved as JPEG
   storyboard.json   the chapters, clips and narration (see references/storyboard.md)
   slides.py         the slides, if the storyboard has "slide" clips
   recorder/         your clips: Scenes.cs (and Scenes.*.cs), one method per "clip" of the storyboard
@@ -138,25 +139,27 @@ numbers and tokens. Fix the site or the mask, and record again; never publish a 
 
 ### 7. Publish
 
-- **YouTube**: upload with the tool, which takes the title, description (with chapters and links), tags and
-  privacy from `video.json`, adds the captions and the thumbnail, and writes the YouTube id back to `video.json` and
-  the README index:
+- **YouTube**: merge the video's folder to `main`, then create the draft release of its next version with the MP4:
 
   ```bash
-  python tools/youtube/youtube.py upload <slug> --file videos/<slug>/<output>.mp4 \
-      --captions videos/<slug>/<output>.srt --thumbnail videos/<slug>/build/00-intro.png
+  python tools/youtube/youtube.py release <slug> --file videos/<slug>/build/master.mp4
   ```
 
-  Or upload `build/master.mp4` in YouTube Studio, and record the id in `video.json` by hand. To change the title or
-  description later, edit `video.json` and run `python tools/youtube/youtube.py update <slug>` (or let the
-  `YouTube metadata` workflow do it when the change is pushed).
-- **Documentation**: the product repositories never store videos. In CrestApps.OrchardCore's docs, embed the YouTube
-  video under the introduction of the feature's pages, and play one chapter on a task's section with `start` and
-  `end` (in seconds, from the chapter times):
+  Watch the video on the draft release, then publish the release. The **Publish video** workflow uploads it with the
+  title, description (with chapters and links), tags, captions, `thumbnail.jpg` and playlists of `video.json`, records
+  the YouTube id back in `video.json` and the README index, and opens the documentation pull request. A re-recording
+  is the next version (`<slug>/v2`): it is a new YouTube video, and the previous one becomes unlisted. To change the
+  title or description later, edit `video.json` and merge (the **YouTube metadata** workflow pushes it), or run
+  `python tools/youtube/youtube.py update <slug>`.
+- **Documentation**: the product repositories never store videos. CrestApps.OrchardCore's docs embed a video by its
+  name, and the publish workflow's pull request writes its YouTube id into `src/CrestApps.Docs/src/data/videos.json`.
+  Add the embed under the introduction of the feature's pages, and play one chapter on a task's section with `start`
+  and `end` (in seconds, from the chapter times). Until the video is published, the embed renders nothing, so the
+  feature's pull request can add it first:
 
   ```mdx
-  <YouTube id="UOKvEY-kID4" title="Video overview of the AI Profile Builder" />
-  <YouTube id="UOKvEY-kID4" title="Video of starting a session" start={99} end={146} />
+  <YouTube video="ai-profile-builder" title="Video overview of the AI Profile Builder" />
+  <YouTube video="ai-profile-builder" title="Video of starting a session" start={99} end={146} />
   ```
 
   Introduce it with one sentence that says what it covers, without "new". Record the pages in `video.json`'s
@@ -172,7 +175,7 @@ Stop the site you recorded (by its process ID, never by image name). Keep `build
 
 | Kept in git | Not kept |
 |---|---|
-| `README.md`, `video.json`, `storyboard.json`, `slides.py`, `recorder/Scenes*.cs`, seed data files, `durations.json`, `<output>.srt`, `<output>.vtt` | MP4s, MP3s, `audio/`, `clips/`, `build/`, `shots/`, `state.json`, mask scripts with real names, `App_Data` copies, credentials |
+| `README.md`, `video.json`, `thumbnail.jpg`, `storyboard.json`, `slides.py`, `recorder/Scenes*.cs`, seed data files, `durations.json`, `<output>.srt`, `<output>.vtt` | MP4s, MP3s, `audio/`, `clips/`, `build/`, `shots/`, `state.json`, mask scripts with real names, `App_Data` copies, credentials |
 
 ## References
 

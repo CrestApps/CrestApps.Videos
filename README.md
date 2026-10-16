@@ -26,6 +26,7 @@ This table is generated from each video's `video.json` by `python tools/youtube/
 | `.agents/skills/crestapps-video-producer/` | The skill: the video specification, the narration, recording and assembly scripts, and the shared recorder |
 | `branding/` | The CrestApps logo and the Inter font every video uses |
 | `tools/youtube/` | Uploads a video, pushes `video.json` changes, computes chapters, and writes the table above |
+| `.github/workflows/publish-video.yml` | Publishing a release uploads its video and opens the docs pull request |
 | `.github/workflows/youtube-metadata.yml` | Pushes a changed `video.json` to YouTube when it is merged |
 
 ## Making a video
@@ -35,11 +36,15 @@ Follow `.agents/skills/crestapps-video-producer/SKILL.md`. In short:
 1. Copy `videos/ai-profile-builder/` to `videos/<slug>/` and write the storyboard and `video.json`.
 2. Narrate (`scripts/narrate.py`), record the clips against a local site with fake data (the recorder), and assemble
    (`scripts/assemble.py`); then `youtube.py chapters`.
-3. Check the video for private data, upload it (`youtube.py upload` or YouTube Studio), and embed it in the
-   documentation with `<YouTube id="..." />`.
-4. Commit the video's folder (never the MP4) and the index.
+3. Check the video for private data, and merge its folder (never the MP4) to `main`.
+4. `python tools/youtube/youtube.py release <slug> --file <mp4>` creates a draft release with the MP4 attached.
+   Watch it there, then **publish the release**: the **Publish video** workflow uploads it to YouTube with its
+   metadata, captions, thumbnail and playlists, records the YouTube id here, and opens a pull request in
+   CrestApps.OrchardCore that links it on every docs page with `<YouTube video="<slug>" />`.
 
-Changing a published video's title, description or chapters is an edit to its `video.json`; merging it updates YouTube.
+A video's versions are its releases (`<slug>/v1`, `<slug>/v2`, ...): a re-recording is a new release, and the previous
+version on YouTube becomes unlisted. Changing a published video's title, description or chapters is an edit to its
+`video.json`; merging it updates YouTube. See `tools/youtube/README.md` for the secrets these workflows need.
 
 ## Requirements
 

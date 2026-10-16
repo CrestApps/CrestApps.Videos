@@ -1,17 +1,19 @@
 """Publishes the videos of this repository to the CrestApps YouTube channel, and keeps them in step with video.json.
 
 Each video lives in videos/<slug>/ with a video.json that holds what YouTube shows: the title, the description,
-tags, chapters and links. This tool turns that into a YouTube upload or update, and records the video's YouTube id
-back into video.json and the README index. The MP4 is never committed; it is passed to `upload` from wherever the
-video was assembled.
+tags, chapters, links and playlists. This tool turns that into a YouTube upload or update, and records the video's
+YouTube id back into video.json and the README index. The MP4 is never committed: it is attached to a GitHub release
+(see `release`), and publishing the release sends it to YouTube through the publish-video workflow.
 
 Commands:
   python tools/youtube/youtube.py auth                         sign in once, in a browser, and keep the token
-  python tools/youtube/youtube.py upload <slug> --file <mp4>   upload, with captions and thumbnail when given
-         [--captions <srt>] [--thumbnail <png|jpg>] [--privacy private|unlisted|public]
+  python tools/youtube/youtube.py release <slug> --file <mp4>  create the draft GitHub release of the next version
+  python tools/youtube/youtube.py publish <slug> --file <mp4>  upload with metadata, captions, thumbnail, playlists
+         [--version vN] [--captions <srt>] [--thumbnail <jpg>] [--privacy private|unlisted|public] [--keep-previous]
   python tools/youtube/youtube.py update <slug>... | --all     push video.json's title, description, tags to YouTube
   python tools/youtube/youtube.py chapters <slug> --build <dir> compute chapter times from an assembled build
   python tools/youtube/youtube.py description <slug>           print the description exactly as YouTube gets it
+  python tools/youtube/youtube.py docs-map <slug> --map <json> write the YouTube id into a docs site's video map
   python tools/youtube/youtube.py index                        rewrite the video table in README.md
 
 Authentication (see tools/youtube/README.md):
@@ -54,6 +56,16 @@ def slugs():
     return sorted(path.parent.name for path in VIDEOS.glob("*/video.json"))
 
 
+def output_name(slug):
+    storyboard = VIDEOS / slug / "storyboard.json"
+    return json.loads(storyboard.read_text(encoding="utf-8")).get("output", slug) if storyboard.exists() else slug
+
+
+def default_file(slug, name):
+    path = VIDEOS / slug / name
+    return str(path) if path.exists() else None
+
+
 def description(video):
     """The description YouTube shows: the text, then the chapters, the links and the hashtags."""
     parts = [video["description"].strip()]
@@ -87,6 +99,13 @@ def snippet(video):
         "defaultLanguage": "en",
         "defaultAudioLanguage": "en",
     }
+
+
+def github_output(**values):
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as outputs:
+            for key, value in values.items():
+                outputs.write(f"{key}={value}\n")
 
 
 # ----- YouTube -----
@@ -131,6 +150,35 @@ def service():
     return build("youtube", "v3", credentials=credentials(), cache_discovery=False)
 
 
+def playlist_ids(youtube, titles):
+    """Finds the channel's playlists by title, and creates the ones that don't exist yet."""
+    if not titles:
+        return []
+
+    existing, page = {}, None
+    while True:
+        response = youtube.playlists().list(part="snippet", mine=True, maxResults=50, pageToken=page).execute()
+        existing.update({item["snippet"]["title"]: item["id"] for item in response.get("items", [])})
+        page = response.get("nextPageToken")
+        if not page:
+            break
+
+    ids = []
+    for title in titles:
+        if title not in existing:
+            created = youtube.playlists().insert(
+                part="snippet,status",
+                body={"snippet": {"title": title, "defaultLanguage": "en"}, "status": {"privacyStatus": "public"}},
+            ).execute()
+            existing[title] = created["id"]
+            print(f"  created the playlist {title}")
+        ids.append(existing[title])
+
+    return ids
+
+
+# ----- Commands -----
+
 def cmd_auth(args):
     creds = credentials(interactive=True)
     from googleapiclient.discovery import build
@@ -138,55 +186,131 @@ def cmd_auth(args):
     channel = build("youtube", "v3", credentials=creds, cache_discovery=False).channels().list(part="snippet", mine=True).execute()
     title = channel["items"][0]["snippet"]["title"] if channel.get("items") else "(no channel)"
     print(f"Signed in. Uploads go to the channel: {title}")
-    print(f"Token saved to {TOKEN}. For CI, store its refresh_token as the YOUTUBE_REFRESH_TOKEN secret.")
+    print(f"Token saved to {TOKEN}. For GitHub, store its refresh_token as the YOUTUBE_REFRESH_TOKEN secret.")
 
 
-def cmd_upload(args):
+def cmd_publish(args):
+    """Uploads a video with everything YouTube takes from video.json: the metadata, the status, the captions, the
+    thumbnail and the playlists. Publishing a new version of a video that is already on YouTube uploads a new video
+    (YouTube can't replace a video's file) and makes the previous one unlisted, so its links keep working."""
     from googleapiclient.http import MediaFileUpload
 
     video = load(args.slug)
+    previous = video.get("youtube") or {}
 
-    if video.get("youtube", {}).get("id") and not args.force:
-        raise SystemExit(f'{args.slug} is already on YouTube ({video["youtube"]["url"]}). Use `update`, or --force to upload a new copy.')
+    if previous.get("id") and not args.version and not args.force:
+        raise SystemExit(f'{args.slug} is already on YouTube ({previous["url"]}). Pass --version vN to publish a new version, or use `update` for metadata.')
+
+    version = args.version or "v1"
+    captions = args.captions or default_file(args.slug, f"{output_name(args.slug)}.srt")
+    thumbnail = args.thumbnail or default_file(args.slug, "thumbnail.jpg")
+    status = {
+        "privacyStatus": args.privacy or video.get("privacyStatus", "private"),
+        "selfDeclaredMadeForKids": False,
+        "containsSyntheticMedia": True,
+        "embeddable": True,
+        "license": video.get("license", "youtube"),
+    }
+
+    # A scheduled video is uploaded private, and YouTube makes it public by itself at publishAt.
+    if video.get("publishAt") and not args.privacy:
+        status["privacyStatus"] = "private"
+        status["publishAt"] = video["publishAt"]
 
     youtube = service()
-    body = {
-        "snippet": snippet(video),
-        "status": {
-            "privacyStatus": args.privacy or video.get("privacyStatus", "private"),
-            "selfDeclaredMadeForKids": False,
-            "containsSyntheticMedia": True,
-        },
-    }
-    request = youtube.videos().insert(part="snippet,status", body=body, media_body=MediaFileUpload(args.file, chunksize=8 * 1024 * 1024, resumable=True))
+    request = youtube.videos().insert(
+        part="snippet,status",
+        body={"snippet": snippet(video), "status": status},
+        media_body=MediaFileUpload(args.file, chunksize=8 * 1024 * 1024, resumable=True),
+    )
 
     response = None
     while response is None:
-        status, response = request.next_chunk()
-        if status:
-            print(f"  uploaded {int(status.progress() * 100)}%")
+        progress, response = request.next_chunk()
+        if progress:
+            print(f"  uploaded {int(progress.progress() * 100)}%")
 
     video_id = response["id"]
-    video["youtube"] = {"id": video_id, "url": f"https://youtu.be/{video_id}"}
-    save(args.slug, video)
-    print(f"Uploaded: https://youtu.be/{video_id}")
+    url = f"https://youtu.be/{video_id}"
+    print(f"Uploaded {args.slug} {version}: {url}")
 
-    if args.captions:
+    if captions:
         youtube.captions().insert(
             part="snippet",
             body={"snippet": {"videoId": video_id, "language": "en", "name": "English", "isDraft": False}},
-            media_body=MediaFileUpload(args.captions, mimetype="application/octet-stream"),
+            media_body=MediaFileUpload(captions, mimetype="application/octet-stream"),
         ).execute()
-        print("  captions uploaded")
+        print(f"  captions: {Path(captions).name}")
 
-    if args.thumbnail:
+    if thumbnail:
         try:
-            youtube.thumbnails().set(videoId=video_id, media_body=MediaFileUpload(args.thumbnail)).execute()
-            print("  thumbnail set")
-        except Exception as error:  # Custom thumbnails need a verified channel.
+            youtube.thumbnails().set(videoId=video_id, media_body=MediaFileUpload(thumbnail)).execute()
+            print(f"  thumbnail: {Path(thumbnail).name}")
+        except Exception as error:  # Custom thumbnails need a channel that is allowed to use them.
             print(f"  thumbnail not set: {error}")
 
+    for playlist_id in playlist_ids(youtube, video.get("playlists", [])):
+        youtube.playlistItems().insert(
+            part="snippet",
+            body={"snippet": {"playlistId": playlist_id, "resourceId": {"kind": "youtube#video", "videoId": video_id}}},
+        ).execute()
+
+    if video.get("playlists"):
+        print(f'  playlists: {", ".join(video["playlists"])}')
+
+    history = previous.get("history", [])
+
+    if previous.get("id"):
+        history.append({"version": previous.get("version", "v1"), "id": previous["id"], "url": previous["url"]})
+
+        if not args.keep_previous:
+            youtube.videos().update(part="status", body={"id": previous["id"], "status": {"privacyStatus": "unlisted"}}).execute()
+            print(f'  previous version {previous["id"]} is now unlisted')
+
+    video["youtube"] = {"id": video_id, "url": url, "version": version}
+
+    if history:
+        video["youtube"]["history"] = history
+
+    save(args.slug, video)
     cmd_index(args)
+    github_output(id=video_id, url=url, version=version)
+
+
+def cmd_release(args):
+    """Creates the draft GitHub release of a video's next version, with the MP4 attached. Publishing the draft on
+    GitHub is what sends the video to YouTube, through the publish-video workflow."""
+    video = load(args.slug)
+    listed = subprocess.run(
+        ["gh", "release", "list", "--limit", "500", "--json", "tagName", "--jq", ".[].tagName"],
+        capture_output=True, text=True, cwd=ROOT,
+    ).stdout.split()
+    local = subprocess.run(["git", "tag", "--list", f"{args.slug}/v*"], capture_output=True, text=True, cwd=ROOT).stdout.split()
+    numbers = [
+        int(tag.rsplit("/v", 1)[1])
+        for tag in set(listed) | set(local)
+        if tag.startswith(f"{args.slug}/v") and tag.rsplit("/v", 1)[1].isdigit()
+    ]
+    tag = f"{args.slug}/v{max(numbers, default=0) + 1}"
+    title = video["title"].split(" | ")[0]
+    notes = (
+        f"{title}\n\n"
+        f"Publishing this release uploads the attached video to YouTube with the metadata in "
+        f"`videos/{args.slug}/video.json`, then opens a pull request that points the documentation at it."
+    )
+    command = [
+        "gh", "release", "create", tag, args.file,
+        "--draft", "--target", args.target,
+        "--title", f"{title} ({tag.rsplit('/', 1)[1]})",
+        "--notes", notes,
+    ]
+
+    if args.dry_run:
+        print(" ".join(f'"{part}"' if " " in part else part for part in command))
+        return
+
+    subprocess.run(command, check=True, cwd=ROOT)
+    print(f"Draft release {tag} created. Watch the video on its release page, then publish the release to send it to YouTube.")
 
 
 def cmd_update(args):
@@ -239,6 +363,7 @@ def cmd_chapters(args):
                 elapsed += length(build / f'{clip["id"]}.mp4')
 
     master = build / "master.mp4"
+
     if master.exists() and abs(length(master) - elapsed) > 1:
         raise SystemExit(f"The segments add up to {elapsed:.1f}s but master.mp4 is {length(master):.1f}s: check the build.")
 
@@ -252,6 +377,25 @@ def cmd_description(args):
     print(description(load(args.slug)))
 
 
+def cmd_docs_map(args):
+    """Writes a video's YouTube id into a docs site's video map (slug to id), such as CrestApps.OrchardCore's
+    src/CrestApps.Docs/src/data/videos.json, which the docs' <YouTube video="slug" /> component reads."""
+    video = load(args.slug)
+    video_id = video.get("youtube", {}).get("id")
+
+    if not video_id:
+        raise SystemExit(f"{args.slug} is not on YouTube yet.")
+
+    path = Path(args.map)
+    mapping = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    changed = mapping.get(args.slug) != video_id
+    mapping[args.slug] = video_id
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(dict(sorted(mapping.items())), indent=2) + "\n", encoding="utf-8")
+    print(f"{path}: {args.slug} = {video_id}" + ("" if changed else " (unchanged)"))
+    github_output(changed=str(changed).lower())
+
+
 def cmd_index(args):
     rows = ["| Video | Length | YouTube | Source |", "| --- | --- | --- | --- |"]
 
@@ -259,8 +403,12 @@ def cmd_index(args):
         video = load(slug)
         youtube = video.get("youtube", {}).get("url")
         source = video.get("source", {})
-        pr = f'[{source["repository"]}#{source["pullRequest"]}](https://github.com/{source["repository"]}/pull/{source["pullRequest"]})' if source.get("pullRequest") else source.get("repository", "")
-        rows.append(f'| [{video["title"].split(" | ")[0]}](videos/{slug}) | {video.get("length", "")} | {f"[{youtube}]({youtube})" if youtube else "not uploaded"} | {pr} |')
+        pr = (
+            f'[{source["repository"]}#{source["pullRequest"]}](https://github.com/{source["repository"]}/pull/{source["pullRequest"]})'
+            if source.get("pullRequest") else source.get("repository", "")
+        )
+        link = f"[{youtube}]({youtube})" if youtube else "not uploaded"
+        rows.append(f'| [{video["title"].split(" | ")[0]}](videos/{slug}) | {video.get("length", "")} | {link} | {pr} |')
 
     text = README.read_text(encoding="utf-8")
     start, end = text.index(INDEX_START) + len(INDEX_START), text.index(INDEX_END)
@@ -274,14 +422,24 @@ def main():
 
     commands.add_parser("auth").set_defaults(run=cmd_auth)
 
-    upload = commands.add_parser("upload")
-    upload.add_argument("slug")
-    upload.add_argument("--file", required=True)
-    upload.add_argument("--captions")
-    upload.add_argument("--thumbnail")
-    upload.add_argument("--privacy", choices=["private", "unlisted", "public"])
-    upload.add_argument("--force", action="store_true")
-    upload.set_defaults(run=cmd_upload)
+    for name in ("publish", "upload"):
+        publish = commands.add_parser(name)
+        publish.add_argument("slug")
+        publish.add_argument("--file", required=True, help="the MP4 to upload")
+        publish.add_argument("--version", help="the version being published, such as v2 (from the release tag)")
+        publish.add_argument("--captions", help="default: videos/<slug>/<output>.srt")
+        publish.add_argument("--thumbnail", help="default: videos/<slug>/thumbnail.jpg")
+        publish.add_argument("--privacy", choices=["private", "unlisted", "public"], help="default: video.json's privacyStatus")
+        publish.add_argument("--keep-previous", action="store_true", help="leave the previous version as it is")
+        publish.add_argument("--force", action="store_true")
+        publish.set_defaults(run=cmd_publish)
+
+    release = commands.add_parser("release")
+    release.add_argument("slug")
+    release.add_argument("--file", required=True, help="the MP4 to attach")
+    release.add_argument("--target", default="main", help="the commit or branch the tag points to")
+    release.add_argument("--dry-run", action="store_true")
+    release.set_defaults(run=cmd_release)
 
     update = commands.add_parser("update")
     update.add_argument("slugs", nargs="*")
@@ -296,6 +454,11 @@ def main():
     describe = commands.add_parser("description")
     describe.add_argument("slug")
     describe.set_defaults(run=cmd_description)
+
+    docs_map = commands.add_parser("docs-map")
+    docs_map.add_argument("slug")
+    docs_map.add_argument("--map", required=True, help="the docs site's videos.json")
+    docs_map.set_defaults(run=cmd_docs_map)
 
     commands.add_parser("index").set_defaults(run=cmd_index)
 

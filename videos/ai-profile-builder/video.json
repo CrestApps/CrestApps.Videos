@@ -24,6 +24,9 @@
   ],
   "categoryId": "28",
   "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
   "chapters": [
     {
       "time": "0:00",
@@ -74,7 +77,8 @@
   ],
   "youtube": {
     "id": "UOKvEY-kID4",
-    "url": "https://youtu.be/UOKvEY-kID4"
+    "url": "https://youtu.be/UOKvEY-kID4",
+    "version": "v1"
   },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",

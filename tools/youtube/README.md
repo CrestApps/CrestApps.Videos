@@ -6,12 +6,47 @@ and keeps each video's YouTube metadata in its `video.json`.
 ```bash
 pip install -r tools/youtube/requirements.txt
 python tools/youtube/youtube.py auth                                   # once per machine
-python tools/youtube/youtube.py upload <slug> --file <mp4> --captions <srt> --thumbnail <png>
+python tools/youtube/youtube.py release <slug> --file <mp4>             # draft release; publishing it uploads
+python tools/youtube/youtube.py publish <slug> --file <mp4>             # or upload from this machine
 python tools/youtube/youtube.py update <slug>                          # after editing video.json
 python tools/youtube/youtube.py chapters <slug> --build videos/<slug>/build
 python tools/youtube/youtube.py description <slug>                     # preview what YouTube gets
 python tools/youtube/youtube.py index                                  # rewrite the table in README.md
 ```
+
+## Publishing a video
+
+A video goes to YouTube when its **release is published**:
+
+1. Merge the video's folder to `main` (storyboard, scenes, captions, `thumbnail.jpg`, `video.json`).
+2. Create the draft release of its next version, with the MP4 attached:
+
+   ```bash
+   python tools/youtube/youtube.py release <slug> --file videos/<slug>/build/master.mp4
+   ```
+
+   This tags `<slug>/v1` (then `v2`, ...) on `main`. A draft is visible only to the repository's members: watch the
+   video on the release page.
+3. **Publish the release** on GitHub. The **Publish video** workflow then:
+   - uploads the MP4 with the title, description, chapters, links, tags, captions, thumbnail and playlists of
+     `video.json` (scheduled with `publishAt` when it is set);
+   - makes the previous version unlisted when this is `v2` or later, since YouTube can't replace a video's file;
+   - commits the YouTube id to `video.json` and the README index, and adds the link to the release notes;
+   - opens a pull request in CrestApps.OrchardCore that writes the id into `src/CrestApps.Docs/src/data/videos.json`,
+     which every `<YouTube video="<slug>" />` on the docs pages reads.
+
+To run it again for a release (after adding a missing secret, say), use **Run workflow** with the tag.
+
+Changing a published video's title, description or chapters needs no release: edit `video.json` and merge, and the
+**YouTube metadata** workflow updates YouTube.
+
+### Repository secrets
+
+| Secret | What it is |
+| --- | --- |
+| `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET` | The OAuth client created below |
+| `YOUTUBE_REFRESH_TOKEN` | The `refresh_token` in the token file `auth` writes |
+| `DOCS_REPOSITORY_TOKEN` | A fine-grained token for **CrestApps/CrestApps.OrchardCore** with **Contents** and **Pull requests** set to read and write, so the workflow can open the documentation pull request. Without it the video is still published, and the workflow says which line to add to the docs by hand. |
 
 ## One-time setup
 
@@ -30,16 +65,6 @@ channel does this once:
    channel if it's a brand account), and allow access. The token is kept in `~/.crestapps-videos/youtube-token.json`,
    outside the repository.
 
-## Updating metadata from GitHub
-
-The **YouTube metadata** workflow (`.github/workflows/youtube-metadata.yml`) runs `youtube.py update` for every video
-whose `video.json` changed in a push to `main`, so a corrected title or description reaches YouTube by merging a pull
-request. It needs three repository secrets: `YOUTUBE_CLIENT_ID` and `YOUTUBE_CLIENT_SECRET` (from the OAuth client)
-and `YOUTUBE_REFRESH_TOKEN` (the `refresh_token` in the token file `auth` wrote). Until they exist, the workflow skips
-itself.
-
-Uploading stays a local step: the MP4 is not in the repository, so a workflow would have nothing to upload.
-
 ## What the API allows, and what it doesn't
 
 - **Uploads from an unaudited API project are locked to private.** YouTube restricts every video uploaded through
@@ -47,7 +72,9 @@ Uploading stays a local step: the MP4 is not in the repository, so a workflow wo
   to private viewing, and it can't be made public. Either request the audit once, which is free and takes a few weeks,
   or upload in YouTube Studio and use this tool for everything else (captions, thumbnail, metadata updates and the
   index), which isn't restricted. Record a Studio upload's id in `video.json` as `"youtube": { "id": "...", "url": "https://youtu.be/..." }`.
-- **Quota**: 10,000 units a day by default. An upload costs 1,600, a caption 400, a thumbnail 50, an update 50.
+- **Quota**: 10,000 units a day by default. A full publish (upload 1,600, captions 400, thumbnail 50, playlist 50,
+  plus a playlist lookup) costs about 2,150, so about four videos a day; the audit form can ask for more.
+- **Not in the API**: end screens, cards, monetization and pinning a comment are set in YouTube Studio.
 - **Custom thumbnails** need a channel with phone verification or channel history; the tool reports when YouTube
   refuses one.
 - **AI disclosure**: uploads declare synthetic media (`containsSyntheticMedia`), because the narration is a neural voice.
