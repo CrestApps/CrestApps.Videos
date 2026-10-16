@@ -1,0 +1,245 @@
+{
+  "title": "The CrestApps AI Profile Builder",
+  "output": "ai-profile-builder",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The CrestApps AI Profile Builder",
+      "subtitle": "Build AI profiles by role-play and feedback",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The AI Profile Builder writes the instructions of an AI profile with you. You play the person the AI will talk to, tell it what it got wrong, and it rewrites its own instructions. This video shows why it exists, how it works, and how to build, test and save a profile with it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why the Profile Builder",
+      "subtitle": "Instructions that cover every conversation",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An AI profile that holds a conversation on its own, such as an automated text message or phone call, behaves only as well as its system message."
+            },
+            {
+              "id": "why-2",
+              "text": "Writing that message by hand means guessing at every situation, trying it in a chat, and editing it again, over and over."
+            },
+            {
+              "id": "why-3",
+              "text": "And a fix for one reply can quietly break another reply that used to work."
+            },
+            {
+              "id": "why-4",
+              "text": "The Profile Builder turns this around. You play the conversation, say what the AI got wrong, and the AI rewrites its own instructions until it behaves the way you want."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it works",
+      "subtitle": "A chat, a coach, and a memory of every fix",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A session is a chat with a coach beside it. You role-play in text or by voice, and give feedback on any reply."
+            },
+            {
+              "id": "how-2",
+              "text": "The coach reads your comment, the conversation, and every earlier piece of feedback, including the replies you threw away. It rewrites the system message and, when needed, parameters such as the temperature."
+            },
+            {
+              "id": "how-3",
+              "text": "Every rewrite is kept as a revision you can restore, and Replay checks that earlier fixes still hold."
+            },
+            {
+              "id": "how-4",
+              "text": "When the assistant behaves the way you want, you save the result as an AI profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Start a session",
+      "subtitle": "Start empty, or from an AI profile you already have",
+      "short": "start",
+      "clips": [
+        {
+          "id": "03-start",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "start-1",
+              "text": "Open Artificial Intelligence, Profile Builder. Your sessions are listed here."
+            },
+            {
+              "id": "start-2",
+              "text": "New Session starts with empty instructions. To improve an AI profile you already have, open the menu beside it."
+            },
+            {
+              "id": "start-3",
+              "text": "Pick the profile, and start the session. It begins with the profile's instructions, model, parameters and tools."
+            },
+            {
+              "id": "start-4",
+              "text": "The page has three parts. The settings on the left hold the instructions and parameters."
+            },
+            {
+              "id": "start-5",
+              "text": "The chat in the middle is where you play the person the AI talks to. Here, a patient texting a dental office."
+            },
+            {
+              "id": "start-6",
+              "text": "And the Builder panel on the right holds your feedback, the revisions, the replay, and the finished result."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Role-play and give feedback",
+      "subtitle": "Say what was wrong, and the AI rewrites its instructions",
+      "short": "feedback",
+      "clips": [
+        {
+          "id": "04-feedback",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fb-1",
+              "text": "Write what the patient would say, and send it."
+            },
+            {
+              "id": "fb-2",
+              "text": "The assistant answers with a price. But this office doesn't quote prices by text message: the front desk confirms them."
+            },
+            {
+              "id": "fb-3",
+              "text": "Under the reply, click Feedback. The reply moves into the Builder panel."
+            },
+            {
+              "id": "fb-4",
+              "text": "Write what was wrong, in your own words."
+            },
+            {
+              "id": "fb-5",
+              "text": "Feedback and regenerate rewrites the instructions, then answers the same message again with them."
+            },
+            {
+              "id": "fb-6",
+              "text": "The new rule is in the system instructions, and the new reply leaves the price to the front desk."
+            },
+            {
+              "id": "fb-7",
+              "text": "When a reply is right, click Looks good. Later rewrites keep that behavior."
+            },
+            {
+              "id": "fb-8",
+              "text": "Every piece of feedback stays in this list, with the replies you rejected. Each rewrite reads all of it, so fixing one thing doesn't undo another."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Revisions and replay",
+      "subtitle": "Every version kept, every fix checked",
+      "short": "replay",
+      "clips": [
+        {
+          "id": "05-replay",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rev-1",
+              "text": "The Revisions tab keeps every version of the instructions, with what changed and why."
+            },
+            {
+              "id": "rev-2",
+              "text": "Expand a revision to read its system message, and restore it to make it current again."
+            },
+            {
+              "id": "rep-1",
+              "text": "On the Replay tab, Run replay answers every message you gave feedback on again, with the current instructions."
+            },
+            {
+              "id": "rep-2",
+              "text": "Then it checks each answer against your feedback, and marks it Pass or Fail, with the reason. Tools aren't used during a replay, so nothing is sent or booked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Save the result",
+      "subtitle": "Update the profile, or save a new one",
+      "short": "finish",
+      "clips": [
+        {
+          "id": "06-finish",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fin-1",
+              "text": "On the Finish tab, the opening message is what the assistant is told when it starts a conversation itself, such as an automated text."
+            },
+            {
+              "id": "fin-2",
+              "text": "The coach deployment is the model that rewrites the instructions. A capable model writes better ones."
+            },
+            {
+              "id": "fin-3",
+              "text": "Copy the system message, save the result as a new AI profile, or update the profile this session started from."
+            },
+            {
+              "id": "fin-4",
+              "text": "The profile opens with the instructions you built, ready for automated messages and calls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "The CrestApps AI Profile Builder",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "The AI Profile Builder turns the replies you don't want into instructions that hold. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
