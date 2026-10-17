@@ -1,0 +1,100 @@
+{
+  "title": "Site Administration Walkthroughs: Fields, Roles, Users and Imports | CrestApps for Orchard Core",
+  "description": "Short, silent walkthroughs of the CrestApps site administration features for Orchard Core, one screen per chapter: the phone field, role pickers and restricted content, user display names, time zones, bulk import and export, and Do Not Call lists.\n\nThere is no narration: each chapter is the screen recording that the matching page of the CrestApps documentation shows next to its written steps.",
+  "hashtags": [
+    "OrchardCore",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "Orchard Core admin",
+    "roles",
+    "permissions",
+    "content import",
+    "Do Not Call",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "unlisted",
+  "playlists": [
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "The phone field"
+    },
+    {
+      "time": "0:42",
+      "title": "Pick roles on a content item"
+    },
+    {
+      "time": "1:12",
+      "title": "Restrict content by role"
+    },
+    {
+      "time": "1:42",
+      "title": "User display names"
+    },
+    {
+      "time": "2:15",
+      "title": "Display names and author badges"
+    },
+    {
+      "time": "3:07",
+      "title": "Time zone maps"
+    },
+    {
+      "time": "3:38",
+      "title": "Bulk import and export"
+    },
+    {
+      "time": "4:17",
+      "title": "Local Do Not Call registry"
+    },
+    {
+      "time": "4:46",
+      "title": "Check imports against a DNC list"
+    }
+  ],
+  "links": [
+    {
+      "label": "Administration user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/roles"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "f1en3LF024s",
+    "url": "https://youtu.be/f1en3LF024s",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/content-access-control.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/content-fields.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/do-not-call-lists.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/import-and-export.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/roles.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/time-zones.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/users.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/content-access-control.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/content-fields.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/content-transfer.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/dnc-registry.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/roles.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/time-zones.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/modules/users.md"
+  ],
+  "length": "5:14",
+  "produced": "2026-10-16"
+}

@@ -1,0 +1,114 @@
+{
+  "title": "Tenant Hierarchy: Parent Tenants That Create and Open Their Own Sites | CrestApps for Orchard Core",
+  "description": "The CrestApps Tenant Hierarchy lets one Orchard Core tenant create and run its own child tenants, and lets its people open them without signing in again.\n\nMany organizations run a separate site for each customer they serve. With plain multi-tenancy only the platform administrator can create those sites, staff need an account on every one, and nothing ties what they do back to the person who did it. The Tenant Hierarchy makes such an organization a parent: it creates and runs its own child tenants, its people open them without a password, and every tenant stays isolated.\n\nIn this video:\n• The problem it solves, and how platform, parents and child tenants are organized\n• Making a tenant a parent, and its policy\n• Adding, opening and managing child tenants\n• Access rules, the activity in the audit trail, and the platform's oversight\n• How it stays secure, and setting it up in code",
+  "hashtags": [
+    "OrchardCore",
+    "MultiTenancy",
+    "SaaS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "multi-tenancy",
+    "multitenant",
+    "SaaS",
+    "tenant management",
+    "single sign-on",
+    "audit trail",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "The problem it solves"
+    },
+    {
+      "time": "0:51",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:49",
+      "title": "Make a tenant a parent"
+    },
+    {
+      "time": "3:15",
+      "title": "Add a child tenant"
+    },
+    {
+      "time": "3:47",
+      "title": "Open a child tenant"
+    },
+    {
+      "time": "4:30",
+      "title": "Manage a child tenant"
+    },
+    {
+      "time": "5:24",
+      "title": "Access rules"
+    },
+    {
+      "time": "6:06",
+      "title": "Activity"
+    },
+    {
+      "time": "6:37",
+      "title": "The platform's oversight"
+    },
+    {
+      "time": "7:04",
+      "title": "How it stays secure"
+    },
+    {
+      "time": "7:57",
+      "title": "Set it up in code"
+    },
+    {
+      "time": "8:40",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/tenant-hierarchy"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/tenant-hierarchy"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "eL-gcGqRWxw",
+    "url": "https://youtu.be/eL-gcGqRWxw",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "pullRequest": 818,
+    "feature": "CrestApps.OrchardCore.TenantHierarchy"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/modules/tenant-hierarchy.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/child-tenants.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/tenant-hierarchy.md"
+  ],
+  "length": "8:53",
+  "produced": "2026-10-10"
+}

@@ -1,0 +1,186 @@
+{
+  "output": "contact-center-agent-walkthroughs",
+  "title": "Contact Center agent walkthroughs",
+  "subtitle": "CrestApps for Orchard Core",
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "ref": "ef4a3177a444a0232c400cc1082b158d1fc2bb29"
+  },
+  "chapters": [
+    {
+      "title": "The agent workspace",
+      "file": "src/CrestApps.Docs/static/img/docs/um-agent-workspace.mp4",
+      "start": 7,
+      "end": 33
+    },
+    {
+      "title": "Sign in to your work",
+      "file": "src/CrestApps.Docs/static/img/docs/um-agent-signin.mp4",
+      "start": 36,
+      "end": 62
+    },
+    {
+      "title": "The docked agent bar",
+      "file": "src/CrestApps.Docs/static/img/docs/um-agent-bar.mp4",
+      "start": 65,
+      "end": 78
+    },
+    {
+      "title": "The soft phone window",
+      "file": "src/CrestApps.Docs/static/img/docs/um-softphone-page.mp4",
+      "start": 81,
+      "end": 104
+    },
+    {
+      "title": "Dial from the keypad",
+      "file": "src/CrestApps.Docs/static/img/docs/um-manual-dial.mp4",
+      "start": 107,
+      "end": 127
+    },
+    {
+      "title": "Answer a queued call",
+      "file": "src/CrestApps.Docs/static/img/docs/um-answer-queue.mp4",
+      "start": 130,
+      "end": 169
+    },
+    {
+      "title": "During a call",
+      "file": "src/CrestApps.Docs/static/img/docs/um-preview-dial.mp4",
+      "start": 172,
+      "end": 222,
+      "redact": {
+        "pixelate": "m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350"
+      }
+    },
+    {
+      "title": "A power-dial call",
+      "file": "src/CrestApps.Docs/static/img/docs/um-power-dial.mp4",
+      "start": 225,
+      "end": 263,
+      "redact": {
+        "pixelate": "m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350"
+      }
+    },
+    {
+      "title": "Your voicemail greeting",
+      "file": "src/CrestApps.Docs/static/img/docs/um-voicemail-greeting.mp4",
+      "start": 266,
+      "end": 285
+    },
+    {
+      "title": "Shared voicemail",
+      "file": "src/CrestApps.Docs/static/img/docs/um-shared-voicemail.mp4",
+      "start": 288,
+      "end": 322
+    },
+    {
+      "title": "Contacts",
+      "file": "src/CrestApps.Docs/static/img/docs/um-contacts.mp4",
+      "start": 325,
+      "end": 370
+    },
+    {
+      "title": "Import and export contacts",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-contact-import-export.mp4",
+      "start": 373,
+      "end": 421
+    },
+    {
+      "title": "Activities from a contact",
+      "file": "src/CrestApps.Docs/static/img/docs/um-contact-activities.mp4",
+      "start": 424,
+      "end": 475,
+      "redact": {
+        "pixelate": "jordan|rivera—|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan Rivera": "John Smith",
+          "Jordan": "John"
+        }
+      }
+    },
+    {
+      "title": "A call from a new caller",
+      "file": "src/CrestApps.Docs/static/img/docs/um-inbound-new-contact.mp4",
+      "start": 478,
+      "end": 529
+    },
+    {
+      "title": "Complete an activity",
+      "file": "src/CrestApps.Docs/static/img/docs/um-complete-activity.mp4",
+      "start": 532,
+      "end": 555
+    },
+    {
+      "title": "The messaging inbox",
+      "file": "src/CrestApps.Docs/static/img/docs/um-messaging-inbox.mp4",
+      "start": 558,
+      "end": 586,
+      "redact": {
+        "pixelate": "jordan|rivera—|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan Rivera": "John Smith",
+          "Jordan": "John"
+        }
+      }
+    },
+    {
+      "title": "Claim, close and reopen",
+      "file": "src/CrestApps.Docs/static/img/docs/um-messaging-actions.mp4",
+      "start": 589,
+      "end": 613,
+      "redact": {
+        "pixelate": "jordan|rivera—|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan Rivera": "John Smith",
+          "Jordan": "John"
+        }
+      }
+    },
+    {
+      "title": "Send a new text",
+      "file": "src/CrestApps.Docs/static/img/docs/um-messaging-send.mp4",
+      "start": 616,
+      "end": 639,
+      "redact": {
+        "pixelate": "m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350|haneen|amani|suzan|areen|jaylen|\\bjace\\b"
+      }
+    },
+    {
+      "title": "Templates and broadcasts",
+      "file": "src/CrestApps.Docs/static/img/docs/um-messaging-templates-broadcasts.mp4",
+      "start": 642,
+      "end": 692
+    },
+    {
+      "title": "Review an AI conversation",
+      "file": "src/CrestApps.Docs/static/img/docs/um-review-ai.mp4",
+      "start": 695,
+      "end": 717,
+      "redact": {
+        "pixelate": "jordan|rivera—|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan Rivera": "John Smith",
+          "Jordan": "John"
+        }
+      }
+    },
+    {
+      "title": "Manage activities in bulk",
+      "file": "src/CrestApps.Docs/static/img/docs/um-manage-activities.mp4",
+      "start": 720,
+      "end": 767
+    },
+    {
+      "title": "The live dashboard",
+      "file": "src/CrestApps.Docs/static/img/docs/um-live-dashboard.mp4",
+      "start": 770,
+      "end": 799
+    },
+    {
+      "title": "Reports",
+      "file": "src/CrestApps.Docs/static/img/docs/um-reports.mp4",
+      "start": 802,
+      "end": 833
+    }
+  ]
+}

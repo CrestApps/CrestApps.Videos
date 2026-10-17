@@ -1,0 +1,160 @@
+{
+  "title": "Contact Center Agent Walkthroughs: Calls, Messages and Activities | CrestApps for Orchard Core",
+  "description": "Short, silent walkthroughs of a day in the CrestApps Contact Center for Orchard Core, one screen per chapter: the agent workspace and soft phone, answering and placing calls, voicemail, contacts and activities, the messaging inbox, reviewing an AI conversation, and the supervisor's bulk actions, live dashboard and reports.\n\nThere is no narration: each chapter is the screen recording that the matching page of the CrestApps documentation shows next to its written steps.",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "call center software",
+    "soft phone",
+    "power dialer",
+    "SMS inbox",
+    "CRM",
+    "ASP.NET Core",
+    ".NET"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "unlisted",
+  "playlists": [
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "The agent workspace"
+    },
+    {
+      "time": "0:33",
+      "title": "Sign in to your work"
+    },
+    {
+      "time": "1:02",
+      "title": "The docked agent bar"
+    },
+    {
+      "time": "1:18",
+      "title": "The soft phone window"
+    },
+    {
+      "time": "1:44",
+      "title": "Dial from the keypad"
+    },
+    {
+      "time": "2:07",
+      "title": "Answer a queued call"
+    },
+    {
+      "time": "2:49",
+      "title": "During a call"
+    },
+    {
+      "time": "3:42",
+      "title": "A power-dial call"
+    },
+    {
+      "time": "4:23",
+      "title": "Your voicemail greeting"
+    },
+    {
+      "time": "4:45",
+      "title": "Shared voicemail"
+    },
+    {
+      "time": "5:22",
+      "title": "Contacts"
+    },
+    {
+      "time": "6:10",
+      "title": "Import and export contacts"
+    },
+    {
+      "time": "7:01",
+      "title": "Activities from a contact"
+    },
+    {
+      "time": "7:55",
+      "title": "A call from a new caller"
+    },
+    {
+      "time": "8:49",
+      "title": "Complete an activity"
+    },
+    {
+      "time": "9:15",
+      "title": "The messaging inbox"
+    },
+    {
+      "time": "9:46",
+      "title": "Claim, close and reopen"
+    },
+    {
+      "time": "10:13",
+      "title": "Send a new text"
+    },
+    {
+      "time": "10:39",
+      "title": "Templates and broadcasts"
+    },
+    {
+      "time": "11:32",
+      "title": "Review an AI conversation"
+    },
+    {
+      "time": "11:57",
+      "title": "Manage activities in bulk"
+    },
+    {
+      "time": "12:47",
+      "title": "The live dashboard"
+    },
+    {
+      "time": "13:19",
+      "title": "Reports"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contact Center user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "B6T-s_80exw",
+    "url": "https://youtu.be/B6T-s_80exw",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/activities.md",
+    "src/CrestApps.Docs/docs/user-manual/agent-workspace.md",
+    "src/CrestApps.Docs/docs/user-manual/automated-ai.md",
+    "src/CrestApps.Docs/docs/user-manual/bulk-activities.md",
+    "src/CrestApps.Docs/docs/user-manual/calls.md",
+    "src/CrestApps.Docs/docs/user-manual/contacts.md",
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md",
+    "src/CrestApps.Docs/docs/user-manual/live-dashboard.md",
+    "src/CrestApps.Docs/docs/user-manual/messaging.md",
+    "src/CrestApps.Docs/docs/user-manual/phone-apps.md",
+    "src/CrestApps.Docs/docs/user-manual/reports.md",
+    "src/CrestApps.Docs/docs/user-manual/soft-phone.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/ai-answers-customers.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/outbound-calling-campaign.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/text-your-contacts.md",
+    "src/CrestApps.Docs/docs/user-manual/voicemail.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/omnichannel/management.md"
+  ],
+  "length": "13:57",
+  "produced": "2026-10-16"
+}

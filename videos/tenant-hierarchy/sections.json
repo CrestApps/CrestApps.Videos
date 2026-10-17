@@ -1,0 +1,47 @@
+{
+  "tenant-hierarchy-access": {
+    "title": "Screencast of the access rules: letting everyone with a role open every child tenant, and adding a rule for one person",
+    "start": 324,
+    "end": 367
+  },
+  "tenant-hierarchy-activity": {
+    "title": "Screencast of the activity in the Audit Trail: the tenant hierarchy events, who did each one, and the details of an event",
+    "start": 366,
+    "end": 398
+  },
+  "tenant-hierarchy-create": {
+    "title": "Screencast of adding a child tenant: typing its name, checking its address, picking what it starts from, and watching it go from Setting up to Running",
+    "start": 195,
+    "end": 228
+  },
+  "tenant-hierarchy-manage": {
+    "title": "Screencast of managing a child tenant: its features, suspending and resuming it, removing it, and restoring it while its removal is scheduled",
+    "start": 270,
+    "end": 325
+  },
+  "tenant-hierarchy-open": {
+    "title": "Screencast of opening a child tenant without a password, the building icon that shows where you are, switching to another child tenant and going back",
+    "start": 227,
+    "end": 271
+  },
+  "tenant-hierarchy-oversight": {
+    "title": "Screencast of the platform's Tenant Hierarchy screen: two parents with their child tenants, searching for a parent, and managing one",
+    "start": 397,
+    "end": 425
+  },
+  "tenant-hierarchy-platform": {
+    "title": "Screencast of making a tenant a parent: picking the tenant, setting its policy, and the words its team sees",
+    "start": 109,
+    "end": 196
+  },
+  "tenant-hierarchy-security": {
+    "title": "Screencast of how the tenant hierarchy stays secure: the one-time code with PKCE, linked accounts, the guards between tenants, and cookies and addresses",
+    "start": 424,
+    "end": 478
+  },
+  "tenant-hierarchy-setup": {
+    "title": "Screencast of setting up the tenant hierarchy: AddTenantHierarchy in Program.cs, the TenantHierarchy section of appsettings.json, and a provisioner for another database server",
+    "start": 477,
+    "end": 520
+  }
+}

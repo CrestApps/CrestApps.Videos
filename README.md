@@ -13,7 +13,14 @@ Everything kept here is what's needed to make a video again, or to change how it
 | Video | Length | YouTube | Source |
 | --- | --- | --- | --- |
 | [AI Profile Builder: Train Your AI Assistant by Role-Play and Feedback](videos/ai-profile-builder) | 4:40 | [https://youtu.be/UOKvEY-kID4](https://youtu.be/UOKvEY-kID4) | [CrestApps/CrestApps.OrchardCore#910](https://github.com/CrestApps/CrestApps.OrchardCore/pull/910) |
+| [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
+| [CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices](videos/commerce) | 10:30 | [https://youtu.be/YQHVdIucYgI](https://youtu.be/YQHVdIucYgI) | CrestApps/CrestApps.OrchardCore |
+| [Contact Center Agent Walkthroughs: Calls, Messages and Activities](videos/contact-center-agent-walkthroughs) | 13:57 | [https://youtu.be/B6T-s_80exw](https://youtu.be/B6T-s_80exw) | CrestApps/CrestApps.OrchardCore |
+| [Contact Center Setup Walkthroughs: Numbers, Queues, IVR and Campaigns](videos/contact-center-setup-walkthroughs) | 23:17 | [https://youtu.be/nMQ4AC7VtWA](https://youtu.be/nMQ4AC7VtWA) | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Management 2.0 Walkthroughs](videos/omnichannel-2-walkthroughs) | 6:43 | [https://youtu.be/YPLb7Wf9f-4](https://youtu.be/YPLb7Wf9f-4) | CrestApps/CrestApps.OrchardCore |
 | [Report Builder: Drag-and-Drop Reports Over Your Site's Data](videos/report-builder) | 10:32 | not uploaded | [CrestApps/CrestApps.OrchardCore#814](https://github.com/CrestApps/CrestApps.OrchardCore/pull/814) |
+| [Site Administration Walkthroughs: Fields, Roles, Users and Imports](videos/site-administration-walkthroughs) | 5:14 | [https://youtu.be/f1en3LF024s](https://youtu.be/f1en3LF024s) | CrestApps/CrestApps.OrchardCore |
+| [Tenant Hierarchy: Parent Tenants That Create and Open Their Own Sites](videos/tenant-hierarchy) | 8:53 | [https://youtu.be/eL-gcGqRWxw](https://youtu.be/eL-gcGqRWxw) | [CrestApps/CrestApps.OrchardCore#818](https://github.com/CrestApps/CrestApps.OrchardCore/pull/818) |
 <!-- videos:end -->
 
 This table is generated from each video's `video.json` by `python tools/youtube/youtube.py index`.
@@ -23,13 +30,18 @@ This table is generated from each video's `video.json` by `python tools/youtube/
 | Path | What it is |
 | --- | --- |
 | `videos/<slug>/` | One video: `video.json` (YouTube title, description, tags, chapters, links, id), `storyboard.json` (narration), `slides.py`, `recorder/Scenes*.cs`, `durations.json`, captions, and a README on how to record it again |
+| `videos/*-walkthroughs/` | Reels: the documentation's silent screencasts joined into one video per area, built by `scripts/reel.py` from `reel.json` |
 | `.agents/skills/crestapps-video-producer/` | The skill: the video specification, the narration, recording and assembly scripts, and the shared recorder |
 | `branding/` | The CrestApps logo and the Inter font every video uses |
 | `tools/youtube/` | Uploads a video, pushes `video.json` changes, computes chapters, and writes the table above |
 | `.github/workflows/publish-video.yml` | Publishing a release uploads its video and opens the docs pull request |
 | `.github/workflows/youtube-metadata.yml` | Pushes a changed `video.json` to YouTube when it is merged |
+| `CONTRIBUTING.md` | How to submit a video, how it is published, and the one-time setup |
 
 ## Making a video
+
+**To submit a video, read [CONTRIBUTING.md](CONTRIBUTING.md)**: what a pull request holds, how a video is published
+to YouTube, how the documentation pull request follows, and the one-time setup of the secrets.
 
 Follow `.agents/skills/crestapps-video-producer/SKILL.md`. In short:
 

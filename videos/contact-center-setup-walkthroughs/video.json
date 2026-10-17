@@ -1,0 +1,188 @@
+{
+  "title": "Contact Center Setup Walkthroughs: Numbers, Queues, IVR and Campaigns | CrestApps for Orchard Core",
+  "description": "Short, silent walkthroughs of setting up the CrestApps Contact Center for Orchard Core, one screen per chapter: phone and SMS providers, numbers and extensions, business hours, queues, skills, entry points and IVR menus, subjects and their flows, campaigns, dialer profiles, cadences, activity loads and workflows.\n\nThere is no narration: each chapter is the screen recording that the matching page of the CrestApps documentation shows next to its written steps.",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "call center software",
+    "IVR",
+    "dialer",
+    "SMS",
+    "CRM",
+    "ASP.NET Core",
+    ".NET"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "unlisted",
+  "playlists": [
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Find your way around"
+    },
+    {
+      "time": "0:35",
+      "title": "Phone and SMS providers"
+    },
+    {
+      "time": "1:12",
+      "title": "Contact Center settings"
+    },
+    {
+      "time": "1:52",
+      "title": "Add a phone number"
+    },
+    {
+      "time": "2:45",
+      "title": "Extensions"
+    },
+    {
+      "time": "3:11",
+      "title": "Voice media"
+    },
+    {
+      "time": "3:38",
+      "title": "Business hours"
+    },
+    {
+      "time": "4:14",
+      "title": "Queues"
+    },
+    {
+      "time": "5:40",
+      "title": "Skills and entitlements"
+    },
+    {
+      "time": "6:29",
+      "title": "Agent state reasons"
+    },
+    {
+      "time": "6:57",
+      "title": "A voice entry point"
+    },
+    {
+      "time": "7:53",
+      "title": "A text entry point"
+    },
+    {
+      "time": "8:42",
+      "title": "An IVR menu"
+    },
+    {
+      "time": "9:24",
+      "title": "Dispositions"
+    },
+    {
+      "time": "10:09",
+      "title": "The contact type"
+    },
+    {
+      "time": "10:56",
+      "title": "An inbound subject"
+    },
+    {
+      "time": "11:53",
+      "title": "An outbound subject"
+    },
+    {
+      "time": "12:49",
+      "title": "An inbound subject flow"
+    },
+    {
+      "time": "13:41",
+      "title": "An outbound subject flow"
+    },
+    {
+      "time": "15:03",
+      "title": "Disposition actions"
+    },
+    {
+      "time": "15:57",
+      "title": "Campaigns"
+    },
+    {
+      "time": "16:38",
+      "title": "Dialer profiles"
+    },
+    {
+      "time": "17:47",
+      "title": "Cadences"
+    },
+    {
+      "time": "18:27",
+      "title": "A manual activity load"
+    },
+    {
+      "time": "19:38",
+      "title": "A dialer activity load"
+    },
+    {
+      "time": "20:28",
+      "title": "An AI text message load"
+    },
+    {
+      "time": "21:30",
+      "title": "An AI voice call load"
+    },
+    {
+      "time": "22:28",
+      "title": "Contact Center workflows"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contact Center user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "nMQ4AC7VtWA",
+    "url": "https://youtu.be/nMQ4AC7VtWA",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/agent-states.md",
+    "src/CrestApps.Docs/docs/user-manual/automated-ai.md",
+    "src/CrestApps.Docs/docs/user-manual/business-hours.md",
+    "src/CrestApps.Docs/docs/user-manual/cadences.md",
+    "src/CrestApps.Docs/docs/user-manual/campaigns.md",
+    "src/CrestApps.Docs/docs/user-manual/channel-endpoints.md",
+    "src/CrestApps.Docs/docs/user-manual/contact-center-settings.md",
+    "src/CrestApps.Docs/docs/user-manual/contacts.md",
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md",
+    "src/CrestApps.Docs/docs/user-manual/dispositions.md",
+    "src/CrestApps.Docs/docs/user-manual/entry-points-and-ivr.md",
+    "src/CrestApps.Docs/docs/user-manual/extensions.md",
+    "src/CrestApps.Docs/docs/user-manual/getting-started/finding-your-way.md",
+    "src/CrestApps.Docs/docs/user-manual/index.md",
+    "src/CrestApps.Docs/docs/user-manual/load-inventory.md",
+    "src/CrestApps.Docs/docs/user-manual/queues.md",
+    "src/CrestApps.Docs/docs/user-manual/skills-and-entitlements.md",
+    "src/CrestApps.Docs/docs/user-manual/subject-flows.md",
+    "src/CrestApps.Docs/docs/user-manual/subjects.md",
+    "src/CrestApps.Docs/docs/user-manual/telephony-settings.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/automatic-follow-ups.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/inbound-call-center.md",
+    "src/CrestApps.Docs/docs/user-manual/voice-media.md",
+    "src/CrestApps.Docs/docs/user-manual/workflows.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/omnichannel/management.md"
+  ],
+  "length": "23:17",
+  "produced": "2026-10-16"
+}

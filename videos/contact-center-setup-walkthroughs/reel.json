@@ -1,0 +1,179 @@
+{
+  "output": "contact-center-setup-walkthroughs",
+  "title": "Contact Center setup walkthroughs",
+  "subtitle": "CrestApps for Orchard Core",
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "ref": "ef4a3177a444a0232c400cc1082b158d1fc2bb29"
+  },
+  "chapters": [
+    {
+      "title": "Find your way around",
+      "file": "src/CrestApps.Docs/static/img/docs/um-tour.mp4",
+      "start": 7,
+      "end": 35
+    },
+    {
+      "title": "Phone and SMS providers",
+      "file": "src/CrestApps.Docs/static/img/docs/um-telephony-settings.mp4",
+      "start": 38,
+      "end": 72
+    },
+    {
+      "title": "Contact Center settings",
+      "file": "src/CrestApps.Docs/static/img/docs/um-cc-settings.mp4",
+      "start": 75,
+      "end": 112
+    },
+    {
+      "title": "Add a phone number",
+      "file": "src/CrestApps.Docs/static/img/docs/um-channel-endpoints.mp4",
+      "start": 115,
+      "end": 165
+    },
+    {
+      "title": "Extensions",
+      "file": "src/CrestApps.Docs/static/img/docs/um-extensions.mp4",
+      "start": 168,
+      "end": 191
+    },
+    {
+      "title": "Voice media",
+      "file": "src/CrestApps.Docs/static/img/docs/um-voice-media.mp4",
+      "start": 194,
+      "end": 218
+    },
+    {
+      "title": "Business hours",
+      "file": "src/CrestApps.Docs/static/img/docs/um-business-hours.mp4",
+      "start": 221,
+      "end": 254
+    },
+    {
+      "title": "Queues",
+      "file": "src/CrestApps.Docs/static/img/docs/um-queues.mp4",
+      "start": 257,
+      "end": 340
+    },
+    {
+      "title": "Skills and entitlements",
+      "file": "src/CrestApps.Docs/static/img/docs/um-skills-entitlements.mp4",
+      "start": 343,
+      "end": 389
+    },
+    {
+      "title": "Agent state reasons",
+      "file": "src/CrestApps.Docs/static/img/docs/um-agent-states.mp4",
+      "start": 392,
+      "end": 417
+    },
+    {
+      "title": "A voice entry point",
+      "file": "src/CrestApps.Docs/static/img/docs/um-entry-point.mp4",
+      "start": 420,
+      "end": 473
+    },
+    {
+      "title": "A text entry point",
+      "file": "src/CrestApps.Docs/static/img/docs/um-entry-point-texts.mp4",
+      "start": 476,
+      "end": 522
+    },
+    {
+      "title": "An IVR menu",
+      "file": "src/CrestApps.Docs/static/img/docs/um-ivr-menu.mp4",
+      "start": 525,
+      "end": 564
+    },
+    {
+      "title": "Dispositions",
+      "file": "src/CrestApps.Docs/static/img/docs/um-dispositions.mp4",
+      "start": 567,
+      "end": 609
+    },
+    {
+      "title": "The contact type",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-contact-type.mp4",
+      "start": 612,
+      "end": 656
+    },
+    {
+      "title": "An inbound subject",
+      "file": "src/CrestApps.Docs/static/img/docs/um-subject-inbound.mp4",
+      "start": 659,
+      "end": 713
+    },
+    {
+      "title": "An outbound subject",
+      "file": "src/CrestApps.Docs/static/img/docs/um-subject-outbound.mp4",
+      "start": 716,
+      "end": 769
+    },
+    {
+      "title": "An inbound subject flow",
+      "file": "src/CrestApps.Docs/static/img/docs/um-flow-inbound.mp4",
+      "start": 772,
+      "end": 821
+    },
+    {
+      "title": "An outbound subject flow",
+      "file": "src/CrestApps.Docs/static/img/docs/um-flow-outbound.mp4",
+      "start": 824,
+      "end": 903
+    },
+    {
+      "title": "Disposition actions",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-subject-flow.mp4",
+      "start": 906,
+      "end": 957
+    },
+    {
+      "title": "Campaigns",
+      "file": "src/CrestApps.Docs/static/img/docs/um-campaigns.mp4",
+      "start": 960,
+      "end": 998
+    },
+    {
+      "title": "Dialer profiles",
+      "file": "src/CrestApps.Docs/static/img/docs/um-dialer-profiles.mp4",
+      "start": 1001,
+      "end": 1067
+    },
+    {
+      "title": "Cadences",
+      "file": "src/CrestApps.Docs/static/img/docs/um-cadences.mp4",
+      "start": 1070,
+      "end": 1107
+    },
+    {
+      "title": "A manual activity load",
+      "file": "src/CrestApps.Docs/static/img/docs/um-load-manual.mp4",
+      "start": 1110,
+      "end": 1178
+    },
+    {
+      "title": "A dialer activity load",
+      "file": "src/CrestApps.Docs/static/img/docs/um-load-dialer.mp4",
+      "start": 1181,
+      "end": 1228
+    },
+    {
+      "title": "An AI text message load",
+      "file": "src/CrestApps.Docs/static/img/docs/um-load-ai-sms.mp4",
+      "start": 1231,
+      "end": 1290
+    },
+    {
+      "title": "An AI voice call load",
+      "file": "src/CrestApps.Docs/static/img/docs/um-load-ai-voice.mp4",
+      "start": 1293,
+      "end": 1348
+    },
+    {
+      "title": "Contact Center workflows",
+      "file": "src/CrestApps.Docs/static/img/docs/um-cc-workflows.mp4",
+      "start": 1351,
+      "end": 1393
+    }
+  ]
+}

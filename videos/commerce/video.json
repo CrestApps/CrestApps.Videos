@@ -1,0 +1,138 @@
+{
+  "title": "CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices | CrestApps for Orchard Core",
+  "description": "The CrestApps Commerce modules let an Orchard Core site take payments: sell subscriptions online, set up payment plans for your customers, send invoices and receipts, and keep track of every payment.\n\nEvery payment goes through one checkout, whether a visitor buys a plan, a customer pays an invoice, or a saved card is charged on schedule, and every amount owed is a transaction, so there is one record of what each customer owes and has paid.\n\nIn this video:\n• How the checkout, payment providers, transactions and the selling modules fit together\n• Connecting Stripe, and coupons\n• Selling plans with Subscriptions, and whole websites with Subscriptions Sites\n• Installment plans: the down payment, Charge now and cancelling\n• Transactions, reminders, invoices with a pay link, payments and refunds\n• Settings, recipes, and extending the modules in code",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "Payments",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "ecommerce",
+    "payments",
+    "Stripe",
+    "subscriptions",
+    "payment plans",
+    "installments",
+    "invoices",
+    "refunds",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:22",
+      "title": "One checkout for every payment"
+    },
+    {
+      "time": "0:56",
+      "title": "How the modules fit together"
+    },
+    {
+      "time": "1:40",
+      "title": "Connect Stripe"
+    },
+    {
+      "time": "2:10",
+      "title": "Coupons"
+    },
+    {
+      "time": "2:40",
+      "title": "Subscriptions"
+    },
+    {
+      "time": "3:51",
+      "title": "Sell a website"
+    },
+    {
+      "time": "5:04",
+      "title": "Installment plans"
+    },
+    {
+      "time": "6:02",
+      "title": "Manage installment plans"
+    },
+    {
+      "time": "6:48",
+      "title": "Transactions and reminders"
+    },
+    {
+      "time": "7:32",
+      "title": "Invoices and receipts"
+    },
+    {
+      "time": "8:20",
+      "title": "Payments and refunds"
+    },
+    {
+      "time": "8:54",
+      "title": "Settings and recipes"
+    },
+    {
+      "time": "9:25",
+      "title": "For developers"
+    },
+    {
+      "time": "10:16",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/commerce"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "YQHVdIucYgI",
+    "url": "https://youtu.be/YQHVdIucYgI",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Commerce"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/modules/checkout.md",
+    "src/CrestApps.Docs/docs/modules/commerce.md",
+    "src/CrestApps.Docs/docs/modules/installment-plans.md",
+    "src/CrestApps.Docs/docs/modules/payments.md",
+    "src/CrestApps.Docs/docs/modules/subscriptions.md",
+    "src/CrestApps.Docs/docs/modules/transactions.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/checkout.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/coupons.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/index.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/installment-plans.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/invoices-and-receipts.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/payment-providers.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/payments-and-refunds.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/sites.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/subscriptions.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/transactions.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/sell-on-a-payment-plan.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/sell-subscriptions-online.md"
+  ],
+  "length": "10:30",
+  "produced": "2026-10-12"
+}

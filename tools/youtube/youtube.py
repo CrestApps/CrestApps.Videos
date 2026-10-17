@@ -66,11 +66,37 @@ def default_file(slug, name):
     return str(path) if path.exists() else None
 
 
+def to_seconds(stamp):
+    seconds = 0
+    for part in stamp.split(":"):
+        seconds = seconds * 60 + int(part)
+    return seconds
+
+
+def check_chapters(video):
+    """YouTube shows a video's chapters only when there are at least three, the first at 0:00, and each is at least
+    10 seconds long; otherwise it silently shows none."""
+    chapters = video["chapters"]
+    times = [to_seconds(chapter["time"]) for chapter in chapters]
+
+    if len(chapters) < 3 or times[0] != 0:
+        raise SystemExit("YouTube needs at least three chapters, the first at 0:00.")
+
+    if video.get("length"):
+        times.append(to_seconds(video["length"]))
+
+    short = [chapters[i]["title"] for i in range(len(times) - 1) if times[i + 1] - times[i] < 10]
+
+    if short:
+        raise SystemExit(f"YouTube shows no chapters when one is shorter than 10 seconds: {', '.join(short)}. Merge it into the chapter before it.")
+
+
 def description(video):
     """The description YouTube shows: the text, then the chapters, the links and the hashtags."""
     parts = [video["description"].strip()]
 
     if video.get("chapters"):
+        check_chapters(video)
         parts.append("Chapters:\n" + "\n".join(f'{c["time"]} {c["title"]}' for c in video["chapters"]))
 
     if video.get("links"):

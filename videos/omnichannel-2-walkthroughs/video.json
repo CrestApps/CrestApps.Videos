@@ -1,0 +1,85 @@
+{
+  "title": "Omnichannel Management 2.0 Walkthroughs | CrestApps for Orchard Core",
+  "description": "Short, silent walkthroughs of CrestApps Omnichannel Management 2.0 for Orchard Core, one screen per chapter: enabling the feature, automatic and manual inventory loads, a lead-generation subject, dispositions, inbound calls, completing activities, and reassigning them in bulk. These show version 2.0; later versions are covered by the Contact Center walkthroughs.\n\nThere is no narration: each chapter is the screen recording that the matching page of the CrestApps documentation shows next to its written steps.",
+  "hashtags": [
+    "OrchardCore",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "omnichannel",
+    "CRM",
+    "call center software",
+    "ASP.NET Core",
+    ".NET"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "unlisted",
+  "playlists": [
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Enable Omnichannel Management"
+    },
+    {
+      "time": "0:40",
+      "title": "An automatic AI SMS load"
+    },
+    {
+      "time": "1:21",
+      "title": "A lead-generation subject"
+    },
+    {
+      "time": "1:41",
+      "title": "Dispositions"
+    },
+    {
+      "time": "2:33",
+      "title": "A manual inventory load"
+    },
+    {
+      "time": "3:06",
+      "title": "Complete activities"
+    },
+    {
+      "time": "4:03",
+      "title": "An inbound call from a contact"
+    },
+    {
+      "time": "5:07",
+      "title": "A call from a new caller"
+    },
+    {
+      "time": "6:18",
+      "title": "Reassign activities in bulk"
+    }
+  ],
+  "links": [
+    {
+      "label": "Omnichannel Management 2.0 guide",
+      "url": "https://orchardcore.crestapps.com/docs/2.0/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "YPLb7Wf9f-4",
+    "url": "https://youtu.be/YPLb7Wf9f-4",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/omnichannel/management.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/omnichannel/management.md"
+  ],
+  "length": "6:43",
+  "produced": "2026-10-16"
+}

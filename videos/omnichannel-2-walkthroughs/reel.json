@@ -1,0 +1,109 @@
+{
+  "output": "omnichannel-2-walkthroughs",
+  "title": "Omnichannel 2.0 walkthroughs",
+  "subtitle": "CrestApps for Orchard Core",
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "ref": "ef4a3177a444a0232c400cc1082b158d1fc2bb29"
+  },
+  "chapters": [
+    {
+      "title": "Enable Omnichannel Management",
+      "file": "src/CrestApps.Docs/static/img/docs/omnichannel-management.mp4",
+      "start": 7,
+      "end": 40
+    },
+    {
+      "title": "An automatic AI SMS load",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-load-automated-sms.mp4",
+      "ref": "d24a96442577d8f14e0904a867cb845cd8b7185d",
+      "start": 43,
+      "end": 81
+    },
+    {
+      "title": "A lead-generation subject",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-subject-leadgen.mp4",
+      "start": 84,
+      "end": 101
+    },
+    {
+      "title": "Dispositions",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-dispositions.mp4",
+      "start": 104,
+      "end": 153,
+      "redact": {
+        "pixelate": "jordan|rivera|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan": "John",
+          "Rivera": "Smith"
+        }
+      }
+    },
+    {
+      "title": "A manual inventory load",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-load-inventory-manual.mp4",
+      "ref": "d24a96442577d8f14e0904a867cb845cd8b7185d",
+      "start": 156,
+      "end": 186,
+      "redact": {
+        "pixelate": "jordan|rivera|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan": "John",
+          "Rivera": "Smith"
+        }
+      }
+    },
+    {
+      "title": "Complete activities",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-agent-activities.mp4",
+      "start": 189,
+      "end": 243,
+      "redact": {
+        "pixelate": "jordan|rivera|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan": "John",
+          "Rivera": "Smith"
+        }
+      }
+    },
+    {
+      "title": "An inbound call from a contact",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-inbound-existing.mp4",
+      "start": 246,
+      "end": 307,
+      "redact": {
+        "pixelate": "jordan|rivera|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan": "John",
+          "Rivera": "Smith"
+        }
+      }
+    },
+    {
+      "title": "A call from a new caller",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-inbound-new-contact.mp4",
+      "start": 310,
+      "end": 378,
+      "redact": {
+        "pixelate": "jordan|rivera|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan": "John",
+          "Rivera": "Smith"
+        }
+      }
+    },
+    {
+      "title": "Reassign activities in bulk",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-manager-redistribute.mp4",
+      "start": 381,
+      "end": 399,
+      "redact": {
+        "pixelate": "jordan|rivera|m[il1|]ke|hayek|@crestapps|checkbox|majd|amjad|deme|778.?901|901.?2046|499.?3350",
+        "replace": {
+          "Jordan": "John",
+          "Rivera": "Smith"
+        }
+      }
+    }
+  ]
+}

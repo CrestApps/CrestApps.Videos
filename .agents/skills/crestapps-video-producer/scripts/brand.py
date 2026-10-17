@@ -116,14 +116,26 @@ def header(image, chapter_title, label=None):
         draw.text((right - width / 2, 47), text, font=label_font, fill=ON_ACCENT, anchor="mm")
 
 
-def frame(chapter_title, label=None):
-    """The frame a recording is laid over: the header, and a shadowed amber border around the recording."""
+def video_box(size=None):
+    """Where a recording goes: the full recording area, or, for a recording of another shape (size: its width and
+    height), the largest box of that shape centered in it."""
+    if not size:
+        return VIDEO_X, VIDEO_Y, VIDEO_W, VIDEO_H
+    scale = min(VIDEO_W / size[0], VIDEO_H / size[1])
+    width, height = int(size[0] * scale) // 2 * 2, int(size[1] * scale) // 2 * 2
+    return VIDEO_X + (VIDEO_W - width) // 2, VIDEO_Y + (VIDEO_H - height) // 2, width, height
+
+
+def frame(chapter_title, label=None, size=None):
+    """The frame a recording is laid over: the header, and a shadowed amber border around the recording. size: the
+    recording's width and height, when it isn't 16:9 (see video_box)."""
+    x, y, width, height = video_box(size)
     image = background()
     header(image, chapter_title, label)
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(shadow).rounded_rectangle((VIDEO_X - 4, VIDEO_Y - 2, VIDEO_X + VIDEO_W + 4, VIDEO_Y + VIDEO_H + 8), radius=10, fill=(0, 0, 0, 170))
+    ImageDraw.Draw(shadow).rounded_rectangle((x - 4, y - 2, x + width + 4, y + height + 8), radius=10, fill=(0, 0, 0, 170))
     image = Image.alpha_composite(image.convert("RGBA"), shadow.filter(ImageFilter.GaussianBlur(10))).convert("RGB")
-    ImageDraw.Draw(image).rounded_rectangle((VIDEO_X - 3, VIDEO_Y - 3, VIDEO_X + VIDEO_W + 2, VIDEO_Y + VIDEO_H + 2), radius=8, outline=ACCENT, width=3)
+    ImageDraw.Draw(image).rounded_rectangle((x - 3, y - 3, x + width + 2, y + height + 2), radius=8, outline=ACCENT, width=3)
     return image
 
 

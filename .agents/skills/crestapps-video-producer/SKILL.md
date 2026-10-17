@@ -132,10 +132,37 @@ python tools/youtube/youtube.py chapters <slug> --build videos/<slug>/build
 prints the length and size. Don't raise the CRF to make a file smaller: it blurs small text. Extract a few frames with
 ffmpeg and look at them: a recording, a slide, and a card. `chapters` writes the chapter times into `video.json`.
 
+### Reels: screencasts without narration
+
+Silent screencasts that already exist (the walkthroughs the documentation used to carry) aren't narrated again: they
+are joined into a **reel**, one video per area with one chapter per screencast, in the same look (cards, frame,
+encode). `reel.json` lists the screencasts by their path in a source repository at a fixed commit, so the reel can be
+built again after the files are gone from that repository:
+
+```bash
+python .agents/skills/crestapps-video-producer/scripts/reel.py videos/<slug> [--source <local clone>]
+```
+
+It writes `<slug>.mp4`, `thumbnail.jpg`, the chapters and length into `video.json`, and each screencast's `start` and
+`end` (whole seconds: every screencast starts and ends on one) into `reel.json`, for the documentation's
+`<YouTube video="<slug>" start={...} end={...} />`. Reels are `unlisted`, in the "CrestApps User Manual" playlist: they back the documentation pages rather
+than stand on the channel. `videos/ai-walkthroughs/` is an example.
+
+YouTube shows chapters only when there are at least three, the first at `0:00`, and each is at least 10 seconds long;
+otherwise it shows none. `reel.py` folds the opening and closing cards into the first and last chapters for that reason.
+
 ### 6. Check for private data
 
-Before publishing, OCR the video at one frame per second and search the text for real names, email addresses, phone
-numbers and tokens. Fix the site or the mask, and record again; never publish a video that shows real data.
+Before publishing, OCR the video at one frame per second **and at every scene change** (ffmpeg
+`select='gt(scene,0.02)'`), then at 5 frames per second, and search the text for real names, email addresses, phone
+numbers and tokens. One frame per second misses a flash: a page that shows real names for a moment before its mask
+applies. Fix the site or the mask, and record again; never publish a video that shows real data.
+
+When recording again isn't possible (the screencasts a reel reuses), `scripts/redact.py` hides the words instead. It
+OCRs every frame (Windows OCR), pixelates what matches `--pixelate`, and paints a fake name over a real one with
+`--replace "Jordan Rivera=John Smith"`, in the original's size, color and weight. Use `--ocr-scale 2` for small
+text. In a reel, give the chapter a `"redact"` spec so every rebuild applies it, then scan the result again: OCR can
+miss a word on some frames, so redaction usually takes two or three passes.
 
 ### 7. Publish
 
