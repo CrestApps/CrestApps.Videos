@@ -112,8 +112,20 @@
     "feature": "CrestApps.OrchardCore.Reports.Builder"
   },
   "embeddedIn": [
+    "src/CrestApps.Docs/docs/modules/report-builder/custom-data-sources.md",
     "src/CrestApps.Docs/docs/modules/report-builder/index.md",
-    "src/CrestApps.Docs/docs/user-manual/report-builder/index.md"
+    "src/CrestApps.Docs/docs/user-manual/report-builder/build-a-report.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/columns-and-formulas.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/data-sources.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/filters.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/getting-started.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/index.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/joins.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/kinds-of-reports.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/publish-and-versions.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/share-and-run.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/views.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/visuals.md"
   ],
   "length": "10:32",
   "produced": "2026-10-09"
