@@ -1,0 +1,123 @@
+{
+  "output": "ai-walkthroughs",
+  "title": "AI walkthroughs",
+  "subtitle": "CrestApps for Orchard Core",
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "ref": "ef4a3177a444a0232c400cc1082b158d1fc2bb29"
+  },
+  "chapters": [
+    {
+      "title": "AI features at a glance",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-overview.mp4",
+      "start": 7,
+      "end": 23
+    },
+    {
+      "title": "Connect Azure OpenAI",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-provider-azure-openai.mp4",
+      "start": 26,
+      "end": 43
+    },
+    {
+      "title": "Create a chat profile",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-chat.mp4",
+      "start": 46,
+      "end": 75
+    },
+    {
+      "title": "The admin chat",
+      "file": "src/CrestApps.Docs/static/img/docs/admin-ui-sample.mp4",
+      "start": 78,
+      "end": 98
+    },
+    {
+      "title": "Start a chat interaction",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-chat-interactions.mp4",
+      "start": 101,
+      "end": 130
+    },
+    {
+      "title": "Ask about a PDF",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-chat-attachments-pdf.mp4",
+      "start": 133,
+      "end": 201
+    },
+    {
+      "title": "Profile templates",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-profile-templates.mp4",
+      "start": 204,
+      "end": 226
+    },
+    {
+      "title": "Prompt templates",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-prompt-templates.mp4",
+      "start": 229,
+      "end": 257
+    },
+    {
+      "title": "Answer from your content",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-elasticsearch-datasource.mp4",
+      "start": 260,
+      "end": 351
+    },
+    {
+      "title": "Tool instances",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-tool-instances.mp4",
+      "start": 354,
+      "end": 385
+    },
+    {
+      "title": "AI agents",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-agent.mp4",
+      "start": 388,
+      "end": 422
+    },
+    {
+      "title": "MCP tools in the chat",
+      "file": "src/CrestApps.Docs/static/img/docs/mcp-integration.mp4",
+      "start": 425,
+      "end": 500,
+      "redact": {
+        "pixelate": "{private}",
+        "ocrScale": 2,
+        "boxes": [
+          {
+            "rect": [
+              698,
+              354,
+              82,
+              34
+            ],
+            "from": 51,
+            "to": 54
+          }
+        ]
+      }
+    },
+    {
+      "title": "The admin chat widget",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-admin-widget.mp4",
+      "start": 503,
+      "end": 574
+    },
+    {
+      "title": "A chat box on your website",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-frontend-widget.mp4",
+      "start": 577,
+      "end": 615
+    },
+    {
+      "title": "AI in workflows",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-workflows.mp4",
+      "start": 618,
+      "end": 656
+    },
+    {
+      "title": "Chat analytics",
+      "file": "src/CrestApps.Docs/static/img/docs/ai-chat-analytics.mp4",
+      "start": 659,
+      "end": 690
+    }
+  ]
+}

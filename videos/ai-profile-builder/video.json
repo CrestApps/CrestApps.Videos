@@ -1,0 +1,90 @@
+{
+  "title": "AI Profile Builder: Train Your AI Assistant by Role-Play and Feedback | CrestApps for Orchard Core",
+  "description": "Writing a system prompt for an AI that texts or calls your customers is guesswork: you try a conversation, edit the prompt, try again, and a fix for one reply can quietly break another.\n\nThe CrestApps AI Profile Builder for Orchard Core turns this around. You play the person the AI will talk to, say what it got wrong, and the AI rewrites its own instructions. It remembers every fix, including the replies you rejected, so later changes don't undo earlier ones. When it behaves the way you want, save the result as an AI profile for automated text messages, calls or chat.\n\nIn this video:\n• Why writing system prompts by hand falls short\n• How the coach rewrites instructions from your feedback\n• Starting a session from an existing AI profile\n• Giving feedback and regenerating a reply\n• Revisions, restore, and replaying earlier feedback to catch regressions\n• Saving the result as an AI profile",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "PromptEngineering",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI profile",
+    "system prompt",
+    "prompt engineering",
+    "AI assistant",
+    "chatbot",
+    "SMS automation",
+    "AI agent",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why the Profile Builder"
+    },
+    {
+      "time": "1:00",
+      "title": "How it works"
+    },
+    {
+      "time": "1:39",
+      "title": "Start a session"
+    },
+    {
+      "time": "2:26",
+      "title": "Role-play and give feedback"
+    },
+    {
+      "time": "3:23",
+      "title": "Revisions and replay"
+    },
+    {
+      "time": "3:57",
+      "title": "Save the result"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/profile-builder"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/profile-builder"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "UOKvEY-kID4",
+    "url": "https://youtu.be/UOKvEY-kID4",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "pullRequest": 910,
+    "feature": "CrestApps.OrchardCore.AI.Chat.Interactions.ProfileBuilder"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/ai/profile-builder.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/profile-builder.md"
+  ],
+  "length": "4:40",
+  "produced": "2026-10-16"
+}

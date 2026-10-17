@@ -1,0 +1,147 @@
+{
+  "title": "AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets | CrestApps for Orchard Core",
+  "description": "Short, silent walkthroughs of the CrestApps AI modules for Orchard Core, one screen per chapter: connecting a provider, chat profiles, chat interactions and documents, templates, knowledge from your content, tools and agents, MCP, chat widgets, workflows and analytics.\n\nThere is no narration: each chapter is the screen recording that the matching page of the CrestApps documentation shows next to its written steps.",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI",
+    "AI chat",
+    "AI agent",
+    "MCP",
+    "Azure OpenAI",
+    "RAG",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "unlisted",
+  "playlists": [
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "AI features at a glance"
+    },
+    {
+      "time": "0:23",
+      "title": "Connect Azure OpenAI"
+    },
+    {
+      "time": "0:43",
+      "title": "Create a chat profile"
+    },
+    {
+      "time": "1:15",
+      "title": "The admin chat"
+    },
+    {
+      "time": "1:38",
+      "title": "Start a chat interaction"
+    },
+    {
+      "time": "2:10",
+      "title": "Ask about a PDF"
+    },
+    {
+      "time": "3:21",
+      "title": "Profile templates"
+    },
+    {
+      "time": "3:46",
+      "title": "Prompt templates"
+    },
+    {
+      "time": "4:17",
+      "title": "Answer from your content"
+    },
+    {
+      "time": "5:51",
+      "title": "Tool instances"
+    },
+    {
+      "time": "6:25",
+      "title": "AI agents"
+    },
+    {
+      "time": "7:02",
+      "title": "MCP tools in the chat"
+    },
+    {
+      "time": "8:20",
+      "title": "The admin chat widget"
+    },
+    {
+      "time": "9:34",
+      "title": "A chat box on your website"
+    },
+    {
+      "time": "10:15",
+      "title": "AI in workflows"
+    },
+    {
+      "time": "10:56",
+      "title": "Chat analytics"
+    }
+  ],
+  "links": [
+    {
+      "label": "AI user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai"
+    },
+    {
+      "label": "AI technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/overview"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {
+    "id": "rgGJJM3-u2c",
+    "url": "https://youtu.be/rgGJJM3-u2c",
+    "version": "v1"
+  },
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/ai/chat.md",
+    "src/CrestApps.Docs/docs/ai/mcp/server.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/analytics.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/chat-interactions.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/chat-widgets.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/chat.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/connections.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/index.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/profiles.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/prompt-templates.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/tools-and-agents.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/workflows.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/ai-assistant-on-your-website.md",
+    "src/CrestApps.Docs/docs/user-manual/use-cases/ai-knowledge-assistant.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/agent.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/chat-analytics.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/chat-interactions.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/chat.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/data-sources/index.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/mcp/server.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/overview.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/profile-templates.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/prompt-templates.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/providers/azure-openai.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/tool-instances.md",
+    "src/CrestApps.Docs/versioned_docs/version-2.0/ai/workflows.md"
+  ],
+  "length": "11:34",
+  "produced": "2026-10-16"
+}

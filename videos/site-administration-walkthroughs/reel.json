@@ -1,0 +1,65 @@
+{
+  "output": "site-administration-walkthroughs",
+  "title": "Site administration walkthroughs",
+  "subtitle": "CrestApps for Orchard Core",
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "ref": "ef4a3177a444a0232c400cc1082b158d1fc2bb29"
+  },
+  "chapters": [
+    {
+      "title": "The phone field",
+      "file": "src/CrestApps.Docs/static/img/docs/content-fields.mp4",
+      "start": 7,
+      "end": 42
+    },
+    {
+      "title": "Pick roles on a content item",
+      "file": "src/CrestApps.Docs/static/img/docs/roles.mp4",
+      "start": 45,
+      "end": 72
+    },
+    {
+      "title": "Restrict content by role",
+      "file": "src/CrestApps.Docs/static/img/docs/content-access-control.mp4",
+      "start": 75,
+      "end": 102
+    },
+    {
+      "title": "User display names",
+      "file": "src/CrestApps.Docs/static/img/docs/users.mp4",
+      "start": 105,
+      "end": 135
+    },
+    {
+      "title": "Display names and author badges",
+      "file": "src/CrestApps.Docs/static/img/docs/users-display-name.mp4",
+      "start": 138,
+      "end": 187
+    },
+    {
+      "title": "Time zone maps",
+      "file": "src/CrestApps.Docs/static/img/docs/time-zones.mp4",
+      "start": 190,
+      "end": 218
+    },
+    {
+      "title": "Bulk import and export",
+      "file": "src/CrestApps.Docs/static/img/docs/content-transfer.mp4",
+      "start": 221,
+      "end": 257
+    },
+    {
+      "title": "Local Do Not Call registry",
+      "file": "src/CrestApps.Docs/static/img/docs/dnc-registry.mp4",
+      "start": 260,
+      "end": 286
+    },
+    {
+      "title": "Check imports against a DNC list",
+      "file": "src/CrestApps.Docs/static/img/docs/omni-dnc-local.mp4",
+      "start": 289,
+      "end": 310
+    }
+  ]
+}
