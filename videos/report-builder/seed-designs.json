@@ -43,7 +43,7 @@
         },
         {
           "id": "role",
-          "field": "R.Role",
+          "field": "R.RoleName",
           "stage": "Rows",
           "operator": "In",
           "exposed": true,
@@ -54,7 +54,7 @@
       "columns": [
         {
           "id": "role",
-          "field": "R.Role",
+          "field": "R.RoleName",
           "label": "Role"
         },
         {

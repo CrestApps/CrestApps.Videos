@@ -1,6 +1,6 @@
 {
   "title": "Report Builder: Drag-and-Drop Reports Over Your Site's Data | CrestApps for Orchard Core",
-  "description": "The CrestApps Report Builder lets the people who run your Orchard Core site build their own reports by dragging fields, instead of asking a developer for a query. Pick data sets, join them, group and total them, add charts and pivot tables, and share the result.\n\nIn this video:\n• Why fixed reports fall short, and how the Report Builder is organized\n• Building a report: data sets, columns, aggregates and formulas\n• Filters, visuals, joins and the kinds of reports\n• Every data source a report can read\n• Publishing, drafts and versions, reusable views, and sharing\n• Adding your own data source as a developer",
+  "description": "The CrestApps Report Builder lets the people who run your Orchard Core site build their own reports by dragging fields, instead of asking a developer for a query. Pick data sets, join them, group and total them, add charts and pivot tables, and share the result.\n\nIn this video:\n• Why fixed reports fall short, and how the Report Builder is organized\n• Building a report: data sets, columns, aggregates and formulas\n• Filters, visuals, and the kinds of reports\n• Joining data sets, and choosing which rows a join keeps\n• Every data source a report can read\n• Publishing, drafts and versions\n• A reusable view, and a report built on it\n• Sharing with people, roles and share links, and exporting\n• Adding your own data source as a developer",
   "hashtags": [
     "OrchardCore",
     "Reporting",
@@ -31,63 +31,63 @@
       "title": "Introduction"
     },
     {
-      "time": "0:17",
+      "time": "0:19",
       "title": "Why the Report Builder"
     },
     {
-      "time": "1:04",
+      "time": "1:06",
       "title": "How it is organized"
     },
     {
-      "time": "1:50",
+      "time": "1:52",
       "title": "Getting started"
     },
     {
-      "time": "2:23",
+      "time": "2:27",
       "title": "Build a report"
     },
     {
-      "time": "3:23",
+      "time": "3:27",
       "title": "Aggregates, transforms and formulas"
     },
     {
-      "time": "4:21",
+      "time": "4:25",
       "title": "Filters"
     },
     {
-      "time": "4:57",
+      "time": "5:01",
       "title": "Visuals"
     },
     {
-      "time": "5:43",
+      "time": "5:47",
       "title": "Join data sets"
     },
     {
-      "time": "6:28",
+      "time": "7:41",
       "title": "Kinds of reports"
     },
     {
-      "time": "7:11",
+      "time": "8:24",
       "title": "Data sources"
     },
     {
-      "time": "8:07",
+      "time": "9:21",
       "title": "Publish, drafts and versions"
     },
     {
-      "time": "8:40",
+      "time": "9:55",
       "title": "Reusable views"
     },
     {
-      "time": "9:21",
+      "time": "11:31",
       "title": "Share and run"
     },
     {
-      "time": "9:54",
+      "time": "12:19",
       "title": "Extend it"
     },
     {
-      "time": "10:21",
+      "time": "12:51",
       "title": "Wrap-up"
     }
   ],
@@ -131,6 +131,6 @@
     "src/CrestApps.Docs/docs/user-manual/report-builder/views.md",
     "src/CrestApps.Docs/docs/user-manual/report-builder/visuals.md"
   ],
-  "length": "10:32",
-  "produced": "2026-10-09"
+  "length": "13:01",
+  "produced": "2026-10-19"
 }

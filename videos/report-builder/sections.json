@@ -1,62 +1,62 @@
 {
   "report-builder-build-a-report": {
     "title": "Narrated video of building a report from a data set, with columns, sorting and a live preview",
-    "start": 143,
-    "end": 204
+    "start": 147,
+    "end": 208
   },
   "report-builder-columns-and-formulas": {
     "title": "Narrated video of changing how columns add up and are formatted, and adding a calculated field",
-    "start": 203,
-    "end": 262
+    "start": 207,
+    "end": 266
   },
   "report-builder-custom-data-sources": {
     "title": "Narrated video of a module's own data source and its data sets in the Report Builder",
-    "start": 594,
-    "end": 622
+    "start": 739,
+    "end": 772
   },
   "report-builder-data-sources": {
     "title": "Narrated tour of the data sources and data sets the Report Builder offers",
-    "start": 431,
-    "end": 488
+    "start": 504,
+    "end": 562
   },
   "report-builder-filters": {
     "title": "Narrated video of adding filters and letting viewers change the period and values",
-    "start": 260,
-    "end": 298
+    "start": 265,
+    "end": 302
   },
   "report-builder-getting-started": {
     "title": "Narrated video of turning on the Report Builder and finding your way around the list of reports",
-    "start": 110,
-    "end": 144
+    "start": 112,
+    "end": 148
   },
   "report-builder-joins": {
-    "title": "Narrated video of joining two data sets on the Data model tab and choosing which rows to keep",
-    "start": 343,
-    "end": 389
+    "title": "Narrated video of what a join does, the inner, left, right and full join, and joining data sets on the Data model tab",
+    "start": 347,
+    "end": 462
   },
   "report-builder-kinds-of-reports": {
     "title": "Narrated video of building a list, a chart report, a report with subtotals and a pivot table",
-    "start": 388,
-    "end": 432
+    "start": 461,
+    "end": 505
   },
   "report-builder-publish-and-versions": {
     "title": "Narrated video of drafts saving as you work, publishing, and restoring an earlier version",
-    "start": 487,
-    "end": 521
+    "start": 561,
+    "end": 596
   },
   "report-builder-share-and-run": {
-    "title": "Narrated video of sharing a report with people and roles, creating a share link, and running and exporting a report",
-    "start": 561,
-    "end": 595
+    "title": "Narrated video of sharing a report with people and roles, creating a share link for recipients, and running and exporting a report",
+    "start": 691,
+    "end": 740
   },
   "report-builder-views": {
-    "title": "Narrated video of creating a reusable view, scheduling its refresh, and using it in a report",
-    "start": 520,
-    "end": 562
+    "title": "Narrated video of building a reusable view, scheduling its refresh, and building a report on it",
+    "start": 595,
+    "end": 692
   },
   "report-builder-visuals": {
     "title": "Narrated video of adding a table with subtotals, a chart, metrics and a pivot table to a report",
-    "start": 297,
-    "end": 344
+    "start": 301,
+    "end": 348
   }
 }
