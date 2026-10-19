@@ -106,9 +106,16 @@
     }
   ],
   "youtube": {
-    "id": "5KTFADbxswA",
-    "url": "https://youtu.be/5KTFADbxswA",
-    "version": "v1"
+    "id": "QRosrn4BE90",
+    "url": "https://youtu.be/QRosrn4BE90",
+    "version": "v2",
+    "history": [
+      {
+        "version": "v1",
+        "id": "5KTFADbxswA",
+        "url": "https://youtu.be/5KTFADbxswA"
+      }
+    ]
   },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
