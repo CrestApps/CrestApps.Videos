@@ -1,0 +1,231 @@
+{
+  "title": "External Data Sources",
+  "output": "ai-data-sources-external",
+  "spoken": {
+    "Elasticsearch": "Elastic search",
+    "PostgreSQL": "Postgres Q.L."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "External Data Sources",
+      "subtitle": "Elasticsearch, Azure AI Search and PostgreSQL",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Not all knowledge lives in your site's content index. Some of it is in a search index that another system maintains, or in a database table. This video shows data sources that read Elasticsearch, Azure AI Search and PostgreSQL."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why external sources",
+      "subtitle": "Read the knowledge where it is",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A search index or a database that another team keeps up to date is knowledge already. Copying it into your site by hand would only go stale."
+            },
+            {
+              "id": "why-2",
+              "text": "An external data source reads it where it is, splits it into passages, and keeps your knowledge base in step."
+            },
+            {
+              "id": "why-3",
+              "text": "Elasticsearch, Azure AI Search and PostgreSQL each have their own source type. Everything after the connection is the same as for any data source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What every source shares",
+      "subtitle": "A connection, a destination, a mapping",
+      "clips": [
+        {
+          "id": "02-share",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "share-1",
+              "text": "The connection settings tell the site where to read: the index and its address, or the database and its table. Your technical team provides them."
+            },
+            {
+              "id": "share-2",
+              "text": "The destination is a knowledge base index of your site, the same one that every data source stores its passages in."
+            },
+            {
+              "id": "share-3",
+              "text": "The field mapping names the fields that hold the content, the title and the key. Here you type the names, because the site cannot list the fields of a remote source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "An Elasticsearch data source",
+      "subtitle": "Read an external index",
+      "clips": [
+        {
+          "id": "03-elastic",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "es-1",
+              "text": "Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Elasticsearch."
+            },
+            {
+              "id": "es-2",
+              "text": "Enter a Name, and the Index name, which is the name of the index on the other server."
+            },
+            {
+              "id": "es-3",
+              "text": "Choose the Environment type. Self-managed asks for the Elasticsearch URL. Choose the Authentication type your technical team gives you: none, a user name and password, or an API key."
+            },
+            {
+              "id": "es-4",
+              "text": "Choose the Destination index, the knowledge base index of your site. It cannot be changed after you save."
+            },
+            {
+              "id": "es-5",
+              "text": "In Field Mapping, type the Content field, the Title field and the Key field, as they are named in the remote index."
+            },
+            {
+              "id": "es-6",
+              "text": "Click Save. The data source reads the remote index, and fills its knowledge base in the background."
+            }
+          ]
+        }
+      ],
+      "short": "elastic"
+    },
+    {
+      "id": "04",
+      "title": "Ask a question",
+      "subtitle": "An answer from the external index",
+      "clips": [
+        {
+          "id": "04-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "Choose the data source on a profile, on the Knowledge tab, exactly as for any data source."
+            },
+            {
+              "id": "ask-2",
+              "text": "Then ask a question that the remote notes answer: how do I reset the router?"
+            },
+            {
+              "id": "ask-3",
+              "text": "The assistant answers from the remote index, and the numbered source shows the note it used."
+            }
+          ]
+        }
+      ],
+      "short": "ask"
+    },
+    {
+      "id": "05",
+      "title": "An Azure AI Search data source",
+      "subtitle": "Read an Azure AI Search index",
+      "clips": [
+        {
+          "id": "05-azure",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "az-1",
+              "text": "An Azure AI Search data source asks for a Name, the Index name, and the Endpoint of the search service."
+            },
+            {
+              "id": "az-2",
+              "text": "Authentication offers an API key, which is stored securely and never shown again, or an identity, with the Client ID of a managed identity."
+            },
+            {
+              "id": "az-3",
+              "text": "The Destination index and the Field Mapping work as before. Azure AI Search does not support the Filter of a profile."
+            }
+          ]
+        }
+      ],
+      "short": "azure"
+    },
+    {
+      "id": "06",
+      "title": "A PostgreSQL data source",
+      "subtitle": "Read a database table",
+      "clips": [
+        {
+          "id": "06-postgres",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pg-1",
+              "text": "A PostgreSQL data source asks for a Name, and the Connection string of the database. The connection string is stored securely, and never shown again."
+            },
+            {
+              "id": "pg-2",
+              "text": "The Table name is the table to read. In Field Mapping, the content, title and key fields are the names of columns of that table."
+            }
+          ]
+        }
+      ],
+      "short": "postgres"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "What teams connect",
+      "clips": [
+        {
+          "id": "07-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "A search index that a product team already maintains, for support answers."
+            },
+            {
+              "id": "case-2",
+              "text": "An Azure AI Search index of manuals, shared by several applications."
+            },
+            {
+              "id": "case-3",
+              "text": "A database table of articles or notes, read without a copy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Point a data source at the index or table where the knowledge already lives, map its fields, and choose it on a profile. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

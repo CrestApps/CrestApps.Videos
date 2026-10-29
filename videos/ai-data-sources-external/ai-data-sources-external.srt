@@ -1,0 +1,208 @@
+1
+00:00:01,000 --> 00:00:05,030
+Not all knowledge lives in your site's content index.
+
+2
+00:00:05,030 --> 00:00:09,880
+Some of it is in a search index that another system maintains, or
+
+3
+00:00:09,880 --> 00:00:11,656
+in a database table.
+
+4
+00:00:11,656 --> 00:00:17,940
+This video shows data sources that read Elasticsearch, Azure AI Search and PostgreSQL.
+
+5
+00:00:22,540 --> 00:00:27,879
+A search index or a database that another team keeps up to date is knowledge already.
+
+6
+00:00:27,879 --> 00:00:31,400
+Copying it into your site by hand would only go stale.
+
+7
+00:00:32,150 --> 00:00:36,146
+An external data source reads it where it is, splits it into passages,
+
+8
+00:00:36,146 --> 00:00:38,460
+and keeps your knowledge base in step.
+
+9
+00:00:39,210 --> 00:00:44,887
+Elasticsearch, Azure AI Search and PostgreSQL each have their own source type.
+
+10
+00:00:44,887 --> 00:00:49,820
+Everything after the connection is the same as for any data source.
+
+11
+00:00:54,020 --> 00:00:57,392
+The connection settings tell the site where to read:
+
+12
+00:00:57,392 --> 00:01:01,055
+the index and its address, or the database and its table.
+
+13
+00:01:01,055 --> 00:01:03,380
+Your technical team provides them.
+
+14
+00:01:04,130 --> 00:01:08,417
+The destination is a knowledge base index of your site, the same one
+
+15
+00:01:08,417 --> 00:01:11,430
+that every data source stores its passages in.
+
+16
+00:01:12,180 --> 00:01:17,198
+The field mapping names the fields that hold the content, the title and the key.
+
+17
+00:01:17,198 --> 00:01:22,450
+Here you type the names, because the site cannot list the fields of a remote source.
+
+18
+00:01:26,655 --> 00:01:33,665
+Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Elasticsearch.
+
+19
+00:01:34,117 --> 00:01:37,571
+Enter a Name, and the Index name, which is the name of the
+
+20
+00:01:37,571 --> 00:01:39,297
+index on the other server.
+
+21
+00:01:39,751 --> 00:01:42,005
+Choose the Environment type.
+
+22
+00:01:42,005 --> 00:01:45,320
+Self-managed asks for the Elasticsearch URL.
+
+23
+00:01:45,320 --> 00:01:49,763
+Choose the Authentication type your technical team gives you:
+
+24
+00:01:49,763 --> 00:01:53,211
+none, a user name and password, or an API key.
+
+25
+00:01:53,665 --> 00:01:57,964
+Choose the Destination index, the knowledge base index of your site.
+
+26
+00:01:57,964 --> 00:02:00,405
+It cannot be changed after you save.
+
+27
+00:02:00,858 --> 00:02:05,257
+In Field Mapping, type the Content field, the Title field and the Key
+
+28
+00:02:05,257 --> 00:02:08,248
+field, as they are named in the remote index.
+
+29
+00:02:08,709 --> 00:02:09,700
+Click Save.
+
+30
+00:02:09,700 --> 00:02:15,119
+The data source reads the remote index, and fills its knowledge base in the background.
+
+31
+00:02:19,295 --> 00:02:23,765
+Choose the data source on a profile, on the Knowledge tab, exactly as
+
+32
+00:02:23,765 --> 00:02:25,315
+for any data source.
+
+33
+00:02:25,770 --> 00:02:28,969
+Then ask a question that the remote notes answer:
+
+34
+00:02:28,969 --> 00:02:30,830
+how do I reset the router?
+
+35
+00:02:31,388 --> 00:02:36,908
+The assistant answers from the remote index, and the numbered source shows the note it used.
+
+36
+00:02:41,112 --> 00:02:45,676
+An Azure AI Search data source asks for a Name, the Index name,
+
+37
+00:02:45,676 --> 00:02:48,652
+and the Endpoint of the search service.
+
+38
+00:02:49,106 --> 00:02:54,941
+Authentication offers an API key, which is stored securely and never shown again,
+
+39
+00:02:54,941 --> 00:02:59,166
+or an identity, with the Client ID of a managed identity.
+
+40
+00:02:59,619 --> 00:03:03,799
+The Destination index and the Field Mapping work as before.
+
+41
+00:03:03,799 --> 00:03:07,849
+Azure AI Search does not support the Filter of a profile.
+
+42
+00:03:12,049 --> 00:03:17,883
+A PostgreSQL data source asks for a Name, and the Connection string of the database.
+
+43
+00:03:17,883 --> 00:03:22,419
+The connection string is stored securely, and never shown again.
+
+44
+00:03:22,873 --> 00:03:25,433
+The Table name is the table to read.
+
+45
+00:03:25,433 --> 00:03:29,945
+In Field Mapping, the content, title and key fields are the names of
+
+46
+00:03:29,945 --> 00:03:31,653
+columns of that table.
+
+47
+00:03:35,853 --> 00:03:40,843
+A search index that a product team already maintains, for support answers.
+
+48
+00:03:41,593 --> 00:03:47,163
+An Azure AI Search index of manuals, shared by several applications.
+
+49
+00:03:47,913 --> 00:03:52,613
+A database table of articles or notes, read without a copy.
+
+50
+00:03:54,613 --> 00:03:58,888
+Point a data source at the index or table where the knowledge already
+
+51
+00:03:58,888 --> 00:04:02,080
+lives, map its fields, and choose it on a profile.
+
+52
+00:04:02,080 --> 00:04:03,563
+Thanks for watching.
+
