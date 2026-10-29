@@ -1,0 +1,94 @@
+{
+  "title": "AI Memory: Assistants That Remember Each User | CrestApps for Orchard Core",
+  "description": "An assistant that forgets you after every chat makes you repeat yourself. The CrestApps AI Memory feature lets an assistant in Orchard Core remember stable, non-sensitive facts about each signed-in user, such as a preferred name or style, and use them in later chats. Memory is private to each person, and people can clear it from their own profile.\n\nIn this video:\n• Why memory helps, and what it is and is not for\n• Creating the memory index, and choosing it in the site settings\n• Turning memory on for a profile\n• Chatting with an assistant that remembers\n• Seeing and clearing the saved memory\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "AIMemory",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI memory",
+    "AI assistant",
+    "AI chatbot",
+    "personalization",
+    "Elasticsearch",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why memory"
+    },
+    {
+      "time": "0:56",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:28",
+      "title": "Create the memory index"
+    },
+    {
+      "time": "2:08",
+      "title": "Choose the index"
+    },
+    {
+      "time": "2:51",
+      "title": "Turn memory on for a profile"
+    },
+    {
+      "time": "3:29",
+      "title": "Chat and be remembered"
+    },
+    {
+      "time": "4:08",
+      "title": "See and clear your memory"
+    },
+    {
+      "time": "4:46",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:21",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/memory"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/memory"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Memory"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/memory.md",
+    "src/CrestApps.Docs/docs/ai/memory.md",
+    "src/CrestApps.Docs/docs/ai/memory-elasticsearch.md"
+  ],
+  "length": "5:35"
+}

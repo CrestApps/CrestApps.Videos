@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.237 --> 00:00:05.746
+Memory needs a search index.
+
+00:00:05.746 --> 00:00:09.287
+Open Search, Indexes, and click Add index.
+
+00:00:09.763 --> 00:00:12.934
+Click Add on AI Memory for Elasticsearch.
+
+00:00:12.934 --> 00:00:18.263
+The type for Azure AI Search works the same way, when that feature is on.
+
+00:00:18.719 --> 00:00:23.349
+Enter an Index Name, and a Name, which is how the index is listed.
+
+00:00:23.836 --> 00:00:25.973
+Pick the Embedding deployment.
+
+00:00:25.973 --> 00:00:30.662
+It turns each memory into numbers that the search compares, and it cannot
+
+00:00:30.662 --> 00:00:32.976
+be changed once the index exists.
+
+00:00:33.472 --> 00:00:36.089
+The other fields can stay as they are.
+
+00:00:36.089 --> 00:00:39.182
+Click Save, and the index appears in the list.
+

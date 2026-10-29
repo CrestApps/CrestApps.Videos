@@ -1,0 +1,36 @@
+1
+00:00:03,213 --> 00:00:08,577
+Open Artificial Intelligence, Profiles, and edit the profile of an assistant that people
+
+2
+00:00:08,577 --> 00:00:11,373
+use every day, such as a support assistant.
+
+3
+00:00:11,830 --> 00:00:15,175
+On the Knowledge tab, tick Enable user memory.
+
+4
+00:00:15,175 --> 00:00:20,130
+Memory is off by default on every profile, so you choose where it fits.
+
+5
+00:00:20,625 --> 00:00:24,021
+Use it for an internal assistant your staff rely on.
+
+6
+00:00:24,021 --> 00:00:26,948
+Leave it off for a public website assistant:
+
+7
+00:00:26,948 --> 00:00:29,525
+memory only works for signed-in users.
+
+8
+00:00:29,976 --> 00:00:31,095
+Click Save.
+
+9
+00:00:31,095 --> 00:00:36,956
+Profile templates have the same checkbox, so new profiles can start with memory on.
+

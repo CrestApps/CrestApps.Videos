@@ -1,0 +1,242 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.779
+An assistant that forgets you after every chat makes you repeat yourself.
+
+00:00:05.779 --> 00:00:10.740
+This video shows how AI memory lets an assistant remember stable facts about
+
+00:00:10.740 --> 00:00:15.640
+each signed-in user, how to set it up, and how people clear what was saved.
+
+00:00:20.240 --> 00:00:23.416
+Without memory, every chat starts from nothing.
+
+00:00:23.416 --> 00:00:28.090
+People repeat their name, their role, and how they like answers written.
+
+00:00:28.840 --> 00:00:34.060
+With memory, an assistant keeps a few stable facts about each signed-in person,
+
+00:00:34.060 --> 00:00:36.210
+and uses them in later chats.
+
+00:00:36.960 --> 00:00:38.376
+Memory is private.
+
+00:00:38.376 --> 00:00:43.390
+The assistant only reads and changes the memory of the person it is talking to.
+
+00:00:44.140 --> 00:00:49.641
+It is for lasting, non-sensitive facts, such as a preferred name, a role,
+
+00:00:49.641 --> 00:00:51.520
+or a preferred style.
+
+00:00:51.520 --> 00:00:55.350
+Passwords, keys and card numbers are never saved.
+
+00:00:59.550 --> 00:01:03.515
+Memories are kept in a search index, so the assistant can find the
+
+00:01:03.515 --> 00:01:05.002
+right one by meaning.
+
+00:01:05.002 --> 00:01:06.820
+You create that index once.
+
+00:01:07.570 --> 00:01:12.442
+The site settings say which index holds the memories, and how many come
+
+00:01:12.442 --> 00:01:14.150
+back for each search.
+
+00:01:14.900 --> 00:01:17.732
+Each profile decides whether to use memory.
+
+00:01:17.732 --> 00:01:19.870
+It is off until you turn it on.
+
+00:01:20.620 --> 00:01:22.191
+People stay in control.
+
+00:01:22.191 --> 00:01:27.390
+They can ask the assistant what it remembers, and clear everything from their own profile.
+
+00:01:31.627 --> 00:01:34.136
+Memory needs a search index.
+
+00:01:34.136 --> 00:01:37.677
+Open Search, Indexes, and click Add index.
+
+00:01:38.153 --> 00:01:41.324
+Click Add on AI Memory for Elasticsearch.
+
+00:01:41.324 --> 00:01:46.653
+The type for Azure AI Search works the same way, when that feature is on.
+
+00:01:47.109 --> 00:01:51.739
+Enter an Index Name, and a Name, which is how the index is listed.
+
+00:01:52.226 --> 00:01:54.363
+Pick the Embedding deployment.
+
+00:01:54.363 --> 00:01:59.052
+It turns each memory into numbers that the search compares, and it cannot
+
+00:01:59.052 --> 00:02:01.366
+be changed once the index exists.
+
+00:02:01.862 --> 00:02:04.479
+The other fields can stay as they are.
+
+00:02:04.479 --> 00:02:07.572
+Click Save, and the index appears in the list.
+
+00:02:11.780 --> 00:02:16.150
+Open Settings, Artificial Intelligence, and find the Memory section.
+
+00:02:16.609 --> 00:02:18.341
+Pick the Index profile.
+
+00:02:18.341 --> 00:02:22.820
+This one index holds the memories of every user, so avoid changing it
+
+00:02:22.820 --> 00:02:27.119
+once people use memory, or the saved memories are no longer found.
+
+00:02:27.649 --> 00:02:33.189
+Default top N is how many saved memories the assistant gets back when it searches.
+
+00:02:33.926 --> 00:02:40.729
+Under General, Enable preemptive memory retrieval looks up a person's memories before the model answers.
+
+00:02:40.729 --> 00:02:44.626
+Turn it off to keep the memory tools, but skip that step.
+
+00:02:45.234 --> 00:02:49.636
+Enable user memory turns memory on for chat interactions.
+
+00:02:49.636 --> 00:02:50.824
+Click Save.
+
+00:02:55.037 --> 00:03:00.401
+Open Artificial Intelligence, Profiles, and edit the profile of an assistant that people
+
+00:03:00.401 --> 00:03:03.197
+use every day, such as a support assistant.
+
+00:03:03.653 --> 00:03:06.999
+On the Knowledge tab, tick Enable user memory.
+
+00:03:06.999 --> 00:03:11.953
+Memory is off by default on every profile, so you choose where it fits.
+
+00:03:12.449 --> 00:03:15.845
+Use it for an internal assistant your staff rely on.
+
+00:03:15.845 --> 00:03:18.772
+Leave it off for a public website assistant:
+
+00:03:18.772 --> 00:03:21.349
+memory only works for signed-in users.
+
+00:03:21.799 --> 00:03:22.919
+Click Save.
+
+00:03:22.919 --> 00:03:28.779
+Profile templates have the same checkbox, so new profiles can start with memory on.
+
+00:03:33.079 --> 00:03:34.233
+Now try it.
+
+00:03:34.233 --> 00:03:39.659
+In the list of profiles, open Actions on the assistant and click New chat.
+
+00:03:41.599 --> 00:03:44.460
+Tell the assistant something worth keeping.
+
+00:03:44.460 --> 00:03:48.489
+Here the user says to be called Sam, and to keep answers short.
+
+00:03:48.955 --> 00:03:52.385
+The assistant saves it as a memory, and answers.
+
+00:03:52.850 --> 00:03:54.135
+Click New Chat.
+
+00:03:54.135 --> 00:03:59.520
+This chat has no history, but the assistant looks up the memory before it answers.
+
+00:04:00.014 --> 00:04:01.508
+Ask what it remembers.
+
+00:04:01.508 --> 00:04:05.564
+The assistant looks up its memories, and answers with the name that it
+
+00:04:05.564 --> 00:04:07.164
+saved in the other chat.
+
+00:04:11.391 --> 00:04:14.192
+People can clear what the assistant saved.
+
+00:04:14.192 --> 00:04:17.751
+Open the user menu at the top right, and click Profile.
+
+00:04:18.235 --> 00:04:22.745
+The AI Memory section shows a Danger zone when memories are saved.
+
+00:04:23.204 --> 00:04:26.771
+Click Clear saved AI memory, and confirm with Clear.
+
+00:04:26.771 --> 00:04:32.184
+Everything the assistant remembered about you is removed, and it cannot be undone.
+
+00:04:32.670 --> 00:04:36.404
+The section now says that no saved AI memory was found.
+
+00:04:36.404 --> 00:04:41.363
+An administrator with the Clear AI memory for other users permission can do
+
+00:04:41.363 --> 00:04:45.220
+the same from Access Control, Users, by editing the user.
+
+00:04:49.420 --> 00:04:50.874
+Staff assistants:
+
+00:04:50.874 --> 00:04:56.120
+they learn names, roles and preferred styles, so each answer starts closer to
+
+00:04:56.120 --> 00:04:57.890
+what the person wants.
+
+00:04:58.640 --> 00:05:00.339
+Specialist assistants:
+
+00:05:00.339 --> 00:05:04.710
+they keep track of the projects and topics a person works on most.
+
+00:05:05.460 --> 00:05:06.658
+Fresh starts:
+
+00:05:06.658 --> 00:05:12.400
+people ask the assistant to forget one thing, or clear everything from their profile.
+
+00:05:13.150 --> 00:05:14.584
+Not for secrets:
+
+00:05:14.584 --> 00:05:20.780
+memory is for stable, non-sensitive facts, and public website assistants stay without it.
+
+00:05:22.780 --> 00:05:26.910
+Create the memory index, choose it in the settings, and turn memory on
+
+00:05:26.910 --> 00:05:28.649
+for the profiles that fit.
+
+00:05:28.649 --> 00:05:32.507
+Your assistants then remember people, and people stay in control.
+
+00:05:32.507 --> 00:05:33.920
+Thanks for watching.
+

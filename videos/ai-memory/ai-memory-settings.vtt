@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.208 --> 00:00:07.578
+Open Settings, Artificial Intelligence, and find the Memory section.
+
+00:00:08.038 --> 00:00:09.769
+Pick the Index profile.
+
+00:00:09.769 --> 00:00:14.248
+This one index holds the memories of every user, so avoid changing it
+
+00:00:14.248 --> 00:00:18.548
+once people use memory, or the saved memories are no longer found.
+
+00:00:19.077 --> 00:00:24.617
+Default top N is how many saved memories the assistant gets back when it searches.
+
+00:00:25.354 --> 00:00:32.157
+Under General, Enable preemptive memory retrieval looks up a person's memories before the model answers.
+
+00:00:32.157 --> 00:00:36.054
+Turn it off to keep the memory tools, but skip that step.
+
+00:00:36.662 --> 00:00:41.064
+Enable user memory turns memory on for chat interactions.
+
+00:00:41.064 --> 00:00:42.252
+Click Save.
+

@@ -1,0 +1,292 @@
+{
+  "title": "AI Memory",
+  "output": "ai-memory",
+  "spoken": {
+    "Elasticsearch": "Elastic search"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Memory",
+      "subtitle": "An assistant that remembers you from one chat to the next",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An assistant that forgets you after every chat makes you repeat yourself. This video shows how AI memory lets an assistant remember stable facts about each signed-in user, how to set it up, and how people clear what was saved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why memory",
+      "subtitle": "Stop repeating yourself",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Without memory, every chat starts from nothing. People repeat their name, their role, and how they like answers written."
+            },
+            {
+              "id": "why-2",
+              "text": "With memory, an assistant keeps a few stable facts about each signed-in person, and uses them in later chats."
+            },
+            {
+              "id": "why-3",
+              "text": "Memory is private. The assistant only reads and changes the memory of the person it is talking to."
+            },
+            {
+              "id": "why-4",
+              "text": "It is for lasting, non-sensitive facts, such as a preferred name, a role, or a preferred style. Passwords, keys and card numbers are never saved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "An index, the settings, and the profile",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Memories are kept in a search index, so the assistant can find the right one by meaning. You create that index once."
+            },
+            {
+              "id": "how-2",
+              "text": "The site settings say which index holds the memories, and how many come back for each search."
+            },
+            {
+              "id": "how-3",
+              "text": "Each profile decides whether to use memory. It is off until you turn it on."
+            },
+            {
+              "id": "how-4",
+              "text": "People stay in control. They can ask the assistant what it remembers, and clear everything from their own profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create the memory index",
+      "subtitle": "Where the memories are stored",
+      "clips": [
+        {
+          "id": "03-index",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "idx-1",
+              "text": "Memory needs a search index. Open Search, Indexes, and click Add index."
+            },
+            {
+              "id": "idx-2",
+              "text": "Click Add on AI Memory for Elasticsearch. The type for Azure AI Search works the same way, when that feature is on."
+            },
+            {
+              "id": "idx-3",
+              "text": "Enter an Index Name, and a Name, which is how the index is listed."
+            },
+            {
+              "id": "idx-4",
+              "text": "Pick the Embedding deployment. It turns each memory into numbers that the search compares, and it cannot be changed once the index exists."
+            },
+            {
+              "id": "idx-5",
+              "text": "The other fields can stay as they are. Click Save, and the index appears in the list."
+            }
+          ]
+        }
+      ],
+      "short": "index"
+    },
+    {
+      "id": "04",
+      "title": "Choose the index",
+      "subtitle": "The memory settings of the site",
+      "clips": [
+        {
+          "id": "04-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Artificial Intelligence, and find the Memory section."
+            },
+            {
+              "id": "set-2",
+              "text": "Pick the Index profile. This one index holds the memories of every user, so avoid changing it once people use memory, or the saved memories are no longer found."
+            },
+            {
+              "id": "set-3",
+              "text": "Default top N is how many saved memories the assistant gets back when it searches."
+            },
+            {
+              "id": "set-4",
+              "text": "Under General, Enable preemptive memory retrieval looks up a person's memories before the model answers. Turn it off to keep the memory tools, but skip that step."
+            },
+            {
+              "id": "set-5",
+              "text": "Enable user memory turns memory on for chat interactions. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "05",
+      "title": "Turn memory on for a profile",
+      "subtitle": "Choose where memory makes sense",
+      "clips": [
+        {
+          "id": "05-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pro-1",
+              "text": "Open Artificial Intelligence, Profiles, and edit the profile of an assistant that people use every day, such as a support assistant."
+            },
+            {
+              "id": "pro-2",
+              "text": "On the Knowledge tab, tick Enable user memory. Memory is off by default on every profile, so you choose where it fits."
+            },
+            {
+              "id": "pro-3",
+              "text": "Use it for an internal assistant your staff rely on. Leave it off for a public website assistant: memory only works for signed-in users."
+            },
+            {
+              "id": "pro-4",
+              "text": "Click Save. Profile templates have the same checkbox, so new profiles can start with memory on."
+            }
+          ]
+        }
+      ],
+      "short": "profile"
+    },
+    {
+      "id": "06",
+      "title": "Chat and be remembered",
+      "subtitle": "Memory at work",
+      "clips": [
+        {
+          "id": "06-chat",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cha-1",
+              "text": "Now try it. In the list of profiles, open Actions on the assistant and click New chat."
+            },
+            {
+              "id": "cha-2",
+              "text": "Tell the assistant something worth keeping. Here the user says to be called Sam, and to keep answers short."
+            },
+            {
+              "id": "cha-3",
+              "text": "The assistant saves it as a memory, and answers."
+            },
+            {
+              "id": "cha-4",
+              "text": "Click New Chat. This chat has no history, but the assistant looks up the memory before it answers."
+            },
+            {
+              "id": "cha-5",
+              "text": "Ask what it remembers. The assistant looks up its memories, and answers with the name that it saved in the other chat."
+            }
+          ]
+        }
+      ],
+      "short": "chat"
+    },
+    {
+      "id": "07",
+      "title": "See and clear your memory",
+      "subtitle": "Your profile",
+      "clips": [
+        {
+          "id": "07-clear",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "clr-1",
+              "text": "People can clear what the assistant saved. Open the user menu at the top right, and click Profile."
+            },
+            {
+              "id": "clr-2",
+              "text": "The AI Memory section shows a Danger zone when memories are saved."
+            },
+            {
+              "id": "clr-3",
+              "text": "Click Clear saved AI memory, and confirm with Clear. Everything the assistant remembered about you is removed, and it cannot be undone."
+            },
+            {
+              "id": "clr-4",
+              "text": "The section now says that no saved AI memory was found. An administrator with the Clear AI memory for other users permission can do the same from Access Control, Users, by editing the user."
+            }
+          ]
+        }
+      ],
+      "short": "clear"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Where memory helps",
+      "clips": [
+        {
+          "id": "08-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "Staff assistants: they learn names, roles and preferred styles, so each answer starts closer to what the person wants."
+            },
+            {
+              "id": "case-2",
+              "text": "Specialist assistants: they keep track of the projects and topics a person works on most."
+            },
+            {
+              "id": "case-3",
+              "text": "Fresh starts: people ask the assistant to forget one thing, or clear everything from their profile."
+            },
+            {
+              "id": "case-4",
+              "text": "Not for secrets: memory is for stable, non-sensitive facts, and public website assistants stay without it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the memory index, choose it in the settings, and turn memory on for the profiles that fit. Your assistants then remember people, and people stay in control. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
