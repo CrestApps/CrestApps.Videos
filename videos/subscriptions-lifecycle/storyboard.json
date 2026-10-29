@@ -1,0 +1,245 @@
+{
+  "title": "Subscriptions: the whole lifecycle",
+  "output": "subscriptions-lifecycle",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Subscriptions: the whole lifecycle",
+      "subtitle": "From first payment to the last",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A subscription starts, renews, fails, pauses and ends. This video shows the statuses, how to pause, resume and cancel a subscription, what a subscriber sees, and how to end a membership early."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a lifecycle",
+      "subtitle": "From first payment to the last",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A subscription is not one sale. It starts, renews, sometimes fails to renew, gets paused, and one day ends."
+            },
+            {
+              "id": "why-2",
+              "text": "Each of those moments decides whether the subscriber has access, and whether they are billed."
+            },
+            {
+              "id": "why-3",
+              "text": "You see every subscription in one place, with its status and its history, and you can pause it, resume it, or cancel it."
+            },
+            {
+              "id": "why-4",
+              "text": "Subscribers manage their own plans from My account, and memberships can be ended early."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The statuses",
+      "subtitle": "Active, past due, paused, canceled, expired",
+      "clips": [
+        {
+          "id": "02-statuses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "sta-1",
+              "text": "Active and Trial subscriptions are billed, and their subscribers have access."
+            },
+            {
+              "id": "sta-2",
+              "text": "Past due means a renewal payment failed. The subscriber keeps access through a grace period of seven days while the payment is retried."
+            },
+            {
+              "id": "sta-3",
+              "text": "Paused means billing was suspended by an administrator. Canceled means it was ended, and Expired means the grace period ran out or every billing cycle was billed."
+            },
+            {
+              "id": "sta-4",
+              "text": "When a subscription stops being current, the roles its plan gave are removed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Plans and access",
+      "subtitle": "Billing, trial and roles",
+      "clips": [
+        {
+          "id": "03-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pln-1",
+              "text": "A plan is a product with a subscription part. Open it to see the billing duration, the limit on how many cycles are billed, and the trial days."
+            },
+            {
+              "id": "pln-2",
+              "text": "Under Member access, tick the roles the plan grants. The roles are added when the subscription becomes current, and removed when it stops being."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Manage a subscription",
+      "subtitle": "Pause, resume and cancel",
+      "clips": [
+        {
+          "id": "04-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mng-1",
+              "text": "Open Subscriptions, Agreements, and click Manage on a subscription. It shows the owner, what is billed, its actions and its history."
+            },
+            {
+              "id": "mng-2",
+              "text": "Pause billing suspends billing without ending the subscription. Enter an optional reason, and confirm. The status becomes Paused, and Resume starts it again."
+            },
+            {
+              "id": "mng-3",
+              "text": "Cancel subscription ends it. Keep access until the paid period ends lets the subscriber use what they paid for. The history lists everything that happened, newest first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "My plans",
+      "subtitle": "What a subscriber sees",
+      "clips": [
+        {
+          "id": "05-myplans",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mpl-1",
+              "text": "A signed in subscriber sees their plans under My account, with the status, what they pay, and when it renews."
+            },
+            {
+              "id": "mpl-2",
+              "text": "They can cancel a plan that is active, in a trial, or past due. The subscription ends when the paid period does, and the history says so."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Memberships",
+      "subtitle": "End a membership early",
+      "clips": [
+        {
+          "id": "06-memberships",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "mem-1",
+              "text": "A membership product, one that is bought once and puts its buyer in a role, is listed under Commerce, Memberships. Search by name, and filter by Active, Expired or Ended early."
+            },
+            {
+              "id": "mem-2",
+              "text": "End now ends a membership at once, and refunds nothing. The member loses what the membership opened for them. A membership sold as a subscription is managed under Subscriptions, Agreements, like the one in this video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Settings and good to know",
+      "subtitle": "Guests, grace and reports",
+      "clips": [
+        {
+          "id": "07-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kno-1",
+              "text": "Subscription settings has whether guests can sign up without an account, the currency, and the roles a plan is allowed to give."
+            },
+            {
+              "id": "kno-2",
+              "text": "The grace period after a failed payment is seven days, and is not a setting on that page."
+            },
+            {
+              "id": "kno-3",
+              "text": "With Reports on, the subscription reports show new, active and canceled subscriptions, and what is due to renew."
+            },
+            {
+              "id": "kno-4",
+              "text": "With Workflows on, subscription events start workflows, for example to welcome a subscriber."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to manage subscriptions",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A holiday: pause billing, and resume it when they are back."
+            },
+            {
+              "id": "use-2",
+              "text": "A cancellation: keep access until the paid period ends."
+            },
+            {
+              "id": "use-3",
+              "text": "A failed card: the grace period gives the subscriber time to fix it."
+            },
+            {
+              "id": "use-4",
+              "text": "A refunded member: end the membership now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Follow every subscription, pause and resume billing, and end what should end. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
