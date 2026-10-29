@@ -1,0 +1,48 @@
+1
+00:00:03,255 --> 00:00:07,413
+Open the order under Commerce, Orders, here the order of Jamie Chen.
+
+2
+00:00:07,413 --> 00:00:11,963
+Downloads lists each file, how many times it was downloaded, until when its
+
+3
+00:00:11,963 --> 00:00:14,435
+link works, and whether it still does.
+
+4
+00:00:15,064 --> 00:00:17,307
+Take back stops a link from working.
+
+5
+00:00:17,307 --> 00:00:19,656
+Let's take back the first file's link:
+
+6
+00:00:19,656 --> 00:00:23,394
+the buyer who opens it is told that it no longer works, and why.
+
+7
+00:00:23,848 --> 00:00:26,935
+Give downloads back lets the buyer download again:
+
+8
+00:00:26,935 --> 00:00:31,015
+the count starts over, the link works for another period, and a link
+
+9
+00:00:31,015 --> 00:00:32,778
+you took back works again.
+
+10
+00:00:33,231 --> 00:00:37,071
+Buyer's link is the link to send a buyer who lost their email.
+
+11
+00:00:37,540 --> 00:00:42,725
+Canceling an order, or refunding all of it, takes its downloads back.
+
+12
+00:00:42,725 --> 00:00:46,250
+After a partial refund, the buyer keeps them.
+

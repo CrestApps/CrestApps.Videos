@@ -1,0 +1,244 @@
+{
+  "title": "Digital Downloads",
+  "output": "downloads",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Digital Downloads",
+      "subtitle": "Sell files, and deliver them safely",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some of what you sell is not a box in the mail, but a file: an ebook, a guide, an installer. This video shows how the Digital Downloads module keeps those files private, delivers them to buyers after they pay, and lets you manage each buyer's downloads."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why digital downloads",
+      "subtitle": "Deliver a file without giving it away",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A file you sell can be copied. If its address is public, anyone who finds it, or is sent it, can download it without paying."
+            },
+            {
+              "id": "why-2",
+              "text": "You still want delivery to be automatic and quick: the buyer pays, and the file is theirs, with no email from you."
+            },
+            {
+              "id": "why-3",
+              "text": "And you want control afterwards: a buyer who loses an email gets the link again, and a refunded order stops delivering."
+            },
+            {
+              "id": "why-4",
+              "text": "The Digital Downloads module keeps files private, and delivers them through links that expire and can be used a set number of times."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Upload, pay, download",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You upload the file on the product. It is kept privately, never in the media library."
+            },
+            {
+              "id": "how-2",
+              "text": "The buyer pays, and the order is placed. A buyer of digital products only is not asked for a shipping address."
+            },
+            {
+              "id": "how-3",
+              "text": "The buyer downloads from their order page, or from the link in the confirmation email. Links work a set number of times, and for a set number of days."
+            },
+            {
+              "id": "how-4",
+              "text": "You manage the downloads on the order: take a link back, give downloads back, or copy the buyer's link."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up a digital product",
+      "subtitle": "Files and limits on the product",
+      "clips": [
+        {
+          "id": "03-product",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prod-1",
+              "text": "A digital product is a product of the Digital kind, with the Digital files part. Open Commerce, Products, and edit the product that you sell as a file."
+            },
+            {
+              "id": "prod-2",
+              "text": "Under Files, choose one or more files. Each one uploads right away, up to one gigabyte, and appears in the list. To replace a file, tick Remove next to the old one and upload the new one. Buyers who already have the old file keep it."
+            },
+            {
+              "id": "prod-3",
+              "text": "Downloads per buyer and Days the links work are optional. Set them to give this product its own limits, or leave them blank to use the site's settings."
+            },
+            {
+              "id": "prod-4",
+              "text": "Publish the product. When the site checks uploads for viruses, a file that fails the check is not kept, and an error shows under Files."
+            }
+          ]
+        }
+      ],
+      "short": "product"
+    },
+    {
+      "id": "04",
+      "title": "Settings",
+      "subtitle": "The limits for every product",
+      "clips": [
+        {
+          "id": "04-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Downloads. Downloads per buyer is how many times a buyer can download each file they bought. Zero means no limit."
+            },
+            {
+              "id": "set-2",
+              "text": "Days the links work is how long after paying the links work. Zero means they never expire. A product's own values win over these."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "05",
+      "title": "What buyers see",
+      "subtitle": "The order page and the download page",
+      "clips": [
+        {
+          "id": "05-buyer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "buyer-1",
+              "text": "When the order is paid, the confirmation email has a Your downloads section, with a link to each file and how many downloads and days it allows."
+            },
+            {
+              "id": "buyer-2",
+              "text": "In their account, a signed-in buyer finds Downloads: each file, the order it came from, how many downloads are left, and until when."
+            },
+            {
+              "id": "buyer-3",
+              "text": "From Orders, they open the order. Its page lists what they bought and what they paid, and shows Your downloads, with a Download button for each file."
+            },
+            {
+              "id": "buyer-4",
+              "text": "A link opens a page with the file's name, how many downloads are left and until when, and a Download button. When a link no longer works, the page says why: it expired, all its downloads were used, or the order was canceled or refunded."
+            }
+          ]
+        }
+      ],
+      "short": "buyer"
+    },
+    {
+      "id": "06",
+      "title": "Manage a buyer's downloads",
+      "subtitle": "Take back, give back, and send the link",
+      "clips": [
+        {
+          "id": "06-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Open the order under Commerce, Orders, here the order of Jamie Chen. Downloads lists each file, how many times it was downloaded, until when its link works, and whether it still does."
+            },
+            {
+              "id": "man-2",
+              "text": "Take back stops a link from working. Let's take back the first file's link: the buyer who opens it is told that it no longer works, and why."
+            },
+            {
+              "id": "man-3",
+              "text": "Give downloads back lets the buyer download again: the count starts over, the link works for another period, and a link you took back works again."
+            },
+            {
+              "id": "man-4",
+              "text": "Buyer's link is the link to send a buyer who lost their email."
+            },
+            {
+              "id": "man-5",
+              "text": "Canceling an order, or refunding all of it, takes its downloads back. After a partial refund, the buyer keeps them."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "An author selling ebooks: upload each ebook on its product, and every buyer gets it the moment they pay."
+            },
+            {
+              "id": "use-2",
+              "text": "Software with a time-limited download: set Days the links work, so a link found later no longer works."
+            },
+            {
+              "id": "use-3",
+              "text": "A course with several files: add every file to one product, and the buyer downloads each of them."
+            },
+            {
+              "id": "use-4",
+              "text": "A lost email: open the order, copy the buyer's link, and send it, or give the downloads back if they were used up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Digital Downloads keeps your files private, delivers them after payment, and leaves you in control of every link. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
