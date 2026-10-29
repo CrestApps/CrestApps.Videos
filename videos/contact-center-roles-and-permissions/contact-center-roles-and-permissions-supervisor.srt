@@ -1,0 +1,52 @@
+1
+00:00:03,232 --> 00:00:05,146
+Open the Supervisor role.
+
+2
+00:00:05,146 --> 00:00:06,319
+Type monitor:
+
+3
+00:00:06,319 --> 00:00:11,812
+Monitor the Contact Center in real time is allowed, which opens the live dashboard.
+
+4
+00:00:11,812 --> 00:00:12,985
+Type reports:
+
+5
+00:00:12,985 --> 00:00:15,762
+View Contact Center reports is allowed.
+
+6
+00:00:16,709 --> 00:00:18,141
+Type take over:
+
+7
+00:00:18,141 --> 00:00:24,486
+a supervisor can take over, end, transfer and record live calls, and set agents' state.
+
+8
+00:00:24,486 --> 00:00:25,987
+Type recordings:
+
+9
+00:00:25,987 --> 00:00:29,739
+a supervisor listens to anyone's call recordings.
+
+10
+00:00:30,189 --> 00:00:31,326
+Type queues:
+
+11
+00:00:31,326 --> 00:00:33,791
+Sign in to queues is not allowed.
+
+12
+00:00:33,791 --> 00:00:38,656
+A supervisor who also takes calls needs the Agent role as well, because
+
+13
+00:00:38,656 --> 00:00:41,689
+a user gets the permissions of every role.
+

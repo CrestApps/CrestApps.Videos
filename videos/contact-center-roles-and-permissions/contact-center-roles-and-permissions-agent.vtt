@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.204 --> 00:00:04.852
+Open the Agent role.
+
+00:00:04.852 --> 00:00:07.831
+Search permissions narrows the long list.
+
+00:00:07.831 --> 00:00:08.972
+Type queues:
+
+00:00:08.972 --> 00:00:13.029
+Sign in to Contact Center queues and campaigns is allowed.
+
+00:00:13.029 --> 00:00:15.374
+The Manage permissions are not.
+
+00:00:15.831 --> 00:00:17.723
+Type live interactions.
+
+00:00:17.723 --> 00:00:23.726
+An agent may pause recording and start a secure capture, on their own live calls only.
+
+00:00:23.726 --> 00:00:25.748
+Type own call recordings:
+
+00:00:25.748 --> 00:00:30.251
+an agent can listen to their own calls, never to anyone else's.
+
+00:00:30.701 --> 00:00:32.029
+Type soft phone.
+
+00:00:32.029 --> 00:00:35.048
+Use the telephony soft phone is not allowed:
+
+00:00:35.048 --> 00:00:37.524
+the Agent role does not include it.
+
+00:00:37.524 --> 00:00:41.811
+Tick it, and click Save, so agents can take calls in the browser.
+
