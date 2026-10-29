@@ -1,0 +1,24 @@
+1
+00:00:03,194 --> 00:00:06,036
+Open Interaction Center, Opportunities.
+
+2
+00:00:06,036 --> 00:00:11,404
+The list shows the open opportunities, with the account, the stage, the amount,
+
+3
+00:00:11,404 --> 00:00:13,994
+the probability and the close date.
+
+4
+00:00:14,445 --> 00:00:16,022
+Search with terms.
+
+5
+00:00:16,022 --> 00:00:21,342
+Stage finds a stage by name, Closed finds closed or open opportunities, Won
+
+6
+00:00:21,342 --> 00:00:26,465
+finds the ones that were won, and Account finds the deals of an account.
+

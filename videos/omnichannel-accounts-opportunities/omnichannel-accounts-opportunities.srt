@@ -1,0 +1,232 @@
+1
+00:00:01,000 --> 00:00:05,171
+This video shows accounts and opportunities in the Omnichannel CRM:
+
+2
+00:00:05,171 --> 00:00:09,229
+how contacts and deals are grouped under an account, how to add a
+
+3
+00:00:09,229 --> 00:00:13,400
+deal and find it with search terms, what happens when an account is
+
+4
+00:00:13,400 --> 00:00:15,400
+deleted, and the CRM reports.
+
+5
+00:00:20,000 --> 00:00:25,456
+A company has several people you talk to, and often more than one deal in progress.
+
+6
+00:00:25,456 --> 00:00:29,380
+Looking at each person alone hides the whole relationship.
+
+7
+00:00:30,130 --> 00:00:32,847
+An account is the company or household.
+
+8
+00:00:32,847 --> 00:00:38,340
+Its contacts and its opportunities hang under it, so you see everything in one place.
+
+9
+00:00:39,090 --> 00:00:40,925
+An opportunity is a deal.
+
+10
+00:00:40,925 --> 00:00:44,951
+It has a stage, an amount, a close date and a primary contact,
+
+11
+00:00:44,951 --> 00:00:47,200
+and it can belong to an account.
+
+12
+00:00:51,384 --> 00:00:54,150
+Open Interaction Center, Accounts.
+
+13
+00:00:54,150 --> 00:00:56,156
+Each row is an account.
+
+14
+00:00:56,156 --> 00:00:59,544
+Click List Items on a row to open its page.
+
+15
+00:01:00,006 --> 00:01:06,094
+The account's page lists its contacts and its opportunities, with the usual search and filters.
+
+16
+00:01:06,094 --> 00:01:08,866
+Edit Account changes the account itself.
+
+17
+00:01:09,318 --> 00:01:13,791
+List Activities shows the activities of every contact in the account, so a
+
+18
+00:01:13,791 --> 00:01:17,258
+supervisor sees the whole conversation with the company.
+
+19
+00:01:21,432 --> 00:01:25,449
+A contact joins an account with the Account picker on its editor.
+
+20
+00:01:25,449 --> 00:01:28,732
+Open a contact and choose the account from the list.
+
+21
+00:01:30,382 --> 00:01:32,805
+Opportunities have the same picker.
+
+22
+00:01:32,805 --> 00:01:37,592
+Every contact and opportunity type can join an account without extra setup.
+
+23
+00:01:37,592 --> 00:01:39,601
+Leads never join an account:
+
+24
+00:01:39,601 --> 00:01:42,142
+they get one when they are converted.
+
+25
+00:01:46,336 --> 00:01:49,178
+Open Interaction Center, Opportunities.
+
+26
+00:01:49,178 --> 00:01:54,546
+The list shows the open opportunities, with the account, the stage, the amount,
+
+27
+00:01:54,546 --> 00:01:57,136
+the probability and the close date.
+
+28
+00:01:57,587 --> 00:01:59,164
+Search with terms.
+
+29
+00:01:59,164 --> 00:02:04,484
+Stage finds a stage by name, Closed finds closed or open opportunities, Won
+
+30
+00:02:04,484 --> 00:02:09,607
+finds the ones that were won, and Account finds the deals of an account.
+
+31
+00:02:13,830 --> 00:02:15,982
+Click New Sales Opportunity.
+
+32
+00:02:15,982 --> 00:02:21,490
+Pick the Account, give the deal a title, and enter the Amount and the Close date.
+
+33
+00:02:22,278 --> 00:02:25,657
+The Primary contact picker lists your contact types.
+
+34
+00:02:25,657 --> 00:02:30,027
+The Stage decides whether the opportunity is open, won or lost, and a
+
+35
+00:02:30,027 --> 00:02:33,698
+new opportunity starts with the probability of its stage.
+
+36
+00:02:34,151 --> 00:02:38,646
+The Opportunity owner, the Lead source and the Campaign are optional.
+
+37
+00:02:38,646 --> 00:02:42,961
+Publish the opportunity, and it is on the list and in the account.
+
+38
+00:02:47,166 --> 00:02:50,899
+Use Actions, Delete on an account row to remove it.
+
+39
+00:02:50,899 --> 00:02:57,056
+Deleting an account leaves its contacts and opportunities in place, outside any account.
+
+40
+00:02:57,506 --> 00:03:01,708
+The contacts are still on the Contacts list, and the opportunity is still
+
+41
+00:03:01,708 --> 00:03:04,686
+on the Opportunities list, now without an account.
+
+42
+00:03:08,886 --> 00:03:15,965
+Three reports appear under Reports, CRM and Campaigns, and need the View Omnichannel reports permission.
+
+43
+00:03:15,965 --> 00:03:18,346
+Each is filtered by date range.
+
+44
+00:03:19,096 --> 00:03:23,517
+The Lead funnel shows the leads created in the period by their current
+
+45
+00:03:23,517 --> 00:03:25,785
+status, with the share converted.
+
+46
+00:03:25,785 --> 00:03:31,019
+Lead conversion by source and list shows leads, conversions, the conversion rate and
+
+47
+00:03:31,019 --> 00:03:32,996
+the average time to convert.
+
+48
+00:03:33,746 --> 00:03:38,674
+The Opportunity pipeline shows the open opportunities by stage with their amount and
+
+49
+00:03:38,674 --> 00:03:42,506
+weighted amount, and the win rate of those closed in the period.
+
+50
+00:03:46,706 --> 00:03:51,526
+See every person and every deal of a company on one page.
+
+51
+00:03:52,276 --> 00:03:57,026
+Review the whole conversation with a company, across all its contacts.
+
+52
+00:03:57,776 --> 00:04:02,746
+Track deals by stage and amount, and see what is closing this month.
+
+53
+00:04:03,496 --> 00:04:08,516
+Report on the pipeline and on how well each lead source converts.
+
+54
+00:04:10,516 --> 00:04:14,403
+Group the contacts and the deals of a company under one account, follow
+
+55
+00:04:14,403 --> 00:04:18,390
+every deal through its stages, and read the pipeline and the lead sources
+
+56
+00:04:18,390 --> 00:04:21,519
+in the reports, so you always know what is closing next.
+
+57
+00:04:21,519 --> 00:04:25,354
+The user manual and the technical guide are linked in the description.
+
+58
+00:04:25,354 --> 00:04:26,666
+Thanks for watching.
+

@@ -1,0 +1,28 @@
+1
+00:00:03,184 --> 00:00:05,950
+Open Interaction Center, Accounts.
+
+2
+00:00:05,950 --> 00:00:07,956
+Each row is an account.
+
+3
+00:00:07,956 --> 00:00:11,344
+Click List Items on a row to open its page.
+
+4
+00:00:11,806 --> 00:00:17,894
+The account's page lists its contacts and its opportunities, with the usual search and filters.
+
+5
+00:00:17,894 --> 00:00:20,666
+Edit Account changes the account itself.
+
+6
+00:00:21,118 --> 00:00:25,591
+List Activities shows the activities of every contact in the account, so a
+
+7
+00:00:25,591 --> 00:00:29,058
+supervisor sees the whole conversation with the company.
+
