@@ -1,0 +1,87 @@
+{
+  "title": "AI Prompt Security: Protect Your Public AI Assistants | CrestApps for Orchard Core",
+  "description": "Anyone can type anything into a public assistant: instructions to ignore its rules, requests to reveal its prompt, floods of messages. CrestApps AI Prompt Security defends an assistant with injection detection, output filtering, a security preamble, input delimiters, audit logging, rate limits and anonymous visitor controls.\n\nIn this video:\n• The risks: injection, leakage and abuse\n• The Prompt Security settings and the blocking threshold\n• Testing an attack\n• Message and anonymous session limits, with tiers\n• Visitor Identity: the cookie, cross-site embedding, remote address storage\n• A profile's own limits",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "Security",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI prompt security",
+    "prompt injection",
+    "AI assistant",
+    "rate limiting",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "What it protects"
+    },
+    {
+      "time": "0:54",
+      "title": "The protections"
+    },
+    {
+      "time": "1:49",
+      "title": "Try an attack"
+    },
+    {
+      "time": "2:14",
+      "title": "Message and session limits"
+    },
+    {
+      "time": "2:51",
+      "title": "Visitor identity"
+    },
+    {
+      "time": "3:39",
+      "title": "Limits of one profile"
+    },
+    {
+      "time": "4:04",
+      "title": "Good to know"
+    },
+    {
+      "time": "4:32",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: profiles",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/profiles"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/profiles.md"
+  ],
+  "length": "4:43"
+}

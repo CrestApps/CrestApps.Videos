@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:06.837
+A profile has its own limits on its Content tab:
+
+00:00:06.837 --> 00:00:10.964
+the messages per window, the window, and anonymous tiers.
+
+00:00:10.964 --> 00:00:14.960
+They apply to this profile, instead of the site values.
+
+00:00:15.418 --> 00:00:20.091
+Tick Do not use tiered anonymous message limits for this profile to ignore
+
+00:00:20.091 --> 00:00:21.726
+the tiers of the site.
+
+00:00:21.726 --> 00:00:24.588
+The session-start limits work the same way.
+
