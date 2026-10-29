@@ -1,0 +1,72 @@
+1
+00:00:03,206 --> 00:00:07,168
+Open Subscriptions, Installment Plans, and click New plan.
+
+2
+00:00:07,168 --> 00:00:10,386
+The list is empty until you make a first plan.
+
+3
+00:00:10,838 --> 00:00:13,951
+Choose an existing customer, or enter a new one:
+
+4
+00:00:13,951 --> 00:00:15,507
+a name, and an email.
+
+5
+00:00:15,507 --> 00:00:19,714
+A new customer gets an account with that email, and sets a password
+
+6
+00:00:19,714 --> 00:00:22,768
+with Forgot password when they want to sign in.
+
+7
+00:00:23,228 --> 00:00:26,521
+Say what the plan is for, such as Kitchen remodel.
+
+8
+00:00:26,521 --> 00:00:31,402
+Enter the total, the down payment today, and the number of payments after it.
+
+9
+00:00:31,402 --> 00:00:34,990
+Choose how often they fall due, and the first due date.
+
+10
+00:00:34,990 --> 00:00:35,637
+Here:
+
+11
+00:00:35,637 --> 00:00:40,048
+twelve hundred dollars, three hundred down, and six monthly payments.
+
+12
+00:00:40,516 --> 00:00:44,763
+The Schedule card shows every payment, its date and its amount:
+
+13
+00:00:44,763 --> 00:00:47,717
+six payments of one hundred fifty dollars.
+
+14
+00:00:47,717 --> 00:00:50,240
+Then choose how they are collected:
+
+15
+00:00:50,240 --> 00:00:55,226
+charge the card on each due date, or invoice the customer for each payment.
+
+16
+00:00:55,753 --> 00:00:58,079
+Click Continue to the down payment.
+
+17
+00:00:58,079 --> 00:01:01,935
+The plan is saved as Waiting for down payment, and the page to
+
+18
+00:01:01,935 --> 00:01:03,863
+take the down payment opens.
+

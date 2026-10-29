@@ -1,0 +1,100 @@
+{
+  "title": "Installment Plans: Sell on a Payment Plan with a Down Payment and Scheduled Payments | CrestApps for Orchard Core",
+  "description": "Some purchases are too big to pay at once. The CrestApps Installment Plans feature lets you sell on a payment plan from your Orchard Core site: a down payment today, then a fixed schedule of payments charged to the saved card or invoiced to the customer, with reminders, receipts, retries for declined cards, and installments that customers can choose themselves at checkout.\n\nIn this video:\n• Why installment plans, and how a plan works\n• Plan settings: defaults, retries and installments at checkout\n• Creating a plan: customer, amounts, schedule and collection\n• Managing a plan: summary, payments, history and cancel\n• Taking the card, Charge now, declined cards and statuses\n• Customers choosing installments at checkout\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Payments",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "installment plans",
+    "payment plan",
+    "down payment",
+    "scheduled payments",
+    "recurring charges",
+    "Stripe",
+    "declined card",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:22",
+      "title": "Why installment plans"
+    },
+    {
+      "time": "0:53",
+      "title": "How a plan works"
+    },
+    {
+      "time": "1:27",
+      "title": "Plan settings"
+    },
+    {
+      "time": "2:15",
+      "title": "Create a plan"
+    },
+    {
+      "time": "3:20",
+      "title": "Manage a plan"
+    },
+    {
+      "time": "4:09",
+      "title": "After the down payment"
+    },
+    {
+      "time": "4:56",
+      "title": "Declined cards and statuses"
+    },
+    {
+      "time": "5:36",
+      "title": "Installments at checkout"
+    },
+    {
+      "time": "6:20",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:45",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/installment-plans"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/installment-plans"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Subscriptions.Installments"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/installment-plans.md",
+    "src/CrestApps.Docs/docs/modules/installment-plans.md"
+  ],
+  "length": "6:54"
+}

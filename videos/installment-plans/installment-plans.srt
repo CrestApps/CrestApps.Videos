@@ -1,0 +1,388 @@
+1
+00:00:01,000 --> 00:00:03,780
+Some purchases are too big to pay at once.
+
+2
+00:00:03,780 --> 00:00:08,124
+An installment plan lets a customer pay a down payment today, and the
+
+3
+00:00:08,124 --> 00:00:10,035
+rest in scheduled payments.
+
+4
+00:00:10,035 --> 00:00:13,916
+This video shows how to set one up, what you and the customer
+
+5
+00:00:13,916 --> 00:00:18,376
+see, what happens when a card is declined, and how customers can choose
+
+6
+00:00:18,376 --> 00:00:21,040
+installments for themselves at checkout.
+
+7
+00:00:25,640 --> 00:00:29,134
+A kitchen remodel, a course, a piece of equipment:
+
+8
+00:00:29,134 --> 00:00:32,940
+many sales are easier to close when the price is split.
+
+9
+00:00:33,690 --> 00:00:39,380
+You want the first payment today, and the rest collected on time, without chasing anyone.
+
+10
+00:00:40,130 --> 00:00:43,270
+The customer wants to know what they will pay, and when.
+
+11
+00:00:44,020 --> 00:00:46,470
+An installment plan gives both:
+
+12
+00:00:46,470 --> 00:00:52,230
+a down payment, then a fixed schedule, collected from a saved card or by invoice.
+
+13
+00:00:56,430 --> 00:01:00,241
+A plan has a total, a down payment, and a number of payments
+
+14
+00:01:00,241 --> 00:01:02,840
+after it, which split the rest equally.
+
+15
+00:01:03,590 --> 00:01:08,506
+The payments fall due every week, every two weeks, every month or every
+
+16
+00:01:08,506 --> 00:01:11,890
+three months, from a first due date you choose.
+
+17
+00:01:12,640 --> 00:01:16,898
+They are collected by charging the card kept at the down payment, or
+
+18
+00:01:16,898 --> 00:01:18,740
+by invoicing the customer.
+
+19
+00:01:19,490 --> 00:01:24,441
+Every payment is also a transaction, so it shows in Transactions, and in
+
+20
+00:01:24,441 --> 00:01:26,790
+the customer's My Transactions.
+
+21
+00:01:30,998 --> 00:01:33,498
+Open Settings, Installment Plans.
+
+22
+00:01:33,498 --> 00:01:37,920
+Collect scheduled payments by sets what a new plan starts with:
+
+23
+00:01:37,920 --> 00:01:42,662
+charging the saved card on each due date, or invoicing the customer.
+
+24
+00:01:42,662 --> 00:01:45,418
+You can still change it on each plan.
+
+25
+00:01:45,875 --> 00:01:50,949
+Retry a declined card after lists the days to wait after each failed charge:
+
+26
+00:01:50,949 --> 00:01:53,238
+by default one, three and five.
+
+27
+00:01:53,238 --> 00:01:58,065
+Leave it empty to hand a declined payment to the customer straight away.
+
+28
+00:01:58,519 --> 00:02:02,824
+Installments at checkout lets customers split a balance themselves.
+
+29
+00:02:02,824 --> 00:02:07,601
+Offer for balances from picks the kinds of balance, and Numbers of payments
+
+30
+00:02:07,601 --> 00:02:10,844
+offered picks the choices, such as three and six.
+
+31
+00:02:10,844 --> 00:02:14,619
+Smallest balance keeps small balances for payment in full.
+
+32
+00:02:18,825 --> 00:02:22,786
+Open Subscriptions, Installment Plans, and click New plan.
+
+33
+00:02:22,786 --> 00:02:26,005
+The list is empty until you make a first plan.
+
+34
+00:02:26,457 --> 00:02:29,569
+Choose an existing customer, or enter a new one:
+
+35
+00:02:29,569 --> 00:02:31,125
+a name, and an email.
+
+36
+00:02:31,125 --> 00:02:35,333
+A new customer gets an account with that email, and sets a password
+
+37
+00:02:35,333 --> 00:02:38,387
+with Forgot password when they want to sign in.
+
+38
+00:02:38,846 --> 00:02:42,140
+Say what the plan is for, such as Kitchen remodel.
+
+39
+00:02:42,140 --> 00:02:47,021
+Enter the total, the down payment today, and the number of payments after it.
+
+40
+00:02:47,021 --> 00:02:50,609
+Choose how often they fall due, and the first due date.
+
+41
+00:02:50,609 --> 00:02:51,256
+Here:
+
+42
+00:02:51,256 --> 00:02:55,666
+twelve hundred dollars, three hundred down, and six monthly payments.
+
+43
+00:02:56,134 --> 00:03:00,381
+The Schedule card shows every payment, its date and its amount:
+
+44
+00:03:00,381 --> 00:03:03,336
+six payments of one hundred fifty dollars.
+
+45
+00:03:03,336 --> 00:03:05,859
+Then choose how they are collected:
+
+46
+00:03:05,859 --> 00:03:10,844
+charge the card on each due date, or invoice the customer for each payment.
+
+47
+00:03:11,372 --> 00:03:13,697
+Click Continue to the down payment.
+
+48
+00:03:13,697 --> 00:03:17,554
+The plan is saved as Waiting for down payment, and the page to
+
+49
+00:03:17,554 --> 00:03:19,482
+take the down payment opens.
+
+50
+00:03:23,643 --> 00:03:27,938
+The list shows each plan with its status, the customer, the total, what
+
+51
+00:03:27,938 --> 00:03:31,564
+was received and what is outstanding, and the next payment.
+
+52
+00:03:31,564 --> 00:03:33,293
+Open a plan to manage it.
+
+53
+00:03:33,757 --> 00:03:35,752
+The plan page has a Summary:
+
+54
+00:03:35,752 --> 00:03:40,738
+its status, the customer, the total, what was received and what is outstanding,
+
+55
+00:03:40,738 --> 00:03:44,082
+how the payments are collected, and who created it.
+
+56
+00:03:44,082 --> 00:03:49,713
+Payments lists the down payment and every scheduled payment, with its status and due date.
+
+57
+00:03:49,713 --> 00:03:53,057
+History lists everything that happened to the plan.
+
+58
+00:03:53,527 --> 00:03:56,836
+While a plan is not finished, you can cancel it.
+
+59
+00:03:56,836 --> 00:04:01,064
+Enter a reason if you like, click Cancel the plan, and confirm.
+
+60
+00:04:01,064 --> 00:04:05,170
+Payments already received stay received, and can be refunded.
+
+61
+00:04:05,170 --> 00:04:07,927
+Payments not yet received are canceled.
+
+62
+00:04:12,127 --> 00:04:17,344
+Taking the down payment needs a payment provider that can keep a card, such as Stripe.
+
+63
+00:04:17,344 --> 00:04:22,617
+This demonstration site has none connected, so the next steps are described, not shown.
+
+64
+00:04:23,367 --> 00:04:27,925
+On the Take the down payment page, you enter the card, and click Charge.
+
+65
+00:04:27,925 --> 00:04:32,657
+When the payment is confirmed, the plan is Active, and the schedule starts.
+
+66
+00:04:33,407 --> 00:04:38,634
+On each due date, the saved card is charged, or the customer is invoiced.
+
+67
+00:04:38,634 --> 00:04:44,787
+A few days before, the customer is reminded, and after each payment they get a receipt.
+
+68
+00:04:45,537 --> 00:04:50,383
+Charge now collects a payment before its due date, or tries a declined
+
+69
+00:04:50,383 --> 00:04:55,357
+card again at once, on an Active or Past due plan that charges the card.
+
+70
+00:04:59,557 --> 00:05:04,083
+If a card is declined, the payment is marked Failed, the plan becomes
+
+71
+00:05:04,083 --> 00:05:08,247
+Past due, and the customer is told when it will be tried again.
+
+72
+00:05:08,997 --> 00:05:12,271
+The card is tried again after the days you set:
+
+73
+00:05:12,271 --> 00:05:14,556
+by default one, three and five.
+
+74
+00:05:14,556 --> 00:05:17,645
+After the last try, the payment becomes Due:
+
+75
+00:05:17,645 --> 00:05:23,327
+a balance the customer pays from My Transactions, and the overdue reminders take over.
+
+76
+00:05:24,077 --> 00:05:30,524
+A plan is Waiting for down payment, Active, Past due, Completed or Canceled.
+
+77
+00:05:30,524 --> 00:05:35,477
+Each payment is Scheduled, Due, Paid, Failed or Canceled.
+
+78
+00:05:39,677 --> 00:05:43,346
+Customers can also choose installments themselves.
+
+79
+00:05:43,346 --> 00:05:48,652
+When they pay an outstanding balance, checkout can offer Choose how to pay:
+
+80
+00:05:48,652 --> 00:05:52,517
+Pay in full, or, for example, three monthly payments.
+
+81
+00:05:53,267 --> 00:05:56,982
+Choosing installments makes a plan with no down payment:
+
+82
+00:05:56,982 --> 00:06:01,716
+the first payment is charged in the same checkout, and the card is saved.
+
+83
+00:06:01,716 --> 00:06:06,450
+Once it is received, the plan replaces the original balance, and the rest
+
+84
+00:06:06,450 --> 00:06:08,487
+is charged on its due dates.
+
+85
+00:06:09,237 --> 00:06:13,609
+If the customer leaves checkout without paying, the plan is closed, and they
+
+86
+00:06:13,609 --> 00:06:15,582
+still owe the original balance.
+
+87
+00:06:15,582 --> 00:06:18,887
+You turn this on in the plan settings, as shown earlier.
+
+88
+00:06:23,087 --> 00:06:24,318
+A contractor:
+
+89
+00:06:24,318 --> 00:06:28,077
+a down payment, then monthly payments for a remodel.
+
+90
+00:06:28,827 --> 00:06:30,503
+A training provider:
+
+91
+00:06:30,503 --> 00:06:32,887
+a course fee in three payments.
+
+92
+00:06:33,637 --> 00:06:35,390
+An equipment seller:
+
+93
+00:06:35,390 --> 00:06:38,627
+a card kept, and charged on each due date.
+
+94
+00:06:39,377 --> 00:06:40,359
+A store:
+
+95
+00:06:40,359 --> 00:06:43,867
+customers split a large balance at checkout.
+
+96
+00:06:45,867 --> 00:06:51,358
+With installment plans, a bigger sale is easier to say yes to, and easier to collect.
+
+97
+00:06:51,358 --> 00:06:52,927
+Thanks for watching.
+
