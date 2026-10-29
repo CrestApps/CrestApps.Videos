@@ -1,0 +1,32 @@
+1
+00:00:03,179 --> 00:00:05,285
+Open a chat with the profile.
+
+2
+00:00:05,285 --> 00:00:10,039
+An Attach files button appears, with the list of formats that it accepts.
+
+3
+00:00:10,490 --> 00:00:13,333
+Click Attach files, and choose the file.
+
+4
+00:00:13,333 --> 00:00:16,300
+Here it is the return policy of a company.
+
+5
+00:00:16,752 --> 00:00:19,824
+Then ask something that only the file answers:
+
+6
+00:00:19,824 --> 00:00:21,892
+can I return opened software?
+
+7
+00:00:22,363 --> 00:00:25,018
+The assistant answers from the file:
+
+8
+00:00:25,018 --> 00:00:27,863
+no, opened software cannot be returned.
+

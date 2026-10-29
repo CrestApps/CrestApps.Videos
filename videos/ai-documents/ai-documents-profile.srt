@@ -1,0 +1,16 @@
+1
+00:00:03,211 --> 00:00:06,422
+Attachments are allowed profile by profile.
+
+2
+00:00:06,422 --> 00:00:12,191
+Open the profile, open the Knowledge tab, and tick Allow session document uploads.
+
+3
+00:00:12,661 --> 00:00:19,126
+Describe figures in uploaded documents follows the site default, or you choose for this profile.
+
+4
+00:00:19,126 --> 00:00:22,041
+Choose Describe figures, and click Save.
+

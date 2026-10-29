@@ -1,0 +1,91 @@
+{
+  "title": "AI Documents: Ask About a File in a Chat, Charts Included | CrestApps for Orchard Core",
+  "description": "A person has a file and a question, such as a policy, a report or a contract. With CrestApps AI Documents, they attach the file to a chat and the assistant answers from it. The file belongs to that chat only, and a vision model can describe the charts inside it, so the assistant can answer about them too.\n\nIn this video:\n• Why people attach files to a chat\n• What can be attached: text, PDF, Word, PowerPoint, spreadsheets, and figures\n• The Documents section of Settings > Artificial Intelligence, and the Default vision deployment\n• Allowing uploads and describing figures on a profile\n• Attaching a file and asking about it\n• Asking about a chart in a PDF report",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI documents",
+    "AI chat",
+    "document upload",
+    "RAG",
+    "retrieval-augmented generation",
+    "AI assistant",
+    "vision model",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why attach files"
+    },
+    {
+      "time": "0:46",
+      "title": "What can be attached"
+    },
+    {
+      "time": "1:27",
+      "title": "The settings"
+    },
+    {
+      "time": "2:36",
+      "title": "Allow it on a profile"
+    },
+    {
+      "time": "2:59",
+      "title": "Attach a file"
+    },
+    {
+      "time": "3:28",
+      "title": "Charts and figures"
+    },
+    {
+      "time": "3:59",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/documents"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Documents"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/ai/documents/index.md"
+  ],
+  "length": "4:34"
+}
