@@ -1,0 +1,336 @@
+{
+  "title": "Do Not Call Lists",
+  "output": "do-not-call-lists",
+  "spoken": {
+    "DNC": "D.N.C.",
+    "CSV": "C.S.V.",
+    "FTC": "F.T.C.",
+    "CRTC": "C.R.T.C.",
+    "LNNTE-DNCL": "L.N.N.T.E. D.N.C.L.",
+    "ID": "I.D.",
+    "URL": "U.R.L.",
+    "USA": "U.S.A."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Do Not Call Lists",
+      "subtitle": "Never call a number you must not call",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A do-not-call list holds the phone numbers your company must not call. This video shows why the lists exist, where they are checked, how to upload your own list, how to make every import check them, and how to connect the national registries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why do-not-call lists",
+      "subtitle": "One call can cost far more than it earns",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Laws in many countries forbid calling people who asked not to be called, and the fines for a single call can be large."
+            },
+            {
+              "id": "why-2",
+              "text": "The numbers come from several places: your own suppression list of customers who said no, files you download each month, and the national registries."
+            },
+            {
+              "id": "why-3",
+              "text": "A purchased list or a spreadsheet from another system can hold hundreds of such numbers, and no agent can check them one by one."
+            },
+            {
+              "id": "why-4",
+              "text": "So you keep the lists in one place, and the site checks them for you: when contacts are imported, and again before the dialer places a call."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Where the lists are checked",
+      "subtitle": "Imports, the dialer, and calls dialed by hand",
+      "clips": [
+        {
+          "id": "02-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "When you import contacts or leads, the file can be checked against the lists you choose. Your administrator can make some lists mandatory for every import."
+            },
+            {
+              "id": "where-2",
+              "text": "A dialer profile that has Respect do-not-call and communication preferences turned on checks every connected list and registry before each call. A number on a list is not called."
+            },
+            {
+              "id": "where-3",
+              "text": "Depending on how your site is set up, calls that agents dial themselves can be checked too."
+            },
+            {
+              "id": "where-4",
+              "text": "A registry that cannot answer, for example because it is unreachable, never counts as not listed. An import skips that row and says why, and the dialer tries the record again in a later cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Upload a local list",
+      "subtitle": "Your own list, by country",
+      "clips": [
+        {
+          "id": "03-upload",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "up-1",
+              "text": "Open Interaction Center, Local DNC Registry. It keeps the lists you upload yourself. Nothing is uploaded yet, so click Upload new list."
+            },
+            {
+              "id": "up-2",
+              "text": "Enter a List name that says what the list is, for example June 2026 DNC Update."
+            },
+            {
+              "id": "up-3",
+              "text": "Pick the Country the numbers belong to. The menu shows each country's calling code, and numbers in the file that have no plus sign are read as numbers of this country."
+            },
+            {
+              "id": "up-4",
+              "text": "Choose the CSV file, and click Upload."
+            },
+            {
+              "id": "up-5",
+              "text": "The page returns right away and the list imports in the background. Its row shows how many records were processed while it runs, and then its result."
+            }
+          ]
+        }
+      ],
+      "short": "upload"
+    },
+    {
+      "id": "04",
+      "title": "Prepare the file",
+      "subtitle": "What the CSV file must look like",
+      "clips": [
+        {
+          "id": "04-file",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "file-1",
+              "text": "The file is a CSV with one phone number on each row, in a single column. If your list is a spreadsheet with several columns or tabs, save just the phone number column as a CSV first."
+            },
+            {
+              "id": "file-2",
+              "text": "A header row such as Phone Number is optional. It is skipped, and is not counted as an error."
+            },
+            {
+              "id": "file-3",
+              "text": "Every number is converted to its full international form before it is stored. Numbers that cannot be converted are rejected."
+            },
+            {
+              "id": "file-4",
+              "text": "Blank rows, rows with more than one value, and repeated numbers are skipped and counted as rejected records."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Follow and manage lists",
+      "subtitle": "Status, errors, and the Actions menu",
+      "clips": [
+        {
+          "id": "05-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Each list shows its file name, country, status, how many records were imported, how many were rejected, and when it was last processed."
+            },
+            {
+              "id": "man-2",
+              "text": "Completed means every row was imported. Completed with errors means the list finished, but some rows were rejected. A list that is still importing, paused or failed is not used for checking yet."
+            },
+            {
+              "id": "man-3",
+              "text": "Open the Actions menu of a list. Download errors gives you the rejected rows, with the reason for each, as a CSV file."
+            },
+            {
+              "id": "man-4",
+              "text": "A list that is pending, paused, failed or importing has more actions. Process now starts or continues a list without waiting for the background task, and Pause import stops a list that is importing."
+            },
+            {
+              "id": "man-5",
+              "text": "Delete removes the list and all its phone numbers in the background."
+            },
+            {
+              "id": "man-6",
+              "text": "To replace a list each month, upload the new file first, wait until it is completed, and then delete the old list. That way your numbers are never unprotected in between."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "06",
+      "title": "Check every import",
+      "subtitle": "So nobody can forget",
+      "clips": [
+        {
+          "id": "06-enforce",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "enf-1",
+              "text": "Use this when company policy says every contact import must be checked. Open Settings, Content Import."
+            },
+            {
+              "id": "enf-2",
+              "text": "Tick Enforce do-not-call registry checks globally. Every contact import must then check phone numbers, and the person importing cannot turn it off."
+            },
+            {
+              "id": "enf-3",
+              "text": "Under Enforced registries, tick the lists and registries that are always checked. People can add more when they import, but they cannot remove these."
+            },
+            {
+              "id": "enf-4",
+              "text": "Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "enforce"
+    },
+    {
+      "id": "07",
+      "title": "What people see when they import",
+      "subtitle": "The do-not-call section of the import screen",
+      "clips": [
+        {
+          "id": "07-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "Open Content, Import, and start an import of contacts. The Do-not-call registry section is on the import screen."
+            },
+            {
+              "id": "imp-2",
+              "text": "An enforced list shows an Enforced badge, and the option reads that the setting is globally enforced by the site administrator."
+            },
+            {
+              "id": "imp-3",
+              "text": "When a number is on a registry, Skip the row leaves it out of the import and lists it in the error file. Import it marked Do not call keeps the record, so the number is recognized if it is bought or imported again, and it is never called."
+            },
+            {
+              "id": "imp-4",
+              "text": "Under Select registries to check against, add any other list or registry for this import. Choose the file and click Upload."
+            },
+            {
+              "id": "imp-5",
+              "text": "The import runs in the background. The Bulk Import page shows Completed with errors, because the rows on the list were left out and counted as errors, with the reason."
+            }
+          ]
+        }
+      ],
+      "short": "import"
+    },
+    {
+      "id": "08",
+      "title": "Connect a national registry",
+      "subtitle": "The United States and Canada",
+      "clips": [
+        {
+          "id": "08-registries",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "reg-1",
+              "text": "Each national registry needs an account with the registry's operator. Get the account details first, then open Settings, DNC Registries and pick the registry."
+            },
+            {
+              "id": "reg-2",
+              "text": "For the USA FTC Registry, enter the Organization ID registered with the FTC for API access."
+            },
+            {
+              "id": "reg-3",
+              "text": "Then the API key the FTC gave you, and the Base URL. Keep the suggested address unless the FTC tells you otherwise."
+            },
+            {
+              "id": "reg-4",
+              "text": "The Canada LNNTE-DNCL Registry works the same way: enter the Account number registered with the CRTC, the API key, and the Base URL, and click Save."
+            },
+            {
+              "id": "reg-5",
+              "text": "After you save an API key, the box stays empty and a note says a key is stored. Leave the box empty to keep the key, or type a new one to replace it."
+            }
+          ]
+        }
+      ],
+      "short": "registries"
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Staying on the right side of the rules",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A company with its own suppression list uploads it as a local list, so the numbers of customers who said no are never called again."
+            },
+            {
+              "id": "use-2",
+              "text": "A team that buys leads makes the registries mandatory for every import, so a purchased file is cleaned before anyone sees it."
+            },
+            {
+              "id": "use-3",
+              "text": "A company that calls in two countries keeps one local list for each country, and connects both national registries."
+            },
+            {
+              "id": "use-4",
+              "text": "A monthly registry download is uploaded as a new list, and the old one is deleted once the new one is completed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Keep your lists in one place, make every import check them, and let the dialer skip what it must not call. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

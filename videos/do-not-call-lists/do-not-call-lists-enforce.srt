@@ -1,0 +1,28 @@
+1
+00:00:03,254 --> 00:00:08,685
+Use this when company policy says every contact import must be checked.
+
+2
+00:00:08,685 --> 00:00:11,224
+Open Settings, Content Import.
+
+3
+00:00:11,681 --> 00:00:14,949
+Tick Enforce do-not-call registry checks globally.
+
+4
+00:00:14,949 --> 00:00:20,901
+Every contact import must then check phone numbers, and the person importing cannot turn it off.
+
+5
+00:00:21,468 --> 00:00:26,547
+Under Enforced registries, tick the lists and registries that are always checked.
+
+6
+00:00:26,547 --> 00:00:30,808
+People can add more when they import, but they cannot remove these.
+
+7
+00:00:31,316 --> 00:00:33,186
+Click Save.
+

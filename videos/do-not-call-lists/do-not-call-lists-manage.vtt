@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.209 --> 00:00:08.687
+Each list shows its file name, country, status, how many records were imported,
+
+00:00:08.687 --> 00:00:12.619
+how many were rejected, and when it was last processed.
+
+00:00:13.164 --> 00:00:16.065
+Completed means every row was imported.
+
+00:00:16.065 --> 00:00:21.288
+Completed with errors means the list finished, but some rows were rejected.
+
+00:00:21.288 --> 00:00:26.704
+A list that is still importing, paused or failed is not used for checking yet.
+
+00:00:27.156 --> 00:00:29.716
+Open the Actions menu of a list.
+
+00:00:29.716 --> 00:00:35.846
+Download errors gives you the rejected rows, with the reason for each, as a CSV file.
+
+00:00:36.304 --> 00:00:41.147
+A list that is pending, paused, failed or importing has more actions.
+
+00:00:41.147 --> 00:00:46.637
+Process now starts or continues a list without waiting for the background task,
+
+00:00:46.637 --> 00:00:50.124
+and Pause import stops a list that is importing.
+
+00:00:50.587 --> 00:00:54.807
+Delete removes the list and all its phone numbers in the background.
+
+00:00:55.288 --> 00:00:59.641
+To replace a list each month, upload the new file first, wait until
+
+00:00:59.641 --> 00:01:02.741
+it is completed, and then delete the old list.
+
+00:01:02.741 --> 00:01:06.378
+That way your numbers are never unprotected in between.
+

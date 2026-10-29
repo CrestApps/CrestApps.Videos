@@ -1,0 +1,296 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.285
+A do-not-call list holds the phone numbers your company must not call.
+
+00:00:05.285 --> 00:00:09.458
+This video shows why the lists exist, where they are checked, how to
+
+00:00:09.458 --> 00:00:13.518
+upload your own list, how to make every import check them, and how
+
+00:00:13.518 --> 00:00:15.830
+to connect the national registries.
+
+00:00:20.430 --> 00:00:24.886
+Laws in many countries forbid calling people who asked not to be called,
+
+00:00:24.886 --> 00:00:27.800
+and the fines for a single call can be large.
+
+00:00:28.550 --> 00:00:31.015
+The numbers come from several places:
+
+00:00:31.015 --> 00:00:35.659
+your own suppression list of customers who said no, files you download each
+
+00:00:35.659 --> 00:00:38.010
+month, and the national registries.
+
+00:00:38.760 --> 00:00:43.468
+A purchased list or a spreadsheet from another system can hold hundreds of
+
+00:00:43.468 --> 00:00:46.940
+such numbers, and no agent can check them one by one.
+
+00:00:47.690 --> 00:00:51.922
+So you keep the lists in one place, and the site checks them for you:
+
+00:00:51.922 --> 00:00:56.210
+when contacts are imported, and again before the dialer places a call.
+
+00:01:00.410 --> 00:01:05.954
+When you import contacts or leads, the file can be checked against the lists you choose.
+
+00:01:05.954 --> 00:01:10.200
+Your administrator can make some lists mandatory for every import.
+
+00:01:10.950 --> 00:01:16.658
+A dialer profile that has Respect do-not-call and communication preferences turned on checks
+
+00:01:16.658 --> 00:01:19.978
+every connected list and registry before each call.
+
+00:01:19.978 --> 00:01:22.250
+A number on a list is not called.
+
+00:01:23.000 --> 00:01:26.805
+Depending on how your site is set up, calls that agents dial themselves
+
+00:01:26.805 --> 00:01:28.040
+can be checked too.
+
+00:01:28.790 --> 00:01:35.302
+A registry that cannot answer, for example because it is unreachable, never counts as not listed.
+
+00:01:35.302 --> 00:01:39.664
+An import skips that row and says why, and the dialer tries the
+
+00:01:39.664 --> 00:01:41.940
+record again in a later cycle.
+
+00:01:46.210 --> 00:01:49.627
+Open Interaction Center, Local DNC Registry.
+
+00:01:49.627 --> 00:01:52.702
+It keeps the lists you upload yourself.
+
+00:01:52.702 --> 00:01:56.530
+Nothing is uploaded yet, so click Upload new list.
+
+00:01:57.033 --> 00:02:03.703
+Enter a List name that says what the list is, for example June 2026 DNC Update.
+
+00:02:04.201 --> 00:02:06.769
+Pick the Country the numbers belong to.
+
+00:02:06.769 --> 00:02:11.218
+The menu shows each country's calling code, and numbers in the file that
+
+00:02:11.218 --> 00:02:14.641
+have no plus sign are read as numbers of this country.
+
+00:02:15.250 --> 00:02:18.630
+Choose the CSV file, and click Upload.
+
+00:02:25.876 --> 00:02:30.310
+The page returns right away and the list imports in the background.
+
+00:02:30.310 --> 00:02:35.596
+Its row shows how many records were processed while it runs, and then its result.
+
+00:02:39.796 --> 00:02:44.881
+The file is a CSV with one phone number on each row, in a single column.
+
+00:02:44.881 --> 00:02:49.772
+If your list is a spreadsheet with several columns or tabs, save just
+
+00:02:49.772 --> 00:02:52.706
+the phone number column as a CSV first.
+
+00:02:53.456 --> 00:02:56.626
+A header row such as Phone Number is optional.
+
+00:02:56.626 --> 00:02:59.796
+It is skipped, and is not counted as an error.
+
+00:03:00.546 --> 00:03:05.372
+Every number is converted to its full international form before it is stored.
+
+00:03:05.372 --> 00:03:08.396
+Numbers that cannot be converted are rejected.
+
+00:03:09.146 --> 00:03:14.305
+Blank rows, rows with more than one value, and repeated numbers are skipped
+
+00:03:14.305 --> 00:03:16.726
+and counted as rejected records.
+
+00:03:20.935 --> 00:03:26.413
+Each list shows its file name, country, status, how many records were imported,
+
+00:03:26.413 --> 00:03:30.345
+how many were rejected, and when it was last processed.
+
+00:03:30.889 --> 00:03:33.791
+Completed means every row was imported.
+
+00:03:33.791 --> 00:03:39.013
+Completed with errors means the list finished, but some rows were rejected.
+
+00:03:39.013 --> 00:03:44.429
+A list that is still importing, paused or failed is not used for checking yet.
+
+00:03:44.882 --> 00:03:47.442
+Open the Actions menu of a list.
+
+00:03:47.442 --> 00:03:53.572
+Download errors gives you the rejected rows, with the reason for each, as a CSV file.
+
+00:03:54.030 --> 00:03:58.873
+A list that is pending, paused, failed or importing has more actions.
+
+00:03:58.873 --> 00:04:04.362
+Process now starts or continues a list without waiting for the background task,
+
+00:04:04.362 --> 00:04:07.850
+and Pause import stops a list that is importing.
+
+00:04:08.312 --> 00:04:12.532
+Delete removes the list and all its phone numbers in the background.
+
+00:04:13.014 --> 00:04:17.366
+To replace a list each month, upload the new file first, wait until
+
+00:04:17.366 --> 00:04:20.467
+it is completed, and then delete the old list.
+
+00:04:20.467 --> 00:04:24.104
+That way your numbers are never unprotected in between.
+
+00:04:28.358 --> 00:04:33.789
+Use this when company policy says every contact import must be checked.
+
+00:04:33.789 --> 00:04:36.328
+Open Settings, Content Import.
+
+00:04:36.785 --> 00:04:40.053
+Tick Enforce do-not-call registry checks globally.
+
+00:04:40.053 --> 00:04:46.005
+Every contact import must then check phone numbers, and the person importing cannot turn it off.
+
+00:04:46.572 --> 00:04:51.651
+Under Enforced registries, tick the lists and registries that are always checked.
+
+00:04:51.651 --> 00:04:55.912
+People can add more when they import, but they cannot remove these.
+
+00:04:56.420 --> 00:04:58.290
+Click Save.
+
+00:05:02.590 --> 00:05:06.580
+Open Content, Import, and start an import of contacts.
+
+00:05:06.580 --> 00:05:10.770
+The Do-not-call registry section is on the import screen.
+
+00:05:14.257 --> 00:05:18.436
+An enforced list shows an Enforced badge, and the option reads that the
+
+00:05:18.436 --> 00:05:21.747
+setting is globally enforced by the site administrator.
+
+00:05:22.337 --> 00:05:25.925
+When a number is on a registry, Skip the row leaves it out
+
+00:05:25.925 --> 00:05:28.784
+of the import and lists it in the error file.
+
+00:05:28.784 --> 00:05:32.652
+Import it marked Do not call keeps the record, so the number is
+
+00:05:32.652 --> 00:05:36.857
+recognized if it is bought or imported again, and it is never called.
+
+00:05:37.444 --> 00:05:43.811
+Under Select registries to check against, add any other list or registry for this import.
+
+00:05:43.811 --> 00:05:46.424
+Choose the file and click Upload.
+
+00:05:46.890 --> 00:05:49.120
+The import runs in the background.
+
+00:05:49.120 --> 00:05:53.523
+The Bulk Import page shows Completed with errors, because the rows on the
+
+00:05:53.523 --> 00:05:57.090
+list were left out and counted as errors, with the reason.
+
+00:06:01.307 --> 00:06:06.100
+Each national registry needs an account with the registry's operator.
+
+00:06:06.100 --> 00:06:12.107
+Get the account details first, then open Settings, DNC Registries and pick the registry.
+
+00:06:12.596 --> 00:06:20.326
+For the USA FTC Registry, enter the Organization ID registered with the FTC for API access.
+
+00:06:20.822 --> 00:06:24.910
+Then the API key the FTC gave you, and the Base URL.
+
+00:06:24.910 --> 00:06:29.702
+Keep the suggested address unless the FTC tells you otherwise.
+
+00:06:37.670 --> 00:06:41.686
+The Canada LNNTE-DNCL Registry works the same way:
+
+00:06:41.686 --> 00:06:47.207
+enter the Account number registered with the CRTC, the API key, and the
+
+00:06:47.207 --> 00:06:49.430
+Base URL, and click Save.
+
+00:06:57.092 --> 00:07:01.124
+After you save an API key, the box stays empty and a note
+
+00:07:01.124 --> 00:07:02.852
+says a key is stored.
+
+00:07:02.852 --> 00:07:07.652
+Leave the box empty to keep the key, or type a new one to replace it.
+
+00:07:11.852 --> 00:07:15.687
+A company with its own suppression list uploads it as a local list,
+
+00:07:15.687 --> 00:07:19.312
+so the numbers of customers who said no are never called again.
+
+00:07:20.062 --> 00:07:24.962
+A team that buys leads makes the registries mandatory for every import, so
+
+00:07:24.962 --> 00:07:28.392
+a purchased file is cleaned before anyone sees it.
+
+00:07:29.142 --> 00:07:33.534
+A company that calls in two countries keeps one local list for each
+
+00:07:33.534 --> 00:07:36.722
+country, and connects both national registries.
+
+00:07:37.472 --> 00:07:41.587
+A monthly registry download is uploaded as a new list, and the old
+
+00:07:41.587 --> 00:07:44.502
+one is deleted once the new one is completed.
+
+00:07:46.502 --> 00:07:50.556
+Keep your lists in one place, make every import check them, and let
+
+00:07:50.556 --> 00:07:52.999
+the dialer skip what it must not call.
+
+00:07:52.999 --> 00:07:54.442
+Thanks for watching.
+

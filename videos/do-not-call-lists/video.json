@@ -1,0 +1,101 @@
+{
+  "title": "Do Not Call Lists: Never Call a Number You Must Not Call | CrestApps for Orchard Core",
+  "description": "A call to a number on a do-not-call list can cost far more than it earns, and no agent can check a purchased list by hand. CrestApps for Orchard Core keeps your own lists and the national registries in one place and checks them when contacts are imported and before the dialer places a call.\n\nIn this video:\n• Why do-not-call lists matter, and where they are checked\n• Uploading a local list by country, and preparing the CSV file\n• Following and managing lists: status, errors and the Actions menu\n• Making every import check the lists you choose\n• What people see on the import screen\n• Connecting the USA FTC and Canada LNNTE-DNCL registries\n• Use cases for suppression lists, purchased leads and monthly downloads",
+  "hashtags": [
+    "OrchardCore",
+    "DoNotCall",
+    "Compliance",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "do not call",
+    "DNC list",
+    "DNC registry",
+    "FTC",
+    "LNNTE-DNCL",
+    "contact import",
+    "outbound dialer",
+    "compliance",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why do-not-call lists"
+    },
+    {
+      "time": "0:57",
+      "title": "Where the lists are checked"
+    },
+    {
+      "time": "1:42",
+      "title": "Upload a local list"
+    },
+    {
+      "time": "2:36",
+      "title": "Prepare the file"
+    },
+    {
+      "time": "3:17",
+      "title": "Follow and manage lists"
+    },
+    {
+      "time": "4:25",
+      "title": "Check every import"
+    },
+    {
+      "time": "4:59",
+      "title": "What people see when they import"
+    },
+    {
+      "time": "5:58",
+      "title": "Connect a national registry"
+    },
+    {
+      "time": "7:08",
+      "title": "Use cases"
+    },
+    {
+      "time": "7:45",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/do-not-call-lists"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/dnc-registry"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.DncRegistry"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/do-not-call-lists.md",
+    "src/CrestApps.Docs/docs/modules/dnc-registry.md"
+  ],
+  "length": "7:56"
+}
