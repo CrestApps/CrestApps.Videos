@@ -1,0 +1,90 @@
+{
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why site-wide settings"
+    },
+    {
+      "time": "0:56",
+      "title": "Default numbers"
+    },
+    {
+      "time": "1:36",
+      "title": "Recording governance"
+    },
+    {
+      "time": "3:29",
+      "title": "How the disclosure is given"
+    },
+    {
+      "time": "4:21",
+      "title": "External transfer destinations"
+    },
+    {
+      "time": "5:19",
+      "title": "Secure data capture"
+    },
+    {
+      "time": "6:03",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:42",
+      "title": "Wrap-up"
+    }
+  ],
+  "youtube": {},
+  "title": "Contact Center Settings: Recording, Consent and Transfers | CrestApps for Orchard Core",
+  "description": "Some contact center rules cannot be left to each queue or each agent: whether a call is recorded, what the caller is told, which outside numbers agents may transfer to, and how card details are captured. The Contact Center settings in CrestApps for Orchard Core hold them in one place, in four tabs.\n\nIn this video:\n• Why the rules are site-wide\n• Default numbers for calls and texts\n• Recording governance: consent model, disclosure, retention, legal hold and pausing\n• How the recording disclosure is given on inbound, AI and outbound calls\n• External transfer destinations\n• Secure data capture for card and bank details\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "CallRecording",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center settings",
+    "call recording",
+    "recording consent",
+    "legal hold",
+    "transfer destinations",
+    "secure data capture",
+    "PCI",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/contact-center-settings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/contact-center-settings.md"
+  ],
+  "length": "6:56"
+}

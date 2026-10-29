@@ -1,0 +1,44 @@
+1
+00:00:03,237 --> 00:00:08,453
+On the Secure Data Capture tab, tick Enable agent-assisted secure data capture.
+
+2
+00:00:08,453 --> 00:00:12,135
+It shows Collect data securely in the agent workspace:
+
+3
+00:00:12,135 --> 00:00:16,982
+the agent sends the customer a one-time link, and the customer types card
+
+4
+00:00:16,982 --> 00:00:19,007
+or bank details themselves.
+
+5
+00:00:19,506 --> 00:00:25,713
+Capture link lifetime sets how long the link works, from thirty to thirty-six hundred seconds.
+
+6
+00:00:25,713 --> 00:00:27,886
+The default is three hundred.
+
+7
+00:00:28,341 --> 00:00:34,182
+Pause recording during capture pauses the call recording while the customer enters the data.
+
+8
+00:00:34,182 --> 00:00:35,731
+It is on by default.
+
+9
+00:00:35,731 --> 00:00:40,202
+Card numbers are checked, only the last four digits are kept, and the
+
+10
+00:00:40,202 --> 00:00:42,347
+security code is never stored.
+
+11
+00:00:42,347 --> 00:00:43,361
+Click Save.
+

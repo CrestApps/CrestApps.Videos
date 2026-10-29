@@ -1,0 +1,44 @@
+1
+00:00:03,300 --> 00:00:08,992
+The External transfer destinations tab lists the outside numbers agents and phone menus
+
+2
+00:00:08,992 --> 00:00:10,706
+may transfer calls to.
+
+3
+00:00:10,706 --> 00:00:12,420
+Click Add destination.
+
+4
+00:00:13,557 --> 00:00:19,953
+Enter a Display name, for example After-hours answering service, and its E.164 address,
+
+5
+00:00:19,953 --> 00:00:24,217
+which is the full international number with a plus sign.
+
+6
+00:00:25,099 --> 00:00:28,711
+Untick Enabled to keep a row but stop offering it.
+
+7
+00:00:28,711 --> 00:00:32,129
+Add a row for each destination, and click Save.
+
+8
+00:00:42,270 --> 00:00:46,540
+Tick Let agents transfer to numbers that are not on this list only
+
+9
+00:00:46,540 --> 00:00:48,676
+if agents may type any number.
+
+10
+00:00:48,676 --> 00:00:53,421
+They also need the permission to transfer Contact Center calls externally.
+
+11
+00:00:53,421 --> 00:00:56,980
+Emergency and premium-rate numbers are always refused.
+

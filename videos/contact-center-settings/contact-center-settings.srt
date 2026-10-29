@@ -1,0 +1,384 @@
+1
+00:00:01,000 --> 00:00:06,774
+The Contact Center settings hold the rules that apply to every queue and every agent.
+
+2
+00:00:06,774 --> 00:00:10,962
+This video shows why they exist, and walks through each tab:
+
+3
+00:00:10,962 --> 00:00:17,370
+default numbers, call recording and consent, outside transfer numbers, and secure data capture.
+
+4
+00:00:21,970 --> 00:00:25,711
+Some rules cannot be left to each queue or each agent.
+
+5
+00:00:25,711 --> 00:00:30,013
+Whether a call is recorded, and what the caller is told, has to
+
+6
+00:00:30,013 --> 00:00:32,070
+be the same for every call.
+
+7
+00:00:32,820 --> 00:00:36,837
+Agents need a number to call and text from, and a safe list
+
+8
+00:00:36,837 --> 00:00:39,680
+of outside numbers they may transfer to.
+
+9
+00:00:40,430 --> 00:00:44,256
+And when a customer reads out a card number, nobody on your team
+
+10
+00:00:44,256 --> 00:00:45,950
+should hear it or see it.
+
+11
+00:00:46,700 --> 00:00:51,774
+The Contact Center settings page holds all of this in one place, in four tabs.
+
+12
+00:00:51,774 --> 00:00:55,700
+A tab appears only when the feature behind it is turned on.
+
+13
+00:00:59,893 --> 00:01:01,898
+Open Settings, Contact Center.
+
+14
+00:01:01,898 --> 00:01:05,963
+The Default numbers tab picks the numbers used for an agent who has
+
+15
+00:01:05,963 --> 00:01:07,300
+none of their own.
+
+16
+00:01:07,300 --> 00:01:09,973
+The lists show your Omnichannel Addresses.
+
+17
+00:01:10,441 --> 00:01:14,313
+Default phone number is used for an agent who is on no number's
+
+18
+00:01:14,313 --> 00:01:16,445
+list of agents who dial from it.
+
+19
+00:01:16,445 --> 00:01:19,532
+It comes from the addresses used for voice calls.
+
+20
+00:01:19,532 --> 00:01:23,741
+Calls themselves still fall back to the provider's default caller ID.
+
+21
+00:01:24,203 --> 00:01:28,343
+Default SMS number is the number an agent who is on no number's
+
+22
+00:01:28,343 --> 00:01:31,283
+list of agents who text from it sends from.
+
+23
+00:01:31,283 --> 00:01:35,003
+The messaging composer starts new conversations from it.
+
+24
+00:01:39,266 --> 00:01:45,426
+On the Recording governance tab, Record every call automatically starts recording every queue
+
+25
+00:01:45,426 --> 00:01:48,599
+and dialer call when it connects to an agent.
+
+26
+00:01:48,599 --> 00:01:52,581
+When it is off, a call is recorded only when a workflow or
+
+27
+00:01:52,581 --> 00:01:54,386
+a supervisor starts it.
+
+28
+00:01:54,859 --> 00:01:59,434
+Consent model is All parties must consent, which is the default, or Single
+
+29
+00:01:59,434 --> 00:02:01,378
+party consent is sufficient.
+
+30
+00:02:01,378 --> 00:02:05,609
+Choose what your legal team tells you for the places you operate in.
+
+31
+00:02:06,111 --> 00:02:09,988
+Tick Tell callers the call is recorded to turn on the disclosure, and
+
+32
+00:02:09,988 --> 00:02:14,071
+write the words callers hear in Disclosure, for example that the call may
+
+33
+00:02:14,071 --> 00:02:16,811
+be recorded for quality assurance and training.
+
+34
+00:02:17,266 --> 00:02:22,763
+Say it to inbound callers speaks the disclosure before an entry point's welcome
+
+35
+00:02:22,763 --> 00:02:24,638
+message, menu or queue.
+
+36
+00:02:24,638 --> 00:02:30,006
+Have automated voice agents say it first does the same for an AI voice agent.
+
+37
+00:02:30,468 --> 00:02:34,051
+Ask agents to say it when the caller has not heard it shows
+
+38
+00:02:34,051 --> 00:02:38,350
+the disclosure and an I told the customer button in the agent workspace,
+
+39
+00:02:38,350 --> 00:02:41,988
+on an outbound call or a call that skipped the announcement.
+
+40
+00:02:42,441 --> 00:02:46,177
+Do not record until the caller has heard the disclosure makes a call
+
+41
+00:02:46,177 --> 00:02:50,166
+start recording only once the disclosure was spoken to the caller, or the
+
+42
+00:02:50,166 --> 00:02:51,781
+agent confirmed giving it.
+
+43
+00:02:52,256 --> 00:02:57,462
+Retention in days says how long recordings are kept before they may be erased.
+
+44
+00:02:57,462 --> 00:02:59,321
+Zero keeps them forever.
+
+45
+00:02:59,321 --> 00:03:05,146
+Apply legal hold by default makes new recordings undeletable until the hold is released.
+
+46
+00:03:05,608 --> 00:03:10,528
+Allow agents to pause recording shows a Pause recording button in the agent
+
+47
+00:03:10,528 --> 00:03:14,780
+workspace, for example while a customer reads out a card number.
+
+48
+00:03:14,780 --> 00:03:19,639
+Set a maximum secure-pause window in seconds, and tick Require a reason to
+
+49
+00:03:19,639 --> 00:03:21,948
+pause if the agent must say why.
+
+50
+00:03:22,409 --> 00:03:23,470
+Click Save.
+
+51
+00:03:23,470 --> 00:03:28,339
+Calls recorded under these rules are listed on the Call recordings page.
+
+52
+00:03:32,539 --> 00:03:37,625
+On an inbound call to an entry point, the platform says the disclosure
+
+53
+00:03:37,625 --> 00:03:42,309
+word for word, first, before the welcome message, menu or queue.
+
+54
+00:03:43,059 --> 00:03:46,822
+A turn-based AI voice agent call gets it at the start of the
+
+55
+00:03:46,822 --> 00:03:49,729
+assistant's opening line, also word for word.
+
+56
+00:03:50,479 --> 00:03:54,779
+A realtime AI voice agent writes its own opening line, so it is
+
+57
+00:03:54,779 --> 00:03:57,209
+told to say the disclosure first.
+
+58
+00:03:57,209 --> 00:04:00,699
+Read a few call transcripts to check that it does.
+
+59
+00:04:01,449 --> 00:04:06,092
+On an outbound call, or any call the caller reached without the disclosure,
+
+60
+00:04:06,092 --> 00:04:09,589
+the agent reads it out and presses I told the customer.
+
+61
+00:04:09,589 --> 00:04:14,003
+Each disclosure is logged on the call with the time and the words used.
+
+62
+00:04:14,003 --> 00:04:18,245
+Which calls need a notice depends on where you and your callers are,
+
+63
+00:04:18,245 --> 00:04:20,309
+so check with your legal team.
+
+64
+00:04:24,609 --> 00:04:30,301
+The External transfer destinations tab lists the outside numbers agents and phone menus
+
+65
+00:04:30,301 --> 00:04:32,015
+may transfer calls to.
+
+66
+00:04:32,015 --> 00:04:33,729
+Click Add destination.
+
+67
+00:04:34,866 --> 00:04:41,262
+Enter a Display name, for example After-hours answering service, and its E.164 address,
+
+68
+00:04:41,262 --> 00:04:45,526
+which is the full international number with a plus sign.
+
+69
+00:04:46,408 --> 00:04:50,020
+Untick Enabled to keep a row but stop offering it.
+
+70
+00:04:50,020 --> 00:04:53,438
+Add a row for each destination, and click Save.
+
+71
+00:05:03,579 --> 00:05:07,849
+Tick Let agents transfer to numbers that are not on this list only
+
+72
+00:05:07,849 --> 00:05:09,985
+if agents may type any number.
+
+73
+00:05:09,985 --> 00:05:14,730
+They also need the permission to transfer Contact Center calls externally.
+
+74
+00:05:14,730 --> 00:05:18,289
+Emergency and premium-rate numbers are always refused.
+
+75
+00:05:22,526 --> 00:05:27,742
+On the Secure Data Capture tab, tick Enable agent-assisted secure data capture.
+
+76
+00:05:27,742 --> 00:05:31,423
+It shows Collect data securely in the agent workspace:
+
+77
+00:05:31,423 --> 00:05:36,271
+the agent sends the customer a one-time link, and the customer types card
+
+78
+00:05:36,271 --> 00:05:38,296
+or bank details themselves.
+
+79
+00:05:38,794 --> 00:05:45,002
+Capture link lifetime sets how long the link works, from thirty to thirty-six hundred seconds.
+
+80
+00:05:45,002 --> 00:05:47,174
+The default is three hundred.
+
+81
+00:05:47,629 --> 00:05:53,470
+Pause recording during capture pauses the call recording while the customer enters the data.
+
+82
+00:05:53,470 --> 00:05:55,020
+It is on by default.
+
+83
+00:05:55,020 --> 00:05:59,490
+Card numbers are checked, only the last four digits are kept, and the
+
+84
+00:05:59,490 --> 00:06:01,636
+security code is never stored.
+
+85
+00:06:01,636 --> 00:06:02,649
+Click Save.
+
+86
+00:06:06,849 --> 00:06:10,425
+A team in a place where every party must consent turns on the
+
+87
+00:06:10,425 --> 00:06:14,909
+disclosure and the setting that holds recording until the caller has heard it.
+
+88
+00:06:15,659 --> 00:06:19,812
+A company with a retention policy sets the number of days, and puts
+
+89
+00:06:19,812 --> 00:06:23,169
+new recordings under legal hold while a case is open.
+
+90
+00:06:23,919 --> 00:06:29,288
+A support desk lists its answering service as an approved destination, so agents
+
+91
+00:06:29,288 --> 00:06:32,659
+can hand off after hours without typing numbers.
+
+92
+00:06:33,409 --> 00:06:38,120
+A team that takes payments turns on secure data capture and pausing, so
+
+93
+00:06:38,120 --> 00:06:41,669
+card details never reach the agent or the recording.
+
+94
+00:06:43,669 --> 00:06:49,679
+Set the recording rules, the disclosure, the approved outside numbers and secure capture
+
+95
+00:06:49,679 --> 00:06:53,387
+once, and they apply to every queue and every agent.
+
+96
+00:06:53,387 --> 00:06:55,049
+Thanks for watching.
+

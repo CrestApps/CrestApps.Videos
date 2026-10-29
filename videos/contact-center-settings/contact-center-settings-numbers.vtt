@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.193 --> 00:00:05.198
+Open Settings, Contact Center.
+
+00:00:05.198 --> 00:00:09.263
+The Default numbers tab picks the numbers used for an agent who has
+
+00:00:09.263 --> 00:00:10.600
+none of their own.
+
+00:00:10.600 --> 00:00:13.273
+The lists show your Omnichannel Addresses.
+
+00:00:13.741 --> 00:00:17.613
+Default phone number is used for an agent who is on no number's
+
+00:00:17.613 --> 00:00:19.745
+list of agents who dial from it.
+
+00:00:19.745 --> 00:00:22.832
+It comes from the addresses used for voice calls.
+
+00:00:22.832 --> 00:00:27.041
+Calls themselves still fall back to the provider's default caller ID.
+
+00:00:27.503 --> 00:00:31.643
+Default SMS number is the number an agent who is on no number's
+
+00:00:31.643 --> 00:00:34.583
+list of agents who text from it sends from.
+
+00:00:34.583 --> 00:00:38.303
+The messaging composer starts new conversations from it.
+

@@ -1,0 +1,263 @@
+{
+  "title": "Contact Center Settings",
+  "output": "contact-center-settings",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "AI": "A.I."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Contact Center Settings",
+      "subtitle": "The site-wide rules for every queue and every agent",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The Contact Center settings hold the rules that apply to every queue and every agent. This video shows why they exist, and walks through each tab: default numbers, call recording and consent, outside transfer numbers, and secure data capture."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why site-wide settings",
+      "subtitle": "Decide once, apply everywhere",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some rules cannot be left to each queue or each agent. Whether a call is recorded, and what the caller is told, has to be the same for every call."
+            },
+            {
+              "id": "why-2",
+              "text": "Agents need a number to call and text from, and a safe list of outside numbers they may transfer to."
+            },
+            {
+              "id": "why-3",
+              "text": "And when a customer reads out a card number, nobody on your team should hear it or see it."
+            },
+            {
+              "id": "why-4",
+              "text": "The Contact Center settings page holds all of this in one place, in four tabs. A tab appears only when the feature behind it is turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Default numbers",
+      "subtitle": "Where calls and texts come from",
+      "clips": [
+        {
+          "id": "02-numbers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "num-1",
+              "text": "Open Settings, Contact Center. The Default numbers tab picks the numbers used for an agent who has none of their own. The lists show your Omnichannel Addresses."
+            },
+            {
+              "id": "num-2",
+              "text": "Default phone number is used for an agent who is on no number's list of agents who dial from it. It comes from the addresses used for voice calls. Calls themselves still fall back to the provider's default caller ID."
+            },
+            {
+              "id": "num-3",
+              "text": "Default SMS number is the number an agent who is on no number's list of agents who text from it sends from. The messaging composer starts new conversations from it."
+            }
+          ]
+        }
+      ],
+      "short": "numbers"
+    },
+    {
+      "id": "03",
+      "title": "Recording governance",
+      "subtitle": "Record, disclose, retain and protect",
+      "clips": [
+        {
+          "id": "03-recording",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "On the Recording governance tab, Record every call automatically starts recording every queue and dialer call when it connects to an agent. When it is off, a call is recorded only when a workflow or a supervisor starts it."
+            },
+            {
+              "id": "rec-2",
+              "text": "Consent model is All parties must consent, which is the default, or Single party consent is sufficient. Choose what your legal team tells you for the places you operate in."
+            },
+            {
+              "id": "rec-3",
+              "text": "Tick Tell callers the call is recorded to turn on the disclosure, and write the words callers hear in Disclosure, for example that the call may be recorded for quality assurance and training."
+            },
+            {
+              "id": "rec-4",
+              "text": "Say it to inbound callers speaks the disclosure before an entry point's welcome message, menu or queue. Have automated voice agents say it first does the same for an AI voice agent."
+            },
+            {
+              "id": "rec-5",
+              "text": "Ask agents to say it when the caller has not heard it shows the disclosure and an I told the customer button in the agent workspace, on an outbound call or a call that skipped the announcement."
+            },
+            {
+              "id": "rec-6",
+              "text": "Do not record until the caller has heard the disclosure makes a call start recording only once the disclosure was spoken to the caller, or the agent confirmed giving it."
+            },
+            {
+              "id": "rec-7",
+              "text": "Retention in days says how long recordings are kept before they may be erased. Zero keeps them forever. Apply legal hold by default makes new recordings undeletable until the hold is released."
+            },
+            {
+              "id": "rec-8",
+              "text": "Allow agents to pause recording shows a Pause recording button in the agent workspace, for example while a customer reads out a card number. Set a maximum secure-pause window in seconds, and tick Require a reason to pause if the agent must say why."
+            },
+            {
+              "id": "rec-9",
+              "text": "Click Save. Calls recorded under these rules are listed on the Call recordings page."
+            }
+          ]
+        }
+      ],
+      "short": "recording"
+    },
+    {
+      "id": "04",
+      "title": "How the disclosure is given",
+      "subtitle": "Who says it, and when",
+      "clips": [
+        {
+          "id": "04-disclosure",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "disc-1",
+              "text": "On an inbound call to an entry point, the platform says the disclosure word for word, first, before the welcome message, menu or queue."
+            },
+            {
+              "id": "disc-2",
+              "text": "A turn-based AI voice agent call gets it at the start of the assistant's opening line, also word for word."
+            },
+            {
+              "id": "disc-3",
+              "text": "A realtime AI voice agent writes its own opening line, so it is told to say the disclosure first. Read a few call transcripts to check that it does."
+            },
+            {
+              "id": "disc-4",
+              "text": "On an outbound call, or any call the caller reached without the disclosure, the agent reads it out and presses I told the customer. Each disclosure is logged on the call with the time and the words used. Which calls need a notice depends on where you and your callers are, so check with your legal team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "External transfer destinations",
+      "subtitle": "The outside numbers agents may transfer to",
+      "clips": [
+        {
+          "id": "05-transfers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "xfer-1",
+              "text": "The External transfer destinations tab lists the outside numbers agents and phone menus may transfer calls to. Click Add destination."
+            },
+            {
+              "id": "xfer-2",
+              "text": "Enter a Display name, for example After-hours answering service, and its E.164 address, which is the full international number with a plus sign."
+            },
+            {
+              "id": "xfer-3",
+              "text": "Untick Enabled to keep a row but stop offering it. Add a row for each destination, and click Save."
+            },
+            {
+              "id": "xfer-4",
+              "text": "Tick Let agents transfer to numbers that are not on this list only if agents may type any number. They also need the permission to transfer Contact Center calls externally. Emergency and premium-rate numbers are always refused."
+            }
+          ]
+        }
+      ],
+      "short": "transfers"
+    },
+    {
+      "id": "06",
+      "title": "Secure data capture",
+      "subtitle": "Card details the agent never hears",
+      "clips": [
+        {
+          "id": "06-secure",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sec-1",
+              "text": "On the Secure Data Capture tab, tick Enable agent-assisted secure data capture. It shows Collect data securely in the agent workspace: the agent sends the customer a one-time link, and the customer types card or bank details themselves."
+            },
+            {
+              "id": "sec-2",
+              "text": "Capture link lifetime sets how long the link works, from thirty to thirty-six hundred seconds. The default is three hundred."
+            },
+            {
+              "id": "sec-3",
+              "text": "Pause recording during capture pauses the call recording while the customer enters the data. It is on by default. Card numbers are checked, only the last four digits are kept, and the security code is never stored. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "secure"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "What the settings do for you",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A team in a place where every party must consent turns on the disclosure and the setting that holds recording until the caller has heard it."
+            },
+            {
+              "id": "use-2",
+              "text": "A company with a retention policy sets the number of days, and puts new recordings under legal hold while a case is open."
+            },
+            {
+              "id": "use-3",
+              "text": "A support desk lists its answering service as an approved destination, so agents can hand off after hours without typing numbers."
+            },
+            {
+              "id": "use-4",
+              "text": "A team that takes payments turns on secure data capture and pausing, so card details never reach the agent or the recording."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set the recording rules, the disclosure, the approved outside numbers and secure capture once, and they apply to every queue and every agent. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
