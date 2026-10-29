@@ -1,0 +1,74 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:05.478
+Open Commerce, Campaigns.
+
+00:00:05.478 --> 00:00:08.851
+It lists your campaigns with their status:
+
+00:00:08.851 --> 00:00:12.364
+Draft, Scheduled, Sending, Sent or Canceled.
+
+00:00:12.364 --> 00:00:14.120
+Click Add campaign.
+
+00:00:14.642 --> 00:00:16.077
+Name the campaign.
+
+00:00:16.077 --> 00:00:17.872
+Only staff see the name.
+
+00:00:17.872 --> 00:00:21.222
+Choose its Segment, the customers who will get it.
+
+00:00:21.699 --> 00:00:23.616
+Write the Subject and the Email.
+
+00:00:23.616 --> 00:00:26.491
+The help under the field lists what you can put in:
+
+00:00:26.491 --> 00:00:30.526
+the customer's name, how many orders they placed and what they spent, your
+
+00:00:30.526 --> 00:00:34.359
+store's name, and their unsubscribe link, which is added at the end if
+
+00:00:34.359 --> 00:00:35.519
+you leave it out.
+
+00:00:36.104 --> 00:00:40.690
+To check it, enter your address under Send a test to, and click Send test.
+
+00:00:40.690 --> 00:00:42.525
+Nothing goes to customers:
+
+00:00:42.525 --> 00:00:46.595
+it is filled in as the segment's first customer would get it, and
+
+00:00:46.595 --> 00:00:47.914
+sent only to you.
+
+00:00:48.371 --> 00:00:49.473
+Click Send.
+
+00:00:49.473 --> 00:00:54.075
+Fill in Send at first to send it later, in your site's time zone.
+
+00:00:54.075 --> 00:00:56.991
+Or click Save draft to finish it later.
+
+00:00:58.211 --> 00:01:02.590
+A campaign goes out in batches over the next minutes, to the segment's
+
+00:01:02.590 --> 00:01:05.414
+customers as they are when each batch goes.
+
+00:01:05.414 --> 00:01:09.217
+Its page shows how many it was sent to, how many it skipped,
+
+00:01:09.217 --> 00:01:13.884
+because they have no email or do not accept marketing, and how many failed.
+
+00:01:13.884 --> 00:01:15.901
+Cancel the campaign stops it.
+

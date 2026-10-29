@@ -1,0 +1,60 @@
+1
+00:00:03,228 --> 00:00:04,881
+Open Tools, Recipes.
+
+2
+00:00:04,881 --> 00:00:08,251
+Three recipes add workflows that email for you.
+
+3
+00:00:08,251 --> 00:00:09,331
+Automation:
+
+4
+00:00:09,331 --> 00:00:14,608
+thank-you email emails each buyer a short thank you when their order is paid.
+
+5
+00:00:15,066 --> 00:00:16,150
+Automation:
+
+6
+00:00:16,150 --> 00:00:21,250
+canceled order alert emails the store when an order is canceled, with why.
+
+7
+00:00:21,250 --> 00:00:22,334
+Automation:
+
+8
+00:00:22,334 --> 00:00:27,180
+low stock alert emails the store when a product runs low or sells out.
+
+9
+00:00:27,180 --> 00:00:29,220
+Both are added turned off:
+
+10
+00:00:29,220 --> 00:00:32,536
+set the address they go to, then turn them on.
+
+11
+00:00:32,989 --> 00:00:35,748
+Click Run beside a recipe, and confirm.
+
+12
+00:00:35,748 --> 00:00:38,690
+The recipe adds its workflow to your site.
+
+13
+00:00:38,690 --> 00:00:42,245
+Then open Tools, Workflows, and find it in the list.
+
+14
+00:00:42,245 --> 00:00:46,291
+Open it there to change what the email says, who it goes to,
+
+15
+00:00:46,291 --> 00:00:49,479
+and when it is sent, and to turn it on or off.
+

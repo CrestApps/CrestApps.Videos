@@ -1,0 +1,392 @@
+1
+00:00:01,000 --> 00:00:04,836
+Your best marketing audience is people who already bought from you.
+
+2
+00:00:04,836 --> 00:00:09,356
+This video shows how the Marketing module groups your customers into segments by
+
+3
+00:00:09,356 --> 00:00:13,613
+what they bought, and sends email campaigns to a segment, only to customers
+
+4
+00:00:13,613 --> 00:00:15,400
+who agreed to hear from you.
+
+5
+00:00:20,000 --> 00:00:22,948
+Your orders already say who your customers are:
+
+6
+00:00:22,948 --> 00:00:27,009
+who bought last week, who has not bought for months, who buys again
+
+7
+00:00:27,009 --> 00:00:29,290
+and again, and who spends the most.
+
+8
+00:00:30,040 --> 00:00:32,957
+Each of them deserves a different message:
+
+9
+00:00:32,957 --> 00:00:36,846
+a thank you to a new customer, an offer to a lapsed buyer,
+
+10
+00:00:36,846 --> 00:00:39,520
+an early look for your best customers.
+
+11
+00:00:40,270 --> 00:00:44,295
+But only customers who agreed to hear from you should get it, and
+
+12
+00:00:44,295 --> 00:00:47,470
+each email must let them unsubscribe in one click.
+
+13
+00:00:48,220 --> 00:00:53,595
+The Marketing module reads your paid orders, groups customers into segments, and sends
+
+14
+00:00:53,595 --> 00:00:56,400
+campaigns to them, respecting that choice.
+
+15
+00:01:00,600 --> 00:01:04,789
+A segment is a group of customers that meet rules about their orders,
+
+16
+00:01:04,789 --> 00:01:08,140
+such as customers who have not ordered in ninety days.
+
+17
+00:01:08,890 --> 00:01:13,252
+A campaign is an email that you write for a segment, and send
+
+18
+00:01:13,252 --> 00:01:14,750
+now or at a time.
+
+19
+00:01:15,500 --> 00:01:19,782
+A campaign only goes to customers who ticked Send me news and offers,
+
+20
+00:01:19,782 --> 00:01:22,522
+or whom you marked as accepting marketing.
+
+21
+00:01:22,522 --> 00:01:25,320
+Emails about their orders are not affected.
+
+22
+00:01:26,070 --> 00:01:29,133
+Every email carries a link to unsubscribe.
+
+23
+00:01:29,133 --> 00:01:33,920
+Once a customer confirms, no campaign or review request reaches them.
+
+24
+00:01:38,108 --> 00:01:40,151
+Open Commerce, Segments.
+
+25
+00:01:40,151 --> 00:01:44,852
+Each segment shows its rules, and how many customers meet them.
+
+26
+00:01:44,852 --> 00:01:46,488
+Click Add segment.
+
+27
+00:01:46,966 --> 00:01:52,316
+Give it a Name, such as Repeat buyers, and a Description that only your staff see.
+
+28
+00:01:53,069 --> 00:01:56,268
+Fill in the rules the customers have to meet.
+
+29
+00:01:56,268 --> 00:02:00,973
+Every rule you fill in has to hold, and a rule left blank is ignored.
+
+30
+00:02:00,973 --> 00:02:04,109
+Haven't ordered in days finds lapsed buyers.
+
+31
+00:02:04,109 --> 00:02:07,183
+Ordered in the last days finds recent ones.
+
+32
+00:02:07,183 --> 00:02:10,759
+First ordered in the last days finds new customers.
+
+33
+00:02:11,283 --> 00:02:14,829
+At least and At most orders find repeat buyers.
+
+34
+00:02:14,829 --> 00:02:19,646
+Spent at least and Spent at most find your best customers, in your
+
+35
+00:02:19,646 --> 00:02:22,122
+store's currency, less refunds.
+
+36
+00:02:22,122 --> 00:02:25,133
+Country is where their last order went.
+
+37
+00:02:25,607 --> 00:02:26,627
+Click Save.
+
+38
+00:02:26,627 --> 00:02:30,767
+The segment shows how many customers are in it, and how many of
+
+39
+00:02:30,767 --> 00:02:34,007
+them accept marketing, and so get its campaigns.
+
+40
+00:02:38,307 --> 00:02:40,485
+Open Commerce, Campaigns.
+
+41
+00:02:40,485 --> 00:02:43,858
+It lists your campaigns with their status:
+
+42
+00:02:43,858 --> 00:02:47,371
+Draft, Scheduled, Sending, Sent or Canceled.
+
+43
+00:02:47,371 --> 00:02:49,127
+Click Add campaign.
+
+44
+00:02:49,649 --> 00:02:51,085
+Name the campaign.
+
+45
+00:02:51,085 --> 00:02:52,879
+Only staff see the name.
+
+46
+00:02:52,879 --> 00:02:56,229
+Choose its Segment, the customers who will get it.
+
+47
+00:02:56,706 --> 00:02:58,623
+Write the Subject and the Email.
+
+48
+00:02:58,623 --> 00:03:01,498
+The help under the field lists what you can put in:
+
+49
+00:03:01,498 --> 00:03:05,533
+the customer's name, how many orders they placed and what they spent, your
+
+50
+00:03:05,533 --> 00:03:09,366
+store's name, and their unsubscribe link, which is added at the end if
+
+51
+00:03:09,366 --> 00:03:10,526
+you leave it out.
+
+52
+00:03:11,111 --> 00:03:15,698
+To check it, enter your address under Send a test to, and click Send test.
+
+53
+00:03:15,698 --> 00:03:17,532
+Nothing goes to customers:
+
+54
+00:03:17,532 --> 00:03:21,603
+it is filled in as the segment's first customer would get it, and
+
+55
+00:03:21,603 --> 00:03:22,921
+sent only to you.
+
+56
+00:03:23,379 --> 00:03:24,481
+Click Send.
+
+57
+00:03:24,481 --> 00:03:29,082
+Fill in Send at first to send it later, in your site's time zone.
+
+58
+00:03:29,082 --> 00:03:31,999
+Or click Save draft to finish it later.
+
+59
+00:03:33,218 --> 00:03:37,598
+A campaign goes out in batches over the next minutes, to the segment's
+
+60
+00:03:37,598 --> 00:03:40,421
+customers as they are when each batch goes.
+
+61
+00:03:40,421 --> 00:03:44,224
+Its page shows how many it was sent to, how many it skipped,
+
+62
+00:03:44,224 --> 00:03:48,892
+because they have no email or do not accept marketing, and how many failed.
+
+63
+00:03:48,892 --> 00:03:50,908
+Cancel the campaign stops it.
+
+64
+00:03:55,088 --> 00:03:58,525
+Customers choose Send me news and offers in their account.
+
+65
+00:03:58,525 --> 00:04:03,197
+You can also tick Accepts marketing on a customer, under Commerce, Customers, for
+
+66
+00:04:03,197 --> 00:04:05,238
+someone who agreed on the phone.
+
+67
+00:04:05,730 --> 00:04:11,080
+The unsubscribe link in each email opens a page that asks the customer to confirm.
+
+68
+00:04:11,557 --> 00:04:16,340
+Once they confirm, they no longer accept marketing, and no campaign or review
+
+69
+00:04:16,340 --> 00:04:17,896
+request goes to them.
+
+70
+00:04:17,896 --> 00:04:21,757
+They can tick Send me news and offers again in their account.
+
+71
+00:04:25,985 --> 00:04:27,638
+Open Tools, Recipes.
+
+72
+00:04:27,638 --> 00:04:31,007
+Three recipes add workflows that email for you.
+
+73
+00:04:31,007 --> 00:04:32,088
+Automation:
+
+74
+00:04:32,088 --> 00:04:37,365
+thank-you email emails each buyer a short thank you when their order is paid.
+
+75
+00:04:37,822 --> 00:04:38,906
+Automation:
+
+76
+00:04:38,906 --> 00:04:44,007
+canceled order alert emails the store when an order is canceled, with why.
+
+77
+00:04:44,007 --> 00:04:45,091
+Automation:
+
+78
+00:04:45,091 --> 00:04:49,936
+low stock alert emails the store when a product runs low or sells out.
+
+79
+00:04:49,936 --> 00:04:51,977
+Both are added turned off:
+
+80
+00:04:51,977 --> 00:04:55,292
+set the address they go to, then turn them on.
+
+81
+00:04:55,746 --> 00:04:58,504
+Click Run beside a recipe, and confirm.
+
+82
+00:04:58,504 --> 00:05:01,447
+The recipe adds its workflow to your site.
+
+83
+00:05:01,447 --> 00:05:05,002
+Then open Tools, Workflows, and find it in the list.
+
+84
+00:05:05,002 --> 00:05:09,048
+Open it there to change what the email says, who it goes to,
+
+85
+00:05:09,048 --> 00:05:12,236
+and when it is sent, and to turn it on or off.
+
+86
+00:05:16,436 --> 00:05:17,957
+A win-back campaign:
+
+87
+00:05:17,957 --> 00:05:22,172
+a segment of customers who have not ordered in ninety days, and an
+
+88
+00:05:22,172 --> 00:05:23,636
+offer to come back.
+
+89
+00:05:24,386 --> 00:05:25,614
+A welcome series:
+
+90
+00:05:25,614 --> 00:05:29,621
+customers who first ordered in the last thirty days, and a note about
+
+91
+00:05:29,621 --> 00:05:32,186
+how to get the most from what they bought.
+
+92
+00:05:32,936 --> 00:05:34,942
+A thank-you for loyalty:
+
+93
+00:05:34,942 --> 00:05:41,096
+repeat buyers, or customers who spent at least five hundred, invited to an early sale.
+
+94
+00:05:41,846 --> 00:05:43,343
+A local promotion:
+
+95
+00:05:43,343 --> 00:05:48,586
+customers whose last order went to one country, with an offer for that market.
+
+96
+00:05:50,586 --> 00:05:54,483
+With the Marketing module, you write to the customers who bought, about what
+
+97
+00:05:54,483 --> 00:05:56,860
+they bought, and only the ones who said yes.
+
+98
+00:05:56,860 --> 00:05:58,096
+Thanks for watching.
+
