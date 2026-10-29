@@ -1,0 +1,234 @@
+{
+  "title": "The agent workspace",
+  "output": "contact-center-agent-workspace",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The agent workspace",
+      "subtitle": "Sign in, presence and where work shows up",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The agent workspace is where an agent works a shift. This video shows the three places an agent works from: the soft phone, My workspace and the docked agent bar. It covers how to sign in to queues, set presence, and read what each screen says."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a workspace",
+      "subtitle": "One place for a whole shift",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shift has a rhythm: sign in, say you are ready, take work, finish the notes. An agent needs to see their state and their work without searching for it."
+            },
+            {
+              "id": "why-2",
+              "text": "Three things carry it. The soft phone holds the call audio, and is where you sign in. My workspace shows your presence, queues and recent work. The docked agent bar follows you to every admin page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Your shift at a glance",
+      "subtitle": "Six steps",
+      "clips": [
+        {
+          "id": "02-shift",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "gl-1",
+              "text": "Open the soft phone and My workspace. Sign in to the queues and campaigns you work today."
+            },
+            {
+              "id": "gl-2",
+              "text": "Set your presence to Available when you are ready, or pick a reason when you are not."
+            },
+            {
+              "id": "gl-3",
+              "text": "Accept or decline each offer. Dialer work opens its activity for you."
+            },
+            {
+              "id": "gl-4",
+              "text": "When a call ends, finish your notes, pick a disposition and complete the activity. Then check Recent activity before the next offer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Sign in to queues",
+      "subtitle": "From the soft phone Work tab",
+      "clips": [
+        {
+          "id": "03-signin",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sg-1",
+              "text": "Open the soft phone, and choose the Work tab. You sign in here, not from My workspace. It reads Signed out until you do."
+            },
+            {
+              "id": "sg-2",
+              "text": "Under Queues, select the queues you work today. With agent entitlements, you only see the queues you are entitled to. Campaigns work the same way."
+            },
+            {
+              "id": "sg-3",
+              "text": "Click Sign in. You must pick at least one queue or campaign. You then become Available, and the Work tab lists each queue with its own Sign out button."
+            },
+            {
+              "id": "sg-4",
+              "text": "Sign out leaves one queue and keeps you in the others. At the end of your shift, click Sign out of all."
+            }
+          ]
+        }
+      ],
+      "short": "signin"
+    },
+    {
+      "id": "04",
+      "title": "Set your presence",
+      "subtitle": "Available, a reason, a break or offline",
+      "clips": [
+        {
+          "id": "04-presence",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prs-1",
+              "text": "Pick your presence from the menu at the top of the soft phone. My workspace has the same menu in its presence button."
+            },
+            {
+              "id": "prs-2",
+              "text": "Available means you can receive work. A reason code, such as Team meeting, makes you not ready and records why. Break reasons are grouped under a Break heading."
+            },
+            {
+              "id": "prs-3",
+              "text": "Offline stops all work. It is in the soft phone menu only."
+            }
+          ]
+        }
+      ],
+      "short": "presence"
+    },
+    {
+      "id": "05",
+      "title": "My workspace",
+      "subtitle": "What each area shows",
+      "clips": [
+        {
+          "id": "05-workspace",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wsp-1",
+              "text": "Open Interaction Center, My workspace. At the top are your name, your presence button, and the connection. Connected means live updates work."
+            },
+            {
+              "id": "wsp-2",
+              "text": "Signed in to lists the queues you are signed in to, and how many items are waiting in each, so you can see where the pressure is."
+            },
+            {
+              "id": "wsp-3",
+              "text": "Active interaction shows the call or message you are working. It says No active interactions right now until you accept something."
+            },
+            {
+              "id": "wsp-4",
+              "text": "Recent activity lists the interactions you finished most recently, with the outcome and the talk time."
+            }
+          ]
+        }
+      ],
+      "short": "workspace"
+    },
+    {
+      "id": "06",
+      "title": "The docked agent bar",
+      "subtitle": "A small tab on every admin page",
+      "clips": [
+        {
+          "id": "06-bar",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bar-1",
+              "text": "While you are signed in, the agent bar sits as a small tab at the bottom of every admin page. It shows your presence. Click it to expand."
+            },
+            {
+              "id": "bar-2",
+              "text": "It opens by itself when an offer arrives, and when you are connected to a call. The headset icon opens My workspace."
+            },
+            {
+              "id": "bar-3",
+              "text": "So you can stay on any page of the CRM, and still answer. The bar keeps working when the soft phone runs in a window of its own."
+            }
+          ]
+        }
+      ],
+      "short": "bar"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Where the workspace helps",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "An agent who works two queues, and watches both waiting counts."
+            },
+            {
+              "id": "use-2",
+              "text": "An agent who works the customer records all day, and answers from the bar."
+            },
+            {
+              "id": "use-3",
+              "text": "An agent who steps away for lunch with a reason code, and signs back in to Available."
+            },
+            {
+              "id": "use-4",
+              "text": "A new agent who learns the shift by following the same six steps every day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Sign in, set your presence, and keep the workspace and the bar in view. Offers, calls and wrap-up are in the next video. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

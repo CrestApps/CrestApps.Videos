@@ -1,0 +1,91 @@
+{
+  "title": "The Agent Workspace: Sign In, Presence and the Agent Bar | CrestApps for Orchard Core",
+  "description": "A shift has a rhythm: sign in, say you are ready, take work, finish the notes. In the CrestApps Contact Center, agents work from three places: the soft phone, My workspace, and the docked agent bar on every admin page. This video shows how to sign in to queues, set presence, and read what each screen says.\n\nIn this video:\n• Why a workspace, and your shift at a glance\n• Signing in to queues and campaigns from the soft phone Work tab\n• Setting presence: Available, a reason, a break, or offline\n• My workspace: presence, connection, queues, the active interaction and recent activity\n• The docked agent bar on every admin page\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "agent workspace",
+    "agent desktop",
+    "presence",
+    "sign in",
+    "soft phone",
+    "contact center",
+    "queues",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why a workspace"
+    },
+    {
+      "time": "0:47",
+      "title": "Your shift at a glance"
+    },
+    {
+      "time": "1:20",
+      "title": "Sign in to queues"
+    },
+    {
+      "time": "2:02",
+      "title": "Set your presence"
+    },
+    {
+      "time": "2:29",
+      "title": "My workspace"
+    },
+    {
+      "time": "3:07",
+      "title": "The docked agent bar"
+    },
+    {
+      "time": "3:39",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:06",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/agent-workspace"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agent-desktop"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Agents, Real-Time, Agent Desktop)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/agent-workspace.md",
+    "src/CrestApps.Docs/docs/contact-center/agent-desktop.md"
+  ],
+  "length": "4:18"
+}

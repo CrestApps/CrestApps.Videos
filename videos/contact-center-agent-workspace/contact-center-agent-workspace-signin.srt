@@ -1,0 +1,48 @@
+1
+00:00:03,300 --> 00:00:06,514
+Open the soft phone, and choose the Work tab.
+
+2
+00:00:06,514 --> 00:00:09,412
+You sign in here, not from My workspace.
+
+3
+00:00:09,412 --> 00:00:11,870
+It reads Signed out until you do.
+
+4
+00:00:12,332 --> 00:00:15,574
+Under Queues, select the queues you work today.
+
+5
+00:00:15,574 --> 00:00:20,162
+With agent entitlements, you only see the queues you are entitled to.
+
+6
+00:00:20,162 --> 00:00:22,242
+Campaigns work the same way.
+
+7
+00:00:22,693 --> 00:00:23,901
+Click Sign in.
+
+8
+00:00:23,901 --> 00:00:26,981
+You must pick at least one queue or campaign.
+
+9
+00:00:26,981 --> 00:00:31,512
+You then become Available, and the Work tab lists each queue with its
+
+10
+00:00:31,512 --> 00:00:33,083
+own Sign out button.
+
+11
+00:00:33,535 --> 00:00:37,351
+Sign out leaves one queue and keeps you in the others.
+
+12
+00:00:37,351 --> 00:00:40,785
+At the end of your shift, click Sign out of all.
+
