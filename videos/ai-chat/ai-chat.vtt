@@ -1,0 +1,353 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.233
+People talk to an AI assistant in three places:
+
+00:00:04.233 --> 00:00:08.380
+a chat page in the admin, a floating chat on every admin page,
+
+00:00:08.380 --> 00:00:10.637
+and a chat box on your website.
+
+00:00:10.637 --> 00:00:14.845
+This video shows why they exist, how each one works, and how to
+
+00:00:14.845 --> 00:00:18.810
+set them up, including the engines that can power the chat.
+
+00:00:23.410 --> 00:00:27.296
+Once an assistant exists, people need a place to talk to it.
+
+00:00:27.296 --> 00:00:32.125
+Staff want an answer without leaving their work, and visitors want an answer
+
+00:00:32.125 --> 00:00:33.950
+without writing an email.
+
+00:00:34.700 --> 00:00:39.750
+A chat has to remember the conversation, so a follow-up question makes sense,
+
+00:00:39.750 --> 00:00:44.130
+and it has to keep a history, so nobody asks the same thing twice.
+
+00:00:44.880 --> 00:00:47.523
+It also has to work where people already are:
+
+00:00:47.523 --> 00:00:50.840
+in the admin, in a corner of every page, and on the public
+
+00:00:50.840 --> 00:00:53.950
+site, limited to the people who are allowed to use it.
+
+00:00:54.700 --> 00:00:58.327
+The AI Chat module gives you all of that on top of your
+
+00:00:58.327 --> 00:01:02.310
+AI profiles, so an assistant behaves the same way everywhere.
+
+00:01:06.510 --> 00:01:10.646
+The chat page is one page for every chat profile, with a history
+
+00:01:10.646 --> 00:01:12.537
+of your own conversations.
+
+00:01:12.537 --> 00:01:14.960
+People open it from the admin menu.
+
+00:01:15.710 --> 00:01:19.823
+The admin chat widget floats on every admin page, so staff can ask
+
+00:01:19.823 --> 00:01:22.851
+a question without leaving what they are doing.
+
+00:01:22.851 --> 00:01:26.050
+You choose its profile once, in the site settings.
+
+00:01:26.800 --> 00:01:30.923
+The website chat widget is a normal widget that you place on a layer.
+
+00:01:30.923 --> 00:01:35.100
+It puts an assistant in the corner of your public pages, for visitors.
+
+00:01:35.850 --> 00:01:39.371
+The engine behind a chat is called an orchestrator.
+
+00:01:39.371 --> 00:01:44.374
+The default one plans each answer, and two optional ones, Claude and GitHub
+
+00:01:44.374 --> 00:01:47.030
+Copilot, can take over for a profile.
+
+00:01:51.281 --> 00:01:54.040
+Open Artificial Intelligence, Profiles.
+
+00:01:54.040 --> 00:01:58.024
+Open the Actions menu of a chat profile and click New chat.
+
+00:01:58.024 --> 00:02:02.437
+A profile that has Show on admin menu turned on also appears under
+
+00:02:02.437 --> 00:02:05.011
+Artificial Intelligence in the menu.
+
+00:02:06.584 --> 00:02:10.347
+A new chat opens with the profile's welcome message.
+
+00:02:10.347 --> 00:02:14.694
+New Chat starts over, and Chat History lists your past chats.
+
+00:02:15.155 --> 00:02:18.907
+Type a question and press Enter, or click the send arrow.
+
+00:02:18.907 --> 00:02:23.492
+The answer appears as it is written, and it comes from the instructions
+
+00:02:23.492 --> 00:02:25.815
+and the knowledge of the profile.
+
+00:02:26.279 --> 00:02:27.943
+Ask a follow-up question.
+
+00:02:27.943 --> 00:02:32.022
+The assistant remembers what was said earlier in the same chat, so you
+
+00:02:32.022 --> 00:02:33.579
+do not repeat yourself.
+
+00:02:34.038 --> 00:02:37.580
+A chat is saved as soon as it starts, with a title that
+
+00:02:37.580 --> 00:02:40.019
+the AI writes from the conversation.
+
+00:02:40.019 --> 00:02:42.458
+Click Chat History to find it later.
+
+00:02:46.698 --> 00:02:51.388
+Chat History lists your chats with this assistant, newest first.
+
+00:02:51.388 --> 00:02:56.078
+Each row shows its title, its status, and when it was last used.
+
+00:02:56.581 --> 00:03:01.662
+Type part of a title in History search and click Search to find a chat.
+
+00:03:01.662 --> 00:03:06.611
+Click View, or the title, to open it and continue where you left off.
+
+00:03:07.172 --> 00:03:09.818
+Actions on a row deletes that one chat.
+
+00:03:09.818 --> 00:03:14.051
+Delete Chat History deletes all of your chats with this assistant.
+
+00:03:14.051 --> 00:03:17.872
+Both ask you to confirm, and each needs its own permission.
+
+00:03:18.365 --> 00:03:21.147
+New Chat starts over with an empty chat.
+
+00:03:21.147 --> 00:03:23.505
+You only ever see your own chats.
+
+00:03:27.691 --> 00:03:33.618
+Turn on the AI Chat Admin Widget feature, then open Settings, Artificial Intelligence.
+
+00:03:33.618 --> 00:03:38.901
+The Admin Widget section decides which assistant floats on every admin page.
+
+00:03:39.356 --> 00:03:41.135
+Pick the Chat profile.
+
+00:03:41.135 --> 00:03:43.867
+Choose No profile to hide the widget.
+
+00:03:43.867 --> 00:03:48.696
+Max history sessions and Primary color appear once you pick a profile.
+
+00:03:48.696 --> 00:03:49.776
+Click Save.
+
+00:03:50.226 --> 00:03:54.771
+Now every admin page has a round chat button in the bottom-right corner.
+
+00:03:54.771 --> 00:03:56.926
+Click it to open the assistant.
+
+00:03:57.378 --> 00:04:00.067
+Ask a question without leaving the page.
+
+00:04:00.067 --> 00:04:03.984
+The widget has the same message box as the chat page, and its
+
+00:04:03.984 --> 00:04:06.498
+header has New chat and Chat history.
+
+00:04:06.951 --> 00:04:11.651
+Drag the header to move the window, and drag its edge to resize it.
+
+00:04:11.651 --> 00:04:17.251
+The widget remembers its place, its size, and your current chat on the next page.
+
+00:04:21.445 --> 00:04:27.051
+To put an assistant on your public website, use the Artificial Intelligence Chat widget.
+
+00:04:27.051 --> 00:04:28.662
+Open Design, Widgets.
+
+00:04:28.662 --> 00:04:32.836
+A zone is where a widget lives, here Footer, and a layer decides
+
+00:04:32.836 --> 00:04:34.625
+on which pages it shows.
+
+00:04:35.079 --> 00:04:39.801
+The Always layer has one rule, a Boolean condition set to true, so
+
+00:04:39.801 --> 00:04:42.228
+its widgets show on every page.
+
+00:04:42.228 --> 00:04:45.179
+Click Edit on a layer to see its rules.
+
+00:04:45.631 --> 00:04:49.800
+Back on the Widgets page, open Add Widget in the Footer zone and
+
+00:04:49.800 --> 00:04:52.301
+choose Artificial Intelligence Chat.
+
+00:04:52.751 --> 00:04:57.780
+Give the widget a Title, pick the layer, and pick the Profile it talks to.
+
+00:04:57.780 --> 00:05:03.374
+Total history chat to show sets how many past chats a signed-in visitor can reopen.
+
+00:05:03.374 --> 00:05:04.631
+Click Publish.
+
+00:05:05.082 --> 00:05:06.423
+Open your website.
+
+00:05:06.423 --> 00:05:08.938
+A round chat button sits in the corner.
+
+00:05:08.938 --> 00:05:13.017
+Visitors who are not signed in use the Anonymous role, so give that
+
+00:05:13.017 --> 00:05:16.482
+role permission to query this one profile, and no other.
+
+00:05:16.938 --> 00:05:18.957
+Visitors chat the same way.
+
+00:05:18.957 --> 00:05:23.360
+A chat is saved only once the visitor sends a first message, never
+
+00:05:23.360 --> 00:05:25.868
+just because someone opened a page.
+
+00:05:30.057 --> 00:05:35.454
+The engine that plans an answer and decides which tools to use is called an orchestrator.
+
+00:05:35.454 --> 00:05:41.817
+Settings, Artificial Intelligence has a Default Orchestrator section for the one that comes with the site.
+
+00:05:42.271 --> 00:05:46.351
+The AI Claude Orchestrator feature adds a Claude section.
+
+00:05:46.351 --> 00:05:51.985
+Choose the Authentication type, API key, enter the key, and pick a Default model.
+
+00:05:51.985 --> 00:05:55.611
+Claude stays off while the type is Not configured.
+
+00:05:56.064 --> 00:06:00.634
+The AI Copilot Orchestrator feature adds a Copilot section.
+
+00:06:00.634 --> 00:06:05.203
+It signs in as a GitHub signed-in user, or it uses your own
+
+00:06:05.203 --> 00:06:09.984
+API key, with a Provider type, a Base URL and a Default model.
+
+00:06:10.437 --> 00:06:14.004
+Once an engine is set up, a profile can choose it in the
+
+00:06:14.004 --> 00:06:16.592
+Orchestrator field of its General card.
+
+00:06:16.592 --> 00:06:22.057
+Those engines choose their own model, so the deployment fields of the profile are hidden.
+
+00:06:26.246 --> 00:06:30.083
+A public assistant is open to anyone, so the site protects it.
+
+00:06:30.083 --> 00:06:34.598
+In the Prompt Security section, checks block messages that try to make the
+
+00:06:34.598 --> 00:06:36.856
+assistant ignore its instructions.
+
+00:06:37.308 --> 00:06:39.276
+Below them are the limits:
+
+00:06:39.276 --> 00:06:43.579
+how many messages one person can send in a window, and tiers for
+
+00:06:43.579 --> 00:06:48.374
+visitors who are not signed in, such as a short burst and a daily total.
+
+00:06:48.374 --> 00:06:52.308
+Session limits cap how many new chats a visitor can start.
+
+00:06:52.763 --> 00:06:58.947
+The Visitor Identity section decides how a visitor is recognized across visits, with a cookie.
+
+00:06:58.947 --> 00:07:02.533
+Set the Visitor cookie name and the Cookie lifetime.
+
+00:07:02.987 --> 00:07:07.592
+A profile can override these limits on its own Prompt Security card.
+
+00:07:07.592 --> 00:07:10.767
+Leave a field empty to keep the site's value.
+
+00:07:14.967 --> 00:07:17.134
+Staff get an internal helper.
+
+00:07:17.134 --> 00:07:21.532
+A policy assistant is one click away in the admin menu, and every
+
+00:07:21.532 --> 00:07:24.877
+conversation is kept for the person who held it.
+
+00:07:25.627 --> 00:07:27.889
+Visitors get a website assistant.
+
+00:07:27.889 --> 00:07:32.704
+It answers questions about opening hours, orders and repairs at any time, and
+
+00:07:32.704 --> 00:07:34.967
+hands over when it does not know.
+
+00:07:35.717 --> 00:07:38.911
+Editors get an admin assistant that is always there.
+
+00:07:38.911 --> 00:07:43.537
+Give its profile tools, and it can look things up on the site while they work.
+
+00:07:44.287 --> 00:07:48.812
+A team that already uses Claude or GitHub Copilot can pick that engine
+
+00:07:48.812 --> 00:07:52.207
+for one profile, and keep the default for the rest.
+
+00:07:54.207 --> 00:07:58.260
+A chat page for staff, a floating chat in the admin, and a
+
+00:07:58.260 --> 00:08:01.680
+chat box for visitors, all on the same profiles.
+
+00:08:01.680 --> 00:08:03.327
+Thanks for watching.
+
