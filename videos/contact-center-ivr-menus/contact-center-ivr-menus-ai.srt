@@ -1,0 +1,40 @@
+1
+00:00:03,200 --> 00:00:07,202
+Instead of a menu, a call entry point can hand its calls to
+
+2
+00:00:07,202 --> 00:00:08,680
+an AI voice agent:
+
+3
+00:00:08,680 --> 00:00:12,990
+an AI profile that greets the caller and holds the conversation.
+
+4
+00:00:13,740 --> 00:00:18,086
+When the Telnyx AI Voice Agent feature is on, Route to on the
+
+5
+00:00:18,086 --> 00:00:23,017
+Routing card offers AI voice agent, with the AI agent profile to pick.
+
+6
+00:00:23,017 --> 00:00:26,390
+The welcome message and the menu are not used.
+
+7
+00:00:27,140 --> 00:00:30,940
+The AI can pass a caller to a person with the hand-off set
+
+8
+00:00:30,940 --> 00:00:32,483
+on the subject flow.
+
+9
+00:00:32,483 --> 00:00:37,114
+While the entry point is closed, callers go to voicemail, or are refused
+
+10
+00:00:37,114 --> 00:00:39,430
+when the closed action is Reject.
+

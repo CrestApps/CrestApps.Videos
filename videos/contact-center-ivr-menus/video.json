@@ -1,0 +1,97 @@
+{
+  "title": "IVR Menus: Let Callers Press a Key to Reach the Right Team | CrestApps for Orchard Core",
+  "description": "Without a phone menu, every caller reaches the same queue and agents spend the first minute sending people to the right team. The CrestApps Contact Center lets an inbound entry point greet callers with a welcome message and a keypad menu, so each caller reaches the right queue, agent or voicemail by themselves.\n\nIn this video:\n• Why a phone menu, and how prompts, keys and actions work\n• The welcome message that every caller hears once\n• Building a menu: the prompt, a key for each choice, and a recorded prompt from Voice media\n• Submenus, going back to another menu, and repeating a menu\n• Tries, the fallback when the tries run out, and the problems the builder reports\n• Handing calls to an AI voice agent instead of a menu\n• What callers hear, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "IVR",
+    "phone menu",
+    "call routing",
+    "welcome message",
+    "contact center",
+    "inbound calls",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Why a phone menu"
+    },
+    {
+      "time": "0:49",
+      "title": "How a menu works"
+    },
+    {
+      "time": "1:29",
+      "title": "The welcome message"
+    },
+    {
+      "time": "1:56",
+      "title": "Build a menu"
+    },
+    {
+      "time": "2:59",
+      "title": "Submenus"
+    },
+    {
+      "time": "3:39",
+      "title": "Tries and problems"
+    },
+    {
+      "time": "4:45",
+      "title": "An AI voice agent"
+    },
+    {
+      "time": "5:26",
+      "title": "What callers hear"
+    },
+    {
+      "time": "5:51",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:18",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/entry-points-and-ivr"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/voice-routing"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Inbound Entry Points, Inbound Voice)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/entry-points-and-ivr.md"
+  ],
+  "length": "6:29"
+}
