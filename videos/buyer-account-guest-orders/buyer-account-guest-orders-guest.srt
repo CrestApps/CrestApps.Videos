@@ -1,0 +1,64 @@
+1
+00:00:03,231 --> 00:00:06,007
+A guest does not need an account to buy.
+
+2
+00:00:06,007 --> 00:00:09,507
+Casey adds a watch to the cart, and clicks Checkout.
+
+3
+00:00:09,507 --> 00:00:13,610
+Checkout asks for a name and an email, and for where the order
+
+4
+00:00:13,610 --> 00:00:16,446
+goes, and then offers the shipping rates.
+
+5
+00:00:16,446 --> 00:00:20,851
+Casey fills it in, and picks the standard rate, as any buyer would.
+
+6
+00:00:21,334 --> 00:00:24,020
+Casey chooses to pay by bank transfer.
+
+7
+00:00:24,020 --> 00:00:28,417
+The page shows the account to transfer to, and the order number to
+
+8
+00:00:28,417 --> 00:00:30,066
+use as the reference.
+
+9
+00:00:30,066 --> 00:00:34,096
+The order is placed now, and is paid when the money arrives.
+
+10
+00:00:34,096 --> 00:00:37,944
+Casey clicks Pay now, and lands on the confirmation page.
+
+11
+00:00:38,394 --> 00:00:43,266
+The confirmation page shows the order number, and a link to view the order.
+
+12
+00:00:43,266 --> 00:00:44,950
+Casey keeps this link:
+
+13
+00:00:44,950 --> 00:00:49,100
+it works for sixty days, and the confirmation email has it too.
+
+14
+00:00:49,100 --> 00:00:52,708
+The page may also offer to make an account right away.
+
+15
+00:00:52,708 --> 00:00:57,399
+Staff find the same order under Commerce, Orders, where it shows as paid
+
+16
+00:00:57,399 --> 00:00:59,564
+once the transfer is recorded.
+

@@ -1,0 +1,236 @@
+{
+  "title": "Buyer account and guest orders",
+  "output": "buyer-account-guest-orders",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Buyer account and guest orders",
+      "subtitle": "Find an order, with or without an account",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A buyer who comes back wants to see their orders, their invoices and the things they saved. A buyer who never signs up still needs to find their order. This video shows the buyer's account, guest checkout, and how a guest finds an order or turns it into an account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why buyers need a way back",
+      "subtitle": "Orders, invoices and wishlists",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Buyers come back to see where an order is, to print an invoice, or to buy the same thing again."
+            },
+            {
+              "id": "why-2",
+              "text": "Many never want an account, and checking out as a guest keeps the sale easy."
+            },
+            {
+              "id": "why-3",
+              "text": "A guest still needs a way back to their order, without anyone else being able to read it."
+            },
+            {
+              "id": "why-4",
+              "text": "So signed-in buyers get an account, and guests get a secure link, a tracking page, and a way to find their orders by email."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Account pages and order links",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A signed-in buyer has My account, with a page for each feature the store has turned on."
+            },
+            {
+              "id": "how-2",
+              "text": "A guest gets a link to their order on the confirmation page and in the confirmation email. It works for sixty days."
+            },
+            {
+              "id": "how-3",
+              "text": "Track your order asks for the order number and the email together. Find my order emails the links."
+            },
+            {
+              "id": "how-4",
+              "text": "A guest can turn their orders into an account in one step, with the same email."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The buyer's account",
+      "subtitle": "Orders, invoices, cards and a wishlist",
+      "clips": [
+        {
+          "id": "03-account",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "acct-1",
+              "text": "Jamie signs in and opens My account. It has a page for each feature the store has turned on: Orders, Wishlist, Payment methods, Balances and invoices, Addresses, Account details, Rewards, store credit and referrals."
+            },
+            {
+              "id": "acct-2",
+              "text": "Orders lists Jamie's orders, newest first, with the status and the total. Open one to see what was bought and when it was placed, and print its Invoice. An order waiting for payment has Pay now, and with Returns on, a paid order has Return items."
+            },
+            {
+              "id": "acct-3",
+              "text": "Payment methods lists the cards Jamie saved at checkout, so Jamie can remove them. The cards are kept by the payment provider, not on your site. Balances and invoices shows what Jamie owes, and the invoices and receipts."
+            },
+            {
+              "id": "acct-4",
+              "text": "With Wishlists on, Save to wishlist on a product's page keeps it for later. Under Wishlist, each saved product has its own Add to cart, and a product you stop selling drops off the list."
+            }
+          ]
+        }
+      ],
+      "short": "account"
+    },
+    {
+      "id": "04",
+      "title": "Checking out as a guest",
+      "subtitle": "No account needed",
+      "clips": [
+        {
+          "id": "04-guest",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "guest-1",
+              "text": "A guest does not need an account to buy. Casey adds a watch to the cart, and clicks Checkout. Checkout asks for a name and an email, and for where the order goes, and then offers the shipping rates. Casey fills it in, and picks the standard rate, as any buyer would."
+            },
+            {
+              "id": "guest-2",
+              "text": "Casey chooses to pay by bank transfer. The page shows the account to transfer to, and the order number to use as the reference. The order is placed now, and is paid when the money arrives. Casey clicks Pay now, and lands on the confirmation page."
+            },
+            {
+              "id": "guest-3",
+              "text": "The confirmation page shows the order number, and a link to view the order. Casey keeps this link: it works for sixty days, and the confirmation email has it too. The page may also offer to make an account right away. Staff find the same order under Commerce, Orders, where it shows as paid once the transfer is recorded."
+            }
+          ]
+        }
+      ],
+      "short": "guest"
+    },
+    {
+      "id": "05",
+      "title": "Finding an order as a guest",
+      "subtitle": "Track your order, and Find my order",
+      "clips": [
+        {
+          "id": "05-find",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "Later, Casey cannot find the email. Track your order asks for the order number and the email the order was placed with. Both must match, so a number alone shows nothing. Casey enters them, and sees the order, and its shipments once it ships."
+            },
+            {
+              "id": "find-2",
+              "text": "If Casey has lost the number too, Find my order asks only for the email, and emails a link to each recent order. It answers the same way whether or not there are orders, so it never tells anyone who has bought from you."
+            },
+            {
+              "id": "find-3",
+              "text": "Casey opens the link from the email, and is back at the order. Link to both pages from your site's footer or help page, so guests can find them."
+            }
+          ]
+        }
+      ],
+      "short": "find"
+    },
+    {
+      "id": "06",
+      "title": "Turn a guest order into an account",
+      "subtitle": "One password",
+      "clips": [
+        {
+          "id": "06-register",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "reg-1",
+              "text": "Casey's order page has a line for guests: create an account with the same email to see this order and future ones in your account. Casey clicks Create an account."
+            },
+            {
+              "id": "reg-2",
+              "text": "Casey chooses a user name and a password, with the same email, and registers. This link shows when your site lets visitors register, and a site can also ask new users to confirm their email first."
+            },
+            {
+              "id": "reg-3",
+              "text": "Casey is signed in, and finds the guest order under Orders, along with every other order placed with that email."
+            }
+          ]
+        }
+      ],
+      "short": "register"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop of one-time buyers: guest checkout, and a link that always brings them back to the order."
+            },
+            {
+              "id": "use-2",
+              "text": "A store with regulars: an account with orders, invoices, a wishlist and saved addresses in one place."
+            },
+            {
+              "id": "use-3",
+              "text": "A support desk: ask for the order number and the email, or point to Track your order."
+            },
+            {
+              "id": "use-4",
+              "text": "Turning guests into accounts: offer a password on the confirmation page, right after the sale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With accounts and order links, every buyer can find their way back to an order, with or without signing up. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
