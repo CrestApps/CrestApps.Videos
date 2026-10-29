@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.189 --> 00:00:04.795
+Open Tools, Recipes.
+
+00:00:04.795 --> 00:00:07.081
+Recipes are grouped by feature.
+
+00:00:07.081 --> 00:00:11.405
+Each one has a name, tags, and a description of what it creates,
+
+00:00:11.405 --> 00:00:13.629
+so you know before you run it.
+
+00:00:14.093 --> 00:00:17.995
+Type in the Search box to find a recipe by name or tag.
+
+00:00:17.995 --> 00:00:22.153
+Run starts a recipe and reports the result when it is done.
+
+00:00:22.605 --> 00:00:24.873
+Recipes can also be pasted in.
+
+00:00:24.873 --> 00:00:27.583
+Open Tools, Deployments, JSON Import.
+
+00:00:27.583 --> 00:00:32.436
+The editor suggests the steps and their settings as you type, and marks
+
+00:00:32.436 --> 00:00:34.705
+mistakes before anything runs.
+

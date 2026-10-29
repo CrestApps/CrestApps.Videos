@@ -1,0 +1,287 @@
+{
+  "title": "Wizards, Recipes and Shared Resources",
+  "output": "site-wizard-recipes",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Wizards, Recipes and Shared Resources",
+      "subtitle": "Guided steps, ready-made setups and common building blocks",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video covers three helpers that make a site easier to build and to use: the Wizard, which guides visitors through a form one step at a time; Recipes, which set up a site from a ready-made script; and the shared resources that other screens build on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why these three",
+      "subtitle": "Long forms, repeated setups and repeated widgets",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A long form with dozens of boxes puts visitors off. Splitting it into steps, with progress shown, gets more of them to the end."
+            },
+            {
+              "id": "why-2",
+              "text": "Setting up the same content types, roles and settings by hand on every new site is slow, and each site ends up slightly different."
+            },
+            {
+              "id": "why-3",
+              "text": "Screens also need the same small widgets again and again, such as a date range menu or a phone box with flags, and they should look and behave the same everywhere."
+            },
+            {
+              "id": "why-4",
+              "text": "The Wizard, Recipes and the shared resources answer one problem each, so you build once and reuse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What each one is",
+      "subtitle": "A wizard, a recipe and a shared resource",
+      "clips": [
+        {
+          "id": "02-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "A wizard asks a visitor for information one step at a time, remembers the answers between steps, and creates content items from them at the end."
+            },
+            {
+              "id": "what-2",
+              "text": "A recipe is a ready-made setup that you run from the admin. It creates content types, settings, roles or sample content in one go."
+            },
+            {
+              "id": "what-3",
+              "text": "The shared resources are the common scripts and styles that other CrestApps screens use, so a date range menu or a phone box behaves the same in every module."
+            },
+            {
+              "id": "what-4",
+              "text": "You build a wizard in the admin and run recipes from the admin. The shared resources need nothing from you except to be turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Prepare a wizard",
+      "subtitle": "A content type with the Wizard part",
+      "clips": [
+        {
+          "id": "03-type",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "type-1",
+              "text": "A wizard is a content type that has the Wizard part. Open Design, Content Definition, Content Types, and edit the type that will host the wizard. Here it is Workshop Registration."
+            },
+            {
+              "id": "type-2",
+              "text": "Click Add Parts. Wizard is in the list. Click Add and Configure."
+            },
+            {
+              "id": "type-3",
+              "text": "Contained content types are the kinds of step a wizard can have. Choose Visitor Details and Visit Preferences. Each step is an ordinary content type with its own boxes."
+            },
+            {
+              "id": "type-4",
+              "text": "Requires an authenticated user is off, so anyone can take part. Tick it to require sign-in. Completion policy decides what happens to the answers at the end: create and publish them, create drafts, or do not keep them. Save."
+            }
+          ]
+        }
+      ],
+      "short": "type"
+    },
+    {
+      "id": "04",
+      "title": "Build the steps",
+      "subtitle": "Add, fill in and order the steps",
+      "clips": [
+        {
+          "id": "04-steps",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "steps-1",
+              "text": "Now create a Workshop Registration. Give it a title, such as Spring workshop."
+            },
+            {
+              "id": "steps-2",
+              "text": "Use Add step to add one card for each step, here Visitor Details and Visit Preferences. Each card holds that step's boxes, which can start with default values."
+            },
+            {
+              "id": "steps-3",
+              "text": "The order of the cards is the order of the steps, and you can drag a card to change it. Publish the item."
+            }
+          ]
+        }
+      ],
+      "short": "steps"
+    },
+    {
+      "id": "05",
+      "title": "Take part in the wizard",
+      "subtitle": "What the visitor sees",
+      "clips": [
+        {
+          "id": "05-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "A link on your site sends visitors to the wizard. It opens on the first step, with a progress bar at the top that shows where they are."
+            },
+            {
+              "id": "run-2",
+              "text": "The visitor fills in the first step and clicks Next. The progress bar marks it done, and the answers are kept."
+            },
+            {
+              "id": "run-3",
+              "text": "On the second step, Previous goes back without losing anything, and Finish completes the wizard."
+            },
+            {
+              "id": "run-4",
+              "text": "A confirmation page tells the visitor it is done."
+            }
+          ]
+        }
+      ],
+      "short": "run"
+    },
+    {
+      "id": "06",
+      "title": "See what was collected",
+      "subtitle": "The answers become content items",
+      "clips": [
+        {
+          "id": "06-results",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "results-1",
+              "text": "With the completion policy on create and publish, each step's answers are now content items. Open Content, Content Items, and find the Visitor Details and Visit Preferences items."
+            }
+          ]
+        }
+      ],
+      "short": "results"
+    },
+    {
+      "id": "07",
+      "title": "Run a recipe",
+      "subtitle": "A ready-made setup in one click",
+      "clips": [
+        {
+          "id": "07-recipes",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "recipes-1",
+              "text": "Open Tools, Recipes. Recipes are grouped by feature. Each one has a name, tags, and a description of what it creates, so you know before you run it."
+            },
+            {
+              "id": "recipes-2",
+              "text": "Type in the Search box to find a recipe by name or tag. Run starts a recipe and reports the result when it is done."
+            },
+            {
+              "id": "recipes-3",
+              "text": "Recipes can also be pasted in. Open Tools, Deployments, JSON Import. The editor suggests the steps and their settings as you type, and marks mistakes before anything runs."
+            }
+          ]
+        }
+      ],
+      "short": "recipes"
+    },
+    {
+      "id": "08",
+      "title": "The shared resources",
+      "subtitle": "Small building blocks used everywhere",
+      "clips": [
+        {
+          "id": "08-res",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "res-1",
+              "text": "The date range menu offers presets such as Last 7 Days or This Month, and a custom range, in one dropdown. Report filters use it."
+            },
+            {
+              "id": "res-2",
+              "text": "The phone box with a country flag picker is shared by the Phone Field and by screens that ask for a phone number."
+            },
+            {
+              "id": "res-3",
+              "text": "Select-all checkboxes on admin lists, collapsible panels, date and time pickers and item selectors are shared in the same way."
+            },
+            {
+              "id": "res-4",
+              "text": "Because they come from one place, every screen looks and behaves the same, and they are turned on once, together with the CrestApps features that use them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Event or workshop registration that asks for details in a few short steps."
+            },
+            {
+              "id": "use-2",
+              "text": "Customer onboarding, with one step for contact details and another for preferences."
+            },
+            {
+              "id": "use-3",
+              "text": "A recipe that creates the same content types, roles and sample pages for every new site."
+            },
+            {
+              "id": "use-4",
+              "text": "A recipe for a training or demo site, run again whenever you need a fresh copy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Build a wizard once to guide visitors step by step, run a recipe to set a site up in one click, and let the shared resources keep every screen consistent. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

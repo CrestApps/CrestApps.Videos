@@ -1,0 +1,236 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.658
+This video covers three helpers that make a site easier to build and to use:
+
+00:00:05.658 --> 00:00:09.861
+the Wizard, which guides visitors through a form one step at a time;
+
+00:00:09.861 --> 00:00:14.121
+Recipes, which set up a site from a ready-made script; and the shared
+
+00:00:14.121 --> 00:00:16.620
+resources that other screens build on.
+
+00:00:21.220 --> 00:00:24.582
+A long form with dozens of boxes puts visitors off.
+
+00:00:24.582 --> 00:00:29.360
+Splitting it into steps, with progress shown, gets more of them to the end.
+
+00:00:30.110 --> 00:00:34.907
+Setting up the same content types, roles and settings by hand on every
+
+00:00:34.907 --> 00:00:39.010
+new site is slow, and each site ends up slightly different.
+
+00:00:39.760 --> 00:00:43.879
+Screens also need the same small widgets again and again, such as a
+
+00:00:43.879 --> 00:00:47.772
+date range menu or a phone box with flags, and they should look
+
+00:00:47.772 --> 00:00:49.860
+and behave the same everywhere.
+
+00:00:50.610 --> 00:00:56.011
+The Wizard, Recipes and the shared resources answer one problem each, so you
+
+00:00:56.011 --> 00:00:57.790
+build once and reuse.
+
+00:01:01.990 --> 00:01:06.495
+A wizard asks a visitor for information one step at a time, remembers
+
+00:01:06.495 --> 00:01:11.300
+the answers between steps, and creates content items from them at the end.
+
+00:01:12.050 --> 00:01:16.263
+A recipe is a ready-made setup that you run from the admin.
+
+00:01:16.263 --> 00:01:21.190
+It creates content types, settings, roles or sample content in one go.
+
+00:01:21.940 --> 00:01:27.312
+The shared resources are the common scripts and styles that other CrestApps screens
+
+00:01:27.312 --> 00:01:32.140
+use, so a date range menu or a phone box behaves the same in every module.
+
+00:01:32.890 --> 00:01:36.849
+You build a wizard in the admin and run recipes from the admin.
+
+00:01:36.849 --> 00:01:40.980
+The shared resources need nothing from you except to be turned on.
+
+00:01:45.157 --> 00:01:48.920
+A wizard is a content type that has the Wizard part.
+
+00:01:48.920 --> 00:01:55.277
+Open Design, Content Definition, Content Types, and edit the type that will host the wizard.
+
+00:01:55.277 --> 00:01:57.807
+Here it is Workshop Registration.
+
+00:01:58.259 --> 00:01:59.796
+Click Add Parts.
+
+00:01:59.796 --> 00:02:01.752
+Wizard is in the list.
+
+00:02:01.752 --> 00:02:03.849
+Click Add and Configure.
+
+00:02:04.305 --> 00:02:08.870
+Contained content types are the kinds of step a wizard can have.
+
+00:02:08.870 --> 00:02:12.196
+Choose Visitor Details and Visit Preferences.
+
+00:02:12.196 --> 00:02:16.305
+Each step is an ordinary content type with its own boxes.
+
+00:02:16.755 --> 00:02:21.246
+Requires an authenticated user is off, so anyone can take part.
+
+00:02:21.246 --> 00:02:23.393
+Tick it to require sign-in.
+
+00:02:23.393 --> 00:02:28.014
+Completion policy decides what happens to the answers at the end:
+
+00:02:28.014 --> 00:02:32.309
+create and publish them, create drafts, or do not keep them.
+
+00:02:32.309 --> 00:02:33.025
+Save.
+
+00:02:37.215 --> 00:02:39.666
+Now create a Workshop Registration.
+
+00:02:39.666 --> 00:02:42.475
+Give it a title, such as Spring workshop.
+
+00:02:42.926 --> 00:02:49.201
+Use Add step to add one card for each step, here Visitor Details and Visit Preferences.
+
+00:02:49.201 --> 00:02:54.396
+Each card holds that step's boxes, which can start with default values.
+
+00:02:54.847 --> 00:02:58.159
+The order of the cards is the order of the steps, and you
+
+00:02:58.159 --> 00:02:59.998
+can drag a card to change it.
+
+00:02:59.998 --> 00:03:01.207
+Publish the item.
+
+00:03:05.399 --> 00:03:08.258
+A link on your site sends visitors to the wizard.
+
+00:03:08.258 --> 00:03:11.585
+It opens on the first step, with a progress bar at the top
+
+00:03:11.585 --> 00:03:13.249
+that shows where they are.
+
+00:03:13.701 --> 00:03:17.104
+The visitor fills in the first step and clicks Next.
+
+00:03:17.104 --> 00:03:20.801
+The progress bar marks it done, and the answers are kept.
+
+00:03:21.251 --> 00:03:27.541
+On the second step, Previous goes back without losing anything, and Finish completes the wizard.
+
+00:03:27.992 --> 00:03:31.112
+A confirmation page tells the visitor it is done.
+
+00:03:35.285 --> 00:03:41.907
+With the completion policy on create and publish, each step's answers are now content items.
+
+00:03:41.907 --> 00:03:48.125
+Open Content, Content Items, and find the Visitor Details and Visit Preferences items.
+
+00:03:52.314 --> 00:03:53.920
+Open Tools, Recipes.
+
+00:03:53.920 --> 00:03:56.206
+Recipes are grouped by feature.
+
+00:03:56.206 --> 00:04:00.530
+Each one has a name, tags, and a description of what it creates,
+
+00:04:00.530 --> 00:04:02.754
+so you know before you run it.
+
+00:04:03.217 --> 00:04:07.119
+Type in the Search box to find a recipe by name or tag.
+
+00:04:07.119 --> 00:04:11.277
+Run starts a recipe and reports the result when it is done.
+
+00:04:11.729 --> 00:04:13.998
+Recipes can also be pasted in.
+
+00:04:13.998 --> 00:04:16.708
+Open Tools, Deployments, JSON Import.
+
+00:04:16.708 --> 00:04:21.561
+The editor suggests the steps and their settings as you type, and marks
+
+00:04:21.561 --> 00:04:23.829
+mistakes before anything runs.
+
+00:04:28.029 --> 00:04:32.409
+The date range menu offers presets such as Last 7 Days or This
+
+00:04:32.409 --> 00:04:35.566
+Month, and a custom range, in one dropdown.
+
+00:04:35.566 --> 00:04:37.369
+Report filters use it.
+
+00:04:38.119 --> 00:04:41.859
+The phone box with a country flag picker is shared by the Phone
+
+00:04:41.859 --> 00:04:44.839
+Field and by screens that ask for a phone number.
+
+00:04:45.589 --> 00:04:51.915
+Select-all checkboxes on admin lists, collapsible panels, date and time pickers and item
+
+00:04:51.915 --> 00:04:54.809
+selectors are shared in the same way.
+
+00:04:55.559 --> 00:05:00.046
+Because they come from one place, every screen looks and behaves the same,
+
+00:05:00.046 --> 00:05:04.869
+and they are turned on once, together with the CrestApps features that use them.
+
+00:05:09.069 --> 00:05:14.539
+Event or workshop registration that asks for details in a few short steps.
+
+00:05:15.289 --> 00:05:21.359
+Customer onboarding, with one step for contact details and another for preferences.
+
+00:05:22.109 --> 00:05:29.019
+A recipe that creates the same content types, roles and sample pages for every new site.
+
+00:05:29.769 --> 00:05:35.769
+A recipe for a training or demo site, run again whenever you need a fresh copy.
+
+00:05:37.769 --> 00:05:41.805
+Build a wizard once to guide visitors step by step, run a recipe
+
+00:05:41.805 --> 00:05:45.552
+to set a site up in one click, and let the shared resources
+
+00:05:45.552 --> 00:05:47.570
+keep every screen consistent.
+
+00:05:47.570 --> 00:05:49.069
+Thanks for watching.
+

@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.190 --> 00:00:05.641
+Now create a Workshop Registration.
+
+00:00:05.641 --> 00:00:08.450
+Give it a title, such as Spring workshop.
+
+00:00:08.901 --> 00:00:15.176
+Use Add step to add one card for each step, here Visitor Details and Visit Preferences.
+
+00:00:15.176 --> 00:00:20.371
+Each card holds that step's boxes, which can start with default values.
+
+00:00:20.822 --> 00:00:24.133
+The order of the cards is the order of the steps, and you
+
+00:00:24.133 --> 00:00:25.973
+can drag a card to change it.
+
+00:00:25.973 --> 00:00:27.182
+Publish the item.
+

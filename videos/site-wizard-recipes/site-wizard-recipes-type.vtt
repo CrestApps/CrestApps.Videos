@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.177 --> 00:00:06.940
+A wizard is a content type that has the Wizard part.
+
+00:00:06.940 --> 00:00:13.297
+Open Design, Content Definition, Content Types, and edit the type that will host the wizard.
+
+00:00:13.297 --> 00:00:15.827
+Here it is Workshop Registration.
+
+00:00:16.279 --> 00:00:17.816
+Click Add Parts.
+
+00:00:17.816 --> 00:00:19.772
+Wizard is in the list.
+
+00:00:19.772 --> 00:00:21.869
+Click Add and Configure.
+
+00:00:22.325 --> 00:00:26.890
+Contained content types are the kinds of step a wizard can have.
+
+00:00:26.890 --> 00:00:30.216
+Choose Visitor Details and Visit Preferences.
+
+00:00:30.216 --> 00:00:34.325
+Each step is an ordinary content type with its own boxes.
+
+00:00:34.775 --> 00:00:39.266
+Requires an authenticated user is off, so anyone can take part.
+
+00:00:39.266 --> 00:00:41.413
+Tick it to require sign-in.
+
+00:00:41.413 --> 00:00:46.034
+Completion policy decides what happens to the answers at the end:
+
+00:00:46.034 --> 00:00:50.329
+create and publish them, create drafts, or do not keep them.
+
+00:00:50.329 --> 00:00:51.045
+Save.
+
