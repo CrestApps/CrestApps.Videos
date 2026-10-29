@@ -1,0 +1,177 @@
+{
+  "title": "AI Data Extraction and Post-Session Processing",
+  "output": "ai-data-extraction-post-session",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Data Extraction and Post-Session Processing",
+      "subtitle": "Learn from every chat",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A chat is more than answers. It holds names, emails and needs, and when it ends it has an outcome. This video shows the Data Processing and Metrics tab of a profile: how the assistant collects details while it chats, what it analyzes after the chat ends, and how it measures its own results."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Three moments",
+      "subtitle": "During, after, and over time",
+      "clips": [
+        {
+          "id": "01-moments",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "mom-1",
+              "text": "While a chat runs, data extraction picks out details, such as a name or an email address."
+            },
+            {
+              "id": "mom-2",
+              "text": "When the chat ends, post-session processing analyzes the whole conversation: a summary, an outcome, and more."
+            },
+            {
+              "id": "mom-3",
+              "text": "Over time, metrics tell you whether chats are solved, liked, and worth the cost. All three are settings of the profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Collect details while chatting",
+      "subtitle": "Data extraction",
+      "clips": [
+        {
+          "id": "02-extraction",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ext-1",
+              "text": "Open the profile, and open the Data Processing and Metrics tab. Session inactivity timeout is how long a chat can be silent before it is closed. The default is thirty minutes."
+            },
+            {
+              "id": "ext-2",
+              "text": "Tick Enable data extraction. The assistant now picks details out of the conversation as it goes. Extraction check interval is how often it looks: every this many messages from the user."
+            },
+            {
+              "id": "ext-3",
+              "text": "Click Add Entry for each detail. Enter a Name, such as customer email, and a Description that tells the assistant what to look for."
+            },
+            {
+              "id": "ext-4",
+              "text": "Allow Multiple Values keeps several values, such as several products. Updatable lets a later answer replace the value, for example when a customer corrects an email."
+            }
+          ]
+        }
+      ],
+      "short": "extraction"
+    },
+    {
+      "id": "03",
+      "title": "Analyze after the chat",
+      "subtitle": "Post-session processing",
+      "clips": [
+        {
+          "id": "03-postsession",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pst-1",
+              "text": "Tick Enable post-session processing, and the assistant analyzes the whole conversation after the chat closes. Closing a chat also starts the AI Chat Session Closed workflow event."
+            },
+            {
+              "id": "pst-2",
+              "text": "On the Tasks tab, click Add Task. Enter a Name and Instructions. The Type Semantic returns free text, such as a summary."
+            },
+            {
+              "id": "pst-3",
+              "text": "The type Predefined Options picks from a list, such as resolved, escalated or abandoned. Add each choice with Add Option, a Value and a Description."
+            },
+            {
+              "id": "pst-4",
+              "text": "The Capabilities tab next to it picks the tools that the assistant may use while it analyzes."
+            }
+          ]
+        }
+      ],
+      "short": "postsession"
+    },
+    {
+      "id": "04",
+      "title": "Measure the results",
+      "subtitle": "Metrics",
+      "clips": [
+        {
+          "id": "04-metrics",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "met-1",
+              "text": "The metrics need the AI Chat Session Analytics feature. Enable session metrics collects the numbers for the chat reports, and adds thumbs up and thumbs down buttons to the answers."
+            },
+            {
+              "id": "met-2",
+              "text": "Enable AI resolution detection lets the assistant decide whether each closed chat solved the problem of the user."
+            },
+            {
+              "id": "met-3",
+              "text": "Enable conversion metrics scores each closed chat against your goals. Click Add Goal, and enter a Name, a Description of what to judge, and the Min score and Max score."
+            }
+          ]
+        }
+      ],
+      "short": "metrics"
+    },
+    {
+      "id": "05",
+      "title": "Where the results go",
+      "subtitle": "Reports and workflows",
+      "clips": [
+        {
+          "id": "05-results",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "res-1",
+              "text": "Extracted details and the results of the tasks appear in the AI reports of the site, one row for each chat."
+            },
+            {
+              "id": "res-2",
+              "text": "They are also available to workflows, which can send the details to another system, or notify a person."
+            },
+            {
+              "id": "res-3",
+              "text": "The analytics fields appear only after the profile is saved as a chat profile, and only when the analytics feature is on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Collect the details you need while people chat, analyze the chat when it ends, and measure the results. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+1
+00:00:03,240 --> 00:00:07,679
+Open the profile, and open the Data Processing and Metrics tab.
+
+2
+00:00:07,679 --> 00:00:13,213
+Session inactivity timeout is how long a chat can be silent before it is closed.
+
+3
+00:00:13,213 --> 00:00:15,530
+The default is thirty minutes.
+
+4
+00:00:15,997 --> 00:00:18,069
+Tick Enable data extraction.
+
+5
+00:00:18,069 --> 00:00:22,516
+The assistant now picks details out of the conversation as it goes.
+
+6
+00:00:22,516 --> 00:00:25,806
+Extraction check interval is how often it looks:
+
+7
+00:00:25,806 --> 00:00:28,547
+every this many messages from the user.
+
+8
+00:00:29,000 --> 00:00:31,239
+Click Add Entry for each detail.
+
+9
+00:00:31,239 --> 00:00:35,716
+Enter a Name, such as customer email, and a Description that tells the
+
+10
+00:00:35,716 --> 00:00:37,660
+assistant what to look for.
+
+11
+00:00:38,128 --> 00:00:42,833
+Allow Multiple Values keeps several values, such as several products.
+
+12
+00:00:42,833 --> 00:00:49,168
+Updatable lets a later answer replace the value, for example when a customer corrects an email.
+

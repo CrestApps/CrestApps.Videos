@@ -1,0 +1,196 @@
+1
+00:00:01,000 --> 00:00:03,021
+A chat is more than answers.
+
+2
+00:00:03,021 --> 00:00:07,478
+It holds names, emails and needs, and when it ends it has an outcome.
+
+3
+00:00:07,478 --> 00:00:11,757
+This video shows the Data Processing and Metrics tab of a profile:
+
+4
+00:00:11,757 --> 00:00:16,690
+how the assistant collects details while it chats, what it analyzes after the
+
+5
+00:00:16,690 --> 00:00:19,840
+chat ends, and how it measures its own results.
+
+6
+00:00:24,440 --> 00:00:29,250
+While a chat runs, data extraction picks out details, such as a name
+
+7
+00:00:29,250 --> 00:00:30,940
+or an email address.
+
+8
+00:00:31,690 --> 00:00:36,924
+When the chat ends, post-session processing analyzes the whole conversation:
+
+9
+00:00:36,924 --> 00:00:39,350
+a summary, an outcome, and more.
+
+10
+00:00:40,100 --> 00:00:45,657
+Over time, metrics tell you whether chats are solved, liked, and worth the cost.
+
+11
+00:00:45,657 --> 00:00:48,500
+All three are settings of the profile.
+
+12
+00:00:52,740 --> 00:00:57,179
+Open the profile, and open the Data Processing and Metrics tab.
+
+13
+00:00:57,179 --> 00:01:02,713
+Session inactivity timeout is how long a chat can be silent before it is closed.
+
+14
+00:01:02,713 --> 00:01:05,030
+The default is thirty minutes.
+
+15
+00:01:05,497 --> 00:01:07,569
+Tick Enable data extraction.
+
+16
+00:01:07,569 --> 00:01:12,016
+The assistant now picks details out of the conversation as it goes.
+
+17
+00:01:12,016 --> 00:01:15,306
+Extraction check interval is how often it looks:
+
+18
+00:01:15,306 --> 00:01:18,047
+every this many messages from the user.
+
+19
+00:01:18,500 --> 00:01:20,739
+Click Add Entry for each detail.
+
+20
+00:01:20,739 --> 00:01:25,216
+Enter a Name, such as customer email, and a Description that tells the
+
+21
+00:01:25,216 --> 00:01:27,160
+assistant what to look for.
+
+22
+00:01:27,628 --> 00:01:32,333
+Allow Multiple Values keeps several values, such as several products.
+
+23
+00:01:32,333 --> 00:01:38,668
+Updatable lets a later answer replace the value, for example when a customer corrects an email.
+
+24
+00:01:42,909 --> 00:01:50,463
+Tick Enable post-session processing, and the assistant analyzes the whole conversation after the chat closes.
+
+25
+00:01:50,463 --> 00:01:55,389
+Closing a chat also starts the AI Chat Session Closed workflow event.
+
+26
+00:01:55,854 --> 00:01:58,421
+On the Tasks tab, click Add Task.
+
+27
+00:01:58,421 --> 00:02:00,790
+Enter a Name and Instructions.
+
+28
+00:02:00,790 --> 00:02:04,804
+The Type Semantic returns free text, such as a summary.
+
+29
+00:02:05,313 --> 00:02:11,686
+The type Predefined Options picks from a list, such as resolved, escalated or abandoned.
+
+30
+00:02:11,686 --> 00:02:16,093
+Add each choice with Add Option, a Value and a Description.
+
+31
+00:02:16,544 --> 00:02:20,365
+The Capabilities tab next to it picks the tools that the assistant may
+
+32
+00:02:20,365 --> 00:02:21,774
+use while it analyzes.
+
+33
+00:02:26,074 --> 00:02:29,541
+The metrics need the AI Chat Session Analytics feature.
+
+34
+00:02:29,541 --> 00:02:34,485
+Enable session metrics collects the numbers for the chat reports, and adds thumbs
+
+35
+00:02:34,485 --> 00:02:37,214
+up and thumbs down buttons to the answers.
+
+36
+00:02:37,669 --> 00:02:42,908
+Enable AI resolution detection lets the assistant decide whether each closed chat solved
+
+37
+00:02:42,908 --> 00:02:44,579
+the problem of the user.
+
+38
+00:02:45,045 --> 00:02:49,663
+Enable conversion metrics scores each closed chat against your goals.
+
+39
+00:02:49,663 --> 00:02:54,035
+Click Add Goal, and enter a Name, a Description of what to judge,
+
+40
+00:02:54,035 --> 00:02:56,375
+and the Min score and Max score.
+
+41
+00:03:00,575 --> 00:03:05,260
+Extracted details and the results of the tasks appear in the AI reports
+
+42
+00:03:05,260 --> 00:03:07,755
+of the site, one row for each chat.
+
+43
+00:03:08,505 --> 00:03:13,145
+They are also available to workflows, which can send the details to another
+
+44
+00:03:13,145 --> 00:03:15,035
+system, or notify a person.
+
+45
+00:03:15,785 --> 00:03:19,944
+The analytics fields appear only after the profile is saved as a chat
+
+46
+00:03:19,944 --> 00:03:23,105
+profile, and only when the analytics feature is on.
+
+47
+00:03:25,105 --> 00:03:29,462
+Collect the details you need while people chat, analyze the chat when it
+
+48
+00:03:29,462 --> 00:03:31,473
+ends, and measure the results.
+
+49
+00:03:31,473 --> 00:03:32,925
+Thanks for watching.
+

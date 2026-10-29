@@ -1,0 +1,78 @@
+{
+  "title": "AI Data Extraction and Post-Session Processing: Learn From Every Chat | CrestApps for Orchard Core",
+  "description": "A chat holds names, emails and needs, and when it ends it has an outcome. This video shows the Data Processing and Metrics tab of a CrestApps AI profile: extracting details while people chat, analyzing the chat after it closes, and measuring resolution, ratings and conversion.\n\nIn this video:\n• The three moments: during, after and over time\n• Session inactivity timeout and data extraction entries\n• Post-session tasks: Semantic and Predefined Options\n• Session metrics, resolution detection and conversion goals\n• Where the results go: reports and workflows",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI data extraction",
+    "post-session processing",
+    "AI analytics",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Three moments"
+    },
+    {
+      "time": "0:49",
+      "title": "Collect details while chatting"
+    },
+    {
+      "time": "1:39",
+      "title": "Analyze after the chat"
+    },
+    {
+      "time": "2:22",
+      "title": "Measure the results"
+    },
+    {
+      "time": "2:57",
+      "title": "Where the results go"
+    },
+    {
+      "time": "3:24",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: profiles",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/profiles"
+    },
+    {
+      "label": "User manual: analytics",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/analytics"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat.Analytics"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/profiles.md"
+  ],
+  "length": "3:34"
+}

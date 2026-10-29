@@ -1,0 +1,32 @@
+1
+00:00:03,300 --> 00:00:06,767
+The metrics need the AI Chat Session Analytics feature.
+
+2
+00:00:06,767 --> 00:00:11,712
+Enable session metrics collects the numbers for the chat reports, and adds thumbs
+
+3
+00:00:11,712 --> 00:00:14,440
+up and thumbs down buttons to the answers.
+
+4
+00:00:14,896 --> 00:00:20,134
+Enable AI resolution detection lets the assistant decide whether each closed chat solved
+
+5
+00:00:20,134 --> 00:00:21,806
+the problem of the user.
+
+6
+00:00:22,272 --> 00:00:26,890
+Enable conversion metrics scores each closed chat against your goals.
+
+7
+00:00:26,890 --> 00:00:31,262
+Click Add Goal, and enter a Name, a Description of what to judge,
+
+8
+00:00:31,262 --> 00:00:33,602
+and the Min score and Max score.
+

@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.241 --> 00:00:10.795
+Tick Enable post-session processing, and the assistant analyzes the whole conversation after the chat closes.
+
+00:00:10.795 --> 00:00:15.721
+Closing a chat also starts the AI Chat Session Closed workflow event.
+
+00:00:16.186 --> 00:00:18.752
+On the Tasks tab, click Add Task.
+
+00:00:18.752 --> 00:00:21.122
+Enter a Name and Instructions.
+
+00:00:21.122 --> 00:00:25.136
+The Type Semantic returns free text, such as a summary.
+
+00:00:25.645 --> 00:00:32.018
+The type Predefined Options picks from a list, such as resolved, escalated or abandoned.
+
+00:00:32.018 --> 00:00:36.425
+Add each choice with Add Option, a Value and a Description.
+
+00:00:36.875 --> 00:00:40.697
+The Capabilities tab next to it picks the tools that the assistant may
+
+00:00:40.697 --> 00:00:42.105
+use while it analyzes.
+
