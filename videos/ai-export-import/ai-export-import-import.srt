@@ -1,0 +1,24 @@
+1
+00:00:03,194 --> 00:00:08,542
+On the other site, open Tools, Deployments, JSON Import to paste a recipe
+
+2
+00:00:08,542 --> 00:00:12,604
+into the editor, or Package Import to upload the file.
+
+3
+00:00:13,055 --> 00:00:17,267
+The import creates the items in the order of the file, and updates
+
+4
+00:00:17,267 --> 00:00:19,315
+the items that already exist.
+
+5
+00:00:19,315 --> 00:00:24,404
+Afterwards, open Connections and re-enter any secret that was left out, and check
+
+6
+00:00:24,404 --> 00:00:27,095
+the default deployments in the settings.
+
