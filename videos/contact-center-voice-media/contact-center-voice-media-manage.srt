@@ -1,0 +1,52 @@
+1
+00:00:03,207 --> 00:00:05,255
+Click Edit to open a clip.
+
+2
+00:00:05,255 --> 00:00:09,928
+Uploading a new file under Audio replaces the old audio everywhere:
+
+3
+00:00:09,928 --> 00:00:15,497
+the old master copy and every provider's copy are removed once the clip is saved.
+
+4
+00:00:16,125 --> 00:00:20,920
+A clip marked Provider copy only is lost if you change phone provider,
+
+5
+00:00:20,920 --> 00:00:23,192
+or if the provider deletes it.
+
+6
+00:00:23,192 --> 00:00:29,185
+To protect it, open the clip, choose the original file again under Audio, and click Save.
+
+7
+00:00:29,678 --> 00:00:34,205
+Click Re-sync media on a clip to check that every enabled phone provider
+
+8
+00:00:34,205 --> 00:00:38,094
+still holds it, and to send it to any provider that does not.
+
+9
+00:00:38,094 --> 00:00:40,358
+Use it after you change provider.
+
+10
+00:00:40,814 --> 00:00:43,194
+You see a message for each provider:
+
+11
+00:00:43,194 --> 00:00:47,102
+that it already held the clip, that it received a copy, or that
+
+12
+00:00:47,102 --> 00:00:48,689
+it did not accept one.
+
+13
+00:00:48,689 --> 00:00:51,974
+The button appears only on clips with a master copy.
+

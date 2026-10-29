@@ -1,0 +1,56 @@
+1
+00:00:03,300 --> 00:00:07,320
+Open Interaction Center, Management, Voice Media.
+
+2
+00:00:07,320 --> 00:00:09,293
+The library is empty.
+
+3
+00:00:09,293 --> 00:00:11,340
+Click Add Voice Media.
+
+4
+00:00:14,033 --> 00:00:18,348
+Enter a Name that people will recognize, such as Main hold music, and
+
+5
+00:00:18,348 --> 00:00:22,893
+an optional Description that says which business or line the clip is for.
+
+6
+00:00:23,428 --> 00:00:27,952
+Under Audio, choose an M.P.3, wave, O.G.G.
+
+7
+00:00:27,952 --> 00:00:32,288
+or web M file of up to twenty megabytes.
+
+8
+00:00:32,754 --> 00:00:33,774
+Click Save.
+
+9
+00:00:33,774 --> 00:00:38,094
+The platform keeps the file as the clip's master copy, and sends a
+
+10
+00:00:38,094 --> 00:00:40,074
+copy to the phone provider.
+
+11
+00:00:40,542 --> 00:00:44,212
+The clip is listed with its format and a Master copy badge, and
+
+12
+00:00:44,212 --> 00:00:45,489
+when it was saved.
+
+13
+00:00:45,489 --> 00:00:49,372
+If the phone provider does not accept the upload, the clip is still
+
+14
+00:00:49,372 --> 00:00:52,352
+saved with its master copy, and you see a warning.
+

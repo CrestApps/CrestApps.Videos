@@ -1,0 +1,300 @@
+1
+00:00:01,000 --> 00:00:05,001
+The voice media library holds the audio your phone system plays:
+
+2
+00:00:05,001 --> 00:00:08,774
+hold music for queues, and recorded prompts for phone menus.
+
+3
+00:00:08,774 --> 00:00:12,661
+This video shows why it exists, how to add and replace a clip,
+
+4
+00:00:12,661 --> 00:00:15,690
+what the badges mean, and where a clip is used.
+
+5
+00:00:20,290 --> 00:00:25,596
+Callers hear audio while they wait, and when a phone menu asks them to choose.
+
+6
+00:00:25,596 --> 00:00:30,080
+That audio has to sound the same for every caller, on every line.
+
+7
+00:00:30,830 --> 00:00:35,052
+Phone providers keep the files you send them, but they can lose them,
+
+8
+00:00:35,052 --> 00:00:39,330
+and a copy kept only at one provider is gone when you change provider.
+
+9
+00:00:40,080 --> 00:00:44,621
+The voice media library keeps a master copy of every clip on your
+
+10
+00:00:44,621 --> 00:00:47,947
+site, and sends a copy to your phone provider.
+
+11
+00:00:47,947 --> 00:00:51,720
+If the provider loses its copy, it is sent a new one.
+
+12
+00:00:52,470 --> 00:00:57,671
+A clip is uploaded once, and then picked by name wherever it is needed:
+
+13
+00:00:57,671 --> 00:01:00,170
+on a queue, or in a phone menu.
+
+14
+00:01:04,470 --> 00:01:08,490
+Open Interaction Center, Management, Voice Media.
+
+15
+00:01:08,490 --> 00:01:10,463
+The library is empty.
+
+16
+00:01:10,463 --> 00:01:12,510
+Click Add Voice Media.
+
+17
+00:01:15,203 --> 00:01:19,518
+Enter a Name that people will recognize, such as Main hold music, and
+
+18
+00:01:19,518 --> 00:01:24,063
+an optional Description that says which business or line the clip is for.
+
+19
+00:01:24,598 --> 00:01:29,122
+Under Audio, choose an M.P.3, wave, O.G.G.
+
+20
+00:01:29,122 --> 00:01:33,458
+or web M file of up to twenty megabytes.
+
+21
+00:01:33,924 --> 00:01:34,944
+Click Save.
+
+22
+00:01:34,944 --> 00:01:39,264
+The platform keeps the file as the clip's master copy, and sends a
+
+23
+00:01:39,264 --> 00:01:41,244
+copy to the phone provider.
+
+24
+00:01:41,712 --> 00:01:45,382
+The clip is listed with its format and a Master copy badge, and
+
+25
+00:01:45,382 --> 00:01:46,659
+when it was saved.
+
+26
+00:01:46,659 --> 00:01:50,542
+If the phone provider does not accept the upload, the clip is still
+
+27
+00:01:50,542 --> 00:01:53,522
+saved with its master copy, and you see a warning.
+
+28
+00:01:57,722 --> 00:02:01,016
+Master copy means the platform holds the audio.
+
+29
+00:02:01,016 --> 00:02:05,553
+The clip plays on any phone provider, and a provider that loses its
+
+30
+00:02:05,553 --> 00:02:09,842
+copy is sent a new one automatically, within about ten minutes.
+
+31
+00:02:10,592 --> 00:02:16,212
+Provider copy only marks a clip that was uploaded before the platform kept master copies.
+
+32
+00:02:16,212 --> 00:02:20,177
+It plays at the provider it was uploaded to, but it cannot be
+
+33
+00:02:20,177 --> 00:02:22,662
+checked or sent to another provider.
+
+34
+00:02:23,412 --> 00:02:26,447
+No audio means the clip has no audio yet.
+
+35
+00:02:26,447 --> 00:02:31,162
+A badge with the provider's name shows which providers hold a copy.
+
+36
+00:02:35,368 --> 00:02:37,417
+Click Edit to open a clip.
+
+37
+00:02:37,417 --> 00:02:42,089
+Uploading a new file under Audio replaces the old audio everywhere:
+
+38
+00:02:42,089 --> 00:02:47,658
+the old master copy and every provider's copy are removed once the clip is saved.
+
+39
+00:02:48,287 --> 00:02:53,082
+A clip marked Provider copy only is lost if you change phone provider,
+
+40
+00:02:53,082 --> 00:02:55,353
+or if the provider deletes it.
+
+41
+00:02:55,353 --> 00:03:01,347
+To protect it, open the clip, choose the original file again under Audio, and click Save.
+
+42
+00:03:01,840 --> 00:03:06,367
+Click Re-sync media on a clip to check that every enabled phone provider
+
+43
+00:03:06,367 --> 00:03:10,256
+still holds it, and to send it to any provider that does not.
+
+44
+00:03:10,256 --> 00:03:12,520
+Use it after you change provider.
+
+45
+00:03:12,976 --> 00:03:15,355
+You see a message for each provider:
+
+46
+00:03:15,355 --> 00:03:19,264
+that it already held the clip, that it received a copy, or that
+
+47
+00:03:19,264 --> 00:03:20,850
+it did not accept one.
+
+48
+00:03:20,850 --> 00:03:24,136
+The button appears only on clips with a master copy.
+
+49
+00:03:28,336 --> 00:03:33,716
+On a queue, pick the clip as Hold music, on the While callers wait card.
+
+50
+00:03:34,466 --> 00:03:35,636
+In an I.V.R.
+
+51
+00:03:35,636 --> 00:03:38,886
+menu, pick it as the menu's Recorded prompt.
+
+52
+00:03:39,636 --> 00:03:43,323
+The first time a provider plays a clip it has no copy of,
+
+53
+00:03:43,323 --> 00:03:45,781
+it is sent one from the master copy.
+
+54
+00:03:45,781 --> 00:03:49,526
+A caller may notice a short delay on that first call only.
+
+55
+00:03:50,276 --> 00:03:53,183
+Your voicemail greeting is kept the same way:
+
+56
+00:03:53,183 --> 00:03:57,856
+the platform holds the master copy, and sends it to whichever phone provider
+
+57
+00:03:57,856 --> 00:03:59,566
+a caller reaches you on.
+
+58
+00:04:03,865 --> 00:04:06,612
+Click Delete on a clip, and confirm.
+
+59
+00:04:06,612 --> 00:04:10,535
+The master copy and every provider's copy are removed.
+
+60
+00:04:12,135 --> 00:04:16,665
+Queues and phone menus that pointed at the clip fall back to their
+
+61
+00:04:16,665 --> 00:04:20,125
+spoken text, or to silence, so update them first.
+
+62
+00:04:20,875 --> 00:04:25,857
+When you move to another site, voice media entries travel in deployment plans,
+
+63
+00:04:25,857 --> 00:04:27,577
+but the audio does not.
+
+64
+00:04:27,577 --> 00:04:32,262
+Open each imported clip and upload its audio again; queues and menus that
+
+65
+00:04:32,262 --> 00:04:36,235
+use it start playing the new audio as soon as it is uploaded.
+
+66
+00:04:40,435 --> 00:04:46,145
+A support team uploads its hold music once, and every queue plays the same audio.
+
+67
+00:04:46,895 --> 00:04:51,648
+A company records its menu prompts, one for each language, and picks them
+
+68
+00:04:51,648 --> 00:04:54,355
+in the phone menus of its entry points.
+
+69
+00:04:55,105 --> 00:04:59,256
+A business that moves to a new phone provider re-syncs its clips, and
+
+70
+00:04:59,256 --> 00:05:01,415
+nothing has to be uploaded again.
+
+71
+00:05:02,165 --> 00:05:06,419
+A team that updates its seasonal greeting uploads the new file to the
+
+72
+00:05:06,419 --> 00:05:10,445
+same clip, and every queue and menu that uses it changes at once.
+
+73
+00:05:12,445 --> 00:05:16,832
+Upload each clip once, keep its master copy on your site, and pick
+
+74
+00:05:16,832 --> 00:05:19,451
+it by name on queues and phone menus.
+
+75
+00:05:19,451 --> 00:05:21,035
+Thanks for watching.
+
