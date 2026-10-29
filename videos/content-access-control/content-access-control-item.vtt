@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.207 --> 00:00:08.537
+Open Content, Content Items, and create a new Handbook Page.
+
+00:00:12.929 --> 00:00:17.882
+Give the page a title, such as Supervisor handbook, and type its text.
+
+00:00:17.882 --> 00:00:20.489
+The role picker is below the text.
+
+00:00:20.958 --> 00:00:24.887
+The picker shows the hint, and lists the roles of the site.
+
+00:00:24.887 --> 00:00:28.936
+Search for a role, and tick the ones that may view this page.
+
+00:00:28.936 --> 00:00:30.628
+Here it is Supervisor.
+
+00:00:31.197 --> 00:00:32.696
+Publish the page.
+
+00:00:32.696 --> 00:00:37.387
+From now on, only people who hold the Supervisor role can view it.
+
+00:00:38.821 --> 00:00:43.890
+To lift the restriction from one page, untick all its roles and save.
+
+00:00:43.890 --> 00:00:49.431
+To lift it from every page of the type, untick Restrict content on the part.
+

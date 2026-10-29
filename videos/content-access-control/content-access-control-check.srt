@@ -1,0 +1,24 @@
+1
+00:00:03,300 --> 00:00:06,944
+Always check the result by signing in as other people.
+
+2
+00:00:06,944 --> 00:00:09,858
+Casey Morgan holds the Support Agent role.
+
+3
+00:00:09,858 --> 00:00:14,170
+The Support hours page has no roles picked, so Casey can open it.
+
+4
+00:00:14,625 --> 00:00:18,857
+The Supervisor handbook is restricted to the Supervisor role.
+
+5
+00:00:18,857 --> 00:00:22,205
+Casey does not hold it, so the page is refused.
+
+6
+00:00:22,665 --> 00:00:28,235
+Jordan Lee holds the Supervisor role, so the same address opens the handbook.
+

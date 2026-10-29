@@ -1,0 +1,236 @@
+1
+00:00:01,000 --> 00:00:03,548
+Some content is meant for one team only.
+
+2
+00:00:03,548 --> 00:00:07,923
+This video shows how Content Access Control limits who can view a content
+
+3
+00:00:07,923 --> 00:00:10,471
+item to the roles you pick on that item:
+
+4
+00:00:10,471 --> 00:00:13,794
+why it exists, how to set it up on a content type, how
+
+5
+00:00:13,794 --> 00:00:16,840
+to restrict an item, and how to check the result.
+
+6
+00:00:21,440 --> 00:00:23,962
+Some pages are not for everyone:
+
+7
+00:00:23,962 --> 00:00:29,670
+a supervisor handbook, an internal price list, or notes for a single department.
+
+8
+00:00:30,420 --> 00:00:35,091
+Permissions normally apply to a whole content type, so two pages of the
+
+9
+00:00:35,091 --> 00:00:37,760
+same type are open to the same people.
+
+10
+00:00:38,510 --> 00:00:44,700
+Content Access Control lets the editor choose, on each item, the roles that may view it.
+
+11
+00:00:45,450 --> 00:00:50,900
+Everyone else is refused that item, and the rest of the site stays open as before.
+
+12
+00:00:55,100 --> 00:00:59,157
+It builds on the Role Picker part, which lets an editor pick one
+
+13
+00:00:59,157 --> 00:01:01,360
+or more roles on a content item.
+
+14
+00:01:02,110 --> 00:01:08,690
+On the content type, one setting, Restrict content, turns the picker into an access rule.
+
+15
+00:01:09,440 --> 00:01:12,854
+A person can view an item only if they hold at least one
+
+16
+00:01:12,854 --> 00:01:14,286
+of the picked roles.
+
+17
+00:01:14,286 --> 00:01:17,480
+An item with no roles picked stays open to everyone.
+
+18
+00:01:18,230 --> 00:01:20,119
+Only viewing is limited.
+
+19
+00:01:20,119 --> 00:01:25,346
+Who can edit, publish or delete the item still follows the usual permissions,
+
+20
+00:01:25,346 --> 00:01:28,620
+and administrators can always view every item.
+
+21
+00:01:32,778 --> 00:01:39,725
+Open Design, Content Definition, Content Types, and edit the type that needs restricted items.
+
+22
+00:01:39,725 --> 00:01:41,878
+Here it is Handbook Page.
+
+23
+00:01:42,331 --> 00:01:43,756
+Click Add Parts.
+
+24
+00:01:43,756 --> 00:01:49,457
+Role Picker is in the list, described as allowing you to select one or more roles.
+
+25
+00:01:49,457 --> 00:01:51,401
+Click Add and Configure.
+
+26
+00:01:51,860 --> 00:01:55,342
+The Display Name is what editors see above the picker.
+
+27
+00:01:55,342 --> 00:01:59,230
+Give it a clear name, such as Limit access to selected roles.
+
+28
+00:01:59,681 --> 00:02:05,773
+Exclude roles hides the roles that should never be picked, such as Anonymous and Authenticated.
+
+29
+00:02:05,773 --> 00:02:08,668
+Required means an editor must pick a role.
+
+30
+00:02:08,668 --> 00:02:12,951
+Allow multiple lets an editor pick more than one, and the Hint is
+
+31
+00:02:12,951 --> 00:02:14,941
+help text under the picker.
+
+32
+00:02:15,392 --> 00:02:19,000
+Restrict content turns the picker into an access rule:
+
+33
+00:02:19,000 --> 00:02:22,488
+only people in the selected roles can view the item.
+
+34
+00:02:22,488 --> 00:02:23,932
+Tick it, and save.
+
+35
+00:02:28,139 --> 00:02:33,469
+Open Content, Content Items, and create a new Handbook Page.
+
+36
+00:02:37,860 --> 00:02:42,813
+Give the page a title, such as Supervisor handbook, and type its text.
+
+37
+00:02:42,813 --> 00:02:45,420
+The role picker is below the text.
+
+38
+00:02:45,890 --> 00:02:49,818
+The picker shows the hint, and lists the roles of the site.
+
+39
+00:02:49,818 --> 00:02:53,868
+Search for a role, and tick the ones that may view this page.
+
+40
+00:02:53,868 --> 00:02:55,560
+Here it is Supervisor.
+
+41
+00:02:56,129 --> 00:02:57,627
+Publish the page.
+
+42
+00:02:57,627 --> 00:03:02,319
+From now on, only people who hold the Supervisor role can view it.
+
+43
+00:03:03,753 --> 00:03:08,821
+To lift the restriction from one page, untick all its roles and save.
+
+44
+00:03:08,821 --> 00:03:14,363
+To lift it from every page of the type, untick Restrict content on the part.
+
+45
+00:03:18,663 --> 00:03:22,306
+Always check the result by signing in as other people.
+
+46
+00:03:22,306 --> 00:03:25,221
+Casey Morgan holds the Support Agent role.
+
+47
+00:03:25,221 --> 00:03:29,533
+The Support hours page has no roles picked, so Casey can open it.
+
+48
+00:03:29,988 --> 00:03:34,220
+The Supervisor handbook is restricted to the Supervisor role.
+
+49
+00:03:34,220 --> 00:03:37,568
+Casey does not hold it, so the page is refused.
+
+50
+00:03:38,028 --> 00:03:43,598
+Jordan Lee holds the Supervisor role, so the same address opens the handbook.
+
+51
+00:03:47,798 --> 00:03:53,298
+A supervisor handbook or an escalation guide that only supervisors should read.
+
+52
+00:03:54,048 --> 00:03:57,988
+An internal price list or discount rules for the sales team.
+
+53
+00:03:58,738 --> 00:04:04,158
+Documents for one partner or one department, each limited to its own role.
+
+54
+00:04:04,908 --> 00:04:08,388
+Announcements and procedures for a single team.
+
+55
+00:04:10,388 --> 00:04:15,110
+Set up the Role Picker once on a content type, and turn on Restrict content.
+
+56
+00:04:15,110 --> 00:04:18,622
+Then every page of that type can have its own audience:
+
+57
+00:04:18,622 --> 00:04:22,307
+pick the roles on an item, and only people who hold one of
+
+58
+00:04:22,307 --> 00:04:23,631
+them can view it.
+
+59
+00:04:23,631 --> 00:04:25,128
+Thanks for watching.
+
