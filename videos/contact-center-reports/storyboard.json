@@ -1,0 +1,285 @@
+{
+  "title": "Contact Center Reports",
+  "output": "contact-center-reports",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "OpenXml": "Open X M L",
+    "PDF": "P.D.F."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Contact Center Reports",
+      "subtitle": "Run, filter, read and export",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Reports show what happened in your contact center: calls, queues, and the time your agents spend. This video shows where the reports are, how to run one, how to filter it, what the main numbers mean, how to export it, and the limits on reports about agents' time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why reports",
+      "subtitle": "Numbers instead of impressions",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A busy afternoon is an impression. A manager needs a number: how many calls came in, how many were missed, and how long callers waited."
+            },
+            {
+              "id": "why-2",
+              "text": "Reports answer those questions for the whole center, for one queue, or for one agent, over any period you pick."
+            },
+            {
+              "id": "why-3",
+              "text": "Every report is worked out from what the platform recorded about each call and each agent's state, so a total always matches the records behind it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Where the reports are",
+      "subtitle": "The Reports menu and who sees it",
+      "clips": [
+        {
+          "id": "02-where",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "Open Reports in the admin menu. The page lists every report as a card, grouped by category: Agent Performance, Billing and Usage, Compliance and Audit, Executive, Operations, Queue and Routing, Technical and IT, and Workforce and Payroll. CRM and Campaigns holds the reports of the CRM."
+            },
+            {
+              "id": "where-2",
+              "text": "In the menu, each category opens to its reports. You see only the reports your permissions allow."
+            }
+          ]
+        },
+        {
+          "id": "02b-needs",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "needs-1",
+              "text": "Contact Center reports need the View Contact Center reports permission, which the Supervisor and Administrator roles have. The CRM reports need View Omnichannel reports."
+            },
+            {
+              "id": "needs-2",
+              "text": "The reports come with the Reports feature and Contact Center Work Distribution. Excel and PDF export are two more features: Reports, OpenXml, and Reports, PDF."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Run a report",
+      "subtitle": "Pick a date range and click Show",
+      "clips": [
+        {
+          "id": "03-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "Open Operations, Call insights. A report page has a filter panel on top and the results below. Each report shows only the filters it uses."
+            },
+            {
+              "id": "run-2",
+              "text": "Date range starts on Today. Click it to choose. Relative days run from Today to Last 90 Days. Calendar periods run from This Week to Last Year. Rolling months cover the last three, six or twelve months."
+            },
+            {
+              "id": "run-3",
+              "text": "Custom Range takes a start and an end date and time, in the site's time zone. On or before and On or after leave one side open."
+            },
+            {
+              "id": "run-4",
+              "text": "Choose Last 7 Days and click Show. The cards fill in with total, inbound and outbound calls, answered, abandoned and failed, then the daily trend below them."
+            }
+          ]
+        }
+      ],
+      "short": "run"
+    },
+    {
+      "id": "04",
+      "title": "Filter a report",
+      "subtitle": "Narrow it to a queue, an agent or a direction",
+      "clips": [
+        {
+          "id": "04-filters",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "filt-1",
+              "text": "This report offers Queue group, Queue, Agent, Direction and Channel. A filter left on All does not narrow the report, and filters combine."
+            },
+            {
+              "id": "filt-2",
+              "text": "Pick the Customer care queue group and the Inbound direction, then click Show. Every number and percentage is worked out again from only the matching calls."
+            },
+            {
+              "id": "filt-3",
+              "text": "Pick an Agent to see one person's calls. Clearing a filter brings the full picture back."
+            }
+          ]
+        }
+      ],
+      "short": "filters"
+    },
+    {
+      "id": "05",
+      "title": "Read the main numbers",
+      "subtitle": "What each card on the executive dashboard means",
+      "clips": [
+        {
+          "id": "05-kpis",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "kpi-1",
+              "text": "The Executive performance dashboard shows the main numbers. Interactions counts every call or message. Inbound offered counts the inbound ones, and Inbound answered counts those an agent took, with the answer rate under it."
+            },
+            {
+              "id": "kpi-2",
+              "text": "Abandoned is a caller who hung up while waiting, or while an agent was ringing. Its percentage is abandoned divided by inbound offered. Voicemail and Callback requested are neither answered nor abandoned, so each has its own card."
+            },
+            {
+              "id": "kpi-3",
+              "text": "Failed is a call that failed for a technical reason. Average speed of answer is how long inbound callers waited for an agent. Average handle time is the talk, hold and wrap-up time of a handled call."
+            },
+            {
+              "id": "kpi-4",
+              "text": "Transfer rate is the share of answered calls that were transferred. Recording coverage is the share of answered voice calls that have a recording. Charts below show the daily trend, the channel mix, each queue's service level, and the busiest agents."
+            }
+          ]
+        }
+      ],
+      "short": "kpis"
+    },
+    {
+      "id": "06",
+      "title": "Export a report",
+      "subtitle": "CSV, Excel and PDF",
+      "clips": [
+        {
+          "id": "06-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "Open the Export menu: Export CSV, Export Excel and Export PDF. With only the Reports feature, the button is just Export CSV. An export uses the same date range and filters as the page."
+            },
+            {
+              "id": "exp-2",
+              "text": "CSV is one table of data. Excel puts each section of the report on its own worksheet. PDF lays the report out as it looks on screen, with its charts."
+            }
+          ]
+        }
+      ],
+      "short": "export"
+    },
+    {
+      "id": "07",
+      "title": "Reports on agents' time",
+      "subtitle": "The 31-day limit",
+      "clips": [
+        {
+          "id": "07-limit",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lim-1",
+              "text": "Reports on agents' time read every state change of every agent. These are all the Workforce and Payroll reports, plus Agent presence audit and Agent activity timeline. Here is Agent time summary for the last 30 days."
+            },
+            {
+              "id": "lim-2",
+              "text": "To keep them fast, they cover at most 31 days at a time. Choose Last 90 Days and click Show. The report says This period is too long for this report, names the longest period, and shows no figures. Other Contact Center reports accept up to 400 days."
+            },
+            {
+              "id": "lim-3",
+              "text": "Go back to a shorter period and the figures return. An export has the same limit. On screen, Agent presence audit lists the most recent 5,000 changes: pick an agent or a shorter period to see the rest."
+            }
+          ]
+        }
+      ],
+      "short": "limit"
+    },
+    {
+      "id": "08",
+      "title": "Beyond the page",
+      "subtitle": "Email reports and build your own",
+      "clips": [
+        {
+          "id": "08-more",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "more-1",
+              "text": "With the Report Subscriptions feature, any of these reports can be emailed every day, week or month from Reports, Subscriptions. Reports made in the Report Builder cannot be subscribed to: a workflow with the Email Report task sends those."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Reports at work",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "On Monday morning, a supervisor opens the Executive performance dashboard for Last Week, checks the abandonment rate, and exports the PDF for the weekly meeting."
+            },
+            {
+              "id": "use-2",
+              "text": "A planner opens Hour-of-day performance for Last 30 Days to see when callers arrive, and schedules agents for those hours."
+            },
+            {
+              "id": "use-3",
+              "text": "Payroll runs the Reconciled payroll timecard one month at a time, and exports it to Excel."
+            },
+            {
+              "id": "use-4",
+              "text": "A manager picks one queue and checks its service level before changing how that queue overflows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Pick a range, set the filters, read the cards, and export what you need. Keep reports on agents' time to 31 days. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.963
+Reports show what happened in your contact center:
+
+00:00:03.963 --> 00:00:06.714
+calls, queues, and the time your agents spend.
+
+00:00:06.714 --> 00:00:10.312
+This video shows where the reports are, how to run one, how to
+
+00:00:10.312 --> 00:00:14.015
+filter it, what the main numbers mean, how to export it, and the
+
+00:00:14.015 --> 00:00:16.290
+limits on reports about agents' time.
+
+00:00:20.890 --> 00:00:23.274
+A busy afternoon is an impression.
+
+00:00:23.274 --> 00:00:25.122
+A manager needs a number:
+
+00:00:25.122 --> 00:00:29.890
+how many calls came in, how many were missed, and how long callers waited.
+
+00:00:30.640 --> 00:00:35.532
+Reports answer those questions for the whole center, for one queue, or for
+
+00:00:35.532 --> 00:00:38.100
+one agent, over any period you pick.
+
+00:00:38.850 --> 00:00:43.321
+Every report is worked out from what the platform recorded about each call
+
+00:00:43.321 --> 00:00:47.680
+and each agent's state, so a total always matches the records behind it.
+
+00:00:51.895 --> 00:00:54.440
+Open Reports in the admin menu.
+
+00:00:54.440 --> 00:00:58.911
+The page lists every report as a card, grouped by category:
+
+00:00:58.911 --> 00:01:06.271
+Agent Performance, Billing and Usage, Compliance and Audit, Executive, Operations, Queue and Routing,
+
+00:01:06.271 --> 00:01:09.710
+Technical and IT, and Workforce and Payroll.
+
+00:01:09.710 --> 00:01:13.355
+CRM and Campaigns holds the reports of the CRM.
+
+00:01:13.833 --> 00:01:17.323
+In the menu, each category opens to its reports.
+
+00:01:17.323 --> 00:01:20.813
+You see only the reports your permissions allow.
+
+00:01:22.413 --> 00:01:28.579
+Contact Center reports need the View Contact Center reports permission, which the Supervisor
+
+00:01:28.579 --> 00:01:30.781
+and Administrator roles have.
+
+00:01:30.781 --> 00:01:34.053
+The CRM reports need View Omnichannel reports.
+
+00:01:34.803 --> 00:01:41.098
+The reports come with the Reports feature and Contact Center Work Distribution.
+
+00:01:41.098 --> 00:01:44.727
+Excel and PDF export are two more features:
+
+00:01:44.727 --> 00:01:47.763
+Reports, OpenXml, and Reports, PDF.
+
+00:01:52.057 --> 00:01:54.570
+Open Operations, Call insights.
+
+00:01:54.570 --> 00:01:59.189
+A report page has a filter panel on top and the results below.
+
+00:01:59.189 --> 00:02:02.517
+Each report shows only the filters it uses.
+
+00:02:02.975 --> 00:02:05.097
+Date range starts on Today.
+
+00:02:05.097 --> 00:02:06.705
+Click it to choose.
+
+00:02:06.705 --> 00:02:09.984
+Relative days run from Today to Last 90 Days.
+
+00:02:09.984 --> 00:02:13.520
+Calendar periods run from This Week to Last Year.
+
+00:02:13.520 --> 00:02:17.635
+Rolling months cover the last three, six or twelve months.
+
+00:02:18.162 --> 00:02:24.309
+Custom Range takes a start and an end date and time, in the site's time zone.
+
+00:02:24.309 --> 00:02:28.382
+On or before and On or after leave one side open.
+
+00:02:28.926 --> 00:02:31.594
+Choose Last 7 Days and click Show.
+
+00:02:31.594 --> 00:02:37.398
+The cards fill in with total, inbound and outbound calls, answered, abandoned and
+
+00:02:37.398 --> 00:02:40.466
+failed, then the daily trend below them.
+
+00:02:44.683 --> 00:02:49.962
+This report offers Queue group, Queue, Agent, Direction and Channel.
+
+00:02:49.962 --> 00:02:55.313
+A filter left on All does not narrow the report, and filters combine.
+
+00:02:55.770 --> 00:03:00.528
+Pick the Customer care queue group and the Inbound direction, then click Show.
+
+00:03:00.528 --> 00:03:05.230
+Every number and percentage is worked out again from only the matching calls.
+
+00:03:05.728 --> 00:03:08.548
+Pick an Agent to see one person's calls.
+
+00:03:08.548 --> 00:03:11.798
+Clearing a filter brings the full picture back.
+
+00:03:16.059 --> 00:03:19.818
+The Executive performance dashboard shows the main numbers.
+
+00:03:19.818 --> 00:03:22.594
+Interactions counts every call or message.
+
+00:03:22.594 --> 00:03:27.741
+Inbound offered counts the inbound ones, and Inbound answered counts those an agent
+
+00:03:27.741 --> 00:03:30.169
+took, with the answer rate under it.
+
+00:03:30.773 --> 00:03:36.073
+Abandoned is a caller who hung up while waiting, or while an agent was ringing.
+
+00:03:36.073 --> 00:03:39.877
+Its percentage is abandoned divided by inbound offered.
+
+00:03:39.877 --> 00:03:46.113
+Voicemail and Callback requested are neither answered nor abandoned, so each has its own card.
+
+00:03:46.729 --> 00:03:50.285
+Failed is a call that failed for a technical reason.
+
+00:03:50.285 --> 00:03:55.066
+Average speed of answer is how long inbound callers waited for an agent.
+
+00:03:55.066 --> 00:03:59.909
+Average handle time is the talk, hold and wrap-up time of a handled call.
+
+00:04:00.448 --> 00:04:04.728
+Transfer rate is the share of answered calls that were transferred.
+
+00:04:04.728 --> 00:04:09.653
+Recording coverage is the share of answered voice calls that have a recording.
+
+00:04:09.653 --> 00:04:14.637
+Charts below show the daily trend, the channel mix, each queue's service level,
+
+00:04:14.637 --> 00:04:16.338
+and the busiest agents.
+
+00:04:20.638 --> 00:04:22.780
+Open the Export menu:
+
+00:04:22.780 --> 00:04:26.431
+Export CSV, Export Excel and Export PDF.
+
+00:04:26.431 --> 00:04:31.749
+With only the Reports feature, the button is just Export CSV.
+
+00:04:31.749 --> 00:04:36.908
+An export uses the same date range and filters as the page.
+
+00:04:37.503 --> 00:04:39.577
+CSV is one table of data.
+
+00:04:39.577 --> 00:04:43.927
+Excel puts each section of the report on its own worksheet.
+
+00:04:43.927 --> 00:04:48.543
+PDF lays the report out as it looks on screen, with its charts.
+
+00:04:52.765 --> 00:04:57.206
+Reports on agents' time read every state change of every agent.
+
+00:04:57.206 --> 00:05:04.220
+These are all the Workforce and Payroll reports, plus Agent presence audit and Agent activity timeline.
+
+00:05:04.220 --> 00:05:07.695
+Here is Agent time summary for the last 30 days.
+
+00:05:08.171 --> 00:05:12.495
+To keep them fast, they cover at most 31 days at a time.
+
+00:05:12.495 --> 00:05:15.355
+Choose Last 90 Days and click Show.
+
+00:05:15.355 --> 00:05:20.376
+The report says This period is too long for this report, names the
+
+00:05:20.376 --> 00:05:23.375
+longest period, and shows no figures.
+
+00:05:23.375 --> 00:05:27.351
+Other Contact Center reports accept up to 400 days.
+
+00:05:27.808 --> 00:05:31.585
+Go back to a shorter period and the figures return.
+
+00:05:31.585 --> 00:05:33.904
+An export has the same limit.
+
+00:05:33.904 --> 00:05:38.807
+On screen, Agent presence audit lists the most recent 5,000 changes:
+
+00:05:38.807 --> 00:05:42.518
+pick an agent or a shorter period to see the rest.
+
+00:05:46.718 --> 00:05:51.941
+With the Report Subscriptions feature, any of these reports can be emailed every
+
+00:05:51.941 --> 00:05:55.159
+day, week or month from Reports, Subscriptions.
+
+00:05:55.159 --> 00:05:59.107
+Reports made in the Report Builder cannot be subscribed to:
+
+00:05:59.107 --> 00:06:02.508
+a workflow with the Email Report task sends those.
+
+00:06:06.708 --> 00:06:12.621
+On Monday morning, a supervisor opens the Executive performance dashboard for Last Week,
+
+00:06:12.621 --> 00:06:17.528
+checks the abandonment rate, and exports the PDF for the weekly meeting.
+
+00:06:18.278 --> 00:06:23.247
+A planner opens Hour-of-day performance for Last 30 Days to see when callers
+
+00:06:23.247 --> 00:06:26.338
+arrive, and schedules agents for those hours.
+
+00:06:27.088 --> 00:06:33.518
+Payroll runs the Reconciled payroll timecard one month at a time, and exports it to Excel.
+
+00:06:34.268 --> 00:06:40.408
+A manager picks one queue and checks its service level before changing how that queue overflows.
+
+00:06:42.408 --> 00:06:47.811
+Pick a range, set the filters, read the cards, and export what you need.
+
+00:06:47.811 --> 00:06:50.997
+Keep reports on agents' time to 31 days.
+
+00:06:50.997 --> 00:06:52.798
+Thanks for watching.
+

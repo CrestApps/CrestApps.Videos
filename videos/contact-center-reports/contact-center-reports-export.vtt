@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:05.443
+Open the Export menu:
+
+00:00:05.443 --> 00:00:09.094
+Export CSV, Export Excel and Export PDF.
+
+00:00:09.094 --> 00:00:14.411
+With only the Reports feature, the button is just Export CSV.
+
+00:00:14.411 --> 00:00:19.570
+An export uses the same date range and filters as the page.
+
+00:00:20.166 --> 00:00:22.240
+CSV is one table of data.
+
+00:00:22.240 --> 00:00:26.589
+Excel puts each section of the report on its own worksheet.
+
+00:00:26.589 --> 00:00:31.206
+PDF lays the report out as it looks on screen, with its charts.
+

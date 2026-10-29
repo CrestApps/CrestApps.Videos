@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.217 --> 00:00:08.496
+This report offers Queue group, Queue, Agent, Direction and Channel.
+
+00:00:08.496 --> 00:00:13.847
+A filter left on All does not narrow the report, and filters combine.
+
+00:00:14.303 --> 00:00:19.062
+Pick the Customer care queue group and the Inbound direction, then click Show.
+
+00:00:19.062 --> 00:00:23.763
+Every number and percentage is worked out again from only the matching calls.
+
+00:00:24.262 --> 00:00:27.082
+Pick an Agent to see one person's calls.
+
+00:00:27.082 --> 00:00:30.332
+Clearing a filter brings the full picture back.
+

@@ -1,0 +1,97 @@
+{
+  "title": "Contact Center Reports: Run, Filter, Read and Export | CrestApps for Orchard Core",
+  "description": "A busy afternoon is an impression; a manager needs a number. The Contact Center reports in CrestApps for Orchard Core answer how many calls came in, how many were missed and how long callers waited, for the whole center, one queue or one agent, over any period.\n\nIn this video:\n• Why reports, and where they are\n• Who sees them and what they need\n• Running a report and choosing the date range\n• Filtering by queue group, queue, agent, direction and channel\n• What the main numbers on the executive dashboard mean\n• Exporting to CSV, Excel and PDF\n• The 31-day limit on reports about agents' time\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "Reports",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center reports",
+    "call center reports",
+    "service level",
+    "abandonment rate",
+    "average handle time",
+    "report export",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why reports"
+    },
+    {
+      "time": "0:48",
+      "title": "Where the reports are"
+    },
+    {
+      "time": "1:48",
+      "title": "Run a report"
+    },
+    {
+      "time": "2:41",
+      "title": "Filter a report"
+    },
+    {
+      "time": "3:12",
+      "title": "Read the main numbers"
+    },
+    {
+      "time": "4:17",
+      "title": "Export a report"
+    },
+    {
+      "time": "4:49",
+      "title": "Reports on agents' time"
+    },
+    {
+      "time": "5:43",
+      "title": "Beyond the page"
+    },
+    {
+      "time": "6:03",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:41",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/reports"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/report-catalog"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/reports.md"
+  ],
+  "length": "6:54"
+}
