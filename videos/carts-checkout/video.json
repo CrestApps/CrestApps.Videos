@@ -1,0 +1,101 @@
+{
+  "title": "Carts and Checkout: Turn a Shopper's Picks into a Paid Order | CrestApps for Orchard Core",
+  "description": "Most lost sales happen between choosing a product and paying for it. The CrestApps Carts and Checkout modules give shoppers a cart that remembers what they picked, and one guided checkout with numbered steps, a running order summary, promotion codes and your payment methods, so every purchase ends as an order you can follow.\n\nIn this video:\n• Why a cart and a checkout, and how their steps fit together\n• Add to cart, the mini cart and the cart page\n• The Contact step: name, email and billing address\n• The Shipping step: where the order goes and how\n• The Payment step, a promotion code and the order confirmation\n• Checkout settings: one page or a page per step, billing address, and your own fields\n• Use cases: guest checkout, a short path on a phone, part payment and digital goods",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "shopping cart",
+    "checkout",
+    "ecommerce",
+    "online store",
+    "promotion code",
+    "guest checkout",
+    "order confirmation",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why a cart and a checkout"
+    },
+    {
+      "time": "0:53",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:33",
+      "title": "The cart"
+    },
+    {
+      "time": "2:19",
+      "title": "The Contact step"
+    },
+    {
+      "time": "2:54",
+      "title": "The Shipping step"
+    },
+    {
+      "time": "3:30",
+      "title": "Pay and confirm"
+    },
+    {
+      "time": "4:19",
+      "title": "Checkout settings"
+    },
+    {
+      "time": "4:59",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:37",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Carts and orders (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/carts-and-orders"
+    },
+    {
+      "label": "Checkout (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/checkout"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/checkout"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Carts and CrestApps.OrchardCore.Checkout"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/carts-and-orders.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/checkout.md",
+    "src/CrestApps.Docs/docs/modules/carts-and-orders.md",
+    "src/CrestApps.Docs/docs/modules/checkout.md"
+  ],
+  "length": "5:48"
+}
