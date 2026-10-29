@@ -1,0 +1,68 @@
+1
+00:00:03,171 --> 00:00:07,073
+To add a customer you deal with outside the site, such as someone
+
+2
+00:00:07,073 --> 00:00:09,601
+who orders by phone, click Add customer.
+
+3
+00:00:10,053 --> 00:00:14,689
+Choose the Kind, Person or Business, and type the first and last name.
+
+4
+00:00:14,689 --> 00:00:18,044
+The Display name is how the store addresses them.
+
+5
+00:00:18,044 --> 00:00:20,423
+Leave it empty to use their name.
+
+6
+00:00:20,877 --> 00:00:24,040
+A business also has a Company and a Tax id.
+
+7
+00:00:24,040 --> 00:00:28,235
+Tick Exempt from tax for a reseller or a charity you hold a
+
+8
+00:00:28,235 --> 00:00:31,591
+certificate for, and note Why they are exempt.
+
+9
+00:00:31,591 --> 00:00:35,141
+When they check out signed in, no tax is charged.
+
+10
+00:00:35,141 --> 00:00:37,077
+A guest is always taxed.
+
+11
+00:00:37,528 --> 00:00:40,766
+Add an Email and a Phone so you can reach them.
+
+12
+00:00:40,766 --> 00:00:45,044
+Tick Accepts marketing only when they agreed to news and offers.
+
+13
+00:00:45,044 --> 00:00:48,038
+Order and payment messages are always sent.
+
+14
+00:00:48,490 --> 00:00:49,469
+Click Save.
+
+15
+00:00:49,469 --> 00:00:54,937
+The customer opens with their Orders, Store credit, Addresses and Privacy sections below.
+
+16
+00:00:54,937 --> 00:01:00,463
+The Status field lets you mark a customer Disabled when you stop doing business with them.
+
+17
+00:01:00,463 --> 00:01:02,190
+They keep their history.
+

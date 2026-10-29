@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.182 --> 00:00:07.169
+A price list gives the companies on it their own prices.
+
+00:00:07.169 --> 00:00:10.962
+Open Commerce, Price lists, and click Add price list.
+
+00:00:11.414 --> 00:00:13.231
+Name it, such as Wholesale.
+
+00:00:13.231 --> 00:00:15.158
+Only your staff see the name.
+
+00:00:15.158 --> 00:00:20.224
+Percentage off everything else gives every product that is not on the list a discount.
+
+00:00:20.755 --> 00:00:23.630
+Under Prices by S.K.U., enter a S.K.U.
+
+00:00:23.630 --> 00:00:26.962
+and its price on each line, apart by a comma.
+
+00:00:26.962 --> 00:00:30.425
+Paste them from a spreadsheet if you have many.
+
+00:00:30.881 --> 00:00:31.880
+Click Save.
+
+00:00:31.880 --> 00:00:35.991
+A product on the list costs its price there, and any other costs
+
+00:00:35.991 --> 00:00:38.164
+your price less the percentage.
+
+00:00:38.164 --> 00:00:42.041
+A buyer always pays the lower of the list's price and yours.
+

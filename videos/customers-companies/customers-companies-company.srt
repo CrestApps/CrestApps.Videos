@@ -1,0 +1,96 @@
+1
+00:00:03,205 --> 00:00:05,065
+Open Commerce, Companies.
+
+2
+00:00:05,065 --> 00:00:08,005
+The businesses you sell to are listed here.
+
+3
+00:00:08,005 --> 00:00:09,445
+Click Add company.
+
+4
+00:00:09,898 --> 00:00:13,853
+Enter its Name, a Tax or VAT number that is printed on its
+
+5
+00:00:13,853 --> 00:00:17,748
+invoices, and a Billing email that gets its invoices too.
+
+6
+00:00:18,198 --> 00:00:22,205
+Under Buyers, enter the User name or email of each person.
+
+7
+00:00:22,205 --> 00:00:24,522
+They need a user account first.
+
+8
+00:00:24,522 --> 00:00:26,275
+Choose Buyer or Admin.
+
+9
+00:00:26,275 --> 00:00:30,532
+An admin sees all of the company's orders and approves orders.
+
+10
+00:00:30,532 --> 00:00:34,978
+Give a buyer an Order limit if their bigger orders need approval.
+
+11
+00:00:35,435 --> 00:00:39,903
+Under Payment terms, Net days says that what the company does not pay
+
+12
+00:00:39,903 --> 00:00:43,060
+at checkout is invoiced, due in that many days.
+
+13
+00:00:43,060 --> 00:00:45,621
+Deposit is the part paid at checkout.
+
+14
+00:00:45,621 --> 00:00:49,135
+Credit limit is the most the company may owe at once.
+
+15
+00:00:49,628 --> 00:00:54,657
+A Monthly budget sends the orders beyond it in a month to an admin for approval.
+
+16
+00:00:54,657 --> 00:00:59,159
+Tick Buyers give a purchase order number to require one on every order,
+
+17
+00:00:59,159 --> 00:01:01,148
+and print it on the invoice.
+
+18
+00:01:01,598 --> 00:01:06,045
+Choose the company's Price list, so its buyers pay Wholesale prices.
+
+19
+00:01:06,045 --> 00:01:10,491
+Under Locations, name a place it has orders shipped to, such as Head
+
+20
+00:01:10,491 --> 00:01:12,654
+office, and enter the address.
+
+21
+00:01:12,654 --> 00:01:14,938
+Its buyers pick one at checkout.
+
+22
+00:01:15,389 --> 00:01:20,915
+The On switch lets you turn a company off, so its buyers buy for themselves again.
+
+23
+00:01:20,915 --> 00:01:21,982
+Click Save.
+
+24
+00:01:21,982 --> 00:01:24,369
+The company appears in the list.
+

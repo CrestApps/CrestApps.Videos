@@ -1,0 +1,768 @@
+1
+00:00:01,000 --> 00:00:05,600
+Everyone who buys from your store is a customer, and some of them are businesses.
+
+2
+00:00:05,600 --> 00:00:09,831
+This video shows how the Customers and Companies modules keep track of who
+
+3
+00:00:09,831 --> 00:00:13,268
+they are, how to reach them and what they are owed, and how
+
+4
+00:00:13,268 --> 00:00:15,330
+to sell to a business on account.
+
+5
+00:00:19,930 --> 00:00:22,783
+Everyone who buys from your store is a customer:
+
+6
+00:00:22,783 --> 00:00:26,641
+a person or a business, with an account on your site or as a guest.
+
+7
+00:00:26,641 --> 00:00:30,128
+To serve them you need to know how to address them, where to
+
+8
+00:00:30,128 --> 00:00:33,510
+send their orders, and whether they want to hear from you.
+
+9
+00:00:34,260 --> 00:00:36,324
+Businesses buy differently.
+
+10
+00:00:36,324 --> 00:00:41,390
+Several people buy for one company, it often pays an invoice later, expects
+
+11
+00:00:41,390 --> 00:00:45,830
+its own prices, and wants a manager to approve the larger orders.
+
+12
+00:00:46,580 --> 00:00:51,183
+Shoppers expect to keep an address book, to be rewarded when they come
+
+13
+00:00:51,183 --> 00:00:55,240
+back, and to ask what you hold on them, or to have it erased.
+
+14
+00:00:55,990 --> 00:01:01,150
+The Customers and Companies modules cover all of this from one place in the admin.
+
+15
+00:01:05,350 --> 00:01:08,356
+A customer record keeps what your store needs:
+
+16
+00:01:08,356 --> 00:01:12,749
+how to address them, their company and tax id, their address book, and
+
+17
+00:01:12,749 --> 00:01:14,830
+whether they accept marketing.
+
+18
+00:01:15,580 --> 00:01:19,533
+The sign in, the password and the email stay on the user account.
+
+19
+00:01:19,533 --> 00:01:23,819
+A customer with an account gets their record the first time they order.
+
+20
+00:01:23,819 --> 00:01:28,440
+A guest who checks out without an account gets a guest customer of their own.
+
+21
+00:01:29,190 --> 00:01:33,955
+A company is a business you sell to, with its buyers, payment terms,
+
+22
+00:01:33,955 --> 00:01:36,530
+shipping locations and price list.
+
+23
+00:01:37,280 --> 00:01:42,962
+Store Credit, Loyalty Points, Referrals and Checkout details are separate features you turn
+
+24
+00:01:42,962 --> 00:01:47,063
+on, to reward customers who come back and to ask buyers for your
+
+25
+00:01:47,063 --> 00:01:48,820
+own details at checkout.
+
+26
+00:01:53,120 --> 00:01:54,917
+Open Commerce, Customers.
+
+27
+00:01:54,917 --> 00:02:00,716
+The people and businesses that bought from you are listed with the most recently active first.
+
+28
+00:02:00,716 --> 00:02:04,427
+A badge marks a guest or a business, and each row shows an
+
+29
+00:02:04,427 --> 00:02:06,920
+email and when they were last active.
+
+30
+00:02:07,383 --> 00:02:11,183
+Type the start of a name, a company or an email in the
+
+31
+00:02:11,183 --> 00:02:14,603
+search box and press Enter to find one customer.
+
+32
+00:02:15,066 --> 00:02:18,343
+The list beside the count narrows what is shown:
+
+33
+00:02:18,343 --> 00:02:23,502
+customers With an account, Guests, Businesses, Disabled ones, or All customers.
+
+34
+00:02:23,502 --> 00:02:27,326
+Choose Businesses to see the companies that buy from you.
+
+35
+00:02:31,497 --> 00:02:35,399
+To add a customer you deal with outside the site, such as someone
+
+36
+00:02:35,399 --> 00:02:37,927
+who orders by phone, click Add customer.
+
+37
+00:02:38,379 --> 00:02:43,015
+Choose the Kind, Person or Business, and type the first and last name.
+
+38
+00:02:43,015 --> 00:02:46,370
+The Display name is how the store addresses them.
+
+39
+00:02:46,370 --> 00:02:48,749
+Leave it empty to use their name.
+
+40
+00:02:49,203 --> 00:02:52,365
+A business also has a Company and a Tax id.
+
+41
+00:02:52,365 --> 00:02:56,561
+Tick Exempt from tax for a reseller or a charity you hold a
+
+42
+00:02:56,561 --> 00:02:59,917
+certificate for, and note Why they are exempt.
+
+43
+00:02:59,917 --> 00:03:03,467
+When they check out signed in, no tax is charged.
+
+44
+00:03:03,467 --> 00:03:05,403
+A guest is always taxed.
+
+45
+00:03:05,854 --> 00:03:09,092
+Add an Email and a Phone so you can reach them.
+
+46
+00:03:09,092 --> 00:03:13,369
+Tick Accepts marketing only when they agreed to news and offers.
+
+47
+00:03:13,369 --> 00:03:16,364
+Order and payment messages are always sent.
+
+48
+00:03:16,816 --> 00:03:17,795
+Click Save.
+
+49
+00:03:17,795 --> 00:03:23,263
+The customer opens with their Orders, Store credit, Addresses and Privacy sections below.
+
+50
+00:03:23,263 --> 00:03:28,789
+The Status field lets you mark a customer Disabled when you stop doing business with them.
+
+51
+00:03:28,789 --> 00:03:30,516
+They keep their history.
+
+52
+00:03:34,692 --> 00:03:37,418
+Open a customer to see their address book.
+
+53
+00:03:37,418 --> 00:03:42,529
+One address can be the default billing address and one the default shipping address.
+
+54
+00:03:42,529 --> 00:03:45,992
+They are the ones offered first when the customer buys.
+
+55
+00:03:46,447 --> 00:03:47,827
+Click Add address.
+
+56
+00:03:47,827 --> 00:03:51,967
+Choose the Country first, because the rest of the form follows it.
+
+57
+00:03:52,421 --> 00:03:57,796
+Choose United Kingdom, and the form asks for a Post town and a Postal code.
+
+58
+00:03:57,796 --> 00:04:03,171
+Choose United States, and it asks for a State, from a list, and a ZIP code.
+
+59
+00:04:03,622 --> 00:04:07,999
+Fill in the street and the city, choose the State, and enter the ZIP code.
+
+60
+00:04:07,999 --> 00:04:12,486
+Give the address a Label such as Warehouse, tick Default shipping address to
+
+61
+00:04:12,486 --> 00:04:15,332
+make it the one offered first, and click Save.
+
+62
+00:04:15,783 --> 00:04:19,964
+The address is checked against its country, so a postal code has to
+
+63
+00:04:19,964 --> 00:04:21,739
+look like that country's.
+
+64
+00:04:21,739 --> 00:04:26,034
+Orders keep their own copy of an address, so changing or deleting one
+
+65
+00:04:26,034 --> 00:04:27,923
+never changes a past order.
+
+66
+00:04:32,127 --> 00:04:35,544
+Open a customer with an account, such as Jamie Chen.
+
+67
+00:04:35,544 --> 00:04:39,728
+Store credit is money the store owes a customer, such as a refund
+
+68
+00:04:39,728 --> 00:04:41,201
+you give as credit.
+
+69
+00:04:41,201 --> 00:04:44,147
+It pays toward their next orders, after tax.
+
+70
+00:04:44,605 --> 00:04:49,497
+Under Store credit, enter an Amount, check the Currency, and give a Reason,
+
+71
+00:04:49,497 --> 00:04:51,188
+such as Late delivery.
+
+72
+00:04:51,188 --> 00:04:52,335
+Click Change.
+
+73
+00:04:52,786 --> 00:04:57,441
+The balance updates, and the latest changes are listed with when, what, the
+
+74
+00:04:57,441 --> 00:04:59,625
+change and the balance after it.
+
+75
+00:04:59,625 --> 00:05:02,038
+A negative amount takes credit away.
+
+76
+00:05:02,038 --> 00:05:06,176
+A guest cannot have credit, because it is spent when they sign in.
+
+77
+00:05:06,650 --> 00:05:09,207
+Loyalty points work the same way.
+
+78
+00:05:09,207 --> 00:05:14,322
+Under Rewards, enter the Points to give, and a Reason, and click Change.
+
+79
+00:05:14,322 --> 00:05:18,190
+The section shows the points and what they are worth.
+
+80
+00:05:22,394 --> 00:05:25,123
+Open Settings, Commerce, Customers.
+
+81
+00:05:25,123 --> 00:05:30,448
+Billing address at checkout decides whether the Contact step asks for one:
+
+82
+00:05:30,448 --> 00:05:32,644
+Optional, Required, or Off.
+
+83
+00:05:33,125 --> 00:05:39,302
+Under Privacy, Erase inactive guests after and Anonymize guest orders after say how
+
+84
+00:05:39,302 --> 00:05:42,702
+many months you keep guests' personal data.
+
+85
+00:05:42,702 --> 00:05:44,645
+Enter zero to keep it.
+
+86
+00:05:45,122 --> 00:05:50,303
+Settings, Address suggestions has a field for a Google Places API key.
+
+87
+00:05:50,303 --> 00:05:55,688
+With a key, every address form suggests addresses as the street is typed.
+
+88
+00:05:55,688 --> 00:05:59,642
+Without one, shoppers type their address themselves.
+
+89
+00:06:00,096 --> 00:06:03,510
+Settings, Commerce, Rewards sets up loyalty points.
+
+90
+00:06:03,510 --> 00:06:07,883
+Give the program a name that buyers see, the Points per unit spent,
+
+91
+00:06:07,883 --> 00:06:11,476
+What a point is worth, and the Fewest points to spend.
+
+92
+00:06:11,972 --> 00:06:17,392
+Settings, Commerce, Referrals gives every signed-in customer a link to share.
+
+93
+00:06:17,392 --> 00:06:23,008
+Choose What a friend gets, a single-use coupon code, and What the customer gets:
+
+94
+00:06:23,008 --> 00:06:26,012
+nothing, store credit or loyalty points.
+
+95
+00:06:26,491 --> 00:06:32,122
+Set the Least a friend's first order spends, so rewards go only to real purchases.
+
+96
+00:06:32,122 --> 00:06:36,984
+A customer is rewarded once per friend, never for their own order, and
+
+97
+00:06:36,984 --> 00:06:40,631
+the reward is taken back if that order is canceled.
+
+98
+00:06:44,801 --> 00:06:47,153
+People can ask what you hold on them.
+
+99
+00:06:47,153 --> 00:06:49,669
+Open the customer and scroll to Privacy.
+
+100
+00:06:49,669 --> 00:06:53,882
+Download data gives you a file with everything the store holds on them,
+
+101
+00:06:53,882 --> 00:06:55,961
+to send to the person who asked.
+
+102
+00:06:56,419 --> 00:07:01,810
+Erase personal data removes their name, email, phone and addresses, and the personal
+
+103
+00:07:01,810 --> 00:07:03,607
+details of their orders.
+
+104
+00:07:03,607 --> 00:07:08,519
+The orders themselves stay, because your accounts and tax records need them.
+
+105
+00:07:08,972 --> 00:07:11,161
+Let's erase Avery Stone.
+
+106
+00:07:11,161 --> 00:07:14,445
+Click Erase personal data, and confirm.
+
+107
+00:07:14,445 --> 00:07:16,342
+It cannot be undone.
+
+108
+00:07:16,804 --> 00:07:22,305
+The customer now says that their personal data was erased, and can no longer be edited.
+
+109
+00:07:22,305 --> 00:07:27,864
+Each download and erasure is listed under Privacy, with when it happened and who did it.
+
+110
+00:07:32,076 --> 00:07:37,474
+A signed-in customer manages their own details on the Account details page of their account.
+
+111
+00:07:37,474 --> 00:07:41,164
+I buy for says whether they buy for Myself or for A business.
+
+112
+00:07:41,164 --> 00:07:45,019
+They edit their name, the name we call them by, their phone, and
+
+113
+00:07:45,019 --> 00:07:47,223
+whether they want news and offers.
+
+114
+00:07:47,223 --> 00:07:49,646
+Their email is changed on the account.
+
+115
+00:07:50,185 --> 00:07:52,772
+Addresses lists their address book.
+
+116
+00:07:52,772 --> 00:07:57,505
+They add, edit and delete addresses the same way you do in the admin.
+
+117
+00:07:57,961 --> 00:08:03,344
+With Store Credit on, Store credit shows what they have and how it changed.
+
+118
+00:08:03,344 --> 00:08:07,131
+With Loyalty Points on, Rewards shows their points.
+
+119
+00:08:07,582 --> 00:08:11,537
+With Referrals on, Refer a friend shows their link to share.
+
+120
+00:08:11,537 --> 00:08:16,152
+A friend who opens it can get a discount, and the customer is rewarded.
+
+121
+00:08:20,334 --> 00:08:24,320
+A price list gives the companies on it their own prices.
+
+122
+00:08:24,320 --> 00:08:28,114
+Open Commerce, Price lists, and click Add price list.
+
+123
+00:08:28,566 --> 00:08:30,383
+Name it, such as Wholesale.
+
+124
+00:08:30,383 --> 00:08:32,310
+Only your staff see the name.
+
+125
+00:08:32,310 --> 00:08:37,376
+Percentage off everything else gives every product that is not on the list a discount.
+
+126
+00:08:37,906 --> 00:08:40,781
+Under Prices by S.K.U., enter a S.K.U.
+
+127
+00:08:40,781 --> 00:08:44,113
+and its price on each line, apart by a comma.
+
+128
+00:08:44,113 --> 00:08:47,576
+Paste them from a spreadsheet if you have many.
+
+129
+00:08:48,033 --> 00:08:49,031
+Click Save.
+
+130
+00:08:49,031 --> 00:08:53,143
+A product on the list costs its price there, and any other costs
+
+131
+00:08:53,143 --> 00:08:55,316
+your price less the percentage.
+
+132
+00:08:55,316 --> 00:08:59,193
+A buyer always pays the lower of the list's price and yours.
+
+133
+00:09:03,397 --> 00:09:05,257
+Open Commerce, Companies.
+
+134
+00:09:05,257 --> 00:09:08,197
+The businesses you sell to are listed here.
+
+135
+00:09:08,197 --> 00:09:09,637
+Click Add company.
+
+136
+00:09:10,090 --> 00:09:14,046
+Enter its Name, a Tax or VAT number that is printed on its
+
+137
+00:09:14,046 --> 00:09:17,940
+invoices, and a Billing email that gets its invoices too.
+
+138
+00:09:18,390 --> 00:09:22,398
+Under Buyers, enter the User name or email of each person.
+
+139
+00:09:22,398 --> 00:09:24,714
+They need a user account first.
+
+140
+00:09:24,714 --> 00:09:26,467
+Choose Buyer or Admin.
+
+141
+00:09:26,467 --> 00:09:30,725
+An admin sees all of the company's orders and approves orders.
+
+142
+00:09:30,725 --> 00:09:35,170
+Give a buyer an Order limit if their bigger orders need approval.
+
+143
+00:09:35,628 --> 00:09:40,095
+Under Payment terms, Net days says that what the company does not pay
+
+144
+00:09:40,095 --> 00:09:43,252
+at checkout is invoiced, due in that many days.
+
+145
+00:09:43,252 --> 00:09:45,814
+Deposit is the part paid at checkout.
+
+146
+00:09:45,814 --> 00:09:49,328
+Credit limit is the most the company may owe at once.
+
+147
+00:09:49,820 --> 00:09:54,849
+A Monthly budget sends the orders beyond it in a month to an admin for approval.
+
+148
+00:09:54,849 --> 00:09:59,352
+Tick Buyers give a purchase order number to require one on every order,
+
+149
+00:09:59,352 --> 00:10:01,340
+and print it on the invoice.
+
+150
+00:10:01,790 --> 00:10:06,237
+Choose the company's Price list, so its buyers pay Wholesale prices.
+
+151
+00:10:06,237 --> 00:10:10,684
+Under Locations, name a place it has orders shipped to, such as Head
+
+152
+00:10:10,684 --> 00:10:12,847
+office, and enter the address.
+
+153
+00:10:12,847 --> 00:10:15,130
+Its buyers pick one at checkout.
+
+154
+00:10:15,581 --> 00:10:21,108
+The On switch lets you turn a company off, so its buyers buy for themselves again.
+
+155
+00:10:21,108 --> 00:10:22,175
+Click Save.
+
+156
+00:10:22,175 --> 00:10:24,561
+The company appears in the list.
+
+157
+00:10:28,761 --> 00:10:33,485
+Two settings send an order to the company's admins before it can be paid:
+
+158
+00:10:33,485 --> 00:10:37,192
+a buyer's Order limit, and the company's Monthly budget.
+
+159
+00:10:37,192 --> 00:10:40,061
+An admin's own orders never need approval.
+
+160
+00:10:40,811 --> 00:10:45,469
+At checkout, a company buyer gets a Company step after shipping, where they
+
+161
+00:10:45,469 --> 00:10:47,654
+enter the purchase order number.
+
+162
+00:10:47,654 --> 00:10:52,311
+If the order needs approval, the step says why and offers Ask for approval.
+
+163
+00:10:53,061 --> 00:10:55,243
+The company's admins are emailed.
+
+164
+00:10:55,243 --> 00:10:59,439
+An admin approves or rejects the order from the Company page of their
+
+165
+00:10:59,439 --> 00:11:02,236
+account, and can leave a note for the buyer.
+
+166
+00:11:02,236 --> 00:11:04,361
+The buyer is emailed either way.
+
+167
+00:11:05,111 --> 00:11:07,621
+An approved order offers Pay now.
+
+168
+00:11:07,621 --> 00:11:09,874
+A rejected order is canceled.
+
+169
+00:11:09,874 --> 00:11:15,601
+What the company owes on account is shown on its Company page, and in Transactions.
+
+170
+00:11:19,899 --> 00:11:24,691
+Punchout lets a company's procurement system, such as S.A.P., open your store.
+
+171
+00:11:24,691 --> 00:11:28,627
+The buyer fills a cart, and it goes back to their system, where
+
+172
+00:11:28,627 --> 00:11:30,509
+it is approved and ordered.
+
+173
+00:11:30,970 --> 00:11:37,517
+On the company, tick Its procurement system shops here by punchout, and enter the Punchout buyer:
+
+174
+00:11:37,517 --> 00:11:42,030
+a user who only buys for the company, and is listed under Buyers.
+
+175
+00:11:42,483 --> 00:11:47,809
+After you save, the company's punchout key and punchout address are shown once.
+
+176
+00:11:47,809 --> 00:11:51,255
+Give them to the company to set up in its system.
+
+177
+00:11:51,255 --> 00:11:55,703
+To stop a key working, tick Make a new key, or turn punchout off.
+
+178
+00:11:59,903 --> 00:12:01,994
+A shop that sells to the public:
+
+179
+00:12:01,994 --> 00:12:07,167
+guests check out quickly, and customers with accounts keep their addresses, their points
+
+180
+00:12:07,167 --> 00:12:08,763
+and their store credit.
+
+181
+00:12:09,513 --> 00:12:10,702
+A wholesaler:
+
+182
+00:12:10,702 --> 00:12:15,270
+set up each reseller as a company, with a Wholesale price list, net
+
+183
+00:12:15,270 --> 00:12:19,713
+thirty payment terms, and a purchase order number on every order.
+
+184
+00:12:20,463 --> 00:12:21,716
+A buying team:
+
+185
+00:12:21,716 --> 00:12:26,289
+give each buyer an order limit and the company a monthly budget, so
+
+186
+00:12:26,289 --> 00:12:28,983
+a manager approves the larger orders.
+
+187
+00:12:29,733 --> 00:12:31,212
+A privacy request:
+
+188
+00:12:31,212 --> 00:12:35,894
+find the customer, download their data to send to them, or erase their
+
+189
+00:12:35,894 --> 00:12:38,543
+personal data and keep your accounts.
+
+190
+00:12:40,543 --> 00:12:45,037
+The Customers and Companies modules keep everyone who buys from you in one
+
+191
+00:12:45,037 --> 00:12:48,463
+place, and let you sell to a business on its own terms.
+
+192
+00:12:48,463 --> 00:12:49,923
+Thanks for watching.
+
