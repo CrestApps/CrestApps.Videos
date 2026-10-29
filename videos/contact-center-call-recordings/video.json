@@ -1,0 +1,88 @@
+{
+  "title": "Call Recordings: Search, Play and Read the Transcript | CrestApps for Orchard Core",
+  "description": "When a customer says an agent promised something, or an agent needs coaching, a note is not enough. The Call recordings page in CrestApps for Orchard Core lists every recorded call in one place, with search, playback, a transcript for AI voice agent calls, and a way to erase a recording when you have to.\n\nIn this video:\n• Why call recordings, and who sees which calls\n• Which calls are recorded, and from when\n• Searching by date, phone number, direction, call type and agent\n• Playing a call and reading its transcript\n• Erasing a recording\n• Use cases for coaching, complaints, AI reviews and data deletion requests",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "CallRecording",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "call recording",
+    "call transcript",
+    "contact center",
+    "quality assurance",
+    "AI voice agent",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why call recordings"
+    },
+    {
+      "time": "1:00",
+      "title": "Who sees which calls"
+    },
+    {
+      "time": "1:26",
+      "title": "Which calls are recorded"
+    },
+    {
+      "time": "2:08",
+      "title": "Search the calls"
+    },
+    {
+      "time": "3:07",
+      "title": "Play a call and read the transcript"
+    },
+    {
+      "time": "4:06",
+      "title": "Erase a recording"
+    },
+    {
+      "time": "4:36",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:09",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/call-recordings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Recording"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/call-recordings.md"
+  ],
+  "length": "5:20"
+}
