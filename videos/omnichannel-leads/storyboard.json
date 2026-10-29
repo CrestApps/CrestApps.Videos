@@ -1,0 +1,254 @@
+{
+  "title": "Omnichannel Leads",
+  "output": "omnichannel-leads",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel Leads",
+      "subtitle": "Work prospects, then convert the ones that qualify",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A lead is a prospect you have not qualified yet. This video shows how to find and add leads, import a list of them, call and text them, and convert the ones that qualify into contacts, accounts and opportunities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why leads",
+      "subtitle": "Keep prospects apart from customers",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A purchased list or a trade-show scan is full of people who may never buy. If they were contacts, your customer list would fill with strangers."
+            },
+            {
+              "id": "why-2",
+              "text": "Leads are kept apart, but you work them the same way: you can call them, text them, load them as activities and retry them through a subject flow."
+            },
+            {
+              "id": "why-3",
+              "text": "When a lead qualifies, you convert it. The lead becomes a contact, and its history moves with it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The leads list",
+      "subtitle": "Status, source and rating at a glance",
+      "clips": [
+        {
+          "id": "02-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Interaction Center, Leads. The list shows the open leads, with each lead's status, rating, company, source and list."
+            },
+            {
+              "id": "list-2",
+              "text": "Search with terms. Lead status finds a status by name, Source finds a lead source, and Rating finds hot, warm or cold leads. Here, Rating hot shows the leads to call first."
+            },
+            {
+              "id": "list-3",
+              "text": "Other terms are List for the list a lead came in, Owner for the user responsible, and Converted. The phone search terms from the contacts list work here too."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "03",
+      "title": "Add a lead",
+      "subtitle": "The lead fields",
+      "clips": [
+        {
+          "id": "03-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "Click New Lead. Besides the name and the contact methods, a lead has a Lead status, a Company, a Lead source, a List, a Rating and a Lead owner."
+            },
+            {
+              "id": "add-2",
+              "text": "New leads get the default status. Pick the source from your lead sources, give the list a name, and choose a rating. Then publish."
+            }
+          ]
+        }
+      ],
+      "short": "add"
+    },
+    {
+      "id": "04",
+      "title": "Import leads",
+      "subtitle": "A whole list at once",
+      "clips": [
+        {
+          "id": "04-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "import-1",
+              "text": "To load a list, open Content, Import and choose Lead. The Columns Requirements table shows the columns a file can carry: the lead status, source, list, company, rating and owner, next to the name and contact methods."
+            },
+            {
+              "id": "import-2",
+              "text": "Skip numbers that already belong to a contact leaves out rows whose number a contact has, so a customer is not called as a stranger. Skip numbers that already belong to an open lead does the same for leads you are still working. Both are on by default."
+            },
+            {
+              "id": "import-3",
+              "text": "List name, Lead source, Lead status and Lead owner are given to every new lead whose row does not set its own."
+            }
+          ]
+        }
+      ],
+      "short": "import"
+    },
+    {
+      "id": "05",
+      "title": "Call and text a lead",
+      "subtitle": "The same tools as a contact",
+      "clips": [
+        {
+          "id": "05-work",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "work-1",
+              "text": "Everything you do with a contact works on a lead. Open a lead, and use List Activities to see its activities."
+            },
+            {
+              "id": "work-2",
+              "text": "Add Activity, Outbound, schedules a call or a text, and Inbound logs one the lead started. Leads can also be loaded as activities, and retried by a subject flow, like any contact."
+            }
+          ]
+        }
+      ],
+      "short": "work"
+    },
+    {
+      "id": "06",
+      "title": "Convert a lead",
+      "subtitle": "Merge or create a contact, an account and an opportunity",
+      "clips": [
+        {
+          "id": "06-convert",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "convert-1",
+              "text": "When a lead qualifies, click Convert on its row. The page says that a contact already has this lead's email, and Merge into is picked, so no duplicate is made."
+            },
+            {
+              "id": "convert-2",
+              "text": "The contact keeps its own values and only gains what the lead has that it lacks. The account starts from the lead's company, and Create an opportunity records the deal."
+            },
+            {
+              "id": "convert-3",
+              "text": "Under Activities, choose to move the open activities to the contact, or to cancel them. Click Convert."
+            },
+            {
+              "id": "convert-4",
+              "text": "For a lead nobody knows yet, choose Create a new contact and its type, create the account, and tick Create an opportunity. Pick the opportunity type, and enter a name, an amount and a close date."
+            },
+            {
+              "id": "convert-5",
+              "text": "The lead takes the Converted status and becomes read-only. It leaves the Leads list, and the contact has its history."
+            }
+          ]
+        }
+      ],
+      "short": "convert"
+    },
+    {
+      "id": "07",
+      "title": "Convert automatically",
+      "subtitle": "Subject flows, the AI and workflows",
+      "clips": [
+        {
+          "id": "07-auto",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "auto-1",
+              "text": "A subject flow can convert a lead when an activity ends with a chosen disposition, for example Qualified. Its Convert Lead action runs before the other actions, so a follow-up activity lands on the new contact."
+            },
+            {
+              "id": "auto-2",
+              "text": "On an Automatic activity load of a lead type, the AI lead conversion card lets the AI convert a lead that qualified during an automated call or text. It never converts a lead who declined or asked not to be contacted."
+            },
+            {
+              "id": "auto-3",
+              "text": "With Workflows on, a Lead Converted event starts a workflow when any conversion happens, and a Convert Lead task converts a lead from a workflow."
+            },
+            {
+              "id": "auto-4",
+              "text": "Three CRM reports follow the leads: the Lead funnel, the Lead conversion by source and list, and the Opportunity pipeline."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Work a purchased list without polluting the contact list."
+            },
+            {
+              "id": "use-2",
+              "text": "Follow trade-show leads through statuses, and call the hot ones first."
+            },
+            {
+              "id": "use-3",
+              "text": "Convert a qualified lead into a contact, an account and a deal in one step."
+            },
+            {
+              "id": "use-4",
+              "text": "Let the AI qualify leads by text or call, and convert the ones that qualify."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Keep prospects as leads, work them like contacts, and convert the ones that qualify, so your contact list holds only real customers. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

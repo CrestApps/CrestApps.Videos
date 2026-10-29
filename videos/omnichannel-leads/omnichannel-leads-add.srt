@@ -1,0 +1,24 @@
+1
+00:00:03,225 --> 00:00:04,656
+Click New Lead.
+
+2
+00:00:04,656 --> 00:00:09,629
+Besides the name and the contact methods, a lead has a Lead status,
+
+3
+00:00:09,629 --> 00:00:14,125
+a Company, a Lead source, a List, a Rating and a Lead owner.
+
+4
+00:00:18,369 --> 00:00:20,704
+New leads get the default status.
+
+5
+00:00:20,704 --> 00:00:25,971
+Pick the source from your lead sources, give the list a name, and choose a rating.
+
+6
+00:00:25,971 --> 00:00:27,109
+Then publish.
+
