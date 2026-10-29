@@ -1,0 +1,515 @@
+{
+ "steps": [
+  {
+   "name": "ReportDesigns",
+   "Reports": [
+    {
+     "itemId": "call-dashboard",
+     "displayText": "Call dashboard",
+     "description": "Calls by agent, by queue and by day, with a list of single calls: click an agent, a queue or a day to filter the rest.",
+     "group": "Contact Center",
+     "query": {
+      "dataSets": [
+       {
+        "alias": "I",
+        "source": "ContactCenter",
+        "dataSet": "Interactions",
+        "displayName": "Interactions"
+       },
+       {
+        "alias": "Q",
+        "source": "ContactCenter",
+        "dataSet": "Queues",
+        "displayName": "Queues"
+       },
+       {
+        "alias": "P",
+        "source": "ContactCenter",
+        "dataSet": "AgentProfiles",
+        "displayName": "Agent profiles"
+       }
+      ],
+      "joins": [
+       {
+        "alias": "Q",
+        "type": "Left",
+        "conditions": [
+         {
+          "leftField": "I.QueueId",
+          "rightField": "Q.ItemId"
+         }
+        ]
+       },
+       {
+        "alias": "P",
+        "type": "Left",
+        "conditions": [
+         {
+          "leftField": "I.AgentId",
+          "rightField": "P.ItemId"
+         }
+        ]
+       }
+      ],
+      "filters": [
+       {
+        "id": "created",
+        "field": "I.CreatedUtc",
+        "stage": "Rows",
+        "operator": "InLastDays",
+        "values": [
+         "30"
+        ],
+        "exposed": true,
+        "label": "Placed",
+        "control": "RelativeDate"
+       }
+      ],
+      "columns": [
+       {
+        "id": "agent",
+        "field": "P.UserName",
+        "label": "Agent"
+       },
+       {
+        "id": "n",
+        "field": "$count",
+        "label": "Calls"
+       },
+       {
+        "id": "wait",
+        "field": "I.WaitSeconds",
+        "label": "Avg wait (s)",
+        "aggregate": "Average",
+        "format": "N0"
+       },
+       {
+        "id": "talk",
+        "field": "I.TalkSeconds",
+        "label": "Avg talk (s)",
+        "aggregate": "Average",
+        "format": "N0"
+       }
+      ],
+      "sorts": [
+       {
+        "columnId": "n",
+        "descending": true
+       }
+      ]
+     },
+     "queries": [
+      {
+       "id": "byqueue",
+       "name": "By queue",
+       "query": {
+        "dataSets": [
+         {
+          "alias": "I",
+          "source": "ContactCenter",
+          "dataSet": "Interactions",
+          "displayName": "Interactions"
+         },
+         {
+          "alias": "Q",
+          "source": "ContactCenter",
+          "dataSet": "Queues",
+          "displayName": "Queues"
+         },
+         {
+          "alias": "P",
+          "source": "ContactCenter",
+          "dataSet": "AgentProfiles",
+          "displayName": "Agent profiles"
+         }
+        ],
+        "joins": [
+         {
+          "alias": "Q",
+          "type": "Left",
+          "conditions": [
+           {
+            "leftField": "I.QueueId",
+            "rightField": "Q.ItemId"
+           }
+          ]
+         },
+         {
+          "alias": "P",
+          "type": "Left",
+          "conditions": [
+           {
+            "leftField": "I.AgentId",
+            "rightField": "P.ItemId"
+           }
+          ]
+         }
+        ],
+        "filters": [
+         {
+          "id": "created",
+          "field": "I.CreatedUtc",
+          "stage": "Rows",
+          "operator": "InLastDays",
+          "values": [
+           "30"
+          ],
+          "exposed": true,
+          "label": "Placed",
+          "control": "RelativeDate"
+         }
+        ],
+        "columns": [
+         {
+          "id": "queue",
+          "field": "Queue",
+          "label": "Queue"
+         },
+         {
+          "id": "n",
+          "field": "$count",
+          "label": "Calls"
+         },
+         {
+          "id": "wait",
+          "field": "I.WaitSeconds",
+          "label": "Avg wait (s)",
+          "aggregate": "Average",
+          "format": "N0"
+         },
+         {
+          "id": "talk",
+          "field": "I.TalkSeconds",
+          "label": "Avg talk (s)",
+          "aggregate": "Average",
+          "format": "N0"
+         }
+        ],
+        "sorts": [
+         {
+          "columnId": "n",
+          "descending": true
+         }
+        ],
+        "calculatedFields": [
+         {
+          "name": "Queue",
+          "label": "Queue",
+          "expression": "IFNULL([Q.Name], 'Outbound campaigns')"
+         }
+        ]
+       }
+      },
+      {
+       "id": "calls",
+       "name": "Calls",
+       "query": {
+        "dataSets": [
+         {
+          "alias": "I",
+          "source": "ContactCenter",
+          "dataSet": "Interactions",
+          "displayName": "Interactions"
+         },
+         {
+          "alias": "Q",
+          "source": "ContactCenter",
+          "dataSet": "Queues",
+          "displayName": "Queues"
+         },
+         {
+          "alias": "P",
+          "source": "ContactCenter",
+          "dataSet": "AgentProfiles",
+          "displayName": "Agent profiles"
+         }
+        ],
+        "joins": [
+         {
+          "alias": "Q",
+          "type": "Left",
+          "conditions": [
+           {
+            "leftField": "I.QueueId",
+            "rightField": "Q.ItemId"
+           }
+          ]
+         },
+         {
+          "alias": "P",
+          "type": "Left",
+          "conditions": [
+           {
+            "leftField": "I.AgentId",
+            "rightField": "P.ItemId"
+           }
+          ]
+         }
+        ],
+        "filters": [
+         {
+          "id": "created",
+          "field": "I.CreatedUtc",
+          "stage": "Rows",
+          "operator": "InLastDays",
+          "values": [
+           "30"
+          ],
+          "exposed": true,
+          "label": "Placed",
+          "control": "RelativeDate"
+         }
+        ],
+        "columns": [
+         {
+          "id": "when",
+          "field": "I.CreatedUtc",
+          "label": "Started"
+         },
+         {
+          "id": "agent",
+          "field": "P.UserName",
+          "label": "Agent"
+         },
+         {
+          "id": "queue",
+          "field": "Queue",
+          "label": "Queue"
+         },
+         {
+          "id": "dir",
+          "field": "I.Direction",
+          "label": "Direction"
+         },
+         {
+          "id": "status",
+          "field": "I.Status",
+          "label": "Status"
+         },
+         {
+          "id": "talk",
+          "field": "I.TalkSeconds",
+          "label": "Talk (s)",
+          "format": "N0"
+         }
+        ],
+        "sorts": [
+         {
+          "columnId": "when",
+          "descending": true
+         }
+        ],
+        "calculatedFields": [
+         {
+          "name": "Queue",
+          "label": "Queue",
+          "expression": "IFNULL([Q.Name], 'Outbound campaigns')"
+         }
+        ]
+       }
+      },
+      {
+       "id": "byday",
+       "name": "By day",
+       "query": {
+        "dataSets": [
+         {
+          "alias": "I",
+          "source": "ContactCenter",
+          "dataSet": "Interactions",
+          "displayName": "Interactions"
+         },
+         {
+          "alias": "Q",
+          "source": "ContactCenter",
+          "dataSet": "Queues",
+          "displayName": "Queues"
+         },
+         {
+          "alias": "P",
+          "source": "ContactCenter",
+          "dataSet": "AgentProfiles",
+          "displayName": "Agent profiles"
+         }
+        ],
+        "joins": [
+         {
+          "alias": "Q",
+          "type": "Left",
+          "conditions": [
+           {
+            "leftField": "I.QueueId",
+            "rightField": "Q.ItemId"
+           }
+          ]
+         },
+         {
+          "alias": "P",
+          "type": "Left",
+          "conditions": [
+           {
+            "leftField": "I.AgentId",
+            "rightField": "P.ItemId"
+           }
+          ]
+         }
+        ],
+        "filters": [
+         {
+          "id": "created",
+          "field": "I.CreatedUtc",
+          "stage": "Rows",
+          "operator": "InLastDays",
+          "values": [
+           "30"
+          ],
+          "exposed": true,
+          "label": "Placed",
+          "control": "RelativeDate"
+         }
+        ],
+        "columns": [
+         {
+          "id": "day",
+          "field": "I.CreatedUtc",
+          "label": "Day",
+          "transform": "Day"
+         },
+         {
+          "id": "n",
+          "field": "$count",
+          "label": "Calls"
+         },
+         {
+          "id": "talk",
+          "field": "I.TalkSeconds",
+          "label": "Avg talk (s)",
+          "aggregate": "Average",
+          "format": "N0"
+         }
+        ],
+        "sorts": [
+         {
+          "columnId": "day"
+         }
+        ]
+       }
+      }
+     ],
+     "containers": [
+      {
+       "id": "c-agents",
+       "title": "Agent scorecard",
+       "width": 6,
+       "height": 300
+      },
+      {
+       "id": "c-queues",
+       "title": "Queue scorecard",
+       "width": 6,
+       "height": 300
+      },
+      {
+       "id": "c-trend",
+       "title": "Calls by day",
+       "width": 6,
+       "height": 420
+      },
+      {
+       "id": "c-calls",
+       "title": "Call selection",
+       "width": 6,
+       "height": 420
+      }
+     ],
+     "visuals": [
+      {
+       "id": "v-agents",
+       "type": "Table",
+       "title": "Agents",
+       "width": 12,
+       "containerId": "c-agents",
+       "showTotals": true,
+       "action": {
+        "columnId": "agent",
+        "targets": [
+         {
+          "visualId": "v-calls",
+          "field": "P.UserName"
+         },
+         {
+          "visualId": "v-trend",
+          "field": "P.UserName"
+         },
+         {
+          "visualId": "v-queues",
+          "field": "P.UserName"
+         }
+        ]
+       }
+      },
+      {
+       "id": "v-queues",
+       "type": "Table",
+       "title": "Queues",
+       "width": 12,
+       "queryId": "byqueue",
+       "containerId": "c-queues",
+       "showTotals": true,
+       "action": {
+        "columnId": "queue",
+        "targets": [
+         {
+          "visualId": "v-calls",
+          "field": "Q.Name"
+         },
+         {
+          "visualId": "v-trend",
+          "field": "Q.Name"
+         },
+         {
+          "visualId": "v-agents",
+          "field": "Q.Name"
+         }
+        ]
+       }
+      },
+      {
+       "id": "v-trend",
+       "type": "Chart",
+       "title": "Calls per day",
+       "width": 12,
+       "queryId": "byday",
+       "containerId": "c-trend",
+       "chartType": "Line",
+       "categoryColumnId": "day",
+       "valueColumnIds": [
+        "n"
+       ],
+       "showLegend": false,
+       "action": {
+        "columnId": "day",
+        "targets": [
+         {
+          "visualId": "v-calls",
+          "field": "I.CreatedUtc"
+         }
+        ]
+       }
+      },
+      {
+       "id": "v-calls",
+       "type": "Table",
+       "title": "Calls",
+       "width": 12,
+       "queryId": "calls",
+       "containerId": "c-calls"
+      }
+     ],
+     "allowExport": true,
+     "refreshIntervalMinutes": 0
+    }
+   ]
+  }
+ ]
+}

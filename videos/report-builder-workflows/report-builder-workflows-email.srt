@@ -1,0 +1,24 @@
+1
+00:00:03,276 --> 00:00:07,975
+A third workflow starts on a timer and uses Email Report.
+
+2
+00:00:07,975 --> 00:00:14,015
+Choose the report, the recipients, an optional message, and the attachment:
+
+3
+00:00:14,015 --> 00:00:16,476
+CSV, Excel or PDF, or none.
+
+4
+00:00:16,952 --> 00:00:21,553
+This site has no mail server, so this workflow is shown and not run.
+
+5
+00:00:21,553 --> 00:00:26,279
+Where email cannot be sent, the task takes its Failed outcome, and the
+
+6
+00:00:26,279 --> 00:00:28,952
+reason is written to the site's logs.
+

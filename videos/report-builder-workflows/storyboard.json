@@ -1,0 +1,216 @@
+{
+  "title": "Report workflows",
+  "output": "report-builder-workflows",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "PDF": "P.D.F."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report workflows",
+      "subtitle": "Let a report work without anyone opening it",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Workflows let a Report Builder report work without anyone opening it: start something when a report is published, run or exported, and run, export, email or share a report as a step. This video shows the report events and tasks, and runs one workflow for real."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why workflows",
+      "subtitle": "Reports that act on their own",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some reports are read every morning, some are handed to people who never open the site, and some matter only when something changes."
+            },
+            {
+              "id": "why-2",
+              "text": "A workflow starts from an event, such as a report being published, run or exported, or from a timer. Then its tasks run, export, email or share a report."
+            },
+            {
+              "id": "why-3",
+              "text": "Reports under Reports can be emailed with a subscription. Report Builder reports use workflows instead, and the Email Report task is how they are emailed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The report events",
+      "subtitle": "Report Run, Report Exported and Report Published",
+      "short": "events",
+      "clips": [
+        {
+          "id": "02-events",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ev-1",
+              "text": "Open Design, Workflows. This one, Share a link when a report is published, has a start event and a task, joined by an outcome. Add Event lists the events by category."
+            },
+            {
+              "id": "ev-2",
+              "text": "The Reports category holds three events: Report Run, when someone runs a report; Report Exported, when someone exports one; and Report Published, when someone publishes one."
+            },
+            {
+              "id": "ev-3",
+              "text": "Edit the event to limit it to some reports. Leave Reports empty to start the workflow for every report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The report tasks",
+      "subtitle": "Run, export, email and share a report",
+      "short": "tasks",
+      "clips": [
+        {
+          "id": "03-tasks",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "task-1",
+              "text": "Add Task, in the Reports category, lists four tasks: Run Report, Export Report, Email Report and Create Report Share Link."
+            },
+            {
+              "id": "task-2",
+              "text": "Every report task starts with the same fields: the Report to use, or an expression that gives its ID, so a task after a report event can use the report that triggered it, plus Filters and an Output name."
+            },
+            {
+              "id": "task-3",
+              "text": "Create Report Share Link asks for the Recipients, a Note, how many days it Expires after, the Most uses, whether to Allow export, and whether to email the link."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Run it",
+      "subtitle": "Publish a report and see the result",
+      "short": "run-it",
+      "clips": [
+        {
+          "id": "04-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "Now publish a report. In the builder, click Publish on the Call dashboard."
+            },
+            {
+              "id": "run-2",
+              "text": "The Report Published event starts the workflow. Its Instances list shows the run."
+            },
+            {
+              "id": "run-3",
+              "text": "And Shared Links lists the link the workflow created, for the recipient it named, with its uses. The recipient opens it once signed in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Export a copy",
+      "subtitle": "Save a file in the media library",
+      "short": "export",
+      "clips": [
+        {
+          "id": "05-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "A second workflow starts on Report Run and uses Export Report. Its Format is Excel, and its Media folder names where to save the file."
+            },
+            {
+              "id": "exp-2",
+              "text": "Run the Call dashboard, and open the media library. The workbook is there, in the folder the task named, with the report and the date in its name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Email a report",
+      "subtitle": "The Email Report task",
+      "short": "email",
+      "clips": [
+        {
+          "id": "06-email",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mail-1",
+              "text": "A third workflow starts on a timer and uses Email Report. Choose the report, the recipients, an optional message, and the attachment: CSV, Excel or PDF, or none."
+            },
+            {
+              "id": "mail-2",
+              "text": "This site has no mail server, so this workflow is shown and not run. Where email cannot be sent, the task takes its Failed outcome, and the reason is written to the site's logs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Where workflows fit",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A morning report: a timer, then Email Report with the dashboard as an Excel file."
+            },
+            {
+              "id": "use-2",
+              "text": "A handover: when a report is published, create a share link for the people who need it."
+            },
+            {
+              "id": "use-3",
+              "text": "An archive: when a report is run, export a copy to the media library."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report workflows",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Events start them, tasks do the work, and the report runs with its owner's access. Send reports only to people who should see that data. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

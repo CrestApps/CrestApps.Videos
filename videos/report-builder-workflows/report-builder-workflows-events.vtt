@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.238 --> 00:00:05.107
+Open Design, Workflows.
+
+00:00:05.107 --> 00:00:09.488
+This one, Share a link when a report is published, has a start
+
+00:00:09.488 --> 00:00:12.388
+event and a task, joined by an outcome.
+
+00:00:12.388 --> 00:00:15.288
+Add Event lists the events by category.
+
+00:00:15.767 --> 00:00:18.822
+The Reports category holds three events:
+
+00:00:18.822 --> 00:00:24.665
+Report Run, when someone runs a report; Report Exported, when someone exports one;
+
+00:00:24.665 --> 00:00:28.317
+and Report Published, when someone publishes one.
+
+00:00:28.778 --> 00:00:31.830
+Edit the event to limit it to some reports.
+
+00:00:31.830 --> 00:00:35.878
+Leave Reports empty to start the workflow for every report.
+
