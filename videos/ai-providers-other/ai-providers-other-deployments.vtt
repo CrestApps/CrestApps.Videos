@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.190 --> 00:00:05.570
+A connection is not a model.
+
+00:00:05.570 --> 00:00:12.150
+Open Deployments, click Add Deployment, and each provider you enabled appears as a card:
+
+00:00:12.150 --> 00:00:18.310
+OpenAI, Ollama, Azure AI Inference, Azure OpenAI and Azure AI Services for speech.
+
+00:00:18.760 --> 00:00:19.916
+Choose OpenAI.
+
+00:00:19.916 --> 00:00:24.366
+Enter the Model name that the service expects and a Technical name, and
+
+00:00:24.366 --> 00:00:26.851
+choose the Connection you just added.
+
+00:00:26.851 --> 00:00:31.244
+On the Model capabilities card, declare what the model can do, such as
+
+00:00:31.244 --> 00:00:32.920
+tool calling or vision.
+

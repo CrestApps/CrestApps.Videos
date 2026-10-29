@@ -1,0 +1,128 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.141
+Azure OpenAI is only one way to bring a model to your site.
+
+00:00:05.141 --> 00:00:07.881
+This video shows the other providers:
+
+00:00:07.881 --> 00:00:12.659
+OpenAI and the services that copy its API, Ollama for models that run
+
+00:00:12.659 --> 00:00:15.844
+on your own machine, and Azure AI Inference.
+
+00:00:15.844 --> 00:00:20.750
+You add them as connections and deployments, in the same admin screens.
+
+00:00:25.350 --> 00:00:32.581
+The OpenAI provider connects to OpenAI itself, and to every service that follows its API:
+
+00:00:32.581 --> 00:00:38.213
+DeepSeek, Google Gemini, Together AI, vLLM, LM Studio and many more.
+
+00:00:38.213 --> 00:00:41.790
+You only change the endpoint and the key.
+
+00:00:42.540 --> 00:00:48.400
+Ollama runs open models on your own machine or server, with nothing sent to the cloud.
+
+00:00:49.150 --> 00:00:55.882
+Azure AI Inference connects to the model endpoints of Azure AI Foundry and to GitHub Models.
+
+00:00:55.882 --> 00:00:59.110
+Azure AI Services deployments add speech.
+
+00:01:03.271 --> 00:01:10.331
+Open Artificial Intelligence, Provider Connections, click Add Connection, and click Add on OpenAI.
+
+00:01:10.797 --> 00:01:13.572
+Enter a Title and a Technical name.
+
+00:01:13.572 --> 00:01:16.889
+The technical name cannot be changed later.
+
+00:01:16.889 --> 00:01:22.777
+For a service other than OpenAI, enter its Endpoint, the base address of its API.
+
+00:01:23.242 --> 00:01:25.877
+Enter the API key of the service.
+
+00:01:25.877 --> 00:01:29.254
+It is stored securely and never shown again.
+
+00:01:29.254 --> 00:01:33.442
+Click Save, and the connection is ready for deployments.
+
+00:01:37.669 --> 00:01:41.398
+An Ollama connection needs only a Title and a Technical name.
+
+00:01:41.398 --> 00:01:45.573
+The address of the Ollama server, and the models it serves, come from
+
+00:01:45.573 --> 00:01:49.359
+the configuration of the site, which your technical team sets.
+
+00:01:53.535 --> 00:01:59.075
+An Azure AI Inference connection asks for the Endpoint of the inference service.
+
+00:01:59.800 --> 00:02:06.857
+Authentication type is Default authentication, API key, or Managed identity, with an optional
+
+00:02:06.857 --> 00:02:09.209
+Managed identity client ID.
+
+00:02:09.209 --> 00:02:12.060
+Choose API key, and enter the key.
+
+00:02:16.249 --> 00:02:18.629
+A connection is not a model.
+
+00:02:18.629 --> 00:02:25.209
+Open Deployments, click Add Deployment, and each provider you enabled appears as a card:
+
+00:02:25.209 --> 00:02:31.369
+OpenAI, Ollama, Azure AI Inference, Azure OpenAI and Azure AI Services for speech.
+
+00:02:31.820 --> 00:02:32.976
+Choose OpenAI.
+
+00:02:32.976 --> 00:02:37.426
+Enter the Model name that the service expects and a Technical name, and
+
+00:02:37.426 --> 00:02:39.911
+choose the Connection you just added.
+
+00:02:39.911 --> 00:02:44.304
+On the Model capabilities card, declare what the model can do, such as
+
+00:02:44.304 --> 00:02:45.980
+tool calling or vision.
+
+00:02:50.180 --> 00:02:55.956
+Connections and deployments that come from the configuration of the site show as Read-only.
+
+00:02:55.956 --> 00:02:59.350
+Change them in the configuration, not in the admin.
+
+00:03:00.100 --> 00:03:05.442
+After you add a deployment, choose it as a default under Settings, Artificial
+
+00:03:05.442 --> 00:03:07.760
+Intelligence, or on a profile.
+
+00:03:08.510 --> 00:03:13.476
+Use the OpenAI provider for any service that copies the OpenAI API, and
+
+00:03:13.476 --> 00:03:16.120
+keep keys with your technical team.
+
+00:03:18.120 --> 00:03:22.685
+Pick the provider that fits, add a connection, then a deployment, and choose
+
+00:03:22.685 --> 00:03:24.132
+it on your profiles.
+
+00:03:24.132 --> 00:03:25.580
+Thanks for watching.
+

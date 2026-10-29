@@ -1,0 +1,11 @@
+WEBVTT
+
+00:00:03.226 --> 00:00:06.956
+An Ollama connection needs only a Title and a Technical name.
+
+00:00:06.956 --> 00:00:11.131
+The address of the Ollama server, and the models it serves, come from
+
+00:00:11.131 --> 00:00:14.916
+the configuration of the site, which your technical team sets.
+
