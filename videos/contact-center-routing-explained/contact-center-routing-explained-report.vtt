@@ -1,0 +1,17 @@
+WEBVTT
+
+00:00:03.186 --> 00:00:08.210
+When a call does not reach the agent you expect, open Reports, Queue
+
+00:00:08.210 --> 00:00:11.740
+and Routing, Agent availability and wait time.
+
+00:00:11.740 --> 00:00:17.036
+It lists each agent, with Why not eligible and Routing detail, in words.
+
+00:00:17.526 --> 00:00:21.625
+The Dialer decision log shows the same for outbound work.
+
+00:00:21.625 --> 00:00:27.676
+Each decision lists the agents that were weighed, and why each was or was not eligible.
+

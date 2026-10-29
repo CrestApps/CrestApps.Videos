@@ -1,0 +1,384 @@
+1
+00:00:01,000 --> 00:00:06,448
+When a caller waits in a queue, the platform decides which agent gets the call.
+
+2
+00:00:06,448 --> 00:00:10,101
+This video explains that chain, one link at a time:
+
+3
+00:00:10,101 --> 00:00:15,869
+who may take a call, skills, capacity, the routing strategy, sticky agents, priority
+
+4
+00:00:15,869 --> 00:00:18,881
+and aging, declined offers, and overflow.
+
+5
+00:00:18,881 --> 00:00:23,367
+Calls never connect on this demo site, so what happens in a live
+
+6
+00:00:23,367 --> 00:00:25,290
+call is shown in slides.
+
+7
+00:00:29,890 --> 00:00:35,195
+When work is waiting in a queue, the platform looks for an agent in four steps.
+
+8
+00:00:35,195 --> 00:00:37,692
+First, who may take a call at all.
+
+9
+00:00:37,692 --> 00:00:42,248
+An agent must be Available, entitled to the queue, signed in to it,
+
+10
+00:00:42,248 --> 00:00:44,120
+and have a live session.
+
+11
+00:00:44,870 --> 00:00:46,579
+Second, two filters.
+
+12
+00:00:46,579 --> 00:00:50,062
+Skills remove agents who lack a required skill.
+
+13
+00:00:50,062 --> 00:00:53,414
+Capacity removes agents who are already full.
+
+14
+00:00:53,414 --> 00:00:58,935
+Third, the queue's routing strategy ranks whoever is left, and the best ranked
+
+15
+00:00:58,935 --> 00:01:00,710
+agent gets the offer.
+
+16
+00:01:01,460 --> 00:01:03,749
+Fourth, history and bonuses.
+
+17
+00:01:03,749 --> 00:01:06,509
+A sticky agent is moved to the top.
+
+18
+00:01:06,509 --> 00:01:11,221
+An agent who already declined or missed this call is moved back.
+
+19
+00:01:11,221 --> 00:01:14,250
+This order is the same for every queue.
+
+20
+00:01:18,475 --> 00:01:20,631
+Open Queues and add a queue.
+
+21
+00:01:20,631 --> 00:01:23,991
+On Routing, Routing strategy has three choices.
+
+22
+00:01:23,991 --> 00:01:29,000
+Longest idle offers the call to the agent who has been available longest.
+
+23
+00:01:29,000 --> 00:01:33,502
+Round robin offers it to the agent who finished work longest ago.
+
+24
+00:01:33,502 --> 00:01:38,701
+Least busy offers it to the agent with the fewest active interactions, which
+
+25
+00:01:38,701 --> 00:01:42,695
+matters little when agents take one voice call at a time.
+
+26
+00:01:43,207 --> 00:01:47,267
+Prefer the last assigned agent turns on the sticky bonus.
+
+27
+00:01:47,267 --> 00:01:52,810
+It applies to work that returns to the queue with its last owner still recorded.
+
+28
+00:01:52,810 --> 00:01:57,579
+A new inbound call has no previous agent, so a returning customer is
+
+29
+00:01:57,579 --> 00:01:59,771
+not sent to the same person.
+
+30
+00:01:59,771 --> 00:02:04,347
+Sticky never overrides skills, capacity or the order of declines.
+
+31
+00:02:04,803 --> 00:02:08,300
+Reservation timeout is how long an offer rings.
+
+32
+00:02:08,300 --> 00:02:13,710
+Unanswered offer action decides what happens when the agent does not answer:
+
+33
+00:02:13,710 --> 00:02:16,943
+Requeue, Send to voicemail, or Reject call.
+
+34
+00:02:21,164 --> 00:02:25,002
+The Skills card has Required skills and Skill requirements.
+
+35
+00:02:25,002 --> 00:02:30,022
+A requirement names a Skill, a Minimum proficiency, whether it is Required, and
+
+36
+00:02:30,022 --> 00:02:31,793
+Relax after, in seconds.
+
+37
+00:02:31,793 --> 00:02:34,746
+A required skill removes agents who lack it.
+
+38
+00:02:34,746 --> 00:02:39,470
+Relax after drops the requirement once the caller has waited that long, so
+
+39
+00:02:39,470 --> 00:02:42,304
+a rare skill cannot hold a caller forever.
+
+40
+00:02:42,797 --> 00:02:46,340
+A requirement that is not required removes nobody.
+
+41
+00:02:46,340 --> 00:02:49,378
+It ranks agents who have the skill higher.
+
+42
+00:02:49,378 --> 00:02:55,517
+The agent's own skills, with a proficiency from one to five, are set on Agent entitlements.
+
+43
+00:02:55,974 --> 00:03:01,578
+Agent entitlements also has Queue preferences, with a Priority and a Delay in seconds.
+
+44
+00:03:01,578 --> 00:03:06,024
+They matter when an agent becomes free and picks the next work, not
+
+45
+00:03:06,024 --> 00:03:09,314
+when a call arrives and several agents are idle.
+
+46
+00:03:10,914 --> 00:03:15,135
+Capacity is how many interactions an agent can hold at once.
+
+47
+00:03:15,135 --> 00:03:19,036
+It is one by default, and no screen has a field for it:
+
+48
+00:03:19,036 --> 00:03:21,914
+it comes from a recipe or a deployment.
+
+49
+00:03:21,914 --> 00:03:26,136
+An agent on a voice call is never offered another call, so a
+
+50
+00:03:26,136 --> 00:03:29,014
+higher capacity only matters for texts.
+
+51
+00:03:33,201 --> 00:03:36,301
+A caller's priority decides who is served first.
+
+52
+00:03:36,301 --> 00:03:40,780
+For a call that comes through an entry point, the entry point's Priority
+
+53
+00:03:40,780 --> 00:03:44,856
+is where it starts, and it replaces the queue's Default priority.
+
+54
+00:03:44,856 --> 00:03:50,311
+The queue's Default priority applies to callbacks, and to lines that have no entry point.
+
+55
+00:03:51,911 --> 00:03:53,884
+Two raises are automatic.
+
+56
+00:03:53,884 --> 00:03:59,359
+A caller who rings again within four hours of their last call is raised to High.
+
+57
+00:03:59,359 --> 00:04:05,279
+A customer who returns a callback you scheduled, within 24 hours, is raised to Highest.
+
+58
+00:04:05,279 --> 00:04:07,507
+Priority is only ever raised.
+
+59
+00:04:07,507 --> 00:04:11,581
+These raises apply to calls that go straight to the queue.
+
+60
+00:04:11,581 --> 00:04:16,164
+A call that first plays a welcome message, a recording notice or a
+
+61
+00:04:16,164 --> 00:04:19,411
+menu is queued at the entry point's priority.
+
+62
+00:04:21,008 --> 00:04:23,049
+On Service levels, the S.L.A.
+
+63
+00:04:23,049 --> 00:04:26,140
+threshold and Age waiting items past the S.L.A.
+
+64
+00:04:26,140 --> 00:04:27,657
+threshold add aging.
+
+65
+00:04:27,657 --> 00:04:31,739
+An item moves up one priority level once it has waited twice the
+
+66
+00:04:31,739 --> 00:04:35,472
+threshold, then one more level for each further threshold.
+
+67
+00:04:35,472 --> 00:04:39,438
+The wait counts from the first time the caller joined a queue.
+
+68
+00:04:43,638 --> 00:04:47,681
+When an agent declines an offer, or lets it ring out, the call
+
+69
+00:04:47,681 --> 00:04:49,406
+goes back to the queue.
+
+70
+00:04:49,406 --> 00:04:54,698
+Both are recorded, and the agent returns to Available at the back of the idle line.
+
+71
+00:04:55,448 --> 00:04:59,276
+The next offer goes first to an agent who has not had this
+
+72
+00:04:59,276 --> 00:05:03,523
+call, then to agents who declined it earlier, the earliest first.
+
+73
+00:05:03,523 --> 00:05:08,188
+If one agent is the only one free, that agent is offered the call again.
+
+74
+00:05:12,390 --> 00:05:18,255
+On Hours and overflow, Overflow queue and Overflow after set the first hop.
+
+75
+00:05:18,255 --> 00:05:22,601
+Overflow chain adds more hops, each with its own wait.
+
+76
+00:05:22,601 --> 00:05:25,570
+The wait starts again at every hop.
+
+77
+00:05:26,025 --> 00:05:30,107
+A caller is never sent back to a queue they have already visited.
+
+78
+00:05:30,107 --> 00:05:33,901
+The chain that applies is the one on the queue the caller is
+
+79
+00:05:33,901 --> 00:05:37,063
+in now, so a path from A through B to C needs B's
+
+80
+00:05:37,063 --> 00:05:38,558
+own chain to name C.
+
+81
+00:05:38,558 --> 00:05:42,928
+On Limits, Maximum wait and its action decide what happens to a caller
+
+82
+00:05:42,928 --> 00:05:44,365
+who waits too long.
+
+83
+00:05:48,551 --> 00:05:53,575
+When a call does not reach the agent you expect, open Reports, Queue
+
+84
+00:05:53,575 --> 00:05:57,105
+and Routing, Agent availability and wait time.
+
+85
+00:05:57,105 --> 00:06:02,401
+It lists each agent, with Why not eligible and Routing detail, in words.
+
+86
+00:06:02,891 --> 00:06:06,990
+The Dialer decision log shows the same for outbound work.
+
+87
+00:06:06,990 --> 00:06:13,041
+Each decision lists the agents that were weighed, and why each was or was not eligible.
+
+88
+00:06:17,241 --> 00:06:22,170
+Send complex calls to skilled agents, and let the requirement relax after a
+
+89
+00:06:22,170 --> 00:06:24,301
+wait so nobody waits forever.
+
+90
+00:06:25,051 --> 00:06:29,779
+Give a priority line for key customers with the entry point's priority, and
+
+91
+00:06:29,779 --> 00:06:32,231
+let aging keep everyone else moving.
+
+92
+00:06:32,981 --> 00:06:38,081
+Spread work evenly with Round robin, or reward the agent who has waited
+
+93
+00:06:38,081 --> 00:06:40,201
+longest with Longest idle.
+
+94
+00:06:42,201 --> 00:06:48,898
+A call finds its agent through eligibility, skills and capacity, the strategy, then history.
+
+95
+00:06:48,898 --> 00:06:54,844
+Priority, aging and overflow decide who goes first, and the reports tell you why.
+
+96
+00:06:54,844 --> 00:06:56,621
+Thanks for watching.
+

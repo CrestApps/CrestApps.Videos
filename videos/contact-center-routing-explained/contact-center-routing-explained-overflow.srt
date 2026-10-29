@@ -1,0 +1,36 @@
+1
+00:00:03,202 --> 00:00:09,068
+On Hours and overflow, Overflow queue and Overflow after set the first hop.
+
+2
+00:00:09,068 --> 00:00:13,413
+Overflow chain adds more hops, each with its own wait.
+
+3
+00:00:13,413 --> 00:00:16,382
+The wait starts again at every hop.
+
+4
+00:00:16,837 --> 00:00:20,919
+A caller is never sent back to a queue they have already visited.
+
+5
+00:00:20,919 --> 00:00:24,713
+The chain that applies is the one on the queue the caller is
+
+6
+00:00:24,713 --> 00:00:27,875
+in now, so a path from A through B to C needs B's
+
+7
+00:00:27,875 --> 00:00:29,370
+own chain to name C.
+
+8
+00:00:29,370 --> 00:00:33,740
+On Limits, Maximum wait and its action decide what happens to a caller
+
+9
+00:00:33,740 --> 00:00:35,177
+who waits too long.
+

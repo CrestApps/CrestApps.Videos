@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:03.187 --> 00:00:06.288
+A caller's priority decides who is served first.
+
+00:00:06.288 --> 00:00:10.766
+For a call that comes through an entry point, the entry point's Priority
+
+00:00:10.766 --> 00:00:14.843
+is where it starts, and it replaces the queue's Default priority.
+
+00:00:14.843 --> 00:00:20.297
+The queue's Default priority applies to callbacks, and to lines that have no entry point.
+
+00:00:21.897 --> 00:00:23.870
+Two raises are automatic.
+
+00:00:23.870 --> 00:00:29.345
+A caller who rings again within four hours of their last call is raised to High.
+
+00:00:29.345 --> 00:00:35.265
+A customer who returns a callback you scheduled, within 24 hours, is raised to Highest.
+
+00:00:35.265 --> 00:00:37.493
+Priority is only ever raised.
+
+00:00:37.493 --> 00:00:41.567
+These raises apply to calls that go straight to the queue.
+
+00:00:41.567 --> 00:00:46.151
+A call that first plays a welcome message, a recording notice or a
+
+00:00:46.151 --> 00:00:49.397
+menu is queued at the entry point's priority.
+
+00:00:50.994 --> 00:00:53.036
+On Service levels, the S.L.A.
+
+00:00:53.036 --> 00:00:56.127
+threshold and Age waiting items past the S.L.A.
+
+00:00:56.127 --> 00:00:57.643
+threshold add aging.
+
+00:00:57.643 --> 00:01:01.726
+An item moves up one priority level once it has waited twice the
+
+00:01:01.726 --> 00:01:05.458
+threshold, then one more level for each further threshold.
+
+00:01:05.458 --> 00:01:09.424
+The wait counts from the first time the caller joined a queue.
+

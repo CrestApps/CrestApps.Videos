@@ -1,0 +1,260 @@
+{
+  "title": "Routing Explained",
+  "output": "contact-center-routing-explained",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "SLA": "S.L.A."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Routing Explained",
+      "subtitle": "How a waiting call finds an agent",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "When a caller waits in a queue, the platform decides which agent gets the call. This video explains that chain, one link at a time: who may take a call, skills, capacity, the routing strategy, sticky agents, priority and aging, declined offers, and overflow. Calls never connect on this demo site, so what happens in a live call is shown in slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "The chain",
+      "subtitle": "In four steps",
+      "clips": [
+        {
+          "id": "01-chain",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chain-1",
+              "text": "When work is waiting in a queue, the platform looks for an agent in four steps. First, who may take a call at all. An agent must be Available, entitled to the queue, signed in to it, and have a live session."
+            },
+            {
+              "id": "chain-2",
+              "text": "Second, two filters. Skills remove agents who lack a required skill. Capacity removes agents who are already full. Third, the queue's routing strategy ranks whoever is left, and the best ranked agent gets the offer."
+            },
+            {
+              "id": "chain-3",
+              "text": "Fourth, history and bonuses. A sticky agent is moved to the top. An agent who already declined or missed this call is moved back. This order is the same for every queue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The queue's routing settings",
+      "subtitle": "Strategy and offers",
+      "clips": [
+        {
+          "id": "02-queue",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "que-1",
+              "text": "Open Queues and add a queue. On Routing, Routing strategy has three choices. Longest idle offers the call to the agent who has been available longest. Round robin offers it to the agent who finished work longest ago. Least busy offers it to the agent with the fewest active interactions, which matters little when agents take one voice call at a time."
+            },
+            {
+              "id": "que-2",
+              "text": "Prefer the last assigned agent turns on the sticky bonus. It applies to work that returns to the queue with its last owner still recorded. A new inbound call has no previous agent, so a returning customer is not sent to the same person. Sticky never overrides skills, capacity or the order of declines."
+            },
+            {
+              "id": "que-3",
+              "text": "Reservation timeout is how long an offer rings. Unanswered offer action decides what happens when the agent does not answer: Requeue, Send to voicemail, or Reject call."
+            }
+          ]
+        }
+      ],
+      "short": "queue"
+    },
+    {
+      "id": "03",
+      "title": "Skills and preferences",
+      "subtitle": "Who is allowed",
+      "clips": [
+        {
+          "id": "03-skills",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sk-1",
+              "text": "The Skills card has Required skills and Skill requirements. A requirement names a Skill, a Minimum proficiency, whether it is Required, and Relax after, in seconds. A required skill removes agents who lack it. Relax after drops the requirement once the caller has waited that long, so a rare skill cannot hold a caller forever."
+            },
+            {
+              "id": "sk-2",
+              "text": "A requirement that is not required removes nobody. It ranks agents who have the skill higher. The agent's own skills, with a proficiency from one to five, are set on Agent entitlements."
+            },
+            {
+              "id": "sk-3",
+              "text": "Agent entitlements also has Queue preferences, with a Priority and a Delay in seconds. They matter when an agent becomes free and picks the next work, not when a call arrives and several agents are idle."
+            }
+          ]
+        },
+        {
+          "id": "03-capacity",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "cap-1",
+              "text": "Capacity is how many interactions an agent can hold at once. It is one by default, and no screen has a field for it: it comes from a recipe or a deployment. An agent on a voice call is never offered another call, so a higher capacity only matters for texts."
+            }
+          ]
+        }
+      ],
+      "short": "skills"
+    },
+    {
+      "id": "04",
+      "title": "Priority and aging",
+      "subtitle": "Who goes first",
+      "clips": [
+        {
+          "id": "04-priority",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pri-1",
+              "text": "A caller's priority decides who is served first. For a call that comes through an entry point, the entry point's Priority is where it starts, and it replaces the queue's Default priority. The queue's Default priority applies to callbacks, and to lines that have no entry point."
+            }
+          ]
+        },
+        {
+          "id": "04-auto",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pri-2",
+              "text": "Two raises are automatic. A caller who rings again within four hours of their last call is raised to High. A customer who returns a callback you scheduled, within 24 hours, is raised to Highest. Priority is only ever raised. These raises apply to calls that go straight to the queue. A call that first plays a welcome message, a recording notice or a menu is queued at the entry point's priority."
+            }
+          ]
+        },
+        {
+          "id": "04-aging",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pri-3",
+              "text": "On Service levels, the S.L.A. threshold and Age waiting items past the S.L.A. threshold add aging. An item moves up one priority level once it has waited twice the threshold, then one more level for each further threshold. The wait counts from the first time the caller joined a queue."
+            }
+          ]
+        }
+      ],
+      "short": "priority"
+    },
+    {
+      "id": "05",
+      "title": "Declined and missed offers",
+      "subtitle": "Who is next",
+      "clips": [
+        {
+          "id": "05-offers",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "off-1",
+              "text": "When an agent declines an offer, or lets it ring out, the call goes back to the queue. Both are recorded, and the agent returns to Available at the back of the idle line."
+            },
+            {
+              "id": "off-2",
+              "text": "The next offer goes first to an agent who has not had this call, then to agents who declined it earlier, the earliest first. If one agent is the only one free, that agent is offered the call again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Overflow",
+      "subtitle": "When the wait is too long",
+      "clips": [
+        {
+          "id": "06-overflow",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ov-1",
+              "text": "On Hours and overflow, Overflow queue and Overflow after set the first hop. Overflow chain adds more hops, each with its own wait. The wait starts again at every hop."
+            },
+            {
+              "id": "ov-2",
+              "text": "A caller is never sent back to a queue they have already visited. The chain that applies is the one on the queue the caller is in now, so a path from A through B to C needs B's own chain to name C. On Limits, Maximum wait and its action decide what happens to a caller who waits too long."
+            }
+          ]
+        }
+      ],
+      "short": "overflow"
+    },
+    {
+      "id": "07",
+      "title": "Seeing why",
+      "subtitle": "The reports",
+      "clips": [
+        {
+          "id": "07-report",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "When a call does not reach the agent you expect, open Reports, Queue and Routing, Agent availability and wait time. It lists each agent, with Why not eligible and Routing detail, in words."
+            },
+            {
+              "id": "rep-2",
+              "text": "The Dialer decision log shows the same for outbound work. Each decision lists the agents that were weighed, and why each was or was not eligible."
+            }
+          ]
+        }
+      ],
+      "short": "report"
+    },
+    {
+      "id": "08",
+      "title": "Where it helps",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Send complex calls to skilled agents, and let the requirement relax after a wait so nobody waits forever."
+            },
+            {
+              "id": "use-2",
+              "text": "Give a priority line for key customers with the entry point's priority, and let aging keep everyone else moving."
+            },
+            {
+              "id": "use-3",
+              "text": "Spread work evenly with Round robin, or reward the agent who has waited longest with Longest idle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A call finds its agent through eligibility, skills and capacity, the strategy, then history. Priority, aging and overflow decide who goes first, and the reports tell you why. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
