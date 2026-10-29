@@ -1,0 +1,48 @@
+1
+00:00:03,200 --> 00:00:07,409
+When routing picks you for a call, an offer card appears in My
+
+2
+00:00:07,409 --> 00:00:10,380
+workspace, and the docked agent bar opens.
+
+3
+00:00:10,380 --> 00:00:13,660
+It shows the caller, the queue and a countdown.
+
+4
+00:00:14,410 --> 00:00:17,011
+Click Accept before the countdown ends.
+
+5
+00:00:17,011 --> 00:00:22,790
+The card reads Answering while the call connects, then the call moves into Active interaction.
+
+6
+00:00:23,540 --> 00:00:24,961
+Or click Decline.
+
+7
+00:00:24,961 --> 00:00:29,779
+The caller goes back to the queue and is offered to another agent first.
+
+8
+00:00:29,779 --> 00:00:34,413
+If you do nothing, the offer ends with the countdown, and the queue's
+
+9
+00:00:34,413 --> 00:00:36,760
+Unanswered offer action applies.
+
+10
+00:00:37,510 --> 00:00:42,202
+If you accept but your phone cannot be reached, the caller is not lost.
+
+11
+00:00:42,202 --> 00:00:48,417
+The unanswered action applies, and your state changes to Away with the reason Phone unreachable.
+
+12
+00:00:48,417 --> 00:00:51,890
+Check the phone, then set yourself Available again.
+

@@ -1,0 +1,32 @@
+1
+00:00:03,200 --> 00:00:07,881
+A call from a queue or a campaign puts you in Wrap-up when it ends.
+
+2
+00:00:07,881 --> 00:00:10,318
+Wrap-up does not end on a timer.
+
+3
+00:00:10,318 --> 00:00:13,140
+You end it by completing the activity.
+
+4
+00:00:13,890 --> 00:00:21,059
+Click Complete activity, check the customer and activity details, pick a disposition, add notes, and save.
+
+5
+00:00:21,059 --> 00:00:25,220
+You return to Available, or the break you asked for starts.
+
+6
+00:00:25,970 --> 00:00:31,174
+If an activity is left open, wrap-up ends by itself after fifteen minutes,
+
+7
+00:00:31,174 --> 00:00:34,167
+a setting your administrator can change.
+
+8
+00:00:34,167 --> 00:00:38,070
+The activity stays open, with no disposition recorded.
+
