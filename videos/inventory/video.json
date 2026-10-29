@@ -1,0 +1,102 @@
+{
+  "title": "Inventory: Count Stock, Locations and Purchase Orders | CrestApps for Orchard Core",
+  "description": "Nothing disappoints a shopper like paying for something that is not there. The CrestApps Inventory module counts every product and variant, holds units while a buyer pays, takes them off when the order is paid, tells you when stock is low, helps you order more from suppliers with purchase orders, keeps stock in more than one location, and shows shoppers what is left.\n\nIn this video:\n• Why inventory, and how counts, locations and purchase orders fit together\n• Starting to count: the Inventory part and Find products to count\n• Changing stock: Received, Adjusted and Count, with a history\n• Exporting and importing counts as a CSV file\n• A product's stock settings: backorders, low-stock threshold and ships from\n• Settings and locations: thresholds, alerts and stock in more than one place\n• Purchase orders to suppliers and receiving the stock\n• What shoppers see: low stock and out of stock",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "inventory",
+    "stock management",
+    "purchase orders",
+    "low stock",
+    "stock locations",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why inventory"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:31",
+      "title": "Start counting"
+    },
+    {
+      "time": "2:00",
+      "title": "Change stock"
+    },
+    {
+      "time": "2:49",
+      "title": "Export and import counts"
+    },
+    {
+      "time": "3:21",
+      "title": "Stock settings of a product"
+    },
+    {
+      "time": "3:52",
+      "title": "Settings and locations"
+    },
+    {
+      "time": "4:34",
+      "title": "Purchase orders"
+    },
+    {
+      "time": "5:23",
+      "title": "What shoppers see"
+    },
+    {
+      "time": "5:39",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:11",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Inventory (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/inventory"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/inventory"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Inventory"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/inventory.md",
+    "src/CrestApps.Docs/docs/modules/inventory.md"
+  ],
+  "length": "6:22"
+}
