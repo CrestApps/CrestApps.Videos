@@ -1,0 +1,86 @@
+{
+  "title": "Omnichannel Load Activities: Turn a List of Contacts Into Work | CrestApps for Orchard Core",
+  "description": "Create activities in bulk. Describe which contacts to pick and what work to create, preview the match with Count matching records, run the load in the background, then read its report, clone it, or delete it.\n\nIn this video:\n• Why loads\n• The sources: Manual, Automatic and Dialer\n• Creating a manual load: subject, campaign, agents and filters\n• Last activity filters and Count matching records\n• Running, cloning and deleting a load\n• Skipped contacts and interrupted loads\n• What loads are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "load activities",
+    "activity batch",
+    "call list",
+    "omnichannel loads",
+    "contact center",
+    "bulk activities",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:13",
+      "title": "Why loads"
+    },
+    {
+      "time": "0:40",
+      "title": "The sources"
+    },
+    {
+      "time": "1:14",
+      "title": "Create a manual load"
+    },
+    {
+      "time": "2:30",
+      "title": "Run, clone and delete"
+    },
+    {
+      "time": "3:24",
+      "title": "Skipped contacts and interrupted loads"
+    },
+    {
+      "time": "4:07",
+      "title": "What to use it for"
+    },
+    {
+      "time": "4:32",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/load-inventory"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/load-inventory.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "4:49"
+}

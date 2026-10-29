@@ -1,0 +1,202 @@
+{
+  "title": "Omnichannel Load Activities",
+  "output": "omnichannel-load-activities",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Load Activities",
+      "subtitle": "Turn a list of contacts into work",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows how to load activities: how a filtered list of contacts becomes work for your agents, how to preview a load before you run it, and what the load reports afterward."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why loads",
+      "subtitle": "Create work in bulk, safely",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Making one activity at a time does not scale. A load describes which contacts to pick and what work to create, and creates all the activities at once."
+            },
+            {
+              "id": "why-2",
+              "text": "You can count the matches before you run it, so you never call the wrong people by accident."
+            },
+            {
+              "id": "why-3",
+              "text": "A load runs in the background, reports who it skipped and why, and can be cloned to run again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The sources",
+      "subtitle": "Manual, Automatic and Dialer",
+      "clips": [
+        {
+          "id": "02-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Interaction Center, Management, Load Activities. The list shows the newest loads first, with their status and what they created. Click Add to start a new load."
+            },
+            {
+              "id": "list-2",
+              "text": "Choose the source. Manual creates activities for agents you pick, to work from the Activities list. Automatic creates unassigned activities that an AI profile works on its own, and appears with the AI features. A Dialer source appears when the outbound dialer is on."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "03",
+      "title": "Create a manual load",
+      "subtitle": "Subject, campaign, agents and filters",
+      "clips": [
+        {
+          "id": "03-form",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "form-1",
+              "text": "Give the load a title and pick the subject, which decides the flow of every activity. Then pick the campaign and the channel, Phone or SMS."
+            },
+            {
+              "id": "form-2",
+              "text": "Pick the agents. The activities are shared between them in turn. Set the urgency and instructions the agent reads first. Prevent duplicate activity with the same subject skips a contact who already has an open activity for this subject."
+            },
+            {
+              "id": "form-3",
+              "text": "Under Record filters, pick the record type, then narrow it by dates, time zones, a phone number filter, or a limit. Count matching records shows how many records match and how many would be loaded, with the reasons for the rest, and creates nothing."
+            },
+            {
+              "id": "form-4",
+              "text": "The last activity filters pick records by their last completed activity: its subject, its disposition, and its attempt, like 2+ for the second attempt or later. This is how you retry everyone who did not answer. Here no activity is finished yet, so nothing matches."
+            },
+            {
+              "id": "form-5",
+              "text": "Click Save. A saved load does nothing yet. It appears in the list as New."
+            }
+          ]
+        }
+      ],
+      "short": "form"
+    },
+    {
+      "id": "04",
+      "title": "Run, clone and delete",
+      "subtitle": "What the load reports",
+      "clips": [
+        {
+          "id": "04-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "Open the row's Actions menu and choose Load activities, then confirm. You can also click Save and Load activities on the form. The status moves from Started to Loading to Loaded, and the row says how many records matched, how many were loaded, and why any were skipped."
+            },
+            {
+              "id": "run-2",
+              "text": "Clone makes a copy with every setting, to run again or adjust. Count matching records on the copy shows the reasons: every contact already has an open activity, so none would be loaded again."
+            },
+            {
+              "id": "run-3",
+              "text": "Delete removes a finished load and its report, and needs its own permission. The activities it created stay, with their assignments and schedules. To withdraw them, use Manage Activities."
+            }
+          ]
+        }
+      ],
+      "short": "run"
+    },
+    {
+      "id": "05",
+      "title": "Skipped contacts and interrupted loads",
+      "subtitle": "Reasons and recovery",
+      "clips": [
+        {
+          "id": "05-report",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "report-1",
+              "text": "A load reports every matching record it did not load against one reason: an open activity for this subject, an opt out of the channel, a shared number that opted out, no address, numbers not in service, or the limit."
+            },
+            {
+              "id": "report-2",
+              "text": "If the server restarts during a load, it resumes by itself within about ten minutes after the last records it saved, and nobody is loaded twice. A load that keeps stopping is resumed three times, then stopped with a message."
+            },
+            {
+              "id": "report-3",
+              "text": "If a load fails, it goes back to New and says why, for example a dialer profile that was removed. Fix the cause and load it again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Start a campaign: load every customer in the right time zones for a call day."
+            },
+            {
+              "id": "use-2",
+              "text": "Retry everyone who did not answer, with the last activity filters."
+            },
+            {
+              "id": "use-3",
+              "text": "Share a call list fairly between several agents."
+            },
+            {
+              "id": "use-4",
+              "text": "Preview a list with Count matching records before anyone makes a call."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Describe the contacts, check the count, load, and read the report, so every call list is built on purpose and nobody is called by accident. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

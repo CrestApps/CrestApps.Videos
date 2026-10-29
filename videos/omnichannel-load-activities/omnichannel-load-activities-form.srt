@@ -1,0 +1,72 @@
+1
+00:00:03,199 --> 00:00:09,314
+Give the load a title and pick the subject, which decides the flow of every activity.
+
+2
+00:00:09,314 --> 00:00:13,279
+Then pick the campaign and the channel, Phone or SMS.
+
+3
+00:00:16,817 --> 00:00:18,101
+Pick the agents.
+
+4
+00:00:18,101 --> 00:00:21,194
+The activities are shared between them in turn.
+
+5
+00:00:21,194 --> 00:00:24,754
+Set the urgency and instructions the agent reads first.
+
+6
+00:00:24,754 --> 00:00:29,773
+Prevent duplicate activity with the same subject skips a contact who already has
+
+7
+00:00:29,773 --> 00:00:32,107
+an open activity for this subject.
+
+8
+00:00:32,557 --> 00:00:37,458
+Under Record filters, pick the record type, then narrow it by dates, time
+
+9
+00:00:37,458 --> 00:00:40,374
+zones, a phone number filter, or a limit.
+
+10
+00:00:40,374 --> 00:00:45,275
+Count matching records shows how many records match and how many would be
+
+11
+00:00:45,275 --> 00:00:49,307
+loaded, with the reasons for the rest, and creates nothing.
+
+12
+00:00:49,770 --> 00:00:54,922
+The last activity filters pick records by their last completed activity:
+
+13
+00:00:54,922 --> 00:01:01,064
+its subject, its disposition, and its attempt, like 2+ for the second attempt or later.
+
+14
+00:01:01,064 --> 00:01:04,763
+This is how you retry everyone who did not answer.
+
+15
+00:01:04,763 --> 00:01:08,660
+Here no activity is finished yet, so nothing matches.
+
+16
+00:01:09,111 --> 00:01:10,266
+Click Save.
+
+17
+00:01:10,266 --> 00:01:12,714
+A saved load does nothing yet.
+
+18
+00:01:12,714 --> 00:01:15,161
+It appears in the list as New.
+
