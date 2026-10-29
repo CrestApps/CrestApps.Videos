@@ -1,0 +1,8 @@
+1
+00:00:03,173 --> 00:00:09,796
+With the completion policy on create and publish, each step's answers are now content items.
+
+2
+00:00:09,796 --> 00:00:16,013
+Open Content, Content Items, and find the Visitor Details and Visit Preferences items.
+

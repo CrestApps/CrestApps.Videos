@@ -1,0 +1,28 @@
+1
+00:00:03,192 --> 00:00:06,051
+A link on your site sends visitors to the wizard.
+
+2
+00:00:06,051 --> 00:00:09,378
+It opens on the first step, with a progress bar at the top
+
+3
+00:00:09,378 --> 00:00:11,042
+that shows where they are.
+
+4
+00:00:11,494 --> 00:00:14,897
+The visitor fills in the first step and clicks Next.
+
+5
+00:00:14,897 --> 00:00:18,594
+The progress bar marks it done, and the answers are kept.
+
+6
+00:00:19,044 --> 00:00:25,334
+On the second step, Previous goes back without losing anything, and Finish completes the wizard.
+
+7
+00:00:25,784 --> 00:00:28,904
+A confirmation page tells the visitor it is done.
+
