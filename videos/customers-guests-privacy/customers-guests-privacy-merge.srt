@@ -1,0 +1,44 @@
+1
+00:00:03,187 --> 00:00:05,146
+Open Commerce, Customers.
+
+2
+00:00:05,146 --> 00:00:08,938
+Each guest checkout is its own customer, marked Guest.
+
+3
+00:00:08,938 --> 00:00:12,477
+A guest who later made an account shows as Merged.
+
+4
+00:00:12,930 --> 00:00:14,650
+Open the merged guest.
+
+5
+00:00:14,650 --> 00:00:19,256
+It says the guest's orders and addresses moved to the account, and on
+
+6
+00:00:19,256 --> 00:00:22,696
+which day, when that account's email was verified.
+
+7
+00:00:22,696 --> 00:00:25,460
+A merged guest can no longer be edited.
+
+8
+00:00:25,913 --> 00:00:31,193
+On the account's customer, Orders lists the guest's order, and Merged guest checkouts
+
+9
+00:00:31,193 --> 00:00:33,398
+lists the guests that joined it.
+
+10
+00:00:33,398 --> 00:00:38,620
+The Privacy section on each customer, which the Customers and Companies video shows,
+
+11
+00:00:38,620 --> 00:00:41,173
+has the buttons for a privacy request.
+

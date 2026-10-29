@@ -1,0 +1,272 @@
+1
+00:00:01,000 --> 00:00:03,804
+Not everyone who buys from you has an account.
+
+2
+00:00:03,804 --> 00:00:07,848
+This video shows how the store keeps guests, how their orders move to
+
+3
+00:00:07,848 --> 00:00:11,785
+an account when they sign up, how long their personal data is kept,
+
+4
+00:00:11,785 --> 00:00:16,530
+how to ask your own questions at checkout, and how staff manage their own profile.
+
+5
+00:00:21,130 --> 00:00:26,240
+Every sale makes a customer record, even when the buyer never signs up.
+
+6
+00:00:26,990 --> 00:00:30,607
+A guest who signs up later should find their old orders in their
+
+7
+00:00:30,607 --> 00:00:34,430
+account, but nobody should be able to claim another person's orders.
+
+8
+00:00:35,180 --> 00:00:38,191
+Personal data should not be kept for ever:
+
+9
+00:00:38,191 --> 00:00:43,020
+guests' details should expire, and anyone can ask what you hold, or ask
+
+10
+00:00:43,020 --> 00:00:44,400
+you to erase it.
+
+11
+00:00:45,150 --> 00:00:50,330
+And some stores need to ask their own questions at checkout, such as a gift message.
+
+12
+00:00:54,530 --> 00:00:57,776
+Each guest checkout makes its own guest customer.
+
+13
+00:00:57,776 --> 00:01:01,730
+An email typed at checkout never joins someone else's record.
+
+14
+00:01:02,480 --> 00:01:06,703
+When a guest creates an account with the same email, and the email
+
+15
+00:01:06,703 --> 00:01:12,510
+is confirmed, their orders and addresses move to the account, and the guest is marked Merged.
+
+16
+00:01:13,260 --> 00:01:17,655
+Two settings keep guests' data only as long as you choose, and a
+
+17
+00:01:17,655 --> 00:01:19,790
+task applies them every day.
+
+18
+00:01:20,540 --> 00:01:25,066
+Checkout details adds your own fields to the Contact step, and staff have
+
+19
+00:01:25,066 --> 00:01:26,900
+their own My Account page.
+
+20
+00:01:31,087 --> 00:01:33,046
+Open Commerce, Customers.
+
+21
+00:01:33,046 --> 00:01:36,838
+Each guest checkout is its own customer, marked Guest.
+
+22
+00:01:36,838 --> 00:01:40,377
+A guest who later made an account shows as Merged.
+
+23
+00:01:40,830 --> 00:01:42,550
+Open the merged guest.
+
+24
+00:01:42,550 --> 00:01:47,156
+It says the guest's orders and addresses moved to the account, and on
+
+25
+00:01:47,156 --> 00:01:50,596
+which day, when that account's email was verified.
+
+26
+00:01:50,596 --> 00:01:53,360
+A merged guest can no longer be edited.
+
+27
+00:01:53,813 --> 00:01:59,093
+On the account's customer, Orders lists the guest's order, and Merged guest checkouts
+
+28
+00:01:59,093 --> 00:02:01,298
+lists the guests that joined it.
+
+29
+00:02:01,298 --> 00:02:06,520
+The Privacy section on each customer, which the Customers and Companies video shows,
+
+30
+00:02:06,520 --> 00:02:09,073
+has the buttons for a privacy request.
+
+31
+00:02:13,275 --> 00:02:15,886
+Open Settings, Commerce, Customers.
+
+32
+00:02:15,886 --> 00:02:20,597
+Erase inactive guests after sets how many months a guest who has not
+
+33
+00:02:20,597 --> 00:02:22,444
+bought or paid is kept.
+
+34
+00:02:22,444 --> 00:02:26,328
+After that, the store erases the guest's personal data.
+
+35
+00:02:26,328 --> 00:02:28,875
+The default is twenty-four months.
+
+36
+00:02:29,329 --> 00:02:34,166
+Anonymize guest orders after sets how long a paid or canceled guest order
+
+37
+00:02:34,166 --> 00:02:38,024
+keeps the buyer's name, email, phone and billing address.
+
+38
+00:02:38,024 --> 00:02:43,106
+After twelve months, by default, they are removed, but the country and region
+
+39
+00:02:43,106 --> 00:02:45,066
+stay for your tax records.
+
+40
+00:02:45,066 --> 00:02:47,148
+Enter zero to keep the data.
+
+41
+00:02:47,148 --> 00:02:51,189
+Customers with an account are kept while the account exists.
+
+42
+00:02:51,642 --> 00:02:58,002
+On the same page, Billing address at checkout chooses whether buyers must give a billing address.
+
+43
+00:03:02,174 --> 00:03:07,307
+Some stores need their own questions at checkout, such as a gift message.
+
+44
+00:03:07,307 --> 00:03:13,350
+With the Checkout details feature on, open Design, Content Types, and Checkout details.
+
+45
+00:03:13,350 --> 00:03:15,365
+It starts with no fields.
+
+46
+00:03:15,365 --> 00:03:16,794
+Click Add Field.
+
+47
+00:03:17,247 --> 00:03:22,217
+Give the field a name, such as Gift message, choose Text Field, and save.
+
+48
+00:03:22,670 --> 00:03:26,575
+Click Save and Configure, and the field's options open.
+
+49
+00:03:26,575 --> 00:03:29,520
+Tick Required if buyers must fill it in.
+
+50
+00:03:29,520 --> 00:03:33,745
+You can add a placeholder, a default value and a length too.
+
+51
+00:03:33,745 --> 00:03:34,770
+Then save.
+
+52
+00:03:38,953 --> 00:03:43,318
+On the Contact step of checkout, the buyer now sees the Gift message
+
+53
+00:03:43,318 --> 00:03:45,913
+field, with the other contact details.
+
+54
+00:03:46,368 --> 00:03:50,168
+Because it is required, the buyer cannot continue without it.
+
+55
+00:03:50,168 --> 00:03:52,833
+The buyer types the message, and goes on.
+
+56
+00:03:52,833 --> 00:03:56,348
+What they typed is kept with the order and the checkout.
+
+57
+00:04:00,550 --> 00:04:04,773
+Staff have their own page too, under Commerce, My Account, where they edit
+
+58
+00:04:04,773 --> 00:04:06,620
+how the store addresses them.
+
+59
+00:04:10,820 --> 00:04:12,661
+A store with many guests:
+
+60
+00:04:12,661 --> 00:04:17,590
+keep their data for a limited time, and erase it when it is no longer needed.
+
+61
+00:04:18,340 --> 00:04:20,043
+A shop that sells gifts:
+
+62
+00:04:20,043 --> 00:04:23,960
+ask for a gift message at checkout, and keep it with the order.
+
+63
+00:04:24,710 --> 00:04:26,298
+A store for regulars:
+
+64
+00:04:26,298 --> 00:04:30,060
+guests who sign up find their old orders in their account.
+
+65
+00:04:30,810 --> 00:04:32,436
+A privacy request:
+
+66
+00:04:32,436 --> 00:04:37,720
+find the customer, download what you hold, or erase their personal data.
+
+67
+00:04:39,720 --> 00:04:47,356
+Guests, merged accounts, retention and your own checkout fields keep your customer records useful, and respectful.
+
+68
+00:04:47,356 --> 00:04:49,010
+Thanks for watching.
+

@@ -1,0 +1,36 @@
+1
+00:00:03,172 --> 00:00:08,306
+Some stores need their own questions at checkout, such as a gift message.
+
+2
+00:00:08,306 --> 00:00:14,349
+With the Checkout details feature on, open Design, Content Types, and Checkout details.
+
+3
+00:00:14,349 --> 00:00:16,363
+It starts with no fields.
+
+4
+00:00:16,363 --> 00:00:17,792
+Click Add Field.
+
+5
+00:00:18,245 --> 00:00:23,215
+Give the field a name, such as Gift message, choose Text Field, and save.
+
+6
+00:00:23,668 --> 00:00:27,573
+Click Save and Configure, and the field's options open.
+
+7
+00:00:27,573 --> 00:00:30,518
+Tick Required if buyers must fill it in.
+
+8
+00:00:30,518 --> 00:00:34,744
+You can add a placeholder, a default value and a length too.
+
+9
+00:00:34,744 --> 00:00:35,768
+Then save.
+

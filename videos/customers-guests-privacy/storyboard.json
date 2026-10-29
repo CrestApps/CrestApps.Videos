@@ -1,0 +1,246 @@
+{
+  "title": "Customers, guests and privacy",
+  "output": "customers-guests-privacy",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Customers, guests and privacy",
+      "subtitle": "Guests, merged accounts, retention and your own checkout questions",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Not everyone who buys from you has an account. This video shows how the store keeps guests, how their orders move to an account when they sign up, how long their personal data is kept, how to ask your own questions at checkout, and how staff manage their own profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why this matters",
+      "subtitle": "A record for every buyer, and respect for their data",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every sale makes a customer record, even when the buyer never signs up."
+            },
+            {
+              "id": "why-2",
+              "text": "A guest who signs up later should find their old orders in their account, but nobody should be able to claim another person's orders."
+            },
+            {
+              "id": "why-3",
+              "text": "Personal data should not be kept for ever: guests' details should expire, and anyone can ask what you hold, or ask you to erase it."
+            },
+            {
+              "id": "why-4",
+              "text": "And some stores need to ask their own questions at checkout, such as a gift message."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Guests, accounts and settings",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Each guest checkout makes its own guest customer. An email typed at checkout never joins someone else's record."
+            },
+            {
+              "id": "how-2",
+              "text": "When a guest creates an account with the same email, and the email is confirmed, their orders and addresses move to the account, and the guest is marked Merged."
+            },
+            {
+              "id": "how-3",
+              "text": "Two settings keep guests' data only as long as you choose, and a task applies them every day."
+            },
+            {
+              "id": "how-4",
+              "text": "Checkout details adds your own fields to the Contact step, and staff have their own My Account page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Guests and merged accounts",
+      "subtitle": "Where a guest's orders go",
+      "clips": [
+        {
+          "id": "03-merge",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "merge-1",
+              "text": "Open Commerce, Customers. Each guest checkout is its own customer, marked Guest. A guest who later made an account shows as Merged."
+            },
+            {
+              "id": "merge-2",
+              "text": "Open the merged guest. It says the guest's orders and addresses moved to the account, and on which day, when that account's email was verified. A merged guest can no longer be edited."
+            },
+            {
+              "id": "merge-3",
+              "text": "On the account's customer, Orders lists the guest's order, and Merged guest checkouts lists the guests that joined it. The Privacy section on each customer, which the Customers and Companies video shows, has the buttons for a privacy request."
+            }
+          ]
+        }
+      ],
+      "short": "merge"
+    },
+    {
+      "id": "04",
+      "title": "How long guest data is kept",
+      "subtitle": "Retention",
+      "clips": [
+        {
+          "id": "04-retention",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "keep-1",
+              "text": "Open Settings, Commerce, Customers. Erase inactive guests after sets how many months a guest who has not bought or paid is kept. After that, the store erases the guest's personal data. The default is twenty-four months."
+            },
+            {
+              "id": "keep-2",
+              "text": "Anonymize guest orders after sets how long a paid or canceled guest order keeps the buyer's name, email, phone and billing address. After twelve months, by default, they are removed, but the country and region stay for your tax records. Enter zero to keep the data. Customers with an account are kept while the account exists."
+            },
+            {
+              "id": "keep-3",
+              "text": "On the same page, Billing address at checkout chooses whether buyers must give a billing address."
+            }
+          ]
+        }
+      ],
+      "short": "retention"
+    },
+    {
+      "id": "05",
+      "title": "Your own checkout questions",
+      "subtitle": "Checkout details",
+      "clips": [
+        {
+          "id": "05-details",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "details-1",
+              "text": "Some stores need their own questions at checkout, such as a gift message. With the Checkout details feature on, open Design, Content Types, and Checkout details. It starts with no fields. Click Add Field."
+            },
+            {
+              "id": "details-2",
+              "text": "Give the field a name, such as Gift message, choose Text Field, and save."
+            },
+            {
+              "id": "details-3",
+              "text": "Click Save and Configure, and the field's options open. Tick Required if buyers must fill it in. You can add a placeholder, a default value and a length too. Then save."
+            }
+          ]
+        }
+      ],
+      "short": "details"
+    },
+    {
+      "id": "06",
+      "title": "What the buyer sees",
+      "subtitle": "The field on the Contact step",
+      "clips": [
+        {
+          "id": "06-field",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "field-1",
+              "text": "On the Contact step of checkout, the buyer now sees the Gift message field, with the other contact details."
+            },
+            {
+              "id": "field-2",
+              "text": "Because it is required, the buyer cannot continue without it. The buyer types the message, and goes on. What they typed is kept with the order and the checkout."
+            }
+          ]
+        }
+      ],
+      "short": "field"
+    },
+    {
+      "id": "07",
+      "title": "Staff and My Account",
+      "subtitle": "Your own profile",
+      "clips": [
+        {
+          "id": "07-staff",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "staff-1",
+              "text": "Staff have their own page too, under Commerce, My Account, where they edit how the store addresses them."
+            }
+          ]
+        }
+      ],
+      "short": "staff"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A store with many guests: keep their data for a limited time, and erase it when it is no longer needed."
+            },
+            {
+              "id": "use-2",
+              "text": "A shop that sells gifts: ask for a gift message at checkout, and keep it with the order."
+            },
+            {
+              "id": "use-3",
+              "text": "A store for regulars: guests who sign up find their old orders in their account."
+            },
+            {
+              "id": "use-4",
+              "text": "A privacy request: find the customer, download what you hold, or erase their personal data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Guests, merged accounts, retention and your own checkout fields keep your customer records useful, and respectful. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
