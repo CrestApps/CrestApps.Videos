@@ -1,0 +1,109 @@
+{
+  "title": "Products: Prices, Sales and Shop Pages for Your Store | CrestApps for Orchard Core",
+  "description": "A store starts with what it sells. When prices, pictures and rules live in spreadsheets and scattered pages, they drift out of date, and not everything you show is meant for a cart. The CrestApps Products module keeps the price with the content: a product is a page of your site with a price, a SKU, sale rules and pictures, and the shop page, the cart and the orders all read the same price.\n\nIn this video:\n• Why a product's price lives with its content\n• How products, product listings and currencies fit together\n• Adding a currency and a product, with a price, compare-at price, SKU and pictures\n• Sale prices, quantity limits, volume and role discounts, and add-ons\n• Product types, sales modes and price display\n• Product listing pages with filters, sorting, paging and layout\n• Comparison, upsells, cross-sells, grouped products and bundles\n• Product feeds and product search indexes",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "products",
+    "ecommerce",
+    "online store",
+    "product catalog",
+    "sale price",
+    "product listing",
+    "product feed",
+    "Google Merchant Center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why products"
+    },
+    {
+      "time": "1:01",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:48",
+      "title": "Currencies"
+    },
+    {
+      "time": "2:20",
+      "title": "Add a product"
+    },
+    {
+      "time": "3:25",
+      "title": "Sales, quantities and add-ons"
+    },
+    {
+      "time": "4:34",
+      "title": "Product types and sales modes"
+    },
+    {
+      "time": "5:31",
+      "title": "Product listings"
+    },
+    {
+      "time": "6:27",
+      "title": "Compare, recommend and bundle"
+    },
+    {
+      "time": "7:15",
+      "title": "Product feeds and search"
+    },
+    {
+      "time": "7:56",
+      "title": "Use cases"
+    },
+    {
+      "time": "8:36",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/products-and-currencies"
+    },
+    {
+      "label": "Product listings",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/product-listings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/products"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Products"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/products-and-currencies.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/product-listings.md",
+    "src/CrestApps.Docs/docs/modules/products.md"
+  ],
+  "length": "8:47"
+}

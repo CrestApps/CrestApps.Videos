@@ -1,0 +1,354 @@
+{
+  "title": "Products",
+  "output": "products",
+  "spoken": {
+    "SKU": "S.K.U.",
+    "SKUs": "S.K.U.s"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Products",
+      "subtitle": "What you sell, with its price",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Products are what your store sells. This video shows why a product's price lives with its content, how products, currencies and listing pages fit together, and how to use every product screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why products",
+      "subtitle": "One place for what you sell",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every store starts with the same question: what do we sell, and for how much? Prices, pictures and descriptions kept in spreadsheets and scattered pages go out of date quickly."
+            },
+            {
+              "id": "why-2",
+              "text": "Goods, services and digital items each need a price. Some things you only list, such as homes or cars, and they need a price or an inquiry button, but no cart."
+            },
+            {
+              "id": "why-3",
+              "text": "The Products module keeps the price with the content. A product is an ordinary page of your site, with a price, pictures, and rules for how it sells."
+            },
+            {
+              "id": "why-4",
+              "text": "Shoppers get a shop page with filters and sorting, and the cart, the checkout and the orders all read the same price."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Products, listings and currencies",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A product is a content item whose type has the Product part. The part holds the price, the currency, a compare-at price, a sale price and a SKU."
+            },
+            {
+              "id": "how-2",
+              "text": "Commerce, Products lists every product. Commerce, Product Listings holds the pages that show products to shoppers, with filters and sorting."
+            },
+            {
+              "id": "how-3",
+              "text": "Commerce, Currencies holds the currencies you sell in. Extra features add variants, bundles, grouped products, comparison, recommendations, product feeds and search indexes."
+            },
+            {
+              "id": "how-4",
+              "text": "Which products can be bought online, and how a price is shown, is decided on the content type. A single product can override it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Currencies",
+      "subtitle": "The currencies you sell in",
+      "clips": [
+        {
+          "id": "03-currencies",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cur-1",
+              "text": "Open Commerce, Currencies. These are the currencies every product price can use, so add only the ones you sell in."
+            },
+            {
+              "id": "cur-2",
+              "text": "Click Add Currency. Enter the Currency code, which is three letters such as CAD, and a Display name such as Canadian Dollar."
+            },
+            {
+              "id": "cur-3",
+              "text": "Click Save. The new currency is listed with Edit and Delete. Its code cannot change, but you can rename it, and every product editor now offers it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Add a product",
+      "subtitle": "Title, price, SKU and pictures",
+      "clips": [
+        {
+          "id": "04-product",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prod-1",
+              "text": "Open Commerce, Products. Every product is listed here with its status. Use Search to find one, and Edit to change it."
+            },
+            {
+              "id": "prod-2",
+              "text": "Click New Product. The Content tab holds everything about the product. Enter a Title. Leave the Permalink empty, and it is made from the title when you save."
+            },
+            {
+              "id": "prod-3",
+              "text": "Enter the Price and choose its currency. Leave Use the default currency to use the one set on the content type."
+            },
+            {
+              "id": "prod-4",
+              "text": "Compare-at price is the old price: when it is higher, the shop shows it struck through with the saving. Enter a SKU, and tick Featured to show the product first."
+            },
+            {
+              "id": "prod-5",
+              "text": "Under Images, click Add media, open the products folder in the media library, tick a picture and click OK. Then write the Description, and enter the Weight, which weight-based shipping rates use."
+            },
+            {
+              "id": "prod-6",
+              "text": "Click Publish. The product is on sale as soon as it is published, and it appears in the list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Sales, quantities and add-ons",
+      "subtitle": "How one product sells",
+      "clips": [
+        {
+          "id": "05-pricing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rule-1",
+              "text": "Open a product to set how it sells. A Sale price makes the product sell at that price, with the regular price struck through. Sale runs sets the dates."
+            },
+            {
+              "id": "rule-2",
+              "text": "Quantities and volume pricing limits how many a buyer can add: At least, At most, and In packs of. Volume discounts give a percentage off each from a quantity."
+            },
+            {
+              "id": "rule-3",
+              "text": "Role discounts give signed-in roles, such as wholesale buyers, a percentage off. A buyer gets the best of their role and volume discounts, not both."
+            },
+            {
+              "id": "rule-4",
+              "text": "Under Personalization, Add-ons are the extras a buyer chooses on the product page, such as gift wrap or an engraving, each with a Label, an Extra price, and what it is Charged on."
+            },
+            {
+              "id": "rule-5",
+              "text": "Sold elsewhere is for a product you only promote. Enter its address, and its card links there instead of showing Add to cart."
+            },
+            {
+              "id": "rule-6",
+              "text": "Click Publish, then open the product on the shop. The page shows the sale price and the volume discount, and the gift wrap add-on is offered, and the cart works the final price out for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Product types and sales modes",
+      "subtitle": "Set once on the content type",
+      "clips": [
+        {
+          "id": "06-type",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "type-1",
+              "text": "How products sell is set once on the content type. Open Content, Content Definition, Content Types, and edit Product."
+            },
+            {
+              "id": "type-2",
+              "text": "Click Edit next to the Product part. Product Type says whether it is a Good, a Service or Digital. Default currency is used by products that do not choose one."
+            },
+            {
+              "id": "type-3",
+              "text": "Sales mode decides whether products are Purchasable, Listing only, or chosen Per item. A listing only product is shown and filtered, but never added to a cart."
+            },
+            {
+              "id": "type-4",
+              "text": "Price display shows the price, shows a label such as Call for price, or hides it. An Inquiry button and an Inquiry link send interested visitors somewhere else."
+            },
+            {
+              "id": "type-5",
+              "text": "Add Parts offers Product prices, for several ways to buy one product, such as monthly and yearly, and Product variants, for sizes and colors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Product listings",
+      "subtitle": "The shop page shoppers see",
+      "clips": [
+        {
+          "id": "07-listing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Commerce, Product Listings. The Shop page is a listing: an ordinary page that shows products. Edit it to change what shoppers can do."
+            },
+            {
+              "id": "list-2",
+              "text": "Products chooses every product type, or only some. Under Filters, Choose filters lets you pick the filters, and drag them into order."
+            },
+            {
+              "id": "list-3",
+              "text": "Sorting sets the sorts shoppers can choose, and the Default sort. Paging offers numbered pages, a Load more button, or Infinite scroll."
+            },
+            {
+              "id": "list-4",
+              "text": "Layout sets a grid or a list, the Image shape and the page sizes. Keyword search adds a search box, and a Search index can replace the database search."
+            },
+            {
+              "id": "list-5",
+              "text": "On the shop, shoppers filter by Featured or Price, sort, and switch between the grid and the list. Every combination has its own web address."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Compare, recommend and bundle",
+      "subtitle": "Helping shoppers choose",
+      "clips": [
+        {
+          "id": "08-extras",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ext-1",
+              "text": "Product Comparison adds a Compare tick box to every card. Shoppers tick up to four products, such as these three, and a bar at the bottom of the page counts the products they picked."
+            },
+            {
+              "id": "ext-1b",
+              "text": "Compare opens a page that sets the products side by side: their prices, their stock, and a row for each specification."
+            },
+            {
+              "id": "ext-2",
+              "text": "Open a product to see the other features. Products in this group puts several products on one page, such as the pieces of a set."
+            },
+            {
+              "id": "ext-3",
+              "text": "Upsells are better or bigger choices shown as You may also like, and Cross-sells go with the product and appear in the cart."
+            },
+            {
+              "id": "ext-4",
+              "text": "Under Bundle, Made of lists the products in a kit, sold at the bundle's own price, with stock worked out from its parts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Product feeds and search",
+      "subtitle": "Reach other channels, search a large catalog",
+      "clips": [
+        {
+          "id": "09-feeds",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feed-1",
+              "text": "Open Settings, Commerce, Product feeds. It publishes your catalog to Google Merchant Center, Meta and TikTok, and as a spreadsheet, and it lists the feed addresses."
+            },
+            {
+              "id": "feed-2",
+              "text": "The page says how many products the feed holds, and warns about any it would refuse, such as a product without a photo. You can set a Brand, a Condition, and a Feed key to keep the feed private."
+            },
+            {
+              "id": "feed-3",
+              "text": "For a large catalog, turn on Product Search with Lucene, Elasticsearch or Azure AI Search under Configuration, Features. Listings then rank keyword matches with that index."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Four ways to use products",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop: goods with pictures, SKUs and sale prices, shown on a listing with filters and sorting, and bought through the cart."
+            },
+            {
+              "id": "use-2",
+              "text": "Listings without a cart: homes or cars set to Listing only, with a hidden price or Call for price, and an inquiry button."
+            },
+            {
+              "id": "use-3",
+              "text": "Wholesale: a minimum quantity, packs, volume discounts, and a role discount for your trade customers."
+            },
+            {
+              "id": "use-4",
+              "text": "Gifts and kits: add-ons for engraving or wrapping, bundles for starter kits, and upsells and cross-sells to raise the order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Keep the price with the content, choose how each product sells, and let the shop page do the rest. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
