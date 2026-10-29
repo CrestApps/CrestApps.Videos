@@ -1,0 +1,215 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:06.046
+A market adds a currency and an exchange rate for the shoppers of certain countries.
+
+00:00:06.046 --> 00:00:10.251
+This video shows why markets exist, how they fit together, and how to
+
+00:00:10.251 --> 00:00:14.680
+use every screen, from adding a market to the checkout with tax included.
+
+00:00:19.280 --> 00:00:24.472
+A shopper abroad who sees prices in a currency they do not use will often leave.
+
+00:00:24.472 --> 00:00:27.490
+They cannot tell what they would really pay.
+
+00:00:28.240 --> 00:00:34.580
+Pricing every product again for every country is a job that never ends, and rates move.
+
+00:00:35.330 --> 00:00:39.328
+A market adds a currency and an exchange rate for the shoppers of
+
+00:00:39.328 --> 00:00:42.650
+certain countries, and converts your prices for them.
+
+00:00:43.400 --> 00:00:47.716
+The shop, the cart, the checkout and the order all use the market's
+
+00:00:47.716 --> 00:00:51.440
+currency, and prices can include the tax shoppers expect.
+
+00:00:55.640 --> 00:00:58.486
+Your store has one currency of its own.
+
+00:00:58.486 --> 00:01:03.610
+A market adds another, with an exchange rate, for the countries you choose.
+
+00:01:04.360 --> 00:01:08.264
+A price you enter in the market's currency is used as it is.
+
+00:01:08.264 --> 00:01:11.990
+Any other price is converted at the rate, and rounded up.
+
+00:01:12.740 --> 00:01:18.600
+A market picker in the storefront lets shoppers choose their market, and the storefront remembers it.
+
+00:01:19.350 --> 00:01:23.571
+A product can be left out of a market, shipping can have prices
+
+00:01:23.571 --> 00:01:28.160
+in the market's currency, and a market can include tax in its prices.
+
+00:01:32.460 --> 00:01:35.624
+Open Commerce, Markets, and click Add market.
+
+00:01:35.624 --> 00:01:40.090
+Every shopper sees your store's own prices until you add a market.
+
+00:01:40.672 --> 00:01:45.931
+Enter a Name, such as Europe, which shoppers see in the market picker.
+
+00:01:45.931 --> 00:01:51.466
+Countries are two letter codes separated by commas, such as DE, FR and IT.
+
+00:01:51.466 --> 00:01:54.372
+A country can be in one market only.
+
+00:01:54.825 --> 00:01:58.422
+Enter the Currency, such as EUR, and the Exchange rate:
+
+00:01:58.422 --> 00:02:02.845
+how much of that currency one unit of your store's currency is worth.
+
+00:02:02.845 --> 00:02:05.145
+Your prices are multiplied by it.
+
+00:02:05.602 --> 00:02:11.020
+Price rounding rounds a converted price up, to the cent, to a whole
+
+00:02:11.020 --> 00:02:13.321
+amount, or to .99 or .95.
+
+00:02:13.321 --> 00:02:19.481
+Prices include tax takes the tax out of the prices, and On offers the market.
+
+00:02:19.481 --> 00:02:20.742
+Click Save.
+
+00:02:24.967 --> 00:02:29.145
+When a market is on, the storefront's top bar shows a market picker.
+
+00:02:29.145 --> 00:02:33.663
+Click it, and Shop in lists your markets, and Everywhere else, which shows
+
+00:02:33.663 --> 00:02:35.357
+your store's own prices.
+
+00:02:35.808 --> 00:02:37.036
+Choose Europe.
+
+00:02:37.036 --> 00:02:39.248
+Every price switches to euros:
+
+00:02:39.248 --> 00:02:42.688
+converted at the rate, and rounded up by the rule.
+
+00:02:42.688 --> 00:02:45.268
+The storefront remembers the choice.
+
+00:02:45.719 --> 00:02:47.663
+Add a product to the cart.
+
+00:02:47.663 --> 00:02:51.309
+The cart, the checkout and the order are all in euros.
+
+00:02:55.575 --> 00:02:58.373
+Some products cannot be sold everywhere.
+
+00:02:58.373 --> 00:03:02.753
+On the product's editor, under Not sold in, tick the markets it is
+
+00:03:02.753 --> 00:03:05.005
+not sold in, and click Publish.
+
+00:03:05.474 --> 00:03:10.122
+Shoppers in that market still find the product in listings, but its card
+
+00:03:10.122 --> 00:03:14.354
+says Not sold in, with the market's name, instead of Add to cart.
+
+00:03:18.605 --> 00:03:21.368
+Each shipping method has a Currency.
+
+00:03:21.368 --> 00:03:24.985
+Open Shipping, edit a zone, and click Add method.
+
+00:03:26.084 --> 00:03:30.869
+Choose Flat rate, name it, set its Currency to EUR, and enter an Amount.
+
+00:03:30.869 --> 00:03:36.513
+For a shopper in the market, methods in the market's currency are offered as they are.
+
+00:03:36.513 --> 00:03:41.544
+Without one, the methods in your store's currency are converted at the rate.
+
+00:03:45.759 --> 00:03:51.379
+At checkout, a shopper in Europe sees the order in euros, and shipping in euros too.
+
+00:03:51.845 --> 00:03:55.964
+With Prices include tax on, the tax from your tax rules is taken
+
+00:03:55.964 --> 00:04:00.201
+out of the price, and the order summary shows it as included, such
+
+00:04:00.201 --> 00:04:01.614
+as VAT 19 percent.
+
+00:04:01.614 --> 00:04:04.085
+The shopper pays the price they saw.
+
+00:04:08.285 --> 00:04:12.638
+A market can set a Language, which the storefront switches to, and the
+
+00:04:12.638 --> 00:04:14.871
+order's emails are written in it.
+
+00:04:14.871 --> 00:04:17.505
+The languages are your site's languages.
+
+00:04:18.255 --> 00:04:22.978
+Listing sorts and price filters work in your store's currency, and reports keep
+
+00:04:22.978 --> 00:04:25.645
+each order in the currency it was paid in.
+
+00:04:26.395 --> 00:04:29.564
+Exchange rates do not update by themselves.
+
+00:04:29.564 --> 00:04:34.025
+Check them now and then, and edit the market when a rate moves.
+
+00:04:34.775 --> 00:04:37.875
+The admin always shows your store's own prices.
+
+00:04:42.075 --> 00:04:43.766
+Selling in Europe:
+
+00:04:43.766 --> 00:04:48.555
+one market for several countries, in euros, with VAT included.
+
+00:04:49.305 --> 00:04:51.138
+A country of its own:
+
+00:04:51.138 --> 00:04:55.685
+a market for one country, with its own currency and rounding.
+
+00:04:56.435 --> 00:04:57.760
+Tidy prices:
+
+00:04:57.760 --> 00:05:03.205
+round up to .99 or a whole amount so converted prices look intended.
+
+00:05:03.955 --> 00:05:05.259
+Restricted goods:
+
+00:05:05.259 --> 00:05:08.945
+leave a product out of the markets where it cannot be sold.
+
+00:05:10.945 --> 00:05:17.152
+Add a market, let shoppers pick it, and every price, cart and order follows their currency.
+
+00:05:17.152 --> 00:05:18.815
+Thanks for watching.
+
