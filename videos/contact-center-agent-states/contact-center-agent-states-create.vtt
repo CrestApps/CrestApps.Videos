@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.220 --> 00:00:06.921
+Open Interaction Center, Management, Agent states.
+
+00:00:06.921 --> 00:00:11.350
+The list shows each reason code with the state it applies to.
+
+00:00:11.350 --> 00:00:13.200
+Click Add reason code.
+
+00:00:13.656 --> 00:00:18.316
+Type a Name, such as Customer visit, and an optional Description.
+
+00:00:18.766 --> 00:00:20.906
+Choose the state it Applies to.
+
+00:00:20.906 --> 00:00:23.566
+A visit away from the desk is a Meeting.
+
+00:00:24.025 --> 00:00:25.517
+Set a Sort order.
+
+00:00:25.517 --> 00:00:29.085
+Lower numbers appear higher in the presence menu.
+
+00:00:29.085 --> 00:00:31.875
+Leave Enabled ticked, and click Save.
+

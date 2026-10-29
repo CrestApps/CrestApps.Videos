@@ -1,0 +1,225 @@
+{
+  "title": "Agent states",
+  "output": "contact-center-agent-states",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Agent states",
+      "subtitle": "Why an agent is not taking work",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Agent states are the reasons an agent gives when they are not taking work: lunch, a meeting, training. This video shows why they exist, how to create a reason code, and what agents see in their presence menu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why agent states",
+      "subtitle": "Knowing where the time goes",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "When agents are not taking work, a manager needs to know why. An agent at lunch is not the same as an agent who is stuck with a system problem."
+            },
+            {
+              "id": "why-2",
+              "text": "A reason code gives the agent a name to pick, such as Lunch, Team meeting or Training. Each one belongs to one of the built-in presence states."
+            },
+            {
+              "id": "why-3",
+              "text": "Reports and the Live dashboard then show both the state and the reason, so nobody has to ask."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Reason codes and presence states",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A reason code has a name, and the state it applies to: Break, Away, Do not disturb, Meeting, Training, or After-hours unavailable."
+            },
+            {
+              "id": "how-2",
+              "text": "A sort order decides where it appears in the presence menu. A lower number appears higher."
+            },
+            {
+              "id": "how-3",
+              "text": "The site starts with seven reason codes. You can change them, delete them, and add your own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create a reason code",
+      "subtitle": "A name, a state and a position",
+      "clips": [
+        {
+          "id": "03-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cre-1",
+              "text": "Open Interaction Center, Management, Agent states. The list shows each reason code with the state it applies to. Click Add reason code."
+            },
+            {
+              "id": "cre-2",
+              "text": "Type a Name, such as Customer visit, and an optional Description."
+            },
+            {
+              "id": "cre-3",
+              "text": "Choose the state it Applies to. A visit away from the desk is a Meeting."
+            },
+            {
+              "id": "cre-4",
+              "text": "Set a Sort order. Lower numbers appear higher in the presence menu. Leave Enabled ticked, and click Save."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "04",
+      "title": "What agents see",
+      "subtitle": "The presence menu",
+      "clips": [
+        {
+          "id": "04-menu",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "men-1",
+              "text": "Agents change their state from the presence menu on My workspace. The same menu is in the Contact Center bar at the bottom of every admin page."
+            },
+            {
+              "id": "men-2",
+              "text": "Available is always listed. Every reason code that is not a break is listed on its own, and sets the state right away. The new Customer visit is among them."
+            },
+            {
+              "id": "men-3",
+              "text": "Break reasons are grouped under a Break heading, here Short break and Lunch."
+            }
+          ]
+        }
+      ],
+      "short": "menu"
+    },
+    {
+      "id": "05",
+      "title": "Retire a reason code",
+      "subtitle": "Hide it, keep the history",
+      "clips": [
+        {
+          "id": "05-disable",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dis-1",
+              "text": "To stop offering a reason, open it and untick Enabled, then click Save."
+            },
+            {
+              "id": "dis-2",
+              "text": "A disabled reason code is hidden from the presence menu, but it stays on historical records, so past reports still make sense."
+            }
+          ]
+        }
+      ],
+      "short": "disable"
+    },
+    {
+      "id": "06",
+      "title": "Good to know",
+      "subtitle": "Break requests and fallbacks",
+      "clips": [
+        {
+          "id": "06-notes",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "nts-1",
+              "text": "When an agent is busy on a call, the Break heading reads Request break. The break starts as soon as the current work ends."
+            },
+            {
+              "id": "nts-2",
+              "text": "If no reason codes exist at all, the menu falls back to the plain states: Away, Do not disturb, Meeting, Training and After-hours unavailable."
+            },
+            {
+              "id": "nts-3",
+              "text": "The starting codes are Short break and Lunch, Away from desk, Team meeting, Coaching, Training and System issue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Where reason codes help",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Separating lunch from short breaks, so reports show the real length of each."
+            },
+            {
+              "id": "use-2",
+              "text": "A Coaching code, so supervisors know an agent is in a review and not idle."
+            },
+            {
+              "id": "use-3",
+              "text": "A System issue code, to see how much time a tooling problem costs."
+            },
+            {
+              "id": "use-4",
+              "text": "A code for after-hours unavailability, for agents who work a split shift."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the reasons your team needs, and agents pick one when they step away. Reports and the dashboard show the rest. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
