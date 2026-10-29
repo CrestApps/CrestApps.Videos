@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.299 --> 00:00:06.046
+Click Delete on a clip, and confirm.
+
+00:00:06.046 --> 00:00:09.969
+The master copy and every provider's copy are removed.
+
+00:00:11.569 --> 00:00:16.099
+Queues and phone menus that pointed at the clip fall back to their
+
+00:00:16.099 --> 00:00:19.559
+spoken text, or to silence, so update them first.
+
+00:00:20.309 --> 00:00:25.291
+When you move to another site, voice media entries travel in deployment plans,
+
+00:00:25.291 --> 00:00:27.011
+but the audio does not.
+
+00:00:27.011 --> 00:00:31.696
+Open each imported clip and upload its audio again; queues and menus that
+
+00:00:31.696 --> 00:00:35.669
+use it start playing the new audio as soon as it is uploaded.
+

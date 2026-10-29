@@ -1,0 +1,255 @@
+{
+  "title": "Voice Media: Hold Music and Prompts",
+  "output": "contact-center-voice-media",
+  "spoken": {
+    "IVR": "I.V.R.",
+    "MP3": "M.P.3",
+    "WAV": "wave",
+    "OGG": "O.G.G.",
+    "WebM": "web M"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Voice Media: Hold Music and Prompts",
+      "subtitle": "Upload your audio once, reuse it everywhere",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The voice media library holds the audio your phone system plays: hold music for queues, and recorded prompts for phone menus. This video shows why it exists, how to add and replace a clip, what the badges mean, and where a clip is used."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a voice media library",
+      "subtitle": "Audio that survives a change of provider",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Callers hear audio while they wait, and when a phone menu asks them to choose. That audio has to sound the same for every caller, on every line."
+            },
+            {
+              "id": "why-2",
+              "text": "Phone providers keep the files you send them, but they can lose them, and a copy kept only at one provider is gone when you change provider."
+            },
+            {
+              "id": "why-3",
+              "text": "The voice media library keeps a master copy of every clip on your site, and sends a copy to your phone provider. If the provider loses its copy, it is sent a new one."
+            },
+            {
+              "id": "why-4",
+              "text": "A clip is uploaded once, and then picked by name wherever it is needed: on a queue, or in a phone menu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Add a clip",
+      "subtitle": "A name, and an audio file",
+      "clips": [
+        {
+          "id": "02-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "Open Interaction Center, Management, Voice Media. The library is empty. Click Add Voice Media."
+            },
+            {
+              "id": "add-2",
+              "text": "Enter a Name that people will recognize, such as Main hold music, and an optional Description that says which business or line the clip is for."
+            },
+            {
+              "id": "add-3",
+              "text": "Under Audio, choose an M.P.3, wave, O.G.G. or web M file of up to twenty megabytes."
+            },
+            {
+              "id": "add-4",
+              "text": "Click Save. The platform keeps the file as the clip's master copy, and sends a copy to the phone provider."
+            },
+            {
+              "id": "add-5",
+              "text": "The clip is listed with its format and a Master copy badge, and when it was saved. If the phone provider does not accept the upload, the clip is still saved with its master copy, and you see a warning."
+            }
+          ]
+        }
+      ],
+      "short": "add"
+    },
+    {
+      "id": "03",
+      "title": "What the badges mean",
+      "subtitle": "What is stored for each clip",
+      "clips": [
+        {
+          "id": "03-badges",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "badge-1",
+              "text": "Master copy means the platform holds the audio. The clip plays on any phone provider, and a provider that loses its copy is sent a new one automatically, within about ten minutes."
+            },
+            {
+              "id": "badge-2",
+              "text": "Provider copy only marks a clip that was uploaded before the platform kept master copies. It plays at the provider it was uploaded to, but it cannot be checked or sent to another provider."
+            },
+            {
+              "id": "badge-3",
+              "text": "No audio means the clip has no audio yet. A badge with the provider's name shows which providers hold a copy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Replace and protect a clip",
+      "subtitle": "Edit, re-sync and re-upload",
+      "clips": [
+        {
+          "id": "04-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Click Edit to open a clip. Uploading a new file under Audio replaces the old audio everywhere: the old master copy and every provider's copy are removed once the clip is saved."
+            },
+            {
+              "id": "man-2",
+              "text": "A clip marked Provider copy only is lost if you change phone provider, or if the provider deletes it. To protect it, open the clip, choose the original file again under Audio, and click Save."
+            },
+            {
+              "id": "man-3",
+              "text": "Click Re-sync media on a clip to check that every enabled phone provider still holds it, and to send it to any provider that does not. Use it after you change provider."
+            },
+            {
+              "id": "man-4",
+              "text": "You see a message for each provider: that it already held the clip, that it received a copy, or that it did not accept one. The button appears only on clips with a master copy."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "05",
+      "title": "Use a clip",
+      "subtitle": "On a queue, or in a phone menu",
+      "clips": [
+        {
+          "id": "05-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "On a queue, pick the clip as Hold music, on the While callers wait card."
+            },
+            {
+              "id": "use-2",
+              "text": "In an I.V.R. menu, pick it as the menu's Recorded prompt."
+            },
+            {
+              "id": "use-3",
+              "text": "The first time a provider plays a clip it has no copy of, it is sent one from the master copy. A caller may notice a short delay on that first call only."
+            },
+            {
+              "id": "use-4",
+              "text": "Your voicemail greeting is kept the same way: the platform holds the master copy, and sends it to whichever phone provider a caller reaches you on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Delete a clip",
+      "subtitle": "Update what uses it first",
+      "clips": [
+        {
+          "id": "06-delete",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "del-1",
+              "text": "Click Delete on a clip, and confirm. The master copy and every provider's copy are removed."
+            }
+          ]
+        },
+        {
+          "id": "06b-after",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "del-2",
+              "text": "Queues and phone menus that pointed at the clip fall back to their spoken text, or to silence, so update them first."
+            },
+            {
+              "id": "del-3",
+              "text": "When you move to another site, voice media entries travel in deployment plans, but the audio does not. Open each imported clip and upload its audio again; queues and menus that use it start playing the new audio as soon as it is uploaded."
+            }
+          ]
+        }
+      ],
+      "short": "delete"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "What the library does for you",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "uses-1",
+              "text": "A support team uploads its hold music once, and every queue plays the same audio."
+            },
+            {
+              "id": "uses-2",
+              "text": "A company records its menu prompts, one for each language, and picks them in the phone menus of its entry points."
+            },
+            {
+              "id": "uses-3",
+              "text": "A business that moves to a new phone provider re-syncs its clips, and nothing has to be uploaded again."
+            },
+            {
+              "id": "uses-4",
+              "text": "A team that updates its seasonal greeting uploads the new file to the same clip, and every queue and menu that uses it changes at once."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Upload each clip once, keep its master copy on your site, and pick it by name on queues and phone menus. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
