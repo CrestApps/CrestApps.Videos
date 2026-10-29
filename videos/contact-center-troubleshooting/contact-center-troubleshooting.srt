@@ -1,0 +1,412 @@
+1
+00:00:01,000 --> 00:00:05,708
+Most problems in the contact center are a missing permission, a missing setup
+
+2
+00:00:05,708 --> 00:00:08,375
+record, or a phone that is not signed in.
+
+3
+00:00:08,375 --> 00:00:11,211
+This video follows the troubleshooting page:
+
+4
+00:00:11,211 --> 00:00:14,161
+find the symptom, and work through its checks.
+
+5
+00:00:14,161 --> 00:00:19,380
+It shows the screens where problems are diagnosed, and uses slides for the checklists.
+
+6
+00:00:23,980 --> 00:00:27,724
+Find your symptom, and work through its checks in order.
+
+7
+00:00:27,724 --> 00:00:31,830
+When a check needs your administrator or IT, the page says so.
+
+8
+00:00:32,580 --> 00:00:35,457
+Most problems come down to three things.
+
+9
+00:00:35,457 --> 00:00:40,960
+A permission is missing, a setup record is missing, or the phone is not signed in.
+
+10
+00:00:45,147 --> 00:00:48,236
+Check the page for that task in the manual:
+
+11
+00:00:48,236 --> 00:00:52,774
+a table at the top names the menu, the permission and the feature.
+
+12
+00:00:52,774 --> 00:00:57,438
+Without the permission, or with the feature off, the menu is hidden.
+
+13
+00:00:57,438 --> 00:01:01,157
+A role's permissions are under Access Control, Roles.
+
+14
+00:01:01,612 --> 00:01:04,029
+Some buttons need a site setting.
+
+15
+00:01:04,029 --> 00:01:09,049
+Pause recording appears only when Allow agents to pause recording is on, in
+
+16
+00:01:09,049 --> 00:01:11,218
+the Recording governance tab.
+
+17
+00:01:11,218 --> 00:01:17,912
+Collect data securely needs Enable agent-assisted secure data capture, in the Secure Data Capture tab.
+
+18
+00:01:18,364 --> 00:01:23,369
+The Diagnostics tab of the soft phone appears only when the administrator enables
+
+19
+00:01:23,369 --> 00:01:26,764
+it, in the soft phone settings of Telephony settings.
+
+20
+00:01:28,364 --> 00:01:31,517
+Some buttons appear only at the right moment.
+
+21
+00:01:31,517 --> 00:01:36,215
+Listen, Whisper and Barge show on an agent's card only while the agent
+
+22
+00:01:36,215 --> 00:01:37,389
+is on a call.
+
+23
+00:01:37,389 --> 00:01:41,593
+Complete activity shows once there is an activity to complete.
+
+24
+00:01:41,593 --> 00:01:46,724
+And the Agent role does not include the soft phone permission, so ask for it.
+
+25
+00:01:50,915 --> 00:01:55,979
+The live dashboard and the shared voicemail show only the queues and campaigns
+
+26
+00:01:55,979 --> 00:02:00,079
+on your own agent entitlement record, even for administrators.
+
+27
+00:02:00,079 --> 00:02:05,385
+Here the dashboard is empty, because this administrator has no entitlement record.
+
+28
+00:02:05,838 --> 00:02:09,135
+The same rule applies in the Work tab of the soft phone.
+
+29
+00:02:09,135 --> 00:02:12,911
+You sign in only to the queues and campaigns you are entitled to,
+
+30
+00:02:12,911 --> 00:02:17,378
+so when one is missing, ask your manager to add it to your entitlement record.
+
+31
+00:02:18,978 --> 00:02:21,859
+An empty activity list is often a filter.
+
+32
+00:02:21,859 --> 00:02:27,192
+Activities lists only manual activities assigned to you that are not started yet,
+
+33
+00:02:27,192 --> 00:02:32,158
+so unassigned dialer work and automated AI activities are not listed there.
+
+34
+00:02:32,908 --> 00:02:37,282
+An empty report is usually the date range, which starts on today.
+
+35
+00:02:37,282 --> 00:02:42,210
+Pick a longer range, clear the queue, agent or campaign filters, and check
+
+36
+00:02:42,210 --> 00:02:44,428
+that you may view the reports.
+
+37
+00:02:48,602 --> 00:02:50,236
+Open My workspace.
+
+38
+00:02:50,236 --> 00:02:53,573
+It shows Connected while live updates work.
+
+39
+00:02:53,573 --> 00:03:00,792
+With Reconnecting or Disconnected, new offers do not appear until it reconnects, so reload the page.
+
+40
+00:03:02,392 --> 00:03:05,393
+Is the phone app running and signed in to the site?
+
+41
+00:03:05,393 --> 00:03:09,079
+The Windows app keeps running in the tray, and calls do not ring
+
+42
+00:03:09,079 --> 00:03:10,554
+after you choose Quit.
+
+43
+00:03:10,554 --> 00:03:13,292
+Are you signed in to the queue, and Available?
+
+44
+00:03:14,042 --> 00:03:15,444
+Is the queue open?
+
+45
+00:03:15,444 --> 00:03:19,241
+Routing pauses while its business hours calendar is closed.
+
+46
+00:03:19,241 --> 00:03:24,382
+Is the number routed to your queue, and do you have the skills the queue requires?
+
+47
+00:03:25,132 --> 00:03:30,936
+An offer rings for 30 seconds by default, then follows the queue's unanswered-offer action.
+
+48
+00:03:30,936 --> 00:03:35,782
+If your state became Away with the reason Phone unreachable, check the soft
+
+49
+00:03:35,782 --> 00:03:38,235
+phone, then set yourself Available.
+
+50
+00:03:38,235 --> 00:03:40,329
+Does nothing ring for anyone?
+
+51
+00:03:40,329 --> 00:03:42,064
+Ask your administrator:
+
+52
+00:03:42,064 --> 00:03:46,492
+with Telnyx, calls are rejected until the Webhook public key is set.
+
+53
+00:03:50,692 --> 00:03:54,884
+Check that the browser allows the microphone, and click Retry microphone.
+
+54
+00:03:54,884 --> 00:03:59,182
+Pick the Microphone and the Speaker with the headset button, and check that
+
+55
+00:03:59,182 --> 00:04:01,252
+the call is not muted or on hold.
+
+56
+00:04:02,845 --> 00:04:09,185
+When the Diagnostics tab is enabled, click Run audio test, and share the result with support.
+
+57
+00:04:10,785 --> 00:04:14,712
+A Poor connection badge means your network is struggling.
+
+58
+00:04:14,712 --> 00:04:19,574
+Move closer to the Wi-Fi, use a wired connection, or try another Region.
+
+59
+00:04:19,574 --> 00:04:22,378
+Is the audio still silent for everyone?
+
+60
+00:04:22,378 --> 00:04:27,365
+Ask your administrator, because it is often a network or firewall setting.
+
+61
+00:04:31,565 --> 00:04:33,677
+Texts not sent or received?
+
+62
+00:04:33,677 --> 00:04:40,332
+The number must be on Omnichannel Addresses with Text messages ticked, and the right SMS provider.
+
+63
+00:04:40,332 --> 00:04:44,939
+A customer who texted stop gets no messages until they text start.
+
+64
+00:04:44,939 --> 00:04:46,859
+Missing from your inbox?
+
+65
+00:04:46,859 --> 00:04:49,035
+Check the Unassigned filter.
+
+66
+00:04:49,785 --> 00:04:51,539
+The AI does not answer?
+
+67
+00:04:51,539 --> 00:04:55,290
+The entry point must be open, and Route to must be an AI
+
+68
+00:04:55,290 --> 00:04:57,347
+agent with a profile picked.
+
+69
+00:04:57,347 --> 00:05:01,522
+Calls to an AI entry point are refused when the Telnyx AI Voice
+
+70
+00:05:01,522 --> 00:05:03,155
+Agent feature is off.
+
+71
+00:05:03,155 --> 00:05:07,874
+On an automatic load, check that it reached Loaded, and that the contact
+
+72
+00:05:07,874 --> 00:05:09,205
+did not opt out.
+
+73
+00:05:13,388 --> 00:05:17,581
+The live dashboard has a panel named Why isn't this dialing.
+
+74
+00:05:17,581 --> 00:05:20,186
+It says what holds a campaign back.
+
+75
+00:05:20,186 --> 00:05:23,998
+Here it says that no work is waiting to be dispatched.
+
+76
+00:05:25,598 --> 00:05:28,983
+Are agents signed in to the campaign and Available?
+
+77
+00:05:28,983 --> 00:05:33,436
+The dialer calls only for available agents signed in to the campaign.
+
+78
+00:05:33,436 --> 00:05:35,574
+Is the dialer profile enabled?
+
+79
+00:05:35,574 --> 00:05:38,008
+A disabled profile places no calls.
+
+80
+00:05:38,758 --> 00:05:40,701
+Is the calling window open?
+
+81
+00:05:40,701 --> 00:05:45,118
+A closed calendar means the records are tried again in a later cycle.
+
+82
+00:05:45,118 --> 00:05:47,827
+Has the abandonment cap stopped dialing?
+
+83
+00:05:47,827 --> 00:05:49,181
+Are records left?
+
+84
+00:05:49,181 --> 00:05:50,948
+Check Manage Activities.
+
+85
+00:05:55,148 --> 00:05:56,486
+Stuck in wrap-up?
+
+86
+00:05:56,486 --> 00:05:58,116
+Complete the activity:
+
+87
+00:05:58,116 --> 00:06:00,734
+pick a disposition, and click Complete.
+
+88
+00:06:00,734 --> 00:06:04,749
+If you leave it open, wrap-up ends on its own after 15 minutes,
+
+89
+00:06:04,749 --> 00:06:07,368
+unless your administrator changed that.
+
+90
+00:06:08,118 --> 00:06:09,867
+Cannot find a contact?
+
+91
+00:06:09,867 --> 00:06:14,677
+Search by name or number, try fewer digits, and remember that leads are
+
+92
+00:06:14,677 --> 00:06:16,738
+listed apart from contacts.
+
+93
+00:06:17,488 --> 00:06:20,196
+A load did not create what you expected?
+
+94
+00:06:20,196 --> 00:06:26,201
+Read the load's report, which counts every matching record that was not loaded, with the reason.
+
+95
+00:06:26,201 --> 00:06:29,144
+A load cannot be edited once it has started.
+
+96
+00:06:29,144 --> 00:06:30,498
+Create a new one.
+
+97
+00:06:34,698 --> 00:06:39,238
+Write down what you did, what you expected, what happened, and the time,
+
+98
+00:06:39,238 --> 00:06:41,566
+and send it to your administrator.
+
+99
+00:06:41,566 --> 00:06:46,281
+IT and support teams have the runbooks, the production support page and the
+
+100
+00:06:46,281 --> 00:06:48,958
+telephony pages in the technical manual.
+
+101
+00:06:50,958 --> 00:06:55,390
+Find the symptom, check the permission, the setup record and the phone, and
+
+102
+00:06:55,390 --> 00:06:58,125
+ask your administrator when a check says so.
+
+103
+00:06:58,125 --> 00:06:59,548
+Thanks for watching.
+

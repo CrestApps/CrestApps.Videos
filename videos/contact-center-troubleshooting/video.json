@@ -1,0 +1,98 @@
+{
+  "title": "Contact Center Troubleshooting: Menus, Phones, Audio, Dialer and Reports | CrestApps for Orchard Core",
+  "description": "Most problems in the CrestApps Contact Center for Orchard Core are a missing permission, a missing setup record, or a phone that is not signed in. This video follows the troubleshooting page: find the symptom, and work through its checks in order. It shows the real screens where problems are diagnosed, the permissions, the Contact Center and soft phone settings, the live dashboard and My workspace, and uses slides for the checklists.\n\nIn this video:\n• How to use the troubleshooting page\n• A menu or a button is missing: permissions, features and settings\n• A page is empty: entitlements, filters and date ranges\n• My phone does not ring\n• No audio, or poor audio, and the soft phone's Diagnostics tab\n• Texts and the AI that do not answer\n• The dialer is not calling, and the Why isn't this dialing panel\n• Wrap-up, contacts, loads, and what to send your administrator",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "troubleshooting",
+    "soft phone",
+    "dialer",
+    "call center",
+    "permissions",
+    "queues",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "How to use it"
+    },
+    {
+      "time": "0:41",
+      "title": "A menu or a button is missing"
+    },
+    {
+      "time": "1:47",
+      "title": "A page is empty"
+    },
+    {
+      "time": "2:45",
+      "title": "My phone does not ring"
+    },
+    {
+      "time": "3:47",
+      "title": "No audio, or poor audio"
+    },
+    {
+      "time": "4:28",
+      "title": "Texts and the AI"
+    },
+    {
+      "time": "5:10",
+      "title": "The dialer is not calling"
+    },
+    {
+      "time": "5:52",
+      "title": "Wrap-up, contacts and loads"
+    },
+    {
+      "time": "6:31",
+      "title": "Still stuck"
+    },
+    {
+      "time": "6:50",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/troubleshooting"
+    },
+    {
+      "label": "Operations runbooks",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/runbooks"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/troubleshooting.md"
+  ],
+  "length": "7:01"
+}

@@ -1,0 +1,48 @@
+1
+00:00:03,183 --> 00:00:07,376
+The live dashboard has a panel named Why isn't this dialing.
+
+2
+00:00:07,376 --> 00:00:09,981
+It says what holds a campaign back.
+
+3
+00:00:09,981 --> 00:00:13,793
+Here it says that no work is waiting to be dispatched.
+
+4
+00:00:15,393 --> 00:00:18,778
+Are agents signed in to the campaign and Available?
+
+5
+00:00:18,778 --> 00:00:23,231
+The dialer calls only for available agents signed in to the campaign.
+
+6
+00:00:23,231 --> 00:00:25,369
+Is the dialer profile enabled?
+
+7
+00:00:25,369 --> 00:00:27,803
+A disabled profile places no calls.
+
+8
+00:00:28,553 --> 00:00:30,496
+Is the calling window open?
+
+9
+00:00:30,496 --> 00:00:34,913
+A closed calendar means the records are tried again in a later cycle.
+
+10
+00:00:34,913 --> 00:00:37,622
+Has the abandonment cap stopped dialing?
+
+11
+00:00:37,622 --> 00:00:38,976
+Are records left?
+
+12
+00:00:38,976 --> 00:00:40,743
+Check Manage Activities.
+

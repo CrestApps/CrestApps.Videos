@@ -1,0 +1,64 @@
+1
+00:00:03,174 --> 00:00:04,808
+Open My workspace.
+
+2
+00:00:04,808 --> 00:00:08,145
+It shows Connected while live updates work.
+
+3
+00:00:08,145 --> 00:00:15,364
+With Reconnecting or Disconnected, new offers do not appear until it reconnects, so reload the page.
+
+4
+00:00:16,964 --> 00:00:19,966
+Is the phone app running and signed in to the site?
+
+5
+00:00:19,966 --> 00:00:23,651
+The Windows app keeps running in the tray, and calls do not ring
+
+6
+00:00:23,651 --> 00:00:25,126
+after you choose Quit.
+
+7
+00:00:25,126 --> 00:00:27,864
+Are you signed in to the queue, and Available?
+
+8
+00:00:28,614 --> 00:00:30,016
+Is the queue open?
+
+9
+00:00:30,016 --> 00:00:33,813
+Routing pauses while its business hours calendar is closed.
+
+10
+00:00:33,813 --> 00:00:38,954
+Is the number routed to your queue, and do you have the skills the queue requires?
+
+11
+00:00:39,704 --> 00:00:45,508
+An offer rings for 30 seconds by default, then follows the queue's unanswered-offer action.
+
+12
+00:00:45,508 --> 00:00:50,354
+If your state became Away with the reason Phone unreachable, check the soft
+
+13
+00:00:50,354 --> 00:00:52,807
+phone, then set yourself Available.
+
+14
+00:00:52,807 --> 00:00:54,901
+Does nothing ring for anyone?
+
+15
+00:00:54,901 --> 00:00:56,636
+Ask your administrator:
+
+16
+00:00:56,636 --> 00:01:01,064
+with Telnyx, calls are rejected until the Webhook public key is set.
+

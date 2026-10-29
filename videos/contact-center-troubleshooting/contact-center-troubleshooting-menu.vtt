@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:03.187 --> 00:00:06.276
+Check the page for that task in the manual:
+
+00:00:06.276 --> 00:00:10.814
+a table at the top names the menu, the permission and the feature.
+
+00:00:10.814 --> 00:00:15.478
+Without the permission, or with the feature off, the menu is hidden.
+
+00:00:15.478 --> 00:00:19.197
+A role's permissions are under Access Control, Roles.
+
+00:00:19.652 --> 00:00:22.069
+Some buttons need a site setting.
+
+00:00:22.069 --> 00:00:27.089
+Pause recording appears only when Allow agents to pause recording is on, in
+
+00:00:27.089 --> 00:00:29.258
+the Recording governance tab.
+
+00:00:29.258 --> 00:00:35.952
+Collect data securely needs Enable agent-assisted secure data capture, in the Secure Data Capture tab.
+
+00:00:36.404 --> 00:00:41.409
+The Diagnostics tab of the soft phone appears only when the administrator enables
+
+00:00:41.409 --> 00:00:44.804
+it, in the soft phone settings of Telephony settings.
+
+00:00:46.404 --> 00:00:49.557
+Some buttons appear only at the right moment.
+
+00:00:49.557 --> 00:00:54.255
+Listen, Whisper and Barge show on an agent's card only while the agent
+
+00:00:54.255 --> 00:00:55.429
+is on a call.
+
+00:00:55.429 --> 00:00:59.633
+Complete activity shows once there is an activity to complete.
+
+00:00:59.633 --> 00:01:04.764
+And the Agent role does not include the soft phone permission, so ask for it.
+
