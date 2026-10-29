@@ -1,0 +1,59 @@
+WEBVTT
+
+00:00:03.190 --> 00:00:06.956
+Choose Predictive, and a Predictive pacing card appears.
+
+00:00:06.956 --> 00:00:10.055
+Pacing starts as One call per reserved agent.
+
+00:00:10.055 --> 00:00:14.308
+Every call still reserves a free agent, so it cannot call ahead.
+
+00:00:14.308 --> 00:00:16.616
+What Predictive adds is a brake:
+
+00:00:16.616 --> 00:00:20.991
+with the cap on, it places fewer calls per look as the abandonment
+
+00:00:20.991 --> 00:00:22.510
+rate nears the cap.
+
+00:00:23.027 --> 00:00:28.030
+Pick Over-dial, and the dialer places more calls than there are free agents,
+
+00:00:28.030 --> 00:00:30.592
+because most calls are not answered.
+
+00:00:30.592 --> 00:00:33.521
+No agent is reserved while the calls ring.
+
+00:00:33.521 --> 00:00:36.877
+When a person answers, a free agent is connected.
+
+00:00:37.413 --> 00:00:39.191
+The settings steer it.
+
+00:00:39.191 --> 00:00:44.462
+Target abandonment rate is what over-dialing aims for, and it must stay below
+
+00:00:44.462 --> 00:00:46.684
+the Maximum abandonment rate.
+
+00:00:46.684 --> 00:00:51.383
+Lines per agent and Calls in flight cap how many calls ring at once.
+
+00:00:52.983 --> 00:00:56.017
+What can go wrong is the whole point of the cap.
+
+00:00:56.017 --> 00:01:00.175
+When a person answers and nobody is free, the call is abandoned, and
+
+00:01:00.175 --> 00:01:02.985
+the person hears the abandoned call message.
+
+00:01:02.985 --> 00:01:07.142
+Over-dialing needs the cap and the message, and it falls back to one
+
+00:01:07.142 --> 00:01:10.963
+call per reserved agent until its measurements can be trusted.
+

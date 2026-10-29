@@ -1,0 +1,36 @@
+1
+00:00:03,200 --> 00:00:04,771
+Start with Preview.
+
+2
+00:00:04,771 --> 00:00:08,918
+Agents read each record before the call, and a new team or a
+
+3
+00:00:08,918 --> 00:00:10,992
+high value list needs that.
+
+4
+00:00:10,992 --> 00:00:12,940
+No call can be abandoned.
+
+5
+00:00:13,690 --> 00:00:18,931
+Move to Progressive or Power when the list is steady and agents wait between calls.
+
+6
+00:00:18,931 --> 00:00:23,700
+Turn on the abandonment cap, and the abandoned call message, before you do.
+
+7
+00:00:24,450 --> 00:00:28,848
+Choose Predictive with one call per reserved agent when you want the brake.
+
+8
+00:00:28,848 --> 00:00:34,550
+Choose Over-dial only when you have measured the answer rate, and your rules allow abandoned calls.
+
+9
+00:00:35,300 --> 00:00:41,010
+Use one profile for each campaign when its abandonment rate must be measured on its own.
+
