@@ -1,0 +1,36 @@
+1
+00:00:03,200 --> 00:00:04,431
+Click Add User.
+
+2
+00:00:04,431 --> 00:00:08,360
+Type the User name the person signs in with, and their Email.
+
+3
+00:00:08,998 --> 00:00:13,258
+Phone Number is optional, and must include the country code.
+
+4
+00:00:13,258 --> 00:00:18,938
+For the Password, click Generate password, and Copy password to pass it on safely.
+
+5
+00:00:19,389 --> 00:00:21,706
+Tick the Roles the person needs.
+
+6
+00:00:21,706 --> 00:00:23,963
+Here Nadia Brooks is an Author.
+
+7
+00:00:23,963 --> 00:00:26,829
+The roles decide what she can see and do.
+
+8
+00:00:27,283 --> 00:00:28,280
+Click Save.
+
+9
+00:00:28,280 --> 00:00:31,623
+The new person is on the list, with the role badge.
+

@@ -1,0 +1,340 @@
+1
+00:00:01,000 --> 00:00:04,873
+Every person who signs in to your site has a user account, and
+
+2
+00:00:04,873 --> 00:00:07,435
+a role decides what that person can do.
+
+3
+00:00:07,435 --> 00:00:12,048
+This video shows how to add people, create roles and give them permissions,
+
+4
+00:00:12,048 --> 00:00:17,060
+choose how names and pictures appear, and let people sign in with an emailed code.
+
+5
+00:00:21,660 --> 00:00:25,294
+Not everyone should see or change everything.
+
+6
+00:00:25,294 --> 00:00:31,280
+An editor writes pages, a supervisor manages a team, and a visitor only reads.
+
+7
+00:00:32,030 --> 00:00:37,771
+Giving each person a long list of individual permissions is slow and easy to get wrong.
+
+8
+00:00:37,771 --> 00:00:42,710
+A role is a named set of permissions that you give to many people at once.
+
+9
+00:00:43,460 --> 00:00:49,317
+Screens that show only sign-in names, such as dana dot whitfield, are hard to read.
+
+10
+00:00:49,317 --> 00:00:53,660
+People expect to see Dana Whitfield, ideally with a picture.
+
+11
+00:00:54,410 --> 00:00:56,712
+Users and roles give you both:
+
+12
+00:00:56,712 --> 00:01:02,020
+access that is simple to manage, and names and avatars that people recognize.
+
+13
+00:01:06,220 --> 00:01:12,530
+A user is one person's account, with a sign-in name, an email address and a password.
+
+14
+00:01:13,280 --> 00:01:16,893
+A role is a named set of permissions, such as Editor.
+
+15
+00:01:16,893 --> 00:01:21,730
+A person can hold several roles and gets every permission of all of them.
+
+16
+00:01:22,480 --> 00:01:26,899
+Settings choose how names are built, with a display name, a first and
+
+17
+00:01:26,899 --> 00:01:30,140
+last name, and whether each person has an avatar.
+
+18
+00:01:30,890 --> 00:01:34,204
+A role can also be picked on a content item, so that the
+
+19
+00:01:34,204 --> 00:01:36,770
+item is limited to the people who hold it.
+
+20
+00:01:40,976 --> 00:01:43,197
+Open Access Control, Users.
+
+21
+00:01:43,197 --> 00:01:48,044
+Each row is one person, with the user name, the email address, and
+
+22
+00:01:48,044 --> 00:01:49,996
+badges for their roles.
+
+23
+00:01:50,450 --> 00:01:54,948
+Unconfirmed means the person has not yet confirmed their email address.
+
+24
+00:01:54,948 --> 00:01:59,330
+The Search box finds people, and the Role, Show and Sort menus narrow
+
+25
+00:01:59,330 --> 00:02:00,790
+and order the list.
+
+26
+00:02:01,242 --> 00:02:06,298
+The Actions menu on a row has the other things you can do with that account:
+
+27
+00:02:06,298 --> 00:02:09,812
+Change password, Disable, Confirm email and Delete.
+
+28
+00:02:14,012 --> 00:02:15,243
+Click Add User.
+
+29
+00:02:15,243 --> 00:02:19,172
+Type the User name the person signs in with, and their Email.
+
+30
+00:02:19,810 --> 00:02:24,070
+Phone Number is optional, and must include the country code.
+
+31
+00:02:24,070 --> 00:02:29,750
+For the Password, click Generate password, and Copy password to pass it on safely.
+
+32
+00:02:30,201 --> 00:02:32,518
+Tick the Roles the person needs.
+
+33
+00:02:32,518 --> 00:02:34,775
+Here Nadia Brooks is an Author.
+
+34
+00:02:34,775 --> 00:02:37,641
+The roles decide what she can see and do.
+
+35
+00:02:38,095 --> 00:02:39,092
+Click Save.
+
+36
+00:02:39,092 --> 00:02:42,435
+The new person is on the list, with the role badge.
+
+37
+00:02:46,635 --> 00:02:48,845
+Open Access Control, Roles.
+
+38
+00:02:48,845 --> 00:02:53,533
+The system roles are Administrator, Anonymous and Authenticated.
+
+39
+00:02:53,533 --> 00:02:59,695
+Anonymous is every visitor who is not signed in, and Authenticated is everyone who is.
+
+40
+00:03:00,147 --> 00:03:05,257
+Click Add Role, type a Name, such as Shift Lead, and a Description.
+
+41
+00:03:05,257 --> 00:03:07,777
+Then click Save and Configure.
+
+42
+00:03:08,228 --> 00:03:10,620
+The permissions are grouped by feature.
+
+43
+00:03:10,620 --> 00:03:13,011
+Allow gives the permission to the role.
+
+44
+00:03:13,011 --> 00:03:16,679
+Effective also shows the permissions it gets from a higher one.
+
+45
+00:03:16,679 --> 00:03:19,868
+The Search permissions box finds a permission by name.
+
+46
+00:03:20,321 --> 00:03:25,039
+Tick Access admin panel so that shift leads can use the admin, and save.
+
+47
+00:03:25,039 --> 00:03:27,641
+Everyone who holds this role gets it.
+
+48
+00:03:31,835 --> 00:03:34,812
+To give someone access, edit the person.
+
+49
+00:03:34,812 --> 00:03:37,595
+Here it is Dana Whitfield, an editor.
+
+50
+00:03:38,045 --> 00:03:40,616
+Tick Shift Lead in Roles, and save.
+
+51
+00:03:40,616 --> 00:03:44,815
+Dana now holds both roles, and gets every permission of each.
+
+52
+00:03:49,051 --> 00:03:51,372
+Open Settings, User Display Name.
+
+53
+00:03:51,372 --> 00:03:56,073
+The Display name format decides how a person's name is built wherever the
+
+54
+00:03:56,073 --> 00:03:57,501
+site shows a user.
+
+55
+00:03:57,953 --> 00:04:00,169
+Choose First Middle Last name.
+
+56
+00:04:00,169 --> 00:04:04,725
+Then set First name and Last name to Required, so every account must
+
+57
+00:04:04,725 --> 00:04:06,141
+have a full name.
+
+58
+00:04:06,141 --> 00:04:09,403
+Display name and Middle name stay at Don't use.
+
+59
+00:04:09,855 --> 00:04:10,957
+Click Save.
+
+60
+00:04:10,957 --> 00:04:12,512
+Now edit a person:
+
+61
+00:04:12,512 --> 00:04:16,207
+the editor shows only the name boxes you turned on.
+
+62
+00:04:16,207 --> 00:04:18,995
+Here are Dana's first and last names.
+
+63
+00:04:19,445 --> 00:04:23,866
+In the user list, Dana Whitfield now appears by name, and so does
+
+64
+00:04:23,866 --> 00:04:27,725
+the user menu and the author badge in the content lists.
+
+65
+00:04:31,927 --> 00:04:34,354
+Open Settings, User Avatars.
+
+66
+00:04:34,354 --> 00:04:39,923
+Require Avatar makes a picture mandatory before an account can be saved.
+
+67
+00:04:39,923 --> 00:04:43,707
+Use default CSS styles keeps the built-in look.
+
+68
+00:04:44,161 --> 00:04:48,378
+To give someone a picture, edit the person and use the Avatar box:
+
+69
+00:04:48,378 --> 00:04:51,541
+Add media picks an image from the media library.
+
+70
+00:04:51,541 --> 00:04:54,411
+It is shown to people who may manage media.
+
+71
+00:04:58,606 --> 00:05:02,904
+With the Sign in with an email code feature on, the sign-in page
+
+72
+00:05:02,904 --> 00:05:05,666
+offers Email me a sign-in code instead.
+
+73
+00:05:06,117 --> 00:05:11,028
+The person types the email address of their account, and clicks Email me a code.
+
+74
+00:05:11,028 --> 00:05:15,654
+They receive a six-digit code, which they type on the next page to sign in.
+
+75
+00:05:15,654 --> 00:05:19,367
+Accounts with two-factor sign-in keep using their password.
+
+76
+00:05:23,567 --> 00:05:28,061
+Create a role for each job, such as Agent, Supervisor and Manager, and
+
+77
+00:05:28,061 --> 00:05:30,427
+give people the role of their job.
+
+78
+00:05:31,177 --> 00:05:35,477
+Bring a new team member on board with one account and one role.
+
+79
+00:05:36,227 --> 00:05:41,557
+Show full names on author badges and user pickers, instead of sign-in names.
+
+80
+00:05:42,307 --> 00:05:46,747
+Let occasional users sign in with a code they receive by email, with
+
+81
+00:05:46,747 --> 00:05:48,427
+no password to forget.
+
+82
+00:05:50,427 --> 00:05:54,567
+Create a role for each job, give people their roles, and choose how
+
+83
+00:05:54,567 --> 00:05:56,382
+names and pictures appear.
+
+84
+00:05:56,382 --> 00:06:00,522
+Access stays simple to manage, and people see names they recognize.
+
+85
+00:06:00,522 --> 00:06:01,997
+Thanks for watching.
+
