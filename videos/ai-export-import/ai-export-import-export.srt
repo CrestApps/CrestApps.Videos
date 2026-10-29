@@ -1,0 +1,28 @@
+1
+00:00:03,180 --> 00:00:07,041
+On the plan page, click Execute and choose File Download.
+
+2
+00:00:07,041 --> 00:00:10,596
+It runs the plan and downloads its result as a file.
+
+3
+00:00:10,596 --> 00:00:12,557
+Treat that file with care:
+
+4
+00:00:12,557 --> 00:00:17,460
+it holds the settings of your assistants, and may hold connection details.
+
+5
+00:00:17,910 --> 00:00:20,135
+The file is a package or a recipe.
+
+6
+00:00:20,135 --> 00:00:23,696
+You can open it in any editor, change it, and keep it with
+
+7
+00:00:23,696 --> 00:00:25,420
+the rest of your project.
+

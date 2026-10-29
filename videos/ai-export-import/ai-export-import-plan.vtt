@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.210 --> 00:00:06.965
+Open Tools, Deployments, Plans, and click Add Plan.
+
+00:00:06.965 --> 00:00:10.720
+Give it a name, such as AI setup, and click Create.
+
+00:00:11.172 --> 00:00:16.033
+The plan page lists every kind of step that the enabled features offer.
+
+00:00:16.033 --> 00:00:21.082
+Click Add on AI Provider Connections, tick Include all, and save the step.
+
+00:00:21.532 --> 00:00:24.427
+Add the AI Deployments step the same way.
+
+00:00:24.427 --> 00:00:28.861
+Then add AI Profiles, and tick only the profiles you want to move.
+
+00:00:28.861 --> 00:00:30.093
+Order matters:
+
+00:00:30.093 --> 00:00:36.190
+connections first, deployments next, and profiles last, because profiles point at the others.
+
+00:00:36.190 --> 00:00:39.885
+Each one is saved as its own step of the plan, and the
+
+00:00:39.885 --> 00:00:42.102
+plan lists them in that order.
+
+00:00:42.553 --> 00:00:48.956
+Add the AI Tool Instances, AI Data Sources and MCP steps when the profiles use them.
+
+00:00:48.956 --> 00:00:54.363
+Each step has an Include all switch, or a list of the items to choose.
+

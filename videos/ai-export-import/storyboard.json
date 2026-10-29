@@ -1,0 +1,165 @@
+{
+  "title": "Export and Import Your AI Setup",
+  "output": "ai-export-import",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Export and Import Your AI Setup",
+      "subtitle": "Move AI settings between sites",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "You built the assistants on a test site, and now you need them on the live site. This video shows how to export the AI setup of a site in a deployment plan, and how to import it on another site, in the right order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What can travel",
+      "subtitle": "Eight kinds of AI items",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "wh-1",
+              "text": "A deployment plan can carry the AI provider connections and deployments, the profiles and their templates, the tool instances and the data sources."
+            },
+            {
+              "id": "wh-2",
+              "text": "It can also carry MCP connections, prompts and resources. Each kind is a step of the plan, and a step exports every item, or only the ones you pick."
+            },
+            {
+              "id": "wh-3",
+              "text": "The same items can be created from a recipe, which is what a plan produces. Knowledge that was uploaded or indexed is content, not settings: it does not travel in these steps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Build a plan",
+      "subtitle": "Tools, Deployments, Plans",
+      "clips": [
+        {
+          "id": "02-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pl-1",
+              "text": "Open Tools, Deployments, Plans, and click Add Plan. Give it a name, such as AI setup, and click Create."
+            },
+            {
+              "id": "pl-2",
+              "text": "The plan page lists every kind of step that the enabled features offer. Click Add on AI Provider Connections, tick Include all, and save the step."
+            },
+            {
+              "id": "pl-3",
+              "text": "Add the AI Deployments step the same way. Then add AI Profiles, and tick only the profiles you want to move. Order matters: connections first, deployments next, and profiles last, because profiles point at the others. Each one is saved as its own step of the plan, and the plan lists them in that order."
+            },
+            {
+              "id": "pl-4",
+              "text": "Add the AI Tool Instances, AI Data Sources and MCP steps when the profiles use them. Each step has an Include all switch, or a list of the items to choose."
+            }
+          ]
+        }
+      ],
+      "short": "plan"
+    },
+    {
+      "id": "03",
+      "title": "Export it",
+      "subtitle": "Run the plan",
+      "clips": [
+        {
+          "id": "03-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "On the plan page, click Execute and choose File Download. It runs the plan and downloads its result as a file. Treat that file with care: it holds the settings of your assistants, and may hold connection details."
+            },
+            {
+              "id": "exp-2",
+              "text": "The file is a package or a recipe. You can open it in any editor, change it, and keep it with the rest of your project."
+            }
+          ]
+        }
+      ],
+      "short": "export"
+    },
+    {
+      "id": "04",
+      "title": "Import it",
+      "subtitle": "On the other site",
+      "clips": [
+        {
+          "id": "04-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "On the other site, open Tools, Deployments, JSON Import to paste a recipe into the editor, or Package Import to upload the file."
+            },
+            {
+              "id": "imp-2",
+              "text": "The import creates the items in the order of the file, and updates the items that already exist. Afterwards, open Connections and re-enter any secret that was left out, and check the default deployments in the settings."
+            }
+          ]
+        }
+      ],
+      "short": "import"
+    },
+    {
+      "id": "05",
+      "title": "Good to know",
+      "subtitle": "A safe move",
+      "clips": [
+        {
+          "id": "05-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Enable the same features on both sites first. A step can only import items that the target site understands."
+            },
+            {
+              "id": "tip-2",
+              "text": "Test the import on a copy before the live site, and keep the exported file out of public places."
+            },
+            {
+              "id": "tip-3",
+              "text": "After the import, run the knowledge steps again: sync data sources, crawlers and file sources on the new site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Build a plan with the AI steps, export it, and import it where you need it, connections first and profiles last. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

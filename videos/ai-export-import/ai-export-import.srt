@@ -1,0 +1,184 @@
+1
+00:00:01,000 --> 00:00:04,571
+You built the assistants on a test site, and now you need them
+
+2
+00:00:04,571 --> 00:00:05,778
+on the live site.
+
+3
+00:00:05,778 --> 00:00:09,034
+This video shows how to export the AI setup of a site in
+
+4
+00:00:09,034 --> 00:00:13,340
+a deployment plan, and how to import it on another site, in the right order.
+
+5
+00:00:17,940 --> 00:00:23,567
+A deployment plan can carry the AI provider connections and deployments, the profiles
+
+6
+00:00:23,567 --> 00:00:27,710
+and their templates, the tool instances and the data sources.
+
+7
+00:00:28,460 --> 00:00:32,655
+It can also carry MCP connections, prompts and resources.
+
+8
+00:00:32,655 --> 00:00:36,850
+Each kind is a step of the plan, and a step exports every
+
+9
+00:00:36,850 --> 00:00:39,380
+item, or only the ones you pick.
+
+10
+00:00:40,130 --> 00:00:44,994
+The same items can be created from a recipe, which is what a plan produces.
+
+11
+00:00:44,994 --> 00:00:49,198
+Knowledge that was uploaded or indexed is content, not settings:
+
+12
+00:00:49,198 --> 00:00:51,600
+it does not travel in these steps.
+
+13
+00:00:55,810 --> 00:00:59,565
+Open Tools, Deployments, Plans, and click Add Plan.
+
+14
+00:00:59,565 --> 00:01:03,320
+Give it a name, such as AI setup, and click Create.
+
+15
+00:01:03,772 --> 00:01:08,633
+The plan page lists every kind of step that the enabled features offer.
+
+16
+00:01:08,633 --> 00:01:13,682
+Click Add on AI Provider Connections, tick Include all, and save the step.
+
+17
+00:01:14,132 --> 00:01:17,027
+Add the AI Deployments step the same way.
+
+18
+00:01:17,027 --> 00:01:21,461
+Then add AI Profiles, and tick only the profiles you want to move.
+
+19
+00:01:21,461 --> 00:01:22,693
+Order matters:
+
+20
+00:01:22,693 --> 00:01:28,790
+connections first, deployments next, and profiles last, because profiles point at the others.
+
+21
+00:01:28,790 --> 00:01:32,485
+Each one is saved as its own step of the plan, and the
+
+22
+00:01:32,485 --> 00:01:34,702
+plan lists them in that order.
+
+23
+00:01:35,153 --> 00:01:41,556
+Add the AI Tool Instances, AI Data Sources and MCP steps when the profiles use them.
+
+24
+00:01:41,556 --> 00:01:46,963
+Each step has an Include all switch, or a list of the items to choose.
+
+25
+00:01:51,143 --> 00:01:55,004
+On the plan page, click Execute and choose File Download.
+
+26
+00:01:55,004 --> 00:01:58,559
+It runs the plan and downloads its result as a file.
+
+27
+00:01:58,559 --> 00:02:00,520
+Treat that file with care:
+
+28
+00:02:00,520 --> 00:02:05,423
+it holds the settings of your assistants, and may hold connection details.
+
+29
+00:02:05,873 --> 00:02:08,099
+The file is a package or a recipe.
+
+30
+00:02:08,099 --> 00:02:11,659
+You can open it in any editor, change it, and keep it with
+
+31
+00:02:11,659 --> 00:02:13,383
+the rest of your project.
+
+32
+00:02:17,577 --> 00:02:22,925
+On the other site, open Tools, Deployments, JSON Import to paste a recipe
+
+33
+00:02:22,925 --> 00:02:26,987
+into the editor, or Package Import to upload the file.
+
+34
+00:02:27,438 --> 00:02:31,650
+The import creates the items in the order of the file, and updates
+
+35
+00:02:31,650 --> 00:02:33,698
+the items that already exist.
+
+36
+00:02:33,698 --> 00:02:38,787
+Afterwards, open Connections and re-enter any secret that was left out, and check
+
+37
+00:02:38,787 --> 00:02:41,478
+the default deployments in the settings.
+
+38
+00:02:45,678 --> 00:02:48,858
+Enable the same features on both sites first.
+
+39
+00:02:48,858 --> 00:02:53,098
+A step can only import items that the target site understands.
+
+40
+00:02:53,848 --> 00:02:58,067
+Test the import on a copy before the live site, and keep the
+
+41
+00:02:58,067 --> 00:03:00,688
+exported file out of public places.
+
+42
+00:03:01,438 --> 00:03:05,134
+After the import, run the knowledge steps again:
+
+43
+00:03:05,134 --> 00:03:09,718
+sync data sources, crawlers and file sources on the new site.
+
+44
+00:03:11,718 --> 00:03:15,725
+Build a plan with the AI steps, export it, and import it where
+
+45
+00:03:15,725 --> 00:03:18,966
+you need it, connections first and profiles last.
+
+46
+00:03:18,966 --> 00:03:20,498
+Thanks for watching.
+

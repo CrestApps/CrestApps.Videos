@@ -1,0 +1,74 @@
+{
+  "title": "Export and Import Your AI Setup With Deployment Plans | CrestApps for Orchard Core",
+  "description": "Move your CrestApps AI assistants from a test site to a live site. This video builds a deployment plan with the AI steps, shows the export and the import, and explains the order: connections, deployments, then profiles.\n\nIn this video:\n• What an AI deployment plan can carry\n• Building a plan: connections, deployments, profiles, tool instances, data sources and MCP\n• Exporting the plan as a file\n• Importing it with JSON Import or Package Import\n• A checklist for a safe move",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI deployment plans",
+    "export import",
+    "AI profiles",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "What can travel"
+    },
+    {
+      "time": "0:52",
+      "title": "Build a plan"
+    },
+    {
+      "time": "1:47",
+      "title": "Export it"
+    },
+    {
+      "time": "2:14",
+      "title": "Import it"
+    },
+    {
+      "time": "2:42",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:10",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/overview"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/connections.md"
+  ],
+  "length": "3:21"
+}
