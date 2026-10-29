@@ -1,0 +1,98 @@
+{
+  "title": "AI Outbound Calls: Let an AI Voice Agent Call Your Contacts | CrestApps for Orchard Core",
+  "description": "An AI voice agent can call your contacts, ask its questions, leave a message and hand a warm customer to a person. An AI call is not a dialer mode: it is an automated activity with a contact, a subject and an AI profile. This video shows how to set it up in the CrestApps Contact Center for Orchard Core, what the agent does before, during and after the call, and where you review the conversation.\n\nIn this video:\n• Why an AI call is not a dialer mode, and Telnyx only\n• The AI profile from a phone template\n• The subject: live agent handoff and dispositions the AI can choose\n• The automatic load: profile, channel and address\n• Screening before each call\n• Voicemail, silence, reconnect, handoff and the recording disclosure\n• Review AI conversation",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "AI voice agent",
+    "outbound calling",
+    "Telnyx",
+    "automated calls",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Not a dialer mode"
+    },
+    {
+      "time": "1:03",
+      "title": "The A.I. profile"
+    },
+    {
+      "time": "1:45",
+      "title": "The subject"
+    },
+    {
+      "time": "2:31",
+      "title": "The automatic load"
+    },
+    {
+      "time": "3:09",
+      "title": "Before the call"
+    },
+    {
+      "time": "3:49",
+      "title": "During the call"
+    },
+    {
+      "time": "4:53",
+      "title": "Recording disclosure"
+    },
+    {
+      "time": "5:15",
+      "title": "After the call"
+    },
+    {
+      "time": "6:02",
+      "title": "Where it fits"
+    },
+    {
+      "time": "6:28",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/automated-ai"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony/telnyx"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telnyx.AiVoice"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/automated-ai.md",
+    "src/CrestApps.Docs/docs/telephony/telnyx.md"
+  ],
+  "length": "6:48"
+}

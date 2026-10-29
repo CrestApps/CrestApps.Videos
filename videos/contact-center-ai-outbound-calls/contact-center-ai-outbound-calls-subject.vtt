@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.170 --> 00:00:07.235
+An outbound subject has no channel or voice settings of its own.
+
+00:00:07.235 --> 00:00:09.268
+It has one card for the A.I.:
+
+00:00:09.268 --> 00:00:10.720
+Live agent handoff.
+
+00:00:10.720 --> 00:00:11.881
+Allow the A.I.
+
+00:00:11.881 --> 00:00:16.470
+to hand off to a live agent, and pick the Handoff queue the call goes to.
+
+00:00:16.924 --> 00:00:19.046
+Escalate when has three boxes:
+
+00:00:19.046 --> 00:00:23.584
+the customer asks for a human, the customer is a qualified, ready lead,
+
+00:00:23.584 --> 00:00:26.413
+and the customer is frustrated or the A.I.
+
+00:00:26.413 --> 00:00:27.474
+cannot help.
+
+00:00:27.474 --> 00:00:30.774
+The agent hands off only for the reasons you tick.
+
+00:00:31.229 --> 00:00:34.200
+The subject flow decides what each outcome does.
+
+00:00:34.200 --> 00:00:39.372
+Every action has a disposition, and When to choose this disposition is the hint the A.I.
+
+00:00:39.372 --> 00:00:41.738
+reads to pick one when the call ends.
+
+00:00:41.738 --> 00:00:44.599
+Write it as a sentence about the conversation.
+

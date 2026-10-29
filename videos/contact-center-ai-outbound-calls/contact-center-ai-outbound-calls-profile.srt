@@ -1,0 +1,40 @@
+1
+00:00:03,192 --> 00:00:07,594
+Open Artificial Intelligence, Profiles, and choose a starting point.
+
+2
+00:00:07,594 --> 00:00:09,854
+The Phone calls group has three:
+
+3
+00:00:09,854 --> 00:00:15,564
+Answer calls at the front desk, Confirm appointments by phone, and Qualify leads by phone.
+
+4
+00:00:15,564 --> 00:00:18,181
+They need the Automated Voice feature.
+
+5
+00:00:18,181 --> 00:00:22,702
+Start Qualify leads by phone, give it a title, and create the profile.
+
+6
+00:00:23,159 --> 00:00:28,961
+The template turns on Start the conversation automatically, and writes an Opening message.
+
+7
+00:00:28,961 --> 00:00:31,499
+A load refuses a profile without it.
+
+8
+00:00:31,499 --> 00:00:35,307
+Edit the message in plain words, with your business name.
+
+9
+00:00:35,307 --> 00:00:39,477
+When a call is not a live audio conversation, this is the first
+
+10
+00:00:39,477 --> 00:00:41,109
+thing the agent says.
+

@@ -1,0 +1,12 @@
+1
+00:00:03,187 --> 00:00:10,551
+In Settings, Contact Center, Recording governance, Tell callers the call is recorded sets the announcement.
+
+2
+00:00:10,551 --> 00:00:16,481
+Have automated voice agents say it first makes the agent say it before anything else.
+
+3
+00:00:16,481 --> 00:00:20,587
+This tab needs the Contact Center Call Recording feature.
+

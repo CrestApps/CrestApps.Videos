@@ -1,0 +1,320 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:01.738
+An A.I.
+
+00:00:01.738 --> 00:00:06.338
+voice agent can call your contacts, ask its questions, leave a message, and
+
+00:00:06.338 --> 00:00:08.553
+hand a warm customer to a person.
+
+00:00:08.553 --> 00:00:12.414
+This video shows how to set it up, what the agent does before,
+
+00:00:12.414 --> 00:00:15.538
+during and after a call, and where you review it.
+
+00:00:15.538 --> 00:00:19.740
+Calls never connect on this demo site, so the live parts use slides.
+
+00:00:24.340 --> 00:00:25.115
+An A.I.
+
+00:00:25.115 --> 00:00:29.288
+call is not a dialer mode, and it does not use a dialer profile.
+
+00:00:29.288 --> 00:00:31.314
+It is an automated activity:
+
+00:00:31.314 --> 00:00:33.639
+a contact, a subject, and an A.I.
+
+00:00:33.639 --> 00:00:34.474
+profile.
+
+00:00:34.474 --> 00:00:39.600
+The agent calls the contact, talks, and records the outcome like a person would.
+
+00:00:40.350 --> 00:00:42.383
+It works with Telnyx only.
+
+00:00:42.383 --> 00:00:45.878
+The Asterisk provider cannot place or answer A.I.
+
+00:00:45.878 --> 00:00:46.640
+calls.
+
+00:00:47.390 --> 00:00:48.634
+Timing matters.
+
+00:00:48.634 --> 00:00:53.845
+A background task starts due automated activities every five minutes, so the first
+
+00:00:53.845 --> 00:00:56.154
+call can wait up to five minutes.
+
+00:00:56.154 --> 00:01:00.358
+A workflow task that places the call starts it at once, and skips
+
+00:01:00.358 --> 00:01:02.490
+the checks you will see later.
+
+00:01:06.682 --> 00:01:11.084
+Open Artificial Intelligence, Profiles, and choose a starting point.
+
+00:01:11.084 --> 00:01:13.344
+The Phone calls group has three:
+
+00:01:13.344 --> 00:01:19.054
+Answer calls at the front desk, Confirm appointments by phone, and Qualify leads by phone.
+
+00:01:19.054 --> 00:01:21.671
+They need the Automated Voice feature.
+
+00:01:21.671 --> 00:01:26.192
+Start Qualify leads by phone, give it a title, and create the profile.
+
+00:01:26.649 --> 00:01:32.451
+The template turns on Start the conversation automatically, and writes an Opening message.
+
+00:01:32.451 --> 00:01:34.989
+A load refuses a profile without it.
+
+00:01:34.989 --> 00:01:38.797
+Edit the message in plain words, with your business name.
+
+00:01:38.797 --> 00:01:42.967
+When a call is not a live audio conversation, this is the first
+
+00:01:42.967 --> 00:01:44.599
+thing the agent says.
+
+00:01:48.769 --> 00:01:52.834
+An outbound subject has no channel or voice settings of its own.
+
+00:01:52.834 --> 00:01:54.867
+It has one card for the A.I.:
+
+00:01:54.867 --> 00:01:56.319
+Live agent handoff.
+
+00:01:56.319 --> 00:01:57.480
+Allow the A.I.
+
+00:01:57.480 --> 00:02:02.069
+to hand off to a live agent, and pick the Handoff queue the call goes to.
+
+00:02:02.523 --> 00:02:04.645
+Escalate when has three boxes:
+
+00:02:04.645 --> 00:02:09.183
+the customer asks for a human, the customer is a qualified, ready lead,
+
+00:02:09.183 --> 00:02:12.012
+and the customer is frustrated or the A.I.
+
+00:02:12.012 --> 00:02:13.072
+cannot help.
+
+00:02:13.072 --> 00:02:16.373
+The agent hands off only for the reasons you tick.
+
+00:02:16.828 --> 00:02:19.799
+The subject flow decides what each outcome does.
+
+00:02:19.799 --> 00:02:24.971
+Every action has a disposition, and When to choose this disposition is the hint the A.I.
+
+00:02:24.971 --> 00:02:27.337
+reads to pick one when the call ends.
+
+00:02:27.337 --> 00:02:30.198
+Write it as a sentence about the conversation.
+
+00:02:34.391 --> 00:02:37.779
+Open Load Activities, and add an Automatic load.
+
+00:02:37.779 --> 00:02:40.289
+Pick the Subject and the Campaign.
+
+00:02:40.289 --> 00:02:41.167
+The A.I.
+
+00:02:41.167 --> 00:02:45.811
+profile is chosen here, because an outbound subject cannot hold one.
+
+00:02:46.266 --> 00:02:47.800
+Channel is Phone.
+
+00:02:47.800 --> 00:02:50.869
+Address is the number the customer sees.
+
+00:02:50.869 --> 00:02:55.673
+Without an address, the Telnyx default outbound caller ID is used.
+
+00:02:55.673 --> 00:02:59.876
+Schedule at holds the first call until a time you choose.
+
+00:03:00.329 --> 00:03:02.579
+Save and load the activities.
+
+00:03:02.579 --> 00:03:08.749
+They wait as automated activities, and the background task starts each one when it is due.
+
+00:03:12.949 --> 00:03:17.149
+Before each call from the background task, the activity is checked.
+
+00:03:17.149 --> 00:03:20.774
+A number known to be out of service cancels the activity.
+
+00:03:20.774 --> 00:03:24.399
+So does a contact who opted out of calls on this channel.
+
+00:03:25.149 --> 00:03:29.906
+With Contact Center Outbound Dialer on, the do-not-call lists are checked too.
+
+00:03:29.906 --> 00:03:35.569
+A calling window is checked only when your administrator has turned it on for automated calls.
+
+00:03:36.319 --> 00:03:40.995
+The first reason is written to the activity's notes, and the activity is
+
+00:03:40.995 --> 00:03:43.333
+cancelled, so it is never dialed.
+
+00:03:43.333 --> 00:03:48.609
+A workflow that places the call starts it directly, and skips all of these checks.
+
+00:03:52.809 --> 00:03:55.759
+The agent greets with the Opening message.
+
+00:03:55.759 --> 00:03:58.831
+If recording is announced, it says so first.
+
+00:03:58.831 --> 00:04:04.054
+With the Contact Center Voice Media feature and a realtime deployment, the call
+
+00:04:04.054 --> 00:04:08.539
+is a live audio conversation, and the model words its own greeting.
+
+00:04:08.539 --> 00:04:12.779
+Without it, each turn is spoken and transcribed through Telnyx.
+
+00:04:13.529 --> 00:04:19.250
+If it reaches a voicemail, it waits for the greeting to end, and leaves one message.
+
+00:04:19.250 --> 00:04:24.589
+If nobody has spoken on a call it placed, silence is treated as voicemail too.
+
+00:04:25.339 --> 00:04:29.750
+If the person goes quiet, the agent asks twice if they are still
+
+00:04:29.750 --> 00:04:32.522
+there, then says goodbye and hangs up.
+
+00:04:32.522 --> 00:04:38.319
+A realtime session that drops is replaced up to two times, with the transcript so far.
+
+00:04:39.069 --> 00:04:43.403
+If the subject allows handoff and a reason you ticked applies, the call
+
+00:04:43.403 --> 00:04:45.204
+goes to the handoff queue.
+
+00:04:45.204 --> 00:04:48.357
+The agent who answers sees a summary, labeled A.I.
+
+00:04:48.357 --> 00:04:50.946
+assistant's summary, written by the A.I.
+
+00:04:50.946 --> 00:04:52.409
+when it handed over.
+
+00:04:56.596 --> 00:05:03.960
+In Settings, Contact Center, Recording governance, Tell callers the call is recorded sets the announcement.
+
+00:05:03.960 --> 00:05:09.891
+Have automated voice agents say it first makes the agent say it before anything else.
+
+00:05:09.891 --> 00:05:13.996
+This tab needs the Contact Center Call Recording feature.
+
+00:05:18.219 --> 00:05:20.302
+Open a contact's activities.
+
+00:05:20.302 --> 00:05:22.936
+A finished call shows who handled it.
+
+00:05:22.936 --> 00:05:24.957
+Dispositioned by reads A.I.
+
+00:05:24.957 --> 00:05:31.144
+voice agent, with the profile name, and the disposition and the notes hold the agent's summary.
+
+00:05:31.144 --> 00:05:33.839
+The call on this demo site is made up.
+
+00:05:34.305 --> 00:05:35.705
+Click Review A.I.
+
+00:05:35.705 --> 00:05:39.236
+conversation to open the full transcript, read only.
+
+00:05:39.236 --> 00:05:42.402
+The button shows when the activity has an A.I.
+
+00:05:42.402 --> 00:05:43.559
+conversation.
+
+00:05:43.559 --> 00:05:44.959
+It needs the A.I.
+
+00:05:44.959 --> 00:05:47.881
+Chat feature, and permission to query A.I.
+
+00:05:47.881 --> 00:05:50.195
+profiles and to list activities.
+
+00:05:51.795 --> 00:05:56.106
+An activity that screening cancelled never reaches the agent.
+
+00:05:56.106 --> 00:06:01.255
+It is cancelled, and the reason, such as an opt-out, is kept in its notes.
+
+00:06:05.455 --> 00:06:07.168
+Confirm appointments:
+
+00:06:07.168 --> 00:06:12.245
+call each customer, note cancellations, and transfer changes to your team.
+
+00:06:12.995 --> 00:06:14.213
+Qualify leads:
+
+00:06:14.213 --> 00:06:19.028
+call people who asked for information, learn what they need and when, and
+
+00:06:19.028 --> 00:06:20.795
+transfer the good fits.
+
+00:06:21.545 --> 00:06:23.297
+Follow up after hours:
+
+00:06:23.297 --> 00:06:27.805
+use a schedule so calls go out at a time that suits your contacts.
+
+00:06:29.805 --> 00:06:30.608
+An A.I.
+
+00:06:30.608 --> 00:06:32.831
+call is an automated activity:
+
+00:06:32.831 --> 00:06:39.255
+a profile with an opening message, a subject with handoff and dispositions, and an automatic load.
+
+00:06:39.255 --> 00:06:42.529
+Telnyx places it, and you review it afterwards.
+
+00:06:42.529 --> 00:06:44.135
+Thanks for watching.
+

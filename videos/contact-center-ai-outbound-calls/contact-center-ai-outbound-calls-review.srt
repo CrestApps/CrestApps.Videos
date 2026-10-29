@@ -1,0 +1,56 @@
+1
+00:00:03,223 --> 00:00:05,305
+Open a contact's activities.
+
+2
+00:00:05,305 --> 00:00:07,939
+A finished call shows who handled it.
+
+3
+00:00:07,939 --> 00:00:09,961
+Dispositioned by reads A.I.
+
+4
+00:00:09,961 --> 00:00:16,147
+voice agent, with the profile name, and the disposition and the notes hold the agent's summary.
+
+5
+00:00:16,147 --> 00:00:18,843
+The call on this demo site is made up.
+
+6
+00:00:19,308 --> 00:00:20,709
+Click Review A.I.
+
+7
+00:00:20,709 --> 00:00:24,240
+conversation to open the full transcript, read only.
+
+8
+00:00:24,240 --> 00:00:27,406
+The button shows when the activity has an A.I.
+
+9
+00:00:27,406 --> 00:00:28,562
+conversation.
+
+10
+00:00:28,562 --> 00:00:29,963
+It needs the A.I.
+
+11
+00:00:29,963 --> 00:00:32,885
+Chat feature, and permission to query A.I.
+
+12
+00:00:32,885 --> 00:00:35,198
+profiles and to list activities.
+
+13
+00:00:36,798 --> 00:00:41,110
+An activity that screening cancelled never reaches the agent.
+
+14
+00:00:41,110 --> 00:00:46,258
+It is cancelled, and the reason, such as an opt-out, is kept in its notes.
+
