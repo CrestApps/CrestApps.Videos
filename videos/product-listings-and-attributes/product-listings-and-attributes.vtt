@@ -1,0 +1,209 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.635
+Filters, sorts and search come from the fields of your product types.
+
+00:00:05.635 --> 00:00:09.591
+This video shows how to choose what a field is for, how to
+
+00:00:09.591 --> 00:00:15.400
+set up a listing page with its filters, sorts, layout and paging, and what visitors see.
+
+00:00:20.000 --> 00:00:23.334
+A catalog of nine products is easy to browse.
+
+00:00:23.334 --> 00:00:27.715
+A catalog of nine hundred is only as good as its filters, its
+
+00:00:27.715 --> 00:00:29.480
+sorts and its search.
+
+00:00:30.230 --> 00:00:33.866
+What shoppers filter on depends on what you sell:
+
+00:00:33.866 --> 00:00:38.890
+a shirt's color and size, a home's bedrooms, a car's year and mileage.
+
+00:00:39.640 --> 00:00:43.424
+In CrestApps, those are the fields of your product types.
+
+00:00:43.424 --> 00:00:47.748
+You choose which ones take part, and a listing page offers them as
+
+00:00:47.748 --> 00:00:49.670
+filters, sorts and search.
+
+00:00:50.420 --> 00:00:56.320
+The same fields can show as chips on a product's card, and in its specification table.
+
+00:01:00.520 --> 00:01:04.358
+A field of a product type has a Product listing section:
+
+00:01:04.358 --> 00:01:08.630
+Filterable, Sortable, Searchable, and where its value is shown.
+
+00:01:09.380 --> 00:01:14.523
+A listing page, under Commerce, Product Listings, chooses which product types it lists,
+
+00:01:14.523 --> 00:01:17.730
+which filters and sorts it offers, and how it looks.
+
+00:01:18.480 --> 00:01:25.460
+Visitors filter, sort, search, switch between grid and list, and page through the products.
+
+00:01:26.210 --> 00:01:32.110
+A taxonomy gives categories and brands, one filter for each level of its tree.
+
+00:01:36.284 --> 00:01:41.385
+Open Content, Content Definition, Content Types, and edit a product type.
+
+00:01:41.385 --> 00:01:45.712
+To give it something to filter on, click Add Field, and add a
+
+00:01:45.712 --> 00:01:47.584
+Text field named Brand.
+
+00:01:52.026 --> 00:01:54.188
+Click Edit next to the field.
+
+00:01:54.188 --> 00:01:58.202
+In the Product listing section, tick what the field is for:
+
+00:01:58.202 --> 00:02:03.884
+Filterable, so visitors can filter by it, Sortable, Searchable for the keyword search,
+
+00:02:03.884 --> 00:02:07.343
+Show on product cards, and Show in specifications.
+
+00:02:07.343 --> 00:02:10.246
+A Listing label is the name visitors see.
+
+00:02:10.721 --> 00:02:15.668
+Number fields also take a format and a unit, such as mi or sq ft.
+
+00:02:15.668 --> 00:02:20.825
+Text and taxonomy fields can have swatch colors, one for each value.
+
+00:02:20.825 --> 00:02:21.591
+Save.
+
+00:02:25.804 --> 00:02:28.912
+On a product, the new field is in the editor.
+
+00:02:28.912 --> 00:02:31.046
+Enter the brand, and publish.
+
+00:02:31.046 --> 00:02:35.313
+The price, the type, whether it is featured and whether it is in
+
+00:02:35.313 --> 00:02:39.824
+stock are always available to filter and sort by, without any field.
+
+00:02:44.024 --> 00:02:47.745
+Open Commerce, Product Listings, and edit the listing.
+
+00:02:47.745 --> 00:02:52.024
+Products chooses every product type, or only the ones you tick.
+
+00:02:52.024 --> 00:02:56.985
+Leave Offer a filter for every filterable field ticked to offer one filter
+
+00:02:56.985 --> 00:03:01.450
+for each, or untick it to choose the filters yourself, with a Kind
+
+00:03:01.450 --> 00:03:03.124
+and a Style for each.
+
+00:03:03.575 --> 00:03:06.267
+Sorting lets visitors change the sort.
+
+00:03:06.267 --> 00:03:09.570
+Leave the standard sorts ticked, or choose them.
+
+00:03:09.570 --> 00:03:12.935
+The Default sort is the order visitors see first.
+
+00:03:13.387 --> 00:03:17.642
+Layout and paging chooses a grid or a list, the shape of the
+
+00:03:17.642 --> 00:03:22.349
+images, the page sizes, and how visitors move through the products:
+
+00:03:22.349 --> 00:03:26.282
+numbered pages, a Load more button, or infinite scroll.
+
+00:03:26.282 --> 00:03:28.797
+Keyword search adds a search box.
+
+00:03:28.797 --> 00:03:30.087
+Click Publish.
+
+00:03:34.387 --> 00:03:38.436
+On the shop, the Brand field is a filter, with a count for
+
+00:03:38.436 --> 00:03:41.727
+each value, and a chip on each product's card.
+
+00:03:42.198 --> 00:03:46.481
+Visitors sort by the new field, switch between grid and list, and move
+
+00:03:46.481 --> 00:03:49.468
+through the products with the paging you chose.
+
+00:03:53.668 --> 00:03:58.953
+A number can be filtered by a range, with ready made ranges worked
+
+00:03:58.953 --> 00:04:03.725
+out from your products, or ones you type, such as up to 25,
+
+00:04:03.725 --> 00:04:05.928
+25 to 75, and 75 and up.
+
+00:04:06.678 --> 00:04:10.487
+Text and taxonomy values can be drawn as color swatches.
+
+00:04:10.487 --> 00:04:14.787
+A taxonomy such as Make and model gives a filter for each level,
+
+00:04:14.787 --> 00:04:18.658
+and Shown after makes Model appear once a Make is picked.
+
+00:04:19.408 --> 00:04:24.078
+Each product type's page, its layout and its search engine details can be
+
+00:04:24.078 --> 00:04:28.748
+set, and a keyword search can use a search index instead of the database.
+
+00:04:29.498 --> 00:04:35.808
+The real estate and vehicle samples show listings with their own fields, filters and layouts.
+
+00:04:40.008 --> 00:04:40.956
+A shop:
+
+00:04:40.956 --> 00:04:45.188
+brand, size and color filters, with the price range.
+
+00:04:45.938 --> 00:04:46.818
+Homes:
+
+00:04:46.818 --> 00:04:51.148
+bedrooms and square feet as ranges, in a list layout.
+
+00:04:51.898 --> 00:04:52.747
+Cars:
+
+00:04:52.747 --> 00:04:55.838
+make then model, year and mileage.
+
+00:04:56.588 --> 00:04:58.626
+A short list of plans:
+
+00:04:58.626 --> 00:05:01.248
+no filters, only the products.
+
+00:05:03.248 --> 00:05:08.061
+Choose the fields, set up the listing, and let shoppers find what they want.
+
+00:05:08.061 --> 00:05:09.588
+Thanks for watching.
+
