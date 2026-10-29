@@ -1,0 +1,90 @@
+{
+  "title": "Contact Center Secure Data Capture: Let the Customer Type the Card Number | CrestApps for Orchard Core",
+  "description": "When a customer reads a card number aloud, the agent hears it and the recording keeps it. Secure data capture in CrestApps for Orchard Core takes the agent out of that moment: the agent sends a one-time link, the customer types the value on a secure page on their own device, and only a masked reference is kept.\n\nIn this video:\n• Why secure capture\n• The Secure Data Capture settings\n• The agent sends the link from the workspace\n• The customer's secure page, with the standard test card\n• What is kept\n• What a production site needs: a tokenization provider\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "SecureCapture",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "secure data capture",
+    "PCI DSS",
+    "card payments by phone",
+    "tokenization",
+    "call recording",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why secure capture"
+    },
+    {
+      "time": "0:59",
+      "title": "Turn it on"
+    },
+    {
+      "time": "1:36",
+      "title": "The agent sends the link"
+    },
+    {
+      "time": "2:24",
+      "title": "The customer's page"
+    },
+    {
+      "time": "3:01",
+      "title": "What is kept"
+    },
+    {
+      "time": "3:37",
+      "title": "Production sites"
+    },
+    {
+      "time": "4:08",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:39",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/agent-workspace"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agent-desktop"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.SecureCapture"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/agent-workspace.md",
+    "src/CrestApps.Docs/docs/user-manual/contact-center-settings.md"
+  ],
+  "length": "4:50"
+}
