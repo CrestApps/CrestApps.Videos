@@ -1,0 +1,36 @@
+1
+00:00:03,300 --> 00:00:06,757
+To group choices, use the action Open a submenu.
+
+2
+00:00:06,757 --> 00:00:10,853
+Key 4, for billing, now opens a menu of its own, which you
+
+3
+00:00:10,853 --> 00:00:12,582
+fill in the same way:
+
+4
+00:00:12,582 --> 00:00:14,630
+a prompt and its own keys.
+
+5
+00:00:15,088 --> 00:00:19,518
+In the submenu, key 1 sends callers to the Billing queue.
+
+6
+00:00:19,518 --> 00:00:24,018
+Key 0 uses Go to another menu, to return to the main menu.
+
+7
+00:00:27,565 --> 00:00:30,138
+Repeat this menu plays the prompt again.
+
+8
+00:00:30,138 --> 00:00:34,612
+Transfer to an approved external number connects the caller to a number on
+
+9
+00:00:34,612 --> 00:00:38,415
+the approved destinations list in the Contact Center settings.
+

@@ -1,0 +1,48 @@
+1
+00:00:03,300 --> 00:00:05,661
+Click Build an IVR menu.
+
+2
+00:00:05,661 --> 00:00:10,620
+A Main menu appears, marked First menu, with one key row.
+
+3
+00:00:11,183 --> 00:00:15,577
+In What callers hear, type the prompt, and mention every key:
+
+4
+00:00:15,577 --> 00:00:19,578
+press 1 for sales, 2 for support, 3 to talk to Jamie, 4
+
+5
+00:00:19,578 --> 00:00:22,463
+for billing, and 9 to leave a message.
+
+6
+00:00:23,188 --> 00:00:27,531
+For each choice, set the Key, the Action and the Target.
+
+7
+00:00:27,531 --> 00:00:31,384
+Key 1 uses Send to a queue, with the Sales queue.
+
+8
+00:00:31,384 --> 00:00:35,378
+Click Add key, and key 2 goes to the Support queue.
+
+9
+00:00:40,656 --> 00:00:44,212
+Key 3 uses Send to an agent, and key 9 uses Send to
+
+10
+00:00:44,212 --> 00:00:48,766
+voicemail, which follows the voicemail settings of the entry point.
+
+11
+00:00:55,706 --> 00:00:59,179
+Instead of speaking the text, pick a Recorded prompt.
+
+12
+00:00:59,179 --> 00:01:01,946
+It lists the recordings from Voice media.
+

@@ -1,0 +1,40 @@
+1
+00:00:03,300 --> 00:00:08,584
+At the top, Tries is how many wrong or missing keys a caller is allowed.
+
+2
+00:00:08,584 --> 00:00:12,920
+A wrong key, no key, or Repeat this menu each use one try.
+
+3
+00:00:13,684 --> 00:00:18,493
+When the tries run out, the default is Route to the entry point target.
+
+4
+00:00:18,493 --> 00:00:23,864
+You can send the caller to a queue, an agent, voicemail or another menu instead.
+
+5
+00:00:46,386 --> 00:00:50,896
+The builder counts the problems it finds, and the entry point does not
+
+6
+00:00:50,896 --> 00:00:52,795
+save until they are fixed.
+
+7
+00:00:52,795 --> 00:00:56,711
+A menu needs a prompt and at least one key, and queue, agent
+
+8
+00:00:56,711 --> 00:00:58,966
+and transfer keys need a target.
+
+9
+00:00:59,420 --> 00:01:00,467
+Click Save.
+
+10
+00:01:00,467 --> 00:01:05,520
+Callers hear the menu straight away, and only while the entry point is open.
+

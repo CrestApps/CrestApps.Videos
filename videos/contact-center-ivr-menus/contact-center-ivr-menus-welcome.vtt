@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:07.126
+Open the entry point, and find the Welcome and IVR menu card.
+
+00:00:07.126 --> 00:00:11.465
+The Welcome message is spoken once to every caller who rings while the
+
+00:00:11.465 --> 00:00:12.950
+entry point is open.
+
+00:00:14.163 --> 00:00:16.326
+It plays before the first menu.
+
+00:00:16.326 --> 00:00:20.710
+With no menu, it plays before the caller is put through to the queue.
+
+00:00:20.710 --> 00:00:25.853
+The queue has a welcome message of its own, spoken when the caller starts waiting.
+

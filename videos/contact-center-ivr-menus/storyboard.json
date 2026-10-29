@@ -1,0 +1,283 @@
+{
+  "title": "IVR menus",
+  "output": "contact-center-ivr-menus",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "IVR": "I.V.R.",
+    "Telnyx": "Tel nix"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "IVR menus",
+      "subtitle": "Let callers choose where their call goes",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An I.V.R. menu lets callers choose where their call goes by pressing a key. This video shows the welcome message and the phone menu of an inbound entry point: how to build a menu with submenus, what happens when a caller makes a mistake, and how an AI voice agent can answer instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a phone menu",
+      "subtitle": "Callers reach the right team by themselves",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Without a menu, every caller reaches the same queue, and agents spend the first minute sending people to the right team."
+            },
+            {
+              "id": "why-2",
+              "text": "A phone menu lets the caller choose: press 1 for sales, press 2 for support. The call then reaches the right queue or person by itself."
+            },
+            {
+              "id": "why-3",
+              "text": "A welcome message greets every caller before the menu, so they know they reached the right company."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How a menu works",
+      "subtitle": "Prompts, keys and actions",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A menu is a prompt and a list of keys. The prompt is spoken to the caller, or a recording from Voice media plays instead."
+            },
+            {
+              "id": "how-2",
+              "text": "Each key has an action: send to a queue, send to an agent, open a submenu, go to another menu, send to voicemail, transfer to an approved external number, or repeat the menu."
+            },
+            {
+              "id": "how-3",
+              "text": "Tries limit how many wrong or missing keys a caller gets, and a fallback says where the caller goes when the tries run out. Callers answer with the keypad. Speech input is not supported."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The welcome message",
+      "subtitle": "Said once to every caller",
+      "clips": [
+        {
+          "id": "03-welcome",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wel-1",
+              "text": "Open the entry point, and find the Welcome and IVR menu card. The Welcome message is spoken once to every caller who rings while the entry point is open."
+            },
+            {
+              "id": "wel-2",
+              "text": "It plays before the first menu. With no menu, it plays before the caller is put through to the queue. The queue has a welcome message of its own, spoken when the caller starts waiting."
+            }
+          ]
+        }
+      ],
+      "short": "welcome"
+    },
+    {
+      "id": "04",
+      "title": "Build a menu",
+      "subtitle": "A prompt and a key for each choice",
+      "clips": [
+        {
+          "id": "04-build",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bld-1",
+              "text": "Click Build an IVR menu. A Main menu appears, marked First menu, with one key row."
+            },
+            {
+              "id": "bld-2",
+              "text": "In What callers hear, type the prompt, and mention every key: press 1 for sales, 2 for support, 3 to talk to Jamie, 4 for billing, and 9 to leave a message."
+            },
+            {
+              "id": "bld-3",
+              "text": "For each choice, set the Key, the Action and the Target. Key 1 uses Send to a queue, with the Sales queue. Click Add key, and key 2 goes to the Support queue."
+            },
+            {
+              "id": "bld-4",
+              "text": "Key 3 uses Send to an agent, and key 9 uses Send to voicemail, which follows the voicemail settings of the entry point."
+            },
+            {
+              "id": "bld-5",
+              "text": "Instead of speaking the text, pick a Recorded prompt. It lists the recordings from Voice media."
+            }
+          ]
+        }
+      ],
+      "short": "build"
+    },
+    {
+      "id": "05",
+      "title": "Submenus",
+      "subtitle": "Menus that open other menus",
+      "clips": [
+        {
+          "id": "05-submenus",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sub-1",
+              "text": "To group choices, use the action Open a submenu. Key 4, for billing, now opens a menu of its own, which you fill in the same way: a prompt and its own keys."
+            },
+            {
+              "id": "sub-2",
+              "text": "In the submenu, key 1 sends callers to the Billing queue. Key 0 uses Go to another menu, to return to the main menu."
+            },
+            {
+              "id": "sub-3",
+              "text": "Repeat this menu plays the prompt again. Transfer to an approved external number connects the caller to a number on the approved destinations list in the Contact Center settings."
+            }
+          ]
+        }
+      ],
+      "short": "submenus"
+    },
+    {
+      "id": "06",
+      "title": "Tries and problems",
+      "subtitle": "Mistakes callers make, and mistakes you make",
+      "clips": [
+        {
+          "id": "06-tries",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "try-1",
+              "text": "At the top, Tries is how many wrong or missing keys a caller is allowed. A wrong key, no key, or Repeat this menu each use one try."
+            },
+            {
+              "id": "try-2",
+              "text": "When the tries run out, the default is Route to the entry point target. You can send the caller to a queue, an agent, voicemail or another menu instead."
+            },
+            {
+              "id": "try-3",
+              "text": "The builder counts the problems it finds, and the entry point does not save until they are fixed. A menu needs a prompt and at least one key, and queue, agent and transfer keys need a target."
+            },
+            {
+              "id": "try-4",
+              "text": "Click Save. Callers hear the menu straight away, and only while the entry point is open."
+            }
+          ]
+        }
+      ],
+      "short": "tries"
+    },
+    {
+      "id": "07",
+      "title": "An AI voice agent",
+      "subtitle": "Let an AI answer the call",
+      "clips": [
+        {
+          "id": "07-ai",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ai-1",
+              "text": "Instead of a menu, a call entry point can hand its calls to an AI voice agent: an AI profile that greets the caller and holds the conversation."
+            },
+            {
+              "id": "ai-2",
+              "text": "When the Telnyx AI Voice Agent feature is on, Route to on the Routing card offers AI voice agent, with the AI agent profile to pick. The welcome message and the menu are not used."
+            },
+            {
+              "id": "ai-3",
+              "text": "The AI can pass a caller to a person with the hand-off set on the subject flow. While the entry point is closed, callers go to voicemail, or are refused when the closed action is Reject."
+            }
+          ]
+        }
+      ],
+      "short": "ai"
+    },
+    {
+      "id": "08",
+      "title": "What callers hear",
+      "subtitle": "From the first ring to the queue",
+      "clips": [
+        {
+          "id": "08-callers",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "cal-1",
+              "text": "A caller rings an open entry point, hears the welcome message once, then the main menu. A key moves them to the choice you set."
+            },
+            {
+              "id": "cal-2",
+              "text": "A wrong key plays the menu again until the tries run out. A choice that cannot be reached, such as a disabled queue, sends the caller to the entry point target, and then to voicemail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where a phone menu helps",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A small business with one number: press 1 for sales, 2 for support."
+            },
+            {
+              "id": "use-2",
+              "text": "A clinic with a billing submenu, so callers pick invoices or payments."
+            },
+            {
+              "id": "use-3",
+              "text": "A team that is often busy, with a key that leaves a voicemail."
+            },
+            {
+              "id": "use-4",
+              "text": "A company that wants a greeting recorded by a person, using a Recorded prompt from Voice media."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Write the prompt, give each key an action, and callers reach the right queue or person without help. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
