@@ -1,0 +1,28 @@
+1
+00:00:03,188 --> 00:00:08,448
+Listen to recordings on Interaction Center, Call recordings, which you reach with the
+
+2
+00:00:08,448 --> 00:00:12,147
+permission to listen to your own, or anyone's, recordings.
+
+3
+00:00:12,147 --> 00:00:16,888
+Here there are no recordings, because no call can connect on this demo site.
+
+4
+00:00:17,344 --> 00:00:21,214
+Voice media clips keep their master copy in the same store.
+
+5
+00:00:21,214 --> 00:00:24,489
+Open Interaction Center, Management, Voice Media:
+
+6
+00:00:24,489 --> 00:00:28,776
+the badges show whether a clip has its master copy and whether the
+
+7
+00:00:28,776 --> 00:00:30,444
+provider holds a copy.
+
