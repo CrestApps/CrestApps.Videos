@@ -1,0 +1,32 @@
+1
+00:00:03,189 --> 00:00:10,099
+To create an activity yourself, open the contact, click List Activities, then Add Activity, Outbound.
+
+2
+00:00:11,716 --> 00:00:16,339
+Pick the subject, choose when to call, who the activity is assigned to,
+
+3
+00:00:16,339 --> 00:00:18,741
+the urgency, and any instructions.
+
+4
+00:00:18,741 --> 00:00:23,905
+The subject's own fields are filled in later, by whoever completes the activity.
+
+5
+00:00:23,905 --> 00:00:26,306
+Only outbound subjects are listed.
+
+6
+00:00:26,757 --> 00:00:27,720
+Click Save.
+
+7
+00:00:27,720 --> 00:00:32,537
+The activity appears under Scheduled Activities on the contact, and in the list
+
+8
+00:00:32,537 --> 00:00:34,577
+of the user it is assigned to.
+

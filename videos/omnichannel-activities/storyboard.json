@@ -1,0 +1,242 @@
+{
+  "title": "Omnichannel Activities",
+  "output": "omnichannel-activities",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Working Activities",
+      "subtitle": "From the work list to the next try",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows how an agent works activities in the Omnichannel contact center: the activity list, completing an activity with a disposition, scheduling an outbound activity, logging an inbound call, and editing or purging activities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why activities",
+      "subtitle": "One piece of work for one contact",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An activity is one piece of work for one contact: a call to make, a text to send, or an inbound call to log."
+            },
+            {
+              "id": "why-2",
+              "text": "Every activity belongs to a subject, and the subject's flow decides what happens when the agent picks a disposition."
+            },
+            {
+              "id": "why-3",
+              "text": "So the agent only records what happened. The system schedules the next try, creates the follow-up, or closes the work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Your activity list",
+      "subtitle": "Who to work next",
+      "clips": [
+        {
+          "id": "02-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Interaction Center, Activities. The list shows the manual activities assigned to you that are not started yet. Each row shows the subject, when it is scheduled, the contact, the number, the channel, and the contact's current local time, so you know whether it is a good time to call. The activity scheduled furthest ahead is listed first."
+            },
+            {
+              "id": "list-2",
+              "text": "Badges also show the campaign and who it is assigned to. Narrow the list with the filters: urgency, subject, channel, time zone, attempts and schedule. Here, filtering by the Test Drive Follow-up subject leaves only those activities."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "03",
+      "title": "Complete an activity",
+      "subtitle": "Notes, disposition and what happens next",
+      "clips": [
+        {
+          "id": "03-complete",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "complete-1",
+              "text": "Click Complete on an activity. The page shows the contact, the subject's fields and the activity details. Call or text the contact, then fill in the subject's fields, here the vehicle the customer wants."
+            },
+            {
+              "id": "complete-2",
+              "text": "Add notes and pick the disposition. Before you save, the page shows what the disposition will do. No Answer runs a Try Again action, so the next attempt is scheduled for tomorrow, and you can change when. Click Complete, and the subject flow runs straight away."
+            },
+            {
+              "id": "complete-3",
+              "text": "Test Drive Booked creates a new activity for another subject. You can change its Schedule at time and add Preparation notes, which become the instructions of the follow-up for whoever works it."
+            }
+          ]
+        }
+      ],
+      "short": "complete"
+    },
+    {
+      "id": "04",
+      "title": "Schedule an outbound activity",
+      "subtitle": "Add Activity from a contact",
+      "clips": [
+        {
+          "id": "04-outbound",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "outbound-1",
+              "text": "To create an activity yourself, open the contact, click List Activities, then Add Activity, Outbound."
+            },
+            {
+              "id": "outbound-2",
+              "text": "Pick the subject, choose when to call, who the activity is assigned to, the urgency, and any instructions. The subject's own fields are filled in later, by whoever completes the activity. Only outbound subjects are listed."
+            },
+            {
+              "id": "outbound-3",
+              "text": "Click Save. The activity appears under Scheduled Activities on the contact, and in the list of the user it is assigned to."
+            }
+          ]
+        }
+      ],
+      "short": "outbound"
+    },
+    {
+      "id": "05",
+      "title": "Log an inbound call",
+      "subtitle": "The customer called you",
+      "clips": [
+        {
+          "id": "05-inbound",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inbound-1",
+              "text": "When a customer calls you, search Contacts for the number with the phone term, open the contact, then choose Add Activity, Inbound. If the caller is not in the system yet, create the contact first."
+            },
+            {
+              "id": "inbound-2",
+              "text": "Fill in the subject's fields, add notes and pick the disposition. Only the dispositions that the inbound subject's flow has an action for are listed."
+            },
+            {
+              "id": "inbound-3",
+              "text": "The workflow results show what the disposition does, for example a follow-up call two days later. Click Log Activity, and the activity is saved as completed by you."
+            }
+          ]
+        }
+      ],
+      "short": "inbound"
+    },
+    {
+      "id": "06",
+      "title": "Edit and purge",
+      "subtitle": "Fix a mistake, or take work out",
+      "clips": [
+        {
+          "id": "06-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "manage-1",
+              "text": "A contact's activities page lists the scheduled activities, which can be completed, edited or purged, and the completed ones. A completed activity shows who dispositioned it: a person, the dialer, or an AI agent."
+            },
+            {
+              "id": "manage-2",
+              "text": "Purge takes a scheduled activity out of the work for good, and it cannot be undone. The activity is kept with the status Purged, and who purged it and when."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "07",
+      "title": "AI conversations and handoffs",
+      "subtitle": "Reviewing what an AI did",
+      "clips": [
+        {
+          "id": "07-ai",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ai-1",
+              "text": "When an automated activity concludes, the completed activity says Dispositioned by the AI agent, with its profile, and Review AI conversation opens the transcript."
+            },
+            {
+              "id": "ai-2",
+              "text": "When the AI hands a customer to a person, the activity carries the AI assistant's summary in a banner, so the agent starts with the whole story."
+            },
+            {
+              "id": "ai-3",
+              "text": "If an activity is already finished when you save, you are sent back with a warning and the outcome already on record is kept."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Work a call list in the best order, using each contact's local time."
+            },
+            {
+              "id": "use-2",
+              "text": "Record every call the same way, so the next step happens on its own."
+            },
+            {
+              "id": "use-3",
+              "text": "Log inbound calls, even from customers who are not in the system yet."
+            },
+            {
+              "id": "use-4",
+              "text": "Review what the AI did, and step in when it hands over."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Work the list, record the outcome with a disposition, and let the subject flow schedule what comes next. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

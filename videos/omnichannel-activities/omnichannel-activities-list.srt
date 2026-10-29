@@ -1,0 +1,40 @@
+1
+00:00:03,172 --> 00:00:05,597
+Open Interaction Center, Activities.
+
+2
+00:00:05,597 --> 00:00:10,449
+The list shows the manual activities assigned to you that are not started yet.
+
+3
+00:00:10,449 --> 00:00:15,069
+Each row shows the subject, when it is scheduled, the contact, the number,
+
+4
+00:00:15,069 --> 00:00:19,631
+the channel, and the contact's current local time, so you know whether it
+
+5
+00:00:19,631 --> 00:00:21,306
+is a good time to call.
+
+6
+00:00:21,306 --> 00:00:24,772
+The activity scheduled furthest ahead is listed first.
+
+7
+00:00:25,224 --> 00:00:29,476
+Badges also show the campaign and who it is assigned to.
+
+8
+00:00:29,476 --> 00:00:32,151
+Narrow the list with the filters:
+
+9
+00:00:32,151 --> 00:00:36,677
+urgency, subject, channel, time zone, attempts and schedule.
+
+10
+00:00:36,677 --> 00:00:42,644
+Here, filtering by the Test Drive Follow-up subject leaves only those activities.
+

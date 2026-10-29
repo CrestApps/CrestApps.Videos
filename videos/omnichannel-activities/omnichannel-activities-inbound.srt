@@ -1,0 +1,28 @@
+1
+00:00:03,184 --> 00:00:07,754
+When a customer calls you, search Contacts for the number with the phone
+
+2
+00:00:07,754 --> 00:00:11,504
+term, open the contact, then choose Add Activity, Inbound.
+
+3
+00:00:11,504 --> 00:00:15,664
+If the caller is not in the system yet, create the contact first.
+
+4
+00:00:17,409 --> 00:00:21,584
+Fill in the subject's fields, add notes and pick the disposition.
+
+5
+00:00:21,584 --> 00:00:26,819
+Only the dispositions that the inbound subject's flow has an action for are listed.
+
+6
+00:00:27,689 --> 00:00:33,893
+The workflow results show what the disposition does, for example a follow-up call two days later.
+
+7
+00:00:33,893 --> 00:00:38,229
+Click Log Activity, and the activity is saved as completed by you.
+
