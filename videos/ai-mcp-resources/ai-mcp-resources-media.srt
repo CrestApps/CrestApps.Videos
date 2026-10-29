@@ -1,0 +1,28 @@
+1
+00:00:03,211 --> 00:00:07,110
+A Media resource shares files of the media library.
+
+2
+00:00:07,110 --> 00:00:10,121
+Click Add Resource, then Add on Media.
+
+3
+00:00:10,605 --> 00:00:12,482
+Fill in the same fields.
+
+4
+00:00:12,482 --> 00:00:17,426
+In the Path, the placeholder path in curly braces stands for the location
+
+5
+00:00:17,426 --> 00:00:21,745
+of a file in the media library, so an app can ask for any file.
+
+6
+00:00:22,212 --> 00:00:27,375
+To share a single file instead, replace the placeholder with its location.
+
+7
+00:00:27,375 --> 00:00:28,472
+Click Save.
+

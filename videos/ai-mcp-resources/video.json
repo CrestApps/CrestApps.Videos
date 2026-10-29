@@ -1,0 +1,86 @@
+{
+  "title": "MCP Resources: Share Files and Data with AI Apps | CrestApps for Orchard Core",
+  "description": "Resources are files and data that other AI apps can read from your Orchard Core site through the Model Context Protocol (MCP) server. Add a resource once, and every connected AI app reads the current version instead of a pasted copy.\n\nIn this video:\n• Why resources keep AI apps working from current files\n• The resource types: File, Media, FTP/FTPS, SFTP and the Recipe types\n• Adding a File resource with a path placeholder and a MIME type\n• Sharing files of the media library\n• Reading files from an SFTP or FTP server\n• Use cases and sharing with care",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "MCP",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "Model Context Protocol",
+    "MCP resources",
+    "MCP server",
+    "AI tools",
+    "SFTP",
+    "FTP",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why resources"
+    },
+    {
+      "time": "0:51",
+      "title": "The resource types"
+    },
+    {
+      "time": "1:33",
+      "title": "Share a file"
+    },
+    {
+      "time": "2:16",
+      "title": "Share media"
+    },
+    {
+      "time": "2:46",
+      "title": "Share files from a file server"
+    },
+    {
+      "time": "3:48",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:21",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/mcp"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/mcp/server"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Mcp.Server"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/mcp.md",
+    "src/CrestApps.Docs/docs/ai/mcp/server.md"
+  ],
+  "length": "4:32"
+}

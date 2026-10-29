@@ -1,0 +1,52 @@
+1
+00:00:03,178 --> 00:00:04,635
+Click Add on File.
+
+2
+00:00:04,635 --> 00:00:08,640
+Enter a Display Text, which is the name you see in the list,
+
+3
+00:00:08,640 --> 00:00:12,038
+and a Name, which identifies the resource to apps.
+
+4
+00:00:12,489 --> 00:00:15,701
+Add a Description that says what the file holds.
+
+5
+00:00:15,701 --> 00:00:19,449
+AI apps read it to decide whether the resource is useful.
+
+6
+00:00:19,907 --> 00:00:23,672
+The MIME Type tells the app what kind of content it is.
+
+7
+00:00:23,672 --> 00:00:25,647
+Plain text is the default.
+
+8
+00:00:26,101 --> 00:00:30,084
+The Path points to the file, and the Full URI line shows the
+
+9
+00:00:30,084 --> 00:00:31,774
+address that apps use.
+
+10
+00:00:31,774 --> 00:00:35,696
+A placeholder in curly braces turns one resource into many:
+
+11
+00:00:35,696 --> 00:00:38,171
+the app fills in the file it wants.
+
+12
+00:00:38,624 --> 00:00:39,732
+Click Save.
+
+13
+00:00:39,732 --> 00:00:42,534
+The resource is listed with its type.
+

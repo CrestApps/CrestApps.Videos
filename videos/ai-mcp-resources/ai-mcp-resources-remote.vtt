@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:03.231 --> 00:00:07.586
+SFTP and FTP resources read from a file server.
+
+00:00:07.586 --> 00:00:13.750
+Click Add Resource, then Add on SFTP, and give the resource a Display
+
+00:00:13.750 --> 00:00:16.791
+Text, a Name and a Description.
+
+00:00:17.301 --> 00:00:23.321
+Enter the Host, the Port, which is 22 by default, and the Username of the server.
+
+00:00:23.777 --> 00:00:28.400
+Sign in with a Password, or with a Private Key and its Passphrase.
+
+00:00:28.400 --> 00:00:31.867
+Both are stored securely, and never shown again.
+
+00:00:32.322 --> 00:00:37.447
+The Proxy Settings, a Connection Timeout and a Keep-Alive Interval are optional, and
+
+00:00:37.447 --> 00:00:39.952
+help with firewalls and slow networks.
+
+00:00:40.402 --> 00:00:41.666
+Click Save.
+
+00:00:41.666 --> 00:00:46.574
+An FTP resource is added in the same way, with a Host, Port,
+
+00:00:46.574 --> 00:00:50.441
+Username and Password, and an Encryption Mode:
+
+00:00:50.441 --> 00:00:53.862
+None, Explicit, Implicit or Auto Detect.
+
+00:00:54.329 --> 00:00:55.355
+Click Save.
+
+00:00:55.355 --> 00:00:59.699
+The site only stores the settings, so try each resource from an AI
+
+00:00:59.699 --> 00:01:01.629
+app before you rely on it.
+
