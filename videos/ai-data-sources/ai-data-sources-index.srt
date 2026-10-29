@@ -1,0 +1,28 @@
+1
+00:00:03,203 --> 00:00:05,541
+First, the content index.
+
+2
+00:00:05,541 --> 00:00:12,103
+Open Search, Indexes, click Add index, and click Add on Content in Elasticsearch.
+
+3
+00:00:12,556 --> 00:00:17,595
+Enter an Index Name and a Name, and tick the content types to index.
+
+4
+00:00:17,595 --> 00:00:19,298
+Here it is Article.
+
+5
+00:00:19,298 --> 00:00:20,456
+Click Save.
+
+6
+00:00:23,883 --> 00:00:26,784
+The index fills from the content items.
+
+7
+00:00:26,784 --> 00:00:31,943
+To fill it again at any time, open its Actions menu and click Synchronize.
+

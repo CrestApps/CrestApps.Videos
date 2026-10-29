@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.213 --> 00:00:10.533
+Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Search Index Profile.
+
+00:00:10.996 --> 00:00:12.151
+Enter a Name.
+
+00:00:12.151 --> 00:00:18.352
+Choose the Source index, the content index, and the Destination index, the knowledge base index.
+
+00:00:18.352 --> 00:00:21.696
+The destination cannot be changed after you save.
+
+00:00:22.183 --> 00:00:27.668
+In Field Mapping, the Content field is the text to search and split into passages.
+
+00:00:27.668 --> 00:00:30.723
+The editor picks the full text of the item.
+
+00:00:31.176 --> 00:00:35.422
+The Title field is the name shown in the sources under an answer.
+
+00:00:35.422 --> 00:00:40.683
+The Key field identifies each item, so the site can update or remove its passages.
+
+00:00:40.683 --> 00:00:42.716
+You can change the defaults.
+
+00:00:43.169 --> 00:00:44.231
+Click Save.
+
+00:00:44.231 --> 00:00:47.729
+The data source starts filling its knowledge base.
+

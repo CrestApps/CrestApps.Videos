@@ -1,0 +1,16 @@
+1
+00:00:03,193 --> 00:00:08,226
+The data source keeps its knowledge base in step with the source index.
+
+2
+00:00:08,226 --> 00:00:12,933
+To rebuild it by hand, open its Actions menu and click Sync index.
+
+3
+00:00:13,383 --> 00:00:16,212
+The passages are created in the background.
+
+4
+00:00:16,212 --> 00:00:19,503
+When they are ready, the assistant can search them.
+

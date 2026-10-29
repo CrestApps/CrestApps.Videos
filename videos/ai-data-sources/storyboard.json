@@ -1,0 +1,312 @@
+{
+  "title": "AI Data Sources",
+  "output": "ai-data-sources",
+  "spoken": {
+    "Elasticsearch": "Elastic search"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Data Sources",
+      "subtitle": "Answers from the content of your own site",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The content of your own site, such as help articles, products or news, can be knowledge for an assistant. This video shows how a data source turns a content index into knowledge, keeps it in step when the content changes, and lets an assistant answer from it, with sources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why data sources",
+      "subtitle": "Large and changing content",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Large or changing content does not fit as uploaded files. Nobody wants to upload every article again each time it changes."
+            },
+            {
+              "id": "why-2",
+              "text": "Your site already keeps that content in a search index, so the content is ready to be read."
+            },
+            {
+              "id": "why-3",
+              "text": "A data source reads that index, splits the content into passages, and keeps the knowledge in step as the content changes."
+            },
+            {
+              "id": "why-4",
+              "text": "The assistant then answers from the passages, and lists numbered sources under its answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Two indexes and a data source",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "The source index is the content index of your site. It already exists, or you create it from your content types."
+            },
+            {
+              "id": "how-2",
+              "text": "The knowledge base index is the destination. It stores the passages that the assistant searches by meaning."
+            },
+            {
+              "id": "how-3",
+              "text": "The data source links the two, and maps which fields hold the content, the title and the key of each item."
+            },
+            {
+              "id": "how-4",
+              "text": "A profile then chooses the data source, and the assistant answers from it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Index your content",
+      "subtitle": "The source index",
+      "clips": [
+        {
+          "id": "03-index",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "idx-1",
+              "text": "First, the content index. Open Search, Indexes, click Add index, and click Add on Content in Elasticsearch."
+            },
+            {
+              "id": "idx-2",
+              "text": "Enter an Index Name and a Name, and tick the content types to index. Here it is Article. Click Save."
+            },
+            {
+              "id": "idx-3",
+              "text": "The index fills from the content items. To fill it again at any time, open its Actions menu and click Synchronize."
+            }
+          ]
+        }
+      ],
+      "short": "index"
+    },
+    {
+      "id": "04",
+      "title": "Create the knowledge base index",
+      "subtitle": "The destination index",
+      "clips": [
+        {
+          "id": "04-kb",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "kb-1",
+              "text": "Next, the destination. Click Add index again, and click Add on AI Knowledge Base Index for Elasticsearch."
+            },
+            {
+              "id": "kb-2",
+              "text": "Enter an Index Name and a Name, pick the Embedding deployment, which cannot be changed later, and click Save."
+            }
+          ]
+        }
+      ],
+      "short": "kb"
+    },
+    {
+      "id": "05",
+      "title": "Create a data source",
+      "subtitle": "Link the two indexes",
+      "clips": [
+        {
+          "id": "05-datasource",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ds-1",
+              "text": "Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Search Index Profile."
+            },
+            {
+              "id": "ds-2",
+              "text": "Enter a Name. Choose the Source index, the content index, and the Destination index, the knowledge base index. The destination cannot be changed after you save."
+            },
+            {
+              "id": "ds-3",
+              "text": "In Field Mapping, the Content field is the text to search and split into passages. The editor picks the full text of the item."
+            },
+            {
+              "id": "ds-4",
+              "text": "The Title field is the name shown in the sources under an answer. The Key field identifies each item, so the site can update or remove its passages. You can change the defaults."
+            },
+            {
+              "id": "ds-5",
+              "text": "Click Save. The data source starts filling its knowledge base."
+            }
+          ]
+        }
+      ],
+      "short": "datasource"
+    },
+    {
+      "id": "06",
+      "title": "Keep it in step",
+      "subtitle": "Sync the data source",
+      "clips": [
+        {
+          "id": "06-sync",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "syn-1",
+              "text": "The data source keeps its knowledge base in step with the source index. To rebuild it by hand, open its Actions menu and click Sync index."
+            },
+            {
+              "id": "syn-2",
+              "text": "The passages are created in the background. When they are ready, the assistant can search them."
+            }
+          ]
+        }
+      ],
+      "short": "sync"
+    },
+    {
+      "id": "07",
+      "title": "Give the assistant the data source",
+      "subtitle": "Choose it on a profile",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Open the profile, open the Knowledge tab, and choose the data source."
+            },
+            {
+              "id": "use-2",
+              "text": "Filter searches only some entries. It is an expression that your technical team writes, and one that is not valid is not saved."
+            },
+            {
+              "id": "use-3",
+              "text": "Restrict answers to retrieved data only keeps the assistant to your content. When nothing matches, it says so."
+            },
+            {
+              "id": "use-4",
+              "text": "Strictness is how closely a passage must match the question, from one to five. Retrieved documents is how many passages come back. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "use"
+    },
+    {
+      "id": "08",
+      "title": "Ask a question",
+      "subtitle": "An answer with sources",
+      "clips": [
+        {
+          "id": "08-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "Now ask a question that an article answers: how long does express shipping take?"
+            },
+            {
+              "id": "ask-2",
+              "text": "The assistant answers from the article. The statement carries a small number."
+            },
+            {
+              "id": "ask-3",
+              "text": "Under the answer, the numbered source names the article that the answer came from."
+            }
+          ]
+        }
+      ],
+      "short": "ask"
+    },
+    {
+      "id": "09",
+      "title": "Site-wide defaults",
+      "subtitle": "Strictness and retrieved documents",
+      "clips": [
+        {
+          "id": "09-defaults",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "def-1",
+              "text": "Profiles that leave Strictness and Retrieved documents empty use the site defaults. Open Settings, Artificial Intelligence, and find the Data Sources section."
+            },
+            {
+              "id": "def-2",
+              "text": "Default strictness and Default top documents are the values that every data source uses when a profile does not choose its own."
+            }
+          ]
+        }
+      ],
+      "short": "defaults"
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "What teams index",
+      "clips": [
+        {
+          "id": "10-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "Help articles: the assistant answers from the articles that your editors publish."
+            },
+            {
+              "id": "case-2",
+              "text": "Products: it knows the catalog, and the answer names the product."
+            },
+            {
+              "id": "case-3",
+              "text": "News and policies: change a page, and the knowledge follows."
+            },
+            {
+              "id": "case-4",
+              "text": "Several sources: more than one data source can feed a knowledge base index."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Index your content, link it to a knowledge base with a data source, and choose it on a profile. The assistant then answers from your site, with sources. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
