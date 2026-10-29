@@ -1,0 +1,91 @@
+{
+  "title": "Buyer Account and Guest Orders: Find an Order With or Without an Account | CrestApps for Orchard Core",
+  "description": "A buyer who comes back wants to see their orders, invoices and wishlist. A guest who never signs up still needs a way back to their order. The CrestApps commerce modules give signed-in buyers a My account area (orders, invoices, saved cards, wishlist, addresses and more), and give guests a secure order link, a Track your order page, a Find my order page that emails links, and a one-step way to turn guest orders into an account.\n\nIn this video:\n• Why buyers need a way back to their orders\n• The buyer's account: orders, invoices, payment methods, wishlist\n• Checking out as a guest, and the order link\n• Track your order, and Find my order\n• Turning a guest order into an account\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "customer account",
+    "guest checkout",
+    "order tracking",
+    "wishlist",
+    "my account",
+    "order link",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why buyers need a way back"
+    },
+    {
+      "time": "0:49",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:21",
+      "title": "The buyer's account"
+    },
+    {
+      "time": "2:24",
+      "title": "Checking out as a guest"
+    },
+    {
+      "time": "3:24",
+      "title": "Finding an order as a guest"
+    },
+    {
+      "time": "4:08",
+      "title": "Turn a guest order into an account"
+    },
+    {
+      "time": "4:41",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:13",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/carts-and-orders"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/carts-and-orders"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/carts-and-orders.md",
+    "src/CrestApps.Docs/docs/modules/carts-and-orders.md"
+  ],
+  "length": "5:25"
+}

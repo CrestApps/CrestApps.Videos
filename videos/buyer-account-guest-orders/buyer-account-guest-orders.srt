@@ -1,0 +1,316 @@
+1
+00:00:01,000 --> 00:00:05,132
+A buyer who comes back wants to see their orders, their invoices and
+
+2
+00:00:05,132 --> 00:00:06,696
+the things they saved.
+
+3
+00:00:06,696 --> 00:00:10,326
+A buyer who never signs up still needs to find their order.
+
+4
+00:00:10,326 --> 00:00:14,849
+This video shows the buyer's account, guest checkout, and how a guest finds
+
+5
+00:00:14,849 --> 00:00:17,250
+an order or turns it into an account.
+
+6
+00:00:21,850 --> 00:00:25,834
+Buyers come back to see where an order is, to print an invoice,
+
+7
+00:00:25,834 --> 00:00:27,970
+or to buy the same thing again.
+
+8
+00:00:28,720 --> 00:00:33,500
+Many never want an account, and checking out as a guest keeps the sale easy.
+
+9
+00:00:34,250 --> 00:00:38,066
+A guest still needs a way back to their order, without anyone else
+
+10
+00:00:38,066 --> 00:00:39,550
+being able to read it.
+
+11
+00:00:40,300 --> 00:00:44,914
+So signed-in buyers get an account, and guests get a secure link, a
+
+12
+00:00:44,914 --> 00:00:48,770
+tracking page, and a way to find their orders by email.
+
+13
+00:00:52,970 --> 00:00:56,989
+A signed-in buyer has My account, with a page for each feature the
+
+14
+00:00:56,989 --> 00:00:58,440
+store has turned on.
+
+15
+00:00:59,190 --> 00:01:03,288
+A guest gets a link to their order on the confirmation page and
+
+16
+00:01:03,288 --> 00:01:05,188
+in the confirmation email.
+
+17
+00:01:05,188 --> 00:01:06,970
+It works for sixty days.
+
+18
+00:01:07,720 --> 00:01:11,875
+Track your order asks for the order number and the email together.
+
+19
+00:01:11,875 --> 00:01:14,010
+Find my order emails the links.
+
+20
+00:01:14,760 --> 00:01:20,110
+A guest can turn their orders into an account in one step, with the same email.
+
+21
+00:01:24,410 --> 00:01:27,321
+Jamie signs in and opens My account.
+
+22
+00:01:27,321 --> 00:01:31,549
+It has a page for each feature the store has turned on:
+
+23
+00:01:31,549 --> 00:01:40,420
+Orders, Wishlist, Payment methods, Balances and invoices, Addresses, Account details, Rewards, store credit and referrals.
+
+24
+00:01:40,930 --> 00:01:45,836
+Orders lists Jamie's orders, newest first, with the status and the total.
+
+25
+00:01:45,836 --> 00:01:51,052
+Open one to see what was bought and when it was placed, and print its Invoice.
+
+26
+00:01:51,052 --> 00:01:55,399
+An order waiting for payment has Pay now, and with Returns on, a
+
+27
+00:01:55,399 --> 00:01:57,510
+paid order has Return items.
+
+28
+00:01:56,352 --> 00:02:01,695
+Payment methods lists the cards Jamie saved at checkout, so Jamie can remove them.
+
+29
+00:02:01,695 --> 00:02:05,764
+The cards are kept by the payment provider, not on your site.
+
+30
+00:02:05,764 --> 00:02:10,682
+Balances and invoices shows what Jamie owes, and the invoices and receipts.
+
+31
+00:02:11,135 --> 00:02:16,091
+With Wishlists on, Save to wishlist on a product's page keeps it for later.
+
+32
+00:02:16,091 --> 00:02:20,435
+Under Wishlist, each saved product has its own Add to cart, and a
+
+33
+00:02:20,435 --> 00:02:23,495
+product you stop selling drops off the list.
+
+34
+00:02:27,726 --> 00:02:30,502
+A guest does not need an account to buy.
+
+35
+00:02:30,502 --> 00:02:34,002
+Casey adds a watch to the cart, and clicks Checkout.
+
+36
+00:02:34,002 --> 00:02:38,105
+Checkout asks for a name and an email, and for where the order
+
+37
+00:02:38,105 --> 00:02:40,941
+goes, and then offers the shipping rates.
+
+38
+00:02:40,941 --> 00:02:45,346
+Casey fills it in, and picks the standard rate, as any buyer would.
+
+39
+00:02:45,828 --> 00:02:48,515
+Casey chooses to pay by bank transfer.
+
+40
+00:02:48,515 --> 00:02:52,912
+The page shows the account to transfer to, and the order number to
+
+41
+00:02:52,912 --> 00:02:54,561
+use as the reference.
+
+42
+00:02:54,561 --> 00:02:58,591
+The order is placed now, and is paid when the money arrives.
+
+43
+00:02:58,591 --> 00:03:02,438
+Casey clicks Pay now, and lands on the confirmation page.
+
+44
+00:03:02,889 --> 00:03:07,760
+The confirmation page shows the order number, and a link to view the order.
+
+45
+00:03:07,760 --> 00:03:09,444
+Casey keeps this link:
+
+46
+00:03:09,444 --> 00:03:13,594
+it works for sixty days, and the confirmation email has it too.
+
+47
+00:03:13,594 --> 00:03:17,203
+The page may also offer to make an account right away.
+
+48
+00:03:17,203 --> 00:03:21,894
+Staff find the same order under Commerce, Orders, where it shows as paid
+
+49
+00:03:21,894 --> 00:03:24,059
+once the transfer is recorded.
+
+50
+00:03:27,862 --> 00:03:30,450
+Later, Casey cannot find the email.
+
+51
+00:03:30,450 --> 00:03:36,069
+Track your order asks for the order number and the email the order was placed with.
+
+52
+00:03:36,069 --> 00:03:39,541
+Both must match, so a number alone shows nothing.
+
+53
+00:03:39,541 --> 00:03:44,402
+Casey enters them, and sees the order, and its shipments once it ships.
+
+54
+00:03:44,854 --> 00:03:48,592
+If Casey has lost the number too, Find my order asks only for
+
+55
+00:03:48,592 --> 00:03:51,716
+the email, and emails a link to each recent order.
+
+56
+00:03:51,716 --> 00:03:55,510
+It answers the same way whether or not there are orders, so it
+
+57
+00:03:55,510 --> 00:03:58,244
+never tells anyone who has bought from you.
+
+58
+00:03:58,694 --> 00:04:02,695
+Casey opens the link from the email, and is back at the order.
+
+59
+00:04:02,695 --> 00:04:07,814
+Link to both pages from your site's footer or help page, so guests can find them.
+
+60
+00:04:11,999 --> 00:04:14,557
+Casey's order page has a line for guests:
+
+61
+00:04:14,557 --> 00:04:18,476
+create an account with the same email to see this order and future
+
+62
+00:04:18,476 --> 00:04:19,945
+ones in your account.
+
+63
+00:04:19,945 --> 00:04:21,959
+Casey clicks Create an account.
+
+64
+00:04:22,411 --> 00:04:27,598
+Casey chooses a user name and a password, with the same email, and registers.
+
+65
+00:04:27,598 --> 00:04:32,286
+This link shows when your site lets visitors register, and a site can
+
+66
+00:04:32,286 --> 00:04:35,661
+also ask new users to confirm their email first.
+
+67
+00:04:33,299 --> 00:04:37,791
+Casey is signed in, and finds the guest order under Orders, along with
+
+68
+00:04:37,791 --> 00:04:40,569
+every other order placed with that email.
+
+69
+00:04:44,769 --> 00:04:46,564
+A shop of one-time buyers:
+
+70
+00:04:46,564 --> 00:04:50,769
+guest checkout, and a link that always brings them back to the order.
+
+71
+00:04:51,519 --> 00:04:53,457
+A store with regulars:
+
+72
+00:04:53,457 --> 00:04:59,269
+an account with orders, invoices, a wishlist and saved addresses in one place.
+
+73
+00:05:00,019 --> 00:05:01,222
+A support desk:
+
+74
+00:05:01,222 --> 00:05:05,519
+ask for the order number and the email, or point to Track your order.
+
+75
+00:05:06,269 --> 00:05:08,406
+Turning guests into accounts:
+
+76
+00:05:08,406 --> 00:05:12,679
+offer a password on the confirmation page, right after the sale.
+
+77
+00:05:14,679 --> 00:05:19,315
+With accounts and order links, every buyer can find their way back to
+
+78
+00:05:19,315 --> 00:05:21,972
+an order, with or without signing up.
+
+79
+00:05:21,972 --> 00:05:23,579
+Thanks for watching.
+
