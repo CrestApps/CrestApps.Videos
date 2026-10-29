@@ -1,0 +1,99 @@
+{
+  "title": "Shipping: Zones, Methods, Pickup and Shipments for Your Store | CrestApps for Orchard Core",
+  "description": "Shipping is where many online sales are lost: a surprise price, or no option that fits the order. The CrestApps Shipping module offers each buyer the methods that fit their address and their order, with the price worked out for them. You set up zones and methods, add pickup locations, check your setup with Try rates, and record every shipment with its tracking number against the order.\n\nIn this video:\n• Why shipping, and how zones, methods and settings fit together\n• Shipping zones: where you ship\n• Shipping methods: flat rate, free shipping, table rate, local delivery and carrier rates\n• Product weights, the weight unit, shipping classes and tracking links\n• Pickup locations, the ship-from address and the carrier account\n• Try rates: check a zone before a customer does\n• Shipping an order and recording the shipment",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "shipping",
+    "shipping zones",
+    "shipping rates",
+    "tracking",
+    "store pickup",
+    "ecommerce",
+    "EasyPost",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why shipping"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:26",
+      "title": "Shipping zones"
+    },
+    {
+      "time": "2:00",
+      "title": "Shipping methods"
+    },
+    {
+      "time": "2:44",
+      "title": "Weights and shipping settings"
+    },
+    {
+      "time": "3:18",
+      "title": "Pickup, ship-from and carriers"
+    },
+    {
+      "time": "3:59",
+      "title": "Try your rates"
+    },
+    {
+      "time": "4:22",
+      "title": "Ship an order"
+    },
+    {
+      "time": "4:52",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Shipping (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/shipping"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/shipping"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Shipping"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/shipping.md",
+    "src/CrestApps.Docs/docs/modules/shipping.md"
+  ],
+  "length": "5:33"
+}
