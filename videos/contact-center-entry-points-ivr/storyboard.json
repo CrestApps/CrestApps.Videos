@@ -1,0 +1,338 @@
+{
+  "title": "Inbound entry points",
+  "output": "contact-center-entry-points-ivr",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "IVR": "I.V.R."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Inbound entry points",
+      "subtitle": "Decide what happens when someone calls or texts you",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An inbound entry point decides what happens when someone calls or texts one of your numbers. This video shows why it exists, and how to create one for calls, set its hours and voicemail, answer texts, and copy an entry point."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why entry points",
+      "subtitle": "A number needs a front door",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A phone number does nothing on its own. When a customer dials it, someone has to decide who answers, and what happens at night or on a holiday."
+            },
+            {
+              "id": "why-2",
+              "text": "Without one place for those decisions, the rules end up scattered: one setting on the number, another on the queue, another in the phone system."
+            },
+            {
+              "id": "why-3",
+              "text": "An inbound entry point is that one place. It is the front door of one or more numbers, and it answers one channel: either voice calls or text messages."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Numbers, routing, hours and voicemail",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Numbers come from the Omnichannel Addresses list. An entry point picks the numbers it answers, and a number has one enabled entry point for calls and one for texts."
+            },
+            {
+              "id": "how-2",
+              "text": "Routing says where the call goes: to a queue, to one specific agent, or to an AI. Priority lets this number's calls jump ahead of other work."
+            },
+            {
+              "id": "how-3",
+              "text": "Hours say when the entry point is open, and what happens to a call that rings while it is closed."
+            },
+            {
+              "id": "how-4",
+              "text": "Voicemail says what a caller hears before leaving a message, and whose inbox receives it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add the numbers",
+      "subtitle": "Omnichannel Addresses come first",
+      "clips": [
+        {
+          "id": "03-numbers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "num-1",
+              "text": "Numbers come first. Open Interaction Center, Management, Omnichannel Addresses. Each address is one phone number your business owns, such as a main line or a support line."
+            },
+            {
+              "id": "num-2",
+              "text": "Click Add to see how a number is made. Give it a Name and the Phone number. Under Used for, tick Voice calls for a number that takes calls, Text messages for one that takes texts, or both."
+            }
+          ]
+        }
+      ],
+      "short": "numbers"
+    },
+    {
+      "id": "04",
+      "title": "Create a call entry point",
+      "subtitle": "Name, numbers and routing",
+      "clips": [
+        {
+          "id": "04-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ep-1",
+              "text": "Open Inbound entry points and click Add inbound entry point. A dialog asks what the entry point answers. Click Add on the Voice calls card."
+            },
+            {
+              "id": "ep-2",
+              "text": "On the General card, type a Name, such as Support line. Under Numbers, pick the numbers it answers. Only numbers ticked for calls are offered."
+            },
+            {
+              "id": "ep-3",
+              "text": "On the Routing card, Route to is Queue by default. Pick the Target queue, Support, and set a Priority. Calls to this number then go ahead of lower priority work in the queue."
+            },
+            {
+              "id": "ep-4",
+              "text": "Click Save. Calls to the number follow these rules straight away, and the entry point appears in the list."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "05",
+      "title": "Closed hours",
+      "subtitle": "What happens outside business hours",
+      "clips": [
+        {
+          "id": "05-hours",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "hrs-1",
+              "text": "Edit the entry point, and open the Hours card. The Business hours calendar says when it is open. Left empty, it is always open. Here it follows the weekday calendar."
+            },
+            {
+              "id": "hrs-2",
+              "text": "Closed action says what happens to a call that arrives while closed. Hold in queue keeps the call waiting. Voicemail takes a message. Overflow sends it to another queue. Reject ends the call."
+            },
+            {
+              "id": "hrs-3",
+              "text": "Pick Voicemail, and write a Closed message. It is spoken to the caller first, and then the closed action applies."
+            }
+          ]
+        }
+      ],
+      "short": "hours"
+    },
+    {
+      "id": "06",
+      "title": "Voicemail",
+      "subtitle": "A greeting, and whose inbox",
+      "clips": [
+        {
+          "id": "06-voicemail",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vm-1",
+              "text": "On the Voicemail card, the Default voicemail greeting is spoken when the person receiving the message has not recorded a greeting of their own."
+            },
+            {
+              "id": "vm-2",
+              "text": "Deliver voicemail to chooses An agent's inbox, or The queue's shared voicemail box, which any entitled agent or supervisor can pick up. Pick an agent under Voicemail inbox, and click Save."
+            }
+          ]
+        }
+      ],
+      "short": "voicemail"
+    },
+    {
+      "id": "07",
+      "title": "A personal line",
+      "subtitle": "Ring one person",
+      "clips": [
+        {
+          "id": "07-agent",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "agt-1",
+              "text": "A number can ring one person instead of a queue. Add another call entry point, and name it Sales direct line."
+            },
+            {
+              "id": "agt-2",
+              "text": "Pick its number. Then set Route to to Specific agent, and pick the Target agent. The call never falls back to a queue."
+            },
+            {
+              "id": "agt-3",
+              "text": "Ring window sets how many seconds the agent's phone rings. Send unanswered calls to voicemail, which is ticked, takes a message afterwards. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "agent"
+    },
+    {
+      "id": "08",
+      "title": "Text entry points",
+      "subtitle": "Answer texts the same way",
+      "clips": [
+        {
+          "id": "08-text",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "txt-1",
+              "text": "Add an entry point again, and this time click Add on the Text messages card."
+            },
+            {
+              "id": "txt-1b",
+              "text": "The General card works the same way: a Name, and the numbers. Only numbers ticked for texts are offered."
+            },
+            {
+              "id": "txt-2",
+              "text": "On Routing, pick the Target queue. Queue distribution is Shared pool, where one agent claims each conversation, or Routed, which gives it to an available agent."
+            },
+            {
+              "id": "txt-3",
+              "text": "Auto-reply is sent back to a contact who texts, at most once a day. On the Hours card, Closed auto-reply is sent instead, while you are closed. The text still reaches the queue."
+            },
+            {
+              "id": "txt-4",
+              "text": "A number with no enabled text entry point still receives texts. They land in the unassigned inbox."
+            }
+          ]
+        }
+      ],
+      "short": "text"
+    },
+    {
+      "id": "09",
+      "title": "Manage and copy",
+      "subtitle": "Clone an entry point",
+      "clips": [
+        {
+          "id": "09-clone",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cln-1",
+              "text": "The list shows every entry point with the channel it answers and its numbers. Edit changes one, and Delete removes it. A disabled entry point answers nothing, so untick Enabled to pause one."
+            },
+            {
+              "id": "cln-2",
+              "text": "To start from an existing entry point, open its Actions menu and choose Clone. The form opens with every setting copied, and the name Copy of. Numbers starts empty, because each number has one entry point per channel."
+            }
+          ]
+        }
+      ],
+      "short": "clone"
+    },
+    {
+      "id": "10",
+      "title": "Test it before you publish",
+      "subtitle": "A short checklist",
+      "clips": [
+        {
+          "id": "10-test",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tst-1",
+              "text": "Add the number under Omnichannel Addresses, and create the queue it should reach."
+            },
+            {
+              "id": "tst-2",
+              "text": "Create the entry point for the number, with its hours."
+            },
+            {
+              "id": "tst-3",
+              "text": "Have an agent sign in to the queue, and call the number. The call should be offered in My workspace."
+            },
+            {
+              "id": "tst-4",
+              "text": "Keep the Live dashboard open while you test. The waiting count goes up first, then the agent moves from available to busy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Use cases",
+      "subtitle": "Where entry points help",
+      "clips": [
+        {
+          "id": "11-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A main line that rings the support queue in office hours, and takes voicemail the rest of the time."
+            },
+            {
+              "id": "use-2",
+              "text": "A personal line for an account manager, ringing one person and then taking a message."
+            },
+            {
+              "id": "use-3",
+              "text": "Separate numbers for sales and support, with sales at a higher priority."
+            },
+            {
+              "id": "use-4",
+              "text": "A text line that answers at once, and tells customers when you will reply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add your numbers, create an entry point for each one, and choose its queue, hours and voicemail. Callers and texts then follow your rules. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

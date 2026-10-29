@@ -1,0 +1,24 @@
+1
+00:00:03,300 --> 00:00:08,852
+The list shows every entry point with the channel it answers and its numbers.
+
+2
+00:00:08,852 --> 00:00:11,929
+Edit changes one, and Delete removes it.
+
+3
+00:00:11,929 --> 00:00:17,080
+A disabled entry point answers nothing, so untick Enabled to pause one.
+
+4
+00:00:17,584 --> 00:00:23,331
+To start from an existing entry point, open its Actions menu and choose Clone.
+
+5
+00:00:23,331 --> 00:00:28,052
+The form opens with every setting copied, and the name Copy of.
+
+6
+00:00:28,052 --> 00:00:33,524
+Numbers starts empty, because each number has one entry point per channel.
+

@@ -1,0 +1,48 @@
+1
+00:00:03,207 --> 00:00:07,439
+Open Inbound entry points and click Add inbound entry point.
+
+2
+00:00:07,439 --> 00:00:10,582
+A dialog asks what the entry point answers.
+
+3
+00:00:10,582 --> 00:00:13,147
+Click Add on the Voice calls card.
+
+4
+00:00:13,639 --> 00:00:17,187
+On the General card, type a Name, such as Support line.
+
+5
+00:00:17,187 --> 00:00:20,037
+Under Numbers, pick the numbers it answers.
+
+6
+00:00:20,037 --> 00:00:22,829
+Only numbers ticked for calls are offered.
+
+7
+00:00:23,351 --> 00:00:26,858
+On the Routing card, Route to is Queue by default.
+
+8
+00:00:26,858 --> 00:00:30,428
+Pick the Target queue, Support, and set a Priority.
+
+9
+00:00:30,428 --> 00:00:35,251
+Calls to this number then go ahead of lower priority work in the queue.
+
+10
+00:00:35,758 --> 00:00:36,658
+Click Save.
+
+11
+00:00:36,658 --> 00:00:40,841
+Calls to the number follow these rules straight away, and the entry point
+
+12
+00:00:40,841 --> 00:00:42,218
+appears in the list.
+

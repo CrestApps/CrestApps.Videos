@@ -1,0 +1,48 @@
+1
+00:00:03,200 --> 00:00:08,460
+Add an entry point again, and this time click Add on the Text messages card.
+
+2
+00:00:09,534 --> 00:00:12,047
+The General card works the same way:
+
+3
+00:00:12,047 --> 00:00:13,842
+a Name, and the numbers.
+
+4
+00:00:13,842 --> 00:00:16,714
+Only numbers ticked for texts are offered.
+
+5
+00:00:17,729 --> 00:00:20,288
+On Routing, pick the Target queue.
+
+6
+00:00:20,288 --> 00:00:26,238
+Queue distribution is Shared pool, where one agent claims each conversation, or Routed,
+
+7
+00:00:26,238 --> 00:00:28,989
+which gives it to an available agent.
+
+8
+00:00:29,553 --> 00:00:34,157
+Auto-reply is sent back to a contact who texts, at most once a day.
+
+9
+00:00:34,157 --> 00:00:39,264
+On the Hours card, Closed auto-reply is sent instead, while you are closed.
+
+10
+00:00:39,264 --> 00:00:41,723
+The text still reaches the queue.
+
+11
+00:00:43,981 --> 00:00:48,538
+A number with no enabled text entry point still receives texts.
+
+12
+00:00:48,538 --> 00:00:51,181
+They land in the unassigned inbox.
+
