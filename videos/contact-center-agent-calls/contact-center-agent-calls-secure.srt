@@ -1,0 +1,36 @@
+1
+00:00:03,200 --> 00:00:08,249
+When your administrator allows it, the Active interaction panel shows Pause recording.
+
+2
+00:00:08,249 --> 00:00:12,749
+Use it while the customer reads out card details, and click Resume recording
+
+3
+00:00:12,749 --> 00:00:14,340
+as soon as they finish.
+
+4
+00:00:15,090 --> 00:00:20,133
+Collect data securely creates a one-time link for the customer to type their
+
+5
+00:00:20,133 --> 00:00:22,532
+card details on their own device.
+
+6
+00:00:22,532 --> 00:00:24,623
+Only a masked value is kept.
+
+7
+00:00:24,623 --> 00:00:28,990
+You, your supervisor and the recording never see the full number.
+
+8
+00:00:29,740 --> 00:00:34,003
+While a recording is paused, supervisors cannot listen in.
+
+9
+00:00:34,003 --> 00:00:38,000
+Every pause and resume is recorded in the audit trail.
+

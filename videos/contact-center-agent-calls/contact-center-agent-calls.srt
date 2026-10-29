@@ -1,0 +1,252 @@
+1
+00:00:01,000 --> 00:00:04,526
+This video follows an agent through a piece of work:
+
+2
+00:00:04,526 --> 00:00:09,753
+an offer, the call, calls from the dialer, protecting card details, and wrap-up.
+
+3
+00:00:09,753 --> 00:00:13,340
+It also shows where an agent reviews recent activity.
+
+4
+00:00:17,940 --> 00:00:23,390
+Offers, live calls and wrap-up need a connected phone provider and a real caller.
+
+5
+00:00:23,390 --> 00:00:27,900
+The site used for this video has neither, and never places a call.
+
+6
+00:00:28,650 --> 00:00:32,893
+So the screens that appear only during a call are described on slides,
+
+7
+00:00:32,893 --> 00:00:34,624
+with the words they show.
+
+8
+00:00:34,624 --> 00:00:39,760
+The screens that exist without a call, such as Recent activity, are shown as they are.
+
+9
+00:00:43,960 --> 00:00:48,169
+When routing picks you for a call, an offer card appears in My
+
+10
+00:00:48,169 --> 00:00:51,140
+workspace, and the docked agent bar opens.
+
+11
+00:00:51,140 --> 00:00:54,420
+It shows the caller, the queue and a countdown.
+
+12
+00:00:55,170 --> 00:00:57,771
+Click Accept before the countdown ends.
+
+13
+00:00:57,771 --> 00:01:03,550
+The card reads Answering while the call connects, then the call moves into Active interaction.
+
+14
+00:01:04,300 --> 00:01:05,721
+Or click Decline.
+
+15
+00:01:05,721 --> 00:01:10,539
+The caller goes back to the queue and is offered to another agent first.
+
+16
+00:01:10,539 --> 00:01:15,173
+If you do nothing, the offer ends with the countdown, and the queue's
+
+17
+00:01:15,173 --> 00:01:17,520
+Unanswered offer action applies.
+
+18
+00:01:18,270 --> 00:01:22,962
+If you accept but your phone cannot be reached, the caller is not lost.
+
+19
+00:01:22,962 --> 00:01:29,177
+The unanswered action applies, and your state changes to Away with the reason Phone unreachable.
+
+20
+00:01:29,177 --> 00:01:32,650
+Check the phone, then set yourself Available again.
+
+21
+00:01:36,850 --> 00:01:40,602
+When you are signed in to a campaign, the dialer gives you calls
+
+22
+00:01:40,602 --> 00:01:42,800
+in the way its dialer profile sets.
+
+23
+00:01:42,800 --> 00:01:46,606
+With Preview, the bar shows the offer with Dial and Skip, and the
+
+24
+00:01:46,606 --> 00:01:49,500
+activity opens so you can read the record first.
+
+25
+00:01:50,250 --> 00:01:53,726
+With power and progressive dialing, you press nothing.
+
+26
+00:01:53,726 --> 00:01:56,622
+The dialer places the call and reserves you.
+
+27
+00:01:56,622 --> 00:02:01,198
+The bar says Waiting for a connected call, and the Complete activity page
+
+28
+00:02:01,198 --> 00:02:03,110
+opens as the call connects.
+
+29
+00:02:03,860 --> 00:02:09,045
+You are Reserved while the dialer calls, and On a call only once a person answers.
+
+30
+00:02:09,045 --> 00:02:13,818
+If nobody answers, or a machine does, the dialer records the outcome itself
+
+31
+00:02:13,818 --> 00:02:16,410
+and you go straight back to Available.
+
+32
+00:02:20,610 --> 00:02:25,659
+When your administrator allows it, the Active interaction panel shows Pause recording.
+
+33
+00:02:25,659 --> 00:02:30,159
+Use it while the customer reads out card details, and click Resume recording
+
+34
+00:02:30,159 --> 00:02:31,750
+as soon as they finish.
+
+35
+00:02:32,500 --> 00:02:37,543
+Collect data securely creates a one-time link for the customer to type their
+
+36
+00:02:37,543 --> 00:02:39,942
+card details on their own device.
+
+37
+00:02:39,942 --> 00:02:42,033
+Only a masked value is kept.
+
+38
+00:02:42,033 --> 00:02:46,400
+You, your supervisor and the recording never see the full number.
+
+39
+00:02:47,150 --> 00:02:51,413
+While a recording is paused, supervisors cannot listen in.
+
+40
+00:02:51,413 --> 00:02:55,410
+Every pause and resume is recorded in the audit trail.
+
+41
+00:02:59,610 --> 00:03:04,291
+A call from a queue or a campaign puts you in Wrap-up when it ends.
+
+42
+00:03:04,291 --> 00:03:06,728
+Wrap-up does not end on a timer.
+
+43
+00:03:06,728 --> 00:03:09,550
+You end it by completing the activity.
+
+44
+00:03:10,300 --> 00:03:17,469
+Click Complete activity, check the customer and activity details, pick a disposition, add notes, and save.
+
+45
+00:03:17,469 --> 00:03:21,630
+You return to Available, or the break you asked for starts.
+
+46
+00:03:22,380 --> 00:03:27,584
+If an activity is left open, wrap-up ends by itself after fifteen minutes,
+
+47
+00:03:27,584 --> 00:03:30,577
+a setting your administrator can change.
+
+48
+00:03:30,577 --> 00:03:34,480
+The activity stays open, with no disposition recorded.
+
+49
+00:03:38,761 --> 00:03:44,577
+In My workspace, the Recent activity panel lists the interactions you finished most recently:
+
+50
+00:03:44,577 --> 00:03:49,277
+the direction, the customer, the outcome, when it ended and the talk time.
+
+51
+00:03:49,277 --> 00:03:53,331
+It says No recent interactions until you finish your first one.
+
+52
+00:03:53,885 --> 00:03:56,426
+The soft phone keeps your history too.
+
+53
+00:03:56,426 --> 00:04:01,105
+The Recent tab lists your latest calls, inbound and outbound, with a button
+
+54
+00:04:01,105 --> 00:04:02,837
+to call the number back.
+
+55
+00:04:02,837 --> 00:04:06,245
+It is empty here, because this site has had no calls.
+
+56
+00:04:06,864 --> 00:04:10,597
+The Voicemail tab lists the voicemails left for you.
+
+57
+00:04:10,597 --> 00:04:12,914
+Both tabs update as calls end.
+
+58
+00:04:17,114 --> 00:04:22,944
+A support agent who accepts a call, helps the customer, and records the outcome in wrap-up.
+
+59
+00:04:23,694 --> 00:04:29,214
+A sales agent on a preview campaign, who reads the record before pressing Dial.
+
+60
+00:04:29,964 --> 00:04:34,984
+A billing agent who pauses the recording while a customer reads a card number.
+
+61
+00:04:35,734 --> 00:04:40,874
+An agent who declines a call because they must leave, and lets another agent take it.
+
+62
+00:04:42,874 --> 00:04:49,117
+Accept the offer, protect sensitive details, finish in wrap-up, and check your recent activity.
+
+63
+00:04:49,117 --> 00:04:50,724
+Thanks for watching.
+

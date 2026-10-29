@@ -1,0 +1,91 @@
+{
+  "title": "Agent Offers, Calls and Wrap-Up in the Contact Center | CrestApps for Orchard Core",
+  "description": "How an agent works a piece of work in the CrestApps Contact Center: the offer, the call, calls from the dialer, protecting card details on a recorded call, and wrap-up. Offers and live calls need a connected phone provider, so this video describes those screens with slides and shows the screens that exist without a call.\n\nIn this video:\n• Answering or declining an offer, and what happens when nobody answers\n• Calls from a dialer campaign: preview, power and progressive\n• Protecting card details: pause the recording, or collect data securely\n• Wrap-up and completing the activity\n• Reviewing recent activity in My workspace and the soft phone",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "agent offers",
+    "wrap-up",
+    "dialer",
+    "preview dialing",
+    "secure capture",
+    "pause recording",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "About this video"
+    },
+    {
+      "time": "0:40",
+      "title": "Answer or decline an offer"
+    },
+    {
+      "time": "1:33",
+      "title": "Calls from a dialer campaign"
+    },
+    {
+      "time": "2:17",
+      "title": "Protect card details"
+    },
+    {
+      "time": "2:56",
+      "title": "After the call: wrap-up"
+    },
+    {
+      "time": "3:35",
+      "title": "Review your recent activity"
+    },
+    {
+      "time": "4:14",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:41",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/agent-workspace"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agent-desktop"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Agents, Real-Time, Voice)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/agent-workspace.md",
+    "src/CrestApps.Docs/docs/contact-center/agent-desktop.md"
+  ],
+  "length": "4:52"
+}

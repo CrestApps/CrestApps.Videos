@@ -1,0 +1,227 @@
+{
+  "title": "Offers, calls and wrap-up",
+  "output": "contact-center-agent-calls",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Offers, calls and wrap-up",
+      "subtitle": "Working a piece of work from offer to outcome",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video follows an agent through a piece of work: an offer, the call, calls from the dialer, protecting card details, and wrap-up. It also shows where an agent reviews recent activity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "About this video",
+      "subtitle": "What is shown, and what is described",
+      "clips": [
+        {
+          "id": "01-about",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "abt-1",
+              "text": "Offers, live calls and wrap-up need a connected phone provider and a real caller. The site used for this video has neither, and never places a call."
+            },
+            {
+              "id": "abt-2",
+              "text": "So the screens that appear only during a call are described on slides, with the words they show. The screens that exist without a call, such as Recent activity, are shown as they are."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Answer or decline an offer",
+      "subtitle": "When routing picks you",
+      "clips": [
+        {
+          "id": "02-offers",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "off-1",
+              "text": "When routing picks you for a call, an offer card appears in My workspace, and the docked agent bar opens. It shows the caller, the queue and a countdown."
+            },
+            {
+              "id": "off-2",
+              "text": "Click Accept before the countdown ends. The card reads Answering while the call connects, then the call moves into Active interaction."
+            },
+            {
+              "id": "off-3",
+              "text": "Or click Decline. The caller goes back to the queue and is offered to another agent first. If you do nothing, the offer ends with the countdown, and the queue's Unanswered offer action applies."
+            },
+            {
+              "id": "off-4",
+              "text": "If you accept but your phone cannot be reached, the caller is not lost. The unanswered action applies, and your state changes to Away with the reason Phone unreachable. Check the phone, then set yourself Available again."
+            }
+          ]
+        }
+      ],
+      "short": "offers"
+    },
+    {
+      "id": "03",
+      "title": "Calls from a dialer campaign",
+      "subtitle": "Preview, power and progressive",
+      "clips": [
+        {
+          "id": "03-dialer",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dlr-1",
+              "text": "When you are signed in to a campaign, the dialer gives you calls in the way its dialer profile sets. With Preview, the bar shows the offer with Dial and Skip, and the activity opens so you can read the record first."
+            },
+            {
+              "id": "dlr-2",
+              "text": "With power and progressive dialing, you press nothing. The dialer places the call and reserves you. The bar says Waiting for a connected call, and the Complete activity page opens as the call connects."
+            },
+            {
+              "id": "dlr-3",
+              "text": "You are Reserved while the dialer calls, and On a call only once a person answers. If nobody answers, or a machine does, the dialer records the outcome itself and you go straight back to Available."
+            }
+          ]
+        }
+      ],
+      "short": "dialer"
+    },
+    {
+      "id": "04",
+      "title": "Protect card details",
+      "subtitle": "Pause the recording, or collect securely",
+      "clips": [
+        {
+          "id": "04-secure",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "sec-1",
+              "text": "When your administrator allows it, the Active interaction panel shows Pause recording. Use it while the customer reads out card details, and click Resume recording as soon as they finish."
+            },
+            {
+              "id": "sec-2",
+              "text": "Collect data securely creates a one-time link for the customer to type their card details on their own device. Only a masked value is kept. You, your supervisor and the recording never see the full number."
+            },
+            {
+              "id": "sec-3",
+              "text": "While a recording is paused, supervisors cannot listen in. Every pause and resume is recorded in the audit trail."
+            }
+          ]
+        }
+      ],
+      "short": "secure"
+    },
+    {
+      "id": "05",
+      "title": "After the call: wrap-up",
+      "subtitle": "Finish your notes",
+      "clips": [
+        {
+          "id": "05-wrapup",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "wrp-1",
+              "text": "A call from a queue or a campaign puts you in Wrap-up when it ends. Wrap-up does not end on a timer. You end it by completing the activity."
+            },
+            {
+              "id": "wrp-2",
+              "text": "Click Complete activity, check the customer and activity details, pick a disposition, add notes, and save. You return to Available, or the break you asked for starts."
+            },
+            {
+              "id": "wrp-3",
+              "text": "If an activity is left open, wrap-up ends by itself after fifteen minutes, a setting your administrator can change. The activity stays open, with no disposition recorded."
+            }
+          ]
+        }
+      ],
+      "short": "wrapup"
+    },
+    {
+      "id": "06",
+      "title": "Review your recent activity",
+      "subtitle": "In My workspace and the soft phone",
+      "clips": [
+        {
+          "id": "06-recent",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "In My workspace, the Recent activity panel lists the interactions you finished most recently: the direction, the customer, the outcome, when it ended and the talk time. It says No recent interactions until you finish your first one."
+            },
+            {
+              "id": "rec-2",
+              "text": "The soft phone keeps your history too. The Recent tab lists your latest calls, inbound and outbound, with a button to call the number back. It is empty here, because this site has had no calls."
+            },
+            {
+              "id": "rec-3",
+              "text": "The Voicemail tab lists the voicemails left for you. Both tabs update as calls end."
+            }
+          ]
+        }
+      ],
+      "short": "recent"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Where this flow helps",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A support agent who accepts a call, helps the customer, and records the outcome in wrap-up."
+            },
+            {
+              "id": "use-2",
+              "text": "A sales agent on a preview campaign, who reads the record before pressing Dial."
+            },
+            {
+              "id": "use-3",
+              "text": "A billing agent who pauses the recording while a customer reads a card number."
+            },
+            {
+              "id": "use-4",
+              "text": "An agent who declines a call because they must leave, and lets another agent take it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Accept the offer, protect sensitive details, finish in wrap-up, and check your recent activity. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
