@@ -1,0 +1,32 @@
+1
+00:00:03,203 --> 00:00:06,986
+Open Interaction Center, Management, Load Activities.
+
+2
+00:00:06,986 --> 00:00:12,435
+The list shows the newest loads first, with their status and what they created.
+
+3
+00:00:12,435 --> 00:00:14,743
+Click Add to start a new load.
+
+4
+00:00:15,195 --> 00:00:16,650
+Choose the source.
+
+5
+00:00:16,650 --> 00:00:21,866
+Manual creates activities for agents you pick, to work from the Activities list.
+
+6
+00:00:21,866 --> 00:00:27,082
+Automatic creates unassigned activities that an AI profile works on its own, and
+
+7
+00:00:27,082 --> 00:00:29,205
+appears with the AI features.
+
+8
+00:00:29,205 --> 00:00:32,905
+A Dialer source appears when the outbound dialer is on.
+

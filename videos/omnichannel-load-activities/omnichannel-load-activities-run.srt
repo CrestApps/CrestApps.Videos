@@ -1,0 +1,40 @@
+1
+00:00:03,201 --> 00:00:07,533
+Open the row's Actions menu and choose Load activities, then confirm.
+
+2
+00:00:07,533 --> 00:00:11,114
+You can also click Save and Load activities on the form.
+
+3
+00:00:11,114 --> 00:00:15,388
+The status moves from Started to Loading to Loaded, and the row says
+
+4
+00:00:15,388 --> 00:00:19,951
+how many records matched, how many were loaded, and why any were skipped.
+
+5
+00:00:24,027 --> 00:00:28,341
+Clone makes a copy with every setting, to run again or adjust.
+
+6
+00:00:28,341 --> 00:00:32,083
+Count matching records on the copy shows the reasons:
+
+7
+00:00:32,083 --> 00:00:37,157
+every contact already has an open activity, so none would be loaded again.
+
+8
+00:00:39,845 --> 00:00:44,935
+Delete removes a finished load and its report, and needs its own permission.
+
+9
+00:00:44,935 --> 00:00:49,590
+The activities it created stay, with their assignments and schedules.
+
+10
+00:00:49,590 --> 00:00:52,445
+To withdraw them, use Manage Activities.
+

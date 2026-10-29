@@ -1,0 +1,194 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.563
+This video shows how to load activities:
+
+00:00:03.563 --> 00:00:07.686
+how a filtered list of contacts becomes work for your agents, how to
+
+00:00:07.686 --> 00:00:11.920
+preview a load before you run it, and what the load reports afterward.
+
+00:00:16.520 --> 00:00:19.654
+Making one activity at a time does not scale.
+
+00:00:19.654 --> 00:00:24.201
+A load describes which contacts to pick and what work to create, and
+
+00:00:24.201 --> 00:00:26.720
+creates all the activities at once.
+
+00:00:27.470 --> 00:00:31.081
+You can count the matches before you run it, so you never call
+
+00:00:31.081 --> 00:00:32.940
+the wrong people by accident.
+
+00:00:33.690 --> 00:00:37.921
+A load runs in the background, reports who it skipped and why, and
+
+00:00:37.921 --> 00:00:39.860
+can be cloned to run again.
+
+00:00:44.063 --> 00:00:47.846
+Open Interaction Center, Management, Load Activities.
+
+00:00:47.846 --> 00:00:53.295
+The list shows the newest loads first, with their status and what they created.
+
+00:00:53.295 --> 00:00:55.603
+Click Add to start a new load.
+
+00:00:56.055 --> 00:00:57.510
+Choose the source.
+
+00:00:57.510 --> 00:01:02.726
+Manual creates activities for agents you pick, to work from the Activities list.
+
+00:01:02.726 --> 00:01:07.942
+Automatic creates unassigned activities that an AI profile works on its own, and
+
+00:01:07.942 --> 00:01:10.065
+appears with the AI features.
+
+00:01:10.065 --> 00:01:13.765
+A Dialer source appears when the outbound dialer is on.
+
+00:01:17.964 --> 00:01:24.079
+Give the load a title and pick the subject, which decides the flow of every activity.
+
+00:01:24.079 --> 00:01:28.044
+Then pick the campaign and the channel, Phone or SMS.
+
+00:01:31.582 --> 00:01:32.866
+Pick the agents.
+
+00:01:32.866 --> 00:01:35.959
+The activities are shared between them in turn.
+
+00:01:35.959 --> 00:01:39.518
+Set the urgency and instructions the agent reads first.
+
+00:01:39.518 --> 00:01:44.537
+Prevent duplicate activity with the same subject skips a contact who already has
+
+00:01:44.537 --> 00:01:46.872
+an open activity for this subject.
+
+00:01:47.322 --> 00:01:52.223
+Under Record filters, pick the record type, then narrow it by dates, time
+
+00:01:52.223 --> 00:01:55.139
+zones, a phone number filter, or a limit.
+
+00:01:55.139 --> 00:02:00.040
+Count matching records shows how many records match and how many would be
+
+00:02:00.040 --> 00:02:04.072
+loaded, with the reasons for the rest, and creates nothing.
+
+00:02:04.535 --> 00:02:09.686
+The last activity filters pick records by their last completed activity:
+
+00:02:09.686 --> 00:02:15.829
+its subject, its disposition, and its attempt, like 2+ for the second attempt or later.
+
+00:02:15.829 --> 00:02:19.528
+This is how you retry everyone who did not answer.
+
+00:02:19.528 --> 00:02:23.425
+Here no activity is finished yet, so nothing matches.
+
+00:02:23.876 --> 00:02:25.031
+Click Save.
+
+00:02:25.031 --> 00:02:27.478
+A saved load does nothing yet.
+
+00:02:27.478 --> 00:02:29.926
+It appears in the list as New.
+
+00:02:34.127 --> 00:02:38.459
+Open the row's Actions menu and choose Load activities, then confirm.
+
+00:02:38.459 --> 00:02:42.040
+You can also click Save and Load activities on the form.
+
+00:02:42.040 --> 00:02:46.314
+The status moves from Started to Loading to Loaded, and the row says
+
+00:02:46.314 --> 00:02:50.877
+how many records matched, how many were loaded, and why any were skipped.
+
+00:02:54.953 --> 00:02:59.266
+Clone makes a copy with every setting, to run again or adjust.
+
+00:02:59.266 --> 00:03:03.009
+Count matching records on the copy shows the reasons:
+
+00:03:03.009 --> 00:03:08.083
+every contact already has an open activity, so none would be loaded again.
+
+00:03:10.771 --> 00:03:15.860
+Delete removes a finished load and its report, and needs its own permission.
+
+00:03:15.860 --> 00:03:20.515
+The activities it created stay, with their assignments and schedules.
+
+00:03:20.515 --> 00:03:23.371
+To withdraw them, use Manage Activities.
+
+00:03:27.571 --> 00:03:32.348
+A load reports every matching record it did not load against one reason:
+
+00:03:32.348 --> 00:03:36.574
+an open activity for this subject, an opt out of the channel, a
+
+00:03:36.574 --> 00:03:41.781
+shared number that opted out, no address, numbers not in service, or the limit.
+
+00:03:42.531 --> 00:03:47.321
+If the server restarts during a load, it resumes by itself within about
+
+00:03:47.321 --> 00:03:52.173
+ten minutes after the last records it saved, and nobody is loaded twice.
+
+00:03:52.173 --> 00:03:57.461
+A load that keeps stopping is resumed three times, then stopped with a message.
+
+00:03:58.211 --> 00:04:01.671
+If a load fails, it goes back to New and says why, for
+
+00:04:01.671 --> 00:04:04.439
+example a dialer profile that was removed.
+
+00:04:04.439 --> 00:04:06.631
+Fix the cause and load it again.
+
+00:04:10.831 --> 00:04:12.242
+Start a campaign:
+
+00:04:12.242 --> 00:04:16.231
+load every customer in the right time zones for a call day.
+
+00:04:16.981 --> 00:04:21.881
+Retry everyone who did not answer, with the last activity filters.
+
+00:04:22.631 --> 00:04:26.041
+Share a call list fairly between several agents.
+
+00:04:26.791 --> 00:04:31.281
+Preview a list with Count matching records before anyone makes a call.
+
+00:04:33.281 --> 00:04:37.887
+Describe the contacts, check the count, load, and read the report, so every
+
+00:04:37.887 --> 00:04:41.810
+call list is built on purpose and nobody is called by accident.
+
+00:04:41.810 --> 00:04:46.132
+The user manual and the technical guide are linked in the description.
+
+00:04:46.132 --> 00:04:47.611
+Thanks for watching.
+
