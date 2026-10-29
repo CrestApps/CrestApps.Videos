@@ -1,0 +1,268 @@
+1
+00:00:01,000 --> 00:00:03,260
+Sometimes the answer is in a file.
+
+2
+00:00:03,260 --> 00:00:07,215
+This video shows how a person attaches a document to a chat, how
+
+3
+00:00:07,215 --> 00:00:11,622
+the assistant answers from it, and how it can read the charts inside it.
+
+4
+00:00:11,622 --> 00:00:14,390
+It also shows the settings that control it.
+
+5
+00:00:18,990 --> 00:00:21,504
+A person has a file and a question:
+
+6
+00:00:21,504 --> 00:00:23,772
+a policy, a report, a contract.
+
+7
+00:00:23,772 --> 00:00:28,370
+They should not wait for an administrator to add it to the assistant.
+
+8
+00:00:29,120 --> 00:00:34,098
+With attachments on, the person attaches the file to the chat and asks.
+
+9
+00:00:34,098 --> 00:00:37,330
+The assistant reads it, and answers from it.
+
+10
+00:00:38,080 --> 00:00:40,444
+The file belongs to that chat only.
+
+11
+00:00:40,444 --> 00:00:45,690
+It never becomes part of the knowledge of the profile, and other people never see it.
+
+12
+00:00:49,890 --> 00:00:57,545
+Text, Markdown, JSON, XML, HTML, YAML and log files, spreadsheets, and PDF, Word
+
+13
+00:00:57,545 --> 00:01:02,440
+and PowerPoint files, when those features are on.
+
+14
+00:01:03,190 --> 00:01:07,934
+A document is read, split into passages, and searched by meaning.
+
+15
+00:01:07,934 --> 00:01:13,680
+A very long document is refused, rather than stored where it cannot be searched.
+
+16
+00:01:14,430 --> 00:01:18,811
+Charts and pictures inside a document can be described by a vision model,
+
+17
+00:01:18,811 --> 00:01:21,583
+so that the assistant can answer about them.
+
+18
+00:01:21,583 --> 00:01:25,409
+A figure is worth describing when it has a caption, or when the
+
+19
+00:01:25,409 --> 00:01:26,740
+text refers to it.
+
+20
+00:01:30,918 --> 00:01:35,626
+Open Settings, Artificial Intelligence, and find the Documents section.
+
+21
+00:01:35,626 --> 00:01:40,273
+The Index profile is the documents index that stores every attachment.
+
+22
+00:01:40,273 --> 00:01:43,758
+Once people use it, avoid switching to another one.
+
+23
+00:01:44,276 --> 00:01:47,177
+Document retrieval mode is the site default.
+
+24
+00:01:47,177 --> 00:01:50,601
+Chunk gives the assistant only the matching passages.
+
+25
+00:01:50,601 --> 00:01:54,256
+Hierarchical gives it the whole documents they come from.
+
+26
+00:01:54,722 --> 00:02:00,339
+Allow document uploads in chat interactions and Allow image uploads in chat interactions
+
+27
+00:02:00,339 --> 00:02:04,282
+turn attachments on or off for the Chat Interactions screen.
+
+28
+00:02:04,282 --> 00:02:06,672
+Pictures need a vision deployment.
+
+29
+00:02:07,127 --> 00:02:13,509
+Largest document that can be indexed is the most characters of text one document may have.
+
+30
+00:02:13,509 --> 00:02:15,237
+Zero means no limit.
+
+31
+00:02:15,716 --> 00:02:21,426
+Describe figures in uploaded documents decides whether charts and pictures are described.
+
+32
+00:02:21,426 --> 00:02:25,454
+It uses a vision model and costs more, so it is the expensive
+
+33
+00:02:25,454 --> 00:02:26,896
+part of an upload.
+
+34
+00:02:27,351 --> 00:02:33,318
+The vision model is the Default vision deployment, in the Deployments section of the same page.
+
+35
+00:02:33,318 --> 00:02:35,681
+Without one, nothing is described.
+
+36
+00:02:39,891 --> 00:02:43,103
+Attachments are allowed profile by profile.
+
+37
+00:02:43,103 --> 00:02:48,871
+Open the profile, open the Knowledge tab, and tick Allow session document uploads.
+
+38
+00:02:49,342 --> 00:02:55,806
+Describe figures in uploaded documents follows the site default, or you choose for this profile.
+
+39
+00:02:55,806 --> 00:02:58,722
+Choose Describe figures, and click Save.
+
+40
+00:03:02,901 --> 00:03:05,007
+Open a chat with the profile.
+
+41
+00:03:05,007 --> 00:03:09,761
+An Attach files button appears, with the list of formats that it accepts.
+
+42
+00:03:10,212 --> 00:03:13,055
+Click Attach files, and choose the file.
+
+43
+00:03:13,055 --> 00:03:16,022
+Here it is the return policy of a company.
+
+44
+00:03:16,474 --> 00:03:19,546
+Then ask something that only the file answers:
+
+45
+00:03:19,546 --> 00:03:21,614
+can I return opened software?
+
+46
+00:03:22,085 --> 00:03:24,740
+The assistant answers from the file:
+
+47
+00:03:24,740 --> 00:03:27,585
+no, opened software cannot be returned.
+
+48
+00:03:31,782 --> 00:03:32,810
+Now a P.D.F.
+
+49
+00:03:32,810 --> 00:03:34,293
+report with a chart.
+
+50
+00:03:34,293 --> 00:03:36,918
+The sales numbers are only in the chart.
+
+51
+00:03:36,918 --> 00:03:41,598
+The chart has a caption, Figure one, which is how the site knows it matters.
+
+52
+00:03:41,598 --> 00:03:43,252
+Attach it the same way.
+
+53
+00:03:43,704 --> 00:03:44,448
+Ask:
+
+54
+00:03:44,448 --> 00:03:47,424
+which quarter sold the most units?
+
+55
+00:03:47,875 --> 00:03:50,927
+The assistant read the chart, and answers from it:
+
+56
+00:03:50,927 --> 00:03:52,236
+the third quarter.
+
+57
+00:03:52,236 --> 00:03:56,597
+Describing a figure takes a little longer, which is why an attachment with
+
+58
+00:03:56,597 --> 00:03:58,505
+figures is slower to prepare.
+
+59
+00:04:02,705 --> 00:04:04,688
+A policy or a contract:
+
+60
+00:04:04,688 --> 00:04:09,475
+ask what it says about one clause, instead of reading all of it.
+
+61
+00:04:10,225 --> 00:04:12,111
+A report with charts:
+
+62
+00:04:12,111 --> 00:04:15,675
+ask for the highest, the lowest or the trend.
+
+63
+00:04:16,425 --> 00:04:17,775
+A specification:
+
+64
+00:04:17,775 --> 00:04:22,255
+ask the assistant to compare it with another file in the same chat.
+
+65
+00:04:24,255 --> 00:04:29,143
+Choose the documents index, allow attachments on a profile, and let people ask
+
+66
+00:04:29,143 --> 00:04:31,761
+about their own files, charts included.
+
+67
+00:04:31,761 --> 00:04:33,275
+Thanks for watching.
+

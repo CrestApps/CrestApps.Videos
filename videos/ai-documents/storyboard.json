@@ -1,0 +1,234 @@
+{
+  "title": "AI Documents",
+  "output": "ai-documents",
+  "spoken": {
+    "Elasticsearch": "Elastic search"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Documents",
+      "subtitle": "Ask about a file in a chat",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Sometimes the answer is in a file. This video shows how a person attaches a document to a chat, how the assistant answers from it, and how it can read the charts inside it. It also shows the settings that control it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why attach files",
+      "subtitle": "A file and a question",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A person has a file and a question: a policy, a report, a contract. They should not wait for an administrator to add it to the assistant."
+            },
+            {
+              "id": "why-2",
+              "text": "With attachments on, the person attaches the file to the chat and asks. The assistant reads it, and answers from it."
+            },
+            {
+              "id": "why-3",
+              "text": "The file belongs to that chat only. It never becomes part of the knowledge of the profile, and other people never see it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What can be attached",
+      "subtitle": "Files, passages and figures",
+      "clips": [
+        {
+          "id": "02-formats",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "fmt-1",
+              "text": "Text, Markdown, JSON, XML, HTML, YAML and log files, spreadsheets, and PDF, Word and PowerPoint files, when those features are on."
+            },
+            {
+              "id": "fmt-2",
+              "text": "A document is read, split into passages, and searched by meaning. A very long document is refused, rather than stored where it cannot be searched."
+            },
+            {
+              "id": "fmt-3",
+              "text": "Charts and pictures inside a document can be described by a vision model, so that the assistant can answer about them. A figure is worth describing when it has a caption, or when the text refers to it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The settings",
+      "subtitle": "Settings, Artificial Intelligence",
+      "clips": [
+        {
+          "id": "03-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Artificial Intelligence, and find the Documents section. The Index profile is the documents index that stores every attachment. Once people use it, avoid switching to another one."
+            },
+            {
+              "id": "set-2",
+              "text": "Document retrieval mode is the site default. Chunk gives the assistant only the matching passages. Hierarchical gives it the whole documents they come from."
+            },
+            {
+              "id": "set-3",
+              "text": "Allow document uploads in chat interactions and Allow image uploads in chat interactions turn attachments on or off for the Chat Interactions screen. Pictures need a vision deployment."
+            },
+            {
+              "id": "set-4",
+              "text": "Largest document that can be indexed is the most characters of text one document may have. Zero means no limit."
+            },
+            {
+              "id": "set-5",
+              "text": "Describe figures in uploaded documents decides whether charts and pictures are described. It uses a vision model and costs more, so it is the expensive part of an upload."
+            },
+            {
+              "id": "set-6",
+              "text": "The vision model is the Default vision deployment, in the Deployments section of the same page. Without one, nothing is described."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "04",
+      "title": "Allow it on a profile",
+      "subtitle": "The Knowledge tab",
+      "clips": [
+        {
+          "id": "04-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pro-1",
+              "text": "Attachments are allowed profile by profile. Open the profile, open the Knowledge tab, and tick Allow session document uploads."
+            },
+            {
+              "id": "pro-2",
+              "text": "Describe figures in uploaded documents follows the site default, or you choose for this profile. Choose Describe figures, and click Save."
+            }
+          ]
+        }
+      ],
+      "short": "profile"
+    },
+    {
+      "id": "05",
+      "title": "Attach a file",
+      "subtitle": "Ask about it",
+      "clips": [
+        {
+          "id": "05-attach",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "att-1",
+              "text": "Open a chat with the profile. An Attach files button appears, with the list of formats that it accepts."
+            },
+            {
+              "id": "att-2",
+              "text": "Click Attach files, and choose the file. Here it is the return policy of a company."
+            },
+            {
+              "id": "att-3",
+              "text": "Then ask something that only the file answers: can I return opened software?"
+            },
+            {
+              "id": "att-4",
+              "text": "The assistant answers from the file: no, opened software cannot be returned."
+            }
+          ]
+        }
+      ],
+      "short": "attach"
+    },
+    {
+      "id": "06",
+      "title": "Charts and figures",
+      "subtitle": "Ask about a chart",
+      "clips": [
+        {
+          "id": "06-figures",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fig-1",
+              "text": "Now a P.D.F. report with a chart. The sales numbers are only in the chart. The chart has a caption, Figure one, which is how the site knows it matters. Attach it the same way."
+            },
+            {
+              "id": "fig-2",
+              "text": "Ask: which quarter sold the most units?"
+            },
+            {
+              "id": "fig-3",
+              "text": "The assistant read the chart, and answers from it: the third quarter. Describing a figure takes a little longer, which is why an attachment with figures is slower to prepare."
+            }
+          ]
+        }
+      ],
+      "short": "figures"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "What people attach",
+      "clips": [
+        {
+          "id": "07-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "A policy or a contract: ask what it says about one clause, instead of reading all of it."
+            },
+            {
+              "id": "case-2",
+              "text": "A report with charts: ask for the highest, the lowest or the trend."
+            },
+            {
+              "id": "case-3",
+              "text": "A specification: ask the assistant to compare it with another file in the same chat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose the documents index, allow attachments on a profile, and let people ask about their own files, charts included. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

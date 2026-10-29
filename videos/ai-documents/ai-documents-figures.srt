@@ -1,0 +1,44 @@
+1
+00:00:03,197 --> 00:00:04,225
+Now a P.D.F.
+
+2
+00:00:04,225 --> 00:00:05,708
+report with a chart.
+
+3
+00:00:05,708 --> 00:00:08,333
+The sales numbers are only in the chart.
+
+4
+00:00:08,333 --> 00:00:13,012
+The chart has a caption, Figure one, which is how the site knows it matters.
+
+5
+00:00:13,012 --> 00:00:14,667
+Attach it the same way.
+
+6
+00:00:15,119 --> 00:00:15,863
+Ask:
+
+7
+00:00:15,863 --> 00:00:18,839
+which quarter sold the most units?
+
+8
+00:00:19,289 --> 00:00:22,342
+The assistant read the chart, and answers from it:
+
+9
+00:00:22,342 --> 00:00:23,651
+the third quarter.
+
+10
+00:00:23,651 --> 00:00:28,012
+Describing a figure takes a little longer, which is why an attachment with
+
+11
+00:00:28,012 --> 00:00:29,919
+figures is slower to prepare.
+

@@ -1,0 +1,50 @@
+WEBVTT
+
+00:00:03.178 --> 00:00:07.886
+Open Settings, Artificial Intelligence, and find the Documents section.
+
+00:00:07.886 --> 00:00:12.533
+The Index profile is the documents index that stores every attachment.
+
+00:00:12.533 --> 00:00:16.018
+Once people use it, avoid switching to another one.
+
+00:00:16.536 --> 00:00:19.437
+Document retrieval mode is the site default.
+
+00:00:19.437 --> 00:00:22.861
+Chunk gives the assistant only the matching passages.
+
+00:00:22.861 --> 00:00:26.516
+Hierarchical gives it the whole documents they come from.
+
+00:00:26.982 --> 00:00:32.599
+Allow document uploads in chat interactions and Allow image uploads in chat interactions
+
+00:00:32.599 --> 00:00:36.542
+turn attachments on or off for the Chat Interactions screen.
+
+00:00:36.542 --> 00:00:38.932
+Pictures need a vision deployment.
+
+00:00:39.387 --> 00:00:45.769
+Largest document that can be indexed is the most characters of text one document may have.
+
+00:00:45.769 --> 00:00:47.497
+Zero means no limit.
+
+00:00:47.976 --> 00:00:53.686
+Describe figures in uploaded documents decides whether charts and pictures are described.
+
+00:00:53.686 --> 00:00:57.714
+It uses a vision model and costs more, so it is the expensive
+
+00:00:57.714 --> 00:00:59.156
+part of an upload.
+
+00:00:59.611 --> 00:01:05.578
+The vision model is the Default vision deployment, in the Deployments section of the same page.
+
+00:01:05.578 --> 00:01:07.941
+Without one, nothing is described.
+
