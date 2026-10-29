@@ -192,15 +192,64 @@ public static partial class Scenes
     private static async Task JoinsAsync(IBrowser browser, string directory, IReadOnlyDictionary<string, double> durations)
     {
         await using var scene = await NewSceneAsync(browser, directory, durations);
-        await OpenReportAsync(scene, "Activities by channel");
+
+        // A small report of its own, so the effect of each join shows in the preview: activities counted.
+        await scene.OpenAsync("/Admin/reports/builder/create");
+        await CompactMenuAsync(scene);
+        await scene.PauseAsync(1500);
+        await Tab(scene, "Settings").ClickAsync();
+        await scene.Page.Locator(".report-designer-settings input[type=text]").First.FillAsync("Activities per agent");
+        await scene.PauseAsync(800);
+        await Tab(scene, "Design").ClickAsync();
+        await scene.PauseAsync(1500);
+        await AddDataSetAsync(scene, "Omnichannel", "Activities");
+        await scene.DragToAsync(Field(scene, "$count"), Shelf(scene, "columns"));
+        await scene.PauseAsync(1500);
         await scene.StartCaptureAsync();
 
-        await scene.StepAsync("join-1", async () =>
+        var preview = scene.Page.Locator(".report-designer-preview table").First;
+
+        await scene.StepAsync("join-4", async () =>
         {
             await AddDataSetAsync(scene, "Users", "Users");
         });
 
-        await scene.StepAsync("join-2", async () =>
+        await scene.StepAsync("join-5", async () =>
+        {
+            await scene.Page.Locator(".report-designer-data input").First.FillAsync("user name");
+            await scene.PauseAsync(600);
+            await scene.DragToAsync(Field(scene, "Users.UserName"), Shelf(scene, "columns"), -200);
+            await scene.PauseAsync(1500);
+            await scene.HighlightAsync(preview, "Assigned activities only");
+        });
+
+        await scene.ClearHighlightsAsync();
+
+        await scene.StepAsync("join-6", async () =>
+        {
+            await scene.ClickAsync(Tab(scene, "Data model"), pauseAfter: 1200);
+            await scene.HighlightAsync(scene.Page.Locator(".rd-model-main .badge").Filter(new() { HasTextString = "Base" }).First, "The base");
+            await scene.PauseAsync(2500);
+            await scene.ClearHighlightsAsync();
+            await scene.HighlightAsync(scene.Page.Locator(".rd-model-badge").First, "The join type");
+        });
+
+        await scene.ClearHighlightsAsync();
+
+        await scene.StepAsync("join-7", async () =>
+        {
+            await scene.ClickAsync(scene.Page.Locator(".rd-model-badge").First, pauseAfter: 800);
+            var keep = scene.Page.Locator(".rd-model-side select").First;
+            await scene.HighlightAsync(keep);
+            await scene.SelectAsync(keep, "Left", pauseAfter: 900);
+            await scene.ClearHighlightsAsync();
+            await scene.ClickAsync(Tab(scene, "Design"), pauseAfter: 1500);
+            await scene.HighlightAsync(preview, "With and without an agent");
+        });
+
+        await scene.ClearHighlightsAsync();
+
+        await scene.StepAsync("join-8", async () =>
         {
             await scene.ClickAsync(Tab(scene, "Data model"), pauseAfter: 1000);
             await scene.ClickAsync(scene.Page.Locator(".rd-model-main button").Filter(new() { HasTextString = "Add data set" }).First, pauseAfter: 700);
@@ -208,33 +257,22 @@ public static partial class Scenes
             await scene.ClickAsync(modal.Locator(".nav-link").Filter(new() { HasTextString = "Omnichannel" }), pauseAfter: 500);
             var card = modal.Locator(".card").Filter(new() { Has = scene.Page.Locator(".card-title", new() { HasTextRegex = new Regex(@"^\s*Campaigns\s*$") }) }).First;
             await scene.ClickAsync(card.Locator(".card-footer button").First, pauseAfter: 1500);
-            await scene.DragToAsync(scene.Page.Locator(".rd-model-field[data-field-key='Activities.CampaignId']"), scene.Page.Locator(".rd-model-field[data-field-key$='.ItemId']").Last);
-            await scene.PauseAsync(800);
-        });
-
-        await scene.StepAsync("join-3", async () =>
-        {
-            await scene.ClickAsync(scene.Page.Locator(".rd-model-badge").Last, pauseAfter: 800);
-            var side = scene.Page.Locator(".rd-model-side");
-            await scene.HighlightAsync(side.Locator("select").First);
-            await scene.SelectAsync(side.Locator("select").First, "Left");
+            await scene.DragToAsync(scene.Page.Locator(".rd-model-field[data-field-key='Activities.CampaignId']"), scene.Page.Locator(".rd-model-field[data-field-key='Campaigns.ItemId']"));
+            await scene.PauseAsync(1200);
+            await scene.HighlightAsync(scene.Page.Locator(".rd-model-field[data-field-key='Campaigns.ItemId']"), "Key column");
         });
 
         await scene.ClearHighlightsAsync();
 
-        await scene.StepAsync("join-4", async () =>
+        await scene.StepAsync("join-9", async () =>
         {
-            await scene.ClickAsync(Tab(scene, "Design"), pauseAfter: 800);
-            await scene.Page.Locator(".report-designer-data input").First.FillAsync("user name");
-            await scene.PauseAsync(600);
-            await scene.DragToAsync(scene.Page.Locator(".report-designer-field[data-field-key='Users.UserName']"), Shelf(scene, "columns"), -300);
-            await scene.PauseAsync(1200);
-            await scene.HighlightAsync(scene.Page.Locator(".report-designer-preview table").First);
+            await scene.ClickAsync(scene.Page.Locator(".rd-model-badge").Last, pauseAfter: 900);
+            var side = scene.Page.Locator(".rd-model-side");
+            await scene.HighlightAsync(side.Locator("button").Filter(new() { HasTextString = "Add matching columns" }).First, "Another pair");
         });
 
         await scene.ClearHighlightsAsync();
     }
-
     private static async Task KindsAsync(IBrowser browser, string directory, IReadOnlyDictionary<string, double> durations)
     {
         await using var scene = await NewSceneAsync(browser, directory, durations);
@@ -364,76 +402,159 @@ public static partial class Scenes
 
         await scene.StepAsync("view-1", async () =>
         {
+            await scene.PauseAsync(3500);
             await scene.ClickAndWaitForNavigationAsync(scene.Page.Locator("a").Filter(new() { HasTextString = "Add View" }).First);
-            await AddDataSetAsync(scene, "Contact Center", "Interactions");
-            await scene.DragToAsync(Field(scene, "Interactions.Channel"), Shelf(scene, "columns"));
-            await scene.PauseAsync(1200);
-            await scene.DragToAsync(Field(scene, "Interactions.Direction"), Shelf(scene, "columns"), 120);
-            await scene.PauseAsync(1200);
-            await scene.Page.Locator(".report-designer-data input").First.FillAsync("rows");
-            await scene.PauseAsync(500);
-            await scene.DragToAsync(Field(scene, "$count"), Shelf(scene, "columns"), 200);
+            await scene.PauseAsync(800);
         });
 
         await scene.StepAsync("view-2", async () =>
         {
-            await scene.ClickAsync(Tab(scene, "Settings"), pauseAfter: 500);
-            var settings = scene.Page.Locator(".report-designer-settings");
-            await scene.TypeAsync(settings.Locator("input[type=text]").First, "Interactions by channel", delay: 50);
-            var refresh = settings.Locator(".mb-3").Filter(new() { Has = scene.Page.Locator("label", new() { HasTextString = "Refresh" }) }).Locator("select");
-            await scene.HighlightAsync(refresh);
-            await scene.SelectAsync(refresh, "60");
-            await scene.ClickAsync(scene.Page.Locator("[data-report-designer] button").Filter(new() { HasTextString = "Save" }).First, pauseAfter: 1500);
+            await AddDataSetAsync(scene, "Omnichannel", "Activities");
+            await AddDataSetAsync(scene, "Users", "Users");
+            await scene.ClickAsync(Tab(scene, "Data model"), pauseAfter: 900);
+            await scene.ClickAsync(scene.Page.Locator(".rd-model-badge").First, pauseAfter: 700);
+            await scene.SelectAsync(scene.Page.Locator(".rd-model-side select").First, "Left", pauseAfter: 600);
         });
-
-        await scene.ClearHighlightsAsync();
 
         await scene.StepAsync("view-3", async () =>
         {
-            await scene.NavigateAsync("/Admin/reports/builder/create");
-            await scene.ClickAsync(Button(scene, "Add data set"), pauseAfter: 700);
+            await scene.ClickAsync(Tab(scene, "Design"), pauseAfter: 500);
+            await scene.Page.Locator(".report-designer-data input").First.FillAsync(string.Empty);
+            var add = scene.Page.Locator(".report-designer-data button, .report-designer-data a").Filter(new() { HasTextString = "New" }).First;
+            await scene.ClickAsync(add, pauseAfter: 700);
             var modal = scene.Page.Locator(".modal.show");
-            await scene.ClickAsync(modal.Locator(".nav-link").Filter(new() { HasTextString = "Report views" }), pauseAfter: 600);
-            await scene.HighlightAsync(modal.Locator(".card").First);
+            await scene.TypeAsync(modal.Locator("input").First, "Agent", delay: 60);
+            await scene.TypeAsync(modal.Locator("textarea").First, "IFNULL([Users.UserName], 'Unassigned')", delay: 30);
+            await scene.ClickAsync(modal.Locator("button").Filter(new() { HasTextString = "Check" }), pauseAfter: 1000);
+            await scene.ClickAsync(modal.Locator("button").Filter(new() { HasTextString = "Apply" }), pauseAfter: 700);
+        });
+
+        await scene.StepAsync("view-4", async () =>
+        {
+            await scene.DragToAsync(Field(scene, "Activities.ItemId"), Shelf(scene, "columns"));
+            await scene.PauseAsync(500);
+            var agent = scene.Page.Locator(".report-designer-field").Filter(new() { Has = scene.Page.Locator("span.flex-grow-1", new() { HasTextRegex = new Regex(@"^\s*Agent\s*$") }) }).First;
+            await scene.DragToAsync(agent, Shelf(scene, "columns"), 120);
+            await scene.PauseAsync(500);
+            await scene.DragToAsync(Field(scene, "Activities.Channel"), Shelf(scene, "columns"), 240);
+            await scene.PauseAsync(500);
+            await scene.ClickAsync(Field(scene, "Activities.Status").Locator("button[aria-label^='Add to columns']"));
+            await scene.PauseAsync(900);
+        });
+
+        await scene.StepAsync("view-5", async () =>
+        {
+            await scene.ClickAsync(Tab(scene, "Settings"), pauseAfter: 500);
+            var settings = scene.Page.Locator(".report-designer-settings");
+            await scene.TypeAsync(settings.Locator("input[type=text]").First, "Activities with agents", delay: 50);
+            var refresh = settings.GetByLabel("Refresh", new() { Exact = true });
+            await scene.HighlightAsync(refresh);
+            await scene.PauseAsync(1500);
+            await scene.SelectAsync(refresh, "60", pauseAfter: 900);
+            await scene.ClearHighlightsAsync();
+            await scene.ClickAsync(scene.Page.Locator("[data-report-designer] button").Filter(new() { HasTextString = "Save" }).First, pauseAfter: 1500);
+        });
+
+        await scene.StepAsync("view-6", async () =>
+        {
+            await scene.NavigateAsync("/Admin/reports/builder/create");
+            await CompactMenuAsync(scene);
+            await AddDataSetAsync(scene, "Report views", "Activities with agents");
+        });
+
+        await scene.StepAsync("view-7", async () =>
+        {
+            var agent = scene.Page.Locator(".report-designer-field").Filter(new() { Has = scene.Page.Locator("span.flex-grow-1", new() { HasTextRegex = new Regex(@"^\s*Agent\s*$") }) }).First;
+            await scene.DragToAsync(agent, Shelf(scene, "columns"));
+            await scene.PauseAsync(800);
+            await scene.DragToAsync(Field(scene, "$count"), Shelf(scene, "columns"), 150);
+            await scene.PauseAsync(1200);
+            await scene.HighlightAsync(scene.Page.Locator(".report-designer-preview table").First);
         });
 
         await scene.ClearHighlightsAsync();
-    }
 
+        await scene.StepAsync("view-8", async () =>
+        {
+            var visuals = scene.Page.Locator(".report-designer-visuals");
+            await scene.ClickAsync(visuals.Locator(".card-body button").Filter(new() { HasTextString = "Chart" }).First, pauseAfter: 900);
+            await scene.SelectAsync(visuals.Locator("xpath=.//*[normalize-space(text())='Chart type']/following::select[1]").First, "HorizontalBar", pauseAfter: 900);
+            var chart = visuals.Locator(".list-group-item").Filter(new() { HasTextString = "Chart" }).First;
+            await scene.ClickAsync(chart.Locator("button[aria-label='Move up']"), pauseAfter: 900);
+            await scene.MoveToAsync(scene.Page.Locator(".report-designer-preview").First);
+            await scene.PauseAsync(1500);
+        });
+    }
     private static async Task ShareAsync(IBrowser browser, string directory, IReadOnlyDictionary<string, double> durations)
     {
         await using var scene = await NewSceneAsync(browser, directory, durations);
         await OpenReportAsync(scene, "Activities by channel");
+
+        // A new link shows its token once: never record it.
+        await scene.Page.AddStyleTagAsync(new() { Content = ".report-designer-sharing .alert input { filter: blur(6px); }" });
         await scene.StartCaptureAsync();
         var sharing = scene.Page.Locator(".report-designer-sharing");
+        var people = sharing.Locator("input[type=search]").First;
+        var recipients = sharing.Locator("input[type=search]").Nth(1);
 
         await scene.StepAsync("share-1", async () =>
         {
             await scene.ClickAsync(Tab(scene, "Sharing"), pauseAfter: 600);
-            await scene.TypeAsync(sharing.Locator("input[type=search]").First, "jamie", delay: 90);
+            await scene.TypeAsync(people, "jamie", delay: 90);
             await scene.PauseAsync(1200);
-            await scene.ClickAsync(sharing.Locator(".report-designer-user-results button").First, pauseAfter: 600);
-            await scene.ClickAsync(sharing.GetByLabel("Authenticated", new() { Exact = true }), pauseAfter: 400);
+            await scene.ClickAsync(sharing.Locator(".report-designer-user-results button").First, pauseAfter: 1200);
+            var authenticated = sharing.Locator(".form-check").Filter(new() { HasTextString = "Authenticated" }).First.Locator("input");
+            await scene.ClickAsync(authenticated, pauseAfter: 600);
+
+            if (!await authenticated.IsCheckedAsync())
+            {
+                await scene.ClickAsync(authenticated, pauseAfter: 600);
+            }
+
+            var anonymous = sharing.Locator(".form-check").Filter(new() { HasTextString = "Anonymous" }).First;
+            await scene.MoveToAsync(anonymous);
+            await scene.HighlightAsync(anonymous, "Public");
         });
+
+        await scene.ClearHighlightsAsync();
 
         await scene.StepAsync("share-2", async () =>
         {
-            await scene.TypeAsync(sharing.Locator("input[placeholder='What the link is for']"), "Weekly operations review", delay: 45);
-            await sharing.Locator("input[type=datetime-local]").FillAsync(DateTime.Today.AddDays(30).ToString("yyyy-MM-dd'T'09:00"));
+            await scene.ScrollAsync(0, 380);
+            await scene.TypeAsync(recipients, "rpark", delay: 90);
+            await scene.PauseAsync(1200);
+            await scene.ClickAsync(sharing.Locator(".report-designer-user-results button").Last, pauseAfter: 600);
+            var expires = sharing.GetByLabel("Expires after (days)");
+            await expires.FillAsync(string.Empty);
+            await scene.TypeAsync(expires, "30", delay: 90);
+            var uses = sharing.GetByLabel("Most uses");
+            await uses.FillAsync(string.Empty);
+            await scene.TypeAsync(uses, "10", delay: 90);
+        });
+
+        await scene.StepAsync("share-3", async () =>
+        {
+            await scene.TypeAsync(sharing.GetByLabel("Note"), "Weekly operations review", delay: 40);
+            var email = sharing.GetByLabel("Email the link to the recipients");
+            await scene.HighlightAsync(email.Locator("xpath=ancestor::*[contains(@class,'form-check')][1]"), "Or let the site email it");
+            await scene.PauseAsync(1500);
+            await scene.ClearHighlightsAsync();
+            await scene.ClickAsync(email, pauseAfter: 400);
             await scene.ClickAsync(sharing.Locator("button").Filter(new() { HasTextString = "Create link" }).First, pauseAfter: 1500);
             await scene.HighlightAsync(sharing.Locator("table").First);
         });
 
         await scene.ClearHighlightsAsync();
 
-        await scene.StepAsync("share-3", async () =>
+        await scene.StepAsync("share-4", async () =>
         {
+            await scene.ScrollAsync(0, -1200);
             await scene.HighlightAsync(sharing.Locator("p.text-muted").First);
         });
 
         await scene.ClearHighlightsAsync();
 
-        await scene.StepAsync("share-4", async () =>
+        await scene.StepAsync("share-5", async () =>
         {
             await scene.ClickAsync(scene.Page.Locator("[data-report-designer] button").Filter(new() { HasTextString = "Publish" }).First, pauseAfter: 1500);
             var run = scene.Page.Locator("[data-report-designer] a").Filter(new() { HasTextString = "Run report" }).First;

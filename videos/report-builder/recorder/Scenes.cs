@@ -26,9 +26,10 @@ public static partial class Scenes
         ("07-visuals", VisualsAsync),
         ("08-joins", JoinsAsync),
         ("09-kinds", KindsAsync),
+        // Views before the data sources: the sources clip shows the view under Report views.
+        ("12-views", ViewsAsync),
         ("10-sources", SourcesAsync),
         ("11-publish", PublishAsync),
-        ("12-views", ViewsAsync),
         ("13-share", ShareAsync),
     ];
 
@@ -72,7 +73,7 @@ public static partial class Scenes
     private static async Task OpenReportAsync(Scene scene, string title)
     {
         await scene.OpenAsync("/Admin/reports/designs");
-        var item = scene.Page.Locator(".list-group-item").Filter(new() { HasTextString = title }).First;
+        var item = scene.Page.Locator(".list-group-item.item").Filter(new() { HasTextString = title }).First;
         var href = await item.Locator("a").Filter(new() { HasTextString = "Edit" }).First.GetAttributeAsync("href");
         await scene.OpenAsync(href);
         await CompactMenuAsync(scene);
@@ -82,7 +83,7 @@ public static partial class Scenes
     private static async Task<string> RunUrlAsync(Scene scene, string title)
     {
         await scene.OpenAsync("/Admin/reports/designs");
-        var item = scene.Page.Locator(".list-group-item").Filter(new() { HasTextString = title }).First;
+        var item = scene.Page.Locator(".list-group-item.item").Filter(new() { HasTextString = title }).First;
 
         return await item.Locator("a").Filter(new() { HasTextString = "Run" }).First.GetAttributeAsync("href");
     }
@@ -122,13 +123,13 @@ public static partial class Scenes
             var features = scene.Page.Locator("a[href='/Admin/Features']").Filter(new() { Visible = true }).First;
             await scene.MoveToAsync(features);
             await scene.HighlightAsync(features, "Tools, Features");
-            await scene.PauseAsync(1800);
+            await scene.PauseAsync(1000);
             await scene.ClearHighlightsAsync();
             await scene.TypeAsync(scene.Page.Locator("#search-box"), "report", delay: 90);
             await scene.PauseAsync(500);
             await scene.MoveToAsync(Row("CrestApps_OrchardCore_Reports_Builder"), -300);
             await scene.HighlightAsync(Row("CrestApps_OrchardCore_Reports_Builder"), "Report Builder");
-            await scene.PauseAsync(2600);
+            await scene.PauseAsync(1600);
             await scene.ClearHighlightsAsync();
             await scene.MoveToAsync(Row("CrestApps_OrchardCore_Reports_OpenXml"), -300);
             await scene.HighlightAsync(Row("CrestApps_OrchardCore_Reports_OpenXml"), "Excel exports");
@@ -151,24 +152,41 @@ public static partial class Scenes
             await scene.HighlightAsync(menu);
             await scene.PauseAsync(2500);
             await scene.ClearHighlightsAsync();
-            var status = scene.Page.Locator("form .bootstrap-select, form select").Filter(new() { Visible = true }).First;
-            await scene.MoveToAsync(status);
-            await scene.HighlightAsync(status, "Published or drafts");
+            var search = scene.Page.Locator("input[type=search], input[placeholder='Search reports']").Filter(new() { Visible = true }).First;
+            await scene.MoveToAsync(search);
+            await scene.HighlightAsync(search, "Search");
+            await scene.PauseAsync(2000);
+            await scene.ClearHighlightsAsync();
+            var status = scene.Page.Locator(".list-group-item.text-bg-theme .dropdown-toggle").Filter(new() { HasTextString = "Status" }).First;
+            await scene.ClickAsync(status, pauseAfter: 600);
+            await scene.HighlightAsync(scene.Page.Locator(".list-group-item.text-bg-theme .dropdown-menu.show").First, "Published or not");
+            await scene.PauseAsync(2200);
+            await scene.Page.Keyboard.PressAsync("Escape");
         });
 
         await scene.ClearHighlightsAsync();
 
         await scene.StepAsync("start-3", async () =>
         {
-            var item = scene.Page.Locator(".list-group-item").Filter(new() { HasTextString = "Activity outcomes by agent" }).First;
-            await scene.HighlightAsync(item.Locator("a, button").Filter(new() { HasTextRegex = new System.Text.RegularExpressions.Regex("^(Run|Edit|Delete)$") }).First);
-            await scene.MoveToAsync(item.Locator("a").Filter(new() { HasTextString = "Run" }).First);
-            await scene.PauseAsync(1800);
+            var item = scene.Page.Locator(".list-group-item.item").Filter(new() { HasTextString = "Activity outcomes by agent" }).First;
+            var run = item.Locator("a").Filter(new() { HasTextString = "Run" }).First;
+            var edit = item.Locator("a").Filter(new() { HasTextString = "Edit" }).First;
+            await scene.MoveToAsync(run);
+            await scene.HighlightAsync(run, "Run");
+            await scene.PauseAsync(1200);
+            await scene.MoveToAsync(edit);
+            await scene.HighlightAsync(edit, "Edit");
+            await scene.PauseAsync(1400);
             await scene.ClearHighlightsAsync();
             await scene.ClickAsync(item.Locator(".dropdown-toggle.actions"), pauseAfter: 600);
             var clone = item.Locator(".dropdown-menu .dropdown-item").Filter(new() { HasTextString = "Clone" });
             await scene.MoveToAsync(clone);
             await scene.HighlightAsync(clone, "Your own copy");
+            await scene.PauseAsync(1800);
+            await scene.ClearHighlightsAsync();
+            var delete = item.Locator(".dropdown-menu .dropdown-item").Filter(new() { HasTextString = "Delete" });
+            await scene.MoveToAsync(delete);
+            await scene.HighlightAsync(delete);
         });
 
         await scene.ClearHighlightsAsync();

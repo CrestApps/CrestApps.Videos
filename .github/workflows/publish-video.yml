@@ -125,8 +125,13 @@ jobs:
           slug='${{ steps.tag.outputs.slug }}'
           version='${{ steps.tag.outputs.version }}'
           url='${{ steps.youtube.outputs.url }}'
-          branch="videos/$slug-$version"
+          # Every published video goes into ONE standing branch and ONE pull request, so many videos published together
+          # do not each open a pull request that edits the same videos.json and conflicts with the others.
+          branch="videos/video-links"
 
+          cd docs-repository
+          git fetch origin "$branch" 2>/dev/null && git checkout -q -B "$branch" FETCH_HEAD && git merge -q --no-edit origin/main || true
+          cd ..
           python tools/youtube/youtube.py docs-map "$slug" --map "docs-repository/$DOCS_VIDEO_MAP"
 
           cd docs-repository
@@ -140,10 +145,10 @@ jobs:
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git checkout -b "$branch"
+          git checkout -q -B "$branch"
           git add "$DOCS_VIDEO_MAP"
           git commit -m "Link the $title video ($version) in the documentation"
-          git push --force origin "$branch"
+          git push origin "$branch"
 
           body=$(printf '%s\n\n%s\n\n%s\n\n%s\n' \
             "Points \`<YouTube video=\"$slug\" />\` at $url ($title, $version), published from [$GITHUB_REPOSITORY $TAG]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/tag/$TAG)." \
@@ -152,8 +157,9 @@ jobs:
             "This pull request was opened by the publish-video workflow of $GITHUB_REPOSITORY.")
 
           existing=$(gh pr list --repo "$DOCS_REPOSITORY" --head "$branch" --json number -q '.[0].number')
+          summary="Adds the YouTube ids of the published CrestApps videos to \`$DOCS_VIDEO_MAP\`. The publish-video workflow of $GITHUB_REPOSITORY keeps this one pull request up to date: each published video is one more commit on the \`$branch\` branch."
           if [ -n "$existing" ]; then
-            gh pr edit "$existing" --repo "$DOCS_REPOSITORY" --body "$body"
+            gh pr comment "$existing" --repo "$DOCS_REPOSITORY" --body "$body"
           else
-            gh pr create --repo "$DOCS_REPOSITORY" --base main --head "$branch" --title "Link the $title video ($version)" --body "$body"
+            gh pr create --repo "$DOCS_REPOSITORY" --base main --head "$branch" --title "Link the published CrestApps videos in the documentation" --body "$summary"
           fi

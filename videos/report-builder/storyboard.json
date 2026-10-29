@@ -3,9 +3,11 @@
   "output": "report-builder",
   "spoken": {
     "CSV": "C.S.V.",
-    "IReportDataSource": "I Report Data Source",
-    "ReportRecordDataSource": "Report Record Data Source",
-    "SignalR": "Signal R"
+    "SignalR": "Signal R",
+    "IDataSource": "I Data Source",
+    "RecordDataSource": "Record Data Source",
+    "RecordDataSet": "Record Data Set",
+    "AddDataSource": "Add Data Source"
   },
   "chapters": [
     {
@@ -19,7 +21,7 @@
           "steps": [
             {
               "id": "intro",
-              "text": "The CrestApps Report Builder lets the people who run your site build their own reports by dragging fields, instead of writing queries. This video shows why it exists, how to build, chart and share a report, and every data source it reads."
+              "text": "The CrestApps Report Builder lets the people who run your site build their own reports by dragging fields, instead of writing queries. This video shows why it exists, how to build, chart and share a report, how to join data sets and reuse views, and every data source it reads."
             }
           ]
         }
@@ -98,11 +100,11 @@
             },
             {
               "id": "start-2",
-              "text": "The Report Builder appears under Reports in the admin menu. It lists every report you can open, and the filter at the top shows published reports or drafts."
+              "text": "The Report Builder appears under Reports in the admin menu. It lists every report you can open. Search them, or filter them by status: published, or not published."
             },
             {
               "id": "start-3",
-              "text": "From the list, run a report, edit it, or delete it. The Actions menu clones a report into your own copy, which is not shared with anybody."
+              "text": "From the list, run a report or edit it. The Actions menu clones a report into your own copy, which is not shared with anybody, or deletes it."
             }
           ]
         }
@@ -244,27 +246,53 @@
     {
       "id": "08",
       "title": "Join data sets",
-      "subtitle": "Combine data from several sources",
+      "subtitle": "Combine data sets, and choose which rows to keep",
       "clips": [
+        {
+          "id": "08-joins-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "join-1",
+              "text": "A join puts the rows of two data sets side by side. Each activity, for example, sits next to the user it is assigned to: the activity's Assigned to column is matched to the user's ID."
+            },
+            {
+              "id": "join-2",
+              "text": "Which rows stay depends on the join type. An inner join keeps only the rows that match on both sides: the activities that have a user. A left join keeps all the rows before: every activity, with the user's columns empty when there is none."
+            },
+            {
+              "id": "join-3",
+              "text": "A right join keeps all the rows of the joined data set: every user, even one without activities. A full join keeps all the rows of both sides."
+            }
+          ]
+        },
         {
           "id": "08-joins",
           "kind": "clip",
           "steps": [
             {
-              "id": "join-1",
-              "text": "Add a second data set: Users. Data sets that reference each other, such as an activity and the user it is assigned to, are joined for you."
-            },
-            {
-              "id": "join-2",
-              "text": "The Data model tab draws the data sets and their relationships. To join two yourself, drag a column of one onto the matching column of the other: here, the campaign of an activity onto the ID of a campaign."
-            },
-            {
-              "id": "join-3",
-              "text": "Click a relationship to set its type: inner, left, right or full, on one or more pairs of columns."
-            },
-            {
               "id": "join-4",
-              "text": "Back on the Design tab, the fields of both data sets are available. Here, activities are counted per user and status."
+              "text": "Add a second data set: Users. An activity refers to the user it is assigned to, so the builder joins them for you."
+            },
+            {
+              "id": "join-5",
+              "text": "Drag User name onto Columns. The activities are counted per agent. The builder joins them with an inner join, which keeps only the rows that match on both sides, so activities nobody is assigned to are left out."
+            },
+            {
+              "id": "join-6",
+              "text": "The Data model tab draws the data sets and how they are joined. The first one is the base. Each line is a join, and its badge shows the join type."
+            },
+            {
+              "id": "join-7",
+              "text": "Click the badge to change it. Make it a left join, to keep all the rows before, and back on the Design tab, the activities without an agent are counted too, with no agent."
+            },
+            {
+              "id": "join-8",
+              "text": "To join two data sets yourself, drag a column of one onto the matching column of the other: here, the campaign of an activity onto the ID of a campaign. Key columns are marked with a key, and listed first."
+            },
+            {
+              "id": "join-9",
+              "text": "A join can match on several columns. Add matching columns adds another pair, and rows match only when every pair is equal."
             }
           ]
         }
@@ -324,11 +352,11 @@
             },
             {
               "id": "sources-4",
-              "text": "Omnichannel offers activities, dispositions, campaigns and activity batches. AI Chat offers chat sessions and their metrics, and Messaging offers conversations and messages."
+              "text": "Omnichannel offers activities, dispositions, campaigns and activity batches. AI Chat offers chat sessions, and Messaging offers conversations and messages."
             },
             {
               "id": "sources-5",
-              "text": "Saved queries, and the views you build, are data sets too. Modules can add their own sources."
+              "text": "The views you build are data sets too, and so are saved queries, when the Queries feature is on. Modules can add their own sources."
             }
           ]
         }
@@ -364,7 +392,7 @@
     {
       "id": "12",
       "title": "Reusable views",
-      "subtitle": "Prepare a data set once, use it everywhere",
+      "subtitle": "Prepare a data set once, and build reports on it",
       "clips": [
         {
           "id": "12-views",
@@ -372,15 +400,35 @@
           "steps": [
             {
               "id": "view-1",
-              "text": "Report Views lists the reusable data sets. Build a view like a report: data sets, joins, calculated fields, filters and columns."
+              "text": "A view prepares a data set once, for many reports: its joins, calculated fields and filters live in one place. Report Views lists them. Click Add View."
             },
             {
               "id": "view-2",
-              "text": "Choose how often it refreshes: every fifteen minutes, every hour, every six hours, or every day. A background task stores the result, so reports read it quickly."
+              "text": "Build it like a report. This one holds activities with the agent they are assigned to: add Activities, then Users, and make their join a left join, so activities without an agent stay."
             },
             {
               "id": "view-3",
-              "text": "In any report, the view appears under the Report views source, and its columns are fields like any others."
+              "text": "Add a calculated field for the agent: the user's name, or Unassigned when there is none. Check the formula, and apply it."
+            },
+            {
+              "id": "view-4",
+              "text": "Then drag the columns that reports need: the activity's ID, the agent, the channel, and the status."
+            },
+            {
+              "id": "view-5",
+              "text": "On the Settings tab, name the view, and choose when it refreshes. Live runs it each time a report reads it. A schedule, such as every hour, stores the result, so reports read it quickly. Save it."
+            },
+            {
+              "id": "view-6",
+              "text": "Now build a report on it. Add a data set: the view is under Report views."
+            },
+            {
+              "id": "view-7",
+              "text": "Its columns are fields like any others, with the agent already worked out. Drag Agent, and Number of rows to count each agent's activities."
+            },
+            {
+              "id": "view-8",
+              "text": "Add a chart, and the report shows each agent's workload, without repeating the join or the formula. Every report built on the view reuses them."
             }
           ]
         }
@@ -398,19 +446,23 @@
           "steps": [
             {
               "id": "share-1",
-              "text": "On the Sharing tab, share the report with users, and with roles."
+              "text": "On the Sharing tab, share the report with people, and with roles. The Anonymous role makes it public: everyone can open it, signed in or not."
             },
             {
               "id": "share-2",
-              "text": "Share links let people without an account open the report. Each link can expire, and can be revoked at any time."
+              "text": "A share link sends the report to people of the site, who open it once signed in. Pick the recipients, and choose when the link expires and how many times it can be used."
             },
             {
               "id": "share-3",
-              "text": "A shared report reads data with your access, so share only what viewers should see."
+              "text": "Create the link, then copy it and send it, or let the site email it. Every link is listed, and you can revoke one at any time."
             },
             {
               "id": "share-4",
-              "text": "Viewers run the report, change its filters, and export it as a C S V file, or as an Excel workbook."
+              "text": "A shared report reads data with your access, so share only what its viewers should see."
+            },
+            {
+              "id": "share-5",
+              "text": "Viewers run the report, change its filters, and export it as a CSV file, or as an Excel workbook."
             }
           ]
         }
@@ -428,11 +480,11 @@
           "steps": [
             {
               "id": "ext-1",
-              "text": "Developers add a data source by implementing IReportDataSource. It lists its data sets, describes their fields, and returns rows for the fields a report asks for."
+              "text": "Developers add a data source by implementing Orchard Core's IDataSource. Its name, display name and description are static. It lists its data sets, describes their fields, and streams the rows a report asks for."
             },
             {
               "id": "ext-2",
-              "text": "For data kept in records, derive from ReportRecordDataSource, and register the source with the service collection. The source decides what each person may see."
+              "text": "For data kept in records, derive from RecordDataSource and RecordDataSet, and register the source with AddDataSource. The data set decides what each person may read."
             }
           ]
         }
