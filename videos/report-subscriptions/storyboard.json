@@ -1,0 +1,260 @@
+{
+  "title": "Report subscriptions",
+  "output": "report-subscriptions",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "PDF": "P.D.F.",
+    "SMTP": "S.M.T.P."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report subscriptions",
+      "subtitle": "Email a report every day, week or month",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A report only helps when somebody opens it. Report Subscriptions email a report on a schedule, to the people who need it. This video shows how to set one up, what the list tells you, and what happens on a site whose email is not ready."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why subscriptions",
+      "subtitle": "The report that arrives by itself",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Nobody remembers to open the sales report every Monday. A subscription does it for them: the report arrives in the inbox of whoever needs it."
+            },
+            {
+              "id": "why-2",
+              "text": "A subscription goes out every day for the day before, every week for the seven days before, or every month for the month before."
+            },
+            {
+              "id": "why-3",
+              "text": "The email shows the numbers and tables of the report, and can carry the report as a file too: CSV, Excel or PDF."
+            },
+            {
+              "id": "why-4",
+              "text": "The hour is in the site's time zone. A background task checks every few minutes for subscriptions that are due, and schedules the next one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn it on",
+      "subtitle": "The feature and the permission",
+      "short": "turn-on",
+      "clips": [
+        {
+          "id": "02-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feat-1",
+              "text": "Report Subscriptions is a feature under Tools, Features, in the Reporting category. Click Enable. It needs the Reports feature and the Email feature, and enables them with it."
+            },
+            {
+              "id": "feat-2",
+              "text": "The Reports menu now has a Subscriptions item. Each report is still gated by its own permission, so a person can only subscribe to reports they may open."
+            }
+          ]
+        },
+        {
+          "id": "02b-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "Who may manage subscriptions is a permission of its own: Manage report subscriptions, in the Reports section of a role. Administrators have it by default."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The email prerequisite",
+      "subtitle": "A subscription needs a way to send mail",
+      "short": "email",
+      "clips": [
+        {
+          "id": "03-email",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "email-1",
+              "text": "A subscription can only be sent through an email provider. Under Settings, Email, this site says that no email provider is enabled yet."
+            },
+            {
+              "id": "email-2",
+              "text": "Back on the Features page, enable a provider. Here it is the SMTP provider, which sends through a mail server."
+            },
+            {
+              "id": "email-3",
+              "text": "The SMTP tab asks for the sender address, the host name and the port, and for credentials when the server needs them. This site has no mail server, so these values point nowhere. On your site, enter your own server."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Add a subscription",
+      "subtitle": "Report, schedule, recipients and file",
+      "short": "add",
+      "clips": [
+        {
+          "id": "04-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "Open Reports, Subscriptions. The list is empty. Click Add subscription."
+            },
+            {
+              "id": "add-2",
+              "text": "Choose the Report, from every report you may open, listed by category. The Name is optional; the report's name is used when it is blank."
+            },
+            {
+              "id": "add-3",
+              "text": "Send chooses every day, every week or every month. For a weekly report, pick the Day of the week; for a monthly one, the Day of the month, from 1 to 28. The Hour runs from 0 to 23, in the site's time zone."
+            },
+            {
+              "id": "add-4",
+              "text": "Under Email to, enter the addresses, separated by commas. Attach the report as adds a file: CSV, Excel or PDF, or No file. The email shows the numbers and tables either way."
+            },
+            {
+              "id": "add-5",
+              "text": "Leave On ticked, and click Save. The subscription's page opens, with a banner that says when it goes out next. Back in Report subscriptions, the list shows its schedule, its recipients and the next time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Save and send now",
+      "subtitle": "Try a subscription at once, and read what went wrong",
+      "short": "send",
+      "clips": [
+        {
+          "id": "05-send",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "send-1",
+              "text": "Save and send now saves the subscription and sends it straight away, for the period before, so you can check what recipients get."
+            },
+            {
+              "id": "send-2",
+              "text": "This site has no mail server, so the send fails, and the page says why: the report wasn't emailed, with the reason. A site with a working mail server sends the email here."
+            },
+            {
+              "id": "send-3",
+              "text": "The list shows the same thing on the subscription's row: Last run didn't go out, with the reason in red. Fix the cause, such as the email settings, and send it again with Save and send now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Pause, change and delete",
+      "subtitle": "Keep the list tidy",
+      "short": "manage",
+      "clips": [
+        {
+          "id": "06-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Untick On, and click Save, to pause a subscription. Back in the list it keeps an Off badge, and it is not sent until you turn it on again."
+            },
+            {
+              "id": "man-2",
+              "text": "Search finds a subscription by its name. Edit changes any setting, and Delete removes a subscription you no longer need."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Reports you build yourself",
+      "subtitle": "A different route for the Report Builder",
+      "clips": [
+        {
+          "id": "07-builder",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "bld-1",
+              "text": "Subscriptions cover the reports under Reports that modules provide. Reports you build in the Report Builder cannot be subscribed to."
+            },
+            {
+              "id": "bld-2",
+              "text": "To email one of those, use a workflow: when a report runs on a schedule, the Email Report task sends it. The Report Builder workflows video shows how."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Where subscriptions fit",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A weekly service review: Queue service level every Monday at seven, to the supervisors, as a PDF."
+            },
+            {
+              "id": "use-2",
+              "text": "A monthly bill check: Queue usage for billing on the first of the month, to finance, as an Excel file."
+            },
+            {
+              "id": "use-3",
+              "text": "A daily pulse: Call insights each morning for the day before, to the manager of the floor, with no file."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report subscriptions",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Report subscriptions put the right report in the right inbox on time. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

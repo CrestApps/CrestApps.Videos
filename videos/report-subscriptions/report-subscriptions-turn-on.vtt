@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.182 --> 00:00:08.652
+Report Subscriptions is a feature under Tools, Features, in the Reporting category.
+
+00:00:08.652 --> 00:00:09.820
+Click Enable.
+
+00:00:09.820 --> 00:00:14.922
+It needs the Reports feature and the Email feature, and enables them with it.
+
+00:00:28.418 --> 00:00:31.600
+The Reports menu now has a Subscriptions item.
+
+00:00:31.600 --> 00:00:35.944
+Each report is still gated by its own permission, so a person can
+
+00:00:35.944 --> 00:00:38.758
+only subscribe to reports they may open.
+
+00:00:40.340 --> 00:00:44.097
+Who may manage subscriptions is a permission of its own:
+
+00:00:44.097 --> 00:00:48.217
+Manage report subscriptions, in the Reports section of a role.
+
+00:00:48.217 --> 00:00:50.640
+Administrators have it by default.
+

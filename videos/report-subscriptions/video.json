@@ -1,0 +1,84 @@
+{
+  "title": "Report Subscriptions: Email a Report Every Day, Week or Month | CrestApps for Orchard Core",
+  "description": "A report only helps when somebody opens it. Report Subscriptions email a CrestApps report on a schedule to the people who need it: every day for the day before, every week for the seven days before, or every month for the month before, with the numbers and tables in the email and the report attached as CSV, Excel or PDF.\n\nIn this video:\n• Why subscriptions, and the three schedules\n• Turning on the feature and the permission\n• The email prerequisite: a provider and its settings\n• Adding a subscription: report, schedule, recipients and attachment\n• Save and send now, and how a failed send is reported\n• Pausing, searching and deleting subscriptions\n• Reports from the Report Builder, and the workflow that emails them",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "report subscriptions",
+    "scheduled reports",
+    "email reports",
+    "reports",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why subscriptions"
+    },
+    {
+      "time": "0:59",
+      "title": "Turn it on"
+    },
+    {
+      "time": "1:51",
+      "title": "The email prerequisite"
+    },
+    {
+      "time": "2:44",
+      "title": "Add a subscription"
+    },
+    {
+      "time": "3:49",
+      "title": "Save and send now"
+    },
+    {
+      "time": "4:26",
+      "title": "Pause, change and delete"
+    },
+    {
+      "time": "4:51",
+      "title": "Reports you build yourself"
+    },
+    {
+      "time": "5:14",
+      "title": "Where subscriptions fit"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/reports"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports.Subscriptions"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/reports.md"
+  ],
+  "length": "5:50"
+}

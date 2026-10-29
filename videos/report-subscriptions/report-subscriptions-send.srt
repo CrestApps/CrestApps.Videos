@@ -1,0 +1,36 @@
+1
+00:00:03,232 --> 00:00:07,683
+Save and send now saves the subscription and sends it straight away, for
+
+2
+00:00:07,683 --> 00:00:11,222
+the period before, so you can check what recipients get.
+
+3
+00:00:11,678 --> 00:00:16,302
+This site has no mail server, so the send fails, and the page says why:
+
+4
+00:00:16,302 --> 00:00:19,244
+the report wasn't emailed, with the reason.
+
+5
+00:00:19,244 --> 00:00:22,908
+A site with a working mail server sends the email here.
+
+6
+00:00:23,359 --> 00:00:26,952
+The list shows the same thing on the subscription's row:
+
+7
+00:00:26,952 --> 00:00:30,023
+Last run didn't go out, with the reason in red.
+
+8
+00:00:30,023 --> 00:00:34,138
+Fix the cause, such as the email settings, and send it again with
+
+9
+00:00:34,138 --> 00:00:35,529
+Save and send now.
+
