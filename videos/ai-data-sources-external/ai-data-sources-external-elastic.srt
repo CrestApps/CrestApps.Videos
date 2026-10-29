@@ -1,0 +1,52 @@
+1
+00:00:03,205 --> 00:00:10,215
+Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Elasticsearch.
+
+2
+00:00:10,667 --> 00:00:14,121
+Enter a Name, and the Index name, which is the name of the
+
+3
+00:00:14,121 --> 00:00:15,847
+index on the other server.
+
+4
+00:00:16,301 --> 00:00:18,555
+Choose the Environment type.
+
+5
+00:00:18,555 --> 00:00:21,870
+Self-managed asks for the Elasticsearch URL.
+
+6
+00:00:21,870 --> 00:00:26,313
+Choose the Authentication type your technical team gives you:
+
+7
+00:00:26,313 --> 00:00:29,761
+none, a user name and password, or an API key.
+
+8
+00:00:30,215 --> 00:00:34,514
+Choose the Destination index, the knowledge base index of your site.
+
+9
+00:00:34,514 --> 00:00:36,955
+It cannot be changed after you save.
+
+10
+00:00:37,408 --> 00:00:41,807
+In Field Mapping, type the Content field, the Title field and the Key
+
+11
+00:00:41,807 --> 00:00:44,798
+field, as they are named in the remote index.
+
+12
+00:00:45,259 --> 00:00:46,250
+Click Save.
+
+13
+00:00:46,250 --> 00:00:51,669
+The data source reads the remote index, and fills its knowledge base in the background.
+

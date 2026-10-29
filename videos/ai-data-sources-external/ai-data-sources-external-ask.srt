@@ -1,0 +1,20 @@
+1
+00:00:03,175 --> 00:00:07,646
+Choose the data source on a profile, on the Knowledge tab, exactly as
+
+2
+00:00:07,646 --> 00:00:09,195
+for any data source.
+
+3
+00:00:09,651 --> 00:00:12,850
+Then ask a question that the remote notes answer:
+
+4
+00:00:12,850 --> 00:00:14,711
+how do I reset the router?
+
+5
+00:00:15,269 --> 00:00:20,789
+The assistant answers from the remote index, and the numbered source shows the note it used.
+

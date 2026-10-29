@@ -1,0 +1,8 @@
+{"index":{"_index":"support-notes","_id":"note-1"}}
+{"id":"note-1","title":"Resetting the Contoso router","body":"To reset the Contoso router to its factory settings, hold the reset button for 10 seconds until the front light blinks amber. The router restarts and the default network name and password printed on the label are restored."}
+{"index":{"_index":"support-notes","_id":"note-2"}}
+{"id":"note-2","title":"Updating the router firmware","body":"Open the router page in your browser, choose Firmware, and click Check for updates. The router downloads the update and restarts by itself. Do not unplug the router while the light is blinking green."}
+{"index":{"_index":"support-notes","_id":"note-3"}}
+{"id":"note-3","title":"Connecting a printer","body":"Connect the printer to the same network as the router. On the printer, choose Wireless setup and select the network name. The printer appears in the device list of the router within one minute."}
+{"index":{"_index":"support-notes","_id":"note-4"}}
+{"id":"note-4","title":"Setting up a guest network","body":"Open the router page, choose Guest network, and switch it on. Give the guest network its own name and password. Guests can reach the internet but not your other devices."}

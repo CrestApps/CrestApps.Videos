@@ -1,0 +1,20 @@
+1
+00:00:03,200 --> 00:00:09,033
+A PostgreSQL data source asks for a Name, and the Connection string of the database.
+
+2
+00:00:09,033 --> 00:00:13,570
+The connection string is stored securely, and never shown again.
+
+3
+00:00:14,023 --> 00:00:16,584
+The Table name is the table to read.
+
+4
+00:00:16,584 --> 00:00:21,096
+In Field Mapping, the content, title and key fields are the names of
+
+5
+00:00:21,096 --> 00:00:22,803
+columns of that table.
+

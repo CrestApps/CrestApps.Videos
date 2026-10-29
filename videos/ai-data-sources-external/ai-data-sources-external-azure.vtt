@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:07.767
+An Azure AI Search data source asks for a Name, the Index name,
+
+00:00:07.767 --> 00:00:10.743
+and the Endpoint of the search service.
+
+00:00:11.197 --> 00:00:17.032
+Authentication offers an API key, which is stored securely and never shown again,
+
+00:00:17.032 --> 00:00:21.257
+or an identity, with the Client ID of a managed identity.
+
+00:00:21.711 --> 00:00:25.890
+The Destination index and the Field Mapping work as before.
+
+00:00:25.890 --> 00:00:29.941
+Azure AI Search does not support the Filter of a profile.
+

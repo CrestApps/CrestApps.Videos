@@ -1,0 +1,92 @@
+{
+  "title": "External AI Data Sources: Elasticsearch, Azure AI Search and PostgreSQL | CrestApps for Orchard Core",
+  "description": "Not all knowledge lives in your site's content index. Some of it is in a search index that another system maintains, or in a database table. A CrestApps AI data source can read an Elasticsearch index, an Azure AI Search index or a PostgreSQL table where it is, keep a knowledge base in step, and let an assistant answer from it.\n\nIn this video:\n• Why an external data source reads knowledge where it already lives\n• What every source shares: a connection, a destination index and a field mapping\n• Creating an Elasticsearch data source, and asking a question its index answers\n• The Azure AI Search data source form\n• The PostgreSQL data source form\n• Use cases for external sources",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI data sources",
+    "AI knowledge base",
+    "RAG",
+    "retrieval-augmented generation",
+    "AI assistant",
+    "Elasticsearch",
+    "Azure AI Search",
+    "PostgreSQL",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why external sources"
+    },
+    {
+      "time": "0:50",
+      "title": "What every source shares"
+    },
+    {
+      "time": "1:23",
+      "title": "An Elasticsearch data source"
+    },
+    {
+      "time": "2:16",
+      "title": "Ask a question"
+    },
+    {
+      "time": "2:37",
+      "title": "An Azure AI Search data source"
+    },
+    {
+      "time": "3:08",
+      "title": "A PostgreSQL data source"
+    },
+    {
+      "time": "3:32",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:53",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/data-sources"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.DataSources"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/ai/data-sources/index.md"
+  ],
+  "length": "4:05"
+}
