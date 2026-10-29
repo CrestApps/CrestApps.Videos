@@ -1,0 +1,97 @@
+{
+  "title": "Purchase Orders and Stock Alerts: Reorder Before You Run Out | CrestApps for Orchard Core",
+  "description": "Running out of a bestseller costs sales. CrestApps purchase orders keep what you order from suppliers: start a draft from the items that are low on stock, set the costs, mark it ordered, receive part or all of it into a location, or cancel it, while back in stock alerts tell shoppers who asked and low stock alerts tell your staff when to order.\n\nIn this video:\n• Why purchase orders, and how draft, ordered and received fit together\n• Starting a purchase order from low stock\n• Costs, quantities and Mark as ordered\n• Back in stock alerts: a shopper asks, and how many are waiting\n• Receiving part of an order, then everything\n• Canceling an order and finding orders by status\n• Low stock alerts and who is told",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "purchase orders",
+    "stock alerts",
+    "back in stock",
+    "inventory",
+    "low stock",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why purchase orders"
+    },
+    {
+      "time": "0:49",
+      "title": "How it fits together"
+    },
+    {
+      "time": "1:24",
+      "title": "Start from low stock"
+    },
+    {
+      "time": "1:55",
+      "title": "Costs and ordering"
+    },
+    {
+      "time": "2:22",
+      "title": "Shoppers who ask"
+    },
+    {
+      "time": "2:46",
+      "title": "Receive the stock"
+    },
+    {
+      "time": "3:12",
+      "title": "Cancel an order"
+    },
+    {
+      "time": "3:36",
+      "title": "Low stock alerts"
+    },
+    {
+      "time": "3:57",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:24",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Inventory (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/inventory"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/inventory"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Inventory.PurchaseOrders"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/inventory.md"
+  ],
+  "length": "4:33"
+}

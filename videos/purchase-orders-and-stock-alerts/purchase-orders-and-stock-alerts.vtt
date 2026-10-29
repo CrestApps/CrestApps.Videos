@@ -1,0 +1,182 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:06.232
+Purchase orders keep what you order from suppliers, and put it on hand when it arrives.
+
+00:00:06.232 --> 00:00:10.057
+This video shows how to start an order from low stock, mark it
+
+00:00:10.057 --> 00:00:14.164
+ordered, receive part or all of it, cancel it, and how shoppers and
+
+00:00:14.164 --> 00:00:16.020
+staff are told about stock.
+
+00:00:20.620 --> 00:00:23.360
+Running out of a bestseller costs sales.
+
+00:00:23.360 --> 00:00:26.160
+Ordering too much ties up money in boxes.
+
+00:00:26.910 --> 00:00:31.134
+Remembering what to reorder, and what has arrived, is a job for a
+
+00:00:31.134 --> 00:00:32.740
+list, not for memory.
+
+00:00:33.490 --> 00:00:38.312
+Purchase orders keep what you order from suppliers, receive it into a location,
+
+00:00:38.312 --> 00:00:39.730
+and put it on hand.
+
+00:00:40.480 --> 00:00:44.469
+Back in stock alerts tell shoppers who asked when a sold out product
+
+00:00:44.469 --> 00:00:48.620
+returns, and low stock alerts tell your staff when it is time to order.
+
+00:00:52.820 --> 00:00:55.173
+A purchase order starts as a draft.
+
+00:00:55.173 --> 00:00:58.560
+You can fill it with the items that are low on stock.
+
+00:00:59.310 --> 00:01:03.877
+Mark as ordered locks its items once you have sent it to the supplier.
+
+00:01:03.877 --> 00:01:05.860
+The costs can still change.
+
+00:01:06.610 --> 00:01:10.316
+When stock arrives, receive some or all of it.
+
+00:01:10.316 --> 00:01:15.590
+The units go on hand at the location, and the history says Received.
+
+00:01:16.340 --> 00:01:21.128
+The order shows Partly received until everything is in, then Received.
+
+00:01:21.128 --> 00:01:23.900
+A purchase order can also be canceled.
+
+00:01:28.180 --> 00:01:32.550
+Open Commerce, Purchase orders, and click Add purchase order.
+
+00:01:33.967 --> 00:01:38.540
+Enter the Supplier and the Supplier's email, and choose where to Receive at,
+
+00:01:38.540 --> 00:01:42.387
+the currency the costs are in, when it is Expected, and a Note.
+
+00:01:45.374 --> 00:01:50.343
+Leave Start with the items that are low on stock ticked, and click Start the order.
+
+00:01:50.343 --> 00:01:54.084
+Each low item is ordered up to twice its low stock threshold.
+
+00:01:58.264 --> 00:02:02.988
+Under Add items, Find items to order searches by SKU or name.
+
+00:02:02.988 --> 00:02:08.136
+Set how many are Ordered and the Unit cost of each, or tick Remove.
+
+00:02:08.136 --> 00:02:10.674
+The total adds up as you save.
+
+00:02:12.260 --> 00:02:15.895
+When you have sent it to the supplier, click Mark as ordered.
+
+00:02:15.895 --> 00:02:19.422
+Its items can no longer change, though the costs still can.
+
+00:02:19.422 --> 00:02:21.810
+The supplier is not emailed from here.
+
+00:02:25.998 --> 00:02:30.390
+A sold out product that does not allow backorders shows Sold out, get
+
+00:02:30.390 --> 00:02:34.138
+an email when it is back, with an email box and Notify me.
+
+00:02:35.717 --> 00:02:39.614
+Each request gets one email when the product returns.
+
+00:02:39.614 --> 00:02:45.097
+The item's page under Commerce, Inventory says how many shoppers are waiting.
+
+00:02:49.276 --> 00:02:53.370
+When some of the stock arrives, enter what came under Arrived now, and
+
+00:02:53.370 --> 00:02:55.148
+click Receive what arrived.
+
+00:02:55.148 --> 00:02:57.196
+The order shows Partly received.
+
+00:02:59.059 --> 00:03:02.618
+Receive everything receives all that is still to come.
+
+00:03:02.618 --> 00:03:07.363
+The units go on hand, each item's history shows Received with the purchase
+
+00:03:07.363 --> 00:03:11.159
+order's number, and shoppers who were waiting are emailed.
+
+00:03:15.341 --> 00:03:18.249
+Cancel order stops what is still to come.
+
+00:03:18.249 --> 00:03:20.662
+What was received stays in stock.
+
+00:03:20.662 --> 00:03:22.951
+A draft can be deleted instead.
+
+00:03:24.405 --> 00:03:28.016
+The list shows the open orders, newest first.
+
+00:03:28.016 --> 00:03:35.875
+Search by number or supplier, and Show picks Drafts, Ordered, Partly received, Received, Canceled or All.
+
+00:03:40.051 --> 00:03:44.428
+When a product drops to its low stock threshold or sells out, users
+
+00:03:44.428 --> 00:03:50.424
+in the roles chosen under Settings, Commerce, Inventory get a notification, such as Low stock:
+
+00:03:50.424 --> 00:03:51.024
+Mug.
+
+00:03:51.024 --> 00:03:55.941
+It is sent when the stock drops to the threshold, and again if it sells out.
+
+00:04:00.141 --> 00:04:01.630
+A weekly reorder:
+
+00:04:01.630 --> 00:04:05.711
+start from low stock, set the costs, and mark it ordered.
+
+00:04:06.461 --> 00:04:08.260
+A delivery in parts:
+
+00:04:08.260 --> 00:04:11.721
+receive what arrived now and the rest later.
+
+00:04:12.471 --> 00:04:14.345
+A product that sold out:
+
+00:04:14.345 --> 00:04:18.281
+shoppers ask to be told, and are emailed when it is back.
+
+00:04:19.031 --> 00:04:21.189
+A supplier that cannot deliver:
+
+00:04:21.189 --> 00:04:23.231
+cancel what is still to come.
+
+00:04:25.231 --> 00:04:30.522
+Order what is low, receive it where it arrives, and tell the shoppers who were waiting.
+
+00:04:30.522 --> 00:04:32.001
+Thanks for watching.
+

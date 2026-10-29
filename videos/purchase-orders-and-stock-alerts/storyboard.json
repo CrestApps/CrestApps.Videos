@@ -1,0 +1,262 @@
+{
+  "title": "Purchase orders and stock alerts",
+  "output": "purchase-orders-and-stock-alerts",
+  "spoken": {
+    "SKU": "S.K.U."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Purchase orders and stock alerts",
+      "subtitle": "Reorder before you run out",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Purchase orders keep what you order from suppliers, and put it on hand when it arrives. This video shows how to start an order from low stock, mark it ordered, receive part or all of it, cancel it, and how shoppers and staff are told about stock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why purchase orders",
+      "subtitle": "Reorder before you run out",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Running out of a bestseller costs sales. Ordering too much ties up money in boxes."
+            },
+            {
+              "id": "why-2",
+              "text": "Remembering what to reorder, and what has arrived, is a job for a list, not for memory."
+            },
+            {
+              "id": "why-3",
+              "text": "Purchase orders keep what you order from suppliers, receive it into a location, and put it on hand."
+            },
+            {
+              "id": "why-4",
+              "text": "Back in stock alerts tell shoppers who asked when a sold out product returns, and low stock alerts tell your staff when it is time to order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it fits together",
+      "subtitle": "Draft, ordered, received",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A purchase order starts as a draft. You can fill it with the items that are low on stock."
+            },
+            {
+              "id": "how-2",
+              "text": "Mark as ordered locks its items once you have sent it to the supplier. The costs can still change."
+            },
+            {
+              "id": "how-3",
+              "text": "When stock arrives, receive some or all of it. The units go on hand at the location, and the history says Received."
+            },
+            {
+              "id": "how-4",
+              "text": "The order shows Partly received until everything is in, then Received. A purchase order can also be canceled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Start from low stock",
+      "subtitle": "A draft that fills itself",
+      "clips": [
+        {
+          "id": "03-start",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sta-1",
+              "text": "Open Commerce, Purchase orders, and click Add purchase order."
+            },
+            {
+              "id": "sta-2",
+              "text": "Enter the Supplier and the Supplier's email, and choose where to Receive at, the currency the costs are in, when it is Expected, and a Note."
+            },
+            {
+              "id": "sta-3",
+              "text": "Leave Start with the items that are low on stock ticked, and click Start the order. Each low item is ordered up to twice its low stock threshold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Costs and ordering",
+      "subtitle": "Quantities, unit costs and Mark as ordered",
+      "clips": [
+        {
+          "id": "04-order",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ord-1",
+              "text": "Under Add items, Find items to order searches by SKU or name. Set how many are Ordered and the Unit cost of each, or tick Remove. The total adds up as you save."
+            },
+            {
+              "id": "ord-2",
+              "text": "When you have sent it to the supplier, click Mark as ordered. Its items can no longer change, though the costs still can. The supplier is not emailed from here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Shoppers who ask",
+      "subtitle": "Back in stock alerts",
+      "clips": [
+        {
+          "id": "05-request",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "req-1",
+              "text": "A sold out product that does not allow backorders shows Sold out, get an email when it is back, with an email box and Notify me."
+            }
+          ]
+        },
+        {
+          "id": "05b-waiting",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "req-2",
+              "text": "Each request gets one email when the product returns. The item's page under Commerce, Inventory says how many shoppers are waiting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Receive the stock",
+      "subtitle": "Part now, the rest later",
+      "clips": [
+        {
+          "id": "06-receive",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rcv-1",
+              "text": "When some of the stock arrives, enter what came under Arrived now, and click Receive what arrived. The order shows Partly received."
+            },
+            {
+              "id": "rcv-2",
+              "text": "Receive everything receives all that is still to come. The units go on hand, each item's history shows Received with the purchase order's number, and shoppers who were waiting are emailed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Cancel an order",
+      "subtitle": "Stop what is still to come",
+      "clips": [
+        {
+          "id": "07-cancel",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "can-1",
+              "text": "Cancel order stops what is still to come. What was received stays in stock. A draft can be deleted instead."
+            },
+            {
+              "id": "can-2",
+              "text": "The list shows the open orders, newest first. Search by number or supplier, and Show picks Drafts, Ordered, Partly received, Received, Canceled or All."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Low stock alerts",
+      "subtitle": "Who is told",
+      "clips": [
+        {
+          "id": "08-alerts",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "alt-1",
+              "text": "When a product drops to its low stock threshold or sells out, users in the roles chosen under Settings, Commerce, Inventory get a notification, such as Low stock: Mug. It is sent when the stock drops to the threshold, and again if it sells out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Four ways to use purchase orders",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A weekly reorder: start from low stock, set the costs, and mark it ordered."
+            },
+            {
+              "id": "use-2",
+              "text": "A delivery in parts: receive what arrived now and the rest later."
+            },
+            {
+              "id": "use-3",
+              "text": "A product that sold out: shoppers ask to be told, and are emailed when it is back."
+            },
+            {
+              "id": "use-4",
+              "text": "A supplier that cannot deliver: cancel what is still to come."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Order what is low, receive it where it arrives, and tell the shoppers who were waiting. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
