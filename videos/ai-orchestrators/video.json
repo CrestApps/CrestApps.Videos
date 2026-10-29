@@ -1,0 +1,79 @@
+{
+  "title": "AI Orchestrators: Default, GitHub Copilot and Claude | CrestApps for Orchard Core",
+  "description": "Every CrestApps AI chat runs on an orchestrator. This video shows the Default orchestrator, the GitHub Copilot orchestrator and the Claude orchestrator, how to set up Copilot and Claude in Settings > Artificial Intelligence, and how a profile chooses one, with its model and effort level.\n\nIn this video:\n• What the three orchestrators are\n• Copilot: not configured, GitHub signed-in user, or your own API key\n• Claude: API key, base URL and default model\n• The orchestrator picker on a profile, effort level and allow all tool executions\n• A warning about shared GitHub credentials",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI orchestrator",
+    "GitHub Copilot",
+    "Claude",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Three engines"
+    },
+    {
+      "time": "0:48",
+      "title": "Set up Copilot"
+    },
+    {
+      "time": "1:41",
+      "title": "Set up Claude"
+    },
+    {
+      "time": "2:03",
+      "title": "Choose it on a profile"
+    },
+    {
+      "time": "3:01",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:30",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Technical guide: Copilot",
+      "url": "https://orchardcore.crestapps.com/docs/ai/copilot"
+    },
+    {
+      "label": "Technical guide: Claude",
+      "url": "https://orchardcore.crestapps.com/docs/ai/claude"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat.Copilot"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/ai/copilot.md",
+    "src/CrestApps.Docs/docs/ai/claude.md"
+  ],
+  "length": "3:42"
+}

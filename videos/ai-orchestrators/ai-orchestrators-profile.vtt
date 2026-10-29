@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:08.401
+On a profile, the Orchestrator picker offers Default, Claude and Copilot.
+
+00:00:08.401 --> 00:00:13.930
+The orchestrator controls how tools are selected and how the answer loop runs.
+
+00:00:14.381 --> 00:00:17.233
+Choose Copilot, and its settings appear.
+
+00:00:17.233 --> 00:00:21.325
+When Copilot is not set up on the site, the profile says so:
+
+00:00:21.325 --> 00:00:25.231
+it cannot be used until it is configured in the settings.
+
+00:00:25.681 --> 00:00:30.357
+Allow all tool executions lets Copilot run its tools without asking.
+
+00:00:30.357 --> 00:00:34.653
+Once Copilot is set up, the section also offers a model and an
+
+00:00:34.653 --> 00:00:37.244
+Effort level, and a GitHub sign-in.
+
+00:00:37.244 --> 00:00:41.730
+A sign-in stored on the profile is lent to every person who chats
+
+00:00:41.730 --> 00:00:43.941
+with it, so use it with care.
+
+00:00:44.409 --> 00:00:48.470
+Choose Claude, and it also says when it is not configured.
+
+00:00:48.470 --> 00:00:52.468
+Once it is, a model and an Effort level can be chosen for
+
+00:00:52.468 --> 00:00:56.719
+the profile, and an empty model uses the default of the site.
+

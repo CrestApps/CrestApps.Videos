@@ -1,0 +1,173 @@
+{
+  "title": "AI Orchestrators",
+  "output": "ai-orchestrators",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Orchestrators",
+      "subtitle": "Default, Copilot and Claude",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Every chat runs on an orchestrator: the engine that decides how the assistant uses its tools and writes its answer. This video shows the three orchestrators, how to set up Copilot and Claude in the site settings, and how a profile chooses one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Three engines",
+      "subtitle": "What an orchestrator does",
+      "clips": [
+        {
+          "id": "01-engines",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "eng-1",
+              "text": "The Default orchestrator is built into the site. It uses your own AI connections and deployments, your tools and your knowledge."
+            },
+            {
+              "id": "eng-2",
+              "text": "The Copilot orchestrator runs the chat on the GitHub Copilot engine, with a GitHub sign-in or with your own model provider key."
+            },
+            {
+              "id": "eng-3",
+              "text": "The Claude orchestrator runs the chat on Anthropic's Claude engine, with an Anthropic API key. Each profile chooses its own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Set up Copilot",
+      "subtitle": "Settings, Artificial Intelligence",
+      "clips": [
+        {
+          "id": "02-copilot",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cop-1",
+              "text": "Open Settings, Artificial Intelligence, and find the Copilot card. It appears when the AI Copilot Orchestrator feature is on. Authentication type starts at Not configured, which keeps Copilot off."
+            },
+            {
+              "id": "cop-2",
+              "text": "GitHub signed-in user asks for the Client ID and the Client secret of your GitHub app, and shows the callback address to give GitHub. People then use their own Copilot subscription."
+            },
+            {
+              "id": "cop-3",
+              "text": "API key, bring your own key, needs no Copilot subscription. Choose the Provider type, enter the Base URL and the API key of the provider, and the Default model."
+            },
+            {
+              "id": "cop-4",
+              "text": "Wire API format is Chat completions for most models, and Responses for the GPT-5 series. Azure OpenAI also asks for an API version."
+            }
+          ]
+        }
+      ],
+      "short": "copilot"
+    },
+    {
+      "id": "03",
+      "title": "Set up Claude",
+      "subtitle": "The Claude card",
+      "clips": [
+        {
+          "id": "03-claude",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cla-1",
+              "text": "The Claude card works the same way. Authentication type is Not configured until you choose API key."
+            },
+            {
+              "id": "cla-2",
+              "text": "Enter the Anthropic API key. Keep the standard Base URL unless you use your own gateway. The Default model is used when a profile does not choose one."
+            }
+          ]
+        }
+      ],
+      "short": "claude"
+    },
+    {
+      "id": "04",
+      "title": "Choose it on a profile",
+      "subtitle": "The orchestrator picker",
+      "clips": [
+        {
+          "id": "04-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pro-1",
+              "text": "On a profile, the Orchestrator picker offers Default, Claude and Copilot. The orchestrator controls how tools are selected and how the answer loop runs."
+            },
+            {
+              "id": "pro-2",
+              "text": "Choose Copilot, and its settings appear. When Copilot is not set up on the site, the profile says so: it cannot be used until it is configured in the settings."
+            },
+            {
+              "id": "pro-3",
+              "text": "Allow all tool executions lets Copilot run its tools without asking. Once Copilot is set up, the section also offers a model and an Effort level, and a GitHub sign-in. A sign-in stored on the profile is lent to every person who chats with it, so use it with care."
+            },
+            {
+              "id": "pro-4",
+              "text": "Choose Claude, and it also says when it is not configured. Once it is, a model and an Effort level can be chosen for the profile, and an empty model uses the default of the site."
+            }
+          ]
+        }
+      ],
+      "short": "profile"
+    },
+    {
+      "id": "05",
+      "title": "Good to know",
+      "subtitle": "Choosing well",
+      "clips": [
+        {
+          "id": "05-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Start with the Default orchestrator. It works with every connection, and with all of your knowledge and tools."
+            },
+            {
+              "id": "tip-2",
+              "text": "Choose Copilot or Claude for a profile that needs that engine. Set up the credentials first, or the profile cannot answer."
+            },
+            {
+              "id": "tip-3",
+              "text": "Keep API keys and client secrets with your technical team. They are stored securely and never shown again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Pick the engine for each assistant. Set up Copilot and Claude once in the settings, and choose them on the profiles that need them. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
