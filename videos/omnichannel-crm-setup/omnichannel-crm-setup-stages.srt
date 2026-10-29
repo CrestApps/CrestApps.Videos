@@ -1,0 +1,28 @@
+1
+00:00:03,203 --> 00:00:07,909
+Open Interaction Center, Management, Opportunity Stages.
+
+2
+00:00:07,909 --> 00:00:12,993
+A stage has a name, an order and a probability from 0 to 100.
+
+3
+00:00:13,446 --> 00:00:18,030
+Closed says the opportunity is finished, and Won says it was a success.
+
+4
+00:00:18,030 --> 00:00:20,769
+A stage can only be won if it is closed.
+
+5
+00:00:20,769 --> 00:00:23,746
+The probability feeds the weighted pipeline.
+
+6
+00:00:24,198 --> 00:00:29,685
+Click Add Stage, enter the name, the order and the probability, and click Save.
+
+7
+00:00:29,685 --> 00:00:33,558
+A new opportunity starts with its stage's probability.
+

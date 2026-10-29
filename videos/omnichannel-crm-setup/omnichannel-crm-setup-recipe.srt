@@ -1,0 +1,32 @@
+1
+00:00:03,213 --> 00:00:06,325
+Open Tools, Recipes and search for CRM.
+
+2
+00:00:06,325 --> 00:00:10,958
+The Omnichannel CRM starter recipe describes what it creates:
+
+3
+00:00:10,958 --> 00:00:16,075
+a Lead type, a Contact type, a Sales Opportunity type, and a starter
+
+4
+00:00:16,075 --> 00:00:17,873
+set of lead sources.
+
+5
+00:00:18,327 --> 00:00:20,337
+Click Run and confirm.
+
+6
+00:00:20,337 --> 00:00:25,577
+The recipe turns the Omnichannel CRM feature on and adds the types.
+
+7
+00:00:26,028 --> 00:00:31,315
+When it is done, the Interaction Center menu has Leads, Accounts and Opportunities,
+
+8
+00:00:31,315 --> 00:00:36,008
+with Lead Statuses, Lead Sources and Opportunity Stages under Management.
+

@@ -1,0 +1,95 @@
+{
+  "title": "Omnichannel CRM Setup: Leads, Accounts and Opportunities in Minutes | CrestApps for Orchard Core",
+  "description": "Prospects from a purchased list, a trade-show scan or a web form are not customers yet, and teams need to see how far each prospect and each deal has come. The Omnichannel CRM keeps prospects as leads, converts the ones that qualify into contacts, and groups contacts and deals under accounts and opportunities. A starter recipe sets it up.\n\nIn this video:\n• Why prospects are kept apart from contacts\n• What the CRM adds: leads, accounts, opportunities, statuses, stages and sources\n• Running the Omnichannel CRM starter recipe\n• Lead statuses: open, closed and converted\n• Opportunity stages: probability, closed and won\n• Lead sources\n• The Lead and Opportunity part settings",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "omnichannel CRM",
+    "leads",
+    "opportunities",
+    "lead status",
+    "opportunity stages",
+    "lead sources",
+    "CRM setup",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why a CRM"
+    },
+    {
+      "time": "0:55",
+      "title": "What the CRM adds"
+    },
+    {
+      "time": "1:32",
+      "title": "Run the starter recipe"
+    },
+    {
+      "time": "2:09",
+      "title": "Lead statuses"
+    },
+    {
+      "time": "2:47",
+      "title": "Opportunity stages"
+    },
+    {
+      "time": "3:21",
+      "title": "Lead sources"
+    },
+    {
+      "time": "3:51",
+      "title": "Lead and opportunity types"
+    },
+    {
+      "time": "4:21",
+      "title": "What to use it for"
+    },
+    {
+      "time": "4:48",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/leads-accounts-opportunities"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/crm"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Crm"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/leads-accounts-opportunities.md",
+    "src/CrestApps.Docs/docs/omnichannel/crm.md"
+  ],
+  "length": "5:01"
+}

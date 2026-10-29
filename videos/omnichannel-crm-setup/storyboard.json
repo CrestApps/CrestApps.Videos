@@ -1,0 +1,254 @@
+{
+  "title": "Omnichannel CRM Setup",
+  "output": "omnichannel-crm-setup",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel CRM Setup",
+      "subtitle": "Leads, accounts and opportunities in a few steps",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows how to turn on the Omnichannel CRM: why it keeps leads apart from your contacts, how to run the starter recipe, and how to set up the lead statuses, the opportunity stages and the lead sources that your team will work with."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a CRM",
+      "subtitle": "Prospects are not customers yet",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A purchased list, a trade-show scan or a web form gives you prospects. They are not customers yet, and they should not fill your contact list."
+            },
+            {
+              "id": "why-2",
+              "text": "Teams also need to know how far each prospect has come, which ones qualified, and which deals are worth how much."
+            },
+            {
+              "id": "why-3",
+              "text": "The Omnichannel CRM keeps prospects as leads, lets you convert the ones that qualify into contacts, and groups contacts and deals under accounts and opportunities."
+            },
+            {
+              "id": "why-4",
+              "text": "Statuses, stages and sources are lists that you control, so the CRM follows your way of selling."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What the CRM adds",
+      "subtitle": "Four kinds of record and three lists",
+      "clips": [
+        {
+          "id": "02-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "A lead is a prospect you can call and text like a contact. An account is the company or household that contacts belong to."
+            },
+            {
+              "id": "what-2",
+              "text": "An opportunity is a deal you are working on, with a stage, an amount and a close date."
+            },
+            {
+              "id": "what-3",
+              "text": "Lead statuses say where a lead is in qualification. Opportunity stages say where a deal is. Lead sources say where a lead came from."
+            },
+            {
+              "id": "what-4",
+              "text": "The starter recipe sets all of this up, and you can rename or extend every type afterwards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Run the starter recipe",
+      "subtitle": "One click under Tools, Recipes",
+      "clips": [
+        {
+          "id": "03-recipe",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "recipe-1",
+              "text": "Open Tools, Recipes and search for CRM. The Omnichannel CRM starter recipe describes what it creates: a Lead type, a Contact type, a Sales Opportunity type, and a starter set of lead sources."
+            },
+            {
+              "id": "recipe-2",
+              "text": "Click Run and confirm. The recipe turns the Omnichannel CRM feature on and adds the types."
+            },
+            {
+              "id": "recipe-3",
+              "text": "When it is done, the Interaction Center menu has Leads, Accounts and Opportunities, with Lead Statuses, Lead Sources and Opportunity Stages under Management."
+            }
+          ]
+        }
+      ],
+      "short": "recipe"
+    },
+    {
+      "id": "04",
+      "title": "Lead statuses",
+      "subtitle": "Open, closed and converted",
+      "clips": [
+        {
+          "id": "04-statuses",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "statuses-1",
+              "text": "Open Interaction Center, Management, Lead Statuses. Each status has a name, an order, and a type: Open, Closed or Converted."
+            },
+            {
+              "id": "statuses-2",
+              "text": "Leads in an Open status are still worked and loaded. Closed means the lead was finished without being converted. Converted is the status a lead gets when it becomes a contact."
+            },
+            {
+              "id": "statuses-3",
+              "text": "Click Add Status. Give it a Name and a Description, set the Order, and choose the Type. Only an open status can be the one where a new lead starts. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "statuses"
+    },
+    {
+      "id": "05",
+      "title": "Opportunity stages",
+      "subtitle": "Probability, closed and won",
+      "clips": [
+        {
+          "id": "05-stages",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "stages-1",
+              "text": "Open Interaction Center, Management, Opportunity Stages. A stage has a name, an order and a probability from 0 to 100."
+            },
+            {
+              "id": "stages-2",
+              "text": "Closed says the opportunity is finished, and Won says it was a success. A stage can only be won if it is closed. The probability feeds the weighted pipeline."
+            },
+            {
+              "id": "stages-3",
+              "text": "Click Add Stage, enter the name, the order and the probability, and click Save. A new opportunity starts with its stage's probability."
+            }
+          ]
+        }
+      ],
+      "short": "stages"
+    },
+    {
+      "id": "06",
+      "title": "Lead sources",
+      "subtitle": "Where leads come from",
+      "clips": [
+        {
+          "id": "06-sources",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sources-1",
+              "text": "Open Interaction Center, Management, Lead Sources. The starter recipe added Web form, Referral, Trade show, Purchased list, Advertisement and Cold call."
+            },
+            {
+              "id": "sources-2",
+              "text": "A lead source is an ordinary content item. Click New to add one, such as Partner event, and publish it. It then appears in the lead source pickers of leads, opportunities, activity loads and imports."
+            }
+          ]
+        }
+      ],
+      "short": "sources"
+    },
+    {
+      "id": "07",
+      "title": "Lead and opportunity types",
+      "subtitle": "Which type converts into which",
+      "clips": [
+        {
+          "id": "07-types",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "types-1",
+              "text": "Open Design, Content Definition, Content Types and edit the Lead type. The Lead part has its own settings."
+            },
+            {
+              "id": "types-2",
+              "text": "Choose the contact type that a converted lead becomes, and the opportunity type that is offered first."
+            },
+            {
+              "id": "types-3",
+              "text": "An opportunity type has the Opportunity part. In its settings you choose the stages that type uses. If you pick none, every stage is available."
+            }
+          ]
+        }
+      ],
+      "short": "types"
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Work a purchased list as leads, and keep your contact list for real customers."
+            },
+            {
+              "id": "use-2",
+              "text": "Track trade-show leads by source, and see which source converts best."
+            },
+            {
+              "id": "use-3",
+              "text": "Follow every deal through its stages, with a probability for the pipeline."
+            },
+            {
+              "id": "use-4",
+              "text": "Use different opportunity types for new sales and renewals, each with its own stages."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Run the starter recipe, adjust the statuses, stages and sources, and your team can start working leads, accounts and opportunities. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
