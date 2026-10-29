@@ -1,0 +1,191 @@
+{
+  "title": "AI Site Settings",
+  "output": "ai-site-settings",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Site Settings",
+      "subtitle": "A tour of Settings, Artificial Intelligence",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The AI features share one settings page. This video is a tour of Settings, Artificial Intelligence: the general options, the default deployments, how the assistant looks up knowledge before it answers, and the sections that other features add."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "One page, many cards",
+      "subtitle": "What you will find",
+      "clips": [
+        {
+          "id": "01-page",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pg-1",
+              "text": "Open Settings, then Artificial Intelligence. The page is a stack of cards, and each card belongs to a feature."
+            },
+            {
+              "id": "pg-2",
+              "text": "A card appears only when its feature is on. If a card is missing, enable the feature first, under Tools, Features."
+            },
+            {
+              "id": "pg-3",
+              "text": "Saving may restart the website for a moment, as the banner at the top of the page says."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "General",
+      "subtitle": "The General card",
+      "clips": [
+        {
+          "id": "02-general",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "gen-1",
+              "text": "The General card holds options for every AI feature. Enable preemptive memory retrieval lets signed-in users' memory be searched and added before the model is called."
+            },
+            {
+              "id": "gen-2",
+              "text": "Maximum iterations per request limits how many times the assistant may call tools in one answer. It is always capped at one hundred."
+            },
+            {
+              "id": "gen-3",
+              "text": "Enable distributed caching lets the AI services cache answers on a shared cache. Enable OpenTelemetry sends AI requests to your monitoring tool, where it is supported."
+            }
+          ]
+        }
+      ],
+      "short": "general"
+    },
+    {
+      "id": "03",
+      "title": "Default deployments",
+      "subtitle": "Which model does what",
+      "clips": [
+        {
+          "id": "03-deployments",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dep-1",
+              "text": "Default deployments are the models that profiles use when they do not choose their own. The Default chat deployment writes the answers, and the Default utility deployment does small jobs, such as planning and understanding the intent of a message."
+            },
+            {
+              "id": "dep-2",
+              "text": "The Default embedding deployment turns text into numbers for search. It must be the one that your knowledge indexes use. The Default vision deployment reads pictures, and the Default image deployment creates them."
+            },
+            {
+              "id": "dep-3",
+              "text": "The speech deployments transcribe and speak. The Default text-to-speech voice is the voice, and the Default realtime deployment carries a spoken conversation."
+            }
+          ]
+        }
+      ],
+      "short": "deployments"
+    },
+    {
+      "id": "04",
+      "title": "Retrieval",
+      "subtitle": "Knowledge before the answer",
+      "clips": [
+        {
+          "id": "04-retrieval",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ret-1",
+              "text": "The Default Orchestrator card has one switch: Enable preemptive retrieval-augmented generation. When it is on, the assistant searches your knowledge before it answers, and the passages are in front of the model. When it is off, the model decides whether to search."
+            },
+            {
+              "id": "ret-2",
+              "text": "The Data Sources card sets the Default strictness and the Default top documents, for every profile that does not choose its own."
+            }
+          ]
+        }
+      ],
+      "short": "retrieval"
+    },
+    {
+      "id": "05",
+      "title": "Other cards",
+      "subtitle": "Added by features",
+      "clips": [
+        {
+          "id": "05-others",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "oth-1",
+              "text": "The Chat Interactions card sets the default Chat mode of chat interactions, and whether answers can be played aloud."
+            },
+            {
+              "id": "oth-2",
+              "text": "The Documents card controls what people can attach to a chat. The MCP Server card controls the server that lets other tools use your site. The Memory card turns on user memory, and chooses its index and how many memories come back."
+            },
+            {
+              "id": "oth-3",
+              "text": "Prompt Security and Visitor Identity protect public assistants. Each of these has its own video."
+            }
+          ]
+        }
+      ],
+      "short": "others"
+    },
+    {
+      "id": "06",
+      "title": "Good to know",
+      "subtitle": "Tips",
+      "clips": [
+        {
+          "id": "06-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Change the default deployments with care. Profiles that follow the default change with them."
+            },
+            {
+              "id": "tip-2",
+              "text": "Keep the embedding deployment the same as the one of your indexes. A different model cannot search them."
+            },
+            {
+              "id": "tip-3",
+              "text": "To see what a setting does, point at its card: every field has a short hint under it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Settings, Artificial Intelligence is where the AI features meet. Know its cards, and you know where to look. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

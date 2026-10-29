@@ -1,0 +1,28 @@
+1
+00:00:03,183 --> 00:00:06,062
+The Default Orchestrator card has one switch:
+
+2
+00:00:06,062 --> 00:00:09,166
+Enable preemptive retrieval-augmented generation.
+
+3
+00:00:09,166 --> 00:00:13,739
+When it is on, the assistant searches your knowledge before it answers, and
+
+4
+00:00:13,739 --> 00:00:16,279
+the passages are in front of the model.
+
+5
+00:00:16,279 --> 00:00:19,553
+When it is off, the model decides whether to search.
+
+6
+00:00:20,003 --> 00:00:25,138
+The Data Sources card sets the Default strictness and the Default top documents,
+
+7
+00:00:25,138 --> 00:00:28,303
+for every profile that does not choose its own.
+

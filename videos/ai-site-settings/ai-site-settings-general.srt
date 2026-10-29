@@ -1,0 +1,28 @@
+1
+00:00:03,189 --> 00:00:06,714
+The General card holds options for every AI feature.
+
+2
+00:00:06,714 --> 00:00:12,669
+Enable preemptive memory retrieval lets signed-in users' memory be searched and added before
+
+3
+00:00:12,669 --> 00:00:14,249
+the model is called.
+
+4
+00:00:14,701 --> 00:00:20,999
+Maximum iterations per request limits how many times the assistant may call tools in one answer.
+
+5
+00:00:20,999 --> 00:00:23,531
+It is always capped at one hundred.
+
+6
+00:00:23,982 --> 00:00:29,557
+Enable distributed caching lets the AI services cache answers on a shared cache.
+
+7
+00:00:29,557 --> 00:00:35,522
+Enable OpenTelemetry sends AI requests to your monitoring tool, where it is supported.
+
