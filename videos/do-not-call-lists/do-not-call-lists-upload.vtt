@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.270 --> 00:00:06.687
+Open Interaction Center, Local DNC Registry.
+
+00:00:06.687 --> 00:00:09.762
+It keeps the lists you upload yourself.
+
+00:00:09.762 --> 00:00:13.590
+Nothing is uploaded yet, so click Upload new list.
+
+00:00:14.093 --> 00:00:20.763
+Enter a List name that says what the list is, for example June 2026 DNC Update.
+
+00:00:21.261 --> 00:00:23.829
+Pick the Country the numbers belong to.
+
+00:00:23.829 --> 00:00:28.278
+The menu shows each country's calling code, and numbers in the file that
+
+00:00:28.278 --> 00:00:31.701
+have no plus sign are read as numbers of this country.
+
+00:00:32.310 --> 00:00:35.690
+Choose the CSV file, and click Upload.
+
+00:00:42.936 --> 00:00:47.370
+The page returns right away and the list imports in the background.
+
+00:00:47.370 --> 00:00:52.656
+Its row shows how many records were processed while it runs, and then its result.
+

@@ -1,0 +1,52 @@
+1
+00:00:03,300 --> 00:00:07,290
+Open Content, Import, and start an import of contacts.
+
+2
+00:00:07,290 --> 00:00:11,480
+The Do-not-call registry section is on the import screen.
+
+3
+00:00:14,967 --> 00:00:19,146
+An enforced list shows an Enforced badge, and the option reads that the
+
+4
+00:00:19,146 --> 00:00:22,457
+setting is globally enforced by the site administrator.
+
+5
+00:00:23,047 --> 00:00:26,635
+When a number is on a registry, Skip the row leaves it out
+
+6
+00:00:26,635 --> 00:00:29,494
+of the import and lists it in the error file.
+
+7
+00:00:29,494 --> 00:00:33,362
+Import it marked Do not call keeps the record, so the number is
+
+8
+00:00:33,362 --> 00:00:37,567
+recognized if it is bought or imported again, and it is never called.
+
+9
+00:00:38,154 --> 00:00:44,521
+Under Select registries to check against, add any other list or registry for this import.
+
+10
+00:00:44,521 --> 00:00:47,134
+Choose the file and click Upload.
+
+11
+00:00:47,600 --> 00:00:49,830
+The import runs in the background.
+
+12
+00:00:49,830 --> 00:00:54,233
+The Bulk Import page shows Completed with errors, because the rows on the
+
+13
+00:00:54,233 --> 00:00:57,800
+list were left out and counted as errors, with the reason.
+

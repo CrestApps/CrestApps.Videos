@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.216 --> 00:00:08.009
+Each national registry needs an account with the registry's operator.
+
+00:00:08.009 --> 00:00:14.016
+Get the account details first, then open Settings, DNC Registries and pick the registry.
+
+00:00:14.506 --> 00:00:22.236
+For the USA FTC Registry, enter the Organization ID registered with the FTC for API access.
+
+00:00:22.732 --> 00:00:26.820
+Then the API key the FTC gave you, and the Base URL.
+
+00:00:26.820 --> 00:00:31.612
+Keep the suggested address unless the FTC tells you otherwise.
+
+00:00:39.580 --> 00:00:43.595
+The Canada LNNTE-DNCL Registry works the same way:
+
+00:00:43.595 --> 00:00:49.117
+enter the Account number registered with the CRTC, the API key, and the
+
+00:00:49.117 --> 00:00:51.340
+Base URL, and click Save.
+
+00:00:59.002 --> 00:01:03.034
+After you save an API key, the box stays empty and a note
+
+00:01:03.034 --> 00:01:04.762
+says a key is stored.
+
+00:01:04.762 --> 00:01:09.562
+Leave the box empty to keep the key, or type a new one to replace it.
+
