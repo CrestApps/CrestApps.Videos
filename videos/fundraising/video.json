@@ -1,0 +1,94 @@
+{
+  "title": "Fundraising: Run a Donation Campaign With Tax Receipts | CrestApps for Orchard Core",
+  "description": "A donation is not a sale at a fixed price: each donor decides how much to give, often in honor or in memory of someone, and wants a receipt for their taxes. The CrestApps Fundraising module runs a campaign on your Orchard Core site, with suggested amounts, a goal, progress shown on the page, and a tax receipt for every gift, emailed and kept in the donor's account.\n\nIn this video:\n• Why a fundraising campaign, and how the pieces fit together\n• Setting up your receipts: organization, tax ID and statement\n• Starting a campaign: goal, suggested amounts, least donation, end date\n• How donors give, and name someone to honor\n• Donations as orders, and refunds\n• What a donor sees: Donations and receipts in their account\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Fundraising",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "fundraising",
+    "donations",
+    "nonprofit",
+    "tax receipt",
+    "charity",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why a fundraising campaign"
+    },
+    {
+      "time": "0:58",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:33",
+      "title": "Set up your receipts"
+    },
+    {
+      "time": "2:09",
+      "title": "Start a campaign"
+    },
+    {
+      "time": "3:00",
+      "title": "How donors give"
+    },
+    {
+      "time": "3:36",
+      "title": "Donations in your orders"
+    },
+    {
+      "time": "4:04",
+      "title": "Donations and receipts"
+    },
+    {
+      "time": "4:31",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:02",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/fundraising"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/fundraising"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Fundraising"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/fundraising.md",
+    "src/CrestApps.Docs/docs/modules/fundraising.md"
+  ],
+  "length": "5:14"
+}

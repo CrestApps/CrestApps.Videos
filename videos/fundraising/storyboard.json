@@ -1,0 +1,274 @@
+{
+  "title": "Fundraising",
+  "output": "fundraising",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Fundraising",
+      "subtitle": "Raise money for a cause",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A charity, a school or a club raises money by asking people to give what they can. This video shows how the Fundraising module runs a campaign on your site: donors choose their amount, the page shows how close you are to the goal, and every donor gets a receipt for their taxes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a fundraising campaign",
+      "subtitle": "Give what you choose, and see the goal",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shop sells things at a fixed price. A donation is different: each donor decides how much to give, and many want to give in honor or in memory of someone."
+            },
+            {
+              "id": "why-2",
+              "text": "Donors like to see that their gift matters, so a campaign needs a goal, and progress toward it, where they give."
+            },
+            {
+              "id": "why-3",
+              "text": "And a donor who gives to a charity needs a receipt for their taxes, with the organization's name and tax number."
+            },
+            {
+              "id": "why-4",
+              "text": "The Fundraising module covers all three, on top of the same cart and checkout as the rest of your store."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Receipts, a campaign, and the donors",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You set who donations go to, and what receipts say, once, under Settings."
+            },
+            {
+              "id": "how-2",
+              "text": "A campaign is a product with the Fundraising campaign part: a goal, suggested amounts, a least donation, an end date, and whether gifts get a tax receipt."
+            },
+            {
+              "id": "how-3",
+              "text": "Donors give from the campaign's page, and check out like any order. Discounts and promotion codes never take anything off a donation."
+            },
+            {
+              "id": "how-4",
+              "text": "Each donor is emailed a receipt, and finds it under Donations in their account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up your receipts",
+      "subtitle": "Who donations go to",
+      "clips": [
+        {
+          "id": "03-receipts",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "Open Settings, Commerce, Fundraising. Organization is who donations go to, as it reads on receipts. Leave it empty to use the site's name."
+            },
+            {
+              "id": "rec-2",
+              "text": "Tax ID is your tax or charity registration number, printed on receipts."
+            },
+            {
+              "id": "rec-3",
+              "text": "Receipt statement is what the receipt says about the gift, such as that nothing was given in return for it."
+            },
+            {
+              "id": "rec-4",
+              "text": "Email donors their receipts is on by default. Untick it to have donors find their receipts in their account only. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "receipts"
+    },
+    {
+      "id": "04",
+      "title": "Start a campaign",
+      "subtitle": "A product with a goal",
+      "clips": [
+        {
+          "id": "04-campaign",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "camp-1",
+              "text": "A campaign is a product whose content type has the Fundraising campaign part. Open the list of campaigns under Content, Content Items, and edit the campaign."
+            },
+            {
+              "id": "camp-2",
+              "text": "Goal is what the campaign raises toward, in the product's currency. Leave it empty for no goal."
+            },
+            {
+              "id": "camp-3",
+              "text": "Suggested amounts are offered as buttons, separated by commas, such as twenty five, fifty, one hundred. Donors can also enter their own, and Least donation sets the smallest gift."
+            },
+            {
+              "id": "camp-4",
+              "text": "Ends says when the campaign stops taking donations. Leave it empty for no end."
+            },
+            {
+              "id": "camp-5",
+              "text": "Tick Donations get a tax receipt when gifts are tax deductible. The product's price is hidden on the page, since donors choose the amount."
+            }
+          ]
+        }
+      ],
+      "short": "campaign"
+    },
+    {
+      "id": "05",
+      "title": "How donors give",
+      "subtitle": "From the campaign's page",
+      "clips": [
+        {
+          "id": "05-give",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "give-1",
+              "text": "On the campaign's page, the progress shows what has been raised toward the goal, how many have given, and the days left."
+            },
+            {
+              "id": "give-2",
+              "text": "Donors click a suggested amount, or enter their own. Amounts show in the donor's currency."
+            },
+            {
+              "id": "give-3",
+              "text": "They can name someone they are giving in honor or in memory of. That name is kept on the order, and shown on the receipt."
+            },
+            {
+              "id": "give-4",
+              "text": "They click Add to cart, and check out like any order, with whichever payment methods you offer. Once a campaign ends, it stops taking donations."
+            }
+          ]
+        }
+      ],
+      "short": "give"
+    },
+    {
+      "id": "06",
+      "title": "Donations in your orders",
+      "subtitle": "Each gift is an order",
+      "clips": [
+        {
+          "id": "06-orders",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "don-1",
+              "text": "Every donation is an order. Open Commerce, Orders to see them like any other."
+            },
+            {
+              "id": "don-2",
+              "text": "Open one. The line says Donation with its amount, and In honor of shows the name the donor gave."
+            },
+            {
+              "id": "don-3",
+              "text": "Only paid donations count toward the campaign's progress. When you refund a donation's order, the refund comes off the progress, and shows on the donor's receipt."
+            }
+          ]
+        }
+      ],
+      "short": "orders"
+    },
+    {
+      "id": "07",
+      "title": "Donations and receipts",
+      "subtitle": "What a donor sees",
+      "clips": [
+        {
+          "id": "07-account",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "acct-1",
+              "text": "A donor who is signed in finds Donations in their account: each gift with its date, who it honors, its amount and its receipt number."
+            },
+            {
+              "id": "acct-2",
+              "text": "Click Receipt to open it. It shows your organization, your tax ID and your statement, and the donor can print it."
+            },
+            {
+              "id": "acct-3",
+              "text": "The same receipt is emailed to the donor when Email donors their receipts is on."
+            }
+          ]
+        }
+      ],
+      "short": "account"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How organizations put it to work",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A library or a school fundraiser: one campaign with a goal and a closing date."
+            },
+            {
+              "id": "use-2",
+              "text": "A charity with a standing appeal: a campaign without a goal or an end date, always open."
+            },
+            {
+              "id": "use-3",
+              "text": "A memorial fund: donors give in memory of someone, and the name is kept on each receipt."
+            },
+            {
+              "id": "use-4",
+              "text": "Year-end giving: every donor gets a tax receipt, by email and in their account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With the Fundraising module, a campaign takes gifts of any size, shows its progress, and gives every donor a receipt. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

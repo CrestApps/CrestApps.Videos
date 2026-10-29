@@ -1,0 +1,20 @@
+1
+00:00:03,202 --> 00:00:07,073
+A donor who is signed in finds Donations in their account:
+
+2
+00:00:07,073 --> 00:00:11,912
+each gift with its date, who it honors, its amount and its receipt number.
+
+3
+00:00:12,365 --> 00:00:14,230
+Click Receipt to open it.
+
+4
+00:00:14,230 --> 00:00:19,825
+It shows your organization, your tax ID and your statement, and the donor can print it.
+
+5
+00:00:20,281 --> 00:00:25,341
+The same receipt is emailed to the donor when Email donors their receipts is on.
+

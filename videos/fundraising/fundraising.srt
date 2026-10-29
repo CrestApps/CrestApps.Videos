@@ -1,0 +1,296 @@
+1
+00:00:01,000 --> 00:00:04,865
+A charity, a school or a club raises money by asking people to
+
+2
+00:00:04,865 --> 00:00:06,286
+give what they can.
+
+3
+00:00:06,286 --> 00:00:10,777
+This video shows how the Fundraising module runs a campaign on your site:
+
+4
+00:00:10,777 --> 00:00:14,926
+donors choose their amount, the page shows how close you are to the
+
+5
+00:00:14,926 --> 00:00:18,280
+goal, and every donor gets a receipt for their taxes.
+
+6
+00:00:22,880 --> 00:00:25,406
+A shop sells things at a fixed price.
+
+7
+00:00:25,406 --> 00:00:27,169
+A donation is different:
+
+8
+00:00:27,169 --> 00:00:31,105
+each donor decides how much to give, and many want to give in
+
+9
+00:00:31,105 --> 00:00:33,220
+honor or in memory of someone.
+
+10
+00:00:33,970 --> 00:00:38,155
+Donors like to see that their gift matters, so a campaign needs a
+
+11
+00:00:38,155 --> 00:00:41,220
+goal, and progress toward it, where they give.
+
+12
+00:00:41,970 --> 00:00:45,898
+And a donor who gives to a charity needs a receipt for their
+
+13
+00:00:45,898 --> 00:00:49,290
+taxes, with the organization's name and tax number.
+
+14
+00:00:50,040 --> 00:00:54,531
+The Fundraising module covers all three, on top of the same cart and
+
+15
+00:00:54,531 --> 00:00:57,020
+checkout as the rest of your store.
+
+16
+00:01:01,220 --> 00:01:06,240
+You set who donations go to, and what receipts say, once, under Settings.
+
+17
+00:01:06,990 --> 00:01:10,890
+A campaign is a product with the Fundraising campaign part:
+
+18
+00:01:10,890 --> 00:01:15,750
+a goal, suggested amounts, a least donation, an end date, and whether gifts
+
+19
+00:01:15,750 --> 00:01:17,190
+get a tax receipt.
+
+20
+00:01:17,940 --> 00:01:22,310
+Donors give from the campaign's page, and check out like any order.
+
+21
+00:01:22,310 --> 00:01:26,560
+Discounts and promotion codes never take anything off a donation.
+
+22
+00:01:27,310 --> 00:01:32,520
+Each donor is emailed a receipt, and finds it under Donations in their account.
+
+23
+00:01:36,708 --> 00:01:39,537
+Open Settings, Commerce, Fundraising.
+
+24
+00:01:39,537 --> 00:01:43,944
+Organization is who donations go to, as it reads on receipts.
+
+25
+00:01:43,944 --> 00:01:46,838
+Leave it empty to use the site's name.
+
+26
+00:01:47,292 --> 00:01:52,812
+Tax ID is your tax or charity registration number, printed on receipts.
+
+27
+00:01:53,264 --> 00:01:57,349
+Receipt statement is what the receipt says about the gift, such as that
+
+28
+00:01:57,349 --> 00:01:59,524
+nothing was given in return for it.
+
+29
+00:01:59,977 --> 00:02:02,971
+Email donors their receipts is on by default.
+
+30
+00:02:02,971 --> 00:02:07,258
+Untick it to have donors find their receipts in their account only.
+
+31
+00:02:07,258 --> 00:02:08,257
+Click Save.
+
+32
+00:02:12,446 --> 00:02:17,817
+A campaign is a product whose content type has the Fundraising campaign part.
+
+33
+00:02:17,817 --> 00:02:23,316
+Open the list of campaigns under Content, Content Items, and edit the campaign.
+
+34
+00:02:23,767 --> 00:02:28,360
+Goal is what the campaign raises toward, in the product's currency.
+
+35
+00:02:28,360 --> 00:02:30,437
+Leave it empty for no goal.
+
+36
+00:02:30,891 --> 00:02:38,285
+Suggested amounts are offered as buttons, separated by commas, such as twenty five, fifty, one hundred.
+
+37
+00:02:38,285 --> 00:02:43,781
+Donors can also enter their own, and Least donation sets the smallest gift.
+
+38
+00:02:44,232 --> 00:02:48,088
+Ends says when the campaign stops taking donations.
+
+39
+00:02:48,088 --> 00:02:50,252
+Leave it empty for no end.
+
+40
+00:02:50,704 --> 00:02:54,974
+Tick Donations get a tax receipt when gifts are tax deductible.
+
+41
+00:02:54,974 --> 00:02:59,924
+The product's price is hidden on the page, since donors choose the amount.
+
+42
+00:03:04,118 --> 00:03:08,295
+On the campaign's page, the progress shows what has been raised toward the
+
+43
+00:03:08,295 --> 00:03:10,958
+goal, how many have given, and the days left.
+
+44
+00:03:11,421 --> 00:03:15,171
+Donors click a suggested amount, or enter their own.
+
+45
+00:03:15,171 --> 00:03:17,951
+Amounts show in the donor's currency.
+
+46
+00:03:18,401 --> 00:03:22,154
+They can name someone they are giving in honor or in memory of.
+
+47
+00:03:22,154 --> 00:03:25,581
+That name is kept on the order, and shown on the receipt.
+
+48
+00:03:26,043 --> 00:03:30,547
+They click Add to cart, and check out like any order, with whichever
+
+49
+00:03:30,547 --> 00:03:32,495
+payment methods you offer.
+
+50
+00:03:32,495 --> 00:03:35,783
+Once a campaign ends, it stops taking donations.
+
+51
+00:03:39,948 --> 00:03:42,101
+Every donation is an order.
+
+52
+00:03:42,101 --> 00:03:45,688
+Open Commerce, Orders to see them like any other.
+
+53
+00:03:46,144 --> 00:03:47,079
+Open one.
+
+54
+00:03:47,079 --> 00:03:51,503
+The line says Donation with its amount, and In honor of shows the
+
+55
+00:03:51,503 --> 00:03:53,124
+name the donor gave.
+
+56
+00:03:53,579 --> 00:03:57,171
+Only paid donations count toward the campaign's progress.
+
+57
+00:03:57,171 --> 00:04:01,733
+When you refund a donation's order, the refund comes off the progress, and
+
+58
+00:04:01,733 --> 00:04:03,729
+shows on the donor's receipt.
+
+59
+00:04:07,930 --> 00:04:11,802
+A donor who is signed in finds Donations in their account:
+
+60
+00:04:11,802 --> 00:04:16,640
+each gift with its date, who it honors, its amount and its receipt number.
+
+61
+00:04:17,094 --> 00:04:18,959
+Click Receipt to open it.
+
+62
+00:04:18,959 --> 00:04:24,554
+It shows your organization, your tax ID and your statement, and the donor can print it.
+
+63
+00:04:25,010 --> 00:04:30,070
+The same receipt is emailed to the donor when Email donors their receipts is on.
+
+64
+00:04:34,270 --> 00:04:36,877
+A library or a school fundraiser:
+
+65
+00:04:36,877 --> 00:04:40,220
+one campaign with a goal and a closing date.
+
+66
+00:04:40,970 --> 00:04:43,692
+A charity with a standing appeal:
+
+67
+00:04:43,692 --> 00:04:47,880
+a campaign without a goal or an end date, always open.
+
+68
+00:04:48,630 --> 00:04:50,027
+A memorial fund:
+
+69
+00:04:50,027 --> 00:04:54,920
+donors give in memory of someone, and the name is kept on each receipt.
+
+70
+00:04:55,670 --> 00:04:57,136
+Year-end giving:
+
+71
+00:04:57,136 --> 00:05:01,670
+every donor gets a tax receipt, by email and in their account.
+
+72
+00:05:03,670 --> 00:05:08,620
+With the Fundraising module, a campaign takes gifts of any size, shows its
+
+73
+00:05:08,620 --> 00:05:11,591
+progress, and gives every donor a receipt.
+
+74
+00:05:11,591 --> 00:05:13,200
+Thanks for watching.
+
