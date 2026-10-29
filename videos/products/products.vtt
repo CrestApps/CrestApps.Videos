@@ -1,0 +1,377 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.436
+Products are what your store sells.
+
+00:00:03.436 --> 00:00:08.309
+This video shows why a product's price lives with its content, how products,
+
+00:00:08.309 --> 00:00:13.360
+currencies and listing pages fit together, and how to use every product screen.
+
+00:00:17.960 --> 00:00:20.935
+Every store starts with the same question:
+
+00:00:20.935 --> 00:00:23.414
+what do we sell, and for how much?
+
+00:00:23.414 --> 00:00:29.860
+Prices, pictures and descriptions kept in spreadsheets and scattered pages go out of date quickly.
+
+00:00:30.610 --> 00:00:34.355
+Goods, services and digital items each need a price.
+
+00:00:34.355 --> 00:00:38.811
+Some things you only list, such as homes or cars, and they need
+
+00:00:38.811 --> 00:00:41.910
+a price or an inquiry button, but no cart.
+
+00:00:42.660 --> 00:00:46.100
+The Products module keeps the price with the content.
+
+00:00:46.100 --> 00:00:50.356
+A product is an ordinary page of your site, with a price, pictures,
+
+00:00:50.356 --> 00:00:52.280
+and rules for how it sells.
+
+00:00:53.030 --> 00:00:57.262
+Shoppers get a shop page with filters and sorting, and the cart, the
+
+00:00:57.262 --> 00:01:00.350
+checkout and the orders all read the same price.
+
+00:01:04.550 --> 00:01:08.812
+A product is a content item whose type has the Product part.
+
+00:01:08.812 --> 00:01:14.560
+The part holds the price, the currency, a compare-at price, a sale price and a SKU.
+
+00:01:15.310 --> 00:01:18.421
+Commerce, Products lists every product.
+
+00:01:18.421 --> 00:01:25.750
+Commerce, Product Listings holds the pages that show products to shoppers, with filters and sorting.
+
+00:01:26.500 --> 00:01:30.537
+Commerce, Currencies holds the currencies you sell in.
+
+00:01:30.537 --> 00:01:38.880
+Extra features add variants, bundles, grouped products, comparison, recommendations, product feeds and search indexes.
+
+00:01:39.630 --> 00:01:43.643
+Which products can be bought online, and how a price is shown, is
+
+00:01:43.643 --> 00:01:45.565
+decided on the content type.
+
+00:01:45.565 --> 00:01:47.770
+A single product can override it.
+
+00:01:51.988 --> 00:01:53.785
+Open Commerce, Currencies.
+
+00:01:53.785 --> 00:01:57.997
+These are the currencies every product price can use, so add only the
+
+00:01:57.997 --> 00:01:59.288
+ones you sell in.
+
+00:01:59.749 --> 00:02:01.301
+Click Add Currency.
+
+00:02:01.301 --> 00:02:05.770
+Enter the Currency code, which is three letters such as CAD, and a
+
+00:02:05.770 --> 00:02:08.439
+Display name such as Canadian Dollar.
+
+00:02:08.892 --> 00:02:09.951
+Click Save.
+
+00:02:09.951 --> 00:02:13.313
+The new currency is listed with Edit and Delete.
+
+00:02:13.313 --> 00:02:19.042
+Its code cannot change, but you can rename it, and every product editor now offers it.
+
+00:02:23.342 --> 00:02:25.232
+Open Commerce, Products.
+
+00:02:25.232 --> 00:02:28.446
+Every product is listed here with its status.
+
+00:02:28.446 --> 00:02:31.722
+Use Search to find one, and Edit to change it.
+
+00:02:32.234 --> 00:02:33.697
+Click New Product.
+
+00:02:33.697 --> 00:02:37.172
+The Content tab holds everything about the product.
+
+00:02:37.172 --> 00:02:38.391
+Enter a Title.
+
+00:02:38.391 --> 00:02:43.084
+Leave the Permalink empty, and it is made from the title when you save.
+
+00:02:44.506 --> 00:02:47.338
+Enter the Price and choose its currency.
+
+00:02:47.338 --> 00:02:52.016
+Leave Use the default currency to use the one set on the content type.
+
+00:02:52.471 --> 00:02:54.962
+Compare-at price is the old price:
+
+00:02:54.962 --> 00:02:59.569
+when it is higher, the shop shows it struck through with the saving.
+
+00:02:59.569 --> 00:03:03.491
+Enter a SKU, and tick Featured to show the product first.
+
+00:03:03.942 --> 00:03:09.142
+Under Images, click Add media, open the products folder in the media library,
+
+00:03:09.142 --> 00:03:11.272
+tick a picture and click OK.
+
+00:03:11.272 --> 00:03:17.162
+Then write the Description, and enter the Weight, which weight-based shipping rates use.
+
+00:03:18.616 --> 00:03:19.761
+Click Publish.
+
+00:03:19.761 --> 00:03:23.368
+The product is on sale as soon as it is published, and it
+
+00:03:23.368 --> 00:03:24.856
+appears in the list.
+
+00:03:29.035 --> 00:03:31.475
+Open a product to set how it sells.
+
+00:03:31.475 --> 00:03:37.130
+A Sale price makes the product sell at that price, with the regular price struck through.
+
+00:03:37.130 --> 00:03:38.975
+Sale runs sets the dates.
+
+00:03:39.430 --> 00:03:43.774
+Quantities and volume pricing limits how many a buyer can add:
+
+00:03:43.774 --> 00:03:46.394
+At least, At most, and In packs of.
+
+00:03:46.394 --> 00:03:50.610
+Volume discounts give a percentage off each from a quantity.
+
+00:03:51.061 --> 00:03:56.215
+Role discounts give signed-in roles, such as wholesale buyers, a percentage off.
+
+00:03:56.215 --> 00:04:00.591
+A buyer gets the best of their role and volume discounts, not both.
+
+00:04:01.056 --> 00:04:06.363
+Under Personalization, Add-ons are the extras a buyer chooses on the product page,
+
+00:04:06.363 --> 00:04:10.464
+such as gift wrap or an engraving, each with a Label, an Extra
+
+00:04:10.464 --> 00:04:12.816
+price, and what it is Charged on.
+
+00:04:13.326 --> 00:04:16.634
+Sold elsewhere is for a product you only promote.
+
+00:04:16.634 --> 00:04:21.506
+Enter its address, and its card links there instead of showing Add to cart.
+
+00:04:21.962 --> 00:04:24.929
+Click Publish, then open the product on the shop.
+
+00:04:24.929 --> 00:04:28.868
+The page shows the sale price and the volume discount, and the gift
+
+00:04:28.868 --> 00:04:33.022
+wrap add-on is offered, and the cart works the final price out for you.
+
+00:04:37.211 --> 00:04:41.180
+How products sell is set once on the content type.
+
+00:04:41.180 --> 00:04:46.281
+Open Content, Content Definition, Content Types, and edit Product.
+
+00:04:46.738 --> 00:04:49.318
+Click Edit next to the Product part.
+
+00:04:49.318 --> 00:04:53.433
+Product Type says whether it is a Good, a Service or Digital.
+
+00:04:53.433 --> 00:04:57.488
+Default currency is used by products that do not choose one.
+
+00:04:57.942 --> 00:05:03.927
+Sales mode decides whether products are Purchasable, Listing only, or chosen Per item.
+
+00:05:03.927 --> 00:05:09.002
+A listing only product is shown and filtered, but never added to a cart.
+
+00:05:09.616 --> 00:05:15.222
+Price display shows the price, shows a label such as Call for price, or hides it.
+
+00:05:15.222 --> 00:05:20.636
+An Inquiry button and an Inquiry link send interested visitors somewhere else.
+
+00:05:21.091 --> 00:05:26.043
+Add Parts offers Product prices, for several ways to buy one product, such
+
+00:05:26.043 --> 00:05:30.501
+as monthly and yearly, and Product variants, for sizes and colors.
+
+00:05:34.718 --> 00:05:37.065
+Open Commerce, Product Listings.
+
+00:05:37.065 --> 00:05:39.103
+The Shop page is a listing:
+
+00:05:39.103 --> 00:05:41.759
+an ordinary page that shows products.
+
+00:05:41.759 --> 00:05:44.538
+Edit it to change what shoppers can do.
+
+00:05:44.994 --> 00:05:48.634
+Products chooses every product type, or only some.
+
+00:05:48.634 --> 00:05:54.354
+Under Filters, Choose filters lets you pick the filters, and drag them into order.
+
+00:05:54.815 --> 00:05:59.508
+Sorting sets the sorts shoppers can choose, and the Default sort.
+
+00:05:59.508 --> 00:06:04.465
+Paging offers numbered pages, a Load more button, or Infinite scroll.
+
+00:06:04.950 --> 00:06:09.516
+Layout sets a grid or a list, the Image shape and the page sizes.
+
+00:06:09.516 --> 00:06:15.370
+Keyword search adds a search box, and a Search index can replace the database search.
+
+00:06:15.859 --> 00:06:21.184
+On the shop, shoppers filter by Featured or Price, sort, and switch between
+
+00:06:21.184 --> 00:06:23.024
+the grid and the list.
+
+00:06:23.024 --> 00:06:26.179
+Every combination has its own web address.
+
+00:06:30.383 --> 00:06:33.988
+Product Comparison adds a Compare tick box to every card.
+
+00:06:33.988 --> 00:06:38.051
+Shoppers tick up to four products, such as these three, and a bar
+
+00:06:38.051 --> 00:06:41.713
+at the bottom of the page counts the products they picked.
+
+00:06:42.165 --> 00:06:46.150
+Compare opens a page that sets the products side by side:
+
+00:06:46.150 --> 00:06:50.325
+their prices, their stock, and a row for each specification.
+
+00:06:50.775 --> 00:06:53.354
+Open a product to see the other features.
+
+00:06:53.354 --> 00:06:57.468
+Products in this group puts several products on one page, such as the
+
+00:06:57.468 --> 00:06:58.675
+pieces of a set.
+
+00:06:59.129 --> 00:07:03.103
+Upsells are better or bigger choices shown as You may also like, and
+
+00:07:03.103 --> 00:07:06.379
+Cross-sells go with the product and appear in the cart.
+
+00:07:06.842 --> 00:07:10.855
+Under Bundle, Made of lists the products in a kit, sold at the
+
+00:07:10.855 --> 00:07:14.572
+bundle's own price, with stock worked out from its parts.
+
+00:07:18.779 --> 00:07:21.694
+Open Settings, Commerce, Product feeds.
+
+00:07:21.694 --> 00:07:27.006
+It publishes your catalog to Google Merchant Center, Meta and TikTok, and as
+
+00:07:27.006 --> 00:07:30.439
+a spreadsheet, and it lists the feed addresses.
+
+00:07:30.893 --> 00:07:35.231
+The page says how many products the feed holds, and warns about any
+
+00:07:35.231 --> 00:07:38.619
+it would refuse, such as a product without a photo.
+
+00:07:38.619 --> 00:07:43.373
+You can set a Brand, a Condition, and a Feed key to keep the feed private.
+
+00:07:43.878 --> 00:07:49.281
+For a large catalog, turn on Product Search with Lucene, Elasticsearch or Azure
+
+00:07:49.281 --> 00:07:52.204
+AI Search under Configuration, Features.
+
+00:07:52.204 --> 00:07:55.828
+Listings then rank keyword matches with that index.
+
+00:08:00.028 --> 00:08:00.832
+A shop:
+
+00:08:00.832 --> 00:08:05.780
+goods with pictures, SKUs and sale prices, shown on a listing with filters
+
+00:08:05.780 --> 00:08:08.688
+and sorting, and bought through the cart.
+
+00:08:09.438 --> 00:08:11.393
+Listings without a cart:
+
+00:08:11.393 --> 00:08:15.825
+homes or cars set to Listing only, with a hidden price or Call
+
+00:08:15.825 --> 00:08:18.368
+for price, and an inquiry button.
+
+00:08:19.118 --> 00:08:20.136
+Wholesale:
+
+00:08:20.136 --> 00:08:26.248
+a minimum quantity, packs, volume discounts, and a role discount for your trade customers.
+
+00:08:26.998 --> 00:08:28.309
+Gifts and kits:
+
+00:08:28.309 --> 00:08:34.177
+add-ons for engraving or wrapping, bundles for starter kits, and upsells and cross-sells
+
+00:08:34.177 --> 00:08:35.738
+to raise the order.
+
+00:08:37.738 --> 00:08:42.187
+Keep the price with the content, choose how each product sells, and let
+
+00:08:42.187 --> 00:08:44.035
+the shop page do the rest.
+
+00:08:44.035 --> 00:08:45.538
+Thanks for watching.
+
