@@ -1,0 +1,52 @@
+1
+00:00:03,206 --> 00:00:07,413
+Open Interaction Center, Management, Business hours.
+
+2
+00:00:07,413 --> 00:00:09,226
+Click Add calendar.
+
+3
+00:00:09,678 --> 00:00:14,288
+Enter a Name, such as Support hours, and an optional Description.
+
+4
+00:00:14,738 --> 00:00:17,993
+Pick the Time zone the hours are written in.
+
+5
+00:00:17,993 --> 00:00:20,858
+When it is empty, the hours are in UTC
+
+6
+00:00:21,314 --> 00:00:26,299
+In Weekly schedule, tick Open for each open day, and set From and To.
+
+7
+00:00:26,299 --> 00:00:30,554
+A new calendar starts with Monday to Friday, nine to five.
+
+8
+00:00:31,008 --> 00:00:35,763
+Close Friday afternoon early by changing its To time, and tick Open on
+
+9
+00:00:35,763 --> 00:00:38,328
+Saturday for a short morning shift.
+
+10
+00:00:38,783 --> 00:00:43,817
+In Holidays, enter one date per line, in the form year, month, day.
+
+11
+00:00:43,817 --> 00:00:47,403
+The calendar is closed all day on those dates.
+
+12
+00:00:47,856 --> 00:00:50,491
+Leave Enabled ticked, and click Save.
+
+13
+00:00:50,491 --> 00:00:56,376
+The calendar is listed, and can now be picked on queues, entry points and dialer profiles.
+
