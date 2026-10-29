@@ -1,0 +1,104 @@
+{
+  "title": "Company Approvals and Pay on Account: Sell to Businesses | CrestApps for Orchard Core",
+  "description": "Businesses rarely pay at the till: they buy on account, quote a purchase order number, and want a manager to approve the bigger orders. The CrestApps Companies feature handles all of it in your Orchard Core store: an order limit for each buyer, a monthly budget, a required purchase order number, a deposit with the rest invoiced in net days, a credit limit, approval by a company admin, quotes, and punchout from the company's procurement system.\n\nIn this video:\n• Why companies buy differently\n• Setting the terms: order limit, deposit, net days, credit limit, budget, purchase order\n• The buyer's checkout, and asking for approval\n• The company admin approves or rejects\n• Paying a deposit now and the rest on account\n• What the company owes, and recording its payment\n• Quotes with a purchase order, and punchout\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "B2B",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "companies",
+    "B2B ecommerce",
+    "purchase order",
+    "pay on account",
+    "net 30",
+    "order approval",
+    "credit limit",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why companies buy differently"
+    },
+    {
+      "time": "0:44",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:12",
+      "title": "Set the terms"
+    },
+    {
+      "time": "2:09",
+      "title": "The buyer's checkout"
+    },
+    {
+      "time": "3:20",
+      "title": "The admin approves"
+    },
+    {
+      "time": "3:56",
+      "title": "Pay on account"
+    },
+    {
+      "time": "5:04",
+      "title": "What the company owes"
+    },
+    {
+      "time": "5:49",
+      "title": "Quotes with a purchase order"
+    },
+    {
+      "time": "6:22",
+      "title": "Punchout"
+    },
+    {
+      "time": "6:50",
+      "title": "Use cases"
+    },
+    {
+      "time": "7:20",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/companies"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/companies"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Companies"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/companies.md",
+    "src/CrestApps.Docs/docs/modules/companies.md"
+  ],
+  "length": "7:31"
+}
