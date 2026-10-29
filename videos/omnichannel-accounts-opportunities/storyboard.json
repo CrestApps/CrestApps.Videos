@@ -1,0 +1,238 @@
+{
+  "title": "Omnichannel Accounts and Opportunities",
+  "output": "omnichannel-accounts-opportunities",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Accounts and Opportunities",
+      "subtitle": "Companies, households and the deals you are working",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows accounts and opportunities in the Omnichannel CRM: how contacts and deals are grouped under an account, how to add a deal and find it with search terms, what happens when an account is deleted, and the CRM reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why accounts and opportunities",
+      "subtitle": "One company, many people and deals",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A company has several people you talk to, and often more than one deal in progress. Looking at each person alone hides the whole relationship."
+            },
+            {
+              "id": "why-2",
+              "text": "An account is the company or household. Its contacts and its opportunities hang under it, so you see everything in one place."
+            },
+            {
+              "id": "why-3",
+              "text": "An opportunity is a deal. It has a stage, an amount, a close date and a primary contact, and it can belong to an account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Accounts",
+      "subtitle": "Everything about a company in one page",
+      "clips": [
+        {
+          "id": "02-accounts",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "accounts-1",
+              "text": "Open Interaction Center, Accounts. Each row is an account. Click List Items on a row to open its page."
+            },
+            {
+              "id": "accounts-2",
+              "text": "The account's page lists its contacts and its opportunities, with the usual search and filters. Edit Account changes the account itself."
+            },
+            {
+              "id": "accounts-3",
+              "text": "List Activities shows the activities of every contact in the account, so a supervisor sees the whole conversation with the company."
+            }
+          ]
+        }
+      ],
+      "short": "accounts"
+    },
+    {
+      "id": "03",
+      "title": "Put people and deals in an account",
+      "subtitle": "The account picker",
+      "clips": [
+        {
+          "id": "03-join",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "join-1",
+              "text": "A contact joins an account with the Account picker on its editor. Open a contact and choose the account from the list."
+            },
+            {
+              "id": "join-2",
+              "text": "Opportunities have the same picker. Every contact and opportunity type can join an account without extra setup. Leads never join an account: they get one when they are converted."
+            }
+          ]
+        }
+      ],
+      "short": "join"
+    },
+    {
+      "id": "04",
+      "title": "Find opportunities",
+      "subtitle": "Search terms for stage, closed, won and account",
+      "clips": [
+        {
+          "id": "04-find",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "Open Interaction Center, Opportunities. The list shows the open opportunities, with the account, the stage, the amount, the probability and the close date."
+            },
+            {
+              "id": "find-2",
+              "text": "Search with terms. Stage finds a stage by name, Closed finds closed or open opportunities, Won finds the ones that were won, and Account finds the deals of an account."
+            }
+          ]
+        }
+      ],
+      "short": "find"
+    },
+    {
+      "id": "05",
+      "title": "Add an opportunity",
+      "subtitle": "Stage, amount and primary contact",
+      "clips": [
+        {
+          "id": "05-opportunity",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "opportunity-1",
+              "text": "Click New Sales Opportunity. Pick the Account, give the deal a title, and enter the Amount and the Close date."
+            },
+            {
+              "id": "opportunity-2",
+              "text": "The Primary contact picker lists your contact types. The Stage decides whether the opportunity is open, won or lost, and a new opportunity starts with the probability of its stage."
+            },
+            {
+              "id": "opportunity-3",
+              "text": "The Opportunity owner, the Lead source and the Campaign are optional. Publish the opportunity, and it is on the list and in the account."
+            }
+          ]
+        }
+      ],
+      "short": "opportunity"
+    },
+    {
+      "id": "06",
+      "title": "Delete an account",
+      "subtitle": "Contacts and deals stay",
+      "clips": [
+        {
+          "id": "06-delete",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "delete-1",
+              "text": "Use Actions, Delete on an account row to remove it. Deleting an account leaves its contacts and opportunities in place, outside any account."
+            },
+            {
+              "id": "delete-2",
+              "text": "The contacts are still on the Contacts list, and the opportunity is still on the Opportunities list, now without an account."
+            }
+          ]
+        }
+      ],
+      "short": "delete"
+    },
+    {
+      "id": "07",
+      "title": "CRM reports",
+      "subtitle": "Three reports under Reports",
+      "clips": [
+        {
+          "id": "07-reports",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "reports-1",
+              "text": "Three reports appear under Reports, CRM and Campaigns, and need the View Omnichannel reports permission. Each is filtered by date range."
+            },
+            {
+              "id": "reports-2",
+              "text": "The Lead funnel shows the leads created in the period by their current status, with the share converted. Lead conversion by source and list shows leads, conversions, the conversion rate and the average time to convert."
+            },
+            {
+              "id": "reports-3",
+              "text": "The Opportunity pipeline shows the open opportunities by stage with their amount and weighted amount, and the win rate of those closed in the period."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "See every person and every deal of a company on one page."
+            },
+            {
+              "id": "use-2",
+              "text": "Review the whole conversation with a company, across all its contacts."
+            },
+            {
+              "id": "use-3",
+              "text": "Track deals by stage and amount, and see what is closing this month."
+            },
+            {
+              "id": "use-4",
+              "text": "Report on the pipeline and on how well each lead source converts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Group the contacts and the deals of a company under one account, follow every deal through its stages, and read the pipeline and the lead sources in the reports, so you always know what is closing next. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

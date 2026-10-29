@@ -1,0 +1,94 @@
+{
+  "title": "Omnichannel Accounts and Opportunities: Companies, Deals and CRM Reports | CrestApps for Orchard Core",
+  "description": "A company has several people and often more than one deal. Accounts group the contacts and opportunities of a company or household, opportunities follow each deal through its stages, and three CRM reports show the funnel, the conversion by source and the pipeline.\n\nIn this video:\n• Why accounts and opportunities\n• Accounts: contacts, opportunities and activities of a company\n• Putting contacts and opportunities in an account\n• Finding opportunities with search terms\n• Adding an opportunity: stage, amount and primary contact\n• Deleting an account\n• The three CRM reports",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "accounts",
+    "opportunities",
+    "CRM",
+    "sales pipeline",
+    "omnichannel accounts",
+    "deal stages",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why accounts and opportunities"
+    },
+    {
+      "time": "0:48",
+      "title": "Accounts"
+    },
+    {
+      "time": "1:18",
+      "title": "Put people and deals in an account"
+    },
+    {
+      "time": "1:43",
+      "title": "Find opportunities"
+    },
+    {
+      "time": "2:10",
+      "title": "Add an opportunity"
+    },
+    {
+      "time": "2:44",
+      "title": "Delete an account"
+    },
+    {
+      "time": "3:05",
+      "title": "CRM reports"
+    },
+    {
+      "time": "3:43",
+      "title": "What to use it for"
+    },
+    {
+      "time": "4:09",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/leads-accounts-opportunities"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/crm"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Crm"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/leads-accounts-opportunities.md",
+    "src/CrestApps.Docs/docs/omnichannel/crm.md"
+  ],
+  "length": "4:28"
+}

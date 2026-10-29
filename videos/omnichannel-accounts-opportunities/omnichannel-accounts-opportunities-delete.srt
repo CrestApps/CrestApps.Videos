@@ -1,0 +1,16 @@
+1
+00:00:03,205 --> 00:00:06,938
+Use Actions, Delete on an account row to remove it.
+
+2
+00:00:06,938 --> 00:00:13,095
+Deleting an account leaves its contacts and opportunities in place, outside any account.
+
+3
+00:00:13,546 --> 00:00:17,747
+The contacts are still on the Contacts list, and the opportunity is still
+
+4
+00:00:17,747 --> 00:00:20,726
+on the Opportunities list, now without an account.
+

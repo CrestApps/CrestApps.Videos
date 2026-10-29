@@ -1,0 +1,24 @@
+1
+00:00:03,174 --> 00:00:07,192
+A contact joins an account with the Account picker on its editor.
+
+2
+00:00:07,192 --> 00:00:10,474
+Open a contact and choose the account from the list.
+
+3
+00:00:12,124 --> 00:00:14,547
+Opportunities have the same picker.
+
+4
+00:00:14,547 --> 00:00:19,334
+Every contact and opportunity type can join an account without extra setup.
+
+5
+00:00:19,334 --> 00:00:21,343
+Leads never join an account:
+
+6
+00:00:21,343 --> 00:00:23,884
+they get one when they are converted.
+
