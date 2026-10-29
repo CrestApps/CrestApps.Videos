@@ -1,0 +1,172 @@
+1
+00:00:01,000 --> 00:00:03,340
+An assistant that knows your company.
+
+2
+00:00:03,340 --> 00:00:04,864
+This video builds one:
+
+3
+00:00:04,864 --> 00:00:08,892
+you give an AI profile your documents and the articles of your site,
+
+4
+00:00:08,892 --> 00:00:13,083
+then test that it answers from them, shows where each answer came from,
+
+5
+00:00:13,083 --> 00:00:15,260
+and says so when it does not know.
+
+6
+00:00:19,860 --> 00:00:24,800
+An AI profile that searches your documents and your data before it answers.
+
+7
+00:00:25,550 --> 00:00:29,560
+Answers that show where they came from, as numbered sources.
+
+8
+00:00:30,310 --> 00:00:35,077
+If you want, an assistant that answers only from your knowledge, and says
+
+9
+00:00:35,077 --> 00:00:37,490
+so when it cannot find the answer.
+
+10
+00:00:41,690 --> 00:00:47,570
+The knowledge is kept in search indexes, on a search service that your technical team provides.
+
+11
+00:00:48,320 --> 00:00:53,187
+You need an AI connection with a chat deployment and an embedding deployment,
+
+12
+00:00:53,187 --> 00:00:56,940
+and the permission to manage AI profiles and data sources.
+
+13
+00:00:57,690 --> 00:01:02,388
+Here, the documents index and a data source of the help articles are ready.
+
+14
+00:01:02,388 --> 00:01:05,230
+The earlier videos show how to create them.
+
+15
+00:01:09,423 --> 00:01:13,940
+Open the profile, open the Knowledge tab, and upload your document.
+
+16
+00:01:13,940 --> 00:01:16,106
+Here it is the return policy.
+
+17
+00:01:16,106 --> 00:01:18,953
+It shows a Pending badge until you save.
+
+18
+00:01:19,425 --> 00:01:24,278
+Documents on a profile are background knowledge for every conversation with it.
+
+19
+00:01:24,278 --> 00:01:27,875
+Replace one by removing it and uploading the new version.
+
+20
+00:01:32,050 --> 00:01:34,484
+Next, the content of your site.
+
+21
+00:01:34,484 --> 00:01:38,430
+On the same tab, choose the Help articles data source.
+
+22
+00:01:38,887 --> 00:01:45,607
+Tick Restrict answers to retrieved data only, so that the assistant never answers from general knowledge.
+
+23
+00:01:46,068 --> 00:01:47,223
+Click Save.
+
+24
+00:01:47,223 --> 00:01:51,368
+The document is read, split into passages, and indexed.
+
+25
+00:01:55,543 --> 00:02:00,577
+Open a chat with the profile, and ask a question that only your document answers:
+
+26
+00:02:00,577 --> 00:02:02,603
+can I return opened software?
+
+27
+00:02:03,055 --> 00:02:05,693
+The assistant answers from the document:
+
+28
+00:02:05,693 --> 00:02:08,045
+opened software cannot be returned.
+
+29
+00:02:08,512 --> 00:02:11,881
+Now ask a question that an article of the site answers:
+
+30
+00:02:11,881 --> 00:02:14,202
+how long does express shipping take?
+
+31
+00:02:14,664 --> 00:02:16,748
+The answer comes from the article.
+
+32
+00:02:16,748 --> 00:02:21,124
+It carries a small number, and the numbered source under it names the article.
+
+33
+00:02:21,578 --> 00:02:25,256
+Finally, ask something that your knowledge does not cover:
+
+34
+00:02:25,256 --> 00:02:27,958
+what is the favorite color of the C.E.O.?
+
+35
+00:02:28,450 --> 00:02:34,140
+Because answers are restricted, the assistant says that it cannot find it, instead of guessing.
+
+36
+00:02:38,340 --> 00:02:43,461
+Start with a few good, current documents, rather than everything you have.
+
+37
+00:02:43,461 --> 00:02:46,790
+Out of date files lead to out of date answers.
+
+38
+00:02:47,540 --> 00:02:50,642
+Change a page, and a data source follows.
+
+39
+00:02:50,642 --> 00:02:56,780
+Replace a document, by removing the old one from the profile and uploading the new one.
+
+40
+00:02:57,530 --> 00:03:02,950
+To let people ask about their own files, allow session document uploads on the profile.
+
+41
+00:03:04,950 --> 00:03:09,868
+Upload documents, connect a data source, restrict the answers, and test.
+
+42
+00:03:09,868 --> 00:03:13,461
+Your assistant now answers from your own knowledge.
+
+43
+00:03:13,461 --> 00:03:15,100
+Thanks for watching.
+

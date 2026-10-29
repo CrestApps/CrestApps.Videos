@@ -1,0 +1,17 @@
+WEBVTT
+
+00:00:03.175 --> 00:00:05.609
+Next, the content of your site.
+
+00:00:05.609 --> 00:00:09.555
+On the same tab, choose the Help articles data source.
+
+00:00:10.013 --> 00:00:16.733
+Tick Restrict answers to retrieved data only, so that the assistant never answers from general knowledge.
+
+00:00:17.193 --> 00:00:18.348
+Click Save.
+
+00:00:18.348 --> 00:00:22.493
+The document is read, split into passages, and indexed.
+

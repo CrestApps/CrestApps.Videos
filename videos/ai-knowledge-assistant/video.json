@@ -1,0 +1,86 @@
+{
+  "title": "Build an AI Knowledge Assistant That Answers From Your Company's Own Knowledge | CrestApps for Orchard Core",
+  "description": "Give an AI profile your company's documents and your site's articles, and it answers from them, shows where each answer came from, and says so when it does not know. This walk-through builds a knowledge assistant with CrestApps AI profiles, documents and data sources in Orchard Core, and tests it.\n\nIn this video:\n• What you get, and what has to be ready\n• Uploading a document to a profile\n• Connecting a data source of your site's articles and restricting answers to it\n• Testing: an answer from a document, an answer from an article with its numbered source, and a question the knowledge does not cover\n• Tips to keep the knowledge good",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI knowledge assistant",
+    "AI profiles",
+    "AI documents",
+    "AI data sources",
+    "RAG",
+    "retrieval-augmented generation",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "What you get"
+    },
+    {
+      "time": "0:38",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:06",
+      "title": "Upload your documents"
+    },
+    {
+      "time": "1:28",
+      "title": "Connect your site's content"
+    },
+    {
+      "time": "1:52",
+      "title": "Test it"
+    },
+    {
+      "time": "2:35",
+      "title": "Tips"
+    },
+    {
+      "time": "3:04",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use case",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/ai-knowledge-assistant"
+    },
+    {
+      "label": "Knowledge",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.DataSources"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/ai-knowledge-assistant.md"
+  ],
+  "length": "3:16"
+}
