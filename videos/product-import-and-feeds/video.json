@@ -1,0 +1,90 @@
+{
+  "title": "Product Import, Export and Feeds: CSV, Shopify and Google Shopping | CrestApps for Orchard Core",
+  "description": "A spreadsheet is the quickest way to fill or change a catalog. CrestApps products import and export as CSV with a column for each product detail, rows are matched by SKU so nothing is added twice, a Shopify or WooCommerce export is read as it is, and product feeds publish your catalog to Google, Meta and TikTok shopping.\n\nIn this video:\n• Why import and feeds, and how they fit together\n• Exporting products with Bulk Export\n• Importing products with Bulk Import: the template, SKUs and skipped rows\n• Product feeds: the feed address, defaults and the Product Feed part\n• Moving from Shopify or WooCommerce",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "product import",
+    "CSV",
+    "Shopify migration",
+    "product feed",
+    "Google Merchant Center",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why import and feeds"
+    },
+    {
+      "time": "0:53",
+      "title": "How it fits together"
+    },
+    {
+      "time": "1:28",
+      "title": "Export your products"
+    },
+    {
+      "time": "2:13",
+      "title": "Import products"
+    },
+    {
+      "time": "2:49",
+      "title": "Product feeds"
+    },
+    {
+      "time": "3:31",
+      "title": "Moving from another store"
+    },
+    {
+      "time": "4:08",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:32",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Products and currencies (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/products-and-currencies"
+    },
+    {
+      "label": "Product listings (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/product-listings"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContentTransfer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/products-and-currencies.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/product-listings.md"
+  ],
+  "length": "4:40"
+}

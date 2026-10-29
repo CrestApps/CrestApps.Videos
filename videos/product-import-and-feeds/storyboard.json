@@ -1,0 +1,233 @@
+{
+  "title": "Product import and feeds",
+  "output": "product-import-and-feeds",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "SKU": "S.K.U.",
+    "GTIN": "gee tin",
+    "MPN": "M.P.N."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Product import and feeds",
+      "subtitle": "Move products in, and out to shopping ads",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A spreadsheet is the quickest way to fill or change a catalog, and a feed puts it in shopping ads. This video shows how to export and import products, how SKUs match rows, how to move from another store, and how to publish product feeds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why import and feeds",
+      "subtitle": "Move products in, and out to shopping ads",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Typing a hundred products one at a time is slow, and a spreadsheet is the format most stores already have."
+            },
+            {
+              "id": "why-2",
+              "text": "Moving from Shopify or WooCommerce means moving a catalog, not retyping it."
+            },
+            {
+              "id": "why-3",
+              "text": "Product import and export read and write a CSV file, with a column for each product detail, and match rows to your products by SKU."
+            },
+            {
+              "id": "why-4",
+              "text": "A product feed publishes your products to Google, Meta and TikTok shopping, with the details those shops ask for."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it fits together",
+      "subtitle": "Import, export and feeds",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Content Transfer adds Bulk Import and Bulk Export, for products like any other content."
+            },
+            {
+              "id": "how-2",
+              "text": "Each product is a row. Its price, SKU, sale dates and more are columns. A template shows them all."
+            },
+            {
+              "id": "how-3",
+              "text": "An export has the same columns, so you can change prices in a spreadsheet and import the file back."
+            },
+            {
+              "id": "how-4",
+              "text": "Product Feeds publishes the catalog to shopping ads, and the Product Feed part adds brand, GTIN and category."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Export your products",
+      "subtitle": "Bulk Export",
+      "clips": [
+        {
+          "id": "03-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "Open Content, Bulk Export. Choose the Product type and the CSV format, and click Export Data. The file has a row for each product."
+            },
+            {
+              "id": "exp-2",
+              "text": "Change what you need in a spreadsheet, such as the prices. The file includes the content item id of each product, which is what lets an import update a product."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Import products",
+      "subtitle": "Bulk Import",
+      "clips": [
+        {
+          "id": "04-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "Open Content, Bulk Import, click Import, and choose Product. Download template, CSV shows every column to fill in."
+            },
+            {
+              "id": "imp-2",
+              "text": "Choose your file. Tick Publish imported content to publish the products as they come in, and click Upload. The import appears in the list, with its status."
+            },
+            {
+              "id": "imp-3",
+              "text": "Rows are matched to your products by SKU, so an import does not add a product twice. A row whose SKU an earlier row used is skipped, and the import says which row it repeats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Product feeds",
+      "subtitle": "Google, Meta and TikTok",
+      "clips": [
+        {
+          "id": "05-feeds",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fed-1",
+              "text": "With Product Feeds on, open Settings, Commerce, Product feeds. It shows the feed's address, how many products are in it, and why any are left out, such as a product with no photo."
+            },
+            {
+              "id": "fed-2",
+              "text": "Set the default brand, the condition, a default Google product category, and whether to include products that are out of stock. Give Google Merchant Center, Meta or TikTok the feed's address as a scheduled feed."
+            },
+            {
+              "id": "fed-3",
+              "text": "The Product Feed part, added to a product type, adds a brand, a GTIN, an MPN, a condition and a Google category to each product, and a way to keep a product out of the feeds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Moving from another store",
+      "subtitle": "Shopify and WooCommerce",
+      "clips": [
+        {
+          "id": "06-move",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "mov-1",
+              "text": "Export your products from Shopify or WooCommerce, and import the file as your product type. It is read as it is."
+            },
+            {
+              "id": "mov-2",
+              "text": "Variants come in when the type has the Product variants part with options of the same names. Otherwise the product comes in as one product, from its lowest price."
+            },
+            {
+              "id": "mov-3",
+              "text": "Categories and brands go to taxonomy fields named like Category and Brand, matched to their terms by name."
+            },
+            {
+              "id": "mov-4",
+              "text": "Images are not downloaded. Add product photos in the media library."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Four ways to use import and feeds",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A new catalog: fill in the template, and import it."
+            },
+            {
+              "id": "use-2",
+              "text": "A price change: export, edit the prices, and import the file back."
+            },
+            {
+              "id": "use-3",
+              "text": "A move from another store: import its export."
+            },
+            {
+              "id": "use-4",
+              "text": "Shopping ads: publish a feed, and give its address to Google."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Export, edit, import, and publish a feed. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
