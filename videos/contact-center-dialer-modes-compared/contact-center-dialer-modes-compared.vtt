@@ -1,0 +1,329 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.302
+A dialer profile has four modes, and they differ in three things:
+
+00:00:05.302 --> 00:00:10.332
+who presses Dial, whether an agent is held before the customer's phone rings,
+
+00:00:10.332 --> 00:00:12.029
+and what can go wrong.
+
+00:00:12.029 --> 00:00:16.513
+This video explains how each one works, what every mode shows in the
+
+00:00:16.513 --> 00:00:19.240
+profile form, and when to choose which.
+
+00:00:23.840 --> 00:00:26.474
+For every mode, ask three questions.
+
+00:00:26.474 --> 00:00:28.104
+Who starts the call:
+
+00:00:28.104 --> 00:00:29.985
+an agent, or the system?
+
+00:00:29.985 --> 00:00:34.374
+Is an agent held for the call before the customer's phone rings?
+
+00:00:34.374 --> 00:00:36.130
+And what can go wrong?
+
+00:00:36.880 --> 00:00:38.869
+Two things are not modes.
+
+00:00:38.869 --> 00:00:40.730
+Manual dialing is gone:
+
+00:00:40.730 --> 00:00:45.670
+an older profile saved as Manual is shown, and saved again, as Preview.
+
+00:00:45.670 --> 00:00:46.761
+And an A.I.
+
+00:00:46.761 --> 00:00:50.868
+voice agent calling a contact is not a dialer mode either.
+
+00:00:50.868 --> 00:00:52.600
+It has its own video.
+
+00:00:56.800 --> 00:00:59.492
+In Preview, the agent is in control.
+
+00:00:59.492 --> 00:01:03.402
+A record is offered to an agent who is signed in to the
+
+00:01:03.402 --> 00:01:05.517
+campaign, with a countdown.
+
+00:01:05.517 --> 00:01:10.260
+The agent reads the record, then clicks Dial, or Skip to pass it on.
+
+00:01:11.010 --> 00:01:14.721
+The agent is held by the offer, before any call exists.
+
+00:01:14.721 --> 00:01:20.318
+When the agent clicks Dial, the server runs the compliance checks and places the call.
+
+00:01:20.318 --> 00:01:23.420
+The agent is on the call from the first ring.
+
+00:01:24.997 --> 00:01:30.459
+Open Interaction Center, Management, Dialer Profiles, and click Add Dialer Profile.
+
+00:01:30.459 --> 00:01:32.423
+Preview is the first Mode.
+
+00:01:32.423 --> 00:01:34.203
+Notice what is missing.
+
+00:01:34.203 --> 00:01:39.051
+There is no Calls per agent, no ring time, no answering machine screening
+
+00:01:39.051 --> 00:01:41.137
+and no Abandoned calls card.
+
+00:01:41.137 --> 00:01:45.617
+The agent places the call and listens to it, so none of them apply.
+
+00:01:47.217 --> 00:01:50.920
+What can go wrong is slow work, not abandoned calls.
+
+00:01:50.920 --> 00:01:56.155
+If nobody responds, the offer runs out and the record goes to another agent.
+
+00:01:56.155 --> 00:02:01.071
+If the call ends before it connects, the dialer records the outcome and
+
+00:02:01.071 --> 00:02:03.177
+the agent returns to Ready.
+
+00:02:07.377 --> 00:02:09.794
+In Power, nobody presses anything.
+
+00:02:09.794 --> 00:02:14.689
+When an agent in the campaign is available, the dialer reserves that agent,
+
+00:02:14.689 --> 00:02:16.502
+then calls the customer.
+
+00:02:16.502 --> 00:02:21.094
+Each call has its own reserved agent, so it never rings more customers
+
+00:02:21.094 --> 00:02:22.907
+than it has free agents.
+
+00:02:23.657 --> 00:02:29.604
+While it rings, the agent is Reserved, and the screen says waiting for a connected call.
+
+00:02:29.604 --> 00:02:34.917
+When a person answers, the agent is joined, and the activity opens on its own.
+
+00:02:36.522 --> 00:02:38.798
+Choose Power, and the form grows.
+
+00:02:38.798 --> 00:02:42.882
+Calls per agent is the most calls the dialer may start each time
+
+00:02:42.882 --> 00:02:45.799
+it looks at the campaign, from one to three.
+
+00:02:45.799 --> 00:02:48.542
+Each of them reserves a free agent first.
+
+00:02:49.085 --> 00:02:54.947
+Power adds ring time, answering machine screening, and Show each dial to the agent.
+
+00:02:54.947 --> 00:02:57.845
+It also adds the Abandoned calls card.
+
+00:02:59.445 --> 00:03:02.250
+What can go wrong is an abandoned call.
+
+00:03:02.250 --> 00:03:07.299
+A person answers, and no agent is connected within two seconds, for example
+
+00:03:07.299 --> 00:03:09.980
+because the agent's phone was closed.
+
+00:03:09.980 --> 00:03:13.845
+The person hears the abandoned call message, or silence.
+
+00:03:14.595 --> 00:03:18.965
+A voicemail, a busy line or no answer never reaches the agent.
+
+00:03:18.965 --> 00:03:24.815
+The dialer records the outcome itself, and the agent goes straight back to Available.
+
+00:03:29.016 --> 00:03:30.504
+Choose Progressive.
+
+00:03:30.504 --> 00:03:34.790
+It reserves an agent for every call, just like Power, but the form
+
+00:03:34.790 --> 00:03:36.516
+has no Calls per agent.
+
+00:03:36.516 --> 00:03:39.372
+The dialer does not ration calls per look.
+
+00:03:39.372 --> 00:03:43.598
+It keeps going until every free agent holds a call, with a safety
+
+00:03:43.598 --> 00:03:46.276
+limit of one hundred calls in one look.
+
+00:03:46.757 --> 00:03:48.610
+So the two behave alike.
+
+00:03:48.610 --> 00:03:53.368
+Power with one call per agent fills the free agents one call at a time.
+
+00:03:53.368 --> 00:03:55.902
+Progressive fills them all at once.
+
+00:03:55.902 --> 00:03:57.694
+The risks are the same:
+
+00:03:57.694 --> 00:04:01.587
+abandoned calls, and the cap on the Abandoned calls card.
+
+00:04:05.776 --> 00:04:09.543
+Choose Predictive, and a Predictive pacing card appears.
+
+00:04:09.543 --> 00:04:12.641
+Pacing starts as One call per reserved agent.
+
+00:04:12.641 --> 00:04:16.894
+Every call still reserves a free agent, so it cannot call ahead.
+
+00:04:16.894 --> 00:04:19.203
+What Predictive adds is a brake:
+
+00:04:19.203 --> 00:04:23.577
+with the cap on, it places fewer calls per look as the abandonment
+
+00:04:23.577 --> 00:04:25.096
+rate nears the cap.
+
+00:04:25.613 --> 00:04:30.617
+Pick Over-dial, and the dialer places more calls than there are free agents,
+
+00:04:30.617 --> 00:04:33.179
+because most calls are not answered.
+
+00:04:33.179 --> 00:04:36.108
+No agent is reserved while the calls ring.
+
+00:04:36.108 --> 00:04:39.463
+When a person answers, a free agent is connected.
+
+00:04:40.000 --> 00:04:41.778
+The settings steer it.
+
+00:04:41.778 --> 00:04:47.048
+Target abandonment rate is what over-dialing aims for, and it must stay below
+
+00:04:47.048 --> 00:04:49.271
+the Maximum abandonment rate.
+
+00:04:49.271 --> 00:04:53.970
+Lines per agent and Calls in flight cap how many calls ring at once.
+
+00:04:55.570 --> 00:04:58.604
+What can go wrong is the whole point of the cap.
+
+00:04:58.604 --> 00:05:02.762
+When a person answers and nobody is free, the call is abandoned, and
+
+00:05:02.762 --> 00:05:05.571
+the person hears the abandoned call message.
+
+00:05:05.571 --> 00:05:09.729
+Over-dialing needs the cap and the message, and it falls back to one
+
+00:05:09.729 --> 00:05:13.550
+call per reserved agent until its measurements can be trusted.
+
+00:05:17.750 --> 00:05:19.397
+Who presses Dial?
+
+00:05:19.397 --> 00:05:21.401
+In Preview, the agent.
+
+00:05:21.401 --> 00:05:25.053
+In Power, Progressive and Predictive, nobody.
+
+00:05:25.053 --> 00:05:26.700
+The system dials.
+
+00:05:27.450 --> 00:05:31.043
+Is an agent held before the customer's phone rings?
+
+00:05:31.043 --> 00:05:33.817
+Yes in Preview, Power and Progressive.
+
+00:05:33.817 --> 00:05:38.230
+In Predictive, yes by default, and no when you choose Over-dial.
+
+00:05:38.980 --> 00:05:40.955
+Can a call be abandoned?
+
+00:05:40.955 --> 00:05:42.469
+Never in Preview.
+
+00:05:42.469 --> 00:05:47.340
+In Power and Progressive, when an agent cannot be connected in time.
+
+00:05:47.340 --> 00:05:52.540
+In Predictive, the same, and on purpose in Over-dial when nobody is free.
+
+00:05:53.290 --> 00:05:54.744
+Which features?
+
+00:05:54.744 --> 00:05:58.554
+Contact Center Outbound Dialer gives you Preview.
+
+00:05:58.554 --> 00:06:03.680
+Contact Center Paced Dialing adds Power, Progressive and Predictive.
+
+00:06:07.880 --> 00:06:09.451
+Start with Preview.
+
+00:06:09.451 --> 00:06:13.598
+Agents read each record before the call, and a new team or a
+
+00:06:13.598 --> 00:06:15.672
+high value list needs that.
+
+00:06:15.672 --> 00:06:17.620
+No call can be abandoned.
+
+00:06:18.370 --> 00:06:23.610
+Move to Progressive or Power when the list is steady and agents wait between calls.
+
+00:06:23.610 --> 00:06:28.380
+Turn on the abandonment cap, and the abandoned call message, before you do.
+
+00:06:29.130 --> 00:06:33.528
+Choose Predictive with one call per reserved agent when you want the brake.
+
+00:06:33.528 --> 00:06:39.230
+Choose Over-dial only when you have measured the answer rate, and your rules allow abandoned calls.
+
+00:06:39.980 --> 00:06:45.690
+Use one profile for each campaign when its abandonment rate must be measured on its own.
+
+00:06:47.690 --> 00:06:49.968
+Preview lets the agent decide.
+
+00:06:49.968 --> 00:06:53.384
+Power and Progressive dial for every free agent.
+
+00:06:53.384 --> 00:06:56.295
+Predictive adds a brake, or calls ahead.
+
+00:06:56.295 --> 00:06:57.940
+Thanks for watching.
+

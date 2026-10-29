@@ -1,0 +1,76 @@
+1
+00:00:03,200 --> 00:00:05,617
+In Power, nobody presses anything.
+
+2
+00:00:05,617 --> 00:00:10,512
+When an agent in the campaign is available, the dialer reserves that agent,
+
+3
+00:00:10,512 --> 00:00:12,325
+then calls the customer.
+
+4
+00:00:12,325 --> 00:00:16,917
+Each call has its own reserved agent, so it never rings more customers
+
+5
+00:00:16,917 --> 00:00:18,730
+than it has free agents.
+
+6
+00:00:19,480 --> 00:00:25,426
+While it rings, the agent is Reserved, and the screen says waiting for a connected call.
+
+7
+00:00:25,426 --> 00:00:30,740
+When a person answers, the agent is joined, and the activity opens on its own.
+
+8
+00:00:32,345 --> 00:00:34,620
+Choose Power, and the form grows.
+
+9
+00:00:34,620 --> 00:00:38,705
+Calls per agent is the most calls the dialer may start each time
+
+10
+00:00:38,705 --> 00:00:41,622
+it looks at the campaign, from one to three.
+
+11
+00:00:41,622 --> 00:00:44,365
+Each of them reserves a free agent first.
+
+12
+00:00:44,907 --> 00:00:50,769
+Power adds ring time, answering machine screening, and Show each dial to the agent.
+
+13
+00:00:50,769 --> 00:00:53,667
+It also adds the Abandoned calls card.
+
+14
+00:00:55,267 --> 00:00:58,072
+What can go wrong is an abandoned call.
+
+15
+00:00:58,072 --> 00:01:03,122
+A person answers, and no agent is connected within two seconds, for example
+
+16
+00:01:03,122 --> 00:01:05,802
+because the agent's phone was closed.
+
+17
+00:01:05,802 --> 00:01:09,667
+The person hears the abandoned call message, or silence.
+
+18
+00:01:10,417 --> 00:01:14,788
+A voicemail, a busy line or no answer never reaches the agent.
+
+19
+00:01:14,788 --> 00:01:20,637
+The dialer records the outcome itself, and the agent goes straight back to Available.
+

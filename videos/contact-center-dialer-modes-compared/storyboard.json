@@ -1,0 +1,276 @@
+{
+  "title": "Dialer Modes Compared",
+  "output": "contact-center-dialer-modes-compared",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "Calls per agent": "Calls per agent"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Dialer Modes Compared",
+      "subtitle": "Preview, Power, Progressive and Predictive side by side",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A dialer profile has four modes, and they differ in three things: who presses Dial, whether an agent is held before the customer's phone rings, and what can go wrong. This video explains how each one works, what every mode shows in the profile form, and when to choose which."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Three questions",
+      "subtitle": "Ask them of every mode",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "For every mode, ask three questions. Who starts the call: an agent, or the system? Is an agent held for the call before the customer's phone rings? And what can go wrong?"
+            },
+            {
+              "id": "why-2",
+              "text": "Two things are not modes. Manual dialing is gone: an older profile saved as Manual is shown, and saved again, as Preview. And an A.I. voice agent calling a contact is not a dialer mode either. It has its own video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Preview",
+      "subtitle": "The agent decides",
+      "clips": [
+        {
+          "id": "02-preview-slide",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "prev-1",
+              "text": "In Preview, the agent is in control. A record is offered to an agent who is signed in to the campaign, with a countdown. The agent reads the record, then clicks Dial, or Skip to pass it on."
+            },
+            {
+              "id": "prev-2",
+              "text": "The agent is held by the offer, before any call exists. When the agent clicks Dial, the server runs the compliance checks and places the call. The agent is on the call from the first ring."
+            }
+          ]
+        },
+        {
+          "id": "02-preview",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prev-3",
+              "text": "Open Interaction Center, Management, Dialer Profiles, and click Add Dialer Profile. Preview is the first Mode. Notice what is missing. There is no Calls per agent, no ring time, no answering machine screening and no Abandoned calls card. The agent places the call and listens to it, so none of them apply."
+            }
+          ]
+        },
+        {
+          "id": "02-preview-risk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "prev-4",
+              "text": "What can go wrong is slow work, not abandoned calls. If nobody responds, the offer runs out and the record goes to another agent. If the call ends before it connects, the dialer records the outcome and the agent returns to Ready."
+            }
+          ]
+        }
+      ],
+      "short": "preview"
+    },
+    {
+      "id": "03",
+      "title": "Power",
+      "subtitle": "The system dials",
+      "clips": [
+        {
+          "id": "03-power-slide",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pow-1",
+              "text": "In Power, nobody presses anything. When an agent in the campaign is available, the dialer reserves that agent, then calls the customer. Each call has its own reserved agent, so it never rings more customers than it has free agents."
+            },
+            {
+              "id": "pow-2",
+              "text": "While it rings, the agent is Reserved, and the screen says waiting for a connected call. When a person answers, the agent is joined, and the activity opens on its own."
+            }
+          ]
+        },
+        {
+          "id": "03-power",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pow-3",
+              "text": "Choose Power, and the form grows. Calls per agent is the most calls the dialer may start each time it looks at the campaign, from one to three. Each of them reserves a free agent first."
+            },
+            {
+              "id": "pow-4",
+              "text": "Power adds ring time, answering machine screening, and Show each dial to the agent. It also adds the Abandoned calls card."
+            }
+          ]
+        },
+        {
+          "id": "03-power-risk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pow-5",
+              "text": "What can go wrong is an abandoned call. A person answers, and no agent is connected within two seconds, for example because the agent's phone was closed. The person hears the abandoned call message, or silence."
+            },
+            {
+              "id": "pow-6",
+              "text": "A voicemail, a busy line or no answer never reaches the agent. The dialer records the outcome itself, and the agent goes straight back to Available."
+            }
+          ]
+        }
+      ],
+      "short": "power"
+    },
+    {
+      "id": "04",
+      "title": "Progressive",
+      "subtitle": "One call for every free agent",
+      "clips": [
+        {
+          "id": "04-progressive",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prog-1",
+              "text": "Choose Progressive. It reserves an agent for every call, just like Power, but the form has no Calls per agent. The dialer does not ration calls per look. It keeps going until every free agent holds a call, with a safety limit of one hundred calls in one look."
+            },
+            {
+              "id": "prog-2",
+              "text": "So the two behave alike. Power with one call per agent fills the free agents one call at a time. Progressive fills them all at once. The risks are the same: abandoned calls, and the cap on the Abandoned calls card."
+            }
+          ]
+        }
+      ],
+      "short": "progressive"
+    },
+    {
+      "id": "05",
+      "title": "Predictive",
+      "subtitle": "Calling ahead of your agents",
+      "clips": [
+        {
+          "id": "05-predictive",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pred-1",
+              "text": "Choose Predictive, and a Predictive pacing card appears. Pacing starts as One call per reserved agent. Every call still reserves a free agent, so it cannot call ahead. What Predictive adds is a brake: with the cap on, it places fewer calls per look as the abandonment rate nears the cap."
+            },
+            {
+              "id": "pred-2",
+              "text": "Pick Over-dial, and the dialer places more calls than there are free agents, because most calls are not answered. No agent is reserved while the calls ring. When a person answers, a free agent is connected."
+            },
+            {
+              "id": "pred-3",
+              "text": "The settings steer it. Target abandonment rate is what over-dialing aims for, and it must stay below the Maximum abandonment rate. Lines per agent and Calls in flight cap how many calls ring at once."
+            }
+          ]
+        },
+        {
+          "id": "05-predictive-risk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pred-4",
+              "text": "What can go wrong is the whole point of the cap. When a person answers and nobody is free, the call is abandoned, and the person hears the abandoned call message. Over-dialing needs the cap and the message, and it falls back to one call per reserved agent until its measurements can be trusted."
+            }
+          ]
+        }
+      ],
+      "short": "predictive"
+    },
+    {
+      "id": "06",
+      "title": "Side by side",
+      "subtitle": "Three answers for each mode",
+      "clips": [
+        {
+          "id": "06-compare",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "cmp-1",
+              "text": "Who presses Dial? In Preview, the agent. In Power, Progressive and Predictive, nobody. The system dials."
+            },
+            {
+              "id": "cmp-2",
+              "text": "Is an agent held before the customer's phone rings? Yes in Preview, Power and Progressive. In Predictive, yes by default, and no when you choose Over-dial."
+            },
+            {
+              "id": "cmp-3",
+              "text": "Can a call be abandoned? Never in Preview. In Power and Progressive, when an agent cannot be connected in time. In Predictive, the same, and on purpose in Over-dial when nobody is free."
+            },
+            {
+              "id": "cmp-4",
+              "text": "Which features? Contact Center Outbound Dialer gives you Preview. Contact Center Paced Dialing adds Power, Progressive and Predictive."
+            }
+          ]
+        }
+      ],
+      "short": "compare"
+    },
+    {
+      "id": "07",
+      "title": "Which one to choose",
+      "subtitle": "A path to follow",
+      "clips": [
+        {
+          "id": "07-choose",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ch-1",
+              "text": "Start with Preview. Agents read each record before the call, and a new team or a high value list needs that. No call can be abandoned."
+            },
+            {
+              "id": "ch-2",
+              "text": "Move to Progressive or Power when the list is steady and agents wait between calls. Turn on the abandonment cap, and the abandoned call message, before you do."
+            },
+            {
+              "id": "ch-3",
+              "text": "Choose Predictive with one call per reserved agent when you want the brake. Choose Over-dial only when you have measured the answer rate, and your rules allow abandoned calls."
+            },
+            {
+              "id": "ch-4",
+              "text": "Use one profile for each campaign when its abandonment rate must be measured on its own."
+            }
+          ]
+        }
+      ],
+      "short": "choose"
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Preview lets the agent decide. Power and Progressive dial for every free agent. Predictive adds a brake, or calls ahead. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

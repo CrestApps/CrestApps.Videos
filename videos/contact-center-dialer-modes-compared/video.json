@@ -1,0 +1,93 @@
+{
+  "title": "Dialer Modes Compared: Preview, Power, Progressive and Predictive | CrestApps for Orchard Core",
+  "description": "Preview, Power, Progressive and Predictive all place outbound calls, but they differ in who presses Dial, whether an agent is held before the customer's phone rings, and what can go wrong. This video explains how each mode of a dialer profile works in the CrestApps Contact Center for Orchard Core, what each one shows in the profile form, and a path for choosing which to use.\n\nIn this video:\n• Three questions to ask of every mode\n• Preview: the agent reviews the record, then clicks Dial\n• Power and Progressive: the system dials for a reserved agent\n• Predictive: one call per reserved agent, or Over-dial\n• Side by side: who dials, who is held, what can be abandoned\n• Which mode to choose, and a path from Preview to Predictive",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "dialer",
+    "preview dialing",
+    "power dialing",
+    "progressive dialing",
+    "predictive dialing",
+    "abandoned calls",
+    "outbound calling",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Three questions"
+    },
+    {
+      "time": "0:53",
+      "title": "Preview"
+    },
+    {
+      "time": "2:04",
+      "title": "Power"
+    },
+    {
+      "time": "3:25",
+      "title": "Progressive"
+    },
+    {
+      "time": "4:02",
+      "title": "Predictive"
+    },
+    {
+      "time": "5:14",
+      "title": "Side by side"
+    },
+    {
+      "time": "6:04",
+      "title": "Which one to choose"
+    },
+    {
+      "time": "6:46",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/dialer-profiles"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Dialer.Paced"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "7:00"
+}

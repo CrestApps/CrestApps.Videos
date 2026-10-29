@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:05.892
+In Preview, the agent is in control.
+
+00:00:05.892 --> 00:00:09.802
+A record is offered to an agent who is signed in to the
+
+00:00:09.802 --> 00:00:11.917
+campaign, with a countdown.
+
+00:00:11.917 --> 00:00:16.660
+The agent reads the record, then clicks Dial, or Skip to pass it on.
+
+00:00:17.410 --> 00:00:21.121
+The agent is held by the offer, before any call exists.
+
+00:00:21.121 --> 00:00:26.718
+When the agent clicks Dial, the server runs the compliance checks and places the call.
+
+00:00:26.718 --> 00:00:29.820
+The agent is on the call from the first ring.
+
+00:00:31.397 --> 00:00:36.859
+Open Interaction Center, Management, Dialer Profiles, and click Add Dialer Profile.
+
+00:00:36.859 --> 00:00:38.823
+Preview is the first Mode.
+
+00:00:38.823 --> 00:00:40.603
+Notice what is missing.
+
+00:00:40.603 --> 00:00:45.451
+There is no Calls per agent, no ring time, no answering machine screening
+
+00:00:45.451 --> 00:00:47.537
+and no Abandoned calls card.
+
+00:00:47.537 --> 00:00:52.017
+The agent places the call and listens to it, so none of them apply.
+
+00:00:53.617 --> 00:00:57.320
+What can go wrong is slow work, not abandoned calls.
+
+00:00:57.320 --> 00:01:02.555
+If nobody responds, the offer runs out and the record goes to another agent.
+
+00:01:02.555 --> 00:01:07.471
+If the call ends before it connects, the dialer records the outcome and
+
+00:01:07.471 --> 00:01:09.577
+the agent returns to Ready.
+

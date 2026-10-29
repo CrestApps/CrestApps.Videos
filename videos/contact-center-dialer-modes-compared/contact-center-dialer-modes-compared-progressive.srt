@@ -1,0 +1,44 @@
+1
+00:00:03,202 --> 00:00:04,690
+Choose Progressive.
+
+2
+00:00:04,690 --> 00:00:08,975
+It reserves an agent for every call, just like Power, but the form
+
+3
+00:00:08,975 --> 00:00:10,701
+has no Calls per agent.
+
+4
+00:00:10,701 --> 00:00:13,558
+The dialer does not ration calls per look.
+
+5
+00:00:13,558 --> 00:00:17,784
+It keeps going until every free agent holds a call, with a safety
+
+6
+00:00:17,784 --> 00:00:20,462
+limit of one hundred calls in one look.
+
+7
+00:00:20,942 --> 00:00:22,796
+So the two behave alike.
+
+8
+00:00:22,796 --> 00:00:27,554
+Power with one call per agent fills the free agents one call at a time.
+
+9
+00:00:27,554 --> 00:00:30,087
+Progressive fills them all at once.
+
+10
+00:00:30,087 --> 00:00:31,879
+The risks are the same:
+
+11
+00:00:31,879 --> 00:00:35,772
+abandoned calls, and the cap on the Abandoned calls card.
+
