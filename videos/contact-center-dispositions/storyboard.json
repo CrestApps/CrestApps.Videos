@@ -1,0 +1,222 @@
+{
+  "title": "Dispositions",
+  "output": "contact-center-dispositions",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Dispositions",
+      "subtitle": "The outcome of every activity",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A disposition is the outcome of an activity, such as No answer, Call back, or Not interested. This video shows why dispositions exist, how to create them, how outcomes let the platform apply them for you, and what happens next."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why dispositions",
+      "subtitle": "Every activity ends with an answer",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every call, text or task ends in some way. The customer did not answer, asked for a call back, booked a test drive, or asked not to be contacted again."
+            },
+            {
+              "id": "why-2",
+              "text": "Agents pick that answer when they complete an activity, and an AI conversation picks one when it ends. That answer is a disposition."
+            },
+            {
+              "id": "why-3",
+              "text": "The disposition is what drives the rest. The subject flow decides what each one does next: finish, try again later, or create a follow-up."
+            },
+            {
+              "id": "why-4",
+              "text": "Reports use dispositions too, so a manager can see how many calls ended in each outcome."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create a disposition",
+      "subtitle": "Name, description and outcome",
+      "clips": [
+        {
+          "id": "02-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "disp-1",
+              "text": "Open Interaction Center, Management, Dispositions. Click Add Disposition."
+            },
+            {
+              "id": "disp-2",
+              "text": "Enter a Name. Names must be unique. Add a Description, because a clear description helps agents, and the AI, tell the outcomes apart."
+            },
+            {
+              "id": "disp-3",
+              "text": "Outcome stays None for a disposition that only people or the AI pick. Set lead status is for lead work: when an activity that belongs to a lead is completed with this disposition, the lead moves to that status."
+            },
+            {
+              "id": "disp-4",
+              "text": "Click Save. A test-drive campaign might use three dispositions: Test Drive Booked, Call Back Later and Not Interested."
+            },
+            {
+              "id": "disp-5",
+              "text": "The other two are created the same way, with a name and a description. The list then shows all three, each with an Edit and a Delete button."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "03",
+      "title": "After it is saved",
+      "subtitle": "What can change",
+      "clips": [
+        {
+          "id": "03-edit",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "edit-1",
+              "text": "Open a disposition again. After it is saved, its name cannot be changed. Only its description can."
+            },
+            {
+              "id": "edit-2",
+              "text": "Deleting a disposition does not check whether a subject flow still uses it. Remove it from the flows first."
+            }
+          ]
+        }
+      ],
+      "short": "edit"
+    },
+    {
+      "id": "04",
+      "title": "Outcomes",
+      "subtitle": "Let the platform apply a disposition",
+      "clips": [
+        {
+          "id": "04-outcomes",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "out-1",
+              "text": "Set an Outcome only on a disposition the platform should apply on its own, when a call ends in a way nobody chose. Leave it at None for everything else."
+            },
+            {
+              "id": "out-2",
+              "text": "Number not in service adds the called number to the Numbers Not In Service list, so it is never loaded or dialed again. No answer, Busy and Answering machine cover calls that were not picked up, by the dialer and by automated calls."
+            },
+            {
+              "id": "out-3",
+              "text": "Rejected and Call failed are for calls the network declined or failed. Disconnected is for a customer who hung up before an agent joined, or before an automated call decided anything."
+            },
+            {
+              "id": "out-4",
+              "text": "The dialer applies these to every call that ends before an agent is connected, so the agent never sees those calls."
+            }
+          ]
+        },
+        {
+          "id": "04b-outcomes",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "oc-1",
+              "text": "Here, a disposition named Number Not In Service gets the outcome Number not in service."
+            },
+            {
+              "id": "oc-2",
+              "text": "A second one, named No Answer, gets the outcome No answer. The list shows each outcome as a badge next to the name, so the dialer knows which disposition to use."
+            }
+          ]
+        }
+      ],
+      "short": "outcomes"
+    },
+    {
+      "id": "05",
+      "title": "Which disposition is used",
+      "subtitle": "The subject flow first",
+      "clips": [
+        {
+          "id": "05-which",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "which-1",
+              "text": "When the platform needs a disposition for an outcome, it uses the one with that outcome in the activity's subject flow, so the flow's actions run, such as Try Again for No answer."
+            },
+            {
+              "id": "which-2",
+              "text": "If the flow has none, it falls back to another disposition with that outcome, or to No answer. If there is still none, it creates one, such as No Answer or Busy. A created disposition is in no flow, so add it to the flow to have the contact called again."
+            },
+            {
+              "id": "which-3",
+              "text": "A disposition only appears on an activity's Complete page when the subject flow has an action for it. To mark a contact Do Not Call, use Set do not call on the disposition's action in the subject flow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Use cases",
+      "subtitle": "How teams use dispositions",
+      "clips": [
+        {
+          "id": "06-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A test-drive campaign uses Test Drive Booked, Call Back Later and Not Interested, so reports show how the campaign went."
+            },
+            {
+              "id": "use-2",
+              "text": "A dead number is marked for you, once a disposition has the Number not in service outcome."
+            },
+            {
+              "id": "use-3",
+              "text": "A disposition that sets a lead status keeps the lead's stage up to date, without the agent changing it by hand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the outcomes, give the automatic ones an outcome, and let the subject flow decide what happens next. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

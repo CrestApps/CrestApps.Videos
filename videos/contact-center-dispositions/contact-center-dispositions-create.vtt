@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:07.093
+Open Interaction Center, Management, Dispositions.
+
+00:00:07.093 --> 00:00:08.990
+Click Add Disposition.
+
+00:00:13.951 --> 00:00:15.138
+Enter a Name.
+
+00:00:15.138 --> 00:00:16.825
+Names must be unique.
+
+00:00:16.825 --> 00:00:23.261
+Add a Description, because a clear description helps agents, and the AI, tell the outcomes apart.
+
+00:00:23.716 --> 00:00:28.414
+Outcome stays None for a disposition that only people or the AI pick.
+
+00:00:28.414 --> 00:00:30.857
+Set lead status is for lead work:
+
+00:00:30.857 --> 00:00:35.931
+when an activity that belongs to a lead is completed with this disposition,
+
+00:00:35.931 --> 00:00:38.186
+the lead moves to that status.
+
+00:00:38.642 --> 00:00:39.690
+Click Save.
+
+00:00:39.690 --> 00:00:43.203
+A test-drive campaign might use three dispositions:
+
+00:00:43.203 --> 00:00:46.902
+Test Drive Booked, Call Back Later and Not Interested.
+
+00:00:47.397 --> 00:00:52.264
+The other two are created the same way, with a name and a description.
+
+00:00:52.264 --> 00:00:57.067
+The list then shows all three, each with an Edit and a Delete button.
+
