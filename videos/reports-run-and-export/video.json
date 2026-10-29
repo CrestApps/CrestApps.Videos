@@ -1,0 +1,96 @@
+{
+  "title": "Reports: Run, Filter and Export to CSV, Excel and PDF | CrestApps for Orchard Core",
+  "description": "The reports of the CrestApps Contact Center and Omnichannel CRM answer questions about work that already happened: calls, queues, agents, campaigns and leads. This video shows how to find a report, set its date range and filters, and take it away as a CSV, Excel or PDF file.\n\nIn this video:\n• Why reports, and what you do with each one\n• Finding a report under Reports, by category\n• Which reports each role sees\n• The date range: relative days, calendar periods, rolling months and custom ranges\n• Filters, including picking several dispositions at once\n• Export to CSV, Excel (one worksheet per section) and PDF\n• What a report says when the period is too long or a feature is off",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "reports",
+    "contact center",
+    "export",
+    "CSV",
+    "Excel",
+    "PDF",
+    "date range",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why reports"
+    },
+    {
+      "time": "0:47",
+      "title": "Find a report"
+    },
+    {
+      "time": "1:19",
+      "title": "Who sees which report"
+    },
+    {
+      "time": "2:01",
+      "title": "Run a report"
+    },
+    {
+      "time": "3:10",
+      "title": "Filters"
+    },
+    {
+      "time": "3:57",
+      "title": "Export a report"
+    },
+    {
+      "time": "5:13",
+      "title": "Long periods and missing features"
+    },
+    {
+      "time": "5:54",
+      "title": "Where reports fit"
+    },
+    {
+      "time": "6:26",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/reports"
+    },
+    {
+      "label": "Report catalog",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/report-catalog"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/reports.md",
+    "src/CrestApps.Docs/docs/contact-center/report-catalog.md",
+    "src/CrestApps.Docs/docs/modules/reports.md"
+  ],
+  "length": "6:37"
+}

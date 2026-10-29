@@ -1,0 +1,64 @@
+1
+00:00:03,226 --> 00:00:06,569
+The Export menu sits above the report.
+
+2
+00:00:06,569 --> 00:00:13,558
+With the Excel and PDF features on, it offers Export CSV, Export Excel and Export PDF.
+
+3
+00:00:13,558 --> 00:00:18,876
+With only the Reports feature, it is a single Export CSV button.
+
+4
+00:00:19,327 --> 00:00:24,023
+An export uses the same date range and filters as the report on
+
+5
+00:00:24,023 --> 00:00:29,945
+screen, and keeps the detail rows, subtotals and grand totals in the order shown.
+
+6
+00:00:29,945 --> 00:00:32,667
+Export CSV downloads a plain file.
+
+7
+00:00:33,144 --> 00:00:37,654
+Export Excel puts each section of the report on its own worksheet.
+
+8
+00:00:40,890 --> 00:00:45,140
+Export PDF lays the report out as it looks on screen, with its
+
+9
+00:00:45,140 --> 00:00:47,390
+charts, and numbers the pages.
+
+10
+00:00:48,990 --> 00:00:52,926
+This is the start of the CSV file the browser just saved.
+
+11
+00:00:52,926 --> 00:00:56,986
+Its name holds the report and the first and last day of the
+
+12
+00:00:56,986 --> 00:00:59,860
+period, and it opens in any spreadsheet.
+
+13
+00:01:00,610 --> 00:01:04,979
+The Excel workbook has one worksheet for each section of the report:
+
+14
+00:01:04,979 --> 00:01:09,230
+the summary, and the breakdowns by channel, by outcome and by day.
+
+15
+00:01:09,980 --> 00:01:12,996
+And this is the first page of the PDF:
+
+16
+00:01:12,996 --> 00:01:15,670
+the report as it looks on screen.
+

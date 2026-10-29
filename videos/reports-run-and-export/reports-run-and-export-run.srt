@@ -1,0 +1,64 @@
+1
+00:00:03,225 --> 00:00:06,233
+The top of every report is its filter bar.
+
+2
+00:00:06,233 --> 00:00:11,435
+The first filter is the Date range, and its button states the range in words.
+
+3
+00:00:11,926 --> 00:00:13,494
+Click it to choose.
+
+4
+00:00:13,494 --> 00:00:16,691
+Relative days run from Today to Last 90 Days.
+
+5
+00:00:16,691 --> 00:00:21,894
+Calendar periods cover this week, this month, this quarter and this year, and
+
+6
+00:00:21,894 --> 00:00:23,586
+the ones before them.
+
+7
+00:00:24,095 --> 00:00:28,945
+Rolling months cover the last three, six or twelve months.
+
+8
+00:00:28,945 --> 00:00:33,871
+Custom Range takes a start and an end, and On or before and
+
+9
+00:00:33,871 --> 00:00:36,675
+On or after leave one end open.
+
+10
+00:00:37,137 --> 00:00:39,561
+Pick Last 30 Days, and click Show.
+
+11
+00:00:39,561 --> 00:00:42,227
+The report runs again for that period.
+
+12
+00:00:44,194 --> 00:00:47,177
+The summary shows the totals as cards:
+
+13
+00:00:47,177 --> 00:00:55,040
+total calls, inbound and outbound, answered, abandoned, voicemail, callback requests, failures, average handle
+
+14
+00:00:55,040 --> 00:00:57,684
+time and average speed of answer.
+
+15
+00:00:58,159 --> 00:01:02,725
+Below, the same calls are broken down by channel, by outcome and by
+
+16
+00:01:02,725 --> 00:01:07,979
+day, so one page answers the first questions and points to where to look next.
+
