@@ -1,0 +1,28 @@
+1
+00:00:03,201 --> 00:00:04,880
+Choose the Keypad tab.
+
+2
+00:00:04,880 --> 00:00:08,835
+Type the number in international form, starting with a plus.
+
+3
+00:00:08,835 --> 00:00:12,851
+Or pick the country flag first, and type the national number.
+
+4
+00:00:13,306 --> 00:00:17,710
+The number is formatted as you type, and turned into a full international
+
+5
+00:00:17,710 --> 00:00:19,549
+number before it is dialed.
+
+6
+00:00:19,549 --> 00:00:22,615
+The green Call button, or Enter, places the call.
+
+7
+00:00:22,615 --> 00:00:24,566
+This video does not press it.
+

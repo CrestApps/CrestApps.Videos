@@ -1,0 +1,36 @@
+1
+00:00:03,215 --> 00:00:04,990
+Click Dial extension.
+
+2
+00:00:04,990 --> 00:00:11,035
+The country flag disappears, and the field reads Search a name, or enter an extension.
+
+3
+00:00:11,504 --> 00:00:15,190
+Type an extension number, and the phone shows who it rings.
+
+4
+00:00:15,190 --> 00:00:16,834
+Or start typing a name:
+
+5
+00:00:16,834 --> 00:00:20,180
+the people who match are listed with their extension.
+
+6
+00:00:20,180 --> 00:00:21,824
+Click one to call them.
+
+7
+00:00:22,334 --> 00:00:25,892
+Click Dial phone number to go back to ordinary numbers.
+
+8
+00:00:25,892 --> 00:00:29,975
+Extension calls are internal, so do-not-call lists do not apply.
+
+9
+00:00:29,975 --> 00:00:34,234
+If your colleague does not answer, you are sent to their voicemail.
+
