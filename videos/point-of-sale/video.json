@@ -1,0 +1,94 @@
+{
+  "title": "Point of Sale: Sell at the Counter with the Same Store | CrestApps for Orchard Core",
+  "description": "A store that sells online and at a counter often keeps two systems, and its products, prices and stock drift apart. The CrestApps Point of Sale module lets your staff sell at the counter of each store from a phone, a tablet or a till computer, using the same products, prices, coupons, gift cards and stock as your online store, and keeps every cash drawer honest.\n\nIn this video:\n• Why a point of sale, and how registers, shifts and sales fit together\n• What to have ready: stores, roles and sign-in\n• Setting up registers\n• A day at the till: opening a shift, ringing up and paying for a sale, receipts, cash in and out, returns and closing\n• Reading shifts: sales, cash kept, card, the cash drawer and its difference\n• Register sales as orders\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "point of sale",
+    "POS",
+    "retail",
+    "cash register",
+    "shift report",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why a point of sale"
+    },
+    {
+      "time": "1:01",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:33",
+      "title": "Before you start"
+    },
+    {
+      "time": "2:15",
+      "title": "Set up registers"
+    },
+    {
+      "time": "3:26",
+      "title": "A day at the till"
+    },
+    {
+      "time": "4:39",
+      "title": "Shifts"
+    },
+    {
+      "time": "5:42",
+      "title": "Register sales are orders"
+    },
+    {
+      "time": "6:21",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:56",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/point-of-sale"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/point-of-sale"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.PointOfSale"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/point-of-sale.md",
+    "src/CrestApps.Docs/docs/modules/point-of-sale.md"
+  ],
+  "length": "7:07"
+}

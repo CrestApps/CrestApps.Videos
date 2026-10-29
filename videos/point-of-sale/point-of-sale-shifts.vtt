@@ -1,0 +1,50 @@
+WEBVTT
+
+00:00:03.286 --> 00:00:06.226
+Open Commerce, Point of sale, Shifts.
+
+00:00:06.226 --> 00:00:11.354
+It lists every shift, newest first, each Open or Closed, with when it
+
+00:00:11.354 --> 00:00:13.474
+opened and who opened it.
+
+00:00:13.474 --> 00:00:16.346
+A closed shift shows its difference.
+
+00:00:16.921 --> 00:00:20.116
+The list in the header filters by register.
+
+00:00:20.116 --> 00:00:25.921
+Shifts, on a register in the registers list, opens the same list for that register.
+
+00:00:26.380 --> 00:00:28.314
+Click View to open a shift.
+
+00:00:28.314 --> 00:00:32.475
+It shows how many Sales it took, their Total, the Cash kept, what
+
+00:00:32.475 --> 00:00:36.870
+cards paid in Card, what gift cards paid, and what has been Refunded.
+
+00:00:37.329 --> 00:00:42.180
+Under Cash drawer, the Opening float, plus the cash put in, less the
+
+00:00:42.180 --> 00:00:45.195
+cash taken out, gives the Expected cash.
+
+00:00:45.195 --> 00:00:49.259
+Each movement is listed with its reason and who made it.
+
+00:00:49.754 --> 00:00:54.277
+For a closed shift, Counted is the cash staff counted, and Difference is
+
+00:00:54.277 --> 00:00:55.727
+how far off it was.
+
+00:00:55.727 --> 00:00:58.916
+A negative difference means the drawer was short.
+
+00:00:58.916 --> 00:01:01.874
+The note given at the close is shown with it.
+

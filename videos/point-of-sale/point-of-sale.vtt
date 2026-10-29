@@ -1,0 +1,326 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.181
+Many stores sell in two places:
+
+00:00:03.181 --> 00:00:05.009
+online, and at a counter.
+
+00:00:05.009 --> 00:00:09.254
+This video shows how the Point of Sale module lets your staff sell
+
+00:00:09.254 --> 00:00:13.145
+at the counter of each store, how to set up registers, how a
+
+00:00:13.145 --> 00:00:17.390
+day at the till works, and how you see every shift and every sale.
+
+00:00:21.990 --> 00:00:26.680
+A store that sells online and at a counter often keeps two systems.
+
+00:00:26.680 --> 00:00:32.720
+Their products, prices and stock drift apart, and nobody knows what the day really sold.
+
+00:00:33.470 --> 00:00:35.253
+Cash makes it harder.
+
+00:00:35.253 --> 00:00:41.130
+Someone has to count the drawer, explain a shortage, and tell a sale from a refund.
+
+00:00:41.880 --> 00:00:45.904
+The Point of Sale module sells at the counter from a phone, a
+
+00:00:45.904 --> 00:00:51.008
+tablet or a till computer, using the same products, prices, coupons, gift cards
+
+00:00:51.008 --> 00:00:53.230
+and stock as your online store.
+
+00:00:53.980 --> 00:00:57.710
+Every counter sale is an order of your site, so it shows up
+
+00:00:57.710 --> 00:01:00.580
+in your orders, your stock and your reports.
+
+00:01:04.780 --> 00:01:07.938
+A register is a till at one of your stores.
+
+00:01:07.938 --> 00:01:10.710
+You set up one or more at each store.
+
+00:01:11.460 --> 00:01:15.202
+A member of staff opens a shift at a register, with the cash
+
+00:01:15.202 --> 00:01:16.790
+that is in its drawer.
+
+00:01:17.540 --> 00:01:21.379
+During the shift, they ring up sales in the till app, and take
+
+00:01:21.379 --> 00:01:22.960
+cash, a card, or both.
+
+00:01:23.710 --> 00:01:27.849
+At the end of the day they count the drawer and close the shift.
+
+00:01:27.849 --> 00:01:32.520
+You see every shift, what it sold, and whether its drawer came out right.
+
+00:01:36.720 --> 00:01:41.510
+Add a location for each store under Settings, Commerce, Inventory.
+
+00:01:41.510 --> 00:01:46.100
+A register sells from one of them, and takes its stock from it.
+
+00:01:46.850 --> 00:01:50.453
+Give the staff who sell at the counter a role with the Sell
+
+00:01:50.453 --> 00:01:52.171
+at a register permission.
+
+00:01:52.171 --> 00:01:55.830
+Give whoever manages the stores Manage registers and shifts.
+
+00:01:56.580 --> 00:02:00.968
+The till app signs staff in with their own accounts, so every shift,
+
+00:02:00.968 --> 00:02:03.696
+sale and cash movement says who made it.
+
+00:02:03.696 --> 00:02:06.780
+Your technical team sets that sign-in up once.
+
+00:02:07.530 --> 00:02:12.022
+Turn on Receipts to print and email receipts, and Stripe to take cards
+
+00:02:12.022 --> 00:02:13.381
+on a card reader.
+
+00:02:13.381 --> 00:02:14.800
+Both are optional.
+
+00:02:19.100 --> 00:02:21.969
+Open Commerce, Point of sale, Registers.
+
+00:02:21.969 --> 00:02:26.523
+Each register shows whether it is on, the address of its store, and
+
+00:02:26.523 --> 00:02:29.080
+links to its Shifts and to Edit it.
+
+00:02:29.607 --> 00:02:30.977
+Click Add register.
+
+00:02:30.977 --> 00:02:34.647
+Give it a Name that staff see when they pick a register, such
+
+00:02:34.647 --> 00:02:39.687
+as Uptown till 1, and choose its Store location, the place whose stock its sales take.
+
+00:02:41.097 --> 00:02:43.011
+Enter the Store address:
+
+00:02:43.011 --> 00:02:47.605
+the street, the city, the region, the postal code and the country.
+
+00:02:47.605 --> 00:02:52.710
+Sales at the register are taxed by this address, and its receipts show it.
+
+00:02:52.710 --> 00:02:55.327
+The country is its two-letter code.
+
+00:02:55.816 --> 00:02:59.049
+Enter the Currency its drawer holds, such as U.S.D.
+
+00:02:59.049 --> 00:03:02.396
+Leave it blank to sell in the products' own currency.
+
+00:03:02.894 --> 00:03:07.752
+Under Who may sell here, tick the roles whose staff may use this register.
+
+00:03:07.752 --> 00:03:12.246
+With none ticked, anyone with the Sell at a register permission can.
+
+00:03:12.246 --> 00:03:16.436
+The On switch turns the register off, so it cannot open a shift
+
+00:03:16.436 --> 00:03:17.894
+or ring up a sale.
+
+00:03:18.389 --> 00:03:19.361
+Click Save.
+
+00:03:19.361 --> 00:03:23.252
+The register is added, and staff who may sell there can open a
+
+00:03:23.252 --> 00:03:24.969
+shift from the till app.
+
+00:03:29.169 --> 00:03:31.527
+Staff sign in, and pick a register.
+
+00:03:31.527 --> 00:03:34.805
+The list shows only the registers they may sell at.
+
+00:03:34.805 --> 00:03:37.451
+They open a shift by entering the float:
+
+00:03:37.451 --> 00:03:39.349
+the cash put in the drawer.
+
+00:03:40.099 --> 00:03:43.340
+They ring up a sale by adding what the buyer takes.
+
+00:03:43.340 --> 00:03:47.207
+They can look up a customer, so the sale earns points on their
+
+00:03:47.207 --> 00:03:51.359
+account, or enter a walk-in buyer's name and email for the receipt.
+
+00:03:52.109 --> 00:03:56.549
+A discount code or a gift card goes on the sale before it is paid.
+
+00:03:57.299 --> 00:04:00.875
+The buyer pays in cash, by card, or with a mix.
+
+00:04:00.875 --> 00:04:03.980
+For cash, the till works out the change.
+
+00:04:03.980 --> 00:04:09.109
+A card is charged on the store's card terminal, or on a Stripe reader.
+
+00:04:09.859 --> 00:04:14.519
+The receipt can be printed, or emailed to the buyer when Receipts is on.
+
+00:04:15.269 --> 00:04:19.058
+Cash put in or taken out of the drawer outside a sale, such
+
+00:04:19.058 --> 00:04:21.799
+as a bank run, is recorded with a reason.
+
+00:04:22.549 --> 00:04:24.821
+A return is taken at the till:
+
+00:04:24.821 --> 00:04:28.986
+the items go back on the shelf, cash is handed back from the
+
+00:04:28.986 --> 00:04:32.079
+drawer, and a card is refunded to the card.
+
+00:04:32.829 --> 00:04:36.468
+At the end of the day, staff count the drawer, add a note
+
+00:04:36.468 --> 00:04:38.779
+if it is off, and close the shift.
+
+00:04:43.065 --> 00:04:46.005
+Open Commerce, Point of sale, Shifts.
+
+00:04:46.005 --> 00:04:51.133
+It lists every shift, newest first, each Open or Closed, with when it
+
+00:04:51.133 --> 00:04:53.253
+opened and who opened it.
+
+00:04:53.253 --> 00:04:56.125
+A closed shift shows its difference.
+
+00:04:56.699 --> 00:04:59.895
+The list in the header filters by register.
+
+00:04:59.895 --> 00:05:05.699
+Shifts, on a register in the registers list, opens the same list for that register.
+
+00:05:06.159 --> 00:05:08.093
+Click View to open a shift.
+
+00:05:08.093 --> 00:05:12.253
+It shows how many Sales it took, their Total, the Cash kept, what
+
+00:05:12.253 --> 00:05:16.649
+cards paid in Card, what gift cards paid, and what has been Refunded.
+
+00:05:17.108 --> 00:05:21.959
+Under Cash drawer, the Opening float, plus the cash put in, less the
+
+00:05:21.959 --> 00:05:24.974
+cash taken out, gives the Expected cash.
+
+00:05:24.974 --> 00:05:29.038
+Each movement is listed with its reason and who made it.
+
+00:05:29.533 --> 00:05:34.056
+For a closed shift, Counted is the cash staff counted, and Difference is
+
+00:05:34.056 --> 00:05:35.506
+how far off it was.
+
+00:05:35.506 --> 00:05:38.695
+A negative difference means the drawer was short.
+
+00:05:38.695 --> 00:05:41.653
+The note given at the close is shown with it.
+
+00:05:45.856 --> 00:05:48.848
+A register sale is an order like any other.
+
+00:05:48.848 --> 00:05:53.916
+Open Commerce, Orders, and it is there, with a badge that names its register.
+
+00:05:54.371 --> 00:05:57.144
+The first list filters by channel:
+
+00:05:57.144 --> 00:06:01.860
+Every channel, Online, Point of sale, or Drafts sent by staff.
+
+00:06:01.860 --> 00:06:04.981
+The channel also limits the CSV export.
+
+00:06:05.431 --> 00:06:06.456
+Open a sale.
+
+00:06:06.456 --> 00:06:10.839
+Nothing is shipped, because the buyer takes the goods with them, and it
+
+00:06:10.839 --> 00:06:13.571
+was taxed by the register's store address.
+
+00:06:14.024 --> 00:06:18.279
+Its stock came off the register's store, and the sale appears in your
+
+00:06:18.279 --> 00:06:20.434
+reports by store and by channel.
+
+00:06:24.634 --> 00:06:27.714
+A shop with an online store and a counter:
+
+00:06:27.714 --> 00:06:31.884
+one catalog and one stock, whichever way the customer buys.
+
+00:06:32.634 --> 00:06:34.098
+Several stores:
+
+00:06:34.098 --> 00:06:39.884
+a register at each, selling from its own stock, with sales reported by store.
+
+00:06:40.634 --> 00:06:42.900
+A busy till with several staff:
+
+00:06:42.900 --> 00:06:48.654
+every shift and every sale names who made it, and each drawer is counted and reconciled.
+
+00:06:49.404 --> 00:06:51.580
+A market stall or a pop-up:
+
+00:06:51.580 --> 00:06:55.864
+a phone or a tablet is enough, with cash and a card reader.
+
+00:06:57.864 --> 00:07:01.865
+The Point of Sale module sells at your counters from the same store
+
+00:07:01.865 --> 00:07:04.770
+as your website, and keeps every drawer honest.
+
+00:07:04.770 --> 00:07:06.194
+Thanks for watching.
+
