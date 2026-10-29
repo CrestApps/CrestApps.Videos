@@ -1,0 +1,271 @@
+{
+  "title": "AI Chat Interactions",
+  "output": "ai-chat-interactions",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Chat Interactions",
+      "subtitle": "Chat with a model, and set it up beside the conversation",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Sometimes you want to talk to a model without building an assistant first. A chat interaction is a free-form chat where you choose the model, the instructions and the tools right beside the conversation. This video shows why it exists, how each part works, and the site settings behind it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why chat interactions",
+      "subtitle": "Try things out before you build an assistant",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Building an AI profile takes time, and some questions are one-off: trying another model, drafting a paragraph, or testing a set of instructions before you commit to them."
+            },
+            {
+              "id": "why-2",
+              "text": "A chat interaction removes the setup. You open a chat, and set the model, the persona, the instructions and the tools in a panel beside it. Everything is saved as you change it."
+            },
+            {
+              "id": "why-3",
+              "text": "When the instructions work, you can carry them over into an AI profile, so the whole team can use the assistant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "The list, the settings and the capabilities",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "The Chat Interactions list shows your own interactions. Each one is a saved conversation with its own settings."
+            },
+            {
+              "id": "how-2",
+              "text": "The Settings tab holds the model, the persona, the instructions and the fine-tuning of one interaction."
+            },
+            {
+              "id": "how-3",
+              "text": "The Capabilities tab lets the AI use tools, other agents and connections to other systems, in this interaction only."
+            },
+            {
+              "id": "how-4",
+              "text": "Administrators choose the voice options of every interaction in the site settings. A Knowledge tab joins the others when the document features are turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Start an interaction",
+      "subtitle": "Open a chat and ask a question",
+      "clips": [
+        {
+          "id": "03-start",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "start-1",
+              "text": "Open Artificial Intelligence, Chat Interactions. The list shows your interactions. Click New Chat to start one."
+            },
+            {
+              "id": "start-2",
+              "text": "A new interaction opens, and it is saved straight away. The settings are on the left, and the chat is on the right. Give the interaction a Title, so you can find it again."
+            },
+            {
+              "id": "start-3",
+              "text": "Type a question and press Enter. The answer appears as it is written, and you can ask follow-up questions in the same chat."
+            },
+            {
+              "id": "start-4",
+              "text": "There is no Save button, because settings are saved as you change them. Click the collapse button to hide the settings, and Configurations to show them again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The Settings tab",
+      "subtitle": "Model, persona, instructions and fine-tuning",
+      "clips": [
+        {
+          "id": "04-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "The Orchestrator is the engine that plans the answer and decides which tools to use. It is shown only when your site has more than one."
+            },
+            {
+              "id": "set-2",
+              "text": "The Chat deployment is the model you chat with. Default uses the site's default model. The Utility deployment is a smaller model for side jobs, and can stay on Default."
+            },
+            {
+              "id": "set-3",
+              "text": "AI persona gives the assistant a reusable character, such as a name and a tone, when your site has personas."
+            },
+            {
+              "id": "set-4",
+              "text": "System instructions tell the AI who it is and how to answer. Type that it is a copy editor who answers in British English, in one short sentence."
+            },
+            {
+              "id": "set-5",
+              "text": "Prompt templates add reusable pieces of instructions. Below them, Max response, Temperature, Top P, the penalties and Past messages fine-tune the answers. Leave them empty to use the defaults."
+            },
+            {
+              "id": "set-6",
+              "text": "Now ask for a rewrite of a sentence about the bikes. The answer follows the new instructions from the very next message: one short sentence, in British English, written by a copy editor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "The Capabilities tab",
+      "subtitle": "Let the AI use tools",
+      "clips": [
+        {
+          "id": "05-capabilities",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cap-1",
+              "text": "The Capabilities tab lets the AI do more than answer, in this interaction only. Connections, agents and tool instances appear here when their features are turned on."
+            },
+            {
+              "id": "cap-2",
+              "text": "Under Tools, the built-in actions are grouped by category. Use Search tools, or Select All Tools, and tick what you need. You can only use a tool that your role is allowed to use."
+            },
+            {
+              "id": "cap-3",
+              "text": "Search for the tool you need, tick Current Date and Time, and ask what day it is. The assistant calls the tool, and answers from it. A tool runs only in the interaction where you ticked it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Manage your interactions",
+      "subtitle": "Reopen, copy, clear and delete",
+      "clips": [
+        {
+          "id": "06-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Back in the list, each interaction shows its title. Click Chat to reopen one and continue where you stopped. Type in Search and click the search button to find one."
+            },
+            {
+              "id": "man-2",
+              "text": "In an open interaction, New Chat offers Empty Chat, which starts fresh, and Chat with Preset Settings, which starts a new interaction with the same model, instructions and tools."
+            },
+            {
+              "id": "man-3",
+              "text": "Clear History removes the messages of an interaction, but keeps its settings, its files and its tools. It asks you to confirm first, and it cannot be undone."
+            },
+            {
+              "id": "man-4",
+              "text": "To delete an interaction, open its Actions menu and choose Delete. To delete several, tick them and use Actions above the list. You see only your own interactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Site settings",
+      "subtitle": "Voice options for every interaction",
+      "clips": [
+        {
+          "id": "07-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "site-1",
+              "text": "Administrators open Settings, Artificial Intelligence. The Chat Interactions section sets the voice options of every interaction on the site."
+            },
+            {
+              "id": "site-2",
+              "text": "Chat mode is Text input, Audio input, which adds a microphone to dictate a message, or Conversation, for spoken back and forth. The audio modes need speech deployments in Default Deployments."
+            },
+            {
+              "id": "site-3",
+              "text": "Enable text-to-speech playback adds a Read aloud button to every answer, when the site has a default text-to-speech deployment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "What people do with them",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Try a model. Compare how two models answer the same question, by changing the Chat deployment between messages."
+            },
+            {
+              "id": "use-2",
+              "text": "Draft text. Give the interaction instructions such as a tone and a length, and write the first version of an email or a product description."
+            },
+            {
+              "id": "use-3",
+              "text": "Test instructions before you build a profile. Refine them in a chat interaction, and then copy them into an AI profile."
+            },
+            {
+              "id": "use-4",
+              "text": "Let the AI look things up. Tick a few tools, and use the interaction as a personal assistant for the site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A chat interaction is the fastest way to talk to a model, with the settings right beside the conversation. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

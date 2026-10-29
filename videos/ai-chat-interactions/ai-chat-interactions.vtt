@@ -1,0 +1,257 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.465
+Sometimes you want to talk to a model without building an assistant first.
+
+00:00:05.465 --> 00:00:09.706
+A chat interaction is a free-form chat where you choose the model, the
+
+00:00:09.706 --> 00:00:13.222
+instructions and the tools right beside the conversation.
+
+00:00:13.222 --> 00:00:18.300
+This video shows why it exists, how each part works, and the site settings behind it.
+
+00:00:22.900 --> 00:00:27.042
+Building an AI profile takes time, and some questions are one-off:
+
+00:00:27.042 --> 00:00:32.162
+trying another model, drafting a paragraph, or testing a set of instructions before
+
+00:00:32.162 --> 00:00:33.600
+you commit to them.
+
+00:00:34.350 --> 00:00:36.867
+A chat interaction removes the setup.
+
+00:00:36.867 --> 00:00:41.257
+You open a chat, and set the model, the persona, the instructions and
+
+00:00:41.257 --> 00:00:43.423
+the tools in a panel beside it.
+
+00:00:43.423 --> 00:00:45.940
+Everything is saved as you change it.
+
+00:00:46.690 --> 00:00:50.778
+When the instructions work, you can carry them over into an AI profile,
+
+00:00:50.778 --> 00:00:53.220
+so the whole team can use the assistant.
+
+00:00:57.420 --> 00:01:01.190
+The Chat Interactions list shows your own interactions.
+
+00:01:01.190 --> 00:01:04.960
+Each one is a saved conversation with its own settings.
+
+00:01:05.710 --> 00:01:12.720
+The Settings tab holds the model, the persona, the instructions and the fine-tuning of one interaction.
+
+00:01:13.470 --> 00:01:18.400
+The Capabilities tab lets the AI use tools, other agents and connections to
+
+00:01:18.400 --> 00:01:21.200
+other systems, in this interaction only.
+
+00:01:21.950 --> 00:01:26.890
+Administrators choose the voice options of every interaction in the site settings.
+
+00:01:26.890 --> 00:01:31.380
+A Knowledge tab joins the others when the document features are turned on.
+
+00:01:35.626 --> 00:01:39.036
+Open Artificial Intelligence, Chat Interactions.
+
+00:01:39.036 --> 00:01:41.499
+The list shows your interactions.
+
+00:01:41.499 --> 00:01:43.646
+Click New Chat to start one.
+
+00:01:52.378 --> 00:01:55.845
+A new interaction opens, and it is saved straight away.
+
+00:01:55.845 --> 00:01:59.540
+The settings are on the left, and the chat is on the right.
+
+00:01:59.540 --> 00:02:03.008
+Give the interaction a Title, so you can find it again.
+
+00:02:03.508 --> 00:02:05.556
+Type a question and press Enter.
+
+00:02:05.556 --> 00:02:09.759
+The answer appears as it is written, and you can ask follow-up questions
+
+00:02:09.759 --> 00:02:10.998
+in the same chat.
+
+00:02:15.170 --> 00:02:19.248
+There is no Save button, because settings are saved as you change them.
+
+00:02:19.248 --> 00:02:24.120
+Click the collapse button to hide the settings, and Configurations to show them again.
+
+00:02:28.420 --> 00:02:33.512
+The Orchestrator is the engine that plans the answer and decides which tools to use.
+
+00:02:33.512 --> 00:02:36.680
+It is shown only when your site has more than one.
+
+00:02:37.300 --> 00:02:40.425
+The Chat deployment is the model you chat with.
+
+00:02:40.425 --> 00:02:43.019
+Default uses the site's default model.
+
+00:02:43.019 --> 00:02:48.150
+The Utility deployment is a smaller model for side jobs, and can stay on Default.
+
+00:02:48.666 --> 00:02:53.467
+AI persona gives the assistant a reusable character, such as a name and
+
+00:02:53.467 --> 00:02:56.086
+a tone, when your site has personas.
+
+00:02:56.692 --> 00:03:00.999
+System instructions tell the AI who it is and how to answer.
+
+00:03:00.999 --> 00:03:06.872
+Type that it is a copy editor who answers in British English, in one short sentence.
+
+00:03:07.439 --> 00:03:11.543
+Prompt templates add reusable pieces of instructions.
+
+00:03:11.543 --> 00:03:18.917
+Below them, Max response, Temperature, Top P, the penalties and Past messages fine-tune the answers.
+
+00:03:18.917 --> 00:03:21.909
+Leave them empty to use the defaults.
+
+00:03:22.370 --> 00:03:25.953
+Now ask for a rewrite of a sentence about the bikes.
+
+00:03:25.953 --> 00:03:30.463
+The answer follows the new instructions from the very next message:
+
+00:03:30.463 --> 00:03:34.850
+one short sentence, in British English, written by a copy editor.
+
+00:03:39.079 --> 00:03:44.608
+The Capabilities tab lets the AI do more than answer, in this interaction only.
+
+00:03:44.608 --> 00:03:50.529
+Connections, agents and tool instances appear here when their features are turned on.
+
+00:03:50.986 --> 00:03:54.695
+Under Tools, the built-in actions are grouped by category.
+
+00:03:54.695 --> 00:03:58.635
+Use Search tools, or Select All Tools, and tick what you need.
+
+00:03:58.635 --> 00:04:02.286
+You can only use a tool that your role is allowed to use.
+
+00:04:02.794 --> 00:04:06.858
+Search for the tool you need, tick Current Date and Time, and ask
+
+00:04:06.858 --> 00:04:08.060
+what day it is.
+
+00:04:08.060 --> 00:04:11.265
+The assistant calls the tool, and answers from it.
+
+00:04:11.265 --> 00:04:14.814
+A tool runs only in the interaction where you ticked it.
+
+00:04:19.018 --> 00:04:22.521
+Back in the list, each interaction shows its title.
+
+00:04:22.521 --> 00:04:26.330
+Click Chat to reopen one and continue where you stopped.
+
+00:04:26.330 --> 00:04:30.078
+Type in Search and click the search button to find one.
+
+00:04:30.529 --> 00:04:35.745
+In an open interaction, New Chat offers Empty Chat, which starts fresh, and
+
+00:04:35.745 --> 00:04:42.699
+Chat with Preset Settings, which starts a new interaction with the same model, instructions and tools.
+
+00:04:43.150 --> 00:04:48.546
+Clear History removes the messages of an interaction, but keeps its settings, its
+
+00:04:48.546 --> 00:04:50.158
+files and its tools.
+
+00:04:50.158 --> 00:04:53.880
+It asks you to confirm first, and it cannot be undone.
+
+00:04:54.370 --> 00:04:58.984
+To delete an interaction, open its Actions menu and choose Delete.
+
+00:04:58.984 --> 00:05:03.213
+To delete several, tick them and use Actions above the list.
+
+00:05:03.213 --> 00:05:05.840
+You see only your own interactions.
+
+00:05:10.138 --> 00:05:13.888
+Administrators open Settings, Artificial Intelligence.
+
+00:05:13.888 --> 00:05:19.638
+The Chat Interactions section sets the voice options of every interaction on the site.
+
+00:05:20.126 --> 00:05:24.956
+Chat mode is Text input, Audio input, which adds a microphone to dictate
+
+00:05:24.956 --> 00:05:28.672
+a message, or Conversation, for spoken back and forth.
+
+00:05:28.672 --> 00:05:32.946
+The audio modes need speech deployments in Default Deployments.
+
+00:05:33.506 --> 00:05:38.530
+Enable text-to-speech playback adds a Read aloud button to every answer, when the
+
+00:05:38.530 --> 00:05:41.476
+site has a default text-to-speech deployment.
+
+00:05:45.676 --> 00:05:46.819
+Try a model.
+
+00:05:46.819 --> 00:05:53.426
+Compare how two models answer the same question, by changing the Chat deployment between messages.
+
+00:05:54.176 --> 00:05:55.097
+Draft text.
+
+00:05:55.097 --> 00:05:59.322
+Give the interaction instructions such as a tone and a length, and write
+
+00:05:59.322 --> 00:06:02.626
+the first version of an email or a product description.
+
+00:06:03.376 --> 00:06:06.522
+Test instructions before you build a profile.
+
+00:06:06.522 --> 00:06:11.396
+Refine them in a chat interaction, and then copy them into an AI profile.
+
+00:06:12.146 --> 00:06:13.956
+Let the AI look things up.
+
+00:06:13.956 --> 00:06:18.766
+Tick a few tools, and use the interaction as a personal assistant for the site.
+
+00:06:20.766 --> 00:06:24.451
+A chat interaction is the fastest way to talk to a model, with
+
+00:06:24.451 --> 00:06:27.107
+the settings right beside the conversation.
+
+00:06:27.107 --> 00:06:28.516
+Thanks for watching.
+

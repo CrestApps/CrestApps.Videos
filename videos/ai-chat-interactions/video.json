@@ -1,0 +1,94 @@
+{
+  "title": "AI Chat Interactions: Try Any Model and Set It Up as You Chat | CrestApps for Orchard Core",
+  "description": "Sometimes you want to talk to an AI model without building an assistant first. A chat interaction in the CrestApps AI module is a free-form chat where you choose the model, the instructions, the persona and the tools in a panel right beside the conversation, and everything is saved as you change it.\n\nIn this video:\n• Why a chat interaction saves you the setup of a profile\n• Starting an interaction and chatting\n• The Settings tab: model, persona, instructions and fine-tuning\n• The Capabilities tab: letting the AI use tools\n• Reopening, copying, clearing and deleting interactions\n• The site settings behind the voice options\n• Use cases: trying a model, drafting text, testing instructions",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI chat",
+    "chat interactions",
+    "AI model",
+    "system instructions",
+    "AI tools",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why chat interactions"
+    },
+    {
+      "time": "0:54",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:32",
+      "title": "Start an interaction"
+    },
+    {
+      "time": "2:25",
+      "title": "The Settings tab"
+    },
+    {
+      "time": "3:35",
+      "title": "The Capabilities tab"
+    },
+    {
+      "time": "4:15",
+      "title": "Manage your interactions"
+    },
+    {
+      "time": "5:06",
+      "title": "Site settings"
+    },
+    {
+      "time": "5:42",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:19",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Chat interactions",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/chat-interactions"
+    },
+    {
+      "label": "Technical guide: AI Chat Interactions",
+      "url": "https://orchardcore.crestapps.com/docs/ai/chat-interactions"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat.Interactions"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/chat-interactions.md",
+    "src/CrestApps.Docs/docs/ai/chat-interactions.md"
+  ],
+  "length": "6:30"
+}
