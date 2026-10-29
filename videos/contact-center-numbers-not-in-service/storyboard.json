@@ -1,0 +1,263 @@
+{
+  "title": "Numbers Not In Service",
+  "output": "contact-center-numbers-not-in-service",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "SIP": "sip"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Numbers Not In Service",
+      "subtitle": "Skip dead numbers automatically",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A list of phone numbers is never fully clean. This video shows how the platform completes a call to a dead number on its own, keeps that number out of every later load and dial, and how you manage the list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why it exists",
+      "subtitle": "Dead numbers waste calls",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some numbers in a list are disconnected, some were never valid, and some have changed hands. Calling them wastes agent time and dialer capacity."
+            },
+            {
+              "id": "why-2",
+              "text": "When a call reaches one of them, the network says the number is not in service."
+            },
+            {
+              "id": "why-3",
+              "text": "The platform then completes the attempt on its own, and adds the number to the Numbers Not In Service list, so no campaign loads or dials it again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What happens to a dead number",
+      "subtitle": "The same for every dialer",
+      "clips": [
+        {
+          "id": "02-flow",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "flow-1",
+              "text": "This works the same way for the Preview, Power and Progressive dialers, and for automatic AI loads. The call is placed, and the carrier answers that the number does not exist."
+            },
+            {
+              "id": "flow-2",
+              "text": "No agent is connected. An automatic call never starts the AI conversation or the AI review."
+            },
+            {
+              "id": "flow-3",
+              "text": "The activity is completed with the subject's not-in-service disposition. Its notes record the number, and what the carrier said."
+            },
+            {
+              "id": "flow-4",
+              "text": "The number is added to the list, with the campaign and the activity that found it. The activity is not retried, and the contact's history keeps it, so you can see the dialer tried the number."
+            },
+            {
+              "id": "note-1",
+              "text": "Some carriers answer the call and play a recording instead. Those calls look answered, so the agent picks your not-in-service disposition, and the number is marked the same way."
+            }
+          ]
+        }
+      ],
+      "short": "flow"
+    },
+    {
+      "id": "03",
+      "title": "Choose the disposition",
+      "subtitle": "The not-in-service outcome",
+      "clips": [
+        {
+          "id": "03-disposition",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dis-1",
+              "text": "The platform uses a disposition with the outcome Number not in service. Open Dispositions, and find it. The badge next to its name shows the outcome."
+            },
+            {
+              "id": "dis-2",
+              "text": "Add it from Add Disposition by setting its Outcome to Number not in service. If you add no such disposition, the platform creates one named Number Not In Service the first time it needs one. When an agent picks a disposition with this outcome, the number is marked too."
+            }
+          ]
+        }
+      ],
+      "short": "disposition"
+    },
+    {
+      "id": "04",
+      "title": "Where numbers are skipped",
+      "subtitle": "Every place a number could be used",
+      "clips": [
+        {
+          "id": "04-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "When activities are loaded, the next number of the contact is used instead, in the usual order. A contact whose numbers are all on the list is skipped, and counted as having only numbers not in service."
+            },
+            {
+              "id": "where-2",
+              "text": "In the dialer, a record whose number was added after it was loaded is cancelled before it is dialed."
+            },
+            {
+              "id": "where-3",
+              "text": "In automatic loads, the activity is cancelled, instead of called or texted."
+            },
+            {
+              "id": "where-4",
+              "text": "On the contact card, the number shows a red Not in service badge. Hover over it to see why."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Manage the list",
+      "subtitle": "Search, mark and allow dialing",
+      "clips": [
+        {
+          "id": "05-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Interaction Center, Management, Numbers Not In Service. The list is empty until a call, a lookup or a person marks a number."
+            },
+            {
+              "id": "list-2",
+              "text": "Mark as not in service adds a number by hand. Enter it with its country code, and click Mark as not in service."
+            },
+            {
+              "id": "list-3",
+              "text": "The number is listed with what found it. Here that is a person, and the list shows when it was last found. Two more numbers are added the same way."
+            },
+            {
+              "id": "list-4",
+              "text": "Search by number filters the list by digits. Press Enter to search."
+            },
+            {
+              "id": "list-5",
+              "text": "Allow dialing removes the mark, so campaigns can load and dial the number again. Use it when the number is back in service or belongs to somebody new. It does not call the number."
+            },
+            {
+              "id": "list-6",
+              "text": "To allow dialing for several numbers, select them, and pick Actions, Allow dialing."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "06",
+      "title": "Catch dead numbers before you dial",
+      "subtitle": "Number lookups",
+      "clips": [
+        {
+          "id": "06-lookup",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "look-1",
+              "text": "With phone number verification turned on, each contact's preferred number is checked by a lookup provider. A number the lookup reports as invalid, or as an inactive line, is added to the list before anybody dials it."
+            },
+            {
+              "id": "look-2",
+              "text": "A number reported as unreachable, switched off or out of coverage, is not added."
+            },
+            {
+              "id": "look-3",
+              "text": "If a later lookup finds the same number active again, the mark the lookup made is removed, because the number was given to somebody new. A mark made by a real call stays until you use Allow dialing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Report on it",
+      "subtitle": "How clean is the list",
+      "clips": [
+        {
+          "id": "07-report",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "The Campaign summary and Subject inventory reports have a Not in service column. It counts activities that were dialed and found dead, and activities cancelled because the number was already known to be dead."
+            },
+            {
+              "id": "rep-2",
+              "text": "Use it to see how clean a campaign's list was, and how much dialing went on dead numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How teams use the list",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Before a big campaign, a manager marks numbers the team already knows are dead, so they are skipped on the first load."
+            },
+            {
+              "id": "use-2",
+              "text": "A number that has been given to somebody new is released with Allow dialing, so campaigns can reach the new owner."
+            },
+            {
+              "id": "use-3",
+              "text": "Each campaign reports how many of its numbers were dead, which shows whether a purchased list is worth its price."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Let the platform mark dead numbers, keep the list clean, and release a number when it is back in service. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

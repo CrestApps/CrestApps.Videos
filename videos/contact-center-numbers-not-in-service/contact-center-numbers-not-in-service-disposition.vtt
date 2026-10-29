@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.223 --> 00:00:07.703
+The platform uses a disposition with the outcome Number not in service.
+
+00:00:07.703 --> 00:00:09.856
+Open Dispositions, and find it.
+
+00:00:09.856 --> 00:00:12.823
+The badge next to its name shows the outcome.
+
+00:00:13.279 --> 00:00:18.131
+Add it from Add Disposition by setting its Outcome to Number not in service.
+
+00:00:18.131 --> 00:00:22.805
+If you add no such disposition, the platform creates one named Number Not
+
+00:00:22.805 --> 00:00:25.468
+In Service the first time it needs one.
+
+00:00:25.468 --> 00:00:30.439
+When an agent picks a disposition with this outcome, the number is marked too.
+
