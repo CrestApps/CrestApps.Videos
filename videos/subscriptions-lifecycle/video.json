@@ -1,0 +1,92 @@
+{
+  "title": "Subscriptions: Pause, Resume, Cancel and the Whole Lifecycle | CrestApps for Orchard Core",
+  "description": "A subscription starts, renews, fails, pauses and ends. CrestApps shows every subscription in one place with its status and history, lets you pause, resume or cancel it, gives subscribers their own My Plans page to cancel from, and removes the roles a plan gave when a subscription stops being current.\n\nIn this video:\n• Why a lifecycle, and the statuses: active, past due, paused, canceled, expired\n• Plans and the roles they give\n• Pausing, resuming and canceling a subscription, with its history\n• What a subscriber sees under My Plans\n• Memberships, subscription settings and good to know",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "subscriptions",
+    "recurring billing",
+    "memberships",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why a lifecycle"
+    },
+    {
+      "time": "0:51",
+      "title": "The statuses"
+    },
+    {
+      "time": "1:28",
+      "title": "Plans and access"
+    },
+    {
+      "time": "1:50",
+      "title": "Manage a subscription"
+    },
+    {
+      "time": "2:34",
+      "title": "My plans"
+    },
+    {
+      "time": "2:54",
+      "title": "Memberships"
+    },
+    {
+      "time": "3:27",
+      "title": "Settings and good to know"
+    },
+    {
+      "time": "4:01",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:24",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Subscriptions (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/subscriptions"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/subscriptions"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Subscriptions"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/subscriptions.md",
+    "src/CrestApps.Docs/docs/modules/subscriptions.md"
+  ],
+  "length": "4:33"
+}
