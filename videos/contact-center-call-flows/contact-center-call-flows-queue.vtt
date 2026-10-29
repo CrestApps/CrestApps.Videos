@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.214 --> 00:00:06.833
+On the queue, While callers wait sets the treatment.
+
+00:00:06.833 --> 00:00:09.142
+The Welcome message plays once.
+
+00:00:09.142 --> 00:00:11.139
+Hold music loops after it.
+
+00:00:11.139 --> 00:00:14.759
+With no music selected, callers hear a ringing tone.
+
+00:00:14.759 --> 00:00:19.314
+A caller who is offered to an agent at once hears no announcements.
+
+00:00:19.791 --> 00:00:25.788
+Announce the caller's place in line says you are number N, at every Announcement interval.
+
+00:00:25.788 --> 00:00:31.097
+Announce the estimated wait speaks only when an agent is available, and Average
+
+00:00:31.097 --> 00:00:33.096
+handle time is above zero.
+
+00:00:33.096 --> 00:00:37.531
+Minimum and maximum announced estimates keep the figure in range.
+
+00:00:37.985 --> 00:00:42.134
+The Callback card offers a callback key after a number of seconds.
+
+00:00:42.134 --> 00:00:46.283
+A caller who presses it leaves the queue and is called back later.
+
+00:00:46.283 --> 00:00:49.625
+It needs the Contact Center Outbound Dialer feature.
+

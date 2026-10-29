@@ -1,0 +1,20 @@
+1
+00:00:03,300 --> 00:00:06,200
+Every call ends with a disposition.
+
+2
+00:00:06,200 --> 00:00:11,011
+Subject Flows, Manage Flow decides what each disposition does:
+
+3
+00:00:11,011 --> 00:00:15,680
+finish, try again, create a new activity, or convert a lead.
+
+4
+00:00:16,239 --> 00:00:19,460
+Agent states holds the reasons agents choose.
+
+5
+00:00:19,460 --> 00:00:24,449
+After a call, the agent stays in wrap-up until the activity is completed.
+
