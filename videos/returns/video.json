@@ -1,0 +1,91 @@
+{
+  "title": "Returns and Exchanges: Approve, Receive and Refund | CrestApps for Orchard Core",
+  "description": "A clear return policy sells. CrestApps Returns lets buyers ask to send items back from their own order page, for their money back or for something else, while you set the return window, approve or decline each request, mark the items received, put what can be sold again back into stock, and refund or exchange, with every step emailed to the buyer and written in the order's notes.\n\nIn this video:\n• Why returns, and how the request, the answer, receiving and closing fit together\n• Setting up returns: the window, reasons, exchanges and return instructions\n• What a buyer does: Return items, how many, why and what they want\n• Handling a return: approve, mark received, refund and close\n• Exchanges and declines\n• Good to know, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "returns",
+    "exchanges",
+    "refunds",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why returns"
+    },
+    {
+      "time": "0:50",
+      "title": "How returns work"
+    },
+    {
+      "time": "1:23",
+      "title": "Set up returns"
+    },
+    {
+      "time": "1:55",
+      "title": "What a buyer does"
+    },
+    {
+      "time": "2:38",
+      "title": "Handle a return"
+    },
+    {
+      "time": "3:27",
+      "title": "Exchanges and declines"
+    },
+    {
+      "time": "3:58",
+      "title": "Good to know"
+    },
+    {
+      "time": "4:27",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:50",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Returns (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/returns"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/carts-and-orders"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders.Returns"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/returns.md"
+  ],
+  "length": "5:00"
+}

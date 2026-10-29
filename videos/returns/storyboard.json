@@ -1,0 +1,261 @@
+{
+  "title": "Returns and exchanges",
+  "output": "returns",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Returns and exchanges",
+      "subtitle": "Say yes to a return, on your terms",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Buyers ask to send items back from their order, and you decide. This video shows how to set up returns, what a buyer does, and how to approve, receive, refund or exchange a return."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why returns",
+      "subtitle": "Say yes to a return, on your terms",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shopper who is not sure they can send something back is a shopper who hesitates. A clear return policy sells."
+            },
+            {
+              "id": "why-2",
+              "text": "Handled by email, returns lose track of what was asked, what was agreed, and what was refunded."
+            },
+            {
+              "id": "why-3",
+              "text": "Returns lets buyers ask to send items back from their own order page. You approve or decline, mark the items received, put them back into stock, then refund or exchange."
+            },
+            {
+              "id": "why-4",
+              "text": "Each step is emailed to the buyer and written in the order's notes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How returns work",
+      "subtitle": "Request, answer, receive, close",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You set a return window, the reasons a buyer can choose from, whether exchanges are offered, and what to tell them once you approve."
+            },
+            {
+              "id": "how-2",
+              "text": "A buyer asks from a paid order, for their money back or for something else, such as another size."
+            },
+            {
+              "id": "how-3",
+              "text": "You approve or decline, mark the items received, and choose what goes back into stock."
+            },
+            {
+              "id": "how-4",
+              "text": "Then you refund the buyer, or send the replacement and close the return. Open Commerce, Returns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up returns",
+      "subtitle": "The window, reasons and instructions",
+      "clips": [
+        {
+          "id": "03-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Returns. The Return window is how many days after paying a buyer can ask to return items. It starts at 30."
+            },
+            {
+              "id": "set-2",
+              "text": "Reasons, one for each line, are what buyers choose from for each item. Let buyers ask for something else instead of a refund offers exchanges."
+            },
+            {
+              "id": "set-3",
+              "text": "Return instructions are what the buyer is told once you approve a return, such as where to send the items. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "What a buyer does",
+      "subtitle": "Ask to return from the order",
+      "clips": [
+        {
+          "id": "04-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "A paid order with goods shows a Returns box on its page, in the buyer's account or on the order link a guest has. While the window is open, it offers Return items."
+            },
+            {
+              "id": "ask-2",
+              "text": "The buyer chooses How many of each item, and Why. Downloads and services have nothing to send back, and an item cannot be returned more times than it was bought."
+            },
+            {
+              "id": "ask-3",
+              "text": "They choose My money back, or with exchanges on, Something else instead, and say what they would like. They can add a comment, and click Ask to return."
+            },
+            {
+              "id": "ask-4",
+              "text": "The request is emailed, and the Returns box lists it as Requested, with Withdraw this request until you answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Handle a return",
+      "subtitle": "Approve, receive and refund",
+      "clips": [
+        {
+          "id": "05-handle",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "hnd-1",
+              "text": "Commerce, Returns lists the returns, newest first. Search by return or order number, or filter by status. Open one to see what is coming back, why, what it was paid, and what the buyer wrote."
+            },
+            {
+              "id": "hnd-2",
+              "text": "Under Approve, add a message for the buyer if you like, and click Approve. They are emailed your return instructions, your message and the return number to put in the parcel."
+            },
+            {
+              "id": "hnd-3",
+              "text": "When the items arrive, tick what can be sold again, and click Mark received. The ticked items go back into stock."
+            },
+            {
+              "id": "hnd-4",
+              "text": "For a buyer who wants their money back, Refund starts at what the items were paid, before tax and shipping. Click Refund and close, and the money goes back the way the buyer paid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Exchanges and declines",
+      "subtitle": "Something else instead",
+      "clips": [
+        {
+          "id": "06-exchange",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exc-1",
+              "text": "For a buyer who wants something else, the page shows what they asked for. Under Decline, say why, and the buyer is told. You can decline until the items are received."
+            },
+            {
+              "id": "exc-2",
+              "text": "To agree, approve the return first. The Exchange box then appears. Send them what they asked for, add a message, such as the tracking number, and click The replacement is on its way. The return is completed and the buyer is emailed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Good to know",
+      "subtitle": "Windows, stock and refunds",
+      "clips": [
+        {
+          "id": "07-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kno-1",
+              "text": "The return window runs from when the order was paid."
+            },
+            {
+              "id": "kno-2",
+              "text": "Returns start with the buyer. Refunding an order outright stays on the order's page."
+            },
+            {
+              "id": "kno-3",
+              "text": "Items you mark as sellable go back into stock, in the location you choose when you keep stock in more than one place."
+            },
+            {
+              "id": "kno-4",
+              "text": "Emails need your site's email to be set up. Without it, returns still work, and nobody is emailed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to use returns",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Clothing: let buyers swap a size without a refund."
+            },
+            {
+              "id": "use-2",
+              "text": "Damaged on arrival: refund before the item comes back."
+            },
+            {
+              "id": "use-3",
+              "text": "Out of window: decline with a clear reason."
+            },
+            {
+              "id": "use-4",
+              "text": "A longer window for the holidays: change the return window for a season."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set the window, let buyers ask, and approve, receive and close each return. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
