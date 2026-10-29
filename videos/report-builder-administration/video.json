@@ -1,0 +1,89 @@
+{
+  "title": "Report Builder Administration: Permissions, Moving Reports and Large Data | CrestApps for Orchard Core",
+  "description": "Who may build, see and share reports? How do reports move to another site? What happens on large data, and what do you do when something does not work? This video is for the person who looks after the CrestApps Report Builder: it shows the five Report Builder permissions in a role, what a person sees before and after the build permission, how to import reports with JSON Import or Package Import, the limits on large data, and the usual problems with their fixes.\n\nIn this video:\n• The five Report Builder permissions\n• A role with no permission, then with one\n• Importing reports with the Report Designs step\n• Large data: batches, row limits and date filters\n• When something does not work",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "report builder",
+    "permissions",
+    "roles",
+    "import reports",
+    "deployment",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Five permissions"
+    },
+    {
+      "time": "1:10",
+      "title": "See it work"
+    },
+    {
+      "time": "1:42",
+      "title": "Bring reports to another site"
+    },
+    {
+      "time": "2:25",
+      "title": "Large data and limits"
+    },
+    {
+      "time": "3:07",
+      "title": "When something does not work"
+    },
+    {
+      "time": "3:54",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/report-builder"
+    },
+    {
+      "label": "Report Builder permissions",
+      "url": "https://orchardcore.crestapps.com/docs/modules/report-builder/permissions"
+    },
+    {
+      "label": "Large data",
+      "url": "https://orchardcore.crestapps.com/docs/modules/report-builder/large-data"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports.Builder"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/report-builder/index.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/troubleshooting.md",
+    "src/CrestApps.Docs/docs/modules/report-builder/permissions.md",
+    "src/CrestApps.Docs/docs/modules/report-builder/recipes-and-deployment.md",
+    "src/CrestApps.Docs/docs/modules/report-builder/large-data.md"
+  ],
+  "length": "4:05"
+}

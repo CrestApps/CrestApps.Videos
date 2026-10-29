@@ -1,0 +1,44 @@
+1
+00:00:03,179 --> 00:00:06,123
+To bring reports onto a site, import them.
+
+2
+00:00:06,123 --> 00:00:11,521
+Under Tools, Deployments, JSON Import takes a recipe with the Report Designs step,
+
+3
+00:00:11,521 --> 00:00:15,079
+and Package Import takes the same in a package file.
+
+4
+00:00:15,531 --> 00:00:16,650
+Click Import.
+
+5
+00:00:16,650 --> 00:00:19,890
+The import matches each report by its identifier:
+
+6
+00:00:19,890 --> 00:00:24,190
+a report that exists is replaced, and one that does not is created,
+
+7
+00:00:24,190 --> 00:00:26,841
+so the same file can be imported again.
+
+8
+00:00:26,841 --> 00:00:29,021
+Share links are never imported.
+
+9
+00:00:29,473 --> 00:00:33,195
+The reports and their groups are now in the Report Builder.
+
+10
+00:00:33,195 --> 00:00:36,974
+Each one keeps its owner when a user with the same user name
+
+11
+00:00:36,974 --> 00:00:41,613
+exists on the site, and belongs to the person who ran the import otherwise.
+

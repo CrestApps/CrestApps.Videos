@@ -1,0 +1,48 @@
+1
+00:00:03,173 --> 00:00:06,379
+Open Access Control, Roles, and edit a role.
+
+2
+00:00:06,379 --> 00:00:09,457
+Search its permissions for custom reports.
+
+3
+00:00:09,457 --> 00:00:14,587
+Build reports and manage own custom reports and views lets a person design
+
+4
+00:00:14,587 --> 00:00:18,243
+reports and views, and change and delete their own.
+
+5
+00:00:18,695 --> 00:00:23,607
+View all custom reports lets a person run every report, whoever owns it.
+
+6
+00:00:23,607 --> 00:00:28,772
+Manage all custom reports and views lets them change and delete every report
+
+7
+00:00:28,772 --> 00:00:32,425
+and view, and it includes the two permissions above.
+
+8
+00:00:32,876 --> 00:00:37,564
+Share custom reports publicly and through share links is the one that lets
+
+9
+00:00:37,564 --> 00:00:42,136
+a person share a report with the Anonymous role, and create share links.
+
+10
+00:00:42,595 --> 00:00:44,551
+Search for report groups.
+
+11
+00:00:44,551 --> 00:00:51,049
+Manage report groups lets a person create, change and delete the groups reports are listed under.
+
+12
+00:00:51,049 --> 00:00:54,455
+Manage all custom reports and views includes it.
+

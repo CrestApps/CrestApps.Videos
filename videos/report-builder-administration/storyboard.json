@@ -1,0 +1,192 @@
+{
+  "title": "Report Builder administration",
+  "output": "report-builder-administration",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "JSON": "Jason"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report Builder administration",
+      "subtitle": "Permissions, moving reports and troubleshooting",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video is for the person who looks after the Report Builder: who may build and see reports, how to move reports to another site, what the limits mean on large data, and what to do when something does not work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Five permissions",
+      "subtitle": "Who may do what",
+      "short": "permissions",
+      "clips": [
+        {
+          "id": "01-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "Open Access Control, Roles, and edit a role. Search its permissions for custom reports. Build reports and manage own custom reports and views lets a person design reports and views, and change and delete their own."
+            },
+            {
+              "id": "perm-2",
+              "text": "View all custom reports lets a person run every report, whoever owns it. Manage all custom reports and views lets them change and delete every report and view, and it includes the two permissions above."
+            },
+            {
+              "id": "perm-3",
+              "text": "Share custom reports publicly and through share links is the one that lets a person share a report with the Anonymous role, and create share links."
+            },
+            {
+              "id": "perm-4",
+              "text": "Search for report groups. Manage report groups lets a person create, change and delete the groups reports are listed under. Manage all custom reports and views includes it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "See it work",
+      "subtitle": "A role with no permission, then with one",
+      "short": "try-it",
+      "clips": [
+        {
+          "id": "02-before",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "try-1",
+              "text": "This is the Reports menu of a person whose role has none of these permissions. It lists the reports they may run, but there is no Report Builder."
+            }
+          ]
+        },
+        {
+          "id": "02b-grant",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "try-2",
+              "text": "In the role, tick Build reports and manage own custom reports and views, and save."
+            }
+          ]
+        },
+        {
+          "id": "02c-after",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "try-3",
+              "text": "Now the same person has Report Builder under Reports, and builds reports of their own. They see their own reports, and the ones shared with them, and no one else's."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Bring reports to another site",
+      "subtitle": "Import with the Report Designs step",
+      "short": "deploy",
+      "clips": [
+        {
+          "id": "03-deploy",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dep-1",
+              "text": "To bring reports onto a site, import them. Under Tools, Deployments, JSON Import takes a recipe with the Report Designs step, and Package Import takes the same in a package file."
+            },
+            {
+              "id": "dep-2",
+              "text": "Click Import. The import matches each report by its identifier: a report that exists is replaced, and one that does not is created, so the same file can be imported again. Share links are never imported."
+            },
+            {
+              "id": "dep-3",
+              "text": "The reports and their groups are now in the Report Builder. Each one keeps its owner when a user with the same user name exists on the site, and belongs to the person who ran the import otherwise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Large data and limits",
+      "subtitle": "What to tell the people who build reports",
+      "clips": [
+        {
+          "id": "04-limits",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "lim-1",
+              "text": "The builder reads each data set in batches and never holds a whole data set in memory. Big joins and totals use temporary files on the server, so they are slower, not wrong."
+            },
+            {
+              "id": "lim-2",
+              "text": "A report that reads more rows than the limit says so with a warning, and the numbers cover only the rows it read. Add a shorter period or another filter, or ask for the limits to be raised in the site's configuration."
+            },
+            {
+              "id": "lim-3",
+              "text": "A new report starts with the last 30 days of its main date. For big data, keep a date filter on every report, and use a scheduled view for data that is heavy to prepare."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "When something does not work",
+      "subtitle": "The common problems",
+      "clips": [
+        {
+          "id": "05-trouble",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "fix-1",
+              "text": "No Report Builder under Reports: the feature may be off, or the person lacks the build permission. People who only run shared reports see Shared Reports instead."
+            },
+            {
+              "id": "fix-2",
+              "text": "Fewer records than expected: the date filter of a new report is the last 30 days. Pick a longer period, or All time."
+            },
+            {
+              "id": "fix-3",
+              "text": "Totals too high after a join: a join repeats a row for each match. Count distinct values, or sum from the data set that has one row per record."
+            },
+            {
+              "id": "fix-4",
+              "text": "A shared report shows data its viewer cannot open: that is expected, since it reads data with its owner's access. Share only what viewers should see."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report Builder administration",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Give the five permissions with care, move reports with a deployment plan, and keep a date filter on large data. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

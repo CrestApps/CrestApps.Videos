@@ -1,0 +1,20 @@
+1
+00:00:03,194 --> 00:00:08,030
+This is the Reports menu of a person whose role has none of these permissions.
+
+2
+00:00:08,030 --> 00:00:12,174
+It lists the reports they may run, but there is no Report Builder.
+
+3
+00:00:13,861 --> 00:00:19,791
+In the role, tick Build reports and manage own custom reports and views, and save.
+
+4
+00:00:21,351 --> 00:00:26,787
+Now the same person has Report Builder under Reports, and builds reports of their own.
+
+5
+00:00:26,787 --> 00:00:31,691
+They see their own reports, and the ones shared with them, and no one else's.
+
