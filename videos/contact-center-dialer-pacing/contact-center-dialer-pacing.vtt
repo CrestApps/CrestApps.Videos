@@ -1,0 +1,290 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.718
+Automatic dialing places calls for your agents, so it needs guardrails.
+
+00:00:05.718 --> 00:00:11.601
+This video covers the abandoned-call settings of a dialer profile, Predictive pacing, what
+
+00:00:11.601 --> 00:00:15.400
+the dialer does with every record, and how retries work.
+
+00:00:20.000 --> 00:00:25.841
+With Power, Progressive and Predictive dialing, the customer is dialed first.
+
+00:00:25.841 --> 00:00:29.360
+An agent is connected once a person answers.
+
+00:00:30.110 --> 00:00:34.573
+A call is abandoned when a person answers and no agent is connected
+
+00:00:34.573 --> 00:00:36.590
+to them within two seconds.
+
+00:00:36.590 --> 00:00:39.280
+The person hears silence, or hangs up.
+
+00:00:40.030 --> 00:00:43.784
+Rules in many places limit how many calls may be abandoned.
+
+00:00:43.784 --> 00:00:48.059
+A dialer profile measures the rate, can stop dialing at a limit, and
+
+00:00:48.059 --> 00:00:49.503
+can play a message.
+
+00:00:49.503 --> 00:00:51.756
+Confirm which rules apply to you:
+
+00:00:51.756 --> 00:00:55.510
+the settings do not make a campaign compliant on their own.
+
+00:00:59.785 --> 00:01:03.171
+Open the profile, and find the Abandoned calls card.
+
+00:01:03.171 --> 00:01:07.842
+Measured abandonment at the top shows the rate over the rolling window and
+
+00:01:07.842 --> 00:01:11.054
+over the last 30 days, with the counts behind it.
+
+00:01:11.054 --> 00:01:14.615
+It is zero here, because this site has placed no calls.
+
+00:01:15.263 --> 00:01:21.133
+Tick Enforce an abandonment-rate cap, and automated dialing pauses while too many answered
+
+00:01:21.133 --> 00:01:22.723
+calls find no agent.
+
+00:01:23.197 --> 00:01:28.250
+Maximum abandonment rate is the cap, as a share of the calls a person answered.
+
+00:01:28.250 --> 00:01:33.303
+Abandonment sample floor is how many answered calls the window needs before the
+
+00:01:33.303 --> 00:01:37.167
+cap applies, so a few early calls cannot stop the campaign.
+
+00:01:37.665 --> 00:01:41.916
+Play a message when a call is abandoned plays your message instead of
+
+00:01:41.916 --> 00:01:43.503
+hanging up in silence.
+
+00:01:43.503 --> 00:01:47.075
+A warning shows while it is off, and the cap needs it on.
+
+00:01:47.543 --> 00:01:50.434
+Abandoned call message is what the person hears.
+
+00:01:50.434 --> 00:01:53.752
+Say who is calling, and give a number to call back or to
+
+00:01:53.752 --> 00:01:55.518
+ask not to be called again.
+
+00:01:55.518 --> 00:01:59.372
+The site name and the number the person was called from are filled
+
+00:01:59.372 --> 00:02:00.603
+in for each call.
+
+00:02:02.203 --> 00:02:05.885
+Measured abandonment counts only calls a person answered.
+
+00:02:05.885 --> 00:02:10.502
+It is measured for each profile, not for each campaign, so campaigns that
+
+00:02:10.502 --> 00:02:13.073
+share a profile are measured together.
+
+00:02:17.257 --> 00:02:21.118
+Choose Predictive, and the Predictive pacing card appears.
+
+00:02:21.118 --> 00:02:24.437
+Pacing is One call per reserved agent by default.
+
+00:02:24.437 --> 00:02:29.203
+Each call reserves its own available agent, and fewer calls are placed as
+
+00:02:29.203 --> 00:02:31.677
+the abandonment rate nears the cap.
+
+00:02:32.131 --> 00:02:37.829
+Over-dial places more calls than there are free agents, because most calls are not answered.
+
+00:02:37.829 --> 00:02:42.247
+The Target abandonment rate is what it steers toward, and it must stay
+
+00:02:42.247 --> 00:02:44.631
+below the Maximum abandonment rate.
+
+00:02:45.369 --> 00:02:49.524
+Lines per agent is the most calls ringing for each free agent.
+
+00:02:49.524 --> 00:02:53.984
+Calls in flight is the most calls ringing at once for one campaign.
+
+00:02:53.984 --> 00:02:57.589
+Both stay in force whatever the answer rate suggests.
+
+00:02:58.047 --> 00:03:00.747
+The answer rate must be trusted first.
+
+00:03:00.747 --> 00:03:05.410
+Answer rate sample floor is how many calls need an outcome, and Answer
+
+00:03:05.410 --> 00:03:08.539
+rate window is how far back they are counted.
+
+00:03:08.539 --> 00:03:12.467
+Until then, the profile dials one call per reserved agent.
+
+00:03:12.922 --> 00:03:17.396
+Count agents about to free up adds agents expected to finish soon.
+
+00:03:17.396 --> 00:03:21.248
+Connect wait is how long a person may wait for an agent.
+
+00:03:21.248 --> 00:03:27.152
+Zero is recommended, because a call not connected within two seconds counts as abandoned.
+
+00:03:27.767 --> 00:03:32.310
+Retry abandoned calls only with an agent reserved is on by default, so
+
+00:03:32.310 --> 00:03:34.223
+no one is abandoned twice.
+
+00:03:34.223 --> 00:03:38.587
+Over-dial needs the cap, the message and a target below the cap, so
+
+00:03:38.587 --> 00:03:41.397
+the profile cannot be saved without them.
+
+00:03:41.856 --> 00:03:45.660
+Turn on the cap and the message, and the profile saves.
+
+00:03:45.660 --> 00:03:49.776
+The list now shows a Power profile and a Predictive profile.
+
+00:03:51.376 --> 00:03:55.239
+With over-dial, no agent is reserved while calls ring.
+
+00:03:55.239 --> 00:04:00.389
+When a person answers, the free agent who has waited longest is connected.
+
+00:04:00.389 --> 00:04:06.956
+If nobody is free, the person hears the abandoned-call message and the call counts as abandoned.
+
+00:04:07.706 --> 00:04:11.478
+Over-dial does not start until it can trust its numbers.
+
+00:04:11.478 --> 00:04:15.433
+Until then, and whenever the rate is at or near the cap, it
+
+00:04:15.433 --> 00:04:17.866
+dials one call per reserved agent.
+
+00:04:17.866 --> 00:04:21.456
+It stops altogether when the rate cannot be measured.
+
+00:04:25.656 --> 00:04:28.650
+Before every call, the dialer checks in order:
+
+00:04:28.650 --> 00:04:32.797
+the number is valid and not out of service, attempts are left, the
+
+00:04:32.797 --> 00:04:37.346
+retry delay has passed, the contact has not opted out, the calling window
+
+00:04:37.346 --> 00:04:42.356
+is open, the cap allows dialing, and the number is not on a do-not-call registry.
+
+00:04:43.106 --> 00:04:46.217
+A record with no valid number becomes Failed.
+
+00:04:46.217 --> 00:04:49.267
+A record with no attempts left is Completed.
+
+00:04:49.267 --> 00:04:53.293
+A record on a do-not-call list, or with a number known to be
+
+00:04:53.293 --> 00:04:56.954
+out of service, becomes Cancelled and is never dialed.
+
+00:04:56.954 --> 00:05:00.126
+Anything else is tried again in a later cycle.
+
+00:05:00.876 --> 00:05:07.065
+A call that ends before an agent is connected is dispositioned by the dialer itself:
+
+00:05:07.065 --> 00:05:14.217
+No answer, Busy, Answering machine, Rejected, Call failed, Disconnected, or Number not in service.
+
+00:05:14.217 --> 00:05:17.656
+The agent never sees it, and has no wrap-up.
+
+00:05:21.856 --> 00:05:24.197
+The subject flow decides first.
+
+00:05:24.197 --> 00:05:28.815
+If its Try Again action sets Maximum attempts, that number is used.
+
+00:05:28.815 --> 00:05:32.864
+If it leaves it empty, the profile's Max attempts is used.
+
+00:05:32.864 --> 00:05:36.976
+If the flow has a disposition for how the call ended but no
+
+00:05:36.976 --> 00:05:40.076
+Try Again, the contact is not called again.
+
+00:05:40.826 --> 00:05:44.891
+If the flow has no disposition for how the call ended, the dialer
+
+00:05:44.891 --> 00:05:49.930
+dispositions the call with the matching outcome, and calls the contact again after
+
+00:05:49.930 --> 00:05:53.136
+the Retry delay, up to the profile's Max attempts.
+
+00:05:53.886 --> 00:05:58.752
+A date picked when the call is dispositioned, or the Try Again action's
+
+00:05:58.752 --> 00:06:02.037
+Default schedule hours, sets the next attempt.
+
+00:06:02.037 --> 00:06:06.145
+Otherwise it is dialed after the Retry delay, never sooner.
+
+00:06:06.145 --> 00:06:11.516
+Only calls that rang out, were busy, reached a machine, or dropped are retried.
+
+00:06:11.516 --> 00:06:17.456
+Attempts count across follow-ups, so a limit of three means the first call and two more.
+
+00:06:21.656 --> 00:06:25.381
+A long list and a small team uses Power with one or two
+
+00:06:25.381 --> 00:06:29.716
+calls per agent, so agents spend their time talking, not dialing.
+
+00:06:30.466 --> 00:06:34.527
+A campaign under calling rules turns on the cap and the message, and
+
+00:06:34.527 --> 00:06:37.546
+reads Measured abandonment during the first days.
+
+00:06:38.296 --> 00:06:43.596
+Numbers that were not answered are called again on their own, within the limits you set.
+
+00:06:45.596 --> 00:06:49.987
+Choose how calls are paced, protect the people who answer, and let the
+
+00:06:49.987 --> 00:06:53.454
+subject flow and the profile decide what happens next.
+
+00:06:53.454 --> 00:06:54.956
+Thanks for watching.
+
