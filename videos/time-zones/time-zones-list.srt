@@ -1,0 +1,48 @@
+1
+00:00:03,249 --> 00:00:05,237
+Open Tools, Time Zones.
+
+2
+00:00:05,237 --> 00:00:07,019
+Each row is one map:
+
+3
+00:00:07,019 --> 00:00:11,818
+its name, the time zone it stands for, who created it, and when.
+
+4
+00:00:11,818 --> 00:00:14,629
+The Search box finds a map by name.
+
+5
+00:00:21,475 --> 00:00:23,396
+Click Add Time Zone Map.
+
+6
+00:00:23,396 --> 00:00:27,815
+The Name is what people will see, for example Mexico City Time.
+
+7
+00:00:28,313 --> 00:00:34,818
+Choose the Time zone the name stands for, here America slash Mexico City, and click Save.
+
+8
+00:00:34,818 --> 00:00:39,953
+Each name can be used once, and each time zone can have only one map.
+
+9
+00:00:40,404 --> 00:00:42,447
+The new map is on the list.
+
+10
+00:00:42,447 --> 00:00:45,480
+Edit points a map at a different time zone.
+
+11
+00:00:45,480 --> 00:00:49,319
+The name is fixed after you save it, so to rename a map,
+
+12
+00:00:49,319 --> 00:00:51,424
+delete it and add a new one.
+

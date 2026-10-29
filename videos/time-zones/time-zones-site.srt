@@ -1,0 +1,20 @@
+1
+00:00:03,245 --> 00:00:07,043
+The site's time zone is used to show dates and times to everyone
+
+2
+00:00:07,043 --> 00:00:08,942
+who has not picked their own.
+
+3
+00:00:08,942 --> 00:00:10,515
+Open Settings, General.
+
+4
+00:00:11,044 --> 00:00:15,115
+Default Time Zone now offers only your friendly names.
+
+5
+00:00:15,115 --> 00:00:18,914
+Choose one, here Mexico City Time, and click Save.
+
