@@ -1,0 +1,246 @@
+{
+  "title": "Contact Center Configuration and Deployment",
+  "output": "contact-center-configuration-deployment",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Contact Center Configuration and Deployment",
+      "subtitle": "Build it once, replay it anywhere",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A contact center that can only be set up by hand cannot be promoted from a test site to production. This video shows the features it needs, the one-step recipe, how to export your queues and more as a deployment plan, how to replay it, what to do about voice media audio, and what never travels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why export the configuration",
+      "subtitle": "Review it, version it, replay it",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Queues, entry points, skills, business hours and dialer profiles take hours to set up. Rebuilding them by hand in production invites mistakes."
+            },
+            {
+              "id": "why-2",
+              "text": "The Contact Center uses the standard deployment plans of the platform. You build a plan, export it, review it, and replay it on another site."
+            },
+            {
+              "id": "why-3",
+              "text": "A replay is safe to repeat. An entry that exists is updated in place, a new one is created with the same identifier, and one that is refused is reported without stopping the rest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Features and dependencies",
+      "subtitle": "What a Contact Center site turns on",
+      "clips": [
+        {
+          "id": "02-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feat-1",
+              "text": "Open Tools, Features, and type Contact Center. The Contact Center is a set of features: work distribution for queues, inbound entry points, inbound voice, the outbound dialer, voice media, and more."
+            },
+            {
+              "id": "feat-2",
+              "text": "Each feature lists what it needs. Click Show indirect dependencies to see the whole chain. Turning a feature on turns on everything it depends on."
+            },
+            {
+              "id": "feat-3",
+              "text": "A deployment step appears only when the feature that owns its entity is on. A site without the dialer is not offered a dialer profile step."
+            }
+          ]
+        }
+      ],
+      "short": "features"
+    },
+    {
+      "id": "03",
+      "title": "The feature recipe",
+      "subtitle": "Turn on a certified set in one step",
+      "clips": [
+        {
+          "id": "03-recipe",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "Open Tools, Recipes. The Contact Center recipe for Asterisk turns on the whole set of features for that provider in one step, in the right order."
+            },
+            {
+              "id": "rec-2",
+              "text": "A recipe turns on features only. It carries no queues, skills or entry points, because those refer to your provider, your numbers and your campaigns. That configuration comes from a deployment plan."
+            }
+          ]
+        }
+      ],
+      "short": "recipe"
+    },
+    {
+      "id": "04",
+      "title": "Export a deployment plan",
+      "subtitle": "Choose the steps and download it",
+      "clips": [
+        {
+          "id": "04-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "Open Tools, Deployments, Plans, and click Add Deployment Plan. Name it Contact Center setup."
+            },
+            {
+              "id": "exp-2",
+              "text": "Click Add Step. The Contact Center steps are listed by name: Contact Center Queue Groups, Contact Center Queues, Contact Center Voice Media Library, and more. Each step exports every entry of its kind."
+            },
+            {
+              "id": "exp-3",
+              "text": "Add Contact Center Queue Groups, Contact Center Queues and Contact Center Voice Media Library. Then click Execute and choose the file download."
+            }
+          ]
+        }
+      ],
+      "short": "export"
+    },
+    {
+      "id": "05",
+      "title": "Replay the plan",
+      "subtitle": "Import it on another site",
+      "clips": [
+        {
+          "id": "05-replay",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "To show a replay, rename a queue first. Click Edit on Billing, change the name to Billing test, and save. The list shows the new name."
+            },
+            {
+              "id": "rep-2",
+              "text": "Open Tools, Deployments, Package Import, choose the downloaded file, and click Import."
+            },
+            {
+              "id": "rep-3",
+              "text": "The queue is Billing again, and there are still four queues. The queue kept its identifier, so the entitlements and entry points that point at it still work. The order of steps matters when entries refer to each other: voice media, skills, queue groups and calendars first, then queues, entry points, dialer profiles and entitlements."
+            }
+          ]
+        }
+      ],
+      "short": "replay"
+    },
+    {
+      "id": "06",
+      "title": "Voice media audio",
+      "subtitle": "The audio does not travel",
+      "clips": [
+        {
+          "id": "06-voice",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vm-1",
+              "text": "A voice media clip travels as its library entry: its name, its description and its format. The audio file itself is not in the plan. Here the clip was deleted before the import, and it came back as an entry. Its badges still say Master copy, but the audio is not at this site, so you upload it again."
+            },
+            {
+              "id": "vm-2",
+              "text": "Open the clip and choose the audio file again. Because the clip keeps its identifier, the queues, entry points and menus that use it start playing it again."
+            },
+            {
+              "id": "vm-3",
+              "text": "Save. The platform keeps the master copy and sends a copy to the phone provider. Here the provider is unreachable, so it warns that the provider did not accept the copy, and sends it later."
+            }
+          ]
+        }
+      ],
+      "short": "voice"
+    },
+    {
+      "id": "07",
+      "title": "What does not travel",
+      "subtitle": "Configuration, not traffic",
+      "clips": [
+        {
+          "id": "07-not",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "not-1",
+              "text": "Activities, interactions, call sessions and queue items are made by traffic, so they stay where they were made. Recordings and shared voicemail messages stay too."
+            },
+            {
+              "id": "not-2",
+              "text": "Agent profiles do not travel: they record who works where, and the state they are in. What a manager grants does travel, through the Agent Entitlements step, matched by user name."
+            },
+            {
+              "id": "not-3",
+              "text": "Phone provider settings never carry a secret. The provider keeps the credentials the destination already stores."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Plans at work",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Build and test the queues on a staging site, then replay the plan on production in one import."
+            },
+            {
+              "id": "use-2",
+              "text": "Keep the exported plan in source control, so a change to a queue shows up as a reviewed difference."
+            },
+            {
+              "id": "use-3",
+              "text": "Start a second region from the first one's plan, then change only the numbers."
+            },
+            {
+              "id": "use-4",
+              "text": "After a mistake, replay the last good plan to put every queue back as it was."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the features, build a plan, replay it, upload the audio again, and remember that traffic stays behind. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

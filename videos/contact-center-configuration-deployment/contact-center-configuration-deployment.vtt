@@ -1,0 +1,224 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.694
+A contact center that can only be set up by hand cannot be
+
+00:00:04.694 --> 00:00:07.350
+promoted from a test site to production.
+
+00:00:07.350 --> 00:00:11.968
+This video shows the features it needs, the one-step recipe, how to export
+
+00:00:11.968 --> 00:00:16.066
+your queues and more as a deployment plan, how to replay it, what
+
+00:00:16.066 --> 00:00:19.530
+to do about voice media audio, and what never travels.
+
+00:00:24.130 --> 00:00:30.275
+Queues, entry points, skills, business hours and dialer profiles take hours to set up.
+
+00:00:30.275 --> 00:00:34.350
+Rebuilding them by hand in production invites mistakes.
+
+00:00:35.100 --> 00:00:39.610
+The Contact Center uses the standard deployment plans of the platform.
+
+00:00:39.610 --> 00:00:44.120
+You build a plan, export it, review it, and replay it on another site.
+
+00:00:44.870 --> 00:00:46.985
+A replay is safe to repeat.
+
+00:00:46.985 --> 00:00:51.344
+An entry that exists is updated in place, a new one is created
+
+00:00:51.344 --> 00:00:57.370
+with the same identifier, and one that is refused is reported without stopping the rest.
+
+00:01:01.573 --> 00:01:04.944
+Open Tools, Features, and type Contact Center.
+
+00:01:04.944 --> 00:01:07.925
+The Contact Center is a set of features:
+
+00:01:07.925 --> 00:01:15.443
+work distribution for queues, inbound entry points, inbound voice, the outbound dialer, voice media, and more.
+
+00:01:15.900 --> 00:01:18.245
+Each feature lists what it needs.
+
+00:01:18.245 --> 00:01:21.972
+Click Show indirect dependencies to see the whole chain.
+
+00:01:21.972 --> 00:01:25.640
+Turning a feature on turns on everything it depends on.
+
+00:01:26.090 --> 00:01:30.886
+A deployment step appears only when the feature that owns its entity is on.
+
+00:01:30.886 --> 00:01:34.970
+A site without the dialer is not offered a dialer profile step.
+
+00:01:39.178 --> 00:01:40.725
+Open Tools, Recipes.
+
+00:01:40.725 --> 00:01:45.426
+The Contact Center recipe for Asterisk turns on the whole set of features
+
+00:01:45.426 --> 00:01:48.758
+for that provider in one step, in the right order.
+
+00:01:49.224 --> 00:01:51.590
+A recipe turns on features only.
+
+00:01:51.590 --> 00:01:56.506
+It carries no queues, skills or entry points, because those refer to your
+
+00:01:56.506 --> 00:01:59.494
+provider, your numbers and your campaigns.
+
+00:01:59.494 --> 00:02:02.854
+That configuration comes from a deployment plan.
+
+00:02:07.038 --> 00:02:11.349
+Open Tools, Deployments, Plans, and click Add Deployment Plan.
+
+00:02:11.349 --> 00:02:13.568
+Name it Contact Center setup.
+
+00:02:15.817 --> 00:02:17.161
+Click Add Step.
+
+00:02:17.161 --> 00:02:20.361
+The Contact Center steps are listed by name:
+
+00:02:20.361 --> 00:02:26.954
+Contact Center Queue Groups, Contact Center Queues, Contact Center Voice Media Library, and more.
+
+00:02:26.954 --> 00:02:30.027
+Each step exports every entry of its kind.
+
+00:02:30.478 --> 00:02:36.900
+Add Contact Center Queue Groups, Contact Center Queues and Contact Center Voice Media Library.
+
+00:02:36.900 --> 00:02:40.368
+Then click Execute and choose the file download.
+
+00:02:44.568 --> 00:02:47.556
+To show a replay, rename a queue first.
+
+00:02:47.556 --> 00:02:52.271
+Click Edit on Billing, change the name to Billing test, and save.
+
+00:02:52.271 --> 00:02:54.528
+The list shows the new name.
+
+00:02:54.986 --> 00:03:01.326
+Open Tools, Deployments, Package Import, choose the downloaded file, and click Import.
+
+00:03:05.449 --> 00:03:09.340
+The queue is Billing again, and there are still four queues.
+
+00:03:09.340 --> 00:03:14.291
+The queue kept its identifier, so the entitlements and entry points that point
+
+00:03:14.291 --> 00:03:15.647
+at it still work.
+
+00:03:15.647 --> 00:03:19.537
+The order of steps matters when entries refer to each other:
+
+00:03:19.537 --> 00:03:26.669
+voice media, skills, queue groups and calendars first, then queues, entry points, dialer profiles and entitlements.
+
+00:03:30.856 --> 00:03:34.235
+A voice media clip travels as its library entry:
+
+00:03:34.235 --> 00:03:37.176
+its name, its description and its format.
+
+00:03:37.176 --> 00:03:40.116
+The audio file itself is not in the plan.
+
+00:03:40.116 --> 00:03:45.122
+Here the clip was deleted before the import, and it came back as an entry.
+
+00:03:45.122 --> 00:03:49.376
+Its badges still say Master copy, but the audio is not at this
+
+00:03:49.376 --> 00:03:51.566
+site, so you upload it again.
+
+00:03:52.020 --> 00:03:54.907
+Open the clip and choose the audio file again.
+
+00:03:54.907 --> 00:03:59.571
+Because the clip keeps its identifier, the queues, entry points and menus that
+
+00:03:59.571 --> 00:04:01.570
+use it start playing it again.
+
+00:04:02.024 --> 00:04:02.722
+Save.
+
+00:04:02.722 --> 00:04:07.796
+The platform keeps the master copy and sends a copy to the phone provider.
+
+00:04:07.796 --> 00:04:12.680
+Here the provider is unreachable, so it warns that the provider did not
+
+00:04:12.680 --> 00:04:15.344
+accept the copy, and sends it later.
+
+00:04:19.544 --> 00:04:24.858
+Activities, interactions, call sessions and queue items are made by traffic, so they
+
+00:04:24.858 --> 00:04:26.748
+stay where they were made.
+
+00:04:26.748 --> 00:04:30.054
+Recordings and shared voicemail messages stay too.
+
+00:04:30.804 --> 00:04:32.992
+Agent profiles do not travel:
+
+00:04:32.992 --> 00:04:36.805
+they record who works where, and the state they are in.
+
+00:04:36.805 --> 00:04:42.994
+What a manager grants does travel, through the Agent Entitlements step, matched by user name.
+
+00:04:43.744 --> 00:04:46.858
+Phone provider settings never carry a secret.
+
+00:04:46.858 --> 00:04:51.254
+The provider keeps the credentials the destination already stores.
+
+00:04:55.454 --> 00:04:59.545
+Build and test the queues on a staging site, then replay the plan
+
+00:04:59.545 --> 00:05:01.504
+on production in one import.
+
+00:05:02.254 --> 00:05:06.238
+Keep the exported plan in source control, so a change to a queue
+
+00:05:06.238 --> 00:05:08.514
+shows up as a reviewed difference.
+
+00:05:09.264 --> 00:05:14.614
+Start a second region from the first one's plan, then change only the numbers.
+
+00:05:15.364 --> 00:05:21.024
+After a mistake, replay the last good plan to put every queue back as it was.
+
+00:05:23.024 --> 00:05:27.527
+Turn on the features, build a plan, replay it, upload the audio again,
+
+00:05:27.527 --> 00:05:30.193
+and remember that traffic stays behind.
+
+00:05:30.193 --> 00:05:31.734
+Thanks for watching.
+

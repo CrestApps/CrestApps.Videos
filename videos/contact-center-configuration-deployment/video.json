@@ -1,0 +1,94 @@
+{
+  "title": "Contact Center Configuration and Deployment: Export a Plan and Replay It | CrestApps for Orchard Core",
+  "description": "A contact center that can only be set up by hand cannot be promoted from a test site to production. This video shows how CrestApps for Orchard Core exports queues, queue groups, entry points, skills, voice media and more as a deployment plan, and how to replay it on another site.\n\nIn this video:\n• Why export the configuration\n• The Contact Center features and their dependencies\n• The one-step feature recipe\n• Building and downloading a deployment plan\n• Replaying the plan with Package Import\n• Voice media: the audio does not travel\n• What never travels\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "Deployment",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "deployment plan",
+    "export",
+    "import",
+    "recipes",
+    "voice media",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Why export the configuration"
+    },
+    {
+      "time": "0:58",
+      "title": "Features and dependencies"
+    },
+    {
+      "time": "1:36",
+      "title": "The feature recipe"
+    },
+    {
+      "time": "2:03",
+      "title": "Export a deployment plan"
+    },
+    {
+      "time": "2:41",
+      "title": "Replay the plan"
+    },
+    {
+      "time": "3:27",
+      "title": "Voice media audio"
+    },
+    {
+      "time": "4:16",
+      "title": "What does not travel"
+    },
+    {
+      "time": "4:52",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:22",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/import-and-export"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/configuration-deployment"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/import-and-export.md",
+    "src/CrestApps.Docs/docs/user-manual/voice-media.md"
+  ],
+  "length": "5:33"
+}
