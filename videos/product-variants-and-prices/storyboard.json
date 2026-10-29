@@ -1,0 +1,222 @@
+{
+  "title": "Product variants and prices",
+  "output": "product-variants-and-prices",
+  "spoken": {
+    "SKU": "S.K.U."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Product variants and prices",
+      "subtitle": "One product, many ways to buy it",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A product that comes in versions is one item with variants, and a product can be sold at several prices. This video shows how to add options, create variants with their own SKU, price and picture, what shoppers see, and how to offer several prices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why variants and prices",
+      "subtitle": "One product, many ways to buy it",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shirt in three sizes and two colors is not six products. It is one product that comes in versions."
+            },
+            {
+              "id": "why-2",
+              "text": "Making six items means six pages to keep in step, six prices to change, and shoppers who cannot see the choice they have."
+            },
+            {
+              "id": "why-3",
+              "text": "Variants keep one product, with a variant for each combination of its options, each with its own SKU, price and picture."
+            },
+            {
+              "id": "why-4",
+              "text": "Product prices go further: one item sold monthly, yearly, once, or for an amount the buyer chooses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it fits together",
+      "subtitle": "Options, variants and prices",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You give the content type its options, such as Size and Color, once."
+            },
+            {
+              "id": "how-2",
+              "text": "On each product, you enter the values of each option. The product gets one variant for each combination."
+            },
+            {
+              "id": "how-3",
+              "text": "Shoppers pick a variant before adding to the cart, and the cart and order record the one they chose."
+            },
+            {
+              "id": "how-4",
+              "text": "The Product prices part is separate: it adds a Prices section with the ways an item can be bought."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Give the type its options",
+      "subtitle": "The Product variants part",
+      "clips": [
+        {
+          "id": "03-options",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "opt-1",
+              "text": "Open Content, Content Definition, Content Types, edit Product, click Add Parts, and add Product variants."
+            },
+            {
+              "id": "opt-2",
+              "text": "Click Edit next to the Product variants part. Under Options, enter one option on each row, such as Size and Color. Tick Filterable for an option visitors can filter listings by, and save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Variants of a product",
+      "subtitle": "Values, SKUs and prices",
+      "clips": [
+        {
+          "id": "04-values",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "val-1",
+              "text": "On a product, under Variants, enter the values of each option, separated by commas, such as S, M, L, and save. The product gets one variant for each combination, such as S, Green."
+            },
+            {
+              "id": "val-2",
+              "text": "In the table that appears, Sold stops selling a variant without losing it. SKU is the variant's own, and each must be different. Price is the variant's own, and Compare-at price a was price. Image picks one of the product's photos."
+            },
+            {
+              "id": "val-3",
+              "text": "Leave a field empty to use the product's. When you change the values later, a variant keeps its SKU and prices while its combination stays."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "What shoppers see",
+      "subtitle": "From a price, filters and choices",
+      "clips": [
+        {
+          "id": "05-shop",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shp-1",
+              "text": "In listings, a product whose variants are priced differently shows From, with its lowest price. A filter on a filterable option finds the product when any variant on sale has that value."
+            },
+            {
+              "id": "shp-2",
+              "text": "On the product's page, Add to cart offers one list for each option. The price, the SKU and the photo change to the chosen variant's. A value with no variant on sale cannot be chosen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Product prices",
+      "subtitle": "Several ways to buy one item",
+      "clips": [
+        {
+          "id": "06-prices",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prc-1",
+              "text": "Add the Product prices part to the type. On a product, the Prices section lists the ways it can be bought. Fill in the first price, marked Default, and click Add a price for another."
+            },
+            {
+              "id": "prc-2",
+              "text": "Each price has a Name, an Amount and a currency. Charged is once or Recurring, and recurring shows how often to bill, the cycles, trial days, a delay before billing starts, and a setup fee."
+            },
+            {
+              "id": "prc-3",
+              "text": "Offered from and Offered until limit when a price is offered. Buyer names the amount lets a buyer enter their own, such as a donation, within a minimum and maximum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Four ways to use variants and prices",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Clothing: sizes and colors, with a stock keeping unit for each."
+            },
+            {
+              "id": "use-2",
+              "text": "A premium finish: a variant with its own higher price and picture."
+            },
+            {
+              "id": "use-3",
+              "text": "A club: the same product sold once, monthly or yearly."
+            },
+            {
+              "id": "use-4",
+              "text": "A donation: the buyer names the amount."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "One product, a variant for each choice, and a price for each way to buy it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

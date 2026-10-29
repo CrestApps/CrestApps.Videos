@@ -1,0 +1,88 @@
+{
+  "title": "Product Variants and Prices: Sizes, Colors, SKUs and Recurring Prices | CrestApps for Orchard Core",
+  "description": "A shirt in three sizes and two colors is one product with variants, not six products. CrestApps variants give each combination of a product's options its own SKU, price and picture, shoppers choose a variant before adding to the cart, and the Product prices part offers one item once, monthly, yearly or for an amount the buyer names.\n\nIn this video:\n• Why variants and prices, and how options, variants and prices fit together\n• Giving the Product type its options with the Product variants part\n• Entering a product's values, and each variant's SKU and price\n• What shoppers see: From prices, filters and one list for each option\n• The Product prices part: once, recurring, dates and the buyer's own amount",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "product variants",
+    "pricing",
+    "SKU",
+    "recurring prices",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why variants and prices"
+    },
+    {
+      "time": "0:57",
+      "title": "How it fits together"
+    },
+    {
+      "time": "1:28",
+      "title": "Give the type its options"
+    },
+    {
+      "time": "1:59",
+      "title": "Variants of a product"
+    },
+    {
+      "time": "2:44",
+      "title": "What shoppers see"
+    },
+    {
+      "time": "3:14",
+      "title": "Product prices"
+    },
+    {
+      "time": "3:55",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:20",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Products and currencies (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/products-and-currencies"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/products"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Products"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/products-and-currencies.md"
+  ],
+  "length": "4:28"
+}
