@@ -1,0 +1,308 @@
+{
+  "title": "Contact Center Troubleshooting",
+  "output": "contact-center-troubleshooting",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "STOP": "stop",
+    "START": "start"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Troubleshooting",
+      "subtitle": "Find the symptom, then check in order",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Most problems in the contact center are a missing permission, a missing setup record, or a phone that is not signed in. This video follows the troubleshooting page: find the symptom, and work through its checks. It shows the screens where problems are diagnosed, and uses slides for the checklists."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "How to use it",
+      "subtitle": "Symptom first",
+      "clips": [
+        {
+          "id": "01-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Find your symptom, and work through its checks in order. When a check needs your administrator or IT, the page says so."
+            },
+            {
+              "id": "use-2",
+              "text": "Most problems come down to three things. A permission is missing, a setup record is missing, or the phone is not signed in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "A menu or a button is missing",
+      "subtitle": "Permissions, features and settings",
+      "clips": [
+        {
+          "id": "02-menu",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "menu-1",
+              "text": "Check the page for that task in the manual: a table at the top names the menu, the permission and the feature. Without the permission, or with the feature off, the menu is hidden. A role's permissions are under Access Control, Roles."
+            },
+            {
+              "id": "menu-2",
+              "text": "Some buttons need a site setting. Pause recording appears only when Allow agents to pause recording is on, in the Recording governance tab. Collect data securely needs Enable agent-assisted secure data capture, in the Secure Data Capture tab."
+            },
+            {
+              "id": "menu-3",
+              "text": "The Diagnostics tab of the soft phone appears only when the administrator enables it, in the soft phone settings of Telephony settings."
+            }
+          ]
+        },
+        {
+          "id": "02b-moments",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "moment-1",
+              "text": "Some buttons appear only at the right moment. Listen, Whisper and Barge show on an agent's card only while the agent is on a call. Complete activity shows once there is an activity to complete. And the Agent role does not include the soft phone permission, so ask for it."
+            }
+          ]
+        }
+      ],
+      "short": "menu"
+    },
+    {
+      "id": "03",
+      "title": "A page is empty",
+      "subtitle": "Entitlements and filters",
+      "clips": [
+        {
+          "id": "03-empty",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "empty-1",
+              "text": "The live dashboard and the shared voicemail show only the queues and campaigns on your own agent entitlement record, even for administrators. Here the dashboard is empty, because this administrator has no entitlement record."
+            },
+            {
+              "id": "empty-2",
+              "text": "The same rule applies in the Work tab of the soft phone. You sign in only to the queues and campaigns you are entitled to, so when one is missing, ask your manager to add it to your entitlement record."
+            }
+          ]
+        },
+        {
+          "id": "03b-lists",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "An empty activity list is often a filter. Activities lists only manual activities assigned to you that are not started yet, so unassigned dialer work and automated AI activities are not listed there."
+            },
+            {
+              "id": "list-2",
+              "text": "An empty report is usually the date range, which starts on today. Pick a longer range, clear the queue, agent or campaign filters, and check that you may view the reports."
+            }
+          ]
+        }
+      ],
+      "short": "empty"
+    },
+    {
+      "id": "04",
+      "title": "My phone does not ring",
+      "subtitle": "Checks, in order",
+      "clips": [
+        {
+          "id": "04-ring",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ring-1",
+              "text": "Open My workspace. It shows Connected while live updates work. With Reconnecting or Disconnected, new offers do not appear until it reconnects, so reload the page."
+            }
+          ]
+        },
+        {
+          "id": "04b-checks",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ring-2",
+              "text": "Is the phone app running and signed in to the site? The Windows app keeps running in the tray, and calls do not ring after you choose Quit. Are you signed in to the queue, and Available?"
+            },
+            {
+              "id": "ring-3",
+              "text": "Is the queue open? Routing pauses while its business hours calendar is closed. Is the number routed to your queue, and do you have the skills the queue requires?"
+            },
+            {
+              "id": "ring-4",
+              "text": "An offer rings for 30 seconds by default, then follows the queue's unanswered-offer action. If your state became Away with the reason Phone unreachable, check the soft phone, then set yourself Available. Does nothing ring for anyone? Ask your administrator: with Telnyx, calls are rejected until the Webhook public key is set."
+            }
+          ]
+        }
+      ],
+      "short": "ring"
+    },
+    {
+      "id": "05",
+      "title": "No audio, or poor audio",
+      "subtitle": "The soft phone's tools",
+      "clips": [
+        {
+          "id": "05-checks",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "audio-1",
+              "text": "Check that the browser allows the microphone, and click Retry microphone. Pick the Microphone and the Speaker with the headset button, and check that the call is not muted or on hold."
+            }
+          ]
+        },
+        {
+          "id": "05b-diag",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "audio-2",
+              "text": "When the Diagnostics tab is enabled, click Run audio test, and share the result with support."
+            }
+          ]
+        },
+        {
+          "id": "05c-quality",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "audio-3",
+              "text": "A Poor connection badge means your network is struggling. Move closer to the Wi-Fi, use a wired connection, or try another Region. Is the audio still silent for everyone? Ask your administrator, because it is often a network or firewall setting."
+            }
+          ]
+        }
+      ],
+      "short": "audio"
+    },
+    {
+      "id": "06",
+      "title": "Texts and the AI",
+      "subtitle": "Messages and automated calls",
+      "clips": [
+        {
+          "id": "06-texts",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "text-1",
+              "text": "Texts not sent or received? The number must be on Omnichannel Addresses with Text messages ticked, and the right SMS provider. A customer who texted stop gets no messages until they text start. Missing from your inbox? Check the Unassigned filter."
+            },
+            {
+              "id": "text-3",
+              "text": "The AI does not answer? The entry point must be open, and Route to must be an AI agent with a profile picked. Calls to an AI entry point are refused when the Telnyx AI Voice Agent feature is off. On an automatic load, check that it reached Loaded, and that the contact did not opt out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "The dialer is not calling",
+      "subtitle": "Why is it not dialing",
+      "clips": [
+        {
+          "id": "07-dialer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dialer-1",
+              "text": "The live dashboard has a panel named Why isn't this dialing. It says what holds a campaign back. Here it says that no work is waiting to be dispatched."
+            }
+          ]
+        },
+        {
+          "id": "07b-dialer-checks",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dialer-2",
+              "text": "Are agents signed in to the campaign and Available? The dialer calls only for available agents signed in to the campaign. Is the dialer profile enabled? A disabled profile places no calls."
+            },
+            {
+              "id": "dialer-3",
+              "text": "Is the calling window open? A closed calendar means the records are tried again in a later cycle. Has the abandonment cap stopped dialing? Are records left? Check Manage Activities."
+            }
+          ]
+        }
+      ],
+      "short": "dialer"
+    },
+    {
+      "id": "08",
+      "title": "Wrap-up, contacts and loads",
+      "subtitle": "Quick answers",
+      "clips": [
+        {
+          "id": "08-quick",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "quick-1",
+              "text": "Stuck in wrap-up? Complete the activity: pick a disposition, and click Complete. If you leave it open, wrap-up ends on its own after 15 minutes, unless your administrator changed that."
+            },
+            {
+              "id": "quick-2",
+              "text": "Cannot find a contact? Search by name or number, try fewer digits, and remember that leads are listed apart from contacts."
+            },
+            {
+              "id": "quick-3",
+              "text": "A load did not create what you expected? Read the load's report, which counts every matching record that was not loaded, with the reason. A load cannot be edited once it has started. Create a new one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Still stuck",
+      "subtitle": "What to send",
+      "clips": [
+        {
+          "id": "09-stuck",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "stuck-1",
+              "text": "Write down what you did, what you expected, what happened, and the time, and send it to your administrator. IT and support teams have the runbooks, the production support page and the telephony pages in the technical manual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Find the symptom, check the permission, the setup record and the phone, and ask your administrator when a check says so. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

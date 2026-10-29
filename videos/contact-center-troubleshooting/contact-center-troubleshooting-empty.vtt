@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.191 --> 00:00:08.256
+The live dashboard and the shared voicemail show only the queues and campaigns
+
+00:00:08.256 --> 00:00:12.355
+on your own agent entitlement record, even for administrators.
+
+00:00:12.355 --> 00:00:17.661
+Here the dashboard is empty, because this administrator has no entitlement record.
+
+00:00:18.114 --> 00:00:21.411
+The same rule applies in the Work tab of the soft phone.
+
+00:00:21.411 --> 00:00:25.187
+You sign in only to the queues and campaigns you are entitled to,
+
+00:00:25.187 --> 00:00:29.654
+so when one is missing, ask your manager to add it to your entitlement record.
+
+00:00:31.254 --> 00:00:34.135
+An empty activity list is often a filter.
+
+00:00:34.135 --> 00:00:39.468
+Activities lists only manual activities assigned to you that are not started yet,
+
+00:00:39.468 --> 00:00:44.434
+so unassigned dialer work and automated AI activities are not listed there.
+
+00:00:45.184 --> 00:00:49.558
+An empty report is usually the date range, which starts on today.
+
+00:00:49.558 --> 00:00:54.486
+Pick a longer range, clear the queue, agent or campaign filters, and check
+
+00:00:54.486 --> 00:00:56.704
+that you may view the reports.
+
