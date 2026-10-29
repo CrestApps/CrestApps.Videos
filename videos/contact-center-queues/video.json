@@ -1,0 +1,100 @@
+{
+  "title": "Queues: Decide Who Takes the Next Call, and What Callers Hear | CrestApps for Orchard Core",
+  "description": "When many customers call at once, someone must decide who is served first and which agent takes the call. A CrestApps queue holds the waiting work, offers it to the right agent, tells callers what is happening while they wait, and decides what to do when nobody answers, you are closed, or the line is too long.\n\nIn this video:\n• Why queues, and how groups, queues and their cards fit together\n• Creating a queue group and a queue\n• Routing: priority, routing strategy, the last assigned agent, and the reservation timeout\n• Service levels and required skills\n• Business hours, overflow and limits\n• What callers hear while they wait, and callbacks\n• Cloning a queue, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "queues",
+    "queue groups",
+    "call routing",
+    "routing strategy",
+    "overflow",
+    "service level",
+    "callback",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why queues"
+    },
+    {
+      "time": "0:45",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:19",
+      "title": "Create a queue"
+    },
+    {
+      "time": "2:02",
+      "title": "Routing"
+    },
+    {
+      "time": "2:51",
+      "title": "Service levels and skills"
+    },
+    {
+      "time": "3:30",
+      "title": "Hours, overflow and limits"
+    },
+    {
+      "time": "4:12",
+      "title": "While callers wait"
+    },
+    {
+      "time": "4:55",
+      "title": "Clone a queue"
+    },
+    {
+      "time": "5:15",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:43",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/queues"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Work Distribution)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/queues.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "5:53"
+}

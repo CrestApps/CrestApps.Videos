@@ -1,0 +1,280 @@
+{
+  "title": "Queues",
+  "output": "contact-center-queues",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "SLA": "S.L.A.",
+    "IVR": "I.V.R."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Queues",
+      "subtitle": "Where waiting work lines up for an agent",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A queue is where waiting calls, callbacks and messages line up until an agent takes them. This video shows why queues exist, and how to create one: how the next agent is chosen, which skills are needed, what happens outside business hours, and what callers hear while they wait."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why queues",
+      "subtitle": "Work waits in an orderly line",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "When ten customers call at once, someone must decide who is served first, and which agent takes the call."
+            },
+            {
+              "id": "why-2",
+              "text": "A queue holds the waiting work, offers it to the right agent, and tells callers what is happening while they wait."
+            },
+            {
+              "id": "why-3",
+              "text": "It also decides what to do when nobody answers, when you are closed, or when the line is too long."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Groups, queues and their cards",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A queue group only organizes queues for administration and reports, such as Sales and Service. It never changes routing."
+            },
+            {
+              "id": "how-2",
+              "text": "A queue has cards for routing, service levels, skills, hours and overflow, limits, what callers hear, and callbacks. Only the name is required. Every other value has a default."
+            },
+            {
+              "id": "how-3",
+              "text": "Phone calls reach a queue through an inbound entry point. Agents take work once they sign in to the queue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create a queue",
+      "subtitle": "A group, then the General card",
+      "clips": [
+        {
+          "id": "03-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cre-1",
+              "text": "Open Interaction Center, Management, Queue groups, and click Add queue group. Give it a Name, here Service, and save. Groups are optional."
+            },
+            {
+              "id": "cre-2",
+              "text": "Now open Queues and click Add Queue. On the General card, type a Name, such as Support, and a Description for administrators."
+            },
+            {
+              "id": "cre-3",
+              "text": "Pick the Queue group. Enabled is ticked: a disabled queue receives no new assignments."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "04",
+      "title": "Routing",
+      "subtitle": "Who gets the next call",
+      "clips": [
+        {
+          "id": "04-routing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rou-1",
+              "text": "On the Routing card, Default priority decides which waiting items are offered first. Normal is the default."
+            },
+            {
+              "id": "rou-2",
+              "text": "Routing strategy picks the next agent. Longest idle is the agent who has been available the longest. Round robin is the agent who least recently got work. Least busy is the agent with the fewest active interactions."
+            },
+            {
+              "id": "rou-3",
+              "text": "Prefer the last assigned agent offers a returning customer to the agent they spoke to before, when that agent is available."
+            },
+            {
+              "id": "rou-4",
+              "text": "Reservation timeout is how many seconds an offer rings for one agent. Unanswered offer action says what happens next: Requeue, Send to voicemail, or Reject call."
+            }
+          ]
+        }
+      ],
+      "short": "routing"
+    },
+    {
+      "id": "05",
+      "title": "Service levels and skills",
+      "subtitle": "Targets, and who may take the work",
+      "clips": [
+        {
+          "id": "05-skills",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ski-1",
+              "text": "On the Service levels card, the SLA threshold is how long an item may wait before it breaches the service level. The Live dashboard counts the breaches."
+            },
+            {
+              "id": "ski-2",
+              "text": "Age waiting items past the SLA threshold raises their priority, so old items are not stuck behind new ones. First-response target is for messages."
+            },
+            {
+              "id": "ski-3",
+              "text": "Under Skills, Required skills lists skills an agent must hold. Add skill requirement is finer: a minimum proficiency, required or only preferred, and a time after which the rule is dropped."
+            }
+          ]
+        }
+      ],
+      "short": "skills"
+    },
+    {
+      "id": "06",
+      "title": "Hours, overflow and limits",
+      "subtitle": "Closed, too long, too busy",
+      "clips": [
+        {
+          "id": "06-overflow",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ovf-1",
+              "text": "On the Hours and overflow card, pick a Business hours calendar. Routing pauses while the queue is closed. The After-hours action is Hold in queue, or Overflow to another queue."
+            },
+            {
+              "id": "ovf-2",
+              "text": "Overflow queue and Overflow after set a single hop: after that many seconds of waiting, the caller moves to the other queue. Add overflow hop builds a chain of several."
+            },
+            {
+              "id": "ovf-3",
+              "text": "On the Limits card, Maximum callers waiting and Maximum wait cap the line. Queue-full action and Maximum-wait action say what happens: admit anyway, overflow, or voicemail."
+            }
+          ]
+        }
+      ],
+      "short": "overflow"
+    },
+    {
+      "id": "07",
+      "title": "While callers wait",
+      "subtitle": "Messages, music and callbacks",
+      "clips": [
+        {
+          "id": "07-waiting",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wai-1",
+              "text": "On the While callers wait card, the Welcome message is spoken once when the caller enters the queue. Hold music comes from Voice media. Empty uses the phone provider's default."
+            },
+            {
+              "id": "wai-2",
+              "text": "The Announcement interval interrupts the music with an update. Announce the caller's place in line, and Announce the estimated wait, set what it says. The estimate uses the Average handle time."
+            },
+            {
+              "id": "wai-3",
+              "text": "On the Callback card, the Callback key is the key a waiting caller presses to hang up and be called back, and keep their place in line. Offer callback after sets how long they wait first. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "waiting"
+    },
+    {
+      "id": "08",
+      "title": "Clone a queue",
+      "subtitle": "Start from an existing queue",
+      "clips": [
+        {
+          "id": "08-clone",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cln-1",
+              "text": "To start from an existing queue, open its Actions menu in the list and choose Clone."
+            },
+            {
+              "id": "cln-2",
+              "text": "The form opens with every setting copied, and the name Copy of. The agents who work the original queue are not added to the copy."
+            }
+          ]
+        }
+      ],
+      "short": "clone"
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where queues help",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A support line that serves the longest idle agent first, and overflows to a general queue after two minutes."
+            },
+            {
+              "id": "use-2",
+              "text": "A Spanish queue that only offers work to agents with the Spanish skill."
+            },
+            {
+              "id": "use-3",
+              "text": "A sales queue that closes at night, and takes voicemail."
+            },
+            {
+              "id": "use-4",
+              "text": "A busy line that offers a callback, so customers do not wait on hold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create a queue, choose how agents are picked, and set what callers hear. Then point an entry point at it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

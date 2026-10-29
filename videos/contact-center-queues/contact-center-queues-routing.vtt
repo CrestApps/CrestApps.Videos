@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:08.868
+On the Routing card, Default priority decides which waiting items are offered first.
+
+00:00:08.868 --> 00:00:10.600
+Normal is the default.
+
+00:00:11.152 --> 00:00:13.900
+Routing strategy picks the next agent.
+
+00:00:13.900 --> 00:00:18.085
+Longest idle is the agent who has been available the longest.
+
+00:00:18.085 --> 00:00:21.770
+Round robin is the agent who least recently got work.
+
+00:00:21.770 --> 00:00:25.892
+Least busy is the agent with the fewest active interactions.
+
+00:00:26.407 --> 00:00:31.192
+Prefer the last assigned agent offers a returning customer to the agent they
+
+00:00:31.192 --> 00:00:34.227
+spoke to before, when that agent is available.
+
+00:00:34.887 --> 00:00:40.166
+Reservation timeout is how many seconds an offer rings for one agent.
+
+00:00:40.166 --> 00:00:43.897
+Unanswered offer action says what happens next:
+
+00:00:43.897 --> 00:00:47.347
+Requeue, Send to voicemail, or Reject call.
+
