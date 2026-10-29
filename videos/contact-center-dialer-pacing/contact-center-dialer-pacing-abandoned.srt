@@ -1,0 +1,80 @@
+1
+00:00:03,275 --> 00:00:06,661
+Open the profile, and find the Abandoned calls card.
+
+2
+00:00:06,661 --> 00:00:11,332
+Measured abandonment at the top shows the rate over the rolling window and
+
+3
+00:00:11,332 --> 00:00:14,544
+over the last 30 days, with the counts behind it.
+
+4
+00:00:14,544 --> 00:00:18,105
+It is zero here, because this site has placed no calls.
+
+5
+00:00:18,753 --> 00:00:24,623
+Tick Enforce an abandonment-rate cap, and automated dialing pauses while too many answered
+
+6
+00:00:24,623 --> 00:00:26,213
+calls find no agent.
+
+7
+00:00:26,687 --> 00:00:31,740
+Maximum abandonment rate is the cap, as a share of the calls a person answered.
+
+8
+00:00:31,740 --> 00:00:36,793
+Abandonment sample floor is how many answered calls the window needs before the
+
+9
+00:00:36,793 --> 00:00:40,657
+cap applies, so a few early calls cannot stop the campaign.
+
+10
+00:00:41,155 --> 00:00:45,406
+Play a message when a call is abandoned plays your message instead of
+
+11
+00:00:45,406 --> 00:00:46,993
+hanging up in silence.
+
+12
+00:00:46,993 --> 00:00:50,565
+A warning shows while it is off, and the cap needs it on.
+
+13
+00:00:51,033 --> 00:00:53,924
+Abandoned call message is what the person hears.
+
+14
+00:00:53,924 --> 00:00:57,242
+Say who is calling, and give a number to call back or to
+
+15
+00:00:57,242 --> 00:00:59,008
+ask not to be called again.
+
+16
+00:00:59,008 --> 00:01:02,862
+The site name and the number the person was called from are filled
+
+17
+00:01:02,862 --> 00:01:04,093
+in for each call.
+
+18
+00:01:05,693 --> 00:01:09,375
+Measured abandonment counts only calls a person answered.
+
+19
+00:01:09,375 --> 00:01:13,992
+It is measured for each profile, not for each campaign, so campaigns that
+
+20
+00:01:13,992 --> 00:01:16,563
+share a profile are measured together.
+

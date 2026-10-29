@@ -1,0 +1,88 @@
+{
+  "title": "Dialer Pacing: Abandoned Calls, Predictive Dialing and Retries | CrestApps for Orchard Core",
+  "description": "Automatic dialing places calls for your agents, so it needs guardrails. A call is abandoned when a person answers and no agent joins within two seconds, and many rules limit how often that may happen. This video covers the abandoned-call settings of a dialer profile in the CrestApps Contact Center for Orchard Core, Predictive pacing, what the dialer does with every record, and how retries work.\n\nIn this video:\n• Why abandoned calls matter\n• The abandonment-rate cap and the abandoned-call message\n• Predictive pacing: one call per reserved agent, or over-dial\n• The checks the dialer runs before every call, and how a call that ends early is dispositioned\n• Retries and the attempt limit\n• Where pacing settings help",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "dialer",
+    "predictive dialing",
+    "power dialing",
+    "abandoned calls",
+    "abandonment rate",
+    "outbound calling",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why abandoned calls matter"
+    },
+    {
+      "time": "0:56",
+      "title": "Abandoned calls"
+    },
+    {
+      "time": "2:14",
+      "title": "Predictive pacing"
+    },
+    {
+      "time": "4:22",
+      "title": "What happens to each record"
+    },
+    {
+      "time": "5:18",
+      "title": "Retries and the attempt limit"
+    },
+    {
+      "time": "6:18",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:44",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/dialer-profiles"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Dialer.Paced"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "6:56"
+}

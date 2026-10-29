@@ -1,0 +1,52 @@
+1
+00:00:03,200 --> 00:00:05,541
+The subject flow decides first.
+
+2
+00:00:05,541 --> 00:00:10,159
+If its Try Again action sets Maximum attempts, that number is used.
+
+3
+00:00:10,159 --> 00:00:14,208
+If it leaves it empty, the profile's Max attempts is used.
+
+4
+00:00:14,208 --> 00:00:18,320
+If the flow has a disposition for how the call ended but no
+
+5
+00:00:18,320 --> 00:00:21,420
+Try Again, the contact is not called again.
+
+6
+00:00:22,170 --> 00:00:26,235
+If the flow has no disposition for how the call ended, the dialer
+
+7
+00:00:26,235 --> 00:00:31,274
+dispositions the call with the matching outcome, and calls the contact again after
+
+8
+00:00:31,274 --> 00:00:34,480
+the Retry delay, up to the profile's Max attempts.
+
+9
+00:00:35,230 --> 00:00:40,096
+A date picked when the call is dispositioned, or the Try Again action's
+
+10
+00:00:40,096 --> 00:00:43,382
+Default schedule hours, sets the next attempt.
+
+11
+00:00:43,382 --> 00:00:47,489
+Otherwise it is dialed after the Retry delay, never sooner.
+
+12
+00:00:47,489 --> 00:00:52,860
+Only calls that rang out, were busy, reached a machine, or dropped are retried.
+
+13
+00:00:52,860 --> 00:00:58,800
+Attempts count across follow-ups, so a limit of three means the first call and two more.
+

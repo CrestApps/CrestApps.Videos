@@ -1,0 +1,48 @@
+1
+00:00:03,200 --> 00:00:06,194
+Before every call, the dialer checks in order:
+
+2
+00:00:06,194 --> 00:00:10,341
+the number is valid and not out of service, attempts are left, the
+
+3
+00:00:10,341 --> 00:00:14,890
+retry delay has passed, the contact has not opted out, the calling window
+
+4
+00:00:14,890 --> 00:00:19,900
+is open, the cap allows dialing, and the number is not on a do-not-call registry.
+
+5
+00:00:20,650 --> 00:00:23,761
+A record with no valid number becomes Failed.
+
+6
+00:00:23,761 --> 00:00:26,811
+A record with no attempts left is Completed.
+
+7
+00:00:26,811 --> 00:00:30,838
+A record on a do-not-call list, or with a number known to be
+
+8
+00:00:30,838 --> 00:00:34,498
+out of service, becomes Cancelled and is never dialed.
+
+9
+00:00:34,498 --> 00:00:37,670
+Anything else is tried again in a later cycle.
+
+10
+00:00:38,420 --> 00:00:44,609
+A call that ends before an agent is connected is dispositioned by the dialer itself:
+
+11
+00:00:44,609 --> 00:00:51,761
+No answer, Busy, Answering machine, Rejected, Call failed, Disconnected, or Number not in service.
+
+12
+00:00:51,761 --> 00:00:55,200
+The agent never sees it, and has no wrap-up.
+

@@ -1,0 +1,246 @@
+{
+  "title": "Dialer Pacing",
+  "output": "contact-center-dialer-pacing",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Dialer Pacing",
+      "subtitle": "Abandoned calls, predictive dialing and retries",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Automatic dialing places calls for your agents, so it needs guardrails. This video covers the abandoned-call settings of a dialer profile, Predictive pacing, what the dialer does with every record, and how retries work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why abandoned calls matter",
+      "subtitle": "A person answers and no one is there",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "With Power, Progressive and Predictive dialing, the customer is dialed first. An agent is connected once a person answers."
+            },
+            {
+              "id": "why-2",
+              "text": "A call is abandoned when a person answers and no agent is connected to them within two seconds. The person hears silence, or hangs up."
+            },
+            {
+              "id": "why-3",
+              "text": "Rules in many places limit how many calls may be abandoned. A dialer profile measures the rate, can stop dialing at a limit, and can play a message. Confirm which rules apply to you: the settings do not make a campaign compliant on their own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Abandoned calls",
+      "subtitle": "The cap and the message",
+      "clips": [
+        {
+          "id": "02-abandoned",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ab-1",
+              "text": "Open the profile, and find the Abandoned calls card. Measured abandonment at the top shows the rate over the rolling window and over the last 30 days, with the counts behind it. It is zero here, because this site has placed no calls."
+            },
+            {
+              "id": "ab-2",
+              "text": "Tick Enforce an abandonment-rate cap, and automated dialing pauses while too many answered calls find no agent."
+            },
+            {
+              "id": "ab-3",
+              "text": "Maximum abandonment rate is the cap, as a share of the calls a person answered. Abandonment sample floor is how many answered calls the window needs before the cap applies, so a few early calls cannot stop the campaign."
+            },
+            {
+              "id": "ab-4",
+              "text": "Play a message when a call is abandoned plays your message instead of hanging up in silence. A warning shows while it is off, and the cap needs it on."
+            },
+            {
+              "id": "ab-5",
+              "text": "Abandoned call message is what the person hears. Say who is calling, and give a number to call back or to ask not to be called again. The site name and the number the person was called from are filled in for each call."
+            }
+          ]
+        },
+        {
+          "id": "02b-measured",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "meas-1",
+              "text": "Measured abandonment counts only calls a person answered. It is measured for each profile, not for each campaign, so campaigns that share a profile are measured together."
+            }
+          ]
+        }
+      ],
+      "short": "abandoned"
+    },
+    {
+      "id": "03",
+      "title": "Predictive pacing",
+      "subtitle": "One call per agent, or over-dial",
+      "clips": [
+        {
+          "id": "03-predictive",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pred-1",
+              "text": "Choose Predictive, and the Predictive pacing card appears. Pacing is One call per reserved agent by default. Each call reserves its own available agent, and fewer calls are placed as the abandonment rate nears the cap."
+            },
+            {
+              "id": "pred-2",
+              "text": "Over-dial places more calls than there are free agents, because most calls are not answered. The Target abandonment rate is what it steers toward, and it must stay below the Maximum abandonment rate."
+            },
+            {
+              "id": "pred-3",
+              "text": "Lines per agent is the most calls ringing for each free agent. Calls in flight is the most calls ringing at once for one campaign. Both stay in force whatever the answer rate suggests."
+            },
+            {
+              "id": "pred-4",
+              "text": "The answer rate must be trusted first. Answer rate sample floor is how many calls need an outcome, and Answer rate window is how far back they are counted. Until then, the profile dials one call per reserved agent."
+            },
+            {
+              "id": "pred-5",
+              "text": "Count agents about to free up adds agents expected to finish soon. Connect wait is how long a person may wait for an agent. Zero is recommended, because a call not connected within two seconds counts as abandoned."
+            },
+            {
+              "id": "pred-6",
+              "text": "Retry abandoned calls only with an agent reserved is on by default, so no one is abandoned twice. Over-dial needs the cap, the message and a target below the cap, so the profile cannot be saved without them."
+            },
+            {
+              "id": "pred-7",
+              "text": "Turn on the cap and the message, and the profile saves. The list now shows a Power profile and a Predictive profile."
+            }
+          ]
+        },
+        {
+          "id": "03b-live",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "live-1",
+              "text": "With over-dial, no agent is reserved while calls ring. When a person answers, the free agent who has waited longest is connected. If nobody is free, the person hears the abandoned-call message and the call counts as abandoned."
+            },
+            {
+              "id": "live-2",
+              "text": "Over-dial does not start until it can trust its numbers. Until then, and whenever the rate is at or near the cap, it dials one call per reserved agent. It stops altogether when the rate cannot be measured."
+            }
+          ]
+        }
+      ],
+      "short": "predictive"
+    },
+    {
+      "id": "04",
+      "title": "What happens to each record",
+      "subtitle": "The checks before every call",
+      "clips": [
+        {
+          "id": "04-records",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "Before every call, the dialer checks in order: the number is valid and not out of service, attempts are left, the retry delay has passed, the contact has not opted out, the calling window is open, the cap allows dialing, and the number is not on a do-not-call registry."
+            },
+            {
+              "id": "rec-2",
+              "text": "A record with no valid number becomes Failed. A record with no attempts left is Completed. A record on a do-not-call list, or with a number known to be out of service, becomes Cancelled and is never dialed. Anything else is tried again in a later cycle."
+            },
+            {
+              "id": "rec-3",
+              "text": "A call that ends before an agent is connected is dispositioned by the dialer itself: No answer, Busy, Answering machine, Rejected, Call failed, Disconnected, or Number not in service. The agent never sees it, and has no wrap-up."
+            }
+          ]
+        }
+      ],
+      "short": "records"
+    },
+    {
+      "id": "05",
+      "title": "Retries and the attempt limit",
+      "subtitle": "The subject flow decides first",
+      "clips": [
+        {
+          "id": "05-retries",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "retry-1",
+              "text": "The subject flow decides first. If its Try Again action sets Maximum attempts, that number is used. If it leaves it empty, the profile's Max attempts is used. If the flow has a disposition for how the call ended but no Try Again, the contact is not called again."
+            },
+            {
+              "id": "retry-2",
+              "text": "If the flow has no disposition for how the call ended, the dialer dispositions the call with the matching outcome, and calls the contact again after the Retry delay, up to the profile's Max attempts."
+            },
+            {
+              "id": "retry-3",
+              "text": "A date picked when the call is dispositioned, or the Try Again action's Default schedule hours, sets the next attempt. Otherwise it is dialed after the Retry delay, never sooner. Only calls that rang out, were busy, reached a machine, or dropped are retried. Attempts count across follow-ups, so a limit of three means the first call and two more."
+            }
+          ]
+        }
+      ],
+      "short": "retries"
+    },
+    {
+      "id": "06",
+      "title": "Use cases",
+      "subtitle": "Where pacing settings help",
+      "clips": [
+        {
+          "id": "06-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A long list and a small team uses Power with one or two calls per agent, so agents spend their time talking, not dialing."
+            },
+            {
+              "id": "use-2",
+              "text": "A campaign under calling rules turns on the cap and the message, and reads Measured abandonment during the first days."
+            },
+            {
+              "id": "use-3",
+              "text": "Numbers that were not answered are called again on their own, within the limits you set."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose how calls are paced, protect the people who answer, and let the subject flow and the profile decide what happens next. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
