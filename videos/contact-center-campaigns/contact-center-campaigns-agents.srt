@@ -1,0 +1,36 @@
+1
+00:00:03,231 --> 00:00:07,845
+Agents sign in only to the campaigns on their entitlements.
+
+2
+00:00:07,845 --> 00:00:13,311
+Open Agent entitlements, click Add, and pick the user, here jamie.chen.
+
+3
+00:00:19,875 --> 00:00:24,307
+Allowed campaigns lists the campaigns the agent may sign in to.
+
+4
+00:00:24,307 --> 00:00:26,170
+Pick Spring lead drive.
+
+5
+00:00:26,170 --> 00:00:30,795
+Allowed queues are for inbound work, and are set on the same page.
+
+6
+00:00:31,290 --> 00:00:32,305
+Click Save.
+
+7
+00:00:32,305 --> 00:00:36,188
+The agent now sees Spring lead drive in the Work tab of the
+
+8
+00:00:36,188 --> 00:00:38,577
+soft phone, and can sign in to it.
+
+9
+00:00:38,577 --> 00:00:42,280
+Removing a campaign here also signs the agent out of it.
+

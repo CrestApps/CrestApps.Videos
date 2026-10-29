@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.229 --> 00:00:08.149
+Open Campaigns, in the same Management menu, and click Add Campaign.
+
+00:00:14.660 --> 00:00:15.833
+Enter a Name.
+
+00:00:15.833 --> 00:00:19.290
+Pick a Campaign group, or leave No campaign group.
+
+00:00:19.290 --> 00:00:23.920
+Add an optional Description, so people know what the campaign is for.
+
+00:00:27.009 --> 00:00:28.022
+Click Save.
+
+00:00:28.022 --> 00:00:33.029
+The campaign appears in the list, with its name and the person who created it.
+
+00:00:33.567 --> 00:00:37.367
+A second campaign, Renewal reminders, has no group.
+
+00:00:37.367 --> 00:00:41.367
+It is added the same way, and the list now shows both.
+
+00:00:43.275 --> 00:00:49.822
+Campaigns and campaign groups cannot be deleted, because activities and reports keep pointing at them.
+
+00:00:49.822 --> 00:00:55.945
+Moving a campaign to another group also changes how its past activities are grouped in reports.
+

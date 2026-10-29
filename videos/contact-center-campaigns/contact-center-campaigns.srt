@@ -1,0 +1,236 @@
+1
+00:00:01,000 --> 00:00:05,325
+A campaign is a named push of work, such as a spring lead drive.
+
+2
+00:00:05,325 --> 00:00:10,454
+This video shows why campaigns and campaign groups exist, how to create them,
+
+3
+00:00:10,454 --> 00:00:14,100
+and where they are used by loads, agents and reports.
+
+4
+00:00:18,700 --> 00:00:22,314
+Calling, texting and follow-up work needs a name.
+
+5
+00:00:22,314 --> 00:00:28,490
+Without one, a report cannot tell a spring lead drive from a round of renewal reminders.
+
+6
+00:00:29,240 --> 00:00:32,728
+For the outbound dialer, the name matters even more.
+
+7
+00:00:32,728 --> 00:00:37,540
+Agents sign in to a campaign to receive the dialer calls of that campaign.
+
+8
+00:00:38,290 --> 00:00:40,685
+Related campaigns can be rolled up.
+
+9
+00:00:40,685 --> 00:00:45,242
+A campaign group shows several campaigns as one line in reports, such as
+
+10
+00:00:45,242 --> 00:00:47,170
+every campaign of a season.
+
+11
+00:00:47,920 --> 00:00:50,768
+A campaign only groups and reports work.
+
+12
+00:00:50,768 --> 00:00:56,340
+It does not choose the channel, the number used, or what happens after each outcome.
+
+13
+00:01:00,586 --> 00:01:04,280
+Open Interaction Center, Management, Campaign Groups.
+
+14
+00:01:04,280 --> 00:01:05,908
+A group is optional.
+
+15
+00:01:05,908 --> 00:01:10,666
+If you want to roll campaigns up in reports, click Add campaign group.
+
+16
+00:01:11,156 --> 00:01:15,256
+Enter a Name and an optional Description, then click Save.
+
+17
+00:01:15,256 --> 00:01:19,676
+The group appears in the list, ready to be picked by campaigns.
+
+18
+00:01:23,905 --> 00:01:28,825
+Open Campaigns, in the same Management menu, and click Add Campaign.
+
+19
+00:01:35,336 --> 00:01:36,509
+Enter a Name.
+
+20
+00:01:36,509 --> 00:01:39,966
+Pick a Campaign group, or leave No campaign group.
+
+21
+00:01:39,966 --> 00:01:44,596
+Add an optional Description, so people know what the campaign is for.
+
+22
+00:01:47,685 --> 00:01:48,698
+Click Save.
+
+23
+00:01:48,698 --> 00:01:53,705
+The campaign appears in the list, with its name and the person who created it.
+
+24
+00:01:54,243 --> 00:01:58,043
+A second campaign, Renewal reminders, has no group.
+
+25
+00:01:58,043 --> 00:02:02,043
+It is added the same way, and the list now shows both.
+
+26
+00:02:03,951 --> 00:02:10,498
+Campaigns and campaign groups cannot be deleted, because activities and reports keep pointing at them.
+
+27
+00:02:10,498 --> 00:02:16,621
+Moving a campaign to another group also changes how its past activities are grouped in reports.
+
+28
+00:02:20,852 --> 00:02:25,466
+Agents sign in only to the campaigns on their entitlements.
+
+29
+00:02:25,466 --> 00:02:30,932
+Open Agent entitlements, click Add, and pick the user, here jamie.chen.
+
+30
+00:02:37,496 --> 00:02:41,928
+Allowed campaigns lists the campaigns the agent may sign in to.
+
+31
+00:02:41,928 --> 00:02:43,791
+Pick Spring lead drive.
+
+32
+00:02:43,791 --> 00:02:48,416
+Allowed queues are for inbound work, and are set on the same page.
+
+33
+00:02:48,911 --> 00:02:49,926
+Click Save.
+
+34
+00:02:49,926 --> 00:02:53,809
+The agent now sees Spring lead drive in the Work tab of the
+
+35
+00:02:53,809 --> 00:02:56,198
+soft phone, and can sign in to it.
+
+36
+00:02:56,198 --> 00:02:59,901
+Removing a campaign here also signs the agent out of it.
+
+37
+00:03:04,101 --> 00:03:08,450
+A manager creates the campaign, and adds it to the entitlements of the
+
+38
+00:03:08,450 --> 00:03:09,881
+agents who work it.
+
+39
+00:03:10,631 --> 00:03:16,051
+A dialer load picks the campaign, and creates an activity for each contact in it.
+
+40
+00:03:16,801 --> 00:03:20,974
+Agents sign in to the campaign in the soft phone, and the dialer
+
+41
+00:03:20,974 --> 00:03:22,941
+offers or places its calls.
+
+42
+00:03:23,691 --> 00:03:28,407
+Every call ends with an outcome on its activity, and the reports show
+
+43
+00:03:28,407 --> 00:03:31,111
+the results by campaign and by group.
+
+44
+00:03:35,311 --> 00:03:41,032
+On an activity load, the campaign is stamped on every activity the load creates.
+
+45
+00:03:41,032 --> 00:03:44,891
+Without one, the subject's Default campaign is used.
+
+46
+00:03:45,641 --> 00:03:51,005
+On a dialer load, the campaign is required, unless the subject has a default one.
+
+47
+00:03:51,005 --> 00:03:54,211
+It is the line of work that agents sign in to.
+
+48
+00:03:54,961 --> 00:04:01,101
+On an agent's entitlements, Allowed campaigns lists the campaigns the agent may sign in to.
+
+49
+00:04:01,851 --> 00:04:06,535
+In reports, the campaign and the campaign group are filters, so you can
+
+50
+00:04:06,535 --> 00:04:09,941
+see the results of one push, or of a whole season.
+
+51
+00:04:14,141 --> 00:04:17,998
+One campaign for each push of work, such as a lead drive, a
+
+52
+00:04:17,998 --> 00:04:23,161
+renewal round or an appointment reminder, keeps the numbers of each easy to read.
+
+53
+00:04:23,911 --> 00:04:28,336
+A group for each season, region or brand lets a manager see the
+
+54
+00:04:28,336 --> 00:04:31,351
+total for all of them in one report line.
+
+55
+00:04:32,101 --> 00:04:36,374
+Calls and texts for the same push can share one campaign, so their
+
+56
+00:04:36,374 --> 00:04:38,511
+results are reported together.
+
+57
+00:04:40,511 --> 00:04:45,001
+Name each push of work, group the related ones, and agents, loads and
+
+58
+00:04:45,001 --> 00:04:47,694
+reports all point to the same campaign.
+
+59
+00:04:47,694 --> 00:04:49,251
+Thanks for watching.
+

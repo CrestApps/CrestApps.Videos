@@ -1,0 +1,20 @@
+1
+00:00:03,246 --> 00:00:06,940
+Open Interaction Center, Management, Campaign Groups.
+
+2
+00:00:06,940 --> 00:00:08,568
+A group is optional.
+
+3
+00:00:08,568 --> 00:00:13,326
+If you want to roll campaigns up in reports, click Add campaign group.
+
+4
+00:00:13,816 --> 00:00:17,916
+Enter a Name and an optional Description, then click Save.
+
+5
+00:00:17,916 --> 00:00:22,336
+The group appears in the list, ready to be picked by campaigns.
+
