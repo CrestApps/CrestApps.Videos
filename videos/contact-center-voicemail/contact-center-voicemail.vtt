@@ -1,0 +1,251 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.143
+Voicemail catches the calls nobody can answer.
+
+00:00:04.143 --> 00:00:08.615
+This video shows why it matters, where a message goes, how to record
+
+00:00:08.615 --> 00:00:13.027
+your greeting, how to listen to your messages, and how a team works
+
+00:00:13.027 --> 00:00:14.780
+a shared voicemail box.
+
+00:00:19.380 --> 00:00:24.180
+Agents step away, queues fill up, and calls arrive after hours.
+
+00:00:24.180 --> 00:00:29.120
+A caller who reaches nobody and hears silence rarely calls again.
+
+00:00:29.870 --> 00:00:33.273
+A caller who can leave a message is still a customer.
+
+00:00:33.273 --> 00:00:37.310
+But a message that sits unheard is no better than a missed call.
+
+00:00:38.060 --> 00:00:40.114
+So voicemail has two sides:
+
+00:00:40.114 --> 00:00:44.034
+a greeting that tells the caller what to do, and a way to
+
+00:00:44.034 --> 00:00:47.830
+make sure someone listens and calls back, exactly once.
+
+00:00:52.030 --> 00:00:56.726
+Voicemail goes to one of two places, chosen on the inbound entry point.
+
+00:00:56.726 --> 00:01:01.970
+The first is your own inbox, which you play from the soft phone's Voicemail tab.
+
+00:01:02.720 --> 00:01:07.239
+The second is a queue's shared voicemail box, which the whole team works
+
+00:01:07.239 --> 00:01:10.020
+from Interaction Center, Shared voicemail.
+
+00:01:14.197 --> 00:01:17.357
+Open Interaction Center, My voicemail greeting.
+
+00:01:17.357 --> 00:01:21.709
+Your greeting is what callers hear before they leave you a message.
+
+00:01:21.709 --> 00:01:25.167
+If you do not set one, the default greeting is used.
+
+00:01:25.695 --> 00:01:28.559
+Record with microphone is the default.
+
+00:01:28.559 --> 00:01:33.051
+Click Record, speak, then click Stop, which is the same button.
+
+00:01:33.051 --> 00:01:38.845
+If your browser cannot record, the page says so, and you can upload a file instead.
+
+00:01:39.310 --> 00:01:43.525
+Choose Upload a file to pick an audio file:
+
+00:01:43.525 --> 00:01:45.675
+M.P.3, wave, O.G.G.
+
+00:01:45.675 --> 00:01:49.030
+or web M, up to twenty megabytes.
+
+00:01:49.493 --> 00:01:52.538
+Listen to the Preview, and click Save greeting.
+
+00:01:52.538 --> 00:01:57.250
+The platform keeps the master copy, and sends it to whichever phone provider
+
+00:01:57.250 --> 00:01:58.973
+a caller reaches you on.
+
+00:01:59.424 --> 00:02:01.908
+Remove greeting goes back to the default.
+
+00:02:01.908 --> 00:02:05.871
+When you have no greeting of your own, callers hear the entry point's
+
+00:02:05.871 --> 00:02:10.204
+Default voicemail greeting, and when that is empty too, a built-in greeting.
+
+00:02:14.410 --> 00:02:17.873
+Open the soft phone and choose the Voicemail tab.
+
+00:02:17.873 --> 00:02:21.652
+A badge on the tab shows how many messages are unread.
+
+00:02:21.652 --> 00:02:25.430
+Opening the tab marks them read, and clears the badge.
+
+00:02:25.912 --> 00:02:29.086
+Each message shows the caller's number and the time.
+
+00:02:29.086 --> 00:02:31.110
+Here there are no messages yet.
+
+00:02:31.110 --> 00:02:34.940
+Play a message with the play button on its row; the player keeps
+
+00:02:34.940 --> 00:02:37.292
+the caller's number and time in view.
+
+00:02:37.292 --> 00:02:41.012
+Every playback is recorded in the audit trail under your name.
+
+00:02:41.465 --> 00:02:44.866
+When there are messages, you can delete them:
+
+00:02:44.866 --> 00:02:48.935
+tick one or more rows, or select all, and click Delete.
+
+00:02:48.935 --> 00:02:52.936
+Deleting removes the message and erases its recording.
+
+00:02:52.936 --> 00:02:57.405
+A message under legal hold must be kept, and the row says so.
+
+00:03:01.605 --> 00:03:06.302
+You can play and delete exactly the voicemails in your own Voicemail tab.
+
+00:03:06.302 --> 00:03:10.345
+Nobody can play or delete a message in another person's inbox.
+
+00:03:11.095 --> 00:03:14.273
+A call to you that you did not answer goes to your inbox,
+
+00:03:14.273 --> 00:03:17.955
+and so does a message when you clicked Voicemail on a ringing call.
+
+00:03:18.705 --> 00:03:22.105
+A queue call offered to you that rang out also goes to you,
+
+00:03:22.105 --> 00:03:26.289
+when the queue's Unanswered offer action is Send to voicemail, and so does
+
+00:03:26.289 --> 00:03:30.316
+a queue call that reached voicemail after its maximum wait, as the last
+
+00:03:30.316 --> 00:03:31.885
+agent it was offered to.
+
+00:03:32.635 --> 00:03:37.269
+Any other queue call that reached voicemail goes to the agent set as
+
+00:03:37.269 --> 00:03:39.775
+the entry point's Voicemail inbox.
+
+00:03:39.775 --> 00:03:44.284
+With nobody set, the message is recorded but is in nobody's inbox.
+
+00:03:44.284 --> 00:03:49.795
+To let a supervisor hear a queue line, set the Voicemail inbox to that supervisor.
+
+00:03:53.997 --> 00:03:59.018
+A queue's shared voicemail box lets a team share the messages left on a line:
+
+00:03:59.018 --> 00:04:03.435
+anyone can claim a message, call back, and mark it done, so nothing
+
+00:04:03.435 --> 00:04:06.883
+is missed and nobody calls the same customer twice.
+
+00:04:06.883 --> 00:04:09.787
+Open Interaction Center, Shared voicemail.
+
+00:04:10.284 --> 00:04:15.301
+Filter by queue, which is All my queues by default, and by status:
+
+00:04:15.301 --> 00:04:19.830
+Open, which is new and claimed, New, Claimed, Done, or All.
+
+00:04:19.830 --> 00:04:21.502
+Then click Filter.
+
+00:04:21.502 --> 00:04:25.404
+You see the queues on your own entitlement record.
+
+00:04:27.004 --> 00:04:30.700
+Play a message, then click I'll handle this to claim it, so the
+
+00:04:30.700 --> 00:04:32.896
+rest of the team knows it is yours.
+
+00:04:32.896 --> 00:04:34.771
+It then shows Claimed by you.
+
+00:04:34.771 --> 00:04:38.574
+Click Call back to call the caller back from your own soft phone.
+
+00:04:39.324 --> 00:04:43.596
+When you are finished, click Mark done and add an optional note.
+
+00:04:43.596 --> 00:04:48.784
+Return to queue releases your claim, and Reopen brings back a finished message.
+
+00:04:49.534 --> 00:04:54.226
+Take over claims a message someone else is holding, and Delete removes a
+
+00:04:54.226 --> 00:04:56.572
+message and erases its recording.
+
+00:04:56.572 --> 00:05:02.286
+Both need the permission to manage shared queue voicemail, which the Supervisor role has.
+
+00:05:02.286 --> 00:05:05.354
+A message under legal hold cannot be deleted.
+
+00:05:09.554 --> 00:05:13.692
+An agent who is often away records a greeting that gives an email
+
+00:05:13.692 --> 00:05:15.674
+address and a callback time.
+
+00:05:16.424 --> 00:05:21.401
+A support queue sends after-hours callers to its shared voicemail box, and the
+
+00:05:21.401 --> 00:05:24.364
+morning team claims and clears the messages.
+
+00:05:25.114 --> 00:05:29.573
+A supervisor is set as the entry point's voicemail inbox for a busy
+
+00:05:29.573 --> 00:05:33.054
+line, so every message that nobody caught is heard.
+
+00:05:33.804 --> 00:05:37.965
+A team lead filters the shared box by Open, and checks before lunch
+
+00:05:37.965 --> 00:05:40.644
+that nothing is waiting without an owner.
+
+00:05:42.644 --> 00:05:46.903
+Record a greeting, listen to your own inbox, and let the team claim,
+
+00:05:46.903 --> 00:05:51.278
+call back and mark done in the shared box, so no message goes unheard.
+
+00:05:51.278 --> 00:05:52.774
+Thanks for watching.
+

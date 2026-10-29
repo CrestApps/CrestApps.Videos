@@ -1,0 +1,88 @@
+{
+  "title": "Voicemail: Greetings, Inboxes and Shared Boxes | CrestApps for Orchard Core",
+  "description": "A caller who reaches nobody and hears silence rarely calls again, and a message that sits unheard is no better than a missed call. Voicemail in CrestApps for Orchard Core gives callers a greeting, sends each message to the right inbox, and lets a team claim, call back and mark a shared box's messages done, so nothing goes unheard.\n\nIn this video:\n• Why voicemail, and where a message goes\n• Recording or uploading your voicemail greeting\n• Listening to your messages in the soft phone\n• Whose inbox a voicemail goes to\n• Working a queue's shared voicemail box: filter, claim, call back and mark done\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "Voicemail",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "voicemail",
+    "voicemail greeting",
+    "shared voicemail",
+    "contact center",
+    "soft phone",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why voicemail"
+    },
+    {
+      "time": "0:48",
+      "title": "Where a message goes"
+    },
+    {
+      "time": "1:11",
+      "title": "Record your greeting"
+    },
+    {
+      "time": "2:11",
+      "title": "Listen to your voicemail"
+    },
+    {
+      "time": "2:58",
+      "title": "Whose inbox a voicemail goes to"
+    },
+    {
+      "time": "3:50",
+      "title": "Work a shared voicemail box"
+    },
+    {
+      "time": "5:06",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:41",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/voicemail"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.InboundVoice"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/voicemail.md"
+  ],
+  "length": "5:54"
+}
