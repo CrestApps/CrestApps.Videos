@@ -1,0 +1,217 @@
+{
+  "title": "Realtime Voice",
+  "output": "ai-realtime-voice",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Realtime Voice",
+      "subtitle": "Talk to your AI assistant",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some people would rather talk than type. This video shows how to set up a spoken conversation with an AI assistant: the speech deployments, the cascaded realtime deployment that chains them, and the chat mode that puts a voice button in the chat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "How it works",
+      "subtitle": "Two ways to speak",
+      "clips": [
+        {
+          "id": "01-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A spoken conversation needs a realtime deployment. Some providers offer a model that listens and speaks by itself, and you can use it directly."
+            },
+            {
+              "id": "how-2",
+              "text": "When none of your providers does, a cascaded realtime deployment chains three deployments that you already have: one that transcribes speech, a chat model that writes the reply, and one that speaks it."
+            },
+            {
+              "id": "how-3",
+              "text": "Either way, the profile and the chat look the same. Tools, data sources and instructions keep working, and typed and spoken turns land in the same chat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Speech deployments",
+      "subtitle": "Transcribe and speak",
+      "clips": [
+        {
+          "id": "02-speech",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sp-1",
+              "text": "The cascade starts with speech deployments. Open Artificial Intelligence, Deployments, click Add Deployment, and click Add on Azure AI Services. This is the provider of the speech services."
+            },
+            {
+              "id": "sp-2",
+              "text": "Enter the Model name and a Technical name, then the Endpoint of the speech service and its Authentication. The API key is stored securely and never shown again."
+            },
+            {
+              "id": "sp-3",
+              "text": "On the Model capabilities card, tick Speech to text, and Realtime, for a deployment that transcribes. A deployment that speaks has Text to speech ticked instead. Then click Save."
+            }
+          ]
+        }
+      ],
+      "short": "speech"
+    },
+    {
+      "id": "03",
+      "title": "A cascaded realtime deployment",
+      "subtitle": "Chain three deployments",
+      "clips": [
+        {
+          "id": "03-cascade",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cas-1",
+              "text": "Now click Add Deployment again, and click Add on Cascaded Realtime. Enter a Model name and a Technical name."
+            },
+            {
+              "id": "cas-2",
+              "text": "Choose the three deployments it chains: the one that transcribes speech, the chat deployment that generates the reply, and the one that speaks it. Each list offers only the deployments that fit its role."
+            },
+            {
+              "id": "cas-3",
+              "text": "A cascade is realtime by construction, so the deployment declares the Realtime feature for you. Click Save. It now appears wherever a realtime deployment is offered."
+            }
+          ]
+        }
+      ],
+      "short": "cascade"
+    },
+    {
+      "id": "04",
+      "title": "Site defaults",
+      "subtitle": "Settings, Artificial Intelligence",
+      "clips": [
+        {
+          "id": "04-defaults",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "def-1",
+              "text": "Open Settings, Artificial Intelligence. Default speech-to-text deployment and Default text-to-speech deployment are used by features that only transcribe or only speak."
+            },
+            {
+              "id": "def-2",
+              "text": "Default realtime deployment is the model of a spoken conversation, when a profile does not name its own. Leave it empty, and the first realtime-capable deployment is used."
+            }
+          ]
+        }
+      ],
+      "short": "defaults"
+    },
+    {
+      "id": "05",
+      "title": "Turn it on for a profile",
+      "subtitle": "Chat mode: Conversation",
+      "clips": [
+        {
+          "id": "05-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pro-1",
+              "text": "Open the profile. On the Content tab, set Chat mode to Conversation. Text only is typing, and Audio input adds a microphone to dictate."
+            },
+            {
+              "id": "pro-2",
+              "text": "Choose the Conversation deployment, the realtime deployment that carries the spoken conversation. Leave it empty to use the site default."
+            },
+            {
+              "id": "pro-3",
+              "text": "Choose the Voice that the assistant speaks with. The voices come from the deployment that speaks. Enable text-to-speech playback adds a read aloud button to the answers. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "profile"
+    },
+    {
+      "id": "06",
+      "title": "In the chat",
+      "subtitle": "The conversation button",
+      "clips": [
+        {
+          "id": "06-chat",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cht-1",
+              "text": "Open a chat with the profile. Beside the message box there is now a sound-wave button, Start speaking, and the message box is still there, for typing."
+            },
+            {
+              "id": "cht-2",
+              "text": "Click it and allow the microphone, and the session starts. The message box gives way to End Conversation. Speak, and your sentences appear in the chat. To interrupt the assistant, just start talking."
+            },
+            {
+              "id": "cht-3",
+              "text": "Click End Conversation to stop. The message box comes back, and what you type continues the same chat. Here we only show where the button is, because a conversation needs a microphone."
+            }
+          ]
+        }
+      ],
+      "short": "chat"
+    },
+    {
+      "id": "07",
+      "title": "Good to know",
+      "subtitle": "Tips for a spoken conversation",
+      "clips": [
+        {
+          "id": "07-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Use headphones, so that the assistant does not hear its own voice through your speakers."
+            },
+            {
+              "id": "tip-2",
+              "text": "A cascade adds some delay before the assistant starts to speak, because a turn passes through three services. A model that speaks by itself is quicker."
+            },
+            {
+              "id": "tip-3",
+              "text": "On a live voice model, a gear lets each person pick the microphone and speaker, and turn push-to-talk and interruptions on or off. These are saved in their browser."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add the speech deployments, chain them in a cascaded realtime deployment, and set a profile to Conversation. Your assistant can now talk. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

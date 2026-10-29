@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.221 --> 00:00:05.916
+Open Settings, Artificial Intelligence.
+
+00:00:05.916 --> 00:00:12.384
+Default speech-to-text deployment and Default text-to-speech deployment are used by features that only
+
+00:00:12.384 --> 00:00:14.241
+transcribe or only speak.
+
+00:00:14.784 --> 00:00:20.144
+Default realtime deployment is the model of a spoken conversation, when a profile
+
+00:00:20.144 --> 00:00:21.869
+does not name its own.
+
+00:00:21.869 --> 00:00:26.304
+Leave it empty, and the first realtime-capable deployment is used.
+

@@ -1,0 +1,40 @@
+1
+00:00:03,258 --> 00:00:05,181
+Open a chat with the profile.
+
+2
+00:00:05,181 --> 00:00:09,686
+Beside the message box there is now a sound-wave button, Start speaking, and
+
+3
+00:00:09,686 --> 00:00:12,378
+the message box is still there, for typing.
+
+4
+00:00:12,878 --> 00:00:16,738
+Click it and allow the microphone, and the session starts.
+
+5
+00:00:16,738 --> 00:00:19,875
+The message box gives way to End Conversation.
+
+6
+00:00:19,875 --> 00:00:22,951
+Speak, and your sentences appear in the chat.
+
+7
+00:00:22,951 --> 00:00:26,148
+To interrupt the assistant, just start talking.
+
+8
+00:00:26,632 --> 00:00:28,811
+Click End Conversation to stop.
+
+9
+00:00:28,811 --> 00:00:33,288
+The message box comes back, and what you type continues the same chat.
+
+10
+00:00:33,288 --> 00:00:38,412
+Here we only show where the button is, because a conversation needs a microphone.
+

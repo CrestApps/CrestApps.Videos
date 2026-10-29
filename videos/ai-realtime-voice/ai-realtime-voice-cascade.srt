@@ -1,0 +1,36 @@
+1
+00:00:03,262 --> 00:00:08,329
+Now click Add Deployment again, and click Add on Cascaded Realtime.
+
+2
+00:00:08,329 --> 00:00:11,522
+Enter a Model name and a Technical name.
+
+3
+00:00:12,005 --> 00:00:14,551
+Choose the three deployments it chains:
+
+4
+00:00:14,551 --> 00:00:19,528
+the one that transcribes speech, the chat deployment that generates the reply, and
+
+5
+00:00:19,528 --> 00:00:21,169
+the one that speaks it.
+
+6
+00:00:21,169 --> 00:00:24,675
+Each list offers only the deployments that fit its role.
+
+7
+00:00:25,144 --> 00:00:31,678
+A cascade is realtime by construction, so the deployment declares the Realtime feature for you.
+
+8
+00:00:31,678 --> 00:00:32,778
+Click Save.
+
+9
+00:00:32,778 --> 00:00:36,854
+It now appears wherever a realtime deployment is offered.
+

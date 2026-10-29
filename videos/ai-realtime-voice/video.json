@@ -1,0 +1,89 @@
+{
+  "title": "Realtime Voice: Set Up a Spoken Conversation With Your AI Assistant | CrestApps for Orchard Core",
+  "description": "Some people would rather talk than type. CrestApps for Orchard Core can hold a spoken conversation with an AI assistant, with a provider's own speech-to-speech model or with a cascaded realtime deployment that chains a speech-to-text, a chat and a text-to-speech deployment. This video sets one up in the admin.\n\nIn this video:\n• How a spoken conversation works, with a speech-to-speech model or a cascade\n• Adding a speech deployment: Speech to text, Realtime and Text to speech\n• Creating a Cascaded Realtime deployment\n• The site defaults for speech and realtime in Settings > Artificial Intelligence\n• Setting a profile's Chat mode to Conversation, with its Conversation deployment and Voice\n• Where the Start Conversation button appears in the chat, and tips",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "VoiceAI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "realtime voice",
+    "speech to speech",
+    "AI voice assistant",
+    "speech to text",
+    "text to speech",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "How it works"
+    },
+    {
+      "time": "0:56",
+      "title": "Speech deployments"
+    },
+    {
+      "time": "1:37",
+      "title": "A cascaded realtime deployment"
+    },
+    {
+      "time": "2:15",
+      "title": "Site defaults"
+    },
+    {
+      "time": "2:42",
+      "title": "Turn it on for a profile"
+    },
+    {
+      "time": "3:18",
+      "title": "In the chat"
+    },
+    {
+      "time": "3:58",
+      "title": "Good to know"
+    },
+    {
+      "time": "4:29",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/realtime-voice"
+    },
+    {
+      "label": "User manual: chat",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/chat"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/ai/realtime-voice.md"
+  ],
+  "length": "4:42"
+}

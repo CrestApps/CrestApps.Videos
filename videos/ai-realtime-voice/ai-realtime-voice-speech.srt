@@ -1,0 +1,36 @@
+1
+00:00:03,300 --> 00:00:06,450
+The cascade starts with speech deployments.
+
+2
+00:00:06,450 --> 00:00:13,265
+Open Artificial Intelligence, Deployments, click Add Deployment, and click Add on Azure AI Services.
+
+3
+00:00:13,265 --> 00:00:16,480
+This is the provider of the speech services.
+
+4
+00:00:16,947 --> 00:00:21,427
+Enter the Model name and a Technical name, then the Endpoint of the
+
+5
+00:00:21,427 --> 00:00:24,127
+speech service and its Authentication.
+
+6
+00:00:24,127 --> 00:00:27,747
+The API key is stored securely and never shown again.
+
+7
+00:00:28,260 --> 00:00:34,917
+On the Model capabilities card, tick Speech to text, and Realtime, for a deployment that transcribes.
+
+8
+00:00:34,917 --> 00:00:38,961
+A deployment that speaks has Text to speech ticked instead.
+
+9
+00:00:38,961 --> 00:00:40,330
+Then click Save.
+

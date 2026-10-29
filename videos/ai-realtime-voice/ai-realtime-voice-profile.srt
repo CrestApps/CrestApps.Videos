@@ -1,0 +1,36 @@
+1
+00:00:03,224 --> 00:00:04,806
+Open the profile.
+
+2
+00:00:04,806 --> 00:00:08,659
+On the Content tab, set Chat mode to Conversation.
+
+3
+00:00:08,659 --> 00:00:13,614
+Text only is typing, and Audio input adds a microphone to dictate.
+
+4
+00:00:14,121 --> 00:00:20,252
+Choose the Conversation deployment, the realtime deployment that carries the spoken conversation.
+
+5
+00:00:20,252 --> 00:00:22,931
+Leave it empty to use the site default.
+
+6
+00:00:23,469 --> 00:00:26,599
+Choose the Voice that the assistant speaks with.
+
+7
+00:00:26,599 --> 00:00:29,729
+The voices come from the deployment that speaks.
+
+8
+00:00:29,729 --> 00:00:34,193
+Enable text-to-speech playback adds a read aloud button to the answers.
+
+9
+00:00:34,193 --> 00:00:35,179
+Click Save.
+
