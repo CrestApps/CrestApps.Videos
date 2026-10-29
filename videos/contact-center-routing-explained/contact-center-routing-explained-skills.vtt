@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:03.221 --> 00:00:07.059
+The Skills card has Required skills and Skill requirements.
+
+00:00:07.059 --> 00:00:12.078
+A requirement names a Skill, a Minimum proficiency, whether it is Required, and
+
+00:00:12.078 --> 00:00:13.850
+Relax after, in seconds.
+
+00:00:13.850 --> 00:00:16.802
+A required skill removes agents who lack it.
+
+00:00:16.802 --> 00:00:21.526
+Relax after drops the requirement once the caller has waited that long, so
+
+00:00:21.526 --> 00:00:24.361
+a rare skill cannot hold a caller forever.
+
+00:00:24.853 --> 00:00:28.397
+A requirement that is not required removes nobody.
+
+00:00:28.397 --> 00:00:31.435
+It ranks agents who have the skill higher.
+
+00:00:31.435 --> 00:00:37.573
+The agent's own skills, with a proficiency from one to five, are set on Agent entitlements.
+
+00:00:38.030 --> 00:00:43.634
+Agent entitlements also has Queue preferences, with a Priority and a Delay in seconds.
+
+00:00:43.634 --> 00:00:48.081
+They matter when an agent becomes free and picks the next work, not
+
+00:00:48.081 --> 00:00:51.370
+when a call arrives and several agents are idle.
+
+00:00:52.970 --> 00:00:57.192
+Capacity is how many interactions an agent can hold at once.
+
+00:00:57.192 --> 00:01:01.093
+It is one by default, and no screen has a field for it:
+
+00:01:01.093 --> 00:01:03.971
+it comes from a recipe or a deployment.
+
+00:01:03.971 --> 00:01:08.192
+An agent on a voice call is never offered another call, so a
+
+00:01:08.192 --> 00:01:11.070
+higher capacity only matters for texts.
+

@@ -1,0 +1,96 @@
+{
+  "title": "Routing Explained: How a Waiting Call Finds an Agent | CrestApps for Orchard Core",
+  "description": "When a caller waits in a queue, the CrestApps Contact Center for Orchard Core decides which agent gets the call. This video explains the chain one link at a time: who may take a call, skills, capacity, the routing strategy, sticky agents, priority and aging, declined and missed offers, and overflow, and shows the reports that tell you why a call went where it did.\n\nIn this video:\n• The four steps of the routing chain\n• Longest idle, Round robin and Least busy\n• Skills, minimum proficiency and Relax after\n• Agent capacity and queue preferences\n• Entry point and queue priority, automatic priority and aging\n• Declined and missed offers, and overflow\n• Agent availability and wait time, and the Dialer decision log",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "call routing",
+    "queues",
+    "skills based routing",
+    "priority",
+    "overflow",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:26",
+      "title": "The chain"
+    },
+    {
+      "time": "1:15",
+      "title": "The queue's routing settings"
+    },
+    {
+      "time": "2:17",
+      "title": "Skills and preferences"
+    },
+    {
+      "time": "3:30",
+      "title": "Priority and aging"
+    },
+    {
+      "time": "4:40",
+      "title": "Declined and missed offers"
+    },
+    {
+      "time": "5:09",
+      "title": "Overflow"
+    },
+    {
+      "time": "5:45",
+      "title": "Seeing why"
+    },
+    {
+      "time": "6:14",
+      "title": "Where it helps"
+    },
+    {
+      "time": "6:41",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/queues"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.WorkDistribution"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/queues.md",
+    "src/CrestApps.Docs/docs/user-manual/skills-and-entitlements.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "6:58"
+}

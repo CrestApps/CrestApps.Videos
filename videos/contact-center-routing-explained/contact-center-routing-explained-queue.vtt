@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.225 --> 00:00:05.381
+Open Queues and add a queue.
+
+00:00:05.381 --> 00:00:08.741
+On Routing, Routing strategy has three choices.
+
+00:00:08.741 --> 00:00:13.750
+Longest idle offers the call to the agent who has been available longest.
+
+00:00:13.750 --> 00:00:18.252
+Round robin offers it to the agent who finished work longest ago.
+
+00:00:18.252 --> 00:00:23.451
+Least busy offers it to the agent with the fewest active interactions, which
+
+00:00:23.451 --> 00:00:27.445
+matters little when agents take one voice call at a time.
+
+00:00:27.957 --> 00:00:32.017
+Prefer the last assigned agent turns on the sticky bonus.
+
+00:00:32.017 --> 00:00:37.560
+It applies to work that returns to the queue with its last owner still recorded.
+
+00:00:37.560 --> 00:00:42.329
+A new inbound call has no previous agent, so a returning customer is
+
+00:00:42.329 --> 00:00:44.521
+not sent to the same person.
+
+00:00:44.521 --> 00:00:49.097
+Sticky never overrides skills, capacity or the order of declines.
+
+00:00:49.553 --> 00:00:53.050
+Reservation timeout is how long an offer rings.
+
+00:00:53.050 --> 00:00:58.460
+Unanswered offer action decides what happens when the agent does not answer:
+
+00:00:58.460 --> 00:01:01.693
+Requeue, Send to voicemail, or Reject call.
+
