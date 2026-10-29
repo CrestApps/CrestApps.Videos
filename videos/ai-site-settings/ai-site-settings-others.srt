@@ -1,0 +1,32 @@
+1
+00:00:03,200 --> 00:00:07,972
+The Chat Interactions card sets the default Chat mode of chat interactions, and
+
+2
+00:00:07,972 --> 00:00:10,330
+whether answers can be played aloud.
+
+3
+00:00:10,782 --> 00:00:14,733
+The Documents card controls what people can attach to a chat.
+
+4
+00:00:14,733 --> 00:00:19,568
+The MCP Server card controls the server that lets other tools use your site.
+
+5
+00:00:19,568 --> 00:00:23,873
+The Memory card turns on user memory, and chooses its index and how
+
+6
+00:00:23,873 --> 00:00:25,642
+many memories come back.
+
+7
+00:00:26,093 --> 00:00:30,207
+Prompt Security and Visitor Identity protect public assistants.
+
+8
+00:00:30,207 --> 00:00:32,473
+Each of these has its own video.
+

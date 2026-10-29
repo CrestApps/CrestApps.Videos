@@ -1,0 +1,149 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.601
+The AI features share one settings page.
+
+00:00:03.601 --> 00:00:07.221
+This video is a tour of Settings, Artificial Intelligence:
+
+00:00:07.221 --> 00:00:12.593
+the general options, the default deployments, how the assistant looks up knowledge before
+
+00:00:12.593 --> 00:00:15.930
+it answers, and the sections that other features add.
+
+00:00:20.530 --> 00:00:23.596
+Open Settings, then Artificial Intelligence.
+
+00:00:23.596 --> 00:00:27.950
+The page is a stack of cards, and each card belongs to a feature.
+
+00:00:28.700 --> 00:00:31.738
+A card appears only when its feature is on.
+
+00:00:31.738 --> 00:00:36.450
+If a card is missing, enable the feature first, under Tools, Features.
+
+00:00:37.200 --> 00:00:41.127
+Saving may restart the website for a moment, as the banner at the
+
+00:00:41.127 --> 00:00:42.620
+top of the page says.
+
+00:00:46.809 --> 00:00:50.334
+The General card holds options for every AI feature.
+
+00:00:50.334 --> 00:00:56.289
+Enable preemptive memory retrieval lets signed-in users' memory be searched and added before
+
+00:00:56.289 --> 00:00:57.869
+the model is called.
+
+00:00:58.321 --> 00:01:04.619
+Maximum iterations per request limits how many times the assistant may call tools in one answer.
+
+00:01:04.619 --> 00:01:07.151
+It is always capped at one hundred.
+
+00:01:07.602 --> 00:01:13.177
+Enable distributed caching lets the AI services cache answers on a shared cache.
+
+00:01:13.177 --> 00:01:19.142
+Enable OpenTelemetry sends AI requests to your monitoring tool, where it is supported.
+
+00:01:23.343 --> 00:01:28.350
+Default deployments are the models that profiles use when they do not choose their own.
+
+00:01:28.350 --> 00:01:33.358
+The Default chat deployment writes the answers, and the Default utility deployment does
+
+00:01:33.358 --> 00:01:37.503
+small jobs, such as planning and understanding the intent of a message.
+
+00:01:37.954 --> 00:01:42.174
+The Default embedding deployment turns text into numbers for search.
+
+00:01:42.174 --> 00:01:45.425
+It must be the one that your knowledge indexes use.
+
+00:01:45.425 --> 00:01:51.014
+The Default vision deployment reads pictures, and the Default image deployment creates them.
+
+00:01:51.464 --> 00:01:54.583
+The speech deployments transcribe and speak.
+
+00:01:54.583 --> 00:02:02.004
+The Default text-to-speech voice is the voice, and the Default realtime deployment carries a spoken conversation.
+
+00:02:06.187 --> 00:02:09.066
+The Default Orchestrator card has one switch:
+
+00:02:09.066 --> 00:02:12.171
+Enable preemptive retrieval-augmented generation.
+
+00:02:12.171 --> 00:02:16.743
+When it is on, the assistant searches your knowledge before it answers, and
+
+00:02:16.743 --> 00:02:19.283
+the passages are in front of the model.
+
+00:02:19.283 --> 00:02:22.557
+When it is off, the model decides whether to search.
+
+00:02:23.007 --> 00:02:28.143
+The Data Sources card sets the Default strictness and the Default top documents,
+
+00:02:28.143 --> 00:02:31.307
+for every profile that does not choose its own.
+
+00:02:35.508 --> 00:02:40.280
+The Chat Interactions card sets the default Chat mode of chat interactions, and
+
+00:02:40.280 --> 00:02:42.638
+whether answers can be played aloud.
+
+00:02:43.089 --> 00:02:47.040
+The Documents card controls what people can attach to a chat.
+
+00:02:47.040 --> 00:02:51.876
+The MCP Server card controls the server that lets other tools use your site.
+
+00:02:51.876 --> 00:02:56.180
+The Memory card turns on user memory, and chooses its index and how
+
+00:02:56.180 --> 00:02:57.949
+many memories come back.
+
+00:02:58.400 --> 00:03:02.515
+Prompt Security and Visitor Identity protect public assistants.
+
+00:03:02.515 --> 00:03:04.780
+Each of these has its own video.
+
+00:03:08.980 --> 00:03:11.563
+Change the default deployments with care.
+
+00:03:11.563 --> 00:03:14.640
+Profiles that follow the default change with them.
+
+00:03:15.390 --> 00:03:19.329
+Keep the embedding deployment the same as the one of your indexes.
+
+00:03:19.329 --> 00:03:21.680
+A different model cannot search them.
+
+00:03:22.430 --> 00:03:25.578
+To see what a setting does, point at its card:
+
+00:03:25.578 --> 00:03:28.240
+every field has a short hint under it.
+
+00:03:30.240 --> 00:03:34.494
+Settings, Artificial Intelligence is where the AI features meet.
+
+00:03:34.494 --> 00:03:37.471
+Know its cards, and you know where to look.
+
+00:03:37.471 --> 00:03:39.050
+Thanks for watching.
+

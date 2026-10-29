@@ -1,0 +1,32 @@
+1
+00:00:03,201 --> 00:00:08,208
+Default deployments are the models that profiles use when they do not choose their own.
+
+2
+00:00:08,208 --> 00:00:13,216
+The Default chat deployment writes the answers, and the Default utility deployment does
+
+3
+00:00:13,216 --> 00:00:17,361
+small jobs, such as planning and understanding the intent of a message.
+
+4
+00:00:17,812 --> 00:00:22,032
+The Default embedding deployment turns text into numbers for search.
+
+5
+00:00:22,032 --> 00:00:25,283
+It must be the one that your knowledge indexes use.
+
+6
+00:00:25,283 --> 00:00:30,872
+The Default vision deployment reads pictures, and the Default image deployment creates them.
+
+7
+00:00:31,322 --> 00:00:34,441
+The speech deployments transcribe and speak.
+
+8
+00:00:34,441 --> 00:00:41,862
+The Default text-to-speech voice is the voice, and the Default realtime deployment carries a spoken conversation.
+

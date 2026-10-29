@@ -1,0 +1,78 @@
+{
+  "title": "AI Site Settings: A Tour of Settings, Artificial Intelligence | CrestApps for Orchard Core",
+  "description": "The CrestApps AI features share one settings page. This tour of Settings > Artificial Intelligence covers the General options, the default deployments, preemptive retrieval, the data source defaults and the cards that other features add.\n\nIn this video:\n• How the cards of the page follow the enabled features\n• General: memory retrieval, maximum iterations, caching, OpenTelemetry\n• Default deployments: chat, utility, embedding, vision, image, speech and realtime\n• The Default Orchestrator and the Data Sources defaults\n• Chat Interactions, Documents, MCP Server and Memory",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI settings",
+    "AI deployments",
+    "RAG",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "One page, many cards"
+    },
+    {
+      "time": "0:43",
+      "title": "General"
+    },
+    {
+      "time": "1:20",
+      "title": "Default deployments"
+    },
+    {
+      "time": "2:03",
+      "title": "Retrieval"
+    },
+    {
+      "time": "2:32",
+      "title": "Other cards"
+    },
+    {
+      "time": "3:05",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:29",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: connections and deployments",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/connections"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/connections.md"
+  ],
+  "length": "3:40"
+}
