@@ -1,5 +1,5 @@
 {
-  "title": "Dashboard Diagnostics: Alerts, Free Agent and Why the Dialer Is Not Dialing | CrestApps for Orchard Core",
+  "title": "Dashboard Diagnostics: Alerts, Free Agent and Why the Dialer Is Not Dialing | CrestApps",
   "description": "The live dashboard of the CrestApps Contact Center for Orchard Core does more than count calls. It warns about poor call quality, shows when an agent is stuck on work that is already over, and explains why a campaign is not dialing. This video covers the call quality alerts and their Dismiss button, Free agent, the Why isn't this dialing panel and its reasons, the dialer banner and the pacing warnings.\n\nIn this video:\n• What the live dashboard needs to show anything\n• The dialer banner and its states\n• Why isn't this dialing, and the reasons\n• Call quality alerts and Dismiss\n• Free agent for stale work\n• Where else the pacing health shows",
   "hashtags": [
     "OrchardCore",

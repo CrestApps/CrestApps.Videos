@@ -1,5 +1,5 @@
 {
-  "title": "Contact Center Troubleshooting: Menus, Phones, Audio, Dialer and Reports | CrestApps for Orchard Core",
+  "title": "Contact Center Troubleshooting: Menus, Phones, Audio, Dialer, Reports | CrestApps for Orchard Core",
   "description": "Most problems in the CrestApps Contact Center for Orchard Core are a missing permission, a missing setup record, or a phone that is not signed in. This video follows the troubleshooting page: find the symptom, and work through its checks in order. It shows the real screens where problems are diagnosed, the permissions, the Contact Center and soft phone settings, the live dashboard and My workspace, and uses slides for the checklists.\n\nIn this video:\n• How to use the troubleshooting page\n• A menu or a button is missing: permissions, features and settings\n• A page is empty: entitlements, filters and date ranges\n• My phone does not ring\n• No audio, or poor audio, and the soft phone's Diagnostics tab\n• Texts and the AI that do not answer\n• The dialer is not calling, and the Why isn't this dialing panel\n• Wrap-up, contacts, loads, and what to send your administrator",
   "hashtags": [
     "OrchardCore",

@@ -1,5 +1,5 @@
 {
-  "title": "Contact Center Configuration and Deployment: Export a Plan and Replay It | CrestApps for Orchard Core",
+  "title": "Contact Center Configuration: Export a Plan and Replay It | CrestApps for Orchard Core",
   "description": "A contact center that can only be set up by hand cannot be promoted from a test site to production. This video shows how CrestApps for Orchard Core exports queues, queue groups, entry points, skills, voice media and more as a deployment plan, and how to replay it on another site.\n\nIn this video:\n• Why export the configuration\n• The Contact Center features and their dependencies\n• The one-step feature recipe\n• Building and downloading a deployment plan\n• Replaying the plan with Package Import\n• Voice media: the audio does not travel\n• What never travels\n• Use cases",
   "hashtags": [
     "OrchardCore",

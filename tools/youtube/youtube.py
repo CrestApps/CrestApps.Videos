@@ -106,6 +106,8 @@ def description(video):
         parts.append(" ".join("#" + tag for tag in video["hashtags"]))
 
     text = "\n\n".join(parts)
+    # YouTube refuses "<" and ">" in a description ("invalidDescription"): an arrow keeps menu paths readable.
+    text = text.replace(" > ", " \u2192 ").replace("<", "\u2039").replace(">", "\u203a")
 
     if len(text) > 5000:
         raise SystemExit(f"The description is {len(text)} characters; YouTube allows 5000.")

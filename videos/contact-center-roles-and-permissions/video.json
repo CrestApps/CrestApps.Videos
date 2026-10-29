@@ -1,5 +1,5 @@
 {
-  "title": "Contact Center Roles and Permissions: Agent, Supervisor and Who Sees What | CrestApps for Orchard Core",
+  "title": "Contact Center Roles and Permissions: Agent, Supervisor, Who Sees What | CrestApps for Orchard Core",
   "description": "Roles and permissions decide who sees which screen in the Contact Center. This video shows the Agent and Supervisor roles in CrestApps for Orchard Core, what each gets by default, how to give agents the soft phone, why a supervisor also needs an entitlement record, and the permissions behind call recordings, shared voicemail and reports.\n\nIn this video:\n• Why roles, and the three ready-made role names\n• Creating the Agent and Supervisor roles\n• What the Agent role gets, and the soft phone permission\n• What the Supervisor role gets\n• Giving roles to users\n• The agent entitlement record a supervisor needs\n• Permissions for recordings, voicemail and reports\n• Use cases",
   "hashtags": [
     "OrchardCore",

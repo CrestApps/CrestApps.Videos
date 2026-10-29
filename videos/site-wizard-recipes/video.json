@@ -1,5 +1,5 @@
 {
-  "title": "Wizards, Recipes and Shared Resources: Guided Steps and One-Click Setups | CrestApps for Orchard Core",
+  "title": "Wizards, Recipes and Shared Resources: Guided Steps and Quick Setups | CrestApps for Orchard Core",
   "description": "A long form puts visitors off, setting up every new site by hand is slow, and the same small widgets are needed on screen after screen. The CrestApps Wizard guides visitors through a form one step at a time, recipes set a site up from a ready-made script, and the shared resources keep common building blocks consistent across modules.\n\nIn this video:\n• Why long forms, repeated setups and repeated widgets are a problem\n• What a wizard, a recipe and a shared resource are\n• Preparing a wizard: the Wizard part, contained content types and the completion policy\n• Building the steps of a wizard\n• What a visitor sees, step by step\n• The content items a wizard collects\n• Running a recipe, and the JSON import editor that checks it\n• The shared resources: date range menu, phone box and list helpers\n• Four ways to use them",
   "hashtags": [
     "OrchardCore",

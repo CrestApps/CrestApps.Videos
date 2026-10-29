@@ -1,5 +1,5 @@
 {
-  "title": "Build an AI Knowledge Assistant That Answers From Your Company's Own Knowledge | CrestApps for Orchard Core",
+  "title": "Build an AI Knowledge Assistant That Answers From Your Own Content | CrestApps for Orchard Core",
   "description": "Give an AI profile your company's documents and your site's articles, and it answers from them, shows where each answer came from, and says so when it does not know. This walk-through builds a knowledge assistant with CrestApps AI profiles, documents and data sources in Orchard Core, and tests it.\n\nIn this video:\n• What you get, and what has to be ready\n• Uploading a document to a profile\n• Connecting a data source of your site's articles and restricting answers to it\n• Testing: an answer from a document, an answer from an article with its numbered source, and a question the knowledge does not cover\n• Tips to keep the knowledge good",
   "hashtags": [
     "OrchardCore",
