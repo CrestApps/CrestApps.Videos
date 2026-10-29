@@ -1,0 +1,99 @@
+{
+  "title": "AI File Sources: Keep Knowledge in Step With a Folder | CrestApps for Orchard Core",
+  "description": "Much of a company's knowledge lives in folders that another system keeps up to date, such as handbooks, price sheets and nightly exports. A CrestApps AI file source reads a folder on a schedule, on the site's server or on an FTP or SFTP server, and keeps an assistant's knowledge current without anyone uploading a file.\n\nIn this video:\n• Why uploads go stale, and how a file source follows the folder\n• How the knowledge base index, the Files data source and the file source fit together\n• Creating the index, a Files data source and a file source\n• Reading the folder now and understanding the last run\n• The FTP and SFTP connectors\n• Giving an assistant the data source, and an answer with its sources",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI file sources",
+    "AI knowledge base",
+    "RAG",
+    "SFTP",
+    "FTP",
+    "AI assistant",
+    "Elasticsearch",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why file sources"
+    },
+    {
+      "time": "0:56",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:30",
+      "title": "Create the knowledge base index"
+    },
+    {
+      "time": "2:02",
+      "title": "Create a Files data source"
+    },
+    {
+      "time": "2:33",
+      "title": "Add a file source"
+    },
+    {
+      "time": "3:43",
+      "title": "Read the folder"
+    },
+    {
+      "time": "4:12",
+      "title": "Read an F.T.P. or S.F.T.P. server"
+    },
+    {
+      "time": "5:03",
+      "title": "Give the assistant the data source"
+    },
+    {
+      "time": "5:35",
+      "title": "Ask a question"
+    },
+    {
+      "time": "5:54",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/file-sources"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.FileSources"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/ai/file-sources/index.md"
+  ],
+  "length": "6:08"
+}

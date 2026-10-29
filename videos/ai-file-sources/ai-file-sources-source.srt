@@ -1,0 +1,64 @@
+1
+00:00:03,240 --> 00:00:08,040
+Open Artificial Intelligence, File Sources, and click Add File Source.
+
+2
+00:00:08,491 --> 00:00:14,661
+In Available Connectors, click Add on File system, which reads a folder on the site's server.
+
+3
+00:00:15,112 --> 00:00:19,867
+Enter a Name, and choose the Target File data source, the one you just made.
+
+4
+00:00:19,867 --> 00:00:23,172
+Several file sources can feed the same data source.
+
+5
+00:00:23,626 --> 00:00:27,493
+Keep Enabled ticked, so that the scheduled reading runs.
+
+6
+00:00:27,493 --> 00:00:32,046
+Re-read interval is how often the folder is read again, in minutes.
+
+7
+00:00:32,046 --> 00:00:37,286
+The site checks once an hour, so a shorter interval still runs at most hourly.
+
+8
+00:00:37,739 --> 00:00:43,096
+Figures says whether the charts and pictures inside documents are described:
+
+9
+00:00:43,096 --> 00:00:44,599
+Auto, All or Off.
+
+10
+00:00:44,599 --> 00:00:48,715
+Describing figures uses a vision model, so it costs more.
+
+11
+00:00:48,715 --> 00:00:51,589
+The other fields can stay as they are.
+
+12
+00:00:52,042 --> 00:00:56,284
+Folder is the folder to read, inside the file sources area that your
+
+13
+00:00:56,284 --> 00:00:58,864
+technical team set aside for this site.
+
+14
+00:00:58,864 --> 00:01:02,532
+Tick Include sub-folders to read the folders below it too.
+
+15
+00:01:02,986 --> 00:01:04,033
+Click Save.
+
+16
+00:01:04,033 --> 00:01:09,086
+The list shows the source with its connector, and Never run as its last run.
+

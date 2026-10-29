@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.206 --> 00:00:07.340
+To read the folder right away, open the Actions menu of the source
+
+00:00:07.340 --> 00:00:08.776
+and click Read now.
+
+00:00:09.229 --> 00:00:13.647
+After a moment, the Last run column shows what happened:
+
+00:00:13.647 --> 00:00:18.849
+how many files were found, ingested, unchanged, removed and failed.
+
+00:00:19.304 --> 00:00:22.032
+Here all three files were ingested.
+
+00:00:22.032 --> 00:00:27.224
+From now on, the schedule keeps the data source in step with the folder.
+
