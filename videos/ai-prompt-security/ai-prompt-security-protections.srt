@@ -1,0 +1,44 @@
+1
+00:00:03,179 --> 00:00:07,944
+Open Settings, Artificial Intelligence, and find the Prompt Security section.
+
+2
+00:00:07,944 --> 00:00:14,029
+Enable injection detection blocks known injection and override patterns before they reach the model.
+
+3
+00:00:14,501 --> 00:00:21,252
+Enable output filtering checks the answer for leaked system prompts, tool details and unsafe disclosures.
+
+4
+00:00:21,252 --> 00:00:27,031
+Enable security preamble adds a hardened security instruction to the system instructions.
+
+5
+00:00:27,508 --> 00:00:32,615
+Enable input delimiters wraps what the user typed in clear boundaries, so that
+
+6
+00:00:32,615 --> 00:00:35,655
+the model can tell it from the instructions.
+
+7
+00:00:35,655 --> 00:00:41,188
+Enable audit logging records the decisions, for diagnostics and abuse investigations.
+
+8
+00:00:41,640 --> 00:00:45,076
+Maximum prompt length rejects longer prompts.
+
+9
+00:00:45,076 --> 00:00:50,195
+The Blocking threshold is the risk level at which a prompt is blocked:
+
+10
+00:00:50,195 --> 00:00:53,025
+None, Low, Medium, High or Critical.
+
+11
+00:00:53,025 --> 00:00:54,170
+Click Save.
+

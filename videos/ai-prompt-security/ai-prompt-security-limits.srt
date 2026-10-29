@@ -1,0 +1,36 @@
+1
+00:00:03,204 --> 00:00:08,857
+Further down, Maximum messages per window and the Message rate-limit window limit how
+
+2
+00:00:08,857 --> 00:00:11,342
+many messages one caller can send.
+
+3
+00:00:11,342 --> 00:00:13,454
+Zero turns the throttle off.
+
+4
+00:00:13,904 --> 00:00:17,122
+Anonymous visitors can have tiers instead:
+
+5
+00:00:17,122 --> 00:00:20,876
+one line for each tier, a limit and a time window.
+
+6
+00:00:20,876 --> 00:00:24,294
+A visitor is throttled when any tier is full.
+
+7
+00:00:24,763 --> 00:00:30,064
+Maximum anonymous sessions per window and the Anonymous session window limit how many
+
+8
+00:00:30,064 --> 00:00:32,802
+new chats an anonymous visitor can start.
+
+9
+00:00:32,802 --> 00:00:35,423
+There are tiers for session starts too.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.202 --> 00:00:09.353
+The Visitor Identity section decides how anonymous visitors are recognized, for unique visitor
+
+00:00:09.353 --> 00:00:11.322
+counts and for the limits.
+
+00:00:11.322 --> 00:00:17.842
+A first-party cookie, with its own Visitor cookie name and Cookie lifetime in days, identifies them.
+
+00:00:18.300 --> 00:00:23.798
+Turn on Allow cross-site embedding when the chat is embedded in a frame on another site.
+
+00:00:23.798 --> 00:00:28.185
+Without it a browser refuses the cookie in a frame, and every request
+
+00:00:28.185 --> 00:00:29.999
+looks like a new visitor.
+
+00:00:29.999 --> 00:00:34.210
+Partition the cookie per embedding site keeps those cookies apart.
+
+00:00:34.692 --> 00:00:39.938
+Remote address storage mode is Disabled, Hashed, Plain text or Encrypted.
+
+00:00:39.938 --> 00:00:42.727
+Hashed is the privacy-first default.
+
+00:00:42.727 --> 00:00:46.712
+Hashed and Encrypted use the Remote address hash salt.
+
