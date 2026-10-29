@@ -1,0 +1,186 @@
+{
+  "title": "Report groups and PDF export",
+  "output": "report-builder-groups-and-pdf",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "PDF": "P.D.F."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report groups and PDF export",
+      "subtitle": "Arrange the reports, and take them away as a PDF",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Report Builder reports pile up. Report groups arrange them in the admin menu like folders, and every report can be exported to CSV, Excel or PDF. This video shows how to organize the reports, pin one to the menu, and export it as a PDF."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why groups",
+      "subtitle": "Find a report without searching",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every person who builds reports adds more of them. Without a structure, the list grows, and nobody remembers which report answers which question."
+            },
+            {
+              "id": "why-2",
+              "text": "A report group works like a folder: Sales can hold Regional, which holds the regional reports. In the admin menu each group is an item under Reports, with its groups first and then its reports."
+            },
+            {
+              "id": "why-3",
+              "text": "A group shows only when it holds a report you may open, so people never see an empty folder. And a report that was a free-text category before is a group now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Report groups",
+      "subtitle": "Add, nest and order groups",
+      "short": "groups",
+      "clips": [
+        {
+          "id": "02-groups",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "grp-1",
+              "text": "Open Reports, Report Groups. The list shows each group followed by the groups nested in it, and what each one holds."
+            },
+            {
+              "id": "grp-2",
+              "text": "Click Add Group. Enter the Name, such as Service. The Parent group is None for a top-level group, or any group except the ones nested in this one."
+            },
+            {
+              "id": "grp-3",
+              "text": "Display order puts the lower numbers first among the groups that share a parent; groups with the same number are sorted by name. Click Save."
+            },
+            {
+              "id": "grp-4",
+              "text": "To nest a group, choose Add a group inside from a group's actions. Here Regional goes inside Service, and the list shows it under its parent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Put a report in a group",
+      "subtitle": "The Settings tab",
+      "short": "settings",
+      "clips": [
+        {
+          "id": "03-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open a report in the builder. On its Settings tab, the Group list holds every group, nested ones with their path, and No group leaves the report out of any group."
+            },
+            {
+              "id": "set-2",
+              "text": "Show in the admin menu adds the report under Reports, inside its group, for everyone who can open it. Choose the group, and tick it."
+            },
+            {
+              "id": "set-3",
+              "text": "Let people the report is shared with export it decides whether the people it is shared with can download it. Leave it off to let them view the report only. Click Publish to apply the settings."
+            },
+            {
+              "id": "set-4",
+              "text": "Under Reports, the Service group now holds Regional, and Regional holds the report. A report in no group is added directly under Reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Export with PDF",
+      "subtitle": "CSV, Excel and PDF",
+      "short": "pdf",
+      "clips": [
+        {
+          "id": "04-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pdf-1",
+              "text": "Run the report. The Export menu offers Export CSV, Export Excel and Export PDF, depending on the features that are on: Reports for CSV, Reports OpenXml for Excel, and Reports PDF for PDF."
+            },
+            {
+              "id": "pdf-2",
+              "text": "Click Export PDF. The export uses the filters on screen, so the file shows what the page shows."
+            }
+          ]
+        },
+        {
+          "id": "04b-files",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "file-1",
+              "text": "The PDF lays the report out as it looks on the page: a band for each container, tables with their totals, charts as drawn, and numbered pages."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Where groups fit",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "05-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A team menu: Service, Sales and Finance groups, so each team opens its own reports from Reports."
+            },
+            {
+              "id": "use-2",
+              "text": "A monthly pack: a PDF export of the dashboard to hand to a manager who does not open the site."
+            },
+            {
+              "id": "use-3",
+              "text": "An upgrade: reports that had a category keep their place, as top-level groups with the same names."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report groups and PDF export",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Groups keep the report list in order, and a PDF takes a report to people who never open the site. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

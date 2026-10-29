@@ -1,0 +1,48 @@
+1
+00:00:03,214 --> 00:00:05,192
+Open a report in the builder.
+
+2
+00:00:05,192 --> 00:00:09,544
+On its Settings tab, the Group list holds every group, nested ones with
+
+3
+00:00:09,544 --> 00:00:13,274
+their path, and No group leaves the report out of any group.
+
+4
+00:00:13,736 --> 00:00:18,158
+Show in the admin menu adds the report under Reports, inside its group,
+
+5
+00:00:18,158 --> 00:00:20,168
+for everyone who can open it.
+
+6
+00:00:20,168 --> 00:00:22,236
+Choose the group, and tick it.
+
+7
+00:00:22,710 --> 00:00:26,823
+Let people the report is shared with export it decides whether the people
+
+8
+00:00:26,823 --> 00:00:28,906
+it is shared with can download it.
+
+9
+00:00:28,906 --> 00:00:31,613
+Leave it off to let them view the report only.
+
+10
+00:00:31,613 --> 00:00:33,800
+Click Publish to apply the settings.
+
+11
+00:00:34,282 --> 00:00:39,809
+Under Reports, the Service group now holds Regional, and Regional holds the report.
+
+12
+00:00:39,809 --> 00:00:43,472
+A report in no group is added directly under Reports.
+

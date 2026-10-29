@@ -1,0 +1,32 @@
+1
+00:00:03,246 --> 00:00:04,863
+Run the report.
+
+2
+00:00:04,863 --> 00:00:11,174
+The Export menu offers Export CSV, Export Excel and Export PDF, depending on
+
+3
+00:00:11,174 --> 00:00:13,561
+the features that are on:
+
+4
+00:00:13,561 --> 00:00:19,256
+Reports for CSV, Reports OpenXml for Excel, and Reports PDF for PDF.
+
+5
+00:00:19,713 --> 00:00:21,275
+Click Export PDF.
+
+6
+00:00:21,275 --> 00:00:26,913
+The export uses the filters on screen, so the file shows what the page shows.
+
+7
+00:00:28,513 --> 00:00:32,216
+The PDF lays the report out as it looks on the page:
+
+8
+00:00:32,216 --> 00:00:38,283
+a band for each container, tables with their totals, charts as drawn, and numbered pages.
+
