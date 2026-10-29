@@ -1,0 +1,247 @@
+{
+  "title": "Call Recordings",
+  "output": "contact-center-call-recordings",
+  "spoken": {
+    "AI": "A.I."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Call Recordings",
+      "subtitle": "Find a call, play it back, read the transcript",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Every recorded call is listed on one page, whatever kind of call it was. This video shows why recordings matter, who sees which calls, which calls are recorded, how to search them, and what the call page and its transcript show."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why call recordings",
+      "subtitle": "What was said, in the caller's own words",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "When a customer says the agent promised something, or an agent needs coaching, a note written after the call is not enough. The recording is."
+            },
+            {
+              "id": "why-2",
+              "text": "Recordings are personal data, so who may listen has to be controlled, and one customer's call must never be open to every agent."
+            },
+            {
+              "id": "why-3",
+              "text": "An A.I. voice agent's calls need more than audio. You want to read what was said, and jump to the moment you care about."
+            },
+            {
+              "id": "why-4",
+              "text": "The Call recordings page lists every recorded call in one place, with search, playback, transcripts, and a way to erase a recording when you have to."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Who sees which calls",
+      "subtitle": "Two permissions",
+      "clips": [
+        {
+          "id": "02-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "With the permission Listen to own call recordings, the page lists only the calls you were the agent on. You cannot search for, list or open anyone else's. The Agent role has it."
+            },
+            {
+              "id": "who-2",
+              "text": "With Listen to anyone's call recordings, the page lists every recorded call, and you can search by agent too. The Supervisor role has it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Which calls are recorded",
+      "subtitle": "And from when",
+      "clips": [
+        {
+          "id": "03-which",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "which-1",
+              "text": "Calls are recorded while the Contact Center Call Recording feature is on, and Record every call automatically is checked in the Contact Center settings, which it is by default."
+            },
+            {
+              "id": "which-2",
+              "text": "A queue call or a dialer call is recorded from the moment it connects to an agent. An A.I. voice agent's call is recorded from the moment it is answered."
+            },
+            {
+              "id": "which-3",
+              "text": "A number dialed on the soft phone keypad is recorded when the other side answers. An extension call between colleagues is not recorded."
+            },
+            {
+              "id": "which-4",
+              "text": "A call shows up on the page once its recording has been saved, which can take a minute after the call ends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Search the calls",
+      "subtitle": "Date, number, direction, type and agent",
+      "clips": [
+        {
+          "id": "04-search",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "Open Interaction Center, Call recordings. The page says that no recorded call matches until a recording has been saved. Calls are listed here once their recording exists."
+            },
+            {
+              "id": "find-2",
+              "text": "Started is the date range to search, such as Today, Last 7 days or a custom range, in your own time zone."
+            },
+            {
+              "id": "find-3",
+              "text": "Phone number matches all or part of the customer's number."
+            },
+            {
+              "id": "find-4",
+              "text": "Direction is Inbound or Outbound. Call type is Contact Center call, A.I. voice agent, or Soft phone keypad."
+            },
+            {
+              "id": "find-5",
+              "text": "Agent picks whose calls to list, from the Contact Center agents. It is shown only to users who may hear everyone's calls."
+            },
+            {
+              "id": "find-6",
+              "text": "Click Filter to search, or Clear to start again. When calls match, each row shows the customer's number, the direction, the call type, when the call started, the agent and the length."
+            }
+          ]
+        }
+      ],
+      "short": "search"
+    },
+    {
+      "id": "05",
+      "title": "Play a call and read the transcript",
+      "subtitle": "In the list, and on the call page",
+      "clips": [
+        {
+          "id": "05-call",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "call-1",
+              "text": "Play plays the recording right in the list. Click it again to close the player. One recording plays at a time. View opens the call page."
+            },
+            {
+              "id": "call-2",
+              "text": "The call page shows who was on the call and when, a player for the recording and, below it, the transcript. A link takes you to the contact's activities when the call belongs to a contact."
+            },
+            {
+              "id": "call-3",
+              "text": "Calls an A.I. voice agent talked on have a transcript. Calls between people are not transcribed."
+            },
+            {
+              "id": "call-4",
+              "text": "Each line shows the time into the recording, a copy button, a play button that plays from that line, the silence before the line, who said it, and what was said. Clicking the time also plays from that line."
+            },
+            {
+              "id": "call-5",
+              "text": "The times are close, not exact. For an A.I. call that was handed to an agent, the A.I.'s part happened before the agent's recording started, so those lines show dashes and have no play button."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Erase a recording",
+      "subtitle": "When you have to",
+      "clips": [
+        {
+          "id": "06-erase",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "erase-1",
+              "text": "Only users with the Delete call recordings permission see Erase recording at the bottom of the call page. No role has it by default except Administrator."
+            },
+            {
+              "id": "erase-2",
+              "text": "Type why the recording is being erased, for example because the customer asked for their data to be deleted, and click Erase."
+            },
+            {
+              "id": "erase-3",
+              "text": "The recording is deleted for good and no longer listed. A recording under legal hold cannot be erased."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "What the page is used for",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A supervisor coaching an agent searches that agent's calls for the week, and plays a few from the list."
+            },
+            {
+              "id": "use-2",
+              "text": "A manager handling a complaint searches by the customer's phone number, finds the call, and reads the moment in question."
+            },
+            {
+              "id": "use-3",
+              "text": "A team reviewing an A.I. voice agent reads the transcripts, and jumps to where a call went wrong."
+            },
+            {
+              "id": "use-4",
+              "text": "A company answering a data deletion request erases the recording, with the reason written on it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Search the calls, play them back, read the transcript, and erase a recording only when you must. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+1
+00:00:03,262 --> 00:00:06,178
+Open Interaction Center, Call recordings.
+
+2
+00:00:06,178 --> 00:00:11,327
+The page says that no recorded call matches until a recording has been saved.
+
+3
+00:00:11,327 --> 00:00:14,802
+Calls are listed here once their recording exists.
+
+4
+00:00:15,327 --> 00:00:19,824
+Started is the date range to search, such as Today, Last 7 days
+
+5
+00:00:19,824 --> 00:00:22,887
+or a custom range, in your own time zone.
+
+6
+00:00:23,393 --> 00:00:26,993
+Phone number matches all or part of the customer's number.
+
+7
+00:00:27,734 --> 00:00:30,246
+Direction is Inbound or Outbound.
+
+8
+00:00:30,246 --> 00:00:33,079
+Call type is Contact Center call, A.I.
+
+9
+00:00:33,079 --> 00:00:35,654
+voice agent, or Soft phone keypad.
+
+10
+00:00:36,125 --> 00:00:40,462
+Agent picks whose calls to list, from the Contact Center agents.
+
+11
+00:00:40,462 --> 00:00:44,305
+It is shown only to users who may hear everyone's calls.
+
+12
+00:00:44,797 --> 00:00:48,379
+Click Filter to search, or Clear to start again.
+
+13
+00:00:48,379 --> 00:00:54,018
+When calls match, each row shows the customer's number, the direction, the call
+
+14
+00:00:54,018 --> 00:00:57,997
+type, when the call started, the agent and the length.
+

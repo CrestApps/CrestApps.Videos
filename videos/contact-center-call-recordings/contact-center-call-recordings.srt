@@ -1,0 +1,316 @@
+1
+00:00:01,000 --> 00:00:05,917
+Every recorded call is listed on one page, whatever kind of call it was.
+
+2
+00:00:05,917 --> 00:00:11,148
+This video shows why recordings matter, who sees which calls, which calls are
+
+3
+00:00:11,148 --> 00:00:16,380
+recorded, how to search them, and what the call page and its transcript show.
+
+4
+00:00:20,980 --> 00:00:26,063
+When a customer says the agent promised something, or an agent needs coaching,
+
+5
+00:00:26,063 --> 00:00:29,088
+a note written after the call is not enough.
+
+6
+00:00:29,088 --> 00:00:30,480
+The recording is.
+
+7
+00:00:31,230 --> 00:00:36,248
+Recordings are personal data, so who may listen has to be controlled, and
+
+8
+00:00:36,248 --> 00:00:40,060
+one customer's call must never be open to every agent.
+
+9
+00:00:40,810 --> 00:00:41,546
+An A.I.
+
+10
+00:00:41,546 --> 00:00:44,207
+voice agent's calls need more than audio.
+
+11
+00:00:44,207 --> 00:00:48,510
+You want to read what was said, and jump to the moment you care about.
+
+12
+00:00:49,260 --> 00:00:54,375
+The Call recordings page lists every recorded call in one place, with search,
+
+13
+00:00:54,375 --> 00:00:59,120
+playback, transcripts, and a way to erase a recording when you have to.
+
+14
+00:01:03,320 --> 00:01:08,189
+With the permission Listen to own call recordings, the page lists only the
+
+15
+00:01:08,189 --> 00:01:10,258
+calls you were the agent on.
+
+16
+00:01:10,258 --> 00:01:13,666
+You cannot search for, list or open anyone else's.
+
+17
+00:01:13,666 --> 00:01:15,370
+The Agent role has it.
+
+18
+00:01:16,120 --> 00:01:21,168
+With Listen to anyone's call recordings, the page lists every recorded call, and
+
+19
+00:01:21,168 --> 00:01:23,163
+you can search by agent too.
+
+20
+00:01:23,163 --> 00:01:25,100
+The Supervisor role has it.
+
+21
+00:01:29,300 --> 00:01:33,978
+Calls are recorded while the Contact Center Call Recording feature is on, and
+
+22
+00:01:33,978 --> 00:01:39,840
+Record every call automatically is checked in the Contact Center settings, which it is by default.
+
+23
+00:01:40,590 --> 00:01:44,315
+A queue call or a dialer call is recorded from the moment it
+
+24
+00:01:44,315 --> 00:01:45,839
+connects to an agent.
+
+25
+00:01:45,839 --> 00:01:46,572
+An A.I.
+
+26
+00:01:46,572 --> 00:01:50,410
+voice agent's call is recorded from the moment it is answered.
+
+27
+00:01:51,160 --> 00:01:56,481
+A number dialed on the soft phone keypad is recorded when the other side answers.
+
+28
+00:01:56,481 --> 00:02:00,090
+An extension call between colleagues is not recorded.
+
+29
+00:02:00,840 --> 00:02:04,574
+A call shows up on the page once its recording has been saved,
+
+30
+00:02:04,574 --> 00:02:07,320
+which can take a minute after the call ends.
+
+31
+00:02:11,582 --> 00:02:14,498
+Open Interaction Center, Call recordings.
+
+32
+00:02:14,498 --> 00:02:19,647
+The page says that no recorded call matches until a recording has been saved.
+
+33
+00:02:19,647 --> 00:02:23,122
+Calls are listed here once their recording exists.
+
+34
+00:02:23,647 --> 00:02:28,144
+Started is the date range to search, such as Today, Last 7 days
+
+35
+00:02:28,144 --> 00:02:31,207
+or a custom range, in your own time zone.
+
+36
+00:02:31,713 --> 00:02:35,313
+Phone number matches all or part of the customer's number.
+
+37
+00:02:36,054 --> 00:02:38,566
+Direction is Inbound or Outbound.
+
+38
+00:02:38,566 --> 00:02:41,399
+Call type is Contact Center call, A.I.
+
+39
+00:02:41,399 --> 00:02:43,974
+voice agent, or Soft phone keypad.
+
+40
+00:02:44,445 --> 00:02:48,782
+Agent picks whose calls to list, from the Contact Center agents.
+
+41
+00:02:48,782 --> 00:02:52,625
+It is shown only to users who may hear everyone's calls.
+
+42
+00:02:53,117 --> 00:02:56,699
+Click Filter to search, or Clear to start again.
+
+43
+00:02:56,699 --> 00:03:02,338
+When calls match, each row shows the customer's number, the direction, the call
+
+44
+00:03:02,338 --> 00:03:06,317
+type, when the call started, the agent and the length.
+
+45
+00:03:10,517 --> 00:03:13,408
+Play plays the recording right in the list.
+
+46
+00:03:13,408 --> 00:03:15,826
+Click it again to close the player.
+
+47
+00:03:15,826 --> 00:03:17,949
+One recording plays at a time.
+
+48
+00:03:17,949 --> 00:03:19,777
+View opens the call page.
+
+49
+00:03:20,527 --> 00:03:24,126
+The call page shows who was on the call and when, a player
+
+50
+00:03:24,126 --> 00:03:27,162
+for the recording and, below it, the transcript.
+
+51
+00:03:27,162 --> 00:03:31,997
+A link takes you to the contact's activities when the call belongs to a contact.
+
+52
+00:03:32,747 --> 00:03:33,876
+Calls an A.I.
+
+53
+00:03:33,876 --> 00:03:36,607
+voice agent talked on have a transcript.
+
+54
+00:03:36,607 --> 00:03:39,397
+Calls between people are not transcribed.
+
+55
+00:03:40,147 --> 00:03:43,893
+Each line shows the time into the recording, a copy button, a play
+
+56
+00:03:43,893 --> 00:03:47,899
+button that plays from that line, the silence before the line, who said
+
+57
+00:03:47,899 --> 00:03:49,356
+it, and what was said.
+
+58
+00:03:49,356 --> 00:03:51,957
+Clicking the time also plays from that line.
+
+59
+00:03:52,707 --> 00:03:54,879
+The times are close, not exact.
+
+60
+00:03:54,879 --> 00:03:55,876
+For an A.I.
+
+61
+00:03:55,876 --> 00:04:00,278
+call that was handed to an agent, the A.I.'s part happened before the
+
+62
+00:04:00,278 --> 00:04:05,207
+agent's recording started, so those lines show dashes and have no play button.
+
+63
+00:04:09,407 --> 00:04:14,267
+Only users with the Delete call recordings permission see Erase recording at the
+
+64
+00:04:14,267 --> 00:04:15,962
+bottom of the call page.
+
+65
+00:04:15,962 --> 00:04:18,957
+No role has it by default except Administrator.
+
+66
+00:04:19,707 --> 00:04:24,389
+Type why the recording is being erased, for example because the customer asked
+
+67
+00:04:24,389 --> 00:04:27,287
+for their data to be deleted, and click Erase.
+
+68
+00:04:28,037 --> 00:04:31,730
+The recording is deleted for good and no longer listed.
+
+69
+00:04:31,730 --> 00:04:34,877
+A recording under legal hold cannot be erased.
+
+70
+00:04:39,077 --> 00:04:43,875
+A supervisor coaching an agent searches that agent's calls for the week, and
+
+71
+00:04:43,875 --> 00:04:45,747
+plays a few from the list.
+
+72
+00:04:46,497 --> 00:04:51,526
+A manager handling a complaint searches by the customer's phone number, finds the
+
+73
+00:04:51,526 --> 00:04:54,127
+call, and reads the moment in question.
+
+74
+00:04:54,877 --> 00:04:56,583
+A team reviewing an A.I.
+
+75
+00:04:56,583 --> 00:05:01,017
+voice agent reads the transcripts, and jumps to where a call went wrong.
+
+76
+00:05:01,767 --> 00:05:07,867
+A company answering a data deletion request erases the recording, with the reason written on it.
+
+77
+00:05:09,867 --> 00:05:15,034
+Search the calls, play them back, read the transcript, and erase a recording
+
+78
+00:05:15,034 --> 00:05:16,609
+only when you must.
+
+79
+00:05:16,609 --> 00:05:18,247
+Thanks for watching.
+
