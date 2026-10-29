@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.194 --> 00:00:08.976
+A role opens the screens, but a supervisor also needs an agent entitlement record.
+
+00:00:08.976 --> 00:00:13.312
+The live dashboard shows only the queues on your own record.
+
+00:00:13.312 --> 00:00:18.174
+Without one, the page opens but is empty, even for an administrator.
+
+00:00:18.642 --> 00:00:22.855
+Open Interaction Center, Management, Agent entitlements.
+
+00:00:22.855 --> 00:00:27.339
+Each agent has a record with the queues they may sign in to.
+
+00:00:27.339 --> 00:00:31.552
+Click Add agent entitlements to give the supervisor one.
+
+00:00:32.014 --> 00:00:37.622
+Pick the person under User, and under Allowed queues pick the queues they supervise.
+
+00:00:37.622 --> 00:00:38.307
+Save.
+
+00:00:38.307 --> 00:00:42.794
+The live dashboard and the shared voicemail now show those queues.
+

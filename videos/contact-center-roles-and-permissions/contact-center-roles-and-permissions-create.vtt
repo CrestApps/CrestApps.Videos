@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.172 --> 00:00:05.360
+Open Access Control, Roles.
+
+00:00:05.360 --> 00:00:08.676
+The Administrator role has every permission.
+
+00:00:08.676 --> 00:00:11.792
+There is no Agent or Supervisor role yet.
+
+00:00:12.251 --> 00:00:15.330
+Click Add Role, type Agent, and click Create.
+
+00:00:15.330 --> 00:00:20.642
+A role named exactly Agent receives the default Agent permissions of every feature
+
+00:00:20.642 --> 00:00:22.091
+that is turned on.
+
+00:00:22.542 --> 00:00:26.139
+Add a second role named Supervisor the same way.
+
+00:00:26.139 --> 00:00:27.605
+Spelling counts:
+
+00:00:27.605 --> 00:00:31.402
+a role named Call Agent gets nothing automatically.
+

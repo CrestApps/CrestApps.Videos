@@ -1,0 +1,251 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.705
+Roles and permissions decide who sees which screen in the Contact Center.
+
+00:00:05.705 --> 00:00:10.172
+This video shows the Agent and Supervisor roles and what each gets by
+
+00:00:10.172 --> 00:00:14.758
+default, how to give agents the soft phone, why a supervisor also needs
+
+00:00:14.758 --> 00:00:19.940
+an entitlement record, and the permissions for recordings, voicemail and reports.
+
+00:00:24.540 --> 00:00:26.214
+An agent takes calls.
+
+00:00:26.214 --> 00:00:29.624
+A supervisor watches the floor and reads reports.
+
+00:00:29.624 --> 00:00:31.918
+An administrator runs the site.
+
+00:00:31.918 --> 00:00:35.390
+Each should see only the screens that fit the job.
+
+00:00:36.140 --> 00:00:38.396
+A permission allows one thing.
+
+00:00:38.396 --> 00:00:41.090
+A role is a named set of permissions.
+
+00:00:41.090 --> 00:00:45.790
+A user can have several roles, and gets every permission of each one.
+
+00:00:46.540 --> 00:00:51.913
+The Contact Center comes with ready-made permission sets for three role names:
+
+00:00:51.913 --> 00:00:54.600
+Administrator, Agent and Supervisor.
+
+00:00:58.772 --> 00:01:00.960
+Open Access Control, Roles.
+
+00:01:00.960 --> 00:01:04.276
+The Administrator role has every permission.
+
+00:01:04.276 --> 00:01:07.392
+There is no Agent or Supervisor role yet.
+
+00:01:07.851 --> 00:01:10.930
+Click Add Role, type Agent, and click Create.
+
+00:01:10.930 --> 00:01:16.242
+A role named exactly Agent receives the default Agent permissions of every feature
+
+00:01:16.242 --> 00:01:17.691
+that is turned on.
+
+00:01:18.142 --> 00:01:21.739
+Add a second role named Supervisor the same way.
+
+00:01:21.739 --> 00:01:23.205
+Spelling counts:
+
+00:01:23.205 --> 00:01:27.002
+a role named Call Agent gets nothing automatically.
+
+00:01:31.206 --> 00:01:32.854
+Open the Agent role.
+
+00:01:32.854 --> 00:01:35.833
+Search permissions narrows the long list.
+
+00:01:35.833 --> 00:01:36.974
+Type queues:
+
+00:01:36.974 --> 00:01:41.030
+Sign in to Contact Center queues and campaigns is allowed.
+
+00:01:41.030 --> 00:01:43.376
+The Manage permissions are not.
+
+00:01:43.832 --> 00:01:45.725
+Type live interactions.
+
+00:01:45.725 --> 00:01:51.728
+An agent may pause recording and start a secure capture, on their own live calls only.
+
+00:01:51.728 --> 00:01:53.750
+Type own call recordings:
+
+00:01:53.750 --> 00:01:58.252
+an agent can listen to their own calls, never to anyone else's.
+
+00:01:58.703 --> 00:02:00.031
+Type soft phone.
+
+00:02:00.031 --> 00:02:03.050
+Use the telephony soft phone is not allowed:
+
+00:02:03.050 --> 00:02:05.526
+the Agent role does not include it.
+
+00:02:05.526 --> 00:02:09.813
+Tick it, and click Save, so agents can take calls in the browser.
+
+00:02:14.045 --> 00:02:15.958
+Open the Supervisor role.
+
+00:02:15.958 --> 00:02:17.131
+Type monitor:
+
+00:02:17.131 --> 00:02:22.625
+Monitor the Contact Center in real time is allowed, which opens the live dashboard.
+
+00:02:22.625 --> 00:02:23.797
+Type reports:
+
+00:02:23.797 --> 00:02:26.575
+View Contact Center reports is allowed.
+
+00:02:27.522 --> 00:02:28.954
+Type take over:
+
+00:02:28.954 --> 00:02:35.299
+a supervisor can take over, end, transfer and record live calls, and set agents' state.
+
+00:02:35.299 --> 00:02:36.799
+Type recordings:
+
+00:02:36.799 --> 00:02:40.552
+a supervisor listens to anyone's call recordings.
+
+00:02:41.002 --> 00:02:42.139
+Type queues:
+
+00:02:42.139 --> 00:02:44.603
+Sign in to queues is not allowed.
+
+00:02:44.603 --> 00:02:49.469
+A supervisor who also takes calls needs the Agent role as well, because
+
+00:02:49.469 --> 00:02:52.502
+a user gets the permissions of every role.
+
+00:02:56.689 --> 00:03:00.062
+Open Access Control, Users, and edit a user.
+
+00:03:00.062 --> 00:03:02.827
+The Roles section lists every role.
+
+00:03:02.827 --> 00:03:07.009
+Tick Agent for an agent and Supervisor for a supervisor.
+
+00:03:07.459 --> 00:03:10.771
+A team lead who also takes calls gets both.
+
+00:03:10.771 --> 00:03:11.919
+Click Save.
+
+00:03:16.113 --> 00:03:21.895
+A role opens the screens, but a supervisor also needs an agent entitlement record.
+
+00:03:21.895 --> 00:03:26.231
+The live dashboard shows only the queues on your own record.
+
+00:03:26.231 --> 00:03:31.093
+Without one, the page opens but is empty, even for an administrator.
+
+00:03:31.562 --> 00:03:35.774
+Open Interaction Center, Management, Agent entitlements.
+
+00:03:35.774 --> 00:03:40.259
+Each agent has a record with the queues they may sign in to.
+
+00:03:40.259 --> 00:03:44.472
+Click Add agent entitlements to give the supervisor one.
+
+00:03:44.933 --> 00:03:50.541
+Pick the person under User, and under Allowed queues pick the queues they supervise.
+
+00:03:50.541 --> 00:03:51.227
+Save.
+
+00:03:51.227 --> 00:03:55.713
+The live dashboard and the shared voicemail now show those queues.
+
+00:03:59.894 --> 00:04:02.899
+Call recordings have three permissions.
+
+00:04:02.899 --> 00:04:06.238
+Listen to own call recordings is for agents.
+
+00:04:06.238 --> 00:04:10.244
+Listen to anyone's call recordings is for supervisors.
+
+00:04:10.244 --> 00:04:13.984
+Delete call recordings is for administrators only.
+
+00:04:14.435 --> 00:04:16.470
+Shared voicemail has two.
+
+00:04:16.470 --> 00:04:21.919
+Access shared queue voicemail for entitled queues lets a person work the box.
+
+00:04:21.919 --> 00:04:27.828
+Manage shared queue voicemail deletes messages and takes over other people's claims.
+
+00:04:27.828 --> 00:04:31.045
+Supervisors have both; agents have neither.
+
+00:04:31.495 --> 00:04:34.752
+Reports need View Contact Center reports.
+
+00:04:34.752 --> 00:04:39.395
+Without it, the Reports menu shows no Contact Center reports.
+
+00:04:43.595 --> 00:04:47.191
+A team lead who also takes calls has both the Agent and the
+
+00:04:47.191 --> 00:04:51.175
+Supervisor role, and an entitlement record with the team's queues.
+
+00:04:51.925 --> 00:04:55.966
+A quality reviewer gets a role made by hand with only Listen to
+
+00:04:55.966 --> 00:04:59.655
+anyone's call recordings and View Contact Center reports.
+
+00:05:00.405 --> 00:05:04.789
+A company that gives agents the soft phone ticks Use the telephony soft
+
+00:05:04.789 --> 00:05:08.205
+phone once on the Agent role, instead of on each user.
+
+00:05:08.955 --> 00:05:14.371
+Only administrators can delete recordings, so a reviewer who can listen to everything
+
+00:05:14.371 --> 00:05:16.395
+still cannot erase anything.
+
+00:05:18.395 --> 00:05:23.323
+Name the roles Agent and Supervisor, tick the soft phone, give each supervisor
+
+00:05:23.323 --> 00:05:27.020
+an entitlement record, and the screens follow the people.
+
+00:05:27.020 --> 00:05:28.545
+Thanks for watching.
+

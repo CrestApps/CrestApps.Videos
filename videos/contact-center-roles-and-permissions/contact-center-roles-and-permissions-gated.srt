@@ -1,0 +1,40 @@
+1
+00:00:03,181 --> 00:00:06,186
+Call recordings have three permissions.
+
+2
+00:00:06,186 --> 00:00:09,525
+Listen to own call recordings is for agents.
+
+3
+00:00:09,525 --> 00:00:13,531
+Listen to anyone's call recordings is for supervisors.
+
+4
+00:00:13,531 --> 00:00:17,271
+Delete call recordings is for administrators only.
+
+5
+00:00:17,722 --> 00:00:19,757
+Shared voicemail has two.
+
+6
+00:00:19,757 --> 00:00:25,206
+Access shared queue voicemail for entitled queues lets a person work the box.
+
+7
+00:00:25,206 --> 00:00:31,115
+Manage shared queue voicemail deletes messages and takes over other people's claims.
+
+8
+00:00:31,115 --> 00:00:34,332
+Supervisors have both; agents have neither.
+
+9
+00:00:34,782 --> 00:00:38,039
+Reports need View Contact Center reports.
+
+10
+00:00:38,039 --> 00:00:42,682
+Without it, the Reports menu shows no Contact Center reports.
+

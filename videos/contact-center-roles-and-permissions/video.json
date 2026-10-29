@@ -1,0 +1,93 @@
+{
+  "title": "Contact Center Roles and Permissions: Agent, Supervisor and Who Sees What | CrestApps for Orchard Core",
+  "description": "Roles and permissions decide who sees which screen in the Contact Center. This video shows the Agent and Supervisor roles in CrestApps for Orchard Core, what each gets by default, how to give agents the soft phone, why a supervisor also needs an entitlement record, and the permissions behind call recordings, shared voicemail and reports.\n\nIn this video:\n• Why roles, and the three ready-made role names\n• Creating the Agent and Supervisor roles\n• What the Agent role gets, and the soft phone permission\n• What the Supervisor role gets\n• Giving roles to users\n• The agent entitlement record a supervisor needs\n• Permissions for recordings, voicemail and reports\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "Permissions",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "roles",
+    "permissions",
+    "agent role",
+    "supervisor role",
+    "soft phone",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Why roles"
+    },
+    {
+      "time": "0:55",
+      "title": "Create the Agent and Supervisor roles"
+    },
+    {
+      "time": "1:28",
+      "title": "What the Agent role gets"
+    },
+    {
+      "time": "2:10",
+      "title": "What the Supervisor role gets"
+    },
+    {
+      "time": "2:53",
+      "title": "Give the roles to users"
+    },
+    {
+      "time": "3:12",
+      "title": "A supervisor needs an entitlement record"
+    },
+    {
+      "time": "3:56",
+      "title": "Recordings, voicemail and reports"
+    },
+    {
+      "time": "4:40",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:17",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/getting-started/roles-and-permissions"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/index"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/getting-started/roles-and-permissions.md"
+  ],
+  "length": "5:30"
+}

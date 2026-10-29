@@ -1,0 +1,247 @@
+{
+  "title": "Contact Center Roles and Permissions",
+  "output": "contact-center-roles-and-permissions",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Roles and Permissions",
+      "subtitle": "Who sees what in the Contact Center",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Roles and permissions decide who sees which screen in the Contact Center. This video shows the Agent and Supervisor roles and what each gets by default, how to give agents the soft phone, why a supervisor also needs an entitlement record, and the permissions for recordings, voicemail and reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why roles",
+      "subtitle": "An agent, a supervisor and an administrator see different things",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An agent takes calls. A supervisor watches the floor and reads reports. An administrator runs the site. Each should see only the screens that fit the job."
+            },
+            {
+              "id": "why-2",
+              "text": "A permission allows one thing. A role is a named set of permissions. A user can have several roles, and gets every permission of each one."
+            },
+            {
+              "id": "why-3",
+              "text": "The Contact Center comes with ready-made permission sets for three role names: Administrator, Agent and Supervisor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create the Agent and Supervisor roles",
+      "subtitle": "Roles named Agent and Supervisor get their defaults",
+      "clips": [
+        {
+          "id": "02-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "roles-1",
+              "text": "Open Access Control, Roles. The Administrator role has every permission. There is no Agent or Supervisor role yet."
+            },
+            {
+              "id": "roles-2",
+              "text": "Click Add Role, type Agent, and click Create. A role named exactly Agent receives the default Agent permissions of every feature that is turned on."
+            },
+            {
+              "id": "roles-3",
+              "text": "Add a second role named Supervisor the same way. Spelling counts: a role named Call Agent gets nothing automatically."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "03",
+      "title": "What the Agent role gets",
+      "subtitle": "Queues, own calls and own recordings",
+      "clips": [
+        {
+          "id": "03-agent",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "agent-1",
+              "text": "Open the Agent role. Search permissions narrows the long list. Type queues: Sign in to Contact Center queues and campaigns is allowed. The Manage permissions are not."
+            },
+            {
+              "id": "agent-2",
+              "text": "Type live interactions. An agent may pause recording and start a secure capture, on their own live calls only. Type own call recordings: an agent can listen to their own calls, never to anyone else's."
+            },
+            {
+              "id": "agent-3",
+              "text": "Type soft phone. Use the telephony soft phone is not allowed: the Agent role does not include it. Tick it, and click Save, so agents can take calls in the browser."
+            }
+          ]
+        }
+      ],
+      "short": "agent"
+    },
+    {
+      "id": "04",
+      "title": "What the Supervisor role gets",
+      "subtitle": "Watching, stepping in, and reading reports",
+      "clips": [
+        {
+          "id": "04-supervisor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sup-1",
+              "text": "Open the Supervisor role. Type monitor: Monitor the Contact Center in real time is allowed, which opens the live dashboard. Type reports: View Contact Center reports is allowed."
+            },
+            {
+              "id": "sup-2",
+              "text": "Type take over: a supervisor can take over, end, transfer and record live calls, and set agents' state. Type recordings: a supervisor listens to anyone's call recordings."
+            },
+            {
+              "id": "sup-3",
+              "text": "Type queues: Sign in to queues is not allowed. A supervisor who also takes calls needs the Agent role as well, because a user gets the permissions of every role."
+            }
+          ]
+        }
+      ],
+      "short": "supervisor"
+    },
+    {
+      "id": "05",
+      "title": "Give the roles to users",
+      "subtitle": "Tick roles on the user",
+      "clips": [
+        {
+          "id": "05-users",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "user-1",
+              "text": "Open Access Control, Users, and edit a user. The Roles section lists every role. Tick Agent for an agent and Supervisor for a supervisor."
+            },
+            {
+              "id": "user-2",
+              "text": "A team lead who also takes calls gets both. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "users"
+    },
+    {
+      "id": "06",
+      "title": "A supervisor needs an entitlement record",
+      "subtitle": "The live dashboard and shared voicemail follow it",
+      "clips": [
+        {
+          "id": "06-entitlement",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ent-1",
+              "text": "A role opens the screens, but a supervisor also needs an agent entitlement record. The live dashboard shows only the queues on your own record. Without one, the page opens but is empty, even for an administrator."
+            },
+            {
+              "id": "ent-2",
+              "text": "Open Interaction Center, Management, Agent entitlements. Each agent has a record with the queues they may sign in to. Click Add agent entitlements to give the supervisor one."
+            },
+            {
+              "id": "ent-3",
+              "text": "Pick the person under User, and under Allowed queues pick the queues they supervise. Save. The live dashboard and the shared voicemail now show those queues."
+            }
+          ]
+        }
+      ],
+      "short": "entitlement"
+    },
+    {
+      "id": "07",
+      "title": "Recordings, voicemail and reports",
+      "subtitle": "The permissions behind three screens",
+      "clips": [
+        {
+          "id": "07-gated",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "gate-1",
+              "text": "Call recordings have three permissions. Listen to own call recordings is for agents. Listen to anyone's call recordings is for supervisors. Delete call recordings is for administrators only."
+            },
+            {
+              "id": "gate-2",
+              "text": "Shared voicemail has two. Access shared queue voicemail for entitled queues lets a person work the box. Manage shared queue voicemail deletes messages and takes over other people's claims. Supervisors have both; agents have neither."
+            },
+            {
+              "id": "gate-3",
+              "text": "Reports need View Contact Center reports. Without it, the Reports menu shows no Contact Center reports."
+            }
+          ]
+        }
+      ],
+      "short": "gated"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Roles at work",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A team lead who also takes calls has both the Agent and the Supervisor role, and an entitlement record with the team's queues."
+            },
+            {
+              "id": "use-2",
+              "text": "A quality reviewer gets a role made by hand with only Listen to anyone's call recordings and View Contact Center reports."
+            },
+            {
+              "id": "use-3",
+              "text": "A company that gives agents the soft phone ticks Use the telephony soft phone once on the Agent role, instead of on each user."
+            },
+            {
+              "id": "use-4",
+              "text": "Only administrators can delete recordings, so a reviewer who can listen to everything still cannot erase anything."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Name the roles Agent and Supervisor, tick the soft phone, give each supervisor an entitlement record, and the screens follow the people. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
