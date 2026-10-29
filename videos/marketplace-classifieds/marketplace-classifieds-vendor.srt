@@ -1,0 +1,52 @@
+1
+00:00:03,225 --> 00:00:04,923
+Open Commerce, Vendors.
+
+2
+00:00:04,923 --> 00:00:09,898
+The sellers on your marketplace are listed here, with whether they can be paid.
+
+3
+00:00:09,898 --> 00:00:11,245
+Click Add vendor.
+
+4
+00:00:11,750 --> 00:00:13,958
+Enter its Name and its Email.
+
+5
+00:00:13,958 --> 00:00:18,250
+The email is where Stripe's setup and the vendor's notices go.
+
+6
+00:00:18,746 --> 00:00:22,353
+Under People who run it, enter the user names of the people who
+
+7
+00:00:22,353 --> 00:00:24,234
+sell through it, one per line.
+
+8
+00:00:24,234 --> 00:00:27,526
+They see the vendor's sales and payouts in their account.
+
+9
+00:00:27,980 --> 00:00:32,455
+Leave Commission empty to use the store's, or enter the vendor's own.
+
+10
+00:00:32,455 --> 00:00:36,810
+The Status can suspend a vendor, so that nothing is paid out to it.
+
+11
+00:00:37,264 --> 00:00:38,266
+Click Save.
+
+12
+00:00:38,266 --> 00:00:43,574
+Then open a product of the Vendor kind, choose the vendor under Vendor, and publish.
+
+13
+00:00:43,574 --> 00:00:47,584
+The vendor part has to be on the product's content type first.
+

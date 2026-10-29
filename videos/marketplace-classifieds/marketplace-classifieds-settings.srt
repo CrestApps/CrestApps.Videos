@@ -1,0 +1,44 @@
+1
+00:00:03,199 --> 00:00:05,943
+Open Settings, Commerce, Marketplace.
+
+2
+00:00:05,943 --> 00:00:11,047
+Commission is what the store keeps of each vendor's sale, after discounts.
+
+3
+00:00:11,047 --> 00:00:13,089
+A vendor can have its own.
+
+4
+00:00:13,552 --> 00:00:17,036
+Days held is how long a sale is held after it is paid,
+
+5
+00:00:17,036 --> 00:00:20,752
+such as for returns, before the vendor can be paid for it.
+
+6
+00:00:21,205 --> 00:00:25,333
+Hold a sale of goods until its order is fulfilled makes goods wait
+
+7
+00:00:25,333 --> 00:00:28,084
+for shipping as well as for the days held.
+
+8
+00:00:28,084 --> 00:00:31,065
+Services and downloads wait for the days only.
+
+9
+00:00:31,519 --> 00:00:35,959
+Pay vendors out by themselves pays what is released within the hour.
+
+10
+00:00:35,959 --> 00:00:39,019
+Untick it to pay out from each vendor's page.
+
+11
+00:00:39,019 --> 00:00:44,599
+Vendors' country is where a vendor's payout account is made when the vendor names none.
+

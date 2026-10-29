@@ -1,0 +1,36 @@
+1
+00:00:03,181 --> 00:00:05,942
+Open Content, Posted listings.
+
+2
+00:00:05,942 --> 00:00:08,472
+The list filters by status:
+
+3
+00:00:08,472 --> 00:00:13,687
+Waiting for approval, Up, Rejected, Expired, or Every listing.
+
+4
+00:00:13,687 --> 00:00:19,361
+Each row shows the listing, who posted it, its place and its status.
+
+5
+00:00:19,813 --> 00:00:22,813
+Click Approve to show a listing for its term.
+
+6
+00:00:23,264 --> 00:00:27,422
+To take one down, type a reason if you like, and click Reject.
+
+7
+00:00:27,422 --> 00:00:29,074
+The owner is emailed.
+
+8
+00:00:29,525 --> 00:00:33,990
+When an owner edits an approved listing of a kind that needs approval,
+
+9
+00:00:33,990 --> 00:00:35,695
+it waits for you again.
+

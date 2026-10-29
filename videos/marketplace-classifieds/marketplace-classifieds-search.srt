@@ -1,0 +1,12 @@
+1
+00:00:03,207 --> 00:00:08,507
+Anyone finds listings at the listings page, by Words and by distance.
+
+2
+00:00:08,959 --> 00:00:14,815
+Within (km) limits the distance from a place, and Near me uses where the visitor is.
+
+3
+00:00:14,815 --> 00:00:18,459
+Listings that have coordinates also show on a map.
+

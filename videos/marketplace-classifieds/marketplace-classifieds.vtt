@@ -1,0 +1,359 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.953
+A site can do more than sell its own products.
+
+00:00:03.953 --> 00:00:05.941
+This video shows two modules:
+
+00:00:05.941 --> 00:00:11.110
+the Marketplace, where other sellers list products and your store keeps a commission,
+
+00:00:11.110 --> 00:00:15.710
+and Classifieds, where visitors post their own listings for you to approve.
+
+00:00:20.310 --> 00:00:26.430
+A store grows faster with more to sell, but you cannot make or stock everything yourself.
+
+00:00:27.180 --> 00:00:31.199
+In a marketplace, other sellers, called vendors, list products.
+
+00:00:31.199 --> 00:00:35.801
+Your store takes the payment, keeps a commission, and pays the vendor the
+
+00:00:35.801 --> 00:00:38.480
+rest once the sale is safe from returns.
+
+00:00:39.230 --> 00:00:44.492
+In classifieds, your visitors post their own listings, such as ads, directory entries
+
+00:00:44.492 --> 00:00:45.880
+or homes for sale.
+
+00:00:45.880 --> 00:00:49.870
+You approve them, they run for a set number of days, and owners
+
+00:00:49.870 --> 00:00:52.530
+renew them or pay to have them featured.
+
+00:00:53.280 --> 00:00:57.500
+Both bring people and listings to your site that you did not have to create.
+
+00:01:01.700 --> 00:01:05.865
+In the Marketplace, a vendor is a seller with the people who run it.
+
+00:01:05.865 --> 00:01:08.680
+You choose a vendor on each of its products.
+
+00:01:09.430 --> 00:01:13.193
+When a vendor's product sells, the store keeps its commission.
+
+00:01:13.193 --> 00:01:16.569
+The rest is held until it is safe to pay, then paid out
+
+00:01:16.569 --> 00:01:18.450
+to the vendor's own account.
+
+00:01:19.200 --> 00:01:25.391
+In Classifieds, a content type, such as a Classified Ad, lets signed-in visitors post.
+
+00:01:25.391 --> 00:01:29.160
+A moderator approves each listing before it shows.
+
+00:01:29.910 --> 00:01:34.359
+An approved listing runs for a term, and its owner renews it.
+
+00:01:34.359 --> 00:01:38.410
+Paid upgrades feature a listing, or bump it to the top.
+
+00:01:42.609 --> 00:01:45.353
+Open Settings, Commerce, Marketplace.
+
+00:01:45.353 --> 00:01:50.457
+Commission is what the store keeps of each vendor's sale, after discounts.
+
+00:01:50.457 --> 00:01:52.499
+A vendor can have its own.
+
+00:01:52.962 --> 00:01:56.446
+Days held is how long a sale is held after it is paid,
+
+00:01:56.446 --> 00:02:00.162
+such as for returns, before the vendor can be paid for it.
+
+00:02:00.615 --> 00:02:04.743
+Hold a sale of goods until its order is fulfilled makes goods wait
+
+00:02:04.743 --> 00:02:07.494
+for shipping as well as for the days held.
+
+00:02:07.494 --> 00:02:10.475
+Services and downloads wait for the days only.
+
+00:02:10.929 --> 00:02:15.369
+Pay vendors out by themselves pays what is released within the hour.
+
+00:02:15.369 --> 00:02:18.429
+Untick it to pay out from each vendor's page.
+
+00:02:18.429 --> 00:02:24.009
+Vendors' country is where a vendor's payout account is made when the vendor names none.
+
+00:02:28.234 --> 00:02:29.932
+Open Commerce, Vendors.
+
+00:02:29.932 --> 00:02:34.908
+The sellers on your marketplace are listed here, with whether they can be paid.
+
+00:02:34.908 --> 00:02:36.254
+Click Add vendor.
+
+00:02:36.759 --> 00:02:38.968
+Enter its Name and its Email.
+
+00:02:38.968 --> 00:02:43.259
+The email is where Stripe's setup and the vendor's notices go.
+
+00:02:43.756 --> 00:02:47.362
+Under People who run it, enter the user names of the people who
+
+00:02:47.362 --> 00:02:49.243
+sell through it, one per line.
+
+00:02:49.243 --> 00:02:52.536
+They see the vendor's sales and payouts in their account.
+
+00:02:52.989 --> 00:02:57.464
+Leave Commission empty to use the store's, or enter the vendor's own.
+
+00:02:57.464 --> 00:03:01.819
+The Status can suspend a vendor, so that nothing is paid out to it.
+
+00:03:02.273 --> 00:03:03.275
+Click Save.
+
+00:03:03.275 --> 00:03:08.583
+Then open a product of the Vendor kind, choose the vendor under Vendor, and publish.
+
+00:03:08.583 --> 00:03:12.593
+The vendor part has to be on the product's content type first.
+
+00:03:16.797 --> 00:03:18.449
+Click View on a vendor.
+
+00:03:18.449 --> 00:03:22.379
+Held is what its sales have earned that is not yet safe to pay.
+
+00:03:22.379 --> 00:03:25.170
+Ready to pay out is what has been released.
+
+00:03:25.170 --> 00:03:28.247
+Paid out is what has already gone to the vendor.
+
+00:03:28.705 --> 00:03:33.182
+Under Sales, each order of the vendor's products shows what was paid, the
+
+00:03:33.182 --> 00:03:37.715
+commission the store kept, what the vendor earned, and its status, such as
+
+00:03:37.715 --> 00:03:39.075
+held until a date.
+
+00:03:39.529 --> 00:03:44.679
+A sale is ready once its hold ends and, for goods, its order is fulfilled.
+
+00:03:44.679 --> 00:03:49.572
+To pay one sooner, such as a service that was already delivered, click
+
+00:03:49.572 --> 00:03:51.889
+Release now next to its order.
+
+00:03:52.342 --> 00:03:56.190
+For a vendor with a payout account, Pay out what's ready pays it
+
+00:03:56.190 --> 00:03:57.894
+everything that is ready.
+
+00:03:57.894 --> 00:04:01.523
+This vendor has not set up payouts yet, so the page says so,
+
+00:04:01.523 --> 00:04:03.502
+and nothing can be paid to it.
+
+00:04:03.956 --> 00:04:08.026
+When you refund an order, the vendor's share of the refund comes off
+
+00:04:08.026 --> 00:04:09.236
+what it is owed.
+
+00:04:09.236 --> 00:04:11.326
+Payouts lists what was paid out.
+
+00:04:15.494 --> 00:04:19.022
+A person who runs a vendor finds Vendor in their account.
+
+00:04:19.022 --> 00:04:22.719
+Their sales show what is held, what is ready to pay out, and
+
+00:04:22.719 --> 00:04:24.064
+what was paid out.
+
+00:04:24.520 --> 00:04:30.185
+Set up payouts takes them to Stripe's own pages, once, to make their payout account.
+
+00:04:30.185 --> 00:04:33.710
+Your Stripe account needs Connect turned on first.
+
+00:04:34.164 --> 00:04:41.054
+Below, Sales lists each sale with its commission and earnings, and Payouts lists what was paid.
+
+00:04:45.264 --> 00:04:49.860
+To let visitors post a kind of listing, add the Classified part to
+
+00:04:49.860 --> 00:04:52.668
+a content type, such as Classified Ad.
+
+00:04:52.668 --> 00:04:57.264
+Open Design, Content Definition, Content Types, and open the type.
+
+00:04:57.732 --> 00:04:59.468
+Edit the Classified part.
+
+00:04:59.468 --> 00:05:02.772
+Days a listing runs is how long it is up from when it
+
+00:05:02.772 --> 00:05:06.132
+is approved, and again each time its poster renews it.
+
+00:05:06.589 --> 00:05:11.885
+Tick A moderator approves each listing before it's shown to hold new listings for you.
+
+00:05:11.885 --> 00:05:15.569
+It also holds a listing again after its poster changes it.
+
+00:05:19.766 --> 00:05:25.666
+A signed-in visitor opens My listings in their account, and clicks Post a Classified Ad.
+
+00:05:26.118 --> 00:05:30.178
+They enter a Title, and a Description of what they are offering, such
+
+00:05:30.178 --> 00:05:32.668
+as its condition and what comes with it.
+
+00:05:33.120 --> 00:05:35.240
+Under Where, they enter a Place.
+
+00:05:35.240 --> 00:05:39.479
+The Latitude and Longitude are optional, and Use where I am fills them
+
+00:05:39.479 --> 00:05:42.770
+in, so that people searching nearby find the listing.
+
+00:05:43.222 --> 00:05:44.673
+They click Post it.
+
+00:05:44.673 --> 00:05:49.258
+A moderator checks each listing before it is shown, and the visitor finds
+
+00:05:49.258 --> 00:05:52.102
+it under My listings, waiting for approval.
+
+00:05:56.283 --> 00:05:59.044
+Open Content, Posted listings.
+
+00:05:59.044 --> 00:06:01.574
+The list filters by status:
+
+00:06:01.574 --> 00:06:06.789
+Waiting for approval, Up, Rejected, Expired, or Every listing.
+
+00:06:06.789 --> 00:06:12.463
+Each row shows the listing, who posted it, its place and its status.
+
+00:06:12.915 --> 00:06:15.915
+Click Approve to show a listing for its term.
+
+00:06:16.366 --> 00:06:20.524
+To take one down, type a reason if you like, and click Reject.
+
+00:06:20.524 --> 00:06:22.176
+The owner is emailed.
+
+00:06:22.626 --> 00:06:27.092
+When an owner edits an approved listing of a kind that needs approval,
+
+00:06:27.092 --> 00:06:28.796
+it waits for you again.
+
+00:06:32.980 --> 00:06:37.958
+On its end date, a listing is taken down and its owner is emailed.
+
+00:06:37.958 --> 00:06:43.420
+Under My listings, each listing shows its status and when it is up until.
+
+00:06:43.877 --> 00:06:45.642
+Renew starts a new term.
+
+00:06:45.642 --> 00:06:49.467
+Renewing a listing that is still up adds a term to its end.
+
+00:06:49.920 --> 00:06:53.497
+Upgrades are products with the Classified upgrade part.
+
+00:06:53.497 --> 00:06:58.834
+Feature puts the listing at the top of searches, with a Featured badge, for its days.
+
+00:06:58.834 --> 00:07:02.060
+Bump moves it to the top once, as if just posted.
+
+00:07:02.525 --> 00:07:07.128
+Owners buy upgrades from My listings, through the cart and checkout, and the
+
+00:07:07.128 --> 00:07:09.655
+upgrade applies when the order is paid.
+
+00:07:13.862 --> 00:07:19.162
+Anyone finds listings at the listings page, by Words and by distance.
+
+00:07:19.614 --> 00:07:25.470
+Within (km) limits the distance from a place, and Near me uses where the visitor is.
+
+00:07:25.470 --> 00:07:29.114
+Listings that have coordinates also show on a map.
+
+00:07:33.314 --> 00:07:34.881
+A craft marketplace:
+
+00:07:34.881 --> 00:07:39.343
+each maker is a vendor, the store keeps a commission, and makers are
+
+00:07:39.343 --> 00:07:41.454
+paid after the return period.
+
+00:07:42.204 --> 00:07:43.130
+Services:
+
+00:07:43.130 --> 00:07:48.134
+release a sale when the work is delivered, instead of waiting out the hold.
+
+00:07:48.884 --> 00:07:50.599
+A local noticeboard:
+
+00:07:50.599 --> 00:07:55.944
+visitors post ads, a moderator approves them, and they expire on their own.
+
+00:07:56.694 --> 00:07:58.913
+A directory or property site:
+
+00:07:58.913 --> 00:08:03.414
+owners pay to feature a listing, and visitors search by distance.
+
+00:08:05.414 --> 00:08:10.502
+With the Marketplace and Classifieds, other people's products and listings grow your site,
+
+00:08:10.502 --> 00:08:13.736
+and you stay in control of what shows and what is paid.
+
+00:08:13.736 --> 00:08:15.114
+Thanks for watching.
+

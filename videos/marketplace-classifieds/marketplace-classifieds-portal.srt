@@ -1,0 +1,24 @@
+1
+00:00:03,168 --> 00:00:06,696
+A person who runs a vendor finds Vendor in their account.
+
+2
+00:00:06,696 --> 00:00:10,393
+Their sales show what is held, what is ready to pay out, and
+
+3
+00:00:10,393 --> 00:00:11,738
+what was paid out.
+
+4
+00:00:12,194 --> 00:00:17,859
+Set up payouts takes them to Stripe's own pages, once, to make their payout account.
+
+5
+00:00:17,859 --> 00:00:21,384
+Your Stripe account needs Connect turned on first.
+
+6
+00:00:21,838 --> 00:00:28,728
+Below, Sales lists each sale with its commission and earnings, and Payouts lists what was paid.
+
