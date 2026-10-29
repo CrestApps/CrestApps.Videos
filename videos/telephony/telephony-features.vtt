@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.187 --> 00:00:06.412
+Open Tools, Features, and search for Telephony.
+
+00:00:06.412 --> 00:00:08.847
+The Telephony feature is the base:
+
+00:00:08.847 --> 00:00:15.117
+it adds the settings, the extensions and the connection between the browser and the phone system.
+
+00:00:15.571 --> 00:00:18.072
+The soft phone has its own features.
+
+00:00:18.072 --> 00:00:22.361
+One puts a phone button on every admin page, and another opens the
+
+00:00:22.361 --> 00:00:26.351
+phone in a small window of its own, which the phone apps use.
+
+00:00:26.805 --> 00:00:29.557
+Each phone system is a feature too.
+
+00:00:29.557 --> 00:00:34.257
+Turn on Telnyx, Asterisk, or both, and each one adds its own tab
+
+00:00:34.257 --> 00:00:36.405
+to the Telephony settings.
+
+00:00:36.860 --> 00:00:41.281
+By default, call recordings are stored on your site, encrypted.
+
+00:00:41.281 --> 00:00:46.471
+A feature called Telephony, Azure Blob Storage moves them to Azure instead.
+
+00:00:46.471 --> 00:00:50.060
+Your technical team turns it on and configures it.
+

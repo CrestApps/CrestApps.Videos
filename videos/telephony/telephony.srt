@@ -1,0 +1,528 @@
+1
+00:00:01,000 --> 00:00:06,053
+The Telephony module lets people on your team make and take phone calls from the browser.
+
+2
+00:00:06,053 --> 00:00:09,989
+This video shows why it exists, how the phone system, the soft phone
+
+3
+00:00:09,989 --> 00:00:13,500
+and the extensions fit together, and how to set up each one.
+
+4
+00:00:18,100 --> 00:00:21,423
+Phone calls are still how many customers reach you.
+
+5
+00:00:21,423 --> 00:00:25,678
+But a desk phone knows nothing about the customer on the other end,
+
+6
+00:00:25,678 --> 00:00:28,010
+so every call starts from scratch.
+
+7
+00:00:28,760 --> 00:00:31,857
+Phone companies also work in different ways.
+
+8
+00:00:31,857 --> 00:00:36,626
+Moving from one to another, or running more than one, usually means new
+
+9
+00:00:36,626 --> 00:00:38,670
+equipment and new training.
+
+10
+00:00:39,420 --> 00:00:43,740
+Colleagues need to reach each other inside the company, without dialing a full
+
+11
+00:00:43,740 --> 00:00:46,260
+phone number or remembering who sits where.
+
+12
+00:00:47,010 --> 00:00:51,286
+The Telephony module puts a phone in the browser, next to your site.
+
+13
+00:00:51,286 --> 00:00:55,910
+You connect your phone company once, and every user places and takes calls
+
+14
+00:00:55,910 --> 00:00:57,470
+from the same screen.
+
+15
+00:01:01,670 --> 00:01:05,299
+A provider is the phone system that carries your calls.
+
+16
+00:01:05,299 --> 00:01:09,581
+The site works with Telnyx, a phone service in the cloud, and with
+
+17
+00:01:09,581 --> 00:01:13,210
+Asterisk, a phone system that your company runs itself.
+
+18
+00:01:13,960 --> 00:01:17,220
+The default provider is the one the soft phone uses.
+
+19
+00:01:17,220 --> 00:01:22,840
+You can connect more than one provider, and switch the default without changing anything else.
+
+20
+00:01:23,590 --> 00:01:27,184
+The soft phone is the phone itself, in the browser.
+
+21
+00:01:27,184 --> 00:01:31,030
+It has a keypad, a list of recent calls, and voicemail.
+
+22
+00:01:31,780 --> 00:01:36,457
+An extension is a short internal number that belongs to one user, so
+
+23
+00:01:36,457 --> 00:01:41,070
+colleagues can call or transfer to each other by number or by name.
+
+24
+00:01:45,257 --> 00:01:48,482
+Open Tools, Features, and search for Telephony.
+
+25
+00:01:48,482 --> 00:01:50,917
+The Telephony feature is the base:
+
+26
+00:01:50,917 --> 00:01:57,187
+it adds the settings, the extensions and the connection between the browser and the phone system.
+
+27
+00:01:57,641 --> 00:02:00,142
+The soft phone has its own features.
+
+28
+00:02:00,142 --> 00:02:04,431
+One puts a phone button on every admin page, and another opens the
+
+29
+00:02:04,431 --> 00:02:08,421
+phone in a small window of its own, which the phone apps use.
+
+30
+00:02:08,875 --> 00:02:11,627
+Each phone system is a feature too.
+
+31
+00:02:11,627 --> 00:02:16,327
+Turn on Telnyx, Asterisk, or both, and each one adds its own tab
+
+32
+00:02:16,327 --> 00:02:18,475
+to the Telephony settings.
+
+33
+00:02:18,930 --> 00:02:23,351
+By default, call recordings are stored on your site, encrypted.
+
+34
+00:02:23,351 --> 00:02:28,541
+A feature called Telephony, Azure Blob Storage moves them to Azure instead.
+
+35
+00:02:28,541 --> 00:02:32,130
+Your technical team turns it on and configures it.
+
+36
+00:02:36,310 --> 00:02:41,133
+Open Settings, Communication, Telephony, and choose the Asterisk tab.
+
+37
+00:02:41,133 --> 00:02:45,764
+Use Asterisk when your company runs its own Asterisk phone system.
+
+38
+00:02:45,764 --> 00:02:48,980
+The values come from whoever looks after it.
+
+39
+00:02:49,432 --> 00:02:51,507
+Tick Enable Asterisk provider.
+
+40
+00:02:51,507 --> 00:02:53,582
+The rest of the fields appear.
+
+41
+00:02:54,035 --> 00:02:59,287
+Enter the ARI base URL, the ARI user name and the ARI password.
+
+42
+00:02:59,287 --> 00:03:04,235
+The password is stored encrypted, and is never shown again.
+
+43
+00:03:04,685 --> 00:03:07,524
+The Stasis application name is required.
+
+44
+00:03:07,524 --> 00:03:12,524
+When several sites share one Asterisk server, each site needs its own name,
+
+45
+00:03:12,524 --> 00:03:15,795
+so that sites never receive each other's calls.
+
+46
+00:03:16,249 --> 00:03:21,465
+The optional fields set an Endpoint template, an Outbound caller id, the Dial
+
+47
+00:03:21,465 --> 00:03:23,979
+timeout and the voicemail details.
+
+48
+00:03:23,979 --> 00:03:28,629
+The browser audio fields below them carry call audio to the browser.
+
+49
+00:03:29,082 --> 00:03:30,061
+Click Save.
+
+50
+00:03:30,061 --> 00:03:34,265
+The site checks the required fields, but it does not call the phone
+
+51
+00:03:34,265 --> 00:03:38,872
+system, so a wrong password shows up the first time someone places a call.
+
+52
+00:03:43,060 --> 00:03:44,906
+Choose the Telnyx tab.
+
+53
+00:03:44,906 --> 00:03:47,544
+A blue panel lists the four steps.
+
+54
+00:03:47,544 --> 00:03:52,490
+Before you start, create an API key, version 2, in the Telnyx portal.
+
+55
+00:03:52,490 --> 00:03:56,776
+Sign in as an account owner or admin, so the key can create
+
+56
+00:03:56,776 --> 00:03:58,490
+what the site needs.
+
+57
+00:03:58,946 --> 00:04:04,364
+Tick Enable Telnyx provider, paste the key into API key, and click Save.
+
+58
+00:04:04,364 --> 00:04:06,726
+The key is stored encrypted.
+
+59
+00:04:07,485 --> 00:04:11,291
+Once the key is stored, a Connect Telnyx button appears.
+
+60
+00:04:11,291 --> 00:04:16,755
+Clicking it creates the call application, the connection and the voice profile that
+
+61
+00:04:16,755 --> 00:04:20,685
+Telnyx needs, and shows a green Connected to Telnyx panel.
+
+62
+00:04:22,285 --> 00:04:27,025
+After you connect, the page also asks for the Default outbound caller id,
+
+63
+00:04:27,025 --> 00:04:31,945
+the number your customers see, and the Webhook public key, which proves that
+
+64
+00:04:31,945 --> 00:04:34,465
+call events really come from Telnyx.
+
+65
+00:04:34,465 --> 00:04:37,165
+Without that key, calls do not connect.
+
+66
+00:04:37,915 --> 00:04:42,907
+It also offers Noise suppression, which cleans background sound out of calls, and
+
+67
+00:04:42,907 --> 00:04:46,464
+an Advanced section for rarely changed network settings.
+
+68
+00:04:46,464 --> 00:04:48,645
+Every one has a working default.
+
+69
+00:04:52,829 --> 00:04:58,483
+On the Soft Phone tab, the Default telephony provider lists every provider you turned on.
+
+70
+00:04:58,483 --> 00:05:02,529
+The soft phone places and controls its calls through this one.
+
+71
+00:05:02,983 --> 00:05:07,554
+Allowed short codes lists short numbers people may dial, one per line, such
+
+72
+00:05:07,554 --> 00:05:09,472
+as a carrier service number.
+
+73
+00:05:09,472 --> 00:05:12,576
+Short numbers are refused unless they are listed.
+
+74
+00:05:12,576 --> 00:05:15,003
+Emergency numbers can never be added.
+
+75
+00:05:15,457 --> 00:05:19,514
+Enable the soft phone is a master switch for the whole site.
+
+76
+00:05:19,514 --> 00:05:25,107
+Show the soft phone on the admin dashboard puts the phone button on every admin page.
+
+77
+00:05:25,559 --> 00:05:31,374
+Enable the diagnostics tab adds a tab with live call quality and a microphone meter.
+
+78
+00:05:31,374 --> 00:05:34,539
+Turn it on to troubleshoot, then off again.
+
+79
+00:05:34,992 --> 00:05:39,151
+Recent calls to display sets how many calls the Recent tab lists.
+
+80
+00:05:39,151 --> 00:05:44,364
+Default country decides the country a national number starts with, and Accent color
+
+81
+00:05:44,364 --> 00:05:46,942
+sets the color of the phone's buttons.
+
+82
+00:05:47,396 --> 00:05:48,468
+Click Save.
+
+83
+00:05:48,468 --> 00:05:51,306
+The phone now uses the chosen provider.
+
+84
+00:05:55,506 --> 00:05:59,299
+Open Interaction Center, Management, Extensions.
+
+85
+00:05:59,299 --> 00:06:02,249
+The list is empty until you add one.
+
+86
+00:06:02,249 --> 00:06:04,076
+Click Add extension.
+
+87
+00:06:04,540 --> 00:06:09,053
+Display name is what a colleague sees when this extension calls them.
+
+88
+00:06:09,053 --> 00:06:11,640
+Leave it empty to show the user name.
+
+89
+00:06:12,093 --> 00:06:16,864
+Extension number is the number colleagues dial, such as 1001.
+
+90
+00:06:16,864 --> 00:06:18,573
+It must be unique.
+
+91
+00:06:19,026 --> 00:06:22,013
+User is the person the extension rings.
+
+92
+00:06:22,013 --> 00:06:26,326
+Type to search the enabled users, pick one, and click Save.
+
+93
+00:06:26,777 --> 00:06:29,984
+Add an extension for each person who takes calls.
+
+94
+00:06:29,984 --> 00:06:34,240
+The list shows each number, its display name and the user it rings,
+
+95
+00:06:34,240 --> 00:06:37,097
+and you can search it by number or by name.
+
+96
+00:06:37,548 --> 00:06:40,939
+Every saved extension can be dialed straight away.
+
+97
+00:06:40,939 --> 00:06:44,028
+To stop one ringing, delete it from the list.
+
+98
+00:06:48,207 --> 00:06:52,940
+The phone button at the bottom right of every admin page opens the soft phone.
+
+99
+00:06:52,940 --> 00:06:55,926
+The status in its header says what it is doing.
+
+100
+00:06:55,926 --> 00:06:58,067
+Ready means it can place a call.
+
+101
+00:06:58,519 --> 00:07:02,288
+On the Keypad tab, type a phone number or use the keys.
+
+102
+00:07:02,288 --> 00:07:07,849
+The flag sets the country, so a national number becomes a full international number.
+
+103
+00:07:07,849 --> 00:07:10,259
+The green button places the call.
+
+104
+00:07:10,715 --> 00:07:13,681
+Click Dial extension to call a colleague.
+
+105
+00:07:13,681 --> 00:07:19,045
+Type the extension number, or part of a name, and the phone shows who it rings.
+
+106
+00:07:19,495 --> 00:07:23,666
+The Recent tab lists incoming, outgoing and missed calls.
+
+107
+00:07:23,666 --> 00:07:25,785
+Click one to dial it back.
+
+108
+00:07:26,235 --> 00:07:30,171
+The Voicemail tab lists the messages left for you, with a badge that
+
+109
+00:07:30,171 --> 00:07:32,405
+counts the ones you have not played.
+
+110
+00:07:32,855 --> 00:07:36,707
+Agents usually run the phone in a window of its own, through the
+
+111
+00:07:36,707 --> 00:07:39,072
+browser extension or the Windows app.
+
+112
+00:07:39,072 --> 00:07:42,594
+It opens the soft phone page of your site, so a call keeps
+
+113
+00:07:42,594 --> 00:07:47,545
+going while you move around, and incoming calls ring even when the window is closed.
+
+114
+00:07:51,733 --> 00:07:55,036
+Open Access Control, Roles and edit a role.
+
+115
+00:07:55,036 --> 00:07:57,936
+Type Telephony in Search permissions:
+
+116
+00:07:57,936 --> 00:08:00,633
+the module adds three permissions.
+
+117
+00:08:01,084 --> 00:08:04,845
+Manage telephony settings opens the Telephony settings.
+
+118
+00:08:04,845 --> 00:08:08,544
+Manage telephony extensions opens the extensions list.
+
+119
+00:08:08,997 --> 00:08:13,093
+Use the telephony soft phone lets a person make and take calls.
+
+120
+00:08:13,093 --> 00:08:17,308
+Only the Administrator role has it by default, so add it to every
+
+121
+00:08:17,308 --> 00:08:19,267
+role that works the phones.
+
+122
+00:08:23,467 --> 00:08:28,051
+A small team without desk phones gives each person a browser phone, and
+
+123
+00:08:28,051 --> 00:08:31,267
+an extension so colleagues reach them by number.
+
+124
+00:08:32,017 --> 00:08:36,251
+A company with its own Asterisk server keeps it, and gives its staff
+
+125
+00:08:36,251 --> 00:08:39,627
+a phone in the browser, next to the customer records.
+
+126
+00:08:40,377 --> 00:08:45,403
+A business that outgrows one phone company connects a second provider, and changes
+
+127
+00:08:45,403 --> 00:08:48,317
+the default provider when it is time to move.
+
+128
+00:08:49,067 --> 00:08:53,925
+A support or sales team that needs queues, campaigns and a dashboard adds
+
+129
+00:08:53,925 --> 00:08:57,247
+the Contact Center on top of the same telephony.
+
+130
+00:08:59,247 --> 00:09:04,550
+Connect your phone system once, choose the default provider, give people extensions, and
+
+131
+00:09:04,550 --> 00:09:07,879
+every user can place and take calls from the browser.
+
+132
+00:09:07,879 --> 00:09:09,347
+Thanks for watching.
+

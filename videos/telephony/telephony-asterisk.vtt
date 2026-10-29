@@ -1,0 +1,50 @@
+WEBVTT
+
+00:00:03.180 --> 00:00:08.004
+Open Settings, Communication, Telephony, and choose the Asterisk tab.
+
+00:00:08.004 --> 00:00:12.634
+Use Asterisk when your company runs its own Asterisk phone system.
+
+00:00:12.634 --> 00:00:15.850
+The values come from whoever looks after it.
+
+00:00:16.302 --> 00:00:18.377
+Tick Enable Asterisk provider.
+
+00:00:18.377 --> 00:00:20.452
+The rest of the fields appear.
+
+00:00:20.906 --> 00:00:26.158
+Enter the ARI base URL, the ARI user name and the ARI password.
+
+00:00:26.158 --> 00:00:31.106
+The password is stored encrypted, and is never shown again.
+
+00:00:31.556 --> 00:00:34.395
+The Stasis application name is required.
+
+00:00:34.395 --> 00:00:39.394
+When several sites share one Asterisk server, each site needs its own name,
+
+00:00:39.394 --> 00:00:42.666
+so that sites never receive each other's calls.
+
+00:00:43.119 --> 00:00:48.335
+The optional fields set an Endpoint template, an Outbound caller id, the Dial
+
+00:00:48.335 --> 00:00:50.849
+timeout and the voicemail details.
+
+00:00:50.849 --> 00:00:55.499
+The browser audio fields below them carry call audio to the browser.
+
+00:00:55.952 --> 00:00:56.931
+Click Save.
+
+00:00:56.931 --> 00:01:01.135
+The site checks the required fields, but it does not call the phone
+
+00:01:01.135 --> 00:01:05.742
+system, so a wrong password shows up the first time someone places a call.
+

@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:06.993
+Open Interaction Center, Management, Extensions.
+
+00:00:06.993 --> 00:00:09.943
+The list is empty until you add one.
+
+00:00:09.943 --> 00:00:11.770
+Click Add extension.
+
+00:00:12.234 --> 00:00:16.747
+Display name is what a colleague sees when this extension calls them.
+
+00:00:16.747 --> 00:00:19.334
+Leave it empty to show the user name.
+
+00:00:19.788 --> 00:00:24.559
+Extension number is the number colleagues dial, such as 1001.
+
+00:00:24.559 --> 00:00:26.268
+It must be unique.
+
+00:00:26.720 --> 00:00:29.707
+User is the person the extension rings.
+
+00:00:29.707 --> 00:00:34.020
+Type to search the enabled users, pick one, and click Save.
+
+00:00:34.471 --> 00:00:37.678
+Add an extension for each person who takes calls.
+
+00:00:37.678 --> 00:00:41.934
+The list shows each number, its display name and the user it rings,
+
+00:00:41.934 --> 00:00:44.791
+and you can search it by number or by name.
+
+00:00:45.242 --> 00:00:48.633
+Every saved extension can be dialed straight away.
+
+00:00:48.633 --> 00:00:51.722
+To stop one ringing, delete it from the list.
+

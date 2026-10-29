@@ -1,0 +1,382 @@
+{
+  "title": "Telephony",
+  "output": "telephony",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "ARI": "A.R.I.",
+    "URL": "U.R.L.",
+    "Telnyx": "Tel nix",
+    "VoIP": "voyp"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Telephony",
+      "subtitle": "Make and take phone calls from the browser",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The Telephony module lets people on your team make and take phone calls from the browser. This video shows why it exists, how the phone system, the soft phone and the extensions fit together, and how to set up each one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why telephony",
+      "subtitle": "Calls belong next to your customers",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Phone calls are still how many customers reach you. But a desk phone knows nothing about the customer on the other end, so every call starts from scratch."
+            },
+            {
+              "id": "why-2",
+              "text": "Phone companies also work in different ways. Moving from one to another, or running more than one, usually means new equipment and new training."
+            },
+            {
+              "id": "why-3",
+              "text": "Colleagues need to reach each other inside the company, without dialing a full phone number or remembering who sits where."
+            },
+            {
+              "id": "why-4",
+              "text": "The Telephony module puts a phone in the browser, next to your site. You connect your phone company once, and every user places and takes calls from the same screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "A provider, a soft phone, and extensions",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A provider is the phone system that carries your calls. The site works with Telnyx, a phone service in the cloud, and with Asterisk, a phone system that your company runs itself."
+            },
+            {
+              "id": "how-2",
+              "text": "The default provider is the one the soft phone uses. You can connect more than one provider, and switch the default without changing anything else."
+            },
+            {
+              "id": "how-3",
+              "text": "The soft phone is the phone itself, in the browser. It has a keypad, a list of recent calls, and voicemail."
+            },
+            {
+              "id": "how-4",
+              "text": "An extension is a short internal number that belongs to one user, so colleagues can call or transfer to each other by number or by name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Turn on telephony",
+      "subtitle": "The features behind the phone",
+      "clips": [
+        {
+          "id": "03-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feat-1",
+              "text": "Open Tools, Features, and search for Telephony. The Telephony feature is the base: it adds the settings, the extensions and the connection between the browser and the phone system."
+            },
+            {
+              "id": "feat-2",
+              "text": "The soft phone has its own features. One puts a phone button on every admin page, and another opens the phone in a small window of its own, which the phone apps use."
+            },
+            {
+              "id": "feat-3",
+              "text": "Each phone system is a feature too. Turn on Telnyx, Asterisk, or both, and each one adds its own tab to the Telephony settings."
+            },
+            {
+              "id": "feat-4",
+              "text": "By default, call recordings are stored on your site, encrypted. A feature called Telephony, Azure Blob Storage moves them to Azure instead. Your technical team turns it on and configures it."
+            }
+          ]
+        }
+      ],
+      "short": "features"
+    },
+    {
+      "id": "04",
+      "title": "Connect Asterisk",
+      "subtitle": "For a phone system your company runs",
+      "clips": [
+        {
+          "id": "04-asterisk",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ast-1",
+              "text": "Open Settings, Communication, Telephony, and choose the Asterisk tab. Use Asterisk when your company runs its own Asterisk phone system. The values come from whoever looks after it."
+            },
+            {
+              "id": "ast-2",
+              "text": "Tick Enable Asterisk provider. The rest of the fields appear."
+            },
+            {
+              "id": "ast-3",
+              "text": "Enter the ARI base URL, the ARI user name and the ARI password. The password is stored encrypted, and is never shown again."
+            },
+            {
+              "id": "ast-4",
+              "text": "The Stasis application name is required. When several sites share one Asterisk server, each site needs its own name, so that sites never receive each other's calls."
+            },
+            {
+              "id": "ast-5",
+              "text": "The optional fields set an Endpoint template, an Outbound caller id, the Dial timeout and the voicemail details. The browser audio fields below them carry call audio to the browser."
+            },
+            {
+              "id": "ast-6",
+              "text": "Click Save. The site checks the required fields, but it does not call the phone system, so a wrong password shows up the first time someone places a call."
+            }
+          ]
+        }
+      ],
+      "short": "asterisk"
+    },
+    {
+      "id": "05",
+      "title": "Connect Telnyx",
+      "subtitle": "For a phone service in the cloud",
+      "clips": [
+        {
+          "id": "05-telnyx",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tel-1",
+              "text": "Choose the Telnyx tab. A blue panel lists the four steps. Before you start, create an API key, version 2, in the Telnyx portal. Sign in as an account owner or admin, so the key can create what the site needs."
+            },
+            {
+              "id": "tel-2",
+              "text": "Tick Enable Telnyx provider, paste the key into API key, and click Save. The key is stored encrypted."
+            },
+            {
+              "id": "tel-3",
+              "text": "Once the key is stored, a Connect Telnyx button appears. Clicking it creates the call application, the connection and the voice profile that Telnyx needs, and shows a green Connected to Telnyx panel."
+            }
+          ]
+        },
+        {
+          "id": "05b-connected",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tel-4",
+              "text": "After you connect, the page also asks for the Default outbound caller id, the number your customers see, and the Webhook public key, which proves that call events really come from Telnyx. Without that key, calls do not connect."
+            },
+            {
+              "id": "tel-5",
+              "text": "It also offers Noise suppression, which cleans background sound out of calls, and an Advanced section for rarely changed network settings. Every one has a working default."
+            }
+          ]
+        }
+      ],
+      "short": "telnyx"
+    },
+    {
+      "id": "06",
+      "title": "Choose the default provider",
+      "subtitle": "And set up the soft phone",
+      "clips": [
+        {
+          "id": "06-defaults",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "def-1",
+              "text": "On the Soft Phone tab, the Default telephony provider lists every provider you turned on. The soft phone places and controls its calls through this one."
+            },
+            {
+              "id": "def-2",
+              "text": "Allowed short codes lists short numbers people may dial, one per line, such as a carrier service number. Short numbers are refused unless they are listed. Emergency numbers can never be added."
+            },
+            {
+              "id": "def-3",
+              "text": "Enable the soft phone is a master switch for the whole site. Show the soft phone on the admin dashboard puts the phone button on every admin page."
+            },
+            {
+              "id": "def-4",
+              "text": "Enable the diagnostics tab adds a tab with live call quality and a microphone meter. Turn it on to troubleshoot, then off again."
+            },
+            {
+              "id": "def-5",
+              "text": "Recent calls to display sets how many calls the Recent tab lists. Default country decides the country a national number starts with, and Accent color sets the color of the phone's buttons."
+            },
+            {
+              "id": "def-6",
+              "text": "Click Save. The phone now uses the chosen provider."
+            }
+          ]
+        }
+      ],
+      "short": "defaults"
+    },
+    {
+      "id": "07",
+      "title": "Give people extensions",
+      "subtitle": "Short numbers for colleagues",
+      "clips": [
+        {
+          "id": "07-extensions",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ext-1",
+              "text": "Open Interaction Center, Management, Extensions. The list is empty until you add one. Click Add extension."
+            },
+            {
+              "id": "ext-2",
+              "text": "Display name is what a colleague sees when this extension calls them. Leave it empty to show the user name."
+            },
+            {
+              "id": "ext-3",
+              "text": "Extension number is the number colleagues dial, such as 1001. It must be unique."
+            },
+            {
+              "id": "ext-4",
+              "text": "User is the person the extension rings. Type to search the enabled users, pick one, and click Save."
+            },
+            {
+              "id": "ext-5",
+              "text": "Add an extension for each person who takes calls. The list shows each number, its display name and the user it rings, and you can search it by number or by name."
+            },
+            {
+              "id": "ext-6",
+              "text": "Every saved extension can be dialed straight away. To stop one ringing, delete it from the list."
+            }
+          ]
+        }
+      ],
+      "short": "extensions"
+    },
+    {
+      "id": "08",
+      "title": "The soft phone",
+      "subtitle": "Keypad, recent calls and voicemail",
+      "clips": [
+        {
+          "id": "08-softphone",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "soft-1",
+              "text": "The phone button at the bottom right of every admin page opens the soft phone. The status in its header says what it is doing. Ready means it can place a call."
+            },
+            {
+              "id": "soft-2",
+              "text": "On the Keypad tab, type a phone number or use the keys. The flag sets the country, so a national number becomes a full international number. The green button places the call."
+            },
+            {
+              "id": "soft-3",
+              "text": "Click Dial extension to call a colleague. Type the extension number, or part of a name, and the phone shows who it rings."
+            },
+            {
+              "id": "soft-5",
+              "text": "The Recent tab lists incoming, outgoing and missed calls. Click one to dial it back."
+            },
+            {
+              "id": "soft-6",
+              "text": "The Voicemail tab lists the messages left for you, with a badge that counts the ones you have not played."
+            },
+            {
+              "id": "soft-7",
+              "text": "Agents usually run the phone in a window of its own, through the browser extension or the Windows app. It opens the soft phone page of your site, so a call keeps going while you move around, and incoming calls ring even when the window is closed."
+            }
+          ]
+        }
+      ],
+      "short": "softphone"
+    },
+    {
+      "id": "09",
+      "title": "Who can use it",
+      "subtitle": "Permissions for the phone",
+      "clips": [
+        {
+          "id": "09-permissions",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "Open Access Control, Roles and edit a role. Type Telephony in Search permissions: the module adds three permissions."
+            },
+            {
+              "id": "perm-2",
+              "text": "Manage telephony settings opens the Telephony settings. Manage telephony extensions opens the extensions list."
+            },
+            {
+              "id": "perm-3",
+              "text": "Use the telephony soft phone lets a person make and take calls. Only the Administrator role has it by default, so add it to every role that works the phones."
+            }
+          ]
+        }
+      ],
+      "short": "permissions"
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Where a browser phone helps",
+      "clips": [
+        {
+          "id": "10-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A small team without desk phones gives each person a browser phone, and an extension so colleagues reach them by number."
+            },
+            {
+              "id": "use-2",
+              "text": "A company with its own Asterisk server keeps it, and gives its staff a phone in the browser, next to the customer records."
+            },
+            {
+              "id": "use-3",
+              "text": "A business that outgrows one phone company connects a second provider, and changes the default provider when it is time to move."
+            },
+            {
+              "id": "use-4",
+              "text": "A support or sales team that needs queues, campaigns and a dashboard adds the Contact Center on top of the same telephony."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Connect your phone system once, choose the default provider, give people extensions, and every user can place and take calls from the browser. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
