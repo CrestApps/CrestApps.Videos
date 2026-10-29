@@ -1,0 +1,106 @@
+{
+  "title": "AI Chat: Talk to Your Assistants in the Admin and on Your Website | CrestApps for Orchard Core",
+  "description": "Once you have an AI assistant, people need a place to talk to it. The CrestApps AI Chat module gives you a chat page in the admin with a history of your own conversations, a floating chat on every admin page, and a chat box for the visitors of your website, all on top of the same AI profiles.\n\nIn this video:\n• Why every assistant needs a chat, and how the parts fit together\n• Opening a chat, asking follow-up questions and finding past chats\n• The admin chat widget on every admin page\n• Adding the chat widget to your public website with a layer\n• Chat engines: the default orchestrator, Claude and GitHub Copilot\n• Protecting a public assistant with limits, checks and visitor identity\n• Use cases for staff, visitors and editors",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI chat",
+    "AI chatbot",
+    "chat widget",
+    "website chatbot",
+    "Claude",
+    "GitHub Copilot",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Why AI chat"
+    },
+    {
+      "time": "1:03",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:48",
+      "title": "Chat with an assistant"
+    },
+    {
+      "time": "2:43",
+      "title": "Find and manage past chats"
+    },
+    {
+      "time": "3:24",
+      "title": "The admin chat widget"
+    },
+    {
+      "time": "4:18",
+      "title": "The website chat widget"
+    },
+    {
+      "time": "5:26",
+      "title": "Chat engines"
+    },
+    {
+      "time": "6:23",
+      "title": "Protect a public assistant"
+    },
+    {
+      "time": "7:11",
+      "title": "Use cases"
+    },
+    {
+      "time": "7:53",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Chat with an assistant",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/chat"
+    },
+    {
+      "label": "User manual: Chat widgets",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/chat-widgets"
+    },
+    {
+      "label": "Technical guide: AI Chat",
+      "url": "https://orchardcore.crestapps.com/docs/ai/chat"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/chat.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/chat-widgets.md",
+    "src/CrestApps.Docs/docs/ai/chat.md",
+    "src/CrestApps.Docs/docs/ai/claude.md",
+    "src/CrestApps.Docs/docs/ai/copilot.md"
+  ],
+  "length": "8:05"
+}
