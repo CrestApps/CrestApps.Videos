@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:06.574
+Open Tools, Features, and type Contact Center.
+
+00:00:06.574 --> 00:00:09.555
+The Contact Center is a set of features:
+
+00:00:09.555 --> 00:00:17.073
+work distribution for queues, inbound entry points, inbound voice, the outbound dialer, voice media, and more.
+
+00:00:17.530 --> 00:00:19.875
+Each feature lists what it needs.
+
+00:00:19.875 --> 00:00:23.602
+Click Show indirect dependencies to see the whole chain.
+
+00:00:23.602 --> 00:00:27.270
+Turning a feature on turns on everything it depends on.
+
+00:00:27.720 --> 00:00:32.516
+A deployment step appears only when the feature that owns its entity is on.
+
+00:00:32.516 --> 00:00:36.600
+A site without the dialer is not offered a dialer profile step.
+

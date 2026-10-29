@@ -1,0 +1,32 @@
+1
+00:00:03,184 --> 00:00:07,495
+Open Tools, Deployments, Plans, and click Add Deployment Plan.
+
+2
+00:00:07,495 --> 00:00:09,714
+Name it Contact Center setup.
+
+3
+00:00:11,962 --> 00:00:13,306
+Click Add Step.
+
+4
+00:00:13,306 --> 00:00:16,507
+The Contact Center steps are listed by name:
+
+5
+00:00:16,507 --> 00:00:23,100
+Contact Center Queue Groups, Contact Center Queues, Contact Center Voice Media Library, and more.
+
+6
+00:00:23,100 --> 00:00:26,172
+Each step exports every entry of its kind.
+
+7
+00:00:26,624 --> 00:00:33,046
+Add Contact Center Queue Groups, Contact Center Queues and Contact Center Voice Media Library.
+
+8
+00:00:33,046 --> 00:00:36,514
+Then click Execute and choose the file download.
+

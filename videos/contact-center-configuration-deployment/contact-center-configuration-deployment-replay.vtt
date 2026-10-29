@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:06.188
+To show a replay, rename a queue first.
+
+00:00:06.188 --> 00:00:10.903
+Click Edit on Billing, change the name to Billing test, and save.
+
+00:00:10.903 --> 00:00:13.160
+The list shows the new name.
+
+00:00:13.618 --> 00:00:19.958
+Open Tools, Deployments, Package Import, choose the downloaded file, and click Import.
+
+00:00:24.081 --> 00:00:27.971
+The queue is Billing again, and there are still four queues.
+
+00:00:27.971 --> 00:00:32.923
+The queue kept its identifier, so the entitlements and entry points that point
+
+00:00:32.923 --> 00:00:34.279
+at it still work.
+
+00:00:34.279 --> 00:00:38.169
+The order of steps matters when entries refer to each other:
+
+00:00:38.169 --> 00:00:45.301
+voice media, skills, queue groups and calendars first, then queues, entry points, dialer profiles and entitlements.
+

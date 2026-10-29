@@ -1,0 +1,28 @@
+1
+00:00:03,207 --> 00:00:04,754
+Open Tools, Recipes.
+
+2
+00:00:04,754 --> 00:00:09,455
+The Contact Center recipe for Asterisk turns on the whole set of features
+
+3
+00:00:09,455 --> 00:00:12,787
+for that provider in one step, in the right order.
+
+4
+00:00:13,254 --> 00:00:15,619
+A recipe turns on features only.
+
+5
+00:00:15,619 --> 00:00:20,536
+It carries no queues, skills or entry points, because those refer to your
+
+6
+00:00:20,536 --> 00:00:23,523
+provider, your numbers and your campaigns.
+
+7
+00:00:23,523 --> 00:00:26,884
+That configuration comes from a deployment plan.
+

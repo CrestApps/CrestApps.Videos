@@ -1,0 +1,52 @@
+1
+00:00:03,187 --> 00:00:06,566
+A voice media clip travels as its library entry:
+
+2
+00:00:06,566 --> 00:00:09,507
+its name, its description and its format.
+
+3
+00:00:09,507 --> 00:00:12,447
+The audio file itself is not in the plan.
+
+4
+00:00:12,447 --> 00:00:17,453
+Here the clip was deleted before the import, and it came back as an entry.
+
+5
+00:00:17,453 --> 00:00:21,707
+Its badges still say Master copy, but the audio is not at this
+
+6
+00:00:21,707 --> 00:00:23,897
+site, so you upload it again.
+
+7
+00:00:24,351 --> 00:00:27,238
+Open the clip and choose the audio file again.
+
+8
+00:00:27,238 --> 00:00:31,902
+Because the clip keeps its identifier, the queues, entry points and menus that
+
+9
+00:00:31,902 --> 00:00:33,901
+use it start playing it again.
+
+10
+00:00:34,355 --> 00:00:35,053
+Save.
+
+11
+00:00:35,053 --> 00:00:40,127
+The platform keeps the master copy and sends a copy to the phone provider.
+
+12
+00:00:40,127 --> 00:00:45,011
+Here the provider is unreachable, so it warns that the provider did not
+
+13
+00:00:45,011 --> 00:00:47,675
+accept the copy, and sends it later.
+
