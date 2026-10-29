@@ -1,0 +1,99 @@
+{
+  "title": "Gift Cards: Sell, Issue and Pay with a Code | CrestApps for Orchard Core",
+  "description": "A gift card is a code with money on it. The CrestApps gift cards feature lets you sell cards as a product, issue them by hand with your own code and expiry, follow and change every balance with a reason, email a card again, and let buyers pay with the code at checkout, with refunds putting the money back where it came from.\n\nIn this video:\n• Why gift cards, and how selling, issuing, spending and following fit together\n• Selling a gift card as a product and listing it in the shop\n• Issuing a card by hand: amount, code, recipient, expiry and message\n• A card's page: change the balance with a reason, activity and sending it again\n• Buying a gift card, and paying with one at checkout\n• Finding cards, filtering by status and the order a card was bought with\n• Refunds and cancellations",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "gift cards",
+    "store credit",
+    "ecommerce",
+    "checkout",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why gift cards"
+    },
+    {
+      "time": "0:53",
+      "title": "How gift cards work"
+    },
+    {
+      "time": "1:35",
+      "title": "Sell a gift card"
+    },
+    {
+      "time": "2:10",
+      "title": "Issue a gift card by hand"
+    },
+    {
+      "time": "2:51",
+      "title": "A gift card's page"
+    },
+    {
+      "time": "3:37",
+      "title": "Buy a gift card"
+    },
+    {
+      "time": "4:02",
+      "title": "Pay with a gift card"
+    },
+    {
+      "time": "4:33",
+      "title": "Find your gift cards"
+    },
+    {
+      "time": "5:11",
+      "title": "Refunds and safety"
+    },
+    {
+      "time": "5:46",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:11",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Gift cards (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/gift-cards"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/carts-and-orders"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders.GiftCards"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/gift-cards.md"
+  ],
+  "length": "6:21"
+}
