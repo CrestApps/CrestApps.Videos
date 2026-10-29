@@ -30,7 +30,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Orchestrators: Default, GitHub Copilot and Claude](videos/ai-orchestrators) | 3:42 | [https://youtu.be/b3LZEgiQ_hU](https://youtu.be/b3LZEgiQ_hU) | CrestApps/CrestApps.OrchardCore |
 | [AI Profile Builder: Train Your AI Assistant by Role-Play and Feedback](videos/ai-profile-builder) | 4:40 | [https://youtu.be/UOKvEY-kID4](https://youtu.be/UOKvEY-kID4) | [CrestApps/CrestApps.OrchardCore#910](https://github.com/CrestApps/CrestApps.OrchardCore/pull/910) |
 | [AI Profiles, Personas and Templates: Build and Reuse Your Assistants](videos/ai-profiles-personas-templates) | 10:51 | [https://youtu.be/AfIqxjZidec](https://youtu.be/AfIqxjZidec) | CrestApps/CrestApps.OrchardCore |
-| [AI Prompt Security: Protect Your Public AI Assistants](videos/ai-prompt-security) | 4:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Prompt Security: Protect Your Public AI Assistants](videos/ai-prompt-security) | 4:43 | [https://youtu.be/kXEgtCFMwM4](https://youtu.be/kXEgtCFMwM4) | CrestApps/CrestApps.OrchardCore |
 | [Other AI Providers: OpenAI-Compatible Endpoints, Ollama and Azure AI Inference](videos/ai-providers-other) | 3:27 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Realtime Voice: Set Up a Spoken Conversation With Your AI Assistant](videos/ai-realtime-voice) | 4:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | not uploaded | CrestApps/CrestApps.OrchardCore |
