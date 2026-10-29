@@ -1,0 +1,306 @@
+{
+  "title": "Point of Sale",
+  "output": "point-of-sale",
+  "spoken": {
+    "USD": "U.S.D."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Point of Sale",
+      "subtitle": "Sell at the counter with the same store",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Many stores sell in two places: online, and at a counter. This video shows how the Point of Sale module lets your staff sell at the counter of each store, how to set up registers, how a day at the till works, and how you see every shift and every sale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a point of sale",
+      "subtitle": "One store, two ways to sell",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A store that sells online and at a counter often keeps two systems. Their products, prices and stock drift apart, and nobody knows what the day really sold."
+            },
+            {
+              "id": "why-2",
+              "text": "Cash makes it harder. Someone has to count the drawer, explain a shortage, and tell a sale from a refund."
+            },
+            {
+              "id": "why-3",
+              "text": "The Point of Sale module sells at the counter from a phone, a tablet or a till computer, using the same products, prices, coupons, gift cards and stock as your online store."
+            },
+            {
+              "id": "why-4",
+              "text": "Every counter sale is an order of your site, so it shows up in your orders, your stock and your reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Registers, shifts and sales",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A register is a till at one of your stores. You set up one or more at each store."
+            },
+            {
+              "id": "how-2",
+              "text": "A member of staff opens a shift at a register, with the cash that is in its drawer."
+            },
+            {
+              "id": "how-3",
+              "text": "During the shift, they ring up sales in the till app, and take cash, a card, or both."
+            },
+            {
+              "id": "how-4",
+              "text": "At the end of the day they count the drawer and close the shift. You see every shift, what it sold, and whether its drawer came out right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Before you start",
+      "subtitle": "Stores, roles and sign-in",
+      "clips": [
+        {
+          "id": "03-before",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "before-1",
+              "text": "Add a location for each store under Settings, Commerce, Inventory. A register sells from one of them, and takes its stock from it."
+            },
+            {
+              "id": "before-2",
+              "text": "Give the staff who sell at the counter a role with the Sell at a register permission. Give whoever manages the stores Manage registers and shifts."
+            },
+            {
+              "id": "before-3",
+              "text": "The till app signs staff in with their own accounts, so every shift, sale and cash movement says who made it. Your technical team sets that sign-in up once."
+            },
+            {
+              "id": "before-4",
+              "text": "Turn on Receipts to print and email receipts, and Stripe to take cards on a card reader. Both are optional."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Set up registers",
+      "subtitle": "One for each till",
+      "clips": [
+        {
+          "id": "04-registers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "reg-1",
+              "text": "Open Commerce, Point of sale, Registers. Each register shows whether it is on, the address of its store, and links to its Shifts and to Edit it."
+            },
+            {
+              "id": "reg-2",
+              "text": "Click Add register. Give it a Name that staff see when they pick a register, such as Uptown till 1, and choose its Store location, the place whose stock its sales take."
+            },
+            {
+              "id": "reg-3",
+              "text": "Enter the Store address: the street, the city, the region, the postal code and the country. Sales at the register are taxed by this address, and its receipts show it. The country is its two-letter code."
+            },
+            {
+              "id": "reg-4",
+              "text": "Enter the Currency its drawer holds, such as U.S.D. Leave it blank to sell in the products' own currency."
+            },
+            {
+              "id": "reg-5",
+              "text": "Under Who may sell here, tick the roles whose staff may use this register. With none ticked, anyone with the Sell at a register permission can. The On switch turns the register off, so it cannot open a shift or ring up a sale."
+            },
+            {
+              "id": "reg-6",
+              "text": "Click Save. The register is added, and staff who may sell there can open a shift from the till app."
+            }
+          ]
+        }
+      ],
+      "short": "registers"
+    },
+    {
+      "id": "05",
+      "title": "A day at the till",
+      "subtitle": "What staff do in the till app",
+      "clips": [
+        {
+          "id": "05-day",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "day-1",
+              "text": "Staff sign in, and pick a register. The list shows only the registers they may sell at. They open a shift by entering the float: the cash put in the drawer."
+            },
+            {
+              "id": "day-2",
+              "text": "They ring up a sale by adding what the buyer takes. They can look up a customer, so the sale earns points on their account, or enter a walk-in buyer's name and email for the receipt."
+            },
+            {
+              "id": "day-3",
+              "text": "A discount code or a gift card goes on the sale before it is paid."
+            },
+            {
+              "id": "day-4",
+              "text": "The buyer pays in cash, by card, or with a mix. For cash, the till works out the change. A card is charged on the store's card terminal, or on a Stripe reader."
+            },
+            {
+              "id": "day-5",
+              "text": "The receipt can be printed, or emailed to the buyer when Receipts is on."
+            },
+            {
+              "id": "day-6",
+              "text": "Cash put in or taken out of the drawer outside a sale, such as a bank run, is recorded with a reason."
+            },
+            {
+              "id": "day-7",
+              "text": "A return is taken at the till: the items go back on the shelf, cash is handed back from the drawer, and a card is refunded to the card."
+            },
+            {
+              "id": "day-8",
+              "text": "At the end of the day, staff count the drawer, add a note if it is off, and close the shift."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Shifts",
+      "subtitle": "What each shift sold",
+      "clips": [
+        {
+          "id": "06-shifts",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shift-1",
+              "text": "Open Commerce, Point of sale, Shifts. It lists every shift, newest first, each Open or Closed, with when it opened and who opened it. A closed shift shows its difference."
+            },
+            {
+              "id": "shift-2",
+              "text": "The list in the header filters by register. Shifts, on a register in the registers list, opens the same list for that register."
+            },
+            {
+              "id": "shift-3",
+              "text": "Click View to open a shift. It shows how many Sales it took, their Total, the Cash kept, what cards paid in Card, what gift cards paid, and what has been Refunded."
+            },
+            {
+              "id": "shift-4",
+              "text": "Under Cash drawer, the Opening float, plus the cash put in, less the cash taken out, gives the Expected cash. Each movement is listed with its reason and who made it."
+            },
+            {
+              "id": "shift-5",
+              "text": "For a closed shift, Counted is the cash staff counted, and Difference is how far off it was. A negative difference means the drawer was short. The note given at the close is shown with it."
+            }
+          ]
+        }
+      ],
+      "short": "shifts"
+    },
+    {
+      "id": "07",
+      "title": "Register sales are orders",
+      "subtitle": "In your orders and reports",
+      "clips": [
+        {
+          "id": "07-orders",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ord-1",
+              "text": "A register sale is an order like any other. Open Commerce, Orders, and it is there, with a badge that names its register."
+            },
+            {
+              "id": "ord-2",
+              "text": "The first list filters by channel: Every channel, Online, Point of sale, or Drafts sent by staff. The channel also limits the CSV export."
+            },
+            {
+              "id": "ord-3",
+              "text": "Open a sale. Nothing is shipped, because the buyer takes the goods with them, and it was taxed by the register's store address."
+            },
+            {
+              "id": "ord-4",
+              "text": "Its stock came off the register's store, and the sale appears in your reports by store and by channel."
+            }
+          ]
+        }
+      ],
+      "short": "orders"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop with an online store and a counter: one catalog and one stock, whichever way the customer buys."
+            },
+            {
+              "id": "use-2",
+              "text": "Several stores: a register at each, selling from its own stock, with sales reported by store."
+            },
+            {
+              "id": "use-3",
+              "text": "A busy till with several staff: every shift and every sale names who made it, and each drawer is counted and reconciled."
+            },
+            {
+              "id": "use-4",
+              "text": "A market stall or a pop-up: a phone or a tablet is enough, with cash and a card reader."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "The Point of Sale module sells at your counters from the same store as your website, and keeps every drawer honest. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

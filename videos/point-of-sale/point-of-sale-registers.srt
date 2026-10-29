@@ -1,0 +1,76 @@
+1
+00:00:03,300 --> 00:00:06,169
+Open Commerce, Point of sale, Registers.
+
+2
+00:00:06,169 --> 00:00:10,723
+Each register shows whether it is on, the address of its store, and
+
+3
+00:00:10,723 --> 00:00:13,280
+links to its Shifts and to Edit it.
+
+4
+00:00:13,807 --> 00:00:15,177
+Click Add register.
+
+5
+00:00:15,177 --> 00:00:18,847
+Give it a Name that staff see when they pick a register, such
+
+6
+00:00:18,847 --> 00:00:23,887
+as Uptown till 1, and choose its Store location, the place whose stock its sales take.
+
+7
+00:00:25,297 --> 00:00:27,211
+Enter the Store address:
+
+8
+00:00:27,211 --> 00:00:31,805
+the street, the city, the region, the postal code and the country.
+
+9
+00:00:31,805 --> 00:00:36,910
+Sales at the register are taxed by this address, and its receipts show it.
+
+10
+00:00:36,910 --> 00:00:39,527
+The country is its two-letter code.
+
+11
+00:00:40,016 --> 00:00:43,249
+Enter the Currency its drawer holds, such as U.S.D.
+
+12
+00:00:43,249 --> 00:00:46,596
+Leave it blank to sell in the products' own currency.
+
+13
+00:00:47,094 --> 00:00:51,952
+Under Who may sell here, tick the roles whose staff may use this register.
+
+14
+00:00:51,952 --> 00:00:56,446
+With none ticked, anyone with the Sell at a register permission can.
+
+15
+00:00:56,446 --> 00:01:00,636
+The On switch turns the register off, so it cannot open a shift
+
+16
+00:01:00,636 --> 00:01:02,094
+or ring up a sale.
+
+17
+00:01:02,589 --> 00:01:03,561
+Click Save.
+
+18
+00:01:03,561 --> 00:01:07,452
+The register is added, and staff who may sell there can open a
+
+19
+00:01:07,452 --> 00:01:09,169
+shift from the till app.
+
