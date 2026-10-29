@@ -1,0 +1,234 @@
+{
+  "title": "Report Builder dashboards",
+  "output": "report-builder-dashboards",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "PDF": "P.D.F."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report Builder dashboards",
+      "subtitle": "Several queries, containers and click to filter",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A dashboard puts everything about a question on one page: a scorecard per agent, a scorecard per queue, a trend by day, and the list of single calls. This video shows how the Report Builder makes one, with several queries, containers, and clicks that filter the rest of the page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why dashboards",
+      "subtitle": "One question, several groupings",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A report groups its data one way. Totals per agent and a trend per day need two different groupings, so one query cannot show both."
+            },
+            {
+              "id": "why-2",
+              "text": "A dashboard gives each table or chart its own query, frames them in containers so the page stays tidy, and links them, so a click on one filters the others."
+            },
+            {
+              "id": "why-3",
+              "text": "The person reading it asks the next question with a click: which agent, which queue, which day, and then which calls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Use a dashboard",
+      "subtitle": "Click an agent, a queue or a day",
+      "short": "use",
+      "clips": [
+        {
+          "id": "02-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "This is the Call dashboard, run from Reports, Report Builder. Four containers frame an agent scorecard, a queue scorecard, the calls per day, and the call selection."
+            },
+            {
+              "id": "run-2",
+              "text": "Click an agent in the scorecard. The other visuals show only that agent: the queues, the trend and the calls. The picked row stays highlighted."
+            },
+            {
+              "id": "run-3",
+              "text": "Hold Control and click another agent to add them. Click Clear selection, and every row is back."
+            },
+            {
+              "id": "run-4",
+              "text": "Click a day on the chart, and the call selection narrows to the calls of that day. Only the visuals a click is linked to load again; the rest of the page stays as it is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Several queries",
+      "subtitle": "Each visual can group the data its own way",
+      "short": "queries",
+      "clips": [
+        {
+          "id": "03-queries",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "q-1",
+              "text": "Choose Edit design. Under the tabs, the Query list holds the report's queries: the main query, By queue, Calls and By day. Each has its own columns and filters."
+            },
+            {
+              "id": "q-2",
+              "text": "Pick By day. Its columns are the call date kept to the day, the number of calls and the average talk time. The chart shows this query."
+            },
+            {
+              "id": "q-3",
+              "text": "Add query makes a new query as a copy of the one you are editing. Give it a name, change its columns, and add a visual. Remove query takes it away, with its visuals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Containers",
+      "subtitle": "Frame visuals with a title and a height",
+      "short": "containers",
+      "clips": [
+        {
+          "id": "04-containers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "The Containers card lists the frames. Each shows its title and how many visuals it holds."
+            },
+            {
+              "id": "con-2",
+              "text": "Add container asks for a Title, a Width and a Height. Pick Grow with its visuals for a frame as tall as what it holds. When the visuals are taller, they scroll inside it."
+            },
+            {
+              "id": "con-3",
+              "text": "A visual picks its frame in its own Container setting. Click the Agents table, and its Container is Agent scorecard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "When clicked",
+      "subtitle": "Link a visual to the others",
+      "short": "clicks",
+      "clips": [
+        {
+          "id": "05-clicks",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "clk-1",
+              "text": "With the Agents table selected, look under When clicked. Pick the value of says which column a click picks: here, Agent."
+            },
+            {
+              "id": "clk-2",
+              "text": "Filter these visuals lists the other visuals. The Queues table, the Calls per day chart and the Calls table are checked, so a click on an agent filters all three."
+            },
+            {
+              "id": "clk-3",
+              "text": "Select the Calls per day chart. It picks the Day, so a click on a day filters the Calls table to that day. A column that adds up values cannot be picked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Export a dashboard",
+      "subtitle": "The containers travel with it",
+      "short": "export",
+      "clips": [
+        {
+          "id": "06-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "Export keeps the containers where the format can. Excel and PDF are the two to look at."
+            }
+          ]
+        },
+        {
+          "id": "06b-files",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "file-1",
+              "text": "In Excel, each container is a worksheet named after it, with its visuals one under the other, each under its title. Chart values are numbers, so you can chart or add them up there."
+            },
+            {
+              "id": "file-2",
+              "text": "In the PDF, a container's title is a band across the page, with its visuals under it. A CSV file has no sheets, so it lists the data of every visual in order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Where dashboards fit",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A service review: scorecards per agent and per queue, with the calls behind them one click away."
+            },
+            {
+              "id": "use-2",
+              "text": "A quality check: a trend by day, and a click on a bad day lists its calls."
+            },
+            {
+              "id": "use-3",
+              "text": "A hand-off to a manager: export to Excel, one worksheet for each container."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report Builder dashboards",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A Report Builder dashboard answers the first question and lets the reader ask the next one with a click. Queries, containers and links are all it takes. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

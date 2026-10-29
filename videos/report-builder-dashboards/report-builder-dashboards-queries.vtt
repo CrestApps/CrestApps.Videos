@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.186 --> 00:00:04.876
+Choose Edit design.
+
+00:00:04.876 --> 00:00:09.204
+Under the tabs, the Query list holds the report's queries:
+
+00:00:09.204 --> 00:00:12.518
+the main query, By queue, Calls and By day.
+
+00:00:12.518 --> 00:00:15.426
+Each has its own columns and filters.
+
+00:00:15.877 --> 00:00:16.867
+Pick By day.
+
+00:00:16.867 --> 00:00:20.495
+Its columns are the call date kept to the day, the number of
+
+00:00:20.495 --> 00:00:22.583
+calls and the average talk time.
+
+00:00:22.583 --> 00:00:24.397
+The chart shows this query.
+
+00:00:24.849 --> 00:00:29.348
+Add query makes a new query as a copy of the one you are editing.
+
+00:00:29.348 --> 00:00:33.087
+Give it a name, change its columns, and add a visual.
+
+00:00:33.087 --> 00:00:36.319
+Remove query takes it away, with its visuals.
+

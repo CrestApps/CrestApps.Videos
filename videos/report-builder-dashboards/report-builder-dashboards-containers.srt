@@ -1,0 +1,28 @@
+1
+00:00:03,202 --> 00:00:05,945
+The Containers card lists the frames.
+
+2
+00:00:05,945 --> 00:00:09,582
+Each shows its title and how many visuals it holds.
+
+3
+00:00:10,032 --> 00:00:13,762
+Add container asks for a Title, a Width and a Height.
+
+4
+00:00:13,762 --> 00:00:18,188
+Pick Grow with its visuals for a frame as tall as what it holds.
+
+5
+00:00:18,188 --> 00:00:21,792
+When the visuals are taller, they scroll inside it.
+
+6
+00:00:22,242 --> 00:00:26,121
+A visual picks its frame in its own Container setting.
+
+7
+00:00:26,121 --> 00:00:30,452
+Click the Agents table, and its Container is Agent scorecard.
+

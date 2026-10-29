@@ -1,0 +1,40 @@
+1
+00:00:03,200 --> 00:00:07,094
+With the Agents table selected, look under When clicked.
+
+2
+00:00:07,094 --> 00:00:10,610
+Pick the value of says which column a click picks:
+
+3
+00:00:10,610 --> 00:00:11,740
+here, Agent.
+
+4
+00:00:12,192 --> 00:00:15,266
+Filter these visuals lists the other visuals.
+
+5
+00:00:15,266 --> 00:00:19,546
+The Queues table, the Calls per day chart and the Calls table are
+
+6
+00:00:19,546 --> 00:00:22,922
+checked, so a click on an agent filters all three.
+
+7
+00:00:23,372 --> 00:00:25,563
+Select the Calls per day chart.
+
+8
+00:00:25,563 --> 00:00:29,173
+It picks the Day, so a click on a day filters the Calls
+
+9
+00:00:29,173 --> 00:00:30,594
+table to that day.
+
+10
+00:00:30,594 --> 00:00:33,672
+A column that adds up values cannot be picked.
+

@@ -1,0 +1,288 @@
+1
+00:00:01,000 --> 00:00:04,912
+A dashboard puts everything about a question on one page:
+
+2
+00:00:04,912 --> 00:00:09,321
+a scorecard per agent, a scorecard per queue, a trend by day, and
+
+3
+00:00:09,321 --> 00:00:11,246
+the list of single calls.
+
+4
+00:00:11,246 --> 00:00:16,835
+This video shows how the Report Builder makes one, with several queries, containers,
+
+5
+00:00:16,835 --> 00:00:19,940
+and clicks that filter the rest of the page.
+
+6
+00:00:24,540 --> 00:00:27,060
+A report groups its data one way.
+
+7
+00:00:27,060 --> 00:00:31,907
+Totals per agent and a trend per day need two different groupings, so
+
+8
+00:00:31,907 --> 00:00:34,040
+one query cannot show both.
+
+9
+00:00:34,790 --> 00:00:39,221
+A dashboard gives each table or chart its own query, frames them in
+
+10
+00:00:39,221 --> 00:00:43,470
+containers so the page stays tidy, and links them, so a click on
+
+11
+00:00:43,470 --> 00:00:45,230
+one filters the others.
+
+12
+00:00:45,980 --> 00:00:49,820
+The person reading it asks the next question with a click:
+
+13
+00:00:49,820 --> 00:00:53,660
+which agent, which queue, which day, and then which calls.
+
+14
+00:00:57,843 --> 00:01:02,204
+This is the Call dashboard, run from Reports, Report Builder.
+
+15
+00:01:02,204 --> 00:01:07,736
+Four containers frame an agent scorecard, a queue scorecard, the calls per day,
+
+16
+00:01:07,736 --> 00:01:09,623
+and the call selection.
+
+17
+00:01:10,074 --> 00:01:12,343
+Click an agent in the scorecard.
+
+18
+00:01:12,343 --> 00:01:15,029
+The other visuals show only that agent:
+
+19
+00:01:15,029 --> 00:01:17,536
+the queues, the trend and the calls.
+
+20
+00:01:17,536 --> 00:01:19,864
+The picked row stays highlighted.
+
+21
+00:01:20,314 --> 00:01:23,874
+Hold Control and click another agent to add them.
+
+22
+00:01:23,874 --> 00:01:27,174
+Click Clear selection, and every row is back.
+
+23
+00:01:27,624 --> 00:01:31,310
+Click a day on the chart, and the call selection narrows to the
+
+24
+00:01:31,310 --> 00:01:32,592
+calls of that day.
+
+25
+00:01:32,592 --> 00:01:36,172
+Only the visuals a click is linked to load again; the rest of
+
+26
+00:01:36,172 --> 00:01:37,774
+the page stays as it is.
+
+27
+00:01:41,960 --> 00:01:43,651
+Choose Edit design.
+
+28
+00:01:43,651 --> 00:01:47,979
+Under the tabs, the Query list holds the report's queries:
+
+29
+00:01:47,979 --> 00:01:51,292
+the main query, By queue, Calls and By day.
+
+30
+00:01:51,292 --> 00:01:54,200
+Each has its own columns and filters.
+
+31
+00:01:54,652 --> 00:01:55,641
+Pick By day.
+
+32
+00:01:55,641 --> 00:01:59,269
+Its columns are the call date kept to the day, the number of
+
+33
+00:01:59,269 --> 00:02:01,358
+calls and the average talk time.
+
+34
+00:02:01,358 --> 00:02:03,172
+The chart shows this query.
+
+35
+00:02:03,623 --> 00:02:08,122
+Add query makes a new query as a copy of the one you are editing.
+
+36
+00:02:08,122 --> 00:02:11,861
+Give it a name, change its columns, and add a visual.
+
+37
+00:02:11,861 --> 00:02:15,093
+Remove query takes it away, with its visuals.
+
+38
+00:02:19,294 --> 00:02:22,038
+The Containers card lists the frames.
+
+39
+00:02:22,038 --> 00:02:25,674
+Each shows its title and how many visuals it holds.
+
+40
+00:02:26,125 --> 00:02:29,855
+Add container asks for a Title, a Width and a Height.
+
+41
+00:02:29,855 --> 00:02:34,281
+Pick Grow with its visuals for a frame as tall as what it holds.
+
+42
+00:02:34,281 --> 00:02:37,885
+When the visuals are taller, they scroll inside it.
+
+43
+00:02:38,335 --> 00:02:42,214
+A visual picks its frame in its own Container setting.
+
+44
+00:02:42,214 --> 00:02:46,545
+Click the Agents table, and its Container is Agent scorecard.
+
+45
+00:02:50,746 --> 00:02:54,639
+With the Agents table selected, look under When clicked.
+
+46
+00:02:54,639 --> 00:02:58,155
+Pick the value of says which column a click picks:
+
+47
+00:02:58,155 --> 00:02:59,286
+here, Agent.
+
+48
+00:02:59,737 --> 00:03:02,811
+Filter these visuals lists the other visuals.
+
+49
+00:03:02,811 --> 00:03:07,091
+The Queues table, the Calls per day chart and the Calls table are
+
+50
+00:03:07,091 --> 00:03:10,467
+checked, so a click on an agent filters all three.
+
+51
+00:03:10,918 --> 00:03:13,108
+Select the Calls per day chart.
+
+52
+00:03:13,108 --> 00:03:16,719
+It picks the Day, so a click on a day filters the Calls
+
+53
+00:03:16,719 --> 00:03:18,139
+table to that day.
+
+54
+00:03:18,139 --> 00:03:21,218
+A column that adds up values cannot be picked.
+
+55
+00:03:25,399 --> 00:03:28,861
+Export keeps the containers where the format can.
+
+56
+00:03:28,861 --> 00:03:31,569
+Excel and PDF are the two to look at.
+
+57
+00:03:33,169 --> 00:03:38,020
+In Excel, each container is a worksheet named after it, with its visuals
+
+58
+00:03:38,020 --> 00:03:41,005
+one under the other, each under its title.
+
+59
+00:03:41,005 --> 00:03:45,359
+Chart values are numbers, so you can chart or add them up there.
+
+60
+00:03:46,109 --> 00:03:50,935
+In the PDF, a container's title is a band across the page, with
+
+61
+00:03:50,935 --> 00:03:52,823
+its visuals under it.
+
+62
+00:03:52,823 --> 00:03:58,279
+A CSV file has no sheets, so it lists the data of every visual in order.
+
+63
+00:04:02,479 --> 00:04:03,945
+A service review:
+
+64
+00:04:03,945 --> 00:04:09,299
+scorecards per agent and per queue, with the calls behind them one click away.
+
+65
+00:04:10,049 --> 00:04:11,521
+A quality check:
+
+66
+00:04:11,521 --> 00:04:15,739
+a trend by day, and a click on a bad day lists its calls.
+
+67
+00:04:16,489 --> 00:04:18,522
+A hand-off to a manager:
+
+68
+00:04:18,522 --> 00:04:22,319
+export to Excel, one worksheet for each container.
+
+69
+00:04:24,319 --> 00:04:29,299
+A Report Builder dashboard answers the first question and lets the reader ask
+
+70
+00:04:29,299 --> 00:04:31,219
+the next one with a click.
+
+71
+00:04:31,219 --> 00:04:34,399
+Queries, containers and links are all it takes.
+
+72
+00:04:34,399 --> 00:04:35,959
+Thanks for watching.
+
