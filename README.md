@@ -18,7 +18,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Connections and Deployments: Connect Your Site to an AI Service](videos/ai-connections-deployments) | 5:56 | [https://youtu.be/X0tP_6Bdzs4](https://youtu.be/X0tP_6Bdzs4) | CrestApps/CrestApps.OrchardCore |
 | [AI Data Extraction and Post-Session Processing: Learn From Every Chat](videos/ai-data-extraction-post-session) | 3:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Data Sources: Answers From Your Site's Content](videos/ai-data-sources) | 5:26 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [External AI Data Sources: Elasticsearch, Azure AI Search and PostgreSQL](videos/ai-data-sources-external) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [External AI Data Sources: Elasticsearch, Azure AI Search and PostgreSQL](videos/ai-data-sources-external) | 4:05 | [https://youtu.be/60BtEo6drt8](https://youtu.be/60BtEo6drt8) | CrestApps/CrestApps.OrchardCore |
 | [AI Documents: Ask About a File in a Chat, Charts Included](videos/ai-documents) | 4:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Export and Import Your AI Setup With Deployment Plans](videos/ai-export-import) | 3:21 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI File Sources: Keep Knowledge in Step With a Folder](videos/ai-file-sources) | 6:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -62,6 +62,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [The Live Dashboard: Watch Queues and Agents in Real Time](videos/contact-center-live-dashboard) | 4:55 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Numbers Not In Service: Skip Dead Numbers Automatically](videos/contact-center-numbers-not-in-service) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Queues: Decide Who Takes the Next Call, and What Callers Hear](videos/contact-center-queues) | 5:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Contact Center Reports: Run, Filter, Read and Export](videos/contact-center-reports) | 6:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Settings: Recording, Consent and Transfers](videos/contact-center-settings) | 6:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Setup Walkthroughs: Numbers, Queues, IVR and Campaigns](videos/contact-center-setup-walkthroughs) | 23:17 | [https://youtu.be/nMQ4AC7VtWA](https://youtu.be/nMQ4AC7VtWA) | CrestApps/CrestApps.OrchardCore |
 | [Skills and Agent Entitlements: Send Work to the Right Agent](videos/contact-center-skills-entitlements) | 4:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
