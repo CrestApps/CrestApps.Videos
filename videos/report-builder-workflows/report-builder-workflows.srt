@@ -1,0 +1,220 @@
+1
+00:00:01,000 --> 00:00:05,767
+Workflows let a Report Builder report work without anyone opening it:
+
+2
+00:00:05,767 --> 00:00:11,042
+start something when a report is published, run or exported, and run, export,
+
+3
+00:00:11,042 --> 00:00:13,585
+email or share a report as a step.
+
+4
+00:00:13,585 --> 00:00:18,860
+This video shows the report events and tasks, and runs one workflow for real.
+
+5
+00:00:23,460 --> 00:00:28,069
+Some reports are read every morning, some are handed to people who never
+
+6
+00:00:28,069 --> 00:00:31,910
+open the site, and some matter only when something changes.
+
+7
+00:00:32,660 --> 00:00:38,079
+A workflow starts from an event, such as a report being published, run
+
+8
+00:00:38,079 --> 00:00:40,574
+or exported, or from a timer.
+
+9
+00:00:40,574 --> 00:00:44,710
+Then its tasks run, export, email or share a report.
+
+10
+00:00:45,460 --> 00:00:49,179
+Reports under Reports can be emailed with a subscription.
+
+11
+00:00:49,179 --> 00:00:55,200
+Report Builder reports use workflows instead, and the Email Report task is how they are emailed.
+
+12
+00:00:59,438 --> 00:01:01,307
+Open Design, Workflows.
+
+13
+00:01:01,307 --> 00:01:05,688
+This one, Share a link when a report is published, has a start
+
+14
+00:01:05,688 --> 00:01:08,588
+event and a task, joined by an outcome.
+
+15
+00:01:08,588 --> 00:01:11,488
+Add Event lists the events by category.
+
+16
+00:01:11,967 --> 00:01:15,022
+The Reports category holds three events:
+
+17
+00:01:15,022 --> 00:01:20,865
+Report Run, when someone runs a report; Report Exported, when someone exports one;
+
+18
+00:01:20,865 --> 00:01:24,517
+and Report Published, when someone publishes one.
+
+19
+00:01:24,978 --> 00:01:28,030
+Edit the event to limit it to some reports.
+
+20
+00:01:28,030 --> 00:01:32,078
+Leave Reports empty to start the workflow for every report.
+
+21
+00:01:36,307 --> 00:01:40,659
+Add Task, in the Reports category, lists four tasks:
+
+22
+00:01:40,659 --> 00:01:46,287
+Run Report, Export Report, Email Report and Create Report Share Link.
+
+23
+00:01:46,746 --> 00:01:49,843
+Every report task starts with the same fields:
+
+24
+00:01:49,843 --> 00:01:53,714
+the Report to use, or an expression that gives its ID, so a
+
+25
+00:01:53,714 --> 00:01:58,121
+task after a report event can use the report that triggered it, plus
+
+26
+00:01:58,121 --> 00:02:00,086
+Filters and an Output name.
+
+27
+00:02:00,564 --> 00:02:05,437
+Create Report Share Link asks for the Recipients, a Note, how many days
+
+28
+00:02:05,437 --> 00:02:11,384
+it Expires after, the Most uses, whether to Allow export, and whether to email the link.
+
+29
+00:02:15,559 --> 00:02:17,243
+Now publish a report.
+
+30
+00:02:17,243 --> 00:02:20,859
+In the builder, click Publish on the Call dashboard.
+
+31
+00:02:21,311 --> 00:02:24,549
+The Report Published event starts the workflow.
+
+32
+00:02:24,549 --> 00:02:26,931
+Its Instances list shows the run.
+
+33
+00:02:28,436 --> 00:02:32,912
+And Shared Links lists the link the workflow created, for the recipient it
+
+34
+00:02:32,912 --> 00:02:34,423
+named, with its uses.
+
+35
+00:02:34,423 --> 00:02:36,886
+The recipient opens it once signed in.
+
+36
+00:02:41,134 --> 00:02:45,716
+A second workflow starts on Report Run and uses Export Report.
+
+37
+00:02:45,716 --> 00:02:50,904
+Its Format is Excel, and its Media folder names where to save the file.
+
+38
+00:02:51,365 --> 00:02:54,490
+Run the Call dashboard, and open the media library.
+
+39
+00:02:54,490 --> 00:02:58,546
+The workbook is there, in the folder the task named, with the report
+
+40
+00:02:58,546 --> 00:03:00,245
+and the date in its name.
+
+41
+00:03:04,522 --> 00:03:09,220
+A third workflow starts on a timer and uses Email Report.
+
+42
+00:03:09,220 --> 00:03:15,261
+Choose the report, the recipients, an optional message, and the attachment:
+
+43
+00:03:15,261 --> 00:03:17,722
+CSV, Excel or PDF, or none.
+
+44
+00:03:18,198 --> 00:03:22,799
+This site has no mail server, so this workflow is shown and not run.
+
+45
+00:03:22,799 --> 00:03:27,524
+Where email cannot be sent, the task takes its Failed outcome, and the
+
+46
+00:03:27,524 --> 00:03:30,198
+reason is written to the site's logs.
+
+47
+00:03:34,398 --> 00:03:35,940
+A morning report:
+
+48
+00:03:35,940 --> 00:03:40,568
+a timer, then Email Report with the dashboard as an Excel file.
+
+49
+00:03:41,318 --> 00:03:42,254
+A handover:
+
+50
+00:03:42,254 --> 00:03:46,718
+when a report is published, create a share link for the people who need it.
+
+51
+00:03:47,468 --> 00:03:48,585
+An archive:
+
+52
+00:03:48,585 --> 00:03:52,728
+when a report is run, export a copy to the media library.
+
+53
+00:03:54,728 --> 00:04:00,282
+Events start them, tasks do the work, and the report runs with its owner's access.
+
+54
+00:04:00,282 --> 00:04:04,006
+Send reports only to people who should see that data.
+
+55
+00:04:04,006 --> 00:04:05,648
+Thanks for watching.
+

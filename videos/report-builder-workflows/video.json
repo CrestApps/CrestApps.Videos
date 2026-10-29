@@ -1,0 +1,85 @@
+{
+  "title": "Report Builder Workflows: Email, Export and Share Reports Automatically | CrestApps for Orchard Core",
+  "description": "Workflows let a Report Builder report work without anyone opening it. This video shows the report events (Report Run, Report Exported, Report Published) and the report tasks (Run Report, Export Report, Email Report, Create Report Share Link), and runs two workflows for real: a published report creates a share link, and a run of the dashboard saves an Excel copy in the media library.\n\nIn this video:\n• Why workflows for reports\n• The report events and how to limit them to some reports\n• The report tasks and their fields\n• Publishing a report and seeing the workflow instance and the share link\n• Saving an Excel copy in the media library\n• The Email Report task, and what happens where email cannot be sent",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "report builder",
+    "workflows",
+    "email report",
+    "scheduled reports",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Why workflows"
+    },
+    {
+      "time": "0:56",
+      "title": "The report events"
+    },
+    {
+      "time": "1:33",
+      "title": "The report tasks"
+    },
+    {
+      "time": "2:12",
+      "title": "Run it"
+    },
+    {
+      "time": "2:37",
+      "title": "Export a copy"
+    },
+    {
+      "time": "3:01",
+      "title": "Email a report"
+    },
+    {
+      "time": "3:31",
+      "title": "Where workflows fit"
+    },
+    {
+      "time": "3:53",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/report-builder/workflows"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports.Builder"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/report-builder/workflows.md",
+    "src/CrestApps.Docs/docs/modules/report-builder/workflows.md"
+  ],
+  "length": "4:07"
+}

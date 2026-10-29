@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.175 --> 00:00:04.859
+Now publish a report.
+
+00:00:04.859 --> 00:00:08.475
+In the builder, click Publish on the Call dashboard.
+
+00:00:08.927 --> 00:00:12.164
+The Report Published event starts the workflow.
+
+00:00:12.164 --> 00:00:14.547
+Its Instances list shows the run.
+
+00:00:16.051 --> 00:00:20.528
+And Shared Links lists the link the workflow created, for the recipient it
+
+00:00:20.528 --> 00:00:22.039
+named, with its uses.
+
+00:00:22.039 --> 00:00:24.501
+The recipient opens it once signed in.
+

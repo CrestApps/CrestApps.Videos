@@ -1,0 +1,146 @@
+{
+ "steps": [
+  {
+   "name": "WorkflowType",
+   "data": [
+    {
+     "WorkflowTypeId": "report-published-share-link",
+     "Name": "Share a link when a report is published",
+     "IsEnabled": true,
+     "IsSingleInstance": false,
+     "DeleteFinishedWorkflows": false,
+     "Activities": [
+      {
+       "ActivityId": "a1",
+       "Name": "ReportPublishedEvent",
+       "X": 60,
+       "Y": 80,
+       "IsStart": true,
+       "Properties": {
+        "ReportIds": []
+       }
+      },
+      {
+       "ActivityId": "a2",
+       "Name": "CreateReportShareLinkTask",
+       "X": 360,
+       "Y": 80,
+       "IsStart": false,
+       "Properties": {
+        "ReportId": "",
+        "ReportIdExpression": "{{ Workflow.Input.ReportId }}",
+        "Filters": "",
+        "OutputName": "",
+        "Recipients": "jamie.chen",
+        "Note": "A new version of the report is out.",
+        "ExpiresAfterDays": 7,
+        "MaxUses": 0,
+        "AllowExport": true,
+        "NotifyByEmail": false
+       }
+      }
+     ],
+     "Transitions": [
+      {
+       "Id": 1,
+       "SourceActivityId": "a1",
+       "SourceOutcomeName": "Done",
+       "DestinationActivityId": "a2"
+      }
+     ]
+    },
+    {
+     "WorkflowTypeId": "report-run-excel-copy",
+     "Name": "Save an Excel copy when the dashboard runs",
+     "IsEnabled": true,
+     "IsSingleInstance": false,
+     "DeleteFinishedWorkflows": false,
+     "Activities": [
+      {
+       "ActivityId": "a1",
+       "Name": "ReportRunEvent",
+       "X": 60,
+       "Y": 80,
+       "IsStart": true,
+       "Properties": {
+        "ReportIds": [
+         "call-dashboard"
+        ]
+       }
+      },
+      {
+       "ActivityId": "a2",
+       "Name": "ExportReportTask",
+       "X": 360,
+       "Y": 80,
+       "IsStart": false,
+       "Properties": {
+        "ReportId": "",
+        "ReportIdExpression": "{{ Workflow.Input.ReportId }}",
+        "Filters": "",
+        "OutputName": "",
+        "Format": "xlsx",
+        "MediaFolder": "reports/runs"
+       }
+      }
+     ],
+     "Transitions": [
+      {
+       "Id": 1,
+       "SourceActivityId": "a1",
+       "SourceOutcomeName": "Done",
+       "DestinationActivityId": "a2"
+      }
+     ]
+    },
+    {
+     "WorkflowTypeId": "daily-dashboard-email",
+     "Name": "Email the dashboard every morning",
+     "IsEnabled": true,
+     "IsSingleInstance": false,
+     "DeleteFinishedWorkflows": false,
+     "Activities": [
+      {
+       "ActivityId": "a1",
+       "Name": "TimerEvent",
+       "X": 60,
+       "Y": 80,
+       "IsStart": true,
+       "Properties": {
+        "CronExpression": "0 7 * * *"
+       }
+      },
+      {
+       "ActivityId": "a2",
+       "Name": "EmailReportTask",
+       "X": 360,
+       "Y": 80,
+       "IsStart": false,
+       "Properties": {
+        "ReportId": "call-dashboard",
+        "ReportIdExpression": "",
+        "Filters": "",
+        "OutputName": "",
+        "To": "supervisors@contoso.example",
+        "Cc": "",
+        "Bcc": "",
+        "Subject": "",
+        "Body": "Yesterday's calls, by agent, queue and day.",
+        "AttachmentFormat": "xlsx",
+        "IncludeReport": true
+       }
+      }
+     ],
+     "Transitions": [
+      {
+       "Id": 1,
+       "SourceActivityId": "a1",
+       "SourceOutcomeName": "Done",
+       "DestinationActivityId": "a2"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+1
+00:00:03,248 --> 00:00:07,830
+A second workflow starts on Report Run and uses Export Report.
+
+2
+00:00:07,830 --> 00:00:13,018
+Its Format is Excel, and its Media folder names where to save the file.
+
+3
+00:00:13,480 --> 00:00:16,604
+Run the Call dashboard, and open the media library.
+
+4
+00:00:16,604 --> 00:00:20,661
+The workbook is there, in the folder the task named, with the report
+
+5
+00:00:20,661 --> 00:00:22,360
+and the date in its name.
+

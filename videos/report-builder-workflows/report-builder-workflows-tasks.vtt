@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.229 --> 00:00:07.581
+Add Task, in the Reports category, lists four tasks:
+
+00:00:07.581 --> 00:00:13.209
+Run Report, Export Report, Email Report and Create Report Share Link.
+
+00:00:13.668 --> 00:00:16.765
+Every report task starts with the same fields:
+
+00:00:16.765 --> 00:00:20.636
+the Report to use, or an expression that gives its ID, so a
+
+00:00:20.636 --> 00:00:25.043
+task after a report event can use the report that triggered it, plus
+
+00:00:25.043 --> 00:00:27.008
+Filters and an Output name.
+
+00:00:27.486 --> 00:00:32.359
+Create Report Share Link asks for the Recipients, a Note, how many days
+
+00:00:32.359 --> 00:00:38.306
+it Expires after, the Most uses, whether to Allow export, and whether to email the link.
+
