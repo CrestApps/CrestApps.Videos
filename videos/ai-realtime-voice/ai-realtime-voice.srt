@@ -1,0 +1,268 @@
+1
+00:00:01,000 --> 00:00:03,564
+Some people would rather talk than type.
+
+2
+00:00:03,564 --> 00:00:08,022
+This video shows how to set up a spoken conversation with an AI assistant:
+
+3
+00:00:08,022 --> 00:00:13,205
+the speech deployments, the cascaded realtime deployment that chains them, and the chat
+
+4
+00:00:13,205 --> 00:00:15,880
+mode that puts a voice button in the chat.
+
+5
+00:00:20,480 --> 00:00:23,928
+A spoken conversation needs a realtime deployment.
+
+6
+00:00:23,928 --> 00:00:28,669
+Some providers offer a model that listens and speaks by itself, and you
+
+7
+00:00:28,669 --> 00:00:30,270
+can use it directly.
+
+8
+00:00:31,020 --> 00:00:36,431
+When none of your providers does, a cascaded realtime deployment chains three deployments
+
+9
+00:00:36,431 --> 00:00:38,026
+that you already have:
+
+10
+00:00:38,026 --> 00:00:43,380
+one that transcribes speech, a chat model that writes the reply, and one that speaks it.
+
+11
+00:00:44,130 --> 00:00:47,882
+Either way, the profile and the chat look the same.
+
+12
+00:00:47,882 --> 00:00:53,676
+Tools, data sources and instructions keep working, and typed and spoken turns land
+
+13
+00:00:53,676 --> 00:00:55,190
+in the same chat.
+
+14
+00:00:59,490 --> 00:01:02,640
+The cascade starts with speech deployments.
+
+15
+00:01:02,640 --> 00:01:09,455
+Open Artificial Intelligence, Deployments, click Add Deployment, and click Add on Azure AI Services.
+
+16
+00:01:09,455 --> 00:01:12,670
+This is the provider of the speech services.
+
+17
+00:01:13,137 --> 00:01:17,617
+Enter the Model name and a Technical name, then the Endpoint of the
+
+18
+00:01:17,617 --> 00:01:20,317
+speech service and its Authentication.
+
+19
+00:01:20,317 --> 00:01:23,937
+The API key is stored securely and never shown again.
+
+20
+00:01:24,450 --> 00:01:31,107
+On the Model capabilities card, tick Speech to text, and Realtime, for a deployment that transcribes.
+
+21
+00:01:31,107 --> 00:01:35,151
+A deployment that speaks has Text to speech ticked instead.
+
+22
+00:01:35,151 --> 00:01:36,520
+Then click Save.
+
+23
+00:01:40,782 --> 00:01:45,849
+Now click Add Deployment again, and click Add on Cascaded Realtime.
+
+24
+00:01:45,849 --> 00:01:49,042
+Enter a Model name and a Technical name.
+
+25
+00:01:49,525 --> 00:01:52,071
+Choose the three deployments it chains:
+
+26
+00:01:52,071 --> 00:01:57,048
+the one that transcribes speech, the chat deployment that generates the reply, and
+
+27
+00:01:57,048 --> 00:01:58,689
+the one that speaks it.
+
+28
+00:01:58,689 --> 00:02:02,195
+Each list offers only the deployments that fit its role.
+
+29
+00:02:02,664 --> 00:02:09,199
+A cascade is realtime by construction, so the deployment declares the Realtime feature for you.
+
+30
+00:02:09,199 --> 00:02:10,298
+Click Save.
+
+31
+00:02:10,298 --> 00:02:14,374
+It now appears wherever a realtime deployment is offered.
+
+32
+00:02:18,595 --> 00:02:21,290
+Open Settings, Artificial Intelligence.
+
+33
+00:02:21,290 --> 00:02:27,758
+Default speech-to-text deployment and Default text-to-speech deployment are used by features that only
+
+34
+00:02:27,758 --> 00:02:29,615
+transcribe or only speak.
+
+35
+00:02:30,159 --> 00:02:35,518
+Default realtime deployment is the model of a spoken conversation, when a profile
+
+36
+00:02:35,518 --> 00:02:37,243
+does not name its own.
+
+37
+00:02:37,243 --> 00:02:41,679
+Leave it empty, and the first realtime-capable deployment is used.
+
+38
+00:02:45,902 --> 00:02:47,485
+Open the profile.
+
+39
+00:02:47,485 --> 00:02:51,338
+On the Content tab, set Chat mode to Conversation.
+
+40
+00:02:51,338 --> 00:02:56,292
+Text only is typing, and Audio input adds a microphone to dictate.
+
+41
+00:02:56,799 --> 00:03:02,931
+Choose the Conversation deployment, the realtime deployment that carries the spoken conversation.
+
+42
+00:03:02,931 --> 00:03:05,609
+Leave it empty to use the site default.
+
+43
+00:03:06,147 --> 00:03:09,278
+Choose the Voice that the assistant speaks with.
+
+44
+00:03:09,278 --> 00:03:12,408
+The voices come from the deployment that speaks.
+
+45
+00:03:12,408 --> 00:03:16,872
+Enable text-to-speech playback adds a read aloud button to the answers.
+
+46
+00:03:16,872 --> 00:03:17,857
+Click Save.
+
+47
+00:03:22,116 --> 00:03:24,039
+Open a chat with the profile.
+
+48
+00:03:24,039 --> 00:03:28,544
+Beside the message box there is now a sound-wave button, Start speaking, and
+
+49
+00:03:28,544 --> 00:03:31,236
+the message box is still there, for typing.
+
+50
+00:03:31,735 --> 00:03:35,595
+Click it and allow the microphone, and the session starts.
+
+51
+00:03:35,595 --> 00:03:38,732
+The message box gives way to End Conversation.
+
+52
+00:03:38,732 --> 00:03:41,808
+Speak, and your sentences appear in the chat.
+
+53
+00:03:41,808 --> 00:03:45,005
+To interrupt the assistant, just start talking.
+
+54
+00:03:45,489 --> 00:03:47,668
+Click End Conversation to stop.
+
+55
+00:03:47,668 --> 00:03:52,145
+The message box comes back, and what you type continues the same chat.
+
+56
+00:03:52,145 --> 00:03:57,269
+Here we only show where the button is, because a conversation needs a microphone.
+
+57
+00:04:01,469 --> 00:04:06,509
+Use headphones, so that the assistant does not hear its own voice through your speakers.
+
+58
+00:04:07,259 --> 00:04:11,938
+A cascade adds some delay before the assistant starts to speak, because a
+
+59
+00:04:11,938 --> 00:04:14,366
+turn passes through three services.
+
+60
+00:04:14,366 --> 00:04:17,149
+A model that speaks by itself is quicker.
+
+61
+00:04:17,899 --> 00:04:22,179
+On a live voice model, a gear lets each person pick the microphone
+
+62
+00:04:22,179 --> 00:04:26,281
+and speaker, and turn push-to-talk and interruptions on or off.
+
+63
+00:04:26,281 --> 00:04:28,599
+These are saved in their browser.
+
+64
+00:04:30,599 --> 00:04:35,707
+Add the speech deployments, chain them in a cascaded realtime deployment, and set
+
+65
+00:04:35,707 --> 00:04:37,586
+a profile to Conversation.
+
+66
+00:04:37,586 --> 00:04:39,583
+Your assistant can now talk.
+
+67
+00:04:39,583 --> 00:04:41,109
+Thanks for watching.
+

@@ -1,0 +1,24 @@
+1
+00:00:03,221 --> 00:00:05,916
+Open Settings, Artificial Intelligence.
+
+2
+00:00:05,916 --> 00:00:12,384
+Default speech-to-text deployment and Default text-to-speech deployment are used by features that only
+
+3
+00:00:12,384 --> 00:00:14,241
+transcribe or only speak.
+
+4
+00:00:14,784 --> 00:00:20,144
+Default realtime deployment is the model of a spoken conversation, when a profile
+
+5
+00:00:20,144 --> 00:00:21,869
+does not name its own.
+
+6
+00:00:21,869 --> 00:00:26,304
+Leave it empty, and the first realtime-capable deployment is used.
+
