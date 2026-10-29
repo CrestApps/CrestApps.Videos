@@ -1,0 +1,100 @@
+{
+  "title": "Subscriptions and Memberships: Plans, Sign-up and Agreements | CrestApps for Orchard Core",
+  "description": "Some things are not bought once: software, courses and clubs bill every month or year, and customers expect to start, pause and cancel on their own. The CrestApps Subscriptions module turns a product into a plan that bills again by itself, gives subscribers access through roles while they are paid, and keeps a record of every subscription. Memberships make a product put its buyer in a role for a number of days.\n\nIn this video:\n• Why subscriptions and memberships, and how the screens fit together\n• Plan types and plans: billing duration, initial amount, billing cycle limit, free trial days and member access\n• Signing up to a plan from the Plans page, with or without an account\n• Agreements: every subscription, its status, and how to cancel or pause it\n• Subscription settings: guest sign-up, currency and default roles\n• Memberships: the roles and the days a membership lasts",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "subscriptions",
+    "memberships",
+    "recurring billing",
+    "free trial",
+    "subscription plans",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why subscriptions"
+    },
+    {
+      "time": "0:57",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:38",
+      "title": "Plan types and plans"
+    },
+    {
+      "time": "2:43",
+      "title": "Sign up to a plan"
+    },
+    {
+      "time": "3:14",
+      "title": "Agreements"
+    },
+    {
+      "time": "3:54",
+      "title": "Subscription settings"
+    },
+    {
+      "time": "4:14",
+      "title": "Memberships"
+    },
+    {
+      "time": "4:40",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:12",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Subscriptions (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/subscriptions"
+    },
+    {
+      "label": "Memberships (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/memberships"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/subscriptions"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Subscriptions and CrestApps.OrchardCore.Memberships"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/subscriptions.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/memberships.md",
+    "src/CrestApps.Docs/docs/modules/subscriptions.md",
+    "src/CrestApps.Docs/docs/modules/memberships.md"
+  ],
+  "length": "5:23"
+}
