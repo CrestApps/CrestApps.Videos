@@ -1,0 +1,239 @@
+{
+  "title": "Omnichannel Contacts",
+  "output": "omnichannel-contacts",
+  "spoken": {
+    "DNC": "D.N.C."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel Contacts",
+      "subtitle": "The people you call and text",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A contact is the person you call or text. This video shows how a contact type is set up, how to create a contact, how to find one by name or phone number, what you can do from a contact, and what the import and export screens offer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why contacts",
+      "subtitle": "One record for every conversation",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every call, text and conversation needs to be tied to a person. Without that, an agent answers a caller as a stranger and asks everything again."
+            },
+            {
+              "id": "why-2",
+              "text": "A contact keeps the person's name, their phone numbers and email addresses, their time zone, and what they agreed to receive."
+            },
+            {
+              "id": "why-3",
+              "text": "Every activity, call and conversation links back to the contact, so the whole history is on one screen."
+            },
+            {
+              "id": "why-4",
+              "text": "A contact is an ordinary content item of a type that has the Omnichannel Contact part, so you can add your own fields."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Set up the contact type",
+      "subtitle": "Time zone and do-not-contact settings",
+      "clips": [
+        {
+          "id": "02-type",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "type-1",
+              "text": "An administrator sets the contact type up once. Open Design, Content Definition, Content Types, and edit the Contact type."
+            },
+            {
+              "id": "type-2",
+              "text": "Edit the Omnichannel Contact part. Auto detect time zone works out the contact's time zone from their phone number. Require time zone makes it mandatory when auto detect is off."
+            },
+            {
+              "id": "type-3",
+              "text": "Use Do not call, Use Do not SMS and Use Do not email show each preference on the contact. Only Do not call is on by default."
+            },
+            {
+              "id": "type-4",
+              "text": "The part also adds the Contact Methods list, where phone numbers and email addresses are stored. Dialers, loads and imports always read numbers from it, so leave it in place."
+            }
+          ]
+        }
+      ],
+      "short": "type"
+    },
+    {
+      "id": "03",
+      "title": "Create a contact",
+      "subtitle": "Name, phone number, time zone and preferences",
+      "clips": [
+        {
+          "id": "03-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "create-1",
+              "text": "Open Interaction Center, Contacts. Each row is a contact, with buttons to list its activities, edit and view it. Click New, then Contact."
+            },
+            {
+              "id": "create-2",
+              "text": "Fill in the first and last name, and the job title. The Account picker puts the contact in a company when the CRM is on."
+            },
+            {
+              "id": "create-3",
+              "text": "Under Contact Methods, click Add Item and choose Phone Number. Type the number, and pick its type, such as Cell."
+            },
+            {
+              "id": "create-4",
+              "text": "Leave Contact time zone on Automatic to detect it from the number, or pick one. Tick Do not call when the person asked not to be called. Dialers and automated messages skip them."
+            },
+            {
+              "id": "create-5",
+              "text": "Click Publish. The new contact is on the list."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "04",
+      "title": "Find a contact",
+      "subtitle": "By name or by phone number",
+      "clips": [
+        {
+          "id": "04-find",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "On the Contacts list, the search box matches a name or a phone number. Type a name, such as Elena, to find her."
+            },
+            {
+              "id": "find-2",
+              "text": "Type three digits or more, such as seven zero two five five five, and the list shows contacts whose main number begins with them."
+            },
+            {
+              "id": "find-3",
+              "text": "Search terms are more precise. Phone matches digits anywhere, Phone Ends matches the last digits, Phone Starts matches the first digits, and Phone Exact matches the whole number however it was saved. The Filter syntax entry of the Filters menu shows them on a Phone card."
+            }
+          ]
+        }
+      ],
+      "short": "find"
+    },
+    {
+      "id": "05",
+      "title": "Work with a contact",
+      "subtitle": "Activities from the contact",
+      "clips": [
+        {
+          "id": "05-work",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "work-1",
+              "text": "Open a saved contact. The buttons at the top lead to its work."
+            },
+            {
+              "id": "work-2",
+              "text": "List Activities shows the contact's scheduled and completed activities."
+            },
+            {
+              "id": "work-3",
+              "text": "Add Activity, Outbound, schedules a call or message to the contact. Add Activity, Inbound, logs a call or message that the contact started."
+            }
+          ]
+        }
+      ],
+      "short": "work"
+    },
+    {
+      "id": "06",
+      "title": "Import and export",
+      "subtitle": "Options for contacts",
+      "clips": [
+        {
+          "id": "06-transfer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "transfer-1",
+              "text": "Contacts load from a file with Content, Import. For a contact type the import page adds options: Ignore duplicate by phone number, Compare with, which records count as duplicates, and the Lead country that local numbers belong to."
+            },
+            {
+              "id": "transfer-2",
+              "text": "On the export page, a contact type shows a CRM last activity section. Tick Include last completed activity information, choose a Subject, and the file carries each contact's latest activity on it."
+            }
+          ]
+        }
+      ],
+      "short": "transfer"
+    },
+    {
+      "id": "07",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Recognize a caller by their number, instead of treating them as a stranger."
+            },
+            {
+              "id": "use-2",
+              "text": "Respect each person's do-not-call, do-not-text and do-not-email choices."
+            },
+            {
+              "id": "use-3",
+              "text": "Call people at a sensible local time, using the contact's time zone."
+            },
+            {
+              "id": "use-4",
+              "text": "Load a list of contacts from a spreadsheet, and export them again with their latest activity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set the contact type up once, and every call, text and conversation is tied to a person. Agents then see who is calling, when it is a good time to call, and what the person agreed to receive. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

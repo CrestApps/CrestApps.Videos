@@ -1,0 +1,40 @@
+1
+00:00:03,230 --> 00:00:06,865
+An administrator sets the contact type up once.
+
+2
+00:00:06,865 --> 00:00:12,350
+Open Design, Content Definition, Content Types, and edit the Contact type.
+
+3
+00:00:12,803 --> 00:00:15,201
+Edit the Omnichannel Contact part.
+
+4
+00:00:15,201 --> 00:00:20,357
+Auto detect time zone works out the contact's time zone from their phone number.
+
+5
+00:00:20,357 --> 00:00:24,373
+Require time zone makes it mandatory when auto detect is off.
+
+6
+00:00:24,845 --> 00:00:28,694
+Use Do not call, Use Do not SMS and Use Do not email
+
+7
+00:00:28,694 --> 00:00:31,481
+show each preference on the contact.
+
+8
+00:00:31,481 --> 00:00:34,135
+Only Do not call is on by default.
+
+9
+00:00:34,588 --> 00:00:40,808
+The part also adds the Contact Methods list, where phone numbers and email addresses are stored.
+
+10
+00:00:40,808 --> 00:00:45,868
+Dialers, loads and imports always read numbers from it, so leave it in place.
+

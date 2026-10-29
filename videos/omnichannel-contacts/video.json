@@ -1,0 +1,90 @@
+{
+  "title": "Omnichannel Contacts: Tie Every Call and Text to a Person | CrestApps for Orchard Core",
+  "description": "Every call, text and conversation needs to be tied to a person, or an agent answers a caller as a stranger. In the CrestApps Omnichannel, a contact keeps the person's name, phone numbers and email addresses, time zone and do-not-contact choices, and every activity links back to it.\n\nIn this video:\n• Why contacts, and what a contact keeps\n• Setting up the contact type: time zone and do-not-contact options, and the Contact Methods list\n• Creating a contact with a phone number, time zone and preferences\n• Finding a contact by name or phone number, and the phone search terms\n• Working with a contact: list activities and add activities\n• Import options for contacts, and exporting with the last activity",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "omnichannel contacts",
+    "contact management",
+    "phone search",
+    "do not call",
+    "time zone detection",
+    "CRM contacts",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why contacts"
+    },
+    {
+      "time": "0:56",
+      "title": "Set up the contact type"
+    },
+    {
+      "time": "1:43",
+      "title": "Create a contact"
+    },
+    {
+      "time": "2:32",
+      "title": "Find a contact"
+    },
+    {
+      "time": "3:12",
+      "title": "Work with a contact"
+    },
+    {
+      "time": "3:38",
+      "title": "Import and export"
+    },
+    {
+      "time": "4:12",
+      "title": "What to use it for"
+    },
+    {
+      "time": "4:39",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/contacts"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/contacts.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "4:55"
+}

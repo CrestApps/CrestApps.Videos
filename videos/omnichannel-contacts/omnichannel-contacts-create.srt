@@ -1,0 +1,48 @@
+1
+00:00:03,238 --> 00:00:06,093
+Open Interaction Center, Contacts.
+
+2
+00:00:06,093 --> 00:00:12,017
+Each row is a contact, with buttons to list its activities, edit and view it.
+
+3
+00:00:12,017 --> 00:00:14,158
+Click New, then Contact.
+
+4
+00:00:14,608 --> 00:00:18,098
+Fill in the first and last name, and the job title.
+
+5
+00:00:18,098 --> 00:00:22,628
+The Account picker puts the contact in a company when the CRM is on.
+
+6
+00:00:23,084 --> 00:00:27,319
+Under Contact Methods, click Add Item and choose Phone Number.
+
+7
+00:00:27,319 --> 00:00:30,744
+Type the number, and pick its type, such as Cell.
+
+8
+00:00:32,840 --> 00:00:37,699
+Leave Contact time zone on Automatic to detect it from the number, or pick one.
+
+9
+00:00:37,699 --> 00:00:41,243
+Tick Do not call when the person asked not to be called.
+
+10
+00:00:41,243 --> 00:00:43,930
+Dialers and automated messages skip them.
+
+11
+00:00:44,395 --> 00:00:45,676
+Click Publish.
+
+12
+00:00:45,676 --> 00:00:48,045
+The new contact is on the list.
+

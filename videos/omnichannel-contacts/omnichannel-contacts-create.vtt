@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.238 --> 00:00:06.093
+Open Interaction Center, Contacts.
+
+00:00:06.093 --> 00:00:12.017
+Each row is a contact, with buttons to list its activities, edit and view it.
+
+00:00:12.017 --> 00:00:14.158
+Click New, then Contact.
+
+00:00:14.608 --> 00:00:18.098
+Fill in the first and last name, and the job title.
+
+00:00:18.098 --> 00:00:22.628
+The Account picker puts the contact in a company when the CRM is on.
+
+00:00:23.084 --> 00:00:27.319
+Under Contact Methods, click Add Item and choose Phone Number.
+
+00:00:27.319 --> 00:00:30.744
+Type the number, and pick its type, such as Cell.
+
+00:00:32.840 --> 00:00:37.699
+Leave Contact time zone on Automatic to detect it from the number, or pick one.
+
+00:00:37.699 --> 00:00:41.243
+Tick Do not call when the person asked not to be called.
+
+00:00:41.243 --> 00:00:43.930
+Dialers and automated messages skip them.
+
+00:00:44.395 --> 00:00:45.676
+Click Publish.
+
+00:00:45.676 --> 00:00:48.045
+The new contact is on the list.
+

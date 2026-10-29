@@ -1,0 +1,252 @@
+1
+00:00:01,000 --> 00:00:03,761
+A contact is the person you call or text.
+
+2
+00:00:03,761 --> 00:00:07,637
+This video shows how a contact type is set up, how to create
+
+3
+00:00:07,637 --> 00:00:11,514
+a contact, how to find one by name or phone number, what you
+
+4
+00:00:11,514 --> 00:00:15,860
+can do from a contact, and what the import and export screens offer.
+
+5
+00:00:20,460 --> 00:00:25,366
+Every call, text and conversation needs to be tied to a person.
+
+6
+00:00:25,366 --> 00:00:31,480
+Without that, an agent answers a caller as a stranger and asks everything again.
+
+7
+00:00:32,230 --> 00:00:37,079
+A contact keeps the person's name, their phone numbers and email addresses, their
+
+8
+00:00:37,079 --> 00:00:39,810
+time zone, and what they agreed to receive.
+
+9
+00:00:40,560 --> 00:00:45,591
+Every activity, call and conversation links back to the contact, so the whole
+
+10
+00:00:45,591 --> 00:00:47,470
+history is on one screen.
+
+11
+00:00:48,220 --> 00:00:52,088
+A contact is an ordinary content item of a type that has the
+
+12
+00:00:52,088 --> 00:00:55,780
+Omnichannel Contact part, so you can add your own fields.
+
+13
+00:01:00,010 --> 00:01:03,645
+An administrator sets the contact type up once.
+
+14
+00:01:03,645 --> 00:01:09,130
+Open Design, Content Definition, Content Types, and edit the Contact type.
+
+15
+00:01:09,583 --> 00:01:11,981
+Edit the Omnichannel Contact part.
+
+16
+00:01:11,981 --> 00:01:17,137
+Auto detect time zone works out the contact's time zone from their phone number.
+
+17
+00:01:17,137 --> 00:01:21,153
+Require time zone makes it mandatory when auto detect is off.
+
+18
+00:01:21,625 --> 00:01:25,474
+Use Do not call, Use Do not SMS and Use Do not email
+
+19
+00:01:25,474 --> 00:01:28,261
+show each preference on the contact.
+
+20
+00:01:28,261 --> 00:01:30,915
+Only Do not call is on by default.
+
+21
+00:01:31,368 --> 00:01:37,588
+The part also adds the Contact Methods list, where phone numbers and email addresses are stored.
+
+22
+00:01:37,588 --> 00:01:42,648
+Dialers, loads and imports always read numbers from it, so leave it in place.
+
+23
+00:01:46,886 --> 00:01:49,741
+Open Interaction Center, Contacts.
+
+24
+00:01:49,741 --> 00:01:55,665
+Each row is a contact, with buttons to list its activities, edit and view it.
+
+25
+00:01:55,665 --> 00:01:57,806
+Click New, then Contact.
+
+26
+00:01:58,257 --> 00:02:01,746
+Fill in the first and last name, and the job title.
+
+27
+00:02:01,746 --> 00:02:06,277
+The Account picker puts the contact in a company when the CRM is on.
+
+28
+00:02:06,733 --> 00:02:10,967
+Under Contact Methods, click Add Item and choose Phone Number.
+
+29
+00:02:10,967 --> 00:02:14,393
+Type the number, and pick its type, such as Cell.
+
+30
+00:02:16,488 --> 00:02:21,347
+Leave Contact time zone on Automatic to detect it from the number, or pick one.
+
+31
+00:02:21,347 --> 00:02:24,891
+Tick Do not call when the person asked not to be called.
+
+32
+00:02:24,891 --> 00:02:27,578
+Dialers and automated messages skip them.
+
+33
+00:02:28,044 --> 00:02:29,324
+Click Publish.
+
+34
+00:02:29,324 --> 00:02:31,694
+The new contact is on the list.
+
+35
+00:02:35,994 --> 00:02:41,139
+On the Contacts list, the search box matches a name or a phone number.
+
+36
+00:02:41,139 --> 00:02:44,254
+Type a name, such as Elena, to find her.
+
+37
+00:02:44,736 --> 00:02:48,899
+Type three digits or more, such as seven zero two five five five,
+
+38
+00:02:48,899 --> 00:02:52,946
+and the list shows contacts whose main number begins with them.
+
+39
+00:02:53,536 --> 00:02:55,788
+Search terms are more precise.
+
+40
+00:02:55,788 --> 00:03:01,603
+Phone matches digits anywhere, Phone Ends matches the last digits, Phone Starts matches
+
+41
+00:03:01,603 --> 00:03:06,981
+the first digits, and Phone Exact matches the whole number however it was saved.
+
+42
+00:03:06,981 --> 00:03:11,796
+The Filter syntax entry of the Filters menu shows them on a Phone card.
+
+43
+00:03:15,925 --> 00:03:17,531
+Open a saved contact.
+
+44
+00:03:17,531 --> 00:03:20,265
+The buttons at the top lead to its work.
+
+45
+00:03:22,204 --> 00:03:26,784
+List Activities shows the contact's scheduled and completed activities.
+
+46
+00:03:27,296 --> 00:03:32,201
+Add Activity, Outbound, schedules a call or message to the contact.
+
+47
+00:03:32,201 --> 00:03:37,376
+Add Activity, Inbound, logs a call or message that the contact started.
+
+48
+00:03:41,676 --> 00:03:44,940
+Contacts load from a file with Content, Import.
+
+49
+00:03:44,940 --> 00:03:48,266
+For a contact type the import page adds options:
+
+50
+00:03:48,266 --> 00:03:53,933
+Ignore duplicate by phone number, Compare with, which records count as duplicates, and
+
+51
+00:03:53,933 --> 00:03:57,136
+the Lead country that local numbers belong to.
+
+52
+00:03:57,706 --> 00:04:02,571
+On the export page, a contact type shows a CRM last activity section.
+
+53
+00:04:02,571 --> 00:04:08,668
+Tick Include last completed activity information, choose a Subject, and the file carries
+
+54
+00:04:08,668 --> 00:04:11,456
+each contact's latest activity on it.
+
+55
+00:04:15,656 --> 00:04:20,026
+Recognize a caller by their number, instead of treating them as a stranger.
+
+56
+00:04:20,776 --> 00:04:25,956
+Respect each person's do-not-call, do-not-text and do-not-email choices.
+
+57
+00:04:26,706 --> 00:04:31,336
+Call people at a sensible local time, using the contact's time zone.
+
+58
+00:04:32,086 --> 00:04:38,106
+Load a list of contacts from a spreadsheet, and export them again with their latest activity.
+
+59
+00:04:40,106 --> 00:04:44,666
+Set the contact type up once, and every call, text and conversation is
+
+60
+00:04:44,666 --> 00:04:46,046
+tied to a person.
+
+61
+00:04:46,046 --> 00:04:49,826
+Agents then see who is calling, when it is a good time to
+
+62
+00:04:49,826 --> 00:04:52,826
+call, and what the person agreed to receive.
+
+63
+00:04:52,826 --> 00:04:54,386
+Thanks for watching.
+
