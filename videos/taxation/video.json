@@ -1,0 +1,103 @@
+{
+  "title": "Taxation: Categories, Jurisdictions and Rules for Your Store | CrestApps for Orchard Core",
+  "description": "Selling online means charging tax, and the right tax depends on what you sell and where the buyer is. The CrestApps Taxation module keeps the rules in one place: tax categories that group your products, jurisdictions that say where tax applies, and rules that say which tax applies to which category, at what rate. At checkout the right tax is worked out for every order, shown to the buyer, and kept on the order.\n\nIn this video:\n• Why taxation, and how categories, jurisdictions, rules and tables fit together\n• Tax categories and tax types\n• Jurisdictions: a country, a state, a county or a city\n• Tax rules: percentage rules, customer type, amounts, compound tax and shipping\n• The tax origin: where you sell from\n• Classifying products with the Taxation part and a tax category\n• Tax at checkout\n• Tax tables, TaxJar, EU VAT, import duty and the one-stop shop report",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "taxation",
+    "sales tax",
+    "VAT",
+    "tax rules",
+    "tax categories",
+    "ecommerce",
+    "TaxJar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why taxation"
+    },
+    {
+      "time": "0:58",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:39",
+      "title": "Categories and tax types"
+    },
+    {
+      "time": "2:13",
+      "title": "Jurisdictions"
+    },
+    {
+      "time": "2:46",
+      "title": "Tax rules"
+    },
+    {
+      "time": "3:51",
+      "title": "Where you sell from"
+    },
+    {
+      "time": "4:04",
+      "title": "Classify your products"
+    },
+    {
+      "time": "4:45",
+      "title": "Tax at checkout"
+    },
+    {
+      "time": "5:08",
+      "title": "More tax features"
+    },
+    {
+      "time": "5:48",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:25",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Taxes (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/taxes"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/taxation"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Taxation"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/taxes.md",
+    "src/CrestApps.Docs/docs/modules/taxation.md"
+  ],
+  "length": "6:35"
+}

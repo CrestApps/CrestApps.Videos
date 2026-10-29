@@ -1,0 +1,304 @@
+{
+  "title": "Taxation",
+  "output": "taxation",
+  "spoken": {
+    "GST": "G.S.T.",
+    "HST": "H.S.T.",
+    "VAT": "VAT",
+    "OSS": "O.S.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Taxation",
+      "subtitle": "The right tax on every order",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Tax depends on what you sell and where the buyer is. This video shows why the Taxation module exists, how categories, jurisdictions, rules and tables fit together, and how to use every screen, up to the tax at checkout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why taxation",
+      "subtitle": "The right tax on every order",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Selling online means charging tax, and the right tax depends on what you sell and where the buyer is. A flat percentage on everything is almost never correct."
+            },
+            {
+              "id": "why-2",
+              "text": "Done by hand, tax is a spreadsheet of rates that changes without warning, and every mistake lands on your own tax return."
+            },
+            {
+              "id": "why-3",
+              "text": "The Taxation module keeps the rules in one place: which taxes exist, where they apply, to which kinds of products, at what rate."
+            },
+            {
+              "id": "why-4",
+              "text": "At checkout the right tax is worked out for every order and shown to the buyer, and the order keeps a record of what was charged."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Categories, jurisdictions, rules and tables",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Tax categories group your products, such as clothing or books. Tax types name the tax, such as sales tax or VAT."
+            },
+            {
+              "id": "how-2",
+              "text": "Jurisdictions are the places that charge tax: a country, a state, a county or a city."
+            },
+            {
+              "id": "how-3",
+              "text": "Rules say which tax applies to which category in which jurisdiction, and at what rate. Tax tables hold rates that depend on the amount."
+            },
+            {
+              "id": "how-4",
+              "text": "Settings, Commerce, Tax origin says where you sell from, and the Taxation part on a content type puts its products into the system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Categories and tax types",
+      "subtitle": "Group products, name the tax",
+      "clips": [
+        {
+          "id": "03-categories",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cat-1",
+              "text": "Open Commerce, Taxation, Categories. A category groups products that are taxed alike, such as clothing. Click Add Tax Category."
+            },
+            {
+              "id": "cat-2",
+              "text": "Enter a Name and a Code. Parent code nests a category inside another, and the Description is for your team. Click Save."
+            },
+            {
+              "id": "cat-3",
+              "text": "Commerce, Taxation, Types lists the kinds of tax, such as SalesTax, VAT, GST and TourismTax. Add Tax Type adds your own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Jurisdictions",
+      "subtitle": "Where tax applies",
+      "clips": [
+        {
+          "id": "04-jurisdictions",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "jur-1",
+              "text": "Open Commerce, Taxation, Jurisdictions and click Add Tax Jurisdiction. A jurisdiction is a place that charges tax."
+            },
+            {
+              "id": "jur-2",
+              "text": "Enter the Name and a Code, then choose its Level, such as State, and the Country. Region, County, City and Postal code narrow it down further."
+            },
+            {
+              "id": "jur-3",
+              "text": "A Parent jurisdiction nests a place inside another, and Effective from and Effective to limit when it applies. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Tax rules",
+      "subtitle": "Which tax, where, at what rate",
+      "clips": [
+        {
+          "id": "05-rules",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rule-1",
+              "text": "Open Commerce, Taxation, Rules and click Add Tax Rule. Rules come in several kinds, such as Percentage, Fixed amount, Per unit, Per weight and Threshold. Choose Percentage."
+            },
+            {
+              "id": "rule-2",
+              "text": "Give the rule a Name, choose the Tax type, and a Display name, which is what the buyer sees on the order. The Jurisdiction can limit the rule to one place, or stay on Any jurisdiction, and the Category says what it applies to."
+            },
+            {
+              "id": "rule-3",
+              "text": "Customer type limits it to consumers or to businesses. Minimum amount and Maximum amount limit it by price, and Tax is included in the item price takes the tax out of prices that already contain it."
+            },
+            {
+              "id": "rule-4",
+              "text": "Tax is compound charges it on top of other taxes, Reverse charge leaves the tax to the customer, and Applies to shipping charges taxes shipping too. Enter the Rate as a fraction, so 0.0875 means 8.75 percent, and click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Where you sell from",
+      "subtitle": "The tax origin",
+      "clips": [
+        {
+          "id": "06-origin",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "org-1",
+              "text": "Open Settings, Commerce, Tax origin. Enter the Country and the State or province you sell from, and the address if tax depends on it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Classify your products",
+      "subtitle": "Put products into the tax system",
+      "clips": [
+        {
+          "id": "07-classify",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cls-1",
+              "text": "Products need the Taxation part. Open Content, Content Definition, Content Types, edit Product, and click Add Parts."
+            },
+            {
+              "id": "cls-2",
+              "text": "Tick Taxation, which classifies a product for taxation without storing a rate, and add it."
+            },
+            {
+              "id": "cls-3",
+              "text": "Click Edit next to the Taxation part. Default tax category is the category new items start with. Choose Clothing, and save."
+            },
+            {
+              "id": "cls-4",
+              "text": "Open a product. Under Taxation, Taxable is ticked. Choose Clothing as the Tax category, so the rules for that category apply, and click Publish."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Tax at checkout",
+      "subtitle": "What the buyer sees",
+      "clips": [
+        {
+          "id": "08-checkout",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "At checkout, the order summary now shows a Subtotal, and a line for each tax, such as Sales tax and its rate, with what it adds to the total."
+            },
+            {
+              "id": "chk-2",
+              "text": "Due now is what the buyer pays, tax included. The order keeps every tax it was charged, so reports and invoices show the same lines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "More tax features",
+      "subtitle": "Tax tables, EU VAT, import duty and TaxJar",
+      "clips": [
+        {
+          "id": "09-more",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "more-1",
+              "text": "Commerce, Taxation, Tables holds a list of amount ranges, each with its own rate, for the Tax table lookup, Progressive and Threshold rules."
+            },
+            {
+              "id": "more-2",
+              "text": "Settings, Commerce, TaxJar works out United States sales tax by state, county and city, from your TaxJar account, instead of your own rules."
+            },
+            {
+              "id": "more-3",
+              "text": "The EU VAT standard rates recipe adds a VAT rule for every member state, and an Import duty rule charges duty on orders above a value. The VAT one-stop shop report adds up VAT charged to other EU countries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Four ways to use taxation",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A US shop: a sales tax rule for your state, and tax by category, so clothing and food are taxed differently."
+            },
+            {
+              "id": "use-2",
+              "text": "A shop in the EU: VAT rules for every country you sell to, with prices that include VAT."
+            },
+            {
+              "id": "use-3",
+              "text": "Selling abroad: an import duty rule that charges duty on large orders, so the buyer pays nothing on delivery."
+            },
+            {
+              "id": "use-4",
+              "text": "Business customers: a rule limited to Business customers, with reverse charge where the law allows it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set the tax up once, by category and by place, and every order is charged the right tax. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
