@@ -1,0 +1,40 @@
+1
+00:00:03,300 --> 00:00:08,211
+Open Settings, Communication, Telephony, and choose the Telnyx tab.
+
+2
+00:00:08,211 --> 00:00:10,633
+A short guide lists the steps:
+
+3
+00:00:10,633 --> 00:00:12,113
+create an A.P.I.
+
+4
+00:00:12,113 --> 00:00:18,370
+key in the Telnyx portal, save, click Connect Telnyx, and paste the webhook public key.
+
+5
+00:00:18,965 --> 00:00:23,458
+Tick Enable Telnyx provider to make it a choice for the default provider.
+
+6
+00:00:23,458 --> 00:00:24,709
+Paste the A.P.I.
+
+7
+00:00:24,709 --> 00:00:29,145
+key; it is stored encrypted, and the box stays empty when you come back.
+
+8
+00:00:29,647 --> 00:00:33,684
+The Connect Telnyx button appears once a key is stored.
+
+9
+00:00:33,684 --> 00:00:38,185
+Here, no key is saved, so the page says to enter one and save.
+
+10
+00:00:38,185 --> 00:00:43,347
+Connect needs a real Telnyx account, so it is not clicked in this video.
+
