@@ -1,0 +1,90 @@
+{
+  "title": "Skills and Agent Entitlements: Send Work to the Right Agent | CrestApps for Orchard Core",
+  "description": "Not every agent can help every customer. In the CrestApps Contact Center, skills describe what an agent can do, and an entitlement record decides which queues and campaigns an agent may sign in to, in what order the agent is offered work, and which skills the agent holds.\n\nIn this video:\n• Why skills and entitlements, and how they fit together\n• Creating a skill\n• Giving an agent allowed queues, with a priority and a delay\n• Allowed campaigns, and skills with a proficiency from 1 to 5\n• The entitlements list, and why supervisors need a record too\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "skills",
+    "agent entitlements",
+    "skill-based routing",
+    "queues",
+    "agents",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why skills and entitlements"
+    },
+    {
+      "time": "0:50",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:22",
+      "title": "Create a skill"
+    },
+    {
+      "time": "1:51",
+      "title": "Give an agent queues"
+    },
+    {
+      "time": "2:33",
+      "title": "Campaigns and skills"
+    },
+    {
+      "time": "3:07",
+      "title": "The list and supervisors"
+    },
+    {
+      "time": "3:36",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:05",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/skills-and-entitlements"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Work Distribution, Agent Entitlements)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/skills-and-entitlements.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "4:15"
+}

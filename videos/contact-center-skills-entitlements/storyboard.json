@@ -1,0 +1,230 @@
+{
+  "title": "Skills and entitlements",
+  "output": "contact-center-skills-entitlements",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Skills and entitlements",
+      "subtitle": "Who can help, and where they may work",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Skills describe what an agent can do, and entitlements decide where an agent may work. This video shows why they exist, how to create a skill, and how to give an agent queues, campaigns and skills."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why skills and entitlements",
+      "subtitle": "The right agent for every customer",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Not every agent can help every customer. A customer who speaks Spanish needs an agent who speaks Spanish, and a billing question needs someone who knows billing."
+            },
+            {
+              "id": "why-2",
+              "text": "A skill describes what an agent can do, such as Spanish, Billing, or Tier 2 support. A queue can require or prefer skills."
+            },
+            {
+              "id": "why-3",
+              "text": "An entitlement record decides which queues and campaigns one agent may sign in to, in what order the agent is offered work, and which skills the agent holds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Skills, entitlements and queues",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Skills are created once, in a list. They come with the work distribution feature of the Contact Center."
+            },
+            {
+              "id": "how-2",
+              "text": "Each agent has one entitlement record: allowed queues with a priority and a delay, allowed campaigns, and skills with a proficiency from one to five."
+            },
+            {
+              "id": "how-3",
+              "text": "Entitlements are a feature you turn on. Without it, any agent may sign in to any queue or campaign, and there is no screen to give agents skills."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create a skill",
+      "subtitle": "A name for what agents can do",
+      "clips": [
+        {
+          "id": "03-skill",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ski-1",
+              "text": "Open Interaction Center, Management, Skills. The list shows the skills that exist. Click Add Skill."
+            },
+            {
+              "id": "ski-2",
+              "text": "Enter a Name, such as Tier 2 support, and an optional Description."
+            },
+            {
+              "id": "ski-3",
+              "text": "Leave Enabled ticked and click Save. A disabled skill stays on the agents and queues that already use it, but it cannot be picked for new ones."
+            }
+          ]
+        }
+      ],
+      "short": "skill"
+    },
+    {
+      "id": "04",
+      "title": "Give an agent queues",
+      "subtitle": "Allowed queues and their order",
+      "clips": [
+        {
+          "id": "04-queues",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ent-1",
+              "text": "Open Agent entitlements, and click Add agent entitlements."
+            },
+            {
+              "id": "ent-2",
+              "text": "Click Browse users, search for the person, and pick them as the User. Each user has one entitlement record, and the screen tells you if one already exists."
+            },
+            {
+              "id": "ent-3",
+              "text": "Under Allowed queues, pick every queue the agent may sign in to. Removing a queue later also signs the agent out of it."
+            },
+            {
+              "id": "ent-4",
+              "text": "Queue preferences list the allowed queues. A lower Priority number is served first. Delay makes a caller wait that many seconds before this agent is offered work, so the agent can back up a queue."
+            }
+          ]
+        }
+      ],
+      "short": "queues"
+    },
+    {
+      "id": "05",
+      "title": "Campaigns and skills",
+      "subtitle": "Dialer work, and proficiency",
+      "clips": [
+        {
+          "id": "05-skills",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "agk-1",
+              "text": "Under Allowed campaigns, pick the dialer campaigns the agent may work. This site has none yet."
+            },
+            {
+              "id": "agk-2",
+              "text": "Under Skills, click Add skill, and pick a skill."
+            },
+            {
+              "id": "agk-3",
+              "text": "Set its Proficiency from 1, basic, to 5, expert. A queue that requires a skill at a minimum proficiency only offers its work to agents at or above it."
+            },
+            {
+              "id": "agk-4",
+              "text": "Click Save. The agent can now sign in to these queues, and receives work that matches their skills."
+            }
+          ]
+        }
+      ],
+      "short": "skills"
+    },
+    {
+      "id": "06",
+      "title": "The list and supervisors",
+      "subtitle": "What the list shows",
+      "clips": [
+        {
+          "id": "06-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lst-1",
+              "text": "The list shows how many queues and campaigns each agent is allowed. Edit changes a record. Entitlement records cannot be deleted: remove the queues and campaigns instead."
+            },
+            {
+              "id": "lst-2",
+              "text": "Supervisors need a record too. The Live dashboard and the shared voicemail show a supervisor only the queues and campaigns on their own record, so without one their dashboard is empty."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Where skills and entitlements help",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A Spanish queue that only offers work to agents with the Spanish skill."
+            },
+            {
+              "id": "use-2",
+              "text": "A backup agent, with a delay on the sales queue, who helps only when the sales team is busy."
+            },
+            {
+              "id": "use-3",
+              "text": "A senior agent with Tier 2 support at proficiency 5, for the hardest questions."
+            },
+            {
+              "id": "use-4",
+              "text": "A supervisor with a record for the queues they supervise, so the dashboard shows their team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the skills, give every agent an entitlement record, and work reaches the people who can help. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

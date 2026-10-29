@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.202 --> 00:00:07.994
+Under Allowed campaigns, pick the dialer campaigns the agent may work.
+
+00:00:07.994 --> 00:00:09.822
+This site has none yet.
+
+00:00:10.280 --> 00:00:13.860
+Under Skills, click Add skill, and pick a skill.
+
+00:00:14.316 --> 00:00:18.164
+Set its Proficiency from 1, basic, to 5, expert.
+
+00:00:18.164 --> 00:00:23.580
+A queue that requires a skill at a minimum proficiency only offers its
+
+00:00:23.580 --> 00:00:26.146
+work to agents at or above it.
+
+00:00:26.603 --> 00:00:27.657
+Click Save.
+
+00:00:27.657 --> 00:00:33.423
+The agent can now sign in to these queues, and receives work that matches their skills.
+
