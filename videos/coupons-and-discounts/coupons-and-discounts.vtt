@@ -1,0 +1,275 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.890
+A discount can win a first order or clear a shelf, if it
+
+00:00:04.890 --> 00:00:06.898
+stops when you want it to.
+
+00:00:06.898 --> 00:00:09.407
+This video shows how coupons work:
+
+00:00:09.407 --> 00:00:14.929
+codes, automatic discounts, buy X get Y, limits, combining rules, links and unique
+
+00:00:14.929 --> 00:00:17.250
+codes, and what the buyer sees.
+
+00:00:21.850 --> 00:00:25.930
+A discount is the oldest way to win a first order, bring back
+
+00:00:25.930 --> 00:00:28.061
+a customer, or clear a shelf.
+
+00:00:28.061 --> 00:00:32.750
+Done by hand, it means editing prices and remembering to put them back.
+
+00:00:33.500 --> 00:00:39.480
+A code that leaks, or that nobody limited, keeps discounting until somebody notices.
+
+00:00:40.230 --> 00:00:45.583
+Coupons give you codes buyers type, discounts that apply by themselves, and buy
+
+00:00:45.583 --> 00:00:49.110
+X get Y offers, each with dates, limits and rules.
+
+00:00:49.860 --> 00:00:55.550
+You decide which discounts can be used together, and every use is counted and recorded.
+
+00:00:59.750 --> 00:01:04.771
+A coupon takes a percentage or a fixed amount off, makes shipping free,
+
+00:01:04.771 --> 00:01:06.531
+or gives buy X get Y.
+
+00:01:06.531 --> 00:01:11.030
+It can be a code the customer enters, or an automatic discount.
+
+00:01:11.780 --> 00:01:17.872
+Dates, a usage limit, uses per customer, minimum and maximum amounts, and products
+
+00:01:17.872 --> 00:01:20.710
+or categories decide when it works.
+
+00:01:21.460 --> 00:01:25.434
+Each coupon says which other kinds of discount it combines with.
+
+00:01:25.434 --> 00:01:30.600
+When they cannot all be used, the buyer gets the combination that takes off the most.
+
+00:01:31.350 --> 00:01:36.760
+You can share a code as a discount link, or generate unique single-use codes.
+
+00:01:36.760 --> 00:01:38.650
+Open Commerce, Coupons.
+
+00:01:42.944 --> 00:01:46.207
+Open Commerce, Coupons, and click Add coupon.
+
+00:01:46.207 --> 00:01:48.894
+The list is empty until you add one.
+
+00:01:50.747 --> 00:01:52.722
+Choose how it is applied:
+
+00:01:52.722 --> 00:01:54.824
+the customer enters a code.
+
+00:01:54.824 --> 00:02:00.302
+Type the Code, such as WELCOME10, and a Description, which shows on the invoice.
+
+00:02:00.302 --> 00:02:03.997
+Leave the Discount type on Percentage, and enter 10.
+
+00:02:04.458 --> 00:02:09.913
+Applies to chooses the one-time amount or the first billing cycle of a subscription.
+
+00:02:09.913 --> 00:02:14.277
+The Usage limit is how many purchases can use the coupon, and Uses
+
+00:02:14.277 --> 00:02:17.368
+per customer how many times one customer can.
+
+00:02:17.818 --> 00:02:21.311
+Valid until sets the date the code stops working.
+
+00:02:21.311 --> 00:02:24.168
+Leave Enabled ticked, and click Create.
+
+00:02:24.168 --> 00:02:28.296
+Give public codes an end date or a usage limit, so a leaked
+
+00:02:28.296 --> 00:02:30.518
+code cannot keep discounting.
+
+00:02:34.721 --> 00:02:37.840
+A second coupon takes a fixed amount off.
+
+00:02:37.840 --> 00:02:43.481
+Choose Fixed amount, and enter the Amount and its Currency, such as 15 dollars.
+
+00:02:48.509 --> 00:02:53.211
+Minimum amount is the order total below which the coupon does nothing, and
+
+00:02:53.211 --> 00:02:56.679
+Maximum amount the total above which it does nothing.
+
+00:02:56.679 --> 00:03:00.029
+Minimum quantity is how many items the order needs.
+
+00:03:00.486 --> 00:03:05.293
+Combines with chooses which kinds of discount can be used on the same order:
+
+00:03:05.293 --> 00:03:09.046
+Product discounts, Order discounts and Shipping discounts.
+
+00:03:09.046 --> 00:03:12.916
+A new coupon combines with nothing until you tick something.
+
+00:03:13.371 --> 00:03:18.109
+Under Products and categories, a coupon can be limited to some products or
+
+00:03:18.109 --> 00:03:21.366
+to the categories of a taxonomy, such as a brand.
+
+00:03:21.366 --> 00:03:22.491
+Click Create.
+
+00:03:26.683 --> 00:03:30.232
+Choose Automatically, on every order that qualifies.
+
+00:03:30.232 --> 00:03:34.271
+It needs a Description, because that is what the buyer sees.
+
+00:03:34.271 --> 00:03:35.923
+Its code is optional.
+
+00:03:36.378 --> 00:03:38.989
+Set the Discount type to Buy X get Y.
+
+00:03:38.989 --> 00:03:43.604
+Customer buys is how many items count, Customer gets how many are then
+
+00:03:43.604 --> 00:03:48.462
+discounted, and Percentage how much comes off each, with 100 meaning free.
+
+00:03:48.462 --> 00:03:51.498
+Times per order limits how often it repeats.
+
+00:03:51.949 --> 00:03:55.815
+The cheapest items the customer gets are the ones discounted.
+
+00:03:55.815 --> 00:03:59.219
+Combine it with shipping discounts, and click Create.
+
+00:04:03.400 --> 00:04:04.552
+Open a coupon.
+
+00:04:04.552 --> 00:04:08.875
+Its page shows how many times it was redeemed, and its Discount link.
+
+00:04:08.875 --> 00:04:13.429
+Whoever opens the link gets the code taken off at checkout without typing
+
+00:04:13.429 --> 00:04:14.870
+it, for seven days.
+
+00:04:15.330 --> 00:04:20.652
+Under Share and generate codes, enter How many, up to 5,000 at a
+
+00:04:20.652 --> 00:04:26.887
+time, an optional Prefix such as VIP, and Uses per code, one for single use.
+
+00:04:26.887 --> 00:04:28.940
+Click Generate codes.
+
+00:04:29.390 --> 00:04:33.688
+Download them as a CSV file with each code, how often it was
+
+00:04:33.688 --> 00:04:35.316
+used and its limit.
+
+00:04:35.316 --> 00:04:40.330
+Each code shares the coupon's discount and rules, and has its own uses.
+
+00:04:44.512 --> 00:04:50.276
+With three notebooks in the cart, the automatic discount takes the cheapest one off by itself.
+
+00:04:50.276 --> 00:04:53.272
+The order summary shows it by its description.
+
+00:04:53.723 --> 00:04:58.739
+On the Payment step, the buyer types a code in Promotion code and clicks Apply.
+
+00:04:58.739 --> 00:05:02.634
+A code that cannot be combined stays in the box, with a note
+
+00:05:02.634 --> 00:05:05.053
+naming the discount it gave way to.
+
+00:05:05.511 --> 00:05:09.077
+A buyer can add up to five codes and remove each one.
+
+00:05:09.077 --> 00:05:13.911
+The order and its confirmation email show every discount next to its name.
+
+00:05:18.085 --> 00:05:22.359
+Commerce, Coupons lists your coupons, newest first.
+
+00:05:22.359 --> 00:05:26.707
+Search by code or description, and filter by status:
+
+00:05:26.707 --> 00:05:29.705
+Active, Not available or Disabled.
+
+00:05:30.157 --> 00:05:34.811
+Each coupon shows its discount, what it applies to, how many times it
+
+00:05:34.811 --> 00:05:36.858
+was used, and its end date.
+
+00:05:36.858 --> 00:05:41.697
+A warning appears when a code has neither a usage limit nor an end date.
+
+00:05:42.154 --> 00:05:44.976
+A coupon's page lists its recent uses:
+
+00:05:44.976 --> 00:05:49.594
+when, whether it was used, held at checkout, let go or given back,
+
+00:05:49.594 --> 00:05:51.582
+and how much it took off.
+
+00:05:51.582 --> 00:05:54.084
+To pause a coupon, clear Enabled.
+
+00:05:58.284 --> 00:05:59.753
+A welcome offer:
+
+00:05:59.753 --> 00:06:04.764
+a percentage off the first order, with a usage limit and an end date.
+
+00:06:05.514 --> 00:06:07.708
+A sale that runs itself:
+
+00:06:07.708 --> 00:06:13.194
+an automatic discount, or buy two get one free, with no code to type.
+
+00:06:13.944 --> 00:06:15.681
+Cards and emails:
+
+00:06:15.681 --> 00:06:19.684
+unique single-use codes, one for each customer.
+
+00:06:20.434 --> 00:06:22.174
+A free shipping weekend:
+
+00:06:22.174 --> 00:06:26.004
+a free shipping coupon that combines with product discounts.
+
+00:06:28.004 --> 00:06:34.257
+Create a code, add limits, let automatic discounts run themselves, and see every use.
+
+00:06:34.257 --> 00:06:36.044
+Thanks for watching.
+

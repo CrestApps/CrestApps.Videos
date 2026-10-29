@@ -1,0 +1,289 @@
+{
+  "title": "Coupons and discounts",
+  "output": "coupons-and-discounts",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "X": "X"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Coupons and discounts",
+      "subtitle": "Discounts you control",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A discount can win a first order or clear a shelf, if it stops when you want it to. This video shows how coupons work: codes, automatic discounts, buy X get Y, limits, combining rules, links and unique codes, and what the buyer sees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why coupons",
+      "subtitle": "Discounts you control",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A discount is the oldest way to win a first order, bring back a customer, or clear a shelf. Done by hand, it means editing prices and remembering to put them back."
+            },
+            {
+              "id": "why-2",
+              "text": "A code that leaks, or that nobody limited, keeps discounting until somebody notices."
+            },
+            {
+              "id": "why-3",
+              "text": "Coupons give you codes buyers type, discounts that apply by themselves, and buy X get Y offers, each with dates, limits and rules."
+            },
+            {
+              "id": "why-4",
+              "text": "You decide which discounts can be used together, and every use is counted and recorded."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How coupons work",
+      "subtitle": "Codes, automatic discounts and limits",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A coupon takes a percentage or a fixed amount off, makes shipping free, or gives buy X get Y. It can be a code the customer enters, or an automatic discount."
+            },
+            {
+              "id": "how-2",
+              "text": "Dates, a usage limit, uses per customer, minimum and maximum amounts, and products or categories decide when it works."
+            },
+            {
+              "id": "how-3",
+              "text": "Each coupon says which other kinds of discount it combines with. When they cannot all be used, the buyer gets the combination that takes off the most."
+            },
+            {
+              "id": "how-4",
+              "text": "You can share a code as a discount link, or generate unique single-use codes. Open Commerce, Coupons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create a code",
+      "subtitle": "A percentage off with limits",
+      "clips": [
+        {
+          "id": "03-code",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cod-1",
+              "text": "Open Commerce, Coupons, and click Add coupon. The list is empty until you add one."
+            },
+            {
+              "id": "cod-2",
+              "text": "Choose how it is applied: the customer enters a code. Type the Code, such as WELCOME10, and a Description, which shows on the invoice. Leave the Discount type on Percentage, and enter 10."
+            },
+            {
+              "id": "cod-3",
+              "text": "Applies to chooses the one-time amount or the first billing cycle of a subscription. The Usage limit is how many purchases can use the coupon, and Uses per customer how many times one customer can."
+            },
+            {
+              "id": "cod-4",
+              "text": "Valid until sets the date the code stops working. Leave Enabled ticked, and click Create. Give public codes an end date or a usage limit, so a leaked code cannot keep discounting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Fixed amounts and rules",
+      "subtitle": "Minimums and what combines",
+      "clips": [
+        {
+          "id": "04-rules",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rul-1",
+              "text": "A second coupon takes a fixed amount off. Choose Fixed amount, and enter the Amount and its Currency, such as 15 dollars."
+            },
+            {
+              "id": "rul-2",
+              "text": "Minimum amount is the order total below which the coupon does nothing, and Maximum amount the total above which it does nothing. Minimum quantity is how many items the order needs."
+            },
+            {
+              "id": "rul-3",
+              "text": "Combines with chooses which kinds of discount can be used on the same order: Product discounts, Order discounts and Shipping discounts. A new coupon combines with nothing until you tick something."
+            },
+            {
+              "id": "rul-4",
+              "text": "Under Products and categories, a coupon can be limited to some products or to the categories of a taxonomy, such as a brand. Click Create."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Automatic discounts and buy X get Y",
+      "subtitle": "Discounts nobody has to type",
+      "clips": [
+        {
+          "id": "05-auto",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "aut-1",
+              "text": "Choose Automatically, on every order that qualifies. It needs a Description, because that is what the buyer sees. Its code is optional."
+            },
+            {
+              "id": "aut-2",
+              "text": "Set the Discount type to Buy X get Y. Customer buys is how many items count, Customer gets how many are then discounted, and Percentage how much comes off each, with 100 meaning free. Times per order limits how often it repeats."
+            },
+            {
+              "id": "aut-3",
+              "text": "The cheapest items the customer gets are the ones discounted. Combine it with shipping discounts, and click Create."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Share links and unique codes",
+      "subtitle": "One code for each customer",
+      "clips": [
+        {
+          "id": "06-share",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shr-1",
+              "text": "Open a coupon. Its page shows how many times it was redeemed, and its Discount link. Whoever opens the link gets the code taken off at checkout without typing it, for seven days."
+            },
+            {
+              "id": "shr-2",
+              "text": "Under Share and generate codes, enter How many, up to 5,000 at a time, an optional Prefix such as VIP, and Uses per code, one for single use. Click Generate codes."
+            },
+            {
+              "id": "shr-3",
+              "text": "Download them as a CSV file with each code, how often it was used and its limit. Each code shares the coupon's discount and rules, and has its own uses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "At checkout",
+      "subtitle": "What the buyer sees",
+      "clips": [
+        {
+          "id": "07-checkout",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "With three notebooks in the cart, the automatic discount takes the cheapest one off by itself. The order summary shows it by its description."
+            },
+            {
+              "id": "chk-2",
+              "text": "On the Payment step, the buyer types a code in Promotion code and clicks Apply. A code that cannot be combined stays in the box, with a note naming the discount it gave way to."
+            },
+            {
+              "id": "chk-3",
+              "text": "A buyer can add up to five codes and remove each one. The order and its confirmation email show every discount next to its name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Find and follow your coupons",
+      "subtitle": "The list, filters and recent uses",
+      "clips": [
+        {
+          "id": "08-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lst-1",
+              "text": "Commerce, Coupons lists your coupons, newest first. Search by code or description, and filter by status: Active, Not available or Disabled."
+            },
+            {
+              "id": "lst-2",
+              "text": "Each coupon shows its discount, what it applies to, how many times it was used, and its end date. A warning appears when a code has neither a usage limit nor an end date."
+            },
+            {
+              "id": "lst-3",
+              "text": "A coupon's page lists its recent uses: when, whether it was used, held at checkout, let go or given back, and how much it took off. To pause a coupon, clear Enabled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Four ways to use coupons",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A welcome offer: a percentage off the first order, with a usage limit and an end date."
+            },
+            {
+              "id": "use-2",
+              "text": "A sale that runs itself: an automatic discount, or buy two get one free, with no code to type."
+            },
+            {
+              "id": "use-3",
+              "text": "Cards and emails: unique single-use codes, one for each customer."
+            },
+            {
+              "id": "use-4",
+              "text": "A free shipping weekend: a free shipping coupon that combines with product discounts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create a code, add limits, let automatic discounts run themselves, and see every use. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
