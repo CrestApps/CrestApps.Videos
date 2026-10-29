@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:06.222
+On the entry point, the Welcome and I.V.R.
+
+00:00:06.222 --> 00:00:08.779
+menu card holds the Welcome message.
+
+00:00:08.779 --> 00:00:13.345
+It is spoken after the recording notice, and skipped when it is empty
+
+00:00:13.345 --> 00:00:15.110
+and there is no notice.
+
+00:00:15.598 --> 00:00:16.978
+Build an I.V.R.
+
+00:00:16.978 --> 00:00:18.490
+menu adds a menu.
+
+00:00:18.490 --> 00:00:22.763
+Tries is how many times a caller may press a wrong key, and
+
+00:00:22.763 --> 00:00:26.182
+When the tries run out says what happens next.
+
+00:00:26.182 --> 00:00:31.112
+Each key sends the caller to a queue, an agent, a submenu, voicemail,
+
+00:00:31.112 --> 00:00:34.728
+an approved external number, or repeats the menu.
+

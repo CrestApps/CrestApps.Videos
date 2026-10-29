@@ -1,0 +1,20 @@
+1
+00:00:03,249 --> 00:00:10,395
+Limits holds Maximum callers waiting with its Queue-full action, and Maximum wait with its Maximum-wait action.
+
+2
+00:00:10,395 --> 00:00:14,792
+Overflow moves the caller to the next queue they have not visited.
+
+3
+00:00:14,792 --> 00:00:18,029
+Send to voicemail ends the wait with a message.
+
+4
+00:00:18,554 --> 00:00:24,469
+Voicemail can be delivered to an agent's inbox, or to the queue's shared voicemail box.
+
+5
+00:00:24,469 --> 00:00:29,494
+Interaction Center, Shared voicemail is where the shared box is reviewed.
+

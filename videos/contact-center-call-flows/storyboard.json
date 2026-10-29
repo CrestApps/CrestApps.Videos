@@ -1,0 +1,249 @@
+{
+  "title": "Call Flows",
+  "output": "contact-center-call-flows",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "IVR": "I.V.R.",
+    "SLA": "S.L.A."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Call Flows",
+      "subtitle": "The life of an inbound call, an outbound call and a callback",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video follows a call from start to finish. First an inbound call: the recording notice, the welcome, the menu, the queue, the offer and the wrap-up. Then an outbound call and the checks it passes. Then a callback. For each stage you see the screen that controls it. Calls never connect on this demo site, so what happens in a live call is shown in slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "An inbound call",
+      "subtitle": "In order",
+      "clips": [
+        {
+          "id": "01-inbound",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "inb-1",
+              "text": "A call to your number reaches an inbound entry point. If recording is announced to inbound callers, that notice is spoken first. Then the welcome message plays, and the menu if there is one."
+            },
+            {
+              "id": "inb-2",
+              "text": "Then the caller joins the queue. If the queue is full, the queue-full action applies. While the caller waits, the queue's treatment plays, and an agent is offered the call as soon as one is eligible."
+            },
+            {
+              "id": "inb-3",
+              "text": "The agent accepts, talks, and can hold, transfer or conference. When the call ends, the agent is in wrap-up until the activity is completed, or until fifteen minutes pass. The disposition then runs the subject flow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The entry point",
+      "subtitle": "Welcome and menu",
+      "clips": [
+        {
+          "id": "02-entry",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ent-1",
+              "text": "On the entry point, the Welcome and I.V.R. menu card holds the Welcome message. It is spoken after the recording notice, and skipped when it is empty and there is no notice."
+            },
+            {
+              "id": "ent-2",
+              "text": "Build an I.V.R. menu adds a menu. Tries is how many times a caller may press a wrong key, and When the tries run out says what happens next. Each key sends the caller to a queue, an agent, a submenu, voicemail, an approved external number, or repeats the menu."
+            }
+          ]
+        }
+      ],
+      "short": "entry"
+    },
+    {
+      "id": "03",
+      "title": "While callers wait",
+      "subtitle": "Queue treatment",
+      "clips": [
+        {
+          "id": "03-queue",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "que-1",
+              "text": "On the queue, While callers wait sets the treatment. The Welcome message plays once. Hold music loops after it. With no music selected, callers hear a ringing tone. A caller who is offered to an agent at once hears no announcements."
+            },
+            {
+              "id": "que-2",
+              "text": "Announce the caller's place in line says you are number N, at every Announcement interval. Announce the estimated wait speaks only when an agent is available, and Average handle time is above zero. Minimum and maximum announced estimates keep the figure in range."
+            },
+            {
+              "id": "que-3",
+              "text": "The Callback card offers a callback key after a number of seconds. A caller who presses it leaves the queue and is called back later. It needs the Contact Center Outbound Dialer feature."
+            }
+          ]
+        }
+      ],
+      "short": "queue"
+    },
+    {
+      "id": "04",
+      "title": "Too long, closed or full",
+      "subtitle": "Limits and voicemail",
+      "clips": [
+        {
+          "id": "04-limits",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lim-1",
+              "text": "Limits holds Maximum callers waiting with its Queue-full action, and Maximum wait with its Maximum-wait action. Overflow moves the caller to the next queue they have not visited. Send to voicemail ends the wait with a message."
+            },
+            {
+              "id": "lim-2",
+              "text": "Voicemail can be delivered to an agent's inbox, or to the queue's shared voicemail box. Interaction Center, Shared voicemail is where the shared box is reviewed."
+            }
+          ]
+        }
+      ],
+      "short": "limits"
+    },
+    {
+      "id": "05",
+      "title": "After the call",
+      "subtitle": "Outcome and next step",
+      "clips": [
+        {
+          "id": "05-after",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "aft-1",
+              "text": "Every call ends with a disposition. Subject Flows, Manage Flow decides what each disposition does: finish, try again, create a new activity, or convert a lead."
+            },
+            {
+              "id": "aft-2",
+              "text": "Agent states holds the reasons agents choose. After a call, the agent stays in wrap-up until the activity is completed."
+            }
+          ]
+        }
+      ],
+      "short": "after"
+    },
+    {
+      "id": "06",
+      "title": "An outbound call",
+      "subtitle": "The checks",
+      "clips": [
+        {
+          "id": "06-outbound",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "out-1",
+              "text": "For an outbound call, the dialer checks the record before it dials, in this order. The number is valid. It is not known to be out of service. The record has attempts left, and the retry delay has passed."
+            },
+            {
+              "id": "out-2",
+              "text": "Then the contact has not opted out, the calling window is open, the abandonment cap allows dialing, and the number is not on a national do-not-call registry. A record that fails is skipped or cancelled, not dialed."
+            },
+            {
+              "id": "out-3",
+              "text": "A call that ends before an agent is connected is dispositioned by the dialer itself: no answer, busy, answering machine, rejected, failed, disconnected, or number not in service. Only some of those are retried."
+            }
+          ]
+        },
+        {
+          "id": "06-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "out-4",
+              "text": "The rules live on the dialer profile. The Dialing card has Max attempts and Retry delay, and the Compliance card has the do-not-call setting and the calling window. The subject flow decides first, and these are the fallback."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "A callback",
+      "subtitle": "The caller asked to be called",
+      "clips": [
+        {
+          "id": "07-callback",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "cb-1",
+              "text": "A callback starts when a caller presses the callback key in the queue. The caller is removed from the queue, and a background task creates the callback within a minute."
+            },
+            {
+              "id": "cb-2",
+              "text": "The callback is queued again at the queue's default priority, and an agent is offered it like a preview call. The agent accepts, and the platform dials the customer."
+            },
+            {
+              "id": "cb-3",
+              "text": "Callbacks use a built-in preview profile that skips the do-not-call and calling window checks, because the customer asked to be called. The attempt limit, the cool-down between attempts, and the not-in-service check still apply."
+            }
+          ]
+        }
+      ],
+      "short": "callback"
+    },
+    {
+      "id": "08",
+      "title": "Where it helps",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Check your flow from the top: notice, welcome, menu, queue, then the limits that protect callers from a long wait."
+            },
+            {
+              "id": "use-2",
+              "text": "Use callbacks to cut the abandon rate on a busy queue."
+            },
+            {
+              "id": "use-3",
+              "text": "Review the dispositions of the subject flow, so every outcome of a call has a next step."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "An inbound call passes the notice, the welcome, the menu and the queue before an agent. An outbound call passes the checks before it dials. A callback is a queued call the customer asked for. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

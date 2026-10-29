@@ -1,0 +1,97 @@
+{
+  "title": "Call Flows: Inbound, Outbound and Callback Calls Step by Step | CrestApps for Orchard Core",
+  "description": "This video follows a call from start to finish in the CrestApps Contact Center for Orchard Core: an inbound call with its recording notice, welcome, menu, queue, offer and wrap-up; an outbound call and the checks it passes before it dials; and a callback. For each stage you see the screen that controls it.\n\nIn this video:\n• The life of an inbound call\n• The entry point: welcome message and phone menu\n• Queue treatment: hold music, place in line, estimated wait and callback\n• Limits, overflow and voicemail\n• After the call: dispositions and the subject flow\n• An outbound call: the checks and what the dialer records\n• A callback",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "call flow",
+    "IVR",
+    "queues",
+    "callback",
+    "outbound dialer",
+    "voicemail",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:27",
+      "title": "An inbound call"
+    },
+    {
+      "time": "1:14",
+      "title": "The entry point"
+    },
+    {
+      "time": "1:50",
+      "title": "While callers wait"
+    },
+    {
+      "time": "2:41",
+      "title": "Too long, closed or full"
+    },
+    {
+      "time": "3:11",
+      "title": "After the call"
+    },
+    {
+      "time": "3:37",
+      "title": "An outbound call"
+    },
+    {
+      "time": "4:40",
+      "title": "A callback"
+    },
+    {
+      "time": "5:20",
+      "title": "Where it helps"
+    },
+    {
+      "time": "5:44",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/entry-points-and-ivr"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.EntryPoints"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/entry-points-and-ivr.md",
+    "src/CrestApps.Docs/docs/user-manual/queues.md",
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md"
+  ],
+  "length": "6:01"
+}

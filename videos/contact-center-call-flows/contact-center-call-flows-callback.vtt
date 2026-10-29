@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:07.322
+A callback starts when a caller presses the callback key in the queue.
+
+00:00:07.322 --> 00:00:11.499
+The caller is removed from the queue, and a background task creates the
+
+00:00:11.499 --> 00:00:13.180
+callback within a minute.
+
+00:00:13.930 --> 00:00:18.589
+The callback is queued again at the queue's default priority, and an agent
+
+00:00:18.589 --> 00:00:20.918
+is offered it like a preview call.
+
+00:00:20.918 --> 00:00:24.470
+The agent accepts, and the platform dials the customer.
+
+00:00:25.220 --> 00:00:30.223
+Callbacks use a built-in preview profile that skips the do-not-call and calling window
+
+00:00:30.223 --> 00:00:33.160
+checks, because the customer asked to be called.
+
+00:00:33.160 --> 00:00:38.490
+The attempt limit, the cool-down between attempts, and the not-in-service check still apply.
+
