@@ -1,0 +1,32 @@
+1
+00:00:03,300 --> 00:00:08,447
+Open Interaction Center, Management, Queue groups, and click Add queue group.
+
+2
+00:00:08,447 --> 00:00:11,238
+Give it a Name, here Service, and save.
+
+3
+00:00:11,238 --> 00:00:12,850
+Groups are optional.
+
+4
+00:00:20,742 --> 00:00:23,573
+Now open Queues and click Add Queue.
+
+5
+00:00:23,573 --> 00:00:29,912
+On the General card, type a Name, such as Support, and a Description for administrators.
+
+6
+00:00:36,208 --> 00:00:37,841
+Pick the Queue group.
+
+7
+00:00:37,841 --> 00:00:39,293
+Enabled is ticked:
+
+8
+00:00:39,293 --> 00:00:42,378
+a disabled queue receives no new assignments.
+

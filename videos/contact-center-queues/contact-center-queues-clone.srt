@@ -1,0 +1,12 @@
+1
+00:00:03,252 --> 00:00:09,152
+To start from an existing queue, open its Actions menu in the list and choose Clone.
+
+2
+00:00:09,786 --> 00:00:14,246
+The form opens with every setting copied, and the name Copy of.
+
+3
+00:00:14,246 --> 00:00:18,836
+The agents who work the original queue are not added to the copy.
+

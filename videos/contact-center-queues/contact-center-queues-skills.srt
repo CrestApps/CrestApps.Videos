@@ -1,0 +1,36 @@
+1
+00:00:03,300 --> 00:00:07,560
+On the Service levels card, the SLA threshold is how long an item
+
+2
+00:00:07,560 --> 00:00:10,680
+may wait before it breaches the service level.
+
+3
+00:00:10,680 --> 00:00:13,380
+The Live dashboard counts the breaches.
+
+4
+00:00:13,841 --> 00:00:19,222
+Age waiting items past the SLA threshold raises their priority, so old items
+
+5
+00:00:19,222 --> 00:00:21,584
+are not stuck behind new ones.
+
+6
+00:00:21,584 --> 00:00:24,471
+First-response target is for messages.
+
+7
+00:00:24,943 --> 00:00:29,282
+Under Skills, Required skills lists skills an agent must hold.
+
+8
+00:00:29,282 --> 00:00:31,643
+Add skill requirement is finer:
+
+9
+00:00:31,643 --> 00:00:38,023
+a minimum proficiency, required or only preferred, and a time after which the rule is dropped.
+

@@ -1,0 +1,44 @@
+1
+00:00:03,300 --> 00:00:07,842
+On the While callers wait card, the Welcome message is spoken once when
+
+2
+00:00:07,842 --> 00:00:09,847
+the caller enters the queue.
+
+3
+00:00:09,847 --> 00:00:12,207
+Hold music comes from Voice media.
+
+4
+00:00:12,207 --> 00:00:14,920
+Empty uses the phone provider's default.
+
+5
+00:00:16,524 --> 00:00:20,585
+The Announcement interval interrupts the music with an update.
+
+6
+00:00:20,585 --> 00:00:26,138
+Announce the caller's place in line, and Announce the estimated wait, set what it says.
+
+7
+00:00:26,138 --> 00:00:29,004
+The estimate uses the Average handle time.
+
+8
+00:00:29,506 --> 00:00:33,794
+On the Callback card, the Callback key is the key a waiting caller
+
+9
+00:00:33,794 --> 00:00:38,200
+presses to hang up and be called back, and keep their place in line.
+
+10
+00:00:38,200 --> 00:00:41,594
+Offer callback after sets how long they wait first.
+
+11
+00:00:41,594 --> 00:00:42,606
+Click Save.
+

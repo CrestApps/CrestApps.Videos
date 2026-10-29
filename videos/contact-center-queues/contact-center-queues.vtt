@@ -1,0 +1,233 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:06.474
+A queue is where waiting calls, callbacks and messages line up until an agent takes them.
+
+00:00:06.474 --> 00:00:10.105
+This video shows why queues exist, and how to create one:
+
+00:00:10.105 --> 00:00:14.772
+how the next agent is chosen, which skills are needed, what happens outside
+
+00:00:14.772 --> 00:00:18.230
+business hours, and what callers hear while they wait.
+
+00:00:22.830 --> 00:00:27.652
+When ten customers call at once, someone must decide who is served first,
+
+00:00:27.652 --> 00:00:29.910
+and which agent takes the call.
+
+00:00:30.660 --> 00:00:34.653
+A queue holds the waiting work, offers it to the right agent, and
+
+00:00:34.653 --> 00:00:37.690
+tells callers what is happening while they wait.
+
+00:00:38.440 --> 00:00:42.581
+It also decides what to do when nobody answers, when you are closed,
+
+00:00:42.581 --> 00:00:44.540
+or when the line is too long.
+
+00:00:48.740 --> 00:00:55.282
+A queue group only organizes queues for administration and reports, such as Sales and Service.
+
+00:00:55.282 --> 00:00:57.310
+It never changes routing.
+
+00:00:58.060 --> 00:01:03.657
+A queue has cards for routing, service levels, skills, hours and overflow, limits,
+
+00:01:03.657 --> 00:01:06.138
+what callers hear, and callbacks.
+
+00:01:06.138 --> 00:01:08.173
+Only the name is required.
+
+00:01:08.173 --> 00:01:10.590
+Every other value has a default.
+
+00:01:11.340 --> 00:01:15.115
+Phone calls reach a queue through an inbound entry point.
+
+00:01:15.115 --> 00:01:18.350
+Agents take work once they sign in to the queue.
+
+00:01:22.650 --> 00:01:27.797
+Open Interaction Center, Management, Queue groups, and click Add queue group.
+
+00:01:27.797 --> 00:01:30.588
+Give it a Name, here Service, and save.
+
+00:01:30.588 --> 00:01:32.200
+Groups are optional.
+
+00:01:40.092 --> 00:01:42.923
+Now open Queues and click Add Queue.
+
+00:01:42.923 --> 00:01:49.262
+On the General card, type a Name, such as Support, and a Description for administrators.
+
+00:01:55.558 --> 00:01:57.191
+Pick the Queue group.
+
+00:01:57.191 --> 00:01:58.643
+Enabled is ticked:
+
+00:01:58.643 --> 00:02:01.728
+a disabled queue receives no new assignments.
+
+00:02:06.028 --> 00:02:11.596
+On the Routing card, Default priority decides which waiting items are offered first.
+
+00:02:11.596 --> 00:02:13.328
+Normal is the default.
+
+00:02:13.880 --> 00:02:16.629
+Routing strategy picks the next agent.
+
+00:02:16.629 --> 00:02:20.813
+Longest idle is the agent who has been available the longest.
+
+00:02:20.813 --> 00:02:24.498
+Round robin is the agent who least recently got work.
+
+00:02:24.498 --> 00:02:28.620
+Least busy is the agent with the fewest active interactions.
+
+00:02:29.135 --> 00:02:33.920
+Prefer the last assigned agent offers a returning customer to the agent they
+
+00:02:33.920 --> 00:02:36.955
+spoke to before, when that agent is available.
+
+00:02:37.615 --> 00:02:42.895
+Reservation timeout is how many seconds an offer rings for one agent.
+
+00:02:42.895 --> 00:02:46.626
+Unanswered offer action says what happens next:
+
+00:02:46.626 --> 00:02:50.075
+Requeue, Send to voicemail, or Reject call.
+
+00:02:54.375 --> 00:02:58.635
+On the Service levels card, the SLA threshold is how long an item
+
+00:02:58.635 --> 00:03:01.755
+may wait before it breaches the service level.
+
+00:03:01.755 --> 00:03:04.455
+The Live dashboard counts the breaches.
+
+00:03:04.916 --> 00:03:10.297
+Age waiting items past the SLA threshold raises their priority, so old items
+
+00:03:10.297 --> 00:03:12.659
+are not stuck behind new ones.
+
+00:03:12.659 --> 00:03:15.546
+First-response target is for messages.
+
+00:03:16.018 --> 00:03:20.357
+Under Skills, Required skills lists skills an agent must hold.
+
+00:03:20.357 --> 00:03:22.718
+Add skill requirement is finer:
+
+00:03:22.718 --> 00:03:29.098
+a minimum proficiency, required or only preferred, and a time after which the rule is dropped.
+
+00:03:33.398 --> 00:03:37.754
+On the Hours and overflow card, pick a Business hours calendar.
+
+00:03:37.754 --> 00:03:40.721
+Routing pauses while the queue is closed.
+
+00:03:40.721 --> 00:03:45.518
+The After-hours action is Hold in queue, or Overflow to another queue.
+
+00:03:45.983 --> 00:03:49.530
+Overflow queue and Overflow after set a single hop:
+
+00:03:49.530 --> 00:03:54.384
+after that many seconds of waiting, the caller moves to the other queue.
+
+00:03:54.384 --> 00:03:57.433
+Add overflow hop builds a chain of several.
+
+00:03:57.911 --> 00:04:03.486
+On the Limits card, Maximum callers waiting and Maximum wait cap the line.
+
+00:04:03.486 --> 00:04:08.015
+Queue-full action and Maximum-wait action say what happens:
+
+00:04:08.015 --> 00:04:11.011
+admit anyway, overflow, or voicemail.
+
+00:04:15.311 --> 00:04:19.853
+On the While callers wait card, the Welcome message is spoken once when
+
+00:04:19.853 --> 00:04:21.858
+the caller enters the queue.
+
+00:04:21.858 --> 00:04:24.218
+Hold music comes from Voice media.
+
+00:04:24.218 --> 00:04:26.931
+Empty uses the phone provider's default.
+
+00:04:28.535 --> 00:04:32.596
+The Announcement interval interrupts the music with an update.
+
+00:04:32.596 --> 00:04:38.149
+Announce the caller's place in line, and Announce the estimated wait, set what it says.
+
+00:04:38.149 --> 00:04:41.015
+The estimate uses the Average handle time.
+
+00:04:41.518 --> 00:04:45.805
+On the Callback card, the Callback key is the key a waiting caller
+
+00:04:45.805 --> 00:04:50.211
+presses to hang up and be called back, and keep their place in line.
+
+00:04:50.211 --> 00:04:53.605
+Offer callback after sets how long they wait first.
+
+00:04:53.605 --> 00:04:54.618
+Click Save.
+
+00:04:58.870 --> 00:05:04.770
+To start from an existing queue, open its Actions menu in the list and choose Clone.
+
+00:05:05.403 --> 00:05:09.863
+The form opens with every setting copied, and the name Copy of.
+
+00:05:09.863 --> 00:05:14.453
+The agents who work the original queue are not added to the copy.
+
+00:05:18.653 --> 00:05:23.479
+A support line that serves the longest idle agent first, and overflows to
+
+00:05:23.479 --> 00:05:25.923
+a general queue after two minutes.
+
+00:05:26.673 --> 00:05:31.373
+A Spanish queue that only offers work to agents with the Spanish skill.
+
+00:05:32.123 --> 00:05:36.423
+A sales queue that closes at night, and takes voicemail.
+
+00:05:37.173 --> 00:05:42.113
+A busy line that offers a callback, so customers do not wait on hold.
+
+00:05:44.113 --> 00:05:48.650
+Create a queue, choose how agents are picked, and set what callers hear.
+
+00:05:48.650 --> 00:05:50.861
+Then point an entry point at it.
+
+00:05:50.861 --> 00:05:52.373
+Thanks for watching.
+

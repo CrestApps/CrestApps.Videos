@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:07.656
+On the Hours and overflow card, pick a Business hours calendar.
+
+00:00:07.656 --> 00:00:10.623
+Routing pauses while the queue is closed.
+
+00:00:10.623 --> 00:00:15.420
+The After-hours action is Hold in queue, or Overflow to another queue.
+
+00:00:15.885 --> 00:00:19.432
+Overflow queue and Overflow after set a single hop:
+
+00:00:19.432 --> 00:00:24.285
+after that many seconds of waiting, the caller moves to the other queue.
+
+00:00:24.285 --> 00:00:27.335
+Add overflow hop builds a chain of several.
+
+00:00:27.813 --> 00:00:33.387
+On the Limits card, Maximum callers waiting and Maximum wait cap the line.
+
+00:00:33.387 --> 00:00:37.917
+Queue-full action and Maximum-wait action say what happens:
+
+00:00:37.917 --> 00:00:40.913
+admit anyway, overflow, or voicemail.
+
