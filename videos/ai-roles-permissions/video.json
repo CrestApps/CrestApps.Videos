@@ -1,0 +1,79 @@
+{
+  "title": "AI Roles and Permissions: Who Can Do What With AI | CrestApps for Orchard Core",
+  "description": "The CrestApps AI features work for the administrator out of the box. Everyone else needs permissions. This video builds an AI builder role, shows the permissions for chatting, reports, tools and public assistants, and gives a checklist for features that only work for the administrator.\n\nIn this video:\n• Four kinds of people: builders, analysts, staff and anonymous visitors\n• Creating a role and its AI permissions\n• Query permissions for one profile or any profile\n• Chat, memory and analytics permissions\n• Tool permissions, and the Anonymous role\n• Troubleshooting a feature that works only for the administrator",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "Security",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI permissions",
+    "roles",
+    "AI assistant",
+    "access control",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Four kinds of people"
+    },
+    {
+      "time": "0:45",
+      "title": "A role for builders"
+    },
+    {
+      "time": "1:38",
+      "title": "Chatting and reports"
+    },
+    {
+      "time": "2:19",
+      "title": "Tools and the public"
+    },
+    {
+      "time": "2:51",
+      "title": "When it only works for admin"
+    },
+    {
+      "time": "3:20",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: profiles",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/profiles"
+    },
+    {
+      "label": "Roles and permissions",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/getting-started/roles-and-permissions"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/profiles.md"
+  ],
+  "length": "3:31"
+}
