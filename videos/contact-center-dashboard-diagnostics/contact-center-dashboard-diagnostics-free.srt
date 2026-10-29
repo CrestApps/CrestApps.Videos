@@ -1,0 +1,48 @@
+1
+00:00:03,200 --> 00:00:07,312
+Sometimes an agent is shown as busy while nothing is happening:
+
+2
+00:00:07,312 --> 00:00:12,200
+a call that the provider already ended, a reservation that nothing backs, or
+
+3
+00:00:12,200 --> 00:00:15,239
+work still assigned with no call in progress.
+
+4
+00:00:15,239 --> 00:00:18,100
+The agent card then shows a warning badge.
+
+5
+00:00:18,850 --> 00:00:22,534
+Open the More menu of that card, and choose Free agent.
+
+6
+00:00:22,534 --> 00:00:26,944
+The panel lists what the agent is holding, such as marked busy with
+
+7
+00:00:26,944 --> 00:00:30,024
+no call in progress, and asks you to confirm.
+
+8
+00:00:30,024 --> 00:00:33,950
+A call the provider confirms is still alive is never ended.
+
+9
+00:00:34,700 --> 00:00:39,903
+Free agent needs the permission to take over, end, transfer and record live
+
+10
+00:00:39,903 --> 00:00:42,344
+calls, and to set agents' state.
+
+11
+00:00:42,344 --> 00:00:47,161
+It releases the stale work, and the agent can be offered calls again.
+
+12
+00:00:47,161 --> 00:00:48,960
+The action is audited.
+

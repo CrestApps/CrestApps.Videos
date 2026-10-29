@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.230 --> 00:00:06.203
+The banner appears when Paced Dialing is on.
+
+00:00:06.203 --> 00:00:08.285
+Here it says Nothing due yet:
+
+00:00:08.285 --> 00:00:12.745
+records wait, but the latest pacing cycle found none it may dial now.
+
+00:00:12.745 --> 00:00:16.968
+A green banner says the dialer is active and placing calls, and a
+
+00:00:16.968 --> 00:00:19.050
+blue one says it is starting.
+
+00:00:20.650 --> 00:00:22.431
+Amber means attention.
+
+00:00:22.431 --> 00:00:26.312
+Dialer idle says work is due but no agent is available.
+
+00:00:26.312 --> 00:00:32.166
+Dialer holding back says the abandonment policy, the compliance check or calls already
+
+00:00:32.166 --> 00:00:34.520
+in flight keep it from dialing.
+
+00:00:35.270 --> 00:00:36.538
+Red means act.
+
+00:00:36.538 --> 00:00:42.181
+Dialer stalled says due work is waiting and no cycle completed for several minutes.
+
+00:00:42.181 --> 00:00:48.267
+Dialer not pacing says the pacing lock has not been acquired, so every cycle skips itself.
+
+00:00:48.267 --> 00:00:53.340
+Both need your administrator, who checks the distributed lock and the log.
+

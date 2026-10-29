@@ -1,0 +1,44 @@
+1
+00:00:03,200 --> 00:00:07,783
+When three of an agent's last five calls were rated poor, the dashboard
+
+2
+00:00:07,783 --> 00:00:11,651
+raises an alert for the supervisors of that agent's queues:
+
+3
+00:00:11,651 --> 00:00:16,710
+the agent's name, how many of their last calls were poor, and the likely cause.
+
+4
+00:00:17,460 --> 00:00:21,802
+The cause is one of no audio received, no audio sent from their
+
+5
+00:00:21,802 --> 00:00:27,150
+phone, packet loss on their network, jitter, latency on their network path, the
+
+6
+00:00:27,150 --> 00:00:29,793
+customers' lines, or not determined.
+
+7
+00:00:29,793 --> 00:00:32,750
+An agent is alerted at most once an hour.
+
+8
+00:00:33,500 --> 00:00:38,349
+Alerts appear only while the dashboard is open, so a supervisor who opens
+
+9
+00:00:38,349 --> 00:00:39,884
+it later sees none.
+
+10
+00:00:39,884 --> 00:00:44,795
+The Dismiss button, the cross on the alert, hides it in your browser only.
+
+11
+00:00:44,795 --> 00:00:47,680
+A reload brings the dashboard back clean.
+

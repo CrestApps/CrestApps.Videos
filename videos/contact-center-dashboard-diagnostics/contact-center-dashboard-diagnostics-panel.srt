@@ -1,0 +1,68 @@
+1
+00:00:03,271 --> 00:00:07,743
+Why isn't this dialing explains each queue or campaign that has work.
+
+2
+00:00:07,743 --> 00:00:12,216
+A card shows how many records are pending, how many are dialable now,
+
+3
+00:00:12,216 --> 00:00:16,331
+and how many are held back, then lists the reasons with counts.
+
+4
+00:00:16,800 --> 00:00:20,459
+Notes under the list say how the campaign is paced, how many agents
+
+5
+00:00:20,459 --> 00:00:23,868
+are signed in, and what routing found the last time it looked.
+
+6
+00:00:23,868 --> 00:00:27,426
+Here no agents are signed in, and routing found no agent a moment
+
+7
+00:00:27,426 --> 00:00:28,780
+ago, with the reason.
+
+8
+00:00:30,380 --> 00:00:33,134
+Reasons for a held back record include:
+
+9
+00:00:33,134 --> 00:00:38,153
+Scheduled for later, Waiting out the retry delay, Out of attempts, No number
+
+10
+00:00:38,153 --> 00:00:43,355
+to dial, Do not call, On the national do-not-call registry, Outside the calling
+
+11
+00:00:43,355 --> 00:00:47,640
+window, Number not in service, and Abandonment rate cap reached.
+
+12
+00:00:48,390 --> 00:00:50,015
+Others point at setup:
+
+13
+00:00:50,015 --> 00:00:54,660
+The queue is turned off, The queue's business hours are closed, The dialer
+
+14
+00:00:54,660 --> 00:00:58,840
+profile is turned off, Not in the queue, so routing never sees it,
+
+15
+00:00:58,840 --> 00:01:01,452
+and Assigned to a user for manual work.
+
+16
+00:01:01,452 --> 00:01:05,574
+A card is red when something is wrong, and amber when records are
+
+17
+00:01:05,574 --> 00:01:07,780
+held back and none are dialable.
+
