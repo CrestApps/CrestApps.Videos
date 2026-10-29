@@ -1,0 +1,20 @@
+1
+00:00:03,184 --> 00:00:05,867
+The Claude card works the same way.
+
+2
+00:00:05,867 --> 00:00:10,384
+Authentication type is Not configured until you choose API key.
+
+3
+00:00:10,835 --> 00:00:12,920
+Enter the Anthropic API key.
+
+4
+00:00:12,920 --> 00:00:16,906
+Keep the standard Base URL unless you use your own gateway.
+
+5
+00:00:16,906 --> 00:00:21,015
+The Default model is used when a profile does not choose one.
+

@@ -1,0 +1,196 @@
+1
+00:00:01,000 --> 00:00:03,345
+Every chat runs on an orchestrator:
+
+2
+00:00:03,345 --> 00:00:08,207
+the engine that decides how the assistant uses its tools and writes its answer.
+
+3
+00:00:08,207 --> 00:00:12,783
+This video shows the three orchestrators, how to set up Copilot and Claude
+
+4
+00:00:12,783 --> 00:00:16,100
+in the site settings, and how a profile chooses one.
+
+5
+00:00:20,700 --> 00:00:23,878
+The Default orchestrator is built into the site.
+
+6
+00:00:23,878 --> 00:00:28,880
+It uses your own AI connections and deployments, your tools and your knowledge.
+
+7
+00:00:29,630 --> 00:00:34,549
+The Copilot orchestrator runs the chat on the GitHub Copilot engine, with a
+
+8
+00:00:34,549 --> 00:00:38,010
+GitHub sign-in or with your own model provider key.
+
+9
+00:00:38,760 --> 00:00:45,286
+The Claude orchestrator runs the chat on Anthropic's Claude engine, with an Anthropic API key.
+
+10
+00:00:45,286 --> 00:00:47,570
+Each profile chooses its own.
+
+11
+00:00:51,780 --> 00:00:56,392
+Open Settings, Artificial Intelligence, and find the Copilot card.
+
+12
+00:00:56,392 --> 00:01:00,492
+It appears when the AI Copilot Orchestrator feature is on.
+
+13
+00:01:00,492 --> 00:01:05,360
+Authentication type starts at Not configured, which keeps Copilot off.
+
+14
+00:01:05,814 --> 00:01:10,009
+GitHub signed-in user asks for the Client ID and the Client secret of
+
+15
+00:01:10,009 --> 00:01:13,869
+your GitHub app, and shows the callback address to give GitHub.
+
+16
+00:01:13,869 --> 00:01:16,834
+People then use their own Copilot subscription.
+
+17
+00:01:17,284 --> 00:01:21,609
+API key, bring your own key, needs no Copilot subscription.
+
+18
+00:01:21,609 --> 00:01:26,200
+Choose the Provider type, enter the Base URL and the API key of
+
+19
+00:01:26,200 --> 00:01:28,994
+the provider, and the Default model.
+
+20
+00:01:29,444 --> 00:01:36,786
+Wire API format is Chat completions for most models, and Responses for the GPT-5 series.
+
+21
+00:01:36,786 --> 00:01:40,534
+Azure OpenAI also asks for an API version.
+
+22
+00:01:44,718 --> 00:01:47,402
+The Claude card works the same way.
+
+23
+00:01:47,402 --> 00:01:51,918
+Authentication type is Not configured until you choose API key.
+
+24
+00:01:52,369 --> 00:01:54,454
+Enter the Anthropic API key.
+
+25
+00:01:54,454 --> 00:01:58,441
+Keep the standard Base URL unless you use your own gateway.
+
+26
+00:01:58,441 --> 00:02:02,549
+The Default model is used when a profile does not choose one.
+
+27
+00:02:06,750 --> 00:02:11,950
+On a profile, the Orchestrator picker offers Default, Claude and Copilot.
+
+28
+00:02:11,950 --> 00:02:17,480
+The orchestrator controls how tools are selected and how the answer loop runs.
+
+29
+00:02:17,930 --> 00:02:20,782
+Choose Copilot, and its settings appear.
+
+30
+00:02:20,782 --> 00:02:24,874
+When Copilot is not set up on the site, the profile says so:
+
+31
+00:02:24,874 --> 00:02:28,780
+it cannot be used until it is configured in the settings.
+
+32
+00:02:29,230 --> 00:02:33,906
+Allow all tool executions lets Copilot run its tools without asking.
+
+33
+00:02:33,906 --> 00:02:38,202
+Once Copilot is set up, the section also offers a model and an
+
+34
+00:02:38,202 --> 00:02:40,793
+Effort level, and a GitHub sign-in.
+
+35
+00:02:40,793 --> 00:02:45,279
+A sign-in stored on the profile is lent to every person who chats
+
+36
+00:02:45,279 --> 00:02:47,490
+with it, so use it with care.
+
+37
+00:02:47,959 --> 00:02:52,020
+Choose Claude, and it also says when it is not configured.
+
+38
+00:02:52,020 --> 00:02:56,017
+Once it is, a model and an Effort level can be chosen for
+
+39
+00:02:56,017 --> 00:03:00,269
+the profile, and an empty model uses the default of the site.
+
+40
+00:03:04,469 --> 00:03:07,093
+Start with the Default orchestrator.
+
+41
+00:03:07,093 --> 00:03:12,029
+It works with every connection, and with all of your knowledge and tools.
+
+42
+00:03:12,779 --> 00:03:17,099
+Choose Copilot or Claude for a profile that needs that engine.
+
+43
+00:03:17,099 --> 00:03:21,229
+Set up the credentials first, or the profile cannot answer.
+
+44
+00:03:21,979 --> 00:03:25,890
+Keep API keys and client secrets with your technical team.
+
+45
+00:03:25,890 --> 00:03:29,129
+They are stored securely and never shown again.
+
+46
+00:03:31,129 --> 00:03:33,371
+Pick the engine for each assistant.
+
+47
+00:03:33,371 --> 00:03:37,308
+Set up Copilot and Claude once in the settings, and choose them on
+
+48
+00:03:37,308 --> 00:03:39,167
+the profiles that need them.
+
+49
+00:03:39,167 --> 00:03:40,589
+Thanks for watching.
+

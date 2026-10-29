@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.210 --> 00:00:07.822
+Open Settings, Artificial Intelligence, and find the Copilot card.
+
+00:00:07.822 --> 00:00:11.922
+It appears when the AI Copilot Orchestrator feature is on.
+
+00:00:11.922 --> 00:00:16.790
+Authentication type starts at Not configured, which keeps Copilot off.
+
+00:00:17.244 --> 00:00:21.439
+GitHub signed-in user asks for the Client ID and the Client secret of
+
+00:00:21.439 --> 00:00:25.299
+your GitHub app, and shows the callback address to give GitHub.
+
+00:00:25.299 --> 00:00:28.264
+People then use their own Copilot subscription.
+
+00:00:28.714 --> 00:00:33.039
+API key, bring your own key, needs no Copilot subscription.
+
+00:00:33.039 --> 00:00:37.630
+Choose the Provider type, enter the Base URL and the API key of
+
+00:00:37.630 --> 00:00:40.424
+the provider, and the Default model.
+
+00:00:40.874 --> 00:00:48.216
+Wire API format is Chat completions for most models, and Responses for the GPT-5 series.
+
+00:00:48.216 --> 00:00:51.964
+Azure OpenAI also asks for an API version.
+
