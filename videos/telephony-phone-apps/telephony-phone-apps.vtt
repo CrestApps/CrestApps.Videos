@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.226
+The soft phone apps keep calls going while you move between pages, and
+
+00:00:05.226 --> 00:00:08.952
+ring for incoming calls even when the phone window is closed.
+
+00:00:08.952 --> 00:00:13.401
+This video shows the administrator steps on the site, and describes how to
+
+00:00:13.401 --> 00:00:16.460
+set up the browser extension and the Windows app.
+
+00:00:21.060 --> 00:00:24.943
+A phone that lives inside a web page loses its call when you
+
+00:00:24.943 --> 00:00:26.767
+reload or leave the page.
+
+00:00:26.767 --> 00:00:29.650
+And it cannot ring when the page is closed.
+
+00:00:30.400 --> 00:00:32.141
+The phone apps fix this.
+
+00:00:32.141 --> 00:00:36.550
+Each opens your site's phone in its own window, and keeps a background
+
+00:00:36.550 --> 00:00:41.540
+connection that rings for incoming calls, even while the phone window is closed.
+
+00:00:45.740 --> 00:00:51.603
+The browser extension runs in Chrome 116 or later, and Firefox 140 or later.
+
+00:00:51.603 --> 00:00:55.750
+Get it from the Chrome Web Store or Firefox Add-ons.
+
+00:00:56.500 --> 00:01:02.819
+The Windows app runs on Windows 10, version 1809 or later, on x64 and ARM64.
+
+00:01:02.819 --> 00:01:07.212
+Get the installer, the portable zip or the M.S.I.X.
+
+00:01:07.212 --> 00:01:11.450
+from the GitHub releases, or the Microsoft Store.
+
+00:01:12.200 --> 00:01:16.501
+Both show your site's own soft phone page, so the call controls are
+
+00:01:16.501 --> 00:01:19.153
+the ones in Placing and handling calls.
+
+00:01:19.153 --> 00:01:24.750
+They talk only to your site, and use your normal site sign-in, with no separate password.
+
+00:01:29.045 --> 00:01:32.178
+In Tools, Features, search for Soft Phone.
+
+00:01:32.178 --> 00:01:35.116
+Turn on Telephony Soft Phone Extension.
+
+00:01:35.116 --> 00:01:38.575
+It adds the soft phone page that the apps open.
+
+00:01:39.089 --> 00:01:43.098
+Then give your users the Use the telephony soft phone permission.
+
+00:01:43.098 --> 00:01:47.503
+Open the role your agents have, and search for it in Search permissions.
+
+00:01:47.503 --> 00:01:52.189
+The Contact Center's Agent role does not have it by default, so add it there.
+
+00:01:52.662 --> 00:01:58.322
+Finally, tell your users the site's domain, for example phone dot example dot com.
+
+00:02:02.622 --> 00:02:05.876
+Both apps open the soft phone page of your site.
+
+00:02:05.876 --> 00:02:07.684
+Here it is in a browser:
+
+00:02:07.684 --> 00:02:11.179
+the keypad, and the Recent, Voicemail and Work tabs.
+
+00:02:11.179 --> 00:02:16.182
+The apps add the window, the tray icon and the incoming call popup around it.
+
+00:02:20.382 --> 00:02:25.612
+Install CrestApps Soft Phone from the Chrome Web Store or Firefox Add-ons.
+
+00:02:26.362 --> 00:02:33.484
+Open the extension's options, type your site's domain without https, and click Save and grant access.
+
+00:02:33.484 --> 00:02:37.212
+The browser asks for access to that one site only.
+
+00:02:37.962 --> 00:02:42.480
+Sign in to the site in the same browser, then click Open Soft Phone.
+
+00:02:42.480 --> 00:02:47.303
+The phone opens in its own window, which remembers its size and position.
+
+00:02:47.303 --> 00:02:50.662
+Pin the toolbar button to keep it one click away.
+
+00:02:51.412 --> 00:02:56.524
+An incoming call gives you a popup with Answer, Decline and Voicemail, a
+
+00:02:56.524 --> 00:02:59.342
+ringtone, and a desktop notification.
+
+00:02:59.342 --> 00:03:06.552
+The options page also has Enable diagnostics, which adds Run connection test and Simulate incoming call.
+
+00:03:10.752 --> 00:03:12.308
+Run the installer.
+
+00:03:12.308 --> 00:03:16.651
+It installs for your user only, with no administrator rights.
+
+00:03:16.651 --> 00:03:20.282
+The portable zip and the Microsoft Store work too.
+
+00:03:21.032 --> 00:03:25.746
+Enter your site's domain when asked, and choose whether to start with Windows,
+
+00:03:25.746 --> 00:03:28.497
+play a ringtone, and keep the phone on top.
+
+00:03:28.497 --> 00:03:31.472
+Then sign in to the site inside the app window.
+
+00:03:32.222 --> 00:03:34.589
+The app lives in the system tray.
+
+00:03:34.589 --> 00:03:38.291
+Right-click its icon for Open phone, Settings and Quit.
+
+00:03:38.291 --> 00:03:42.782
+Closing the phone window keeps the app running, so calls still ring.
+
+00:03:43.532 --> 00:03:48.882
+Incoming calls raise a Windows notification and a call window with the caller,
+
+00:03:48.882 --> 00:03:53.468
+the queue and matched records, with Answer, Decline and Voicemail.
+
+00:03:53.468 --> 00:03:56.972
+Settings has a General tab and a Diagnostics tab.
+
+00:04:01.172 --> 00:04:05.526
+The Enable the soft phone setting hides only the phone inside the page.
+
+00:04:05.526 --> 00:04:09.653
+The apps keep working while the Soft Phone Extension feature is on.
+
+00:04:09.653 --> 00:04:11.972
+Turn that feature off to stop them.
+
+00:04:12.722 --> 00:04:17.493
+IT departments can push and lock the site domain and other settings through
+
+00:04:17.493 --> 00:04:19.202
+Group Policy or Intune.
+
+00:04:23.402 --> 00:04:27.224
+An agent who works in the CRM all day, and keeps the call
+
+00:04:27.224 --> 00:04:29.712
+going while moving between records.
+
+00:04:30.462 --> 00:04:35.382
+A team that must hear every call, even with the phone window closed.
+
+00:04:36.132 --> 00:04:41.312
+A company that rolls the Windows app out with Intune, with the site domain already set.
+
+00:04:42.062 --> 00:04:46.522
+A remote worker who uses the extension in the browser they already have.
+
+00:04:48.522 --> 00:04:53.414
+Turn on the feature, give people the permission, and install the app that suits them.
+
+00:04:53.414 --> 00:04:56.372
+Thanks for watching, and thank you for your time.
+
