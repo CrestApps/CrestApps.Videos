@@ -1,0 +1,274 @@
+{
+  "title": "Shipping",
+  "output": "shipping",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Shipping",
+      "subtitle": "The right options at the right price",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Shipping is where many online sales are lost. This video shows why the Shipping module exists, how zones, methods and settings fit together, and how to use every screen, from a zone to recording a shipment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why shipping",
+      "subtitle": "The right options at the right price",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Shipping is where many online sales are lost. A surprise price, no option that fits the order, or no way to collect it nearby, and the buyer leaves."
+            },
+            {
+              "id": "why-2",
+              "text": "Doing it by hand means quoting every order, writing tracking numbers into emails, and hoping the parcel went out."
+            },
+            {
+              "id": "why-3",
+              "text": "The Shipping module offers each buyer the methods that fit their address and their order, with the price worked out for them."
+            },
+            {
+              "id": "why-4",
+              "text": "Afterwards you pack the order, record the shipment with its tracking number, and the buyer is told."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Zones, methods, settings and shipments",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A zone is a place you ship to. Each zone has the methods buyers there can choose."
+            },
+            {
+              "id": "how-2",
+              "text": "A method is a way to ship and what it costs: a flat rate, a table rate, free shipping, local delivery, or a carrier's own rate."
+            },
+            {
+              "id": "how-3",
+              "text": "Settings, Commerce, Shipping holds the weight unit, the pickup locations, where you ship from, and the carrier account."
+            },
+            {
+              "id": "how-4",
+              "text": "Shipping, Try rates checks your setup, and each order page records the shipments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Shipping zones",
+      "subtitle": "Where you ship",
+      "clips": [
+        {
+          "id": "03-zones",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "zone-1",
+              "text": "Open Shipping. A zone is a place you ship to. The list shows your zones. Click Add Shipping Zone."
+            },
+            {
+              "id": "zone-2",
+              "text": "Enter a Name, and choose the Countries the zone covers. Rest of the world covers every country that no other zone covers, and Position decides which zone is tried first."
+            },
+            {
+              "id": "zone-3",
+              "text": "Click Save. The zone opens with its Shipping methods. Zones are tried from the smallest position, and the first zone that covers an address wins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Shipping methods",
+      "subtitle": "How you ship, and what it costs",
+      "clips": [
+        {
+          "id": "04-methods",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "meth-1",
+              "text": "Under Shipping methods, click Add method. A flat rate charges one amount per order. A table rate looks the amount up from weight, subtotal or items. Free shipping charges nothing, and local delivery and carrier rates are the other kinds. Choose Flat rate."
+            },
+            {
+              "id": "meth-2",
+              "text": "Name it Standard shipping. Amount per order is charged once for the order, and Amount per item is added for each item. On turns the method off without deleting it. Click Save."
+            },
+            {
+              "id": "meth-3",
+              "text": "Add a Free shipping method too. Free from a subtotal of sets how much a buyer spends before it is offered. Buyers see the methods that are on, in the order of their Position."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Weights and shipping settings",
+      "subtitle": "Product weights, units and tracking",
+      "clips": [
+        {
+          "id": "05-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Weight-based rates need weights. On a product, Weight (kg) is the weight of one unit, packed."
+            },
+            {
+              "id": "set-2",
+              "text": "Settings, Commerce, Shipping has tabs. On General, the Weight unit is kilograms or pounds, and the Shipping classes are the classes you can give products, one per line."
+            },
+            {
+              "id": "set-3",
+              "text": "Also on General, Tracking links turns a carrier and a tracking number into a link, and Email the buyer when a shipment leaves sends the tracking details."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Pickup, ship-from and carriers",
+      "subtitle": "Collect in store, parcels, carrier rates",
+      "clips": [
+        {
+          "id": "06-pickup",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pick-1",
+              "text": "On the Store pickup tab, add a pickup location with a Name, a Fee, an address and What buyers are told. Buyers can then choose to collect their order there."
+            },
+            {
+              "id": "pick-2",
+              "text": "On the Sending parcels tab, the Sender's name and the address under it say where parcels leave from. The default box size and the Box weight pack parcels when you buy labels."
+            },
+            {
+              "id": "pick-3",
+              "text": "On the EasyPost tab, Enable EasyPost provider and an API key let you offer the carriers' own rates and buy labels. On the Providers tab, the Default carrier provider chooses which account to use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Try your rates",
+      "subtitle": "Check a zone before a customer does",
+      "clips": [
+        {
+          "id": "07-try",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "try-1",
+              "text": "Shipping, Try rates shows what a buyer would see. Choose a Country, a Region code and a Currency, then enter the order's Subtotal, Weight and Items."
+            },
+            {
+              "id": "try-2",
+              "text": "Click Show rates. Each method that applies is listed with what it would charge, so you can check your zones before a customer does."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Ship an order",
+      "subtitle": "Record a shipment",
+      "clips": [
+        {
+          "id": "08-ship",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ship-1",
+              "text": "Open a paid order. Under New shipment, each Item shows how many are Left to ship, and how many go In this shipment."
+            },
+            {
+              "id": "ship-2",
+              "text": "Enter the Carrier, the Tracking number and, if you have one, a Tracking link. Note for the store is optional."
+            },
+            {
+              "id": "ship-3",
+              "text": "It has left: mark it shipped now is ticked when the parcel is on its way. Click Create shipment. The order lists the shipment, and the buyer is told."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Four ways to use shipping",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Domestic and abroad: one zone for your country with a flat rate, and one for the rest of the world with a higher rate."
+            },
+            {
+              "id": "use-2",
+              "text": "Free shipping to win bigger orders: a free method that starts from a subtotal."
+            },
+            {
+              "id": "use-3",
+              "text": "Heavy goods: a table rate that looks the price up by weight."
+            },
+            {
+              "id": "use-4",
+              "text": "Click and collect: a pickup location with no fee, and local delivery for nearby postal codes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set up zones and methods once, check them with Try rates, and record every shipment against its order. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

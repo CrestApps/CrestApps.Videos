@@ -1,0 +1,340 @@
+1
+00:00:01,000 --> 00:00:04,088
+Shipping is where many online sales are lost.
+
+2
+00:00:04,088 --> 00:00:09,294
+This video shows why the Shipping module exists, how zones, methods and settings
+
+3
+00:00:09,294 --> 00:00:14,440
+fit together, and how to use every screen, from a zone to recording a shipment.
+
+4
+00:00:19,040 --> 00:00:22,377
+Shipping is where many online sales are lost.
+
+5
+00:00:22,377 --> 00:00:26,760
+A surprise price, no option that fits the order, or no way to
+
+6
+00:00:26,760 --> 00:00:29,770
+collect it nearby, and the buyer leaves.
+
+7
+00:00:30,520 --> 00:00:35,368
+Doing it by hand means quoting every order, writing tracking numbers into emails,
+
+8
+00:00:35,368 --> 00:00:37,430
+and hoping the parcel went out.
+
+9
+00:00:38,180 --> 00:00:42,419
+The Shipping module offers each buyer the methods that fit their address and
+
+10
+00:00:42,419 --> 00:00:45,210
+their order, with the price worked out for them.
+
+11
+00:00:45,960 --> 00:00:50,385
+Afterwards you pack the order, record the shipment with its tracking number, and
+
+12
+00:00:50,385 --> 00:00:51,620
+the buyer is told.
+
+13
+00:00:55,820 --> 00:00:57,941
+A zone is a place you ship to.
+
+14
+00:00:57,941 --> 00:01:01,240
+Each zone has the methods buyers there can choose.
+
+15
+00:01:01,990 --> 00:01:05,157
+A method is a way to ship and what it costs:
+
+16
+00:01:05,157 --> 00:01:10,730
+a flat rate, a table rate, free shipping, local delivery, or a carrier's own rate.
+
+17
+00:01:11,480 --> 00:01:17,156
+Settings, Commerce, Shipping holds the weight unit, the pickup locations, where you ship
+
+18
+00:01:17,156 --> 00:01:19,330
+from, and the carrier account.
+
+19
+00:01:20,080 --> 00:01:25,260
+Shipping, Try rates checks your setup, and each order page records the shipments.
+
+20
+00:01:29,463 --> 00:01:30,741
+Open Shipping.
+
+21
+00:01:30,741 --> 00:01:33,041
+A zone is a place you ship to.
+
+22
+00:01:33,041 --> 00:01:35,086
+The list shows your zones.
+
+23
+00:01:35,086 --> 00:01:37,003
+Click Add Shipping Zone.
+
+24
+00:01:37,455 --> 00:01:41,141
+Enter a Name, and choose the Countries the zone covers.
+
+25
+00:01:41,141 --> 00:01:45,674
+Rest of the world covers every country that no other zone covers, and
+
+26
+00:01:45,674 --> 00:01:48,635
+Position decides which zone is tried first.
+
+27
+00:01:49,087 --> 00:01:50,139
+Click Save.
+
+28
+00:01:50,139 --> 00:01:53,046
+The zone opens with its Shipping methods.
+
+29
+00:01:53,046 --> 00:01:59,047
+Zones are tried from the smallest position, and the first zone that covers an address wins.
+
+30
+00:02:03,230 --> 00:02:06,140
+Under Shipping methods, click Add method.
+
+31
+00:02:06,140 --> 00:02:09,050
+A flat rate charges one amount per order.
+
+32
+00:02:09,050 --> 00:02:13,385
+A table rate looks the amount up from weight, subtotal or items.
+
+33
+00:02:13,385 --> 00:02:19,205
+Free shipping charges nothing, and local delivery and carrier rates are the other kinds.
+
+34
+00:02:19,205 --> 00:02:20,630
+Choose Flat rate.
+
+35
+00:02:21,080 --> 00:02:22,936
+Name it Standard shipping.
+
+36
+00:02:22,936 --> 00:02:27,171
+Amount per order is charged once for the order, and Amount per item
+
+37
+00:02:27,171 --> 00:02:28,853
+is added for each item.
+
+38
+00:02:28,853 --> 00:02:31,754
+On turns the method off without deleting it.
+
+39
+00:02:31,754 --> 00:02:32,740
+Click Save.
+
+40
+00:02:33,191 --> 00:02:35,243
+Add a Free shipping method too.
+
+41
+00:02:35,243 --> 00:02:39,681
+Free from a subtotal of sets how much a buyer spends before it is offered.
+
+42
+00:02:39,681 --> 00:02:43,731
+Buyers see the methods that are on, in the order of their Position.
+
+43
+00:02:47,916 --> 00:02:50,847
+Weight-based rates need weights.
+
+44
+00:02:50,847 --> 00:02:55,936
+On a product, Weight (kg) is the weight of one unit, packed.
+
+45
+00:02:56,389 --> 00:02:59,161
+Settings, Commerce, Shipping has tabs.
+
+46
+00:02:59,161 --> 00:03:04,326
+On General, the Weight unit is kilograms or pounds, and the Shipping classes
+
+47
+00:03:04,326 --> 00:03:07,979
+are the classes you can give products, one per line.
+
+48
+00:03:08,431 --> 00:03:12,856
+Also on General, Tracking links turns a carrier and a tracking number into
+
+49
+00:03:12,856 --> 00:03:17,501
+a link, and Email the buyer when a shipment leaves sends the tracking details.
+
+50
+00:03:21,747 --> 00:03:25,974
+On the Store pickup tab, add a pickup location with a Name, a
+
+51
+00:03:25,974 --> 00:03:28,939
+Fee, an address and What buyers are told.
+
+52
+00:03:28,939 --> 00:03:32,597
+Buyers can then choose to collect their order there.
+
+53
+00:03:33,063 --> 00:03:37,631
+On the Sending parcels tab, the Sender's name and the address under it
+
+54
+00:03:37,631 --> 00:03:39,734
+say where parcels leave from.
+
+55
+00:03:39,734 --> 00:03:44,483
+The default box size and the Box weight pack parcels when you buy labels.
+
+56
+00:03:44,958 --> 00:03:49,521
+On the EasyPost tab, Enable EasyPost provider and an API key let you
+
+57
+00:03:49,521 --> 00:03:52,665
+offer the carriers' own rates and buy labels.
+
+58
+00:03:52,665 --> 00:03:57,968
+On the Providers tab, the Default carrier provider chooses which account to use.
+
+59
+00:04:02,171 --> 00:04:05,769
+Shipping, Try rates shows what a buyer would see.
+
+60
+00:04:05,769 --> 00:04:10,742
+Choose a Country, a Region code and a Currency, then enter the order's
+
+61
+00:04:10,742 --> 00:04:12,901
+Subtotal, Weight and Items.
+
+62
+00:04:13,351 --> 00:04:14,598
+Click Show rates.
+
+63
+00:04:14,598 --> 00:04:18,611
+Each method that applies is listed with what it would charge, so you
+
+64
+00:04:18,611 --> 00:04:21,321
+can check your zones before a customer does.
+
+65
+00:04:25,498 --> 00:04:26,971
+Open a paid order.
+
+66
+00:04:26,971 --> 00:04:31,390
+Under New shipment, each Item shows how many are Left to ship, and
+
+67
+00:04:31,390 --> 00:04:33,538
+how many go In this shipment.
+
+68
+00:04:34,009 --> 00:04:38,941
+Enter the Carrier, the Tracking number and, if you have one, a Tracking link.
+
+69
+00:04:38,941 --> 00:04:41,139
+Note for the store is optional.
+
+70
+00:04:41,590 --> 00:04:42,644
+It has left:
+
+71
+00:04:42,644 --> 00:04:46,511
+mark it shipped now is ticked when the parcel is on its way.
+
+72
+00:04:46,511 --> 00:04:48,152
+Click Create shipment.
+
+73
+00:04:48,152 --> 00:04:51,550
+The order lists the shipment, and the buyer is told.
+
+74
+00:04:55,750 --> 00:04:57,259
+Domestic and abroad:
+
+75
+00:04:57,259 --> 00:05:01,033
+one zone for your country with a flat rate, and one for the
+
+76
+00:05:01,033 --> 00:05:03,530
+rest of the world with a higher rate.
+
+77
+00:05:04,280 --> 00:05:06,758
+Free shipping to win bigger orders:
+
+78
+00:05:06,758 --> 00:05:09,660
+a free method that starts from a subtotal.
+
+79
+00:05:10,410 --> 00:05:11,530
+Heavy goods:
+
+80
+00:05:11,530 --> 00:05:14,830
+a table rate that looks the price up by weight.
+
+81
+00:05:15,580 --> 00:05:17,142
+Click and collect:
+
+82
+00:05:17,142 --> 00:05:22,350
+a pickup location with no fee, and local delivery for nearby postal codes.
+
+83
+00:05:24,350 --> 00:05:28,657
+Set up zones and methods once, check them with Try rates, and record
+
+84
+00:05:28,657 --> 00:05:30,927
+every shipment against its order.
+
+85
+00:05:30,927 --> 00:05:32,440
+Thanks for watching.
+
