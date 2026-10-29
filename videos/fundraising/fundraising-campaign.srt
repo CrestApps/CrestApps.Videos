@@ -1,0 +1,40 @@
+1
+00:00:03,190 --> 00:00:08,560
+A campaign is a product whose content type has the Fundraising campaign part.
+
+2
+00:00:08,560 --> 00:00:14,060
+Open the list of campaigns under Content, Content Items, and edit the campaign.
+
+3
+00:00:14,510 --> 00:00:19,104
+Goal is what the campaign raises toward, in the product's currency.
+
+4
+00:00:19,104 --> 00:00:21,180
+Leave it empty for no goal.
+
+5
+00:00:21,634 --> 00:00:29,029
+Suggested amounts are offered as buttons, separated by commas, such as twenty five, fifty, one hundred.
+
+6
+00:00:29,029 --> 00:00:34,524
+Donors can also enter their own, and Least donation sets the smallest gift.
+
+7
+00:00:34,976 --> 00:00:38,831
+Ends says when the campaign stops taking donations.
+
+8
+00:00:38,831 --> 00:00:40,996
+Leave it empty for no end.
+
+9
+00:00:41,448 --> 00:00:45,718
+Tick Donations get a tax receipt when gifts are tax deductible.
+
+10
+00:00:45,718 --> 00:00:50,668
+The product's price is hidden on the page, since donors choose the amount.
+
