@@ -1,0 +1,40 @@
+1
+00:00:03,242 --> 00:00:05,757
+Let's write a review as a customer.
+
+2
+00:00:05,757 --> 00:00:08,762
+Choose Your rating, from one to five stars.
+
+3
+00:00:09,422 --> 00:00:13,213
+Add a Title, and write Your review in a few words about what
+
+4
+00:00:13,213 --> 00:00:15,108
+they liked or did not like.
+
+5
+00:00:15,108 --> 00:00:18,612
+Both are optional, but they help other shoppers decide.
+
+6
+00:00:19,081 --> 00:00:21,343
+Check the Name shown with your review.
+
+7
+00:00:21,343 --> 00:00:24,581
+It is filled in for the customer, and they can change it.
+
+8
+00:00:25,069 --> 00:00:26,379
+Click Send review.
+
+9
+00:00:26,379 --> 00:00:30,363
+The customer is told that the review will show once you approve it.
+
+10
+00:00:30,363 --> 00:00:34,619
+They can change it later, and a changed review waits for approval again.
+

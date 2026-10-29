@@ -1,0 +1,48 @@
+1
+00:00:03,300 --> 00:00:05,696
+Open Settings, Commerce, Reviews.
+
+2
+00:00:05,696 --> 00:00:09,137
+Approve reviews before they show is on by default.
+
+3
+00:00:09,137 --> 00:00:12,640
+Untick it to show reviews as soon as they are sent.
+
+4
+00:00:13,196 --> 00:00:17,563
+Only buyers can review is on by default, so only customers who paid
+
+5
+00:00:17,563 --> 00:00:19,597
+for a product can review it.
+
+6
+00:00:19,597 --> 00:00:24,323
+Untick it to let any signed-in customer review, and their reviews are not
+
+7
+00:00:24,323 --> 00:00:26,416
+marked as verified purchases.
+
+8
+00:00:27,029 --> 00:00:31,787
+Tick Ask buyers for reviews, and choose the Days after paying, such as fourteen.
+
+9
+00:00:31,787 --> 00:00:35,716
+Each buyer then gets one email with a link to review each product
+
+10
+00:00:35,716 --> 00:00:38,649
+they bought, once it has arrived and been used.
+
+11
+00:00:39,211 --> 00:00:44,434
+Only buyers who agreed to news and offers are asked, and only for recent orders.
+
+12
+00:00:44,434 --> 00:00:49,171
+This needs your site's email and its base URL, and the Customers module.
+

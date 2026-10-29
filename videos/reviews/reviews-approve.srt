@@ -1,0 +1,40 @@
+1
+00:00:03,244 --> 00:00:04,975
+Open Commerce, Reviews.
+
+2
+00:00:04,975 --> 00:00:09,990
+It lists the reviews waiting for approval, newest first, with the product, the
+
+3
+00:00:09,990 --> 00:00:15,004
+author, the rating, the title and text, and whether it is a verified purchase.
+
+4
+00:00:15,505 --> 00:00:19,301
+Click Approve to show a review on its product page, and to count
+
+5
+00:00:19,301 --> 00:00:21,525
+it in the product's average rating.
+
+6
+00:00:22,052 --> 00:00:27,042
+Click Reject to keep a review off the product, such as this one, which is spam.
+
+7
+00:00:27,516 --> 00:00:30,897
+The list beside the count filters by status:
+
+8
+00:00:30,897 --> 00:00:35,021
+Waiting for approval, Approved, Rejected or Any status.
+
+9
+00:00:35,021 --> 00:00:38,266
+You can change your mind about any review.
+
+10
+00:00:38,724 --> 00:00:41,054
+Delete removes a review for good.
+

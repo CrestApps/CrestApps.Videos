@@ -1,0 +1,93 @@
+{
+  "title": "Product Reviews: Let Buyers Rate What They Bought | CrestApps for Orchard Core",
+  "description": "Shoppers trust other shoppers. The CrestApps Product Reviews module lets customers rate the products they bought from one to five stars and say what they think, lets you approve every review before it shows, and puts the average rating on the product page and in your listings, where shoppers can sort and filter by it.\n\nIn this video:\n• Why product reviews, and how writing, approving and showing fit together\n• What shoppers see on a product page\n• How a customer writes a review\n• Approving, rejecting and deleting reviews\n• The settings: approval, only buyers can review, and asking buyers for reviews by email\n• Sorting and filtering listings by customer rating\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "product reviews",
+    "customer ratings",
+    "verified purchase",
+    "review moderation",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why product reviews"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:26",
+      "title": "What shoppers see"
+    },
+    {
+      "time": "2:02",
+      "title": "Write a review"
+    },
+    {
+      "time": "2:38",
+      "title": "Approve reviews"
+    },
+    {
+      "time": "3:20",
+      "title": "Settings"
+    },
+    {
+      "time": "4:10",
+      "title": "Ratings in listings"
+    },
+    {
+      "time": "4:45",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:21",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/reviews"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/reviews"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reviews"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/reviews.md",
+    "src/CrestApps.Docs/docs/modules/reviews.md"
+  ],
+  "length": "5:29"
+}

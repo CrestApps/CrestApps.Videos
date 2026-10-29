@@ -1,0 +1,274 @@
+{
+  "title": "Product Reviews",
+  "output": "reviews",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Product Reviews",
+      "subtitle": "Let buyers rate what they bought, and approve what shows",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Shoppers trust other shoppers. This video shows how product reviews work: what buyers see and write, how you approve each review, the settings that control them, and how ratings help shoppers find the best products."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why product reviews",
+      "subtitle": "Proof from other buyers",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Before they buy, shoppers look for proof that a product is good, and the best proof is what other buyers say."
+            },
+            {
+              "id": "why-2",
+              "text": "A review you do not control can be a risk: spam, abuse, or a complaint about something you do not sell."
+            },
+            {
+              "id": "why-3",
+              "text": "So every review is a rating from one to five stars, written by a customer, and approved by you before it shows."
+            },
+            {
+              "id": "why-4",
+              "text": "The ratings then follow the product: stars on its page, and an average rating that shoppers can sort and filter your listings by."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Write, approve, show",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A signed-in customer writes a review at the bottom of a product's page: stars, a title, a few words, and up to three photos."
+            },
+            {
+              "id": "how-2",
+              "text": "When the customer bought the product, the review is marked Verified purchase."
+            },
+            {
+              "id": "how-3",
+              "text": "A new or changed review waits under Commerce, Reviews until you approve it or reject it."
+            },
+            {
+              "id": "how-4",
+              "text": "Approved reviews show on the product page and count toward its average, which your listings can filter and sort by."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "What shoppers see",
+      "subtitle": "Stars, reviews and the form",
+      "clips": [
+        {
+          "id": "03-product",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prod-1",
+              "text": "Under a product's price, its stars, its average rating and its number of reviews link down to the reviews."
+            },
+            {
+              "id": "prod-2",
+              "text": "At the bottom of the page, Customer reviews shows the average and the approved reviews, newest first, each with its stars, title, author and date."
+            },
+            {
+              "id": "prod-3",
+              "text": "A signed-in customer sees Write a review under the reviews. A visitor who is not signed in is asked to sign in, and when your settings allow only buyers to review, a customer who has not bought the product is told so."
+            }
+          ]
+        }
+      ],
+      "short": "product"
+    },
+    {
+      "id": "04",
+      "title": "Write a review",
+      "subtitle": "What a customer sends",
+      "clips": [
+        {
+          "id": "04-write",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "write-1",
+              "text": "Let's write a review as a customer. Choose Your rating, from one to five stars."
+            },
+            {
+              "id": "write-2",
+              "text": "Add a Title, and write Your review in a few words about what they liked or did not like. Both are optional, but they help other shoppers decide."
+            },
+            {
+              "id": "write-3",
+              "text": "Check the Name shown with your review. It is filled in for the customer, and they can change it."
+            },
+            {
+              "id": "write-4",
+              "text": "Click Send review. The customer is told that the review will show once you approve it. They can change it later, and a changed review waits for approval again."
+            }
+          ]
+        }
+      ],
+      "short": "write"
+    },
+    {
+      "id": "05",
+      "title": "Approve reviews",
+      "subtitle": "Approve, reject or delete",
+      "clips": [
+        {
+          "id": "05-approve",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "appr-1",
+              "text": "Open Commerce, Reviews. It lists the reviews waiting for approval, newest first, with the product, the author, the rating, the title and text, and whether it is a verified purchase."
+            },
+            {
+              "id": "appr-2",
+              "text": "Click Approve to show a review on its product page, and to count it in the product's average rating."
+            },
+            {
+              "id": "appr-3",
+              "text": "Click Reject to keep a review off the product, such as this one, which is spam."
+            },
+            {
+              "id": "appr-4",
+              "text": "The list beside the count filters by status: Waiting for approval, Approved, Rejected or Any status. You can change your mind about any review."
+            },
+            {
+              "id": "appr-5",
+              "text": "Delete removes a review for good."
+            }
+          ]
+        }
+      ],
+      "short": "approve"
+    },
+    {
+      "id": "06",
+      "title": "Settings",
+      "subtitle": "Moderation and review requests",
+      "clips": [
+        {
+          "id": "06-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Reviews. Approve reviews before they show is on by default. Untick it to show reviews as soon as they are sent."
+            },
+            {
+              "id": "set-2",
+              "text": "Only buyers can review is on by default, so only customers who paid for a product can review it. Untick it to let any signed-in customer review, and their reviews are not marked as verified purchases."
+            },
+            {
+              "id": "set-3",
+              "text": "Tick Ask buyers for reviews, and choose the Days after paying, such as fourteen. Each buyer then gets one email with a link to review each product they bought, once it has arrived and been used."
+            },
+            {
+              "id": "set-4",
+              "text": "Only buyers who agreed to news and offers are asked, and only for recent orders. This needs your site's email and its base URL, and the Customers module."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "07",
+      "title": "Ratings in listings",
+      "subtitle": "Sort and filter by customer rating",
+      "clips": [
+        {
+          "id": "07-listing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Once a product has an approved review, shoppers can sort a listing by Customer rating, highest first, and the best rated products come to the top."
+            },
+            {
+              "id": "list-2",
+              "text": "A listing that chooses its filters automatically also offers a Customer rating filter, such as four and up, three and up and two and up."
+            },
+            {
+              "id": "list-3",
+              "text": "To add them to a listing that has its own filters and sorts, edit the listing, open Choose filters, and tick Customer rating. Choose sorts does the same for the sort."
+            }
+          ]
+        }
+      ],
+      "short": "listing"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop with many similar products: shoppers sort by customer rating and start with the best."
+            },
+            {
+              "id": "use-2",
+              "text": "A store that wants honest feedback: leave Only buyers can review on, so every review comes from a real customer."
+            },
+            {
+              "id": "use-3",
+              "text": "A busy store: ask buyers for reviews by email a couple of weeks after they pay, so reviews arrive without anyone chasing them."
+            },
+            {
+              "id": "use-4",
+              "text": "A brand that guards its name: keep approval on, and reject spam and abuse before anyone sees it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Product reviews turn what your buyers think into proof, under your control. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
