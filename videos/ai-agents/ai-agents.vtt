@@ -1,0 +1,143 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.859
+Some jobs are better done by a specialist.
+
+00:00:03.859 --> 00:00:08.029
+An AI agent is a profile with a narrow job, its own instructions
+
+00:00:08.029 --> 00:00:11.424
+and its own tools, that another assistant can call.
+
+00:00:11.424 --> 00:00:15.832
+This video creates an agent, lets an assistant use it, and tours the
+
+00:00:15.832 --> 00:00:18.930
+site tools that agents and assistants can use.
+
+00:00:23.530 --> 00:00:28.053
+A tool does one thing, such as search the documents or get the date.
+
+00:00:28.053 --> 00:00:30.253
+An agent is a whole assistant:
+
+00:00:30.253 --> 00:00:34.470
+it reads the request, thinks, and uses its own tools to answer.
+
+00:00:35.220 --> 00:00:39.723
+An assistant calls an agent when the request fits what the agent says it does.
+
+00:00:39.723 --> 00:00:43.690
+So the description of an agent is the most important thing to write.
+
+00:00:44.440 --> 00:00:48.809
+An agent can also be offered to other systems over the A2A protocol,
+
+00:00:48.809 --> 00:00:50.580
+which has its own video.
+
+00:00:54.785 --> 00:00:59.236
+Open Artificial Intelligence, Profiles, and click Add Profile.
+
+00:00:59.236 --> 00:01:03.885
+Choose where to start, and enter a Title, such as Research agent.
+
+00:01:04.335 --> 00:01:06.314
+Set Profile type to Agent.
+
+00:01:06.314 --> 00:01:08.415
+Now the Description matters.
+
+00:01:08.415 --> 00:01:12.866
+Other assistants read it to decide when to call this agent, so say
+
+00:01:12.866 --> 00:01:14.535
+exactly what it does.
+
+00:01:14.987 --> 00:01:18.387
+Availability is On demand, or Always available.
+
+00:01:18.387 --> 00:01:22.556
+On demand includes the agent only when the request fits it.
+
+00:01:22.556 --> 00:01:27.047
+Always available includes it in every request, which costs more.
+
+00:01:27.047 --> 00:01:28.137
+Click Save.
+
+00:01:32.343 --> 00:01:37.047
+Open the assistant that should call the agent, and open its Capabilities tab.
+
+00:01:37.047 --> 00:01:42.543
+The Agents section lists every agent that you can use, including the ones of other systems.
+
+00:01:42.995 --> 00:01:44.995
+Tick the agent, and save.
+
+00:01:44.995 --> 00:01:48.735
+From now on, the assistant can hand a request to it.
+
+00:01:52.937 --> 00:01:57.553
+With the Orchard Core AI Agent feature on, the Tools section of the
+
+00:01:57.553 --> 00:02:02.864
+same tab lists the actions that an assistant can take on this site, in groups:
+
+00:02:02.864 --> 00:02:08.997
+content definitions, content, features, recipes, roles, users, the time zones and the date.
+
+00:02:09.447 --> 00:02:12.585
+Select All in a group ticks every tool of the group.
+
+00:02:12.585 --> 00:02:16.641
+These tools can change the site, so give them only to assistants that
+
+00:02:16.641 --> 00:02:19.237
+need them, and to people who may use them.
+
+00:02:23.454 --> 00:02:27.342
+To try an agent on its own, open its Actions menu in the
+
+00:02:27.342 --> 00:02:30.414
+list of profiles, and click Invoke Profile.
+
+00:02:31.046 --> 00:02:34.113
+Ask it something that fits its job, such as:
+
+00:02:34.113 --> 00:02:36.996
+give me three facts about shipping boxes.
+
+00:02:37.470 --> 00:02:38.978
+It answers by itself.
+
+00:02:38.978 --> 00:02:42.998
+When an assistant calls the agent, this is the kind of answer that
+
+00:02:42.998 --> 00:02:46.180
+the assistant gets back, and uses in its own reply.
+
+00:02:50.380 --> 00:02:55.440
+Give an agent one narrow job, and say it in the first sentence of the description.
+
+00:02:56.190 --> 00:03:00.087
+Give it only the tools and knowledge that the job needs.
+
+00:03:00.087 --> 00:03:03.920
+A smaller agent is faster, cheaper and easier to trust.
+
+00:03:04.670 --> 00:03:08.751
+Write the description for the assistant that reads it, not for people:
+
+00:03:08.751 --> 00:03:11.490
+say what the agent does, and what it returns.
+
+00:03:13.490 --> 00:03:17.780
+Create an agent with a clear description, tick it on the assistants that
+
+00:03:17.780 --> 00:03:19.980
+need it, and keep its tools small.
+
+00:03:19.980 --> 00:03:21.410
+Thanks for watching.
+

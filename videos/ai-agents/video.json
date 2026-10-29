@@ -1,0 +1,83 @@
+{
+  "title": "AI Agents: Specialists Your AI Assistant Can Call | CrestApps for Orchard Core",
+  "description": "An AI agent is a profile with a narrow job, its own instructions and its own tools, that another assistant can call. This video creates an agent in CrestApps for Orchard Core, lets an assistant use it, and tours the site tools.\n\nIn this video:\n• Agent or tool\n• Creating a profile of type Agent, its description and availability\n• Letting an assistant use the agent on the Capabilities tab\n• The Orchard Core AI Agent tools\n• Writing a good agent",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI agents",
+    "AI profiles",
+    "AI assistant",
+    "multi-agent",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Agent or tool?"
+    },
+    {
+      "time": "0:51",
+      "title": "Create an agent"
+    },
+    {
+      "time": "1:29",
+      "title": "Let an assistant use it"
+    },
+    {
+      "time": "1:49",
+      "title": "Site tools"
+    },
+    {
+      "time": "2:20",
+      "title": "Try it on its own"
+    },
+    {
+      "time": "2:47",
+      "title": "Writing a good agent"
+    },
+    {
+      "time": "3:12",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: tools and agents",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/tools-and-agents"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/agent"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Agent"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/tools-and-agents.md",
+    "src/CrestApps.Docs/docs/ai/agent.md"
+  ],
+  "length": "3:22"
+}

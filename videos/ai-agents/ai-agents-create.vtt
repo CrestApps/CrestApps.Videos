@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.205 --> 00:00:07.656
+Open Artificial Intelligence, Profiles, and click Add Profile.
+
+00:00:07.656 --> 00:00:12.305
+Choose where to start, and enter a Title, such as Research agent.
+
+00:00:12.755 --> 00:00:14.734
+Set Profile type to Agent.
+
+00:00:14.734 --> 00:00:16.835
+Now the Description matters.
+
+00:00:16.835 --> 00:00:21.286
+Other assistants read it to decide when to call this agent, so say
+
+00:00:21.286 --> 00:00:22.955
+exactly what it does.
+
+00:00:23.407 --> 00:00:26.807
+Availability is On demand, or Always available.
+
+00:00:26.807 --> 00:00:30.976
+On demand includes the agent only when the request fits it.
+
+00:00:30.976 --> 00:00:35.467
+Always available includes it in every request, which costs more.
+
+00:00:35.467 --> 00:00:36.557
+Click Save.
+
