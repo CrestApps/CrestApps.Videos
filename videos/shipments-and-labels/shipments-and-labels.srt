@@ -1,0 +1,268 @@
+1
+00:00:01,000 --> 00:00:04,254
+A paid order still has to be packed and sent.
+
+2
+00:00:04,254 --> 00:00:09,232
+This video shows how to create shipments, ship in parts, follow a parcel
+
+3
+00:00:09,232 --> 00:00:13,890
+to delivery or return, set up EasyPost labels, and what buyers see.
+
+4
+00:00:18,490 --> 00:00:21,342
+An order is not finished when it is paid.
+
+5
+00:00:21,342 --> 00:00:25,590
+Someone has to pack it, send it, and tell the buyer where it is.
+
+6
+00:00:26,340 --> 00:00:30,127
+Shipping part of an order, or one parcel at a time, is hard
+
+7
+00:00:30,127 --> 00:00:32,050
+to follow in a spreadsheet.
+
+8
+00:00:32,800 --> 00:00:37,356
+Shipments record what is in each parcel, the carrier and the tracking number,
+
+9
+00:00:37,356 --> 00:00:40,430
+so you always know what has left and what is left.
+
+10
+00:00:41,180 --> 00:00:45,394
+The buyer is emailed when a parcel leaves, and sees it on their order.
+
+11
+00:00:45,394 --> 00:00:48,000
+With EasyPost, you can buy the label too.
+
+12
+00:00:52,200 --> 00:00:58,130
+A paid order with goods has a Shipments section on its page, under Commerce, Orders.
+
+13
+00:00:58,880 --> 00:01:03,787
+A shipment says which items are in a parcel, and the carrier and tracking number.
+
+14
+00:01:03,787 --> 00:01:06,100
+It starts Being packed, or Shipped.
+
+15
+00:01:06,850 --> 00:01:10,848
+Then it is Delivered, or Returned if it comes back, and its items
+
+16
+00:01:10,848 --> 00:01:12,200
+can be sent again.
+
+17
+00:01:12,950 --> 00:01:17,490
+A shipment still being packed can be removed, which puts its items back.
+
+18
+00:01:21,790 --> 00:01:23,811
+Open an order that is paid.
+
+19
+00:01:23,811 --> 00:01:28,038
+Under New shipment, set how many of each item go in the parcel.
+
+20
+00:01:28,038 --> 00:01:30,242
+All that is left is filled in.
+
+21
+00:01:30,242 --> 00:01:32,570
+Lower a number to ship in parts.
+
+22
+00:01:33,028 --> 00:01:35,795
+Enter the Carrier and the Tracking number.
+
+23
+00:01:35,795 --> 00:01:39,945
+The Tracking link is optional, and the Note is for the store only.
+
+24
+00:01:39,945 --> 00:01:44,498
+Leave It has left, mark it shipped now ticked, and click Create shipment.
+
+25
+00:01:50,275 --> 00:01:53,855
+The shipment is listed with what is in it, the carrier and the
+
+26
+00:01:53,855 --> 00:01:57,276
+tracking link, and the order now reads Partially fulfilled.
+
+27
+00:01:57,276 --> 00:01:59,855
+The buyer is emailed that it is on its way.
+
+28
+00:02:04,056 --> 00:02:07,979
+Untick It has left to set the items aside while they are packed.
+
+29
+00:02:07,979 --> 00:02:10,277
+The shipment shows as Being packed.
+
+30
+00:02:10,277 --> 00:02:14,761
+Each shipment has a packing slip button, which prints its items and number
+
+31
+00:02:14,761 --> 00:02:16,106
+to put in the box.
+
+32
+00:02:16,557 --> 00:02:20,199
+Mark shipped sends it later, and the buyer is emailed then.
+
+33
+00:02:20,199 --> 00:02:23,057
+A shipment still being packed can be removed.
+
+34
+00:02:23,507 --> 00:02:26,822
+When the carrier says it arrived, click Delivered.
+
+35
+00:02:26,822 --> 00:02:29,130
+If it comes back, click Returned:
+
+36
+00:02:29,130 --> 00:02:32,917
+its items count as not shipped, so they can be sent again.
+
+37
+00:02:37,102 --> 00:02:42,014
+With the EasyPost feature, the shipping settings have an EasyPost tab for your
+
+38
+00:02:42,014 --> 00:02:46,458
+account's key, and a Sending parcels tab for the address you ship from
+
+39
+00:02:46,458 --> 00:02:48,036
+and your default box.
+
+40
+00:02:48,036 --> 00:02:50,492
+This demo does not contact EasyPost.
+
+41
+00:02:52,092 --> 00:02:56,999
+Offer the carriers' rates at checkout by adding a Carrier rates method to a zone.
+
+42
+00:02:56,999 --> 00:02:59,312
+The buyer sees each carrier's rate.
+
+43
+00:03:00,062 --> 00:03:03,391
+Create the shipment being packed, and click Buy label.
+
+44
+00:03:03,391 --> 00:03:08,217
+Your EasyPost account is charged, the shipment is marked shipped with the carrier
+
+45
+00:03:08,217 --> 00:03:11,102
+and tracking number, and the buyer is emailed.
+
+46
+00:03:11,852 --> 00:03:16,736
+Once registered, the carrier's latest word, such as In transit, shows on the
+
+47
+00:03:16,736 --> 00:03:21,382
+shipment, and a parcel the carrier delivers is marked Delivered for you.
+
+48
+00:03:25,572 --> 00:03:28,353
+Customers see their shipments under My Orders.
+
+49
+00:03:28,353 --> 00:03:32,097
+A guest uses the order link, or Track your order, with the order
+
+50
+00:03:32,097 --> 00:03:34,932
+number and the email the order was placed with.
+
+51
+00:03:35,737 --> 00:03:38,966
+Both must match, so a number alone shows nothing.
+
+52
+00:03:38,966 --> 00:03:43,367
+The order lists each shipment with the carrier and the tracking link.
+
+53
+00:03:47,567 --> 00:03:53,874
+With Workflows on, the Shipment Created, Shipped, Delivered and Returned events start workflows,
+
+54
+00:03:53,874 --> 00:03:57,027
+for example to tell a warehouse or a carrier.
+
+55
+00:03:57,777 --> 00:04:02,117
+The shipped email is on by default, and needs an email service.
+
+56
+00:04:02,867 --> 00:04:07,477
+Each shipment has its own packing slip, which lists only its items.
+
+57
+00:04:08,227 --> 00:04:14,587
+The Shipping times report shows how long orders waited and how long deliveries took, by carrier.
+
+58
+00:04:18,787 --> 00:04:20,160
+An order in parts:
+
+59
+00:04:20,160 --> 00:04:23,707
+ship what is in stock now, and the rest when it arrives.
+
+60
+00:04:24,457 --> 00:04:25,914
+A packing station:
+
+61
+00:04:25,914 --> 00:04:30,527
+create shipments being packed, print the slips, and mark them shipped.
+
+62
+00:04:31,277 --> 00:04:33,842
+Labels without leaving the order:
+
+63
+00:04:33,842 --> 00:04:36,077
+buy and print with EasyPost.
+
+64
+00:04:36,827 --> 00:04:38,492
+A return in the post:
+
+65
+00:04:38,492 --> 00:04:41,697
+mark the shipment returned, and send it again.
+
+66
+00:04:43,697 --> 00:04:48,853
+Record every parcel, follow it to the door, and let buyers track their order.
+
+67
+00:04:48,853 --> 00:04:50,467
+Thanks for watching.
+
