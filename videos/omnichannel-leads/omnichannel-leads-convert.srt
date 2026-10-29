@@ -1,0 +1,48 @@
+1
+00:00:03,216 --> 00:00:06,459
+When a lead qualifies, click Convert on its row.
+
+2
+00:00:06,459 --> 00:00:10,963
+The page says that a contact already has this lead's email, and Merge
+
+3
+00:00:10,963 --> 00:00:13,726
+into is picked, so no duplicate is made.
+
+4
+00:00:14,200 --> 00:00:19,225
+The contact keeps its own values and only gains what the lead has that it lacks.
+
+5
+00:00:19,225 --> 00:00:24,660
+The account starts from the lead's company, and Create an opportunity records the deal.
+
+6
+00:00:25,114 --> 00:00:31,237
+Under Activities, choose to move the open activities to the contact, or to cancel them.
+
+7
+00:00:31,237 --> 00:00:32,554
+Click Convert.
+
+8
+00:00:35,242 --> 00:00:39,598
+For a lead nobody knows yet, choose Create a new contact and its
+
+9
+00:00:39,598 --> 00:00:43,518
+type, create the account, and tick Create an opportunity.
+
+10
+00:00:43,518 --> 00:00:48,372
+Pick the opportunity type, and enter a name, an amount and a close date.
+
+11
+00:00:49,587 --> 00:00:53,607
+The lead takes the Converted status and becomes read-only.
+
+12
+00:00:53,607 --> 00:00:57,627
+It leaves the Leads list, and the contact has its history.
+

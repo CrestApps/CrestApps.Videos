@@ -1,0 +1,276 @@
+1
+00:00:01,000 --> 00:00:04,178
+A lead is a prospect you have not qualified yet.
+
+2
+00:00:04,178 --> 00:00:08,063
+This video shows how to find and add leads, import a list of
+
+3
+00:00:08,063 --> 00:00:14,420
+them, call and text them, and convert the ones that qualify into contacts, accounts and opportunities.
+
+4
+00:00:19,020 --> 00:00:23,721
+A purchased list or a trade-show scan is full of people who may never buy.
+
+5
+00:00:23,721 --> 00:00:28,070
+If they were contacts, your customer list would fill with strangers.
+
+6
+00:00:28,820 --> 00:00:32,018
+Leads are kept apart, but you work them the same way:
+
+7
+00:00:32,018 --> 00:00:36,028
+you can call them, text them, load them as activities and retry them
+
+8
+00:00:36,028 --> 00:00:37,600
+through a subject flow.
+
+9
+00:00:38,350 --> 00:00:41,234
+When a lead qualifies, you convert it.
+
+10
+00:00:41,234 --> 00:00:45,430
+The lead becomes a contact, and its history moves with it.
+
+11
+00:00:49,616 --> 00:00:52,402
+Open Interaction Center, Leads.
+
+12
+00:00:52,402 --> 00:00:59,556
+The list shows the open leads, with each lead's status, rating, company, source and list.
+
+13
+00:01:00,043 --> 00:01:01,771
+Search with terms.
+
+14
+00:01:01,771 --> 00:01:07,029
+Lead status finds a status by name, Source finds a lead source, and
+
+15
+00:01:07,029 --> 00:01:10,126
+Rating finds hot, warm or cold leads.
+
+16
+00:01:10,126 --> 00:01:13,943
+Here, Rating hot shows the leads to call first.
+
+17
+00:01:14,436 --> 00:01:18,215
+Other terms are List for the list a lead came in, Owner for
+
+18
+00:01:18,215 --> 00:01:20,658
+the user responsible, and Converted.
+
+19
+00:01:20,658 --> 00:01:24,496
+The phone search terms from the contacts list work here too.
+
+20
+00:01:28,721 --> 00:01:30,152
+Click New Lead.
+
+21
+00:01:30,152 --> 00:01:35,125
+Besides the name and the contact methods, a lead has a Lead status,
+
+22
+00:01:35,125 --> 00:01:39,621
+a Company, a Lead source, a List, a Rating and a Lead owner.
+
+23
+00:01:43,864 --> 00:01:46,199
+New leads get the default status.
+
+24
+00:01:46,199 --> 00:01:51,467
+Pick the source from your lead sources, give the list a name, and choose a rating.
+
+25
+00:01:51,467 --> 00:01:52,604
+Then publish.
+
+26
+00:01:56,904 --> 00:02:00,859
+To load a list, open Content, Import and choose Lead.
+
+27
+00:02:00,859 --> 00:02:05,685
+The Columns Requirements table shows the columns a file can carry:
+
+28
+00:02:05,685 --> 00:02:12,454
+the lead status, source, list, company, rating and owner, next to the name and contact methods.
+
+29
+00:02:12,934 --> 00:02:17,348
+Skip numbers that already belong to a contact leaves out rows whose number
+
+30
+00:02:17,348 --> 00:02:20,825
+a contact has, so a customer is not called as a stranger.
+
+31
+00:02:20,825 --> 00:02:24,797
+Skip numbers that already belong to an open lead does the same for
+
+32
+00:02:24,797 --> 00:02:26,674
+leads you are still working.
+
+33
+00:02:26,674 --> 00:02:28,274
+Both are on by default.
+
+34
+00:02:28,795 --> 00:02:33,524
+List name, Lead source, Lead status and Lead owner are given to every
+
+35
+00:02:33,524 --> 00:02:36,425
+new lead whose row does not set its own.
+
+36
+00:02:40,725 --> 00:02:44,167
+Everything you do with a contact works on a lead.
+
+37
+00:02:44,167 --> 00:02:48,235
+Open a lead, and use List Activities to see its activities.
+
+38
+00:02:48,729 --> 00:02:55,277
+Add Activity, Outbound, schedules a call or a text, and Inbound logs one the lead started.
+
+39
+00:02:55,277 --> 00:03:01,689
+Leads can also be loaded as activities, and retried by a subject flow, like any contact.
+
+40
+00:03:05,905 --> 00:03:09,148
+When a lead qualifies, click Convert on its row.
+
+41
+00:03:09,148 --> 00:03:13,652
+The page says that a contact already has this lead's email, and Merge
+
+42
+00:03:13,652 --> 00:03:16,415
+into is picked, so no duplicate is made.
+
+43
+00:03:16,889 --> 00:03:21,914
+The contact keeps its own values and only gains what the lead has that it lacks.
+
+44
+00:03:21,914 --> 00:03:27,349
+The account starts from the lead's company, and Create an opportunity records the deal.
+
+45
+00:03:27,803 --> 00:03:33,927
+Under Activities, choose to move the open activities to the contact, or to cancel them.
+
+46
+00:03:33,927 --> 00:03:35,243
+Click Convert.
+
+47
+00:03:37,931 --> 00:03:42,287
+For a lead nobody knows yet, choose Create a new contact and its
+
+48
+00:03:42,287 --> 00:03:46,207
+type, create the account, and tick Create an opportunity.
+
+49
+00:03:46,207 --> 00:03:51,061
+Pick the opportunity type, and enter a name, an amount and a close date.
+
+50
+00:03:52,276 --> 00:03:56,296
+The lead takes the Converted status and becomes read-only.
+
+51
+00:03:56,296 --> 00:04:00,316
+It leaves the Leads list, and the contact has its history.
+
+52
+00:04:04,516 --> 00:04:08,549
+A subject flow can convert a lead when an activity ends with a
+
+53
+00:04:08,549 --> 00:04:11,396
+chosen disposition, for example Qualified.
+
+54
+00:04:11,396 --> 00:04:16,378
+Its Convert Lead action runs before the other actions, so a follow-up activity
+
+55
+00:04:16,378 --> 00:04:18,216
+lands on the new contact.
+
+56
+00:04:18,966 --> 00:04:23,562
+On an Automatic activity load of a lead type, the AI lead conversion
+
+57
+00:04:23,562 --> 00:04:28,903
+card lets the AI convert a lead that qualified during an automated call or text.
+
+58
+00:04:28,903 --> 00:04:33,436
+It never converts a lead who declined or asked not to be contacted.
+
+59
+00:04:34,186 --> 00:04:39,286
+With Workflows on, a Lead Converted event starts a workflow when any conversion
+
+60
+00:04:39,286 --> 00:04:43,546
+happens, and a Convert Lead task converts a lead from a workflow.
+
+61
+00:04:44,296 --> 00:04:46,907
+Three CRM reports follow the leads:
+
+62
+00:04:46,907 --> 00:04:52,766
+the Lead funnel, the Lead conversion by source and list, and the Opportunity pipeline.
+
+63
+00:04:56,966 --> 00:05:01,116
+Work a purchased list without polluting the contact list.
+
+64
+00:05:01,866 --> 00:05:06,786
+Follow trade-show leads through statuses, and call the hot ones first.
+
+65
+00:05:07,536 --> 00:05:13,676
+Convert a qualified lead into a contact, an account and a deal in one step.
+
+66
+00:05:14,426 --> 00:05:20,016
+Let the AI qualify leads by text or call, and convert the ones that qualify.
+
+67
+00:05:22,016 --> 00:05:26,915
+Keep prospects as leads, work them like contacts, and convert the ones that
+
+68
+00:05:26,915 --> 00:05:30,664
+qualify, so your contact list holds only real customers.
+
+69
+00:05:30,664 --> 00:05:32,236
+Thanks for watching.
+

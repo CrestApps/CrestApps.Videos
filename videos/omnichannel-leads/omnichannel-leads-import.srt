@@ -1,0 +1,40 @@
+1
+00:00:03,300 --> 00:00:07,255
+To load a list, open Content, Import and choose Lead.
+
+2
+00:00:07,255 --> 00:00:12,080
+The Columns Requirements table shows the columns a file can carry:
+
+3
+00:00:12,080 --> 00:00:18,850
+the lead status, source, list, company, rating and owner, next to the name and contact methods.
+
+4
+00:00:19,329 --> 00:00:23,744
+Skip numbers that already belong to a contact leaves out rows whose number
+
+5
+00:00:23,744 --> 00:00:27,220
+a contact has, so a customer is not called as a stranger.
+
+6
+00:00:27,220 --> 00:00:31,193
+Skip numbers that already belong to an open lead does the same for
+
+7
+00:00:31,193 --> 00:00:33,069
+leads you are still working.
+
+8
+00:00:33,069 --> 00:00:34,669
+Both are on by default.
+
+9
+00:00:35,191 --> 00:00:39,920
+List name, Lead source, Lead status and Lead owner are given to every
+
+10
+00:00:39,920 --> 00:00:42,821
+new lead whose row does not set its own.
+

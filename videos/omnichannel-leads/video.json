@@ -1,0 +1,94 @@
+{
+  "title": "Omnichannel Leads: Work Prospects and Convert the Ones That Qualify | CrestApps for Orchard Core",
+  "description": "A purchased list or a trade-show scan is full of prospects who may never buy. The Omnichannel CRM keeps them as leads, apart from your contacts, lets you call and text them like contacts, and converts the ones that qualify into a contact, an account and an opportunity.\n\nIn this video:\n• Why leads are kept apart from contacts\n• The leads list and its search terms\n• Adding a lead and its fields\n• Importing a list of leads, and the duplicate options\n• Calling and texting leads\n• Converting a lead: merge or create a contact, an account and an opportunity\n• Converting automatically: subject flows, the AI and workflows, and the CRM reports",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "leads",
+    "lead conversion",
+    "lead import",
+    "CRM leads",
+    "omnichannel leads",
+    "sales opportunities",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why leads"
+    },
+    {
+      "time": "0:46",
+      "title": "The leads list"
+    },
+    {
+      "time": "1:25",
+      "title": "Add a lead"
+    },
+    {
+      "time": "1:53",
+      "title": "Import leads"
+    },
+    {
+      "time": "2:37",
+      "title": "Call and text a lead"
+    },
+    {
+      "time": "3:02",
+      "title": "Convert a lead"
+    },
+    {
+      "time": "4:01",
+      "title": "Convert automatically"
+    },
+    {
+      "time": "4:53",
+      "title": "What to use it for"
+    },
+    {
+      "time": "5:21",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/leads-accounts-opportunities"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/crm"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Crm"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/leads-accounts-opportunities.md",
+    "src/CrestApps.Docs/docs/omnichannel/crm.md"
+  ],
+  "length": "5:33"
+}
