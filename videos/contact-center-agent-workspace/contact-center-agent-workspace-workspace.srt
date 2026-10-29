@@ -1,0 +1,32 @@
+1
+00:00:03,179 --> 00:00:06,110
+Open Interaction Center, My workspace.
+
+2
+00:00:06,110 --> 00:00:10,974
+At the top are your name, your presence button, and the connection.
+
+3
+00:00:10,974 --> 00:00:13,639
+Connected means live updates work.
+
+4
+00:00:14,096 --> 00:00:17,596
+Signed in to lists the queues you are signed in to, and how
+
+5
+00:00:17,596 --> 00:00:21,636
+many items are waiting in each, so you can see where the pressure is.
+
+6
+00:00:22,089 --> 00:00:25,910
+Active interaction shows the call or message you are working.
+
+7
+00:00:25,910 --> 00:00:30,129
+It says No active interactions right now until you accept something.
+
+8
+00:00:30,582 --> 00:00:36,722
+Recent activity lists the interactions you finished most recently, with the outcome and the talk time.
+
