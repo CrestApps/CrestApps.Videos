@@ -1,0 +1,92 @@
+{
+  "title": "Dashboard Diagnostics: Alerts, Free Agent and Why the Dialer Is Not Dialing | CrestApps for Orchard Core",
+  "description": "The live dashboard of the CrestApps Contact Center for Orchard Core does more than count calls. It warns about poor call quality, shows when an agent is stuck on work that is already over, and explains why a campaign is not dialing. This video covers the call quality alerts and their Dismiss button, Free agent, the Why isn't this dialing panel and its reasons, the dialer banner and the pacing warnings.\n\nIn this video:\n• What the live dashboard needs to show anything\n• The dialer banner and its states\n• Why isn't this dialing, and the reasons\n• Call quality alerts and Dismiss\n• Free agent for stale work\n• Where else the pacing health shows",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "live dashboard",
+    "supervisor",
+    "call quality",
+    "dialer",
+    "troubleshooting",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:22",
+      "title": "Open the dashboard"
+    },
+    {
+      "time": "0:59",
+      "title": "The dialer banner"
+    },
+    {
+      "time": "1:53",
+      "title": "Why isn't this dialing"
+    },
+    {
+      "time": "3:02",
+      "title": "Call quality alerts"
+    },
+    {
+      "time": "3:51",
+      "title": "Free agent"
+    },
+    {
+      "time": "4:41",
+      "title": "Pacing warnings"
+    },
+    {
+      "time": "5:07",
+      "title": "Where it helps"
+    },
+    {
+      "time": "5:34",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/live-dashboard"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Supervision"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/live-dashboard.md",
+    "src/CrestApps.Docs/docs/user-manual/troubleshooting.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "5:46"
+}

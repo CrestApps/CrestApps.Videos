@@ -1,0 +1,242 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.042
+The live dashboard does more than count calls.
+
+00:00:04.042 --> 00:00:08.253
+It warns you about poor call quality, shows when an agent is stuck
+
+00:00:08.253 --> 00:00:12.874
+on work that is already over, and explains why a campaign is not dialing.
+
+00:00:12.874 --> 00:00:17.495
+This video covers the call quality alerts, Free agent, the Why isn't this
+
+00:00:17.495 --> 00:00:21.180
+dialing panel, the dialer banner and the pacing warnings.
+
+00:00:25.880 --> 00:00:28.691
+Open Interaction Center, Live dashboard.
+
+00:00:28.691 --> 00:00:34.862
+It needs the Supervision feature and the permission to monitor the Contact Center in real time.
+
+00:00:34.862 --> 00:00:41.034
+A supervisor also needs their own agent entitlements with the queues or campaigns they oversee.
+
+00:00:41.034 --> 00:00:45.250
+Without them the dashboard is empty, even for an administrator.
+
+00:00:45.729 --> 00:00:50.784
+The agents and queues refresh every ten seconds, and the dialer banner and
+
+00:00:50.784 --> 00:00:53.185
+the dispatch panel every thirty.
+
+00:00:53.185 --> 00:00:58.429
+The banner reads the campaigns you oversee, and shows the most serious state.
+
+00:01:02.659 --> 00:01:05.633
+The banner appears when Paced Dialing is on.
+
+00:01:05.633 --> 00:01:07.714
+Here it says Nothing due yet:
+
+00:01:07.714 --> 00:01:12.175
+records wait, but the latest pacing cycle found none it may dial now.
+
+00:01:12.175 --> 00:01:16.397
+A green banner says the dialer is active and placing calls, and a
+
+00:01:16.397 --> 00:01:18.479
+blue one says it is starting.
+
+00:01:20.079 --> 00:01:21.861
+Amber means attention.
+
+00:01:21.861 --> 00:01:25.742
+Dialer idle says work is due but no agent is available.
+
+00:01:25.742 --> 00:01:31.595
+Dialer holding back says the abandonment policy, the compliance check or calls already
+
+00:01:31.595 --> 00:01:33.949
+in flight keep it from dialing.
+
+00:01:34.699 --> 00:01:35.967
+Red means act.
+
+00:01:35.967 --> 00:01:41.610
+Dialer stalled says due work is waiting and no cycle completed for several minutes.
+
+00:01:41.610 --> 00:01:47.697
+Dialer not pacing says the pacing lock has not been acquired, so every cycle skips itself.
+
+00:01:47.697 --> 00:01:52.769
+Both need your administrator, who checks the distributed lock and the log.
+
+00:01:57.040 --> 00:02:01.512
+Why isn't this dialing explains each queue or campaign that has work.
+
+00:02:01.512 --> 00:02:05.985
+A card shows how many records are pending, how many are dialable now,
+
+00:02:05.985 --> 00:02:10.100
+and how many are held back, then lists the reasons with counts.
+
+00:02:10.569 --> 00:02:14.228
+Notes under the list say how the campaign is paced, how many agents
+
+00:02:14.228 --> 00:02:17.637
+are signed in, and what routing found the last time it looked.
+
+00:02:17.637 --> 00:02:21.195
+Here no agents are signed in, and routing found no agent a moment
+
+00:02:21.195 --> 00:02:22.549
+ago, with the reason.
+
+00:02:24.149 --> 00:02:26.903
+Reasons for a held back record include:
+
+00:02:26.903 --> 00:02:31.922
+Scheduled for later, Waiting out the retry delay, Out of attempts, No number
+
+00:02:31.922 --> 00:02:37.124
+to dial, Do not call, On the national do-not-call registry, Outside the calling
+
+00:02:37.124 --> 00:02:41.409
+window, Number not in service, and Abandonment rate cap reached.
+
+00:02:42.159 --> 00:02:43.784
+Others point at setup:
+
+00:02:43.784 --> 00:02:48.429
+The queue is turned off, The queue's business hours are closed, The dialer
+
+00:02:48.429 --> 00:02:52.609
+profile is turned off, Not in the queue, so routing never sees it,
+
+00:02:52.609 --> 00:02:55.221
+and Assigned to a user for manual work.
+
+00:02:55.221 --> 00:02:59.343
+A card is red when something is wrong, and amber when records are
+
+00:02:59.343 --> 00:03:01.549
+held back and none are dialable.
+
+00:03:05.749 --> 00:03:10.332
+When three of an agent's last five calls were rated poor, the dashboard
+
+00:03:10.332 --> 00:03:14.200
+raises an alert for the supervisors of that agent's queues:
+
+00:03:14.200 --> 00:03:19.259
+the agent's name, how many of their last calls were poor, and the likely cause.
+
+00:03:20.009 --> 00:03:24.350
+The cause is one of no audio received, no audio sent from their
+
+00:03:24.350 --> 00:03:29.699
+phone, packet loss on their network, jitter, latency on their network path, the
+
+00:03:29.699 --> 00:03:32.342
+customers' lines, or not determined.
+
+00:03:32.342 --> 00:03:35.299
+An agent is alerted at most once an hour.
+
+00:03:36.049 --> 00:03:40.898
+Alerts appear only while the dashboard is open, so a supervisor who opens
+
+00:03:40.898 --> 00:03:42.433
+it later sees none.
+
+00:03:42.433 --> 00:03:47.344
+The Dismiss button, the cross on the alert, hides it in your browser only.
+
+00:03:47.344 --> 00:03:50.229
+A reload brings the dashboard back clean.
+
+00:03:54.429 --> 00:03:58.541
+Sometimes an agent is shown as busy while nothing is happening:
+
+00:03:58.541 --> 00:04:03.428
+a call that the provider already ended, a reservation that nothing backs, or
+
+00:04:03.428 --> 00:04:06.468
+work still assigned with no call in progress.
+
+00:04:06.468 --> 00:04:09.329
+The agent card then shows a warning badge.
+
+00:04:10.079 --> 00:04:13.763
+Open the More menu of that card, and choose Free agent.
+
+00:04:13.763 --> 00:04:18.172
+The panel lists what the agent is holding, such as marked busy with
+
+00:04:18.172 --> 00:04:21.253
+no call in progress, and asks you to confirm.
+
+00:04:21.253 --> 00:04:25.179
+A call the provider confirms is still alive is never ended.
+
+00:04:25.929 --> 00:04:31.132
+Free agent needs the permission to take over, end, transfer and record live
+
+00:04:31.132 --> 00:04:33.573
+calls, and to set agents' state.
+
+00:04:33.573 --> 00:04:38.390
+It releases the stale work, and the agent can be offered calls again.
+
+00:04:38.390 --> 00:04:40.189
+The action is audited.
+
+00:04:44.389 --> 00:04:48.897
+The same pacing health feeds the Dialer activity and health report, with the
+
+00:04:48.897 --> 00:04:53.625
+state of each campaign, and a Description line that names campaigns whose pacing
+
+00:04:53.625 --> 00:04:56.649
+lock is not acquired or whose pacing has stalled.
+
+00:04:57.399 --> 00:05:01.327
+Check these three places in order when a campaign does not dial:
+
+00:05:01.327 --> 00:05:06.209
+the banner, the Why isn't this dialing panel, and the Dialer decision log report.
+
+00:05:10.409 --> 00:05:13.687
+At the start of a shift, look at the banner.
+
+00:05:13.687 --> 00:05:15.589
+Green or blue means go.
+
+00:05:15.589 --> 00:05:17.949
+Amber means look at the panel.
+
+00:05:18.699 --> 00:05:22.976
+When agents complain about audio, check the alerts, and the cause tells you
+
+00:05:22.976 --> 00:05:26.039
+whether to look at their network or at the provider.
+
+00:05:26.789 --> 00:05:30.881
+When an agent cannot get calls although nobody is on a call, look
+
+00:05:30.881 --> 00:05:33.129
+for the badge and use Free agent.
+
+00:05:35.129 --> 00:05:38.877
+The banner tells you the state of the dialer, the panel tells you
+
+00:05:38.877 --> 00:05:43.046
+why, the alerts warn you about audio, and Free agent releases stuck work.
+
+00:05:43.046 --> 00:05:44.419
+Thanks for watching.
+

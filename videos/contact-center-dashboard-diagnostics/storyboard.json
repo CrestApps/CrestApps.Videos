@@ -1,0 +1,232 @@
+{
+  "title": "Dashboard Diagnostics",
+  "output": "contact-center-dashboard-diagnostics",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "SLA": "S.L.A."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Dashboard Diagnostics",
+      "subtitle": "Alerts, stuck agents and a dialer that does not dial",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The live dashboard does more than count calls. It warns you about poor call quality, shows when an agent is stuck on work that is already over, and explains why a campaign is not dialing. This video covers the call quality alerts, Free agent, the Why isn't this dialing panel, the dialer banner and the pacing warnings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Open the dashboard",
+      "subtitle": "What you need",
+      "clips": [
+        {
+          "id": "01-open",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "open-1",
+              "text": "Open Interaction Center, Live dashboard. It needs the Supervision feature and the permission to monitor the Contact Center in real time. A supervisor also needs their own agent entitlements with the queues or campaigns they oversee. Without them the dashboard is empty, even for an administrator."
+            },
+            {
+              "id": "open-2",
+              "text": "The agents and queues refresh every ten seconds, and the dialer banner and the dispatch panel every thirty. The banner reads the campaigns you oversee, and shows the most serious state."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The dialer banner",
+      "subtitle": "One line, eight states",
+      "clips": [
+        {
+          "id": "02-banner",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ban-1",
+              "text": "The banner appears when Paced Dialing is on. Here it says Nothing due yet: records wait, but the latest pacing cycle found none it may dial now. A green banner says the dialer is active and placing calls, and a blue one says it is starting."
+            }
+          ]
+        },
+        {
+          "id": "02-states",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "bst-1",
+              "text": "Amber means attention. Dialer idle says work is due but no agent is available. Dialer holding back says the abandonment policy, the compliance check or calls already in flight keep it from dialing."
+            },
+            {
+              "id": "bst-2",
+              "text": "Red means act. Dialer stalled says due work is waiting and no cycle completed for several minutes. Dialer not pacing says the pacing lock has not been acquired, so every cycle skips itself. Both need your administrator, who checks the distributed lock and the log."
+            }
+          ]
+        }
+      ],
+      "short": "banner"
+    },
+    {
+      "id": "03",
+      "title": "Why isn't this dialing",
+      "subtitle": "The dispatch panel",
+      "clips": [
+        {
+          "id": "03-panel",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pan-1",
+              "text": "Why isn't this dialing explains each queue or campaign that has work. A card shows how many records are pending, how many are dialable now, and how many are held back, then lists the reasons with counts."
+            },
+            {
+              "id": "pan-2",
+              "text": "Notes under the list say how the campaign is paced, how many agents are signed in, and what routing found the last time it looked. Here no agents are signed in, and routing found no agent a moment ago, with the reason."
+            }
+          ]
+        },
+        {
+          "id": "03-reasons",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rsn-1",
+              "text": "Reasons for a held back record include: Scheduled for later, Waiting out the retry delay, Out of attempts, No number to dial, Do not call, On the national do-not-call registry, Outside the calling window, Number not in service, and Abandonment rate cap reached."
+            },
+            {
+              "id": "rsn-2",
+              "text": "Others point at setup: The queue is turned off, The queue's business hours are closed, The dialer profile is turned off, Not in the queue, so routing never sees it, and Assigned to a user for manual work. A card is red when something is wrong, and amber when records are held back and none are dialable."
+            }
+          ]
+        }
+      ],
+      "short": "panel"
+    },
+    {
+      "id": "04",
+      "title": "Call quality alerts",
+      "subtitle": "When audio is poor",
+      "clips": [
+        {
+          "id": "04-quality",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "cq-1",
+              "text": "When three of an agent's last five calls were rated poor, the dashboard raises an alert for the supervisors of that agent's queues: the agent's name, how many of their last calls were poor, and the likely cause."
+            },
+            {
+              "id": "cq-2",
+              "text": "The cause is one of no audio received, no audio sent from their phone, packet loss on their network, jitter, latency on their network path, the customers' lines, or not determined. An agent is alerted at most once an hour."
+            },
+            {
+              "id": "cq-3",
+              "text": "Alerts appear only while the dashboard is open, so a supervisor who opens it later sees none. The Dismiss button, the cross on the alert, hides it in your browser only. A reload brings the dashboard back clean."
+            }
+          ]
+        }
+      ],
+      "short": "quality"
+    },
+    {
+      "id": "05",
+      "title": "Free agent",
+      "subtitle": "Stuck on work that is over",
+      "clips": [
+        {
+          "id": "05-free",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "fr-1",
+              "text": "Sometimes an agent is shown as busy while nothing is happening: a call that the provider already ended, a reservation that nothing backs, or work still assigned with no call in progress. The agent card then shows a warning badge."
+            },
+            {
+              "id": "fr-2",
+              "text": "Open the More menu of that card, and choose Free agent. The panel lists what the agent is holding, such as marked busy with no call in progress, and asks you to confirm. A call the provider confirms is still alive is never ended."
+            },
+            {
+              "id": "fr-3",
+              "text": "Free agent needs the permission to take over, end, transfer and record live calls, and to set agents' state. It releases the stale work, and the agent can be offered calls again. The action is audited."
+            }
+          ]
+        }
+      ],
+      "short": "free"
+    },
+    {
+      "id": "06",
+      "title": "Pacing warnings",
+      "subtitle": "On other screens",
+      "clips": [
+        {
+          "id": "06-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "whr-1",
+              "text": "The same pacing health feeds the Dialer activity and health report, with the state of each campaign, and a Description line that names campaigns whose pacing lock is not acquired or whose pacing has stalled."
+            },
+            {
+              "id": "whr-2",
+              "text": "Check these three places in order when a campaign does not dial: the banner, the Why isn't this dialing panel, and the Dialer decision log report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Where it helps",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "At the start of a shift, look at the banner. Green or blue means go. Amber means look at the panel."
+            },
+            {
+              "id": "use-2",
+              "text": "When agents complain about audio, check the alerts, and the cause tells you whether to look at their network or at the provider."
+            },
+            {
+              "id": "use-3",
+              "text": "When an agent cannot get calls although nobody is on a call, look for the badge and use Free agent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "The banner tells you the state of the dialer, the panel tells you why, the alerts warn you about audio, and Free agent releases stuck work. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
