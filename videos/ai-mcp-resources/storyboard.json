@@ -1,0 +1,232 @@
+{
+  "title": "MCP Resources",
+  "output": "ai-mcp-resources",
+  "spoken": {
+    "MCP": "M.C.P.",
+    "FTP": "F.T.P.",
+    "SFTP": "S.F.T.P.",
+    "MIME": "mime"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "MCP Resources",
+      "subtitle": "Files and data that AI apps can read from your site",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Resources are files and data that other AI apps can read from your site. This video shows what resources are, which types you can share, and how to add file, media, F.T.P. and S.F.T.P. resources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why resources",
+      "subtitle": "Always the current version",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An AI app can only work from what it can see. Resources give it files and data to read, such as a policy document or a price list."
+            },
+            {
+              "id": "why-2",
+              "text": "Without resources, people paste documents into a chat by hand, and the copy soon goes out of date."
+            },
+            {
+              "id": "why-3",
+              "text": "With a resource, the app asks your site for the file when it needs it, so it always reads the current version."
+            },
+            {
+              "id": "why-4",
+              "text": "Resources are part of the Model Context Protocol server, so you manage them from the same menu as the server's prompts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The resource types",
+      "subtitle": "What you can share",
+      "clips": [
+        {
+          "id": "02-types",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "typ-1",
+              "text": "Open Artificial Intelligence, Model Context Protocol, Resources. The list shows every resource with its type. Click Add Resource."
+            },
+            {
+              "id": "typ-2",
+              "text": "Available Resource Types lists what you can share. File reads from the site's file providers, and Media shares files of the media library."
+            },
+            {
+              "id": "typ-3",
+              "text": "FTP and FTPS, and SFTP, read files from a remote file server. They appear when their features are turned on."
+            },
+            {
+              "id": "typ-4",
+              "text": "The Recipe types share the site's recipes and their schemas with developer tools. You do not need them for everyday documents."
+            }
+          ]
+        }
+      ],
+      "short": "types"
+    },
+    {
+      "id": "03",
+      "title": "Share a file",
+      "subtitle": "A File resource",
+      "clips": [
+        {
+          "id": "03-file",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "file-1",
+              "text": "Click Add on File. Enter a Display Text, which is the name you see in the list, and a Name, which identifies the resource to apps."
+            },
+            {
+              "id": "file-2",
+              "text": "Add a Description that says what the file holds. AI apps read it to decide whether the resource is useful."
+            },
+            {
+              "id": "file-3",
+              "text": "The MIME Type tells the app what kind of content it is. Plain text is the default."
+            },
+            {
+              "id": "file-4",
+              "text": "The Path points to the file, and the Full URI line shows the address that apps use. A placeholder in curly braces turns one resource into many: the app fills in the file it wants."
+            },
+            {
+              "id": "file-5",
+              "text": "Click Save. The resource is listed with its type."
+            }
+          ]
+        }
+      ],
+      "short": "file"
+    },
+    {
+      "id": "04",
+      "title": "Share media",
+      "subtitle": "A Media resource",
+      "clips": [
+        {
+          "id": "04-media",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "med-1",
+              "text": "A Media resource shares files of the media library. Click Add Resource, then Add on Media."
+            },
+            {
+              "id": "med-2",
+              "text": "Fill in the same fields. In the Path, the placeholder path in curly braces stands for the location of a file in the media library, so an app can ask for any file."
+            },
+            {
+              "id": "med-3",
+              "text": "To share a single file instead, replace the placeholder with its location. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "media"
+    },
+    {
+      "id": "05",
+      "title": "Share files from a file server",
+      "subtitle": "SFTP and FTP resources",
+      "clips": [
+        {
+          "id": "05-remote",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rem-1",
+              "text": "SFTP and FTP resources read from a file server. Click Add Resource, then Add on SFTP, and give the resource a Display Text, a Name and a Description."
+            },
+            {
+              "id": "rem-2",
+              "text": "Enter the Host, the Port, which is 22 by default, and the Username of the server."
+            },
+            {
+              "id": "rem-3",
+              "text": "Sign in with a Password, or with a Private Key and its Passphrase. Both are stored securely, and never shown again."
+            },
+            {
+              "id": "rem-4",
+              "text": "The Proxy Settings, a Connection Timeout and a Keep-Alive Interval are optional, and help with firewalls and slow networks."
+            },
+            {
+              "id": "rem-5",
+              "text": "Click Save. An FTP resource is added in the same way, with a Host, Port, Username and Password, and an Encryption Mode: None, Explicit, Implicit or Auto Detect."
+            },
+            {
+              "id": "rem-6",
+              "text": "Click Save. The site only stores the settings, so try each resource from an AI app before you rely on it."
+            }
+          ]
+        }
+      ],
+      "short": "remote"
+    },
+    {
+      "id": "06",
+      "title": "Use cases",
+      "subtitle": "What teams share",
+      "clips": [
+        {
+          "id": "06-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "Policies and price lists: publish the document once, and every connected AI app reads the current version."
+            },
+            {
+              "id": "case-2",
+              "text": "Files on a partner's server: read them over S.F.T.P. without copying them to your site."
+            },
+            {
+              "id": "case-3",
+              "text": "Media library documents: share brochures and manuals that your editors already keep up to date."
+            },
+            {
+              "id": "case-4",
+              "text": "Share with care: an app can read whatever a resource points to, so choose paths on purpose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add a resource for each file or data set you want AI apps to read, and they always see the current version. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

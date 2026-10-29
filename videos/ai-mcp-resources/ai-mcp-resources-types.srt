@@ -1,0 +1,36 @@
+1
+00:00:03,192 --> 00:00:07,908
+Open Artificial Intelligence, Model Context Protocol, Resources.
+
+2
+00:00:07,908 --> 00:00:11,277
+The list shows every resource with its type.
+
+3
+00:00:11,277 --> 00:00:12,962
+Click Add Resource.
+
+4
+00:00:13,418 --> 00:00:16,703
+Available Resource Types lists what you can share.
+
+5
+00:00:16,703 --> 00:00:22,158
+File reads from the site's file providers, and Media shares files of the media library.
+
+6
+00:00:22,687 --> 00:00:27,901
+FTP and FTPS, and SFTP, read files from a remote file server.
+
+7
+00:00:27,901 --> 00:00:31,947
+They appear when their features are turned on.
+
+8
+00:00:32,404 --> 00:00:37,421
+The Recipe types share the site's recipes and their schemas with developer tools.
+
+9
+00:00:37,421 --> 00:00:40,304
+You do not need them for everyday documents.
+

@@ -1,0 +1,212 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.846
+Resources are files and data that other AI apps can read from your site.
+
+00:00:05.846 --> 00:00:10.630
+This video shows what resources are, which types you can share, and how
+
+00:00:10.630 --> 00:00:12.618
+to add file, media, F.T.P.
+
+00:00:12.618 --> 00:00:13.736
+and S.F.T.P.
+
+00:00:13.736 --> 00:00:14.730
+resources.
+
+00:00:19.330 --> 00:00:22.432
+An AI app can only work from what it can see.
+
+00:00:22.432 --> 00:00:26.872
+Resources give it files and data to read, such as a policy document
+
+00:00:26.872 --> 00:00:28.210
+or a price list.
+
+00:00:28.960 --> 00:00:34.117
+Without resources, people paste documents into a chat by hand, and the copy
+
+00:00:34.117 --> 00:00:35.900
+soon goes out of date.
+
+00:00:36.650 --> 00:00:40.157
+With a resource, the app asks your site for the file when it
+
+00:00:40.157 --> 00:00:43.080
+needs it, so it always reads the current version.
+
+00:00:43.830 --> 00:00:48.254
+Resources are part of the Model Context Protocol server, so you manage them
+
+00:00:48.254 --> 00:00:50.930
+from the same menu as the server's prompts.
+
+00:00:55.122 --> 00:00:59.838
+Open Artificial Intelligence, Model Context Protocol, Resources.
+
+00:00:59.838 --> 00:01:03.207
+The list shows every resource with its type.
+
+00:01:03.207 --> 00:01:04.892
+Click Add Resource.
+
+00:01:05.348 --> 00:01:08.633
+Available Resource Types lists what you can share.
+
+00:01:08.633 --> 00:01:14.088
+File reads from the site's file providers, and Media shares files of the media library.
+
+00:01:14.617 --> 00:01:19.831
+FTP and FTPS, and SFTP, read files from a remote file server.
+
+00:01:19.831 --> 00:01:23.877
+They appear when their features are turned on.
+
+00:01:24.334 --> 00:01:29.351
+The Recipe types share the site's recipes and their schemas with developer tools.
+
+00:01:29.351 --> 00:01:32.234
+You do not need them for everyday documents.
+
+00:01:36.412 --> 00:01:37.869
+Click Add on File.
+
+00:01:37.869 --> 00:01:41.874
+Enter a Display Text, which is the name you see in the list,
+
+00:01:41.874 --> 00:01:45.272
+and a Name, which identifies the resource to apps.
+
+00:01:45.723 --> 00:01:48.935
+Add a Description that says what the file holds.
+
+00:01:48.935 --> 00:01:52.683
+AI apps read it to decide whether the resource is useful.
+
+00:01:53.140 --> 00:01:56.905
+The MIME Type tells the app what kind of content it is.
+
+00:01:56.905 --> 00:01:58.880
+Plain text is the default.
+
+00:01:59.334 --> 00:02:03.318
+The Path points to the file, and the Full URI line shows the
+
+00:02:03.318 --> 00:02:05.007
+address that apps use.
+
+00:02:05.007 --> 00:02:08.930
+A placeholder in curly braces turns one resource into many:
+
+00:02:08.930 --> 00:02:11.404
+the app fills in the file it wants.
+
+00:02:11.858 --> 00:02:12.966
+Click Save.
+
+00:02:12.966 --> 00:02:15.768
+The resource is listed with its type.
+
+00:02:19.978 --> 00:02:23.878
+A Media resource shares files of the media library.
+
+00:02:23.878 --> 00:02:26.888
+Click Add Resource, then Add on Media.
+
+00:02:27.373 --> 00:02:29.250
+Fill in the same fields.
+
+00:02:29.250 --> 00:02:34.194
+In the Path, the placeholder path in curly braces stands for the location
+
+00:02:34.194 --> 00:02:38.513
+of a file in the media library, so an app can ask for any file.
+
+00:02:38.980 --> 00:02:44.143
+To share a single file instead, replace the placeholder with its location.
+
+00:02:44.143 --> 00:02:45.240
+Click Save.
+
+00:02:49.471 --> 00:02:53.826
+SFTP and FTP resources read from a file server.
+
+00:02:53.826 --> 00:02:59.990
+Click Add Resource, then Add on SFTP, and give the resource a Display
+
+00:02:59.990 --> 00:03:03.031
+Text, a Name and a Description.
+
+00:03:03.541 --> 00:03:09.561
+Enter the Host, the Port, which is 22 by default, and the Username of the server.
+
+00:03:10.017 --> 00:03:14.640
+Sign in with a Password, or with a Private Key and its Passphrase.
+
+00:03:14.640 --> 00:03:18.107
+Both are stored securely, and never shown again.
+
+00:03:18.562 --> 00:03:23.687
+The Proxy Settings, a Connection Timeout and a Keep-Alive Interval are optional, and
+
+00:03:23.687 --> 00:03:26.192
+help with firewalls and slow networks.
+
+00:03:26.642 --> 00:03:27.906
+Click Save.
+
+00:03:27.906 --> 00:03:32.815
+An FTP resource is added in the same way, with a Host, Port,
+
+00:03:32.815 --> 00:03:36.681
+Username and Password, and an Encryption Mode:
+
+00:03:36.681 --> 00:03:40.102
+None, Explicit, Implicit or Auto Detect.
+
+00:03:40.569 --> 00:03:41.595
+Click Save.
+
+00:03:41.595 --> 00:03:45.939
+The site only stores the settings, so try each resource from an AI
+
+00:03:45.939 --> 00:03:47.869
+app before you rely on it.
+
+00:03:52.069 --> 00:03:54.086
+Policies and price lists:
+
+00:03:54.086 --> 00:03:59.679
+publish the document once, and every connected AI app reads the current version.
+
+00:04:00.429 --> 00:04:02.417
+Files on a partner's server:
+
+00:04:02.417 --> 00:04:04.112
+read them over S.F.T.P.
+
+00:04:04.112 --> 00:04:06.449
+without copying them to your site.
+
+00:04:07.199 --> 00:04:08.883
+Media library documents:
+
+00:04:08.883 --> 00:04:13.149
+share brochures and manuals that your editors already keep up to date.
+
+00:04:13.899 --> 00:04:15.360
+Share with care:
+
+00:04:15.360 --> 00:04:20.669
+an app can read whatever a resource points to, so choose paths on purpose.
+
+00:04:22.669 --> 00:04:26.196
+Add a resource for each file or data set you want AI apps
+
+00:04:26.196 --> 00:04:29.274
+to read, and they always see the current version.
+
+00:04:29.274 --> 00:04:30.729
+Thanks for watching.
+
