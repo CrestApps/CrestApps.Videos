@@ -1,0 +1,310 @@
+{
+  "title": "AI File Sources",
+  "output": "ai-file-sources",
+  "spoken": {
+    "Elasticsearch": "Elastic search",
+    "FTPS": "F.T.P.S.",
+    "FTP": "F.T.P.",
+    "SFTP": "S.F.T.P."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI File Sources",
+      "subtitle": "Keep an assistant's knowledge in step with a folder",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Much of a company's knowledge lives in folders that another system keeps up to date, such as nightly exports on an F.T.P. site. This video shows how a file source reads a folder on a schedule, and keeps an assistant's knowledge current, without anyone uploading a file."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why file sources",
+      "subtitle": "Knowledge that follows the folder",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Documents that change often, such as handbooks, price sheets and product exports, go stale when someone has to upload each new version."
+            },
+            {
+              "id": "why-2",
+              "text": "Often another system already writes them to a folder: on the site's server, on an F.T.P. site, or on an S.F.T.P. site."
+            },
+            {
+              "id": "why-3",
+              "text": "A file source reads that folder on a schedule, and turns each file into passages that the assistant can search."
+            },
+            {
+              "id": "why-4",
+              "text": "Only new, changed and removed files are processed, so the knowledge follows the folder."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "An index, a data source, a file source",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Three pieces work together. A knowledge base index stores the passages, so the assistant can search them by meaning."
+            },
+            {
+              "id": "how-2",
+              "text": "A Files data source is the target: the knowledge base that the assistant answers from."
+            },
+            {
+              "id": "how-3",
+              "text": "A file source is the reader. It has a connector for a folder on the server, an F.T.P. site, or an S.F.T.P. site."
+            },
+            {
+              "id": "how-4",
+              "text": "Then you choose the data source on a profile, and the assistant answers from the files, with sources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create the knowledge base index",
+      "subtitle": "Where the passages are stored",
+      "clips": [
+        {
+          "id": "03-index",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "idx-1",
+              "text": "First, the knowledge base index. Open Search, Indexes, click Add index, and click Add on AI Knowledge Base Index for Elasticsearch."
+            },
+            {
+              "id": "idx-2",
+              "text": "Enter an Index Name and a Name, and pick the Embedding deployment. It cannot be changed after the index is created."
+            },
+            {
+              "id": "idx-3",
+              "text": "Click Save. Data sources, file sources and web crawlers all store their passages in an index like this one."
+            }
+          ]
+        }
+      ],
+      "short": "index"
+    },
+    {
+      "id": "04",
+      "title": "Create a Files data source",
+      "subtitle": "The target of the file source",
+      "clips": [
+        {
+          "id": "04-datasource",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ds-1",
+              "text": "Open Artificial Intelligence, Data Sources, and click Add Data Source."
+            },
+            {
+              "id": "ds-2",
+              "text": "In Available Source Types, click Add on Files. It is the target for file sources."
+            },
+            {
+              "id": "ds-3",
+              "text": "Enter a Name, and choose the Destination index, the knowledge base index that stores the passages. It cannot be changed after you save."
+            },
+            {
+              "id": "ds-4",
+              "text": "Click Save. The data source is listed, and waits for a file source to fill it."
+            }
+          ]
+        }
+      ],
+      "short": "datasource"
+    },
+    {
+      "id": "05",
+      "title": "Add a file source",
+      "subtitle": "A folder on the server",
+      "clips": [
+        {
+          "id": "05-source",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "src-1",
+              "text": "Open Artificial Intelligence, File Sources, and click Add File Source."
+            },
+            {
+              "id": "src-2",
+              "text": "In Available Connectors, click Add on File system, which reads a folder on the site's server."
+            },
+            {
+              "id": "src-3",
+              "text": "Enter a Name, and choose the Target File data source, the one you just made. Several file sources can feed the same data source."
+            },
+            {
+              "id": "src-4",
+              "text": "Keep Enabled ticked, so that the scheduled reading runs. Re-read interval is how often the folder is read again, in minutes. The site checks once an hour, so a shorter interval still runs at most hourly."
+            },
+            {
+              "id": "src-5",
+              "text": "Figures says whether the charts and pictures inside documents are described: Auto, All or Off. Describing figures uses a vision model, so it costs more. The other fields can stay as they are."
+            },
+            {
+              "id": "src-6",
+              "text": "Folder is the folder to read, inside the file sources area that your technical team set aside for this site. Tick Include sub-folders to read the folders below it too."
+            },
+            {
+              "id": "src-7",
+              "text": "Click Save. The list shows the source with its connector, and Never run as its last run."
+            }
+          ]
+        }
+      ],
+      "short": "source"
+    },
+    {
+      "id": "06",
+      "title": "Read the folder",
+      "subtitle": "Run it now, and see the result",
+      "clips": [
+        {
+          "id": "06-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "To read the folder right away, open the Actions menu of the source and click Read now."
+            },
+            {
+              "id": "run-2",
+              "text": "After a moment, the Last run column shows what happened: how many files were found, ingested, unchanged, removed and failed."
+            },
+            {
+              "id": "run-3",
+              "text": "Here all three files were ingested. From now on, the schedule keeps the data source in step with the folder."
+            }
+          ]
+        }
+      ],
+      "short": "run"
+    },
+    {
+      "id": "07",
+      "title": "Read an F.T.P. or S.F.T.P. server",
+      "subtitle": "The other connectors",
+      "clips": [
+        {
+          "id": "07-remote",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rem-1",
+              "text": "For a file server, click Add on SFTP in the Available Connectors. Enter the Host, the Port, which is 22 by default, and the Username."
+            },
+            {
+              "id": "rem-2",
+              "text": "Sign in with a Password, or paste a Private key and its Key passphrase. They are stored encrypted, and never shown again."
+            },
+            {
+              "id": "rem-3",
+              "text": "Folder is the folder on the server to read. Files per listing caps how many files one listing takes on, and a listing that could not finish removes nothing."
+            },
+            {
+              "id": "rem-4",
+              "text": "The F.T.P. connector has the same fields, plus an Encryption mode, which can be Automatic, None, Explicit F.T.P.S. or Implicit F.T.P.S., and a Data connection of Automatic, Passive or Active."
+            }
+          ]
+        }
+      ],
+      "short": "remote"
+    },
+    {
+      "id": "08",
+      "title": "Give the assistant the data source",
+      "subtitle": "Choose it on a profile",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Now give the assistant the knowledge. Open the profile, open the Knowledge tab, and choose the data source."
+            },
+            {
+              "id": "use-2",
+              "text": "Restrict answers to retrieved data only keeps the assistant to your files. When nothing matches, it says so, instead of answering from general knowledge."
+            },
+            {
+              "id": "use-3",
+              "text": "Strictness is how closely a passage must match the question, and Retrieved documents is how many passages come back. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "use"
+    },
+    {
+      "id": "09",
+      "title": "Ask a question",
+      "subtitle": "Answers with sources",
+      "clips": [
+        {
+          "id": "09-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "Now ask a question about the handbook: how many days of annual leave does a full-time employee get?"
+            },
+            {
+              "id": "ask-2",
+              "text": "The assistant answers from the file that the file source read."
+            },
+            {
+              "id": "ask-3",
+              "text": "Under the answer, the numbered sources show which file the answer came from."
+            }
+          ]
+        }
+      ],
+      "short": "ask"
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the index and a Files data source, point a file source at a folder, and the assistant's knowledge follows the files, without anyone uploading anything. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

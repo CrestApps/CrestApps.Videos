@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.222 --> 00:00:08.002
+Open Artificial Intelligence, Data Sources, and click Add Data Source.
+
+00:00:08.453 --> 00:00:11.912
+In Available Source Types, click Add on Files.
+
+00:00:11.912 --> 00:00:14.573
+It is the target for file sources.
+
+00:00:15.023 --> 00:00:21.677
+Enter a Name, and choose the Destination index, the knowledge base index that stores the passages.
+
+00:00:21.677 --> 00:00:24.363
+It cannot be changed after you save.
+
+00:00:24.820 --> 00:00:25.924
+Click Save.
+
+00:00:25.924 --> 00:00:30.600
+The data source is listed, and waits for a file source to fill it.
+

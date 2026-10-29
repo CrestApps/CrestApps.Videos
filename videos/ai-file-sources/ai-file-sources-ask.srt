@@ -1,0 +1,16 @@
+1
+00:00:03,183 --> 00:00:05,783
+Now ask a question about the handbook:
+
+2
+00:00:05,783 --> 00:00:09,683
+how many days of annual leave does a full-time employee get?
+
+3
+00:00:10,134 --> 00:00:13,854
+The assistant answers from the file that the file source read.
+
+4
+00:00:14,305 --> 00:00:18,935
+Under the answer, the numbered sources show which file the answer came from.
+

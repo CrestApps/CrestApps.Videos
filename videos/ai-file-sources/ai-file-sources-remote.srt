@@ -1,0 +1,40 @@
+1
+00:00:03,191 --> 00:00:08,930
+For a file server, click Add on SFTP in the Available Connectors.
+
+2
+00:00:08,930 --> 00:00:14,831
+Enter the Host, the Port, which is 22 by default, and the Username.
+
+3
+00:00:15,282 --> 00:00:20,404
+Sign in with a Password, or paste a Private key and its Key passphrase.
+
+4
+00:00:20,404 --> 00:00:24,062
+They are stored encrypted, and never shown again.
+
+5
+00:00:24,516 --> 00:00:27,470
+Folder is the folder on the server to read.
+
+6
+00:00:27,470 --> 00:00:31,751
+Files per listing caps how many files one listing takes on, and a
+
+7
+00:00:31,751 --> 00:00:34,886
+listing that could not finish removes nothing.
+
+8
+00:00:35,385 --> 00:00:36,517
+The F.T.P.
+
+9
+00:00:36,517 --> 00:00:44,226
+connector has the same fields, plus an Encryption mode, which can be Automatic, None, Explicit F.T.P.S.
+
+10
+00:00:44,226 --> 00:00:50,025
+or Implicit F.T.P.S., and a Data connection of Automatic, Passive or Active.
+
