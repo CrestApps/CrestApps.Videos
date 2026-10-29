@@ -1,0 +1,40 @@
+1
+00:00:03,202 --> 00:00:07,412
+Open Interaction Center, Management, Lead Statuses.
+
+2
+00:00:07,412 --> 00:00:11,179
+Each status has a name, an order, and a type:
+
+3
+00:00:11,179 --> 00:00:13,542
+Open, Closed or Converted.
+
+4
+00:00:13,996 --> 00:00:17,451
+Leads in an Open status are still worked and loaded.
+
+5
+00:00:17,451 --> 00:00:21,324
+Closed means the lead was finished without being converted.
+
+6
+00:00:21,324 --> 00:00:25,376
+Converted is the status a lead gets when it becomes a contact.
+
+7
+00:00:25,829 --> 00:00:27,301
+Click Add Status.
+
+8
+00:00:27,301 --> 00:00:32,101
+Give it a Name and a Description, set the Order, and choose the Type.
+
+9
+00:00:32,101 --> 00:00:36,261
+Only an open status can be the one where a new lead starts.
+
+10
+00:00:36,261 --> 00:00:37,349
+Click Save.
+
