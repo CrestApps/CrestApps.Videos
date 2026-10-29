@@ -1,0 +1,28 @@
+1
+00:00:03,180 --> 00:00:06,617
+Customers choose Send me news and offers in their account.
+
+2
+00:00:06,617 --> 00:00:11,289
+You can also tick Accepts marketing on a customer, under Commerce, Customers, for
+
+3
+00:00:11,289 --> 00:00:13,330
+someone who agreed on the phone.
+
+4
+00:00:13,822 --> 00:00:19,172
+The unsubscribe link in each email opens a page that asks the customer to confirm.
+
+5
+00:00:19,648 --> 00:00:24,431
+Once they confirm, they no longer accept marketing, and no campaign or review
+
+6
+00:00:24,431 --> 00:00:25,987
+request goes to them.
+
+7
+00:00:25,987 --> 00:00:29,848
+They can tick Send me news and offers again in their account.
+

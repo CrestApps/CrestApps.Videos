@@ -1,0 +1,252 @@
+{
+  "title": "Marketing",
+  "output": "marketing",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Marketing",
+      "subtitle": "Email the customers who said yes",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Your best marketing audience is people who already bought from you. This video shows how the Marketing module groups your customers into segments by what they bought, and sends email campaigns to a segment, only to customers who agreed to hear from you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why marketing from your orders",
+      "subtitle": "Know who bought what",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Your orders already say who your customers are: who bought last week, who has not bought for months, who buys again and again, and who spends the most."
+            },
+            {
+              "id": "why-2",
+              "text": "Each of them deserves a different message: a thank you to a new customer, an offer to a lapsed buyer, an early look for your best customers."
+            },
+            {
+              "id": "why-3",
+              "text": "But only customers who agreed to hear from you should get it, and each email must let them unsubscribe in one click."
+            },
+            {
+              "id": "why-4",
+              "text": "The Marketing module reads your paid orders, groups customers into segments, and sends campaigns to them, respecting that choice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Segments, campaigns, and consent",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A segment is a group of customers that meet rules about their orders, such as customers who have not ordered in ninety days."
+            },
+            {
+              "id": "how-2",
+              "text": "A campaign is an email that you write for a segment, and send now or at a time."
+            },
+            {
+              "id": "how-3",
+              "text": "A campaign only goes to customers who ticked Send me news and offers, or whom you marked as accepting marketing. Emails about their orders are not affected."
+            },
+            {
+              "id": "how-4",
+              "text": "Every email carries a link to unsubscribe. Once a customer confirms, no campaign or review request reaches them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Segments",
+      "subtitle": "Rules about what customers bought",
+      "clips": [
+        {
+          "id": "03-segments",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "seg-1",
+              "text": "Open Commerce, Segments. Each segment shows its rules, and how many customers meet them. Click Add segment."
+            },
+            {
+              "id": "seg-2",
+              "text": "Give it a Name, such as Repeat buyers, and a Description that only your staff see."
+            },
+            {
+              "id": "seg-3",
+              "text": "Fill in the rules the customers have to meet. Every rule you fill in has to hold, and a rule left blank is ignored. Haven't ordered in days finds lapsed buyers. Ordered in the last days finds recent ones. First ordered in the last days finds new customers."
+            },
+            {
+              "id": "seg-4",
+              "text": "At least and At most orders find repeat buyers. Spent at least and Spent at most find your best customers, in your store's currency, less refunds. Country is where their last order went."
+            },
+            {
+              "id": "seg-5",
+              "text": "Click Save. The segment shows how many customers are in it, and how many of them accept marketing, and so get its campaigns."
+            }
+          ]
+        }
+      ],
+      "short": "segments"
+    },
+    {
+      "id": "04",
+      "title": "Campaigns",
+      "subtitle": "Write one email to a segment",
+      "clips": [
+        {
+          "id": "04-campaigns",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "camp-1",
+              "text": "Open Commerce, Campaigns. It lists your campaigns with their status: Draft, Scheduled, Sending, Sent or Canceled. Click Add campaign."
+            },
+            {
+              "id": "camp-2",
+              "text": "Name the campaign. Only staff see the name. Choose its Segment, the customers who will get it."
+            },
+            {
+              "id": "camp-3",
+              "text": "Write the Subject and the Email. The help under the field lists what you can put in: the customer's name, how many orders they placed and what they spent, your store's name, and their unsubscribe link, which is added at the end if you leave it out."
+            },
+            {
+              "id": "camp-4",
+              "text": "To check it, enter your address under Send a test to, and click Send test. Nothing goes to customers: it is filled in as the segment's first customer would get it, and sent only to you."
+            },
+            {
+              "id": "camp-5",
+              "text": "Click Send. Fill in Send at first to send it later, in your site's time zone. Or click Save draft to finish it later."
+            },
+            {
+              "id": "camp-6",
+              "text": "A campaign goes out in batches over the next minutes, to the segment's customers as they are when each batch goes. Its page shows how many it was sent to, how many it skipped, because they have no email or do not accept marketing, and how many failed. Cancel the campaign stops it."
+            }
+          ]
+        }
+      ],
+      "short": "campaigns"
+    },
+    {
+      "id": "05",
+      "title": "Consent and unsubscribing",
+      "subtitle": "Only who said yes",
+      "clips": [
+        {
+          "id": "05-consent",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cons-1",
+              "text": "Customers choose Send me news and offers in their account. You can also tick Accepts marketing on a customer, under Commerce, Customers, for someone who agreed on the phone."
+            },
+            {
+              "id": "cons-2",
+              "text": "The unsubscribe link in each email opens a page that asks the customer to confirm."
+            },
+            {
+              "id": "cons-3",
+              "text": "Once they confirm, they no longer accept marketing, and no campaign or review request goes to them. They can tick Send me news and offers again in their account."
+            }
+          ]
+        }
+      ],
+      "short": "consent"
+    },
+    {
+      "id": "06",
+      "title": "Ready-made automations",
+      "subtitle": "Emails that send themselves",
+      "clips": [
+        {
+          "id": "06-automations",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "auto-1",
+              "text": "Open Tools, Recipes. Three recipes add workflows that email for you. Automation: thank-you email emails each buyer a short thank you when their order is paid."
+            },
+            {
+              "id": "auto-2",
+              "text": "Automation: canceled order alert emails the store when an order is canceled, with why. Automation: low stock alert emails the store when a product runs low or sells out. Both are added turned off: set the address they go to, then turn them on."
+            },
+            {
+              "id": "auto-3",
+              "text": "Click Run beside a recipe, and confirm. The recipe adds its workflow to your site. Then open Tools, Workflows, and find it in the list. Open it there to change what the email says, who it goes to, and when it is sent, and to turn it on or off."
+            }
+          ]
+        }
+      ],
+      "short": "automations"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A win-back campaign: a segment of customers who have not ordered in ninety days, and an offer to come back."
+            },
+            {
+              "id": "use-2",
+              "text": "A welcome series: customers who first ordered in the last thirty days, and a note about how to get the most from what they bought."
+            },
+            {
+              "id": "use-3",
+              "text": "A thank-you for loyalty: repeat buyers, or customers who spent at least five hundred, invited to an early sale."
+            },
+            {
+              "id": "use-4",
+              "text": "A local promotion: customers whose last order went to one country, with an offer for that market."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With the Marketing module, you write to the customers who bought, about what they bought, and only the ones who said yes. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

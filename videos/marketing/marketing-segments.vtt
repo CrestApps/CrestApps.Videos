@@ -1,0 +1,50 @@
+WEBVTT
+
+00:00:03.188 --> 00:00:05.231
+Open Commerce, Segments.
+
+00:00:05.231 --> 00:00:09.932
+Each segment shows its rules, and how many customers meet them.
+
+00:00:09.932 --> 00:00:11.568
+Click Add segment.
+
+00:00:12.046 --> 00:00:17.396
+Give it a Name, such as Repeat buyers, and a Description that only your staff see.
+
+00:00:18.149 --> 00:00:21.348
+Fill in the rules the customers have to meet.
+
+00:00:21.348 --> 00:00:26.053
+Every rule you fill in has to hold, and a rule left blank is ignored.
+
+00:00:26.053 --> 00:00:29.189
+Haven't ordered in days finds lapsed buyers.
+
+00:00:29.189 --> 00:00:32.263
+Ordered in the last days finds recent ones.
+
+00:00:32.263 --> 00:00:35.839
+First ordered in the last days finds new customers.
+
+00:00:36.363 --> 00:00:39.909
+At least and At most orders find repeat buyers.
+
+00:00:39.909 --> 00:00:44.726
+Spent at least and Spent at most find your best customers, in your
+
+00:00:44.726 --> 00:00:47.202
+store's currency, less refunds.
+
+00:00:47.202 --> 00:00:50.213
+Country is where their last order went.
+
+00:00:50.687 --> 00:00:51.707
+Click Save.
+
+00:00:51.707 --> 00:00:55.847
+The segment shows how many customers are in it, and how many of
+
+00:00:55.847 --> 00:00:59.087
+them accept marketing, and so get its campaigns.
+
