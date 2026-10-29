@@ -1,0 +1,280 @@
+1
+00:00:01,000 --> 00:00:06,011
+A public website, such as a help center, is knowledge that an assistant can read.
+
+2
+00:00:06,011 --> 00:00:09,871
+This video shows how a web crawler reads a site page by page,
+
+3
+00:00:09,871 --> 00:00:14,652
+keeps the knowledge current on a schedule, and lets the assistant answer with
+
+4
+00:00:14,652 --> 00:00:16,380
+a link back to the page.
+
+5
+00:00:20,980 --> 00:00:25,132
+Much of what customers ask is already answered on your website:
+
+6
+00:00:25,132 --> 00:00:28,200
+shipping times, warranty terms, account help.
+
+7
+00:00:28,950 --> 00:00:33,987
+Copying those pages into the assistant by hand takes time, and the copies
+
+8
+00:00:33,987 --> 00:00:36,920
+go stale as soon as the website changes.
+
+9
+00:00:37,670 --> 00:00:41,928
+A web crawler reads the website page by page on a schedule, and
+
+10
+00:00:41,928 --> 00:00:46,000
+turns each page into passages that the assistant can search.
+
+11
+00:00:46,750 --> 00:00:51,584
+Only new, changed and removed pages are processed, and the sources under an
+
+12
+00:00:51,584 --> 00:00:54,210
+answer link back to the original page.
+
+13
+00:00:58,410 --> 00:01:03,930
+A knowledge base index stores the passages, so the assistant can search them by meaning.
+
+14
+00:01:04,680 --> 00:01:06,757
+A Web data source is the target:
+
+15
+00:01:06,757 --> 00:01:09,600
+the knowledge that the assistant answers from.
+
+16
+00:01:10,350 --> 00:01:12,393
+A web crawler is the reader.
+
+17
+00:01:12,393 --> 00:01:16,780
+The Sitemap strategy finds the pages of a site through its sitemap.
+
+18
+00:01:17,530 --> 00:01:21,632
+Then you choose the data source on a profile, and the assistant answers
+
+19
+00:01:21,632 --> 00:01:23,390
+from the pages, with links.
+
+20
+00:01:27,588 --> 00:01:35,168
+Open Search, Indexes, click Add index, and click Add on AI Knowledge Base Index for Elasticsearch.
+
+21
+00:01:36,113 --> 00:01:41,561
+Enter an Index Name and a Name, pick the Embedding deployment, and click Save.
+
+22
+00:01:41,561 --> 00:01:47,853
+Data sources, file sources and web crawlers store their passages in an index like this one.
+
+23
+00:01:52,072 --> 00:01:58,035
+Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Web.
+
+24
+00:01:58,035 --> 00:02:00,572
+It is the target for web crawlers.
+
+25
+00:02:01,029 --> 00:02:07,682
+Enter a Name, and choose the Destination index, the knowledge base index that stores the passages.
+
+26
+00:02:07,682 --> 00:02:10,369
+It cannot be changed after you save.
+
+27
+00:02:10,823 --> 00:02:11,879
+Click Save.
+
+28
+00:02:11,879 --> 00:02:16,103
+The data source is listed, and waits for a crawler to fill it.
+
+29
+00:02:20,350 --> 00:02:25,330
+Open Artificial Intelligence, Web Crawlers, and click Add Web Crawler.
+
+30
+00:02:25,330 --> 00:02:29,130
+In Available Crawl Strategies, click Add on Sitemap.
+
+31
+00:02:29,601 --> 00:02:34,782
+Enter a Name, and choose the Target Web data source, the one you just made.
+
+32
+00:02:34,782 --> 00:02:38,171
+Several crawlers can feed the same data source.
+
+33
+00:02:38,667 --> 00:02:41,268
+Base URL is the website to read.
+
+34
+00:02:41,268 --> 00:02:44,417
+The crawler finds its sitemap by itself.
+
+35
+00:02:44,417 --> 00:02:49,277
+Sitemap URL is optional, for a sitemap that lives somewhere else.
+
+36
+00:02:49,741 --> 00:02:53,024
+Max pages is the most pages read in one run.
+
+37
+00:02:53,024 --> 00:02:57,817
+Max concurrent requests is how many pages are read at once, so keep
+
+38
+00:02:57,817 --> 00:03:00,509
+it low to be polite to the website.
+
+39
+00:03:00,509 --> 00:03:04,121
+Request timeout is how long to wait for one page.
+
+40
+00:03:04,576 --> 00:03:10,149
+Include URL patterns and Exclude URL patterns choose which pages to read, one
+
+41
+00:03:10,149 --> 00:03:12,902
+pattern per line, and Exclude wins.
+
+42
+00:03:12,902 --> 00:03:17,536
+User-Agent is how the crawler introduces itself to the website.
+
+43
+00:03:17,991 --> 00:03:21,985
+Keep Enabled ticked, so that the crawler runs on its schedule.
+
+44
+00:03:21,985 --> 00:03:26,213
+Re-index interval is how often the site is read again, in minutes.
+
+45
+00:03:26,213 --> 00:03:27,211
+Click Save.
+
+46
+00:03:31,419 --> 00:03:35,789
+To read the website right away, open the Actions menu of the crawler
+
+47
+00:03:35,789 --> 00:03:37,679
+and click Synchronize now.
+
+48
+00:03:42,425 --> 00:03:44,885
+The crawler runs in the background:
+
+49
+00:03:44,885 --> 00:03:47,765
+it reads the sitemap, and then every page.
+
+50
+00:03:47,765 --> 00:03:52,685
+Only new, changed and removed pages are processed, so the next run is quick.
+
+51
+00:03:52,685 --> 00:03:57,065
+When it is done, the pages are knowledge that an assistant can use.
+
+52
+00:04:01,266 --> 00:04:06,136
+Open the profile, open the Knowledge tab, and choose the data source.
+
+53
+00:04:06,608 --> 00:04:11,659
+Restrict answers to retrieved data only keeps the assistant to your website.
+
+54
+00:04:11,659 --> 00:04:14,061
+When nothing matches, it says so.
+
+55
+00:04:14,061 --> 00:04:15,108
+Click Save.
+
+56
+00:04:19,303 --> 00:04:22,131
+Now ask a question that the website answers:
+
+57
+00:04:22,131 --> 00:04:24,563
+how long does standard shipping take?
+
+58
+00:04:25,033 --> 00:04:28,323
+The assistant answers from the page that the crawler read.
+
+59
+00:04:28,792 --> 00:04:32,992
+Under the answer, the numbered source shows the page, and links to it.
+
+60
+00:04:37,192 --> 00:04:38,336
+A help center:
+
+61
+00:04:38,336 --> 00:04:42,112
+customers get answers from the articles you already publish.
+
+62
+00:04:42,862 --> 00:04:44,001
+Product pages:
+
+63
+00:04:44,001 --> 00:04:47,762
+the assistant knows what each product does, and links to it.
+
+64
+00:04:48,512 --> 00:04:50,214
+Public documentation:
+
+65
+00:04:50,214 --> 00:04:53,932
+developers ask a question and land on the right page.
+
+66
+00:04:54,682 --> 00:04:55,958
+Keep it polite:
+
+67
+00:04:55,958 --> 00:05:01,182
+read only websites you may read, and keep the number of concurrent requests low.
+
+68
+00:05:03,182 --> 00:05:07,169
+Create the index and a Web data source, point a web crawler at
+
+69
+00:05:07,169 --> 00:05:11,977
+a website, and the assistant's knowledge follows the pages, with links back.
+
+70
+00:05:11,977 --> 00:05:13,502
+Thanks for watching.
+

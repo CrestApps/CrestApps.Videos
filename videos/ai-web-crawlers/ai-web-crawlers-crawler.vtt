@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:03.247 --> 00:00:08.226
+Open Artificial Intelligence, Web Crawlers, and click Add Web Crawler.
+
+00:00:08.226 --> 00:00:12.027
+In Available Crawl Strategies, click Add on Sitemap.
+
+00:00:12.498 --> 00:00:17.679
+Enter a Name, and choose the Target Web data source, the one you just made.
+
+00:00:17.679 --> 00:00:21.068
+Several crawlers can feed the same data source.
+
+00:00:21.564 --> 00:00:24.165
+Base URL is the website to read.
+
+00:00:24.165 --> 00:00:27.314
+The crawler finds its sitemap by itself.
+
+00:00:27.314 --> 00:00:32.174
+Sitemap URL is optional, for a sitemap that lives somewhere else.
+
+00:00:32.638 --> 00:00:35.921
+Max pages is the most pages read in one run.
+
+00:00:35.921 --> 00:00:40.714
+Max concurrent requests is how many pages are read at once, so keep
+
+00:00:40.714 --> 00:00:43.406
+it low to be polite to the website.
+
+00:00:43.406 --> 00:00:47.018
+Request timeout is how long to wait for one page.
+
+00:00:47.472 --> 00:00:53.046
+Include URL patterns and Exclude URL patterns choose which pages to read, one
+
+00:00:53.046 --> 00:00:55.799
+pattern per line, and Exclude wins.
+
+00:00:55.799 --> 00:01:00.432
+User-Agent is how the crawler introduces itself to the website.
+
+00:01:00.888 --> 00:01:04.881
+Keep Enabled ticked, so that the crawler runs on its schedule.
+
+00:01:04.881 --> 00:01:09.110
+Re-index interval is how often the site is read again, in minutes.
+
+00:01:09.110 --> 00:01:10.108
+Click Save.
+
