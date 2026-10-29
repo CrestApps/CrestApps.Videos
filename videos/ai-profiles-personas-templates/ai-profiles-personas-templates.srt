@@ -1,0 +1,604 @@
+1
+00:00:01,000 --> 00:00:05,888
+A CrestApps AI assistant is described by a profile, can take its character
+
+2
+00:00:05,888 --> 00:00:09,065
+from a persona, and can start from a template.
+
+3
+00:00:09,065 --> 00:00:13,464
+This video shows why they exist, how they fit together, and how to
+
+4
+00:00:13,464 --> 00:00:16,580
+create, edit and reuse each one in the admin.
+
+5
+00:00:21,180 --> 00:00:24,097
+An AI assistant is more than a model.
+
+6
+00:00:24,097 --> 00:00:29,252
+It needs instructions, a name and a voice, knowledge to draw on, tools
+
+7
+00:00:29,252 --> 00:00:32,440
+it may use, and limits that keep it safe.
+
+8
+00:00:33,190 --> 00:00:38,341
+If those choices were scattered across every chat, widget and workflow, the same
+
+9
+00:00:38,341 --> 00:00:44,210
+settings would be repeated everywhere, and each team would build its assistants differently.
+
+10
+00:00:44,960 --> 00:00:48,038
+A profile gathers all of it for one job.
+
+11
+00:00:48,038 --> 00:00:55,400
+A persona is a reusable character, and templates are reusable starting points and reusable instructions.
+
+12
+00:00:56,150 --> 00:01:02,178
+You describe an assistant once, reuse the parts that repeat, and change them in one place.
+
+13
+00:01:02,178 --> 00:01:06,950
+Everything that talks to the AI then runs on the same, approved setup.
+
+14
+00:01:11,150 --> 00:01:18,875
+A profile is one assistant or task, with its own instructions, model, knowledge, tools and limits.
+
+15
+00:01:18,875 --> 00:01:26,080
+Chats, chat widgets, text and phone conversations, and workflow tasks all run on a profile.
+
+16
+00:01:26,830 --> 00:01:28,737
+A persona answers who:
+
+17
+00:01:28,737 --> 00:01:33,438
+the assistant's name, personality, language, voice and picture.
+
+18
+00:01:33,438 --> 00:01:39,910
+A profile links to a persona, so changing the persona changes every profile that uses it.
+
+19
+00:01:40,660 --> 00:01:43,705
+A profile template answers where to start.
+
+20
+00:01:43,705 --> 00:01:48,020
+It carries ready-made settings, and a new profile copies them.
+
+21
+00:01:48,020 --> 00:01:51,890
+After that, the profile no longer follows the template.
+
+22
+00:01:52,640 --> 00:01:57,320
+A prompt template is a reusable piece of instructions, such as a company
+
+23
+00:01:57,320 --> 00:02:00,200
+tone, that you add to any profile or chat.
+
+24
+00:02:00,200 --> 00:02:03,800
+Together, these parts keep your assistants consistent.
+
+25
+00:02:08,020 --> 00:02:10,789
+Open Artificial Intelligence, Profiles.
+
+26
+00:02:10,789 --> 00:02:14,481
+The list is empty until you create your first profile.
+
+27
+00:02:14,481 --> 00:02:18,050
+Click Add Profile to open the New AI Profile picker.
+
+28
+00:02:18,502 --> 00:02:22,449
+Blank profile opens the full editor with nothing filled in.
+
+29
+00:02:22,449 --> 00:02:27,488
+Every other card is a ready-made starting point, with a description, the kind
+
+30
+00:02:27,488 --> 00:02:30,402
+of profile it creates, and a Start button.
+
+31
+00:02:30,856 --> 00:02:35,447
+Choose a category on the left to narrow the cards, or type in Filter.
+
+32
+00:02:35,447 --> 00:02:39,855
+Here, Talk to people shows the assistants that chat with visitors.
+
+33
+00:02:39,855 --> 00:02:41,876
+All shows everything again.
+
+34
+00:02:42,327 --> 00:02:46,126
+A card that is greyed out needs a feature that is not turned on.
+
+35
+00:02:46,126 --> 00:02:50,197
+It names the feature, so you can ask your administrator to enable it.
+
+36
+00:02:50,801 --> 00:02:53,091
+Click Start on Website assistant.
+
+37
+00:02:53,091 --> 00:02:57,318
+The setup step asks for a Title, a Technical name that follows the
+
+38
+00:02:57,318 --> 00:02:59,491
+title, and the Chat deployment.
+
+39
+00:02:59,985 --> 00:03:03,854
+Leave the Chat deployment on Default to use the model chosen in the
+
+40
+00:03:03,854 --> 00:03:06,345
+site settings, then click Create profile.
+
+41
+00:03:10,087 --> 00:03:13,980
+The profile is saved at once and opens in the full editor.
+
+42
+00:03:13,980 --> 00:03:19,517
+Everything below is optional, so you can chat with it right away and refine it later.
+
+43
+00:03:23,720 --> 00:03:26,767
+The editor groups settings into cards.
+
+44
+00:03:26,767 --> 00:03:31,753
+General holds the Title, the Technical name, and the Profile type:
+
+45
+00:03:31,753 --> 00:03:35,700
+Chat, Utility, Template generated prompt, or Agent.
+
+46
+00:03:36,164 --> 00:03:40,859
+For a chat profile, the Welcome message greets people in an empty chat.
+
+47
+00:03:40,859 --> 00:03:47,444
+Turn on Start the conversation automatically, and the assistant speaks first, with an Opening message.
+
+48
+00:03:47,898 --> 00:03:52,518
+Show on admin menu adds the chat to the Artificial Intelligence menu, so
+
+49
+00:03:52,518 --> 00:03:53,999
+people can open it.
+
+50
+00:03:53,999 --> 00:03:57,138
+Title type decides how each chat gets its name.
+
+51
+00:03:57,600 --> 00:04:00,776
+Deployments and Interactions chooses the models.
+
+52
+00:04:00,776 --> 00:04:06,128
+The Chat deployment answers the conversation, and the Utility deployment is a smaller
+
+53
+00:04:06,128 --> 00:04:07,657
+model for side jobs.
+
+54
+00:04:07,657 --> 00:04:09,480
+Both can stay on Default.
+
+55
+00:04:09,932 --> 00:04:12,605
+Instructions is the most important card.
+
+56
+00:04:12,605 --> 00:04:17,253
+The AI persona picks a character, and the System instructions say what the
+
+57
+00:04:17,253 --> 00:04:21,029
+assistant is, what it should do, and what it must never do.
+
+58
+00:04:21,029 --> 00:04:23,062
+Write them in plain language.
+
+59
+00:04:23,519 --> 00:04:26,386
+Parameters fine-tune how the model writes:
+
+60
+00:04:26,386 --> 00:04:31,880
+the longest answer, the Temperature, and how many Past messages included the assistant
+
+61
+00:04:31,880 --> 00:04:33,671
+sees with each question.
+
+62
+00:04:33,671 --> 00:04:36,239
+Leave them empty to use the defaults.
+
+63
+00:04:36,693 --> 00:04:41,560
+Prompt Security limits how often one person can write, and how many chats
+
+64
+00:04:41,560 --> 00:04:44,332
+someone who is not signed in can start.
+
+65
+00:04:44,332 --> 00:04:48,953
+Set it for a public assistant; an empty field keeps the site's limit.
+
+66
+00:04:49,406 --> 00:04:53,019
+The Capabilities tab lets the assistant do more than answer:
+
+67
+00:04:53,019 --> 00:04:56,687
+it can use tools, call other agents, and reach other systems.
+
+68
+00:04:56,687 --> 00:04:59,916
+Only roles that are allowed to use a tool can use it.
+
+69
+00:05:00,371 --> 00:05:05,182
+The Data Processing and Metrics tab decides when an idle chat closes, which
+
+70
+00:05:05,182 --> 00:05:09,994
+details to pick out of the conversation, and what to analyze after it ends.
+
+71
+00:05:09,994 --> 00:05:12,251
+Click Save to keep your changes.
+
+72
+00:05:16,454 --> 00:05:19,066
+Add a second profile from the picker.
+
+73
+00:05:19,066 --> 00:05:24,896
+Background summarizer creates a Utility profile, which runs in the background, for example
+
+74
+00:05:24,896 --> 00:05:27,568
+from a workflow, and has no chat page.
+
+75
+00:05:27,568 --> 00:05:33,034
+Click Create profile to open it in the editor, where the Profile type reads Utility.
+
+76
+00:05:33,500 --> 00:05:37,453
+Back in the list, each profile shows its type as a badge.
+
+77
+00:05:37,453 --> 00:05:40,840
+Click Actions on a chat profile to work with it.
+
+78
+00:05:41,300 --> 00:05:46,891
+New chat, View chat history and Delete chat history belong to chat profiles.
+
+79
+00:05:46,891 --> 00:05:51,120
+Utility and agent profiles offer Invoke Profile instead.
+
+80
+00:05:51,573 --> 00:05:54,347
+Clone starts a new profile from a copy.
+
+81
+00:05:54,347 --> 00:05:58,910
+It opens unsaved, named Copy of the original, so you check the Title
+
+82
+00:05:58,910 --> 00:06:01,993
+and the Technical name, and then click Save.
+
+83
+00:06:02,449 --> 00:06:06,867
+Edit changes a profile, and Delete removes it after you confirm.
+
+84
+00:06:06,867 --> 00:06:11,789
+To delete several profiles, tick them, and choose Delete above the list.
+
+85
+00:06:16,086 --> 00:06:18,760
+A persona is a reusable character.
+
+86
+00:06:18,760 --> 00:06:23,306
+Open Artificial Intelligence, Personas, and click Add Persona.
+
+87
+00:06:24,287 --> 00:06:28,719
+Give the persona a Title, and a Technical name that profiles link to.
+
+88
+00:06:28,719 --> 00:06:32,207
+The Description helps editors pick the right persona.
+
+89
+00:06:32,665 --> 00:06:37,385
+Persona instructions describe who the assistant is and how it talks:
+
+90
+00:06:37,385 --> 00:06:39,936
+its personality, tone and manners.
+
+91
+00:06:39,936 --> 00:06:43,125
+Leave the task and the rules to the profile.
+
+92
+00:06:43,579 --> 00:06:48,768
+Assistant name is the name the assistant uses for itself, and chat screens
+
+93
+00:06:48,768 --> 00:06:51,492
+show it on the assistant's messages.
+
+94
+00:06:51,492 --> 00:06:54,736
+Language, Voice and Avatar URL are optional.
+
+95
+00:06:54,736 --> 00:06:55,839
+Click Save.
+
+96
+00:06:56,289 --> 00:07:00,595
+To use the persona, open Profiles, and edit a profile.
+
+97
+00:07:00,595 --> 00:07:05,833
+In the Instructions card, pick the persona in the AI persona field.
+
+98
+00:07:05,833 --> 00:07:10,569
+Chat interactions and profile templates have the same field.
+
+99
+00:07:11,024 --> 00:07:13,575
+A persona is linked, not copied.
+
+100
+00:07:13,575 --> 00:07:19,014
+Edit it once, and every profile that uses it follows from the next message.
+
+101
+00:07:23,230 --> 00:07:27,063
+Templates save you from setting up the same thing twice.
+
+102
+00:07:27,063 --> 00:07:31,390
+Open Artificial Intelligence, Templates, and click Add Template.
+
+103
+00:07:31,844 --> 00:07:35,011
+Available Sources lists the kinds of template.
+
+104
+00:07:35,011 --> 00:07:39,517
+Profile is a starting point for new profiles, and System Prompt is a
+
+105
+00:07:39,517 --> 00:07:41,770
+reusable piece of instructions.
+
+106
+00:07:41,770 --> 00:07:43,414
+Click Add on Profile.
+
+107
+00:07:46,684 --> 00:07:50,793
+Every template has a Title, a Technical name and a Description.
+
+108
+00:07:50,793 --> 00:07:56,152
+The Category groups templates in the picker, and Listable offers the template there.
+
+109
+00:07:56,152 --> 00:07:59,784
+Untick Listable to hide a template without deleting it.
+
+110
+00:08:00,242 --> 00:08:02,044
+Choose the Profile type.
+
+111
+00:08:02,044 --> 00:08:06,548
+A profile template has the same cards and tabs as the profile editor,
+
+112
+00:08:06,548 --> 00:08:10,392
+and whatever you fill in is copied onto every new profile.
+
+113
+00:08:10,846 --> 00:08:15,862
+In the Instructions card, write the System instructions that all of your assistants
+
+114
+00:08:15,862 --> 00:08:20,426
+of this kind should follow, such as answering only from approved documents.
+
+115
+00:08:20,426 --> 00:08:21,666
+Then click Save.
+
+116
+00:08:22,120 --> 00:08:26,961
+The template list has a Create profile button on every profile template.
+
+117
+00:08:26,961 --> 00:08:31,740
+It opens the same setup step, even for a template that is not listable.
+
+118
+00:08:32,191 --> 00:08:37,133
+In the New AI Profile picker, the template has its own card, under its category.
+
+119
+00:08:37,133 --> 00:08:41,558
+A profile keeps no link to its template, so changing the template later
+
+120
+00:08:41,558 --> 00:08:44,431
+never changes the profiles you already made.
+
+121
+00:08:48,628 --> 00:08:52,653
+A system prompt template is a reusable piece of instructions.
+
+122
+00:08:52,653 --> 00:08:56,018
+Click Add Template, and then Add on System Prompt.
+
+123
+00:08:56,482 --> 00:08:57,739
+Give it a Title.
+
+124
+00:08:57,739 --> 00:08:59,794
+The Technical name follows it.
+
+125
+00:08:59,794 --> 00:09:03,849
+Then write the System prompt, which is the text to reuse, such as
+
+126
+00:09:03,849 --> 00:09:05,962
+a company tone, and click Save.
+
+127
+00:09:09,631 --> 00:09:12,496
+Now open Profiles, and edit a profile.
+
+128
+00:09:12,496 --> 00:09:19,138
+In the Instructions card, Prompt templates adds reusable pieces on top of your own instructions.
+
+129
+00:09:19,138 --> 00:09:21,221
+Click Add prompt template.
+
+130
+00:09:28,726 --> 00:09:32,030
+The list is grouped by category and has a search box.
+
+131
+00:09:32,030 --> 00:09:36,678
+It holds your system prompt templates, and the ready-made ones that come with
+
+132
+00:09:36,678 --> 00:09:39,142
+the site, such as Use Markdown Syntax.
+
+133
+00:09:39,142 --> 00:09:40,486
+Pick Company tone.
+
+134
+00:09:40,937 --> 00:09:46,511
+The selected templates are added, in order, before the profile's own instructions.
+
+135
+00:09:46,511 --> 00:09:48,601
+Remove takes one off again.
+
+136
+00:09:48,601 --> 00:09:49,677
+Click Save.
+
+137
+00:09:53,877 --> 00:09:57,083
+A website assistant answers visitors' questions.
+
+138
+00:09:57,083 --> 00:10:01,951
+Start from the Website assistant card, give it your brand's character with a
+
+139
+00:10:01,951 --> 00:10:05,157
+persona, and visitors hear one consistent voice.
+
+140
+00:10:05,907 --> 00:10:08,506
+A company standardizes its assistants.
+
+141
+00:10:08,506 --> 00:10:13,467
+One profile template holds the approved model, the safety limits and the house
+
+142
+00:10:13,467 --> 00:10:17,837
+rules, and each team starts from it and adds only its own knowledge.
+
+143
+00:10:18,587 --> 00:10:20,951
+One persona serves many profiles.
+
+144
+00:10:20,951 --> 00:10:26,284
+A support assistant and a sales assistant share the same friendly character, while
+
+145
+00:10:26,284 --> 00:10:28,647
+their rules and knowledge differ.
+
+146
+00:10:29,397 --> 00:10:34,002
+A Background summarizer is a utility profile that a workflow calls, and an
+
+147
+00:10:34,002 --> 00:10:37,685
+agent is a specialist that other assistants call for help.
+
+148
+00:10:37,685 --> 00:10:39,527
+Neither needs a chat page.
+
+149
+00:10:41,527 --> 00:10:46,551
+A profile describes an assistant, a persona gives it a character, and templates
+
+150
+00:10:46,551 --> 00:10:48,561
+save you from starting over.
+
+151
+00:10:48,561 --> 00:10:50,097
+Thanks for watching.
+
