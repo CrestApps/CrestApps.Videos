@@ -1,0 +1,40 @@
+1
+00:00:03,300 --> 00:00:04,453
+Now try it.
+
+2
+00:00:04,453 --> 00:00:09,880
+In the list of profiles, open Actions on the assistant and click New chat.
+
+3
+00:00:11,820 --> 00:00:14,681
+Tell the assistant something worth keeping.
+
+4
+00:00:14,681 --> 00:00:18,710
+Here the user says to be called Sam, and to keep answers short.
+
+5
+00:00:19,176 --> 00:00:22,606
+The assistant saves it as a memory, and answers.
+
+6
+00:00:23,070 --> 00:00:24,355
+Click New Chat.
+
+7
+00:00:24,355 --> 00:00:29,740
+This chat has no history, but the assistant looks up the memory before it answers.
+
+8
+00:00:30,235 --> 00:00:31,729
+Ask what it remembers.
+
+9
+00:00:31,729 --> 00:00:35,784
+The assistant looks up its memories, and answers with the name that it
+
+10
+00:00:35,784 --> 00:00:37,385
+saved in the other chat.
+
