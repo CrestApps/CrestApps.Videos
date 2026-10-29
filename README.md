@@ -19,7 +19,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Data Extraction and Post-Session Processing: Learn From Every Chat](videos/ai-data-extraction-post-session) | 3:34 | [https://youtu.be/JiL7Sa_1x1I](https://youtu.be/JiL7Sa_1x1I) | CrestApps/CrestApps.OrchardCore |
 | [AI Data Sources: Answers From Your Site's Content](videos/ai-data-sources) | 5:26 | [https://youtu.be/LDs71B6_6m8](https://youtu.be/LDs71B6_6m8) | CrestApps/CrestApps.OrchardCore |
 | [External AI Data Sources: Elasticsearch, Azure AI Search and PostgreSQL](videos/ai-data-sources-external) | 4:05 | [https://youtu.be/60BtEo6drt8](https://youtu.be/60BtEo6drt8) | CrestApps/CrestApps.OrchardCore |
-| [AI Documents: Ask About a File in a Chat, Charts Included](videos/ai-documents) | 4:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Documents: Ask About a File in a Chat, Charts Included](videos/ai-documents) | 4:34 | [https://youtu.be/KIddR8wtUx0](https://youtu.be/KIddR8wtUx0) | CrestApps/CrestApps.OrchardCore |
 | [Export and Import Your AI Setup With Deployment Plans](videos/ai-export-import) | 3:21 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI File Sources: Keep Knowledge in Step With a Folder](videos/ai-file-sources) | 6:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Knowledge: Answers From Your Own Documents](videos/ai-knowledge) | 6:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
