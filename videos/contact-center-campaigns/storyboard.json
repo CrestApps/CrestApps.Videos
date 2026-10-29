@@ -1,0 +1,237 @@
+{
+  "title": "Campaigns",
+  "output": "contact-center-campaigns",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Campaigns",
+      "subtitle": "Name the work, and roll it up",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A campaign is a named push of work, such as a spring lead drive. This video shows why campaigns and campaign groups exist, how to create them, and where they are used by loads, agents and reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why campaigns",
+      "subtitle": "Work needs a name",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Calling, texting and follow-up work needs a name. Without one, a report cannot tell a spring lead drive from a round of renewal reminders."
+            },
+            {
+              "id": "why-2",
+              "text": "For the outbound dialer, the name matters even more. Agents sign in to a campaign to receive the dialer calls of that campaign."
+            },
+            {
+              "id": "why-3",
+              "text": "Related campaigns can be rolled up. A campaign group shows several campaigns as one line in reports, such as every campaign of a season."
+            },
+            {
+              "id": "why-4",
+              "text": "A campaign only groups and reports work. It does not choose the channel, the number used, or what happens after each outcome."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Campaign groups",
+      "subtitle": "Optional roll-ups for reports",
+      "clips": [
+        {
+          "id": "02-groups",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "grp-1",
+              "text": "Open Interaction Center, Management, Campaign Groups. A group is optional. If you want to roll campaigns up in reports, click Add campaign group."
+            },
+            {
+              "id": "grp-2",
+              "text": "Enter a Name and an optional Description, then click Save. The group appears in the list, ready to be picked by campaigns."
+            }
+          ]
+        }
+      ],
+      "short": "groups"
+    },
+    {
+      "id": "03",
+      "title": "Campaigns",
+      "subtitle": "Create and list them",
+      "clips": [
+        {
+          "id": "03-campaigns",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "camp-1",
+              "text": "Open Campaigns, in the same Management menu, and click Add Campaign."
+            },
+            {
+              "id": "camp-2",
+              "text": "Enter a Name. Pick a Campaign group, or leave No campaign group. Add an optional Description, so people know what the campaign is for."
+            },
+            {
+              "id": "camp-3",
+              "text": "Click Save. The campaign appears in the list, with its name and the person who created it."
+            },
+            {
+              "id": "camp-4",
+              "text": "A second campaign, Renewal reminders, has no group. It is added the same way, and the list now shows both."
+            },
+            {
+              "id": "camp-5",
+              "text": "Campaigns and campaign groups cannot be deleted, because activities and reports keep pointing at them. Moving a campaign to another group also changes how its past activities are grouped in reports."
+            }
+          ]
+        }
+      ],
+      "short": "campaigns"
+    },
+    {
+      "id": "04",
+      "title": "Give agents the campaign",
+      "subtitle": "Allowed campaigns",
+      "clips": [
+        {
+          "id": "04-agents",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ent-1",
+              "text": "Agents sign in only to the campaigns on their entitlements. Open Agent entitlements, click Add, and pick the user, here jamie.chen."
+            },
+            {
+              "id": "ent-2",
+              "text": "Allowed campaigns lists the campaigns the agent may sign in to. Pick Spring lead drive. Allowed queues are for inbound work, and are set on the same page."
+            },
+            {
+              "id": "ent-3",
+              "text": "Click Save. The agent now sees Spring lead drive in the Work tab of the soft phone, and can sign in to it. Removing a campaign here also signs the agent out of it."
+            }
+          ]
+        }
+      ],
+      "short": "agents"
+    },
+    {
+      "id": "05",
+      "title": "The life of a campaign",
+      "subtitle": "From creation to the report",
+      "clips": [
+        {
+          "id": "05-flow",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "flow-1",
+              "text": "A manager creates the campaign, and adds it to the entitlements of the agents who work it."
+            },
+            {
+              "id": "flow-2",
+              "text": "A dialer load picks the campaign, and creates an activity for each contact in it."
+            },
+            {
+              "id": "flow-3",
+              "text": "Agents sign in to the campaign in the soft phone, and the dialer offers or places its calls."
+            },
+            {
+              "id": "flow-4",
+              "text": "Every call ends with an outcome on its activity, and the reports show the results by campaign and by group."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Where a campaign is used",
+      "subtitle": "Loads, agents and reports",
+      "clips": [
+        {
+          "id": "06-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "On an activity load, the campaign is stamped on every activity the load creates. Without one, the subject's Default campaign is used."
+            },
+            {
+              "id": "where-2",
+              "text": "On a dialer load, the campaign is required, unless the subject has a default one. It is the line of work that agents sign in to."
+            },
+            {
+              "id": "where-3",
+              "text": "On an agent's entitlements, Allowed campaigns lists the campaigns the agent may sign in to."
+            },
+            {
+              "id": "where-4",
+              "text": "In reports, the campaign and the campaign group are filters, so you can see the results of one push, or of a whole season."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "How teams use campaigns",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "One campaign for each push of work, such as a lead drive, a renewal round or an appointment reminder, keeps the numbers of each easy to read."
+            },
+            {
+              "id": "use-2",
+              "text": "A group for each season, region or brand lets a manager see the total for all of them in one report line."
+            },
+            {
+              "id": "use-3",
+              "text": "Calls and texts for the same push can share one campaign, so their results are reported together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Name each push of work, group the related ones, and agents, loads and reports all point to the same campaign. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

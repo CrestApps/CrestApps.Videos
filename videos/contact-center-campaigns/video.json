@@ -1,0 +1,91 @@
+{
+  "title": "Campaigns and Campaign Groups: Name the Work and Roll It Up | CrestApps for Orchard Core",
+  "description": "Calling, texting and follow-up work needs a name, so reports can tell one push from another and agents know which campaign to sign in to. A campaign is that name, and a campaign group rolls related campaigns up in reports. This video shows why they exist, how to create them in the CrestApps Contact Center for Orchard Core, how to give agents the campaign, and where a campaign is used.\n\nIn this video:\n• Why campaigns exist\n• Creating a campaign group\n• Creating campaigns and listing them\n• Giving agents the campaign on their entitlements\n• The life of a campaign, from creation to the report\n• Where a campaign is used, and how teams use campaigns",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "campaigns",
+    "campaign groups",
+    "outbound calling",
+    "omnichannel",
+    "reports",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why campaigns"
+    },
+    {
+      "time": "0:57",
+      "title": "Campaign groups"
+    },
+    {
+      "time": "1:20",
+      "title": "Campaigns"
+    },
+    {
+      "time": "2:17",
+      "title": "Give agents the campaign"
+    },
+    {
+      "time": "3:00",
+      "title": "The life of a campaign"
+    },
+    {
+      "time": "3:32",
+      "title": "Where a campaign is used"
+    },
+    {
+      "time": "4:11",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:39",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/campaigns"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/campaigns.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "4:50"
+}
