@@ -1,0 +1,269 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.339
+Your store knows when an order is paid, canceled or refunded, when a
+
+00:00:05.339 --> 00:00:08.329
+product runs low, and when a shipment leaves.
+
+00:00:08.329 --> 00:00:12.551
+This video shows how the store turns each of those moments into an
+
+00:00:12.551 --> 00:00:18.180
+email, or any other automatic action, with Workflows, and how that compares with webhooks.
+
+00:00:22.780 --> 00:00:25.464
+Things happen in your store all day:
+
+00:00:25.464 --> 00:00:30.320
+an order is paid, one is canceled, a product runs low, a parcel ships.
+
+00:00:31.070 --> 00:00:32.653
+Someone has to know:
+
+00:00:32.653 --> 00:00:37.890
+a thank-you for the buyer, a heads-up for the team, a warning that stock is low.
+
+00:00:38.640 --> 00:00:41.648
+Instead of watching the admin, you tell the store:
+
+00:00:41.648 --> 00:00:43.420
+when this happens, do that.
+
+00:00:44.170 --> 00:00:50.170
+Commerce adds its moments to Workflows as events, and three ready-made recipes start you off.
+
+00:00:54.370 --> 00:00:56.672
+An event starts a workflow:
+
+00:00:56.672 --> 00:01:02.670
+Order Paid, Order Canceled, Order Refunded, Low Stock, and four shipment events.
+
+00:01:03.420 --> 00:01:05.101
+Its tasks run next:
+
+00:01:05.101 --> 00:01:09.540
+send an email, call a web address, change content, and more.
+
+00:01:10.290 --> 00:01:13.534
+The event's details are available to every task:
+
+00:01:13.534 --> 00:01:18.400
+the order number, the total, the customer's email, and why it was canceled.
+
+00:01:19.150 --> 00:01:24.500
+A recipe adds its workflow turned off, so nothing is sent before you have checked it.
+
+00:01:28.757 --> 00:01:30.457
+Open Tools, Recipes.
+
+00:01:30.457 --> 00:01:33.204
+Three recipes add workflows for you.
+
+00:01:33.204 --> 00:01:34.316
+Automation:
+
+00:01:34.316 --> 00:01:38.566
+thank-you email emails each buyer when their order is paid.
+
+00:01:38.566 --> 00:01:39.678
+Automation:
+
+00:01:39.678 --> 00:01:44.256
+canceled order alert emails the store when an order is canceled.
+
+00:01:44.256 --> 00:01:45.367
+Automation:
+
+00:01:45.367 --> 00:01:50.337
+low stock alert emails the store when a product runs low or sells out.
+
+00:01:50.821 --> 00:01:54.397
+Click Run beside the canceled order alert, and confirm.
+
+00:01:54.397 --> 00:01:58.501
+The recipe turns on Workflows and Email for you, if they are not
+
+00:01:58.501 --> 00:02:01.256
+on yet, and adds its workflow turned off.
+
+00:02:01.256 --> 00:02:05.712
+It takes a few seconds, because the site starts the features it needs,
+
+00:02:05.712 --> 00:02:07.881
+so wait a moment while it runs.
+
+00:02:08.964 --> 00:02:11.321
+Do the same for the low stock alert.
+
+00:02:11.321 --> 00:02:13.230
+Then open Design, Workflows:
+
+00:02:13.230 --> 00:02:17.495
+both workflows are listed, and both are turned off, so nothing is sent
+
+00:02:17.495 --> 00:02:19.122
+until you turn them on.
+
+00:02:19.122 --> 00:02:22.995
+Each workflow's name says what it does, and you can open one to
+
+00:02:22.995 --> 00:02:25.240
+change it, as the next part shows.
+
+00:02:25.240 --> 00:02:29.224
+Run the thank-you email recipe the same way whenever you want it.
+
+00:02:33.454 --> 00:02:34.923
+Open the workflow.
+
+00:02:34.923 --> 00:02:36.269
+It is a picture:
+
+00:02:36.269 --> 00:02:40.614
+an event, Order canceled, and the task it starts, Tell the store.
+
+00:02:40.614 --> 00:02:43.062
+The arrow shows what happens next:
+
+00:02:43.062 --> 00:02:45.694
+Done leads on when the task succeeds.
+
+00:02:46.169 --> 00:02:49.578
+Add Event shows every event the store knows.
+
+00:02:49.578 --> 00:02:56.671
+Under Commerce are Order Paid, Order Canceled, Order Refunded, Low Stock, and the shipment events:
+
+00:02:56.671 --> 00:02:59.876
+Created, Shipped, Delivered and Returned.
+
+00:02:59.876 --> 00:03:02.672
+Under Stripe, Stripe sends its own:
+
+00:03:02.672 --> 00:03:05.673
+a failed payment, a dispute, a refund.
+
+00:03:05.673 --> 00:03:08.469
+Pick one, and it joins the picture.
+
+00:03:08.936 --> 00:03:11.631
+Double-click the email task to change it.
+
+00:03:11.631 --> 00:03:13.638
+Recipients is who it goes to:
+
+00:03:13.638 --> 00:03:15.129
+set a store address.
+
+00:03:15.129 --> 00:03:19.545
+The subject and the message are Liquid, and can use the order's number,
+
+00:03:19.545 --> 00:03:21.896
+its total and the customer's email.
+
+00:03:22.355 --> 00:03:27.535
+Save the task, and then save the workflow, with the Save button under the picture.
+
+00:03:31.723 --> 00:03:34.527
+A recipe adds the workflow turned off.
+
+00:03:34.527 --> 00:03:37.713
+Open its Properties, tick Enabled, and save.
+
+00:03:37.713 --> 00:03:42.684
+Here, Delete finished workflows is also unticked, so each run stays in a
+
+00:03:42.684 --> 00:03:47.973
+list for you to see; leave it on in production, where it keeps the list tidy.
+
+00:03:47.973 --> 00:03:50.203
+Click Save when both are set.
+
+00:03:50.666 --> 00:03:52.668
+To test it, cancel an order.
+
+00:03:52.668 --> 00:03:56.554
+On the order's page, give a reason under Why, such as Out of
+
+00:03:56.554 --> 00:03:58.673
+stock, and click Cancel order.
+
+00:03:58.673 --> 00:04:00.616
+There is no extra question:
+
+00:04:00.616 --> 00:04:04.149
+the order is canceled at once, and the store notes it.
+
+00:04:04.149 --> 00:04:09.507
+The order's status changes to Canceled, and the page shows who canceled it, and when.
+
+00:04:09.507 --> 00:04:12.216
+That moment is what starts the workflow.
+
+00:04:12.693 --> 00:04:16.639
+Back under Design, Workflows, open the workflow's Instances.
+
+00:04:16.639 --> 00:04:18.792
+The run is listed as Finished:
+
+00:04:18.792 --> 00:04:21.662
+the email was sent to the address you set.
+
+00:04:21.662 --> 00:04:24.591
+Open it to see what happened, step by step.
+
+00:04:24.591 --> 00:04:26.803
+It can take a moment to appear.
+
+00:04:31.003 --> 00:04:33.247
+Workflows run inside your site:
+
+00:04:33.247 --> 00:04:36.642
+send an email, change content, call a web address.
+
+00:04:36.642 --> 00:04:40.583
+Use them when the answer is something your own site can do.
+
+00:04:41.333 --> 00:04:46.487
+Webhooks send the same moments to another system, such as your accounting software,
+
+00:04:46.487 --> 00:04:49.325
+with a signature it can check, and retries.
+
+00:04:49.325 --> 00:04:52.047
+Use them when another system has to know.
+
+00:04:52.047 --> 00:04:54.073
+The Webhooks video shows how.
+
+00:04:58.273 --> 00:04:59.741
+A thank-you email:
+
+00:04:59.741 --> 00:05:03.533
+when an order is paid, tell the buyer what happens next.
+
+00:05:04.283 --> 00:05:05.553
+A cancel alert:
+
+00:05:05.553 --> 00:05:09.423
+when an order is canceled, tell the team, with the reason.
+
+00:05:10.173 --> 00:05:11.900
+A low stock warning:
+
+00:05:11.900 --> 00:05:15.553
+when a product runs low, tell whoever buys stock.
+
+00:05:16.303 --> 00:05:17.696
+A shipped message:
+
+00:05:17.696 --> 00:05:22.163
+when a shipment leaves, tell the buyer the carrier and tracking number.
+
+00:05:24.163 --> 00:05:30.207
+With workflows, the moments of your store tell the right people, without anyone watching the admin.
+
+00:05:30.207 --> 00:05:31.703
+Thanks for watching.
+

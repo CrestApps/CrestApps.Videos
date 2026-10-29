@@ -1,0 +1,91 @@
+{
+  "title": "Commerce Automation: Emails and Actions When Orders, Stock and Shipments Change | CrestApps for Orchard Core",
+  "description": "Your store knows when an order is paid, canceled or refunded, when a product runs low, and when a shipment leaves. The CrestApps commerce modules add each of those moments to Orchard Core Workflows as an event, with three ready-made recipes: a thank-you email, a canceled order alert and a low stock alert. This video shows the recipes, the workflow editor, turning a workflow on and testing it by canceling an order, and when to use workflows or webhooks.\n\nIn this video:\n• Why automate, and how events, tasks and details fit together\n• The three ready-made recipes\n• The workflow editor: commerce and Stripe events, and the email task\n• Turning a workflow on and testing it\n• Workflows or webhooks\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Automation",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "workflows",
+    "automation",
+    "order events",
+    "low stock alert",
+    "email notifications",
+    "Stripe events",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why automate"
+    },
+    {
+      "time": "0:51",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:25",
+      "title": "Ready-made recipes"
+    },
+    {
+      "time": "2:30",
+      "title": "The workflow editor"
+    },
+    {
+      "time": "3:28",
+      "title": "Turn it on and test it"
+    },
+    {
+      "time": "4:27",
+      "title": "Workflows or webhooks"
+    },
+    {
+      "time": "4:55",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/carts-and-orders"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/carts-and-orders"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/carts-and-orders.md",
+    "src/CrestApps.Docs/docs/modules/carts-and-orders.md"
+  ],
+  "length": "5:33"
+}

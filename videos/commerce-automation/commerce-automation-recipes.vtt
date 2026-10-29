@@ -1,0 +1,62 @@
+WEBVTT
+
+00:00:03.257 --> 00:00:04.957
+Open Tools, Recipes.
+
+00:00:04.957 --> 00:00:07.704
+Three recipes add workflows for you.
+
+00:00:07.704 --> 00:00:08.816
+Automation:
+
+00:00:08.816 --> 00:00:13.066
+thank-you email emails each buyer when their order is paid.
+
+00:00:13.066 --> 00:00:14.178
+Automation:
+
+00:00:14.178 --> 00:00:18.756
+canceled order alert emails the store when an order is canceled.
+
+00:00:18.756 --> 00:00:19.867
+Automation:
+
+00:00:19.867 --> 00:00:24.837
+low stock alert emails the store when a product runs low or sells out.
+
+00:00:25.321 --> 00:00:28.897
+Click Run beside the canceled order alert, and confirm.
+
+00:00:28.897 --> 00:00:33.001
+The recipe turns on Workflows and Email for you, if they are not
+
+00:00:33.001 --> 00:00:35.756
+on yet, and adds its workflow turned off.
+
+00:00:35.756 --> 00:00:40.212
+It takes a few seconds, because the site starts the features it needs,
+
+00:00:40.212 --> 00:00:42.381
+so wait a moment while it runs.
+
+00:00:43.464 --> 00:00:45.821
+Do the same for the low stock alert.
+
+00:00:45.821 --> 00:00:47.730
+Then open Design, Workflows:
+
+00:00:47.730 --> 00:00:51.995
+both workflows are listed, and both are turned off, so nothing is sent
+
+00:00:51.995 --> 00:00:53.622
+until you turn them on.
+
+00:00:53.622 --> 00:00:57.495
+Each workflow's name says what it does, and you can open one to
+
+00:00:57.495 --> 00:00:59.740
+change it, as the next part shows.
+
+00:00:59.740 --> 00:01:03.724
+Run the thank-you email recipe the same way whenever you want it.
+

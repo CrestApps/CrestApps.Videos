@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:03.230 --> 00:00:04.698
+Open the workflow.
+
+00:00:04.698 --> 00:00:06.045
+It is a picture:
+
+00:00:06.045 --> 00:00:10.390
+an event, Order canceled, and the task it starts, Tell the store.
+
+00:00:10.390 --> 00:00:12.838
+The arrow shows what happens next:
+
+00:00:12.838 --> 00:00:15.470
+Done leads on when the task succeeds.
+
+00:00:15.944 --> 00:00:19.354
+Add Event shows every event the store knows.
+
+00:00:19.354 --> 00:00:26.446
+Under Commerce are Order Paid, Order Canceled, Order Refunded, Low Stock, and the shipment events:
+
+00:00:26.446 --> 00:00:29.652
+Created, Shipped, Delivered and Returned.
+
+00:00:29.652 --> 00:00:32.448
+Under Stripe, Stripe sends its own:
+
+00:00:32.448 --> 00:00:35.448
+a failed payment, a dispute, a refund.
+
+00:00:35.448 --> 00:00:38.244
+Pick one, and it joins the picture.
+
+00:00:38.712 --> 00:00:41.407
+Double-click the email task to change it.
+
+00:00:41.407 --> 00:00:43.414
+Recipients is who it goes to:
+
+00:00:43.414 --> 00:00:44.905
+set a store address.
+
+00:00:44.905 --> 00:00:49.321
+The subject and the message are Liquid, and can use the order's number,
+
+00:00:49.321 --> 00:00:51.672
+its total and the customer's email.
+
+00:00:52.131 --> 00:00:57.311
+Save the task, and then save the workflow, with the Save button under the picture.
+

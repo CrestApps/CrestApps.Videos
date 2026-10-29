@@ -1,0 +1,68 @@
+1
+00:00:03,188 --> 00:00:05,992
+A recipe adds the workflow turned off.
+
+2
+00:00:05,992 --> 00:00:09,178
+Open its Properties, tick Enabled, and save.
+
+3
+00:00:09,178 --> 00:00:14,149
+Here, Delete finished workflows is also unticked, so each run stays in a
+
+4
+00:00:14,149 --> 00:00:19,438
+list for you to see; leave it on in production, where it keeps the list tidy.
+
+5
+00:00:19,438 --> 00:00:21,668
+Click Save when both are set.
+
+6
+00:00:22,131 --> 00:00:24,133
+To test it, cancel an order.
+
+7
+00:00:24,133 --> 00:00:28,019
+On the order's page, give a reason under Why, such as Out of
+
+8
+00:00:28,019 --> 00:00:30,138
+stock, and click Cancel order.
+
+9
+00:00:30,138 --> 00:00:32,081
+There is no extra question:
+
+10
+00:00:32,081 --> 00:00:35,614
+the order is canceled at once, and the store notes it.
+
+11
+00:00:35,614 --> 00:00:40,972
+The order's status changes to Canceled, and the page shows who canceled it, and when.
+
+12
+00:00:40,972 --> 00:00:43,681
+That moment is what starts the workflow.
+
+13
+00:00:44,158 --> 00:00:48,104
+Back under Design, Workflows, open the workflow's Instances.
+
+14
+00:00:48,104 --> 00:00:50,257
+The run is listed as Finished:
+
+15
+00:00:50,257 --> 00:00:53,127
+the email was sent to the address you set.
+
+16
+00:00:53,127 --> 00:00:56,056
+Open it to see what happened, step by step.
+
+17
+00:00:56,056 --> 00:00:58,268
+It can take a moment to appear.
+
