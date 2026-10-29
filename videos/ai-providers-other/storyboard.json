@@ -1,0 +1,179 @@
+{
+  "title": "Other AI Providers",
+  "output": "ai-providers-other",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Other AI Providers",
+      "subtitle": "OpenAI-compatible endpoints, Ollama and Azure AI Inference",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Azure OpenAI is only one way to bring a model to your site. This video shows the other providers: OpenAI and the services that copy its API, Ollama for models that run on your own machine, and Azure AI Inference. You add them as connections and deployments, in the same admin screens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "The providers",
+      "subtitle": "What you can connect",
+      "clips": [
+        {
+          "id": "01-providers",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "prv-1",
+              "text": "The OpenAI provider connects to OpenAI itself, and to every service that follows its API: DeepSeek, Google Gemini, Together AI, vLLM, LM Studio and many more. You only change the endpoint and the key."
+            },
+            {
+              "id": "prv-2",
+              "text": "Ollama runs open models on your own machine or server, with nothing sent to the cloud."
+            },
+            {
+              "id": "prv-3",
+              "text": "Azure AI Inference connects to the model endpoints of Azure AI Foundry and to GitHub Models. Azure AI Services deployments add speech."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "An OpenAI-compatible connection",
+      "subtitle": "Provider Connections",
+      "clips": [
+        {
+          "id": "02-openai",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "oai-1",
+              "text": "Open Artificial Intelligence, Provider Connections, click Add Connection, and click Add on OpenAI."
+            },
+            {
+              "id": "oai-2",
+              "text": "Enter a Title and a Technical name. The technical name cannot be changed later. For a service other than OpenAI, enter its Endpoint, the base address of its API."
+            },
+            {
+              "id": "oai-3",
+              "text": "Enter the API key of the service. It is stored securely and never shown again. Click Save, and the connection is ready for deployments."
+            }
+          ]
+        }
+      ],
+      "short": "openai"
+    },
+    {
+      "id": "03",
+      "title": "An Ollama connection",
+      "subtitle": "Models on your own machine",
+      "clips": [
+        {
+          "id": "03-ollama",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "oll-1",
+              "text": "An Ollama connection needs only a Title and a Technical name. The address of the Ollama server, and the models it serves, come from the configuration of the site, which your technical team sets."
+            }
+          ]
+        }
+      ],
+      "short": "ollama"
+    },
+    {
+      "id": "04",
+      "title": "An Azure AI Inference connection",
+      "subtitle": "Azure AI Foundry and GitHub Models",
+      "clips": [
+        {
+          "id": "04-inference",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inf-1",
+              "text": "An Azure AI Inference connection asks for the Endpoint of the inference service."
+            },
+            {
+              "id": "inf-2",
+              "text": "Authentication type is Default authentication, API key, or Managed identity, with an optional Managed identity client ID. Choose API key, and enter the key."
+            }
+          ]
+        }
+      ],
+      "short": "inference"
+    },
+    {
+      "id": "05",
+      "title": "Deployments",
+      "subtitle": "Models of each provider",
+      "clips": [
+        {
+          "id": "05-deployments",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dpl-1",
+              "text": "A connection is not a model. Open Deployments, click Add Deployment, and each provider you enabled appears as a card: OpenAI, Ollama, Azure AI Inference, Azure OpenAI and Azure AI Services for speech."
+            },
+            {
+              "id": "dpl-2",
+              "text": "Choose OpenAI. Enter the Model name that the service expects and a Technical name, and choose the Connection you just added. On the Model capabilities card, declare what the model can do, such as tool calling or vision."
+            }
+          ]
+        }
+      ],
+      "short": "deployments"
+    },
+    {
+      "id": "06",
+      "title": "Good to know",
+      "subtitle": "Read-only items and defaults",
+      "clips": [
+        {
+          "id": "06-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Connections and deployments that come from the configuration of the site show as Read-only. Change them in the configuration, not in the admin."
+            },
+            {
+              "id": "tip-2",
+              "text": "After you add a deployment, choose it as a default under Settings, Artificial Intelligence, or on a profile."
+            },
+            {
+              "id": "tip-3",
+              "text": "Use the OpenAI provider for any service that copies the OpenAI API, and keep keys with your technical team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Pick the provider that fits, add a connection, then a deployment, and choose it on your profiles. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

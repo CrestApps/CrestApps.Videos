@@ -1,0 +1,14 @@
+WEBVTT
+
+00:00:03.177 --> 00:00:08.717
+An Azure AI Inference connection asks for the Endpoint of the inference service.
+
+00:00:09.441 --> 00:00:16.498
+Authentication type is Default authentication, API key, or Managed identity, with an optional
+
+00:00:16.498 --> 00:00:18.850
+Managed identity client ID.
+
+00:00:18.850 --> 00:00:21.701
+Choose API key, and enter the key.
+

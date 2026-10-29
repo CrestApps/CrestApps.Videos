@@ -1,0 +1,28 @@
+1
+00:00:03,161 --> 00:00:10,221
+Open Artificial Intelligence, Provider Connections, click Add Connection, and click Add on OpenAI.
+
+2
+00:00:10,687 --> 00:00:13,462
+Enter a Title and a Technical name.
+
+3
+00:00:13,462 --> 00:00:16,779
+The technical name cannot be changed later.
+
+4
+00:00:16,779 --> 00:00:22,667
+For a service other than OpenAI, enter its Endpoint, the base address of its API.
+
+5
+00:00:23,132 --> 00:00:25,767
+Enter the API key of the service.
+
+6
+00:00:25,767 --> 00:00:29,144
+It is stored securely and never shown again.
+
+7
+00:00:29,144 --> 00:00:33,332
+Click Save, and the connection is ready for deployments.
+
