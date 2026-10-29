@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.201 --> 00:00:05.147
+Tools are checked twice.
+
+00:00:05.147 --> 00:00:10.208
+Access any AI tool opens every tool, and it is marked Security Critical.
+
+00:00:10.208 --> 00:00:14.880
+Below it, each tool has its own Access permission, so you can open
+
+00:00:14.880 --> 00:00:17.021
+only the ones a role needs.
+
+00:00:17.471 --> 00:00:21.145
+For a public assistant, open the Anonymous role.
+
+00:00:21.145 --> 00:00:24.955
+Tick only Query AI profile for the public profile.
+
+00:00:24.955 --> 00:00:30.671
+Never give the Anonymous role Access any AI tool, or a way to manage anything.
+

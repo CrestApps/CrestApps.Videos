@@ -1,0 +1,169 @@
+{
+  "title": "AI Roles and Permissions",
+  "output": "ai-roles-permissions",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Roles and Permissions",
+      "subtitle": "Who can do what with AI",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The AI features work for the administrator out of the box. Everyone else needs permissions. This video shows which roles an AI project usually needs, the permissions each one gets, and what to check when a feature works for the administrator and for nobody else."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Four kinds of people",
+      "subtitle": "Roles for an AI project",
+      "clips": [
+        {
+          "id": "01-roles",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "Builders create and tune the assistants: profiles, deployments, knowledge, tools and connections."
+            },
+            {
+              "id": "who-2",
+              "text": "Analysts read the reports of the chats, and can export them. Staff chat with the assistants of their work."
+            },
+            {
+              "id": "who-3",
+              "text": "Anonymous visitors only talk to a public assistant. Each group is a role with its own permissions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "A role for builders",
+      "subtitle": "Add Role, then permissions",
+      "clips": [
+        {
+          "id": "02-builder",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bld-1",
+              "text": "Open Access Control, Roles, and click Add Role. Give it a name, AI builder, and a description, and click Create."
+            },
+            {
+              "id": "bld-2",
+              "text": "Then edit the role. The permissions are grouped by feature. Under AI Services, tick Manage AI profiles, Manage AI deployments and Manage AI profile templates."
+            },
+            {
+              "id": "bld-3",
+              "text": "Knowledge has its own permissions: Manage AI data sources, Manage file sources and Manage web crawlers. Tools and connections have theirs: Manage AI tool instances, Manage MCP Connections and Manage Agent-to-Agent Connections."
+            },
+            {
+              "id": "bld-4",
+              "text": "Manage AI Provider Connections lets a person change the connections to your AI services, so give it with care. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "builder"
+    },
+    {
+      "id": "03",
+      "title": "Chatting and reports",
+      "subtitle": "Profiles and chats",
+      "clips": [
+        {
+          "id": "03-staff",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "stf-1",
+              "text": "People who chat need permission to talk to a profile. Query any AI profile covers every profile. For one assistant only, tick Query AI profile for that profile, such as support-assistant."
+            },
+            {
+              "id": "stf-2",
+              "text": "Delete chat session lets people delete their own chats, and Delete all chat sessions lets them delete everyone's. Clear AI memory lets them clear their own memory."
+            },
+            {
+              "id": "stf-3",
+              "text": "View AI Chat Analytics opens the AI reports, and Export AI Chat Analytics allows the download. Chat interactions have their own permissions, such as List chat interactions."
+            }
+          ]
+        }
+      ],
+      "short": "staff"
+    },
+    {
+      "id": "04",
+      "title": "Tools and the public",
+      "subtitle": "Careful permissions",
+      "clips": [
+        {
+          "id": "04-tools",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tol-1",
+              "text": "Tools are checked twice. Access any AI tool opens every tool, and it is marked Security Critical. Below it, each tool has its own Access permission, so you can open only the ones a role needs."
+            },
+            {
+              "id": "tol-2",
+              "text": "For a public assistant, open the Anonymous role. Tick only Query AI profile for the public profile. Never give the Anonymous role Access any AI tool, or a way to manage anything."
+            }
+          ]
+        }
+      ],
+      "short": "tools"
+    },
+    {
+      "id": "05",
+      "title": "When it only works for admin",
+      "subtitle": "A short checklist",
+      "clips": [
+        {
+          "id": "05-trouble",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tr-1",
+              "text": "The administrator has every permission, so a feature that works only for the administrator is a permission problem."
+            },
+            {
+              "id": "tr-2",
+              "text": "Check the role of the person: is the right permission ticked, in the right feature group? For a chat, check the Query permission of that profile."
+            },
+            {
+              "id": "tr-3",
+              "text": "For a tool, check Access any AI tool or the permission of the tool, and for a public chat, check the Anonymous role."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create a role for each kind of person, give each only what it needs, and keep tools and anonymous access tight. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

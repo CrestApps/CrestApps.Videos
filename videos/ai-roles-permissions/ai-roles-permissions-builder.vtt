@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.205 --> 00:00:06.898
+Open Access Control, Roles, and click Add Role.
+
+00:00:06.898 --> 00:00:11.775
+Give it a name, AI builder, and a description, and click Create.
+
+00:00:12.227 --> 00:00:13.900
+Then edit the role.
+
+00:00:13.900 --> 00:00:16.910
+The permissions are grouped by feature.
+
+00:00:16.910 --> 00:00:23.867
+Under AI Services, tick Manage AI profiles, Manage AI deployments and Manage AI profile templates.
+
+00:00:24.337 --> 00:00:27.011
+Knowledge has its own permissions:
+
+00:00:27.011 --> 00:00:31.957
+Manage AI data sources, Manage file sources and Manage web crawlers.
+
+00:00:31.957 --> 00:00:34.631
+Tools and connections have theirs:
+
+00:00:34.631 --> 00:00:40.847
+Manage AI tool instances, Manage MCP Connections and Manage Agent-to-Agent Connections.
+
+00:00:43.956 --> 00:00:48.923
+Manage AI Provider Connections lets a person change the connections to your AI
+
+00:00:48.923 --> 00:00:51.111
+services, so give it with care.
+
+00:00:51.111 --> 00:00:52.116
+Click Save.
+

@@ -1,0 +1,192 @@
+1
+00:00:01,000 --> 00:00:04,722
+The AI features work for the administrator out of the box.
+
+2
+00:00:04,722 --> 00:00:06,932
+Everyone else needs permissions.
+
+3
+00:00:06,932 --> 00:00:11,818
+This video shows which roles an AI project usually needs, the permissions each
+
+4
+00:00:11,818 --> 00:00:16,238
+one gets, and what to check when a feature works for the administrator
+
+5
+00:00:16,238 --> 00:00:17,750
+and for nobody else.
+
+6
+00:00:22,350 --> 00:00:25,519
+Builders create and tune the assistants:
+
+7
+00:00:25,519 --> 00:00:29,790
+profiles, deployments, knowledge, tools and connections.
+
+8
+00:00:30,540 --> 00:00:34,410
+Analysts read the reports of the chats, and can export them.
+
+9
+00:00:34,410 --> 00:00:37,400
+Staff chat with the assistants of their work.
+
+10
+00:00:38,150 --> 00:00:41,403
+Anonymous visitors only talk to a public assistant.
+
+11
+00:00:41,403 --> 00:00:44,370
+Each group is a role with its own permissions.
+
+12
+00:00:48,575 --> 00:00:52,268
+Open Access Control, Roles, and click Add Role.
+
+13
+00:00:52,268 --> 00:00:57,145
+Give it a name, AI builder, and a description, and click Create.
+
+14
+00:00:57,597 --> 00:00:59,270
+Then edit the role.
+
+15
+00:00:59,270 --> 00:01:02,280
+The permissions are grouped by feature.
+
+16
+00:01:02,280 --> 00:01:09,237
+Under AI Services, tick Manage AI profiles, Manage AI deployments and Manage AI profile templates.
+
+17
+00:01:09,707 --> 00:01:12,381
+Knowledge has its own permissions:
+
+18
+00:01:12,381 --> 00:01:17,327
+Manage AI data sources, Manage file sources and Manage web crawlers.
+
+19
+00:01:17,327 --> 00:01:20,001
+Tools and connections have theirs:
+
+20
+00:01:20,001 --> 00:01:26,217
+Manage AI tool instances, Manage MCP Connections and Manage Agent-to-Agent Connections.
+
+21
+00:01:29,326 --> 00:01:34,293
+Manage AI Provider Connections lets a person change the connections to your AI
+
+22
+00:01:34,293 --> 00:01:36,481
+services, so give it with care.
+
+23
+00:01:36,481 --> 00:01:37,486
+Click Save.
+
+24
+00:01:41,715 --> 00:01:45,566
+People who chat need permission to talk to a profile.
+
+25
+00:01:45,566 --> 00:01:48,699
+Query any AI profile covers every profile.
+
+26
+00:01:48,699 --> 00:01:54,965
+For one assistant only, tick Query AI profile for that profile, such as support-assistant.
+
+27
+00:01:55,421 --> 00:02:00,244
+Delete chat session lets people delete their own chats, and Delete all chat
+
+28
+00:02:00,244 --> 00:02:02,805
+sessions lets them delete everyone's.
+
+29
+00:02:02,805 --> 00:02:06,081
+Clear AI memory lets them clear their own memory.
+
+30
+00:02:06,532 --> 00:02:13,232
+View AI Chat Analytics opens the AI reports, and Export AI Chat Analytics allows the download.
+
+31
+00:02:13,232 --> 00:02:18,792
+Chat interactions have their own permissions, such as List chat interactions.
+
+32
+00:02:22,993 --> 00:02:24,940
+Tools are checked twice.
+
+33
+00:02:24,940 --> 00:02:30,000
+Access any AI tool opens every tool, and it is marked Security Critical.
+
+34
+00:02:30,000 --> 00:02:34,672
+Below it, each tool has its own Access permission, so you can open
+
+35
+00:02:34,672 --> 00:02:36,813
+only the ones a role needs.
+
+36
+00:02:37,263 --> 00:02:40,937
+For a public assistant, open the Anonymous role.
+
+37
+00:02:40,937 --> 00:02:44,748
+Tick only Query AI profile for the public profile.
+
+38
+00:02:44,748 --> 00:02:50,463
+Never give the Anonymous role Access any AI tool, or a way to manage anything.
+
+39
+00:02:54,663 --> 00:02:59,258
+The administrator has every permission, so a feature that works only for the
+
+40
+00:02:59,258 --> 00:03:01,723
+administrator is a permission problem.
+
+41
+00:03:02,473 --> 00:03:04,325
+Check the role of the person:
+
+42
+00:03:04,325 --> 00:03:07,765
+is the right permission ticked, in the right feature group?
+
+43
+00:03:07,765 --> 00:03:10,993
+For a chat, check the Query permission of that profile.
+
+44
+00:03:11,743 --> 00:03:15,784
+For a tool, check Access any AI tool or the permission of the
+
+45
+00:03:15,784 --> 00:03:19,403
+tool, and for a public chat, check the Anonymous role.
+
+46
+00:03:21,403 --> 00:03:25,314
+Create a role for each kind of person, give each only what it
+
+47
+00:03:25,314 --> 00:03:28,525
+needs, and keep tools and anonymous access tight.
+
+48
+00:03:28,525 --> 00:03:30,043
+Thanks for watching.
+
