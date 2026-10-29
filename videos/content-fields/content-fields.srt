@@ -1,0 +1,328 @@
+1
+00:00:01,000 --> 00:00:05,080
+Nearly every business site stores phone numbers and addresses.
+
+2
+00:00:05,080 --> 00:00:09,100
+This video shows the CrestApps Phone Field and Address Field:
+
+3
+00:00:09,100 --> 00:00:13,180
+why they exist, how to add them to a content type, how editors
+
+4
+00:00:13,180 --> 00:00:17,920
+fill them in, and how the list of countries and address suggestions work.
+
+5
+00:00:22,520 --> 00:00:25,115
+A branch has a front desk number.
+
+6
+00:00:25,115 --> 00:00:27,443
+A venue has a street address.
+
+7
+00:00:27,443 --> 00:00:30,038
+A customer has a billing address.
+
+8
+00:00:30,038 --> 00:00:32,500
+Contact details are everywhere.
+
+9
+00:00:33,250 --> 00:00:37,594
+In a plain text box, a phone number can be typed with spaces,
+
+10
+00:00:37,594 --> 00:00:43,040
+dashes or no country code, so the site cannot dial it, text it, or compare it.
+
+11
+00:00:43,790 --> 00:00:45,470
+Addresses are harder.
+
+12
+00:00:45,470 --> 00:00:49,764
+The United States has a state and a ZIP code, Canada a province
+
+13
+00:00:49,764 --> 00:00:54,431
+and a postal code, and the United Kingdom a post town and a postcode.
+
+14
+00:00:54,431 --> 00:00:56,920
+One fixed form suits none of them.
+
+15
+00:00:57,670 --> 00:01:01,301
+The Phone Field and the Address Field take the guesswork out.
+
+16
+00:01:01,301 --> 00:01:06,070
+They follow the country, check what is typed, and keep it in one consistent shape.
+
+17
+00:01:10,270 --> 00:01:14,334
+The Phone Field has a country flag picker, formats the number as you
+
+18
+00:01:14,334 --> 00:01:17,300
+type, and stores it in the international format.
+
+19
+00:01:18,050 --> 00:01:22,684
+The Address Field lays itself out the way the chosen country writes addresses,
+
+20
+00:01:22,684 --> 00:01:26,160
+and checks the postal code against the state or province.
+
+21
+00:01:26,910 --> 00:01:31,761
+The Address Countries feature keeps the countries your site serves as a list
+
+22
+00:01:31,761 --> 00:01:34,660
+that you can rename, add to or remove from.
+
+23
+00:01:35,410 --> 00:01:37,940
+Address suggestions are optional.
+
+24
+00:01:37,940 --> 00:01:43,260
+With a Google Places key, the field suggests addresses as a street is typed.
+
+25
+00:01:47,472 --> 00:01:53,656
+Open Design, Content Definition, Content Types, and edit the type that needs a phone number.
+
+26
+00:01:53,656 --> 00:01:55,612
+Here it is Branch Office.
+
+27
+00:01:56,984 --> 00:02:01,405
+Click Add Field, type the name editors will see, such as Main phone,
+
+28
+00:02:01,405 --> 00:02:03,974
+and choose Phone Field from the list.
+
+29
+00:02:03,974 --> 00:02:06,124
+Then click Save and Configure.
+
+30
+00:02:07,337 --> 00:02:11,300
+Required makes editors enter a number before they can save.
+
+31
+00:02:11,300 --> 00:02:14,227
+The Hint is help text under the phone box.
+
+32
+00:02:14,679 --> 00:02:19,135
+Initial country decides which flag is selected when the box is empty.
+
+33
+00:02:19,135 --> 00:02:24,721
+Globe selects no country, Current culture uses the editor's country, and Specific always
+
+34
+00:02:24,721 --> 00:02:27,039
+starts on the country you choose.
+
+35
+00:02:27,496 --> 00:02:31,895
+If most of your numbers are in one country, choose Specific and pick
+
+36
+00:02:31,895 --> 00:02:33,857
+it, here the United States.
+
+37
+00:02:33,857 --> 00:02:35,106
+Save the field.
+
+38
+00:02:39,285 --> 00:02:41,792
+Add an address in the same way.
+
+39
+00:02:41,792 --> 00:02:48,025
+Click Add Field, name it Location, choose Address Field, and click Save and Configure.
+
+40
+00:02:48,476 --> 00:02:53,504
+Required forces an address to be entered, and the Hint appears above it.
+
+41
+00:02:53,504 --> 00:02:57,565
+Ask for a recipient name, Ask for a company and Ask for a
+
+42
+00:02:57,565 --> 00:03:00,272
+phone number choose the extra lines.
+
+43
+00:03:00,272 --> 00:03:04,656
+A branch needs only the company, so untick the recipient name.
+
+44
+00:03:05,121 --> 00:03:11,423
+Countries offered limits the choice to the countries you serve, here the United States and Canada.
+
+45
+00:03:11,423 --> 00:03:14,090
+Leave it empty to offer every country.
+
+46
+00:03:14,090 --> 00:03:17,241
+Default country is where a new address starts.
+
+47
+00:03:17,702 --> 00:03:19,018
+Save the field.
+
+48
+00:03:19,018 --> 00:03:22,842
+The content type now has a phone number and an address.
+
+49
+00:03:27,053 --> 00:03:28,979
+Create a new Branch Office.
+
+50
+00:03:28,979 --> 00:03:33,529
+The editor sees the Main phone box with the United States flag selected,
+
+51
+00:03:33,529 --> 00:03:35,863
+and the Location address below it.
+
+52
+00:03:36,313 --> 00:03:40,790
+Click the flag to choose another country, here Canada, and type the number.
+
+53
+00:03:40,790 --> 00:03:44,383
+The box formats it as you type, and the item keeps the full
+
+54
+00:03:44,383 --> 00:03:47,423
+international number with the country you picked.
+
+55
+00:03:47,875 --> 00:03:53,107
+In the address, the country comes first and the rest of the form follows it.
+
+56
+00:03:53,107 --> 00:03:57,575
+For the United States, the form asks for a State and a ZIP code.
+
+57
+00:03:58,027 --> 00:04:02,435
+Choose Canada, and the form changes to Province and Postal code, in the
+
+58
+00:04:02,435 --> 00:04:04,896
+order Canadian addresses are written.
+
+59
+00:04:04,896 --> 00:04:09,647
+Fill in the street and the city, choose a province, and type the postal code.
+
+60
+00:04:10,097 --> 00:04:12,903
+The address is checked against its country.
+
+61
+00:04:12,903 --> 00:04:17,198
+A postal code that does not belong to the chosen province is refused,
+
+62
+00:04:17,198 --> 00:04:19,317
+and the field says what to fix.
+
+63
+00:04:19,771 --> 00:04:22,194
+Choose the right province, and publish.
+
+64
+00:04:22,194 --> 00:04:26,502
+The saved item shows the phone number grouped for reading, and the address
+
+65
+00:04:26,502 --> 00:04:28,871
+printed the way its country writes it.
+
+66
+00:04:33,090 --> 00:04:38,708
+With Address Countries on, every country is a content item of the type Country.
+
+67
+00:04:38,708 --> 00:04:43,070
+Open Content, Content Items, and filter by the Country type.
+
+68
+00:04:43,525 --> 00:04:47,663
+Edit a country to rename it, or use New Country to add one.
+
+69
+00:04:47,663 --> 00:04:53,265
+Delete the countries your site does not serve, and the fields offer only the rest.
+
+70
+00:04:57,484 --> 00:04:59,899
+Open Settings, Address suggestions.
+
+71
+00:04:59,899 --> 00:05:04,908
+The page explains that suggestions come from Google Places, and that you create
+
+72
+00:05:04,908 --> 00:05:08,384
+a key for the Places API in the Google Cloud console.
+
+73
+00:05:08,873 --> 00:05:12,635
+Paste the key in the Google Places API key box and save.
+
+74
+00:05:12,635 --> 00:05:16,154
+The key is kept on the server and never shown again.
+
+75
+00:05:16,154 --> 00:05:19,673
+Without a key, people type their address themselves.
+
+76
+00:05:23,873 --> 00:05:29,893
+Branch, office and venue pages with a clickable phone number and a correct address.
+
+77
+00:05:30,643 --> 00:05:35,443
+Contacts and customers whose phone numbers must be dialled or texted.
+
+78
+00:05:36,193 --> 00:05:40,153
+Billing and shipping addresses that follow each country's rules.
+
+79
+00:05:40,903 --> 00:05:46,303
+Sites that serve only some countries, with exactly those countries on offer.
+
+80
+00:05:48,303 --> 00:05:52,258
+Add the Phone Field and the Address Field to a content type once,
+
+81
+00:05:52,258 --> 00:05:56,936
+and every editor gets a box that follows the country and checks what is typed.
+
+82
+00:05:56,936 --> 00:05:58,383
+Thanks for watching.
+

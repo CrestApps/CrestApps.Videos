@@ -1,0 +1,52 @@
+1
+00:00:03,212 --> 00:00:09,396
+Open Design, Content Definition, Content Types, and edit the type that needs a phone number.
+
+2
+00:00:09,396 --> 00:00:11,352
+Here it is Branch Office.
+
+3
+00:00:12,724 --> 00:00:17,145
+Click Add Field, type the name editors will see, such as Main phone,
+
+4
+00:00:17,145 --> 00:00:19,714
+and choose Phone Field from the list.
+
+5
+00:00:19,714 --> 00:00:21,864
+Then click Save and Configure.
+
+6
+00:00:23,077 --> 00:00:27,040
+Required makes editors enter a number before they can save.
+
+7
+00:00:27,040 --> 00:00:29,967
+The Hint is help text under the phone box.
+
+8
+00:00:30,419 --> 00:00:34,875
+Initial country decides which flag is selected when the box is empty.
+
+9
+00:00:34,875 --> 00:00:40,461
+Globe selects no country, Current culture uses the editor's country, and Specific always
+
+10
+00:00:40,461 --> 00:00:42,779
+starts on the country you choose.
+
+11
+00:00:43,236 --> 00:00:47,635
+If most of your numbers are in one country, choose Specific and pick
+
+12
+00:00:47,635 --> 00:00:49,597
+it, here the United States.
+
+13
+00:00:49,597 --> 00:00:50,846
+Save the field.
+

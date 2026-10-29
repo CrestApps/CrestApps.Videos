@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.180 --> 00:00:05.687
+Add an address in the same way.
+
+00:00:05.687 --> 00:00:11.920
+Click Add Field, name it Location, choose Address Field, and click Save and Configure.
+
+00:00:12.370 --> 00:00:17.398
+Required forces an address to be entered, and the Hint appears above it.
+
+00:00:17.398 --> 00:00:21.459
+Ask for a recipient name, Ask for a company and Ask for a
+
+00:00:21.459 --> 00:00:24.167
+phone number choose the extra lines.
+
+00:00:24.167 --> 00:00:28.550
+A branch needs only the company, so untick the recipient name.
+
+00:00:29.016 --> 00:00:35.318
+Countries offered limits the choice to the countries you serve, here the United States and Canada.
+
+00:00:35.318 --> 00:00:37.984
+Leave it empty to offer every country.
+
+00:00:37.984 --> 00:00:41.136
+Default country is where a new address starts.
+
+00:00:41.596 --> 00:00:42.913
+Save the field.
+
+00:00:42.913 --> 00:00:46.736
+The content type now has a phone number and an address.
+

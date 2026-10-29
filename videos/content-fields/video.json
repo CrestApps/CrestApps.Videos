@@ -1,0 +1,96 @@
+{
+  "title": "Phone and Address Fields: Contact Details That Follow the Country | CrestApps for Orchard Core",
+  "description": "A plain text box accepts any phone number and any address, so the site cannot dial the number or trust the address. The CrestApps Phone Field and Address Field follow the country: the phone box has a flag picker and stores one international format, and the address lays itself out the way the chosen country writes addresses and checks the postal code against the state or province.\n\nIn this video:\n• Why contact details need special fields\n• What the Phone Field, the Address Field, Address Countries and address suggestions do\n• Adding a Phone Field to a content type: required, hint and initial country\n• Adding an Address Field: extra lines, countries offered and default country\n• What an editor sees: the flag picker, the layout that follows the country, and checks on the postal code\n• Managing the list of countries your site serves\n• Optional address suggestions from Google Places\n• Four ways to use the fields",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "phone field",
+    "address field",
+    "content fields",
+    "address validation",
+    "phone number input",
+    "country list",
+    "Google Places",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why special fields for contact details"
+    },
+    {
+      "time": "1:07",
+      "title": "What you get"
+    },
+    {
+      "time": "1:44",
+      "title": "Add a phone field"
+    },
+    {
+      "time": "2:36",
+      "title": "Add an address field"
+    },
+    {
+      "time": "3:23",
+      "title": "Enter a phone number and an address"
+    },
+    {
+      "time": "4:29",
+      "title": "Manage the countries"
+    },
+    {
+      "time": "4:54",
+      "title": "Address suggestions"
+    },
+    {
+      "time": "5:20",
+      "title": "What to use it for"
+    },
+    {
+      "time": "5:47",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/content-fields"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/content-fields"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContentFields"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/content-fields.md",
+    "src/CrestApps.Docs/docs/modules/content-fields.md",
+    "src/CrestApps.Docs/docs/modules/addresses.md"
+  ],
+  "length": "5:59"
+}

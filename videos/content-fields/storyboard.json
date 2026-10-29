@@ -1,0 +1,276 @@
+{
+  "title": "Phone and Address Fields",
+  "output": "content-fields",
+  "spoken": {
+    "ZIP": "zip"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Phone and Address Fields",
+      "subtitle": "Contact details that follow the country",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Nearly every business site stores phone numbers and addresses. This video shows the CrestApps Phone Field and Address Field: why they exist, how to add them to a content type, how editors fill them in, and how the list of countries and address suggestions work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why special fields for contact details",
+      "subtitle": "A text box accepts anything",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A branch has a front desk number. A venue has a street address. A customer has a billing address. Contact details are everywhere."
+            },
+            {
+              "id": "why-2",
+              "text": "In a plain text box, a phone number can be typed with spaces, dashes or no country code, so the site cannot dial it, text it, or compare it."
+            },
+            {
+              "id": "why-3",
+              "text": "Addresses are harder. The United States has a state and a ZIP code, Canada a province and a postal code, and the United Kingdom a post town and a postcode. One fixed form suits none of them."
+            },
+            {
+              "id": "why-4",
+              "text": "The Phone Field and the Address Field take the guesswork out. They follow the country, check what is typed, and keep it in one consistent shape."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What you get",
+      "subtitle": "Two fields, a country list and optional suggestions",
+      "clips": [
+        {
+          "id": "02-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "The Phone Field has a country flag picker, formats the number as you type, and stores it in the international format."
+            },
+            {
+              "id": "what-2",
+              "text": "The Address Field lays itself out the way the chosen country writes addresses, and checks the postal code against the state or province."
+            },
+            {
+              "id": "what-3",
+              "text": "The Address Countries feature keeps the countries your site serves as a list that you can rename, add to or remove from."
+            },
+            {
+              "id": "what-4",
+              "text": "Address suggestions are optional. With a Google Places key, the field suggests addresses as a street is typed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add a phone field",
+      "subtitle": "Required, hint and starting country",
+      "clips": [
+        {
+          "id": "03-phone",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "phone-1",
+              "text": "Open Design, Content Definition, Content Types, and edit the type that needs a phone number. Here it is Branch Office."
+            },
+            {
+              "id": "phone-2",
+              "text": "Click Add Field, type the name editors will see, such as Main phone, and choose Phone Field from the list. Then click Save and Configure."
+            },
+            {
+              "id": "phone-3",
+              "text": "Required makes editors enter a number before they can save. The Hint is help text under the phone box."
+            },
+            {
+              "id": "phone-4",
+              "text": "Initial country decides which flag is selected when the box is empty. Globe selects no country, Current culture uses the editor's country, and Specific always starts on the country you choose."
+            },
+            {
+              "id": "phone-5",
+              "text": "If most of your numbers are in one country, choose Specific and pick it, here the United States. Save the field."
+            }
+          ]
+        }
+      ],
+      "short": "phone"
+    },
+    {
+      "id": "04",
+      "title": "Add an address field",
+      "subtitle": "Fields to ask for and countries to offer",
+      "clips": [
+        {
+          "id": "04-address",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "address-1",
+              "text": "Add an address in the same way. Click Add Field, name it Location, choose Address Field, and click Save and Configure."
+            },
+            {
+              "id": "address-2",
+              "text": "Required forces an address to be entered, and the Hint appears above it. Ask for a recipient name, Ask for a company and Ask for a phone number choose the extra lines. A branch needs only the company, so untick the recipient name."
+            },
+            {
+              "id": "address-3",
+              "text": "Countries offered limits the choice to the countries you serve, here the United States and Canada. Leave it empty to offer every country. Default country is where a new address starts."
+            },
+            {
+              "id": "address-4",
+              "text": "Save the field. The content type now has a phone number and an address."
+            }
+          ]
+        }
+      ],
+      "short": "address"
+    },
+    {
+      "id": "05",
+      "title": "Enter a phone number and an address",
+      "subtitle": "What the editor sees",
+      "clips": [
+        {
+          "id": "05-enter",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "enter-1",
+              "text": "Create a new Branch Office. The editor sees the Main phone box with the United States flag selected, and the Location address below it."
+            },
+            {
+              "id": "enter-2",
+              "text": "Click the flag to choose another country, here Canada, and type the number. The box formats it as you type, and the item keeps the full international number with the country you picked."
+            },
+            {
+              "id": "enter-3",
+              "text": "In the address, the country comes first and the rest of the form follows it. For the United States, the form asks for a State and a ZIP code."
+            },
+            {
+              "id": "enter-4",
+              "text": "Choose Canada, and the form changes to Province and Postal code, in the order Canadian addresses are written. Fill in the street and the city, choose a province, and type the postal code."
+            },
+            {
+              "id": "enter-5",
+              "text": "The address is checked against its country. A postal code that does not belong to the chosen province is refused, and the field says what to fix."
+            },
+            {
+              "id": "enter-6",
+              "text": "Choose the right province, and publish. The saved item shows the phone number grouped for reading, and the address printed the way its country writes it."
+            }
+          ]
+        }
+      ],
+      "short": "enter"
+    },
+    {
+      "id": "06",
+      "title": "Manage the countries",
+      "subtitle": "Rename, add or remove",
+      "clips": [
+        {
+          "id": "06-countries",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "countries-1",
+              "text": "With Address Countries on, every country is a content item of the type Country. Open Content, Content Items, and filter by the Country type."
+            },
+            {
+              "id": "countries-2",
+              "text": "Edit a country to rename it, or use New Country to add one. Delete the countries your site does not serve, and the fields offer only the rest."
+            }
+          ]
+        }
+      ],
+      "short": "countries"
+    },
+    {
+      "id": "07",
+      "title": "Address suggestions",
+      "subtitle": "Optional help while typing a street",
+      "clips": [
+        {
+          "id": "07-suggestions",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "suggestions-1",
+              "text": "Open Settings, Address suggestions. The page explains that suggestions come from Google Places, and that you create a key for the Places API in the Google Cloud console."
+            },
+            {
+              "id": "suggestions-2",
+              "text": "Paste the key in the Google Places API key box and save. The key is kept on the server and never shown again. Without a key, people type their address themselves."
+            }
+          ]
+        }
+      ],
+      "short": "suggestions"
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Branch, office and venue pages with a clickable phone number and a correct address."
+            },
+            {
+              "id": "use-2",
+              "text": "Contacts and customers whose phone numbers must be dialled or texted."
+            },
+            {
+              "id": "use-3",
+              "text": "Billing and shipping addresses that follow each country's rules."
+            },
+            {
+              "id": "use-4",
+              "text": "Sites that serve only some countries, with exactly those countries on offer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add the Phone Field and the Address Field to a content type once, and every editor gets a box that follows the country and checks what is typed. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

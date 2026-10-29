@@ -1,0 +1,16 @@
+1
+00:00:03,219 --> 00:00:08,837
+With Address Countries on, every country is a content item of the type Country.
+
+2
+00:00:08,837 --> 00:00:13,199
+Open Content, Content Items, and filter by the Country type.
+
+3
+00:00:13,654 --> 00:00:17,792
+Edit a country to rename it, or use New Country to add one.
+
+4
+00:00:17,792 --> 00:00:23,394
+Delete the countries your site does not serve, and the fields offer only the rest.
+
