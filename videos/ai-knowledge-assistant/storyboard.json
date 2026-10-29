@@ -1,0 +1,202 @@
+{
+  "title": "Build an AI Knowledge Assistant",
+  "output": "ai-knowledge-assistant",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Build an AI Knowledge Assistant",
+      "subtitle": "An assistant that knows your company",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An assistant that knows your company. This video builds one: you give an AI profile your documents and the articles of your site, then test that it answers from them, shows where each answer came from, and says so when it does not know."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What you get",
+      "subtitle": "An assistant that answers from your knowledge",
+      "clips": [
+        {
+          "id": "01-get",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "get-1",
+              "text": "An AI profile that searches your documents and your data before it answers."
+            },
+            {
+              "id": "get-2",
+              "text": "Answers that show where they came from, as numbered sources."
+            },
+            {
+              "id": "get-3",
+              "text": "If you want, an assistant that answers only from your knowledge, and says so when it cannot find the answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "What has to be ready",
+      "clips": [
+        {
+          "id": "02-before",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pre-1",
+              "text": "The knowledge is kept in search indexes, on a search service that your technical team provides."
+            },
+            {
+              "id": "pre-2",
+              "text": "You need an AI connection with a chat deployment and an embedding deployment, and the permission to manage AI profiles and data sources."
+            },
+            {
+              "id": "pre-3",
+              "text": "Here, the documents index and a data source of the help articles are ready. The earlier videos show how to create them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Upload your documents",
+      "subtitle": "Background knowledge for the profile",
+      "clips": [
+        {
+          "id": "03-upload",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "up-1",
+              "text": "Open the profile, open the Knowledge tab, and upload your document. Here it is the return policy. It shows a Pending badge until you save."
+            },
+            {
+              "id": "up-2",
+              "text": "Documents on a profile are background knowledge for every conversation with it. Replace one by removing it and uploading the new version."
+            }
+          ]
+        }
+      ],
+      "short": "upload"
+    },
+    {
+      "id": "04",
+      "title": "Connect your site's content",
+      "subtitle": "A data source and a strict assistant",
+      "clips": [
+        {
+          "id": "04-connect",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "Next, the content of your site. On the same tab, choose the Help articles data source."
+            },
+            {
+              "id": "con-2",
+              "text": "Tick Restrict answers to retrieved data only, so that the assistant never answers from general knowledge."
+            },
+            {
+              "id": "con-3",
+              "text": "Click Save. The document is read, split into passages, and indexed."
+            }
+          ]
+        }
+      ],
+      "short": "connect"
+    },
+    {
+      "id": "05",
+      "title": "Test it",
+      "subtitle": "Three questions",
+      "clips": [
+        {
+          "id": "05-test",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tst-1",
+              "text": "Open a chat with the profile, and ask a question that only your document answers: can I return opened software?"
+            },
+            {
+              "id": "tst-2",
+              "text": "The assistant answers from the document: opened software cannot be returned."
+            },
+            {
+              "id": "tst-3",
+              "text": "Now ask a question that an article of the site answers: how long does express shipping take?"
+            },
+            {
+              "id": "tst-4",
+              "text": "The answer comes from the article. It carries a small number, and the numbered source under it names the article."
+            },
+            {
+              "id": "tst-5",
+              "text": "Finally, ask something that your knowledge does not cover: what is the favorite color of the C.E.O.?"
+            },
+            {
+              "id": "tst-6",
+              "text": "Because answers are restricted, the assistant says that it cannot find it, instead of guessing."
+            }
+          ]
+        }
+      ],
+      "short": "test"
+    },
+    {
+      "id": "06",
+      "title": "Tips",
+      "subtitle": "Keep the knowledge good",
+      "clips": [
+        {
+          "id": "06-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Start with a few good, current documents, rather than everything you have. Out of date files lead to out of date answers."
+            },
+            {
+              "id": "tip-2",
+              "text": "Change a page, and a data source follows. Replace a document, by removing the old one from the profile and uploading the new one."
+            },
+            {
+              "id": "tip-3",
+              "text": "To let people ask about their own files, allow session document uploads on the profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Upload documents, connect a data source, restrict the answers, and test. Your assistant now answers from your own knowledge. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

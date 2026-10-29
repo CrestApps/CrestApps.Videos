@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.175 --> 00:00:08.210
+Open a chat with the profile, and ask a question that only your document answers:
+
+00:00:08.210 --> 00:00:10.235
+can I return opened software?
+
+00:00:10.687 --> 00:00:13.326
+The assistant answers from the document:
+
+00:00:13.326 --> 00:00:15.677
+opened software cannot be returned.
+
+00:00:16.144 --> 00:00:19.514
+Now ask a question that an article of the site answers:
+
+00:00:19.514 --> 00:00:21.834
+how long does express shipping take?
+
+00:00:22.297 --> 00:00:24.381
+The answer comes from the article.
+
+00:00:24.381 --> 00:00:28.757
+It carries a small number, and the numbered source under it names the article.
+
+00:00:29.210 --> 00:00:32.888
+Finally, ask something that your knowledge does not cover:
+
+00:00:32.888 --> 00:00:35.590
+what is the favorite color of the C.E.O.?
+
+00:00:36.083 --> 00:00:41.773
+Because answers are restricted, the assistant says that it cannot find it, instead of guessing.
+
