@@ -1,0 +1,277 @@
+{
+  "title": "Markets",
+  "output": "markets",
+  "spoken": {
+    "VAT": "VAT",
+    "EUR": "E.U.R."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Markets",
+      "subtitle": "Sell abroad in the shopper's currency",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A market adds a currency and an exchange rate for the shoppers of certain countries. This video shows why markets exist, how they fit together, and how to use every screen, from adding a market to the checkout with tax included."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why markets",
+      "subtitle": "Sell abroad in the shopper's currency",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shopper abroad who sees prices in a currency they do not use will often leave. They cannot tell what they would really pay."
+            },
+            {
+              "id": "why-2",
+              "text": "Pricing every product again for every country is a job that never ends, and rates move."
+            },
+            {
+              "id": "why-3",
+              "text": "A market adds a currency and an exchange rate for the shoppers of certain countries, and converts your prices for them."
+            },
+            {
+              "id": "why-4",
+              "text": "The shop, the cart, the checkout and the order all use the market's currency, and prices can include the tax shoppers expect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Markets, the picker and the rules",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Your store has one currency of its own. A market adds another, with an exchange rate, for the countries you choose."
+            },
+            {
+              "id": "how-2",
+              "text": "A price you enter in the market's currency is used as it is. Any other price is converted at the rate, and rounded up."
+            },
+            {
+              "id": "how-3",
+              "text": "A market picker in the storefront lets shoppers choose their market, and the storefront remembers it."
+            },
+            {
+              "id": "how-4",
+              "text": "A product can be left out of a market, shipping can have prices in the market's currency, and a market can include tax in its prices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add a market",
+      "subtitle": "Countries, currency and rate",
+      "clips": [
+        {
+          "id": "03-market",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mkt-1",
+              "text": "Open Commerce, Markets, and click Add market. Every shopper sees your store's own prices until you add a market."
+            },
+            {
+              "id": "mkt-2",
+              "text": "Enter a Name, such as Europe, which shoppers see in the market picker. Countries are two letter codes separated by commas, such as DE, FR and IT. A country can be in one market only."
+            },
+            {
+              "id": "mkt-3",
+              "text": "Enter the Currency, such as EUR, and the Exchange rate: how much of that currency one unit of your store's currency is worth. Your prices are multiplied by it."
+            },
+            {
+              "id": "mkt-4",
+              "text": "Price rounding rounds a converted price up, to the cent, to a whole amount, or to .99 or .95. Prices include tax takes the tax out of the prices, and On offers the market. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The market picker",
+      "subtitle": "What a shopper sees",
+      "clips": [
+        {
+          "id": "04-picker",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pick-1",
+              "text": "When a market is on, the storefront's top bar shows a market picker. Click it, and Shop in lists your markets, and Everywhere else, which shows your store's own prices."
+            },
+            {
+              "id": "pick-2",
+              "text": "Choose Europe. Every price switches to euros: converted at the rate, and rounded up by the rule. The storefront remembers the choice."
+            },
+            {
+              "id": "pick-3",
+              "text": "Add a product to the cart. The cart, the checkout and the order are all in euros."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Leave a product out of a market",
+      "subtitle": "Not sold in",
+      "clips": [
+        {
+          "id": "05-notsold",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "out-1",
+              "text": "Some products cannot be sold everywhere. On the product's editor, under Not sold in, tick the markets it is not sold in, and click Publish."
+            },
+            {
+              "id": "out-2",
+              "text": "Shoppers in that market still find the product in listings, but its card says Not sold in, with the market's name, instead of Add to cart."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Shipping in a market",
+      "subtitle": "Methods in the market's currency",
+      "clips": [
+        {
+          "id": "06-shipping",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shp-1",
+              "text": "Each shipping method has a Currency. Open Shipping, edit a zone, and click Add method."
+            },
+            {
+              "id": "shp-2",
+              "text": "Choose Flat rate, name it, set its Currency to EUR, and enter an Amount. For a shopper in the market, methods in the market's currency are offered as they are. Without one, the methods in your store's currency are converted at the rate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Prices that include tax",
+      "subtitle": "The checkout in a market",
+      "clips": [
+        {
+          "id": "07-checkout",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "At checkout, a shopper in Europe sees the order in euros, and shipping in euros too."
+            },
+            {
+              "id": "chk-2",
+              "text": "With Prices include tax on, the tax from your tax rules is taken out of the price, and the order summary shows it as included, such as VAT 19 percent. The shopper pays the price they saw."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "What markets do not change",
+      "subtitle": "Limits and languages",
+      "clips": [
+        {
+          "id": "08-limits",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "lim-1",
+              "text": "A market can set a Language, which the storefront switches to, and the order's emails are written in it. The languages are your site's languages."
+            },
+            {
+              "id": "lim-2",
+              "text": "Listing sorts and price filters work in your store's currency, and reports keep each order in the currency it was paid in."
+            },
+            {
+              "id": "lim-3",
+              "text": "Exchange rates do not update by themselves. Check them now and then, and edit the market when a rate moves."
+            },
+            {
+              "id": "lim-4",
+              "text": "The admin always shows your store's own prices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Four ways to use markets",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Selling in Europe: one market for several countries, in euros, with VAT included."
+            },
+            {
+              "id": "use-2",
+              "text": "A country of its own: a market for one country, with its own currency and rounding."
+            },
+            {
+              "id": "use-3",
+              "text": "Tidy prices: round up to .99 or a whole amount so converted prices look intended."
+            },
+            {
+              "id": "use-4",
+              "text": "Restricted goods: leave a product out of the markets where it cannot be sold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add a market, let shoppers pick it, and every price, cart and order follows their currency. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

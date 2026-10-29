@@ -1,0 +1,97 @@
+{
+  "title": "Markets: Sell Abroad in the Shopper's Currency | CrestApps for Orchard Core",
+  "description": "A shopper abroad who sees prices in a currency they do not use will often leave. The CrestApps Markets module adds a currency and an exchange rate for the shoppers of the countries you choose, converts your prices for them with the rounding you like, and carries it through the cart, the checkout and the order, with the tax they expect included in the price.\n\nIn this video:\n• Why markets, and how a market, the picker and the rules fit together\n• Adding a market: countries, currency, exchange rate, rounding and tax\n• The market picker on the storefront\n• Leaving a product out of a market\n• Shipping methods in a market's currency\n• The checkout with prices that include tax\n• What markets do not change, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "markets",
+    "multi-currency",
+    "exchange rate",
+    "VAT",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why markets"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:29",
+      "title": "Add a market"
+    },
+    {
+      "time": "2:21",
+      "title": "The market picker"
+    },
+    {
+      "time": "2:52",
+      "title": "Leave a product out of a market"
+    },
+    {
+      "time": "3:15",
+      "title": "Shipping in a market"
+    },
+    {
+      "time": "3:42",
+      "title": "Prices that include tax"
+    },
+    {
+      "time": "4:05",
+      "title": "What markets do not change"
+    },
+    {
+      "time": "4:38",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:10",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Markets (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/markets"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/markets"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Markets"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/markets.md",
+    "src/CrestApps.Docs/docs/modules/markets.md"
+  ],
+  "length": "5:20"
+}
