@@ -1,0 +1,72 @@
+1
+00:00:03,202 --> 00:00:08,223
+A queue's shared voicemail box lets a team share the messages left on a line:
+
+2
+00:00:08,223 --> 00:00:12,640
+anyone can claim a message, call back, and mark it done, so nothing
+
+3
+00:00:12,640 --> 00:00:16,088
+is missed and nobody calls the same customer twice.
+
+4
+00:00:16,088 --> 00:00:18,992
+Open Interaction Center, Shared voicemail.
+
+5
+00:00:19,489 --> 00:00:24,506
+Filter by queue, which is All my queues by default, and by status:
+
+6
+00:00:24,506 --> 00:00:29,035
+Open, which is new and claimed, New, Claimed, Done, or All.
+
+7
+00:00:29,035 --> 00:00:30,707
+Then click Filter.
+
+8
+00:00:30,707 --> 00:00:34,609
+You see the queues on your own entitlement record.
+
+9
+00:00:36,209 --> 00:00:39,905
+Play a message, then click I'll handle this to claim it, so the
+
+10
+00:00:39,905 --> 00:00:42,101
+rest of the team knows it is yours.
+
+11
+00:00:42,101 --> 00:00:43,976
+It then shows Claimed by you.
+
+12
+00:00:43,976 --> 00:00:47,779
+Click Call back to call the caller back from your own soft phone.
+
+13
+00:00:48,529 --> 00:00:52,801
+When you are finished, click Mark done and add an optional note.
+
+14
+00:00:52,801 --> 00:00:57,989
+Return to queue releases your claim, and Reopen brings back a finished message.
+
+15
+00:00:58,739 --> 00:01:03,431
+Take over claims a message someone else is holding, and Delete removes a
+
+16
+00:01:03,431 --> 00:01:05,777
+message and erases its recording.
+
+17
+00:01:05,777 --> 00:01:11,491
+Both need the permission to manage shared queue voicemail, which the Supervisor role has.
+
+18
+00:01:11,491 --> 00:01:14,559
+A message under legal hold cannot be deleted.
+

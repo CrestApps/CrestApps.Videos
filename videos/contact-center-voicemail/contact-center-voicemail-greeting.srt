@@ -1,0 +1,60 @@
+1
+00:00:03,177 --> 00:00:06,337
+Open Interaction Center, My voicemail greeting.
+
+2
+00:00:06,337 --> 00:00:10,689
+Your greeting is what callers hear before they leave you a message.
+
+3
+00:00:10,689 --> 00:00:14,147
+If you do not set one, the default greeting is used.
+
+4
+00:00:14,675 --> 00:00:17,539
+Record with microphone is the default.
+
+5
+00:00:17,539 --> 00:00:22,031
+Click Record, speak, then click Stop, which is the same button.
+
+6
+00:00:22,031 --> 00:00:27,825
+If your browser cannot record, the page says so, and you can upload a file instead.
+
+7
+00:00:28,290 --> 00:00:32,505
+Choose Upload a file to pick an audio file:
+
+8
+00:00:32,505 --> 00:00:34,655
+M.P.3, wave, O.G.G.
+
+9
+00:00:34,655 --> 00:00:38,010
+or web M, up to twenty megabytes.
+
+10
+00:00:38,473 --> 00:00:41,518
+Listen to the Preview, and click Save greeting.
+
+11
+00:00:41,518 --> 00:00:46,230
+The platform keeps the master copy, and sends it to whichever phone provider
+
+12
+00:00:46,230 --> 00:00:47,953
+a caller reaches you on.
+
+13
+00:00:48,404 --> 00:00:50,888
+Remove greeting goes back to the default.
+
+14
+00:00:50,888 --> 00:00:54,851
+When you have no greeting of your own, callers hear the entry point's
+
+15
+00:00:54,851 --> 00:00:59,184
+Default voicemail greeting, and when that is empty too, a built-in greeting.
+

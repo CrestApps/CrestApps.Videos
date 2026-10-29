@@ -1,0 +1,250 @@
+{
+  "title": "Voicemail",
+  "output": "contact-center-voicemail",
+  "spoken": {
+    "MP3": "M.P.3",
+    "WAV": "wave",
+    "OGG": "O.G.G.",
+    "WebM": "web M"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Voicemail",
+      "subtitle": "Your greeting, your messages and the team's shared box",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Voicemail catches the calls nobody can answer. This video shows why it matters, where a message goes, how to record your greeting, how to listen to your messages, and how a team works a shared voicemail box."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why voicemail",
+      "subtitle": "No call should disappear",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Agents step away, queues fill up, and calls arrive after hours. A caller who reaches nobody and hears silence rarely calls again."
+            },
+            {
+              "id": "why-2",
+              "text": "A caller who can leave a message is still a customer. But a message that sits unheard is no better than a missed call."
+            },
+            {
+              "id": "why-3",
+              "text": "So voicemail has two sides: a greeting that tells the caller what to do, and a way to make sure someone listens and calls back, exactly once."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Where a message goes",
+      "subtitle": "Your own inbox, or the queue's shared box",
+      "clips": [
+        {
+          "id": "02-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "Voicemail goes to one of two places, chosen on the inbound entry point. The first is your own inbox, which you play from the soft phone's Voicemail tab."
+            },
+            {
+              "id": "where-2",
+              "text": "The second is a queue's shared voicemail box, which the whole team works from Interaction Center, Shared voicemail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Record your greeting",
+      "subtitle": "What callers hear before the beep",
+      "clips": [
+        {
+          "id": "03-greeting",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "greet-1",
+              "text": "Open Interaction Center, My voicemail greeting. Your greeting is what callers hear before they leave you a message. If you do not set one, the default greeting is used."
+            },
+            {
+              "id": "greet-2",
+              "text": "Record with microphone is the default. Click Record, speak, then click Stop, which is the same button. If your browser cannot record, the page says so, and you can upload a file instead."
+            },
+            {
+              "id": "greet-3",
+              "text": "Choose Upload a file to pick an audio file: M.P.3, wave, O.G.G. or web M, up to twenty megabytes."
+            },
+            {
+              "id": "greet-4",
+              "text": "Listen to the Preview, and click Save greeting. The platform keeps the master copy, and sends it to whichever phone provider a caller reaches you on."
+            },
+            {
+              "id": "greet-5",
+              "text": "Remove greeting goes back to the default. When you have no greeting of your own, callers hear the entry point's Default voicemail greeting, and when that is empty too, a built-in greeting."
+            }
+          ]
+        }
+      ],
+      "short": "greeting"
+    },
+    {
+      "id": "04",
+      "title": "Listen to your voicemail",
+      "subtitle": "The soft phone's Voicemail tab",
+      "clips": [
+        {
+          "id": "04-listen",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "listen-1",
+              "text": "Open the soft phone and choose the Voicemail tab. A badge on the tab shows how many messages are unread. Opening the tab marks them read, and clears the badge."
+            },
+            {
+              "id": "listen-2",
+              "text": "Each message shows the caller's number and the time. Here there are no messages yet. Play a message with the play button on its row; the player keeps the caller's number and time in view. Every playback is recorded in the audit trail under your name."
+            },
+            {
+              "id": "listen-3",
+              "text": "When there are messages, you can delete them: tick one or more rows, or select all, and click Delete. Deleting removes the message and erases its recording. A message under legal hold must be kept, and the row says so."
+            }
+          ]
+        }
+      ],
+      "short": "listen"
+    },
+    {
+      "id": "05",
+      "title": "Whose inbox a voicemail goes to",
+      "subtitle": "Exactly the messages in your own tab",
+      "clips": [
+        {
+          "id": "05-inbox",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "inbox-1",
+              "text": "You can play and delete exactly the voicemails in your own Voicemail tab. Nobody can play or delete a message in another person's inbox."
+            },
+            {
+              "id": "inbox-2",
+              "text": "A call to you that you did not answer goes to your inbox, and so does a message when you clicked Voicemail on a ringing call."
+            },
+            {
+              "id": "inbox-3",
+              "text": "A queue call offered to you that rang out also goes to you, when the queue's Unanswered offer action is Send to voicemail, and so does a queue call that reached voicemail after its maximum wait, as the last agent it was offered to."
+            },
+            {
+              "id": "inbox-4",
+              "text": "Any other queue call that reached voicemail goes to the agent set as the entry point's Voicemail inbox. With nobody set, the message is recorded but is in nobody's inbox. To let a supervisor hear a queue line, set the Voicemail inbox to that supervisor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Work a shared voicemail box",
+      "subtitle": "Claim, call back and mark done",
+      "clips": [
+        {
+          "id": "06-shared",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shared-1",
+              "text": "A queue's shared voicemail box lets a team share the messages left on a line: anyone can claim a message, call back, and mark it done, so nothing is missed and nobody calls the same customer twice. Open Interaction Center, Shared voicemail."
+            },
+            {
+              "id": "shared-2",
+              "text": "Filter by queue, which is All my queues by default, and by status: Open, which is new and claimed, New, Claimed, Done, or All. Then click Filter. You see the queues on your own entitlement record."
+            }
+          ]
+        },
+        {
+          "id": "06b-actions",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "act-1",
+              "text": "Play a message, then click I'll handle this to claim it, so the rest of the team knows it is yours. It then shows Claimed by you. Click Call back to call the caller back from your own soft phone."
+            },
+            {
+              "id": "act-2",
+              "text": "When you are finished, click Mark done and add an optional note. Return to queue releases your claim, and Reopen brings back a finished message."
+            },
+            {
+              "id": "act-3",
+              "text": "Take over claims a message someone else is holding, and Delete removes a message and erases its recording. Both need the permission to manage shared queue voicemail, which the Supervisor role has. A message under legal hold cannot be deleted."
+            }
+          ]
+        }
+      ],
+      "short": "shared"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "What voicemail does for you",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "An agent who is often away records a greeting that gives an email address and a callback time."
+            },
+            {
+              "id": "use-2",
+              "text": "A support queue sends after-hours callers to its shared voicemail box, and the morning team claims and clears the messages."
+            },
+            {
+              "id": "use-3",
+              "text": "A supervisor is set as the entry point's voicemail inbox for a busy line, so every message that nobody caught is heard."
+            },
+            {
+              "id": "use-4",
+              "text": "A team lead filters the shared box by Open, and checks before lunch that nothing is waiting without an owner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Record a greeting, listen to your own inbox, and let the team claim, call back and mark done in the shared box, so no message goes unheard. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
