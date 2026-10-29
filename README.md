@@ -12,7 +12,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 <!-- videos:start -->
 | Video | Length | YouTube | Source |
 | --- | --- | --- | --- |
-| [Agent-to-Agent (A2A): Specialist AI Agents Across Systems](videos/ai-a2a) | 5:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Agent-to-Agent (A2A): Specialist AI Agents Across Systems](videos/ai-a2a) | 5:16 | [https://youtu.be/Yf0FfborI2o](https://youtu.be/Yf0FfborI2o) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat: Talk to Your Assistants in the Admin and on Your Website](videos/ai-chat) | 8:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Interactions: Try Any Model and Set It Up as You Chat](videos/ai-chat-interactions) | 6:30 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Connections and Deployments: Connect Your Site to an AI Service](videos/ai-connections-deployments) | 5:56 | [https://youtu.be/X0tP_6Bdzs4](https://youtu.be/X0tP_6Bdzs4) | CrestApps/CrestApps.OrchardCore |
@@ -27,13 +27,19 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Model Context Protocol (MCP): Connect Tools to Your AI Assistants](videos/ai-mcp) | 7:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [MCP Resources: Share Files and Data with AI Apps](videos/ai-mcp-resources) | 4:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Memory: Assistants That Remember Each User](videos/ai-memory) | 5:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Orchestrators: Default, GitHub Copilot and Claude](videos/ai-orchestrators) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Profile Builder: Train Your AI Assistant by Role-Play and Feedback](videos/ai-profile-builder) | 4:40 | [https://youtu.be/UOKvEY-kID4](https://youtu.be/UOKvEY-kID4) | [CrestApps/CrestApps.OrchardCore#910](https://github.com/CrestApps/CrestApps.OrchardCore/pull/910) |
 | [AI Profiles, Personas and Templates: Build and Reuse Your Assistants](videos/ai-profiles-personas-templates) | 10:51 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Prompt Security: Protect Your Public AI Assistants](videos/ai-prompt-security) | 4:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Realtime Voice: Set Up a Spoken Conversation With Your AI Assistant](videos/ai-realtime-voice) | 4:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Site Settings: A Tour of Settings, Artificial Intelligence](videos/ai-site-settings) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices](videos/commerce) | 10:30 | [https://youtu.be/YQHVdIucYgI](https://youtu.be/YQHVdIucYgI) | CrestApps/CrestApps.OrchardCore |
+| [Company Approvals and Pay on Account: Sell to Businesses](videos/company-approvals) | 7:31 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Agent Offers, Calls and Wrap-Up in the Contact Center](videos/contact-center-agent-calls) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Agent States: Reason Codes for Lunch, Meetings and Training](videos/contact-center-agent-states) | 3:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Agent Walkthroughs: Calls, Messages and Activities](videos/contact-center-agent-walkthroughs) | 13:57 | [https://youtu.be/B6T-s_80exw](https://youtu.be/B6T-s_80exw) | CrestApps/CrestApps.OrchardCore |
@@ -41,11 +47,15 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Outbound Calls: Let an AI Voice Agent Call Your Contacts](videos/contact-center-ai-outbound-calls) | 6:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Voice Agent for Inbound Calls: Answer Your Phone with AI](videos/contact-center-ai-voice-agent-inbound) | 6:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Business Hours Calendars: Define When You Are Open](videos/contact-center-business-hours) | 3:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Call Flows: Inbound, Outbound and Callback Calls Step by Step](videos/contact-center-call-flows) | 6:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Call Recordings: Search, Play and Read the Transcript](videos/contact-center-call-recordings) | 5:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Campaigns and Campaign Groups: Name the Work and Roll It Up](videos/contact-center-campaigns) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Contact Center Configuration and Deployment: Export a Plan and Replay It](videos/contact-center-configuration-deployment) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Dashboard Diagnostics: Alerts, Free Agent and Why the Dialer Is Not Dialing](videos/contact-center-dashboard-diagnostics) | 5:46 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dialer Modes Compared: Preview, Power, Progressive and Predictive](videos/contact-center-dialer-modes-compared) | 7:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dialer Pacing: Abandoned Calls, Predictive Dialing and Retries](videos/contact-center-dialer-pacing) | 6:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dialer Profiles: Preview, Power, Progressive and Predictive Dialing](videos/contact-center-dialer-profiles) | 6:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Dialer Reports: See What the Dialer Did and Why](videos/contact-center-dialer-reports) | 5:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dispositions: The Outcome of Every Activity](videos/contact-center-dispositions) | 5:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Inbound Entry Points: Route Calls and Texts to the Right Queue](videos/contact-center-entry-points-ivr) | 7:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [IVR Menus: Let Callers Press a Key to Reach the Right Team](videos/contact-center-ivr-menus) | 6:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
