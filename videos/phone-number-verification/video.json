@@ -1,0 +1,92 @@
+{
+  "title": "Phone Number Verification: Know Which Numbers Are Real | CrestApps for Orchard Core",
+  "description": "A purchased list, an old import or a form typed in a hurry is full of numbers that do not work, and every call to one is agent time that does not come back. Phone number verification in CrestApps for Orchard Core asks an outside service whether each contact's number is real and what kind of line it is, then shows the answer next to the number.\n\nIn this video:\n• Why numbers are verified, and when a number is checked\n• Setting up a provider: AbstractAPI, Twilio or Veriphone, and the general settings\n• Reading the status icons: verified, invalid, failed and not checked yet\n• Working the Phone Verifications Queue and retrying checks\n• Reading the Phone Number Verifications report\n• Use cases: before a calling campaign, before a text campaign, and watching for outages",
+  "hashtags": [
+    "OrchardCore",
+    "PhoneVerification",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "phone number verification",
+    "phone validation",
+    "Veriphone",
+    "AbstractAPI",
+    "Twilio Lookup",
+    "contact center",
+    "line type",
+    "data quality",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why verify phone numbers"
+    },
+    {
+      "time": "0:58",
+      "title": "When numbers are checked"
+    },
+    {
+      "time": "1:43",
+      "title": "Set up a provider"
+    },
+    {
+      "time": "3:23",
+      "title": "Read the status icons"
+    },
+    {
+      "time": "4:10",
+      "title": "Work the queue"
+    },
+    {
+      "time": "5:30",
+      "title": "Read the report"
+    },
+    {
+      "time": "6:08",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:47",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/phone-number-verification"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/phone-number-verifications"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.PhoneNumbers.Verifications"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/phone-number-verification.md",
+    "src/CrestApps.Docs/docs/modules/phone-number-verifications.md"
+  ],
+  "length": "7:01"
+}

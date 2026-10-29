@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.253 --> 00:00:06.859
+Open Reports, General, Phone Number Verifications.
+
+00:00:06.859 --> 00:00:13.300
+Verification status counts the contacts, and the verified, unverified and invalid numbers, the
+
+00:00:13.300 --> 00:00:15.683
+failures, and the success rate.
+
+00:00:16.297 --> 00:00:21.031
+Line and queue status shows how many numbers are mobile, landline or VoIP,
+
+00:00:21.031 --> 00:00:24.937
+how many are pending, and how many need to be checked again.
+
+00:00:25.517 --> 00:00:30.821
+Provider usage shows how many records each provider checked, which is useful when
+
+00:00:30.821 --> 00:00:33.321
+you compare what the services cost.
+
+00:00:33.321 --> 00:00:36.917
+The Export CSV button downloads the report as a file.
+

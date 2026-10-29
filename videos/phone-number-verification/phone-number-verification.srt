@@ -1,0 +1,384 @@
+1
+00:00:01,000 --> 00:00:06,378
+Phone number verification asks an outside service whether a contact's number is real,
+
+2
+00:00:06,378 --> 00:00:08,387
+and what kind of line it is.
+
+3
+00:00:08,387 --> 00:00:12,347
+This video shows why it exists, how to set up a provider, how
+
+4
+00:00:12,347 --> 00:00:16,070
+to read the results, and how to work the queue of checks.
+
+5
+00:00:20,670 --> 00:00:24,336
+A purchased list, an old import or a form typed in a hurry
+
+6
+00:00:24,336 --> 00:00:26,742
+is full of numbers that do not work.
+
+7
+00:00:26,742 --> 00:00:30,580
+Every call to one of them is time an agent does not get back.
+
+8
+00:00:31,330 --> 00:00:33,430
+The kind of line matters too.
+
+9
+00:00:33,430 --> 00:00:37,390
+A text sent to a landline is never read, and a mobile number
+
+10
+00:00:37,390 --> 00:00:39,730
+is the one most likely to answer.
+
+11
+00:00:40,480 --> 00:00:45,347
+Checking each number by hand is not realistic, and the services that do
+
+12
+00:00:45,347 --> 00:00:47,370
+it charge for every check.
+
+13
+00:00:48,120 --> 00:00:54,837
+Verification checks each number once, automatically, and shows the answer next to the number:
+
+14
+00:00:54,837 --> 00:00:57,890
+valid or not, mobile, landline or VoIP.
+
+15
+00:01:02,090 --> 00:01:06,955
+A number is checked when a contact is saved with a new or changed number.
+
+16
+00:01:06,955 --> 00:01:10,218
+The site checks the contact's preferred number:
+
+17
+00:01:10,218 --> 00:01:13,420
+cell first, then home, office, work and other.
+
+18
+00:01:14,170 --> 00:01:19,091
+A verified number is checked again after the revalidation interval, so a number
+
+19
+00:01:19,091 --> 00:01:22,275
+that stopped working does not stay green forever.
+
+20
+00:01:22,275 --> 00:01:25,980
+A background task looks for due numbers every few minutes.
+
+21
+00:01:26,730 --> 00:01:29,857
+Someone can also retry a check from the queue.
+
+22
+00:01:29,857 --> 00:01:35,390
+Because the services charge per check, a number is never checked more often than this.
+
+23
+00:01:36,140 --> 00:01:39,779
+If no provider is set up yet, new numbers wait, and they are
+
+24
+00:01:39,779 --> 00:01:42,480
+checked as soon as a provider is available.
+
+25
+00:01:46,754 --> 00:01:49,858
+Open Settings, Phone Number Verifications.
+
+26
+00:01:49,858 --> 00:01:54,190
+The General tab holds the rules that apply to every provider.
+
+27
+00:01:54,190 --> 00:01:58,974
+Until a provider is switched on, the page says that none is enabled.
+
+28
+00:01:59,471 --> 00:02:01,890
+Each service has its own tab.
+
+29
+00:02:01,890 --> 00:02:05,901
+AbstractAPI needs only an API key from your account.
+
+30
+00:02:09,839 --> 00:02:12,728
+Twilio asks for an Authentication type:
+
+31
+00:02:12,728 --> 00:02:17,673
+an API key SID and secret, which Twilio recommends for everyday use, or
+
+32
+00:02:17,673 --> 00:02:21,333
+an Account SID and Auth Token, which suits testing.
+
+33
+00:02:21,333 --> 00:02:26,021
+You can also set a Country code for numbers stored without one, and
+
+34
+00:02:26,021 --> 00:02:29,039
+Data packages for extra line information.
+
+35
+00:02:35,820 --> 00:02:41,289
+On the Veriphone tab, switch on Enable this provider and paste the API key.
+
+36
+00:02:41,289 --> 00:02:45,880
+The key is stored securely, and the box stays empty afterward.
+
+37
+00:02:47,773 --> 00:02:48,848
+Click Save.
+
+38
+00:02:48,848 --> 00:02:52,134
+The General tab now offers a Default provider.
+
+39
+00:02:52,134 --> 00:02:58,073
+Choose a provider, or First available provider to use the first one that is switched on.
+
+40
+00:02:58,532 --> 00:03:03,568
+Revalidation interval says how many days a verified number stays verified.
+
+41
+00:03:03,568 --> 00:03:08,541
+Maximum verification attempts is how many failed checks in a row the site
+
+42
+00:03:08,541 --> 00:03:12,192
+accepts before it stops retrying a number by itself.
+
+43
+00:03:12,647 --> 00:03:17,608
+Request delay is the pause between checks when many numbers are checked in a row.
+
+44
+00:03:17,608 --> 00:03:21,257
+Raise it if the service complains about too many requests.
+
+45
+00:03:21,257 --> 00:03:22,227
+Click Save.
+
+46
+00:03:26,527 --> 00:03:31,131
+Wherever a phone field shows a checked number, an icon shows the result.
+
+47
+00:03:31,131 --> 00:03:32,370
+Open a contact:
+
+48
+00:03:32,370 --> 00:03:35,853
+a green check means the service confirmed the number.
+
+49
+00:03:35,853 --> 00:03:38,627
+Point at it to see the date of the check.
+
+50
+00:03:39,280 --> 00:03:41,149
+A red icon means Invalid:
+
+51
+00:03:41,149 --> 00:03:43,983
+the service says the number is not valid.
+
+52
+00:03:43,983 --> 00:03:47,420
+Do not call it, and ask the customer for a new one.
+
+53
+00:03:47,909 --> 00:03:50,176
+A warning sign means Failed:
+
+54
+00:03:50,176 --> 00:03:55,846
+the check itself did not work, for example because the service was unavailable.
+
+55
+00:03:55,846 --> 00:04:01,849
+The status is unknown, not invalid, and a failed check never marks a number invalid.
+
+56
+00:04:02,398 --> 00:04:06,126
+A grey question mark means the number has not been checked yet.
+
+57
+00:04:06,126 --> 00:04:09,098
+It is checked shortly after the contact is saved.
+
+58
+00:04:13,398 --> 00:04:16,154
+Open Tools, Phone Verifications Queue.
+
+59
+00:04:16,154 --> 00:04:20,915
+It lists every number that has verification data, with a tile for each
+
+60
+00:04:20,915 --> 00:04:23,358
+status that adds up to the total.
+
+61
+00:04:23,928 --> 00:04:28,434
+Each row shows the number, its status, the provider, how many attempts were
+
+62
+00:04:28,434 --> 00:04:32,328
+made, and when the last one was, with the contact it belongs to.
+
+63
+00:04:32,818 --> 00:04:34,576
+Click the Failed tile.
+
+64
+00:04:34,576 --> 00:04:39,538
+Failed means the last check failed and the site will try again by itself.
+
+65
+00:04:39,994 --> 00:04:45,100
+Needs attention means the check failed Maximum verification attempts times in a row,
+
+66
+00:04:45,100 --> 00:04:46,972
+so the site stopped trying.
+
+67
+00:04:46,972 --> 00:04:50,716
+The latest error is shown in red, so you can tell a provider
+
+68
+00:04:50,716 --> 00:04:52,474
+outage from a bad number.
+
+69
+00:04:53,038 --> 00:04:56,783
+Use Search by phone number to find a record, and the sort list
+
+70
+00:04:56,783 --> 00:04:59,978
+to put the most recent or the oldest attempts first.
+
+71
+00:05:02,554 --> 00:05:07,340
+To check one number again, open its Actions menu and click Verify again.
+
+72
+00:05:07,340 --> 00:05:10,591
+A failed number has a Retry now button instead.
+
+73
+00:05:10,591 --> 00:05:13,597
+The check is queued and runs shortly after.
+
+74
+00:05:13,597 --> 00:05:18,014
+Here the service cannot be reached, so the record shows the error.
+
+75
+00:05:18,583 --> 00:05:22,018
+Tick several records, then click Retry selected.
+
+76
+00:05:22,018 --> 00:05:29,143
+Retry all failed re-queues every failed and needs-attention record on every page that matches your search.
+
+77
+00:05:33,396 --> 00:05:37,002
+Open Reports, General, Phone Number Verifications.
+
+78
+00:05:37,002 --> 00:05:43,443
+Verification status counts the contacts, and the verified, unverified and invalid numbers, the
+
+79
+00:05:43,443 --> 00:05:45,826
+failures, and the success rate.
+
+80
+00:05:46,440 --> 00:05:51,174
+Line and queue status shows how many numbers are mobile, landline or VoIP,
+
+81
+00:05:51,174 --> 00:05:55,080
+how many are pending, and how many need to be checked again.
+
+82
+00:05:55,661 --> 00:06:00,964
+Provider usage shows how many records each provider checked, which is useful when
+
+83
+00:06:00,964 --> 00:06:03,464
+you compare what the services cost.
+
+84
+00:06:03,464 --> 00:06:07,061
+The Export CSV button downloads the report as a file.
+
+85
+00:06:11,261 --> 00:06:15,685
+Before a calling campaign, import the list and let the checks run.
+
+86
+00:06:15,685 --> 00:06:20,601
+Agents then work the verified numbers, and the invalid ones are set aside.
+
+87
+00:06:21,351 --> 00:06:24,993
+Before a text campaign, check how many numbers are mobile.
+
+88
+00:06:24,993 --> 00:06:27,611
+Those are the ones that can read a text.
+
+89
+00:06:28,361 --> 00:06:30,567
+Keep the data clean over time.
+
+90
+00:06:30,567 --> 00:06:34,981
+The revalidation interval brings old numbers back for a new check.
+
+91
+00:06:35,731 --> 00:06:38,000
+Watch the Needs attention tile.
+
+92
+00:06:38,000 --> 00:06:42,661
+A sudden jump usually means the provider key expired or the service is
+
+93
+00:06:42,661 --> 00:06:46,771
+down, and a single Retry all failed fixes it once it is back.
+
+94
+00:06:48,771 --> 00:06:53,154
+Set up a provider once, and every new number is checked for you.
+
+95
+00:06:53,154 --> 00:06:58,352
+Read the icon next to the number, work the queue, and keep the results fresh.
+
+96
+00:06:58,352 --> 00:06:59,981
+Thanks for watching.
+

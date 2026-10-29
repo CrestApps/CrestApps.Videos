@@ -1,0 +1,59 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:06.056
+Open Tools, Phone Verifications Queue.
+
+00:00:06.056 --> 00:00:10.817
+It lists every number that has verification data, with a tile for each
+
+00:00:10.817 --> 00:00:13.260
+status that adds up to the total.
+
+00:00:13.831 --> 00:00:18.337
+Each row shows the number, its status, the provider, how many attempts were
+
+00:00:18.337 --> 00:00:22.231
+made, and when the last one was, with the contact it belongs to.
+
+00:00:22.720 --> 00:00:24.479
+Click the Failed tile.
+
+00:00:24.479 --> 00:00:29.440
+Failed means the last check failed and the site will try again by itself.
+
+00:00:29.897 --> 00:00:35.002
+Needs attention means the check failed Maximum verification attempts times in a row,
+
+00:00:35.002 --> 00:00:36.874
+so the site stopped trying.
+
+00:00:36.874 --> 00:00:40.618
+The latest error is shown in red, so you can tell a provider
+
+00:00:40.618 --> 00:00:42.377
+outage from a bad number.
+
+00:00:42.940 --> 00:00:46.686
+Use Search by phone number to find a record, and the sort list
+
+00:00:46.686 --> 00:00:49.880
+to put the most recent or the oldest attempts first.
+
+00:00:52.457 --> 00:00:57.242
+To check one number again, open its Actions menu and click Verify again.
+
+00:00:57.242 --> 00:01:00.494
+A failed number has a Retry now button instead.
+
+00:01:00.494 --> 00:01:03.500
+The check is queued and runs shortly after.
+
+00:01:03.500 --> 00:01:07.917
+Here the service cannot be reached, so the record shows the error.
+
+00:01:08.486 --> 00:01:11.921
+Tick several records, then click Retry selected.
+
+00:01:11.921 --> 00:01:19.046
+Retry all failed re-queues every failed and needs-attention record on every page that matches your search.
+
