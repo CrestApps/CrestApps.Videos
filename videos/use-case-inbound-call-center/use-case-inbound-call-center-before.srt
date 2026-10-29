@@ -1,0 +1,32 @@
+1
+00:00:03,188 --> 00:00:07,450
+Your administrator turns on the features in Tools, Features.
+
+2
+00:00:07,450 --> 00:00:10,356
+Telephony and your provider come first.
+
+3
+00:00:10,356 --> 00:00:16,555
+Then Contact Center Work Distribution for queues, Inbound Entry Points, and Inbound Voice.
+
+4
+00:00:16,555 --> 00:00:22,818
+Agents need Contact Center Agents, and supervisors need Supervision and the Live Dashboard.
+
+5
+00:00:24,418 --> 00:00:29,420
+Contact Center Agent Entitlements is recommended once you have more than one team.
+
+6
+00:00:29,420 --> 00:00:34,308
+A phone provider account, with the numbers customers will call, comes first, and
+
+7
+00:00:34,308 --> 00:00:38,514
+the Agent role needs the permission to use the telephony soft phone.
+
+8
+00:00:38,514 --> 00:00:40,958
+Supervisors have the Supervisor role.
+

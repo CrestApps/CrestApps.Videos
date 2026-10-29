@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.207 --> 00:00:06.137
+Create a queue for each team under Queues.
+
+00:00:06.137 --> 00:00:08.334
+Give it a Name, such as Sales.
+
+00:00:08.334 --> 00:00:12.667
+The routing strategy decides which free agent gets the next call.
+
+00:00:15.500 --> 00:00:21.320
+The business hours calendar and the after-hours action say what happens outside opening hours.
+
+00:00:21.320 --> 00:00:25.220
+The service level threshold is how long a caller should wait.
+
+00:00:29.560 --> 00:00:33.735
+The overflow queue takes callers after a wait, and the hold music, the
+
+00:00:33.735 --> 00:00:38.076
+announcements and the callback key set what callers hear while they wait.
+
+00:00:38.076 --> 00:00:39.230
+Save the queue.
+

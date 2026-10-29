@@ -1,0 +1,100 @@
+{
+  "title": "Run an Inbound Call Center: Numbers, Queues, Routing and Agents | CrestApps for Orchard Core",
+  "description": "An inbound call center answers the customers who call you: a welcome and an optional keypad menu, a queue with hold music and updates on their place in line, a free agent with the right skills, and an after-hours plan. This video follows the whole story in the CrestApps Contact Center for Orchard Core: the features to turn on, the order to set things up, and what each person does. Calls never connect on the recording site, so the live parts are shown with slides.\n\nIn this video:\n• Who it is for, and what you get\n• The features, roles and provider you need\n• The set-up order: numbers, hours, queues, people, routing\n• Listing numbers and opening hours\n• Creating a queue\n• Routing a number with an inbound entry point\n• Giving agents their queues\n• What agents and supervisors do, and how to check it works",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "inbound calls",
+    "call center",
+    "queues",
+    "IVR",
+    "entry points",
+    "voicemail",
+    "business hours",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Who it is for"
+    },
+    {
+      "time": "1:05",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:47",
+      "title": "The set-up order"
+    },
+    {
+      "time": "2:29",
+      "title": "Numbers and opening hours"
+    },
+    {
+      "time": "2:54",
+      "title": "The queue"
+    },
+    {
+      "time": "3:34",
+      "title": "Route the number"
+    },
+    {
+      "time": "4:18",
+      "title": "The agents"
+    },
+    {
+      "time": "4:48",
+      "title": "What each person does"
+    },
+    {
+      "time": "5:32",
+      "title": "Check it, and tips"
+    },
+    {
+      "time": "6:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/inbound-call-center"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/voice-routing"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.InboundVoice"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/inbound-call-center.md",
+    "src/CrestApps.Docs/docs/contact-center/voice-routing.md"
+  ],
+  "length": "6:38"
+}

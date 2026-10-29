@@ -1,0 +1,254 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.782
+An inbound call center answers the customers who call you.
+
+00:00:04.782 --> 00:00:07.205
+This video follows the whole story:
+
+00:00:07.205 --> 00:00:12.227
+the features to turn on, the order to set things up, and what each person does.
+
+00:00:12.227 --> 00:00:17.250
+Calls never connect on this demo site, so the live parts are shown with slides.
+
+00:00:21.850 --> 00:00:25.935
+This is for managers and administrators who set up a phone line for
+
+00:00:25.935 --> 00:00:29.460
+customers, and for the supervisors and agents who run it.
+
+00:00:30.210 --> 00:00:34.246
+A customer who calls your number hears a welcome and, if you want
+
+00:00:34.246 --> 00:00:35.667
+one, a keypad menu.
+
+00:00:35.667 --> 00:00:39.703
+The call waits in the right queue, with hold music and updates on
+
+00:00:39.703 --> 00:00:44.250
+their place in line, and is offered to a free agent with the right skills.
+
+00:00:45.000 --> 00:00:50.645
+After hours, callers hear a closed message, and are held, sent to voicemail,
+
+00:00:50.645 --> 00:00:54.500
+moved to another queue, or refused, as you choose.
+
+00:00:55.250 --> 00:00:59.440
+Agents answer in the soft phone and record the outcome.
+
+00:00:59.440 --> 00:01:04.180
+Supervisors watch the queues live, listen in, and read reports.
+
+00:01:08.368 --> 00:01:12.630
+Your administrator turns on the features in Tools, Features.
+
+00:01:12.630 --> 00:01:15.536
+Telephony and your provider come first.
+
+00:01:15.536 --> 00:01:21.735
+Then Contact Center Work Distribution for queues, Inbound Entry Points, and Inbound Voice.
+
+00:01:21.735 --> 00:01:27.998
+Agents need Contact Center Agents, and supervisors need Supervision and the Live Dashboard.
+
+00:01:29.598 --> 00:01:34.600
+Contact Center Agent Entitlements is recommended once you have more than one team.
+
+00:01:34.600 --> 00:01:39.488
+A phone provider account, with the numbers customers will call, comes first, and
+
+00:01:39.488 --> 00:01:43.694
+the Agent role needs the permission to use the telephony soft phone.
+
+00:01:43.694 --> 00:01:46.138
+Supervisors have the Supervisor role.
+
+00:01:50.338 --> 00:01:52.376
+Start with what customers dial.
+
+00:01:52.376 --> 00:01:56.892
+List your numbers, set your opening hours, and upload hold music and prompts
+
+00:01:56.892 --> 00:01:58.158
+if you want them.
+
+00:01:58.908 --> 00:02:00.927
+Then the places calls wait.
+
+00:02:00.927 --> 00:02:04.718
+Create a queue for each team, such as Sales and Support.
+
+00:02:05.468 --> 00:02:06.942
+Then the people.
+
+00:02:06.942 --> 00:02:12.568
+Decide who works each queue with agent entitlements, skills and break reasons.
+
+00:02:13.318 --> 00:02:15.035
+Then route the number.
+
+00:02:15.035 --> 00:02:19.511
+An entry point sends the number to a queue, with a welcome message,
+
+00:02:19.511 --> 00:02:21.718
+a closed action and voicemail.
+
+00:02:22.468 --> 00:02:27.968
+Last, the house rules, the phone apps, and training for agents and supervisors.
+
+00:02:32.141 --> 00:02:37.349
+Add each number customers call under Omnichannel Addresses, with Voice calls ticked.
+
+00:02:37.349 --> 00:02:40.301
+These are the numbers the entry points route.
+
+00:02:40.770 --> 00:02:45.580
+Create a business hours calendar with your weekly hours and holidays.
+
+00:02:45.580 --> 00:02:50.391
+A queue or an entry point that uses it is closed outside those hours.
+
+00:02:50.391 --> 00:02:53.470
+A disabled calendar never closes anything.
+
+00:02:57.677 --> 00:03:00.607
+Create a queue for each team under Queues.
+
+00:03:00.607 --> 00:03:02.804
+Give it a Name, such as Sales.
+
+00:03:02.804 --> 00:03:07.137
+The routing strategy decides which free agent gets the next call.
+
+00:03:09.970 --> 00:03:15.790
+The business hours calendar and the after-hours action say what happens outside opening hours.
+
+00:03:15.790 --> 00:03:19.690
+The service level threshold is how long a caller should wait.
+
+00:03:24.029 --> 00:03:28.205
+The overflow queue takes callers after a wait, and the hold music, the
+
+00:03:28.205 --> 00:03:32.546
+announcements and the callback key set what callers hear while they wait.
+
+00:03:32.546 --> 00:03:33.699
+Save the queue.
+
+00:03:37.918 --> 00:03:41.752
+Add a Voice calls entry point under Inbound entry points.
+
+00:03:41.752 --> 00:03:44.978
+Give it a Name, and pick the number it answers.
+
+00:03:44.978 --> 00:03:49.298
+A number is answered by one enabled entry point for each channel.
+
+00:03:51.082 --> 00:03:53.835
+Set Route to a queue, and pick Sales.
+
+00:03:53.835 --> 00:03:59.022
+Pick the business hours calendar, and the closed action, such as voicemail.
+
+00:04:04.274 --> 00:04:08.589
+Write the welcome message callers hear, and the closed message.
+
+00:04:08.589 --> 00:04:10.715
+Choose where voicemail goes.
+
+00:04:10.715 --> 00:04:16.406
+A keypad menu can be built in the same form, when callers should choose a department.
+
+00:04:16.406 --> 00:04:17.094
+Save.
+
+00:04:21.323 --> 00:04:25.200
+Give each agent their queues under Agent entitlements.
+
+00:04:25.200 --> 00:04:29.853
+Open the entitlement of an agent, and add Sales to Allowed queues.
+
+00:04:29.853 --> 00:04:34.764
+The queue's priority and delay say how the agent backs up other teams.
+
+00:04:34.764 --> 00:04:38.383
+Skills decide who can take work that requires one.
+
+00:04:38.843 --> 00:04:43.329
+Supervisors see only the queues on their own entitlement record.
+
+00:04:43.329 --> 00:04:47.623
+An empty live dashboard almost always means a missing record.
+
+00:04:51.823 --> 00:04:56.135
+Each agent installs the phone app, signs in to their queues from the
+
+00:04:56.135 --> 00:05:01.613
+Work tab of the soft phone, sets themselves Available, and records a voicemail greeting.
+
+00:05:02.363 --> 00:05:06.849
+When a call arrives, the agent's bar shows the offer with a countdown.
+
+00:05:06.849 --> 00:05:11.689
+The agent accepts, talks, hangs up, and lands in Wrap-up until they complete
+
+00:05:11.689 --> 00:05:13.933
+the activity with a disposition.
+
+00:05:14.683 --> 00:05:19.249
+A supervisor sees the call on the live dashboard, while it waits and
+
+00:05:19.249 --> 00:05:25.173
+while it is connected, and can listen, whisper or barge in, and work the shared voicemail.
+
+00:05:25.923 --> 00:05:31.343
+Call insights, Queue usage and Agent productivity show how the line performs.
+
+00:05:35.543 --> 00:05:40.156
+To check that it works, have an agent sign in to the queue and be Available.
+
+00:05:40.156 --> 00:05:44.713
+Call the number from another phone during opening hours, and listen for the
+
+00:05:44.713 --> 00:05:46.683
+welcome message and the menu.
+
+00:05:47.433 --> 00:05:52.843
+Call again with no agent available, to hear the hold music and the announcements.
+
+00:05:52.843 --> 00:05:57.943
+Call outside opening hours to hear the closed message and the closed action.
+
+00:05:58.693 --> 00:06:01.748
+Start with one queue and one entry point.
+
+00:06:01.748 --> 00:06:04.998
+Test them, and add menus and overflow after.
+
+00:06:04.998 --> 00:06:09.353
+Clone a queue or an entry point from its Actions menu to make
+
+00:06:09.353 --> 00:06:11.173
+a similar one quickly.
+
+00:06:11.923 --> 00:06:15.759
+Callbacks need the Contact Center Outbound Dialer feature.
+
+00:06:15.759 --> 00:06:19.715
+To let an AI answer the line instead, see the use case about
+
+00:06:19.715 --> 00:06:22.293
+letting the AI answer your customers.
+
+00:06:24.293 --> 00:06:29.896
+List the numbers, open the queues, route each number, and give your agents their queues.
+
+00:06:29.896 --> 00:06:34.843
+Customers who call reach the right person, and supervisors can watch it live.
+
+00:06:34.843 --> 00:06:36.393
+Thanks for watching.
+

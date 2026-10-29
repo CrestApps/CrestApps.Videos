@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.219 --> 00:00:07.053
+Add a Voice calls entry point under Inbound entry points.
+
+00:00:07.053 --> 00:00:10.278
+Give it a Name, and pick the number it answers.
+
+00:00:10.278 --> 00:00:14.599
+A number is answered by one enabled entry point for each channel.
+
+00:00:16.382 --> 00:00:19.136
+Set Route to a queue, and pick Sales.
+
+00:00:19.136 --> 00:00:24.322
+Pick the business hours calendar, and the closed action, such as voicemail.
+
+00:00:29.575 --> 00:00:33.890
+Write the welcome message callers hear, and the closed message.
+
+00:00:33.890 --> 00:00:36.016
+Choose where voicemail goes.
+
+00:00:36.016 --> 00:00:41.707
+A keypad menu can be built in the same form, when callers should choose a department.
+
+00:00:41.707 --> 00:00:42.395
+Save.
+
