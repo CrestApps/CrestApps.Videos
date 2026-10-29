@@ -1,0 +1,330 @@
+{
+  "title": "Bookings",
+  "output": "bookings",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Bookings",
+      "subtitle": "Sell tours, rooms and appointments by date",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some things are sold for a date: a seat on a tour, a room for a few nights, an hour with a therapist. This video shows how the Bookings module sells them, with a capacity for each date, deposits, cancellation rules, requests you confirm first, and a list and calendar of everything that is booked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why bookings",
+      "subtitle": "A date is part of what you sell",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shirt can be sold until the shelf is empty. A tour, a room or an appointment can only be sold for a date, and each date has room for a limited number of people."
+            },
+            {
+              "id": "why-2",
+              "text": "Prices follow the booking: per person for a tour, per room for a stay, with a higher price in high season or on a weekend."
+            },
+            {
+              "id": "why-3",
+              "text": "Buyers expect to pay a deposit now and the rest later, and to know what canceling costs. You need to see what is booked, and who is coming."
+            },
+            {
+              "id": "why-4",
+              "text": "The Bookings module sells all of this from the same catalog, cart and checkout as the rest of your store."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Three kinds of booking",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You add the Booking part to a product. It says what is booked: a date with seats, nights, or a time."
+            },
+            {
+              "id": "how-2",
+              "text": "Each date has a capacity, and a date that is full cannot be bought. A tour has its own list of departures."
+            },
+            {
+              "id": "how-3",
+              "text": "A deposit, a cancellation policy, a request to confirm first, and travelers' details are settings on the same product."
+            },
+            {
+              "id": "how-4",
+              "text": "Every booking appears under Commerce, Bookings, in a list and a calendar, where you confirm, complete or cancel it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Make a product a booking",
+      "subtitle": "The Booking part",
+      "clips": [
+        {
+          "id": "03-product",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prod-1",
+              "text": "Open the product and find Booking. What's booked is a date with seats, such as a tour, an event or a class."
+            },
+            {
+              "id": "prod-2",
+              "text": "Capacity is how much each date holds: here twelve seats on a departure."
+            },
+            {
+              "id": "prod-3",
+              "text": "The price is per person is ticked for a price such as a tour's, charged for everyone in the booking. Leave it unticked for a price per room, whoever is in it."
+            },
+            {
+              "id": "prod-4",
+              "text": "Under Options, add what a unit can be, such as a Double room for two people and a Single room for one. An option can add to the price once, such as a single supplement of three hundred."
+            },
+            {
+              "id": "prod-5",
+              "text": "For a tour, Manage dates adds its departures. Publish the product first, then add its dates from here."
+            }
+          ]
+        }
+      ],
+      "short": "product"
+    },
+    {
+      "id": "04",
+      "title": "Manage dates",
+      "subtitle": "Departures, seats and prices",
+      "clips": [
+        {
+          "id": "04-dates",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dates-1",
+              "text": "Manage dates lists the departures buyers can choose. Each shows its date, how many are booked, paid and held, its capacity, its price, and whether it is closed."
+            },
+            {
+              "id": "dates-2",
+              "text": "Click Add date to add a departure. Give it a Date, its own Capacity, and, if you like, its own Price, such as a higher one in high season."
+            },
+            {
+              "id": "dates-3",
+              "text": "Click Save. A date left at the product's own capacity and price shows The product's, and a full date cannot be bought."
+            }
+          ]
+        }
+      ],
+      "short": "dates"
+    },
+    {
+      "id": "05",
+      "title": "Nights and times",
+      "subtitle": "Rooms by the night, appointments by the hour",
+      "clips": [
+        {
+          "id": "05-kinds",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "kind-1",
+              "text": "Choose Nights, such as a room or a rental. The buyer picks a check-in and a check-out, from the Fewest nights to the Most nights you allow."
+            },
+            {
+              "id": "kind-2",
+              "text": "A weekend price replaces the product's price for Friday and Saturday nights. Days ahead is how far ahead nights and times can be booked."
+            },
+            {
+              "id": "kind-3",
+              "text": "Choose A time, such as an appointment. Tick the days you are open, set when the first slot opens and when the last one closes, and how many Minutes a slot lasts."
+            }
+          ]
+        }
+      ],
+      "short": "kinds"
+    },
+    {
+      "id": "06",
+      "title": "Deposits, cancellation and requests",
+      "subtitle": "Rules for each product",
+      "clips": [
+        {
+          "id": "06-rules",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rule-1",
+              "text": "Enter a Deposit, as a percentage, and Rest due, in days before the date. At checkout the buyer can choose Pay a deposit: they pay that share now, and the rest is charged to the same card on its date."
+            },
+            {
+              "id": "rule-2",
+              "text": "Under Cancellation policy, add a rule for each step, such as a ten percent fee when canceled at least sixty days before, and fifty percent at least thirty days before. Closer than the last rule, nothing is refunded."
+            },
+            {
+              "id": "rule-3",
+              "text": "Tick Confirm each booking before it's paid for bookings you accept one by one. The buyer's cart then offers Request to book, and you send the quote from the order."
+            },
+            {
+              "id": "rule-4",
+              "text": "Tick Ask for each traveler's details at checkout to ask for each person's name, or any field you add to the Traveler content type."
+            }
+          ]
+        }
+      ],
+      "short": "rules"
+    },
+    {
+      "id": "07",
+      "title": "What buyers see",
+      "subtitle": "Choosing a date, and the checkout",
+      "clips": [
+        {
+          "id": "07-buyer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "buy-1",
+              "text": "On the product's page, the buyer chooses a Date and an Option, and sees the deposit, and the cancellation policy."
+            },
+            {
+              "id": "buy-2",
+              "text": "A date with its own price shows it, and a date that is full is not offered."
+            },
+            {
+              "id": "buy-3",
+              "text": "At checkout, a booking that asks for travelers' details has a field for each person, in the Contact step, so that every name is on the booking and on the booking's page in your admin, where you can read it."
+            },
+            {
+              "id": "buy-4",
+              "text": "The Find a date page lets shoppers enter dates and how many people. It lists what has room then, and links each to its product with the date chosen."
+            }
+          ]
+        }
+      ],
+      "short": "buyer"
+    },
+    {
+      "id": "08",
+      "title": "The bookings list and calendar",
+      "subtitle": "What is booked",
+      "clips": [
+        {
+          "id": "08-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Commerce, Bookings. It lists bookings from today on, with the product, the buyer, the status and the date."
+            },
+            {
+              "id": "list-2",
+              "text": "Filter by status, such as Requested, Confirmed, Completed, No-shows or Canceled, show any date, or search by buyer or product."
+            },
+            {
+              "id": "list-3",
+              "text": "Calendar shows each day's dates with what is taken."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "09",
+      "title": "Manage a booking",
+      "subtitle": "Confirm, complete, cancel",
+      "clips": [
+        {
+          "id": "09-detail",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "det-1",
+              "text": "Click a booking to open it. It shows its status, the buyer, what was booked, the price, the order, and each traveler's details."
+            },
+            {
+              "id": "det-2",
+              "text": "A paid booking is Confirmed, and the buyer gets an email. After the date, mark it Complete, or No-show if they did not come."
+            },
+            {
+              "id": "det-3",
+              "text": "Cancel shows how many days before the date it is, what the policy keeps, and what is refunded of what was paid."
+            },
+            {
+              "id": "det-4",
+              "text": "Change the Refund to give back more or less, add a Reason, and click Cancel the booking. The money goes back to how they paid, what is still owed is let go, the date is free again, and the buyer gets an email."
+            }
+          ]
+        }
+      ],
+      "short": "detail"
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "How businesses put it to work",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A tour operator: departures with seats, a deposit now and the rest later, and a cancellation policy."
+            },
+            {
+              "id": "use-2",
+              "text": "A small hotel or a rental: rooms by the night, a weekend price, and a minimum stay."
+            },
+            {
+              "id": "use-3",
+              "text": "A clinic or a studio: appointments by the hour, in the days and hours you are open."
+            },
+            {
+              "id": "use-4",
+              "text": "A guide who vets each guest: requests you confirm first, with a quote sent from the order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With the Bookings module, you sell dates, nights and times with a capacity for each, and see everything that is booked. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

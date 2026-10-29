@@ -1,0 +1,20 @@
+1
+00:00:03,184 --> 00:00:05,120
+Open Commerce, Bookings.
+
+2
+00:00:05,120 --> 00:00:11,054
+It lists bookings from today on, with the product, the buyer, the status and the date.
+
+3
+00:00:11,508 --> 00:00:18,484
+Filter by status, such as Requested, Confirmed, Completed, No-shows or Canceled, show any
+
+4
+00:00:18,484 --> 00:00:21,568
+date, or search by buyer or product.
+
+5
+00:00:22,021 --> 00:00:25,521
+Calendar shows each day's dates with what is taken.
+

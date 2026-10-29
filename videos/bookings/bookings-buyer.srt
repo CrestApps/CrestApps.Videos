@@ -1,0 +1,36 @@
+1
+00:00:03,192 --> 00:00:07,663
+On the product's page, the buyer chooses a Date and an Option, and
+
+2
+00:00:07,663 --> 00:00:10,892
+sees the deposit, and the cancellation policy.
+
+3
+00:00:12,143 --> 00:00:15,730
+A date with its own price shows it, and a date that is
+
+4
+00:00:15,730 --> 00:00:17,283
+full is not offered.
+
+5
+00:00:17,741 --> 00:00:21,779
+At checkout, a booking that asks for travelers' details has a field for
+
+6
+00:00:21,779 --> 00:00:25,344
+each person, in the Contact step, so that every name is on the
+
+7
+00:00:25,344 --> 00:00:29,381
+booking and on the booking's page in your admin, where you can read it.
+
+8
+00:00:30,450 --> 00:00:34,904
+The Find a date page lets shoppers enter dates and how many people.
+
+9
+00:00:34,904 --> 00:00:40,150
+It lists what has room then, and links each to its product with the date chosen.
+

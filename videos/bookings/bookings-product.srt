@@ -1,0 +1,48 @@
+1
+00:00:03,192 --> 00:00:05,761
+Open the product and find Booking.
+
+2
+00:00:05,761 --> 00:00:10,772
+What's booked is a date with seats, such as a tour, an event or a class.
+
+3
+00:00:11,227 --> 00:00:14,007
+Capacity is how much each date holds:
+
+4
+00:00:14,007 --> 00:00:16,527
+here twelve seats on a departure.
+
+5
+00:00:16,980 --> 00:00:20,279
+The price is per person is ticked for a price such as a
+
+6
+00:00:20,279 --> 00:00:22,983
+tour's, charged for everyone in the booking.
+
+7
+00:00:22,983 --> 00:00:26,390
+Leave it unticked for a price per room, whoever is in it.
+
+8
+00:00:26,843 --> 00:00:30,721
+Under Options, add what a unit can be, such as a Double room
+
+9
+00:00:30,721 --> 00:00:33,483
+for two people and a Single room for one.
+
+10
+00:00:33,483 --> 00:00:38,653
+An option can add to the price once, such as a single supplement of three hundred.
+
+11
+00:00:39,106 --> 00:00:42,441
+For a tour, Manage dates adds its departures.
+
+12
+00:00:42,441 --> 00:00:46,496
+Publish the product first, then add its dates from here.
+

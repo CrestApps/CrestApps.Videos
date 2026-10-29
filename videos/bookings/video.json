@@ -1,0 +1,104 @@
+{
+  "title": "Bookings: Sell Tours, Rooms and Appointments by Date | CrestApps for Orchard Core",
+  "description": "A tour, a room and an appointment are sold for a date, and each date has room for a limited number of people. The CrestApps Bookings module sells all three from your Orchard Core store: seats per departure, rooms by the night, appointments by the hour, prices per person or per room, a deposit with the rest charged later, cancellation policies, requests you confirm first, travelers' details, and a list and calendar of everything that is booked.\n\nIn this video:\n• Why bookings, and the three kinds of booking\n• Making a product a booking: capacity, options and price per person\n• Managing a tour's dates, seats and prices\n• Nights and times: minimum stays, weekend prices, opening hours and slots\n• Deposits, cancellation policies, requests and travelers' details\n• What buyers see, and the Find a date page\n• The bookings list and calendar\n• Managing a booking: confirm, complete, no-show and cancel\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Bookings",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "bookings",
+    "online booking",
+    "tour booking",
+    "hotel booking",
+    "appointment scheduling",
+    "deposit",
+    "cancellation policy",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Why bookings"
+    },
+    {
+      "time": "1:02",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:40",
+      "title": "Make a product a booking"
+    },
+    {
+      "time": "2:27",
+      "title": "Manage dates"
+    },
+    {
+      "time": "2:59",
+      "title": "Nights and times"
+    },
+    {
+      "time": "3:33",
+      "title": "Deposits, cancellation and requests"
+    },
+    {
+      "time": "4:23",
+      "title": "What buyers see"
+    },
+    {
+      "time": "5:05",
+      "title": "The bookings list and calendar"
+    },
+    {
+      "time": "5:31",
+      "title": "Manage a booking"
+    },
+    {
+      "time": "6:15",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:48",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/bookings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/bookings"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Bookings"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/bookings.md",
+    "src/CrestApps.Docs/docs/modules/bookings.md"
+  ],
+  "length": "6:59"
+}

@@ -1,0 +1,48 @@
+1
+00:00:03,194 --> 00:00:07,892
+Enter a Deposit, as a percentage, and Rest due, in days before the date.
+
+2
+00:00:07,892 --> 00:00:11,084
+At checkout the buyer can choose Pay a deposit:
+
+3
+00:00:11,084 --> 00:00:15,059
+they pay that share now, and the rest is charged to the same
+
+4
+00:00:15,059 --> 00:00:16,444
+card on its date.
+
+5
+00:00:16,898 --> 00:00:21,334
+Under Cancellation policy, add a rule for each step, such as a ten
+
+6
+00:00:21,334 --> 00:00:26,263
+percent fee when canceled at least sixty days before, and fifty percent at
+
+7
+00:00:26,263 --> 00:00:28,173
+least thirty days before.
+
+8
+00:00:28,173 --> 00:00:31,438
+Closer than the last rule, nothing is refunded.
+
+9
+00:00:31,891 --> 00:00:36,410
+Tick Confirm each booking before it's paid for bookings you accept one by one.
+
+10
+00:00:36,410 --> 00:00:41,251
+The buyer's cart then offers Request to book, and you send the quote from the order.
+
+11
+00:00:41,704 --> 00:00:46,248
+Tick Ask for each traveler's details at checkout to ask for each person's
+
+12
+00:00:46,248 --> 00:00:49,814
+name, or any field you add to the Traveler content type.
+
