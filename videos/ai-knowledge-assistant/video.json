@@ -74,7 +74,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "libAAfX0WCA",
+    "url": "https://youtu.be/libAAfX0WCA",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.AI.DataSources"
