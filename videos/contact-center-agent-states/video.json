@@ -1,0 +1,90 @@
+{
+  "title": "Agent States: Reason Codes for Lunch, Meetings and Training | CrestApps for Orchard Core",
+  "description": "When agents are not taking work, a manager needs to know why. In the CrestApps Contact Center, a reason code such as Lunch, Team meeting or Training gives the agent a name to pick, and every report and the Live dashboard shows both the state and the reason.\n\nIn this video:\n• Why agent states, and how reason codes map to presence states\n• Creating a reason code: name, state, sort order\n• What agents see in the presence menu\n• Retiring a reason code without losing history\n• Break requests, fallbacks and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "agent states",
+    "reason codes",
+    "presence",
+    "break",
+    "contact center",
+    "agents",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why agent states"
+    },
+    {
+      "time": "0:44",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:13",
+      "title": "Create a reason code"
+    },
+    {
+      "time": "1:46",
+      "title": "What agents see"
+    },
+    {
+      "time": "2:16",
+      "title": "Retire a reason code"
+    },
+    {
+      "time": "2:37",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:09",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:37",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/agent-states"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Agents)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/agent-states.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "3:48"
+}

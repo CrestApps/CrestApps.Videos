@@ -1,0 +1,152 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.468
+Agent states are the reasons an agent gives when they are not taking work:
+
+00:00:05.468 --> 00:00:07.311
+lunch, a meeting, training.
+
+00:00:07.311 --> 00:00:11.277
+This video shows why they exist, how to create a reason code, and
+
+00:00:11.277 --> 00:00:13.790
+what agents see in their presence menu.
+
+00:00:18.390 --> 00:00:22.241
+When agents are not taking work, a manager needs to know why.
+
+00:00:22.241 --> 00:00:25.576
+An agent at lunch is not the same as an agent who is
+
+00:00:25.576 --> 00:00:27.530
+stuck with a system problem.
+
+00:00:28.280 --> 00:00:32.236
+A reason code gives the agent a name to pick, such as Lunch,
+
+00:00:32.236 --> 00:00:34.094
+Team meeting or Training.
+
+00:00:34.094 --> 00:00:37.810
+Each one belongs to one of the built-in presence states.
+
+00:00:38.560 --> 00:00:42.573
+Reports and the Live dashboard then show both the state and the reason,
+
+00:00:42.573 --> 00:00:43.980
+so nobody has to ask.
+
+00:00:48.180 --> 00:00:52.754
+A reason code has a name, and the state it applies to:
+
+00:00:52.754 --> 00:00:58.930
+Break, Away, Do not disturb, Meeting, Training, or After-hours unavailable.
+
+00:00:59.680 --> 00:01:03.419
+A sort order decides where it appears in the presence menu.
+
+00:01:03.419 --> 00:01:05.490
+A lower number appears higher.
+
+00:01:06.240 --> 00:01:09.071
+The site starts with seven reason codes.
+
+00:01:09.071 --> 00:01:12.580
+You can change them, delete them, and add your own.
+
+00:01:16.800 --> 00:01:20.501
+Open Interaction Center, Management, Agent states.
+
+00:01:20.501 --> 00:01:24.930
+The list shows each reason code with the state it applies to.
+
+00:01:24.930 --> 00:01:26.780
+Click Add reason code.
+
+00:01:27.236 --> 00:01:31.896
+Type a Name, such as Customer visit, and an optional Description.
+
+00:01:32.346 --> 00:01:34.486
+Choose the state it Applies to.
+
+00:01:34.486 --> 00:01:37.146
+A visit away from the desk is a Meeting.
+
+00:01:37.605 --> 00:01:39.097
+Set a Sort order.
+
+00:01:39.097 --> 00:01:42.665
+Lower numbers appear higher in the presence menu.
+
+00:01:42.665 --> 00:01:45.455
+Leave Enabled ticked, and click Save.
+
+00:01:49.663 --> 00:01:54.176
+Agents change their state from the presence menu on My workspace.
+
+00:01:54.176 --> 00:01:59.453
+The same menu is in the Contact Center bar at the bottom of every admin page.
+
+00:01:59.904 --> 00:02:01.876
+Available is always listed.
+
+00:02:01.876 --> 00:02:05.762
+Every reason code that is not a break is listed on its own,
+
+00:02:05.762 --> 00:02:07.914
+and sets the state right away.
+
+00:02:07.914 --> 00:02:10.484
+The new Customer visit is among them.
+
+00:02:10.947 --> 00:02:15.577
+Break reasons are grouped under a Break heading, here Short break and Lunch.
+
+00:02:19.796 --> 00:02:25.076
+To stop offering a reason, open it and untick Enabled, then click Save.
+
+00:02:28.379 --> 00:02:32.923
+A disabled reason code is hidden from the presence menu, but it stays
+
+00:02:32.923 --> 00:02:36.679
+on historical records, so past reports still make sense.
+
+00:02:40.879 --> 00:02:45.644
+When an agent is busy on a call, the Break heading reads Request break.
+
+00:02:45.644 --> 00:02:49.109
+The break starts as soon as the current work ends.
+
+00:02:49.859 --> 00:02:55.322
+If no reason codes exist at all, the menu falls back to the plain states:
+
+00:02:55.322 --> 00:03:00.439
+Away, Do not disturb, Meeting, Training and After-hours unavailable.
+
+00:03:01.189 --> 00:03:06.102
+The starting codes are Short break and Lunch, Away from desk, Team meeting,
+
+00:03:06.102 --> 00:03:08.649
+Coaching, Training and System issue.
+
+00:03:12.849 --> 00:03:17.909
+Separating lunch from short breaks, so reports show the real length of each.
+
+00:03:18.659 --> 00:03:24.759
+A Coaching code, so supervisors know an agent is in a review and not idle.
+
+00:03:25.509 --> 00:03:30.189
+A System issue code, to see how much time a tooling problem costs.
+
+00:03:30.939 --> 00:03:36.219
+A code for after-hours unavailability, for agents who work a split shift.
+
+00:03:38.219 --> 00:03:43.113
+Create the reasons your team needs, and agents pick one when they step away.
+
+00:03:43.113 --> 00:03:45.858
+Reports and the dashboard show the rest.
+
+00:03:45.858 --> 00:03:47.409
+Thanks for watching.
+
