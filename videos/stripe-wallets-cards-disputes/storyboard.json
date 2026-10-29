@@ -1,0 +1,236 @@
+{
+  "title": "Stripe: wallets, saved cards and disputes",
+  "output": "stripe-wallets-cards-disputes",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Stripe: wallets, saved cards and disputes",
+      "subtitle": "Cards, wallets and disputes",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Stripe takes card payments, adds Apple Pay and Google Pay, remembers cards, and tells your store about disputes. This video shows how to enter your keys, what Connect does, what buyers see, and how disputes appear."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why Stripe",
+      "subtitle": "Cards, wallets and disputes",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Most shoppers expect to pay by card, and many prefer Apple Pay or Google Pay, where a fingerprint replaces typing a card number."
+            },
+            {
+              "id": "why-2",
+              "text": "A store also has to follow what happens after: refunds, failed payments, and the rare dispute, where a bank takes the money back."
+            },
+            {
+              "id": "why-3",
+              "text": "The Stripe connection takes card payments, adds the wallets, remembers cards for signed in buyers, and listens for what Stripe reports."
+            },
+            {
+              "id": "why-4",
+              "text": "This demo never contacts Stripe. It shows what you do, and what your buyers and staff see."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it fits together",
+      "subtitle": "Keys, Connect and the webhook",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You enter your Stripe keys, test keys first, so you can try a sale without real money."
+            },
+            {
+              "id": "how-2",
+              "text": "Connect creates a webhook, so Stripe can tell your site about payments, refunds and disputes, and registers your domain for Apple Pay and Google Pay."
+            },
+            {
+              "id": "how-3",
+              "text": "At checkout, buyers pay with a wallet or a card. Signed in buyers can keep a card for next time."
+            },
+            {
+              "id": "how-4",
+              "text": "When Stripe reports a dispute or a risky payment, the order shows it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Enter your keys",
+      "subtitle": "Test keys and the webhook secret",
+      "clips": [
+        {
+          "id": "03-keys",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "key-1",
+              "text": "Open Settings, Payments, Stripe. Make an account at stripe.com, and copy your keys from the Developers, API keys page. Use the Test mode switch to choose test or live keys."
+            },
+            {
+              "id": "key-2",
+              "text": "Enter the Test Publishable Key, which the card form on the payment step uses, and the Test Secret Key. Click Save."
+            },
+            {
+              "id": "key-3",
+              "text": "The Status shows the Connect button once a secret key is saved. Production fields appear only when you tick Enable Production, and the webhook signing secret is optional, under Advanced."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "What Connect does",
+      "subtitle": "Webhook, wallets and Disconnect",
+      "clips": [
+        {
+          "id": "04-connect",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "Connect checks your keys, and creates a webhook at Stripe: an address on your site that Stripe calls to report payments, refunds, failed payments and disputes."
+            },
+            {
+              "id": "con-2",
+              "text": "It registers your site's domain for Apple Pay and Google Pay. A site that is only reachable on your own computer cannot be registered, but card payments still work."
+            },
+            {
+              "id": "con-3",
+              "text": "Disconnect removes the webhook, and clears the keys this page saved, so Stripe payments stop until you enter them again. Keys set in the application settings stay in use."
+            },
+            {
+              "id": "con-4",
+              "text": "A site that is not public can forward Stripe's events with the Stripe command line tool, and paste the signing secret into the optional field."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Wallets and saved cards",
+      "subtitle": "At checkout and in My account",
+      "clips": [
+        {
+          "id": "05-cards",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "crd-1",
+              "text": "Apple Pay and Google Pay need nothing to turn on. After a successful Connect on a public domain, the wallet buttons appear above the card form, when the buyer's device has a wallet and an amount is due."
+            },
+            {
+              "id": "crd-2",
+              "text": "A signed in buyer paying for a one time purchase can tick Save this card for next time. The card is kept by Stripe, not by your site."
+            },
+            {
+              "id": "crd-3",
+              "text": "Next time the payment step offers Pay with, their saved cards and A new card. Under My account, Payment methods lists their cards, and lets them remove one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Disputes and risk",
+      "subtitle": "What Stripe tells your store",
+      "clips": [
+        {
+          "id": "06-disputes",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dsp-1",
+              "text": "When a bank opens a dispute, Stripe tells your site, and the order shows a Disputed badge, so nobody ships or refunds it by mistake."
+            },
+            {
+              "id": "dsp-2",
+              "text": "A payment Stripe thinks may be fraud is shown as Risky, so you can look before you ship."
+            },
+            {
+              "id": "dsp-3",
+              "text": "With Workflows on, Stripe's events start workflows, for example to tell your team about a dispute."
+            },
+            {
+              "id": "dsp-4",
+              "text": "Answer a dispute in your Stripe dashboard, where you can send the evidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Four ways to use Stripe",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Go live in steps: test keys and a test order first, live keys when you are ready."
+            },
+            {
+              "id": "use-2",
+              "text": "A mobile shopper: a wallet payment in a second."
+            },
+            {
+              "id": "use-3",
+              "text": "A returning customer: a saved card and one click."
+            },
+            {
+              "id": "use-4",
+              "text": "A chargeback: the order says Disputed, and your team is told."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Enter your test keys, connect, and let buyers pay with a wallet or a saved card. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
