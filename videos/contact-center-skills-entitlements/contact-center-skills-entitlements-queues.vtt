@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:07.840
+Open Agent entitlements, and click Add agent entitlements.
+
+00:00:08.316 --> 00:00:13.010
+Click Browse users, search for the person, and pick them as the User.
+
+00:00:13.010 --> 00:00:18.706
+Each user has one entitlement record, and the screen tells you if one already exists.
+
+00:00:19.156 --> 00:00:23.690
+Under Allowed queues, pick every queue the agent may sign in to.
+
+00:00:23.690 --> 00:00:27.576
+Removing a queue later also signs the agent out of it.
+
+00:00:28.027 --> 00:00:30.829
+Queue preferences list the allowed queues.
+
+00:00:30.829 --> 00:00:33.515
+A lower Priority number is served first.
+
+00:00:33.515 --> 00:00:38.069
+Delay makes a caller wait that many seconds before this agent is offered
+
+00:00:38.069 --> 00:00:40.697
+work, so the agent can back up a queue.
+

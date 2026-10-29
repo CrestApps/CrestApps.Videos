@@ -1,0 +1,28 @@
+1
+00:00:03,221 --> 00:00:07,845
+The list shows how many queues and campaigns each agent is allowed.
+
+2
+00:00:07,845 --> 00:00:09,619
+Edit changes a record.
+
+3
+00:00:09,619 --> 00:00:12,406
+Entitlement records cannot be deleted:
+
+4
+00:00:12,406 --> 00:00:15,321
+remove the queues and campaigns instead.
+
+5
+00:00:15,813 --> 00:00:17,982
+Supervisors need a record too.
+
+6
+00:00:17,982 --> 00:00:22,983
+The Live dashboard and the shared voicemail show a supervisor only the queues
+
+7
+00:00:22,983 --> 00:00:27,863
+and campaigns on their own record, so without one their dashboard is empty.
+

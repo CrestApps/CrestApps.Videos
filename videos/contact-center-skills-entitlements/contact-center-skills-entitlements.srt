@@ -1,0 +1,228 @@
+1
+00:00:01,000 --> 00:00:06,399
+Skills describe what an agent can do, and entitlements decide where an agent may work.
+
+2
+00:00:06,399 --> 00:00:10,448
+This video shows why they exist, how to create a skill, and how
+
+3
+00:00:10,448 --> 00:00:13,500
+to give an agent queues, campaigns and skills.
+
+4
+00:00:18,100 --> 00:00:20,863
+Not every agent can help every customer.
+
+5
+00:00:20,863 --> 00:00:25,427
+A customer who speaks Spanish needs an agent who speaks Spanish, and a
+
+6
+00:00:25,427 --> 00:00:28,730
+billing question needs someone who knows billing.
+
+7
+00:00:29,480 --> 00:00:35,523
+A skill describes what an agent can do, such as Spanish, Billing, or Tier 2 support.
+
+8
+00:00:35,523 --> 00:00:38,410
+A queue can require or prefer skills.
+
+9
+00:00:39,160 --> 00:00:44,140
+An entitlement record decides which queues and campaigns one agent may sign in
+
+10
+00:00:44,140 --> 00:00:49,120
+to, in what order the agent is offered work, and which skills the agent holds.
+
+11
+00:00:53,320 --> 00:00:55,830
+Skills are created once, in a list.
+
+12
+00:00:55,830 --> 00:01:00,300
+They come with the work distribution feature of the Contact Center.
+
+13
+00:01:01,050 --> 00:01:03,765
+Each agent has one entitlement record:
+
+14
+00:01:03,765 --> 00:01:08,947
+allowed queues with a priority and a delay, allowed campaigns, and skills with
+
+15
+00:01:08,947 --> 00:01:11,230
+a proficiency from one to five.
+
+16
+00:01:11,980 --> 00:01:14,764
+Entitlements are a feature you turn on.
+
+17
+00:01:14,764 --> 00:01:19,032
+Without it, any agent may sign in to any queue or campaign, and
+
+18
+00:01:19,032 --> 00:01:21,940
+there is no screen to give agents skills.
+
+19
+00:01:26,240 --> 00:01:29,623
+Open Interaction Center, Management, Skills.
+
+20
+00:01:29,623 --> 00:01:32,532
+The list shows the skills that exist.
+
+21
+00:01:32,532 --> 00:01:34,020
+Click Add Skill.
+
+22
+00:01:34,583 --> 00:01:39,643
+Enter a Name, such as Tier 2 support, and an optional Description.
+
+23
+00:01:41,450 --> 00:01:43,922
+Leave Enabled ticked and click Save.
+
+24
+00:01:43,922 --> 00:01:48,278
+A disabled skill stays on the agents and queues that already use it,
+
+25
+00:01:48,278 --> 00:01:50,810
+but it cannot be picked for new ones.
+
+26
+00:01:55,110 --> 00:01:59,650
+Open Agent entitlements, and click Add agent entitlements.
+
+27
+00:02:00,126 --> 00:02:04,820
+Click Browse users, search for the person, and pick them as the User.
+
+28
+00:02:04,820 --> 00:02:10,516
+Each user has one entitlement record, and the screen tells you if one already exists.
+
+29
+00:02:10,966 --> 00:02:15,500
+Under Allowed queues, pick every queue the agent may sign in to.
+
+30
+00:02:15,500 --> 00:02:19,386
+Removing a queue later also signs the agent out of it.
+
+31
+00:02:19,836 --> 00:02:22,639
+Queue preferences list the allowed queues.
+
+32
+00:02:22,639 --> 00:02:25,325
+A lower Priority number is served first.
+
+33
+00:02:25,325 --> 00:02:29,879
+Delay makes a caller wait that many seconds before this agent is offered
+
+34
+00:02:29,879 --> 00:02:32,506
+work, so the agent can back up a queue.
+
+35
+00:02:36,708 --> 00:02:41,500
+Under Allowed campaigns, pick the dialer campaigns the agent may work.
+
+36
+00:02:41,500 --> 00:02:43,328
+This site has none yet.
+
+37
+00:02:43,786 --> 00:02:47,366
+Under Skills, click Add skill, and pick a skill.
+
+38
+00:02:47,822 --> 00:02:51,670
+Set its Proficiency from 1, basic, to 5, expert.
+
+39
+00:02:51,670 --> 00:02:57,086
+A queue that requires a skill at a minimum proficiency only offers its
+
+40
+00:02:57,086 --> 00:02:59,652
+work to agents at or above it.
+
+41
+00:03:00,110 --> 00:03:01,164
+Click Save.
+
+42
+00:03:01,164 --> 00:03:06,930
+The agent can now sign in to these queues, and receives work that matches their skills.
+
+43
+00:03:11,150 --> 00:03:15,775
+The list shows how many queues and campaigns each agent is allowed.
+
+44
+00:03:15,775 --> 00:03:17,549
+Edit changes a record.
+
+45
+00:03:17,549 --> 00:03:20,336
+Entitlement records cannot be deleted:
+
+46
+00:03:20,336 --> 00:03:23,250
+remove the queues and campaigns instead.
+
+47
+00:03:23,743 --> 00:03:25,912
+Supervisors need a record too.
+
+48
+00:03:25,912 --> 00:03:30,913
+The Live dashboard and the shared voicemail show a supervisor only the queues
+
+49
+00:03:30,913 --> 00:03:35,793
+and campaigns on their own record, so without one their dashboard is empty.
+
+50
+00:03:39,993 --> 00:03:44,693
+A Spanish queue that only offers work to agents with the Spanish skill.
+
+51
+00:03:45,443 --> 00:03:49,576
+A backup agent, with a delay on the sales queue, who helps only
+
+52
+00:03:49,576 --> 00:03:51,613
+when the sales team is busy.
+
+53
+00:03:52,363 --> 00:03:57,953
+A senior agent with Tier 2 support at proficiency 5, for the hardest questions.
+
+54
+00:03:58,703 --> 00:04:04,393
+A supervisor with a record for the queues they supervise, so the dashboard shows their team.
+
+55
+00:04:06,393 --> 00:04:11,338
+Create the skills, give every agent an entitlement record, and work reaches the
+
+56
+00:04:11,338 --> 00:04:12,851
+people who can help.
+
+57
+00:04:12,851 --> 00:04:14,363
+Thanks for watching.
+
