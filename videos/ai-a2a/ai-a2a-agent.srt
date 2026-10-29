@@ -1,0 +1,52 @@
+1
+00:00:03,201 --> 00:00:07,698
+Open Artificial Intelligence, Profiles, and click Add Profile.
+
+2
+00:00:07,698 --> 00:00:11,998
+In the New AI Profile window, click Start on Blank profile.
+
+3
+00:00:11,998 --> 00:00:16,231
+The other cards are ready-made profiles, including agents.
+
+4
+00:00:16,682 --> 00:00:20,040
+Enter a Title, and set the Profile type to Agent.
+
+5
+00:00:20,040 --> 00:00:23,092
+The Description and the Availability appear.
+
+6
+00:00:23,568 --> 00:00:26,431
+Write the Description for the other assistants.
+
+7
+00:00:26,431 --> 00:00:29,995
+It says exactly what the agent does and when to call it, and
+
+8
+00:00:29,995 --> 00:00:31,508
+it is how they decide.
+
+9
+00:00:31,964 --> 00:00:35,390
+Availability decides when the agent is included.
+
+10
+00:00:35,390 --> 00:00:39,071
+On demand includes it only when it fits the request.
+
+11
+00:00:39,071 --> 00:00:43,894
+Always available includes it in every request, which uses more tokens.
+
+12
+00:00:44,349 --> 00:00:48,344
+Under System instructions, tell the agent how to behave.
+
+13
+00:00:48,344 --> 00:00:49,439
+Click Save.
+

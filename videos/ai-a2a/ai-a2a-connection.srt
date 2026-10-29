@@ -1,0 +1,36 @@
+1
+00:00:03,178 --> 00:00:08,287
+To use the agents of another system, open Artificial Intelligence, Agent to Agent
+
+2
+00:00:08,287 --> 00:00:10,518
+Hosts, and click Add Connection.
+
+3
+00:00:10,968 --> 00:00:18,345
+Enter a Title, and the Endpoint, which is the address of the other system's A2A host.
+
+4
+00:00:18,345 --> 00:00:24,668
+Here the host runs on this machine, and its address ends with slash A2A.
+
+5
+00:00:25,125 --> 00:00:30,353
+Authentication offers the same choices as an MCP connection:
+
+6
+00:00:30,353 --> 00:00:37,641
+Anonymous, API Key, Basic Authentication, three OAuth 2.0 options, and Custom Headers.
+
+7
+00:00:37,641 --> 00:00:41,205
+Anonymous suits an open host or a test.
+
+8
+00:00:41,659 --> 00:00:42,640
+Click Save.
+
+9
+00:00:42,640 --> 00:00:47,949
+The site reads the agent card of the host when an assistant first uses the connection.
+

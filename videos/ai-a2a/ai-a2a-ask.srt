@@ -1,0 +1,12 @@
+1
+00:00:03,186 --> 00:00:05,631
+Now ask a question for the specialist:
+
+2
+00:00:05,631 --> 00:00:07,576
+what does the warranty cover?
+
+3
+00:00:08,026 --> 00:00:13,836
+The assistant hands the question to the Warranty Agent, and answers with what the agent returned.
+

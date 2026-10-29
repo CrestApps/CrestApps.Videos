@@ -1,0 +1,272 @@
+{
+  "title": "Agent-to-Agent (A2A)",
+  "output": "ai-a2a",
+  "spoken": {
+    "A2A": "A.2.A.",
+    "MCP": "M.C.P."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Agent-to-Agent (A2A)",
+      "subtitle": "Specialist agents, on your site and on others",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some jobs are best done by a specialist. This video shows how Agent profiles let your assistants hand work to specialist agents, how your site offers its agents to other systems over the Agent-to-Agent protocol, and how to use the agents of another system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why agents",
+      "subtitle": "One specialist for each job",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An assistant that does everything is hard to maintain. Its instructions grow, and its answers become less focused."
+            },
+            {
+              "id": "why-2",
+              "text": "A specialist agent has one job, its own instructions and its own tools, so it does that job well."
+            },
+            {
+              "id": "why-3",
+              "text": "The Agent-to-Agent protocol, or A2A, lets agents on different systems find each other and work together."
+            },
+            {
+              "id": "why-4",
+              "text": "Your site can offer its agents to other systems, and your assistants can call the agents of other systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Agents, a host and a client",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "An agent is an AI profile of type Agent, with a description that says what it is good at."
+            },
+            {
+              "id": "how-2",
+              "text": "The A2A Host feature offers every Agent profile to other systems, which discover them in the site's agent card."
+            },
+            {
+              "id": "how-3",
+              "text": "The A2A Client feature adds connections to the hosts of other systems, and each agent they offer becomes something your assistants can call."
+            },
+            {
+              "id": "how-4",
+              "text": "Each part is its own feature, so you only see the menus of the features that are turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create an agent",
+      "subtitle": "A specialist profile",
+      "clips": [
+        {
+          "id": "03-agent",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ag-1",
+              "text": "Open Artificial Intelligence, Profiles, and click Add Profile. In the New AI Profile window, click Start on Blank profile. The other cards are ready-made profiles, including agents."
+            },
+            {
+              "id": "ag-2",
+              "text": "Enter a Title, and set the Profile type to Agent. The Description and the Availability appear."
+            },
+            {
+              "id": "ag-3",
+              "text": "Write the Description for the other assistants. It says exactly what the agent does and when to call it, and it is how they decide."
+            },
+            {
+              "id": "ag-4",
+              "text": "Availability decides when the agent is included. On demand includes it only when it fits the request. Always available includes it in every request, which uses more tokens."
+            },
+            {
+              "id": "ag-5",
+              "text": "Under System instructions, tell the agent how to behave. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "agent"
+    },
+    {
+      "id": "04",
+      "title": "Offer your agents",
+      "subtitle": "The A2A Host",
+      "clips": [
+        {
+          "id": "04-host",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "host-1",
+              "text": "With the Agent-to-Agent Host feature on, your site offers every Agent profile to other systems."
+            },
+            {
+              "id": "host-2",
+              "text": "Other systems discover the agents from the site's agent card, and send them messages."
+            },
+            {
+              "id": "host-3",
+              "text": "Your technical team chooses how callers sign in: no sign-in for testing, an API key, or OpenID Connect."
+            },
+            {
+              "id": "host-4",
+              "text": "When the host asks for it, a caller also needs the Access the A2A Host permission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Connect to another system",
+      "subtitle": "An A2A connection",
+      "clips": [
+        {
+          "id": "05-connection",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "To use the agents of another system, open Artificial Intelligence, Agent to Agent Hosts, and click Add Connection."
+            },
+            {
+              "id": "con-2",
+              "text": "Enter a Title, and the Endpoint, which is the address of the other system's A2A host. Here the host runs on this machine, and its address ends with slash A2A."
+            },
+            {
+              "id": "con-3",
+              "text": "Authentication offers the same choices as an MCP connection: Anonymous, API Key, Basic Authentication, three OAuth 2.0 options, and Custom Headers. Anonymous suits an open host or a test."
+            },
+            {
+              "id": "con-4",
+              "text": "Click Save. The site reads the agent card of the host when an assistant first uses the connection."
+            }
+          ]
+        }
+      ],
+      "short": "connection"
+    },
+    {
+      "id": "06",
+      "title": "Give an assistant the agents",
+      "subtitle": "Capabilities on a profile",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Open the profile of an assistant, and its Capabilities tab. Under A2A Connections, tick the connection. Each agent that the host offers becomes something the assistant can call."
+            },
+            {
+              "id": "use-2",
+              "text": "Under Agents, tick the agents of this site that the assistant may call. Always-available agents are already included."
+            },
+            {
+              "id": "use-3",
+              "text": "Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "use"
+    },
+    {
+      "id": "07",
+      "title": "Ask a specialist",
+      "subtitle": "The assistant hands over the job",
+      "clips": [
+        {
+          "id": "07-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "Now ask a question for the specialist: what does the warranty cover?"
+            },
+            {
+              "id": "ask-2",
+              "text": "The assistant hands the question to the Warranty Agent, and answers with what the agent returned."
+            }
+          ]
+        }
+      ],
+      "short": "ask"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Where agents help",
+      "clips": [
+        {
+          "id": "08-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "Specialists: a legal, finance or warranty agent that answers in its own area, with its own instructions."
+            },
+            {
+              "id": "case-2",
+              "text": "Partners: a supplier or a sister company offers an agent, and your assistants call it."
+            },
+            {
+              "id": "case-3",
+              "text": "Reuse: one agent serves many assistants, so you maintain its instructions in one place."
+            },
+            {
+              "id": "case-4",
+              "text": "Care: describe each agent precisely, and give an assistant only the agents it needs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create specialist agents, offer them with the A2A Host, and connect to the agents of other systems. Your assistants then hand each job to the right specialist. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
