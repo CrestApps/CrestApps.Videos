@@ -1,0 +1,107 @@
+{
+  "title": "Inbound Entry Points: Route Calls and Texts to the Right Queue | CrestApps for Orchard Core",
+  "description": "A phone number does nothing on its own: someone has to decide who answers, and what happens at night or on a holiday. An inbound entry point is the front door of a number. It routes calls and texts to a queue or a person, follows your business hours, and sends callers to voicemail when nobody can answer.\n\nIn this video:\n• Why numbers need an entry point, and how numbers, routing, hours and voicemail fit together\n• Adding the numbers under Omnichannel Addresses\n• Creating a call entry point: name, numbers, queue and priority\n• Closed hours: the business hours calendar, the closed action and the closed message\n• Voicemail: the default greeting and whose inbox receives the message\n• A personal line that rings one agent\n• Text entry points with queue distribution, an auto-reply and a closed auto-reply\n• Cloning an entry point, and a checklist to test a number before you publish it",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "entry points",
+    "inbound calls",
+    "call routing",
+    "voicemail",
+    "business hours",
+    "SMS",
+    "queues",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why entry points"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:31",
+      "title": "Add the numbers"
+    },
+    {
+      "time": "2:01",
+      "title": "Create a call entry point"
+    },
+    {
+      "time": "2:44",
+      "title": "Closed hours"
+    },
+    {
+      "time": "3:22",
+      "title": "Voicemail"
+    },
+    {
+      "time": "3:48",
+      "title": "A personal line"
+    },
+    {
+      "time": "4:25",
+      "title": "Text entry points"
+    },
+    {
+      "time": "5:17",
+      "title": "Manage and copy"
+    },
+    {
+      "time": "5:52",
+      "title": "Test it before you publish"
+    },
+    {
+      "time": "6:21",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:49",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/entry-points-and-ivr"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/voice-routing"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Inbound Entry Points)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/entry-points-and-ivr.md",
+    "src/CrestApps.Docs/docs/contact-center/voice-routing.md"
+  ],
+  "length": "7:02"
+}

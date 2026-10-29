@@ -1,0 +1,388 @@
+1
+00:00:01,000 --> 00:00:07,079
+An inbound entry point decides what happens when someone calls or texts one of your numbers.
+
+2
+00:00:07,079 --> 00:00:11,422
+This video shows why it exists, and how to create one for calls,
+
+3
+00:00:11,422 --> 00:00:15,950
+set its hours and voicemail, answer texts, and copy an entry point.
+
+4
+00:00:20,550 --> 00:00:23,125
+A phone number does nothing on its own.
+
+5
+00:00:23,125 --> 00:00:27,418
+When a customer dials it, someone has to decide who answers, and what
+
+6
+00:00:27,418 --> 00:00:29,650
+happens at night or on a holiday.
+
+7
+00:00:30,400 --> 00:00:34,590
+Without one place for those decisions, the rules end up scattered:
+
+8
+00:00:34,590 --> 00:00:39,420
+one setting on the number, another on the queue, another in the phone system.
+
+9
+00:00:40,170 --> 00:00:43,291
+An inbound entry point is that one place.
+
+10
+00:00:43,291 --> 00:00:48,471
+It is the front door of one or more numbers, and it answers one channel:
+
+11
+00:00:48,471 --> 00:00:51,260
+either voice calls or text messages.
+
+12
+00:00:55,460 --> 00:00:58,687
+Numbers come from the Omnichannel Addresses list.
+
+13
+00:00:58,687 --> 00:01:02,852
+An entry point picks the numbers it answers, and a number has one
+
+14
+00:01:02,852 --> 00:01:06,020
+enabled entry point for calls and one for texts.
+
+15
+00:01:06,770 --> 00:01:09,488
+Routing says where the call goes:
+
+16
+00:01:09,488 --> 00:01:13,181
+to a queue, to one specific agent, or to an AI.
+
+17
+00:01:13,181 --> 00:01:17,710
+Priority lets this number's calls jump ahead of other work.
+
+18
+00:01:18,460 --> 00:01:22,077
+Hours say when the entry point is open, and what happens to a
+
+19
+00:01:22,077 --> 00:01:24,290
+call that rings while it is closed.
+
+20
+00:01:25,040 --> 00:01:30,850
+Voicemail says what a caller hears before leaving a message, and whose inbox receives it.
+
+21
+00:01:35,031 --> 00:01:36,653
+Numbers come first.
+
+22
+00:01:36,653 --> 00:01:40,871
+Open Interaction Center, Management, Omnichannel Addresses.
+
+23
+00:01:40,871 --> 00:01:45,609
+Each address is one phone number your business owns, such as a main
+
+24
+00:01:45,609 --> 00:01:47,491
+line or a support line.
+
+25
+00:01:47,982 --> 00:01:50,580
+Click Add to see how a number is made.
+
+26
+00:01:50,580 --> 00:01:53,060
+Give it a Name and the Phone number.
+
+27
+00:01:53,060 --> 00:01:57,429
+Under Used for, tick Voice calls for a number that takes calls, Text
+
+28
+00:01:57,429 --> 00:02:00,322
+messages for one that takes texts, or both.
+
+29
+00:02:04,529 --> 00:02:08,762
+Open Inbound entry points and click Add inbound entry point.
+
+30
+00:02:08,762 --> 00:02:11,904
+A dialog asks what the entry point answers.
+
+31
+00:02:11,904 --> 00:02:14,469
+Click Add on the Voice calls card.
+
+32
+00:02:14,961 --> 00:02:18,509
+On the General card, type a Name, such as Support line.
+
+33
+00:02:18,509 --> 00:02:21,359
+Under Numbers, pick the numbers it answers.
+
+34
+00:02:21,359 --> 00:02:24,151
+Only numbers ticked for calls are offered.
+
+35
+00:02:24,673 --> 00:02:28,181
+On the Routing card, Route to is Queue by default.
+
+36
+00:02:28,181 --> 00:02:31,751
+Pick the Target queue, Support, and set a Priority.
+
+37
+00:02:31,751 --> 00:02:36,573
+Calls to this number then go ahead of lower priority work in the queue.
+
+38
+00:02:37,080 --> 00:02:37,980
+Click Save.
+
+39
+00:02:37,980 --> 00:02:42,164
+Calls to the number follow these rules straight away, and the entry point
+
+40
+00:02:42,164 --> 00:02:43,540
+appears in the list.
+
+41
+00:02:47,840 --> 00:02:51,081
+Edit the entry point, and open the Hours card.
+
+42
+00:02:51,081 --> 00:02:54,508
+The Business hours calendar says when it is open.
+
+43
+00:02:54,508 --> 00:02:56,751
+Left empty, it is always open.
+
+44
+00:02:56,751 --> 00:02:59,430
+Here it follows the weekday calendar.
+
+45
+00:02:59,925 --> 00:03:04,608
+Closed action says what happens to a call that arrives while closed.
+
+46
+00:03:04,608 --> 00:03:07,328
+Hold in queue keeps the call waiting.
+
+47
+00:03:07,328 --> 00:03:09,353
+Voicemail takes a message.
+
+48
+00:03:09,353 --> 00:03:11,947
+Overflow sends it to another queue.
+
+49
+00:03:11,947 --> 00:03:13,655
+Reject ends the call.
+
+50
+00:03:14,109 --> 00:03:17,057
+Pick Voicemail, and write a Closed message.
+
+51
+00:03:17,057 --> 00:03:21,569
+It is spoken to the caller first, and then the closed action applies.
+
+52
+00:03:25,869 --> 00:03:30,318
+On the Voicemail card, the Default voicemail greeting is spoken when the person
+
+53
+00:03:30,318 --> 00:03:33,929
+receiving the message has not recorded a greeting of their own.
+
+54
+00:03:34,406 --> 00:03:39,956
+Deliver voicemail to chooses An agent's inbox, or The queue's shared voicemail box,
+
+55
+00:03:39,956 --> 00:03:43,510
+which any entitled agent or supervisor can pick up.
+
+56
+00:03:43,510 --> 00:03:47,126
+Pick an agent under Voicemail inbox, and click Save.
+
+57
+00:03:51,337 --> 00:03:54,663
+A number can ring one person instead of a queue.
+
+58
+00:03:54,663 --> 00:03:58,727
+Add another call entry point, and name it Sales direct line.
+
+59
+00:04:01,085 --> 00:04:02,408
+Pick its number.
+
+60
+00:04:02,408 --> 00:04:06,558
+Then set Route to to Specific agent, and pick the Target agent.
+
+61
+00:04:06,558 --> 00:04:09,145
+The call never falls back to a queue.
+
+62
+00:04:13,698 --> 00:04:17,856
+Ring window sets how many seconds the agent's phone rings.
+
+63
+00:04:17,856 --> 00:04:23,443
+Send unanswered calls to voicemail, which is ticked, takes a message afterwards.
+
+64
+00:04:23,443 --> 00:04:24,548
+Click Save.
+
+65
+00:04:28,748 --> 00:04:34,008
+Add an entry point again, and this time click Add on the Text messages card.
+
+66
+00:04:35,082 --> 00:04:37,595
+The General card works the same way:
+
+67
+00:04:37,595 --> 00:04:39,390
+a Name, and the numbers.
+
+68
+00:04:39,390 --> 00:04:42,262
+Only numbers ticked for texts are offered.
+
+69
+00:04:43,276 --> 00:04:45,835
+On Routing, pick the Target queue.
+
+70
+00:04:45,835 --> 00:04:51,785
+Queue distribution is Shared pool, where one agent claims each conversation, or Routed,
+
+71
+00:04:51,785 --> 00:04:54,536
+which gives it to an available agent.
+
+72
+00:04:55,101 --> 00:04:59,704
+Auto-reply is sent back to a contact who texts, at most once a day.
+
+73
+00:04:59,704 --> 00:05:04,812
+On the Hours card, Closed auto-reply is sent instead, while you are closed.
+
+74
+00:05:04,812 --> 00:05:07,271
+The text still reaches the queue.
+
+75
+00:05:09,528 --> 00:05:14,086
+A number with no enabled text entry point still receives texts.
+
+76
+00:05:14,086 --> 00:05:16,728
+They land in the unassigned inbox.
+
+77
+00:05:21,028 --> 00:05:26,580
+The list shows every entry point with the channel it answers and its numbers.
+
+78
+00:05:26,580 --> 00:05:29,657
+Edit changes one, and Delete removes it.
+
+79
+00:05:29,657 --> 00:05:34,808
+A disabled entry point answers nothing, so untick Enabled to pause one.
+
+80
+00:05:35,313 --> 00:05:41,059
+To start from an existing entry point, open its Actions menu and choose Clone.
+
+81
+00:05:41,059 --> 00:05:45,780
+The form opens with every setting copied, and the name Copy of.
+
+82
+00:05:45,780 --> 00:05:51,253
+Numbers starts empty, because each number has one entry point per channel.
+
+83
+00:05:55,453 --> 00:06:00,543
+Add the number under Omnichannel Addresses, and create the queue it should reach.
+
+84
+00:06:01,293 --> 00:06:04,723
+Create the entry point for the number, with its hours.
+
+85
+00:06:05,473 --> 00:06:08,852
+Have an agent sign in to the queue, and call the number.
+
+86
+00:06:08,852 --> 00:06:11,523
+The call should be offered in My workspace.
+
+87
+00:06:12,273 --> 00:06:15,295
+Keep the Live dashboard open while you test.
+
+88
+00:06:15,295 --> 00:06:20,313
+The waiting count goes up first, then the agent moves from available to busy.
+
+89
+00:06:24,513 --> 00:06:28,368
+A main line that rings the support queue in office hours, and takes
+
+90
+00:06:28,368 --> 00:06:30,323
+voicemail the rest of the time.
+
+91
+00:06:31,073 --> 00:06:36,883
+A personal line for an account manager, ringing one person and then taking a message.
+
+92
+00:06:37,633 --> 00:06:42,693
+Separate numbers for sales and support, with sales at a higher priority.
+
+93
+00:06:43,443 --> 00:06:48,223
+A text line that answers at once, and tells customers when you will reply.
+
+94
+00:06:50,223 --> 00:06:54,839
+Add your numbers, create an entry point for each one, and choose its
+
+95
+00:06:54,839 --> 00:06:56,898
+queue, hours and voicemail.
+
+96
+00:06:56,898 --> 00:06:59,831
+Callers and texts then follow your rules.
+
+97
+00:06:59,831 --> 00:07:01,453
+Thanks for watching.
+

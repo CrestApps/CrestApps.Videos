@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:06.540
+Edit the entry point, and open the Hours card.
+
+00:00:06.540 --> 00:00:09.967
+The Business hours calendar says when it is open.
+
+00:00:09.967 --> 00:00:12.211
+Left empty, it is always open.
+
+00:00:12.211 --> 00:00:14.890
+Here it follows the weekday calendar.
+
+00:00:15.385 --> 00:00:20.067
+Closed action says what happens to a call that arrives while closed.
+
+00:00:20.067 --> 00:00:22.788
+Hold in queue keeps the call waiting.
+
+00:00:22.788 --> 00:00:24.813
+Voicemail takes a message.
+
+00:00:24.813 --> 00:00:27.407
+Overflow sends it to another queue.
+
+00:00:27.407 --> 00:00:29.115
+Reject ends the call.
+
+00:00:29.569 --> 00:00:32.517
+Pick Voicemail, and write a Closed message.
+
+00:00:32.517 --> 00:00:37.029
+It is spoken to the caller first, and then the closed action applies.
+

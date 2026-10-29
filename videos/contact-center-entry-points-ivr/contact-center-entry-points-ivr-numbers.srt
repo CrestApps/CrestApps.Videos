@@ -1,0 +1,32 @@
+1
+00:00:03,181 --> 00:00:04,803
+Numbers come first.
+
+2
+00:00:04,803 --> 00:00:09,021
+Open Interaction Center, Management, Omnichannel Addresses.
+
+3
+00:00:09,021 --> 00:00:13,759
+Each address is one phone number your business owns, such as a main
+
+4
+00:00:13,759 --> 00:00:15,641
+line or a support line.
+
+5
+00:00:16,132 --> 00:00:18,730
+Click Add to see how a number is made.
+
+6
+00:00:18,730 --> 00:00:21,210
+Give it a Name and the Phone number.
+
+7
+00:00:21,210 --> 00:00:25,579
+Under Used for, tick Voice calls for a number that takes calls, Text
+
+8
+00:00:25,579 --> 00:00:28,472
+messages for one that takes texts, or both.
+

@@ -1,0 +1,32 @@
+1
+00:00:03,211 --> 00:00:06,537
+A number can ring one person instead of a queue.
+
+2
+00:00:06,537 --> 00:00:10,601
+Add another call entry point, and name it Sales direct line.
+
+3
+00:00:12,959 --> 00:00:14,282
+Pick its number.
+
+4
+00:00:14,282 --> 00:00:18,432
+Then set Route to to Specific agent, and pick the Target agent.
+
+5
+00:00:18,432 --> 00:00:21,019
+The call never falls back to a queue.
+
+6
+00:00:25,571 --> 00:00:29,729
+Ring window sets how many seconds the agent's phone rings.
+
+7
+00:00:29,729 --> 00:00:35,317
+Send unanswered calls to voicemail, which is ticked, takes a message afterwards.
+
+8
+00:00:35,317 --> 00:00:36,421
+Click Save.
+
