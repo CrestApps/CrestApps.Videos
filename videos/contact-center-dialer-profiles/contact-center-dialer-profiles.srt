@@ -1,0 +1,388 @@
+1
+00:00:01,000 --> 00:00:05,895
+A dialer profile decides how the calls of an outbound campaign are placed,
+
+2
+00:00:05,895 --> 00:00:10,240
+which number customers see, and which rules every call must pass.
+
+3
+00:00:10,240 --> 00:00:14,646
+This video shows why it exists, the four dialing modes, and how to
+
+4
+00:00:14,646 --> 00:00:16,910
+create a profile, card by card.
+
+5
+00:00:21,510 --> 00:00:25,029
+An outbound campaign is a list of people to call.
+
+6
+00:00:25,029 --> 00:00:28,164
+Someone has to decide how each call starts.
+
+7
+00:00:28,164 --> 00:00:33,730
+Does an agent review the record and press dial, or does the system dial for them?
+
+8
+00:00:34,480 --> 00:00:37,015
+Every call also has to follow rules.
+
+9
+00:00:37,015 --> 00:00:39,187
+Which number do customers see?
+
+10
+00:00:39,187 --> 00:00:41,058
+Who must never be called?
+
+11
+00:00:41,058 --> 00:00:43,050
+At what hours may you call?
+
+12
+00:00:43,800 --> 00:00:47,798
+Those answers should not be typed again for every list you load, and
+
+13
+00:00:47,798 --> 00:00:50,230
+they should be the same for every call.
+
+14
+00:00:50,980 --> 00:00:53,794
+A dialer profile keeps them in one place.
+
+15
+00:00:53,794 --> 00:00:57,505
+You pick a profile when you load a list of calls, so one
+
+16
+00:00:57,505 --> 00:00:59,840
+profile can serve many campaigns.
+
+17
+00:01:04,040 --> 00:01:06,777
+In Preview, the agent is in control.
+
+18
+00:01:06,777 --> 00:01:11,535
+The record is offered to an agent who is signed in to the campaign.
+
+19
+00:01:11,535 --> 00:01:15,510
+The agent reviews it, then clicks Dial, or clicks Skip.
+
+20
+00:01:16,260 --> 00:01:18,291
+In Power, the system dials.
+
+21
+00:01:18,291 --> 00:01:22,783
+As soon as an agent in the campaign is available, the dialer places
+
+22
+00:01:22,783 --> 00:01:25,614
+calls, each with its own reserved agent.
+
+23
+00:01:25,614 --> 00:01:30,230
+The record opens when the call starts, and there is nothing to press.
+
+24
+00:01:30,980 --> 00:01:33,129
+Progressive works like Power.
+
+25
+00:01:33,129 --> 00:01:37,304
+It reserves one agent for each call, with a fixed limit on the
+
+26
+00:01:37,304 --> 00:01:39,760
+calls placed in each pacing cycle.
+
+27
+00:01:40,510 --> 00:01:44,592
+Predictive also reserves an agent for each call by default.
+
+28
+00:01:44,592 --> 00:01:48,925
+As the abandonment rate nears its limit, it places fewer calls.
+
+29
+00:01:48,925 --> 00:01:52,630
+It can also over-dial, which the next video explains.
+
+30
+00:01:56,858 --> 00:01:59,831
+Dialer profiles come from two features.
+
+31
+00:01:59,831 --> 00:02:03,994
+Contact Center Outbound Dialer gives you Preview dialing.
+
+32
+00:02:03,994 --> 00:02:08,883
+Contact Center Paced Dialing adds Power, Progressive and Predictive.
+
+33
+00:02:08,883 --> 00:02:12,318
+Without it, those three modes are not offered.
+
+34
+00:02:12,779 --> 00:02:16,643
+Open Interaction Center, Management, Dialer Profiles.
+
+35
+00:02:16,643 --> 00:02:20,310
+The list is empty until you add the first profile.
+
+36
+00:02:20,310 --> 00:02:24,109
+Older profiles saved as Manual are shown as Preview.
+
+37
+00:02:24,577 --> 00:02:26,619
+Click Add Dialer Profile.
+
+38
+00:02:26,619 --> 00:02:28,726
+The form is made of cards:
+
+39
+00:02:28,726 --> 00:02:35,377
+General, Dialing, Caller ID, Compliance, and two more that appear only for the automatic modes.
+
+40
+00:02:39,596 --> 00:02:43,276
+On General, enter a Name, and an optional Description.
+
+41
+00:02:43,276 --> 00:02:44,932
+Leave Enabled ticked.
+
+42
+00:02:44,932 --> 00:02:49,654
+A disabled profile places no calls, and the records loaded under it are
+
+43
+00:02:49,654 --> 00:02:52,966
+not offered to agents until you turn it back on.
+
+44
+00:02:53,430 --> 00:02:56,114
+On Dialing, Mode decides the pacing.
+
+45
+00:02:56,114 --> 00:02:58,286
+Preview is the first choice.
+
+46
+00:02:58,286 --> 00:03:04,293
+The Voice call provider is Default provider, which means the default telephony provider.
+
+47
+00:03:04,293 --> 00:03:08,000
+Pick another one only when this profile must use it.
+
+48
+00:03:08,546 --> 00:03:10,832
+Choose Power, and the card grows.
+
+49
+00:03:10,832 --> 00:03:15,053
+Calls per agent is how many calls start each time the dialer looks
+
+50
+00:03:15,053 --> 00:03:17,456
+at the campaign, from one to three.
+
+51
+00:03:17,456 --> 00:03:21,735
+Each call reserves its own agent, so it never dials more calls than
+
+52
+00:03:21,735 --> 00:03:23,376
+there are free agents.
+
+53
+00:03:23,855 --> 00:03:28,653
+Max attempts is how many times one contact may be tried, counting the
+
+54
+00:03:28,653 --> 00:03:31,021
+first call and every follow-up.
+
+55
+00:03:31,021 --> 00:03:34,795
+Retry delay is the wait between attempts, in minutes.
+
+56
+00:03:34,795 --> 00:03:40,105
+The subject flow can set its own rules first, and these two are the fallback.
+
+57
+00:03:40,575 --> 00:03:44,663
+Ring time is how long a call rings before it is given up,
+
+58
+00:03:44,663 --> 00:03:46,545
+from 15 to 120 seconds.
+
+59
+00:03:46,545 --> 00:03:52,255
+Screen out answering machines can be Off, Standard detection or Premium detection.
+
+60
+00:03:52,255 --> 00:03:56,148
+A machine is hung up on, and the agent never hears it.
+
+61
+00:03:56,148 --> 00:03:58,355
+This works with Telnyx only.
+
+62
+00:03:58,851 --> 00:04:04,022
+Show each dial to the agent decides what the agent sees while the dialer works.
+
+63
+00:04:04,022 --> 00:04:08,159
+Turned on, the screen shows who is being dialed and each step.
+
+64
+00:04:08,159 --> 00:04:12,601
+Turned off, it only says the agent is waiting for a connected call.
+
+65
+00:04:13,055 --> 00:04:16,039
+On Caller ID, pick the number customers see.
+
+66
+00:04:16,039 --> 00:04:20,993
+The list comes from your Omnichannel Addresses that are used for voice calls.
+
+67
+00:04:20,993 --> 00:04:24,455
+Provider default uses the caller ID of the provider.
+
+68
+00:04:24,915 --> 00:04:29,057
+A Dial from number picked when you load activities is shown instead, for
+
+69
+00:04:29,057 --> 00:04:30,597
+the calls of that load.
+
+70
+00:04:30,597 --> 00:04:34,527
+Tick Always show this caller ID to keep this number, even for agents
+
+71
+00:04:34,527 --> 00:04:36,385
+who have a line of their own.
+
+72
+00:04:36,839 --> 00:04:41,214
+Default calling region is the country assumed for a number that is written
+
+73
+00:04:41,214 --> 00:04:44,714
+without a country code, which is common in imported lists.
+
+74
+00:04:44,714 --> 00:04:48,707
+A number that still cannot be read is skipped, because it cannot be
+
+75
+00:04:48,707 --> 00:04:50,949
+checked against a do-not-call list.
+
+76
+00:04:51,403 --> 00:04:57,297
+On Compliance, Respect do-not-call and communication preferences is ticked by default.
+
+77
+00:04:57,297 --> 00:05:03,383
+It skips contacts who opted out of calls, and numbers on a national do-not-call registry.
+
+78
+00:05:03,847 --> 00:05:08,305
+Enforce a calling window dials only while a calendar is open, checked in
+
+79
+00:05:08,305 --> 00:05:10,305
+the time zone of the contact.
+
+80
+00:05:10,305 --> 00:05:14,077
+Pick the Outbound calling calendar from your business hours.
+
+81
+00:05:14,077 --> 00:05:16,877
+It is required once the window is enforced.
+
+82
+00:05:17,333 --> 00:05:23,015
+Power, Progressive and Predictive profiles also have an Abandoned calls card, and Predictive
+
+83
+00:05:23,015 --> 00:05:25,624
+profiles have a Predictive pacing card.
+
+84
+00:05:25,624 --> 00:05:27,943
+The next video walks through both.
+
+85
+00:05:28,398 --> 00:05:29,347
+Click Save.
+
+86
+00:05:29,347 --> 00:05:33,142
+The profile appears in the list with its mode, and it is ready
+
+87
+00:05:33,142 --> 00:05:35,598
+to be picked when you load activities.
+
+88
+00:05:39,798 --> 00:05:42,276
+Start with Preview for a new team.
+
+89
+00:05:42,276 --> 00:05:47,048
+Agents see every record before the call, so it is the easiest to train.
+
+90
+00:05:47,798 --> 00:05:52,414
+Move to Power or Progressive when agents are comfortable and the list is
+
+91
+00:05:52,414 --> 00:05:55,018
+steady, so no one waits between calls.
+
+92
+00:05:55,768 --> 00:06:01,288
+Keep one profile for each campaign when its abandonment rate must be measured on its own.
+
+93
+00:06:02,038 --> 00:06:05,828
+Turn Enabled off to pause every load that uses a profile, then turn
+
+94
+00:06:05,828 --> 00:06:07,698
+it back on when you are ready.
+
+95
+00:06:09,698 --> 00:06:14,179
+A dialer profile sets the mode, the caller ID and the compliance rules
+
+96
+00:06:14,179 --> 00:06:17,305
+once, and every campaign you load can reuse it.
+
+97
+00:06:17,305 --> 00:06:18,838
+Thanks for watching.
+

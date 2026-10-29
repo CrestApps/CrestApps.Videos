@@ -1,0 +1,84 @@
+{
+  "title": "Dialer Profiles: Preview, Power, Progressive and Predictive Dialing | CrestApps for Orchard Core",
+  "description": "An outbound campaign is a list of people to call, and someone has to decide how each call starts, which number customers see, and which rules every call must pass. A dialer profile keeps those answers in one place, so one profile can serve many campaigns. This video explains the four dialing modes and walks through creating a profile in the CrestApps Contact Center for Orchard Core.\n\nIn this video:\n• Why dialer profiles exist\n• Preview, Power, Progressive and Predictive dialing\n• The features and the menu\n• Creating a profile: General, Dialing, Caller ID and Compliance\n• How teams use profiles",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "dialer",
+    "outbound calling",
+    "preview dialing",
+    "power dialing",
+    "predictive dialing",
+    "campaigns",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why dialer profiles"
+    },
+    {
+      "time": "1:00",
+      "title": "The dialing modes"
+    },
+    {
+      "time": "1:53",
+      "title": "Find dialer profiles"
+    },
+    {
+      "time": "2:36",
+      "title": "Create a profile"
+    },
+    {
+      "time": "5:36",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:08",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/dialer-profiles"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Dialer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "6:20"
+}
