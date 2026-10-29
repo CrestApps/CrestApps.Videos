@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.175 --> 00:00:09.875
+To share your site's tools, open Settings, Artificial Intelligence, and find the MCP Server section.
+
+00:00:10.329 --> 00:00:14.710
+The Authentication type decides how other apps sign in:
+
+00:00:14.710 --> 00:00:19.451
+OpenID Connect, API key, or None, which is anonymous access.
+
+00:00:19.451 --> 00:00:21.749
+Use None only for testing.
+
+00:00:22.199 --> 00:00:26.519
+With an API key, enter the key that other apps must send.
+
+00:00:26.519 --> 00:00:33.649
+With OpenID Connect, Require access permission also asks for the Access the MCP Server permission.
+
+00:00:34.102 --> 00:00:36.592
+Nothing is shared until you pick it.
+
+00:00:36.592 --> 00:00:40.562
+Tick the tools to share under Tools, or use Select All Tools.
+
+00:00:41.013 --> 00:00:45.435
+Expose all tools shares every tool and every tool instance.
+
+00:00:45.435 --> 00:00:49.313
+Use it only when you trust every app that connects.
+
+00:00:49.766 --> 00:00:50.812
+Click Save.
+
+00:00:50.812 --> 00:00:56.346
+The site reloads its settings, and the chosen tools are available to connected apps.
+

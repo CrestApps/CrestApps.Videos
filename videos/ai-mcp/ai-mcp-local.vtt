@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.185 --> 00:00:06.793
+The other kind of connection is Standard Input/Output.
+
+00:00:06.793 --> 00:00:11.845
+Instead of an address, it starts a program that runs on the site's own server.
+
+00:00:12.297 --> 00:00:15.941
+Enter a Title and the Command that starts the program.
+
+00:00:15.941 --> 00:00:22.137
+The optional fields are the Command arguments, the Working directory, and Environment variables.
+
+00:00:22.589 --> 00:00:27.698
+This kind is offered only when the Model Context Protocol Local Client feature is on.
+
+00:00:27.698 --> 00:00:31.235
+It runs a program on your server, so turn it on only when
+
+00:00:31.235 --> 00:00:33.369
+your technical team asks for it.
+
+00:00:33.821 --> 00:00:34.841
+Click Save.
+
+00:00:34.841 --> 00:00:39.941
+Both kinds of connection now appear in the list, each with its connection type.
+

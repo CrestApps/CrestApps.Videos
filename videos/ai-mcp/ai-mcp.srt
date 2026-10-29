@@ -1,0 +1,408 @@
+1
+00:00:01,000 --> 00:00:05,975
+An AI assistant is only as useful as the tools and information it can reach.
+
+2
+00:00:05,975 --> 00:00:11,374
+This video shows how the Model Context Protocol connects your assistants to outside
+
+3
+00:00:11,374 --> 00:00:15,803
+tools, and how your site can share its own tools, prompts and files
+
+4
+00:00:15,803 --> 00:00:17,320
+with other AI apps.
+
+5
+00:00:21,920 --> 00:00:25,001
+An assistant that can only talk is limited.
+
+6
+00:00:25,001 --> 00:00:29,215
+To be useful, it has to look things up, run a calculation, or
+
+7
+00:00:29,215 --> 00:00:30,850
+read a company file.
+
+8
+00:00:31,600 --> 00:00:34,727
+Those tools and files live in many places:
+
+9
+00:00:34,727 --> 00:00:40,720
+a time-zone service, a ticket system, a shared drive, or an app on someone's computer.
+
+10
+00:00:41,470 --> 00:00:45,178
+Building a custom link to each one would take a long time, and
+
+11
+00:00:45,178 --> 00:00:47,250
+every AI app would need its own.
+
+12
+00:00:48,000 --> 00:00:52,025
+The Model Context Protocol, or MCP, is a common standard.
+
+13
+00:00:52,025 --> 00:00:56,242
+Any tool server that speaks it can be plugged in, and any AI
+
+14
+00:00:56,242 --> 00:00:58,990
+app that speaks it can use your site.
+
+15
+00:01:03,190 --> 00:01:05,348
+Your site can be an MCP client.
+
+16
+00:01:05,348 --> 00:01:09,723
+A connection brings the tools of an outside server into the site, and
+
+17
+00:01:09,723 --> 00:01:12,290
+any assistant you choose can use them.
+
+18
+00:01:13,040 --> 00:01:15,700
+Your site can also be an MCP server.
+
+19
+00:01:15,700 --> 00:01:20,260
+You choose which of your site's tools to share with other AI apps.
+
+20
+00:01:21,010 --> 00:01:25,911
+A server can also offer prompts, which are ready-made instructions with blanks to
+
+21
+00:01:25,911 --> 00:01:29,910
+fill in, and resources, which are files and data an app can read.
+
+22
+00:01:30,660 --> 00:01:33,973
+Each part is its own feature, so you only see the menus of
+
+23
+00:01:33,973 --> 00:01:35,940
+the features that are turned on.
+
+24
+00:01:40,118 --> 00:01:44,907
+Open Artificial Intelligence, Model Context Protocol, MCP Hosts.
+
+25
+00:01:44,907 --> 00:01:48,328
+The connections of the site are listed here.
+
+26
+00:01:48,781 --> 00:01:50,341
+Click Add Connection.
+
+27
+00:01:50,341 --> 00:01:53,633
+The window lists the kinds of server you can reach.
+
+28
+00:01:53,633 --> 00:01:57,561
+Click Add on Server-Sent Events, which is a server on the web.
+
+29
+00:01:58,012 --> 00:02:03,582
+Give the connection a Title, and enter the Endpoint, which is the address of the server.
+
+30
+00:02:04,032 --> 00:02:07,785
+Under Authentication, choose how the site signs in.
+
+31
+00:02:07,785 --> 00:02:10,221
+Anonymous suits an open server.
+
+32
+00:02:10,221 --> 00:02:12,722
+This server asks for an API key.
+
+33
+00:02:13,175 --> 00:02:17,973
+You can set the Header Name and a Key Prefix, then paste the API key.
+
+34
+00:02:17,973 --> 00:02:21,235
+It is stored securely, and never shown again.
+
+35
+00:02:21,687 --> 00:02:22,645
+Click Save.
+
+36
+00:02:22,645 --> 00:02:26,532
+The site does not contact the server yet, so a wrong address or
+
+37
+00:02:26,532 --> 00:02:30,307
+key shows up the first time an assistant uses the connection.
+
+38
+00:02:34,492 --> 00:02:38,100
+The other kind of connection is Standard Input/Output.
+
+39
+00:02:38,100 --> 00:02:43,152
+Instead of an address, it starts a program that runs on the site's own server.
+
+40
+00:02:43,603 --> 00:02:47,248
+Enter a Title and the Command that starts the program.
+
+41
+00:02:47,248 --> 00:02:53,443
+The optional fields are the Command arguments, the Working directory, and Environment variables.
+
+42
+00:02:53,896 --> 00:02:59,005
+This kind is offered only when the Model Context Protocol Local Client feature is on.
+
+43
+00:02:59,005 --> 00:03:02,542
+It runs a program on your server, so turn it on only when
+
+44
+00:03:02,542 --> 00:03:04,676
+your technical team asks for it.
+
+45
+00:03:05,128 --> 00:03:06,148
+Click Save.
+
+46
+00:03:06,148 --> 00:03:11,248
+Both kinds of connection now appear in the list, each with its connection type.
+
+47
+00:03:15,448 --> 00:03:17,348
+Anonymous needs no sign-in.
+
+48
+00:03:17,348 --> 00:03:21,263
+Use it only for servers that are open to everyone, or that sit
+
+49
+00:03:21,263 --> 00:03:22,818
+on a private network.
+
+50
+00:03:23,568 --> 00:03:28,510
+API Key sends a key in a header, and Basic Authentication sends a
+
+51
+00:03:28,510 --> 00:03:30,668
+user name and a password.
+
+52
+00:03:31,418 --> 00:03:37,199
+The OAuth 2.0 options get a token from the provider's Token Endpoint, using
+
+53
+00:03:37,199 --> 00:03:42,338
+a Client ID with a secret, a private key, or a client certificate.
+
+54
+00:03:43,088 --> 00:03:46,606
+Custom Headers adds any headers the server asks for.
+
+55
+00:03:46,606 --> 00:03:51,641
+Secrets are always stored securely, and a blank secret field keeps the stored
+
+56
+00:03:51,641 --> 00:03:53,218
+value when you edit.
+
+57
+00:03:57,398 --> 00:04:01,054
+A connection does nothing until an assistant uses it.
+
+58
+00:04:01,054 --> 00:04:06,258
+Open Artificial Intelligence, Profiles, and edit the profile of the assistant.
+
+59
+00:04:06,716 --> 00:04:12,096
+On the Capabilities tab, find MCP Connections and tick the connection.
+
+60
+00:04:12,546 --> 00:04:13,575
+Click Save.
+
+61
+00:04:13,575 --> 00:04:18,174
+The assistant now sees the tools of that server, and decides by itself
+
+62
+00:04:18,174 --> 00:04:19,626
+when to call them.
+
+63
+00:04:20,076 --> 00:04:24,579
+Profile templates and chat interactions have the same list, so you can offer
+
+64
+00:04:24,579 --> 00:04:26,556
+a connection wherever it fits.
+
+65
+00:04:30,731 --> 00:04:37,431
+To share your site's tools, open Settings, Artificial Intelligence, and find the MCP Server section.
+
+66
+00:04:37,885 --> 00:04:42,266
+The Authentication type decides how other apps sign in:
+
+67
+00:04:42,266 --> 00:04:47,007
+OpenID Connect, API key, or None, which is anonymous access.
+
+68
+00:04:47,007 --> 00:04:49,305
+Use None only for testing.
+
+69
+00:04:49,756 --> 00:04:54,075
+With an API key, enter the key that other apps must send.
+
+70
+00:04:54,075 --> 00:05:01,206
+With OpenID Connect, Require access permission also asks for the Access the MCP Server permission.
+
+71
+00:05:01,659 --> 00:05:04,148
+Nothing is shared until you pick it.
+
+72
+00:05:04,148 --> 00:05:08,119
+Tick the tools to share under Tools, or use Select All Tools.
+
+73
+00:05:08,569 --> 00:05:12,991
+Expose all tools shares every tool and every tool instance.
+
+74
+00:05:12,991 --> 00:05:16,869
+Use it only when you trust every app that connects.
+
+75
+00:05:17,323 --> 00:05:18,368
+Click Save.
+
+76
+00:05:18,368 --> 00:05:23,903
+The site reloads its settings, and the chosen tools are available to connected apps.
+
+77
+00:05:28,123 --> 00:05:33,376
+Prompts are ready-made instructions that other AI apps can offer to their users.
+
+78
+00:05:33,376 --> 00:05:38,873
+Open Artificial Intelligence, Model Context Protocol, Prompts, and click Add Prompt.
+
+79
+00:05:39,333 --> 00:05:44,746
+Enter a Title, a unique Name, and a Description that says what the prompt does.
+
+80
+00:05:44,746 --> 00:05:48,759
+Other apps use the Name to ask for the prompt, so keep it
+
+81
+00:05:48,759 --> 00:05:50,733
+short and without spaces.
+
+82
+00:05:51,190 --> 00:05:53,001
+Arguments are the blanks.
+
+83
+00:05:53,001 --> 00:05:57,149
+Click Add Argument, give it a Name, and mark it Required when the
+
+84
+00:05:57,149 --> 00:05:58,610
+app must supply it.
+
+85
+00:05:59,077 --> 00:06:02,200
+Under Messages, add the text that is sent.
+
+86
+00:06:02,200 --> 00:06:06,233
+Choose a Role, User or Assistant, and write the Content.
+
+87
+00:06:06,233 --> 00:06:12,087
+An argument's name in double curly braces is replaced by the value the app supplies.
+
+88
+00:06:12,554 --> 00:06:13,636
+Click Save.
+
+89
+00:06:13,636 --> 00:06:18,024
+Any app connected to your MCP server can now offer this prompt.
+
+90
+00:06:22,224 --> 00:06:23,294
+Live facts:
+
+91
+00:06:23,294 --> 00:06:30,214
+connect a time-zone, weather or ticket service, so a support assistant answers from current information.
+
+92
+00:06:30,964 --> 00:06:32,104
+Company tools:
+
+93
+00:06:32,104 --> 00:06:37,514
+give your assistants the tools your technical team already built, through one connection.
+
+94
+00:06:38,264 --> 00:06:39,457
+Other AI apps:
+
+95
+00:06:39,457 --> 00:06:43,630
+let staff use their favorite AI app with the tools of your site,
+
+96
+00:06:43,630 --> 00:06:46,014
+without a second copy of anything.
+
+97
+00:06:46,764 --> 00:06:48,071
+Shared wording:
+
+98
+00:06:48,071 --> 00:06:53,174
+publish the prompts every team should use, so everyone asks in the same way.
+
+99
+00:06:55,174 --> 00:06:59,286
+Connect the tools you need, give them to the assistants that should use
+
+100
+00:06:59,286 --> 00:07:02,916
+them, and share your own tools and prompts with other AI apps.
+
+101
+00:07:02,916 --> 00:07:05,906
+Share only what you are comfortable having called.
+
+102
+00:07:05,906 --> 00:07:07,294
+Thanks for watching.
+

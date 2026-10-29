@@ -1,0 +1,333 @@
+{
+  "title": "Model Context Protocol (MCP)",
+  "output": "ai-mcp",
+  "spoken": {
+    "MCP": "M.C.P.",
+    "FTP": "F.T.P.",
+    "SFTP": "S.F.T.P.",
+    "MIME": "mime",
+    "OAuth": "O.Auth"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Model Context Protocol (MCP)",
+      "subtitle": "Bring outside tools to your assistants, and share yours",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An AI assistant is only as useful as the tools and information it can reach. This video shows how the Model Context Protocol connects your assistants to outside tools, and how your site can share its own tools, prompts and files with other AI apps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why MCP",
+      "subtitle": "One standard way to share tools",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An assistant that can only talk is limited. To be useful, it has to look things up, run a calculation, or read a company file."
+            },
+            {
+              "id": "why-2",
+              "text": "Those tools and files live in many places: a time-zone service, a ticket system, a shared drive, or an app on someone's computer."
+            },
+            {
+              "id": "why-3",
+              "text": "Building a custom link to each one would take a long time, and every AI app would need its own."
+            },
+            {
+              "id": "why-4",
+              "text": "The Model Context Protocol, or MCP, is a common standard. Any tool server that speaks it can be plugged in, and any AI app that speaks it can use your site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "A client to use tools, a server to share them",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Your site can be an MCP client. A connection brings the tools of an outside server into the site, and any assistant you choose can use them."
+            },
+            {
+              "id": "how-2",
+              "text": "Your site can also be an MCP server. You choose which of your site's tools to share with other AI apps."
+            },
+            {
+              "id": "how-3",
+              "text": "A server can also offer prompts, which are ready-made instructions with blanks to fill in, and resources, which are files and data an app can read."
+            },
+            {
+              "id": "how-4",
+              "text": "Each part is its own feature, so you only see the menus of the features that are turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Connect to an MCP server",
+      "subtitle": "The address and sign-in of a server on the web",
+      "clips": [
+        {
+          "id": "03-connection",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "conn-1",
+              "text": "Open Artificial Intelligence, Model Context Protocol, MCP Hosts. The connections of the site are listed here."
+            },
+            {
+              "id": "conn-2",
+              "text": "Click Add Connection. The window lists the kinds of server you can reach. Click Add on Server-Sent Events, which is a server on the web."
+            },
+            {
+              "id": "conn-3",
+              "text": "Give the connection a Title, and enter the Endpoint, which is the address of the server."
+            },
+            {
+              "id": "conn-4",
+              "text": "Under Authentication, choose how the site signs in. Anonymous suits an open server. This server asks for an API key."
+            },
+            {
+              "id": "conn-5",
+              "text": "You can set the Header Name and a Key Prefix, then paste the API key. It is stored securely, and never shown again."
+            },
+            {
+              "id": "conn-6",
+              "text": "Click Save. The site does not contact the server yet, so a wrong address or key shows up the first time an assistant uses the connection."
+            }
+          ]
+        }
+      ],
+      "short": "connection"
+    },
+    {
+      "id": "04",
+      "title": "Connect to a local program",
+      "subtitle": "Standard Input/Output connections",
+      "clips": [
+        {
+          "id": "04-local",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "loc-1",
+              "text": "The other kind of connection is Standard Input/Output. Instead of an address, it starts a program that runs on the site's own server."
+            },
+            {
+              "id": "loc-2",
+              "text": "Enter a Title and the Command that starts the program. The optional fields are the Command arguments, the Working directory, and Environment variables."
+            },
+            {
+              "id": "loc-3",
+              "text": "This kind is offered only when the Model Context Protocol Local Client feature is on. It runs a program on your server, so turn it on only when your technical team asks for it."
+            },
+            {
+              "id": "loc-4",
+              "text": "Click Save. Both kinds of connection now appear in the list, each with its connection type."
+            }
+          ]
+        }
+      ],
+      "short": "local"
+    },
+    {
+      "id": "05",
+      "title": "Choose how to sign in",
+      "subtitle": "The authentication options of a connection",
+      "clips": [
+        {
+          "id": "05-auth",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "auth-1",
+              "text": "Anonymous needs no sign-in. Use it only for servers that are open to everyone, or that sit on a private network."
+            },
+            {
+              "id": "auth-2",
+              "text": "API Key sends a key in a header, and Basic Authentication sends a user name and a password."
+            },
+            {
+              "id": "auth-3",
+              "text": "The OAuth 2.0 options get a token from the provider's Token Endpoint, using a Client ID with a secret, a private key, or a client certificate."
+            },
+            {
+              "id": "auth-4",
+              "text": "Custom Headers adds any headers the server asks for. Secrets are always stored securely, and a blank secret field keeps the stored value when you edit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Give an assistant the tools",
+      "subtitle": "Pick the connection on a profile",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A connection does nothing until an assistant uses it. Open Artificial Intelligence, Profiles, and edit the profile of the assistant."
+            },
+            {
+              "id": "use-2",
+              "text": "On the Capabilities tab, find MCP Connections and tick the connection."
+            },
+            {
+              "id": "use-3",
+              "text": "Click Save. The assistant now sees the tools of that server, and decides by itself when to call them."
+            },
+            {
+              "id": "use-4",
+              "text": "Profile templates and chat interactions have the same list, so you can offer a connection wherever it fits."
+            }
+          ]
+        }
+      ],
+      "short": "use"
+    },
+    {
+      "id": "07",
+      "title": "Share your tools",
+      "subtitle": "The MCP Server settings",
+      "clips": [
+        {
+          "id": "07-server",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "srv-1",
+              "text": "To share your site's tools, open Settings, Artificial Intelligence, and find the MCP Server section."
+            },
+            {
+              "id": "srv-2",
+              "text": "The Authentication type decides how other apps sign in: OpenID Connect, API key, or None, which is anonymous access. Use None only for testing."
+            },
+            {
+              "id": "srv-3",
+              "text": "With an API key, enter the key that other apps must send. With OpenID Connect, Require access permission also asks for the Access the MCP Server permission."
+            },
+            {
+              "id": "srv-4",
+              "text": "Nothing is shared until you pick it. Tick the tools to share under Tools, or use Select All Tools."
+            },
+            {
+              "id": "srv-5",
+              "text": "Expose all tools shares every tool and every tool instance. Use it only when you trust every app that connects."
+            },
+            {
+              "id": "srv-6",
+              "text": "Click Save. The site reloads its settings, and the chosen tools are available to connected apps."
+            }
+          ]
+        }
+      ],
+      "short": "server"
+    },
+    {
+      "id": "08",
+      "title": "Share prompts",
+      "subtitle": "Ready-made instructions with blanks to fill in",
+      "clips": [
+        {
+          "id": "08-prompts",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prm-1",
+              "text": "Prompts are ready-made instructions that other AI apps can offer to their users. Open Artificial Intelligence, Model Context Protocol, Prompts, and click Add Prompt."
+            },
+            {
+              "id": "prm-2",
+              "text": "Enter a Title, a unique Name, and a Description that says what the prompt does. Other apps use the Name to ask for the prompt, so keep it short and without spaces."
+            },
+            {
+              "id": "prm-3",
+              "text": "Arguments are the blanks. Click Add Argument, give it a Name, and mark it Required when the app must supply it."
+            },
+            {
+              "id": "prm-4",
+              "text": "Under Messages, add the text that is sent. Choose a Role, User or Assistant, and write the Content. An argument's name in double curly braces is replaced by the value the app supplies."
+            },
+            {
+              "id": "prm-5",
+              "text": "Click Save. Any app connected to your MCP server can now offer this prompt."
+            }
+          ]
+        }
+      ],
+      "short": "prompts"
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "What teams connect",
+      "clips": [
+        {
+          "id": "09-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "Live facts: connect a time-zone, weather or ticket service, so a support assistant answers from current information."
+            },
+            {
+              "id": "case-2",
+              "text": "Company tools: give your assistants the tools your technical team already built, through one connection."
+            },
+            {
+              "id": "case-3",
+              "text": "Other AI apps: let staff use their favorite AI app with the tools of your site, without a second copy of anything."
+            },
+            {
+              "id": "case-4",
+              "text": "Shared wording: publish the prompts every team should use, so everyone asks in the same way."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Connect the tools you need, give them to the assistants that should use them, and share your own tools and prompts with other AI apps. Share only what you are comfortable having called. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
