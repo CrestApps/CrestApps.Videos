@@ -1,0 +1,28 @@
+1
+00:00:03,271 --> 00:00:07,138
+Operations shows how the center performed over time.
+
+2
+00:00:07,138 --> 00:00:10,739
+Call insights gives the cards and a daily trend.
+
+3
+00:00:10,739 --> 00:00:18,341
+Interaction volume trend and Interval performance show each day's outcomes, speed of answer and handle time.
+
+4
+00:00:18,841 --> 00:00:24,481
+Hour-of-day performance and Day-of-week performance show when demand arrives.
+
+5
+00:00:24,481 --> 00:00:26,451
+The hours are in U.T.C.
+
+6
+00:00:26,916 --> 00:00:36,567
+Channel performance, Direction performance, Interaction outcome summary and Interaction lifecycle duration compare channels, directions and outcomes.
+
+7
+00:00:36,567 --> 00:00:41,486
+Call quality shows how calls were rated, and where the poor ones cluster.
+

@@ -1,0 +1,286 @@
+{
+  "title": "Contact Center Report Catalog",
+  "output": "contact-center-reports-catalog",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "UTC": "U.T.C."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The Report Catalog",
+      "subtitle": "Which Contact Center report answers which question",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The Contact Center reports are grouped into categories, and each category answers a different kind of question. This video walks through the categories with a real report from each, so you know which report to open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "How the catalog is organized",
+      "subtitle": "Eight categories, one kind of question each",
+      "clips": [
+        {
+          "id": "01-map",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "map-1",
+              "text": "Executive is the one page for leaders. Operations and Queue and Routing show how calls and queues performed. Agent Performance looks at people."
+            },
+            {
+              "id": "map-2",
+              "text": "Workforce and Payroll counts agents' time. Billing and Usage measures what was used. Compliance and Audit lists the records behind the totals. Technical and IT looks at providers and failures. CRM and Campaigns holds the reports of the CRM, which have their own videos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Executive",
+      "subtitle": "One page for the whole center",
+      "clips": [
+        {
+          "id": "02-executive",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ex-1",
+              "text": "Executive has one report, the Executive performance dashboard. Cards show the main numbers, and charts show the daily trend, the channel mix, each queue's service level, and the agents with the most calls."
+            },
+            {
+              "id": "ex-2",
+              "text": "It answers one question: is the center healthy? Open it first, and use its filters to look at one queue group, one channel or one direction."
+            }
+          ]
+        }
+      ],
+      "short": "executive"
+    },
+    {
+      "id": "03",
+      "title": "Operations",
+      "subtitle": "How the center performed over time",
+      "clips": [
+        {
+          "id": "03-operations",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ops-1",
+              "text": "Operations shows how the center performed over time. Call insights gives the cards and a daily trend. Interaction volume trend and Interval performance show each day's outcomes, speed of answer and handle time."
+            },
+            {
+              "id": "ops-2",
+              "text": "Hour-of-day performance and Day-of-week performance show when demand arrives. The hours are in U.T.C."
+            },
+            {
+              "id": "ops-3",
+              "text": "Channel performance, Direction performance, Interaction outcome summary and Interaction lifecycle duration compare channels, directions and outcomes. Call quality shows how calls were rated, and where the poor ones cluster."
+            }
+          ]
+        }
+      ],
+      "short": "operations"
+    },
+    {
+      "id": "04",
+      "title": "Queue & Routing",
+      "subtitle": "How each queue served its callers",
+      "clips": [
+        {
+          "id": "04-queues",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "qr-1",
+              "text": "Queue and Routing is about queues. Queue service level shows, for each queue, the share of calls answered within the threshold set on that queue. Queue usage shows handled, answered and abandoned calls, handle time, and how many are waiting now."
+            },
+            {
+              "id": "qr-2",
+              "text": "Queue abandonment analysis, Queue wait time analysis, Queue handle time analysis, Queue performance summary and Queue transfer performance each look at one side of a queue. Transfer analysis shows where transfers went. High-wait interaction detail lists calls that waited a minute or more."
+            },
+            {
+              "id": "qr-3",
+              "text": "Agent availability and wait time and Dialer decision log are live reports. They explain why an agent is not getting calls, and why the dialer did not call a record."
+            }
+          ]
+        }
+      ],
+      "short": "queues"
+    },
+    {
+      "id": "05",
+      "title": "Agent Performance",
+      "subtitle": "How each agent worked",
+      "clips": [
+        {
+          "id": "05-agents",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ag-1",
+              "text": "Agent Performance compares people. Agent productivity shows each agent's handled calls, talk time, average handle time and completed activities."
+            },
+            {
+              "id": "ag-2",
+              "text": "Agent utilization is busy plus wrap-up time divided by signed-in time. Agent occupancy divides it by the time the agent was available to take work. Both show how busy an agent is, not how good."
+            },
+            {
+              "id": "ag-3",
+              "text": "Agent handle time analysis, Agent wrap-up performance, the inbound, outbound, transfer and outcome reports, and Talk, hold, ring and queue wait each look at one part of an agent's work."
+            }
+          ]
+        }
+      ],
+      "short": "agents"
+    },
+    {
+      "id": "06",
+      "title": "Workforce & Payroll",
+      "subtitle": "The time agents spend in each state",
+      "clips": [
+        {
+          "id": "06-workforce",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wf-1",
+              "text": "Workforce and Payroll reports count the time agents spend in each state. Agent time summary shows signed-in, available, busy, wrap-up and break time. Daily agent timecard breaks it down by day."
+            },
+            {
+              "id": "wf-2",
+              "text": "Reconciled payroll timecard shows each agent's day beside the time in every state, and flags every day that does not add up. It shows time, not pay: pay rates and schedules are not applied."
+            },
+            {
+              "id": "wf-3",
+              "text": "Presence status duration, Presence reason breakdown, Ready versus not-ready time, Agent break and away analysis, Queue signed-in hours and Campaign signed-in hours cut the same time other ways. All of them are limited to 31 days."
+            }
+          ]
+        }
+      ],
+      "short": "workforce"
+    },
+    {
+      "id": "07",
+      "title": "Billing & Usage",
+      "subtitle": "What the center used",
+      "clips": [
+        {
+          "id": "07-billing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bu-1",
+              "text": "Billing and Usage measures what the center used. Queue usage for billing lists each queue's interactions, connected time, wrap-up, queue wait, transfers and recordings."
+            },
+            {
+              "id": "bu-2",
+              "text": "Agent, Channel, Provider and Daily usage for billing group the same measures by agent, channel, provider and day. They apply no prices, contracts or taxes: they support an invoice, they do not make one."
+            }
+          ]
+        }
+      ],
+      "short": "billing"
+    },
+    {
+      "id": "08",
+      "title": "Compliance & Audit",
+      "subtitle": "The records behind the totals",
+      "clips": [
+        {
+          "id": "08-compliance",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "co-1",
+              "text": "Compliance and Audit lists the records behind the totals. Interaction detail has one row per interaction, with its queue, agent, provider, timing and transfers."
+            },
+            {
+              "id": "co-2",
+              "text": "Recording coverage shows how many answered voice calls have a recording, by provider. Agent recording coverage shows it by agent."
+            },
+            {
+              "id": "co-3",
+              "text": "Abandoned interaction detail and Long interaction detail list the calls behind those totals. Agent presence audit and Agent activity timeline list every state change and call change of an agent, in order."
+            }
+          ]
+        }
+      ],
+      "short": "compliance"
+    },
+    {
+      "id": "09",
+      "title": "Technical & IT",
+      "subtitle": "Providers and failures",
+      "clips": [
+        {
+          "id": "09-technical",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "te-1",
+              "text": "Technical and IT is for the people who run the phone system. Provider performance compares outcomes and durations by communications provider."
+            },
+            {
+              "id": "te-2",
+              "text": "Call leg performance looks at each leg of a call, and Failed interaction detail lists every call that failed for a technical reason."
+            }
+          ]
+        }
+      ],
+      "short": "technical"
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Which report for which question",
+      "clips": [
+        {
+          "id": "10-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Is the center healthy this week? Open the Executive performance dashboard. Are callers waiting too long? Open Queue service level, then High-wait interaction detail."
+            },
+            {
+              "id": "use-2",
+              "text": "Who needs coaching? Open Agent productivity and Agent handle time analysis. Who was on the clock, and for how long? Open Reconciled payroll timecard."
+            },
+            {
+              "id": "use-3",
+              "text": "Are calls being recorded? Open Recording coverage. Is a provider failing? Open Provider performance, then Failed interaction detail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Eight categories, one kind of question each. Start with the dashboard, then open the category that matches your question. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

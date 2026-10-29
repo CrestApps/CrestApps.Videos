@@ -1,0 +1,28 @@
+1
+00:00:03,300 --> 00:00:07,420
+Executive has one report, the Executive performance dashboard.
+
+2
+00:00:07,420 --> 00:00:12,206
+Cards show the main numbers, and charts show the daily trend, the channel
+
+3
+00:00:12,206 --> 00:00:16,690
+mix, each queue's service level, and the agents with the most calls.
+
+4
+00:00:18,971 --> 00:00:20,750
+It answers one question:
+
+5
+00:00:20,750 --> 00:00:22,411
+is the center healthy?
+
+6
+00:00:22,411 --> 00:00:26,445
+Open it first, and use its filters to look at one queue group,
+
+7
+00:00:26,445 --> 00:00:28,521
+one channel or one direction.
+

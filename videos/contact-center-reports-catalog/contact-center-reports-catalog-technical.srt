@@ -1,0 +1,16 @@
+1
+00:00:03,204 --> 00:00:07,381
+Technical and IT is for the people who run the phone system.
+
+2
+00:00:07,381 --> 00:00:12,824
+Provider performance compares outcomes and durations by communications provider.
+
+3
+00:00:13,275 --> 00:00:17,595
+Call leg performance looks at each leg of a call, and Failed interaction
+
+4
+00:00:17,595 --> 00:00:21,195
+detail lists every call that failed for a technical reason.
+

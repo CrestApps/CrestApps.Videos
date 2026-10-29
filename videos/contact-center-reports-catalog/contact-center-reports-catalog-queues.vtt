@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.250 --> 00:00:05.704
+Queue and Routing is about queues.
+
+00:00:05.704 --> 00:00:10.796
+Queue service level shows, for each queue, the share of calls answered within
+
+00:00:10.796 --> 00:00:13.127
+the threshold set on that queue.
+
+00:00:13.127 --> 00:00:19.570
+Queue usage shows handled, answered and abandoned calls, handle time, and how many are waiting now.
+
+00:00:20.025 --> 00:00:26.284
+Queue abandonment analysis, Queue wait time analysis, Queue handle time analysis, Queue performance
+
+00:00:26.284 --> 00:00:30.934
+summary and Queue transfer performance each look at one side of a queue.
+
+00:00:30.934 --> 00:00:33.974
+Transfer analysis shows where transfers went.
+
+00:00:33.974 --> 00:00:38.505
+High-wait interaction detail lists calls that waited a minute or more.
+
+00:00:38.995 --> 00:00:43.644
+Agent availability and wait time and Dialer decision log are live reports.
+
+00:00:43.644 --> 00:00:47.828
+They explain why an agent is not getting calls, and why the dialer
+
+00:00:47.828 --> 00:00:49.455
+did not call a record.
+
