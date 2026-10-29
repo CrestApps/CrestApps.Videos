@@ -1,0 +1,32 @@
+1
+00:00:03,187 --> 00:00:06,491
+Open Access Control, Roles and edit a role.
+
+2
+00:00:06,491 --> 00:00:09,390
+Type Telephony in Search permissions:
+
+3
+00:00:09,390 --> 00:00:12,087
+the module adds three permissions.
+
+4
+00:00:12,539 --> 00:00:16,300
+Manage telephony settings opens the Telephony settings.
+
+5
+00:00:16,300 --> 00:00:19,999
+Manage telephony extensions opens the extensions list.
+
+6
+00:00:20,451 --> 00:00:24,547
+Use the telephony soft phone lets a person make and take calls.
+
+7
+00:00:24,547 --> 00:00:28,762
+Only the Administrator role has it by default, so add it to every
+
+8
+00:00:28,762 --> 00:00:30,721
+role that works the phones.
+

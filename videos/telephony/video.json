@@ -1,0 +1,106 @@
+{
+  "title": "Telephony: Make and Take Calls from the Browser | CrestApps for Orchard Core",
+  "description": "Phone calls are still how many customers reach you, but a desk phone knows nothing about the customer on the other end. The CrestApps Telephony module puts a phone in the browser, next to your Orchard Core site: you connect your phone system once, choose the default provider, and every user places and takes calls from the same screen.\n\nIn this video:\n• Why a browser phone, and how providers, the soft phone and extensions fit together\n• The features behind the phone\n• Connecting Asterisk, for a phone system your company runs\n• Connecting Telnyx, for a phone service in the cloud\n• Choosing the default provider and the soft phone options\n• Giving people extensions\n• The soft phone: keypad, extension dialing, recent calls and voicemail\n• The permissions that decide who can use it",
+  "hashtags": [
+    "OrchardCore",
+    "Telephony",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "telephony",
+    "soft phone",
+    "browser phone",
+    "Telnyx",
+    "Asterisk",
+    "extensions",
+    "voicemail",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why telephony"
+    },
+    {
+      "time": "0:58",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:42",
+      "title": "Turn on telephony"
+    },
+    {
+      "time": "2:33",
+      "title": "Connect Asterisk"
+    },
+    {
+      "time": "3:39",
+      "title": "Connect Telnyx"
+    },
+    {
+      "time": "4:49",
+      "title": "Choose the default provider"
+    },
+    {
+      "time": "5:52",
+      "title": "Give people extensions"
+    },
+    {
+      "time": "6:45",
+      "title": "The soft phone"
+    },
+    {
+      "time": "7:48",
+      "title": "Who can use it"
+    },
+    {
+      "time": "8:20",
+      "title": "Use cases"
+    },
+    {
+      "time": "8:58",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/telephony-settings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telephony"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/telephony-settings.md",
+    "src/CrestApps.Docs/docs/user-manual/extensions.md",
+    "src/CrestApps.Docs/docs/user-manual/soft-phone.md",
+    "src/CrestApps.Docs/docs/telephony/index.md"
+  ],
+  "length": "9:10"
+}

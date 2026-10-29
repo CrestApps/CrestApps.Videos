@@ -1,0 +1,60 @@
+1
+00:00:03,185 --> 00:00:08,838
+On the Soft Phone tab, the Default telephony provider lists every provider you turned on.
+
+2
+00:00:08,838 --> 00:00:12,885
+The soft phone places and controls its calls through this one.
+
+3
+00:00:13,338 --> 00:00:17,909
+Allowed short codes lists short numbers people may dial, one per line, such
+
+4
+00:00:17,909 --> 00:00:19,828
+as a carrier service number.
+
+5
+00:00:19,828 --> 00:00:22,931
+Short numbers are refused unless they are listed.
+
+6
+00:00:22,931 --> 00:00:25,358
+Emergency numbers can never be added.
+
+7
+00:00:25,812 --> 00:00:29,869
+Enable the soft phone is a master switch for the whole site.
+
+8
+00:00:29,869 --> 00:00:35,462
+Show the soft phone on the admin dashboard puts the phone button on every admin page.
+
+9
+00:00:35,915 --> 00:00:41,729
+Enable the diagnostics tab adds a tab with live call quality and a microphone meter.
+
+10
+00:00:41,729 --> 00:00:44,895
+Turn it on to troubleshoot, then off again.
+
+11
+00:00:45,347 --> 00:00:49,506
+Recent calls to display sets how many calls the Recent tab lists.
+
+12
+00:00:49,506 --> 00:00:54,720
+Default country decides the country a national number starts with, and Accent color
+
+13
+00:00:54,720 --> 00:00:57,297
+sets the color of the phone's buttons.
+
+14
+00:00:57,751 --> 00:00:58,823
+Click Save.
+
+15
+00:00:58,823 --> 00:01:01,661
+The phone now uses the chosen provider.
+
