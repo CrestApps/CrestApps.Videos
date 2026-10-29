@@ -1,0 +1,76 @@
+{
+  "title": "Report Groups and PDF Export in the Report Builder | CrestApps for Orchard Core",
+  "description": "Report Builder reports pile up. Report groups arrange them in the admin menu like folders, nested as deep as you need, and every report can be exported to CSV, Excel or PDF. This video shows how to add and nest groups, put a report in a group and pin it to the admin menu, and export it as a PDF.\n\nIn this video:\n• Why report groups\n• Report Groups: Add Group, Parent group, Display order and Add a group inside\n• The Settings tab: Group, Show in the admin menu and export for shared people\n• The report in the admin menu, inside its nested group\n• Export with PDF",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "report builder",
+    "report groups",
+    "PDF export",
+    "reports",
+    "admin menu",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why groups"
+    },
+    {
+      "time": "0:57",
+      "title": "Report groups"
+    },
+    {
+      "time": "1:39",
+      "title": "Put a report in a group"
+    },
+    {
+      "time": "2:23",
+      "title": "Export with PDF"
+    },
+    {
+      "time": "3:03",
+      "title": "Where groups fit"
+    },
+    {
+      "time": "3:30",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/report-builder/share-and-run"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports.Builder"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/report-builder/share-and-run.md"
+  ],
+  "length": "3:40"
+}
