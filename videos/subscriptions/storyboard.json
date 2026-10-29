@@ -1,0 +1,257 @@
+{
+  "title": "Subscriptions",
+  "output": "subscriptions",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Subscriptions",
+      "subtitle": "Selling what customers keep paying for",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A subscription is a product that bills again by itself. This video shows why subscriptions and memberships exist, how plans, sign-up, agreements and memberships fit together, and how to use every screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why subscriptions",
+      "subtitle": "Selling what customers keep paying for",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some things are not bought once. Software, courses and clubs charge every month or every year, and customers expect to start, pause and cancel on their own."
+            },
+            {
+              "id": "why-2",
+              "text": "Collecting that by hand means invoices, reminders, and a spreadsheet of who has paid and who should still have access."
+            },
+            {
+              "id": "why-3",
+              "text": "A subscription plan is a product that bills again by itself, gives access to roles while it is paid, and keeps a record of every subscriber."
+            },
+            {
+              "id": "why-4",
+              "text": "A membership is simpler: a product that makes its buyer a member for a number of days, and ends on its own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Plans, sign-up, agreements and memberships",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A plan is a content item of a type with the Subscription stereotype. It has a Product part for its price, and a Subscription part for how it bills."
+            },
+            {
+              "id": "how-2",
+              "text": "Plans are listed on a page, such as Plans. A visitor clicks Sign up, goes through the checkout, and becomes a subscriber."
+            },
+            {
+              "id": "how-3",
+              "text": "Subscriptions, Agreements lists every subscription, and Subscriptions, My Plans is where a subscriber manages theirs."
+            },
+            {
+              "id": "how-4",
+              "text": "Commerce, Memberships lists members and their end dates. Installment plans and sold sites build on the same subscriptions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Plan types and plans",
+      "subtitle": "How a plan bills",
+      "clips": [
+        {
+          "id": "03-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "plan-1",
+              "text": "A plan type is a content type whose Stereotype is Subscription. Open Content, Content Definition, Content Types, and edit Membership Plan."
+            },
+            {
+              "id": "plan-2",
+              "text": "Its parts are the Subscription part, which says how the plan bills, the Product part, which holds the price, and Subscription Entitlements, which gives subscribers roles."
+            },
+            {
+              "id": "plan-3",
+              "text": "Now open Commerce, Products, and edit the Membership plan. Billing duration is how often the subscriber pays: a number, and Year, Month, Week or Day."
+            },
+            {
+              "id": "plan-4",
+              "text": "Initial amount is a one-time charge at sign-up, named by the Initial amount description, such as a setup fee. Billing cycle limit stops the subscription after that many cycles."
+            },
+            {
+              "id": "plan-5",
+              "text": "Free trial days gives the first days free, while the payment method is still collected. Subscription day delay starts the billing later. Under Member access, tick the roles a subscriber holds."
+            },
+            {
+              "id": "plan-6",
+              "text": "Enter 7 trial days, and click Publish."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Sign up to a plan",
+      "subtitle": "From the Plans page to a subscriber",
+      "clips": [
+        {
+          "id": "04-signup",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sign-1",
+              "text": "The Plans page lists each plan with its price and billing period, and a Sign up button. Click it."
+            },
+            {
+              "id": "sign-2",
+              "text": "The checkout begins with the plan. A visitor who is not signed in is asked to register, and Subscribe as guest skips the account, when the site allows it."
+            },
+            {
+              "id": "sign-3",
+              "text": "Click Continue. On the Payment step, Test payment moves no money. Click Pay now, and the new subscriber lands on the confirmation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Agreements",
+      "subtitle": "Every subscription in one list",
+      "clips": [
+        {
+          "id": "05-agreements",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "agr-1",
+              "text": "Subscriptions, Agreements lists every subscription, with its plan, its status, how it is paid, the amount per cycle, and when it renews."
+            },
+            {
+              "id": "agr-2",
+              "text": "The status drop-down filters the list: Active, Trial, Past due, Canceled, Expired, Paused or Incomplete."
+            },
+            {
+              "id": "agr-3",
+              "text": "Click Manage to open a subscription. It shows its status, what it bills, the current period and its history. Under Actions, Cancel subscription ends it, and you can choose to Keep access until the paid period ends. Pause billing stops charging for now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Subscription settings",
+      "subtitle": "Guests, currency and default roles",
+      "clips": [
+        {
+          "id": "06-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Settings, Subscriptions has three settings. Allow guest sign-up lets people subscribe without an account."
+            },
+            {
+              "id": "set-2",
+              "text": "Currency is the default currency of your plans, and the roles you tick give every new subscriber those roles, whatever plan they buy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Memberships",
+      "subtitle": "A product that makes its buyer a member",
+      "clips": [
+        {
+          "id": "07-memberships",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mem-1",
+              "text": "A membership is a product that puts its buyer in roles. On Annual Membership, under Membership, tick the roles members are in, and enter the Days a membership lasts."
+            },
+            {
+              "id": "mem-2",
+              "text": "Commerce, Memberships lists the members with their end dates. Search by member, and filter by Active, Expired or Ended early."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to use subscriptions",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A software plan: a monthly price, seven free days to try it, and roles that open the paid features."
+            },
+            {
+              "id": "use-2",
+              "text": "A members-only club: a yearly plan whose Member role opens articles and guides to subscribers."
+            },
+            {
+              "id": "use-3",
+              "text": "A setup fee: an Initial amount for onboarding, then the regular price each cycle."
+            },
+            {
+              "id": "use-4",
+              "text": "A season pass: a billing cycle limit of three on a monthly plan stops the billing on its own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Define the plan once, let customers sign themselves up, and keep one list of who pays and who has access. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
