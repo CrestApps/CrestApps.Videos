@@ -1,0 +1,305 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.679
+Content often starts in a spreadsheet.
+
+00:00:03.679 --> 00:00:08.428
+This video shows how bulk import and export move many content items into
+
+00:00:08.428 --> 00:00:11.898
+your site, and out of it, with a CSV or Excel file:
+
+00:00:11.898 --> 00:00:16.099
+why they exist, how to prepare a file, how to follow an import,
+
+00:00:16.099 --> 00:00:17.560
+and how to export.
+
+00:00:22.160 --> 00:00:24.753
+Content often starts in a spreadsheet:
+
+00:00:24.753 --> 00:00:29.056
+a purchased list of leads, records from an older system, or a price
+
+00:00:29.056 --> 00:00:31.590
+list that a colleague keeps in Excel.
+
+00:00:32.340 --> 00:00:37.141
+Typing hundreds of rows into forms, one at a time, is slow, and
+
+00:00:37.141 --> 00:00:40.550
+every row is a chance for a typing mistake.
+
+00:00:41.300 --> 00:00:46.368
+Bulk import creates or updates many content items from one file, and checks
+
+00:00:46.368 --> 00:00:50.560
+every row the same way as when someone saves an item by hand.
+
+00:00:51.310 --> 00:00:53.464
+Bulk export does the reverse.
+
+00:00:53.464 --> 00:00:57.403
+It downloads content items to a file that you can fix in a
+
+00:00:57.403 --> 00:01:01.650
+spreadsheet, hand to someone outside the site, or import again.
+
+00:01:05.825 --> 00:01:08.592
+Both tools are under the Content menu.
+
+00:01:08.592 --> 00:01:13.811
+Import opens the Bulk Import page, which lists every import made on the site.
+
+00:01:13.811 --> 00:01:15.445
+It is empty for now.
+
+00:01:15.901 --> 00:01:21.537
+Export opens the Bulk Export page, which lists every export in the same way.
+
+00:01:21.537 --> 00:01:24.561
+Its Export button starts a new export.
+
+00:01:28.774 --> 00:01:32.950
+Every content type is offered on these pages by default.
+
+00:01:32.950 --> 00:01:39.954
+To change that, open Design, Content Definition, Content Types, and edit a type, such as Customer.
+
+00:01:40.408 --> 00:01:45.346
+Allow bulk import and Allow bulk export decide whether the type appears on
+
+00:01:45.346 --> 00:01:48.555
+the Bulk Import page and the Bulk Export page.
+
+00:01:48.555 --> 00:01:51.518
+Untick one to keep the type off that page.
+
+00:01:55.738 --> 00:02:00.371
+On the Bulk Import page, click Import to see every content type that
+
+00:02:00.371 --> 00:02:02.938
+can be imported, and pick Customer.
+
+00:02:03.388 --> 00:02:07.888
+The File Requirements card says what the file must look like.
+
+00:02:07.888 --> 00:02:12.454
+It uses one of the enabled formats, here CSV or Excel, and its
+
+00:02:12.454 --> 00:02:15.408
+very first row holds the column names.
+
+00:02:15.860 --> 00:02:19.710
+The order of the columns does not matter, and a column the type
+
+00:02:19.710 --> 00:02:21.440
+does not know is ignored.
+
+00:02:21.440 --> 00:02:25.680
+To start with the right columns, download a template in either format.
+
+00:02:26.161 --> 00:02:32.271
+The Columns Requirements table lists every column, whether it is required, and what it holds.
+
+00:02:32.271 --> 00:02:36.961
+Here the title is required, and the email, city and plan are optional.
+
+00:02:37.445 --> 00:02:42.692
+A column named ContentItemId lets a row update an item that already exists,
+
+00:02:42.692 --> 00:02:45.025
+instead of creating a new one.
+
+00:02:49.277 --> 00:02:52.280
+Choose your file with the file picker.
+
+00:02:52.280 --> 00:02:56.307
+This one is a list of customers, saved as a CSV file.
+
+00:02:56.797 --> 00:03:02.450
+Publish imported content is ticked, so every item is published as soon as it is imported.
+
+00:03:02.450 --> 00:03:06.497
+Untick it to save each item as a draft that you publish later.
+
+00:03:07.023 --> 00:03:08.259
+Click Upload.
+
+00:03:08.259 --> 00:03:13.982
+A progress bar shows the upload, and a large file is sent in pieces automatically.
+
+00:03:13.982 --> 00:03:16.453
+Then the Bulk Import page opens.
+
+00:03:20.626 --> 00:03:24.401
+The import is now a row on the Bulk Import page, with the
+
+00:03:24.401 --> 00:03:29.436
+file name, the content type, its status, the person who uploaded it, and when.
+
+00:03:29.897 --> 00:03:33.576
+It runs in the background, so you can leave the page.
+
+00:03:33.576 --> 00:03:38.877
+When it is done, the status reads Completed, or Completed with errors, as here.
+
+00:03:39.372 --> 00:03:44.003
+The green number is how many records were imported, and the red number
+
+00:03:44.003 --> 00:03:45.952
+is how many were rejected.
+
+00:03:45.952 --> 00:03:48.755
+A rejected row does not stop the others:
+
+00:03:48.755 --> 00:03:52.472
+here, the rows without a title did not pass validation.
+
+00:03:52.939 --> 00:03:54.726
+Open the Actions menu.
+
+00:03:54.726 --> 00:03:59.834
+Download errors gives you only the rejected rows, in the same file format,
+
+00:03:59.834 --> 00:04:01.813
+with the reason for each.
+
+00:04:01.813 --> 00:04:04.559
+Fix them, and import that file again.
+
+00:04:05.184 --> 00:04:10.303
+While an import runs, Pause import stops it, and Resume import continues from
+
+00:04:10.303 --> 00:04:11.844
+the last saved row.
+
+00:04:11.844 --> 00:04:18.074
+Delete removes the entry and its uploaded file, but never the content items that were imported.
+
+00:04:18.566 --> 00:04:23.108
+The Show menu lists only the imports with one status, such as Paused
+
+00:04:23.108 --> 00:04:27.466
+or Failed, and the Sort menu puts the newest or the oldest first.
+
+00:04:27.918 --> 00:04:33.140
+The imported customers are now content items of the site, ready to edit,
+
+00:04:33.140 --> 00:04:35.818
+publish and search like any other.
+
+00:04:40.118 --> 00:04:45.298
+On the Bulk Export page, click Export to open the Export contents form.
+
+00:04:45.819 --> 00:04:50.270
+Choose the File type, CSV or Excel, and then the Content type.
+
+00:04:50.270 --> 00:04:55.179
+The Export Data button stays disabled until a content type is chosen.
+
+00:04:55.948 --> 00:04:59.531
+Export scope is Export all published by default.
+
+00:04:59.531 --> 00:05:03.048
+Choose Filtered Export to narrow the file down.
+
+00:05:03.500 --> 00:05:08.483
+Filter Options limit the export to a range of Created or Modified dates,
+
+00:05:08.483 --> 00:05:12.763
+or to the Owners you type, as user names separated by commas.
+
+00:05:12.763 --> 00:05:18.960
+Published only, Latest only and All versions choose which versions of each item to include.
+
+00:05:22.062 --> 00:05:23.468
+Click Export Data.
+
+00:05:23.468 --> 00:05:26.106
+A small export downloads straight away.
+
+00:05:26.106 --> 00:05:30.267
+A large one is prepared in the background, and the page tells you
+
+00:05:30.267 --> 00:05:31.732
+it has been queued.
+
+00:05:32.219 --> 00:05:37.129
+When the export is ready, its row shows Completed, the number of records,
+
+00:05:37.129 --> 00:05:38.869
+and a Download button.
+
+00:05:39.327 --> 00:05:43.278
+The file uses the same column names as an import template.
+
+00:05:43.278 --> 00:05:47.723
+So you can export, change the file in a spreadsheet, and import it
+
+00:05:47.723 --> 00:05:50.007
+again to update the same items.
+
+00:05:54.207 --> 00:05:58.256
+What a person sees depends on the permissions of their role.
+
+00:05:58.256 --> 00:06:03.347
+List content transfer entries shows the Import menu and the Bulk Import page.
+
+00:06:04.097 --> 00:06:10.817
+Import content items from file allows uploading files, downloading templates and error files,
+
+00:06:10.817 --> 00:06:13.532
+and pausing or resuming an import.
+
+00:06:13.532 --> 00:06:17.062
+Export content items from file allows exports.
+
+00:06:17.062 --> 00:06:20.727
+Delete content transfer entries removes entries.
+
+00:06:21.477 --> 00:06:26.471
+Each import and export permission also exists for a single content type, so
+
+00:06:26.471 --> 00:06:29.616
+a role can import customers and nothing else.
+
+00:06:29.616 --> 00:06:32.637
+Administrators have all of them by default.
+
+00:06:33.387 --> 00:06:38.074
+Your technical team can keep the uploaded and exported files in Azure Blob
+
+00:06:38.074 --> 00:06:41.941
+Storage, so a site that runs on several servers shares them.
+
+00:06:41.941 --> 00:06:44.167
+That needs no screen of its own.
+
+00:06:48.367 --> 00:06:54.467
+Load a purchased or partner list of leads, customers or products in a single upload.
+
+00:06:55.217 --> 00:06:57.609
+Move records from another system:
+
+00:06:57.609 --> 00:07:00.737
+export them there, then import the file here.
+
+00:07:01.487 --> 00:07:04.037
+Correct many records at once.
+
+00:07:04.037 --> 00:07:09.937
+Export them, fix the file in Excel, and import it to update the same items.
+
+00:07:10.687 --> 00:07:15.347
+Hand a list to an accountant or a partner who has no access to the site.
+
+00:07:17.347 --> 00:07:22.063
+Bulk import and export turn a spreadsheet into content, and content into a
+
+00:07:22.063 --> 00:07:25.364
+spreadsheet, with every row checked on the way in.
+
+00:07:25.364 --> 00:07:26.897
+Thanks for watching.
+

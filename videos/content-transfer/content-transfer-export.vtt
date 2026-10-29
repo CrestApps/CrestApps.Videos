@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:08.480
+On the Bulk Export page, click Export to open the Export contents form.
+
+00:00:09.002 --> 00:00:13.452
+Choose the File type, CSV or Excel, and then the Content type.
+
+00:00:13.452 --> 00:00:18.362
+The Export Data button stays disabled until a content type is chosen.
+
+00:00:19.130 --> 00:00:22.713
+Export scope is Export all published by default.
+
+00:00:22.713 --> 00:00:26.230
+Choose Filtered Export to narrow the file down.
+
+00:00:26.682 --> 00:00:31.665
+Filter Options limit the export to a range of Created or Modified dates,
+
+00:00:31.665 --> 00:00:35.945
+or to the Owners you type, as user names separated by commas.
+
+00:00:35.945 --> 00:00:42.142
+Published only, Latest only and All versions choose which versions of each item to include.
+
+00:00:45.244 --> 00:00:46.651
+Click Export Data.
+
+00:00:46.651 --> 00:00:49.288
+A small export downloads straight away.
+
+00:00:49.288 --> 00:00:53.449
+A large one is prepared in the background, and the page tells you
+
+00:00:53.449 --> 00:00:54.914
+it has been queued.
+
+00:00:55.401 --> 00:01:00.311
+When the export is ready, its row shows Completed, the number of records,
+
+00:01:00.311 --> 00:01:02.051
+and a Download button.
+
+00:01:02.509 --> 00:01:06.460
+The file uses the same column names as an import template.
+
+00:01:06.460 --> 00:01:10.905
+So you can export, change the file in a spreadsheet, and import it
+
+00:01:10.905 --> 00:01:13.189
+again to update the same items.
+

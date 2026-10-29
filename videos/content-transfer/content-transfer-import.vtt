@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.253 --> 00:00:06.256
+Choose your file with the file picker.
+
+00:00:06.256 --> 00:00:10.283
+This one is a list of customers, saved as a CSV file.
+
+00:00:10.772 --> 00:00:16.425
+Publish imported content is ticked, so every item is published as soon as it is imported.
+
+00:00:16.425 --> 00:00:20.472
+Untick it to save each item as a draft that you publish later.
+
+00:00:20.999 --> 00:00:22.234
+Click Upload.
+
+00:00:22.234 --> 00:00:27.957
+A progress bar shows the upload, and a large file is sent in pieces automatically.
+
+00:00:27.957 --> 00:00:30.429
+Then the Bulk Import page opens.
+

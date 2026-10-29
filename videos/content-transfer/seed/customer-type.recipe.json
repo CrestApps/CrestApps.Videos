@@ -1,0 +1,69 @@
+{
+  "name": "customer-type",
+  "displayName": "Customer content type",
+  "description": "Adds a Customer content type for the demo site.",
+  "author": "CrestApps",
+  "version": "1.0",
+  "steps": [
+    {
+      "name": "ContentDefinition",
+      "ContentTypes": [
+        {
+          "Name": "Customer",
+          "DisplayName": "Customer",
+          "Settings": {
+            "ContentTypeSettings": { "Creatable": true, "Listable": true, "Draftable": true, "Versionable": true, "Securable": true },
+            "FullTextAspectSettings": {}
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": { "Position": "0" },
+                "TitlePartSettings": { "Options": "EditableRequired" }
+              }
+            },
+            {
+              "PartName": "Customer",
+              "Name": "Customer",
+              "Settings": { "ContentTypePartSettings": { "Position": "1" } }
+            }
+          ]
+        }
+      ],
+      "ContentParts": [
+        {
+          "Name": "Customer",
+          "Settings": { "ContentPartSettings": { "Attachable": false, "Description": "" } },
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "TextField",
+              "Name": "Email",
+              "Settings": {
+                "ContentPartFieldSettings": { "DisplayName": "Email", "Position": "0" },
+                "TextFieldSettings": { "Required": false }
+              }
+            },
+            {
+              "FieldName": "TextField",
+              "Name": "City",
+              "Settings": {
+                "ContentPartFieldSettings": { "DisplayName": "City", "Position": "1" },
+                "TextFieldSettings": { "Required": false }
+              }
+            },
+            {
+              "FieldName": "TextField",
+              "Name": "Plan",
+              "Settings": {
+                "ContentPartFieldSettings": { "DisplayName": "Plan", "Position": "2" },
+                "TextFieldSettings": { "Required": false }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
