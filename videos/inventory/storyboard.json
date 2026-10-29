@@ -1,0 +1,314 @@
+{
+  "title": "Inventory",
+  "output": "inventory",
+  "spoken": {
+    "SKU": "S.K.U.",
+    "CSV": "C.S.V."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Inventory",
+      "subtitle": "Sell what you have",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Selling more than you hold costs money and trust. This video shows why the Inventory module exists, how counts, locations and purchase orders fit together, and how to use every screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why inventory",
+      "subtitle": "Sell what you have",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Nothing disappoints a shopper like paying for something that is not there. Selling more than you hold means refunds, apologies and lost trust."
+            },
+            {
+              "id": "why-2",
+              "text": "Counting stock by hand means a spreadsheet that is never quite right, and no warning before a bestseller runs out."
+            },
+            {
+              "id": "why-3",
+              "text": "The Inventory module counts every product and variant, holds units while a buyer pays, and takes them off when the order is paid."
+            },
+            {
+              "id": "why-4",
+              "text": "It tells you when stock is low, helps you order more from suppliers, and shows shoppers what is left."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Counts, locations, purchase orders and alerts",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "The Inventory part on a product type switches counting on. Commerce, Inventory lists every counted product and variant."
+            },
+            {
+              "id": "how-2",
+              "text": "A line is changed by receiving stock, adjusting it, or counting it, and its history keeps every change."
+            },
+            {
+              "id": "how-3",
+              "text": "Locations keep stock in more than one place. Purchase orders order from suppliers and receive the stock into a location."
+            },
+            {
+              "id": "how-4",
+              "text": "Settings, Commerce, Inventory sets the low-stock threshold, how long stock is held, and who is told when stock runs low."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Start counting",
+      "subtitle": "The Inventory part",
+      "clips": [
+        {
+          "id": "03-count",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cnt-1",
+              "text": "Stock is counted for content types that have the Inventory part. Open Content, Content Definition, Content Types, edit Product, and click Add Parts."
+            },
+            {
+              "id": "cnt-2",
+              "text": "Tick Inventory, and add it. Every product of this type can now be counted."
+            },
+            {
+              "id": "cnt-3",
+              "text": "Open Commerce, Inventory, and click Find products to count. Every product gets a line, with nothing on hand yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Change stock",
+      "subtitle": "Received, adjusted and counted",
+      "clips": [
+        {
+          "id": "04-stock",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "stk-1",
+              "text": "Each line shows what is On hand, what is Reserved for orders being paid for, and what is Available, which is on hand minus reserved. Open a line to change it."
+            },
+            {
+              "id": "stk-2",
+              "text": "Received records stock that arrived, such as a delivery. Enter how many came in, and a reason if you like."
+            },
+            {
+              "id": "stk-3",
+              "text": "Adjusted records a correction up or down, such as damaged units. Enter a negative number to take stock away, and give a reason."
+            },
+            {
+              "id": "stk-3b",
+              "text": "Count records how many you counted. The count replaces what is on hand, and the history records the difference."
+            },
+            {
+              "id": "stk-4",
+              "text": "The history lists every change, newest first, with what it was, the change, and what was on hand after it. Recount from history recomputes the number from that history."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Export and import counts",
+      "subtitle": "Set many counts at once",
+      "clips": [
+        {
+          "id": "05-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "Export CSV downloads every counted product, with its SKU and how many are on hand, reserved and available. To set many counts at once, such as after a stocktake, change the OnHand column."
+            },
+            {
+              "id": "imp-2",
+              "text": "Click Import CSV, choose the file, and click Import. Only OnHand is read, and each line is found by its SKU. If any line has a problem, nothing is imported."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Stock settings of a product",
+      "subtitle": "Backorders and thresholds",
+      "clips": [
+        {
+          "id": "06-product",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prd-1",
+              "text": "On a product's editor, the Inventory section sets how its stock is kept. Count stock stops counting the product when it is unticked."
+            },
+            {
+              "id": "prd-2",
+              "text": "Allow backorders keeps selling when none are left. Low-stock threshold says when stock counts as low, and Ships from sets the date of a product that is not out yet."
+            },
+            {
+              "id": "prd-3",
+              "text": "Below the settings, On hand lists each variant with how many are available, and a Change button that opens it under Inventory."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Settings and locations",
+      "subtitle": "Thresholds, alerts and more than one place",
+      "clips": [
+        {
+          "id": "07-locations",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "loc-1",
+              "text": "Settings, Commerce, Inventory sets the Low-stock threshold for products without their own, and Hold stock for, the minutes units stay held for a buyer who has not paid yet."
+            },
+            {
+              "id": "loc-2",
+              "text": "Notify about low stock chooses the roles whose users are told when a product runs low or sells out."
+            },
+            {
+              "id": "loc-3",
+              "text": "Under Locations, fill in Add a location with a Name, such as Main warehouse, and an Address, and click Save. Stock can now be kept in more than one place."
+            },
+            {
+              "id": "loc-4",
+              "text": "With more than one location, an item lists its stock By location, and Move between locations moves available units from one place to another."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Purchase orders",
+      "subtitle": "Order from suppliers, receive the stock",
+      "clips": [
+        {
+          "id": "08-purchase",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "po-1",
+              "text": "Commerce, Purchase orders keeps the stock you order from suppliers. Click Add purchase order."
+            },
+            {
+              "id": "po-2",
+              "text": "Enter the Supplier and the Supplier's email, where to Receive at, and when it is Expected. Leave the box to start with the items that are low on stock ticked, and click Start the order."
+            },
+            {
+              "id": "po-3",
+              "text": "Under Add items, Find items to order searches by SKU or name. Set how many are Ordered and the Unit cost of each, and save. Then click Mark as ordered, and the items can no longer change."
+            },
+            {
+              "id": "po-4",
+              "text": "When the stock arrives, enter what came under Arrived now, and click Receive what arrived, or Receive everything. The units go on hand, and each item's history shows Received."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "What shoppers see",
+      "subtitle": "Low and out of stock on the shop",
+      "clips": [
+        {
+          "id": "09-shop",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shop-1",
+              "text": "Shoppers see the stock on the shop. A product that is running low shows how many are left, and one that is gone shows that it is out of stock."
+            },
+            {
+              "id": "shop-2",
+              "text": "The In stock filter lists only the products that can be bought now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Four ways to use inventory",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A small shop: count what you hold, get a notification when a bestseller runs low, and order more."
+            },
+            {
+              "id": "use-2",
+              "text": "A shop and a warehouse: two locations, with stock moved between them."
+            },
+            {
+              "id": "use-3",
+              "text": "A stocktake: export the counts, correct the OnHand column, and import the file."
+            },
+            {
+              "id": "use-4",
+              "text": "A launch: Ships from and Allow backorders let shoppers pre-order a product that is not out yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Count what you hold, change it with a reason, order more before it runs out, and show shoppers what is left. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

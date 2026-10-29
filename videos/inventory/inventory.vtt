@@ -1,0 +1,257 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.470
+Selling more than you hold costs money and trust.
+
+00:00:04.470 --> 00:00:10.150
+This video shows why the Inventory module exists, how counts, locations and purchase
+
+00:00:10.150 --> 00:00:13.620
+orders fit together, and how to use every screen.
+
+00:00:18.220 --> 00:00:23.140
+Nothing disappoints a shopper like paying for something that is not there.
+
+00:00:23.140 --> 00:00:27.630
+Selling more than you hold means refunds, apologies and lost trust.
+
+00:00:28.380 --> 00:00:32.886
+Counting stock by hand means a spreadsheet that is never quite right, and
+
+00:00:32.886 --> 00:00:35.510
+no warning before a bestseller runs out.
+
+00:00:36.260 --> 00:00:41.506
+The Inventory module counts every product and variant, holds units while a buyer
+
+00:00:41.506 --> 00:00:44.800
+pays, and takes them off when the order is paid.
+
+00:00:45.550 --> 00:00:49.607
+It tells you when stock is low, helps you order more from suppliers,
+
+00:00:49.607 --> 00:00:51.690
+and shows shoppers what is left.
+
+00:00:55.890 --> 00:01:00.001
+The Inventory part on a product type switches counting on.
+
+00:01:00.001 --> 00:01:04.240
+Commerce, Inventory lists every counted product and variant.
+
+00:01:04.990 --> 00:01:09.772
+A line is changed by receiving stock, adjusting it, or counting it, and
+
+00:01:09.772 --> 00:01:12.070
+its history keeps every change.
+
+00:01:12.820 --> 00:01:15.927
+Locations keep stock in more than one place.
+
+00:01:15.927 --> 00:01:20.960
+Purchase orders order from suppliers and receive the stock into a location.
+
+00:01:21.710 --> 00:01:28.050
+Settings, Commerce, Inventory sets the low-stock threshold, how long stock is held, and
+
+00:01:28.050 --> 00:01:30.640
+who is told when stock runs low.
+
+00:01:34.818 --> 00:01:39.436
+Stock is counted for content types that have the Inventory part.
+
+00:01:39.436 --> 00:01:45.308
+Open Content, Content Definition, Content Types, edit Product, and click Add Parts.
+
+00:01:45.759 --> 00:01:47.902
+Tick Inventory, and add it.
+
+00:01:47.902 --> 00:01:51.279
+Every product of this type can now be counted.
+
+00:01:51.729 --> 00:01:55.788
+Open Commerce, Inventory, and click Find products to count.
+
+00:01:55.788 --> 00:01:59.409
+Every product gets a line, with nothing on hand yet.
+
+00:02:03.610 --> 00:02:07.921
+Each line shows what is On hand, what is Reserved for orders being
+
+00:02:07.921 --> 00:02:12.173
+paid for, and what is Available, which is on hand minus reserved.
+
+00:02:12.173 --> 00:02:14.030
+Open a line to change it.
+
+00:02:14.480 --> 00:02:17.850
+Received records stock that arrived, such as a delivery.
+
+00:02:17.850 --> 00:02:20.840
+Enter how many came in, and a reason if you like.
+
+00:02:21.290 --> 00:02:25.612
+Adjusted records a correction up or down, such as damaged units.
+
+00:02:25.612 --> 00:02:29.810
+Enter a negative number to take stock away, and give a reason.
+
+00:02:30.261 --> 00:02:32.658
+Count records how many you counted.
+
+00:02:32.658 --> 00:02:37.391
+The count replaces what is on hand, and the history records the difference.
+
+00:02:37.842 --> 00:02:42.446
+The history lists every change, newest first, with what it was, the change,
+
+00:02:42.446 --> 00:02:44.493
+and what was on hand after it.
+
+00:02:44.493 --> 00:02:48.302
+Recount from history recomputes the number from that history.
+
+00:02:52.495 --> 00:02:58.072
+Export CSV downloads every counted product, with its SKU and how many are
+
+00:02:58.072 --> 00:03:00.754
+on hand, reserved and available.
+
+00:03:00.754 --> 00:03:06.825
+To set many counts at once, such as after a stocktake, change the OnHand column.
+
+00:03:07.279 --> 00:03:11.585
+Click Import CSV, choose the file, and click Import.
+
+00:03:11.585 --> 00:03:16.114
+Only OnHand is read, and each line is found by its SKU.
+
+00:03:16.114 --> 00:03:20.049
+If any line has a problem, nothing is imported.
+
+00:03:24.243 --> 00:03:28.617
+On a product's editor, the Inventory section sets how its stock is kept.
+
+00:03:28.617 --> 00:03:32.263
+Count stock stops counting the product when it is unticked.
+
+00:03:32.717 --> 00:03:36.018
+Allow backorders keeps selling when none are left.
+
+00:03:36.018 --> 00:03:40.733
+Low-stock threshold says when stock counts as low, and Ships from sets the
+
+00:03:40.733 --> 00:03:43.327
+date of a product that is not out yet.
+
+00:03:43.779 --> 00:03:48.308
+Below the settings, On hand lists each variant with how many are available,
+
+00:03:48.308 --> 00:03:51.439
+and a Change button that opens it under Inventory.
+
+00:03:55.633 --> 00:04:01.704
+Settings, Commerce, Inventory sets the Low-stock threshold for products without their own, and
+
+00:04:01.704 --> 00:04:06.743
+Hold stock for, the minutes units stay held for a buyer who has not paid yet.
+
+00:04:07.195 --> 00:04:11.407
+Notify about low stock chooses the roles whose users are told when a
+
+00:04:11.407 --> 00:04:13.455
+product runs low or sells out.
+
+00:04:13.908 --> 00:04:18.247
+Under Locations, fill in Add a location with a Name, such as Main
+
+00:04:18.247 --> 00:04:21.181
+warehouse, and an Address, and click Save.
+
+00:04:21.181 --> 00:04:24.298
+Stock can now be kept in more than one place.
+
+00:04:24.748 --> 00:04:29.179
+With more than one location, an item lists its stock By location, and
+
+00:04:29.179 --> 00:04:33.728
+Move between locations moves available units from one place to another.
+
+00:04:37.929 --> 00:04:42.491
+Commerce, Purchase orders keeps the stock you order from suppliers.
+
+00:04:42.491 --> 00:04:44.429
+Click Add purchase order.
+
+00:04:44.879 --> 00:04:50.143
+Enter the Supplier and the Supplier's email, where to Receive at, and when it is Expected.
+
+00:04:50.143 --> 00:04:53.706
+Leave the box to start with the items that are low on stock
+
+00:04:53.706 --> 00:04:55.899
+ticked, and click Start the order.
+
+00:04:56.350 --> 00:05:00.912
+Under Add items, Find items to order searches by SKU or name.
+
+00:05:00.912 --> 00:05:05.473
+Set how many are Ordered and the Unit cost of each, and save.
+
+00:05:05.473 --> 00:05:10.170
+Then click Mark as ordered, and the items can no longer change.
+
+00:05:10.620 --> 00:05:15.609
+When the stock arrives, enter what came under Arrived now, and click Receive
+
+00:05:15.609 --> 00:05:18.164
+what arrived, or Receive everything.
+
+00:05:18.164 --> 00:05:22.240
+The units go on hand, and each item's history shows Received.
+
+00:05:26.503 --> 00:05:28.559
+Shoppers see the stock on the shop.
+
+00:05:28.559 --> 00:05:31.967
+A product that is running low shows how many are left, and one
+
+00:05:31.967 --> 00:05:34.423
+that is gone shows that it is out of stock.
+
+00:05:34.982 --> 00:05:38.652
+The In stock filter lists only the products that can be bought now.
+
+00:05:42.852 --> 00:05:44.055
+A small shop:
+
+00:05:44.055 --> 00:05:49.692
+count what you hold, get a notification when a bestseller runs low, and order more.
+
+00:05:50.442 --> 00:05:52.468
+A shop and a warehouse:
+
+00:05:52.468 --> 00:05:56.032
+two locations, with stock moved between them.
+
+00:05:56.782 --> 00:05:58.010
+A stocktake:
+
+00:05:58.010 --> 00:06:02.922
+export the counts, correct the OnHand column, and import the file.
+
+00:06:03.672 --> 00:06:04.599
+A launch:
+
+00:06:04.599 --> 00:06:10.222
+Ships from and Allow backorders let shoppers pre-order a product that is not out yet.
+
+00:06:12.222 --> 00:06:16.358
+Count what you hold, change it with a reason, order more before it
+
+00:06:16.358 --> 00:06:19.058
+runs out, and show shoppers what is left.
+
+00:06:19.058 --> 00:06:20.552
+Thanks for watching.
+
