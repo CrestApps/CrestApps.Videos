@@ -1,0 +1,44 @@
+1
+00:00:03,209 --> 00:00:05,860
+Documents need a search index.
+
+2
+00:00:05,860 --> 00:00:12,709
+Open Search, Indexes, click Add index, and click Add on AI Documents for Elasticsearch.
+
+3
+00:00:13,176 --> 00:00:15,469
+Enter an Index Name and a Name.
+
+4
+00:00:15,469 --> 00:00:22,532
+Documents are embedded with the site's default embedding deployment, which you choose in the default models.
+
+5
+00:00:22,532 --> 00:00:25,196
+Click Save, and the index is created.
+
+6
+00:00:25,654 --> 00:00:30,601
+Then open Settings, Artificial Intelligence, and find the Documents section.
+
+7
+00:00:30,601 --> 00:00:33,196
+Choose the index under Index profile.
+
+8
+00:00:33,196 --> 00:00:38,204
+It holds the documents of profiles and the files that people attach to chats.
+
+9
+00:00:38,692 --> 00:00:43,672
+Avoid switching to another index once people use it, because the documents stored
+
+10
+00:00:43,672 --> 00:00:46,019
+in the old one are no longer found.
+
+11
+00:00:46,019 --> 00:00:46,992
+Click Save.
+

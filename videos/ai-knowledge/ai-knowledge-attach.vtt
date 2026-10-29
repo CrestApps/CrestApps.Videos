@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:07.917
+To let people attach files to a chat, tick Allow session document uploads
+
+00:00:07.917 --> 00:00:09.495
+on the Knowledge tab.
+
+00:00:09.495 --> 00:00:14.580
+Allow session image uploads adds pictures, and needs a default vision deployment.
+
+00:00:15.058 --> 00:00:20.186
+Largest document that can be indexed is the longest document, in characters of
+
+00:00:20.186 --> 00:00:22.445
+text, that a person can attach.
+
+00:00:22.445 --> 00:00:25.498
+A bigger one is refused when it is attached.
+
+00:00:25.962 --> 00:00:31.717
+Describe figures in uploaded documents decides whether the AI describes the charts and
+
+00:00:31.717 --> 00:00:34.281
+pictures inside attached documents.
+
+00:00:34.281 --> 00:00:37.222
+It uses a vision model, so it costs more.
+
+00:00:37.699 --> 00:00:40.549
+Attached files belong to one chat only.
+
+00:00:40.549 --> 00:00:44.349
+They never become part of the profile's own knowledge.
+

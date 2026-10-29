@@ -1,0 +1,99 @@
+{
+  "title": "AI Knowledge: Answers From Your Own Documents | CrestApps for Orchard Core",
+  "description": "On its own, an AI model only knows what it learned in general. With CrestApps AI knowledge, an assistant in Orchard Core answers from your own documents, so people get your prices, policies and help articles instead of a guess.\n\nIn this video:\n• Why a general model needs your knowledge\n• Four ways to give an assistant knowledge: documents on a profile, attachments in a chat, data sources, and file sources or web crawlers\n• Creating the documents index and choosing it in the settings\n• Uploading documents to a profile, and the Document Top N and retrieval mode settings\n• Asking the assistant a question that only the document can answer\n• Letting people attach files to a chat\n• Using knowledge well, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI knowledge",
+    "RAG",
+    "retrieval-augmented generation",
+    "AI documents",
+    "AI assistant",
+    "AI chatbot",
+    "Elasticsearch",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why knowledge"
+    },
+    {
+      "time": "0:57",
+      "title": "Choose how to add it"
+    },
+    {
+      "time": "1:35",
+      "title": "Create the documents index"
+    },
+    {
+      "time": "2:23",
+      "title": "Upload documents to a profile"
+    },
+    {
+      "time": "3:25",
+      "title": "Ask a question"
+    },
+    {
+      "time": "4:03",
+      "title": "Let people attach files"
+    },
+    {
+      "time": "4:49",
+      "title": "More sources of knowledge"
+    },
+    {
+      "time": "5:26",
+      "title": "Using knowledge well"
+    },
+    {
+      "time": "6:11",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:42",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/documents"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Documents"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/ai/documents/index.md"
+  ],
+  "length": "6:52"
+}
