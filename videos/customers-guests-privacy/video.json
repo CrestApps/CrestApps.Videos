@@ -1,0 +1,95 @@
+{
+  "title": "Customers, Guests and Privacy: Merged Accounts, Retention and Checkout Fields | CrestApps for Orchard Core",
+  "description": "Not everyone who buys from you has an account. The CrestApps Customers feature keeps a record for every buyer, merges a guest's orders into their account when they sign up with a confirmed email, erases or anonymizes guests' personal data after the time you choose, adds your own fields to the checkout with Checkout details, and gives staff their own My Account page.\n\nIn this video:\n• Guest customers and merged accounts\n• How long guest data is kept\n• Your own fields at checkout: Checkout details\n• What the buyer sees\n• Staff and My Account\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Privacy",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "customers",
+    "guest checkout",
+    "GDPR",
+    "data retention",
+    "privacy",
+    "checkout fields",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why this matters"
+    },
+    {
+      "time": "0:51",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:27",
+      "title": "Guests and merged accounts"
+    },
+    {
+      "time": "2:10",
+      "title": "How long guest data is kept"
+    },
+    {
+      "time": "2:59",
+      "title": "Your own checkout questions"
+    },
+    {
+      "time": "3:35",
+      "title": "What the buyer sees"
+    },
+    {
+      "time": "3:57",
+      "title": "Staff and My Account"
+    },
+    {
+      "time": "4:07",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:38",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/customers"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/customers"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Customers"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/customers.md",
+    "src/CrestApps.Docs/docs/modules/customers.md"
+  ],
+  "length": "4:50"
+}

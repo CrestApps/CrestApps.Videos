@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.202 --> 00:00:05.813
+Open Settings, Commerce, Customers.
+
+00:00:05.813 --> 00:00:10.524
+Erase inactive guests after sets how many months a guest who has not
+
+00:00:10.524 --> 00:00:12.371
+bought or paid is kept.
+
+00:00:12.371 --> 00:00:16.255
+After that, the store erases the guest's personal data.
+
+00:00:16.255 --> 00:00:18.802
+The default is twenty-four months.
+
+00:00:19.256 --> 00:00:24.093
+Anonymize guest orders after sets how long a paid or canceled guest order
+
+00:00:24.093 --> 00:00:27.951
+keeps the buyer's name, email, phone and billing address.
+
+00:00:27.951 --> 00:00:33.033
+After twelve months, by default, they are removed, but the country and region
+
+00:00:33.033 --> 00:00:34.993
+stay for your tax records.
+
+00:00:34.993 --> 00:00:37.075
+Enter zero to keep the data.
+
+00:00:37.075 --> 00:00:41.116
+Customers with an account are kept while the account exists.
+
+00:00:41.569 --> 00:00:47.929
+On the same page, Billing address at checkout chooses whether buyers must give a billing address.
+
