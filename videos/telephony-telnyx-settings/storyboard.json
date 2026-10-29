@@ -1,0 +1,165 @@
+{
+  "title": "Telnyx Settings",
+  "output": "telephony-telnyx-settings",
+  "spoken": {
+    "Telnyx": "Tel nix",
+    "Krisp": "Crisp",
+    "ai-coustics": "A.I. acoustics",
+    "DeepFilterNet": "Deep Filter Net",
+    "TTS": "T.T.S.",
+    "WebRTC": "web R.T.C.",
+    "AWS": "A.W.S.",
+    "Polly": "Polly",
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Telnyx Settings",
+      "subtitle": "Connect Telnyx and tune the calls",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Telnyx is a cloud phone provider. This video shows how the Telnyx tab connects the platform to a Telnyx account, and what you can tune once it is connected: noise suppression, answering machine detection, the speaking voice, and more."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What the Telnyx tab does",
+      "subtitle": "Connect once, and the platform sets the rest up",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "You give the platform a Telnyx A.P.I. key. When you click Connect Telnyx, it creates the call control application, the S.I.P. connection, the outbound voice profile and the webhook on your account for you."
+            },
+            {
+              "id": "what-2",
+              "text": "The options below the connection appear only once you are connected. This demo site has no Telnyx account, so this video shows the tab as it is before connecting, and describes the rest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Enable Telnyx and add the key",
+      "subtitle": "The tab before you connect",
+      "clips": [
+        {
+          "id": "02-enable",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "en-1",
+              "text": "Open Settings, Communication, Telephony, and choose the Telnyx tab. A short guide lists the steps: create an A.P.I. key in the Telnyx portal, save, click Connect Telnyx, and paste the webhook public key."
+            },
+            {
+              "id": "en-2",
+              "text": "Tick Enable Telnyx provider to make it a choice for the default provider. Paste the A.P.I. key; it is stored encrypted, and the box stays empty when you come back."
+            },
+            {
+              "id": "en-3",
+              "text": "The Connect Telnyx button appears once a key is stored. Here, no key is saved, so the page says to enter one and save. Connect needs a real Telnyx account, so it is not clicked in this video."
+            }
+          ]
+        }
+      ],
+      "short": "enable"
+    },
+    {
+      "id": "03",
+      "title": "After you connect",
+      "subtitle": "The connection, the caller id and the webhook key",
+      "clips": [
+        {
+          "id": "03-connected",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "After Connect, the tab shows Connected to Telnyx with the connection ids it created. Disconnect deletes those resources on Telnyx after you confirm, so you can start over."
+            },
+            {
+              "id": "con-2",
+              "text": "Pick the Default outbound caller id from your voice addresses. Paste the Webhook public key from the Telnyx portal. Until it is set, every call event from Telnyx is rejected and calls do not connect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Noise, answering machines and speech",
+      "subtitle": "What you can tune",
+      "clips": [
+        {
+          "id": "04-tune",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tune-1",
+              "text": "Noise suppression cleans background sound out of the call audio. Choose Krisp when callers can hear colleagues nearby. Suppression strength runs from Light to Strong, and you choose whether to clean the agent's voice, the caller's voice, or both. Telnyx bills it."
+            },
+            {
+              "id": "tune-2",
+              "text": "Answering machine detection decides whether a person or a voicemail answered an automated call, so a message is left after the tone. Premium and Standard are billed per call; Off turns it off."
+            },
+            {
+              "id": "tune-3",
+              "text": "Text-to-speech voice and language set how phone menus, the voicemail greeting and a queue's callback offer are spoken. Leave them blank for the default."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Advanced settings",
+      "subtitle": "Rarely changed",
+      "clips": [
+        {
+          "id": "05-advanced",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "adv-1",
+              "text": "Audio test destination is a Telnyx number that echoes audio back, so the soft phone's Run audio test can check the sound without a second person. Calls with no local record chooses between reporting a call left over from a restart, and ending it."
+            },
+            {
+              "id": "adv-2",
+              "text": "Soft phone region picks the Telnyx region the browser connects to, Credential lifetime sets how long each soft phone login lasts, and Preferred audio codecs orders the formats. Change them only when Telnyx support asks, or your network needs it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Enable Telnyx, store the key, connect, add the webhook key and a caller id, and tune the sound only when you need to. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

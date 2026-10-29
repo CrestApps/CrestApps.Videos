@@ -1,0 +1,188 @@
+1
+00:00:01,000 --> 00:00:03,331
+Telnyx is a cloud phone provider.
+
+2
+00:00:03,331 --> 00:00:07,813
+This video shows how the Telnyx tab connects the platform to a Telnyx
+
+3
+00:00:07,813 --> 00:00:11,280
+account, and what you can tune once it is connected:
+
+4
+00:00:11,280 --> 00:00:16,240
+noise suppression, answering machine detection, the speaking voice, and more.
+
+5
+00:00:20,840 --> 00:00:23,355
+You give the platform a Telnyx A.P.I.
+
+6
+00:00:23,355 --> 00:00:23,940
+key.
+
+7
+00:00:23,940 --> 00:00:29,088
+When you click Connect Telnyx, it creates the call control application, the S.I.P.
+
+8
+00:00:29,088 --> 00:00:34,060
+connection, the outbound voice profile and the webhook on your account for you.
+
+9
+00:00:34,810 --> 00:00:39,250
+The options below the connection appear only once you are connected.
+
+10
+00:00:39,250 --> 00:00:43,510
+This demo site has no Telnyx account, so this video shows the tab
+
+11
+00:00:43,510 --> 00:00:46,930
+as it is before connecting, and describes the rest.
+
+12
+00:00:51,230 --> 00:00:56,141
+Open Settings, Communication, Telephony, and choose the Telnyx tab.
+
+13
+00:00:56,141 --> 00:00:58,563
+A short guide lists the steps:
+
+14
+00:00:58,563 --> 00:01:00,043
+create an A.P.I.
+
+15
+00:01:00,043 --> 00:01:06,300
+key in the Telnyx portal, save, click Connect Telnyx, and paste the webhook public key.
+
+16
+00:01:06,895 --> 00:01:11,388
+Tick Enable Telnyx provider to make it a choice for the default provider.
+
+17
+00:01:11,388 --> 00:01:12,639
+Paste the A.P.I.
+
+18
+00:01:12,639 --> 00:01:17,075
+key; it is stored encrypted, and the box stays empty when you come back.
+
+19
+00:01:17,577 --> 00:01:21,614
+The Connect Telnyx button appears once a key is stored.
+
+20
+00:01:21,614 --> 00:01:26,115
+Here, no key is saved, so the page says to enter one and save.
+
+21
+00:01:26,115 --> 00:01:31,277
+Connect needs a real Telnyx account, so it is not clicked in this video.
+
+22
+00:01:35,477 --> 00:01:40,971
+After Connect, the tab shows Connected to Telnyx with the connection ids it created.
+
+23
+00:01:40,971 --> 00:01:46,587
+Disconnect deletes those resources on Telnyx after you confirm, so you can start over.
+
+24
+00:01:47,337 --> 00:01:51,458
+Pick the Default outbound caller id from your voice addresses.
+
+25
+00:01:51,458 --> 00:01:54,973
+Paste the Webhook public key from the Telnyx portal.
+
+26
+00:01:54,973 --> 00:02:00,367
+Until it is set, every call event from Telnyx is rejected and calls do not connect.
+
+27
+00:02:04,567 --> 00:02:08,660
+Noise suppression cleans background sound out of the call audio.
+
+28
+00:02:08,660 --> 00:02:12,111
+Choose Krisp when callers can hear colleagues nearby.
+
+29
+00:02:12,111 --> 00:02:17,081
+Suppression strength runs from Light to Strong, and you choose whether to clean
+
+30
+00:02:17,081 --> 00:02:20,181
+the agent's voice, the caller's voice, or both.
+
+31
+00:02:20,181 --> 00:02:21,467
+Telnyx bills it.
+
+32
+00:02:22,217 --> 00:02:28,159
+Answering machine detection decides whether a person or a voicemail answered an automated
+
+33
+00:02:28,159 --> 00:02:31,161
+call, so a message is left after the tone.
+
+34
+00:02:31,161 --> 00:02:35,227
+Premium and Standard are billed per call; Off turns it off.
+
+35
+00:02:35,977 --> 00:02:40,936
+Text-to-speech voice and language set how phone menus, the voicemail greeting and a
+
+36
+00:02:40,936 --> 00:02:43,164
+queue's callback offer are spoken.
+
+37
+00:02:43,164 --> 00:02:45,337
+Leave them blank for the default.
+
+38
+00:02:49,537 --> 00:02:54,115
+Audio test destination is a Telnyx number that echoes audio back, so the
+
+39
+00:02:54,115 --> 00:02:58,693
+soft phone's Run audio test can check the sound without a second person.
+
+40
+00:02:58,693 --> 00:03:03,388
+Calls with no local record chooses between reporting a call left over from
+
+41
+00:03:03,388 --> 00:03:05,207
+a restart, and ending it.
+
+42
+00:03:05,957 --> 00:03:11,685
+Soft phone region picks the Telnyx region the browser connects to, Credential lifetime
+
+43
+00:03:11,685 --> 00:03:17,600
+sets how long each soft phone login lasts, and Preferred audio codecs orders the formats.
+
+44
+00:03:17,600 --> 00:03:22,207
+Change them only when Telnyx support asks, or your network needs it.
+
+45
+00:03:24,207 --> 00:03:28,922
+Enable Telnyx, store the key, connect, add the webhook key and a caller
+
+46
+00:03:28,922 --> 00:03:32,045
+id, and tune the sound only when you need to.
+
+47
+00:03:32,045 --> 00:03:33,637
+Thanks for watching.
+

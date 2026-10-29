@@ -1,0 +1,80 @@
+{
+  "title": "Telnyx Settings: Connect, Noise Suppression and Answering Machine Detection | CrestApps for Orchard Core",
+  "description": "Telnyx is a cloud phone provider. This video shows how the Telnyx tab of the telephony settings in CrestApps for Orchard Core connects the platform to a Telnyx account, and what you can tune once it is connected: noise suppression, answering machine detection, the speaking voice and more. The demo site has no Telnyx account, so the tab is shown before connecting and the rest is described.\n\nIn this video:\n• What the Telnyx tab does\n• Enabling Telnyx and the API key\n• After you connect: caller id and webhook key\n• Noise suppression, answering machine detection, text-to-speech\n• Advanced settings",
+  "hashtags": [
+    "OrchardCore",
+    "Telnyx",
+    "Telephony",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "Telnyx",
+    "telephony",
+    "noise suppression",
+    "answering machine detection",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "What the Telnyx tab does"
+    },
+    {
+      "time": "0:47",
+      "title": "Enable Telnyx and add the key"
+    },
+    {
+      "time": "1:32",
+      "title": "After you connect"
+    },
+    {
+      "time": "2:01",
+      "title": "Noise, answering machines and speech"
+    },
+    {
+      "time": "2:46",
+      "title": "Advanced settings"
+    },
+    {
+      "time": "3:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/telephony-settings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony/telnyx"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telnyx"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/telephony-settings.md"
+  ],
+  "length": "3:35"
+}
