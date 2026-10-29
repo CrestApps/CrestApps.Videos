@@ -1,0 +1,106 @@
+{
+  "title": "AI Profiles, Personas and Templates: Build and Reuse Your Assistants | CrestApps for Orchard Core",
+  "description": "An AI assistant is more than a model: it needs instructions, a name and a voice, knowledge, tools and limits. The CrestApps AI module keeps all of that in a profile, lets you give assistants a reusable character with personas, and saves you from starting over with profile templates and reusable prompt templates.\n\nIn this video:\n• Why each assistant is described once and its parts are reused\n• How profiles, personas, profile templates and prompt templates fit together\n• Starting a profile from the New AI Profile picker\n• Every card and tab of the profile editor\n• Profile types, cloning, and the profile list\n• Creating a persona and choosing it in a profile\n• Creating a profile template and starting a profile from it\n• Reusable system prompt templates\n• Use cases: website assistants, standard assistants, shared characters, background work",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI profiles",
+    "AI persona",
+    "AI templates",
+    "prompt templates",
+    "system instructions",
+    "AI assistant",
+    "AI chatbot",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why profiles, personas and templates"
+    },
+    {
+      "time": "1:07",
+      "title": "How it is organized"
+    },
+    {
+      "time": "2:04",
+      "title": "Start a profile"
+    },
+    {
+      "time": "3:20",
+      "title": "The profile editor"
+    },
+    {
+      "time": "5:13",
+      "title": "Types, cloning and the list"
+    },
+    {
+      "time": "6:12",
+      "title": "Personas"
+    },
+    {
+      "time": "7:20",
+      "title": "Profile templates"
+    },
+    {
+      "time": "8:45",
+      "title": "Reusable prompt templates"
+    },
+    {
+      "time": "9:50",
+      "title": "Use cases"
+    },
+    {
+      "time": "10:40",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: AI profiles",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/profiles"
+    },
+    {
+      "label": "User manual: Templates",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/prompt-templates"
+    },
+    {
+      "label": "Technical guide: AI personas",
+      "url": "https://orchardcore.crestapps.com/docs/ai/personas"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/profiles.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/prompt-templates.md",
+    "src/CrestApps.Docs/docs/ai/personas.md",
+    "src/CrestApps.Docs/docs/ai/profile-templates.md",
+    "src/CrestApps.Docs/docs/ai/prompt-templates.md"
+  ],
+  "length": "10:51"
+}

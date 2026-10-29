@@ -1,0 +1,364 @@
+{
+  "title": "AI Profiles, Personas and Templates",
+  "output": "ai-profiles-personas-templates",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Profiles, Personas and Templates",
+      "subtitle": "Describe an assistant once, and reuse its parts",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A CrestApps AI assistant is described by a profile, can take its character from a persona, and can start from a template. This video shows why they exist, how they fit together, and how to create, edit and reuse each one in the admin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why profiles, personas and templates",
+      "subtitle": "One assistant per job, built from reusable parts",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An AI assistant is more than a model. It needs instructions, a name and a voice, knowledge to draw on, tools it may use, and limits that keep it safe."
+            },
+            {
+              "id": "why-2",
+              "text": "If those choices were scattered across every chat, widget and workflow, the same settings would be repeated everywhere, and each team would build its assistants differently."
+            },
+            {
+              "id": "why-3",
+              "text": "A profile gathers all of it for one job. A persona is a reusable character, and templates are reusable starting points and reusable instructions."
+            },
+            {
+              "id": "why-4",
+              "text": "You describe an assistant once, reuse the parts that repeat, and change them in one place. Everything that talks to the AI then runs on the same, approved setup."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Profile, persona, profile template and prompt template",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A profile is one assistant or task, with its own instructions, model, knowledge, tools and limits. Chats, chat widgets, text and phone conversations, and workflow tasks all run on a profile."
+            },
+            {
+              "id": "how-2",
+              "text": "A persona answers who: the assistant's name, personality, language, voice and picture. A profile links to a persona, so changing the persona changes every profile that uses it."
+            },
+            {
+              "id": "how-3",
+              "text": "A profile template answers where to start. It carries ready-made settings, and a new profile copies them. After that, the profile no longer follows the template."
+            },
+            {
+              "id": "how-4",
+              "text": "A prompt template is a reusable piece of instructions, such as a company tone, that you add to any profile or chat. Together, these parts keep your assistants consistent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Start a profile",
+      "subtitle": "Pick a starting point, then set it up",
+      "clips": [
+        {
+          "id": "03-start",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "start-1",
+              "text": "Open Artificial Intelligence, Profiles. The list is empty until you create your first profile. Click Add Profile to open the New AI Profile picker."
+            },
+            {
+              "id": "start-2",
+              "text": "Blank profile opens the full editor with nothing filled in. Every other card is a ready-made starting point, with a description, the kind of profile it creates, and a Start button."
+            },
+            {
+              "id": "start-3",
+              "text": "Choose a category on the left to narrow the cards, or type in Filter. Here, Talk to people shows the assistants that chat with visitors. All shows everything again."
+            },
+            {
+              "id": "start-4",
+              "text": "A card that is greyed out needs a feature that is not turned on. It names the feature, so you can ask your administrator to enable it."
+            },
+            {
+              "id": "start-5",
+              "text": "Click Start on Website assistant. The setup step asks for a Title, a Technical name that follows the title, and the Chat deployment."
+            },
+            {
+              "id": "start-6",
+              "text": "Leave the Chat deployment on Default to use the model chosen in the site settings, then click Create profile."
+            },
+            {
+              "id": "start-7",
+              "text": "The profile is saved at once and opens in the full editor. Everything below is optional, so you can chat with it right away and refine it later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The profile editor",
+      "subtitle": "The cards and tabs of one profile",
+      "clips": [
+        {
+          "id": "04-editor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ed-1",
+              "text": "The editor groups settings into cards. General holds the Title, the Technical name, and the Profile type: Chat, Utility, Template generated prompt, or Agent."
+            },
+            {
+              "id": "ed-2",
+              "text": "For a chat profile, the Welcome message greets people in an empty chat. Turn on Start the conversation automatically, and the assistant speaks first, with an Opening message."
+            },
+            {
+              "id": "ed-3",
+              "text": "Show on admin menu adds the chat to the Artificial Intelligence menu, so people can open it. Title type decides how each chat gets its name."
+            },
+            {
+              "id": "ed-4",
+              "text": "Deployments and Interactions chooses the models. The Chat deployment answers the conversation, and the Utility deployment is a smaller model for side jobs. Both can stay on Default."
+            },
+            {
+              "id": "ed-5",
+              "text": "Instructions is the most important card. The AI persona picks a character, and the System instructions say what the assistant is, what it should do, and what it must never do. Write them in plain language."
+            },
+            {
+              "id": "ed-6",
+              "text": "Parameters fine-tune how the model writes: the longest answer, the Temperature, and how many Past messages included the assistant sees with each question. Leave them empty to use the defaults."
+            },
+            {
+              "id": "ed-7",
+              "text": "Prompt Security limits how often one person can write, and how many chats someone who is not signed in can start. Set it for a public assistant; an empty field keeps the site's limit."
+            },
+            {
+              "id": "ed-8",
+              "text": "The Capabilities tab lets the assistant do more than answer: it can use tools, call other agents, and reach other systems. Only roles that are allowed to use a tool can use it."
+            },
+            {
+              "id": "ed-9",
+              "text": "The Data Processing and Metrics tab decides when an idle chat closes, which details to pick out of the conversation, and what to analyze after it ends. Click Save to keep your changes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Types, cloning and the list",
+      "subtitle": "Work with the profiles you have",
+      "clips": [
+        {
+          "id": "05-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Add a second profile from the picker. Background summarizer creates a Utility profile, which runs in the background, for example from a workflow, and has no chat page. Click Create profile to open it in the editor, where the Profile type reads Utility."
+            },
+            {
+              "id": "man-2",
+              "text": "Back in the list, each profile shows its type as a badge. Click Actions on a chat profile to work with it."
+            },
+            {
+              "id": "man-3",
+              "text": "New chat, View chat history and Delete chat history belong to chat profiles. Utility and agent profiles offer Invoke Profile instead."
+            },
+            {
+              "id": "man-4",
+              "text": "Clone starts a new profile from a copy. It opens unsaved, named Copy of the original, so you check the Title and the Technical name, and then click Save."
+            },
+            {
+              "id": "man-5",
+              "text": "Edit changes a profile, and Delete removes it after you confirm. To delete several profiles, tick them, and choose Delete above the list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Personas",
+      "subtitle": "A reusable character for your assistants",
+      "clips": [
+        {
+          "id": "06-personas",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "per-1",
+              "text": "A persona is a reusable character. Open Artificial Intelligence, Personas, and click Add Persona."
+            },
+            {
+              "id": "per-2",
+              "text": "Give the persona a Title, and a Technical name that profiles link to. The Description helps editors pick the right persona."
+            },
+            {
+              "id": "per-3",
+              "text": "Persona instructions describe who the assistant is and how it talks: its personality, tone and manners. Leave the task and the rules to the profile."
+            },
+            {
+              "id": "per-4",
+              "text": "Assistant name is the name the assistant uses for itself, and chat screens show it on the assistant's messages. Language, Voice and Avatar URL are optional. Click Save."
+            },
+            {
+              "id": "per-5",
+              "text": "To use the persona, open Profiles, and edit a profile. In the Instructions card, pick the persona in the AI persona field. Chat interactions and profile templates have the same field."
+            },
+            {
+              "id": "per-6",
+              "text": "A persona is linked, not copied. Edit it once, and every profile that uses it follows from the next message."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Profile templates",
+      "subtitle": "A starting point for every new profile",
+      "clips": [
+        {
+          "id": "07-templates",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tpl-1",
+              "text": "Templates save you from setting up the same thing twice. Open Artificial Intelligence, Templates, and click Add Template."
+            },
+            {
+              "id": "tpl-2",
+              "text": "Available Sources lists the kinds of template. Profile is a starting point for new profiles, and System Prompt is a reusable piece of instructions. Click Add on Profile."
+            },
+            {
+              "id": "tpl-3",
+              "text": "Every template has a Title, a Technical name and a Description. The Category groups templates in the picker, and Listable offers the template there. Untick Listable to hide a template without deleting it."
+            },
+            {
+              "id": "tpl-4",
+              "text": "Choose the Profile type. A profile template has the same cards and tabs as the profile editor, and whatever you fill in is copied onto every new profile."
+            },
+            {
+              "id": "tpl-5",
+              "text": "In the Instructions card, write the System instructions that all of your assistants of this kind should follow, such as answering only from approved documents. Then click Save."
+            },
+            {
+              "id": "tpl-6",
+              "text": "The template list has a Create profile button on every profile template. It opens the same setup step, even for a template that is not listable."
+            },
+            {
+              "id": "tpl-7",
+              "text": "In the New AI Profile picker, the template has its own card, under its category. A profile keeps no link to its template, so changing the template later never changes the profiles you already made."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Reusable prompt templates",
+      "subtitle": "Pieces of instructions to share",
+      "clips": [
+        {
+          "id": "08-prompts",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pr-1",
+              "text": "A system prompt template is a reusable piece of instructions. Click Add Template, and then Add on System Prompt."
+            },
+            {
+              "id": "pr-2",
+              "text": "Give it a Title. The Technical name follows it. Then write the System prompt, which is the text to reuse, such as a company tone, and click Save."
+            },
+            {
+              "id": "pr-3",
+              "text": "Now open Profiles, and edit a profile. In the Instructions card, Prompt templates adds reusable pieces on top of your own instructions. Click Add prompt template."
+            },
+            {
+              "id": "pr-4",
+              "text": "The list is grouped by category and has a search box. It holds your system prompt templates, and the ready-made ones that come with the site, such as Use Markdown Syntax. Pick Company tone."
+            },
+            {
+              "id": "pr-5",
+              "text": "The selected templates are added, in order, before the profile's own instructions. Remove takes one off again. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "What teams build with them",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A website assistant answers visitors' questions. Start from the Website assistant card, give it your brand's character with a persona, and visitors hear one consistent voice."
+            },
+            {
+              "id": "use-2",
+              "text": "A company standardizes its assistants. One profile template holds the approved model, the safety limits and the house rules, and each team starts from it and adds only its own knowledge."
+            },
+            {
+              "id": "use-3",
+              "text": "One persona serves many profiles. A support assistant and a sales assistant share the same friendly character, while their rules and knowledge differ."
+            },
+            {
+              "id": "use-4",
+              "text": "A Background summarizer is a utility profile that a workflow calls, and an agent is a specialist that other assistants call for help. Neither needs a chat page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A profile describes an assistant, a persona gives it a character, and templates save you from starting over. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
