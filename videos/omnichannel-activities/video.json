@@ -1,0 +1,94 @@
+{
+  "title": "Omnichannel Activities: Work, Complete and Log Calls and Texts | CrestApps for Orchard Core",
+  "description": "An activity is one piece of work for one contact: a call to make, a text to send, or an inbound call to log. See how an agent reads the activity list, completes an activity with a disposition that schedules the next step, creates an outbound activity, logs an inbound call, and edits or purges activities.\n\nIn this video:\n• Why activities\n• The activity list, its local times and filters\n• Completing an activity with a disposition and its workflow preview\n• Scheduling an outbound activity from a contact\n• Logging an inbound call\n• Editing and purging activities, and who dispositioned them\n• Reviewing AI conversations and handoffs",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "activities",
+    "dispositions",
+    "contact center",
+    "omnichannel activities",
+    "call center workflow",
+    "inbound calls",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why activities"
+    },
+    {
+      "time": "0:46",
+      "title": "Your activity list"
+    },
+    {
+      "time": "1:30",
+      "title": "Complete an activity"
+    },
+    {
+      "time": "2:18",
+      "title": "Schedule an outbound activity"
+    },
+    {
+      "time": "2:54",
+      "title": "Log an inbound call"
+    },
+    {
+      "time": "3:33",
+      "title": "Edit and purge"
+    },
+    {
+      "time": "4:04",
+      "title": "AI conversations and handoffs"
+    },
+    {
+      "time": "4:39",
+      "title": "What to use it for"
+    },
+    {
+      "time": "5:04",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/activities"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/activities.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "5:19"
+}

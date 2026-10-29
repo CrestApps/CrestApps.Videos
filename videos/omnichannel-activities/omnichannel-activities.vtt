@@ -1,0 +1,200 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:06.227
+This video shows how an agent works activities in the Omnichannel contact center:
+
+00:00:06.227 --> 00:00:12.235
+the activity list, completing an activity with a disposition, scheduling an outbound activity,
+
+00:00:12.235 --> 00:00:16.140
+logging an inbound call, and editing or purging activities.
+
+00:00:20.740 --> 00:00:24.558
+An activity is one piece of work for one contact:
+
+00:00:24.558 --> 00:00:29.000
+a call to make, a text to send, or an inbound call to log.
+
+00:00:29.750 --> 00:00:34.497
+Every activity belongs to a subject, and the subject's flow decides what happens
+
+00:00:34.497 --> 00:00:36.760
+when the agent picks a disposition.
+
+00:00:37.510 --> 00:00:40.470
+So the agent only records what happened.
+
+00:00:40.470 --> 00:00:45.810
+The system schedules the next try, creates the follow-up, or closes the work.
+
+00:00:49.982 --> 00:00:52.407
+Open Interaction Center, Activities.
+
+00:00:52.407 --> 00:00:57.259
+The list shows the manual activities assigned to you that are not started yet.
+
+00:00:57.259 --> 00:01:01.879
+Each row shows the subject, when it is scheduled, the contact, the number,
+
+00:01:01.879 --> 00:01:06.441
+the channel, and the contact's current local time, so you know whether it
+
+00:01:06.441 --> 00:01:08.116
+is a good time to call.
+
+00:01:08.116 --> 00:01:11.582
+The activity scheduled furthest ahead is listed first.
+
+00:01:12.034 --> 00:01:16.286
+Badges also show the campaign and who it is assigned to.
+
+00:01:16.286 --> 00:01:18.961
+Narrow the list with the filters:
+
+00:01:18.961 --> 00:01:23.487
+urgency, subject, channel, time zone, attempts and schedule.
+
+00:01:23.487 --> 00:01:29.454
+Here, filtering by the Test Drive Follow-up subject leaves only those activities.
+
+00:01:33.623 --> 00:01:35.803
+Click Complete on an activity.
+
+00:01:35.803 --> 00:01:40.646
+The page shows the contact, the subject's fields and the activity details.
+
+00:01:40.646 --> 00:01:45.186
+Call or text the contact, then fill in the subject's fields, here the
+
+00:01:45.186 --> 00:01:47.183
+vehicle the customer wants.
+
+00:01:47.635 --> 00:01:50.120
+Add notes and pick the disposition.
+
+00:01:50.120 --> 00:01:54.182
+Before you save, the page shows what the disposition will do.
+
+00:01:54.182 --> 00:01:58.608
+No Answer runs a Try Again action, so the next attempt is scheduled
+
+00:01:58.608 --> 00:02:01.276
+for tomorrow, and you can change when.
+
+00:02:01.276 --> 00:02:05.035
+Click Complete, and the subject flow runs straight away.
+
+00:02:05.485 --> 00:02:09.371
+Test Drive Booked creates a new activity for another subject.
+
+00:02:09.371 --> 00:02:14.068
+You can change its Schedule at time and add Preparation notes, which become
+
+00:02:14.068 --> 00:02:17.605
+the instructions of the follow-up for whoever works it.
+
+00:02:21.794 --> 00:02:28.704
+To create an activity yourself, open the contact, click List Activities, then Add Activity, Outbound.
+
+00:02:30.322 --> 00:02:34.945
+Pick the subject, choose when to call, who the activity is assigned to,
+
+00:02:34.945 --> 00:02:37.346
+the urgency, and any instructions.
+
+00:02:37.346 --> 00:02:42.510
+The subject's own fields are filled in later, by whoever completes the activity.
+
+00:02:42.510 --> 00:02:44.912
+Only outbound subjects are listed.
+
+00:02:45.362 --> 00:02:46.326
+Click Save.
+
+00:02:46.326 --> 00:02:51.142
+The activity appears under Scheduled Activities on the contact, and in the list
+
+00:02:51.142 --> 00:02:53.182
+of the user it is assigned to.
+
+00:02:57.366 --> 00:03:01.936
+When a customer calls you, search Contacts for the number with the phone
+
+00:03:01.936 --> 00:03:05.686
+term, open the contact, then choose Add Activity, Inbound.
+
+00:03:05.686 --> 00:03:09.846
+If the caller is not in the system yet, create the contact first.
+
+00:03:11.591 --> 00:03:15.767
+Fill in the subject's fields, add notes and pick the disposition.
+
+00:03:15.767 --> 00:03:21.001
+Only the dispositions that the inbound subject's flow has an action for are listed.
+
+00:03:21.872 --> 00:03:28.075
+The workflow results show what the disposition does, for example a follow-up call two days later.
+
+00:03:28.075 --> 00:03:32.412
+Click Log Activity, and the activity is saved as completed by you.
+
+00:03:36.625 --> 00:03:43.160
+A contact's activities page lists the scheduled activities, which can be completed, edited
+
+00:03:43.160 --> 00:03:45.882
+or purged, and the completed ones.
+
+00:03:45.882 --> 00:03:49.558
+A completed activity shows who dispositioned it:
+
+00:03:49.558 --> 00:03:52.485
+a person, the dialer, or an AI agent.
+
+00:03:52.936 --> 00:03:58.745
+Purge takes a scheduled activity out of the work for good, and it cannot be undone.
+
+00:03:58.745 --> 00:04:03.836
+The activity is kept with the status Purged, and who purged it and when.
+
+00:04:08.036 --> 00:04:14.511
+When an automated activity concludes, the completed activity says Dispositioned by the AI
+
+00:04:14.511 --> 00:04:19.896
+agent, with its profile, and Review AI conversation opens the transcript.
+
+00:04:20.646 --> 00:04:24.915
+When the AI hands a customer to a person, the activity carries the
+
+00:04:24.915 --> 00:04:29.836
+AI assistant's summary in a banner, so the agent starts with the whole story.
+
+00:04:30.586 --> 00:04:34.746
+If an activity is already finished when you save, you are sent back
+
+00:04:34.746 --> 00:04:38.336
+with a warning and the outcome already on record is kept.
+
+00:04:42.536 --> 00:04:47.576
+Work a call list in the best order, using each contact's local time.
+
+00:04:48.326 --> 00:04:53.176
+Record every call the same way, so the next step happens on its own.
+
+00:04:53.926 --> 00:04:58.586
+Log inbound calls, even from customers who are not in the system yet.
+
+00:04:59.336 --> 00:05:03.466
+Review what the AI did, and step in when it hands over.
+
+00:05:05.466 --> 00:05:10.035
+Work the list, record the outcome with a disposition, and let the subject
+
+00:05:10.035 --> 00:05:12.117
+flow schedule what comes next.
+
+00:05:12.117 --> 00:05:16.512
+The user manual and the technical guide are linked in the description.
+
+00:05:16.512 --> 00:05:18.016
+Thanks for watching.
+

@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.213 --> 00:00:09.748
+A contact's activities page lists the scheduled activities, which can be completed, edited
+
+00:00:09.748 --> 00:00:12.471
+or purged, and the completed ones.
+
+00:00:12.471 --> 00:00:16.146
+A completed activity shows who dispositioned it:
+
+00:00:16.146 --> 00:00:19.073
+a person, the dialer, or an AI agent.
+
+00:00:19.524 --> 00:00:25.333
+Purge takes a scheduled activity out of the work for good, and it cannot be undone.
+
+00:00:25.333 --> 00:00:30.424
+The activity is kept with the status Purged, and who purged it and when.
+
