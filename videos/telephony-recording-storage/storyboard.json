@@ -1,0 +1,133 @@
+{
+  "title": "Where Call Recordings Are Stored",
+  "output": "telephony-recording-storage",
+  "spoken": {
+    "Azure": "Azure"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Where Call Recordings Are Stored",
+      "subtitle": "Local and encrypted, or in Azure Blob Storage",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Every call recording and every voice media clip has to live somewhere. This short video shows where the platform keeps them, how they are protected, and how a company can move them to Azure Blob Storage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Where they live",
+      "subtitle": "Encrypted, in the site's own folder",
+      "clips": [
+        {
+          "id": "01-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "By default, call recordings, and the master copy of every voice media clip, are kept in a folder of the site, and every file is encrypted before it is written. The same store serves every phone provider."
+            },
+            {
+              "id": "where-2",
+              "text": "The phone provider records the call on its side. The platform downloads the finished recording into the store, so the recording stays with you if you change provider."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What you see",
+      "subtitle": "The call recordings page and the voice media library",
+      "clips": [
+        {
+          "id": "02-screens",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "scr-1",
+              "text": "Listen to recordings on Interaction Center, Call recordings, which you reach with the permission to listen to your own, or anyone's, recordings. Here there are no recordings, because no call can connect on this demo site."
+            },
+            {
+              "id": "scr-2",
+              "text": "Voice media clips keep their master copy in the same store. Open Interaction Center, Management, Voice Media: the badges show whether a clip has its master copy and whether the provider holds a copy."
+            }
+          ]
+        }
+      ],
+      "short": "screens"
+    },
+    {
+      "id": "03",
+      "title": "Azure Blob Storage",
+      "subtitle": "Move the encrypted files to Azure",
+      "clips": [
+        {
+          "id": "03-azure",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "az-1",
+              "text": "To keep them in Azure Blob Storage instead, turn on the feature Telephony, Azure Blob Storage, which you find under Tools, Features. It changes only where the files are stored."
+            },
+            {
+              "id": "az-2",
+              "text": "Your developer supplies the storage account in the site's configuration. Until that is done, the feature changes nothing, and the local store stays in use."
+            },
+            {
+              "id": "az-3",
+              "text": "Recordings are still encrypted with the site's own key before they leave the site, so Azure only holds scrambled files. Recording rules, pausing, deletion and the audit trail are the same as before."
+            }
+          ]
+        }
+      ],
+      "short": "azure"
+    },
+    {
+      "id": "04",
+      "title": "Good to know",
+      "subtitle": "Deleting, and sharing a store",
+      "clips": [
+        {
+          "id": "04-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "know-1",
+              "text": "Deleting a voice media clip deletes its master copy and every provider copy. If two environments share one store, deleting a clip in one removes the audio the other plays."
+            },
+            {
+              "id": "know-2",
+              "text": "Deleting a recording erases its file, and a recording under legal hold cannot be deleted. Only an administrator holds the permission to delete recordings by default."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "By default recordings stay encrypted on the site. Azure Blob Storage moves the same encrypted files, and nothing else changes. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

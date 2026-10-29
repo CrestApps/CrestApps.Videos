@@ -1,0 +1,132 @@
+1
+00:00:01,000 --> 00:00:05,324
+Every call recording and every voice media clip has to live somewhere.
+
+2
+00:00:05,324 --> 00:00:10,046
+This short video shows where the platform keeps them, how they are protected,
+
+3
+00:00:10,046 --> 00:00:13,460
+and how a company can move them to Azure Blob Storage.
+
+4
+00:00:18,060 --> 00:00:22,739
+By default, call recordings, and the master copy of every voice media clip,
+
+5
+00:00:22,739 --> 00:00:26,610
+are kept in a folder of the site, and every file is encrypted
+
+6
+00:00:26,610 --> 00:00:28,169
+before it is written.
+
+7
+00:00:28,169 --> 00:00:31,000
+The same store serves every phone provider.
+
+8
+00:00:31,750 --> 00:00:34,563
+The phone provider records the call on its side.
+
+9
+00:00:34,563 --> 00:00:39,251
+The platform downloads the finished recording into the store, so the recording stays
+
+10
+00:00:39,251 --> 00:00:41,230
+with you if you change provider.
+
+11
+00:00:45,418 --> 00:00:50,678
+Listen to recordings on Interaction Center, Call recordings, which you reach with the
+
+12
+00:00:50,678 --> 00:00:54,377
+permission to listen to your own, or anyone's, recordings.
+
+13
+00:00:54,377 --> 00:00:59,118
+Here there are no recordings, because no call can connect on this demo site.
+
+14
+00:00:59,574 --> 00:01:03,444
+Voice media clips keep their master copy in the same store.
+
+15
+00:01:03,444 --> 00:01:06,719
+Open Interaction Center, Management, Voice Media:
+
+16
+00:01:06,719 --> 00:01:11,006
+the badges show whether a clip has its master copy and whether the
+
+17
+00:01:11,006 --> 00:01:12,674
+provider holds a copy.
+
+18
+00:01:16,974 --> 00:01:21,453
+To keep them in Azure Blob Storage instead, turn on the feature Telephony,
+
+19
+00:01:21,453 --> 00:01:24,980
+Azure Blob Storage, which you find under Tools, Features.
+
+20
+00:01:24,980 --> 00:01:27,724
+It changes only where the files are stored.
+
+21
+00:01:28,176 --> 00:01:32,621
+Your developer supplies the storage account in the site's configuration.
+
+22
+00:01:32,621 --> 00:01:37,636
+Until that is done, the feature changes nothing, and the local store stays in use.
+
+23
+00:01:38,086 --> 00:01:43,209
+Recordings are still encrypted with the site's own key before they leave the
+
+24
+00:01:43,209 --> 00:01:46,208
+site, so Azure only holds scrambled files.
+
+25
+00:01:46,208 --> 00:01:51,456
+Recording rules, pausing, deletion and the audit trail are the same as before.
+
+26
+00:01:55,656 --> 00:02:00,896
+Deleting a voice media clip deletes its master copy and every provider copy.
+
+27
+00:02:00,896 --> 00:02:05,817
+If two environments share one store, deleting a clip in one removes the
+
+28
+00:02:05,817 --> 00:02:07,606
+audio the other plays.
+
+29
+00:02:08,356 --> 00:02:14,067
+Deleting a recording erases its file, and a recording under legal hold cannot be deleted.
+
+30
+00:02:14,067 --> 00:02:18,936
+Only an administrator holds the permission to delete recordings by default.
+
+31
+00:02:20,936 --> 00:02:24,192
+By default recordings stay encrypted on the site.
+
+32
+00:02:24,192 --> 00:02:29,047
+Azure Blob Storage moves the same encrypted files, and nothing else changes.
+
+33
+00:02:29,047 --> 00:02:30,586
+Thanks for watching.
+

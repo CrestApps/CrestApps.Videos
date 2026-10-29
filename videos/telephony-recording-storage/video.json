@@ -1,0 +1,76 @@
+{
+  "title": "Where Call Recordings Are Stored: Local Encryption and Azure Blob Storage | CrestApps for Orchard Core",
+  "description": "Every call recording and every voice media clip has to live somewhere. This short video shows where CrestApps for Orchard Core keeps them, how they are protected, and how a company can move them to Azure Blob Storage.\n\nIn this video:\n• Where recordings live, and how they are encrypted\n• The call recordings page and the voice media library\n• Moving the encrypted files to Azure Blob Storage\n• Good to know about deleting",
+  "hashtags": [
+    "OrchardCore",
+    "CallRecording",
+    "Azure",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "call recording",
+    "Azure Blob Storage",
+    "encryption",
+    "voice media",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Where they live"
+    },
+    {
+      "time": "0:42",
+      "title": "What you see"
+    },
+    {
+      "time": "1:13",
+      "title": "Azure Blob Storage"
+    },
+    {
+      "time": "1:52",
+      "title": "Good to know"
+    },
+    {
+      "time": "2:19",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/call-recordings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony/recording-azure-blob-storage"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telephony.Azure"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/call-recordings.md"
+  ],
+  "length": "2:32"
+}
