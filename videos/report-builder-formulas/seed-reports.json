@@ -1,0 +1,216 @@
+{
+ "steps": [
+  {
+   "name": "ReportDesigns",
+   "Reports": [
+    {
+     "itemId": "calls-with-formulas",
+     "displayText": "Calls with formulas",
+     "description": "One row for each call, with room for calculated fields.",
+     "group": "Contact Center",
+     "query": {
+      "dataSets": [
+       {
+        "alias": "I",
+        "source": "ContactCenter",
+        "dataSet": "Interactions",
+        "displayName": "Interactions"
+       },
+       {
+        "alias": "Q",
+        "source": "ContactCenter",
+        "dataSet": "Queues",
+        "displayName": "Queues"
+       },
+       {
+        "alias": "P",
+        "source": "ContactCenter",
+        "dataSet": "AgentProfiles",
+        "displayName": "Agent profiles"
+       }
+      ],
+      "joins": [
+       {
+        "alias": "Q",
+        "type": "Left",
+        "conditions": [
+         {
+          "leftField": "I.QueueId",
+          "rightField": "Q.ItemId"
+         }
+        ]
+       },
+       {
+        "alias": "P",
+        "type": "Left",
+        "conditions": [
+         {
+          "leftField": "I.AgentId",
+          "rightField": "P.ItemId"
+         }
+        ]
+       }
+      ],
+      "filters": [
+       {
+        "id": "created",
+        "field": "I.CreatedUtc",
+        "stage": "Rows",
+        "operator": "InLastDays",
+        "values": [
+         "30"
+        ],
+        "exposed": true,
+        "label": "Placed",
+        "control": "RelativeDate"
+       }
+      ],
+      "columns": [
+       {
+        "id": "when",
+        "field": "I.CreatedUtc",
+        "label": "Started"
+       },
+       {
+        "id": "agent",
+        "field": "P.UserName",
+        "label": "Agent"
+       },
+       {
+        "id": "queue",
+        "field": "Q.Name",
+        "label": "Queue"
+       },
+       {
+        "id": "dir",
+        "field": "I.Direction",
+        "label": "Direction"
+       },
+       {
+        "id": "wait",
+        "field": "I.WaitSeconds",
+        "label": "Wait (s)",
+        "format": "N0"
+       },
+       {
+        "id": "talk",
+        "field": "I.TalkSeconds",
+        "label": "Talk (s)",
+        "format": "N0"
+       }
+      ],
+      "sorts": [
+       {
+        "columnId": "when",
+        "descending": true
+       }
+      ]
+     },
+     "visuals": [
+      {
+       "id": "t",
+       "type": "Table",
+       "title": "Calls",
+       "width": 12
+      }
+     ],
+     "allowExport": true,
+     "refreshIntervalMinutes": 0
+    },
+    {
+     "itemId": "queues-with-formulas",
+     "displayText": "Queues with formulas",
+     "description": "Calls for each queue, with room for a rate worked out once per queue.",
+     "group": "Contact Center",
+     "query": {
+      "dataSets": [
+       {
+        "alias": "I",
+        "source": "ContactCenter",
+        "dataSet": "Interactions",
+        "displayName": "Interactions"
+       },
+       {
+        "alias": "Q",
+        "source": "ContactCenter",
+        "dataSet": "Queues",
+        "displayName": "Queues"
+       },
+       {
+        "alias": "P",
+        "source": "ContactCenter",
+        "dataSet": "AgentProfiles",
+        "displayName": "Agent profiles"
+       }
+      ],
+      "joins": [
+       {
+        "alias": "Q",
+        "type": "Left",
+        "conditions": [
+         {
+          "leftField": "I.QueueId",
+          "rightField": "Q.ItemId"
+         }
+        ]
+       },
+       {
+        "alias": "P",
+        "type": "Left",
+        "conditions": [
+         {
+          "leftField": "I.AgentId",
+          "rightField": "P.ItemId"
+         }
+        ]
+       }
+      ],
+      "filters": [
+       {
+        "id": "created",
+        "field": "I.CreatedUtc",
+        "stage": "Rows",
+        "operator": "InLastDays",
+        "values": [
+         "30"
+        ],
+        "exposed": true,
+        "label": "Placed",
+        "control": "RelativeDate"
+       }
+      ],
+      "columns": [
+       {
+        "id": "queue",
+        "field": "Q.Name",
+        "label": "Queue"
+       },
+       {
+        "id": "n",
+        "field": "$count",
+        "label": "Calls"
+       }
+      ],
+      "sorts": [
+       {
+        "columnId": "n",
+        "descending": true
+       }
+      ]
+     },
+     "visuals": [
+      {
+       "id": "t",
+       "type": "Table",
+       "title": "Queues",
+       "width": 12,
+       "showTotals": true
+      }
+     ],
+     "allowExport": true,
+     "refreshIntervalMinutes": 0
+    }
+   ]
+  }
+ ]
+}

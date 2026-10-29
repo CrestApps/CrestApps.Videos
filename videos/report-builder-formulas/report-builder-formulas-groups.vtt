@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:07.649
+A formula that uses an aggregate function, such as SUM or COUNT, is
+
+00:00:07.649 --> 00:00:09.902
+worked out once for each group.
+
+00:00:09.902 --> 00:00:12.703
+This report counts calls for each queue.
+
+00:00:13.933 --> 00:00:17.827
+The answer rate adds one for each call that has an answer time,
+
+00:00:17.827 --> 00:00:20.141
+and divides by the number of calls.
+
+00:00:20.141 --> 00:00:24.769
+Inside such a formula, every field must be inside an aggregate function, and
+
+00:00:24.769 --> 00:00:26.913
+Check tells you when one is not.
+
+00:00:27.367 --> 00:00:31.662
+Apply it, drag it onto Columns, and give it the format P zero,
+
+00:00:31.662 --> 00:00:33.809
+so it shows as a percentage.
+
+00:00:33.809 --> 00:00:35.957
+Each queue now has its rate.
+
