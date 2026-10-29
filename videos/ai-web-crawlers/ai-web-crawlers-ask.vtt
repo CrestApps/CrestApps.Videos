@@ -1,0 +1,14 @@
+WEBVTT
+
+00:00:03.195 --> 00:00:06.023
+Now ask a question that the website answers:
+
+00:00:06.023 --> 00:00:08.455
+how long does standard shipping take?
+
+00:00:08.924 --> 00:00:12.214
+The assistant answers from the page that the crawler read.
+
+00:00:12.684 --> 00:00:16.884
+Under the answer, the numbered source shows the page, and links to it.
+

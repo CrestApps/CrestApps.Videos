@@ -1,0 +1,287 @@
+{
+  "title": "AI Web Crawlers",
+  "output": "ai-web-crawlers",
+  "spoken": {
+    "Elasticsearch": "Elastic search",
+    "URL": "U.R.L."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Web Crawlers",
+      "subtitle": "Answers from a public website, with a link back to the page",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A public website, such as a help center, is knowledge that an assistant can read. This video shows how a web crawler reads a site page by page, keeps the knowledge current on a schedule, and lets the assistant answer with a link back to the page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why web crawlers",
+      "subtitle": "Knowledge that follows the website",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Much of what customers ask is already answered on your website: shipping times, warranty terms, account help."
+            },
+            {
+              "id": "why-2",
+              "text": "Copying those pages into the assistant by hand takes time, and the copies go stale as soon as the website changes."
+            },
+            {
+              "id": "why-3",
+              "text": "A web crawler reads the website page by page on a schedule, and turns each page into passages that the assistant can search."
+            },
+            {
+              "id": "why-4",
+              "text": "Only new, changed and removed pages are processed, and the sources under an answer link back to the original page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "An index, a data source, a crawler",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A knowledge base index stores the passages, so the assistant can search them by meaning."
+            },
+            {
+              "id": "how-2",
+              "text": "A Web data source is the target: the knowledge that the assistant answers from."
+            },
+            {
+              "id": "how-3",
+              "text": "A web crawler is the reader. The Sitemap strategy finds the pages of a site through its sitemap."
+            },
+            {
+              "id": "how-4",
+              "text": "Then you choose the data source on a profile, and the assistant answers from the pages, with links."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create the knowledge base index",
+      "subtitle": "Where the passages are stored",
+      "clips": [
+        {
+          "id": "03-index",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "idx-1",
+              "text": "Open Search, Indexes, click Add index, and click Add on AI Knowledge Base Index for Elasticsearch."
+            },
+            {
+              "id": "idx-2",
+              "text": "Enter an Index Name and a Name, pick the Embedding deployment, and click Save. Data sources, file sources and web crawlers store their passages in an index like this one."
+            }
+          ]
+        }
+      ],
+      "short": "index"
+    },
+    {
+      "id": "04",
+      "title": "Create a Web data source",
+      "subtitle": "The target of the crawler",
+      "clips": [
+        {
+          "id": "04-datasource",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ds-1",
+              "text": "Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Web. It is the target for web crawlers."
+            },
+            {
+              "id": "ds-2",
+              "text": "Enter a Name, and choose the Destination index, the knowledge base index that stores the passages. It cannot be changed after you save."
+            },
+            {
+              "id": "ds-3",
+              "text": "Click Save. The data source is listed, and waits for a crawler to fill it."
+            }
+          ]
+        }
+      ],
+      "short": "datasource"
+    },
+    {
+      "id": "05",
+      "title": "Add a web crawler",
+      "subtitle": "The website to read",
+      "clips": [
+        {
+          "id": "05-crawler",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "crl-1",
+              "text": "Open Artificial Intelligence, Web Crawlers, and click Add Web Crawler. In Available Crawl Strategies, click Add on Sitemap."
+            },
+            {
+              "id": "crl-2",
+              "text": "Enter a Name, and choose the Target Web data source, the one you just made. Several crawlers can feed the same data source."
+            },
+            {
+              "id": "crl-3",
+              "text": "Base URL is the website to read. The crawler finds its sitemap by itself. Sitemap URL is optional, for a sitemap that lives somewhere else."
+            },
+            {
+              "id": "crl-4",
+              "text": "Max pages is the most pages read in one run. Max concurrent requests is how many pages are read at once, so keep it low to be polite to the website. Request timeout is how long to wait for one page."
+            },
+            {
+              "id": "crl-5",
+              "text": "Include URL patterns and Exclude URL patterns choose which pages to read, one pattern per line, and Exclude wins. User-Agent is how the crawler introduces itself to the website."
+            },
+            {
+              "id": "crl-6",
+              "text": "Keep Enabled ticked, so that the crawler runs on its schedule. Re-index interval is how often the site is read again, in minutes. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "crawler"
+    },
+    {
+      "id": "06",
+      "title": "Read the website now",
+      "subtitle": "Synchronize now",
+      "clips": [
+        {
+          "id": "06-sync",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "syn-1",
+              "text": "To read the website right away, open the Actions menu of the crawler and click Synchronize now."
+            },
+            {
+              "id": "syn-2",
+              "text": "The crawler runs in the background: it reads the sitemap, and then every page. Only new, changed and removed pages are processed, so the next run is quick. When it is done, the pages are knowledge that an assistant can use."
+            }
+          ]
+        }
+      ],
+      "short": "sync"
+    },
+    {
+      "id": "07",
+      "title": "Give the assistant the data source",
+      "subtitle": "Choose it on a profile",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Open the profile, open the Knowledge tab, and choose the data source."
+            },
+            {
+              "id": "use-2",
+              "text": "Restrict answers to retrieved data only keeps the assistant to your website. When nothing matches, it says so. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "use"
+    },
+    {
+      "id": "08",
+      "title": "Ask a question",
+      "subtitle": "An answer with a link to the page",
+      "clips": [
+        {
+          "id": "08-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "Now ask a question that the website answers: how long does standard shipping take?"
+            },
+            {
+              "id": "ask-2",
+              "text": "The assistant answers from the page that the crawler read."
+            },
+            {
+              "id": "ask-3",
+              "text": "Under the answer, the numbered source shows the page, and links to it."
+            }
+          ]
+        }
+      ],
+      "short": "ask"
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "What teams crawl",
+      "clips": [
+        {
+          "id": "09-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "A help center: customers get answers from the articles you already publish."
+            },
+            {
+              "id": "case-2",
+              "text": "Product pages: the assistant knows what each product does, and links to it."
+            },
+            {
+              "id": "case-3",
+              "text": "Public documentation: developers ask a question and land on the right page."
+            },
+            {
+              "id": "case-4",
+              "text": "Keep it polite: read only websites you may read, and keep the number of concurrent requests low."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the index and a Web data source, point a web crawler at a website, and the assistant's knowledge follows the pages, with links back. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

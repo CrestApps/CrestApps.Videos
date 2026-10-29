@@ -1,0 +1,24 @@
+1
+00:00:03,219 --> 00:00:09,182
+Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Web.
+
+2
+00:00:09,182 --> 00:00:11,719
+It is the target for web crawlers.
+
+3
+00:00:12,176 --> 00:00:18,829
+Enter a Name, and choose the Destination index, the knowledge base index that stores the passages.
+
+4
+00:00:18,829 --> 00:00:21,516
+It cannot be changed after you save.
+
+5
+00:00:21,970 --> 00:00:23,026
+Click Save.
+
+6
+00:00:23,026 --> 00:00:27,250
+The data source is listed, and waits for a crawler to fill it.
+

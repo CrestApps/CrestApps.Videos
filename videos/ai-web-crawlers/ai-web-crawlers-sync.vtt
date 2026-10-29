@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.208 --> 00:00:07.578
+To read the website right away, open the Actions menu of the crawler
+
+00:00:07.578 --> 00:00:09.468
+and click Synchronize now.
+
+00:00:14.214 --> 00:00:16.674
+The crawler runs in the background:
+
+00:00:16.674 --> 00:00:19.554
+it reads the sitemap, and then every page.
+
+00:00:19.554 --> 00:00:24.474
+Only new, changed and removed pages are processed, so the next run is quick.
+
+00:00:24.474 --> 00:00:28.854
+When it is done, the pages are knowledge that an assistant can use.
+

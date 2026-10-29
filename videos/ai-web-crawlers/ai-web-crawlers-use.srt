@@ -1,0 +1,16 @@
+1
+00:00:03,201 --> 00:00:08,071
+Open the profile, open the Knowledge tab, and choose the data source.
+
+2
+00:00:08,543 --> 00:00:13,594
+Restrict answers to retrieved data only keeps the assistant to your website.
+
+3
+00:00:13,594 --> 00:00:15,996
+When nothing matches, it says so.
+
+4
+00:00:15,996 --> 00:00:17,043
+Click Save.
+

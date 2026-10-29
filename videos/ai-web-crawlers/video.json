@@ -1,0 +1,99 @@
+{
+  "title": "AI Web Crawlers: Answers From Your Website, With Links | CrestApps for Orchard Core",
+  "description": "Much of what customers ask is already answered on your website. A CrestApps AI web crawler reads a website page by page on a schedule, through its sitemap, and keeps an assistant's knowledge current, so answers come with a link back to the page.\n\nIn this video:\n• Why copying pages by hand goes stale, and how a crawler follows the website\n• How the knowledge base index, the Web data source and the web crawler fit together\n• Creating the index and a Web data source\n• Adding a Sitemap web crawler: Base URL, limits, URL patterns and the schedule\n• Reading the website now\n• Giving an assistant the data source, and an answer that links to its page\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI web crawler",
+    "AI knowledge base",
+    "RAG",
+    "sitemap",
+    "AI assistant",
+    "AI chatbot",
+    "Elasticsearch",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why web crawlers"
+    },
+    {
+      "time": "0:55",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:24",
+      "title": "Create the knowledge base index"
+    },
+    {
+      "time": "1:48",
+      "title": "Create a Web data source"
+    },
+    {
+      "time": "2:17",
+      "title": "Add a web crawler"
+    },
+    {
+      "time": "3:28",
+      "title": "Read the website now"
+    },
+    {
+      "time": "3:58",
+      "title": "Give the assistant the data source"
+    },
+    {
+      "time": "4:16",
+      "title": "Ask a question"
+    },
+    {
+      "time": "4:34",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:02",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/data-sources/web-crawlers"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.WebCrawlers"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/ai/data-sources/web-crawlers.md"
+  ],
+  "length": "5:15"
+}
