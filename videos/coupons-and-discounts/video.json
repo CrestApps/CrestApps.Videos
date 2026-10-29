@@ -1,0 +1,96 @@
+{
+  "title": "Coupons and Discounts: Codes, Automatic Offers and Buy X Get Y | CrestApps for Orchard Core",
+  "description": "A discount can win a first order or clear a shelf, if it stops when you want it to. CrestApps coupons give you codes buyers type, automatic discounts that apply by themselves, and buy X get Y offers, each with dates, usage limits, minimums and combining rules, plus discount links and unique single-use codes.\n\nIn this video:\n• Why coupons, and how codes, automatic discounts and limits fit together\n• Creating a code: percentage, usage limit, uses per customer and an end date\n• Fixed amounts, minimums and what a coupon combines with\n• Automatic discounts and buy X get Y\n• Discount links and generating unique codes as a CSV\n• What the buyer sees at checkout, including codes that cannot be combined\n• Finding coupons and following their recent uses",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "coupons",
+    "discount codes",
+    "promotions",
+    "buy x get y",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why coupons"
+    },
+    {
+      "time": "0:56",
+      "title": "How coupons work"
+    },
+    {
+      "time": "1:39",
+      "title": "Create a code"
+    },
+    {
+      "time": "2:31",
+      "title": "Fixed amounts and rules"
+    },
+    {
+      "time": "3:23",
+      "title": "Automatic discounts and buy X get Y"
+    },
+    {
+      "time": "4:00",
+      "title": "Share links and unique codes"
+    },
+    {
+      "time": "4:41",
+      "title": "At checkout"
+    },
+    {
+      "time": "5:14",
+      "title": "Find and follow your coupons"
+    },
+    {
+      "time": "5:55",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:27",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Coupons (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/coupons"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/checkout"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Checkout"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/coupons.md"
+  ],
+  "length": "6:37"
+}
