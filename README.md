@@ -24,7 +24,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI File Sources: Keep Knowledge in Step With a Folder](videos/ai-file-sources) | 6:08 | [https://youtu.be/TKctcLGwHJU](https://youtu.be/TKctcLGwHJU) | CrestApps/CrestApps.OrchardCore |
 | [AI Knowledge: Answers From Your Own Documents](videos/ai-knowledge) | 6:52 | [https://youtu.be/geI91kCg9xY](https://youtu.be/geI91kCg9xY) | CrestApps/CrestApps.OrchardCore |
 | [Build an AI Knowledge Assistant That Answers From Your Own Content](videos/ai-knowledge-assistant) | 3:16 | [https://youtu.be/libAAfX0WCA](https://youtu.be/libAAfX0WCA) | CrestApps/CrestApps.OrchardCore |
-| [Model Context Protocol (MCP): Connect Tools to Your AI Assistants](videos/ai-mcp) | 7:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Model Context Protocol (MCP): Connect Tools to Your AI Assistants](videos/ai-mcp) | 7:08 | [https://youtu.be/WHZYbtZB2io](https://youtu.be/WHZYbtZB2io) | CrestApps/CrestApps.OrchardCore |
 | [MCP Resources: Share Files and Data with AI Apps](videos/ai-mcp-resources) | 4:32 | [https://youtu.be/HVynNqdNys8](https://youtu.be/HVynNqdNys8) | CrestApps/CrestApps.OrchardCore |
 | [AI Memory: Assistants That Remember Each User](videos/ai-memory) | 5:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Orchestrators: Default, GitHub Copilot and Claude](videos/ai-orchestrators) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
