@@ -1,0 +1,243 @@
+{
+  "title": "AI Voice Agent for Inbound Calls",
+  "output": "contact-center-ai-voice-agent-inbound",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "AI": "A.I.",
+    "STT": "S.T.T.",
+    "TTS": "T.T.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "A.I. Voice Agent for Inbound Calls",
+      "subtitle": "Let an A.I. agent answer the phone",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An A.I. voice agent can answer the calls to one of your numbers, find out why people are calling, and hand them to a person when needed. This video shows how to route a number to it, what happens when you are open and closed, the subject that gives it outcomes, and where you review the call. Calls never connect on this demo site, so the live parts use slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What it does",
+      "subtitle": "Instead of a menu and a queue",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A call to a number reaches an inbound entry point. An entry point can send it to a queue, to a specific agent, or to an A.I. voice agent. With the A.I. voice agent, the caller skips the welcome message, the menu and the queue, and talks to the agent at once."
+            },
+            {
+              "id": "why-2",
+              "text": "This works with Telnyx only. If the call arrives on the Asterisk provider, it cannot be answered by the agent, and the call is rejected."
+            },
+            {
+              "id": "why-3",
+              "text": "The agent is an A.I. profile that you write: what to ask, what it may answer, and when to transfer. The call becomes an automated activity, so you can review it afterwards like any other."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The entry point",
+      "subtitle": "Route to the A.I. voice agent",
+      "clips": [
+        {
+          "id": "02-entry",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ent-1",
+              "text": "Open Inbound entry points, and click Add. Choose Voice calls. Name the entry point, and pick the number it answers under Numbers. The numbers come from Omnichannel Addresses that are used for voice calls."
+            },
+            {
+              "id": "ent-2",
+              "text": "On Routing, Route to has three choices: Queue, Specific agent, and A.I. voice agent. The last one appears when the Telnyx AI Voice Agent feature is on. Choose it, and the A.I. agent picker appears."
+            },
+            {
+              "id": "ent-3",
+              "text": "The picker lists your chat profiles. Saving without one is refused, with a message that asks you to select the A.I. agent that answers this entry point's calls. Pick the profile, and save."
+            }
+          ]
+        }
+      ],
+      "short": "entry"
+    },
+    {
+      "id": "03",
+      "title": "Open and closed hours",
+      "subtitle": "When nobody should answer",
+      "clips": [
+        {
+          "id": "03-hours",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "hrs-1",
+              "text": "On Hours, the Business hours calendar decides when the entry point is open. While it is open, the A.I. agent answers every call."
+            },
+            {
+              "id": "hrs-2",
+              "text": "Closed action decides what happens outside the hours: Hold in queue, Voicemail, Overflow or Reject. An A.I. entry point has no queue, so Hold in queue and Overflow act as Voicemail. Reject stays reject."
+            },
+            {
+              "id": "hrs-3",
+              "text": "On Voicemail, an A.I. entry point should deliver to An agent's inbox, and you pick the Voicemail inbox. The queue's shared voicemail box needs a queue, which an A.I. entry point does not have."
+            }
+          ]
+        }
+      ],
+      "short": "hours"
+    },
+    {
+      "id": "04",
+      "title": "The subject",
+      "subtitle": "Outcomes and handoff",
+      "clips": [
+        {
+          "id": "04-subject",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "subj-1",
+              "text": "The call needs an inbound subject to get outcomes. Open an inbound subject's settings. Direction is Inbound, Interaction type is Automated, Channel is Phone, and Address is the number. A call is matched to its subject by that address."
+            },
+            {
+              "id": "subj-2",
+              "text": "The A.I. configuration card holds the A.I. profile, the Subject goal, and the speech settings. The profile list shows only profiles with Start the conversation automatically turned on. The goal tells the agent when to disposition the call and end it."
+            },
+            {
+              "id": "subj-3",
+              "text": "Live agent handoff lets the agent transfer to a person, into the Handoff queue you choose, for the reasons you tick. Without a subject, the call has no dispositions and no handoff."
+            }
+          ]
+        }
+      ],
+      "short": "subject"
+    },
+    {
+      "id": "05",
+      "title": "Two kinds of conversation",
+      "subtitle": "Voice Media",
+      "clips": [
+        {
+          "id": "05-voice",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "voice-1",
+              "text": "A call can be turn-based, or a live audio conversation. Turn-based, each turn is spoken and transcribed through Telnyx. A live conversation needs the Contact Center Voice Media feature, and a realtime deployment, so the model speaks and listens continuously."
+            },
+            {
+              "id": "voice-2",
+              "text": "Do not mix up two things with the same name. Contact Center Voice Media is the feature for two-way audio. Voice Media, under Interaction Center, Management, is the library of hold music and prompts. It is part of the Contact Center itself."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "During the call",
+      "subtitle": "What callers experience",
+      "clips": [
+        {
+          "id": "06-during",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dur-1",
+              "text": "If recording is announced to inbound callers, the notice is spoken first. Then the agent greets. Turn-based, it speaks the profile's opening message. In a live conversation, the model words its own greeting from the profile's instructions."
+            },
+            {
+              "id": "dur-2",
+              "text": "A caller who says nothing is never mistaken for a voicemail. The agent asks if they are there, and ends the call politely if they stay quiet."
+            },
+            {
+              "id": "dur-3",
+              "text": "When a reason you ticked applies, the call goes to the handoff queue. The agent who answers sees a summary written by the A.I., labeled A.I. assistant's summary, so the caller does not repeat everything."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "After the call",
+      "subtitle": "The transcript",
+      "clips": [
+        {
+          "id": "07-review",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rev-1",
+              "text": "An A.I. call is logged as an activity of the subject, with the disposition the agent chose and a summary in the notes. Dispositioned by shows the A.I. voice agent and its profile. The call here is made up."
+            },
+            {
+              "id": "rev-2",
+              "text": "Review A.I. conversation opens the transcript, read only. The Call recordings page also lists an A.I. recording with its transcript, when call recording is on."
+            }
+          ]
+        }
+      ],
+      "short": "review"
+    },
+    {
+      "id": "08",
+      "title": "Where it fits",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A front desk that never misses a call: the agent answers, takes a message or answers simple questions, and transfers to your team when someone is available."
+            },
+            {
+              "id": "use-2",
+              "text": "A line for busy seasons: point the number you promote at the A.I. voice agent, so the wait does not depend on how many agents are signed in."
+            },
+            {
+              "id": "use-3",
+              "text": "After-hours triage: collect the reason for the call, and book a follow-up for the morning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Route a number to an A.I. voice agent, give it a subject for outcomes and handoff, and review each call afterwards. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
