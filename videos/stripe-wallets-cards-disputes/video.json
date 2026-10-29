@@ -1,0 +1,89 @@
+{
+  "title": "Stripe: Cards, Apple Pay, Google Pay, Saved Cards and Disputes | CrestApps for Orchard Core",
+  "description": "Stripe takes card payments, adds Apple Pay and Google Pay, remembers cards for signed in buyers, and tells your store about disputes. This video shows how to enter your test keys, what Connect and Disconnect do, what buyers see at checkout and under My account, and how Disputed and Risky payments appear. The demo never contacts Stripe.\n\nIn this video:\n• Why Stripe, and how keys, Connect and the webhook fit together\n• Entering your test keys and the Connect button\n• What Connect does: the webhook, wallets and Disconnect\n• Apple Pay, Google Pay and saved cards\n• Disputes and risky payments",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "Stripe",
+    "Apple Pay",
+    "Google Pay",
+    "payments",
+    "disputes",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why Stripe"
+    },
+    {
+      "time": "0:56",
+      "title": "How it fits together"
+    },
+    {
+      "time": "1:29",
+      "title": "Enter your keys"
+    },
+    {
+      "time": "2:07",
+      "title": "What Connect does"
+    },
+    {
+      "time": "2:54",
+      "title": "Wallets and saved cards"
+    },
+    {
+      "time": "3:31",
+      "title": "Disputes and risk"
+    },
+    {
+      "time": "4:03",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:28",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Payment providers (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/payment-providers"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/payments"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Payments.Stripe"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/payment-providers.md"
+  ],
+  "length": "4:37"
+}
