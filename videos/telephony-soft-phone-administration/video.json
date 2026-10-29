@@ -1,0 +1,80 @@
+{
+  "title": "Soft Phone Administration: Provider, Diagnostics and Click to Dial | CrestApps for Orchard Core",
+  "description": "The soft phone is the browser phone your agents use. This video shows the administrator's side in CrestApps for Orchard Core: the Soft Phone tab of the telephony settings, where the phone appears, the diagnostics tab, and the dial button next to phone numbers.\n\nIn this video:\n• Why administer the soft phone\n• The Soft Phone tab\n• The phone on the page and its tabs\n• Click to dial from phone fields\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "SoftPhone",
+    "Telephony",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "soft phone",
+    "telephony",
+    "click to dial",
+    "diagnostics",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why administer it"
+    },
+    {
+      "time": "0:38",
+      "title": "The Soft Phone tab"
+    },
+    {
+      "time": "1:42",
+      "title": "The phone on the page"
+    },
+    {
+      "time": "2:22",
+      "title": "Click to dial"
+    },
+    {
+      "time": "2:47",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:13",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/soft-phone"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony/index"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telephony.SoftPhone"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/soft-phone.md"
+  ],
+  "length": "3:23"
+}

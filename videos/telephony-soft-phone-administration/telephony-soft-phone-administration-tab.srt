@@ -1,0 +1,56 @@
+1
+00:00:03,171 --> 00:00:07,694
+Open Settings, Communication, Telephony, and choose the Soft Phone tab.
+
+2
+00:00:07,694 --> 00:00:11,982
+Default telephony provider is the provider every call goes through.
+
+3
+00:00:11,982 --> 00:00:16,682
+Allowed short codes lists the short numbers agents may dial, one per line,
+
+4
+00:00:16,682 --> 00:00:18,973
+such as a carrier service number.
+
+5
+00:00:18,973 --> 00:00:24,671
+Short numbers are refused unless they are listed, and emergency numbers can never be added.
+
+6
+00:00:25,174 --> 00:00:29,209
+Enable the soft phone turns the phone on for authorized users.
+
+7
+00:00:29,209 --> 00:00:34,549
+Show the soft phone on the admin dashboard puts the phone button on the admin pages.
+
+8
+00:00:34,549 --> 00:00:39,474
+To show it on the front end, add the Soft Phone widget under Design, Widgets.
+
+9
+00:00:40,049 --> 00:00:44,569
+Enable the diagnostics tab adds a Diagnostics tab to the phone.
+
+10
+00:00:44,569 --> 00:00:49,219
+Recent calls to display sets how many calls the Recent tab lists.
+
+11
+00:00:49,733 --> 00:00:54,264
+Default country is the country the phone's number box starts on, and it
+
+12
+00:00:54,264 --> 00:00:56,971
+turns a national number into a full one.
+
+13
+00:00:56,971 --> 00:00:59,913
+Accent color changes the color of the phone.
+
+14
+00:00:59,913 --> 00:01:02,913
+Save, and the phone follows the new settings.
+
