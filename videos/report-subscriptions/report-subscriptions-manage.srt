@@ -1,0 +1,20 @@
+1
+00:00:03,293 --> 00:00:06,706
+Untick On, and click Save, to pause a subscription.
+
+2
+00:00:06,706 --> 00:00:10,238
+Back in the list it keeps an Off badge, and it is not
+
+3
+00:00:10,238 --> 00:00:12,513
+sent until you turn it on again.
+
+4
+00:00:16,126 --> 00:00:18,882
+Search finds a subscription by its name.
+
+5
+00:00:18,882 --> 00:00:23,976
+Edit changes any setting, and Delete removes a subscription you no longer need.
+

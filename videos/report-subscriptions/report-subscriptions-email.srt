@@ -1,0 +1,32 @@
+1
+00:00:03,249 --> 00:00:07,426
+A subscription can only be sent through an email provider.
+
+2
+00:00:07,426 --> 00:00:12,779
+Under Settings, Email, this site says that no email provider is enabled yet.
+
+3
+00:00:13,232 --> 00:00:16,591
+Back on the Features page, enable a provider.
+
+4
+00:00:16,591 --> 00:00:21,202
+Here it is the SMTP provider, which sends through a mail server.
+
+5
+00:00:38,289 --> 00:00:42,520
+The SMTP tab asks for the sender address, the host name and the
+
+6
+00:00:42,520 --> 00:00:46,137
+port, and for credentials when the server needs them.
+
+7
+00:00:46,137 --> 00:00:50,184
+This site has no mail server, so these values point nowhere.
+
+8
+00:00:50,184 --> 00:00:52,759
+On your site, enter your own server.
+
