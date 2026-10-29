@@ -1,0 +1,308 @@
+1
+00:00:01,000 --> 00:00:03,976
+The customers who come back are worth rewarding.
+
+2
+00:00:03,976 --> 00:00:07,614
+This video shows store credit, loyalty points and referrals:
+
+3
+00:00:07,614 --> 00:00:11,582
+how to give them, how buyers spend them at checkout, and what they
+
+4
+00:00:11,582 --> 00:00:13,070
+see in their account.
+
+5
+00:00:17,670 --> 00:00:20,778
+Winning a customer costs far more than keeping one.
+
+6
+00:00:20,778 --> 00:00:23,450
+The ones who come back are worth rewarding.
+
+7
+00:00:24,200 --> 00:00:25,754
+Three features do it.
+
+8
+00:00:25,754 --> 00:00:30,360
+Store credit is money you owe a customer, such as a refund kept as credit.
+
+9
+00:00:30,360 --> 00:00:33,181
+Loyalty points are earned on what they buy.
+
+10
+00:00:33,181 --> 00:00:36,060
+Referrals reward them for bringing a friend.
+
+11
+00:00:36,810 --> 00:00:41,970
+Each one pays toward later orders at checkout, after tax, like a gift card.
+
+12
+00:00:42,720 --> 00:00:48,620
+They belong to a customer's account, so only signed in buyers earn and spend them.
+
+13
+00:00:52,820 --> 00:00:56,875
+You give or take credit and points on the customer's page, with a
+
+14
+00:00:56,875 --> 00:00:58,360
+reason that is kept.
+
+15
+00:00:59,110 --> 00:01:03,242
+At checkout, a signed in buyer sees a box for each, and puts
+
+16
+00:01:03,242 --> 00:01:04,870
+it toward the order.
+
+17
+00:01:05,620 --> 00:01:11,450
+Under My account, buyers see their credit, their rewards and their referral link.
+
+18
+00:01:12,200 --> 00:01:16,330
+Settings, Commerce, Rewards and Referrals set the rules.
+
+19
+00:01:20,620 --> 00:01:24,573
+Open Commerce, Customers, and open a customer with an account.
+
+20
+00:01:24,573 --> 00:01:29,690
+Guests cannot be given credit, because credit is spent when the customer signs in.
+
+21
+00:01:30,453 --> 00:01:35,493
+Under Store credit, enter an Amount, check the Currency, which starts with your
+
+22
+00:01:35,493 --> 00:01:39,406
+checkout currency, and give a Reason, such as Late delivery.
+
+23
+00:01:39,406 --> 00:01:40,533
+Click Change.
+
+24
+00:01:45,125 --> 00:01:49,652
+A positive amount gives credit, and a negative one takes it away.
+
+25
+00:01:49,652 --> 00:01:55,198
+Every change is kept below, with when, what, the change and the balance after it.
+
+26
+00:01:55,198 --> 00:01:59,405
+Credit is kept for each currency, and never goes below zero.
+
+27
+00:02:03,671 --> 00:02:07,780
+When you refund an order whose buyer has an account, the Refund form
+
+28
+00:02:07,780 --> 00:02:10,891
+on the order has a box to give it as store credit.
+
+29
+00:02:11,402 --> 00:02:15,408
+Tick it, and the refund is added to the buyer's credit instead of
+
+30
+00:02:15,408 --> 00:02:17,158
+going back to their card.
+
+31
+00:02:17,158 --> 00:02:21,108
+The order counts it as refunded, and its notes say how much went
+
+32
+00:02:21,108 --> 00:02:22,632
+back as store credit.
+
+33
+00:02:26,793 --> 00:02:31,215
+On the Payment step, a signed in buyer with credit in the order's
+
+34
+00:02:31,215 --> 00:02:33,644
+currency sees a Store credit box.
+
+35
+00:02:33,644 --> 00:02:38,003
+Use my store credit puts it toward the order, up to what is due.
+
+36
+00:02:38,522 --> 00:02:42,157
+The box shows how much is used and what is left, and the
+
+37
+00:02:42,157 --> 00:02:44,913
+summary shows the credit under the total.
+
+38
+00:02:44,913 --> 00:02:49,252
+Under My account, Store credit lists their balance and every change.
+
+39
+00:02:53,509 --> 00:02:56,070
+Open Settings, Commerce, Rewards.
+
+40
+00:02:56,070 --> 00:02:58,565
+Program name is what buyers see.
+
+41
+00:02:58,565 --> 00:03:03,425
+Points per unit spent is how many points each dollar earns, on goods
+
+42
+00:03:03,425 --> 00:03:06,249
+after discounts, not shipping or tax.
+
+43
+00:03:06,750 --> 00:03:11,285
+What a point is worth is its value at checkout, so 0.01 makes
+
+44
+00:03:11,285 --> 00:03:13,587
+100 points worth one dollar.
+
+45
+00:03:13,587 --> 00:03:19,139
+Fewest points to spend is how many a buyer needs before they can spend them.
+
+46
+00:03:19,139 --> 00:03:20,290
+Click Save.
+
+47
+00:03:20,837 --> 00:03:25,883
+On a customer's page, the section named after your program shows their points
+
+48
+00:03:25,883 --> 00:03:27,707
+and what they are worth.
+
+49
+00:03:27,707 --> 00:03:30,747
+Enter Points and a Reason, and click Change.
+
+50
+00:03:35,027 --> 00:03:39,910
+Under My account, Rewards shows the buyer's points, what they are worth, how
+
+51
+00:03:39,910 --> 00:03:42,827
+they earn and spend them, and every change.
+
+52
+00:03:43,325 --> 00:03:48,634
+At checkout, Use my points pays toward the order, and only the points needed are spent.
+
+53
+00:03:48,634 --> 00:03:52,688
+Points are earned when the order is placed, taken back when it is
+
+54
+00:03:52,688 --> 00:03:56,285
+canceled, and a matching share is taken back on a refund.
+
+55
+00:04:00,484 --> 00:04:03,023
+Open Settings, Commerce, Referrals.
+
+56
+00:04:03,023 --> 00:04:06,738
+What a friend gets is nothing, or one of your coupons.
+
+57
+00:04:06,738 --> 00:04:09,772
+Each friend gets a single use code from it.
+
+58
+00:04:09,772 --> 00:04:15,344
+Tick Only the generated codes work on that coupon, so its own code cannot be shared.
+
+59
+00:04:15,810 --> 00:04:22,406
+What the customer gets is nothing, store credit, or loyalty points, for each friend's first order.
+
+60
+00:04:22,406 --> 00:04:26,592
+Set the amount, and the least a friend's first order spends.
+
+61
+00:04:26,592 --> 00:04:27,670
+Click Save.
+
+62
+00:04:31,970 --> 00:04:35,831
+Each signed in customer gets a referral link under Refer a friend in
+
+63
+00:04:35,831 --> 00:04:37,917
+their account, with a Copy button.
+
+64
+00:04:37,917 --> 00:04:40,630
+It shows what a friend gets and what they get.
+
+65
+00:04:42,330 --> 00:04:46,665
+A friend who opens the link sees a welcome, with their discount waiting
+
+66
+00:04:46,665 --> 00:04:49,141
+in the promotion code box at checkout.
+
+67
+00:04:49,141 --> 00:04:50,830
+They can buy as a guest.
+
+68
+00:04:52,504 --> 00:04:57,079
+When the friend's first order is placed, the customer is rewarded, once, and
+
+69
+00:04:57,079 --> 00:05:00,203
+the reward is taken back if the order is canceled.
+
+70
+00:05:00,203 --> 00:05:04,890
+The customer's account lists the friends who bought through the link, by first
+
+71
+00:05:04,890 --> 00:05:06,954
+name, with the reward for each.
+
+72
+00:05:11,154 --> 00:05:15,334
+Make a customer whole after a late delivery with store credit.
+
+73
+00:05:16,084 --> 00:05:19,564
+Refund as credit, so the money stays in your store.
+
+74
+00:05:20,314 --> 00:05:24,204
+A rewards program that gives points on every order.
+
+75
+00:05:24,954 --> 00:05:29,994
+Growth through friends, with a coupon for the friend and credit for the customer.
+
+76
+00:05:31,994 --> 00:05:37,380
+Give credit, reward every order with points, and let customers bring their friends.
+
+77
+00:05:37,380 --> 00:05:38,954
+Thanks for watching.
+

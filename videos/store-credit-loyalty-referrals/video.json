@@ -1,0 +1,100 @@
+{
+  "title": "Store Credit, Loyalty Points and Referrals | CrestApps for Orchard Core",
+  "description": "The customers who come back are worth rewarding. CrestApps lets you give store credit by hand or as a refund, reward every order with loyalty points, and give each customer a referral link that rewards them when a friend places a first order, with each one spent at checkout after tax and followed in the buyer's account.\n\nIn this video:\n• Why reward customers, and how credit, points and referrals fit together\n• Giving store credit on a customer's page, and refunding as store credit\n• Using store credit at checkout and in My account\n• The loyalty points program and a customer's points\n• Spending points at checkout\n• Setting up referrals: what a friend gets and what the customer gets\n• The referral link, the friend and the reward",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "store credit",
+    "loyalty points",
+    "referrals",
+    "customer rewards",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why reward customers"
+    },
+    {
+      "time": "0:49",
+      "title": "How it fits together"
+    },
+    {
+      "time": "1:17",
+      "title": "Give store credit"
+    },
+    {
+      "time": "2:00",
+      "title": "Refund as store credit"
+    },
+    {
+      "time": "2:23",
+      "title": "Store credit at checkout"
+    },
+    {
+      "time": "2:50",
+      "title": "Loyalty points"
+    },
+    {
+      "time": "3:31",
+      "title": "Points at checkout"
+    },
+    {
+      "time": "3:57",
+      "title": "Set up referrals"
+    },
+    {
+      "time": "4:28",
+      "title": "Refer a friend"
+    },
+    {
+      "time": "5:08",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:31",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Store credit, points and referrals (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/store-credit-and-rewards"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/customers"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Customers"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/store-credit-and-rewards.md"
+  ],
+  "length": "5:40"
+}
