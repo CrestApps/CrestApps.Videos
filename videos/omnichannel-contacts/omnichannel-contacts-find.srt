@@ -1,0 +1,32 @@
+1
+00:00:03,300 --> 00:00:08,446
+On the Contacts list, the search box matches a name or a phone number.
+
+2
+00:00:08,446 --> 00:00:11,560
+Type a name, such as Elena, to find her.
+
+3
+00:00:12,042 --> 00:00:16,206
+Type three digits or more, such as seven zero two five five five,
+
+4
+00:00:16,206 --> 00:00:20,252
+and the list shows contacts whose main number begins with them.
+
+5
+00:00:20,843 --> 00:00:23,094
+Search terms are more precise.
+
+6
+00:00:23,094 --> 00:00:28,910
+Phone matches digits anywhere, Phone Ends matches the last digits, Phone Starts matches
+
+7
+00:00:28,910 --> 00:00:34,288
+the first digits, and Phone Exact matches the whole number however it was saved.
+
+8
+00:00:34,288 --> 00:00:39,103
+The Filter syntax entry of the Filters menu shows them on a Phone card.
+

@@ -1,0 +1,28 @@
+1
+00:00:03,300 --> 00:00:06,564
+Contacts load from a file with Content, Import.
+
+2
+00:00:06,564 --> 00:00:09,891
+For a contact type the import page adds options:
+
+3
+00:00:09,891 --> 00:00:15,557
+Ignore duplicate by phone number, Compare with, which records count as duplicates, and
+
+4
+00:00:15,557 --> 00:00:18,760
+the Lead country that local numbers belong to.
+
+5
+00:00:19,331 --> 00:00:24,195
+On the export page, a contact type shows a CRM last activity section.
+
+6
+00:00:24,195 --> 00:00:30,292
+Tick Include last completed activity information, choose a Subject, and the file carries
+
+7
+00:00:30,292 --> 00:00:33,081
+each contact's latest activity on it.
+
