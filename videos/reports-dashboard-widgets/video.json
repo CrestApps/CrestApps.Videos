@@ -1,0 +1,84 @@
+{
+  "title": "Report Widgets: Put Reports on the Admin Dashboard | CrestApps for Orchard Core",
+  "description": "The admin dashboard is the first page your team sees. Report widgets put a CrestApps report on it as a tile that follows the clock, for a period such as the last 30 days, and check that each viewer may open the report. This video shows the Report widget for the built-in reports, and the Custom Report widget for reports built in the Report Builder.\n\nIn this video:\n• Why report widgets\n• Turning on the Admin Dashboard and opening its editor\n• Adding a Report widget: report, period, what to show, rows and cache time\n• What a tile shows, and Open the full report\n• The Custom Report widget for Report Builder reports\n• What each person sees when they may not open a report",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "dashboard widgets",
+    "report widget",
+    "reports",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why report widgets"
+    },
+    {
+      "time": "0:55",
+      "title": "Turn on the dashboard"
+    },
+    {
+      "time": "1:25",
+      "title": "Add a Report widget"
+    },
+    {
+      "time": "2:34",
+      "title": "The dashboard"
+    },
+    {
+      "time": "2:55",
+      "title": "The Custom Report widget"
+    },
+    {
+      "time": "3:33",
+      "title": "Who sees what"
+    },
+    {
+      "time": "3:47",
+      "title": "Where widgets fit"
+    },
+    {
+      "time": "4:14",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/reports"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/reports.md",
+    "src/CrestApps.Docs/docs/user-manual/report-builder/share-and-run.md"
+  ],
+  "length": "4:29"
+}
