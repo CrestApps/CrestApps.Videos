@@ -1,0 +1,294 @@
+{
+  "title": "Payments",
+  "output": "payments",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Payments",
+      "subtitle": "Taking, recording and returning money",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Payments are more than a card form. This video shows how Stripe, offline payments, transactions, refunds and webhooks fit together, why they exist, and how to use every payment screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why payments",
+      "subtitle": "Taking, recording and returning money",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Taking money is more than a card form. Every payment has to be taken, recorded and matched to an order, and some money arrives later, by bank transfer or on delivery."
+            },
+            {
+              "id": "why-2",
+              "text": "The payment modules take cards through Stripe, accept offline methods, and keep one record of every payment and of every amount still owed."
+            },
+            {
+              "id": "why-3",
+              "text": "When you owe money back, that record is where you refund it, in full or in part."
+            },
+            {
+              "id": "why-4",
+              "text": "And when money moves, your other systems can be told at once, through webhooks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Providers, balances, payments and webhooks",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Settings, Payments, Stripe holds the keys for cards: one set for testing, and one for real payments."
+            },
+            {
+              "id": "how-2",
+              "text": "Settings, Offline payments turns on Pay Later, Bank transfer and Cash on delivery."
+            },
+            {
+              "id": "how-3",
+              "text": "Commerce, Transactions lists what customers still owe. Commerce, Payments lists every payment taken, and Commerce, Refunds lists the money returned."
+            },
+            {
+              "id": "how-4",
+              "text": "Settings, Commerce, Transactions sets the reminders, and Commerce, Webhooks sends events to your other systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Connect Stripe",
+      "subtitle": "Test keys first, real keys later",
+      "clips": [
+        {
+          "id": "03-stripe",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "stripe-1",
+              "text": "Open Settings, Payments, Stripe. Enable Production switches the site from testing to real payments. It stays off until you are ready, and while it is off the page asks for test keys."
+            },
+            {
+              "id": "stripe-2",
+              "text": "Test Publishable Key and Test Secret Key come from your Stripe account in test mode. A test key moves no money, so you can try a whole sale first. Paste them in, and save."
+            },
+            {
+              "id": "stripe-3",
+              "text": "After saving, a Connect button checks the key. Under Advanced, the webhook signing secret lets the site trust the messages Stripe sends. Tick Enable Production, and the Production fields appear for your live keys."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Offline payments",
+      "subtitle": "Pay Later, bank transfer and cash on delivery",
+      "clips": [
+        {
+          "id": "04-offline",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "off-1",
+              "text": "Settings, Offline payments offers methods that confirm an order now and take the money later. Offer Pay Later lets a customer pay after the order, and Net term sets how many days they have."
+            },
+            {
+              "id": "off-2",
+              "text": "Offer Bank transfer shows your Bank details at checkout, and Due within says when the transfer is due. The order reads Payment due until you record the money."
+            },
+            {
+              "id": "off-3",
+              "text": "Offer Cash on delivery adds a Note for buyers. It is offered only for orders that are delivered, and you record the payment when the courier hands it over. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Transactions",
+      "subtitle": "What customers still owe",
+      "clips": [
+        {
+          "id": "05-transactions",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "trn-1",
+              "text": "Commerce, Transactions lists every balance a customer still owes, with its status, the amount outstanding and its due date. Click Manage to open one."
+            },
+            {
+              "id": "trn-2",
+              "text": "The Summary shows the owner, the source, the reference, the total, what is paid, and what is still Outstanding. The Timeline records what happened."
+            },
+            {
+              "id": "trn-3",
+              "text": "Send reminder and Send invoice notify the customer, and the invoice carries a link that pays it. They need your site's email to be set up."
+            },
+            {
+              "id": "trn-4",
+              "text": "Adjust or waive lowers what is owed without money coming in, as a Discount, a Waiver, a Credit or a Write-off. Mark as paid, Cancel transaction and Add note sit below it."
+            },
+            {
+              "id": "trn-5",
+              "text": "When the money arrives outside the site, enter the Amount, a Reference such as a transfer number, and a Note, and click Record payment."
+            },
+            {
+              "id": "trn-6",
+              "text": "The transaction now reads Paid, and the payment you recorded is on its Timeline. The order it belongs to is paid as well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Reminders",
+      "subtitle": "Chase late payments automatically",
+      "clips": [
+        {
+          "id": "06-reminders",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rem-1",
+              "text": "Settings, Commerce, Transactions sets the reminders. Enable scheduled reminders sends them on their own."
+            },
+            {
+              "id": "rem-2",
+              "text": "First reminder delay says how many days after a balance is created, Reminder interval how often after that, Maximum reminders when to stop, and Remind before the due date sends one ahead of time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Payments and refunds",
+      "subtitle": "Every payment, and money back",
+      "clips": [
+        {
+          "id": "07-payments",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pay-1",
+              "text": "Commerce, Payments lists every payment, with its amount, its state, its method and the gateway's own reference. Two drop-downs filter by state and by method."
+            },
+            {
+              "id": "pay-2",
+              "text": "Refund gives money back on a payment. The page shows what was collected and what is already refunded. Enter the Amount to refund, give a Reason such as damage in transit, and click Refund. The page then returns to the list."
+            },
+            {
+              "id": "pay-3",
+              "text": "Commerce, Refunds lists the refunds that were made, so the money that went back is always on record."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Webhooks",
+      "subtitle": "Tell your other systems",
+      "clips": [
+        {
+          "id": "08-webhooks",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "hook-1",
+              "text": "Commerce, Webhooks sends a message to another system the moment something happens, such as an order being paid. Click Add webhook."
+            },
+            {
+              "id": "hook-2",
+              "text": "Give it a Name and the URL that receives the messages. On turns it on or off without deleting it."
+            },
+            {
+              "id": "hook-3",
+              "text": "Tick the events to send, such as Order paid and Shipment shipped, or Every event, those added later too. Then save the webhook."
+            },
+            {
+              "id": "hook-4",
+              "text": "The webhook is saved. Copy its signing secret into the system that receives the messages, and that system now hears about each event as it happens."
+            },
+            {
+              "id": "hook-5",
+              "text": "Further down are the signing secret, which the receiver uses to check each message, a New secret button, and Deliveries, which logs what was sent and what was tried again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Four ways to use payments",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Try before you sell: use Stripe's test keys for a whole trial sale, then switch on Enable Production when you go live."
+            },
+            {
+              "id": "use-2",
+              "text": "Invoice customers: a bank transfer order waits as Payment due, and Record payment closes it when the money arrives."
+            },
+            {
+              "id": "use-3",
+              "text": "Chase late payers: scheduled reminders write to customers who have not paid, so you do not have to."
+            },
+            {
+              "id": "use-4",
+              "text": "Tell your warehouse and your accountant: webhooks send order and shipment events to their systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Take the money, record it against the order, give it back when you must, and tell your other systems. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

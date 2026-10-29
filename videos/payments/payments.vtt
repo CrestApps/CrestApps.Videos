@@ -1,0 +1,284 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.538
+Payments are more than a card form.
+
+00:00:03.538 --> 00:00:09.790
+This video shows how Stripe, offline payments, transactions, refunds and webhooks fit together,
+
+00:00:09.790 --> 00:00:13.380
+why they exist, and how to use every payment screen.
+
+00:00:17.980 --> 00:00:20.760
+Taking money is more than a card form.
+
+00:00:20.760 --> 00:00:25.436
+Every payment has to be taken, recorded and matched to an order, and
+
+00:00:25.436 --> 00:00:29.480
+some money arrives later, by bank transfer or on delivery.
+
+00:00:30.230 --> 00:00:35.813
+The payment modules take cards through Stripe, accept offline methods, and keep one
+
+00:00:35.813 --> 00:00:39.640
+record of every payment and of every amount still owed.
+
+00:00:40.390 --> 00:00:44.591
+When you owe money back, that record is where you refund it, in
+
+00:00:44.591 --> 00:00:45.930
+full or in part.
+
+00:00:46.680 --> 00:00:51.790
+And when money moves, your other systems can be told at once, through webhooks.
+
+00:00:55.990 --> 00:00:59.752
+Settings, Payments, Stripe holds the keys for cards:
+
+00:00:59.752 --> 00:01:03.190
+one set for testing, and one for real payments.
+
+00:01:03.940 --> 00:01:10.160
+Settings, Offline payments turns on Pay Later, Bank transfer and Cash on delivery.
+
+00:01:10.910 --> 00:01:15.031
+Commerce, Transactions lists what customers still owe.
+
+00:01:15.031 --> 00:01:21.830
+Commerce, Payments lists every payment taken, and Commerce, Refunds lists the money returned.
+
+00:01:22.580 --> 00:01:30.210
+Settings, Commerce, Transactions sets the reminders, and Commerce, Webhooks sends events to your other systems.
+
+00:01:34.443 --> 00:01:36.753
+Open Settings, Payments, Stripe.
+
+00:01:36.753 --> 00:01:41.130
+Enable Production switches the site from testing to real payments.
+
+00:01:41.130 --> 00:01:44.960
+It stays off until you are ready, and while it is off the
+
+00:01:44.960 --> 00:01:46.783
+page asks for test keys.
+
+00:01:47.250 --> 00:01:52.784
+Test Publishable Key and Test Secret Key come from your Stripe account in test mode.
+
+00:01:52.784 --> 00:01:56.905
+A test key moves no money, so you can try a whole sale first.
+
+00:01:56.905 --> 00:01:58.750
+Paste them in, and save.
+
+00:01:59.206 --> 00:02:02.437
+After saving, a Connect button checks the key.
+
+00:02:02.437 --> 00:02:08.340
+Under Advanced, the webhook signing secret lets the site trust the messages Stripe sends.
+
+00:02:08.340 --> 00:02:13.436
+Tick Enable Production, and the Production fields appear for your live keys.
+
+00:02:17.684 --> 00:02:23.504
+Settings, Offline payments offers methods that confirm an order now and take the money later.
+
+00:02:23.504 --> 00:02:27.677
+Offer Pay Later lets a customer pay after the order, and Net term
+
+00:02:27.677 --> 00:02:29.734
+sets how many days they have.
+
+00:02:30.263 --> 00:02:35.047
+Offer Bank transfer shows your Bank details at checkout, and Due within says
+
+00:02:35.047 --> 00:02:36.855
+when the transfer is due.
+
+00:02:36.855 --> 00:02:40.413
+The order reads Payment due until you record the money.
+
+00:02:41.155 --> 00:02:43.949
+Offer Cash on delivery adds a Note for buyers.
+
+00:02:43.949 --> 00:02:47.925
+It is offered only for orders that are delivered, and you record the
+
+00:02:47.925 --> 00:02:50.342
+payment when the courier hands it over.
+
+00:02:50.342 --> 00:02:51.255
+Click Save.
+
+00:02:55.540 --> 00:03:01.295
+Commerce, Transactions lists every balance a customer still owes, with its status, the
+
+00:03:01.295 --> 00:03:03.922
+amount outstanding and its due date.
+
+00:03:03.922 --> 00:03:05.860
+Click Manage to open one.
+
+00:03:06.550 --> 00:03:10.918
+The Summary shows the owner, the source, the reference, the total, what is
+
+00:03:10.918 --> 00:03:13.211
+paid, and what is still Outstanding.
+
+00:03:13.211 --> 00:03:15.450
+The Timeline records what happened.
+
+00:03:15.942 --> 00:03:20.755
+Send reminder and Send invoice notify the customer, and the invoice carries a
+
+00:03:20.755 --> 00:03:22.146
+link that pays it.
+
+00:03:22.146 --> 00:03:24.872
+They need your site's email to be set up.
+
+00:03:25.511 --> 00:03:30.347
+Adjust or waive lowers what is owed without money coming in, as a
+
+00:03:30.347 --> 00:03:33.753
+Discount, a Waiver, a Credit or a Write-off.
+
+00:03:33.753 --> 00:03:38.181
+Mark as paid, Cancel transaction and Add note sit below it.
+
+00:03:38.688 --> 00:03:43.376
+When the money arrives outside the site, enter the Amount, a Reference such
+
+00:03:43.376 --> 00:03:47.138
+as a transfer number, and a Note, and click Record payment.
+
+00:03:52.724 --> 00:03:57.852
+The transaction now reads Paid, and the payment you recorded is on its Timeline.
+
+00:03:57.852 --> 00:04:00.594
+The order it belongs to is paid as well.
+
+00:04:04.894 --> 00:04:08.742
+Settings, Commerce, Transactions sets the reminders.
+
+00:04:08.742 --> 00:04:12.524
+Enable scheduled reminders sends them on their own.
+
+00:04:12.992 --> 00:04:17.962
+First reminder delay says how many days after a balance is created, Reminder
+
+00:04:17.962 --> 00:04:23.175
+interval how often after that, Maximum reminders when to stop, and Remind before
+
+00:04:23.175 --> 00:04:25.782
+the due date sends one ahead of time.
+
+00:04:30.082 --> 00:04:36.115
+Commerce, Payments lists every payment, with its amount, its state, its method and
+
+00:04:36.115 --> 00:04:38.445
+the gateway's own reference.
+
+00:04:38.445 --> 00:04:41.942
+Two drop-downs filter by state and by method.
+
+00:04:43.810 --> 00:04:46.525
+Refund gives money back on a payment.
+
+00:04:46.525 --> 00:04:50.883
+The page shows what was collected and what is already refunded.
+
+00:04:50.883 --> 00:04:56.693
+Enter the Amount to refund, give a Reason such as damage in transit, and click Refund.
+
+00:04:56.693 --> 00:04:59.220
+The page then returns to the list.
+
+00:05:00.360 --> 00:05:05.102
+Commerce, Refunds lists the refunds that were made, so the money that went
+
+00:05:05.102 --> 00:05:06.940
+back is always on record.
+
+00:05:11.152 --> 00:05:16.592
+Commerce, Webhooks sends a message to another system the moment something happens, such
+
+00:05:16.592 --> 00:05:18.289
+as an order being paid.
+
+00:05:18.289 --> 00:05:19.692
+Click Add webhook.
+
+00:05:20.232 --> 00:05:23.938
+Give it a Name and the URL that receives the messages.
+
+00:05:23.938 --> 00:05:26.902
+On turns it on or off without deleting it.
+
+00:05:27.826 --> 00:05:32.421
+Tick the events to send, such as Order paid and Shipment shipped, or
+
+00:05:32.421 --> 00:05:34.967
+Every event, those added later too.
+
+00:05:34.967 --> 00:05:36.706
+Then save the webhook.
+
+00:05:37.228 --> 00:05:38.822
+The webhook is saved.
+
+00:05:38.822 --> 00:05:43.661
+Copy its signing secret into the system that receives the messages, and that
+
+00:05:43.661 --> 00:05:46.848
+system now hears about each event as it happens.
+
+00:05:47.303 --> 00:05:52.159
+Further down are the signing secret, which the receiver uses to check each
+
+00:05:52.159 --> 00:05:57.015
+message, a New secret button, and Deliveries, which logs what was sent and
+
+00:05:57.015 --> 00:05:58.653
+what was tried again.
+
+00:06:02.853 --> 00:06:04.417
+Try before you sell:
+
+00:06:04.417 --> 00:06:08.868
+use Stripe's test keys for a whole trial sale, then switch on Enable
+
+00:06:08.868 --> 00:06:10.913
+Production when you go live.
+
+00:06:11.663 --> 00:06:13.092
+Invoice customers:
+
+00:06:13.092 --> 00:06:17.737
+a bank transfer order waits as Payment due, and Record payment closes it
+
+00:06:17.737 --> 00:06:19.463
+when the money arrives.
+
+00:06:20.213 --> 00:06:21.627
+Chase late payers:
+
+00:06:21.627 --> 00:06:26.693
+scheduled reminders write to customers who have not paid, so you do not have to.
+
+00:06:27.443 --> 00:06:30.119
+Tell your warehouse and your accountant:
+
+00:06:30.119 --> 00:06:33.783
+webhooks send order and shipment events to their systems.
+
+00:06:35.783 --> 00:06:39.728
+Take the money, record it against the order, give it back when you
+
+00:06:39.728 --> 00:06:41.919
+must, and tell your other systems.
+
+00:06:41.919 --> 00:06:43.343
+Thanks for watching.
+

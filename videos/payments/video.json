@@ -1,0 +1,118 @@
+{
+  "title": "Payments: Stripe, Offline Payments, Refunds and Webhooks | CrestApps for Orchard Core",
+  "description": "Taking money is more than a card form. Every payment has to be taken, recorded and matched to an order, and some money arrives later, by bank transfer or on delivery. The CrestApps payment modules take cards through Stripe, accept Pay Later, bank transfer and cash on delivery, keep one record of every payment and every amount still owed, refund money back, remind customers who are late, and tell your other systems when money moves through webhooks.\n\nIn this video:\n• Why payments need one record, and how the screens fit together\n• Connecting Stripe: test keys first, real keys later\n• Offline payments: Pay Later, Bank transfer and Cash on delivery\n• Transactions: reminders, invoices, adjusting a balance and recording a payment\n• Scheduled payment reminders\n• Payments and refunds\n• Webhooks that tell your other systems about orders and shipments",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "payments",
+    "Stripe",
+    "refunds",
+    "bank transfer",
+    "cash on delivery",
+    "webhooks",
+    "ecommerce",
+    "payment reminders",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why payments"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:31",
+      "title": "Connect Stripe"
+    },
+    {
+      "time": "2:14",
+      "title": "Offline payments"
+    },
+    {
+      "time": "2:52",
+      "title": "Transactions"
+    },
+    {
+      "time": "4:01",
+      "title": "Reminders"
+    },
+    {
+      "time": "4:26",
+      "title": "Payments and refunds"
+    },
+    {
+      "time": "5:08",
+      "title": "Webhooks"
+    },
+    {
+      "time": "5:59",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:34",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Payment providers (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/payment-providers"
+    },
+    {
+      "label": "Transactions (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/transactions"
+    },
+    {
+      "label": "Payments and refunds (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/payments-and-refunds"
+    },
+    {
+      "label": "Webhooks (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/webhooks"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/payments"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Transactions, CrestApps.OrchardCore.Stripe, CrestApps.OrchardCore.PayLater and CrestApps.OrchardCore.Commerce.Webhooks"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/payment-providers.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/transactions.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/payments-and-refunds.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/webhooks.md",
+    "src/CrestApps.Docs/docs/modules/payments.md",
+    "src/CrestApps.Docs/docs/modules/transactions.md",
+    "src/CrestApps.Docs/docs/modules/pay-later.md",
+    "src/CrestApps.Docs/docs/modules/commerce-webhooks.md"
+  ],
+  "length": "6:44"
+}
