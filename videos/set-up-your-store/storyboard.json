@@ -1,0 +1,275 @@
+{
+  "title": "Set up your store",
+  "output": "set-up-your-store",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Set up your store",
+      "subtitle": "From a new site to a first sale",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A new store takes a few steps before its first sale. This video follows the setup guide from a new Online store site: your store's details, currency, payments, shipping, tax, a first product and a test order, and roles for your staff."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a setup guide",
+      "subtitle": "From a new site to a first sale",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A new store needs a few things before its first sale: its name and contact details, how customers pay, where you ship, and something to sell."
+            },
+            {
+              "id": "why-2",
+              "text": "Miss one, and a customer finds a checkout that cannot take payment, or a receipt with no address."
+            },
+            {
+              "id": "why-3",
+              "text": "The setup guide lists the steps in order, shows which are done, and does the simple ones for you."
+            },
+            {
+              "id": "why-4",
+              "text": "It also adds roles for your staff, and the Storefront theme gives the store its look."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Start a new store",
+      "subtitle": "The Online store recipe",
+      "clips": [
+        {
+          "id": "02-start",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "sta-1",
+              "text": "When you set up a new site, choose the Online store recipe."
+            },
+            {
+              "id": "sta-2",
+              "text": "Your site starts with products, the cart and checkout, orders, shipping, taxes and payments turned on."
+            },
+            {
+              "id": "sta-3",
+              "text": "It has a Product type with a price, a description and pictures, and your catalog as the home page, with a search and filters."
+            },
+            {
+              "id": "sta-4",
+              "text": "The Storefront theme is on. On a site you already have, the guide shows the steps for the features you have turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Open the guide",
+      "subtitle": "Commerce, Set up your store",
+      "clips": [
+        {
+          "id": "03-guide",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "gui-1",
+              "text": "Open Commerce, Set up your store. The bar at the top says how many steps are done. The step to do next is open."
+            },
+            {
+              "id": "gui-2",
+              "text": "Each step says what it is for, and either has a short form to fill in or a link to the page where it is done in full. A tick shows a step that is done."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Details and currency",
+      "subtitle": "Steps one and two",
+      "clips": [
+        {
+          "id": "04-details",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "det-1",
+              "text": "Your store's details are your store's name, the email customers write to, and optionally your phone and address. They are printed on receipts, invoices and order emails. Click Save the details."
+            },
+            {
+              "id": "det-2",
+              "text": "Your currency is the currency your prices are in and customers pay in. Choose it, and click Use this currency."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Take payments",
+      "subtitle": "Cards and bank transfers",
+      "clips": [
+        {
+          "id": "05-payments",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pay-1",
+              "text": "Take card payments links to the Stripe settings. Make an account at stripe.com, and start with the test keys, so you can try a sale without real money. This demo does not contact Stripe."
+            },
+            {
+              "id": "pay-2",
+              "text": "Take bank transfers is optional. Enter how customers pay you from their bank. Their order then waits until you mark it paid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Ship and tax",
+      "subtitle": "A rate for every order, and tax rules",
+      "clips": [
+        {
+          "id": "06-ship",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shp-1",
+              "text": "Ship your products takes one rate for every order, wherever it goes. Enter it, and click Ship everywhere at this rate. Zones by country, rates by weight and free shipping can be added later, under Shipping zones."
+            },
+            {
+              "id": "shp-2",
+              "text": "Charge tax links to the tax rules, one for each tax you charge. If you do not charge tax yet, choose Skip this step. Do this step after all brings a skipped step back."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "First product and test order",
+      "subtitle": "Sell something",
+      "clips": [
+        {
+          "id": "07-first",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fst-1",
+              "text": "Add your first product with a name, a price and pictures, and publish it. It is on sale as soon as it is published."
+            },
+            {
+              "id": "fst-2",
+              "text": "Place a test order: open your store, add the product to the cart and check out. With Stripe in test mode, you pay with the test card, and no money is taken. Here the bank transfer places the order. Then refund or cancel it under Commerce, Orders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Roles for your staff",
+      "subtitle": "Store manager, Warehouse and more",
+      "clips": [
+        {
+          "id": "08-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rol-1",
+              "text": "Add the staff roles adds four roles, each allowed what that job needs: Store manager, Warehouse, Customer support and Marketing."
+            },
+            {
+              "id": "rol-2",
+              "text": "Give a staff member a role under Security, Users. Change what a role can do under Security, Roles. A role that was there already is left as it is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "The Storefront theme",
+      "subtitle": "Header, menu and footer",
+      "clips": [
+        {
+          "id": "09-theme",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "thm-1",
+              "text": "The Storefront theme gives your store a header with its name or logo, a search box, the cart and the customer's account menu."
+            },
+            {
+              "id": "thm-2",
+              "text": "The footer shows your store's address, email and phone. They come from Settings, Commerce, Receipts, the same details as on your receipts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Four ways to use the guide",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A first store: follow the steps in order, and sell the same day."
+            },
+            {
+              "id": "use-2",
+              "text": "A store that sells only services: skip shipping."
+            },
+            {
+              "id": "use-3",
+              "text": "A growing team: add the staff roles, and give each person only what they need."
+            },
+            {
+              "id": "use-4",
+              "text": "A trial run: place a test order before you tell anyone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Follow the guide, skip what you do not need, and place a test order before you open the doors. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

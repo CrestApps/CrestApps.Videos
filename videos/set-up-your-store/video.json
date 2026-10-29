@@ -1,0 +1,99 @@
+{
+  "title": "Set Up Your Store: From a New Site to a First Sale | CrestApps for Orchard Core",
+  "description": "A new store takes a few steps before its first sale. The CrestApps setup guide lists them in order and does the simple ones for you: your store's details and currency, how customers pay, where you ship, tax, a first product and a test order, and roles for your staff, on the Online store recipe with the Storefront theme.\n\nIn this video:\n• Why a setup guide, and starting a new store with the Online store recipe\n• Opening the guide: steps, ticks and the progress bar\n• Your store's details and currency\n• Taking card payments and bank transfers\n• Shipping everywhere at one rate, and skipping tax\n• Adding a first product and placing a test order\n• Roles for your staff\n• The Storefront theme",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "set up your store",
+    "online store",
+    "getting started",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why a setup guide"
+    },
+    {
+      "time": "0:51",
+      "title": "Start a new store"
+    },
+    {
+      "time": "1:24",
+      "title": "Open the guide"
+    },
+    {
+      "time": "1:45",
+      "title": "Details and currency"
+    },
+    {
+      "time": "2:10",
+      "title": "Take payments"
+    },
+    {
+      "time": "2:35",
+      "title": "Ship and tax"
+    },
+    {
+      "time": "3:07",
+      "title": "First product and test order"
+    },
+    {
+      "time": "3:40",
+      "title": "Roles for your staff"
+    },
+    {
+      "time": "4:04",
+      "title": "The Storefront theme"
+    },
+    {
+      "time": "4:26",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:50",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Set up your store (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/set-up-your-store"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/store-setup"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Commerce"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/set-up-your-store.md"
+  ],
+  "length": "5:00"
+}
