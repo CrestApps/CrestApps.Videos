@@ -1,0 +1,263 @@
+{
+  "title": "Shipments and labels",
+  "output": "shipments-and-labels",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Shipments and labels",
+      "subtitle": "Know what left and what is left",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A paid order still has to be packed and sent. This video shows how to create shipments, ship in parts, follow a parcel to delivery or return, set up EasyPost labels, and what buyers see."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why shipments",
+      "subtitle": "Know what left and what is left",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An order is not finished when it is paid. Someone has to pack it, send it, and tell the buyer where it is."
+            },
+            {
+              "id": "why-2",
+              "text": "Shipping part of an order, or one parcel at a time, is hard to follow in a spreadsheet."
+            },
+            {
+              "id": "why-3",
+              "text": "Shipments record what is in each parcel, the carrier and the tracking number, so you always know what has left and what is left."
+            },
+            {
+              "id": "why-4",
+              "text": "The buyer is emailed when a parcel leaves, and sees it on their order. With EasyPost, you can buy the label too."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How shipments work",
+      "subtitle": "From a paid order to a delivered parcel",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A paid order with goods has a Shipments section on its page, under Commerce, Orders."
+            },
+            {
+              "id": "how-2",
+              "text": "A shipment says which items are in a parcel, and the carrier and tracking number. It starts Being packed, or Shipped."
+            },
+            {
+              "id": "how-3",
+              "text": "Then it is Delivered, or Returned if it comes back, and its items can be sent again."
+            },
+            {
+              "id": "how-4",
+              "text": "A shipment still being packed can be removed, which puts its items back."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create a shipment",
+      "subtitle": "Ship an order, all of it or in parts",
+      "clips": [
+        {
+          "id": "03-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "crt-1",
+              "text": "Open an order that is paid. Under New shipment, set how many of each item go in the parcel. All that is left is filled in. Lower a number to ship in parts."
+            },
+            {
+              "id": "crt-2",
+              "text": "Enter the Carrier and the Tracking number. The Tracking link is optional, and the Note is for the store only. Leave It has left, mark it shipped now ticked, and click Create shipment."
+            },
+            {
+              "id": "crt-3",
+              "text": "The shipment is listed with what is in it, the carrier and the tracking link, and the order now reads Partially fulfilled. The buyer is emailed that it is on its way."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Packing, delivery and returns",
+      "subtitle": "Follow a parcel to the door",
+      "clips": [
+        {
+          "id": "04-follow",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fol-1",
+              "text": "Untick It has left to set the items aside while they are packed. The shipment shows as Being packed. Each shipment has a packing slip button, which prints its items and number to put in the box."
+            },
+            {
+              "id": "fol-2",
+              "text": "Mark shipped sends it later, and the buyer is emailed then. A shipment still being packed can be removed."
+            },
+            {
+              "id": "fol-3",
+              "text": "When the carrier says it arrived, click Delivered. If it comes back, click Returned: its items count as not shipped, so they can be sent again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Carrier rates and labels",
+      "subtitle": "EasyPost",
+      "clips": [
+        {
+          "id": "05-easypost",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "eas-1",
+              "text": "With the EasyPost feature, the shipping settings have an EasyPost tab for your account's key, and a Sending parcels tab for the address you ship from and your default box. This demo does not contact EasyPost."
+            }
+          ]
+        },
+        {
+          "id": "05b-labels",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "lab-1",
+              "text": "Offer the carriers' rates at checkout by adding a Carrier rates method to a zone. The buyer sees each carrier's rate."
+            },
+            {
+              "id": "lab-2",
+              "text": "Create the shipment being packed, and click Buy label. Your EasyPost account is charged, the shipment is marked shipped with the carrier and tracking number, and the buyer is emailed."
+            },
+            {
+              "id": "lab-3",
+              "text": "Once registered, the carrier's latest word, such as In transit, shows on the shipment, and a parcel the carrier delivers is marked Delivered for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What buyers see",
+      "subtitle": "Track your order",
+      "clips": [
+        {
+          "id": "06-track",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "trk-1",
+              "text": "Customers see their shipments under My Orders. A guest uses the order link, or Track your order, with the order number and the email the order was placed with."
+            },
+            {
+              "id": "trk-2",
+              "text": "Both must match, so a number alone shows nothing. The order lists each shipment with the carrier and the tracking link."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Events and good to know",
+      "subtitle": "Workflows, emails and packing slips",
+      "clips": [
+        {
+          "id": "07-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kno-1",
+              "text": "With Workflows on, the Shipment Created, Shipped, Delivered and Returned events start workflows, for example to tell a warehouse or a carrier."
+            },
+            {
+              "id": "kno-2",
+              "text": "The shipped email is on by default, and needs an email service."
+            },
+            {
+              "id": "kno-3",
+              "text": "Each shipment has its own packing slip, which lists only its items."
+            },
+            {
+              "id": "kno-4",
+              "text": "The Shipping times report shows how long orders waited and how long deliveries took, by carrier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to use shipments",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "An order in parts: ship what is in stock now, and the rest when it arrives."
+            },
+            {
+              "id": "use-2",
+              "text": "A packing station: create shipments being packed, print the slips, and mark them shipped."
+            },
+            {
+              "id": "use-3",
+              "text": "Labels without leaving the order: buy and print with EasyPost."
+            },
+            {
+              "id": "use-4",
+              "text": "A return in the post: mark the shipment returned, and send it again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Record every parcel, follow it to the door, and let buyers track their order. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

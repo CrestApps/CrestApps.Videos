@@ -1,0 +1,92 @@
+{
+  "title": "Shipments and Labels: Ship, Track and Deliver Orders | CrestApps for Orchard Core",
+  "description": "A paid order still has to be packed and sent. CrestApps shipments record what is in each parcel, the carrier and the tracking number, let you ship an order in parts, follow each parcel to delivery or return, and with EasyPost buy the label too, while buyers are emailed and can track their order.\n\nIn this video:\n• Why shipments, and how they work from a paid order to a delivered parcel\n• Creating a shipment: items, carrier, tracking number and link\n• Being packed, Mark shipped, Delivered, Returned and Remove\n• EasyPost: carrier rates, labels and tracking updates\n• What buyers see: My Orders and Track your order\n• Workflow events, emails and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "shipments",
+    "shipping labels",
+    "EasyPost",
+    "order tracking",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why shipments"
+    },
+    {
+      "time": "0:49",
+      "title": "How shipments work"
+    },
+    {
+      "time": "1:18",
+      "title": "Create a shipment"
+    },
+    {
+      "time": "2:00",
+      "title": "Packing, delivery and returns"
+    },
+    {
+      "time": "2:33",
+      "title": "Carrier rates and labels"
+    },
+    {
+      "time": "3:22",
+      "title": "What buyers see"
+    },
+    {
+      "time": "3:44",
+      "title": "Events and good to know"
+    },
+    {
+      "time": "4:15",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:42",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Shipping (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/shipping"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/shipping"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Shipping"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/shipping.md"
+  ],
+  "length": "4:52"
+}
