@@ -1,0 +1,231 @@
+{
+  "title": "Commerce automation",
+  "output": "commerce-automation",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Commerce automation",
+      "subtitle": "Turn what happens in your store into emails and actions",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Your store knows when an order is paid, canceled or refunded, when a product runs low, and when a shipment leaves. This video shows how the store turns each of those moments into an email, or any other automatic action, with Workflows, and how that compares with webhooks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why automate",
+      "subtitle": "Let the store tell the right person",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Things happen in your store all day: an order is paid, one is canceled, a product runs low, a parcel ships."
+            },
+            {
+              "id": "why-2",
+              "text": "Someone has to know: a thank-you for the buyer, a heads-up for the team, a warning that stock is low."
+            },
+            {
+              "id": "why-3",
+              "text": "Instead of watching the admin, you tell the store: when this happens, do that."
+            },
+            {
+              "id": "why-4",
+              "text": "Commerce adds its moments to Workflows as events, and three ready-made recipes start you off."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Events, tasks and details",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "An event starts a workflow: Order Paid, Order Canceled, Order Refunded, Low Stock, and four shipment events."
+            },
+            {
+              "id": "how-2",
+              "text": "Its tasks run next: send an email, call a web address, change content, and more."
+            },
+            {
+              "id": "how-3",
+              "text": "The event's details are available to every task: the order number, the total, the customer's email, and why it was canceled."
+            },
+            {
+              "id": "how-4",
+              "text": "A recipe adds its workflow turned off, so nothing is sent before you have checked it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Ready-made recipes",
+      "subtitle": "Three automations to start from",
+      "clips": [
+        {
+          "id": "03-recipes",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "Open Tools, Recipes. Three recipes add workflows for you. Automation: thank-you email emails each buyer when their order is paid. Automation: canceled order alert emails the store when an order is canceled. Automation: low stock alert emails the store when a product runs low or sells out."
+            },
+            {
+              "id": "rec-2",
+              "text": "Click Run beside the canceled order alert, and confirm. The recipe turns on Workflows and Email for you, if they are not on yet, and adds its workflow turned off. It takes a few seconds, because the site starts the features it needs, so wait a moment while it runs."
+            },
+            {
+              "id": "rec-3",
+              "text": "Do the same for the low stock alert. Then open Design, Workflows: both workflows are listed, and both are turned off, so nothing is sent until you turn them on. Each workflow's name says what it does, and you can open one to change it, as the next part shows. Run the thank-you email recipe the same way whenever you want it."
+            }
+          ]
+        }
+      ],
+      "short": "recipes"
+    },
+    {
+      "id": "04",
+      "title": "The workflow editor",
+      "subtitle": "Events, tasks and who gets the email",
+      "clips": [
+        {
+          "id": "04-editor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "edit-1",
+              "text": "Open the workflow. It is a picture: an event, Order canceled, and the task it starts, Tell the store. The arrow shows what happens next: Done leads on when the task succeeds."
+            },
+            {
+              "id": "edit-2",
+              "text": "Add Event shows every event the store knows. Under Commerce are Order Paid, Order Canceled, Order Refunded, Low Stock, and the shipment events: Created, Shipped, Delivered and Returned. Under Stripe, Stripe sends its own: a failed payment, a dispute, a refund. Pick one, and it joins the picture."
+            },
+            {
+              "id": "edit-3",
+              "text": "Double-click the email task to change it. Recipients is who it goes to: set a store address. The subject and the message are Liquid, and can use the order's number, its total and the customer's email."
+            },
+            {
+              "id": "edit-4",
+              "text": "Save the task, and then save the workflow, with the Save button under the picture."
+            }
+          ]
+        }
+      ],
+      "short": "editor"
+    },
+    {
+      "id": "05",
+      "title": "Turn it on and test it",
+      "subtitle": "Cancel an order",
+      "clips": [
+        {
+          "id": "05-fire",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fire-1",
+              "text": "A recipe adds the workflow turned off. Open its Properties, tick Enabled, and save. Here, Delete finished workflows is also unticked, so each run stays in a list for you to see; leave it on in production, where it keeps the list tidy. Click Save when both are set."
+            },
+            {
+              "id": "fire-2",
+              "text": "To test it, cancel an order. On the order's page, give a reason under Why, such as Out of stock, and click Cancel order. There is no extra question: the order is canceled at once, and the store notes it. The order's status changes to Canceled, and the page shows who canceled it, and when. That moment is what starts the workflow."
+            },
+            {
+              "id": "fire-3",
+              "text": "Back under Design, Workflows, open the workflow's Instances. The run is listed as Finished: the email was sent to the address you set. Open it to see what happened, step by step. It can take a moment to appear."
+            }
+          ]
+        }
+      ],
+      "short": "fire"
+    },
+    {
+      "id": "06",
+      "title": "Workflows or webhooks",
+      "subtitle": "Which one to use",
+      "clips": [
+        {
+          "id": "06-choose",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "choose-1",
+              "text": "Workflows run inside your site: send an email, change content, call a web address. Use them when the answer is something your own site can do."
+            },
+            {
+              "id": "choose-2",
+              "text": "Webhooks send the same moments to another system, such as your accounting software, with a signature it can check, and retries. Use them when another system has to know. The Webhooks video shows how."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A thank-you email: when an order is paid, tell the buyer what happens next."
+            },
+            {
+              "id": "use-2",
+              "text": "A cancel alert: when an order is canceled, tell the team, with the reason."
+            },
+            {
+              "id": "use-3",
+              "text": "A low stock warning: when a product runs low, tell whoever buys stock."
+            },
+            {
+              "id": "use-4",
+              "text": "A shipped message: when a shipment leaves, tell the buyer the carrier and tracking number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With workflows, the moments of your store tell the right people, without anyone watching the admin. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
