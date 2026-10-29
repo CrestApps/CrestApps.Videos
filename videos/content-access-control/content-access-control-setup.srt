@@ -1,0 +1,56 @@
+1
+00:00:03,158 --> 00:00:10,105
+Open Design, Content Definition, Content Types, and edit the type that needs restricted items.
+
+2
+00:00:10,105 --> 00:00:12,258
+Here it is Handbook Page.
+
+3
+00:00:12,711 --> 00:00:14,136
+Click Add Parts.
+
+4
+00:00:14,136 --> 00:00:19,837
+Role Picker is in the list, described as allowing you to select one or more roles.
+
+5
+00:00:19,837 --> 00:00:21,781
+Click Add and Configure.
+
+6
+00:00:22,240 --> 00:00:25,722
+The Display Name is what editors see above the picker.
+
+7
+00:00:25,722 --> 00:00:29,610
+Give it a clear name, such as Limit access to selected roles.
+
+8
+00:00:30,061 --> 00:00:36,153
+Exclude roles hides the roles that should never be picked, such as Anonymous and Authenticated.
+
+9
+00:00:36,153 --> 00:00:39,048
+Required means an editor must pick a role.
+
+10
+00:00:39,048 --> 00:00:43,331
+Allow multiple lets an editor pick more than one, and the Hint is
+
+11
+00:00:43,331 --> 00:00:45,321
+help text under the picker.
+
+12
+00:00:45,772 --> 00:00:49,380
+Restrict content turns the picker into an access rule:
+
+13
+00:00:49,380 --> 00:00:52,868
+only people in the selected roles can view the item.
+
+14
+00:00:52,868 --> 00:00:54,312
+Tick it, and save.
+

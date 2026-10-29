@@ -1,0 +1,222 @@
+{
+  "title": "Content Access Control",
+  "output": "content-access-control",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Content Access Control",
+      "subtitle": "Let only the right roles view an item",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some content is meant for one team only. This video shows how Content Access Control limits who can view a content item to the roles you pick on that item: why it exists, how to set it up on a content type, how to restrict an item, and how to check the result."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why restrict content by role",
+      "subtitle": "One page for everyone, another for one team",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some pages are not for everyone: a supervisor handbook, an internal price list, or notes for a single department."
+            },
+            {
+              "id": "why-2",
+              "text": "Permissions normally apply to a whole content type, so two pages of the same type are open to the same people."
+            },
+            {
+              "id": "why-3",
+              "text": "Content Access Control lets the editor choose, on each item, the roles that may view it."
+            },
+            {
+              "id": "why-4",
+              "text": "Everyone else is refused that item, and the rest of the site stays open as before."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it works",
+      "subtitle": "The Role Picker part and one setting",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "It builds on the Role Picker part, which lets an editor pick one or more roles on a content item."
+            },
+            {
+              "id": "how-2",
+              "text": "On the content type, one setting, Restrict content, turns the picker into an access rule."
+            },
+            {
+              "id": "how-3",
+              "text": "A person can view an item only if they hold at least one of the picked roles. An item with no roles picked stays open to everyone."
+            },
+            {
+              "id": "how-4",
+              "text": "Only viewing is limited. Who can edit, publish or delete the item still follows the usual permissions, and administrators can always view every item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up a content type",
+      "subtitle": "Add the Role Picker and restrict content",
+      "clips": [
+        {
+          "id": "03-setup",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "Open Design, Content Definition, Content Types, and edit the type that needs restricted items. Here it is Handbook Page."
+            },
+            {
+              "id": "setup-2",
+              "text": "Click Add Parts. Role Picker is in the list, described as allowing you to select one or more roles. Click Add and Configure."
+            },
+            {
+              "id": "setup-3",
+              "text": "The Display Name is what editors see above the picker. Give it a clear name, such as Limit access to selected roles."
+            },
+            {
+              "id": "setup-4",
+              "text": "Exclude roles hides the roles that should never be picked, such as Anonymous and Authenticated. Required means an editor must pick a role. Allow multiple lets an editor pick more than one, and the Hint is help text under the picker."
+            },
+            {
+              "id": "setup-5",
+              "text": "Restrict content turns the picker into an access rule: only people in the selected roles can view the item. Tick it, and save."
+            }
+          ]
+        }
+      ],
+      "short": "setup"
+    },
+    {
+      "id": "04",
+      "title": "Restrict an item",
+      "subtitle": "Pick the roles that may view it",
+      "clips": [
+        {
+          "id": "04-item",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "item-1",
+              "text": "Open Content, Content Items, and create a new Handbook Page."
+            },
+            {
+              "id": "item-2",
+              "text": "Give the page a title, such as Supervisor handbook, and type its text. The role picker is below the text."
+            },
+            {
+              "id": "item-3",
+              "text": "The picker shows the hint, and lists the roles of the site. Search for a role, and tick the ones that may view this page. Here it is Supervisor."
+            },
+            {
+              "id": "item-4",
+              "text": "Publish the page. From now on, only people who hold the Supervisor role can view it."
+            },
+            {
+              "id": "item-5",
+              "text": "To lift the restriction from one page, untick all its roles and save. To lift it from every page of the type, untick Restrict content on the part."
+            }
+          ]
+        }
+      ],
+      "short": "item"
+    },
+    {
+      "id": "05",
+      "title": "Check the result",
+      "subtitle": "Sign in as someone with, and without, the role",
+      "clips": [
+        {
+          "id": "05-check",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "check-1",
+              "text": "Always check the result by signing in as other people. Casey Morgan holds the Support Agent role. The Support hours page has no roles picked, so Casey can open it."
+            },
+            {
+              "id": "check-2",
+              "text": "The Supervisor handbook is restricted to the Supervisor role. Casey does not hold it, so the page is refused."
+            },
+            {
+              "id": "check-3",
+              "text": "Jordan Lee holds the Supervisor role, so the same address opens the handbook."
+            }
+          ]
+        }
+      ],
+      "short": "check"
+    },
+    {
+      "id": "06",
+      "title": "What to use it for",
+      "subtitle": "Four pages that are not for everyone",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A supervisor handbook or an escalation guide that only supervisors should read."
+            },
+            {
+              "id": "use-2",
+              "text": "An internal price list or discount rules for the sales team."
+            },
+            {
+              "id": "use-3",
+              "text": "Documents for one partner or one department, each limited to its own role."
+            },
+            {
+              "id": "use-4",
+              "text": "Announcements and procedures for a single team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set up the Role Picker once on a content type, and turn on Restrict content. Then every page of that type can have its own audience: pick the roles on an item, and only people who hold one of them can view it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
