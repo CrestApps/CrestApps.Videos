@@ -1,0 +1,187 @@
+{
+  "title": "AI Agents",
+  "output": "ai-agents",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Agents",
+      "subtitle": "Specialists an assistant can call",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some jobs are better done by a specialist. An AI agent is a profile with a narrow job, its own instructions and its own tools, that another assistant can call. This video creates an agent, lets an assistant use it, and tours the site tools that agents and assistants can use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Agent or tool?",
+      "subtitle": "Two ways to take action",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "wh-1",
+              "text": "A tool does one thing, such as search the documents or get the date. An agent is a whole assistant: it reads the request, thinks, and uses its own tools to answer."
+            },
+            {
+              "id": "wh-2",
+              "text": "An assistant calls an agent when the request fits what the agent says it does. So the description of an agent is the most important thing to write."
+            },
+            {
+              "id": "wh-3",
+              "text": "An agent can also be offered to other systems over the A2A protocol, which has its own video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create an agent",
+      "subtitle": "A profile of type Agent",
+      "clips": [
+        {
+          "id": "02-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ag-1",
+              "text": "Open Artificial Intelligence, Profiles, and click Add Profile. Choose where to start, and enter a Title, such as Research agent."
+            },
+            {
+              "id": "ag-2",
+              "text": "Set Profile type to Agent. Now the Description matters. Other assistants read it to decide when to call this agent, so say exactly what it does."
+            },
+            {
+              "id": "ag-3",
+              "text": "Availability is On demand, or Always available. On demand includes the agent only when the request fits it. Always available includes it in every request, which costs more. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "03",
+      "title": "Let an assistant use it",
+      "subtitle": "The Capabilities tab",
+      "clips": [
+        {
+          "id": "03-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Open the assistant that should call the agent, and open its Capabilities tab. The Agents section lists every agent that you can use, including the ones of other systems."
+            },
+            {
+              "id": "use-2",
+              "text": "Tick the agent, and save. From now on, the assistant can hand a request to it."
+            }
+          ]
+        }
+      ],
+      "short": "use"
+    },
+    {
+      "id": "04",
+      "title": "Site tools",
+      "subtitle": "The Orchard Core AI Agent feature",
+      "clips": [
+        {
+          "id": "04-tools",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tol-1",
+              "text": "With the Orchard Core AI Agent feature on, the Tools section of the same tab lists the actions that an assistant can take on this site, in groups: content definitions, content, features, recipes, roles, users, the time zones and the date."
+            },
+            {
+              "id": "tol-2",
+              "text": "Select All in a group ticks every tool of the group. These tools can change the site, so give them only to assistants that need them, and to people who may use them."
+            }
+          ]
+        }
+      ],
+      "short": "tools"
+    },
+    {
+      "id": "05",
+      "title": "Try it on its own",
+      "subtitle": "Invoke Profile",
+      "clips": [
+        {
+          "id": "05-invoke",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inv-1",
+              "text": "To try an agent on its own, open its Actions menu in the list of profiles, and click Invoke Profile."
+            },
+            {
+              "id": "inv-2",
+              "text": "Ask it something that fits its job, such as: give me three facts about shipping boxes."
+            },
+            {
+              "id": "inv-3",
+              "text": "It answers by itself. When an assistant calls the agent, this is the kind of answer that the assistant gets back, and uses in its own reply."
+            }
+          ]
+        }
+      ],
+      "short": "invoke"
+    },
+    {
+      "id": "06",
+      "title": "Writing a good agent",
+      "subtitle": "Small and clear",
+      "clips": [
+        {
+          "id": "06-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Give an agent one narrow job, and say it in the first sentence of the description."
+            },
+            {
+              "id": "tip-2",
+              "text": "Give it only the tools and knowledge that the job needs. A smaller agent is faster, cheaper and easier to trust."
+            },
+            {
+              "id": "tip-3",
+              "text": "Write the description for the assistant that reads it, not for people: say what the agent does, and what it returns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create an agent with a clear description, tick it on the assistants that need it, and keep its tools small. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

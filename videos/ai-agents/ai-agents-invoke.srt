@@ -1,0 +1,28 @@
+1
+00:00:03,216 --> 00:00:07,104
+To try an agent on its own, open its Actions menu in the
+
+2
+00:00:07,104 --> 00:00:10,176
+list of profiles, and click Invoke Profile.
+
+3
+00:00:10,808 --> 00:00:13,875
+Ask it something that fits its job, such as:
+
+4
+00:00:13,875 --> 00:00:16,758
+give me three facts about shipping boxes.
+
+5
+00:00:17,233 --> 00:00:18,740
+It answers by itself.
+
+6
+00:00:18,740 --> 00:00:22,760
+When an assistant calls the agent, this is the kind of answer that
+
+7
+00:00:22,760 --> 00:00:25,943
+the assistant gets back, and uses in its own reply.
+

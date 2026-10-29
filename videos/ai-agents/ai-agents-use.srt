@@ -1,0 +1,16 @@
+1
+00:00:03,206 --> 00:00:07,910
+Open the assistant that should call the agent, and open its Capabilities tab.
+
+2
+00:00:07,910 --> 00:00:13,406
+The Agents section lists every agent that you can use, including the ones of other systems.
+
+3
+00:00:13,858 --> 00:00:15,858
+Tick the agent, and save.
+
+4
+00:00:15,858 --> 00:00:19,598
+From now on, the assistant can hand a request to it.
+

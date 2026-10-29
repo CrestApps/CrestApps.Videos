@@ -1,0 +1,24 @@
+1
+00:00:03,202 --> 00:00:07,818
+With the Orchard Core AI Agent feature on, the Tools section of the
+
+2
+00:00:07,818 --> 00:00:13,129
+same tab lists the actions that an assistant can take on this site, in groups:
+
+3
+00:00:13,129 --> 00:00:19,262
+content definitions, content, features, recipes, roles, users, the time zones and the date.
+
+4
+00:00:19,712 --> 00:00:22,849
+Select All in a group ticks every tool of the group.
+
+5
+00:00:22,849 --> 00:00:26,906
+These tools can change the site, so give them only to assistants that
+
+6
+00:00:26,906 --> 00:00:29,502
+need them, and to people who may use them.
+
