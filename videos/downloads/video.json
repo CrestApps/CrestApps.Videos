@@ -1,0 +1,89 @@
+{
+  "title": "Digital Downloads: Sell Files and Deliver Them Safely | CrestApps for Orchard Core",
+  "description": "A file you sell can be copied, so you cannot leave it at a public address. The CrestApps Digital Downloads module keeps your files private, delivers them to buyers after they pay through links that expire and can be used a set number of times, and lets you take a link back, give downloads back, or send a buyer their link again.\n\nIn this video:\n• Why digital downloads, and how upload, payment and download fit together\n• Setting up a digital product: files and limits\n• The site-wide limits under Settings\n• What buyers see: the email, their account, their order and the download page\n• Managing a buyer's downloads: take back, give back, the buyer's link\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "digital downloads",
+    "sell ebooks",
+    "sell software",
+    "download links",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why digital downloads"
+    },
+    {
+      "time": "0:56",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:32",
+      "title": "Set up a digital product"
+    },
+    {
+      "time": "2:25",
+      "title": "Settings"
+    },
+    {
+      "time": "2:48",
+      "title": "What buyers see"
+    },
+    {
+      "time": "3:38",
+      "title": "Manage a buyer's downloads"
+    },
+    {
+      "time": "4:25",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:00",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/digital-downloads"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/downloads"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Downloads"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/digital-downloads.md",
+    "src/CrestApps.Docs/docs/modules/downloads.md"
+  ],
+  "length": "5:11"
+}

@@ -1,0 +1,24 @@
+1
+00:00:03,300 --> 00:00:05,952
+Open Settings, Commerce, Downloads.
+
+2
+00:00:05,952 --> 00:00:11,578
+Downloads per buyer is how many times a buyer can download each file they bought.
+
+3
+00:00:11,578 --> 00:00:13,260
+Zero means no limit.
+
+4
+00:00:13,878 --> 00:00:17,911
+Days the links work is how long after paying the links work.
+
+5
+00:00:17,911 --> 00:00:20,050
+Zero means they never expire.
+
+6
+00:00:20,050 --> 00:00:22,738
+A product's own values win over these.
+

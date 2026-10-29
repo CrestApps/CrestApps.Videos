@@ -1,0 +1,224 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.883
+Some of what you sell is not a box in the mail, but a file:
+
+00:00:04.883 --> 00:00:07.154
+an ebook, a guide, an installer.
+
+00:00:07.154 --> 00:00:12.590
+This video shows how the Digital Downloads module keeps those files private, delivers
+
+00:00:12.590 --> 00:00:17.370
+them to buyers after they pay, and lets you manage each buyer's downloads.
+
+00:00:21.970 --> 00:00:24.081
+A file you sell can be copied.
+
+00:00:24.081 --> 00:00:28.010
+If its address is public, anyone who finds it, or is sent it,
+
+00:00:28.010 --> 00:00:30.180
+can download it without paying.
+
+00:00:30.930 --> 00:00:34.209
+You still want delivery to be automatic and quick:
+
+00:00:34.209 --> 00:00:38.250
+the buyer pays, and the file is theirs, with no email from you.
+
+00:00:39.000 --> 00:00:41.330
+And you want control afterwards:
+
+00:00:41.330 --> 00:00:46.970
+a buyer who loses an email gets the link again, and a refunded order stops delivering.
+
+00:00:47.720 --> 00:00:52.938
+The Digital Downloads module keeps files private, and delivers them through links that
+
+00:00:52.938 --> 00:00:55.830
+expire and can be used a set number of times.
+
+00:01:00.030 --> 00:01:02.571
+You upload the file on the product.
+
+00:01:02.571 --> 00:01:05.980
+It is kept privately, never in the media library.
+
+00:01:06.730 --> 00:01:09.441
+The buyer pays, and the order is placed.
+
+00:01:09.441 --> 00:01:13.860
+A buyer of digital products only is not asked for a shipping address.
+
+00:01:14.610 --> 00:01:19.999
+The buyer downloads from their order page, or from the link in the confirmation email.
+
+00:01:19.999 --> 00:01:24.040
+Links work a set number of times, and for a set number of days.
+
+00:01:24.790 --> 00:01:27.291
+You manage the downloads on the order:
+
+00:01:27.291 --> 00:01:31.270
+take a link back, give downloads back, or copy the buyer's link.
+
+00:01:35.565 --> 00:01:40.545
+A digital product is a product of the Digital kind, with the Digital files part.
+
+00:01:40.545 --> 00:01:44.945
+Open Commerce, Products, and edit the product that you sell as a file.
+
+00:01:47.815 --> 00:01:50.659
+Under Files, choose one or more files.
+
+00:01:50.659 --> 00:01:55.766
+Each one uploads right away, up to one gigabyte, and appears in the list.
+
+00:01:55.766 --> 00:02:00.938
+To replace a file, tick Remove next to the old one and upload the new one.
+
+00:02:00.938 --> 00:02:04.235
+Buyers who already have the old file keep it.
+
+00:02:04.751 --> 00:02:08.373
+Downloads per buyer and Days the links work are optional.
+
+00:02:08.373 --> 00:02:12.454
+Set them to give this product its own limits, or leave them blank
+
+00:02:12.454 --> 00:02:14.351
+to use the site's settings.
+
+00:02:14.941 --> 00:02:16.532
+Publish the product.
+
+00:02:16.532 --> 00:02:21.122
+When the site checks uploads for viruses, a file that fails the check
+
+00:02:21.122 --> 00:02:24.181
+is not kept, and an error shows under Files.
+
+00:02:28.481 --> 00:02:31.133
+Open Settings, Commerce, Downloads.
+
+00:02:31.133 --> 00:02:36.760
+Downloads per buyer is how many times a buyer can download each file they bought.
+
+00:02:36.760 --> 00:02:38.441
+Zero means no limit.
+
+00:02:39.059 --> 00:02:43.092
+Days the links work is how long after paying the links work.
+
+00:02:43.092 --> 00:02:45.231
+Zero means they never expire.
+
+00:02:45.231 --> 00:02:47.919
+A product's own values win over these.
+
+00:02:52.219 --> 00:02:56.801
+When the order is paid, the confirmation email has a Your downloads section,
+
+00:02:56.801 --> 00:03:00.879
+with a link to each file and how many downloads and days it allows.
+
+00:03:01.502 --> 00:03:05.307
+In their account, a signed-in buyer finds Downloads:
+
+00:03:05.307 --> 00:03:10.882
+each file, the order it came from, how many downloads are left, and until when.
+
+00:03:11.376 --> 00:03:13.555
+From Orders, they open the order.
+
+00:03:13.555 --> 00:03:17.579
+Its page lists what they bought and what they paid, and shows Your
+
+00:03:17.579 --> 00:03:20.596
+downloads, with a Download button for each file.
+
+00:03:21.054 --> 00:03:25.467
+A link opens a page with the file's name, how many downloads are
+
+00:03:25.467 --> 00:03:28.555
+left and until when, and a Download button.
+
+00:03:28.555 --> 00:03:31.896
+When a link no longer works, the page says why:
+
+00:03:31.896 --> 00:03:37.254
+it expired, all its downloads were used, or the order was canceled or refunded.
+
+00:03:41.509 --> 00:03:45.667
+Open the order under Commerce, Orders, here the order of Jamie Chen.
+
+00:03:45.667 --> 00:03:50.217
+Downloads lists each file, how many times it was downloaded, until when its
+
+00:03:50.217 --> 00:03:52.689
+link works, and whether it still does.
+
+00:03:53.318 --> 00:03:55.561
+Take back stops a link from working.
+
+00:03:55.561 --> 00:03:57.910
+Let's take back the first file's link:
+
+00:03:57.910 --> 00:04:01.648
+the buyer who opens it is told that it no longer works, and why.
+
+00:04:02.103 --> 00:04:05.190
+Give downloads back lets the buyer download again:
+
+00:04:05.190 --> 00:04:09.269
+the count starts over, the link works for another period, and a link
+
+00:04:09.269 --> 00:04:11.033
+you took back works again.
+
+00:04:11.485 --> 00:04:15.325
+Buyer's link is the link to send a buyer who lost their email.
+
+00:04:15.794 --> 00:04:20.979
+Canceling an order, or refunding all of it, takes its downloads back.
+
+00:04:20.979 --> 00:04:24.504
+After a partial refund, the buyer keeps them.
+
+00:04:28.704 --> 00:04:30.575
+An author selling ebooks:
+
+00:04:30.575 --> 00:04:35.644
+upload each ebook on its product, and every buyer gets it the moment they pay.
+
+00:04:36.394 --> 00:04:39.124
+Software with a time-limited download:
+
+00:04:39.124 --> 00:04:43.404
+set Days the links work, so a link found later no longer works.
+
+00:04:44.154 --> 00:04:46.421
+A course with several files:
+
+00:04:46.421 --> 00:04:51.354
+add every file to one product, and the buyer downloads each of them.
+
+00:04:52.104 --> 00:04:53.224
+A lost email:
+
+00:04:53.224 --> 00:04:57.290
+open the order, copy the buyer's link, and send it, or give the
+
+00:04:57.290 --> 00:04:59.764
+downloads back if they were used up.
+
+00:05:01.764 --> 00:05:06.985
+Digital Downloads keeps your files private, delivers them after payment, and leaves you
+
+00:05:06.985 --> 00:05:08.725
+in control of every link.
+
+00:05:08.725 --> 00:05:10.184
+Thanks for watching.
+

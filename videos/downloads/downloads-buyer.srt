@@ -1,0 +1,44 @@
+1
+00:00:03,300 --> 00:00:07,881
+When the order is paid, the confirmation email has a Your downloads section,
+
+2
+00:00:07,881 --> 00:00:11,960
+with a link to each file and how many downloads and days it allows.
+
+3
+00:00:12,583 --> 00:00:16,387
+In their account, a signed-in buyer finds Downloads:
+
+4
+00:00:16,387 --> 00:00:21,963
+each file, the order it came from, how many downloads are left, and until when.
+
+5
+00:00:22,457 --> 00:00:24,636
+From Orders, they open the order.
+
+6
+00:00:24,636 --> 00:00:28,659
+Its page lists what they bought and what they paid, and shows Your
+
+7
+00:00:28,659 --> 00:00:31,677
+downloads, with a Download button for each file.
+
+8
+00:00:32,135 --> 00:00:36,547
+A link opens a page with the file's name, how many downloads are
+
+9
+00:00:36,547 --> 00:00:39,636
+left and until when, and a Download button.
+
+10
+00:00:39,636 --> 00:00:42,977
+When a link no longer works, the page says why:
+
+11
+00:00:42,977 --> 00:00:48,335
+it expired, all its downloads were used, or the order was canceled or refunded.
+
