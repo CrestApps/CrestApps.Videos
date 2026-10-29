@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.181 --> 00:00:06.836
+A connection does nothing until an assistant uses it.
+
+00:00:06.836 --> 00:00:12.041
+Open Artificial Intelligence, Profiles, and edit the profile of the assistant.
+
+00:00:12.498 --> 00:00:17.878
+On the Capabilities tab, find MCP Connections and tick the connection.
+
+00:00:18.328 --> 00:00:19.357
+Click Save.
+
+00:00:19.357 --> 00:00:23.956
+The assistant now sees the tools of that server, and decides by itself
+
+00:00:23.956 --> 00:00:25.408
+when to call them.
+
+00:00:25.859 --> 00:00:30.362
+Profile templates and chat interactions have the same list, so you can offer
+
+00:00:30.362 --> 00:00:32.339
+a connection wherever it fits.
+

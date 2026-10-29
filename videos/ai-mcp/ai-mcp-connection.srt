@@ -1,0 +1,56 @@
+1
+00:00:03,178 --> 00:00:07,967
+Open Artificial Intelligence, Model Context Protocol, MCP Hosts.
+
+2
+00:00:07,967 --> 00:00:11,388
+The connections of the site are listed here.
+
+3
+00:00:11,841 --> 00:00:13,401
+Click Add Connection.
+
+4
+00:00:13,401 --> 00:00:16,693
+The window lists the kinds of server you can reach.
+
+5
+00:00:16,693 --> 00:00:20,621
+Click Add on Server-Sent Events, which is a server on the web.
+
+6
+00:00:21,072 --> 00:00:26,642
+Give the connection a Title, and enter the Endpoint, which is the address of the server.
+
+7
+00:00:27,092 --> 00:00:30,845
+Under Authentication, choose how the site signs in.
+
+8
+00:00:30,845 --> 00:00:33,281
+Anonymous suits an open server.
+
+9
+00:00:33,281 --> 00:00:35,782
+This server asks for an API key.
+
+10
+00:00:36,235 --> 00:00:41,033
+You can set the Header Name and a Key Prefix, then paste the API key.
+
+11
+00:00:41,033 --> 00:00:44,295
+It is stored securely, and never shown again.
+
+12
+00:00:44,747 --> 00:00:45,705
+Click Save.
+
+13
+00:00:45,705 --> 00:00:49,592
+The site does not contact the server yet, so a wrong address or
+
+14
+00:00:49,592 --> 00:00:53,367
+key shows up the first time an assistant uses the connection.
+

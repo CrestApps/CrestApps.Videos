@@ -1,0 +1,52 @@
+1
+00:00:03,221 --> 00:00:08,473
+Prompts are ready-made instructions that other AI apps can offer to their users.
+
+2
+00:00:08,473 --> 00:00:13,971
+Open Artificial Intelligence, Model Context Protocol, Prompts, and click Add Prompt.
+
+3
+00:00:14,430 --> 00:00:19,844
+Enter a Title, a unique Name, and a Description that says what the prompt does.
+
+4
+00:00:19,844 --> 00:00:23,856
+Other apps use the Name to ask for the prompt, so keep it
+
+5
+00:00:23,856 --> 00:00:25,830
+short and without spaces.
+
+6
+00:00:26,287 --> 00:00:28,099
+Arguments are the blanks.
+
+7
+00:00:28,099 --> 00:00:32,247
+Click Add Argument, give it a Name, and mark it Required when the
+
+8
+00:00:32,247 --> 00:00:33,707
+app must supply it.
+
+9
+00:00:34,175 --> 00:00:37,297
+Under Messages, add the text that is sent.
+
+10
+00:00:37,297 --> 00:00:41,330
+Choose a Role, User or Assistant, and write the Content.
+
+11
+00:00:41,330 --> 00:00:47,185
+An argument's name in double curly braces is replaced by the value the app supplies.
+
+12
+00:00:47,652 --> 00:00:48,733
+Click Save.
+
+13
+00:00:48,733 --> 00:00:53,122
+Any app connected to your MCP server can now offer this prompt.
+
