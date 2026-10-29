@@ -1,0 +1,121 @@
+{
+  "title": "Marketplace and Classifieds: Let Other People Sell on Your Site | CrestApps for Orchard Core",
+  "description": "A site can do more than sell its own products. With the CrestApps Marketplace, other sellers, called vendors, list products while your store takes the payment, keeps a commission and pays them once the sale is safe from returns. With Classifieds, your visitors post their own listings, such as ads, directory entries or homes for sale, and you approve them before they show.\n\nIn this video:\n• Why open your site to other sellers, and how both modules are organized\n• Marketplace settings: commission, days held, and payouts\n• Adding a vendor, and choosing it on a product\n• A vendor's sales, what is held, ready and paid out, and releasing a sale\n• What the people who run a vendor see in their account\n• Letting visitors post a kind of listing\n• Posting, approving, rejecting, renewing and upgrading listings\n• Searching listings by words and distance\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Marketplace",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "marketplace",
+    "multi-vendor",
+    "vendor commission",
+    "classifieds",
+    "classified ads",
+    "moderation",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why open your site to other sellers"
+    },
+    {
+      "time": "0:58",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:39",
+      "title": "Marketplace settings"
+    },
+    {
+      "time": "2:25",
+      "title": "Add a vendor"
+    },
+    {
+      "time": "3:13",
+      "title": "A vendor's sales and payouts"
+    },
+    {
+      "time": "4:12",
+      "title": "The vendor's account"
+    },
+    {
+      "time": "4:42",
+      "title": "Let visitors post listings"
+    },
+    {
+      "time": "5:16",
+      "title": "Post a listing"
+    },
+    {
+      "time": "5:53",
+      "title": "Approve listings"
+    },
+    {
+      "time": "6:29",
+      "title": "Renew and upgrade"
+    },
+    {
+      "time": "7:10",
+      "title": "The search"
+    },
+    {
+      "time": "7:30",
+      "title": "Use cases"
+    },
+    {
+      "time": "8:04",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Marketplace user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/marketplace"
+    },
+    {
+      "label": "Classifieds user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/classifieds"
+    },
+    {
+      "label": "Marketplace technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/marketplace"
+    },
+    {
+      "label": "Classifieds technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/classifieds"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Marketplace"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/marketplace.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/classifieds.md",
+    "src/CrestApps.Docs/docs/modules/marketplace.md",
+    "src/CrestApps.Docs/docs/modules/classifieds.md"
+  ],
+  "length": "8:16"
+}

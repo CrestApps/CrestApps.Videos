@@ -1,0 +1,68 @@
+1
+00:00:03,204 --> 00:00:04,856
+Click View on a vendor.
+
+2
+00:00:04,856 --> 00:00:08,786
+Held is what its sales have earned that is not yet safe to pay.
+
+3
+00:00:08,786 --> 00:00:11,578
+Ready to pay out is what has been released.
+
+4
+00:00:11,578 --> 00:00:14,654
+Paid out is what has already gone to the vendor.
+
+5
+00:00:15,112 --> 00:00:19,589
+Under Sales, each order of the vendor's products shows what was paid, the
+
+6
+00:00:19,589 --> 00:00:24,122
+commission the store kept, what the vendor earned, and its status, such as
+
+7
+00:00:24,122 --> 00:00:25,482
+held until a date.
+
+8
+00:00:25,936 --> 00:00:31,086
+A sale is ready once its hold ends and, for goods, its order is fulfilled.
+
+9
+00:00:31,086 --> 00:00:35,979
+To pay one sooner, such as a service that was already delivered, click
+
+10
+00:00:35,979 --> 00:00:38,296
+Release now next to its order.
+
+11
+00:00:38,749 --> 00:00:42,597
+For a vendor with a payout account, Pay out what's ready pays it
+
+12
+00:00:42,597 --> 00:00:44,302
+everything that is ready.
+
+13
+00:00:44,302 --> 00:00:47,930
+This vendor has not set up payouts yet, so the page says so,
+
+14
+00:00:47,930 --> 00:00:49,909
+and nothing can be paid to it.
+
+15
+00:00:50,363 --> 00:00:54,433
+When you refund an order, the vendor's share of the refund comes off
+
+16
+00:00:54,433 --> 00:00:55,643
+what it is owed.
+
+17
+00:00:55,643 --> 00:00:57,733
+Payouts lists what was paid out.
+

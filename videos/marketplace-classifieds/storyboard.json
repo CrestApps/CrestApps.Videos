@@ -1,0 +1,390 @@
+{
+  "title": "Marketplace and Classifieds",
+  "output": "marketplace-classifieds",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Marketplace and Classifieds",
+      "subtitle": "Let other people sell on your site",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A site can do more than sell its own products. This video shows two modules: the Marketplace, where other sellers list products and your store keeps a commission, and Classifieds, where visitors post their own listings for you to approve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why open your site to other sellers",
+      "subtitle": "Reach without stock, and a community",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A store grows faster with more to sell, but you cannot make or stock everything yourself."
+            },
+            {
+              "id": "why-2",
+              "text": "In a marketplace, other sellers, called vendors, list products. Your store takes the payment, keeps a commission, and pays the vendor the rest once the sale is safe from returns."
+            },
+            {
+              "id": "why-3",
+              "text": "In classifieds, your visitors post their own listings, such as ads, directory entries or homes for sale. You approve them, they run for a set number of days, and owners renew them or pay to have them featured."
+            },
+            {
+              "id": "why-4",
+              "text": "Both bring people and listings to your site that you did not have to create."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Two modules, two kinds of seller",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "In the Marketplace, a vendor is a seller with the people who run it. You choose a vendor on each of its products."
+            },
+            {
+              "id": "how-2",
+              "text": "When a vendor's product sells, the store keeps its commission. The rest is held until it is safe to pay, then paid out to the vendor's own account."
+            },
+            {
+              "id": "how-3",
+              "text": "In Classifieds, a content type, such as a Classified Ad, lets signed-in visitors post. A moderator approves each listing before it shows."
+            },
+            {
+              "id": "how-4",
+              "text": "An approved listing runs for a term, and its owner renews it. Paid upgrades feature a listing, or bump it to the top."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Marketplace settings",
+      "subtitle": "Your commission and the hold",
+      "clips": [
+        {
+          "id": "03-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mset-1",
+              "text": "Open Settings, Commerce, Marketplace. Commission is what the store keeps of each vendor's sale, after discounts. A vendor can have its own."
+            },
+            {
+              "id": "mset-2",
+              "text": "Days held is how long a sale is held after it is paid, such as for returns, before the vendor can be paid for it."
+            },
+            {
+              "id": "mset-3",
+              "text": "Hold a sale of goods until its order is fulfilled makes goods wait for shipping as well as for the days held. Services and downloads wait for the days only."
+            },
+            {
+              "id": "mset-4",
+              "text": "Pay vendors out by themselves pays what is released within the hour. Untick it to pay out from each vendor's page. Vendors' country is where a vendor's payout account is made when the vendor names none."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "04",
+      "title": "Add a vendor",
+      "subtitle": "A seller, and who runs it",
+      "clips": [
+        {
+          "id": "04-vendor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vend-1",
+              "text": "Open Commerce, Vendors. The sellers on your marketplace are listed here, with whether they can be paid. Click Add vendor."
+            },
+            {
+              "id": "vend-2",
+              "text": "Enter its Name and its Email. The email is where Stripe's setup and the vendor's notices go."
+            },
+            {
+              "id": "vend-3",
+              "text": "Under People who run it, enter the user names of the people who sell through it, one per line. They see the vendor's sales and payouts in their account."
+            },
+            {
+              "id": "vend-4",
+              "text": "Leave Commission empty to use the store's, or enter the vendor's own. The Status can suspend a vendor, so that nothing is paid out to it."
+            },
+            {
+              "id": "vend-5",
+              "text": "Click Save. Then open a product of the Vendor kind, choose the vendor under Vendor, and publish. The vendor part has to be on the product's content type first."
+            }
+          ]
+        }
+      ],
+      "short": "vendor"
+    },
+    {
+      "id": "05",
+      "title": "A vendor's sales and payouts",
+      "subtitle": "Held, ready and paid out",
+      "clips": [
+        {
+          "id": "05-detail",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "det-1",
+              "text": "Click View on a vendor. Held is what its sales have earned that is not yet safe to pay. Ready to pay out is what has been released. Paid out is what has already gone to the vendor."
+            },
+            {
+              "id": "det-2",
+              "text": "Under Sales, each order of the vendor's products shows what was paid, the commission the store kept, what the vendor earned, and its status, such as held until a date."
+            },
+            {
+              "id": "det-3",
+              "text": "A sale is ready once its hold ends and, for goods, its order is fulfilled. To pay one sooner, such as a service that was already delivered, click Release now next to its order."
+            },
+            {
+              "id": "det-4",
+              "text": "For a vendor with a payout account, Pay out what's ready pays it everything that is ready. This vendor has not set up payouts yet, so the page says so, and nothing can be paid to it."
+            },
+            {
+              "id": "det-5",
+              "text": "When you refund an order, the vendor's share of the refund comes off what it is owed. Payouts lists what was paid out."
+            }
+          ]
+        }
+      ],
+      "short": "detail"
+    },
+    {
+      "id": "06",
+      "title": "The vendor's account",
+      "subtitle": "What the people who run it see",
+      "clips": [
+        {
+          "id": "06-portal",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "port-1",
+              "text": "A person who runs a vendor finds Vendor in their account. Their sales show what is held, what is ready to pay out, and what was paid out."
+            },
+            {
+              "id": "port-2",
+              "text": "Set up payouts takes them to Stripe's own pages, once, to make their payout account. Your Stripe account needs Connect turned on first."
+            },
+            {
+              "id": "port-3",
+              "text": "Below, Sales lists each sale with its commission and earnings, and Payouts lists what was paid."
+            }
+          ]
+        }
+      ],
+      "short": "portal"
+    },
+    {
+      "id": "07",
+      "title": "Let visitors post listings",
+      "subtitle": "A content type that visitors can post",
+      "clips": [
+        {
+          "id": "07-type",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "type-1",
+              "text": "To let visitors post a kind of listing, add the Classified part to a content type, such as Classified Ad. Open Design, Content Definition, Content Types, and open the type."
+            },
+            {
+              "id": "type-2",
+              "text": "Edit the Classified part. Days a listing runs is how long it is up from when it is approved, and again each time its poster renews it."
+            },
+            {
+              "id": "type-3",
+              "text": "Tick A moderator approves each listing before it's shown to hold new listings for you. It also holds a listing again after its poster changes it."
+            }
+          ]
+        }
+      ],
+      "short": "type"
+    },
+    {
+      "id": "08",
+      "title": "Post a listing",
+      "subtitle": "What a visitor does",
+      "clips": [
+        {
+          "id": "08-post",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "post-1",
+              "text": "A signed-in visitor opens My listings in their account, and clicks Post a Classified Ad."
+            },
+            {
+              "id": "post-2",
+              "text": "They enter a Title, and a Description of what they are offering, such as its condition and what comes with it."
+            },
+            {
+              "id": "post-3",
+              "text": "Under Where, they enter a Place. The Latitude and Longitude are optional, and Use where I am fills them in, so that people searching nearby find the listing."
+            },
+            {
+              "id": "post-4",
+              "text": "They click Post it. A moderator checks each listing before it is shown, and the visitor finds it under My listings, waiting for approval."
+            }
+          ]
+        }
+      ],
+      "short": "post"
+    },
+    {
+      "id": "09",
+      "title": "Approve listings",
+      "subtitle": "Approve or reject, with a reason",
+      "clips": [
+        {
+          "id": "09-approve",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "moderate-1",
+              "text": "Open Content, Posted listings. The list filters by status: Waiting for approval, Up, Rejected, Expired, or Every listing. Each row shows the listing, who posted it, its place and its status."
+            },
+            {
+              "id": "moderate-2",
+              "text": "Click Approve to show a listing for its term."
+            },
+            {
+              "id": "moderate-3",
+              "text": "To take one down, type a reason if you like, and click Reject. The owner is emailed."
+            },
+            {
+              "id": "moderate-4",
+              "text": "When an owner edits an approved listing of a kind that needs approval, it waits for you again."
+            }
+          ]
+        }
+      ],
+      "short": "approve"
+    },
+    {
+      "id": "10",
+      "title": "Renew and upgrade",
+      "subtitle": "From My listings",
+      "clips": [
+        {
+          "id": "10-own",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "own-1",
+              "text": "On its end date, a listing is taken down and its owner is emailed. Under My listings, each listing shows its status and when it is up until."
+            },
+            {
+              "id": "own-2",
+              "text": "Renew starts a new term. Renewing a listing that is still up adds a term to its end."
+            },
+            {
+              "id": "own-3",
+              "text": "Upgrades are products with the Classified upgrade part. Feature puts the listing at the top of searches, with a Featured badge, for its days. Bump moves it to the top once, as if just posted."
+            },
+            {
+              "id": "own-4",
+              "text": "Owners buy upgrades from My listings, through the cart and checkout, and the upgrade applies when the order is paid."
+            }
+          ]
+        }
+      ],
+      "short": "renew"
+    },
+    {
+      "id": "11",
+      "title": "The search",
+      "subtitle": "Find listings near you",
+      "clips": [
+        {
+          "id": "11-search",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "search-1",
+              "text": "Anyone finds listings at the listings page, by Words and by distance."
+            },
+            {
+              "id": "search-2",
+              "text": "Within (km) limits the distance from a place, and Near me uses where the visitor is. Listings that have coordinates also show on a map."
+            }
+          ]
+        }
+      ],
+      "short": "search"
+    },
+    {
+      "id": "12",
+      "title": "Use cases",
+      "subtitle": "How sites put it to work",
+      "clips": [
+        {
+          "id": "12-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A craft marketplace: each maker is a vendor, the store keeps a commission, and makers are paid after the return period."
+            },
+            {
+              "id": "use-2",
+              "text": "Services: release a sale when the work is delivered, instead of waiting out the hold."
+            },
+            {
+              "id": "use-3",
+              "text": "A local noticeboard: visitors post ads, a moderator approves them, and they expire on their own."
+            },
+            {
+              "id": "use-4",
+              "text": "A directory or property site: owners pay to feature a listing, and visitors search by distance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With the Marketplace and Classifieds, other people's products and listings grow your site, and you stay in control of what shows and what is paid. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
