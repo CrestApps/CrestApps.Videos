@@ -1,0 +1,254 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.655
+Tax depends on what you sell and where the buyer is.
+
+00:00:04.655 --> 00:00:10.642
+This video shows why the Taxation module exists, how categories, jurisdictions, rules and
+
+00:00:10.642 --> 00:00:15.810
+tables fit together, and how to use every screen, up to the tax at checkout.
+
+00:00:20.410 --> 00:00:25.229
+Selling online means charging tax, and the right tax depends on what you
+
+00:00:25.229 --> 00:00:27.330
+sell and where the buyer is.
+
+00:00:27.330 --> 00:00:31.160
+A flat percentage on everything is almost never correct.
+
+00:00:31.910 --> 00:00:36.853
+Done by hand, tax is a spreadsheet of rates that changes without warning,
+
+00:00:36.853 --> 00:00:40.170
+and every mistake lands on your own tax return.
+
+00:00:40.920 --> 00:00:44.299
+The Taxation module keeps the rules in one place:
+
+00:00:44.299 --> 00:00:49.460
+which taxes exist, where they apply, to which kinds of products, at what rate.
+
+00:00:50.210 --> 00:00:53.948
+At checkout the right tax is worked out for every order and shown
+
+00:00:53.948 --> 00:00:57.580
+to the buyer, and the order keeps a record of what was charged.
+
+00:01:01.780 --> 00:01:06.424
+Tax categories group your products, such as clothing or books.
+
+00:01:06.424 --> 00:01:10.180
+Tax types name the tax, such as sales tax or VAT.
+
+00:01:10.930 --> 00:01:14.638
+Jurisdictions are the places that charge tax:
+
+00:01:14.638 --> 00:01:17.910
+a country, a state, a county or a city.
+
+00:01:18.660 --> 00:01:24.571
+Rules say which tax applies to which category in which jurisdiction, and at what rate.
+
+00:01:24.571 --> 00:01:28.040
+Tax tables hold rates that depend on the amount.
+
+00:01:28.790 --> 00:01:34.268
+Settings, Commerce, Tax origin says where you sell from, and the Taxation part
+
+00:01:34.268 --> 00:01:38.050
+on a content type puts its products into the system.
+
+00:01:42.247 --> 00:01:45.066
+Open Commerce, Taxation, Categories.
+
+00:01:45.066 --> 00:01:49.900
+A category groups products that are taxed alike, such as clothing.
+
+00:01:49.900 --> 00:01:51.847
+Click Add Tax Category.
+
+00:01:52.298 --> 00:01:54.309
+Enter a Name and a Code.
+
+00:01:54.309 --> 00:02:00.209
+Parent code nests a category inside another, and the Description is for your team.
+
+00:02:00.209 --> 00:02:01.348
+Click Save.
+
+00:02:01.799 --> 00:02:09.684
+Commerce, Taxation, Types lists the kinds of tax, such as SalesTax, VAT, GST and TourismTax.
+
+00:02:09.684 --> 00:02:12.339
+Add Tax Type adds your own.
+
+00:02:16.534 --> 00:02:22.213
+Open Commerce, Taxation, Jurisdictions and click Add Tax Jurisdiction.
+
+00:02:22.213 --> 00:02:25.874
+A jurisdiction is a place that charges tax.
+
+00:02:26.325 --> 00:02:32.154
+Enter the Name and a Code, then choose its Level, such as State, and the Country.
+
+00:02:32.154 --> 00:02:36.575
+Region, County, City and Postal code narrow it down further.
+
+00:02:37.029 --> 00:02:42.539
+A Parent jurisdiction nests a place inside another, and Effective from and Effective
+
+00:02:42.539 --> 00:02:44.438
+to limit when it applies.
+
+00:02:44.438 --> 00:02:45.479
+Click Save.
+
+00:02:49.723 --> 00:02:54.188
+Open Commerce, Taxation, Rules and click Add Tax Rule.
+
+00:02:54.188 --> 00:03:01.927
+Rules come in several kinds, such as Percentage, Fixed amount, Per unit, Per weight and Threshold.
+
+00:03:01.927 --> 00:03:03.713
+Choose Percentage.
+
+00:03:04.164 --> 00:03:08.123
+Give the rule a Name, choose the Tax type, and a Display name,
+
+00:03:08.123 --> 00:03:10.918
+which is what the buyer sees on the order.
+
+00:03:10.918 --> 00:03:14.993
+The Jurisdiction can limit the rule to one place, or stay on Any
+
+00:03:14.993 --> 00:03:18.544
+jurisdiction, and the Category says what it applies to.
+
+00:03:18.995 --> 00:03:22.691
+Customer type limits it to consumers or to businesses.
+
+00:03:22.691 --> 00:03:27.494
+Minimum amount and Maximum amount limit it by price, and Tax is included
+
+00:03:27.494 --> 00:03:32.175
+in the item price takes the tax out of prices that already contain it.
+
+00:03:32.629 --> 00:03:38.371
+Tax is compound charges it on top of other taxes, Reverse charge leaves
+
+00:03:38.371 --> 00:03:44.487
+the tax to the customer, and Applies to shipping charges taxes shipping too.
+
+00:03:44.487 --> 00:03:50.529
+Enter the Rate as a fraction, so 0.0875 means 8.75 percent, and click Save.
+
+00:03:54.829 --> 00:03:57.380
+Open Settings, Commerce, Tax origin.
+
+00:03:57.380 --> 00:04:01.753
+Enter the Country and the State or province you sell from, and the
+
+00:04:01.753 --> 00:04:03.879
+address if tax depends on it.
+
+00:04:08.070 --> 00:04:10.799
+Products need the Taxation part.
+
+00:04:10.799 --> 00:04:17.190
+Open Content, Content Definition, Content Types, edit Product, and click Add Parts.
+
+00:04:17.640 --> 00:04:24.000
+Tick Taxation, which classifies a product for taxation without storing a rate, and add it.
+
+00:04:24.451 --> 00:04:27.140
+Click Edit next to the Taxation part.
+
+00:04:27.140 --> 00:04:31.141
+Default tax category is the category new items start with.
+
+00:04:31.141 --> 00:04:33.141
+Choose Clothing, and save.
+
+00:04:33.592 --> 00:04:34.956
+Open a product.
+
+00:04:34.956 --> 00:04:37.553
+Under Taxation, Taxable is ticked.
+
+00:04:37.553 --> 00:04:43.982
+Choose Clothing as the Tax category, so the rules for that category apply, and click Publish.
+
+00:04:48.159 --> 00:04:52.447
+At checkout, the order summary now shows a Subtotal, and a line for
+
+00:04:52.447 --> 00:04:57.089
+each tax, such as Sales tax and its rate, with what it adds to the total.
+
+00:04:57.546 --> 00:05:00.952
+Due now is what the buyer pays, tax included.
+
+00:05:00.952 --> 00:05:07.096
+The order keeps every tax it was charged, so reports and invoices show the same lines.
+
+00:05:11.396 --> 00:05:16.857
+Commerce, Taxation, Tables holds a list of amount ranges, each with its own
+
+00:05:16.857 --> 00:05:21.576
+rate, for the Tax table lookup, Progressive and Threshold rules.
+
+00:05:22.036 --> 00:05:27.925
+Settings, Commerce, TaxJar works out United States sales tax by state, county and
+
+00:05:27.925 --> 00:05:32.256
+city, from your TaxJar account, instead of your own rules.
+
+00:05:32.713 --> 00:05:37.565
+The EU VAT standard rates recipe adds a VAT rule for every member
+
+00:05:37.565 --> 00:05:42.621
+state, and an Import duty rule charges duty on orders above a value.
+
+00:05:42.621 --> 00:05:47.883
+The VAT one-stop shop report adds up VAT charged to other EU countries.
+
+00:05:52.083 --> 00:05:53.158
+A US shop:
+
+00:05:53.158 --> 00:05:57.927
+a sales tax rule for your state, and tax by category, so clothing
+
+00:05:57.927 --> 00:06:00.413
+and food are taxed differently.
+
+00:06:01.163 --> 00:06:02.785
+A shop in the EU:
+
+00:06:02.785 --> 00:06:08.143
+VAT rules for every country you sell to, with prices that include VAT.
+
+00:06:08.893 --> 00:06:10.220
+Selling abroad:
+
+00:06:10.220 --> 00:06:14.834
+an import duty rule that charges duty on large orders, so the buyer
+
+00:06:14.834 --> 00:06:16.793
+pays nothing on delivery.
+
+00:06:17.543 --> 00:06:18.977
+Business customers:
+
+00:06:18.977 --> 00:06:24.023
+a rule limited to Business customers, with reverse charge where the law allows it.
+
+00:06:26.023 --> 00:06:30.435
+Set the tax up once, by category and by place, and every order
+
+00:06:30.435 --> 00:06:32.446
+is charged the right tax.
+
+00:06:32.446 --> 00:06:34.133
+Thanks for watching.
+
