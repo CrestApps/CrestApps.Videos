@@ -1,0 +1,24 @@
+1
+00:00:03,218 --> 00:00:05,634
+Open Settings, Address suggestions.
+
+2
+00:00:05,634 --> 00:00:10,642
+The page explains that suggestions come from Google Places, and that you create
+
+3
+00:00:10,642 --> 00:00:14,118
+a key for the Places API in the Google Cloud console.
+
+4
+00:00:14,608 --> 00:00:18,370
+Paste the key in the Google Places API key box and save.
+
+5
+00:00:18,370 --> 00:00:21,889
+The key is kept on the server and never shown again.
+
+6
+00:00:21,889 --> 00:00:25,408
+Without a key, people type their address themselves.
+

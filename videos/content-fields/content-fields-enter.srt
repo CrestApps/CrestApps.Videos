@@ -1,0 +1,68 @@
+1
+00:00:03,211 --> 00:00:05,137
+Create a new Branch Office.
+
+2
+00:00:05,137 --> 00:00:09,688
+The editor sees the Main phone box with the United States flag selected,
+
+3
+00:00:09,688 --> 00:00:12,021
+and the Location address below it.
+
+4
+00:00:12,471 --> 00:00:16,949
+Click the flag to choose another country, here Canada, and type the number.
+
+5
+00:00:16,949 --> 00:00:20,541
+The box formats it as you type, and the item keeps the full
+
+6
+00:00:20,541 --> 00:00:23,581
+international number with the country you picked.
+
+7
+00:00:24,033 --> 00:00:29,266
+In the address, the country comes first and the rest of the form follows it.
+
+8
+00:00:29,266 --> 00:00:33,733
+For the United States, the form asks for a State and a ZIP code.
+
+9
+00:00:34,185 --> 00:00:38,593
+Choose Canada, and the form changes to Province and Postal code, in the
+
+10
+00:00:38,593 --> 00:00:41,054
+order Canadian addresses are written.
+
+11
+00:00:41,054 --> 00:00:45,805
+Fill in the street and the city, choose a province, and type the postal code.
+
+12
+00:00:46,255 --> 00:00:49,061
+The address is checked against its country.
+
+13
+00:00:49,061 --> 00:00:53,356
+A postal code that does not belong to the chosen province is refused,
+
+14
+00:00:53,356 --> 00:00:55,475
+and the field says what to fix.
+
+15
+00:00:55,929 --> 00:00:58,353
+Choose the right province, and publish.
+
+16
+00:00:58,353 --> 00:01:02,660
+The saved item shows the phone number grouped for reading, and the address
+
+17
+00:01:02,660 --> 00:01:05,029
+printed the way its country writes it.
+
