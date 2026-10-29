@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.294 --> 00:00:05.807
+Open Operations, Call insights.
+
+00:00:05.807 --> 00:00:10.426
+A report page has a filter panel on top and the results below.
+
+00:00:10.426 --> 00:00:13.754
+Each report shows only the filters it uses.
+
+00:00:14.212 --> 00:00:16.334
+Date range starts on Today.
+
+00:00:16.334 --> 00:00:17.941
+Click it to choose.
+
+00:00:17.941 --> 00:00:21.221
+Relative days run from Today to Last 90 Days.
+
+00:00:21.221 --> 00:00:24.757
+Calendar periods run from This Week to Last Year.
+
+00:00:24.757 --> 00:00:28.872
+Rolling months cover the last three, six or twelve months.
+
+00:00:29.399 --> 00:00:35.545
+Custom Range takes a start and an end date and time, in the site's time zone.
+
+00:00:35.545 --> 00:00:39.619
+On or before and On or after leave one side open.
+
+00:00:40.163 --> 00:00:42.831
+Choose Last 7 Days and click Show.
+
+00:00:42.831 --> 00:00:48.635
+The cards fill in with total, inbound and outbound calls, answered, abandoned and
+
+00:00:48.635 --> 00:00:51.703
+failed, then the daily trend below them.
+

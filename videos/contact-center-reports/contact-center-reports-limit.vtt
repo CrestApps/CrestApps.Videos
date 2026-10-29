@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.222 --> 00:00:07.662
+Reports on agents' time read every state change of every agent.
+
+00:00:07.662 --> 00:00:14.677
+These are all the Workforce and Payroll reports, plus Agent presence audit and Agent activity timeline.
+
+00:00:14.677 --> 00:00:18.152
+Here is Agent time summary for the last 30 days.
+
+00:00:18.628 --> 00:00:22.952
+To keep them fast, they cover at most 31 days at a time.
+
+00:00:22.952 --> 00:00:25.811
+Choose Last 90 Days and click Show.
+
+00:00:25.811 --> 00:00:30.833
+The report says This period is too long for this report, names the
+
+00:00:30.833 --> 00:00:33.832
+longest period, and shows no figures.
+
+00:00:33.832 --> 00:00:37.808
+Other Contact Center reports accept up to 400 days.
+
+00:00:38.264 --> 00:00:42.041
+Go back to a shorter period and the figures return.
+
+00:00:42.041 --> 00:00:44.361
+An export has the same limit.
+
+00:00:44.361 --> 00:00:49.264
+On screen, Agent presence audit lists the most recent 5,000 changes:
+
+00:00:49.264 --> 00:00:52.974
+pick an agent or a shorter period to see the rest.
+

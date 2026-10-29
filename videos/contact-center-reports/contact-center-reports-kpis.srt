@@ -1,0 +1,56 @@
+1
+00:00:03,261 --> 00:00:07,020
+The Executive performance dashboard shows the main numbers.
+
+2
+00:00:07,020 --> 00:00:09,796
+Interactions counts every call or message.
+
+3
+00:00:09,796 --> 00:00:14,943
+Inbound offered counts the inbound ones, and Inbound answered counts those an agent
+
+4
+00:00:14,943 --> 00:00:17,371
+took, with the answer rate under it.
+
+5
+00:00:17,975 --> 00:00:23,275
+Abandoned is a caller who hung up while waiting, or while an agent was ringing.
+
+6
+00:00:23,275 --> 00:00:27,079
+Its percentage is abandoned divided by inbound offered.
+
+7
+00:00:27,079 --> 00:00:33,315
+Voicemail and Callback requested are neither answered nor abandoned, so each has its own card.
+
+8
+00:00:33,931 --> 00:00:37,487
+Failed is a call that failed for a technical reason.
+
+9
+00:00:37,487 --> 00:00:42,268
+Average speed of answer is how long inbound callers waited for an agent.
+
+10
+00:00:42,268 --> 00:00:47,111
+Average handle time is the talk, hold and wrap-up time of a handled call.
+
+11
+00:00:47,650 --> 00:00:51,930
+Transfer rate is the share of answered calls that were transferred.
+
+12
+00:00:51,930 --> 00:00:56,855
+Recording coverage is the share of answered voice calls that have a recording.
+
+13
+00:00:56,855 --> 00:01:01,839
+Charts below show the daily trend, the channel mix, each queue's service level,
+
+14
+00:01:01,839 --> 00:01:03,540
+and the busiest agents.
+
