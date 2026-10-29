@@ -1,0 +1,284 @@
+1
+00:00:01,000 --> 00:00:05,768
+Customers text the numbers of your business, and someone has to answer.
+
+2
+00:00:05,768 --> 00:00:09,607
+The messaging inbox is where your team does it together.
+
+3
+00:00:09,607 --> 00:00:13,756
+This video shows how the inbox is laid out, and how to claim,
+
+4
+00:00:13,756 --> 00:00:17,100
+answer, close, favorite and start conversations.
+
+5
+00:00:21,700 --> 00:00:25,622
+Customers text a shop, a clinic or a help desk the way they
+
+6
+00:00:25,622 --> 00:00:28,760
+text a friend, and they expect an answer soon.
+
+7
+00:00:29,510 --> 00:00:33,166
+If the texts go to one person's phone, they are missed when that
+
+8
+00:00:33,166 --> 00:00:36,300
+person is away, and nobody else can see what was said.
+
+9
+00:00:37,050 --> 00:00:41,164
+In the messaging inbox, a text to a department number lands in a
+
+10
+00:00:41,164 --> 00:00:46,630
+shared list, any agent can claim it, and the whole history stays with the conversation.
+
+11
+00:00:50,830 --> 00:00:55,465
+The list on the left shows your customers, most recent first, with a
+
+12
+00:00:55,465 --> 00:00:57,720
+badge for the unread messages.
+
+13
+00:00:58,470 --> 00:01:03,863
+The conversation in the middle shows the thread, and the buttons that act on it:
+
+14
+00:01:03,863 --> 00:01:06,560
+claim, transfer, close and mark spam.
+
+15
+00:01:07,310 --> 00:01:09,767
+The composer sits under the thread.
+
+16
+00:01:09,767 --> 00:01:14,920
+It has the message box, the attach button and the channel the reply goes out on.
+
+17
+00:01:15,670 --> 00:01:19,589
+The Customer card on the right shows who the customer is, and which
+
+18
+00:01:19,589 --> 00:01:21,790
+contact records match their number.
+
+19
+00:01:26,014 --> 00:01:27,815
+Open Messaging, Inbox.
+
+20
+00:01:27,815 --> 00:01:33,025
+The list shows each customer once, with the newest conversation on top, and
+
+21
+00:01:33,025 --> 00:01:36,434
+a red badge with the number of unread messages.
+
+22
+00:01:36,897 --> 00:01:39,572
+Type in Search to narrow the list.
+
+23
+00:01:39,572 --> 00:01:46,327
+The Filter button chooses All conversations, My conversations or Unassigned, each with a count.
+
+24
+00:01:46,783 --> 00:01:51,830
+The Available switch says whether you accept conversations that are routed to you.
+
+25
+00:01:51,830 --> 00:01:55,903
+It matters only to queues that hand out conversations one by one.
+
+26
+00:01:56,373 --> 00:02:00,747
+The star button shows your favorite customers, and the blue button with the
+
+27
+00:02:00,747 --> 00:02:02,853
+pencil starts a new conversation.
+
+28
+00:02:07,026 --> 00:02:09,867
+Click a customer to open the conversation.
+
+29
+00:02:09,867 --> 00:02:12,529
+The chip at the top says where it sits:
+
+30
+00:02:12,529 --> 00:02:14,896
+here, in the Support shared inbox.
+
+31
+00:02:15,373 --> 00:02:17,841
+Click Claim to make yourself the owner.
+
+32
+00:02:17,841 --> 00:02:23,053
+The conversation leaves the shared inbox, and no other agent can reply to it by accident.
+
+33
+00:02:23,526 --> 00:02:26,146
+Type your reply in the message box.
+
+34
+00:02:26,146 --> 00:02:30,619
+Press Enter or click the send arrow to send, and Shift and Enter
+
+35
+00:02:30,619 --> 00:02:32,280
+to start a new line.
+
+36
+00:02:32,280 --> 00:02:36,626
+Replying to a conversation nobody holds claims it for you too.
+
+37
+00:02:51,665 --> 00:02:53,836
+Your message joins the thread.
+
+38
+00:02:53,836 --> 00:02:59,565
+The delivery of a text depends on the SMS provider, which the administrator sets up once.
+
+39
+00:03:03,757 --> 00:03:08,791
+Open another conversation and click Close when the customer has what they need.
+
+40
+00:03:08,791 --> 00:03:12,997
+A closed conversation says it is closed and cannot be replied to.
+
+41
+00:03:13,471 --> 00:03:16,053
+Reopen brings the conversation back.
+
+42
+00:03:16,053 --> 00:03:21,341
+If someone writes again after you closed it, the conversation reopens by itself.
+
+43
+00:03:21,793 --> 00:03:26,378
+Mark spam closes a conversation that is not from a real customer.
+
+44
+00:03:26,378 --> 00:03:30,963
+Use it, rather than Close, for texts you do not want in the list.
+
+45
+00:03:35,169 --> 00:03:38,545
+Click Add to favorites on a customer you text often.
+
+46
+00:03:38,545 --> 00:03:43,259
+The button then reads Favorite, and clicking it again removes the customer.
+
+47
+00:03:43,724 --> 00:03:47,002
+The star button above the list shows your favorites.
+
+48
+00:03:47,002 --> 00:03:51,354
+They are your own, up to one hundred, and other agents do not see them.
+
+49
+00:03:51,835 --> 00:03:55,507
+The attach button beside the channel name adds pictures.
+
+50
+00:03:55,507 --> 00:03:59,829
+You can also drag a picture onto the conversation, or paste it into
+
+51
+00:03:59,829 --> 00:04:02,375
+the message box, up to ten at a time.
+
+52
+00:04:06,608 --> 00:04:11,124
+The Inbox menu item shows how many conversations are waiting for you, and
+
+53
+00:04:11,124 --> 00:04:14,268
+the Messaging icon turns red while there are any.
+
+54
+00:04:14,727 --> 00:04:18,826
+On any other admin page, a notice pops up at the bottom right
+
+55
+00:04:18,826 --> 00:04:20,600
+when a customer writes.
+
+56
+00:04:20,600 --> 00:04:23,537
+Click the notice to open the conversation.
+
+57
+00:04:23,988 --> 00:04:27,546
+The count and the notices start once you have opened the inbox for
+
+58
+00:04:27,546 --> 00:04:30,758
+the first time, because that visit ties you to your queues.
+
+59
+00:04:34,961 --> 00:04:37,633
+Click the pencil button to write first.
+
+60
+00:04:37,633 --> 00:04:41,611
+From is the number you send from, and it decides the channel.
+
+61
+00:04:42,082 --> 00:04:46,261
+In To, search for contacts or leads, or type a number.
+
+62
+00:04:46,261 --> 00:04:51,972
+Under Other, add numbers that are not in your contacts, separated by commas.
+
+63
+00:04:52,442 --> 00:04:54,861
+Write your message and click Send.
+
+64
+00:04:54,861 --> 00:05:01,272
+One recipient starts a conversation, and several recipients each get their own private conversation.
+
+65
+00:05:05,472 --> 00:05:10,892
+A repair shop tells customers when a bike is ready, and answers the question that follows.
+
+66
+00:05:11,642 --> 00:05:14,294
+A support team shares one number.
+
+67
+00:05:14,294 --> 00:05:19,802
+Whoever is free claims the next text, and the history helps the next agent.
+
+68
+00:05:20,552 --> 00:05:26,292
+A sales team keeps its best customers as favorites, and starts the conversation itself.
+
+69
+00:05:27,042 --> 00:05:32,372
+A manager opens the Unassigned view to see which texts nobody has taken yet.
+
+70
+00:05:34,372 --> 00:05:39,900
+One shared inbox for every text a customer sends, with the history in one place.
+
+71
+00:05:39,900 --> 00:05:41,572
+Thanks for watching.
+

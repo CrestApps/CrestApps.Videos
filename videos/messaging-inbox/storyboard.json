@@ -1,0 +1,284 @@
+{
+  "title": "The Messaging Inbox",
+  "output": "messaging-inbox",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The Messaging Inbox",
+      "subtitle": "One shared place to answer your customers' texts",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Customers text the numbers of your business, and someone has to answer. The messaging inbox is where your team does it together. This video shows how the inbox is laid out, and how to claim, answer, close, favorite and start conversations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a shared inbox",
+      "subtitle": "No text goes unanswered",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Customers text a shop, a clinic or a help desk the way they text a friend, and they expect an answer soon."
+            },
+            {
+              "id": "why-2",
+              "text": "If the texts go to one person's phone, they are missed when that person is away, and nobody else can see what was said."
+            },
+            {
+              "id": "why-3",
+              "text": "In the messaging inbox, a text to a department number lands in a shared list, any agent can claim it, and the whole history stays with the conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How the inbox is organized",
+      "subtitle": "The list, the conversation and the side panel",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "The list on the left shows your customers, most recent first, with a badge for the unread messages."
+            },
+            {
+              "id": "how-2",
+              "text": "The conversation in the middle shows the thread, and the buttons that act on it: claim, transfer, close and mark spam."
+            },
+            {
+              "id": "how-3",
+              "text": "The composer sits under the thread. It has the message box, the attach button and the channel the reply goes out on."
+            },
+            {
+              "id": "how-4",
+              "text": "The Customer card on the right shows who the customer is, and which contact records match their number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Open the inbox",
+      "subtitle": "Search, filter and the Available switch",
+      "clips": [
+        {
+          "id": "03-open",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "open-1",
+              "text": "Open Messaging, Inbox. The list shows each customer once, with the newest conversation on top, and a red badge with the number of unread messages."
+            },
+            {
+              "id": "open-2",
+              "text": "Type in Search to narrow the list. The Filter button chooses All conversations, My conversations or Unassigned, each with a count."
+            },
+            {
+              "id": "open-3",
+              "text": "The Available switch says whether you accept conversations that are routed to you. It matters only to queues that hand out conversations one by one."
+            },
+            {
+              "id": "open-4",
+              "text": "The star button shows your favorite customers, and the blue button with the pencil starts a new conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Claim and reply",
+      "subtitle": "Take a conversation and answer it",
+      "clips": [
+        {
+          "id": "04-reply",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "Click a customer to open the conversation. The chip at the top says where it sits: here, in the Support shared inbox."
+            },
+            {
+              "id": "rep-2",
+              "text": "Click Claim to make yourself the owner. The conversation leaves the shared inbox, and no other agent can reply to it by accident."
+            },
+            {
+              "id": "rep-3",
+              "text": "Type your reply in the message box. Press Enter or click the send arrow to send, and Shift and Enter to start a new line. Replying to a conversation nobody holds claims it for you too."
+            },
+            {
+              "id": "rep-4",
+              "text": "Your message joins the thread. The delivery of a text depends on the SMS provider, which the administrator sets up once."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Close, spam and reopen",
+      "subtitle": "Finish a conversation",
+      "clips": [
+        {
+          "id": "05-close",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cls-1",
+              "text": "Open another conversation and click Close when the customer has what they need. A closed conversation says it is closed and cannot be replied to."
+            },
+            {
+              "id": "cls-2",
+              "text": "Reopen brings the conversation back. If someone writes again after you closed it, the conversation reopens by itself."
+            },
+            {
+              "id": "cls-3",
+              "text": "Mark spam closes a conversation that is not from a real customer. Use it, rather than Close, for texts you do not want in the list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Favorites and attachments",
+      "subtitle": "Keep customers close, and send pictures",
+      "clips": [
+        {
+          "id": "06-favorites",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fav-1",
+              "text": "Click Add to favorites on a customer you text often. The button then reads Favorite, and clicking it again removes the customer."
+            },
+            {
+              "id": "fav-2",
+              "text": "The star button above the list shows your favorites. They are your own, up to one hundred, and other agents do not see them."
+            },
+            {
+              "id": "fav-3",
+              "text": "The attach button beside the channel name adds pictures. You can also drag a picture onto the conversation, or paste it into the message box, up to ten at a time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Know when new work arrives",
+      "subtitle": "Badges and notices",
+      "clips": [
+        {
+          "id": "07-notice",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "not-1",
+              "text": "The Inbox menu item shows how many conversations are waiting for you, and the Messaging icon turns red while there are any."
+            },
+            {
+              "id": "not-2",
+              "text": "On any other admin page, a notice pops up at the bottom right when a customer writes. Click the notice to open the conversation."
+            },
+            {
+              "id": "not-3",
+              "text": "The count and the notices start once you have opened the inbox for the first time, because that visit ties you to your queues."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Start a new conversation",
+      "subtitle": "Write first",
+      "clips": [
+        {
+          "id": "08-new",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "new-1",
+              "text": "Click the pencil button to write first. From is the number you send from, and it decides the channel."
+            },
+            {
+              "id": "new-2",
+              "text": "In To, search for contacts or leads, or type a number. Under Other, add numbers that are not in your contacts, separated by commas."
+            },
+            {
+              "id": "new-3",
+              "text": "Write your message and click Send. One recipient starts a conversation, and several recipients each get their own private conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where a shared inbox helps",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A repair shop tells customers when a bike is ready, and answers the question that follows."
+            },
+            {
+              "id": "use-2",
+              "text": "A support team shares one number. Whoever is free claims the next text, and the history helps the next agent."
+            },
+            {
+              "id": "use-3",
+              "text": "A sales team keeps its best customers as favorites, and starts the conversation itself."
+            },
+            {
+              "id": "use-4",
+              "text": "A manager opens the Unassigned view to see which texts nobody has taken yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "One shared inbox for every text a customer sends, with the history in one place. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
