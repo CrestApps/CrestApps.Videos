@@ -1,0 +1,372 @@
+1
+00:00:01,000 --> 00:00:05,528
+An outbound calling campaign takes a list of contacts and has agents call
+
+2
+00:00:05,528 --> 00:00:08,680
+them, with every call checked against your rules.
+
+3
+00:00:08,680 --> 00:00:12,864
+This video follows the whole story, from the features to turn on to
+
+4
+00:00:12,864 --> 00:00:14,469
+what each person does.
+
+5
+00:00:14,469 --> 00:00:18,710
+Calls never connect on this demo site, so the live parts use slides.
+
+6
+00:00:23,310 --> 00:00:27,565
+This is for managers who run calling campaigns, such as a lead drive,
+
+7
+00:00:27,565 --> 00:00:32,670
+renewals or appointment reminders, and for the agents and supervisors who work them.
+
+8
+00:00:33,420 --> 00:00:37,924
+When it is done, your contacts are loaded as call activities for one
+
+9
+00:00:37,924 --> 00:00:40,420
+campaign, and agents sign in to it.
+
+10
+00:00:40,420 --> 00:00:46,020
+The dialer offers each record in Preview, or places the call in Power and Progressive.
+
+11
+00:00:46,770 --> 00:00:50,092
+Every call passes your compliance checks first:
+
+12
+00:00:50,092 --> 00:00:54,166
+opt-outs, registries, your calling window and dead numbers.
+
+13
+00:00:54,166 --> 00:00:59,807
+Agents record an outcome, the subject flow schedules the follow-up, and reports show
+
+14
+00:00:59,807 --> 00:01:01,750
+how far the campaign got.
+
+15
+00:01:06,050 --> 00:01:09,982
+Your administrator turns on the features in Tools, Features.
+
+16
+00:01:09,982 --> 00:01:12,425
+Omnichannel Management is the base.
+
+17
+00:01:12,425 --> 00:01:18,144
+Contact Center Outbound Dialer gives you Preview dialing, and Contact Center Paced Dialing
+
+18
+00:01:18,144 --> 00:01:20,110
+adds Power and Progressive.
+
+19
+00:01:20,110 --> 00:01:22,612
+Agents also need Agent Entitlements.
+
+20
+00:01:22,612 --> 00:01:27,498
+Managers need the permissions for the setup pages, and agents need the Agent
+
+21
+00:01:27,498 --> 00:01:30,000
+role with the soft phone permission.
+
+22
+00:01:34,200 --> 00:01:36,828
+Start with the data and the outcomes.
+
+23
+00:01:36,828 --> 00:01:42,327
+Import your contacts, create the subject, create the dispositions, and add an action
+
+24
+00:01:42,327 --> 00:01:45,260
+to the subject flow for every one of them.
+
+25
+00:01:46,010 --> 00:01:47,652
+Then set the rules.
+
+26
+00:01:47,652 --> 00:01:54,220
+Create the campaign, a business hours calendar for the calling window, and the dialer profile.
+
+27
+00:01:54,970 --> 00:01:56,393
+Then the people.
+
+28
+00:01:56,393 --> 00:02:00,080
+Add the campaign to the entitlements of each agent.
+
+29
+00:02:00,830 --> 00:02:04,840
+Last, load the work, and let agents dial.
+
+30
+00:02:09,046 --> 00:02:10,574
+Create the subject.
+
+31
+00:02:10,574 --> 00:02:15,220
+On Subject Flows, click Create a new content type, name it Spring lead
+
+32
+00:02:15,220 --> 00:02:17,054
+drive, and click Create.
+
+33
+00:02:17,054 --> 00:02:21,578
+Then find the Omnichannel Subject part, and click Add and Configure.
+
+34
+00:02:21,578 --> 00:02:26,346
+The fields you add to a subject are what agents fill in during the call.
+
+35
+00:02:26,829 --> 00:02:31,177
+The part settings pick a Default campaign, here Spring lead drive.
+
+36
+00:02:31,177 --> 00:02:34,075
+Direction is Outbound, for work you start.
+
+37
+00:02:34,075 --> 00:02:36,914
+Inbound is for customers who contact you.
+
+38
+00:02:36,914 --> 00:02:42,470
+Require a disposition stays on, because the disposition is what runs the subject flow.
+
+39
+00:02:42,470 --> 00:02:43,799
+Then click Save.
+
+40
+00:02:44,331 --> 00:02:47,480
+The subject now appears on Subject Flows.
+
+41
+00:02:47,480 --> 00:02:50,226
+Click Manage Flow, then Add Action.
+
+42
+00:02:50,226 --> 00:02:55,853
+Finish ends the task, Try Again calls later, New Activity creates a follow-up,
+
+43
+00:02:55,853 --> 00:02:59,270
+and Convert Lead turns a lead into a contact.
+
+44
+00:02:59,270 --> 00:03:01,681
+Add one for every disposition.
+
+45
+00:03:05,966 --> 00:03:11,555
+The dispositions are the outcomes agents can pick, such as Call Back Later and Not Interested.
+
+46
+00:03:11,555 --> 00:03:16,306
+One has the Number not in service outcome, so dead numbers are handled for you.
+
+47
+00:03:16,800 --> 00:03:21,101
+The campaign is what agents sign in to, and a business hours calendar
+
+48
+00:03:21,101 --> 00:03:25,460
+sets the hours you may call, checked in the time zone of each contact.
+
+49
+00:03:26,840 --> 00:03:29,583
+The dialer profile chooses how to dial:
+
+50
+00:03:29,583 --> 00:03:35,860
+the mode, the caller ID, the compliance rules with your calling calendar, and the retry settings.
+
+51
+00:03:36,351 --> 00:03:41,804
+On the entitlements of each agent, add the campaign under Allowed campaigns.
+
+52
+00:03:41,804 --> 00:03:47,391
+Without the Agent Entitlements feature, any agent may sign in to any campaign.
+
+53
+00:03:51,635 --> 00:03:55,289
+Open Load Activities, and click Add Activity Load.
+
+54
+00:03:55,289 --> 00:03:58,618
+The sources are Automatic, Dialer and Manual.
+
+55
+00:03:58,618 --> 00:04:04,295
+Dialer activities stay unassigned until the dialer reserves them for an agent, so
+
+56
+00:04:04,295 --> 00:04:06,775
+a campaign of calls uses Dialer.
+
+57
+00:04:07,252 --> 00:04:13,139
+Enter a Title, then pick the Subject content type, the Campaign and the Dialer profile.
+
+58
+00:04:13,139 --> 00:04:17,507
+The campaign is required, unless the subject has a default one.
+
+59
+00:04:17,507 --> 00:04:19,280
+Dial from is optional:
+
+60
+00:04:19,280 --> 00:04:23,522
+pick a number if this campaign should show its own caller ID.
+
+61
+00:04:25,097 --> 00:04:29,530
+Pick the Record type, contacts or leads, and filter who is loaded.
+
+62
+00:04:29,530 --> 00:04:35,011
+Prevent duplicate activity with the same subject keeps contacts who already have an
+
+63
+00:04:35,011 --> 00:04:37,597
+open activity out of the load twice.
+
+64
+00:04:37,597 --> 00:04:39,137
+Then save the load.
+
+65
+00:04:40,423 --> 00:04:43,322
+Choose Load activities from the Actions menu.
+
+66
+00:04:43,322 --> 00:04:47,641
+When it finishes, the list shows that it loaded two of three contacts,
+
+67
+00:04:47,641 --> 00:04:52,473
+and skipped one, because its only number is on the Numbers Not In Service list.
+
+68
+00:04:56,673 --> 00:05:00,297
+Agents sign in to the campaign from the Work tab of the soft
+
+69
+00:05:00,297 --> 00:05:02,603
+phone, and set themselves Available.
+
+70
+00:05:03,353 --> 00:05:07,348
+With Preview, each record is offered with Dial and Skip.
+
+71
+00:05:07,348 --> 00:05:13,793
+The agent reviews it, clicks Dial, and the server places the call after the compliance checks.
+
+72
+00:05:14,543 --> 00:05:19,450
+With Power or Progressive, the dialer places the call for an available agent,
+
+73
+00:05:19,450 --> 00:05:22,583
+and the record opens when the customer answers.
+
+74
+00:05:23,333 --> 00:05:28,635
+After the call, the agent completes the activity with a disposition and notes.
+
+75
+00:05:28,635 --> 00:05:31,854
+That ends wrap-up, and runs the subject flow:
+
+76
+00:05:31,854 --> 00:05:34,253
+try again later, or a follow-up.
+
+77
+00:05:38,553 --> 00:05:43,432
+Supervisors watch the live dashboard, which can be filtered by the campaign.
+
+78
+00:05:43,432 --> 00:05:47,895
+It lists the queues and the agents, and under Why isn't this dialing,
+
+79
+00:05:47,895 --> 00:05:49,859
+what holds a campaign back.
+
+80
+00:05:49,859 --> 00:05:53,787
+It is empty here, because no agent is signed in, and no call
+
+81
+00:05:53,787 --> 00:05:55,453
+connects on this site.
+
+82
+00:05:55,953 --> 00:06:02,805
+Managers use Manage Activities to reassign, reschedule or move work to another dialer profile in bulk.
+
+83
+00:06:02,805 --> 00:06:06,993
+They also review the dead numbers on Numbers Not In Service.
+
+84
+00:06:11,193 --> 00:06:15,269
+To check that it works, load a small list, sign in as a
+
+85
+00:06:15,269 --> 00:06:17,608
+test agent, and be Available.
+
+86
+00:06:17,608 --> 00:06:20,749
+With Preview, an offer appears with Dial.
+
+87
+00:06:20,749 --> 00:06:23,623
+With Power, a call is placed at once.
+
+88
+00:06:24,373 --> 00:06:30,514
+Complete the test activity with Call back, and check that the flow scheduled the next attempt.
+
+89
+00:06:30,514 --> 00:06:32,725
+Then run the Campaign summary.
+
+90
+00:06:32,725 --> 00:06:39,113
+Subject inventory, Disposition breakdown, Agent productivity and Dialer call detail show the rest.
+
+91
+00:06:41,113 --> 00:06:45,419
+Set up the data, the outcomes and the rules once, load a list,
+
+92
+00:06:45,419 --> 00:06:50,486
+and agents dial it, with every call checked and every outcome followed up.
+
+93
+00:06:50,486 --> 00:06:52,133
+Thanks for watching.
+

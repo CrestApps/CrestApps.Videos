@@ -1,0 +1,274 @@
+{
+  "title": "Run an Outbound Calling Campaign",
+  "output": "use-case-outbound-calling-campaign",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Outbound Calling Campaign",
+      "subtitle": "From a contact list to calls and reports",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An outbound calling campaign takes a list of contacts and has agents call them, with every call checked against your rules. This video follows the whole story, from the features to turn on to what each person does. Calls never connect on this demo site, so the live parts use slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Who it is for",
+      "subtitle": "And what you get",
+      "clips": [
+        {
+          "id": "01-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "This is for managers who run calling campaigns, such as a lead drive, renewals or appointment reminders, and for the agents and supervisors who work them."
+            },
+            {
+              "id": "who-2",
+              "text": "When it is done, your contacts are loaded as call activities for one campaign, and agents sign in to it. The dialer offers each record in Preview, or places the call in Power and Progressive."
+            },
+            {
+              "id": "who-3",
+              "text": "Every call passes your compliance checks first: opt-outs, registries, your calling window and dead numbers. Agents record an outcome, the subject flow schedules the follow-up, and reports show how far the campaign got."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "Features, roles and a phone",
+      "clips": [
+        {
+          "id": "02-before",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "before-1",
+              "text": "Your administrator turns on the features in Tools, Features. Omnichannel Management is the base. Contact Center Outbound Dialer gives you Preview dialing, and Contact Center Paced Dialing adds Power and Progressive. Agents also need Agent Entitlements. Managers need the permissions for the setup pages, and agents need the Agent role with the soft phone permission."
+            }
+          ]
+        }
+      ],
+      "short": "before"
+    },
+    {
+      "id": "03",
+      "title": "The set-up order",
+      "subtitle": "Four groups of steps",
+      "clips": [
+        {
+          "id": "03-order",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "order-1",
+              "text": "Start with the data and the outcomes. Import your contacts, create the subject, create the dispositions, and add an action to the subject flow for every one of them."
+            },
+            {
+              "id": "order-2",
+              "text": "Then set the rules. Create the campaign, a business hours calendar for the calling window, and the dialer profile."
+            },
+            {
+              "id": "order-3",
+              "text": "Then the people. Add the campaign to the entitlements of each agent."
+            },
+            {
+              "id": "order-4",
+              "text": "Last, load the work, and let agents dial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The subject and its flow",
+      "subtitle": "What the call is about",
+      "clips": [
+        {
+          "id": "04-subject",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "subj-1",
+              "text": "Create the subject. On Subject Flows, click Create a new content type, name it Spring lead drive, and click Create. Then find the Omnichannel Subject part, and click Add and Configure. The fields you add to a subject are what agents fill in during the call."
+            },
+            {
+              "id": "subj-2",
+              "text": "The part settings pick a Default campaign, here Spring lead drive. Direction is Outbound, for work you start. Inbound is for customers who contact you. Require a disposition stays on, because the disposition is what runs the subject flow. Then click Save."
+            },
+            {
+              "id": "subj-3",
+              "text": "The subject now appears on Subject Flows. Click Manage Flow, then Add Action. Finish ends the task, Try Again calls later, New Activity creates a follow-up, and Convert Lead turns a lead into a contact. Add one for every disposition."
+            }
+          ]
+        }
+      ],
+      "short": "subject"
+    },
+    {
+      "id": "05",
+      "title": "Outcomes, rules and people",
+      "subtitle": "What the campaign uses",
+      "clips": [
+        {
+          "id": "05-rules",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rules-1",
+              "text": "The dispositions are the outcomes agents can pick, such as Call Back Later and Not Interested. One has the Number not in service outcome, so dead numbers are handled for you."
+            },
+            {
+              "id": "rules-2",
+              "text": "The campaign is what agents sign in to, and a business hours calendar sets the hours you may call, checked in the time zone of each contact."
+            },
+            {
+              "id": "rules-3",
+              "text": "The dialer profile chooses how to dial: the mode, the caller ID, the compliance rules with your calling calendar, and the retry settings."
+            },
+            {
+              "id": "rules-4",
+              "text": "On the entitlements of each agent, add the campaign under Allowed campaigns. Without the Agent Entitlements feature, any agent may sign in to any campaign."
+            }
+          ]
+        }
+      ],
+      "short": "rules"
+    },
+    {
+      "id": "06",
+      "title": "Load the work",
+      "subtitle": "One list, one campaign",
+      "clips": [
+        {
+          "id": "06-load",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "load-1",
+              "text": "Open Load Activities, and click Add Activity Load. The sources are Automatic, Dialer and Manual. Dialer activities stay unassigned until the dialer reserves them for an agent, so a campaign of calls uses Dialer."
+            },
+            {
+              "id": "load-2",
+              "text": "Enter a Title, then pick the Subject content type, the Campaign and the Dialer profile. The campaign is required, unless the subject has a default one. Dial from is optional: pick a number if this campaign should show its own caller ID."
+            },
+            {
+              "id": "load-3",
+              "text": "Pick the Record type, contacts or leads, and filter who is loaded. Prevent duplicate activity with the same subject keeps contacts who already have an open activity out of the load twice. Then save the load."
+            },
+            {
+              "id": "load-4",
+              "text": "Choose Load activities from the Actions menu. When it finishes, the list shows that it loaded two of three contacts, and skipped one, because its only number is on the Numbers Not In Service list."
+            }
+          ]
+        }
+      ],
+      "short": "load"
+    },
+    {
+      "id": "07",
+      "title": "Agents dial",
+      "subtitle": "What each role does",
+      "clips": [
+        {
+          "id": "07-dial",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dial-1",
+              "text": "Agents sign in to the campaign from the Work tab of the soft phone, and set themselves Available."
+            },
+            {
+              "id": "dial-2",
+              "text": "With Preview, each record is offered with Dial and Skip. The agent reviews it, clicks Dial, and the server places the call after the compliance checks."
+            },
+            {
+              "id": "dial-3",
+              "text": "With Power or Progressive, the dialer places the call for an available agent, and the record opens when the customer answers."
+            },
+            {
+              "id": "dial-4",
+              "text": "After the call, the agent completes the activity with a disposition and notes. That ends wrap-up, and runs the subject flow: try again later, or a follow-up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Watch, adjust and measure",
+      "subtitle": "Supervisors and managers",
+      "clips": [
+        {
+          "id": "08-watch",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "watch-1",
+              "text": "Supervisors watch the live dashboard, which can be filtered by the campaign. It lists the queues and the agents, and under Why isn't this dialing, what holds a campaign back. It is empty here, because no agent is signed in, and no call connects on this site."
+            },
+            {
+              "id": "watch-2",
+              "text": "Managers use Manage Activities to reassign, reschedule or move work to another dialer profile in bulk. They also review the dead numbers on Numbers Not In Service."
+            }
+          ]
+        }
+      ],
+      "short": "watch"
+    },
+    {
+      "id": "09",
+      "title": "Check it, and tips",
+      "subtitle": "Before the first real list",
+      "clips": [
+        {
+          "id": "09-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "To check that it works, load a small list, sign in as a test agent, and be Available. With Preview, an offer appears with Dial. With Power, a call is placed at once."
+            },
+            {
+              "id": "tip-2",
+              "text": "Complete the test activity with Call back, and check that the flow scheduled the next attempt. Then run the Campaign summary. Subject inventory, Disposition breakdown, Agent productivity and Dialer call detail show the rest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set up the data, the outcomes and the rules once, load a list, and agents dial it, with every call checked and every outcome followed up. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

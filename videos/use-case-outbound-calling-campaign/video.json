@@ -1,0 +1,98 @@
+{
+  "title": "Run an Outbound Calling Campaign: From a Contact List to Reports | CrestApps for Orchard Core",
+  "description": "An outbound calling campaign takes a list of contacts and has agents call them, with every call checked against your rules. This video follows the whole story in the CrestApps Contact Center for Orchard Core: the features to turn on, the order to set things up, what each person does, and how to check it works. Calls never connect on the recording site, so the live parts are shown with slides.\n\nIn this video:\n• Who it is for, and what you get\n• The features and roles you need\n• The set-up order: data and outcomes, rules, people, work\n• Creating the subject and its flow\n• The campaign, calling hours, dialer profile and entitlements\n• Loading a list of contacts, and reading the load's report\n• What agents, supervisors and managers do\n• Checking that it works, and tips",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "outbound calling",
+    "outbound campaign",
+    "dialer",
+    "campaigns",
+    "dispositions",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Who it is for"
+    },
+    {
+      "time": "1:02",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:31",
+      "title": "The set-up order"
+    },
+    {
+      "time": "2:05",
+      "title": "The subject and its flow"
+    },
+    {
+      "time": "3:02",
+      "title": "Outcomes, rules and people"
+    },
+    {
+      "time": "3:48",
+      "title": "Load the work"
+    },
+    {
+      "time": "4:53",
+      "title": "Agents dial"
+    },
+    {
+      "time": "5:35",
+      "title": "Watch, adjust and measure"
+    },
+    {
+      "time": "6:08",
+      "title": "Check it, and tips"
+    },
+    {
+      "time": "6:40",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/outbound-calling-campaign"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Dialer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/outbound-calling-campaign.md"
+  ],
+  "length": "6:53"
+}

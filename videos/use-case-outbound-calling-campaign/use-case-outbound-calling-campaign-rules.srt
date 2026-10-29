@@ -1,0 +1,32 @@
+1
+00:00:03,284 --> 00:00:08,874
+The dispositions are the outcomes agents can pick, such as Call Back Later and Not Interested.
+
+2
+00:00:08,874 --> 00:00:13,624
+One has the Number not in service outcome, so dead numbers are handled for you.
+
+3
+00:00:14,118 --> 00:00:18,420
+The campaign is what agents sign in to, and a business hours calendar
+
+4
+00:00:18,420 --> 00:00:22,778
+sets the hours you may call, checked in the time zone of each contact.
+
+5
+00:00:24,159 --> 00:00:26,901
+The dialer profile chooses how to dial:
+
+6
+00:00:26,901 --> 00:00:33,179
+the mode, the caller ID, the compliance rules with your calling calendar, and the retry settings.
+
+7
+00:00:33,669 --> 00:00:39,123
+On the entitlements of each agent, add the campaign under Allowed campaigns.
+
+8
+00:00:39,123 --> 00:00:44,709
+Without the Agent Entitlements feature, any agent may sign in to any campaign.
+

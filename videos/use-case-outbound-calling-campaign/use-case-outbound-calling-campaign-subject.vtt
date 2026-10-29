@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:03.206 --> 00:00:04.734
+Create the subject.
+
+00:00:04.734 --> 00:00:09.380
+On Subject Flows, click Create a new content type, name it Spring lead
+
+00:00:09.380 --> 00:00:11.214
+drive, and click Create.
+
+00:00:11.214 --> 00:00:15.738
+Then find the Omnichannel Subject part, and click Add and Configure.
+
+00:00:15.738 --> 00:00:20.506
+The fields you add to a subject are what agents fill in during the call.
+
+00:00:20.989 --> 00:00:25.337
+The part settings pick a Default campaign, here Spring lead drive.
+
+00:00:25.337 --> 00:00:28.235
+Direction is Outbound, for work you start.
+
+00:00:28.235 --> 00:00:31.074
+Inbound is for customers who contact you.
+
+00:00:31.074 --> 00:00:36.630
+Require a disposition stays on, because the disposition is what runs the subject flow.
+
+00:00:36.630 --> 00:00:37.959
+Then click Save.
+
+00:00:38.491 --> 00:00:41.640
+The subject now appears on Subject Flows.
+
+00:00:41.640 --> 00:00:44.386
+Click Manage Flow, then Add Action.
+
+00:00:44.386 --> 00:00:50.013
+Finish ends the task, Try Again calls later, New Activity creates a follow-up,
+
+00:00:50.013 --> 00:00:53.430
+and Convert Lead turns a lead into a contact.
+
+00:00:53.430 --> 00:00:55.841
+Add one for every disposition.
+
