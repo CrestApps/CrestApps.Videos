@@ -1,0 +1,99 @@
+{
+  "title": "Bulk Import and Export: Move Many Content Items With CSV or Excel | CrestApps for Orchard Core",
+  "description": "Content often starts in a spreadsheet: a purchased list of leads, records from an older system, or a price list kept in Excel. Typing hundreds of rows into forms is slow and error-prone. The CrestApps Content Transfer module imports many content items from one CSV or Excel file, checks every row the way a hand-saved item is checked, and exports content items back to a file.\n\nIn this video:\n• Why bulk import and export exist\n• Where to find them under the Content menu\n• Choosing which content types can be transferred\n• Preparing a file: required columns and templates\n• Uploading a file, and publishing or saving drafts\n• Following an import, downloading the rejected rows, and the actions on each import\n• Exporting with filters, large background exports, and downloading the file\n• Permissions, for all content types or for one\n• Ways teams use bulk transfer",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "bulk import",
+    "bulk export",
+    "CSV import",
+    "Excel import",
+    "content import",
+    "content export",
+    "data migration",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why bulk import and export"
+    },
+    {
+      "time": "1:02",
+      "title": "Find import and export"
+    },
+    {
+      "time": "1:25",
+      "title": "Choose what can be transferred"
+    },
+    {
+      "time": "1:52",
+      "title": "Prepare a file"
+    },
+    {
+      "time": "2:46",
+      "title": "Import a file"
+    },
+    {
+      "time": "3:17",
+      "title": "Follow an import"
+    },
+    {
+      "time": "4:36",
+      "title": "Export content"
+    },
+    {
+      "time": "5:51",
+      "title": "Who can use it"
+    },
+    {
+      "time": "6:45",
+      "title": "What to use it for"
+    },
+    {
+      "time": "7:16",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/import-and-export"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/content-transfer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContentTransfer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/import-and-export.md",
+    "src/CrestApps.Docs/docs/modules/content-transfer.md"
+  ],
+  "length": "7:28"
+}

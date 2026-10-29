@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.221 --> 00:00:07.854
+On the Bulk Import page, click Import to see every content type that
+
+00:00:07.854 --> 00:00:10.421
+can be imported, and pick Customer.
+
+00:00:10.871 --> 00:00:15.370
+The File Requirements card says what the file must look like.
+
+00:00:15.370 --> 00:00:19.936
+It uses one of the enabled formats, here CSV or Excel, and its
+
+00:00:19.936 --> 00:00:22.891
+very first row holds the column names.
+
+00:00:23.343 --> 00:00:27.192
+The order of the columns does not matter, and a column the type
+
+00:00:27.192 --> 00:00:28.922
+does not know is ignored.
+
+00:00:28.922 --> 00:00:33.163
+To start with the right columns, download a template in either format.
+
+00:00:33.643 --> 00:00:39.753
+The Columns Requirements table lists every column, whether it is required, and what it holds.
+
+00:00:39.753 --> 00:00:44.443
+Here the title is required, and the email, city and plan are optional.
+
+00:00:44.927 --> 00:00:50.175
+A column named ContentItemId lets a row update an item that already exists,
+
+00:00:50.175 --> 00:00:52.507
+instead of creating a new one.
+

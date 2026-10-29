@@ -1,0 +1,76 @@
+1
+00:00:03,172 --> 00:00:06,948
+The import is now a row on the Bulk Import page, with the
+
+2
+00:00:06,948 --> 00:00:11,982
+file name, the content type, its status, the person who uploaded it, and when.
+
+3
+00:00:12,443 --> 00:00:16,123
+It runs in the background, so you can leave the page.
+
+4
+00:00:16,123 --> 00:00:21,423
+When it is done, the status reads Completed, or Completed with errors, as here.
+
+5
+00:00:21,918 --> 00:00:26,549
+The green number is how many records were imported, and the red number
+
+6
+00:00:26,549 --> 00:00:28,499
+is how many were rejected.
+
+7
+00:00:28,499 --> 00:00:31,302
+A rejected row does not stop the others:
+
+8
+00:00:31,302 --> 00:00:35,018
+here, the rows without a title did not pass validation.
+
+9
+00:00:35,485 --> 00:00:37,273
+Open the Actions menu.
+
+10
+00:00:37,273 --> 00:00:42,381
+Download errors gives you only the rejected rows, in the same file format,
+
+11
+00:00:42,381 --> 00:00:44,360
+with the reason for each.
+
+12
+00:00:44,360 --> 00:00:47,105
+Fix them, and import that file again.
+
+13
+00:00:47,730 --> 00:00:52,849
+While an import runs, Pause import stops it, and Resume import continues from
+
+14
+00:00:52,849 --> 00:00:54,391
+the last saved row.
+
+15
+00:00:54,391 --> 00:01:00,620
+Delete removes the entry and its uploaded file, but never the content items that were imported.
+
+16
+00:01:01,113 --> 00:01:05,655
+The Show menu lists only the imports with one status, such as Paused
+
+17
+00:01:05,655 --> 00:01:10,013
+or Failed, and the Sort menu puts the newest or the oldest first.
+
+18
+00:01:10,464 --> 00:01:15,686
+The imported customers are now content items of the site, ready to edit,
+
+19
+00:01:15,686 --> 00:01:18,364
+publish and search like any other.
+

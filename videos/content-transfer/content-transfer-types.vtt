@@ -1,0 +1,17 @@
+WEBVTT
+
+00:00:03.214 --> 00:00:07.389
+Every content type is offered on these pages by default.
+
+00:00:07.389 --> 00:00:14.394
+To change that, open Design, Content Definition, Content Types, and edit a type, such as Customer.
+
+00:00:14.847 --> 00:00:19.785
+Allow bulk import and Allow bulk export decide whether the type appears on
+
+00:00:19.785 --> 00:00:22.994
+the Bulk Import page and the Bulk Export page.
+
+00:00:22.994 --> 00:00:25.957
+Untick one to keep the type off that page.
+

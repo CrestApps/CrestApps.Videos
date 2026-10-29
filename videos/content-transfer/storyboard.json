@@ -1,0 +1,320 @@
+{
+  "title": "Bulk Import and Export",
+  "output": "content-transfer",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "ContentItemId": "Content Item I.D.",
+    "XLSX": "X.L.S.X."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Bulk Import and Export",
+      "subtitle": "Move many content items in and out of your site",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Content often starts in a spreadsheet. This video shows how bulk import and export move many content items into your site, and out of it, with a CSV or Excel file: why they exist, how to prepare a file, how to follow an import, and how to export."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why bulk import and export",
+      "subtitle": "From a spreadsheet to your site, and back",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Content often starts in a spreadsheet: a purchased list of leads, records from an older system, or a price list that a colleague keeps in Excel."
+            },
+            {
+              "id": "why-2",
+              "text": "Typing hundreds of rows into forms, one at a time, is slow, and every row is a chance for a typing mistake."
+            },
+            {
+              "id": "why-3",
+              "text": "Bulk import creates or updates many content items from one file, and checks every row the same way as when someone saves an item by hand."
+            },
+            {
+              "id": "why-4",
+              "text": "Bulk export does the reverse. It downloads content items to a file that you can fix in a spreadsheet, hand to someone outside the site, or import again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Find import and export",
+      "subtitle": "Both are under the Content menu",
+      "clips": [
+        {
+          "id": "02-find",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "Both tools are under the Content menu. Import opens the Bulk Import page, which lists every import made on the site. It is empty for now."
+            },
+            {
+              "id": "find-2",
+              "text": "Export opens the Bulk Export page, which lists every export in the same way. Its Export button starts a new export."
+            }
+          ]
+        }
+      ],
+      "short": "find"
+    },
+    {
+      "id": "03",
+      "title": "Choose what can be transferred",
+      "subtitle": "Allow bulk import and Allow bulk export",
+      "clips": [
+        {
+          "id": "03-types",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "types-1",
+              "text": "Every content type is offered on these pages by default. To change that, open Design, Content Definition, Content Types, and edit a type, such as Customer."
+            },
+            {
+              "id": "types-2",
+              "text": "Allow bulk import and Allow bulk export decide whether the type appears on the Bulk Import page and the Bulk Export page. Untick one to keep the type off that page."
+            }
+          ]
+        }
+      ],
+      "short": "types"
+    },
+    {
+      "id": "04",
+      "title": "Prepare a file",
+      "subtitle": "The columns a file needs",
+      "clips": [
+        {
+          "id": "04-file",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "file-1",
+              "text": "On the Bulk Import page, click Import to see every content type that can be imported, and pick Customer."
+            },
+            {
+              "id": "file-2",
+              "text": "The File Requirements card says what the file must look like. It uses one of the enabled formats, here CSV or Excel, and its very first row holds the column names."
+            },
+            {
+              "id": "file-3",
+              "text": "The order of the columns does not matter, and a column the type does not know is ignored. To start with the right columns, download a template in either format."
+            },
+            {
+              "id": "file-4",
+              "text": "The Columns Requirements table lists every column, whether it is required, and what it holds. Here the title is required, and the email, city and plan are optional."
+            },
+            {
+              "id": "file-5",
+              "text": "A column named ContentItemId lets a row update an item that already exists, instead of creating a new one."
+            }
+          ]
+        }
+      ],
+      "short": "file"
+    },
+    {
+      "id": "05",
+      "title": "Import a file",
+      "subtitle": "Choose the file and upload it",
+      "clips": [
+        {
+          "id": "05-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "import-1",
+              "text": "Choose your file with the file picker. This one is a list of customers, saved as a CSV file."
+            },
+            {
+              "id": "import-2",
+              "text": "Publish imported content is ticked, so every item is published as soon as it is imported. Untick it to save each item as a draft that you publish later."
+            },
+            {
+              "id": "import-3",
+              "text": "Click Upload. A progress bar shows the upload, and a large file is sent in pieces automatically. Then the Bulk Import page opens."
+            }
+          ]
+        }
+      ],
+      "short": "import"
+    },
+    {
+      "id": "06",
+      "title": "Follow an import",
+      "subtitle": "Status, records, errors and actions",
+      "clips": [
+        {
+          "id": "06-follow",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "follow-1",
+              "text": "The import is now a row on the Bulk Import page, with the file name, the content type, its status, the person who uploaded it, and when."
+            },
+            {
+              "id": "follow-2",
+              "text": "It runs in the background, so you can leave the page. When it is done, the status reads Completed, or Completed with errors, as here."
+            },
+            {
+              "id": "follow-3",
+              "text": "The green number is how many records were imported, and the red number is how many were rejected. A rejected row does not stop the others: here, the rows without a title did not pass validation."
+            },
+            {
+              "id": "follow-4",
+              "text": "Open the Actions menu. Download errors gives you only the rejected rows, in the same file format, with the reason for each. Fix them, and import that file again."
+            },
+            {
+              "id": "follow-5",
+              "text": "While an import runs, Pause import stops it, and Resume import continues from the last saved row. Delete removes the entry and its uploaded file, but never the content items that were imported."
+            },
+            {
+              "id": "follow-6",
+              "text": "The Show menu lists only the imports with one status, such as Paused or Failed, and the Sort menu puts the newest or the oldest first."
+            },
+            {
+              "id": "follow-7",
+              "text": "The imported customers are now content items of the site, ready to edit, publish and search like any other."
+            }
+          ]
+        }
+      ],
+      "short": "follow"
+    },
+    {
+      "id": "07",
+      "title": "Export content",
+      "subtitle": "Choose a type, narrow it down, download",
+      "clips": [
+        {
+          "id": "07-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "export-1",
+              "text": "On the Bulk Export page, click Export to open the Export contents form."
+            },
+            {
+              "id": "export-2",
+              "text": "Choose the File type, CSV or Excel, and then the Content type. The Export Data button stays disabled until a content type is chosen."
+            },
+            {
+              "id": "export-3",
+              "text": "Export scope is Export all published by default. Choose Filtered Export to narrow the file down."
+            },
+            {
+              "id": "export-4",
+              "text": "Filter Options limit the export to a range of Created or Modified dates, or to the Owners you type, as user names separated by commas. Published only, Latest only and All versions choose which versions of each item to include."
+            },
+            {
+              "id": "export-5",
+              "text": "Click Export Data. A small export downloads straight away. A large one is prepared in the background, and the page tells you it has been queued."
+            },
+            {
+              "id": "export-6",
+              "text": "When the export is ready, its row shows Completed, the number of records, and a Download button."
+            },
+            {
+              "id": "export-7",
+              "text": "The file uses the same column names as an import template. So you can export, change the file in a spreadsheet, and import it again to update the same items."
+            }
+          ]
+        }
+      ],
+      "short": "export"
+    },
+    {
+      "id": "08",
+      "title": "Who can use it",
+      "subtitle": "Permissions, for all types or for one",
+      "clips": [
+        {
+          "id": "08-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "What a person sees depends on the permissions of their role. List content transfer entries shows the Import menu and the Bulk Import page."
+            },
+            {
+              "id": "who-2",
+              "text": "Import content items from file allows uploading files, downloading templates and error files, and pausing or resuming an import. Export content items from file allows exports. Delete content transfer entries removes entries."
+            },
+            {
+              "id": "who-3",
+              "text": "Each import and export permission also exists for a single content type, so a role can import customers and nothing else. Administrators have all of them by default."
+            },
+            {
+              "id": "who-4",
+              "text": "Your technical team can keep the uploaded and exported files in Azure Blob Storage, so a site that runs on several servers shares them. That needs no screen of its own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "What to use it for",
+      "subtitle": "Four ways teams use bulk transfer",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Load a purchased or partner list of leads, customers or products in a single upload."
+            },
+            {
+              "id": "use-2",
+              "text": "Move records from another system: export them there, then import the file here."
+            },
+            {
+              "id": "use-3",
+              "text": "Correct many records at once. Export them, fix the file in Excel, and import it to update the same items."
+            },
+            {
+              "id": "use-4",
+              "text": "Hand a list to an accountant or a partner who has no access to the site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Bulk import and export turn a spreadsheet into content, and content into a spreadsheet, with every row checked on the way in. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
