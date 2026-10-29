@@ -1,0 +1,209 @@
+{
+  "title": "Time Zones",
+  "output": "time-zones",
+  "spoken": {
+    "UTC": "U.T.C.",
+    "ZIP": "zip"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Time Zones",
+      "subtitle": "Friendly names for the time zones your team uses",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Orchard Core shows hundreds of technical time zone names. This video shows how the Time Zones feature replaces them with a short list of friendly names that you control: why it exists, how to add a name, how to set the site's time zone, and how each person can use their own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why friendly time zone names",
+      "subtitle": "Hundreds of technical names, or the few you use",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every date and time on your site is shown in some time zone, and someone has to choose it: the site, a team member, or a contact."
+            },
+            {
+              "id": "why-2",
+              "text": "Out of the box, the menu lists hundreds of technical names, such as America slash Argentina slash Buenos Aires. They are hard to scan, and most of them are zones nobody on your team uses."
+            },
+            {
+              "id": "why-3",
+              "text": "People pick the wrong one, or pick different names for the same place, and times shown to customers and colleagues drift."
+            },
+            {
+              "id": "why-4",
+              "text": "With the Time Zones feature, you decide the list. Every menu shows only your friendly names, such as Eastern Time, in the same order for everyone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it works",
+      "subtitle": "A time zone map and where it appears",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A time zone map is a friendly name linked to one real time zone. The name is what people see."
+            },
+            {
+              "id": "how-2",
+              "text": "The feature starts with about twenty common maps from around the world. You can edit or delete them, and add your own."
+            },
+            {
+              "id": "how-3",
+              "text": "Once the feature is on, every time zone menu shows only the names on this list, in alphabetical order: the site's default time zone, a person's own time zone, and the menus on contact and activity screens."
+            },
+            {
+              "id": "how-4",
+              "text": "A zone that has no map cannot be picked anywhere. If a menu is missing a zone, add a map for it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Manage the time zone list",
+      "subtitle": "Browse, add, change and remove maps",
+      "clips": [
+        {
+          "id": "03-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Tools, Time Zones. Each row is one map: its name, the time zone it stands for, who created it, and when. The Search box finds a map by name."
+            },
+            {
+              "id": "list-2",
+              "text": "Click Add Time Zone Map. The Name is what people will see, for example Mexico City Time."
+            },
+            {
+              "id": "list-3",
+              "text": "Choose the Time zone the name stands for, here America slash Mexico City, and click Save. Each name can be used once, and each time zone can have only one map."
+            },
+            {
+              "id": "list-4",
+              "text": "The new map is on the list. Edit points a map at a different time zone. The name is fixed after you save it, so to rename a map, delete it and add a new one."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "04",
+      "title": "Set the site's time zone",
+      "subtitle": "The default for everyone",
+      "clips": [
+        {
+          "id": "04-site",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "site-1",
+              "text": "The site's time zone is used to show dates and times to everyone who has not picked their own. Open Settings, General."
+            },
+            {
+              "id": "site-2",
+              "text": "Default Time Zone now offers only your friendly names. Choose one, here Mexico City Time, and click Save."
+            }
+          ]
+        }
+      ],
+      "short": "site"
+    },
+    {
+      "id": "05",
+      "title": "Let each person use their own",
+      "subtitle": "The User Time Zone feature",
+      "clips": [
+        {
+          "id": "05-person",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "person-1",
+              "text": "When your administrator turns on the User Time Zone feature, each person can have a time zone of their own. Open Access Control, Users, and edit a person."
+            },
+            {
+              "id": "person-2",
+              "text": "The Default Time Zone menu lists the same friendly names, and Use site's time zone. Choose one, here India Standard Time, and save. From then on, this person sees dates and times in that zone."
+            },
+            {
+              "id": "person-3",
+              "text": "People who do not choose one see the site's time zone."
+            }
+          ]
+        }
+      ],
+      "short": "person"
+    },
+    {
+      "id": "06",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A team spread over a few offices, who should all pick from the same short list."
+            },
+            {
+              "id": "use-2",
+              "text": "A site that shows event, delivery or opening times to visitors in the right local time."
+            },
+            {
+              "id": "use-3",
+              "text": "A contact center, where agents set the time zone of each contact and activity."
+            },
+            {
+              "id": "use-4",
+              "text": "One consistent name for each place, such as Eastern Time, instead of several technical ones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add a name for each time zone you use, choose the site's default, and let people pick their own. Every menu then offers the same short list of friendly names. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

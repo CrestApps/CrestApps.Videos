@@ -1,0 +1,232 @@
+1
+00:00:01,000 --> 00:00:04,562
+Orchard Core shows hundreds of technical time zone names.
+
+2
+00:00:04,562 --> 00:00:08,860
+This video shows how the Time Zones feature replaces them with a short
+
+3
+00:00:08,860 --> 00:00:11,461
+list of friendly names that you control:
+
+4
+00:00:11,461 --> 00:00:14,910
+why it exists, how to add a name, how to set the site's
+
+5
+00:00:14,910 --> 00:00:18,020
+time zone, and how each person can use their own.
+
+6
+00:00:22,620 --> 00:00:26,466
+Every date and time on your site is shown in some time zone,
+
+7
+00:00:26,466 --> 00:00:28,506
+and someone has to choose it:
+
+8
+00:00:28,506 --> 00:00:31,070
+the site, a team member, or a contact.
+
+9
+00:00:31,820 --> 00:00:36,430
+Out of the box, the menu lists hundreds of technical names, such as
+
+10
+00:00:36,430 --> 00:00:39,525
+America slash Argentina slash Buenos Aires.
+
+11
+00:00:39,525 --> 00:00:44,640
+They are hard to scan, and most of them are zones nobody on your team uses.
+
+12
+00:00:45,390 --> 00:00:49,495
+People pick the wrong one, or pick different names for the same place,
+
+13
+00:00:49,495 --> 00:00:52,520
+and times shown to customers and colleagues drift.
+
+14
+00:00:53,270 --> 00:00:56,692
+With the Time Zones feature, you decide the list.
+
+15
+00:00:56,692 --> 00:01:01,483
+Every menu shows only your friendly names, such as Eastern Time, in the
+
+16
+00:01:01,483 --> 00:01:03,350
+same order for everyone.
+
+17
+00:01:07,550 --> 00:01:11,979
+A time zone map is a friendly name linked to one real time zone.
+
+18
+00:01:11,979 --> 00:01:14,130
+The name is what people see.
+
+19
+00:01:14,880 --> 00:01:19,166
+The feature starts with about twenty common maps from around the world.
+
+20
+00:01:19,166 --> 00:01:22,060
+You can edit or delete them, and add your own.
+
+21
+00:01:22,810 --> 00:01:27,076
+Once the feature is on, every time zone menu shows only the names
+
+22
+00:01:27,076 --> 00:01:29,600
+on this list, in alphabetical order:
+
+23
+00:01:29,600 --> 00:01:34,107
+the site's default time zone, a person's own time zone, and the menus
+
+24
+00:01:34,107 --> 00:01:36,390
+on contact and activity screens.
+
+25
+00:01:37,140 --> 00:01:40,692
+A zone that has no map cannot be picked anywhere.
+
+26
+00:01:40,692 --> 00:01:44,050
+If a menu is missing a zone, add a map for it.
+
+27
+00:01:48,299 --> 00:01:50,287
+Open Tools, Time Zones.
+
+28
+00:01:50,287 --> 00:01:52,069
+Each row is one map:
+
+29
+00:01:52,069 --> 00:01:56,868
+its name, the time zone it stands for, who created it, and when.
+
+30
+00:01:56,868 --> 00:01:59,679
+The Search box finds a map by name.
+
+31
+00:02:06,525 --> 00:02:08,446
+Click Add Time Zone Map.
+
+32
+00:02:08,446 --> 00:02:12,865
+The Name is what people will see, for example Mexico City Time.
+
+33
+00:02:13,363 --> 00:02:19,868
+Choose the Time zone the name stands for, here America slash Mexico City, and click Save.
+
+34
+00:02:19,868 --> 00:02:25,003
+Each name can be used once, and each time zone can have only one map.
+
+35
+00:02:25,454 --> 00:02:27,497
+The new map is on the list.
+
+36
+00:02:27,497 --> 00:02:30,530
+Edit points a map at a different time zone.
+
+37
+00:02:30,530 --> 00:02:34,369
+The name is fixed after you save it, so to rename a map,
+
+38
+00:02:34,369 --> 00:02:36,474
+delete it and add a new one.
+
+39
+00:02:40,719 --> 00:02:44,517
+The site's time zone is used to show dates and times to everyone
+
+40
+00:02:44,517 --> 00:02:46,416
+who has not picked their own.
+
+41
+00:02:46,416 --> 00:02:47,989
+Open Settings, General.
+
+42
+00:02:48,518 --> 00:02:52,588
+Default Time Zone now offers only your friendly names.
+
+43
+00:02:52,588 --> 00:02:56,388
+Choose one, here Mexico City Time, and click Save.
+
+44
+00:03:00,654 --> 00:03:05,599
+When your administrator turns on the User Time Zone feature, each person can
+
+45
+00:03:05,599 --> 00:03:07,769
+have a time zone of their own.
+
+46
+00:03:07,769 --> 00:03:10,904
+Open Access Control, Users, and edit a person.
+
+47
+00:03:11,389 --> 00:03:17,264
+The Default Time Zone menu lists the same friendly names, and Use site's time zone.
+
+48
+00:03:17,264 --> 00:03:20,763
+Choose one, here India Standard Time, and save.
+
+49
+00:03:20,763 --> 00:03:25,119
+From then on, this person sees dates and times in that zone.
+
+50
+00:03:25,611 --> 00:03:29,111
+People who do not choose one see the site's time zone.
+
+51
+00:03:33,311 --> 00:03:38,331
+A team spread over a few offices, who should all pick from the same short list.
+
+52
+00:03:39,081 --> 00:03:44,821
+A site that shows event, delivery or opening times to visitors in the right local time.
+
+53
+00:03:45,571 --> 00:03:51,331
+A contact center, where agents set the time zone of each contact and activity.
+
+54
+00:03:52,081 --> 00:03:58,561
+One consistent name for each place, such as Eastern Time, instead of several technical ones.
+
+55
+00:04:00,561 --> 00:04:04,601
+Add a name for each time zone you use, choose the site's default,
+
+56
+00:04:04,601 --> 00:04:06,649
+and let people pick their own.
+
+57
+00:04:06,649 --> 00:04:10,461
+Every menu then offers the same short list of friendly names.
+
+58
+00:04:10,461 --> 00:04:11,941
+Thanks for watching.
+

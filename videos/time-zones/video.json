@@ -1,0 +1,84 @@
+{
+  "title": "Time Zones: Friendly Names Instead of Hundreds of Technical Ones | CrestApps for Orchard Core",
+  "description": "Every date and time on your site is shown in some time zone, and Orchard Core normally offers hundreds of technical names to choose from, such as America/Argentina/Buenos_Aires. The CrestApps Time Zones feature replaces that list with the short list of friendly names you control, such as Eastern Time (US & Canada), and every time zone menu on the site follows it.\n\nIn this video:\n• Why friendly time zone names help\n• What a time zone map is, and which menus use the list\n• Browsing the list, adding a map, and changing or removing one\n• Setting the site's default time zone\n• Letting each person choose their own time zone\n• Four ways to use it",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "time zones",
+    "time zone map",
+    "default time zone",
+    "user time zone",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why friendly time zone names"
+    },
+    {
+      "time": "1:04",
+      "title": "How it works"
+    },
+    {
+      "time": "1:45",
+      "title": "Manage the time zone list"
+    },
+    {
+      "time": "2:37",
+      "title": "Set the site's time zone"
+    },
+    {
+      "time": "2:57",
+      "title": "Let each person use their own"
+    },
+    {
+      "time": "3:30",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:59",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/time-zones"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/time-zones"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.TimeZones"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/time-zones.md",
+    "src/CrestApps.Docs/docs/modules/time-zones.md"
+  ],
+  "length": "4:13"
+}
