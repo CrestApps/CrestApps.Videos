@@ -1,0 +1,17 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:05.296
+Open a disposition again.
+
+00:00:05.296 --> 00:00:08.644
+After it is saved, its name cannot be changed.
+
+00:00:08.644 --> 00:00:10.640
+Only its description can.
+
+00:00:13.654 --> 00:00:18.809
+Deleting a disposition does not check whether a subject flow still uses it.
+
+00:00:18.809 --> 00:00:21.164
+Remove it from the flows first.
+

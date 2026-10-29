@@ -1,0 +1,64 @@
+1
+00:00:03,200 --> 00:00:07,785
+Set an Outcome only on a disposition the platform should apply on its
+
+2
+00:00:07,785 --> 00:00:10,841
+own, when a call ends in a way nobody chose.
+
+3
+00:00:10,841 --> 00:00:13,470
+Leave it at None for everything else.
+
+4
+00:00:14,220 --> 00:00:18,509
+Number not in service adds the called number to the Numbers Not In
+
+5
+00:00:18,509 --> 00:00:21,963
+Service list, so it is never loaded or dialed again.
+
+6
+00:00:21,963 --> 00:00:26,729
+No answer, Busy and Answering machine cover calls that were not picked up,
+
+7
+00:00:26,729 --> 00:00:29,290
+by the dialer and by automated calls.
+
+8
+00:00:30,040 --> 00:00:34,707
+Rejected and Call failed are for calls the network declined or failed.
+
+9
+00:00:34,707 --> 00:00:39,312
+Disconnected is for a customer who hung up before an agent joined, or
+
+10
+00:00:39,312 --> 00:00:42,260
+before an automated call decided anything.
+
+11
+00:00:43,010 --> 00:00:47,181
+The dialer applies these to every call that ends before an agent is
+
+12
+00:00:47,181 --> 00:00:50,210
+connected, so the agent never sees those calls.
+
+13
+00:00:51,816 --> 00:00:57,986
+Here, a disposition named Number Not In Service gets the outcome Number not in service.
+
+14
+00:01:04,562 --> 00:01:08,691
+A second one, named No Answer, gets the outcome No answer.
+
+15
+00:01:08,691 --> 00:01:12,885
+The list shows each outcome as a badge next to the name, so
+
+16
+00:01:12,885 --> 00:01:15,982
+the dialer knows which disposition to use.
+

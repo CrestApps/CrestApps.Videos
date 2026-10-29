@@ -1,0 +1,87 @@
+{
+  "title": "Dispositions: The Outcome of Every Activity | CrestApps for Orchard Core",
+  "description": "Every call, text or task ends in some way: nobody answered, the customer asked for a call back, a test drive was booked. A disposition is that outcome. Agents pick one when they complete an activity, an AI conversation picks one when it ends, and the subject flow decides what happens next. This video shows why dispositions exist, how to create them in the CrestApps Contact Center for Orchard Core, and how outcomes let the platform apply a disposition for you.\n\nIn this video:\n• Why dispositions exist\n• Creating a disposition: name, description, outcome and lead status\n• What can change after it is saved\n• Outcomes the platform applies by itself, such as Number not in service and No answer\n• Which disposition the platform uses when a call ends early\n• How teams use dispositions",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "dispositions",
+    "call outcomes",
+    "omnichannel",
+    "subject flow",
+    "outbound calling",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why dispositions"
+    },
+    {
+      "time": "1:00",
+      "title": "Create a disposition"
+    },
+    {
+      "time": "1:58",
+      "title": "After it is saved"
+    },
+    {
+      "time": "2:20",
+      "title": "Outcomes"
+    },
+    {
+      "time": "3:37",
+      "title": "Which disposition is used"
+    },
+    {
+      "time": "4:25",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:51",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/dispositions"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/dispositions.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "5:02"
+}
