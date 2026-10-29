@@ -21,7 +21,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [External AI Data Sources: Elasticsearch, Azure AI Search and PostgreSQL](videos/ai-data-sources-external) | 4:05 | [https://youtu.be/60BtEo6drt8](https://youtu.be/60BtEo6drt8) | CrestApps/CrestApps.OrchardCore |
 | [AI Documents: Ask About a File in a Chat, Charts Included](videos/ai-documents) | 4:34 | [https://youtu.be/KIddR8wtUx0](https://youtu.be/KIddR8wtUx0) | CrestApps/CrestApps.OrchardCore |
 | [Export and Import Your AI Setup With Deployment Plans](videos/ai-export-import) | 3:21 | [https://youtu.be/rjQKNjh3i-U](https://youtu.be/rjQKNjh3i-U) | CrestApps/CrestApps.OrchardCore |
-| [AI File Sources: Keep Knowledge in Step With a Folder](videos/ai-file-sources) | 6:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI File Sources: Keep Knowledge in Step With a Folder](videos/ai-file-sources) | 6:08 | [https://youtu.be/TKctcLGwHJU](https://youtu.be/TKctcLGwHJU) | CrestApps/CrestApps.OrchardCore |
 | [AI Knowledge: Answers From Your Own Documents](videos/ai-knowledge) | 6:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Build an AI Knowledge Assistant That Answers From Your Own Content](videos/ai-knowledge-assistant) | 3:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Model Context Protocol (MCP): Connect Tools to Your AI Assistants](videos/ai-mcp) | 7:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -31,6 +31,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Profile Builder: Train Your AI Assistant by Role-Play and Feedback](videos/ai-profile-builder) | 4:40 | [https://youtu.be/UOKvEY-kID4](https://youtu.be/UOKvEY-kID4) | [CrestApps/CrestApps.OrchardCore#910](https://github.com/CrestApps/CrestApps.OrchardCore/pull/910) |
 | [AI Profiles, Personas and Templates: Build and Reuse Your Assistants](videos/ai-profiles-personas-templates) | 10:51 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Prompt Security: Protect Your Public AI Assistants](videos/ai-prompt-security) | 4:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Other AI Providers: OpenAI-Compatible Endpoints, Ollama and Azure AI Inference](videos/ai-providers-other) | 3:27 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Realtime Voice: Set Up a Spoken Conversation With Your AI Assistant](videos/ai-realtime-voice) | 4:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Site Settings: A Tour of Settings, Artificial Intelligence](videos/ai-site-settings) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
