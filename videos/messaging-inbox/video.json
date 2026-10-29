@@ -1,0 +1,98 @@
+{
+  "title": "The Messaging Inbox: Answer Customers' Texts as a Team | CrestApps for Orchard Core",
+  "description": "Customers text the numbers of your business, and someone has to answer. The messaging inbox of CrestApps for Orchard Core is where your team does it together: a shared list of conversations that any agent can claim, answer, close and reopen, with the whole history kept in one place.\n\nIn this video:\n• Why a shared inbox beats one person's phone\n• How the list, the conversation, the composer and the Customer card fit together\n• Searching, filtering and the Available switch\n• Claiming a conversation and replying\n• Closing, marking spam and reopening\n• Favorites and attachments\n• Badges and notices when new work arrives\n• Starting a conversation yourself",
+  "hashtags": [
+    "OrchardCore",
+    "SMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "messaging inbox",
+    "SMS",
+    "shared inbox",
+    "customer support",
+    "text messaging",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why a shared inbox"
+    },
+    {
+      "time": "0:47",
+      "title": "How the inbox is organized"
+    },
+    {
+      "time": "1:22",
+      "title": "Open the inbox"
+    },
+    {
+      "time": "2:03",
+      "title": "Claim and reply"
+    },
+    {
+      "time": "3:00",
+      "title": "Close, spam and reopen"
+    },
+    {
+      "time": "3:31",
+      "title": "Favorites and attachments"
+    },
+    {
+      "time": "4:03",
+      "title": "Know when new work arrives"
+    },
+    {
+      "time": "4:31",
+      "title": "Start a new conversation"
+    },
+    {
+      "time": "5:02",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:33",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/messaging"
+    },
+    {
+      "label": "Technical guide: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/messaging-workspace"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Messaging"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/messaging.md",
+    "src/CrestApps.Docs/docs/omnichannel/messaging-workspace.md"
+  ],
+  "length": "5:43"
+}
