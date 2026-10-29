@@ -1,0 +1,32 @@
+1
+00:00:03,185 --> 00:00:07,474
+The Custom Report widget shows a report built in the Report Builder.
+
+2
+00:00:07,474 --> 00:00:10,025
+Choose Add Widget, then Custom Report.
+
+3
+00:00:11,771 --> 00:00:16,600
+Report lists the published reports you may run under Reports, Report Builder, and
+
+4
+00:00:16,600 --> 00:00:19,431
+the views you may use, which show as a table.
+
+5
+00:00:19,920 --> 00:00:24,944
+The period replaces the first date filter that viewers can change on that
+
+6
+00:00:24,944 --> 00:00:28,442
+report; a report without one shows its own dates.
+
+7
+00:00:28,442 --> 00:00:31,940
+Show, Rows per table and Keep for work as before.
+
+8
+00:00:32,391 --> 00:00:36,901
+Publish it, and the tile joins the dashboard beside the others.
+

@@ -1,0 +1,223 @@
+{
+  "title": "Report widgets on the dashboard",
+  "output": "reports-dashboard-widgets",
+  "spoken": {
+    "CSV": "C.S.V."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report widgets on the dashboard",
+      "subtitle": "A report on the first page your team sees",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The admin dashboard is the first page your team sees. Report widgets put a report on it: figures, tables and charts that follow the clock. This video shows the Report widget, the Custom Report widget for Report Builder reports, and what each person sees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why report widgets",
+      "subtitle": "The same question, every morning",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Opening a report takes a menu, a date range and a click, and most days the question is the same: how did the last week go?"
+            },
+            {
+              "id": "why-2",
+              "text": "A report widget answers it on the dashboard. You choose the report once, and a period that moves with the clock: the last 30 days is always the 30 days up to now."
+            },
+            {
+              "id": "why-3",
+              "text": "The widget keeps its result for a few minutes, so a busy dashboard does not run the report on every visit. And it checks the viewer: a report you may not open is not shown to you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn on the dashboard",
+      "subtitle": "The feature and the editor",
+      "short": "turn-on",
+      "clips": [
+        {
+          "id": "02-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feat-1",
+              "text": "Report widgets belong to the Admin Dashboard. Turn on the Admin Dashboard feature under Tools, Features. The Report widget comes with the Reports feature, and the Custom Report widget with the Report Builder."
+            },
+            {
+              "id": "feat-2",
+              "text": "The Dashboard page is now the home of the admin. Manage Dashboard opens its editor, and Add Widget lists the widgets: Custom Report, Html Dashboard Widget and Report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add a Report widget",
+      "subtitle": "Choose a report, a period and what to show",
+      "short": "report-widget",
+      "clips": [
+        {
+          "id": "03-report",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "Choose Add Widget, then Report. Position, Width and Height place the tile on the dashboard, and the Title is the name above it."
+            },
+            {
+              "id": "rep-2",
+              "text": "Report lists every report you may view under Reports, by category. Here it is Queue service level, from Queue and Routing."
+            },
+            {
+              "id": "rep-3",
+              "text": "Period is the stretch of time the widget covers: Today and Yesterday, the last 7, 30 or 90 days, this month, last month, this year, the last 12 months, All time, or Custom dates, which asks for a first and a last day."
+            },
+            {
+              "id": "rep-4",
+              "text": "Show chooses what of the report appears: figures and tables, figures only, tables only, charts only, or everything."
+            },
+            {
+              "id": "rep-5",
+              "text": "Rows per table limits a long table. Keep for sets how many minutes the widget keeps what it shows. Zero runs the report on every visit."
+            },
+            {
+              "id": "rep-6",
+              "text": "Click Publish. The widget joins the dashboard editor. Add a second one the same way: Call insights, for the last 7 days, figures only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The dashboard",
+      "subtitle": "What the tiles show",
+      "short": "dashboard",
+      "clips": [
+        {
+          "id": "04-dashboard",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dash-1",
+              "text": "Close Editor, and the dashboard shows the tiles. Each one names its report and says the period in words."
+            },
+            {
+              "id": "dash-2",
+              "text": "At the bottom, a tile says when its result was made, and Open the full report goes to the report itself, with every filter and export."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "The Custom Report widget",
+      "subtitle": "A report from the Report Builder",
+      "short": "custom-report",
+      "clips": [
+        {
+          "id": "05-custom",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cus-1",
+              "text": "The Custom Report widget shows a report built in the Report Builder. Choose Add Widget, then Custom Report."
+            },
+            {
+              "id": "cus-2",
+              "text": "Report lists the published reports you may run under Reports, Report Builder, and the views you may use, which show as a table."
+            },
+            {
+              "id": "cus-3",
+              "text": "The period replaces the first date filter that viewers can change on that report; a report without one shows its own dates. Show, Rows per table and Keep for work as before."
+            },
+            {
+              "id": "cus-4",
+              "text": "Publish it, and the tile joins the dashboard beside the others."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Who sees what",
+      "subtitle": "Every tile checks the viewer",
+      "short": "permissions",
+      "clips": [
+        {
+          "id": "06-viewer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "A widget never shows more than its viewer may open. This person has no permission for the Lead funnel report, so its tile says that they can't view it, and shows no numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Where widgets fit",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A supervisor's start of day: queue service level and abandoned calls for yesterday, as figures only."
+            },
+            {
+              "id": "use-2",
+              "text": "A sales lead's board: lead funnel for this month, beside a Report Builder report of activities by agent."
+            },
+            {
+              "id": "use-3",
+              "text": "A quiet wall display: a longer cache time, so the dashboard stays fast however many people open it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report widgets on the dashboard",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Report widgets bring the numbers people check every day to the page they already open every day. Pick a report once, and its period moves with the clock. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

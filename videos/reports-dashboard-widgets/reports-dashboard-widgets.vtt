@@ -1,0 +1,197 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.626
+The admin dashboard is the first page your team sees.
+
+00:00:04.626 --> 00:00:07.085
+Report widgets put a report on it:
+
+00:00:07.085 --> 00:00:10.466
+figures, tables and charts that follow the clock.
+
+00:00:10.466 --> 00:00:15.690
+This video shows the Report widget, the Custom Report widget for Report Builder
+
+00:00:15.690 --> 00:00:18.210
+reports, and what each person sees.
+
+00:00:22.810 --> 00:00:26.703
+Opening a report takes a menu, a date range and a click, and
+
+00:00:26.703 --> 00:00:29.121
+most days the question is the same:
+
+00:00:29.121 --> 00:00:30.950
+how did the last week go?
+
+00:00:31.700 --> 00:00:34.652
+A report widget answers it on the dashboard.
+
+00:00:34.652 --> 00:00:38.963
+You choose the report once, and a period that moves with the clock:
+
+00:00:38.963 --> 00:00:42.210
+the last 30 days is always the 30 days up to now.
+
+00:00:42.960 --> 00:00:47.114
+The widget keeps its result for a few minutes, so a busy dashboard
+
+00:00:47.114 --> 00:00:49.711
+does not run the report on every visit.
+
+00:00:49.711 --> 00:00:51.500
+And it checks the viewer:
+
+00:00:51.500 --> 00:00:54.500
+a report you may not open is not shown to you.
+
+00:00:58.685 --> 00:01:01.496
+Report widgets belong to the Admin Dashboard.
+
+00:01:01.496 --> 00:01:05.023
+Turn on the Admin Dashboard feature under Tools, Features.
+
+00:01:05.023 --> 00:01:09.652
+The Report widget comes with the Reports feature, and the Custom Report widget
+
+00:01:09.652 --> 00:01:11.305
+with the Report Builder.
+
+00:01:13.056 --> 00:01:16.480
+The Dashboard page is now the home of the admin.
+
+00:01:16.480 --> 00:01:21.172
+Manage Dashboard opens its editor, and Add Widget lists the widgets:
+
+00:01:21.172 --> 00:01:24.596
+Custom Report, Html Dashboard Widget and Report.
+
+00:01:28.799 --> 00:01:31.115
+Choose Add Widget, then Report.
+
+00:01:31.115 --> 00:01:36.059
+Position, Width and Height place the tile on the dashboard, and the Title
+
+00:01:36.059 --> 00:01:37.749
+is the name above it.
+
+00:01:38.201 --> 00:01:42.673
+Report lists every report you may view under Reports, by category.
+
+00:01:42.673 --> 00:01:46.461
+Here it is Queue service level, from Queue and Routing.
+
+00:01:46.911 --> 00:01:50.560
+Period is the stretch of time the widget covers:
+
+00:01:50.560 --> 00:01:55.289
+Today and Yesterday, the last 7, 30 or 90 days, this month, last
+
+00:01:55.289 --> 00:02:00.424
+month, this year, the last 12 months, All time, or Custom dates, which
+
+00:02:00.424 --> 00:02:02.991
+asks for a first and a last day.
+
+00:02:03.442 --> 00:02:06.571
+Show chooses what of the report appears:
+
+00:02:06.571 --> 00:02:12.012
+figures and tables, figures only, tables only, charts only, or everything.
+
+00:02:12.482 --> 00:02:15.214
+Rows per table limits a long table.
+
+00:02:15.214 --> 00:02:19.744
+Keep for sets how many minutes the widget keeps what it shows.
+
+00:02:19.744 --> 00:02:22.542
+Zero runs the report on every visit.
+
+00:02:22.994 --> 00:02:24.286
+Click Publish.
+
+00:02:24.286 --> 00:02:27.128
+The widget joins the dashboard editor.
+
+00:02:27.128 --> 00:02:29.452
+Add a second one the same way:
+
+00:02:29.452 --> 00:02:33.004
+Call insights, for the last 7 days, figures only.
+
+00:02:37.181 --> 00:02:40.740
+Close Editor, and the dashboard shows the tiles.
+
+00:02:40.740 --> 00:02:44.761
+Each one names its report and says the period in words.
+
+00:02:45.248 --> 00:02:49.407
+At the bottom, a tile says when its result was made, and Open
+
+00:02:49.407 --> 00:02:54.248
+the full report goes to the report itself, with every filter and export.
+
+00:02:58.433 --> 00:03:02.722
+The Custom Report widget shows a report built in the Report Builder.
+
+00:03:02.722 --> 00:03:05.273
+Choose Add Widget, then Custom Report.
+
+00:03:07.019 --> 00:03:11.848
+Report lists the published reports you may run under Reports, Report Builder, and
+
+00:03:11.848 --> 00:03:14.679
+the views you may use, which show as a table.
+
+00:03:15.168 --> 00:03:20.192
+The period replaces the first date filter that viewers can change on that
+
+00:03:20.192 --> 00:03:23.690
+report; a report without one shows its own dates.
+
+00:03:23.690 --> 00:03:27.188
+Show, Rows per table and Keep for work as before.
+
+00:03:27.639 --> 00:03:32.149
+Publish it, and the tile joins the dashboard beside the others.
+
+00:03:36.361 --> 00:03:39.552
+A widget never shows more than its viewer may open.
+
+00:03:39.552 --> 00:03:43.750
+This person has no permission for the Lead funnel report, so its tile
+
+00:03:43.750 --> 00:03:46.941
+says that they can't view it, and shows no numbers.
+
+00:03:51.141 --> 00:03:53.325
+A supervisor's start of day:
+
+00:03:53.325 --> 00:03:58.271
+queue service level and abandoned calls for yesterday, as figures only.
+
+00:03:59.021 --> 00:04:00.683
+A sales lead's board:
+
+00:04:00.683 --> 00:04:06.101
+lead funnel for this month, beside a Report Builder report of activities by agent.
+
+00:04:06.851 --> 00:04:08.593
+A quiet wall display:
+
+00:04:08.593 --> 00:04:13.951
+a longer cache time, so the dashboard stays fast however many people open it.
+
+00:04:15.951 --> 00:04:20.587
+Report widgets bring the numbers people check every day to the page they
+
+00:04:20.587 --> 00:04:22.310
+already open every day.
+
+00:04:22.310 --> 00:04:25.995
+Pick a report once, and its period moves with the clock.
+
+00:04:25.995 --> 00:04:27.541
+Thanks for watching.
+
