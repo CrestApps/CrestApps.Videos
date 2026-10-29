@@ -87,7 +87,12 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add 'videos/${{ steps.tag.outputs.slug }}/video.json' README.md
           git commit -m "Publish ${{ steps.tag.outputs.slug }} ${{ steps.tag.outputs.version }}: ${{ steps.youtube.outputs.url }}"
-          git push origin HEAD:main
+          # Other pull requests merge into main while a video uploads, so take their work in first and try again.
+          for attempt in 1 2 3 4 5 6; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            sleep $((attempt * 5))
+          done
+          git diff --quiet origin/main HEAD && git status -sb | head -1
 
       - name: Add the YouTube link to the release
         run: |
