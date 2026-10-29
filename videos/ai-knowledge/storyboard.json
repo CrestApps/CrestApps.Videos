@@ -1,0 +1,314 @@
+{
+  "title": "AI Knowledge",
+  "output": "ai-knowledge",
+  "spoken": {
+    "Elasticsearch": "Elastic search",
+    "FTP": "F.T.P.",
+    "SFTP": "S.F.T.P."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Knowledge",
+      "subtitle": "Answers from your own documents, with sources",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "On its own, an AI model only knows what it learned in general. This video shows how to give an assistant your own knowledge, so that it answers from your documents and shows where each answer came from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why knowledge",
+      "subtitle": "Your facts, not a guess",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A general model does not know your prices, your policies or your help articles, so it guesses, or says that it does not know."
+            },
+            {
+              "id": "why-2",
+              "text": "Knowledge fixes that. The assistant looks up the passages that match each question, and answers from them."
+            },
+            {
+              "id": "why-3",
+              "text": "For content such as the pages of a site, the answer carries small numbers, and a numbered list of sources appears under it. Documents on a profile work quietly in the background."
+            },
+            {
+              "id": "why-4",
+              "text": "Your content is kept in a search index that understands meaning, not only words, so a question finds the right passage even when the wording differs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Choose how to add it",
+      "subtitle": "Four ways to give an assistant knowledge",
+      "clips": [
+        {
+          "id": "02-choose",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "choose-1",
+              "text": "A few files, such as a price list or a policy: upload documents to a profile. You keep them current by uploading a new version."
+            },
+            {
+              "id": "choose-2",
+              "text": "Files a person wants to ask about in one chat: let the person attach them. They belong to that chat only."
+            },
+            {
+              "id": "choose-3",
+              "text": "Large or changing content, such as the articles or products of a site: a data source, which the site keeps in step."
+            },
+            {
+              "id": "choose-4",
+              "text": "A folder of files, or a public website: a file source or a web crawler, which read them on a schedule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create the documents index",
+      "subtitle": "Where the documents are stored",
+      "clips": [
+        {
+          "id": "03-index",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "idx-1",
+              "text": "Documents need a search index. Open Search, Indexes, click Add index, and click Add on AI Documents for Elasticsearch."
+            },
+            {
+              "id": "idx-2",
+              "text": "Enter an Index Name and a Name. Documents are embedded with the site's default embedding deployment, which you choose in the default models. Click Save, and the index is created."
+            },
+            {
+              "id": "idx-3",
+              "text": "Then open Settings, Artificial Intelligence, and find the Documents section. Choose the index under Index profile. It holds the documents of profiles and the files that people attach to chats."
+            },
+            {
+              "id": "idx-4",
+              "text": "Avoid switching to another index once people use it, because the documents stored in the old one are no longer found. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "index"
+    },
+    {
+      "id": "04",
+      "title": "Upload documents to a profile",
+      "subtitle": "Background knowledge for every chat",
+      "clips": [
+        {
+          "id": "04-upload",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "upl-1",
+              "text": "Open Artificial Intelligence, Profiles, edit the profile, and open the Knowledge tab. Documents on a profile are background knowledge that the assistant uses in every chat."
+            },
+            {
+              "id": "upl-2",
+              "text": "Drag files onto the upload area, or click Browse Files. Here is a return policy. A new file shows a Pending badge."
+            },
+            {
+              "id": "upl-3",
+              "text": "Document Top N is how many matching passages the assistant reads for each question. More passages give more context, but cost more and slow the answer."
+            },
+            {
+              "id": "upl-4",
+              "text": "Document retrieval mode decides what the assistant gets. Chunk gives only the matching passages. Hierarchical gives the whole documents they come from, which suits short documents."
+            },
+            {
+              "id": "upl-5",
+              "text": "Click Save. The file is read, split into passages and indexed. The supported formats are listed under the upload area."
+            }
+          ]
+        }
+      ],
+      "short": "upload"
+    },
+    {
+      "id": "05",
+      "title": "Ask a question",
+      "subtitle": "Answers from your document",
+      "clips": [
+        {
+          "id": "05-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "Now ask the assistant. In the list of profiles, open Actions and click New chat."
+            },
+            {
+              "id": "ask-2",
+              "text": "Ask something that only the document can answer, such as within how many business days Contoso refunds a returned item."
+            },
+            {
+              "id": "ask-3",
+              "text": "The assistant answers from the document: the refund takes five business days, exactly as the policy says."
+            },
+            {
+              "id": "ask-4",
+              "text": "Documents on a profile work quietly in the background, so the answer has no source list. Data sources, which show numbered sources under an answer, have their own video."
+            }
+          ]
+        }
+      ],
+      "short": "ask"
+    },
+    {
+      "id": "06",
+      "title": "Let people attach files",
+      "subtitle": "Documents and pictures in one chat",
+      "clips": [
+        {
+          "id": "06-attach",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "att-1",
+              "text": "To let people attach files to a chat, tick Allow session document uploads on the Knowledge tab. Allow session image uploads adds pictures, and needs a default vision deployment."
+            },
+            {
+              "id": "att-2",
+              "text": "Largest document that can be indexed is the longest document, in characters of text, that a person can attach. A bigger one is refused when it is attached."
+            },
+            {
+              "id": "att-3",
+              "text": "Describe figures in uploaded documents decides whether the AI describes the charts and pictures inside attached documents. It uses a vision model, so it costs more."
+            },
+            {
+              "id": "att-4",
+              "text": "Attached files belong to one chat only. They never become part of the profile's own knowledge."
+            }
+          ]
+        }
+      ],
+      "short": "attach"
+    },
+    {
+      "id": "07",
+      "title": "More sources of knowledge",
+      "subtitle": "Each has its own video",
+      "clips": [
+        {
+          "id": "07-more",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "more-1",
+              "text": "A data source connects the assistant to a knowledge base built from a search index or a database, such as all the articles of your site."
+            },
+            {
+              "id": "more-2",
+              "text": "A file source reads a folder of files on a schedule, from the site's server, an F.T.P. site or an S.F.T.P. site."
+            },
+            {
+              "id": "more-3",
+              "text": "A web crawler reads a public website page by page, and the sources in answers link back to the original page."
+            },
+            {
+              "id": "more-4",
+              "text": "A documentation search tool instance searches a public documentation site live, only when the assistant needs it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Using knowledge well",
+      "subtitle": "Keep answers on your content",
+      "clips": [
+        {
+          "id": "08-well",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "well-1",
+              "text": "With preemptive retrieval on, in the Default Orchestrator settings, the assistant searches your knowledge before every answer. With it off, it searches when it decides that it needs to."
+            },
+            {
+              "id": "well-2",
+              "text": "Restrict answers to retrieved data only keeps the assistant to your content. When nothing matches, it says so, instead of answering from general knowledge."
+            },
+            {
+              "id": "well-3",
+              "text": "When an answer is wrong or missing, check that indexing has finished, and that the passage really contains the answer."
+            },
+            {
+              "id": "well-4",
+              "text": "Then try a lower Strictness or more Retrieved documents, and tell the assistant in its System instructions to answer only from the provided content."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where knowledge helps",
+      "clips": [
+        {
+          "id": "09-cases",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "case-1",
+              "text": "Support: an assistant answers from your policies and help articles, and links to the source."
+            },
+            {
+              "id": "case-2",
+              "text": "Sales: a price list or a product sheet is one upload away from every conversation."
+            },
+            {
+              "id": "case-3",
+              "text": "Staff: a handbook assistant answers questions about leave, travel and tools."
+            },
+            {
+              "id": "case-4",
+              "text": "Review: with data sources, people check the numbered sources of an answer before they rely on it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the index, upload your documents to a profile, and let the assistant answer from them, with sources. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

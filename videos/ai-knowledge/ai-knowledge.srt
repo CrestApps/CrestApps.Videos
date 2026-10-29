@@ -1,0 +1,380 @@
+1
+00:00:01,000 --> 00:00:04,893
+On its own, an AI model only knows what it learned in general.
+
+2
+00:00:04,893 --> 00:00:09,186
+This video shows how to give an assistant your own knowledge, so that
+
+3
+00:00:09,186 --> 00:00:13,480
+it answers from your documents and shows where each answer came from.
+
+4
+00:00:18,080 --> 00:00:22,211
+A general model does not know your prices, your policies or your help
+
+5
+00:00:22,211 --> 00:00:25,570
+articles, so it guesses, or says that it does not know.
+
+6
+00:00:26,320 --> 00:00:27,915
+Knowledge fixes that.
+
+7
+00:00:27,915 --> 00:00:33,230
+The assistant looks up the passages that match each question, and answers from them.
+
+8
+00:00:33,980 --> 00:00:38,328
+For content such as the pages of a site, the answer carries small
+
+9
+00:00:38,328 --> 00:00:42,186
+numbers, and a numbered list of sources appears under it.
+
+10
+00:00:42,186 --> 00:00:45,860
+Documents on a profile work quietly in the background.
+
+11
+00:00:46,610 --> 00:00:51,315
+Your content is kept in a search index that understands meaning, not only
+
+12
+00:00:51,315 --> 00:00:56,140
+words, so a question finds the right passage even when the wording differs.
+
+13
+00:01:00,340 --> 00:01:03,518
+A few files, such as a price list or a policy:
+
+14
+00:01:03,518 --> 00:01:05,718
+upload documents to a profile.
+
+15
+00:01:05,718 --> 00:01:09,080
+You keep them current by uploading a new version.
+
+16
+00:01:09,830 --> 00:01:12,851
+Files a person wants to ask about in one chat:
+
+17
+00:01:12,851 --> 00:01:14,768
+let the person attach them.
+
+18
+00:01:14,768 --> 00:01:16,860
+They belong to that chat only.
+
+19
+00:01:17,610 --> 00:01:22,665
+Large or changing content, such as the articles or products of a site:
+
+20
+00:01:22,665 --> 00:01:25,990
+a data source, which the site keeps in step.
+
+21
+00:01:26,740 --> 00:01:29,663
+A folder of files, or a public website:
+
+22
+00:01:29,663 --> 00:01:34,080
+a file source or a web crawler, which read them on a schedule.
+
+23
+00:01:38,289 --> 00:01:40,940
+Documents need a search index.
+
+24
+00:01:40,940 --> 00:01:47,789
+Open Search, Indexes, click Add index, and click Add on AI Documents for Elasticsearch.
+
+25
+00:01:48,256 --> 00:01:50,549
+Enter an Index Name and a Name.
+
+26
+00:01:50,549 --> 00:01:57,612
+Documents are embedded with the site's default embedding deployment, which you choose in the default models.
+
+27
+00:01:57,612 --> 00:02:00,276
+Click Save, and the index is created.
+
+28
+00:02:00,734 --> 00:02:05,681
+Then open Settings, Artificial Intelligence, and find the Documents section.
+
+29
+00:02:05,681 --> 00:02:08,276
+Choose the index under Index profile.
+
+30
+00:02:08,276 --> 00:02:13,284
+It holds the documents of profiles and the files that people attach to chats.
+
+31
+00:02:13,772 --> 00:02:18,752
+Avoid switching to another index once people use it, because the documents stored
+
+32
+00:02:18,752 --> 00:02:21,099
+in the old one are no longer found.
+
+33
+00:02:21,099 --> 00:02:22,072
+Click Save.
+
+34
+00:02:26,333 --> 00:02:32,156
+Open Artificial Intelligence, Profiles, edit the profile, and open the Knowledge tab.
+
+35
+00:02:32,156 --> 00:02:38,043
+Documents on a profile are background knowledge that the assistant uses in every chat.
+
+36
+00:02:41,166 --> 00:02:45,310
+Drag files onto the upload area, or click Browse Files.
+
+37
+00:02:45,310 --> 00:02:47,347
+Here is a return policy.
+
+38
+00:02:47,347 --> 00:02:49,996
+A new file shows a Pending badge.
+
+39
+00:02:52,145 --> 00:02:57,853
+Document Top N is how many matching passages the assistant reads for each question.
+
+40
+00:02:57,853 --> 00:03:02,535
+More passages give more context, but cost more and slow the answer.
+
+41
+00:03:03,077 --> 00:03:06,873
+Document retrieval mode decides what the assistant gets.
+
+42
+00:03:06,873 --> 00:03:09,628
+Chunk gives only the matching passages.
+
+43
+00:03:09,628 --> 00:03:15,077
+Hierarchical gives the whole documents they come from, which suits short documents.
+
+44
+00:03:15,649 --> 00:03:16,775
+Click Save.
+
+45
+00:03:16,775 --> 00:03:20,486
+The file is read, split into passages and indexed.
+
+46
+00:03:20,486 --> 00:03:24,529
+The supported formats are listed under the upload area.
+
+47
+00:03:28,732 --> 00:03:30,852
+Now ask the assistant.
+
+48
+00:03:30,852 --> 00:03:35,622
+In the list of profiles, open Actions and click New chat.
+
+49
+00:03:36,075 --> 00:03:40,569
+Ask something that only the document can answer, such as within how many
+
+50
+00:03:40,569 --> 00:03:43,565
+business days Contoso refunds a returned item.
+
+51
+00:03:44,038 --> 00:03:46,949
+The assistant answers from the document:
+
+52
+00:03:46,949 --> 00:03:51,378
+the refund takes five business days, exactly as the policy says.
+
+53
+00:03:51,834 --> 00:03:57,448
+Documents on a profile work quietly in the background, so the answer has no source list.
+
+54
+00:03:57,448 --> 00:04:02,584
+Data sources, which show numbered sources under an answer, have their own video.
+
+55
+00:04:06,884 --> 00:04:11,502
+To let people attach files to a chat, tick Allow session document uploads
+
+56
+00:04:11,502 --> 00:04:13,080
+on the Knowledge tab.
+
+57
+00:04:13,080 --> 00:04:18,164
+Allow session image uploads adds pictures, and needs a default vision deployment.
+
+58
+00:04:18,642 --> 00:04:23,771
+Largest document that can be indexed is the longest document, in characters of
+
+59
+00:04:23,771 --> 00:04:26,030
+text, that a person can attach.
+
+60
+00:04:26,030 --> 00:04:29,082
+A bigger one is refused when it is attached.
+
+61
+00:04:29,546 --> 00:04:35,301
+Describe figures in uploaded documents decides whether the AI describes the charts and
+
+62
+00:04:35,301 --> 00:04:37,866
+pictures inside attached documents.
+
+63
+00:04:37,866 --> 00:04:40,806
+It uses a vision model, so it costs more.
+
+64
+00:04:41,284 --> 00:04:44,134
+Attached files belong to one chat only.
+
+65
+00:04:44,134 --> 00:04:47,934
+They never become part of the profile's own knowledge.
+
+66
+00:04:52,134 --> 00:04:56,124
+A data source connects the assistant to a knowledge base built from a
+
+67
+00:04:56,124 --> 00:04:59,954
+search index or a database, such as all the articles of your site.
+
+68
+00:05:00,704 --> 00:05:04,825
+A file source reads a folder of files on a schedule, from the
+
+69
+00:05:04,825 --> 00:05:06,670
+site's server, an F.T.P.
+
+70
+00:05:06,670 --> 00:05:08,207
+site or an S.F.T.P.
+
+71
+00:05:08,207 --> 00:05:08,884
+site.
+
+72
+00:05:09,634 --> 00:05:13,966
+A web crawler reads a public website page by page, and the sources
+
+73
+00:05:13,966 --> 00:05:16,854
+in answers link back to the original page.
+
+74
+00:05:17,604 --> 00:05:23,227
+A documentation search tool instance searches a public documentation site live, only when
+
+75
+00:05:23,227 --> 00:05:24,944
+the assistant needs it.
+
+76
+00:05:29,144 --> 00:05:35,184
+With preemptive retrieval on, in the Default Orchestrator settings, the assistant searches your
+
+77
+00:05:35,184 --> 00:05:37,336
+knowledge before every answer.
+
+78
+00:05:37,336 --> 00:05:41,164
+With it off, it searches when it decides that it needs to.
+
+79
+00:05:41,914 --> 00:05:47,130
+Restrict answers to retrieved data only keeps the assistant to your content.
+
+80
+00:05:47,130 --> 00:05:52,474
+When nothing matches, it says so, instead of answering from general knowledge.
+
+81
+00:05:53,224 --> 00:05:57,590
+When an answer is wrong or missing, check that indexing has finished, and
+
+82
+00:05:57,590 --> 00:06:00,354
+that the passage really contains the answer.
+
+83
+00:06:01,104 --> 00:06:05,862
+Then try a lower Strictness or more Retrieved documents, and tell the assistant
+
+84
+00:06:05,862 --> 00:06:10,004
+in its System instructions to answer only from the provided content.
+
+85
+00:06:14,204 --> 00:06:15,029
+Support:
+
+86
+00:06:15,029 --> 00:06:20,274
+an assistant answers from your policies and help articles, and links to the source.
+
+87
+00:06:21,024 --> 00:06:21,826
+Sales:
+
+88
+00:06:21,826 --> 00:06:27,244
+a price list or a product sheet is one upload away from every conversation.
+
+89
+00:06:27,994 --> 00:06:28,795
+Staff:
+
+90
+00:06:28,795 --> 00:06:33,804
+a handbook assistant answers questions about leave, travel and tools.
+
+91
+00:06:34,554 --> 00:06:35,334
+Review:
+
+92
+00:06:35,334 --> 00:06:41,034
+with data sources, people check the numbered sources of an answer before they rely on it.
+
+93
+00:06:43,034 --> 00:06:47,478
+Create the index, upload your documents to a profile, and let the assistant
+
+94
+00:06:47,478 --> 00:06:49,507
+answer from them, with sources.
+
+95
+00:06:49,507 --> 00:06:50,934
+Thanks for watching.
+

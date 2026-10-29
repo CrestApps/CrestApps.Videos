@@ -1,0 +1,52 @@
+1
+00:00:03,261 --> 00:00:09,084
+Open Artificial Intelligence, Profiles, edit the profile, and open the Knowledge tab.
+
+2
+00:00:09,084 --> 00:00:14,971
+Documents on a profile are background knowledge that the assistant uses in every chat.
+
+3
+00:00:18,095 --> 00:00:22,238
+Drag files onto the upload area, or click Browse Files.
+
+4
+00:00:22,238 --> 00:00:24,276
+Here is a return policy.
+
+5
+00:00:24,276 --> 00:00:26,925
+A new file shows a Pending badge.
+
+6
+00:00:29,074 --> 00:00:34,782
+Document Top N is how many matching passages the assistant reads for each question.
+
+7
+00:00:34,782 --> 00:00:39,464
+More passages give more context, but cost more and slow the answer.
+
+8
+00:00:40,005 --> 00:00:43,801
+Document retrieval mode decides what the assistant gets.
+
+9
+00:00:43,801 --> 00:00:46,556
+Chunk gives only the matching passages.
+
+10
+00:00:46,556 --> 00:00:52,005
+Hierarchical gives the whole documents they come from, which suits short documents.
+
+11
+00:00:52,577 --> 00:00:53,704
+Click Save.
+
+12
+00:00:53,704 --> 00:00:57,415
+The file is read, split into passages and indexed.
+
+13
+00:00:57,415 --> 00:01:01,457
+The supported formats are listed under the upload area.
+
