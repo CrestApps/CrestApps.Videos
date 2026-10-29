@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:03.244 --> 00:00:06.899
+Open Load Activities, and click Add Activity Load.
+
+00:00:06.899 --> 00:00:10.227
+The sources are Automatic, Dialer and Manual.
+
+00:00:10.227 --> 00:00:15.905
+Dialer activities stay unassigned until the dialer reserves them for an agent, so
+
+00:00:15.905 --> 00:00:18.384
+a campaign of calls uses Dialer.
+
+00:00:18.861 --> 00:00:24.749
+Enter a Title, then pick the Subject content type, the Campaign and the Dialer profile.
+
+00:00:24.749 --> 00:00:29.117
+The campaign is required, unless the subject has a default one.
+
+00:00:29.117 --> 00:00:30.889
+Dial from is optional:
+
+00:00:30.889 --> 00:00:35.131
+pick a number if this campaign should show its own caller ID.
+
+00:00:36.706 --> 00:00:41.140
+Pick the Record type, contacts or leads, and filter who is loaded.
+
+00:00:41.140 --> 00:00:46.620
+Prevent duplicate activity with the same subject keeps contacts who already have an
+
+00:00:46.620 --> 00:00:49.207
+open activity out of the load twice.
+
+00:00:49.207 --> 00:00:50.746
+Then save the load.
+
+00:00:52.032 --> 00:00:54.931
+Choose Load activities from the Actions menu.
+
+00:00:54.931 --> 00:00:59.251
+When it finishes, the list shows that it loaded two of three contacts,
+
+00:00:59.251 --> 00:01:04.082
+and skipped one, because its only number is on the Numbers Not In Service list.
+
