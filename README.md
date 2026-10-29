@@ -27,7 +27,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Model Context Protocol (MCP): Connect Tools to Your AI Assistants](videos/ai-mcp) | 7:08 | [https://youtu.be/WHZYbtZB2io](https://youtu.be/WHZYbtZB2io) | CrestApps/CrestApps.OrchardCore |
 | [MCP Resources: Share Files and Data with AI Apps](videos/ai-mcp-resources) | 4:32 | [https://youtu.be/HVynNqdNys8](https://youtu.be/HVynNqdNys8) | CrestApps/CrestApps.OrchardCore |
 | [AI Memory: Assistants That Remember Each User](videos/ai-memory) | 5:35 | [https://youtu.be/bE4Y1NkpU0E](https://youtu.be/bE4Y1NkpU0E) | CrestApps/CrestApps.OrchardCore |
-| [AI Orchestrators: Default, GitHub Copilot and Claude](videos/ai-orchestrators) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Orchestrators: Default, GitHub Copilot and Claude](videos/ai-orchestrators) | 3:42 | [https://youtu.be/b3LZEgiQ_hU](https://youtu.be/b3LZEgiQ_hU) | CrestApps/CrestApps.OrchardCore |
 | [AI Profile Builder: Train Your AI Assistant by Role-Play and Feedback](videos/ai-profile-builder) | 4:40 | [https://youtu.be/UOKvEY-kID4](https://youtu.be/UOKvEY-kID4) | [CrestApps/CrestApps.OrchardCore#910](https://github.com/CrestApps/CrestApps.OrchardCore/pull/910) |
 | [AI Profiles, Personas and Templates: Build and Reuse Your Assistants](videos/ai-profiles-personas-templates) | 10:51 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Prompt Security: Protect Your Public AI Assistants](videos/ai-prompt-security) | 4:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
