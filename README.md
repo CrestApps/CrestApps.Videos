@@ -16,7 +16,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Chat: Talk to Your Assistants in the Admin and on Your Website](videos/ai-chat) | 8:05 | [https://youtu.be/a2S4QqdEbLc](https://youtu.be/a2S4QqdEbLc) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Interactions: Try Any Model and Set It Up as You Chat](videos/ai-chat-interactions) | 6:30 | [https://youtu.be/jkkWgJwaFEE](https://youtu.be/jkkWgJwaFEE) | CrestApps/CrestApps.OrchardCore |
 | [AI Connections and Deployments: Connect Your Site to an AI Service](videos/ai-connections-deployments) | 5:56 | [https://youtu.be/X0tP_6Bdzs4](https://youtu.be/X0tP_6Bdzs4) | CrestApps/CrestApps.OrchardCore |
-| [AI Data Extraction and Post-Session Processing: Learn From Every Chat](videos/ai-data-extraction-post-session) | 3:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Data Extraction and Post-Session Processing: Learn From Every Chat](videos/ai-data-extraction-post-session) | 3:34 | [https://youtu.be/JiL7Sa_1x1I](https://youtu.be/JiL7Sa_1x1I) | CrestApps/CrestApps.OrchardCore |
 | [AI Data Sources: Answers From Your Site's Content](videos/ai-data-sources) | 5:26 | [https://youtu.be/LDs71B6_6m8](https://youtu.be/LDs71B6_6m8) | CrestApps/CrestApps.OrchardCore |
 | [External AI Data Sources: Elasticsearch, Azure AI Search and PostgreSQL](videos/ai-data-sources-external) | 4:05 | [https://youtu.be/60BtEo6drt8](https://youtu.be/60BtEo6drt8) | CrestApps/CrestApps.OrchardCore |
 | [AI Documents: Ask About a File in a Chat, Charts Included](videos/ai-documents) | 4:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
