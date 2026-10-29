@@ -1,0 +1,111 @@
+{
+  "title": "Orders: Find, Refund, Cancel and Create Orders | CrestApps for Orchard Core",
+  "description": "Every sale has to be remembered: who bought what, what they paid, and what happens next. The CrestApps Orders module keeps one record for every sale, with its items, totals, customer, payment and shipments, and the tools to fix it when something goes wrong: refund it, cancel it, add a note, or send the confirmation again. It also creates orders for buyers who never used the checkout, takes returns, issues gift cards, and sends the emails and receipts your customers expect.\n\nIn this video:\n• Why an order is the one record of a sale\n• Finding orders with search and filters\n• The order page: items, shipments, invoice, packing slip and notes\n• Refund, cancel and send the confirmation again\n• Creating an order for a buyer, and the pay link\n• Returns and their settings\n• Issuing a gift card by hand\n• Order settings, order emails and receipts",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "orders",
+    "order management",
+    "refund",
+    "invoice",
+    "packing slip",
+    "gift cards",
+    "returns",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Why orders"
+    },
+    {
+      "time": "1:05",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:44",
+      "title": "Find orders"
+    },
+    {
+      "time": "2:19",
+      "title": "An order"
+    },
+    {
+      "time": "3:08",
+      "title": "Refund, cancel and resend"
+    },
+    {
+      "time": "3:47",
+      "title": "Create an order for a buyer"
+    },
+    {
+      "time": "4:27",
+      "title": "Returns"
+    },
+    {
+      "time": "4:52",
+      "title": "Gift cards"
+    },
+    {
+      "time": "5:31",
+      "title": "Order settings and emails"
+    },
+    {
+      "time": "6:19",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:52",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Carts and orders (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/carts-and-orders"
+    },
+    {
+      "label": "Invoices and receipts (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/invoices-and-receipts"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/carts-and-orders"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders and CrestApps.OrchardCore.Receipts"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/carts-and-orders.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/returns.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/gift-cards.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/invoices-and-receipts.md",
+    "src/CrestApps.Docs/docs/modules/carts-and-orders.md"
+  ],
+  "length": "7:03"
+}
