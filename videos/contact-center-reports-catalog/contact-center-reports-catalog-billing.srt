@@ -1,0 +1,24 @@
+1
+00:00:03,205 --> 00:00:06,717
+Billing and Usage measures what the center used.
+
+2
+00:00:06,717 --> 00:00:14,845
+Queue usage for billing lists each queue's interactions, connected time, wrap-up, queue wait, transfers and recordings.
+
+3
+00:00:15,296 --> 00:00:20,930
+Agent, Channel, Provider and Daily usage for billing group the same measures by
+
+4
+00:00:20,930 --> 00:00:23,515
+agent, channel, provider and day.
+
+5
+00:00:23,515 --> 00:00:26,630
+They apply no prices, contracts or taxes:
+
+6
+00:00:26,630 --> 00:00:30,076
+they support an invoice, they do not make one.
+

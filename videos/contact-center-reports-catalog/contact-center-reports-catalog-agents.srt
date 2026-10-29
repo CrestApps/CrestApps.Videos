@@ -1,0 +1,32 @@
+1
+00:00:03,268 --> 00:00:05,919
+Agent Performance compares people.
+
+2
+00:00:05,919 --> 00:00:13,538
+Agent productivity shows each agent's handled calls, talk time, average handle time and completed activities.
+
+3
+00:00:14,028 --> 00:00:18,854
+Agent utilization is busy plus wrap-up time divided by signed-in time.
+
+4
+00:00:18,854 --> 00:00:24,060
+Agent occupancy divides it by the time the agent was available to take work.
+
+5
+00:00:24,060 --> 00:00:27,298
+Both show how busy an agent is, not how good.
+
+6
+00:00:27,783 --> 00:00:34,436
+Agent handle time analysis, Agent wrap-up performance, the inbound, outbound, transfer and outcome
+
+7
+00:00:34,436 --> 00:00:39,043
+reports, and Talk, hold, ring and queue wait each look at one part
+
+8
+00:00:39,043 --> 00:00:40,643
+of an agent's work.
+

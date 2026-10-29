@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.744
+The Contact Center reports are grouped into categories, and each category answers a
+
+00:00:05.744 --> 00:00:07.503
+different kind of question.
+
+00:00:07.503 --> 00:00:11.661
+This video walks through the categories with a real report from each, so
+
+00:00:11.661 --> 00:00:13.580
+you know which report to open.
+
+00:00:18.180 --> 00:00:21.036
+Executive is the one page for leaders.
+
+00:00:21.036 --> 00:00:25.904
+Operations and Queue and Routing show how calls and queues performed.
+
+00:00:25.904 --> 00:00:28.500
+Agent Performance looks at people.
+
+00:00:29.250 --> 00:00:32.366
+Workforce and Payroll counts agents' time.
+
+00:00:32.366 --> 00:00:35.417
+Billing and Usage measures what was used.
+
+00:00:35.417 --> 00:00:39.507
+Compliance and Audit lists the records behind the totals.
+
+00:00:39.507 --> 00:00:43.077
+Technical and IT looks at providers and failures.
+
+00:00:43.077 --> 00:00:48.400
+CRM and Campaigns holds the reports of the CRM, which have their own videos.
+
+00:00:52.700 --> 00:00:56.820
+Executive has one report, the Executive performance dashboard.
+
+00:00:56.820 --> 00:01:01.606
+Cards show the main numbers, and charts show the daily trend, the channel
+
+00:01:01.606 --> 00:01:06.090
+mix, each queue's service level, and the agents with the most calls.
+
+00:01:08.371 --> 00:01:10.150
+It answers one question:
+
+00:01:10.150 --> 00:01:11.811
+is the center healthy?
+
+00:01:11.811 --> 00:01:15.845
+Open it first, and use its filters to look at one queue group,
+
+00:01:15.845 --> 00:01:17.921
+one channel or one direction.
+
+00:01:22.192 --> 00:01:26.059
+Operations shows how the center performed over time.
+
+00:01:26.059 --> 00:01:29.660
+Call insights gives the cards and a daily trend.
+
+00:01:29.660 --> 00:01:37.262
+Interaction volume trend and Interval performance show each day's outcomes, speed of answer and handle time.
+
+00:01:37.762 --> 00:01:43.401
+Hour-of-day performance and Day-of-week performance show when demand arrives.
+
+00:01:43.401 --> 00:01:45.372
+The hours are in U.T.C.
+
+00:01:45.837 --> 00:01:55.488
+Channel performance, Direction performance, Interaction outcome summary and Interaction lifecycle duration compare channels, directions and outcomes.
+
+00:01:55.488 --> 00:02:00.407
+Call quality shows how calls were rated, and where the poor ones cluster.
+
+00:02:04.656 --> 00:02:07.110
+Queue and Routing is about queues.
+
+00:02:07.110 --> 00:02:12.203
+Queue service level shows, for each queue, the share of calls answered within
+
+00:02:12.203 --> 00:02:14.534
+the threshold set on that queue.
+
+00:02:14.534 --> 00:02:20.976
+Queue usage shows handled, answered and abandoned calls, handle time, and how many are waiting now.
+
+00:02:21.431 --> 00:02:27.691
+Queue abandonment analysis, Queue wait time analysis, Queue handle time analysis, Queue performance
+
+00:02:27.691 --> 00:02:32.341
+summary and Queue transfer performance each look at one side of a queue.
+
+00:02:32.341 --> 00:02:35.381
+Transfer analysis shows where transfers went.
+
+00:02:35.381 --> 00:02:39.911
+High-wait interaction detail lists calls that waited a minute or more.
+
+00:02:40.402 --> 00:02:45.051
+Agent availability and wait time and Dialer decision log are live reports.
+
+00:02:45.051 --> 00:02:49.235
+They explain why an agent is not getting calls, and why the dialer
+
+00:02:49.235 --> 00:02:50.862
+did not call a record.
+
+00:02:55.130 --> 00:02:57.780
+Agent Performance compares people.
+
+00:02:57.780 --> 00:03:05.400
+Agent productivity shows each agent's handled calls, talk time, average handle time and completed activities.
+
+00:03:05.890 --> 00:03:10.716
+Agent utilization is busy plus wrap-up time divided by signed-in time.
+
+00:03:10.716 --> 00:03:15.922
+Agent occupancy divides it by the time the agent was available to take work.
+
+00:03:15.922 --> 00:03:19.160
+Both show how busy an agent is, not how good.
+
+00:03:19.644 --> 00:03:26.298
+Agent handle time analysis, Agent wrap-up performance, the inbound, outbound, transfer and outcome
+
+00:03:26.298 --> 00:03:30.905
+reports, and Talk, hold, ring and queue wait each look at one part
+
+00:03:30.905 --> 00:03:32.504
+of an agent's work.
+
+00:03:36.714 --> 00:03:42.088
+Workforce and Payroll reports count the time agents spend in each state.
+
+00:03:42.088 --> 00:03:47.738
+Agent time summary shows signed-in, available, busy, wrap-up and break time.
+
+00:03:47.738 --> 00:03:51.114
+Daily agent timecard breaks it down by day.
+
+00:03:51.572 --> 00:03:57.104
+Reconciled payroll timecard shows each agent's day beside the time in every state,
+
+00:03:57.104 --> 00:04:00.058
+and flags every day that does not add up.
+
+00:04:00.058 --> 00:04:01.881
+It shows time, not pay:
+
+00:04:01.881 --> 00:04:04.772
+pay rates and schedules are not applied.
+
+00:04:05.225 --> 00:04:12.078
+Presence status duration, Presence reason breakdown, Ready versus not-ready time, Agent break and
+
+00:04:12.078 --> 00:04:18.797
+away analysis, Queue signed-in hours and Campaign signed-in hours cut the same time other ways.
+
+00:04:18.797 --> 00:04:21.525
+All of them are limited to 31 days.
+
+00:04:25.730 --> 00:04:29.242
+Billing and Usage measures what the center used.
+
+00:04:29.242 --> 00:04:37.370
+Queue usage for billing lists each queue's interactions, connected time, wrap-up, queue wait, transfers and recordings.
+
+00:04:37.821 --> 00:04:43.455
+Agent, Channel, Provider and Daily usage for billing group the same measures by
+
+00:04:43.455 --> 00:04:46.040
+agent, channel, provider and day.
+
+00:04:46.040 --> 00:04:49.155
+They apply no prices, contracts or taxes:
+
+00:04:49.155 --> 00:04:52.601
+they support an invoice, they do not make one.
+
+00:04:56.773 --> 00:05:01.334
+Compliance and Audit lists the records behind the totals.
+
+00:05:01.334 --> 00:05:09.153
+Interaction detail has one row per interaction, with its queue, agent, provider, timing and transfers.
+
+00:05:09.627 --> 00:05:15.178
+Recording coverage shows how many answered voice calls have a recording, by provider.
+
+00:05:15.178 --> 00:05:18.167
+Agent recording coverage shows it by agent.
+
+00:05:18.625 --> 00:05:24.581
+Abandoned interaction detail and Long interaction detail list the calls behind those totals.
+
+00:05:24.581 --> 00:05:29.868
+Agent presence audit and Agent activity timeline list every state change and call
+
+00:05:29.868 --> 00:05:31.995
+change of an agent, in order.
+
+00:05:36.199 --> 00:05:40.376
+Technical and IT is for the people who run the phone system.
+
+00:05:40.376 --> 00:05:45.819
+Provider performance compares outcomes and durations by communications provider.
+
+00:05:46.270 --> 00:05:50.590
+Call leg performance looks at each leg of a call, and Failed interaction
+
+00:05:50.590 --> 00:05:54.190
+detail lists every call that failed for a technical reason.
+
+00:05:58.390 --> 00:06:00.641
+Is the center healthy this week?
+
+00:06:00.641 --> 00:06:03.426
+Open the Executive performance dashboard.
+
+00:06:03.426 --> 00:06:05.499
+Are callers waiting too long?
+
+00:06:05.499 --> 00:06:09.410
+Open Queue service level, then High-wait interaction detail.
+
+00:06:10.160 --> 00:06:11.695
+Who needs coaching?
+
+00:06:11.695 --> 00:06:15.441
+Open Agent productivity and Agent handle time analysis.
+
+00:06:15.441 --> 00:06:18.204
+Who was on the clock, and for how long?
+
+00:06:18.204 --> 00:06:20.600
+Open Reconciled payroll timecard.
+
+00:06:21.350 --> 00:06:23.236
+Are calls being recorded?
+
+00:06:23.236 --> 00:06:25.061
+Open Recording coverage.
+
+00:06:25.061 --> 00:06:26.765
+Is a provider failing?
+
+00:06:26.765 --> 00:06:30.660
+Open Provider performance, then Failed interaction detail.
+
+00:06:32.660 --> 00:06:35.691
+Eight categories, one kind of question each.
+
+00:06:35.691 --> 00:06:40.663
+Start with the dashboard, then open the category that matches your question.
+
+00:06:40.663 --> 00:06:42.240
+Thanks for watching.
+

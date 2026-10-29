@@ -1,0 +1,40 @@
+1
+00:00:03,209 --> 00:00:08,584
+Workforce and Payroll reports count the time agents spend in each state.
+
+2
+00:00:08,584 --> 00:00:14,233
+Agent time summary shows signed-in, available, busy, wrap-up and break time.
+
+3
+00:00:14,233 --> 00:00:17,609
+Daily agent timecard breaks it down by day.
+
+4
+00:00:18,068 --> 00:00:23,599
+Reconciled payroll timecard shows each agent's day beside the time in every state,
+
+5
+00:00:23,599 --> 00:00:26,554
+and flags every day that does not add up.
+
+6
+00:00:26,554 --> 00:00:28,376
+It shows time, not pay:
+
+7
+00:00:28,376 --> 00:00:31,268
+pay rates and schedules are not applied.
+
+8
+00:00:31,721 --> 00:00:38,573
+Presence status duration, Presence reason breakdown, Ready versus not-ready time, Agent break and
+
+9
+00:00:38,573 --> 00:00:45,293
+away analysis, Queue signed-in hours and Campaign signed-in hours cut the same time other ways.
+
+10
+00:00:45,293 --> 00:00:48,021
+All of them are limited to 31 days.
+

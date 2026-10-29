@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.172 --> 00:00:07.733
+Compliance and Audit lists the records behind the totals.
+
+00:00:07.733 --> 00:00:15.552
+Interaction detail has one row per interaction, with its queue, agent, provider, timing and transfers.
+
+00:00:16.026 --> 00:00:21.577
+Recording coverage shows how many answered voice calls have a recording, by provider.
+
+00:00:21.577 --> 00:00:24.566
+Agent recording coverage shows it by agent.
+
+00:00:25.024 --> 00:00:30.979
+Abandoned interaction detail and Long interaction detail list the calls behind those totals.
+
+00:00:30.979 --> 00:00:36.266
+Agent presence audit and Agent activity timeline list every state change and call
+
+00:00:36.266 --> 00:00:38.394
+change of an agent, in order.
+
