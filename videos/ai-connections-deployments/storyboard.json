@@ -1,0 +1,278 @@
+{
+  "title": "AI Connections and Deployments",
+  "output": "ai-connections-deployments",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Connections and Deployments",
+      "subtitle": "Connect your site to an AI service, and choose its models",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Before anyone can chat with an AI assistant, your site has to reach an AI service. This video shows how connections, deployments and default models work together, why they exist, and how to set each one up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why connections and deployments",
+      "subtitle": "Set the provider up once",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every AI feature, such as chat, search over your documents, or a spoken conversation, needs a model that runs at an AI provider."
+            },
+            {
+              "id": "why-2",
+              "text": "Different jobs need different models: a chat model to answer, an embedding model to search, a vision model to read pictures, and speech models for voice."
+            },
+            {
+              "id": "why-3",
+              "text": "If every profile and feature kept its own address and key, changing a key or a model would mean editing each of them by hand."
+            },
+            {
+              "id": "why-4",
+              "text": "Instead, you set the provider up once. Everything else picks a model by name, and a change in one place reaches them all."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "A connection, its deployments, and the defaults",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A connection holds the address and the key of one account at an AI provider. The key is stored securely, and is never shown again."
+            },
+            {
+              "id": "how-2",
+              "text": "A deployment is one model you use through a connection. It declares what the model can do, which are its capabilities."
+            },
+            {
+              "id": "how-3",
+              "text": "The default deployments, in the site settings, say which model each kind of job uses when a profile or a chat does not choose one."
+            },
+            {
+              "id": "how-4",
+              "text": "Some connections and deployments are managed by your technical team. They appear in the same lists, marked Read-only, and you do not change them here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add a connection",
+      "subtitle": "The address and key of your AI provider",
+      "clips": [
+        {
+          "id": "03-connection",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "conn-1",
+              "text": "Open Artificial Intelligence, Provider Connections. The connections of the site are listed here, and below them the ones from configuration."
+            },
+            {
+              "id": "conn-2",
+              "text": "Click Add Connection. The window lists one provider for each provider feature you enabled. Click Add on Azure OpenAI."
+            },
+            {
+              "id": "conn-3",
+              "text": "Give the connection a Title. The Technical name is filled in from it, and cannot be changed later."
+            },
+            {
+              "id": "conn-4",
+              "text": "Paste the Endpoint from your provider's portal, and choose how the site signs in: default authentication, a managed identity, or an API key."
+            },
+            {
+              "id": "conn-5",
+              "text": "With an API key, paste it here. When you edit the connection later, leave the field blank to keep the stored key."
+            },
+            {
+              "id": "conn-6",
+              "text": "Click Save. The site checks the fields, but it does not contact the provider, so a wrong key shows up the first time someone chats."
+            }
+          ]
+        }
+      ],
+      "short": "connection"
+    },
+    {
+      "id": "04",
+      "title": "Add a deployment",
+      "subtitle": "One entry for every model you use",
+      "clips": [
+        {
+          "id": "04-deployment",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dep-1",
+              "text": "Open Artificial Intelligence, Deployments, and click Add Deployment."
+            },
+            {
+              "id": "dep-2",
+              "text": "Click Add on the provider of the model. Here it is Azure OpenAI again."
+            },
+            {
+              "id": "dep-3",
+              "text": "Enter the Model name exactly as your provider knows it. The Technical name is filled in from it, and profiles and settings use that name."
+            },
+            {
+              "id": "dep-4",
+              "text": "The Connection name is the connection this model is used through. It is already picked when the provider has only one."
+            },
+            {
+              "id": "dep-5",
+              "text": "Under Trained features, a chat model keeps Text conversation, Tool calling and Streaming. Click Save."
+            },
+            {
+              "id": "dep-6",
+              "text": "Add one deployment for every model the site needs. The next one is an embedding model, which searches documents."
+            },
+            {
+              "id": "dep-7",
+              "text": "An embedding model gets Text embedding and nothing else, so the chat features are cleared. Click Save."
+            },
+            {
+              "id": "dep-8",
+              "text": "Both models are now listed, each with its capabilities."
+            }
+          ]
+        }
+      ],
+      "short": "deployment"
+    },
+    {
+      "id": "05",
+      "title": "Model capabilities",
+      "subtitle": "Tell the site what each model can do",
+      "clips": [
+        {
+          "id": "05-capabilities",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cap-1",
+              "text": "The capabilities decide where a model is offered. An embedding model shows up only where an embedding model is needed."
+            },
+            {
+              "id": "cap-2",
+              "text": "Tick only what the model was trained for. A feature you leave unticked is never asked of the model, and one you tick falsely is sent to the provider, which rejects it."
+            },
+            {
+              "id": "cap-3",
+              "text": "The list also covers images, speech to text, text to speech, audio, video, and Realtime for live voice models."
+            },
+            {
+              "id": "cap-4",
+              "text": "Ticking Reasoning shows Reasoning effort. Narrow the supported values, from Minimal to Extra high, and pick the default. Higher effort is more careful, but slower and costlier."
+            }
+          ]
+        }
+      ],
+      "short": "capabilities"
+    },
+    {
+      "id": "06",
+      "title": "Choose the default models",
+      "subtitle": "What a profile or chat uses when it does not choose",
+      "clips": [
+        {
+          "id": "06-defaults",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "def-1",
+              "text": "Open Settings, Artificial Intelligence. The Default Deployments section picks a model for each kind of job."
+            },
+            {
+              "id": "def-2",
+              "text": "The Default chat deployment answers chats and chat interactions that do not pick a model. Set this one first."
+            },
+            {
+              "id": "def-3",
+              "text": "The Default utility deployment does small side jobs, such as planning and working out what the user wants. A small, fast model fits."
+            },
+            {
+              "id": "def-4",
+              "text": "The Default embedding deployment searches documents and knowledge. Each list shows only the deployments that have the right capability."
+            },
+            {
+              "id": "def-5",
+              "text": "Click Save. Anything left on Default now uses these models."
+            }
+          ]
+        }
+      ],
+      "short": "defaults"
+    },
+    {
+      "id": "07",
+      "title": "Match the model to the job",
+      "subtitle": "Which capability each feature needs",
+      "clips": [
+        {
+          "id": "07-jobs",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "job-1",
+              "text": "Chat, chat widgets and AI workflow tasks need a deployment with Text conversation."
+            },
+            {
+              "id": "job-2",
+              "text": "Answers from documents, data sources and web crawlers need Text embedding for the search index, plus a chat model."
+            },
+            {
+              "id": "job-3",
+              "text": "Reading pictures needs Image input, and creating them needs Image output. Dictation needs Speech to text, and reading aloud needs Text to speech."
+            },
+            {
+              "id": "job-4",
+              "text": "Spoken conversations use a Realtime deployment. Without one, a Cascaded Realtime deployment chains a speech to text, a chat and a text to speech deployment that you already have."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set up a connection once, add a deployment for each model, and choose the defaults: every AI feature on your site then works from the same place. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

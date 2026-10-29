@@ -1,0 +1,44 @@
+1
+00:00:03,203 --> 00:00:05,910
+Open Settings, Artificial Intelligence.
+
+2
+00:00:05,910 --> 00:00:10,303
+The Default Deployments section picks a model for each kind of job.
+
+3
+00:00:10,756 --> 00:00:16,345
+The Default chat deployment answers chats and chat interactions that do not pick a model.
+
+4
+00:00:16,345 --> 00:00:17,816
+Set this one first.
+
+5
+00:00:18,268 --> 00:00:23,277
+The Default utility deployment does small side jobs, such as planning and working
+
+6
+00:00:23,277 --> 00:00:25,004
+out what the user wants.
+
+7
+00:00:25,004 --> 00:00:26,788
+A small, fast model fits.
+
+8
+00:00:27,241 --> 00:00:31,172
+The Default embedding deployment searches documents and knowledge.
+
+9
+00:00:31,172 --> 00:00:35,211
+Each list shows only the deployments that have the right capability.
+
+10
+00:00:35,664 --> 00:00:36,788
+Click Save.
+
+11
+00:00:36,788 --> 00:00:40,294
+Anything left on Default now uses these models.
+

@@ -1,0 +1,56 @@
+1
+00:00:03,202 --> 00:00:07,782
+Open Artificial Intelligence, Deployments, and click Add Deployment.
+
+2
+00:00:08,233 --> 00:00:11,033
+Click Add on the provider of the model.
+
+3
+00:00:11,033 --> 00:00:13,273
+Here it is Azure OpenAI again.
+
+4
+00:00:13,724 --> 00:00:17,046
+Enter the Model name exactly as your provider knows it.
+
+5
+00:00:17,046 --> 00:00:21,784
+The Technical name is filled in from it, and profiles and settings use that name.
+
+6
+00:00:22,236 --> 00:00:26,056
+The Connection name is the connection this model is used through.
+
+7
+00:00:26,056 --> 00:00:29,176
+It is already picked when the provider has only one.
+
+8
+00:00:29,630 --> 00:00:36,085
+Under Trained features, a chat model keeps Text conversation, Tool calling and Streaming.
+
+9
+00:00:36,085 --> 00:00:37,240
+Click Save.
+
+10
+00:00:37,691 --> 00:00:41,179
+Add one deployment for every model the site needs.
+
+11
+00:00:41,179 --> 00:00:45,351
+The next one is an embedding model, which searches documents.
+
+12
+00:00:45,801 --> 00:00:51,714
+An embedding model gets Text embedding and nothing else, so the chat features are cleared.
+
+13
+00:00:51,714 --> 00:00:52,761
+Click Save.
+
+14
+00:00:53,831 --> 00:00:57,911
+Both models are now listed, each with its capabilities.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.193 --> 00:00:06.612
+The capabilities decide where a model is offered.
+
+00:00:06.612 --> 00:00:11.213
+An embedding model shows up only where an embedding model is needed.
+
+00:00:11.667 --> 00:00:14.274
+Tick only what the model was trained for.
+
+00:00:14.274 --> 00:00:18.212
+A feature you leave unticked is never asked of the model, and one
+
+00:00:18.212 --> 00:00:21.817
+you tick falsely is sent to the provider, which rejects it.
+
+00:00:22.269 --> 00:00:28.140
+The list also covers images, speech to text, text to speech, audio, video,
+
+00:00:28.140 --> 00:00:31.149
+and Realtime for live voice models.
+
+00:00:31.602 --> 00:00:34.652
+Ticking Reasoning shows Reasoning effort.
+
+00:00:34.652 --> 00:00:40.103
+Narrow the supported values, from Minimal to Extra high, and pick the default.
+
+00:00:40.103 --> 00:00:44.062
+Higher effort is more careful, but slower and costlier.
+
