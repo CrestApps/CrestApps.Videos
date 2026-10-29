@@ -1,0 +1,65 @@
+WEBVTT
+
+00:00:03.274 --> 00:00:06.378
+Open Settings, Phone Number Verifications.
+
+00:00:06.378 --> 00:00:10.710
+The General tab holds the rules that apply to every provider.
+
+00:00:10.710 --> 00:00:15.494
+Until a provider is switched on, the page says that none is enabled.
+
+00:00:15.991 --> 00:00:18.410
+Each service has its own tab.
+
+00:00:18.410 --> 00:00:22.421
+AbstractAPI needs only an API key from your account.
+
+00:00:26.359 --> 00:00:29.248
+Twilio asks for an Authentication type:
+
+00:00:29.248 --> 00:00:34.193
+an API key SID and secret, which Twilio recommends for everyday use, or
+
+00:00:34.193 --> 00:00:37.853
+an Account SID and Auth Token, which suits testing.
+
+00:00:37.853 --> 00:00:42.541
+You can also set a Country code for numbers stored without one, and
+
+00:00:42.541 --> 00:00:45.559
+Data packages for extra line information.
+
+00:00:52.340 --> 00:00:57.809
+On the Veriphone tab, switch on Enable this provider and paste the API key.
+
+00:00:57.809 --> 00:01:02.400
+The key is stored securely, and the box stays empty afterward.
+
+00:01:04.293 --> 00:01:05.368
+Click Save.
+
+00:01:05.368 --> 00:01:08.654
+The General tab now offers a Default provider.
+
+00:01:08.654 --> 00:01:14.593
+Choose a provider, or First available provider to use the first one that is switched on.
+
+00:01:15.052 --> 00:01:20.088
+Revalidation interval says how many days a verified number stays verified.
+
+00:01:20.088 --> 00:01:25.061
+Maximum verification attempts is how many failed checks in a row the site
+
+00:01:25.061 --> 00:01:28.712
+accepts before it stops retrying a number by itself.
+
+00:01:29.167 --> 00:01:34.128
+Request delay is the pause between checks when many numbers are checked in a row.
+
+00:01:34.128 --> 00:01:37.777
+Raise it if the service complains about too many requests.
+
+00:01:37.777 --> 00:01:38.747
+Click Save.
+

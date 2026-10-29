@@ -1,0 +1,273 @@
+{
+  "title": "Phone Number Verification",
+  "output": "phone-number-verification",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "VoIP": "voyp",
+    "Veriphone": "Veri phone",
+    "AbstractAPI": "Abstract A.P.I."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Phone Number Verification",
+      "subtitle": "Know which numbers are real before you call",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Phone number verification asks an outside service whether a contact's number is real, and what kind of line it is. This video shows why it exists, how to set up a provider, how to read the results, and how to work the queue of checks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why verify phone numbers",
+      "subtitle": "Stop spending agent time on dead numbers",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A purchased list, an old import or a form typed in a hurry is full of numbers that do not work. Every call to one of them is time an agent does not get back."
+            },
+            {
+              "id": "why-2",
+              "text": "The kind of line matters too. A text sent to a landline is never read, and a mobile number is the one most likely to answer."
+            },
+            {
+              "id": "why-3",
+              "text": "Checking each number by hand is not realistic, and the services that do it charge for every check."
+            },
+            {
+              "id": "why-4",
+              "text": "Verification checks each number once, automatically, and shows the answer next to the number: valid or not, mobile, landline or VoIP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "When numbers are checked",
+      "subtitle": "New, changed, due again, or retried",
+      "clips": [
+        {
+          "id": "02-when",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "when-1",
+              "text": "A number is checked when a contact is saved with a new or changed number. The site checks the contact's preferred number: cell first, then home, office, work and other."
+            },
+            {
+              "id": "when-2",
+              "text": "A verified number is checked again after the revalidation interval, so a number that stopped working does not stay green forever. A background task looks for due numbers every few minutes."
+            },
+            {
+              "id": "when-3",
+              "text": "Someone can also retry a check from the queue. Because the services charge per check, a number is never checked more often than this."
+            },
+            {
+              "id": "when-4",
+              "text": "If no provider is set up yet, new numbers wait, and they are checked as soon as a provider is available."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up a provider",
+      "subtitle": "The service that checks the numbers",
+      "clips": [
+        {
+          "id": "03-provider",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prov-1",
+              "text": "Open Settings, Phone Number Verifications. The General tab holds the rules that apply to every provider. Until a provider is switched on, the page says that none is enabled."
+            },
+            {
+              "id": "prov-2",
+              "text": "Each service has its own tab. AbstractAPI needs only an API key from your account."
+            },
+            {
+              "id": "prov-3",
+              "text": "Twilio asks for an Authentication type: an API key SID and secret, which Twilio recommends for everyday use, or an Account SID and Auth Token, which suits testing. You can also set a Country code for numbers stored without one, and Data packages for extra line information."
+            },
+            {
+              "id": "prov-4",
+              "text": "On the Veriphone tab, switch on Enable this provider and paste the API key. The key is stored securely, and the box stays empty afterward."
+            },
+            {
+              "id": "prov-5",
+              "text": "Click Save. The General tab now offers a Default provider. Choose a provider, or First available provider to use the first one that is switched on."
+            },
+            {
+              "id": "prov-6",
+              "text": "Revalidation interval says how many days a verified number stays verified. Maximum verification attempts is how many failed checks in a row the site accepts before it stops retrying a number by itself."
+            },
+            {
+              "id": "prov-7",
+              "text": "Request delay is the pause between checks when many numbers are checked in a row. Raise it if the service complains about too many requests. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "provider"
+    },
+    {
+      "id": "04",
+      "title": "Read the status icons",
+      "subtitle": "The answer, next to the number",
+      "clips": [
+        {
+          "id": "04-icons",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "icon-1",
+              "text": "Wherever a phone field shows a checked number, an icon shows the result. Open a contact: a green check means the service confirmed the number. Point at it to see the date of the check."
+            },
+            {
+              "id": "icon-2",
+              "text": "A red icon means Invalid: the service says the number is not valid. Do not call it, and ask the customer for a new one."
+            },
+            {
+              "id": "icon-3",
+              "text": "A warning sign means Failed: the check itself did not work, for example because the service was unavailable. The status is unknown, not invalid, and a failed check never marks a number invalid."
+            },
+            {
+              "id": "icon-4",
+              "text": "A grey question mark means the number has not been checked yet. It is checked shortly after the contact is saved."
+            }
+          ]
+        }
+      ],
+      "short": "icons"
+    },
+    {
+      "id": "05",
+      "title": "Work the queue",
+      "subtitle": "Every check, in one list",
+      "clips": [
+        {
+          "id": "05-queue",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "que-1",
+              "text": "Open Tools, Phone Verifications Queue. It lists every number that has verification data, with a tile for each status that adds up to the total."
+            },
+            {
+              "id": "que-2",
+              "text": "Each row shows the number, its status, the provider, how many attempts were made, and when the last one was, with the contact it belongs to."
+            },
+            {
+              "id": "que-3",
+              "text": "Click the Failed tile. Failed means the last check failed and the site will try again by itself."
+            },
+            {
+              "id": "que-4",
+              "text": "Needs attention means the check failed Maximum verification attempts times in a row, so the site stopped trying. The latest error is shown in red, so you can tell a provider outage from a bad number."
+            },
+            {
+              "id": "que-5",
+              "text": "Use Search by phone number to find a record, and the sort list to put the most recent or the oldest attempts first."
+            },
+            {
+              "id": "que-6",
+              "text": "To check one number again, open its Actions menu and click Verify again. A failed number has a Retry now button instead. The check is queued and runs shortly after. Here the service cannot be reached, so the record shows the error."
+            },
+            {
+              "id": "que-7",
+              "text": "Tick several records, then click Retry selected. Retry all failed re-queues every failed and needs-attention record on every page that matches your search."
+            }
+          ]
+        }
+      ],
+      "short": "queue"
+    },
+    {
+      "id": "06",
+      "title": "Read the report",
+      "subtitle": "The state of all your numbers",
+      "clips": [
+        {
+          "id": "06-report",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "Open Reports, General, Phone Number Verifications. Verification status counts the contacts, and the verified, unverified and invalid numbers, the failures, and the success rate."
+            },
+            {
+              "id": "rep-2",
+              "text": "Line and queue status shows how many numbers are mobile, landline or VoIP, how many are pending, and how many need to be checked again."
+            },
+            {
+              "id": "rep-3",
+              "text": "Provider usage shows how many records each provider checked, which is useful when you compare what the services cost. The Export CSV button downloads the report as a file."
+            }
+          ]
+        }
+      ],
+      "short": "report"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Where verification pays off",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Before a calling campaign, import the list and let the checks run. Agents then work the verified numbers, and the invalid ones are set aside."
+            },
+            {
+              "id": "use-2",
+              "text": "Before a text campaign, check how many numbers are mobile. Those are the ones that can read a text."
+            },
+            {
+              "id": "use-3",
+              "text": "Keep the data clean over time. The revalidation interval brings old numbers back for a new check."
+            },
+            {
+              "id": "use-4",
+              "text": "Watch the Needs attention tile. A sudden jump usually means the provider key expired or the service is down, and a single Retry all failed fixes it once it is back."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set up a provider once, and every new number is checked for you. Read the icon next to the number, work the queue, and keep the results fresh. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

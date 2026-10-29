@@ -1,0 +1,48 @@
+1
+00:00:03,300 --> 00:00:07,904
+Wherever a phone field shows a checked number, an icon shows the result.
+
+2
+00:00:07,904 --> 00:00:09,143
+Open a contact:
+
+3
+00:00:09,143 --> 00:00:12,626
+a green check means the service confirmed the number.
+
+4
+00:00:12,626 --> 00:00:15,400
+Point at it to see the date of the check.
+
+5
+00:00:16,053 --> 00:00:17,922
+A red icon means Invalid:
+
+6
+00:00:17,922 --> 00:00:20,756
+the service says the number is not valid.
+
+7
+00:00:20,756 --> 00:00:24,193
+Do not call it, and ask the customer for a new one.
+
+8
+00:00:24,682 --> 00:00:26,949
+A warning sign means Failed:
+
+9
+00:00:26,949 --> 00:00:32,619
+the check itself did not work, for example because the service was unavailable.
+
+10
+00:00:32,619 --> 00:00:38,622
+The status is unknown, not invalid, and a failed check never marks a number invalid.
+
+11
+00:00:39,171 --> 00:00:42,899
+A grey question mark means the number has not been checked yet.
+
+12
+00:00:42,899 --> 00:00:45,871
+It is checked shortly after the contact is saved.
+
