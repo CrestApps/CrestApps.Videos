@@ -1,0 +1,269 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.597
+Reports show what happened in your contact center and your C.R.M.
+
+00:00:05.597 --> 00:00:07.604
+over a period you choose.
+
+00:00:07.604 --> 00:00:11.943
+This video shows how to find a report, set its date range and
+
+00:00:11.943 --> 00:00:15.180
+filters, and export it to CSV, Excel or PDF.
+
+00:00:19.780 --> 00:00:23.636
+A report answers a question about work that already happened:
+
+00:00:23.636 --> 00:00:29.450
+how many calls came in, how many were answered, and which campaign turned leads into customers.
+
+00:00:30.200 --> 00:00:34.298
+Every number is worked out from your records when you open the report,
+
+00:00:34.298 --> 00:00:36.617
+so it always matches what you picked:
+
+00:00:36.617 --> 00:00:38.720
+the period, the queue, the agent.
+
+00:00:39.470 --> 00:00:43.330
+You read the figures on screen, or take them away as a file
+
+00:00:43.330 --> 00:00:46.240
+for a spreadsheet, a meeting or an archive.
+
+00:00:50.473 --> 00:00:54.378
+Every report lives under Reports in the admin menu.
+
+00:00:54.378 --> 00:00:56.775
+They are grouped by category:
+
+00:00:56.775 --> 00:01:04.103
+Operations, Agent Performance, Queue and Routing, Workforce and Payroll, CRM and Campaigns, and more.
+
+00:01:04.617 --> 00:01:07.212
+Reports itself opens the Reports page:
+
+00:01:07.212 --> 00:01:12.107
+one card for each report you may open, with a line that says what it answers.
+
+00:01:12.657 --> 00:01:15.874
+Click a card, or pick the report from the menu.
+
+00:01:15.874 --> 00:01:18.847
+Here it is Call insights, under Operations.
+
+00:01:23.084 --> 00:01:26.063
+Which reports you see depends on your role.
+
+00:01:26.063 --> 00:01:29.345
+Under Roles, search the permissions for reports.
+
+00:01:29.345 --> 00:01:35.181
+View Contact Center reports opens the Contact Center reports, and View Omnichannel reports
+
+00:01:35.181 --> 00:01:37.674
+opens the CRM and campaign reports.
+
+00:01:38.203 --> 00:01:44.235
+Another report can bring a permission of its own, such as Run Phone Number Verifications Report.
+
+00:01:44.235 --> 00:01:47.133
+Give a role only the ones its members need.
+
+00:01:48.833 --> 00:01:54.385
+This is the Reports page of a user whose role has only View Contact Center reports.
+
+00:01:54.385 --> 00:02:00.063
+The Contact Center reports are listed; the CRM reports, such as Lead funnel, are not.
+
+00:02:04.287 --> 00:02:07.295
+The top of every report is its filter bar.
+
+00:02:07.295 --> 00:02:12.497
+The first filter is the Date range, and its button states the range in words.
+
+00:02:12.989 --> 00:02:14.556
+Click it to choose.
+
+00:02:14.556 --> 00:02:17.753
+Relative days run from Today to Last 90 Days.
+
+00:02:17.753 --> 00:02:22.956
+Calendar periods cover this week, this month, this quarter and this year, and
+
+00:02:22.956 --> 00:02:24.649
+the ones before them.
+
+00:02:25.157 --> 00:02:30.007
+Rolling months cover the last three, six or twelve months.
+
+00:02:30.007 --> 00:02:34.933
+Custom Range takes a start and an end, and On or before and
+
+00:02:34.933 --> 00:02:37.737
+On or after leave one end open.
+
+00:02:38.199 --> 00:02:40.623
+Pick Last 30 Days, and click Show.
+
+00:02:40.623 --> 00:02:43.289
+The report runs again for that period.
+
+00:02:45.256 --> 00:02:48.239
+The summary shows the totals as cards:
+
+00:02:48.239 --> 00:02:56.103
+total calls, inbound and outbound, answered, abandoned, voicemail, callback requests, failures, average handle
+
+00:02:56.103 --> 00:02:58.746
+time and average speed of answer.
+
+00:02:59.222 --> 00:03:03.788
+Below, the same calls are broken down by channel, by outcome and by
+
+00:03:03.788 --> 00:03:09.042
+day, so one page answers the first questions and points to where to look next.
+
+00:03:13.225 --> 00:03:17.293
+Each report offers the filters that make sense for it.
+
+00:03:17.293 --> 00:03:22.445
+Call insights offers Queue group, Queue, Agent, Direction and Channel.
+
+00:03:22.897 --> 00:03:26.142
+A filter left on All does not narrow the report.
+
+00:03:26.142 --> 00:03:30.407
+Pick the Support queue and the Inbound direction, and click Show.
+
+00:03:30.859 --> 00:03:34.783
+Every number is worked out again from the matching records:
+
+00:03:34.783 --> 00:03:40.579
+the cards, the breakdowns and the daily volume now describe only inbound calls to Support.
+
+00:03:41.029 --> 00:03:43.749
+Other reports have other filters.
+
+00:03:43.749 --> 00:03:49.119
+Dialer call detail filters by campaign, source, status and disposition.
+
+00:03:49.570 --> 00:03:54.400
+In Disposition you can tick several dispositions at once, to list the numbers
+
+00:03:54.400 --> 00:03:56.030
+that ended either way.
+
+00:04:00.256 --> 00:04:03.599
+The Export menu sits above the report.
+
+00:04:03.599 --> 00:04:10.588
+With the Excel and PDF features on, it offers Export CSV, Export Excel and Export PDF.
+
+00:04:10.588 --> 00:04:15.906
+With only the Reports feature, it is a single Export CSV button.
+
+00:04:16.357 --> 00:04:21.053
+An export uses the same date range and filters as the report on
+
+00:04:21.053 --> 00:04:26.974
+screen, and keeps the detail rows, subtotals and grand totals in the order shown.
+
+00:04:26.974 --> 00:04:29.697
+Export CSV downloads a plain file.
+
+00:04:30.174 --> 00:04:34.684
+Export Excel puts each section of the report on its own worksheet.
+
+00:04:37.920 --> 00:04:42.170
+Export PDF lays the report out as it looks on screen, with its
+
+00:04:42.170 --> 00:04:44.420
+charts, and numbers the pages.
+
+00:04:46.020 --> 00:04:49.955
+This is the start of the CSV file the browser just saved.
+
+00:04:49.955 --> 00:04:54.016
+Its name holds the report and the first and last day of the
+
+00:04:54.016 --> 00:04:56.890
+period, and it opens in any spreadsheet.
+
+00:04:57.640 --> 00:05:02.009
+The Excel workbook has one worksheet for each section of the report:
+
+00:05:02.009 --> 00:05:06.260
+the summary, and the breakdowns by channel, by outcome and by day.
+
+00:05:07.010 --> 00:05:10.026
+And this is the first page of the PDF:
+
+00:05:10.026 --> 00:05:12.700
+the report as it looks on screen.
+
+00:05:16.883 --> 00:05:21.849
+Reports on agents' time read every state change of every agent, so they
+
+00:05:21.849 --> 00:05:23.784
+cover 31 days at a time.
+
+00:05:23.784 --> 00:05:27.783
+Pick Last 90 Days on Agent time summary, and click Show.
+
+00:05:28.235 --> 00:05:32.857
+The report says the period is too long, and names the longest period
+
+00:05:32.857 --> 00:05:36.106
+it allows, instead of showing partial figures.
+
+00:05:36.106 --> 00:05:39.105
+Pick Last 30 Days, and the figures return.
+
+00:05:40.689 --> 00:05:44.684
+A report that measures work from a feature your site does not use
+
+00:05:44.684 --> 00:05:48.061
+shows a notice naming that feature, instead of zeroes.
+
+00:05:48.061 --> 00:05:53.239
+Here the Contact Center Call Recording feature is off, and Recording coverage says so.
+
+00:05:57.439 --> 00:05:59.266
+A weekly service review:
+
+00:05:59.266 --> 00:06:03.957
+open Queue service level for Last Week, filter by queue group, and read
+
+00:06:03.957 --> 00:06:06.029
+where calls waited too long.
+
+00:06:06.779 --> 00:06:08.919
+A figure for someone else:
+
+00:06:08.919 --> 00:06:13.401
+export Excel for a finance team that wants rows, or PDF for a
+
+00:06:13.401 --> 00:06:15.609
+manager who wants the page.
+
+00:06:16.359 --> 00:06:20.213
+Reports can also be emailed on a schedule, shown as tiles on a
+
+00:06:20.213 --> 00:06:23.841
+dashboard, and built from scratch with the Report Builder.
+
+00:06:23.841 --> 00:06:25.769
+Those have their own videos.
+
+00:06:27.769 --> 00:06:31.523
+Reports turn the history of your contact center and your C.R.M.
+
+00:06:31.523 --> 00:06:34.134
+into figures you can filter and take away.
+
+00:06:34.134 --> 00:06:35.549
+Thanks for watching.
+

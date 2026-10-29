@@ -1,0 +1,36 @@
+1
+00:00:03,183 --> 00:00:08,150
+Reports on agents' time read every state change of every agent, so they
+
+2
+00:00:08,150 --> 00:00:10,085
+cover 31 days at a time.
+
+3
+00:00:10,085 --> 00:00:14,083
+Pick Last 90 Days on Agent time summary, and click Show.
+
+4
+00:00:14,535 --> 00:00:19,158
+The report says the period is too long, and names the longest period
+
+5
+00:00:19,158 --> 00:00:22,406
+it allows, instead of showing partial figures.
+
+6
+00:00:22,406 --> 00:00:25,405
+Pick Last 30 Days, and the figures return.
+
+7
+00:00:26,989 --> 00:00:30,985
+A report that measures work from a feature your site does not use
+
+8
+00:00:30,985 --> 00:00:34,361
+shows a notice naming that feature, instead of zeroes.
+
+9
+00:00:34,361 --> 00:00:39,539
+Here the Contact Center Call Recording feature is off, and Recording coverage says so.
+

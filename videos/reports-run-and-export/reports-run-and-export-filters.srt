@@ -1,0 +1,40 @@
+1
+00:00:03,183 --> 00:00:07,251
+Each report offers the filters that make sense for it.
+
+2
+00:00:07,251 --> 00:00:12,403
+Call insights offers Queue group, Queue, Agent, Direction and Channel.
+
+3
+00:00:12,856 --> 00:00:16,100
+A filter left on All does not narrow the report.
+
+4
+00:00:16,100 --> 00:00:20,366
+Pick the Support queue and the Inbound direction, and click Show.
+
+5
+00:00:20,817 --> 00:00:24,741
+Every number is worked out again from the matching records:
+
+6
+00:00:24,741 --> 00:00:30,537
+the cards, the breakdowns and the daily volume now describe only inbound calls to Support.
+
+7
+00:00:30,987 --> 00:00:33,707
+Other reports have other filters.
+
+8
+00:00:33,707 --> 00:00:39,077
+Dialer call detail filters by campaign, source, status and disposition.
+
+9
+00:00:39,528 --> 00:00:44,358
+In Disposition you can tick several dispositions at once, to list the numbers
+
+10
+00:00:44,358 --> 00:00:45,988
+that ended either way.
+

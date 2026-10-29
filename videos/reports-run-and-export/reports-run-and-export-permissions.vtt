@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.236 --> 00:00:06.215
+Which reports you see depends on your role.
+
+00:00:06.215 --> 00:00:09.498
+Under Roles, search the permissions for reports.
+
+00:00:09.498 --> 00:00:15.334
+View Contact Center reports opens the Contact Center reports, and View Omnichannel reports
+
+00:00:15.334 --> 00:00:17.826
+opens the CRM and campaign reports.
+
+00:00:18.355 --> 00:00:24.387
+Another report can bring a permission of its own, such as Run Phone Number Verifications Report.
+
+00:00:24.387 --> 00:00:27.285
+Give a role only the ones its members need.
+
+00:00:28.985 --> 00:00:34.538
+This is the Reports page of a user whose role has only View Contact Center reports.
+
+00:00:34.538 --> 00:00:40.215
+The Contact Center reports are listed; the CRM reports, such as Lead funnel, are not.
+
