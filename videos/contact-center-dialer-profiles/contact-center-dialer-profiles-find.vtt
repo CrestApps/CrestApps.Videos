@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.228 --> 00:00:06.201
+Dialer profiles come from two features.
+
+00:00:06.201 --> 00:00:10.364
+Contact Center Outbound Dialer gives you Preview dialing.
+
+00:00:10.364 --> 00:00:15.253
+Contact Center Paced Dialing adds Power, Progressive and Predictive.
+
+00:00:15.253 --> 00:00:18.688
+Without it, those three modes are not offered.
+
+00:00:19.149 --> 00:00:23.013
+Open Interaction Center, Management, Dialer Profiles.
+
+00:00:23.013 --> 00:00:26.680
+The list is empty until you add the first profile.
+
+00:00:26.680 --> 00:00:30.479
+Older profiles saved as Manual are shown as Preview.
+
+00:00:30.947 --> 00:00:32.989
+Click Add Dialer Profile.
+
+00:00:32.989 --> 00:00:35.096
+The form is made of cards:
+
+00:00:35.096 --> 00:00:41.747
+General, Dialing, Caller ID, Compliance, and two more that appear only for the automatic modes.
+

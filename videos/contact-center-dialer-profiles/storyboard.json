@@ -1,0 +1,223 @@
+{
+  "title": "Dialer Profiles",
+  "output": "contact-center-dialer-profiles",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Dialer Profiles",
+      "subtitle": "Choose how outbound calls are placed",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A dialer profile decides how the calls of an outbound campaign are placed, which number customers see, and which rules every call must pass. This video shows why it exists, the four dialing modes, and how to create a profile, card by card."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why dialer profiles",
+      "subtitle": "Decide how calls start, once",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An outbound campaign is a list of people to call. Someone has to decide how each call starts. Does an agent review the record and press dial, or does the system dial for them?"
+            },
+            {
+              "id": "why-2",
+              "text": "Every call also has to follow rules. Which number do customers see? Who must never be called? At what hours may you call?"
+            },
+            {
+              "id": "why-3",
+              "text": "Those answers should not be typed again for every list you load, and they should be the same for every call."
+            },
+            {
+              "id": "why-4",
+              "text": "A dialer profile keeps them in one place. You pick a profile when you load a list of calls, so one profile can serve many campaigns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The dialing modes",
+      "subtitle": "Preview, Power, Progressive and Predictive",
+      "clips": [
+        {
+          "id": "02-modes",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "mode-1",
+              "text": "In Preview, the agent is in control. The record is offered to an agent who is signed in to the campaign. The agent reviews it, then clicks Dial, or clicks Skip."
+            },
+            {
+              "id": "mode-2",
+              "text": "In Power, the system dials. As soon as an agent in the campaign is available, the dialer places calls, each with its own reserved agent. The record opens when the call starts, and there is nothing to press."
+            },
+            {
+              "id": "mode-3",
+              "text": "Progressive works like Power. It reserves one agent for each call, with a fixed limit on the calls placed in each pacing cycle."
+            },
+            {
+              "id": "mode-4",
+              "text": "Predictive also reserves an agent for each call by default. As the abandonment rate nears its limit, it places fewer calls. It can also over-dial, which the next video explains."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Find dialer profiles",
+      "subtitle": "The features and the menu",
+      "clips": [
+        {
+          "id": "03-find",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "Dialer profiles come from two features. Contact Center Outbound Dialer gives you Preview dialing. Contact Center Paced Dialing adds Power, Progressive and Predictive. Without it, those three modes are not offered."
+            },
+            {
+              "id": "find-2",
+              "text": "Open Interaction Center, Management, Dialer Profiles. The list is empty until you add the first profile. Older profiles saved as Manual are shown as Preview."
+            },
+            {
+              "id": "find-3",
+              "text": "Click Add Dialer Profile. The form is made of cards: General, Dialing, Caller ID, Compliance, and two more that appear only for the automatic modes."
+            }
+          ]
+        }
+      ],
+      "short": "find"
+    },
+    {
+      "id": "04",
+      "title": "Create a profile",
+      "subtitle": "General, Dialing, Caller ID and Compliance",
+      "clips": [
+        {
+          "id": "04-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "create-1",
+              "text": "On General, enter a Name, and an optional Description. Leave Enabled ticked. A disabled profile places no calls, and the records loaded under it are not offered to agents until you turn it back on."
+            },
+            {
+              "id": "create-2",
+              "text": "On Dialing, Mode decides the pacing. Preview is the first choice. The Voice call provider is Default provider, which means the default telephony provider. Pick another one only when this profile must use it."
+            },
+            {
+              "id": "create-3",
+              "text": "Choose Power, and the card grows. Calls per agent is how many calls start each time the dialer looks at the campaign, from one to three. Each call reserves its own agent, so it never dials more calls than there are free agents."
+            },
+            {
+              "id": "create-4",
+              "text": "Max attempts is how many times one contact may be tried, counting the first call and every follow-up. Retry delay is the wait between attempts, in minutes. The subject flow can set its own rules first, and these two are the fallback."
+            },
+            {
+              "id": "create-5",
+              "text": "Ring time is how long a call rings before it is given up, from 15 to 120 seconds. Screen out answering machines can be Off, Standard detection or Premium detection. A machine is hung up on, and the agent never hears it. This works with Telnyx only."
+            },
+            {
+              "id": "create-6",
+              "text": "Show each dial to the agent decides what the agent sees while the dialer works. Turned on, the screen shows who is being dialed and each step. Turned off, it only says the agent is waiting for a connected call."
+            },
+            {
+              "id": "cid-1",
+              "text": "On Caller ID, pick the number customers see. The list comes from your Omnichannel Addresses that are used for voice calls. Provider default uses the caller ID of the provider."
+            },
+            {
+              "id": "cid-2",
+              "text": "A Dial from number picked when you load activities is shown instead, for the calls of that load. Tick Always show this caller ID to keep this number, even for agents who have a line of their own."
+            },
+            {
+              "id": "cid-3",
+              "text": "Default calling region is the country assumed for a number that is written without a country code, which is common in imported lists. A number that still cannot be read is skipped, because it cannot be checked against a do-not-call list."
+            },
+            {
+              "id": "comp-1",
+              "text": "On Compliance, Respect do-not-call and communication preferences is ticked by default. It skips contacts who opted out of calls, and numbers on a national do-not-call registry."
+            },
+            {
+              "id": "comp-2",
+              "text": "Enforce a calling window dials only while a calendar is open, checked in the time zone of the contact. Pick the Outbound calling calendar from your business hours. It is required once the window is enforced."
+            },
+            {
+              "id": "comp-3",
+              "text": "Power, Progressive and Predictive profiles also have an Abandoned calls card, and Predictive profiles have a Predictive pacing card. The next video walks through both."
+            },
+            {
+              "id": "comp-4",
+              "text": "Click Save. The profile appears in the list with its mode, and it is ready to be picked when you load activities."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "05",
+      "title": "Use cases",
+      "subtitle": "How teams use profiles",
+      "clips": [
+        {
+          "id": "05-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Start with Preview for a new team. Agents see every record before the call, so it is the easiest to train."
+            },
+            {
+              "id": "use-2",
+              "text": "Move to Power or Progressive when agents are comfortable and the list is steady, so no one waits between calls."
+            },
+            {
+              "id": "use-3",
+              "text": "Keep one profile for each campaign when its abandonment rate must be measured on its own."
+            },
+            {
+              "id": "use-4",
+              "text": "Turn Enabled off to pause every load that uses a profile, then turn it back on when you are ready."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A dialer profile sets the mode, the caller ID and the compliance rules once, and every campaign you load can reuse it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
