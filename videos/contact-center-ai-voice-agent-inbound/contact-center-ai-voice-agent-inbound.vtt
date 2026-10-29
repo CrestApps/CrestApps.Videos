@@ -1,0 +1,293 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:01.688
+An A.I.
+
+00:00:01.688 --> 00:00:05.448
+voice agent can answer the calls to one of your numbers, find out
+
+00:00:05.448 --> 00:00:09.048
+why people are calling, and hand them to a person when needed.
+
+00:00:09.048 --> 00:00:12.701
+This video shows how to route a number to it, what happens when
+
+00:00:12.701 --> 00:00:16.725
+you are open and closed, the subject that gives it outcomes, and where
+
+00:00:16.725 --> 00:00:18.102
+you review the call.
+
+00:00:18.102 --> 00:00:22.020
+Calls never connect on this demo site, so the live parts use slides.
+
+00:00:26.620 --> 00:00:30.003
+A call to a number reaches an inbound entry point.
+
+00:00:30.003 --> 00:00:33.929
+An entry point can send it to a queue, to a specific agent,
+
+00:00:33.929 --> 00:00:35.077
+or to an A.I.
+
+00:00:35.077 --> 00:00:36.164
+voice agent.
+
+00:00:36.164 --> 00:00:37.312
+With the A.I.
+
+00:00:37.312 --> 00:00:42.145
+voice agent, the caller skips the welcome message, the menu and the queue,
+
+00:00:42.145 --> 00:00:44.380
+and talks to the agent at once.
+
+00:00:45.130 --> 00:00:47.208
+This works with Telnyx only.
+
+00:00:47.208 --> 00:00:51.853
+If the call arrives on the Asterisk provider, it cannot be answered by
+
+00:00:51.853 --> 00:00:54.420
+the agent, and the call is rejected.
+
+00:00:55.170 --> 00:00:56.730
+The agent is an A.I.
+
+00:00:56.730 --> 00:00:58.470
+profile that you write:
+
+00:00:58.470 --> 00:01:02.070
+what to ask, what it may answer, and when to transfer.
+
+00:01:02.070 --> 00:01:07.650
+The call becomes an automated activity, so you can review it afterwards like any other.
+
+00:01:11.830 --> 00:01:14.551
+Open Inbound entry points, and click Add.
+
+00:01:14.551 --> 00:01:15.999
+Choose Voice calls.
+
+00:01:15.999 --> 00:01:20.227
+Name the entry point, and pick the number it answers under Numbers.
+
+00:01:20.227 --> 00:01:24.860
+The numbers come from Omnichannel Addresses that are used for voice calls.
+
+00:01:25.313 --> 00:01:28.141
+On Routing, Route to has three choices:
+
+00:01:28.141 --> 00:01:30.467
+Queue, Specific agent, and A.I.
+
+00:01:30.467 --> 00:01:31.598
+voice agent.
+
+00:01:31.598 --> 00:01:36.123
+The last one appears when the Telnyx AI Voice Agent feature is on.
+
+00:01:36.123 --> 00:01:37.946
+Choose it, and the A.I.
+
+00:01:37.946 --> 00:01:39.643
+agent picker appears.
+
+00:01:40.096 --> 00:01:42.566
+The picker lists your chat profiles.
+
+00:01:42.566 --> 00:01:47.505
+Saving without one is refused, with a message that asks you to select the A.I.
+
+00:01:47.505 --> 00:01:50.446
+agent that answers this entry point's calls.
+
+00:01:50.446 --> 00:01:52.386
+Pick the profile, and save.
+
+00:01:56.593 --> 00:02:01.509
+On Hours, the Business hours calendar decides when the entry point is open.
+
+00:02:01.509 --> 00:02:03.451
+While it is open, the A.I.
+
+00:02:03.451 --> 00:02:05.333
+agent answers every call.
+
+00:02:05.786 --> 00:02:09.903
+Closed action decides what happens outside the hours:
+
+00:02:09.903 --> 00:02:13.462
+Hold in queue, Voicemail, Overflow or Reject.
+
+00:02:13.462 --> 00:02:14.369
+An A.I.
+
+00:02:14.369 --> 00:02:19.882
+entry point has no queue, so Hold in queue and Overflow act as Voicemail.
+
+00:02:19.882 --> 00:02:21.696
+Reject stays reject.
+
+00:02:22.182 --> 00:02:23.739
+On Voicemail, an A.I.
+
+00:02:23.739 --> 00:02:28.759
+entry point should deliver to An agent's inbox, and you pick the Voicemail inbox.
+
+00:02:28.759 --> 00:02:32.625
+The queue's shared voicemail box needs a queue, which an A.I.
+
+00:02:32.625 --> 00:02:34.472
+entry point does not have.
+
+00:02:38.713 --> 00:02:42.371
+The call needs an inbound subject to get outcomes.
+
+00:02:42.371 --> 00:02:45.050
+Open an inbound subject's settings.
+
+00:02:45.050 --> 00:02:51.779
+Direction is Inbound, Interaction type is Automated, Channel is Phone, and Address is the number.
+
+00:02:51.779 --> 00:02:55.373
+A call is matched to its subject by that address.
+
+00:02:55.849 --> 00:02:56.672
+The A.I.
+
+00:02:56.672 --> 00:02:58.964
+configuration card holds the A.I.
+
+00:02:58.964 --> 00:03:02.314
+profile, the Subject goal, and the speech settings.
+
+00:03:02.314 --> 00:03:07.897
+The profile list shows only profiles with Start the conversation automatically turned on.
+
+00:03:07.897 --> 00:03:12.069
+The goal tells the agent when to disposition the call and end it.
+
+00:03:12.593 --> 00:03:17.456
+Live agent handoff lets the agent transfer to a person, into the Handoff
+
+00:03:17.456 --> 00:03:20.511
+queue you choose, for the reasons you tick.
+
+00:03:20.511 --> 00:03:24.813
+Without a subject, the call has no dispositions and no handoff.
+
+00:03:29.040 --> 00:03:33.122
+A call can be turn-based, or a live audio conversation.
+
+00:03:33.122 --> 00:03:37.739
+Turn-based, each turn is spoken and transcribed through Telnyx.
+
+00:03:37.739 --> 00:03:43.494
+A live conversation needs the Contact Center Voice Media feature, and a realtime
+
+00:03:43.494 --> 00:03:47.710
+deployment, so the model speaks and listens continuously.
+
+00:03:48.166 --> 00:03:51.351
+Do not mix up two things with the same name.
+
+00:03:51.351 --> 00:03:55.555
+Contact Center Voice Media is the feature for two-way audio.
+
+00:03:55.555 --> 00:04:01.796
+Voice Media, under Interaction Center, Management, is the library of hold music and prompts.
+
+00:04:01.796 --> 00:04:04.726
+It is part of the Contact Center itself.
+
+00:04:08.926 --> 00:04:14.083
+If recording is announced to inbound callers, the notice is spoken first.
+
+00:04:14.083 --> 00:04:15.910
+Then the agent greets.
+
+00:04:15.910 --> 00:04:19.696
+Turn-based, it speaks the profile's opening message.
+
+00:04:19.696 --> 00:04:25.896
+In a live conversation, the model words its own greeting from the profile's instructions.
+
+00:04:26.646 --> 00:04:30.650
+A caller who says nothing is never mistaken for a voicemail.
+
+00:04:30.650 --> 00:04:35.866
+The agent asks if they are there, and ends the call politely if they stay quiet.
+
+00:04:36.616 --> 00:04:40.609
+When a reason you ticked applies, the call goes to the handoff queue.
+
+00:04:40.609 --> 00:04:44.656
+The agent who answers sees a summary written by the A.I., labeled A.I.
+
+00:04:44.656 --> 00:04:48.276
+assistant's summary, so the caller does not repeat everything.
+
+00:04:52.535 --> 00:04:53.293
+An A.I.
+
+00:04:53.293 --> 00:04:57.721
+call is logged as an activity of the subject, with the disposition the
+
+00:04:57.721 --> 00:05:00.342
+agent chose and a summary in the notes.
+
+00:05:00.342 --> 00:05:02.498
+Dispositioned by shows the A.I.
+
+00:05:02.498 --> 00:05:04.479
+voice agent and its profile.
+
+00:05:04.479 --> 00:05:06.285
+The call here is made up.
+
+00:05:06.740 --> 00:05:07.778
+Review A.I.
+
+00:05:07.778 --> 00:05:10.891
+conversation opens the transcript, read only.
+
+00:05:10.891 --> 00:05:13.883
+The Call recordings page also lists an A.I.
+
+00:05:13.883 --> 00:05:17.730
+recording with its transcript, when call recording is on.
+
+00:05:21.930 --> 00:05:24.508
+A front desk that never misses a call:
+
+00:05:24.508 --> 00:05:29.548
+the agent answers, takes a message or answers simple questions, and transfers to
+
+00:05:29.548 --> 00:05:32.010
+your team when someone is available.
+
+00:05:32.760 --> 00:05:34.356
+A line for busy seasons:
+
+00:05:34.356 --> 00:05:36.803
+point the number you promote at the A.I.
+
+00:05:36.803 --> 00:05:41.060
+voice agent, so the wait does not depend on how many agents are signed in.
+
+00:05:41.810 --> 00:05:43.218
+After-hours triage:
+
+00:05:43.218 --> 00:05:47.500
+collect the reason for the call, and book a follow-up for the morning.
+
+00:05:49.500 --> 00:05:51.345
+Route a number to an A.I.
+
+00:05:51.345 --> 00:05:57.002
+voice agent, give it a subject for outcomes and handoff, and review each call afterwards.
+
+00:05:57.002 --> 00:05:58.550
+Thanks for watching.
+

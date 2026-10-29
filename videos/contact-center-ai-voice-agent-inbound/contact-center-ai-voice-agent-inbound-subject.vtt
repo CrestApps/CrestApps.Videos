@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.241 --> 00:00:06.900
+The call needs an inbound subject to get outcomes.
+
+00:00:06.900 --> 00:00:09.578
+Open an inbound subject's settings.
+
+00:00:09.578 --> 00:00:16.308
+Direction is Inbound, Interaction type is Automated, Channel is Phone, and Address is the number.
+
+00:00:16.308 --> 00:00:19.901
+A call is matched to its subject by that address.
+
+00:00:20.378 --> 00:00:21.200
+The A.I.
+
+00:00:21.200 --> 00:00:23.492
+configuration card holds the A.I.
+
+00:00:23.492 --> 00:00:26.842
+profile, the Subject goal, and the speech settings.
+
+00:00:26.842 --> 00:00:32.425
+The profile list shows only profiles with Start the conversation automatically turned on.
+
+00:00:32.425 --> 00:00:36.598
+The goal tells the agent when to disposition the call and end it.
+
+00:00:37.121 --> 00:00:41.984
+Live agent handoff lets the agent transfer to a person, into the Handoff
+
+00:00:41.984 --> 00:00:45.039
+queue you choose, for the reasons you tick.
+
+00:00:45.039 --> 00:00:49.341
+Without a subject, the call has no dispositions and no handoff.
+

@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.180 --> 00:00:05.901
+Open Inbound entry points, and click Add.
+
+00:00:05.901 --> 00:00:07.349
+Choose Voice calls.
+
+00:00:07.349 --> 00:00:11.577
+Name the entry point, and pick the number it answers under Numbers.
+
+00:00:11.577 --> 00:00:16.210
+The numbers come from Omnichannel Addresses that are used for voice calls.
+
+00:00:16.663 --> 00:00:19.491
+On Routing, Route to has three choices:
+
+00:00:19.491 --> 00:00:21.817
+Queue, Specific agent, and A.I.
+
+00:00:21.817 --> 00:00:22.948
+voice agent.
+
+00:00:22.948 --> 00:00:27.473
+The last one appears when the Telnyx AI Voice Agent feature is on.
+
+00:00:27.473 --> 00:00:29.296
+Choose it, and the A.I.
+
+00:00:29.296 --> 00:00:30.993
+agent picker appears.
+
+00:00:31.446 --> 00:00:33.916
+The picker lists your chat profiles.
+
+00:00:33.916 --> 00:00:38.855
+Saving without one is refused, with a message that asks you to select the A.I.
+
+00:00:38.855 --> 00:00:41.796
+agent that answers this entry point's calls.
+
+00:00:41.796 --> 00:00:43.736
+Pick the profile, and save.
+

@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.206 --> 00:00:08.123
+On Hours, the Business hours calendar decides when the entry point is open.
+
+00:00:08.123 --> 00:00:10.065
+While it is open, the A.I.
+
+00:00:10.065 --> 00:00:11.946
+agent answers every call.
+
+00:00:12.400 --> 00:00:16.517
+Closed action decides what happens outside the hours:
+
+00:00:16.517 --> 00:00:20.076
+Hold in queue, Voicemail, Overflow or Reject.
+
+00:00:20.076 --> 00:00:20.983
+An A.I.
+
+00:00:20.983 --> 00:00:26.496
+entry point has no queue, so Hold in queue and Overflow act as Voicemail.
+
+00:00:26.496 --> 00:00:28.310
+Reject stays reject.
+
+00:00:28.795 --> 00:00:30.353
+On Voicemail, an A.I.
+
+00:00:30.353 --> 00:00:35.373
+entry point should deliver to An agent's inbox, and you pick the Voicemail inbox.
+
+00:00:35.373 --> 00:00:39.239
+The queue's shared voicemail box needs a queue, which an A.I.
+
+00:00:39.239 --> 00:00:41.085
+entry point does not have.
+

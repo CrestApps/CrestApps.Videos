@@ -1,0 +1,95 @@
+{
+  "title": "AI Voice Agent for Inbound Calls: Answer Your Phone with AI | CrestApps for Orchard Core",
+  "description": "An AI voice agent can answer the calls to one of your numbers, find out why people are calling, and hand them to a person when needed. This video shows how to route a number to the agent in the CrestApps Contact Center for Orchard Core, what happens when you are open and closed, how the subject gives it outcomes and handoff, the difference between a turn-based and a live audio conversation, and how to review the call.\n\nIn this video:\n• Route to: AI voice agent on an inbound entry point\n• Open and closed hours, and the voicemail inbox\n• The inbound subject: AI profile, goal and live agent handoff\n• Turn-based or live audio, and the two things called Voice Media\n• What callers experience, and the agent's briefing\n• Review the transcript afterwards",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "AI voice agent",
+    "inbound calls",
+    "Telnyx",
+    "entry points",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:23",
+      "title": "What it does"
+    },
+    {
+      "time": "1:08",
+      "title": "The entry point"
+    },
+    {
+      "time": "1:53",
+      "title": "Open and closed hours"
+    },
+    {
+      "time": "2:35",
+      "title": "The subject"
+    },
+    {
+      "time": "3:25",
+      "title": "Two kinds of conversation"
+    },
+    {
+      "time": "4:05",
+      "title": "During the call"
+    },
+    {
+      "time": "4:49",
+      "title": "After the call"
+    },
+    {
+      "time": "5:18",
+      "title": "Where it fits"
+    },
+    {
+      "time": "5:48",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/entry-points-and-ivr"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony/telnyx"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telnyx.AiVoice"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/entry-points-and-ivr.md",
+    "src/CrestApps.Docs/docs/user-manual/automated-ai.md",
+    "src/CrestApps.Docs/docs/telephony/telnyx.md"
+  ],
+  "length": "6:00"
+}
