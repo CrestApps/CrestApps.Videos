@@ -1,0 +1,28 @@
+1
+00:00:03,184 --> 00:00:07,873
+Wherever the soft phone is present, a phone number field gets a dial button.
+
+2
+00:00:07,873 --> 00:00:11,703
+Type a number in a user's phone number box, and a small phone
+
+3
+00:00:11,703 --> 00:00:13,476
+button appears beside it.
+
+4
+00:00:13,476 --> 00:00:15,134
+Fake numbers only here.
+
+5
+00:00:15,612 --> 00:00:19,652
+Clicking it calls that number with the soft phone, and the same button
+
+6
+00:00:19,652 --> 00:00:21,672
+appears on contact phone fields.
+
+7
+00:00:21,672 --> 00:00:24,012
+An agent never has to retype a number.
+

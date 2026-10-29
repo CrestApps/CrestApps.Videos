@@ -1,0 +1,140 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.367
+The soft phone is the browser phone your agents use.
+
+00:00:04.367 --> 00:00:07.153
+This video shows the administrator's side:
+
+00:00:07.153 --> 00:00:11.738
+the Soft Phone tab, where the phone appears, the diagnostics tab, and the
+
+00:00:11.738 --> 00:00:14.060
+dial button next to phone numbers.
+
+00:00:18.660 --> 00:00:20.944
+Every agent needs the same phone:
+
+00:00:20.944 --> 00:00:26.389
+connected to the right provider, visible where they work, and set to the right country.
+
+00:00:26.389 --> 00:00:28.790
+Doing it per person does not scale.
+
+00:00:29.540 --> 00:00:32.179
+The Soft Phone tab sets all of it once.
+
+00:00:32.179 --> 00:00:37.340
+A person still needs the Use the telephony soft phone permission to see the phone.
+
+00:00:41.511 --> 00:00:46.034
+Open Settings, Communication, Telephony, and choose the Soft Phone tab.
+
+00:00:46.034 --> 00:00:50.322
+Default telephony provider is the provider every call goes through.
+
+00:00:50.322 --> 00:00:55.022
+Allowed short codes lists the short numbers agents may dial, one per line,
+
+00:00:55.022 --> 00:00:57.313
+such as a carrier service number.
+
+00:00:57.313 --> 00:01:03.011
+Short numbers are refused unless they are listed, and emergency numbers can never be added.
+
+00:01:03.514 --> 00:01:07.549
+Enable the soft phone turns the phone on for authorized users.
+
+00:01:07.549 --> 00:01:12.889
+Show the soft phone on the admin dashboard puts the phone button on the admin pages.
+
+00:01:12.889 --> 00:01:17.814
+To show it on the front end, add the Soft Phone widget under Design, Widgets.
+
+00:01:18.389 --> 00:01:22.909
+Enable the diagnostics tab adds a Diagnostics tab to the phone.
+
+00:01:22.909 --> 00:01:27.559
+Recent calls to display sets how many calls the Recent tab lists.
+
+00:01:28.073 --> 00:01:32.604
+Default country is the country the phone's number box starts on, and it
+
+00:01:32.604 --> 00:01:35.311
+turns a national number into a full one.
+
+00:01:35.311 --> 00:01:38.253
+Accent color changes the color of the phone.
+
+00:01:38.253 --> 00:01:41.253
+Save, and the phone follows the new settings.
+
+00:01:45.486 --> 00:01:49.577
+The phone is the round button at the bottom right of an admin page.
+
+00:01:49.577 --> 00:01:51.706
+Click it to open the soft phone.
+
+00:01:52.212 --> 00:01:57.359
+The Keypad dials a number, and the other tabs list recent calls and voicemail.
+
+00:01:57.359 --> 00:02:00.852
+Its status shows Ready when the provider is set up.
+
+00:02:03.140 --> 00:02:08.495
+With the diagnostics tab turned on, a Diagnostics tab shows live media statistics,
+
+00:02:08.495 --> 00:02:13.301
+a microphone level meter, provider warnings and an audio test, so a sound
+
+00:02:13.301 --> 00:02:14.944
+problem can be found.
+
+00:02:14.944 --> 00:02:18.047
+Turn it on to troubleshoot, then turn it off.
+
+00:02:18.047 --> 00:02:21.880
+This site has no real provider, so a call cannot connect.
+
+00:02:26.064 --> 00:02:30.753
+Wherever the soft phone is present, a phone number field gets a dial button.
+
+00:02:30.753 --> 00:02:34.584
+Type a number in a user's phone number box, and a small phone
+
+00:02:34.584 --> 00:02:36.356
+button appears beside it.
+
+00:02:36.356 --> 00:02:38.014
+Fake numbers only here.
+
+00:02:38.492 --> 00:02:42.532
+Clicking it calls that number with the soft phone, and the same button
+
+00:02:42.532 --> 00:02:44.553
+appears on contact phone fields.
+
+00:02:44.553 --> 00:02:46.892
+An agent never has to retype a number.
+
+00:02:51.092 --> 00:02:55.182
+A new site turns on the soft phone, sets the default country, and
+
+00:02:55.182 --> 00:02:58.582
+every agent sees a phone with the right country code.
+
+00:02:59.332 --> 00:03:05.232
+A help desk turns on the diagnostics tab, so agents can test their own headset first.
+
+00:03:05.982 --> 00:03:09.914
+A team that only uses admin pages shows the phone on the admin
+
+00:03:09.914 --> 00:03:12.632
+dashboard, and keeps the front end clean.
+
+00:03:14.632 --> 00:03:20.687
+Choose the provider, turn the phone on, decide where it shows, and give agents the permission.
+
+00:03:20.687 --> 00:03:22.262
+Thanks for watching.
+

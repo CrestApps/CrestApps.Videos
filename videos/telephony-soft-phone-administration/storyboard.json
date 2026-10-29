@@ -1,0 +1,167 @@
+{
+  "title": "Soft Phone Administration",
+  "output": "telephony-soft-phone-administration",
+  "spoken": {
+    "DTMF": "D.T.M.F."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Soft Phone Administration",
+      "subtitle": "Where the soft phone appears and how it behaves",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The soft phone is the browser phone your agents use. This video shows the administrator's side: the Soft Phone tab, where the phone appears, the diagnostics tab, and the dial button next to phone numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why administer it",
+      "subtitle": "One place decides it for every user",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every agent needs the same phone: connected to the right provider, visible where they work, and set to the right country. Doing it per person does not scale."
+            },
+            {
+              "id": "why-2",
+              "text": "The Soft Phone tab sets all of it once. A person still needs the Use the telephony soft phone permission to see the phone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The Soft Phone tab",
+      "subtitle": "Provider, short codes and display options",
+      "clips": [
+        {
+          "id": "02-tab",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tab-1",
+              "text": "Open Settings, Communication, Telephony, and choose the Soft Phone tab. Default telephony provider is the provider every call goes through. Allowed short codes lists the short numbers agents may dial, one per line, such as a carrier service number. Short numbers are refused unless they are listed, and emergency numbers can never be added."
+            },
+            {
+              "id": "tab-2",
+              "text": "Enable the soft phone turns the phone on for authorized users. Show the soft phone on the admin dashboard puts the phone button on the admin pages. To show it on the front end, add the Soft Phone widget under Design, Widgets."
+            },
+            {
+              "id": "tab-3",
+              "text": "Enable the diagnostics tab adds a Diagnostics tab to the phone. Recent calls to display sets how many calls the Recent tab lists."
+            },
+            {
+              "id": "tab-4",
+              "text": "Default country is the country the phone's number box starts on, and it turns a national number into a full one. Accent color changes the color of the phone. Save, and the phone follows the new settings."
+            }
+          ]
+        }
+      ],
+      "short": "tab"
+    },
+    {
+      "id": "03",
+      "title": "The phone on the page",
+      "subtitle": "The widget, its tabs and the diagnostics",
+      "clips": [
+        {
+          "id": "03-widget",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wid-1",
+              "text": "The phone is the round button at the bottom right of an admin page. Click it to open the soft phone."
+            },
+            {
+              "id": "wid-2",
+              "text": "The Keypad dials a number, and the other tabs list recent calls and voicemail. Its status shows Ready when the provider is set up."
+            },
+            {
+              "id": "wid-3",
+              "text": "With the diagnostics tab turned on, a Diagnostics tab shows live media statistics, a microphone level meter, provider warnings and an audio test, so a sound problem can be found. Turn it on to troubleshoot, then turn it off. This site has no real provider, so a call cannot connect."
+            }
+          ]
+        }
+      ],
+      "short": "widget"
+    },
+    {
+      "id": "04",
+      "title": "Click to dial",
+      "subtitle": "A dial button next to phone numbers",
+      "clips": [
+        {
+          "id": "04-dial",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dial-1",
+              "text": "Wherever the soft phone is present, a phone number field gets a dial button. Type a number in a user's phone number box, and a small phone button appears beside it. Fake numbers only here."
+            },
+            {
+              "id": "dial-2",
+              "text": "Clicking it calls that number with the soft phone, and the same button appears on contact phone fields. An agent never has to retype a number."
+            }
+          ]
+        }
+      ],
+      "short": "dial"
+    },
+    {
+      "id": "05",
+      "title": "Use cases",
+      "subtitle": "Soft phone administration at work",
+      "clips": [
+        {
+          "id": "05-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A new site turns on the soft phone, sets the default country, and every agent sees a phone with the right country code."
+            },
+            {
+              "id": "use-2",
+              "text": "A help desk turns on the diagnostics tab, so agents can test their own headset first."
+            },
+            {
+              "id": "use-3",
+              "text": "A team that only uses admin pages shows the phone on the admin dashboard, and keeps the front end clean."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose the provider, turn the phone on, decide where it shows, and give agents the permission. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
