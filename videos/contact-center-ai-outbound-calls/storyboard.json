@@ -1,0 +1,275 @@
+{
+  "title": "AI Outbound Calls",
+  "output": "contact-center-ai-outbound-calls",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "AI": "A.I.",
+    "STT": "S.T.T.",
+    "TTS": "T.T.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Outbound Calls",
+      "subtitle": "An A.I. voice agent that calls your contacts",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An A.I. voice agent can call your contacts, ask its questions, leave a message, and hand a warm customer to a person. This video shows how to set it up, what the agent does before, during and after a call, and where you review it. Calls never connect on this demo site, so the live parts use slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Not a dialer mode",
+      "subtitle": "What an A.I. call is",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An A.I. call is not a dialer mode, and it does not use a dialer profile. It is an automated activity: a contact, a subject, and an A.I. profile. The agent calls the contact, talks, and records the outcome like a person would."
+            },
+            {
+              "id": "why-2",
+              "text": "It works with Telnyx only. The Asterisk provider cannot place or answer A.I. calls."
+            },
+            {
+              "id": "why-3",
+              "text": "Timing matters. A background task starts due automated activities every five minutes, so the first call can wait up to five minutes. A workflow task that places the call starts it at once, and skips the checks you will see later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The A.I. profile",
+      "subtitle": "Start from a phone template",
+      "clips": [
+        {
+          "id": "02-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prof-1",
+              "text": "Open Artificial Intelligence, Profiles, and choose a starting point. The Phone calls group has three: Answer calls at the front desk, Confirm appointments by phone, and Qualify leads by phone. They need the Automated Voice feature. Start Qualify leads by phone, give it a title, and create the profile."
+            },
+            {
+              "id": "prof-2",
+              "text": "The template turns on Start the conversation automatically, and writes an Opening message. A load refuses a profile without it. Edit the message in plain words, with your business name. When a call is not a live audio conversation, this is the first thing the agent says."
+            }
+          ]
+        }
+      ],
+      "short": "profile"
+    },
+    {
+      "id": "03",
+      "title": "The subject",
+      "subtitle": "Handoff and outcomes",
+      "clips": [
+        {
+          "id": "03-subject",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "subj-1",
+              "text": "An outbound subject has no channel or voice settings of its own. It has one card for the A.I.: Live agent handoff. Allow the A.I. to hand off to a live agent, and pick the Handoff queue the call goes to."
+            },
+            {
+              "id": "subj-2",
+              "text": "Escalate when has three boxes: the customer asks for a human, the customer is a qualified, ready lead, and the customer is frustrated or the A.I. cannot help. The agent hands off only for the reasons you tick."
+            },
+            {
+              "id": "subj-3",
+              "text": "The subject flow decides what each outcome does. Every action has a disposition, and When to choose this disposition is the hint the A.I. reads to pick one when the call ends. Write it as a sentence about the conversation."
+            }
+          ]
+        }
+      ],
+      "short": "subject"
+    },
+    {
+      "id": "04",
+      "title": "The automatic load",
+      "subtitle": "Who to call, and from where",
+      "clips": [
+        {
+          "id": "04-load",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "load-1",
+              "text": "Open Load Activities, and add an Automatic load. Pick the Subject and the Campaign. The A.I. profile is chosen here, because an outbound subject cannot hold one."
+            },
+            {
+              "id": "load-2",
+              "text": "Channel is Phone. Address is the number the customer sees. Without an address, the Telnyx default outbound caller ID is used. Schedule at holds the first call until a time you choose."
+            },
+            {
+              "id": "load-3",
+              "text": "Save and load the activities. They wait as automated activities, and the background task starts each one when it is due."
+            }
+          ]
+        }
+      ],
+      "short": "load"
+    },
+    {
+      "id": "05",
+      "title": "Before the call",
+      "subtitle": "Screening",
+      "clips": [
+        {
+          "id": "05-screen",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "scr-1",
+              "text": "Before each call from the background task, the activity is checked. A number known to be out of service cancels the activity. So does a contact who opted out of calls on this channel."
+            },
+            {
+              "id": "scr-2",
+              "text": "With Contact Center Outbound Dialer on, the do-not-call lists are checked too. A calling window is checked only when your administrator has turned it on for automated calls."
+            },
+            {
+              "id": "scr-3",
+              "text": "The first reason is written to the activity's notes, and the activity is cancelled, so it is never dialed. A workflow that places the call starts it directly, and skips all of these checks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "During the call",
+      "subtitle": "What the agent does",
+      "clips": [
+        {
+          "id": "06-during",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dur-1",
+              "text": "The agent greets with the Opening message. If recording is announced, it says so first. With the Contact Center Voice Media feature and a realtime deployment, the call is a live audio conversation, and the model words its own greeting. Without it, each turn is spoken and transcribed through Telnyx."
+            },
+            {
+              "id": "dur-2",
+              "text": "If it reaches a voicemail, it waits for the greeting to end, and leaves one message. If nobody has spoken on a call it placed, silence is treated as voicemail too."
+            },
+            {
+              "id": "dur-3",
+              "text": "If the person goes quiet, the agent asks twice if they are still there, then says goodbye and hangs up. A realtime session that drops is replaced up to two times, with the transcript so far."
+            },
+            {
+              "id": "dur-4",
+              "text": "If the subject allows handoff and a reason you ticked applies, the call goes to the handoff queue. The agent who answers sees a summary, labeled A.I. assistant's summary, written by the A.I. when it handed over."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Recording disclosure",
+      "subtitle": "Say it first",
+      "clips": [
+        {
+          "id": "07-disclosure",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "disc-1",
+              "text": "In Settings, Contact Center, Recording governance, Tell callers the call is recorded sets the announcement. Have automated voice agents say it first makes the agent say it before anything else. This tab needs the Contact Center Call Recording feature."
+            }
+          ]
+        }
+      ],
+      "short": "disclosure"
+    },
+    {
+      "id": "08",
+      "title": "After the call",
+      "subtitle": "Review the conversation",
+      "clips": [
+        {
+          "id": "08-review",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rev-1",
+              "text": "Open a contact's activities. A finished call shows who handled it. Dispositioned by reads A.I. voice agent, with the profile name, and the disposition and the notes hold the agent's summary. The call on this demo site is made up."
+            },
+            {
+              "id": "rev-2",
+              "text": "Click Review A.I. conversation to open the full transcript, read only. The button shows when the activity has an A.I. conversation. It needs the A.I. Chat feature, and permission to query A.I. profiles and to list activities."
+            }
+          ]
+        },
+        {
+          "id": "08-cancelled",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rev-3",
+              "text": "An activity that screening cancelled never reaches the agent. It is cancelled, and the reason, such as an opt-out, is kept in its notes."
+            }
+          ]
+        }
+      ],
+      "short": "review"
+    },
+    {
+      "id": "09",
+      "title": "Where it fits",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Confirm appointments: call each customer, note cancellations, and transfer changes to your team."
+            },
+            {
+              "id": "use-2",
+              "text": "Qualify leads: call people who asked for information, learn what they need and when, and transfer the good fits."
+            },
+            {
+              "id": "use-3",
+              "text": "Follow up after hours: use a schedule so calls go out at a time that suits your contacts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "An A.I. call is an automated activity: a profile with an opening message, a subject with handoff and dispositions, and an automatic load. Telnyx places it, and you review it afterwards. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
