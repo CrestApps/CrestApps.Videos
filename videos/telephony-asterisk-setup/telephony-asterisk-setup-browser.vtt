@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:08.127
+SIP WebSocket URL is the secure address the browser connects to, and SIP
+
+00:00:08.127 --> 00:00:10.541
+domain builds each browser login.
+
+00:00:10.541 --> 00:00:13.140
+Both are required for browser audio.
+
+00:00:13.645 --> 00:00:18.296
+ICE server URLs list the servers that help audio cross firewalls.
+
+00:00:18.296 --> 00:00:24.585
+TURN shared secret lets the platform hand the browser short-lived credentials for a relay.
+
+00:00:24.585 --> 00:00:29.105
+ICE transport policy chooses direct paths, or forces the relay.
+
+00:00:29.585 --> 00:00:35.840
+Browser audio codecs lists the audio formats the browser may use, in order of preference.
+
+00:00:35.840 --> 00:00:41.898
+PJSIP credential lifetime and PJSIP contact expiration decide how long a browser login
+
+00:00:41.898 --> 00:00:44.005
+and its registration last.
+
+00:00:44.525 --> 00:00:49.911
+The PJSIP Realtime fields name the database Asterisk reads its endpoints from:
+
+00:00:49.911 --> 00:00:54.528
+the provider, the connection string, and an optional table prefix.
+
+00:00:54.528 --> 00:00:57.605
+The connection string is stored encrypted.
+

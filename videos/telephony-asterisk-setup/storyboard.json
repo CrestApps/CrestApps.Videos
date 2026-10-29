@@ -1,0 +1,177 @@
+{
+  "title": "Asterisk Setup",
+  "output": "telephony-asterisk-setup",
+  "spoken": {
+    "ARI": "A.R.I.",
+    "SIP": "sip",
+    "WebSocket": "web socket",
+    "PJSIP": "P.J.S.I.P.",
+    "TURN": "turn",
+    "STUN": "stun",
+    "ICE": "ice",
+    "DTMF": "D.T.M.F.",
+    "WebRTC": "web R.T.C.",
+    "codecs": "co decs",
+    "Stasis": "stay sis"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Asterisk Setup",
+      "subtitle": "Connect your own phone system",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Asterisk is a phone system your company runs itself. This video walks through the Asterisk tab of the telephony settings: the connection to Asterisk, voicemail, audio in the browser, and what Asterisk can and cannot do."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What Asterisk needs",
+      "subtitle": "Call control, and audio in the browser",
+      "clips": [
+        {
+          "id": "01-needs",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "needs-1",
+              "text": "The platform controls Asterisk through its A.R.I. interface: it places calls, answers them, holds them and transfers them. Your phone team gives you the address, a user name and a password."
+            },
+            {
+              "id": "needs-2",
+              "text": "Agents talk through the browser, which needs more: a secure web socket address, a domain, servers that help audio find its way across the network, and a database where Asterisk finds the browser's temporary logins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Connect call control",
+      "subtitle": "Enable the provider and give it an address",
+      "clips": [
+        {
+          "id": "02-connect",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ast-1",
+              "text": "Open Settings, Communication, Telephony, and choose the Asterisk tab. Tick Enable Asterisk provider. The rest of the fields appear, and Asterisk becomes the default provider if none is chosen yet."
+            },
+            {
+              "id": "ast-2",
+              "text": "ARI base URL is the address of Asterisk's web interface. ARI user name and ARI password sign the platform in. The password is stored encrypted, and the box stays empty when you come back."
+            },
+            {
+              "id": "ast-3",
+              "text": "Stasis application name is required. It must match the application your dialplan hands calls to. When several sites share one Asterisk server, give each site its own name, so one site never receives another site's calls."
+            },
+            {
+              "id": "ast-4",
+              "text": "Endpoint template turns a dialed number into an Asterisk endpoint, with the number placeholder in braces. Outbound caller id is shown on outbound calls, and Dial timeout is how long Asterisk keeps ringing."
+            }
+          ]
+        }
+      ],
+      "short": "connect"
+    },
+    {
+      "id": "03",
+      "title": "Voicemail",
+      "subtitle": "Send an unanswered call to your voicemail",
+      "clips": [
+        {
+          "id": "03-voicemail",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vm-1",
+              "text": "Voicemail context is the dialplan context a ringing call continues into when the agent chooses Send to voicemail. Voicemail extension template picks the extension, and can use the queue name or the recipient's user name."
+            },
+            {
+              "id": "vm-2",
+              "text": "Voicemail priority is where in that extension the call starts. Fill all three, and the soft phone shows its voicemail button. Leave them empty, and the button stays hidden."
+            }
+          ]
+        }
+      ],
+      "short": "voicemail"
+    },
+    {
+      "id": "04",
+      "title": "Audio in the browser",
+      "subtitle": "Web socket, domain, ICE servers and logins",
+      "clips": [
+        {
+          "id": "04-browser",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "br-1",
+              "text": "SIP WebSocket URL is the secure address the browser connects to, and SIP domain builds each browser login. Both are required for browser audio."
+            },
+            {
+              "id": "br-2",
+              "text": "ICE server URLs list the servers that help audio cross firewalls. TURN shared secret lets the platform hand the browser short-lived credentials for a relay. ICE transport policy chooses direct paths, or forces the relay."
+            },
+            {
+              "id": "br-3",
+              "text": "Browser audio codecs lists the audio formats the browser may use, in order of preference. PJSIP credential lifetime and PJSIP contact expiration decide how long a browser login and its registration last."
+            },
+            {
+              "id": "br-4",
+              "text": "The PJSIP Realtime fields name the database Asterisk reads its endpoints from: the provider, the connection string, and an optional table prefix. The connection string is stored encrypted."
+            }
+          ]
+        }
+      ],
+      "short": "browser"
+    },
+    {
+      "id": "05",
+      "title": "What Asterisk can do",
+      "subtitle": "And what it cannot",
+      "clips": [
+        {
+          "id": "05-can",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "can-1",
+              "text": "Through Asterisk, an agent can dial, hang up, answer or reject, hold, mute, transfer blind, merge calls and send keypad digits. Calls can be recorded, and a supervisor can listen, whisper or barge in."
+            },
+            {
+              "id": "can-2",
+              "text": "AI voice calls need the Telnyx provider: Asterisk cannot place or answer them. And this demo site points at an address that nothing answers, so the soft phone shows Ready, but a call never connects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Give the platform the address and the application name, add voicemail if you use it, then the browser audio fields, and save. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

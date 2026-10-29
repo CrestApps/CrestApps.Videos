@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.220 --> 00:00:08.194
+Voicemail context is the dialplan context a ringing call continues into when the
+
+00:00:08.194 --> 00:00:10.392
+agent chooses Send to voicemail.
+
+00:00:10.392 --> 00:00:15.309
+Voicemail extension template picks the extension, and can use the queue name or
+
+00:00:15.309 --> 00:00:17.160
+the recipient's user name.
+
+00:00:17.622 --> 00:00:21.955
+Voicemail priority is where in that extension the call starts.
+
+00:00:21.955 --> 00:00:26.289
+Fill all three, and the soft phone shows its voicemail button.
+
+00:00:26.289 --> 00:00:29.602
+Leave them empty, and the button stays hidden.
+
