@@ -1,0 +1,224 @@
+1
+00:00:01,000 --> 00:00:04,793
+This video is for the person who looks after the Report Builder:
+
+2
+00:00:04,793 --> 00:00:08,749
+who may build and see reports, how to move reports to another site,
+
+3
+00:00:08,749 --> 00:00:13,410
+what the limits mean on large data, and what to do when something does not work.
+
+4
+00:00:17,983 --> 00:00:21,189
+Open Access Control, Roles, and edit a role.
+
+5
+00:00:21,189 --> 00:00:24,267
+Search its permissions for custom reports.
+
+6
+00:00:24,267 --> 00:00:29,397
+Build reports and manage own custom reports and views lets a person design
+
+7
+00:00:29,397 --> 00:00:33,053
+reports and views, and change and delete their own.
+
+8
+00:00:33,505 --> 00:00:38,417
+View all custom reports lets a person run every report, whoever owns it.
+
+9
+00:00:38,417 --> 00:00:43,582
+Manage all custom reports and views lets them change and delete every report
+
+10
+00:00:43,582 --> 00:00:47,235
+and view, and it includes the two permissions above.
+
+11
+00:00:47,686 --> 00:00:52,374
+Share custom reports publicly and through share links is the one that lets
+
+12
+00:00:52,374 --> 00:00:56,946
+a person share a report with the Anonymous role, and create share links.
+
+13
+00:00:57,405 --> 00:00:59,361
+Search for report groups.
+
+14
+00:00:59,361 --> 00:01:05,859
+Manage report groups lets a person create, change and delete the groups reports are listed under.
+
+15
+00:01:05,859 --> 00:01:09,265
+Manage all custom reports and views includes it.
+
+16
+00:01:13,460 --> 00:01:18,295
+This is the Reports menu of a person whose role has none of these permissions.
+
+17
+00:01:18,295 --> 00:01:22,440
+It lists the reports they may run, but there is no Report Builder.
+
+18
+00:01:24,126 --> 00:01:30,056
+In the role, tick Build reports and manage own custom reports and views, and save.
+
+19
+00:01:31,616 --> 00:01:37,052
+Now the same person has Report Builder under Reports, and builds reports of their own.
+
+20
+00:01:37,052 --> 00:01:41,956
+They see their own reports, and the ones shared with them, and no one else's.
+
+21
+00:01:46,135 --> 00:01:49,079
+To bring reports onto a site, import them.
+
+22
+00:01:49,079 --> 00:01:54,477
+Under Tools, Deployments, JSON Import takes a recipe with the Report Designs step,
+
+23
+00:01:54,477 --> 00:01:58,035
+and Package Import takes the same in a package file.
+
+24
+00:01:58,487 --> 00:01:59,606
+Click Import.
+
+25
+00:01:59,606 --> 00:02:02,846
+The import matches each report by its identifier:
+
+26
+00:02:02,846 --> 00:02:07,146
+a report that exists is replaced, and one that does not is created,
+
+27
+00:02:07,146 --> 00:02:09,797
+so the same file can be imported again.
+
+28
+00:02:09,797 --> 00:02:11,977
+Share links are never imported.
+
+29
+00:02:12,429 --> 00:02:16,151
+The reports and their groups are now in the Report Builder.
+
+30
+00:02:16,151 --> 00:02:19,931
+Each one keeps its owner when a user with the same user name
+
+31
+00:02:19,931 --> 00:02:24,569
+exists on the site, and belongs to the person who ran the import otherwise.
+
+32
+00:02:28,769 --> 00:02:33,039
+The builder reads each data set in batches and never holds a whole
+
+33
+00:02:33,039 --> 00:02:34,522
+data set in memory.
+
+34
+00:02:34,522 --> 00:02:39,979
+Big joins and totals use temporary files on the server, so they are slower, not wrong.
+
+35
+00:02:40,729 --> 00:02:44,492
+A report that reads more rows than the limit says so with a
+
+36
+00:02:44,492 --> 00:02:47,908
+warning, and the numbers cover only the rows it read.
+
+37
+00:02:47,908 --> 00:02:51,961
+Add a shorter period or another filter, or ask for the limits to
+
+38
+00:02:51,961 --> 00:02:54,509
+be raised in the site's configuration.
+
+39
+00:02:55,259 --> 00:02:59,331
+A new report starts with the last 30 days of its main date.
+
+40
+00:02:59,331 --> 00:03:03,403
+For big data, keep a date filter on every report, and use a
+
+41
+00:03:03,403 --> 00:03:06,849
+scheduled view for data that is heavy to prepare.
+
+42
+00:03:11,049 --> 00:03:13,269
+No Report Builder under Reports:
+
+43
+00:03:13,269 --> 00:03:17,417
+the feature may be off, or the person lacks the build permission.
+
+44
+00:03:17,417 --> 00:03:21,389
+People who only run shared reports see Shared Reports instead.
+
+45
+00:03:22,139 --> 00:03:24,308
+Fewer records than expected:
+
+46
+00:03:24,308 --> 00:03:28,007
+the date filter of a new report is the last 30 days.
+
+47
+00:03:28,007 --> 00:03:30,559
+Pick a longer period, or All time.
+
+48
+00:03:31,309 --> 00:03:33,649
+Totals too high after a join:
+
+49
+00:03:33,649 --> 00:03:36,457
+a join repeats a row for each match.
+
+50
+00:03:36,457 --> 00:03:41,939
+Count distinct values, or sum from the data set that has one row per record.
+
+51
+00:03:42,689 --> 00:03:46,266
+A shared report shows data its viewer cannot open:
+
+52
+00:03:46,266 --> 00:03:50,610
+that is expected, since it reads data with its owner's access.
+
+53
+00:03:50,610 --> 00:03:53,229
+Share only what viewers should see.
+
+54
+00:03:55,229 --> 00:03:59,699
+Give the five permissions with care, move reports with a deployment plan, and
+
+55
+00:03:59,699 --> 00:04:01,799
+keep a date filter on large data.
+
+56
+00:04:01,799 --> 00:04:03,199
+Thanks for watching.
+
