@@ -1,0 +1,40 @@
+1
+00:00:03,300 --> 00:00:05,259
+The customer opens the link.
+
+2
+00:00:05,259 --> 00:00:06,814
+No sign-in is needed.
+
+3
+00:00:06,814 --> 00:00:10,789
+The page says Secure page, and tells them that the agent on the
+
+4
+00:00:10,789 --> 00:00:12,920
+call cannot see what they type.
+
+5
+00:00:13,470 --> 00:00:16,740
+It asks for the details the capture requested:
+
+6
+00:00:16,740 --> 00:00:19,885
+Card number, Card expiry, and Security code.
+
+7
+00:00:19,885 --> 00:00:24,100
+Here we type the standard test card number, never a real one.
+
+8
+00:00:24,595 --> 00:00:27,447
+The customer clicks Submit securely.
+
+9
+00:00:27,447 --> 00:00:32,814
+An invalid card number is refused on the page, and the link stays usable.
+
+10
+00:00:32,814 --> 00:00:35,735
+A valid one ends on a Thank you page.
+

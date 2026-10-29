@@ -1,0 +1,36 @@
+1
+00:00:03,299 --> 00:00:08,019
+Open Settings, Contact Center, and choose the Secure Data Capture tab.
+
+2
+00:00:08,019 --> 00:00:11,869
+It needs the Contact Center Secure Data Capture feature.
+
+3
+00:00:12,700 --> 00:00:15,904
+Tick Enable agent-assisted secure data capture.
+
+4
+00:00:15,904 --> 00:00:20,378
+While it is off, the platform refuses to start a capture, and agents
+
+5
+00:00:20,378 --> 00:00:22,010
+never see the button.
+
+6
+00:00:22,685 --> 00:00:27,843
+Capture link lifetime is how long the one-time link works before it expires.
+
+7
+00:00:27,843 --> 00:00:29,101
+Keep it short.
+
+8
+00:00:29,101 --> 00:00:35,076
+Pause recording during capture also pauses the recording for as long as the capture runs.
+
+9
+00:00:35,076 --> 00:00:36,145
+Click Save.
+

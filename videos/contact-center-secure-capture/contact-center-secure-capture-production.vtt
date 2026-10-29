@@ -1,0 +1,20 @@
+WEBVTT
+
+00:00:03.300 --> 00:00:08.207
+The tokenizing used in this video is for development and evaluation only.
+
+00:00:08.207 --> 00:00:15.660
+Outside the Development environment, no tokenization is available until a developer connects a compliant provider.
+
+00:00:16.110 --> 00:00:19.269
+Until then, the secure capture fails closed.
+
+00:00:19.269 --> 00:00:23.945
+The agent can still send a link, but when the customer submits valid
+
+00:00:23.945 --> 00:00:27.736
+details, the page refuses them and shows this message.
+
+00:00:27.736 --> 00:00:30.010
+No sensitive data is accepted.
+

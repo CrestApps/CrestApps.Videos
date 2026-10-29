@@ -1,0 +1,223 @@
+{
+  "title": "Contact Center Secure Capture",
+  "output": "contact-center-secure-capture",
+  "spoken": {
+    "PCI-DSS": "P.C.I. D.S.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Secure Data Capture",
+      "subtitle": "Let the customer type the card number, not the agent",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "When a customer reads a card number aloud, the agent hears it and the recording keeps it. Secure data capture takes the agent out of that moment. This video shows the settings, how an agent sends the link, what the customer sees, what is kept, and what a production site needs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why secure capture",
+      "subtitle": "Keep card numbers out of the call",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Card numbers read aloud end up in the agent's ears, in the recording, and sometimes on a sticky note. Pausing the recording helps, but the agent still hears the number."
+            },
+            {
+              "id": "why-2",
+              "text": "With secure capture, the agent sends the customer a one-time link. The customer types the number on their own device, on a secure page, and the platform tokenizes it the moment it is submitted."
+            },
+            {
+              "id": "why-3",
+              "text": "The agent, the supervisor and the recording never see the value. Only a masked reference is kept, and a security code is checked and then discarded."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn it on",
+      "subtitle": "The Secure Data Capture settings",
+      "clips": [
+        {
+          "id": "02-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Contact Center, and choose the Secure Data Capture tab. It needs the Contact Center Secure Data Capture feature."
+            },
+            {
+              "id": "set-2",
+              "text": "Tick Enable agent-assisted secure data capture. While it is off, the platform refuses to start a capture, and agents never see the button."
+            },
+            {
+              "id": "set-3",
+              "text": "Capture link lifetime is how long the one-time link works before it expires. Keep it short. Pause recording during capture also pauses the recording for as long as the capture runs. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "03",
+      "title": "The agent sends the link",
+      "subtitle": "Collect data securely",
+      "clips": [
+        {
+          "id": "03-agent",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "agent-1",
+              "text": "On a live call, the Active interaction panel in My workspace shows Collect data securely. It appears only when the setting is on and the agent's role has the permission to initiate secure capture, which the Agent role has."
+            },
+            {
+              "id": "agent-2",
+              "text": "Click Collect data securely. The workspace shows a one-time link to share with the customer. Send it by text message, email or chat, whichever channel you already have with them."
+            },
+            {
+              "id": "agent-3",
+              "text": "Only one capture can run on a call at a time. When the phone provider can pause recording, the recording stays paused while the customer types, and resumes when the capture ends. The provider of this demo site is unreachable, so nothing is recorded here."
+            }
+          ]
+        }
+      ],
+      "short": "agent"
+    },
+    {
+      "id": "04",
+      "title": "The customer's page",
+      "subtitle": "Typed on the customer's own device",
+      "clips": [
+        {
+          "id": "04-customer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cust-1",
+              "text": "The customer opens the link. No sign-in is needed. The page says Secure page, and tells them that the agent on the call cannot see what they type."
+            },
+            {
+              "id": "cust-2",
+              "text": "It asks for the details the capture requested: Card number, Card expiry, and Security code. Here we type the standard test card number, never a real one."
+            },
+            {
+              "id": "cust-3",
+              "text": "The customer clicks Submit securely. An invalid card number is refused on the page, and the link stays usable. A valid one ends on a Thank you page."
+            }
+          ]
+        }
+      ],
+      "short": "customer"
+    },
+    {
+      "id": "05",
+      "title": "What is kept",
+      "subtitle": "A masked reference only",
+      "clips": [
+        {
+          "id": "05-kept",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kept-1",
+              "text": "The customer sees Thank you, and recording resumes. If the customer never finishes, the link expires and the recording resumes on its own."
+            },
+            {
+              "id": "kept-2",
+              "text": "What the platform keeps is a masked reference, such as the last four digits of a card. The security code is not kept at all. The agent's screen does not show the value, and no admin list shows the masked reference today."
+            },
+            {
+              "id": "kept-3",
+              "text": "Starting, completing and cancelling a capture are recorded as events, so a workflow can react to them."
+            }
+          ]
+        }
+      ],
+      "short": "kept"
+    },
+    {
+      "id": "06",
+      "title": "Production sites",
+      "subtitle": "A tokenization provider is required",
+      "clips": [
+        {
+          "id": "06-production",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prod-1",
+              "text": "The tokenizing used in this video is for development and evaluation only. Outside the Development environment, no tokenization is available until a developer connects a compliant provider."
+            },
+            {
+              "id": "prod-2",
+              "text": "Until then, the secure capture fails closed. The agent can still send a link, but when the customer submits valid details, the page refuses them and shows this message. No sensitive data is accepted."
+            }
+          ]
+        }
+      ],
+      "short": "production"
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Secure capture at work",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A billing agent takes a card payment over the phone, and the customer enters the card on the secure page."
+            },
+            {
+              "id": "use-2",
+              "text": "A support agent collects a bank account number to set up a refund, without hearing it."
+            },
+            {
+              "id": "use-3",
+              "text": "A company adds a national identification number to an identity check, with the same one-time link."
+            },
+            {
+              "id": "use-4",
+              "text": "A supervisor reviewing a recording never hears a card number, because the customer typed it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the setting, send the link, let the customer type, and connect a tokenization provider before you go live. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

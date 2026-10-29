@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:06.938
+The customer sees Thank you, and recording resumes.
+
+00:00:06.938 --> 00:00:12.970
+If the customer never finishes, the link expires and the recording resumes on its own.
+
+00:00:13.720 --> 00:00:17.937
+What the platform keeps is a masked reference, such as the last four
+
+00:00:17.937 --> 00:00:19.248
+digits of a card.
+
+00:00:19.248 --> 00:00:21.699
+The security code is not kept at all.
+
+00:00:21.699 --> 00:00:25.859
+The agent's screen does not show the value, and no admin list shows
+
+00:00:25.859 --> 00:00:27.740
+the masked reference today.
+
+00:00:28.490 --> 00:00:33.893
+Starting, completing and cancelling a capture are recorded as events, so a workflow
+
+00:00:33.893 --> 00:00:35.350
+can react to them.
+
