@@ -1,0 +1,95 @@
+{
+  "title": "Numbers Not In Service: Skip Dead Numbers Automatically | CrestApps for Orchard Core",
+  "description": "A list of phone numbers is never fully clean: some are disconnected, some were never valid, and some have changed hands. In the CrestApps Contact Center for Orchard Core, a call that reaches one of them is completed on its own, and the number joins the Numbers Not In Service list, so no campaign loads or dials it again. This video shows what happens to a dead number, where it is skipped, and how to manage the list.\n\nIn this video:\n• Why dead numbers matter\n• What happens when a call finds one\n• Choosing the not-in-service disposition\n• Where numbers are skipped\n• Marking a number by hand, searching, and Allow dialing\n• Catching dead numbers with number lookups\n• Reporting on it",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "not in service",
+    "dialer",
+    "do not call",
+    "phone number verification",
+    "outbound calling",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why it exists"
+    },
+    {
+      "time": "0:45",
+      "title": "What happens to a dead number"
+    },
+    {
+      "time": "1:41",
+      "title": "Choose the disposition"
+    },
+    {
+      "time": "2:13",
+      "title": "Where numbers are skipped"
+    },
+    {
+      "time": "2:50",
+      "title": "Manage the list"
+    },
+    {
+      "time": "3:46",
+      "title": "Catch dead numbers before you dial"
+    },
+    {
+      "time": "4:23",
+      "title": "Report on it"
+    },
+    {
+      "time": "4:47",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:14",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/numbers-not-in-service"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/numbers-not-in-service.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "5:24"
+}

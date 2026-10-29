@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:08.077
+This works the same way for the Preview, Power and Progressive dialers, and
+
+00:00:08.077 --> 00:00:09.823
+for automatic AI loads.
+
+00:00:09.823 --> 00:00:14.700
+The call is placed, and the carrier answers that the number does not exist.
+
+00:00:15.450 --> 00:00:17.388
+No agent is connected.
+
+00:00:17.388 --> 00:00:22.510
+An automatic call never starts the AI conversation or the AI review.
+
+00:00:23.260 --> 00:00:27.704
+The activity is completed with the subject's not-in-service disposition.
+
+00:00:27.704 --> 00:00:31.180
+Its notes record the number, and what the carrier said.
+
+00:00:31.930 --> 00:00:36.755
+The number is added to the list, with the campaign and the activity that found it.
+
+00:00:36.755 --> 00:00:40.977
+The activity is not retried, and the contact's history keeps it, so you
+
+00:00:40.977 --> 00:00:43.280
+can see the dialer tried the number.
+
+00:00:44.030 --> 00:00:47.822
+Some carriers answer the call and play a recording instead.
+
+00:00:47.822 --> 00:00:53.190
+Those calls look answered, so the agent picks your not-in-service disposition, and the
+
+00:00:53.190 --> 00:00:55.290
+number is marked the same way.
+
