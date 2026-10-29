@@ -1,0 +1,320 @@
+1
+00:00:01,000 --> 00:00:06,031
+An automatic dialer works without anyone watching it, so you need reports that
+
+2
+00:00:06,031 --> 00:00:07,348
+say what it did.
+
+3
+00:00:07,348 --> 00:00:12,499
+This video covers the Dialer activity and health report, the Dialer decision log
+
+4
+00:00:12,499 --> 00:00:16,511
+by record and by agent, and what the states and reasons mean.
+
+5
+00:00:16,511 --> 00:00:22,740
+It also covers the related inventory report, and the Last pacing decision on a Predictive profile.
+
+6
+00:00:27,340 --> 00:00:30,759
+Three questions come up when a campaign seems quiet.
+
+7
+00:00:30,759 --> 00:00:32,822
+Is the dialer running at all?
+
+8
+00:00:32,822 --> 00:00:35,062
+Why did it not call this record?
+
+9
+00:00:35,062 --> 00:00:37,420
+And why did no agent get the call?
+
+10
+00:00:38,170 --> 00:00:41,346
+Dialer activity and health answers the first.
+
+11
+00:00:41,346 --> 00:00:46,016
+The Dialer decision log answers the other two, by record or by agent.
+
+12
+00:00:46,016 --> 00:00:49,690
+Both are under Reports, and need the Reports feature.
+
+13
+00:00:53,932 --> 00:00:57,485
+Open Reports, Operations, Dialer activity and health.
+
+14
+00:00:57,485 --> 00:01:02,121
+Dialer right now is live, and shows the State, how many paced campaigns
+
+15
+00:01:02,121 --> 00:01:06,999
+have work waiting, and how many are stalled, idle, holding back or dialing.
+
+16
+00:01:06,999 --> 00:01:10,732
+The date range only changes the counts and charts below.
+
+17
+00:01:11,380 --> 00:01:14,488
+Campaign queues has one row for each campaign.
+
+18
+00:01:14,488 --> 00:01:19,209
+It shows the Dialer state, when the last cycle started and completed, the
+
+19
+00:01:19,209 --> 00:01:22,616
+Last outcome and, under Why, what the dialer found.
+
+20
+00:01:22,616 --> 00:01:27,397
+Cycles, Calls placed, Routed to an agent and No agent available count what
+
+21
+00:01:27,397 --> 00:01:29,070
+happened in the range.
+
+22
+00:01:29,529 --> 00:01:34,743
+Dialer profiles shows each profile's Mode, its last cycle, and the calls it
+
+23
+00:01:34,743 --> 00:01:37,897
+placed, answered, abandoned and suppressed.
+
+24
+00:01:37,897 --> 00:01:44,076
+Below, charts show calls and campaign routing decisions over time, and Suppressed attempts
+
+25
+00:01:44,076 --> 00:01:47,359
+by reason counts why records were not dialed.
+
+26
+00:01:48,959 --> 00:01:51,294
+The state tells you at a glance.
+
+27
+00:01:51,294 --> 00:01:54,736
+Dialing means calls were placed in the last cycle.
+
+28
+00:01:54,736 --> 00:01:58,117
+Idle means work is due but no agent is available.
+
+29
+00:01:58,117 --> 00:02:03,403
+Holding back means a rule, such as the abandonment policy, kept it from dialing.
+
+30
+00:02:03,403 --> 00:02:06,169
+Nothing to call means no record is due.
+
+31
+00:02:06,919 --> 00:02:11,716
+Starting means work arrived and the first cycle has not finished.
+
+32
+00:02:11,716 --> 00:02:17,255
+Stalled means work is due but no cycle has completed for about five minutes.
+
+33
+00:02:17,255 --> 00:02:22,998
+Not pacing means the pacing lock was not acquired, so every cycle skips itself.
+
+34
+00:02:22,998 --> 00:02:26,579
+Stalled and not pacing need your administrator.
+
+35
+00:02:30,879 --> 00:02:34,690
+Open Reports, Queue and Routing, Dialer decision log.
+
+36
+00:02:34,690 --> 00:02:41,602
+The summary counts Decisions, Routing decisions, Assigned, Not assigned, Suppressions and Activities.
+
+37
+00:02:41,602 --> 00:02:46,189
+Decisions by reason groups them, so you see the main cause first.
+
+38
+00:02:46,648 --> 00:02:51,480
+Queues with work due now shows each queue with records waiting and due,
+
+39
+00:02:51,480 --> 00:02:55,056
+when it last made a routing decision, and a Status.
+
+40
+00:02:55,056 --> 00:03:00,828
+It reads Deciding, or says that no routing decision was made in the last quarter hour.
+
+41
+00:03:01,293 --> 00:03:03,341
+Decisions lists each one.
+
+42
+00:03:03,341 --> 00:03:05,786
+Kind is Routing or Suppression.
+
+43
+00:03:05,786 --> 00:03:09,353
+Outcome is Assigned, Not assigned or Suppressed.
+
+44
+00:03:09,353 --> 00:03:14,771
+Reason says why, and Candidates lists every agent that was weighed, with why
+
+45
+00:03:14,771 --> 00:03:17,083
+each was or was not eligible.
+
+46
+00:03:17,537 --> 00:03:22,828
+To follow one record, type its Activity ID in the filters and apply them.
+
+47
+00:03:22,828 --> 00:03:25,641
+To follow one agent, pick the agent.
+
+48
+00:03:25,641 --> 00:03:30,932
+Campaign, Queue and Reason narrow the list, and the report shows the most
+
+49
+00:03:30,932 --> 00:03:34,147
+recent rows, up to five hundred on screen.
+
+50
+00:03:35,747 --> 00:03:39,246
+A suppression names why a record was not dialed:
+
+51
+00:03:39,246 --> 00:03:43,978
+No number to dial, Out of attempts, Waiting out the retry delay, Do
+
+52
+00:03:43,978 --> 00:03:47,607
+not call, or On the national do-not-call registry.
+
+53
+00:03:48,357 --> 00:03:54,911
+Others are Outside the calling window, Abandonment rate cap reached, Compliance check unavailable,
+
+54
+00:03:54,911 --> 00:03:56,927
+and Number not in service.
+
+55
+00:03:56,927 --> 00:03:59,952
+Compliance check unavailable is temporary:
+
+56
+00:03:59,952 --> 00:04:02,347
+the record is tried again later.
+
+57
+00:04:03,097 --> 00:04:07,828
+A routing decision that did not assign says No agents available, or No
+
+58
+00:04:07,828 --> 00:04:10,878
+available agent matched the routing policy.
+
+59
+00:04:10,878 --> 00:04:13,306
+The first means nobody was ready.
+
+60
+00:04:13,306 --> 00:04:19,157
+The second means agents were ready, but skills, capacity or entitlements ruled them out.
+
+61
+00:04:23,410 --> 00:04:27,375
+Dialer queue inventory is the live view of what is loaded.
+
+62
+00:04:27,375 --> 00:04:31,712
+It shows each campaign's waiting, reserved and assigned records.
+
+63
+00:04:31,712 --> 00:04:36,110
+Use it to confirm that a load arrived, and how much work is left.
+
+64
+00:04:40,310 --> 00:04:44,727
+A Predictive profile that over-dials has one more place to look.
+
+65
+00:04:44,727 --> 00:04:50,594
+On the profile's Predictive pacing card, Last pacing decision shows, for each campaign,
+
+66
+00:04:50,594 --> 00:04:55,705
+when the last cycle ran, whether it over-dialed, reserved an agent per call
+
+67
+00:04:55,705 --> 00:04:57,660
+or did not dial, and why.
+
+68
+00:04:58,410 --> 00:05:02,790
+It also shows how many calls were placed of those allowed, the free
+
+69
+00:05:02,790 --> 00:05:08,310
+agents, the calls ringing without an agent, the answer rate and the abandonment rates.
+
+70
+00:05:08,310 --> 00:05:12,930
+The table is read only, and it appears after the first over-dial cycle.
+
+71
+00:05:17,130 --> 00:05:18,964
+A campaign went quiet:
+
+72
+00:05:18,964 --> 00:05:21,844
+open Dialer activity and health first.
+
+73
+00:05:21,844 --> 00:05:27,670
+The state and the Why column usually say whether it is agents, rules or the system.
+
+74
+00:05:28,420 --> 00:05:30,824
+A contact says they were never called:
+
+75
+00:05:30,824 --> 00:05:34,320
+find the activity in the decision log and read the reason.
+
+76
+00:05:35,070 --> 00:05:37,324
+An agent says they got no calls:
+
+77
+00:05:37,324 --> 00:05:41,770
+filter the decision log by that agent and read the Candidates column.
+
+78
+00:05:43,770 --> 00:05:48,024
+Dialer activity and health tells you whether the dialer is running, and the
+
+79
+00:05:48,024 --> 00:05:50,755
+decision log tells you why it did what it did.
+
+80
+00:05:50,755 --> 00:05:52,120
+Thanks for watching.
+

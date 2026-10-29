@@ -1,0 +1,218 @@
+{
+  "title": "Dialer Reports",
+  "output": "contact-center-dialer-reports",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Dialer Reports",
+      "subtitle": "See what the dialer did, and why",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An automatic dialer works without anyone watching it, so you need reports that say what it did. This video covers the Dialer activity and health report, the Dialer decision log by record and by agent, and what the states and reasons mean. It also covers the related inventory report, and the Last pacing decision on a Predictive profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Three questions",
+      "subtitle": "What the reports answer",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Three questions come up when a campaign seems quiet. Is the dialer running at all? Why did it not call this record? And why did no agent get the call?"
+            },
+            {
+              "id": "why-2",
+              "text": "Dialer activity and health answers the first. The Dialer decision log answers the other two, by record or by agent. Both are under Reports, and need the Reports feature."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Dialer activity and health",
+      "subtitle": "Is it running",
+      "clips": [
+        {
+          "id": "02-health",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "hl-1",
+              "text": "Open Reports, Operations, Dialer activity and health. Dialer right now is live, and shows the State, how many paced campaigns have work waiting, and how many are stalled, idle, holding back or dialing. The date range only changes the counts and charts below."
+            },
+            {
+              "id": "hl-2",
+              "text": "Campaign queues has one row for each campaign. It shows the Dialer state, when the last cycle started and completed, the Last outcome and, under Why, what the dialer found. Cycles, Calls placed, Routed to an agent and No agent available count what happened in the range."
+            },
+            {
+              "id": "hl-3",
+              "text": "Dialer profiles shows each profile's Mode, its last cycle, and the calls it placed, answered, abandoned and suppressed. Below, charts show calls and campaign routing decisions over time, and Suppressed attempts by reason counts why records were not dialed."
+            }
+          ]
+        },
+        {
+          "id": "02-states",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "st-1",
+              "text": "The state tells you at a glance. Dialing means calls were placed in the last cycle. Idle means work is due but no agent is available. Holding back means a rule, such as the abandonment policy, kept it from dialing. Nothing to call means no record is due."
+            },
+            {
+              "id": "st-2",
+              "text": "Starting means work arrived and the first cycle has not finished. Stalled means work is due but no cycle has completed for about five minutes. Not pacing means the pacing lock was not acquired, so every cycle skips itself. Stalled and not pacing need your administrator."
+            }
+          ]
+        }
+      ],
+      "short": "health"
+    },
+    {
+      "id": "03",
+      "title": "Dialer decision log",
+      "subtitle": "Why, record by record",
+      "clips": [
+        {
+          "id": "03-log",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "log-1",
+              "text": "Open Reports, Queue and Routing, Dialer decision log. The summary counts Decisions, Routing decisions, Assigned, Not assigned, Suppressions and Activities. Decisions by reason groups them, so you see the main cause first."
+            },
+            {
+              "id": "log-2",
+              "text": "Queues with work due now shows each queue with records waiting and due, when it last made a routing decision, and a Status. It reads Deciding, or says that no routing decision was made in the last quarter hour."
+            },
+            {
+              "id": "log-3",
+              "text": "Decisions lists each one. Kind is Routing or Suppression. Outcome is Assigned, Not assigned or Suppressed. Reason says why, and Candidates lists every agent that was weighed, with why each was or was not eligible."
+            },
+            {
+              "id": "log-4",
+              "text": "To follow one record, type its Activity ID in the filters and apply them. To follow one agent, pick the agent. Campaign, Queue and Reason narrow the list, and the report shows the most recent rows, up to five hundred on screen."
+            }
+          ]
+        },
+        {
+          "id": "03-reasons",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rea-1",
+              "text": "A suppression names why a record was not dialed: No number to dial, Out of attempts, Waiting out the retry delay, Do not call, or On the national do-not-call registry."
+            },
+            {
+              "id": "rea-2",
+              "text": "Others are Outside the calling window, Abandonment rate cap reached, Compliance check unavailable, and Number not in service. Compliance check unavailable is temporary: the record is tried again later."
+            },
+            {
+              "id": "rea-3",
+              "text": "A routing decision that did not assign says No agents available, or No available agent matched the routing policy. The first means nobody was ready. The second means agents were ready, but skills, capacity or entitlements ruled them out."
+            }
+          ]
+        }
+      ],
+      "short": "log"
+    },
+    {
+      "id": "04",
+      "title": "The inventory",
+      "subtitle": "What is waiting",
+      "clips": [
+        {
+          "id": "04-inventory",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inv-1",
+              "text": "Dialer queue inventory is the live view of what is loaded. It shows each campaign's waiting, reserved and assigned records. Use it to confirm that a load arrived, and how much work is left."
+            }
+          ]
+        }
+      ],
+      "short": "inventory"
+    },
+    {
+      "id": "05",
+      "title": "Predictive pacing",
+      "subtitle": "The last decision",
+      "clips": [
+        {
+          "id": "05-predictive",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pred-1",
+              "text": "A Predictive profile that over-dials has one more place to look. On the profile's Predictive pacing card, Last pacing decision shows, for each campaign, when the last cycle ran, whether it over-dialed, reserved an agent per call or did not dial, and why."
+            },
+            {
+              "id": "pred-2",
+              "text": "It also shows how many calls were placed of those allowed, the free agents, the calls ringing without an agent, the answer rate and the abandonment rates. The table is read only, and it appears after the first over-dial cycle."
+            }
+          ]
+        }
+      ],
+      "short": "predictive"
+    },
+    {
+      "id": "06",
+      "title": "Using them",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "06-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A campaign went quiet: open Dialer activity and health first. The state and the Why column usually say whether it is agents, rules or the system."
+            },
+            {
+              "id": "use-2",
+              "text": "A contact says they were never called: find the activity in the decision log and read the reason."
+            },
+            {
+              "id": "use-3",
+              "text": "An agent says they got no calls: filter the decision log by that agent and read the Candidates column."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Dialer activity and health tells you whether the dialer is running, and the decision log tells you why it did what it did. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

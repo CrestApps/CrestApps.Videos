@@ -1,0 +1,88 @@
+{
+  "title": "Dialer Reports: See What the Dialer Did and Why | CrestApps for Orchard Core",
+  "description": "An automatic dialer works without anyone watching it, so you need reports that say what it did. This video covers the Dialer activity and health report, the Dialer decision log by record and by agent, the meaning of the dialer states and reasons, the dialer queue inventory, and the Last pacing decision of a Predictive profile in the CrestApps Contact Center for Orchard Core.\n\nIn this video:\n• Three questions the dialer reports answer\n• Dialer activity and health: Dialer right now, Campaign queues, Dialer profiles\n• What each dialer state means\n• The Dialer decision log: by reason, by record and by agent\n• Why a record was not dialed, and why no agent was assigned\n• Dialer queue inventory\n• Last pacing decision on a Predictive profile",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact center",
+    "dialer",
+    "reports",
+    "decision log",
+    "predictive dialing",
+    "outbound calling",
+    "call center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:24",
+      "title": "Three questions"
+    },
+    {
+      "time": "0:50",
+      "title": "Dialer activity and health"
+    },
+    {
+      "time": "2:27",
+      "title": "Dialer decision log"
+    },
+    {
+      "time": "4:20",
+      "title": "The inventory"
+    },
+    {
+      "time": "4:37",
+      "title": "Predictive pacing"
+    },
+    {
+      "time": "5:13",
+      "title": "Using them"
+    },
+    {
+      "time": "5:42",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/reports"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agents-queues-dialer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.Dialer.Paced"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/reports.md",
+    "src/CrestApps.Docs/docs/user-manual/dialer-profiles.md",
+    "src/CrestApps.Docs/docs/contact-center/agents-queues-dialer.md"
+  ],
+  "length": "5:54"
+}
