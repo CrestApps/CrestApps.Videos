@@ -22,7 +22,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Documents: Ask About a File in a Chat, Charts Included](videos/ai-documents) | 4:34 | [https://youtu.be/KIddR8wtUx0](https://youtu.be/KIddR8wtUx0) | CrestApps/CrestApps.OrchardCore |
 | [Export and Import Your AI Setup With Deployment Plans](videos/ai-export-import) | 3:21 | [https://youtu.be/rjQKNjh3i-U](https://youtu.be/rjQKNjh3i-U) | CrestApps/CrestApps.OrchardCore |
 | [AI File Sources: Keep Knowledge in Step With a Folder](videos/ai-file-sources) | 6:08 | [https://youtu.be/TKctcLGwHJU](https://youtu.be/TKctcLGwHJU) | CrestApps/CrestApps.OrchardCore |
-| [AI Knowledge: Answers From Your Own Documents](videos/ai-knowledge) | 6:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Knowledge: Answers From Your Own Documents](videos/ai-knowledge) | 6:52 | [https://youtu.be/geI91kCg9xY](https://youtu.be/geI91kCg9xY) | CrestApps/CrestApps.OrchardCore |
 | [Build an AI Knowledge Assistant That Answers From Your Own Content](videos/ai-knowledge-assistant) | 3:16 | [https://youtu.be/libAAfX0WCA](https://youtu.be/libAAfX0WCA) | CrestApps/CrestApps.OrchardCore |
 | [Model Context Protocol (MCP): Connect Tools to Your AI Assistants](videos/ai-mcp) | 7:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [MCP Resources: Share Files and Data with AI Apps](videos/ai-mcp-resources) | 4:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
