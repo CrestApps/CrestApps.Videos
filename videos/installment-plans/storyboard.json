@@ -1,0 +1,293 @@
+{
+  "title": "Installment plans",
+  "output": "installment-plans",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Installment plans",
+      "subtitle": "Split a big price into payments",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some purchases are too big to pay at once. An installment plan lets a customer pay a down payment today, and the rest in scheduled payments. This video shows how to set one up, what you and the customer see, what happens when a card is declined, and how customers can choose installments for themselves at checkout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why installment plans",
+      "subtitle": "Close the bigger sale",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A kitchen remodel, a course, a piece of equipment: many sales are easier to close when the price is split."
+            },
+            {
+              "id": "why-2",
+              "text": "You want the first payment today, and the rest collected on time, without chasing anyone."
+            },
+            {
+              "id": "why-3",
+              "text": "The customer wants to know what they will pay, and when."
+            },
+            {
+              "id": "why-4",
+              "text": "An installment plan gives both: a down payment, then a fixed schedule, collected from a saved card or by invoice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How a plan works",
+      "subtitle": "Total, down payment and schedule",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A plan has a total, a down payment, and a number of payments after it, which split the rest equally."
+            },
+            {
+              "id": "how-2",
+              "text": "The payments fall due every week, every two weeks, every month or every three months, from a first due date you choose."
+            },
+            {
+              "id": "how-3",
+              "text": "They are collected by charging the card kept at the down payment, or by invoicing the customer."
+            },
+            {
+              "id": "how-4",
+              "text": "Every payment is also a transaction, so it shows in Transactions, and in the customer's My Transactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Plan settings",
+      "subtitle": "Defaults, retries and checkout",
+      "clips": [
+        {
+          "id": "03-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Installment Plans. Collect scheduled payments by sets what a new plan starts with: charging the saved card on each due date, or invoicing the customer. You can still change it on each plan."
+            },
+            {
+              "id": "set-2",
+              "text": "Retry a declined card after lists the days to wait after each failed charge: by default one, three and five. Leave it empty to hand a declined payment to the customer straight away."
+            },
+            {
+              "id": "set-3",
+              "text": "Installments at checkout lets customers split a balance themselves. Offer for balances from picks the kinds of balance, and Numbers of payments offered picks the choices, such as three and six. Smallest balance keeps small balances for payment in full."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "04",
+      "title": "Create a plan",
+      "subtitle": "Customer, amounts and schedule",
+      "clips": [
+        {
+          "id": "04-new",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "new-1",
+              "text": "Open Subscriptions, Installment Plans, and click New plan. The list is empty until you make a first plan."
+            },
+            {
+              "id": "new-2",
+              "text": "Choose an existing customer, or enter a new one: a name, and an email. A new customer gets an account with that email, and sets a password with Forgot password when they want to sign in."
+            },
+            {
+              "id": "new-3",
+              "text": "Say what the plan is for, such as Kitchen remodel. Enter the total, the down payment today, and the number of payments after it. Choose how often they fall due, and the first due date. Here: twelve hundred dollars, three hundred down, and six monthly payments."
+            },
+            {
+              "id": "new-4",
+              "text": "The Schedule card shows every payment, its date and its amount: six payments of one hundred fifty dollars. Then choose how they are collected: charge the card on each due date, or invoice the customer for each payment."
+            },
+            {
+              "id": "new-5",
+              "text": "Click Continue to the down payment. The plan is saved as Waiting for down payment, and the page to take the down payment opens."
+            }
+          ]
+        }
+      ],
+      "short": "new"
+    },
+    {
+      "id": "05",
+      "title": "Manage a plan",
+      "subtitle": "The list and the plan page",
+      "clips": [
+        {
+          "id": "05-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "manage-1",
+              "text": "The list shows each plan with its status, the customer, the total, what was received and what is outstanding, and the next payment. Open a plan to manage it."
+            },
+            {
+              "id": "manage-2",
+              "text": "The plan page has a Summary: its status, the customer, the total, what was received and what is outstanding, how the payments are collected, and who created it. Payments lists the down payment and every scheduled payment, with its status and due date. History lists everything that happened to the plan."
+            },
+            {
+              "id": "manage-3",
+              "text": "While a plan is not finished, you can cancel it. Enter a reason if you like, click Cancel the plan, and confirm. Payments already received stay received, and can be refunded. Payments not yet received are canceled."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "06",
+      "title": "After the down payment",
+      "subtitle": "Taking the card, and collecting",
+      "clips": [
+        {
+          "id": "06-card",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "card-1",
+              "text": "Taking the down payment needs a payment provider that can keep a card, such as Stripe. This demonstration site has none connected, so the next steps are described, not shown."
+            },
+            {
+              "id": "card-2",
+              "text": "On the Take the down payment page, you enter the card, and click Charge. When the payment is confirmed, the plan is Active, and the schedule starts."
+            },
+            {
+              "id": "card-3",
+              "text": "On each due date, the saved card is charged, or the customer is invoiced. A few days before, the customer is reminded, and after each payment they get a receipt."
+            },
+            {
+              "id": "card-4",
+              "text": "Charge now collects a payment before its due date, or tries a declined card again at once, on an Active or Past due plan that charges the card."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Declined cards and statuses",
+      "subtitle": "What happens when a charge fails",
+      "clips": [
+        {
+          "id": "07-declined",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dec-1",
+              "text": "If a card is declined, the payment is marked Failed, the plan becomes Past due, and the customer is told when it will be tried again."
+            },
+            {
+              "id": "dec-2",
+              "text": "The card is tried again after the days you set: by default one, three and five. After the last try, the payment becomes Due: a balance the customer pays from My Transactions, and the overdue reminders take over."
+            },
+            {
+              "id": "dec-3",
+              "text": "A plan is Waiting for down payment, Active, Past due, Completed or Canceled. Each payment is Scheduled, Due, Paid, Failed or Canceled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Installments at checkout",
+      "subtitle": "Customers choose for themselves",
+      "clips": [
+        {
+          "id": "08-checkout",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "Customers can also choose installments themselves. When they pay an outstanding balance, checkout can offer Choose how to pay: Pay in full, or, for example, three monthly payments."
+            },
+            {
+              "id": "chk-2",
+              "text": "Choosing installments makes a plan with no down payment: the first payment is charged in the same checkout, and the card is saved. Once it is received, the plan replaces the original balance, and the rest is charged on its due dates."
+            },
+            {
+              "id": "chk-3",
+              "text": "If the customer leaves checkout without paying, the plan is closed, and they still owe the original balance. You turn this on in the plan settings, as shown earlier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "How businesses put it to work",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A contractor: a down payment, then monthly payments for a remodel."
+            },
+            {
+              "id": "use-2",
+              "text": "A training provider: a course fee in three payments."
+            },
+            {
+              "id": "use-3",
+              "text": "An equipment seller: a card kept, and charged on each due date."
+            },
+            {
+              "id": "use-4",
+              "text": "A store: customers split a large balance at checkout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With installment plans, a bigger sale is easier to say yes to, and easier to collect. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

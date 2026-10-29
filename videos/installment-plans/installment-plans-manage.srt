@@ -1,0 +1,48 @@
+1
+00:00:03,161 --> 00:00:07,456
+The list shows each plan with its status, the customer, the total, what
+
+2
+00:00:07,456 --> 00:00:11,082
+was received and what is outstanding, and the next payment.
+
+3
+00:00:11,082 --> 00:00:12,811
+Open a plan to manage it.
+
+4
+00:00:13,275 --> 00:00:15,270
+The plan page has a Summary:
+
+5
+00:00:15,270 --> 00:00:20,256
+its status, the customer, the total, what was received and what is outstanding,
+
+6
+00:00:20,256 --> 00:00:23,600
+how the payments are collected, and who created it.
+
+7
+00:00:23,600 --> 00:00:29,231
+Payments lists the down payment and every scheduled payment, with its status and due date.
+
+8
+00:00:29,231 --> 00:00:32,575
+History lists everything that happened to the plan.
+
+9
+00:00:33,045 --> 00:00:36,354
+While a plan is not finished, you can cancel it.
+
+10
+00:00:36,354 --> 00:00:40,582
+Enter a reason if you like, click Cancel the plan, and confirm.
+
+11
+00:00:40,582 --> 00:00:44,688
+Payments already received stay received, and can be refunded.
+
+12
+00:00:44,688 --> 00:00:47,445
+Payments not yet received are canceled.
+

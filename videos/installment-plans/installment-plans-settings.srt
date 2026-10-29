@@ -1,0 +1,44 @@
+1
+00:00:03,208 --> 00:00:05,708
+Open Settings, Installment Plans.
+
+2
+00:00:05,708 --> 00:00:10,130
+Collect scheduled payments by sets what a new plan starts with:
+
+3
+00:00:10,130 --> 00:00:14,872
+charging the saved card on each due date, or invoicing the customer.
+
+4
+00:00:14,872 --> 00:00:17,628
+You can still change it on each plan.
+
+5
+00:00:18,085 --> 00:00:23,159
+Retry a declined card after lists the days to wait after each failed charge:
+
+6
+00:00:23,159 --> 00:00:25,448
+by default one, three and five.
+
+7
+00:00:25,448 --> 00:00:30,275
+Leave it empty to hand a declined payment to the customer straight away.
+
+8
+00:00:30,729 --> 00:00:35,034
+Installments at checkout lets customers split a balance themselves.
+
+9
+00:00:35,034 --> 00:00:39,811
+Offer for balances from picks the kinds of balance, and Numbers of payments
+
+10
+00:00:39,811 --> 00:00:43,054
+offered picks the choices, such as three and six.
+
+11
+00:00:43,054 --> 00:00:46,829
+Smallest balance keeps small balances for payment in full.
+
