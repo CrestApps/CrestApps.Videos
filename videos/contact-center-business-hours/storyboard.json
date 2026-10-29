@@ -1,0 +1,201 @@
+{
+  "title": "Business Hours Calendars",
+  "output": "contact-center-business-hours",
+  "spoken": {
+    "UTC": "U.T.C."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Business Hours Calendars",
+      "subtitle": "Define when you are open, once",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A business hours calendar says when you are open. This video shows why it exists, where a calendar is used, how to create one with a weekly schedule and holidays, and the rules worth knowing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why business hours",
+      "subtitle": "One definition of open and closed",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Callers expect a different answer after hours. A queue that rings agents who have gone home, or a dialer that calls customers at night, wastes time and annoys people."
+            },
+            {
+              "id": "why-2",
+              "text": "Without a shared definition, each queue, phone menu and campaign needs its own idea of open, and they drift apart when the schedule changes."
+            },
+            {
+              "id": "why-3",
+              "text": "A business hours calendar is that shared definition. Change it once, and everything that uses it follows."
+            },
+            {
+              "id": "why-4",
+              "text": "It handles the weekly schedule, a time zone, and the holidays when you are closed all day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Where a calendar is used",
+      "subtitle": "Queues, entry points, the dialer and automated texts",
+      "clips": [
+        {
+          "id": "02-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "A queue uses a calendar to hold or overflow callers while you are closed."
+            },
+            {
+              "id": "where-2",
+              "text": "An inbound entry point uses it to pick the closed action: voicemail, overflow, or reject."
+            },
+            {
+              "id": "where-3",
+              "text": "A dialer profile uses it as the outbound calling window, checked in the contact's own time zone."
+            },
+            {
+              "id": "where-4",
+              "text": "An automatic activity load uses it, so that AI follow-up messages are only sent while you are open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Create a calendar",
+      "subtitle": "Schedule, time zone and holidays",
+      "clips": [
+        {
+          "id": "03-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cal-1",
+              "text": "Open Interaction Center, Management, Business hours. Click Add calendar."
+            },
+            {
+              "id": "cal-2",
+              "text": "Enter a Name, such as Support hours, and an optional Description."
+            },
+            {
+              "id": "cal-3",
+              "text": "Pick the Time zone the hours are written in. When it is empty, the hours are in UTC"
+            },
+            {
+              "id": "cal-4",
+              "text": "In Weekly schedule, tick Open for each open day, and set From and To. A new calendar starts with Monday to Friday, nine to five."
+            },
+            {
+              "id": "cal-5",
+              "text": "Close Friday afternoon early by changing its To time, and tick Open on Saturday for a short morning shift."
+            },
+            {
+              "id": "cal-6",
+              "text": "In Holidays, enter one date per line, in the form year, month, day. The calendar is closed all day on those dates."
+            },
+            {
+              "id": "cal-7",
+              "text": "Leave Enabled ticked, and click Save. The calendar is listed, and can now be picked on queues, entry points and dialer profiles."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "04",
+      "title": "Rules worth knowing",
+      "subtitle": "Edge cases of the schedule",
+      "clips": [
+        {
+          "id": "04-rules",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rule-1",
+              "text": "The To time is exclusive. Nine to five closes at exactly five o'clock."
+            },
+            {
+              "id": "rule-2",
+              "text": "The same From and To time means open for twenty-four hours."
+            },
+            {
+              "id": "rule-3",
+              "text": "A To time earlier than the From time runs past midnight, for example ten at night to six in the morning."
+            },
+            {
+              "id": "rule-4",
+              "text": "Holiday lines that are not valid dates are ignored, so check the list after you save. And a disabled calendar never closes anything: every queue that uses it is treated as always open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Use cases",
+      "subtitle": "What a calendar does for you",
+      "clips": [
+        {
+          "id": "05-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A support team opens a queue from eight to six on weekdays. After hours, callers reach voicemail instead of a ringing phone."
+            },
+            {
+              "id": "use-2",
+              "text": "A sales team calls from nine to five in the customer's time zone, so a customer in another time zone is never called before breakfast."
+            },
+            {
+              "id": "use-3",
+              "text": "Holidays are added once, and every queue, menu and campaign that uses the calendar is closed that day."
+            },
+            {
+              "id": "use-4",
+              "text": "A team that sends AI follow-up texts keeps them inside opening hours, so nobody is texted at night."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Define your opening hours once, with their time zone and holidays, and let queues, phone menus, the dialer and automated texts follow them. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

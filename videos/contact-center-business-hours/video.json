@@ -1,0 +1,81 @@
+{
+  "title": "Business Hours Calendars: Define When You Are Open | CrestApps for Orchard Core",
+  "description": "A queue that rings agents who have gone home, or a dialer that calls customers at night, wastes time and annoys people. A business hours calendar in CrestApps for Orchard Core defines when you are open, once, with a weekly schedule, a time zone and holidays, and queues, inbound entry points, dialer profiles and automated texts all follow it.\n\nIn this video:\n• Why one shared calendar of opening hours\n• Where a calendar is used: queues, entry points, the dialer and automatic activity loads\n• Creating a calendar with a weekly schedule, a time zone and holidays\n• Rules worth knowing: exclusive end times, 24 hours, past midnight, disabled calendars\n• Use cases for support hours, calling windows and holidays",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "BusinessHours",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "business hours",
+    "opening hours",
+    "holidays",
+    "queue",
+    "calling window",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why business hours"
+    },
+    {
+      "time": "0:54",
+      "title": "Where a calendar is used"
+    },
+    {
+      "time": "1:25",
+      "title": "Create a calendar"
+    },
+    {
+      "time": "2:23",
+      "title": "Rules worth knowing"
+    },
+    {
+      "time": "2:58",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:35",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/business-hours"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter.BusinessHours"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/business-hours.md"
+  ],
+  "length": "3:48"
+}
