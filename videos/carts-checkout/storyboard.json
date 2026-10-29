@@ -1,0 +1,265 @@
+{
+  "title": "Carts and Checkout",
+  "output": "carts-checkout",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Carts and Checkout",
+      "subtitle": "From a product to a paid order",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A shopper picks products, and a checkout turns them into a paid order. This video shows why the cart and the checkout exist, how their steps fit together, and how to use every screen, from the mini cart to the order confirmation and the checkout settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a cart and a checkout",
+      "subtitle": "From a product to a paid order",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Most lost sales happen between choosing a product and paying for it. The shopper wants to keep what they picked, change their mind, and pay without a fight."
+            },
+            {
+              "id": "why-2",
+              "text": "The cart holds what a shopper picked, for guests and for signed-in customers, and always shows today's prices."
+            },
+            {
+              "id": "why-3",
+              "text": "The checkout is one guided path with numbered steps, a running order summary, and the payment method of your choice."
+            },
+            {
+              "id": "why-4",
+              "text": "The same checkout takes the payment for every purchase, and the result is an order you can follow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "The cart, the steps and the settings",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "The Carts module adds Add to cart to every product that can be bought online, a mini cart that slides out, and a cart page."
+            },
+            {
+              "id": "how-2",
+              "text": "The Checkout module takes over from the cart. Its steps are Contact, Shipping and Payment, and each shows only when the purchase needs it."
+            },
+            {
+              "id": "how-3",
+              "text": "A promotion code, a gift card, store credit or points can pay part of the order, and the order summary shows what is left to pay."
+            },
+            {
+              "id": "how-4",
+              "text": "Settings, Commerce, Checkout and Customers choose how the checkout looks and what it asks, and Checkout details adds your own fields."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The cart",
+      "subtitle": "Add to cart, the mini cart and the cart page",
+      "clips": [
+        {
+          "id": "03-cart",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cart-1",
+              "text": "On the shop, each product that can be bought online shows Add to cart, with a quantity box. Click it, and the mini cart slides out with the product, its price and the subtotal."
+            },
+            {
+              "id": "cart-2",
+              "text": "Remove takes a product out, Checkout starts the payment, and View cart opens the whole cart. The Cart link in the header shows how many items are inside."
+            },
+            {
+              "id": "cart-3",
+              "text": "Close it, add one more product, and open the cart. Each line shows the SKU, the price of one, a quantity box with Update, and a button to remove the line."
+            },
+            {
+              "id": "cart-4",
+              "text": "The Summary shows the subtotal. Discounts and taxes are worked out at checkout, so the cart always shows today's prices. Click Checkout to continue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The Contact step",
+      "subtitle": "Who the order is for",
+      "clips": [
+        {
+          "id": "04-contact",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "The checkout has numbered steps across the top: Contact, Shipping and Payment. A finished step shows a check mark, and the order summary stays beside every step."
+            },
+            {
+              "id": "con-2",
+              "text": "On the Contact step, enter the Full name and the Email, where the order's details are sent. A Phone number is optional."
+            },
+            {
+              "id": "con-3",
+              "text": "A Billing address is optional by default. It starts with the country, and then lays itself out the way that country writes addresses. Click Continue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "The Shipping step",
+      "subtitle": "Where the order goes, and how",
+      "clips": [
+        {
+          "id": "05-shipping",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ship-1",
+              "text": "The Shipping step asks where the order goes. Choose the Country, then enter the name, the street address, the city, the state and the ZIP code."
+            },
+            {
+              "id": "ship-2",
+              "text": "Click Continue, and the ways to ship the order there appear, each with what it costs. They come from the shipping zone the address is in."
+            },
+            {
+              "id": "ship-3",
+              "text": "Choose Standard shipping. Click Continue, and the order summary adds a shipping line to the total."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Pay and confirm",
+      "subtitle": "Payment method, promotion code and confirmation",
+      "clips": [
+        {
+          "id": "06-payment",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pay-1",
+              "text": "On the Payment step, each Payment method is a large button, and only the methods that can pay for this order are shown. On a test site, Test payment confirms the payment without moving any money."
+            },
+            {
+              "id": "pay-2",
+              "text": "The Promotion code box sits under the order summary. Enter a code, such as WELCOME10, and click Apply."
+            },
+            {
+              "id": "pay-3",
+              "text": "The summary lists the discount, and Due now is lower. Remove takes the code off again."
+            },
+            {
+              "id": "pay-4",
+              "text": "Click Pay now. While the payment is taken the button reads Processing, and when it is confirmed, the buyer lands on the order confirmation."
+            },
+            {
+              "id": "pay-5",
+              "text": "The confirmation says Thank you, and shows the Order number, with a link to view the order later. Below it is the order summary of what was bought."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Checkout settings",
+      "subtitle": "Layout, billing address and your own fields",
+      "clips": [
+        {
+          "id": "07-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Checkout. Checkout layout is A page per step, the default, or One page, which shows every step on one page and adds Payment once the others are complete."
+            },
+            {
+              "id": "set-2",
+              "text": "Settings, Commerce, Customers sets the Billing address at checkout: Optional, Required, or Off. A checkout keeps the setting it started with."
+            },
+            {
+              "id": "set-3",
+              "text": "To ask buyers for something of your own, such as a gift message, turn on the Checkout details feature, then add fields to the Checkout details content type. They appear under Order details on the Contact step."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to use the cart and checkout",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Guest checkout: a shopper gives a name and an email on the Contact step, pays, and optionally saves their details afterwards."
+            },
+            {
+              "id": "use-2",
+              "text": "A short path on a phone: One page puts every step on one page, with the summary below."
+            },
+            {
+              "id": "use-3",
+              "text": "Part payment: a gift card, store credit or points pay what they cover, and the rest is paid by another method."
+            },
+            {
+              "id": "use-4",
+              "text": "Digital goods and services skip the Shipping step on their own, and your own fields collect a gift message or a purchase order number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A cart that keeps what shoppers picked, and one checkout that takes every payment: that is how a product becomes an order. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
