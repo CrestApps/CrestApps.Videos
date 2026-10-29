@@ -1,0 +1,109 @@
+{
+  "title": "Users and Roles: Manage Access, Names and Avatars | CrestApps for Orchard Core",
+  "description": "Every person who signs in has a user account, and a role decides what that person can do. Giving each person a long list of permissions is slow and easy to get wrong, and screens that show only sign-in names are hard to read. Users and roles give you access that is simple to manage, with names and pictures people recognize.\n\nIn this video:\n• Why users and roles\n• How users, roles, permissions, names and avatars fit together\n• Reading the user list, and searching, filtering and sorting it\n• Adding a person with a password and roles\n• Creating a role and choosing its permissions\n• Giving a person a role\n• Choosing how names appear, with first and last names\n• Avatars, and signing in with an emailed code\n• Four ways to use it",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "users",
+    "roles",
+    "permissions",
+    "user display name",
+    "user avatar",
+    "email sign-in code",
+    "access control",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why users and roles"
+    },
+    {
+      "time": "1:03",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:37",
+      "title": "The user list"
+    },
+    {
+      "time": "2:10",
+      "title": "Add a person"
+    },
+    {
+      "time": "2:43",
+      "title": "Create a role"
+    },
+    {
+      "time": "3:28",
+      "title": "Give a person a role"
+    },
+    {
+      "time": "3:45",
+      "title": "Choose how names appear"
+    },
+    {
+      "time": "4:28",
+      "title": "Avatars"
+    },
+    {
+      "time": "4:55",
+      "title": "Sign in with a code"
+    },
+    {
+      "time": "5:20",
+      "title": "What to use it for"
+    },
+    {
+      "time": "5:49",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: users",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/users"
+    },
+    {
+      "label": "User manual: roles",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/roles"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/users"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Users"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/users.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/roles.md",
+    "src/CrestApps.Docs/docs/modules/users.md",
+    "src/CrestApps.Docs/docs/modules/roles.md"
+  ],
+  "length": "6:03"
+}

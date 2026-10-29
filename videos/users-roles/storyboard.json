@@ -1,0 +1,312 @@
+{
+  "title": "Users and Roles",
+  "output": "users-roles",
+  "spoken": {
+    "Liquid": "Liquid"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Users and Roles",
+      "subtitle": "Who can sign in, what they can do, and how they appear",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Every person who signs in to your site has a user account, and a role decides what that person can do. This video shows how to add people, create roles and give them permissions, choose how names and pictures appear, and let people sign in with an emailed code."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why users and roles",
+      "subtitle": "Access you can manage, and names people recognize",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Not everyone should see or change everything. An editor writes pages, a supervisor manages a team, and a visitor only reads."
+            },
+            {
+              "id": "why-2",
+              "text": "Giving each person a long list of individual permissions is slow and easy to get wrong. A role is a named set of permissions that you give to many people at once."
+            },
+            {
+              "id": "why-3",
+              "text": "Screens that show only sign-in names, such as dana dot whitfield, are hard to read. People expect to see Dana Whitfield, ideally with a picture."
+            },
+            {
+              "id": "why-4",
+              "text": "Users and roles give you both: access that is simple to manage, and names and avatars that people recognize."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Users, roles, permissions and names",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A user is one person's account, with a sign-in name, an email address and a password."
+            },
+            {
+              "id": "how-2",
+              "text": "A role is a named set of permissions, such as Editor. A person can hold several roles and gets every permission of all of them."
+            },
+            {
+              "id": "how-3",
+              "text": "Settings choose how names are built, with a display name, a first and last name, and whether each person has an avatar."
+            },
+            {
+              "id": "how-4",
+              "text": "A role can also be picked on a content item, so that the item is limited to the people who hold it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The user list",
+      "subtitle": "Find the people of your site",
+      "clips": [
+        {
+          "id": "03-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Access Control, Users. Each row is one person, with the user name, the email address, and badges for their roles."
+            },
+            {
+              "id": "list-2",
+              "text": "Unconfirmed means the person has not yet confirmed their email address. The Search box finds people, and the Role, Show and Sort menus narrow and order the list."
+            },
+            {
+              "id": "list-3",
+              "text": "The Actions menu on a row has the other things you can do with that account: Change password, Disable, Confirm email and Delete."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "04",
+      "title": "Add a person",
+      "subtitle": "Account details, password and roles",
+      "clips": [
+        {
+          "id": "04-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "Click Add User. Type the User name the person signs in with, and their Email."
+            },
+            {
+              "id": "add-2",
+              "text": "Phone Number is optional, and must include the country code. For the Password, click Generate password, and Copy password to pass it on safely."
+            },
+            {
+              "id": "add-3",
+              "text": "Tick the Roles the person needs. Here Nadia Brooks is an Author. The roles decide what she can see and do."
+            },
+            {
+              "id": "add-4",
+              "text": "Click Save. The new person is on the list, with the role badge."
+            }
+          ]
+        }
+      ],
+      "short": "add"
+    },
+    {
+      "id": "05",
+      "title": "Create a role",
+      "subtitle": "A named set of permissions",
+      "clips": [
+        {
+          "id": "05-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "roles-1",
+              "text": "Open Access Control, Roles. The system roles are Administrator, Anonymous and Authenticated. Anonymous is every visitor who is not signed in, and Authenticated is everyone who is."
+            },
+            {
+              "id": "roles-2",
+              "text": "Click Add Role, type a Name, such as Shift Lead, and a Description. Then click Save and Configure."
+            },
+            {
+              "id": "roles-3",
+              "text": "The permissions are grouped by feature. Allow gives the permission to the role. Effective also shows the permissions it gets from a higher one. The Search permissions box finds a permission by name."
+            },
+            {
+              "id": "roles-4",
+              "text": "Tick Access admin panel so that shift leads can use the admin, and save. Everyone who holds this role gets it."
+            }
+          ]
+        }
+      ],
+      "short": "roles"
+    },
+    {
+      "id": "06",
+      "title": "Give a person a role",
+      "subtitle": "Change access without touching permissions",
+      "clips": [
+        {
+          "id": "06-assign",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "assign-1",
+              "text": "To give someone access, edit the person. Here it is Dana Whitfield, an editor."
+            },
+            {
+              "id": "assign-2",
+              "text": "Tick Shift Lead in Roles, and save. Dana now holds both roles, and gets every permission of each."
+            }
+          ]
+        }
+      ],
+      "short": "assign"
+    },
+    {
+      "id": "07",
+      "title": "Choose how names appear",
+      "subtitle": "Display name, first name and last name",
+      "clips": [
+        {
+          "id": "07-names",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "names-1",
+              "text": "Open Settings, User Display Name. The Display name format decides how a person's name is built wherever the site shows a user."
+            },
+            {
+              "id": "names-2",
+              "text": "Choose First Middle Last name. Then set First name and Last name to Required, so every account must have a full name. Display name and Middle name stay at Don't use."
+            },
+            {
+              "id": "names-3",
+              "text": "Click Save. Now edit a person: the editor shows only the name boxes you turned on. Here are Dana's first and last names."
+            },
+            {
+              "id": "names-4",
+              "text": "In the user list, Dana Whitfield now appears by name, and so does the user menu and the author badge in the content lists."
+            }
+          ]
+        }
+      ],
+      "short": "names"
+    },
+    {
+      "id": "08",
+      "title": "Avatars",
+      "subtitle": "A picture for each person",
+      "clips": [
+        {
+          "id": "08-avatars",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "avatars-1",
+              "text": "Open Settings, User Avatars. Require Avatar makes a picture mandatory before an account can be saved. Use default CSS styles keeps the built-in look."
+            },
+            {
+              "id": "avatars-2",
+              "text": "To give someone a picture, edit the person and use the Avatar box: Add media picks an image from the media library. It is shown to people who may manage media."
+            }
+          ]
+        }
+      ],
+      "short": "avatars"
+    },
+    {
+      "id": "09",
+      "title": "Sign in with a code",
+      "subtitle": "No password needed",
+      "clips": [
+        {
+          "id": "09-code",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "code-1",
+              "text": "With the Sign in with an email code feature on, the sign-in page offers Email me a sign-in code instead."
+            },
+            {
+              "id": "code-2",
+              "text": "The person types the email address of their account, and clicks Email me a code. They receive a six-digit code, which they type on the next page to sign in. Accounts with two-factor sign-in keep using their password."
+            }
+          ]
+        }
+      ],
+      "short": "code"
+    },
+    {
+      "id": "10",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Create a role for each job, such as Agent, Supervisor and Manager, and give people the role of their job."
+            },
+            {
+              "id": "use-2",
+              "text": "Bring a new team member on board with one account and one role."
+            },
+            {
+              "id": "use-3",
+              "text": "Show full names on author badges and user pickers, instead of sign-in names."
+            },
+            {
+              "id": "use-4",
+              "text": "Let occasional users sign in with a code they receive by email, with no password to forget."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create a role for each job, give people their roles, and choose how names and pictures appear. Access stays simple to manage, and people see names they recognize. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
