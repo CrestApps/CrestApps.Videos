@@ -78,7 +78,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "X0tP_6Bdzs4",
+    "url": "https://youtu.be/X0tP_6Bdzs4",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.AI.ConnectionManagement"
