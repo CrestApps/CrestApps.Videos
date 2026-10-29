@@ -1,0 +1,40 @@
+1
+00:00:03,200 --> 00:00:06,885
+These actions need an agent on a call, and a real call cannot
+
+2
+00:00:06,885 --> 00:00:10,020
+be placed on this site, so they are described here.
+
+3
+00:00:10,020 --> 00:00:14,310
+You hear the call on your own soft phone, so keep it open and signed in.
+
+4
+00:00:15,060 --> 00:00:18,490
+On the card of an agent who is on a call, Listen lets
+
+5
+00:00:18,490 --> 00:00:21,223
+you hear the call while nobody hears you.
+
+6
+00:00:21,223 --> 00:00:24,595
+Whisper lets only the agent hear you, to coach them.
+
+7
+00:00:24,595 --> 00:00:27,560
+Barge joins the call, and everyone hears you.
+
+8
+00:00:28,310 --> 00:00:32,646
+Click another mode to change how you are heard, and Stop when you are done.
+
+9
+00:00:32,646 --> 00:00:34,680
+Only your part of the call ends.
+
+10
+00:00:34,680 --> 00:00:39,230
+An agent who has paused the recording to take card details cannot be monitored.
+

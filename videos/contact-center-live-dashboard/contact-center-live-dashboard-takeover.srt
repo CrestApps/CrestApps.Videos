@@ -1,0 +1,36 @@
+1
+00:00:03,200 --> 00:00:07,493
+Take over hands the call to you and releases the agent, for example
+
+2
+00:00:07,493 --> 00:00:09,904
+when a customer asks for a manager.
+
+3
+00:00:09,904 --> 00:00:14,020
+You need an agent profile of your own, and your soft phone open.
+
+4
+00:00:14,770 --> 00:00:19,504
+The more actions menu on an agent's card offers End call, Transfer, and
+
+5
+00:00:19,504 --> 00:00:23,684
+Start recording or Stop recording, under your company's rules.
+
+6
+00:00:23,684 --> 00:00:28,110
+A transfer goes to a queue, an available agent, or a phone number.
+
+7
+00:00:28,860 --> 00:00:32,877
+The same menu can Set Available, Set Not ready or Set Break for
+
+8
+00:00:32,877 --> 00:00:37,127
+an agent, Sign out of queues, and send a short Message that appears
+
+9
+00:00:37,127 --> 00:00:38,990
+on the agent's soft phone.
+

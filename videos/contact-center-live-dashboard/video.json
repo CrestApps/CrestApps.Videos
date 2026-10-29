@@ -1,0 +1,91 @@
+{
+  "title": "The Live Dashboard: Watch Queues and Agents in Real Time | CrestApps for Orchard Core",
+  "description": "A queue backing up, an agent stuck on one long call, a service level about to break: a supervisor needs to see these now. The CrestApps Contact Center live dashboard shows how many people are waiting, which agents are free and who is on a call, and lets a supervisor listen, whisper, barge, take over, transfer or end a live call.\n\nIn this video:\n• Why a live dashboard, and why you see only your own queues\n• Reading the summary, the queue tiles and the dialer banner\n• The agent board and its filters\n• Listen, whisper and barge\n• Take over, end, transfer and record a call, set an agent's state, and message an agent\n• The two permissions, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "live dashboard",
+    "supervisor",
+    "listen whisper barge",
+    "call monitoring",
+    "queues",
+    "agents",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why a live dashboard"
+    },
+    {
+      "time": "0:43",
+      "title": "You see your own queues"
+    },
+    {
+      "time": "1:07",
+      "title": "Reading the dashboard"
+    },
+    {
+      "time": "1:59",
+      "title": "The agent board"
+    },
+    {
+      "time": "2:36",
+      "title": "Listen, whisper or barge"
+    },
+    {
+      "time": "3:16",
+      "title": "Take over and intervene"
+    },
+    {
+      "time": "3:56",
+      "title": "Who can do what"
+    },
+    {
+      "time": "4:23",
+      "title": "Use cases"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/live-dashboard"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/agent-desktop"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter (Supervision & Live Dashboard)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/live-dashboard.md",
+    "src/CrestApps.Docs/docs/contact-center/agent-desktop.md"
+  ],
+  "length": "4:55"
+}
