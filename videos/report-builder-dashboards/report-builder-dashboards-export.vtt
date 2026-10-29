@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.181 --> 00:00:06.644
+Export keeps the containers where the format can.
+
+00:00:06.644 --> 00:00:09.351
+Excel and PDF are the two to look at.
+
+00:00:10.951 --> 00:00:15.802
+In Excel, each container is a worksheet named after it, with its visuals
+
+00:00:15.802 --> 00:00:18.787
+one under the other, each under its title.
+
+00:00:18.787 --> 00:00:23.141
+Chart values are numbers, so you can chart or add them up there.
+
+00:00:23.891 --> 00:00:28.717
+In the PDF, a container's title is a band across the page, with
+
+00:00:28.717 --> 00:00:30.606
+its visuals under it.
+
+00:00:30.606 --> 00:00:36.061
+A CSV file has no sheets, so it lists the data of every visual in order.
+

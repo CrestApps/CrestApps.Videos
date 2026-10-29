@@ -1,0 +1,85 @@
+{
+  "title": "Report Builder Dashboards: Queries, Containers and Click to Filter | CrestApps for Orchard Core",
+  "description": "A dashboard puts a scorecard per agent, a scorecard per queue, a trend by day and the list of single calls on one page. This video shows how the CrestApps Report Builder makes one: several queries in one report, containers that frame and scroll visuals, and clicks that filter the rest of the page, with an Excel and PDF export that keeps the containers.\n\nIn this video:\n• Why a dashboard needs more than one query\n• Using a dashboard: click an agent, a queue or a day; Ctrl-click; Clear selection\n• Several queries and Add query\n• Containers: title, width and height\n• When clicked: which column a click picks and which visuals it filters\n• Exporting a dashboard to Excel and PDF",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "report builder",
+    "dashboard",
+    "interactive dashboard",
+    "click to filter",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Why dashboards"
+    },
+    {
+      "time": "0:54",
+      "title": "Use a dashboard"
+    },
+    {
+      "time": "1:38",
+      "title": "Several queries"
+    },
+    {
+      "time": "2:16",
+      "title": "Containers"
+    },
+    {
+      "time": "2:47",
+      "title": "When clicked"
+    },
+    {
+      "time": "3:22",
+      "title": "Export a dashboard"
+    },
+    {
+      "time": "3:59",
+      "title": "Where dashboards fit"
+    },
+    {
+      "time": "4:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/report-builder/dashboards"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports.Builder"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/report-builder/dashboards.md",
+    "src/CrestApps.Docs/docs/modules/report-builder/interactive-dashboards.md"
+  ],
+  "length": "4:37"
+}

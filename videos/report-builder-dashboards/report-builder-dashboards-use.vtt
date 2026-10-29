@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.183 --> 00:00:07.544
+This is the Call dashboard, run from Reports, Report Builder.
+
+00:00:07.544 --> 00:00:13.076
+Four containers frame an agent scorecard, a queue scorecard, the calls per day,
+
+00:00:13.076 --> 00:00:14.963
+and the call selection.
+
+00:00:15.414 --> 00:00:17.683
+Click an agent in the scorecard.
+
+00:00:17.683 --> 00:00:20.369
+The other visuals show only that agent:
+
+00:00:20.369 --> 00:00:22.876
+the queues, the trend and the calls.
+
+00:00:22.876 --> 00:00:25.204
+The picked row stays highlighted.
+
+00:00:25.654 --> 00:00:29.214
+Hold Control and click another agent to add them.
+
+00:00:29.214 --> 00:00:32.514
+Click Clear selection, and every row is back.
+
+00:00:32.964 --> 00:00:36.650
+Click a day on the chart, and the call selection narrows to the
+
+00:00:36.650 --> 00:00:37.932
+calls of that day.
+
+00:00:37.932 --> 00:00:41.512
+Only the visuals a click is linked to load again; the rest of
+
+00:00:41.512 --> 00:00:43.114
+the page stays as it is.
+
