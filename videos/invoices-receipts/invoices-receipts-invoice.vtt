@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.173 --> 00:00:08.222
+Open Commerce, Transactions, and a payment the customer pays themselves, such as a
+
+00:00:08.222 --> 00:00:10.631
+bank transfer waiting for its money.
+
+00:00:10.631 --> 00:00:14.876
+On its page, Send invoice sends the customer the invoice now, with a
+
+00:00:14.876 --> 00:00:16.253
+link that pays it.
+
+00:00:17.086 --> 00:00:21.011
+The transaction now has an invoice number, shown as Invoice.
+
+00:00:21.011 --> 00:00:21.843
+Open it.
+
+00:00:21.843 --> 00:00:26.779
+The invoice carries your logo, name and address, the invoice number and date,
+
+00:00:26.779 --> 00:00:30.763
+who it is billed to, its status, the lines, the total and the
+
+00:00:30.763 --> 00:00:32.666
+due date, and your footer.
+
+00:00:33.119 --> 00:00:37.479
+Print invoice prints only the invoice, without the site's menus.
+
+00:00:37.479 --> 00:00:42.462
+Under Payment link, Copy puts the customer's pay link on the clipboard, to
+
+00:00:42.462 --> 00:00:44.020
+paste into a reply.
+
+00:00:44.020 --> 00:00:45.889
+It works for sixty days.
+

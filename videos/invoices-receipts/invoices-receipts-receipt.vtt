@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:08.514
+When the money arrives, open the transaction, enter the amount and a reference
+
+00:00:08.514 --> 00:00:13.383
+under Record an offline payment, and click Record payment, and confirm.
+
+00:00:13.835 --> 00:00:19.725
+With Send Payment Receipts on, the customer is sent a receipt after every payment:
+
+00:00:19.725 --> 00:00:23.272
+online, charged to a card, or recorded by hand.
+
+00:00:23.272 --> 00:00:26.886
+Each receipt has its own number, such as R-1001.
+
+00:00:26.886 --> 00:00:32.775
+In the transaction's timeline, the payment links to its receipt with View receipt.
+
+00:00:33.226 --> 00:00:34.932
+View receipt opens it:
+
+00:00:34.932 --> 00:00:39.441
+your branding, the receipt number and date, who it is billed to, the
+
+00:00:39.441 --> 00:00:42.488
+amount paid, and notes such as Paid offline.
+
+00:00:42.488 --> 00:00:44.316
+Print receipt prints it.
+

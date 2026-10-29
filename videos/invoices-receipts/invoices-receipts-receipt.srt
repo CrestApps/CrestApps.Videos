@@ -1,0 +1,40 @@
+1
+00:00:03,203 --> 00:00:08,514
+When the money arrives, open the transaction, enter the amount and a reference
+
+2
+00:00:08,514 --> 00:00:13,383
+under Record an offline payment, and click Record payment, and confirm.
+
+3
+00:00:13,835 --> 00:00:19,725
+With Send Payment Receipts on, the customer is sent a receipt after every payment:
+
+4
+00:00:19,725 --> 00:00:23,272
+online, charged to a card, or recorded by hand.
+
+5
+00:00:23,272 --> 00:00:26,886
+Each receipt has its own number, such as R-1001.
+
+6
+00:00:26,886 --> 00:00:32,775
+In the transaction's timeline, the payment links to its receipt with View receipt.
+
+7
+00:00:33,226 --> 00:00:34,932
+View receipt opens it:
+
+8
+00:00:34,932 --> 00:00:39,441
+your branding, the receipt number and date, who it is billed to, the
+
+9
+00:00:39,441 --> 00:00:42,488
+amount paid, and notes such as Paid offline.
+
+10
+00:00:42,488 --> 00:00:44,316
+Print receipt prints it.
+

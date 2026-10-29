@@ -1,0 +1,268 @@
+1
+00:00:01,000 --> 00:00:05,690
+An invoice tells a customer what they owe, and gives them a link to pay it.
+
+2
+00:00:05,690 --> 00:00:08,353
+A receipt proves that a payment arrived.
+
+3
+00:00:08,353 --> 00:00:12,580
+This video shows how to brand them, send an invoice, how a customer
+
+4
+00:00:12,580 --> 00:00:17,270
+pays from the link, and how receipts and refund notices reach the customer.
+
+5
+00:00:21,870 --> 00:00:27,750
+Customers who pay later need to know exactly what they owe, to whom, and by when.
+
+6
+00:00:28,500 --> 00:00:33,950
+They want to pay without hunting for a password, even from a forwarded email.
+
+7
+00:00:34,700 --> 00:00:38,760
+And when a payment arrives, they want proof, with a number they can quote.
+
+8
+00:00:39,510 --> 00:00:44,444
+Invoices and receipts give you all of that, with your business's name and
+
+9
+00:00:44,444 --> 00:00:46,130
+details on every one.
+
+10
+00:00:50,330 --> 00:00:55,413
+An invoice gets its number, such as INV-1001, the first time the customer
+
+11
+00:00:55,413 --> 00:00:58,630
+is told about a payment they pay themselves.
+
+12
+00:00:59,380 --> 00:01:05,790
+Every reminder and invoice carries a pay link that works without signing in, for sixty days.
+
+13
+00:01:06,540 --> 00:01:13,451
+A receipt, such as R-1001, is sent after every payment, however it was paid.
+
+14
+00:01:13,451 --> 00:01:16,570
+A refund sends a refund notice.
+
+15
+00:01:17,320 --> 00:01:21,830
+All of them print cleanly, with one set of branding settings.
+
+16
+00:01:26,080 --> 00:01:30,263
+Invoices and receipts share one set of branding settings.
+
+17
+00:01:30,263 --> 00:01:32,919
+Open Settings, Commerce, Receipts.
+
+18
+00:01:32,919 --> 00:01:37,965
+The Business name, Business address and Logo URL are shown at the top.
+
+19
+00:01:37,965 --> 00:01:43,410
+The contact email, phone, website and footer text are printed at the bottom.
+
+20
+00:01:43,862 --> 00:01:49,537
+Header title is the heading of every receipt, Payment receipt unless you change it.
+
+21
+00:01:49,537 --> 00:01:51,706
+Invoices always say Invoice.
+
+22
+00:01:51,706 --> 00:01:57,318
+The test-payment badge marks receipts for payments made in a provider's test mode.
+
+23
+00:01:57,318 --> 00:01:58,402
+Click Save.
+
+24
+00:02:02,575 --> 00:02:07,623
+Open Commerce, Transactions, and a payment the customer pays themselves, such as a
+
+25
+00:02:07,623 --> 00:02:10,033
+bank transfer waiting for its money.
+
+26
+00:02:10,033 --> 00:02:14,278
+On its page, Send invoice sends the customer the invoice now, with a
+
+27
+00:02:14,278 --> 00:02:15,655
+link that pays it.
+
+28
+00:02:16,488 --> 00:02:20,412
+The transaction now has an invoice number, shown as Invoice.
+
+29
+00:02:20,412 --> 00:02:21,245
+Open it.
+
+30
+00:02:21,245 --> 00:02:26,181
+The invoice carries your logo, name and address, the invoice number and date,
+
+31
+00:02:26,181 --> 00:02:30,165
+who it is billed to, its status, the lines, the total and the
+
+32
+00:02:30,165 --> 00:02:32,068
+due date, and your footer.
+
+33
+00:02:32,520 --> 00:02:36,881
+Print invoice prints only the invoice, without the site's menus.
+
+34
+00:02:36,881 --> 00:02:41,864
+Under Payment link, Copy puts the customer's pay link on the clipboard, to
+
+35
+00:02:41,864 --> 00:02:43,421
+paste into a reply.
+
+36
+00:02:43,421 --> 00:02:45,290
+It works for sixty days.
+
+37
+00:02:49,481 --> 00:02:52,971
+The customer opens the link, with no account or password.
+
+38
+00:02:52,971 --> 00:02:56,793
+The page shows what the payment is for, the Amount due, the Due
+
+39
+00:02:56,793 --> 00:03:00,061
+on date, and a Pay button, with the invoice under it.
+
+40
+00:03:00,515 --> 00:03:03,241
+Pay opens checkout with the balance ready.
+
+41
+00:03:03,241 --> 00:03:07,785
+A customer who decides not to pay now has a Back to the payment page link.
+
+42
+00:03:11,988 --> 00:03:17,299
+When the money arrives, open the transaction, enter the amount and a reference
+
+43
+00:03:17,299 --> 00:03:22,168
+under Record an offline payment, and click Record payment, and confirm.
+
+44
+00:03:22,620 --> 00:03:28,510
+With Send Payment Receipts on, the customer is sent a receipt after every payment:
+
+45
+00:03:28,510 --> 00:03:32,057
+online, charged to a card, or recorded by hand.
+
+46
+00:03:32,057 --> 00:03:35,671
+Each receipt has its own number, such as R-1001.
+
+47
+00:03:35,671 --> 00:03:41,560
+In the transaction's timeline, the payment links to its receipt with View receipt.
+
+48
+00:03:42,011 --> 00:03:43,717
+View receipt opens it:
+
+49
+00:03:43,717 --> 00:03:48,226
+your branding, the receipt number and date, who it is billed to, the
+
+50
+00:03:48,226 --> 00:03:51,273
+amount paid, and notes such as Paid offline.
+
+51
+00:03:51,273 --> 00:03:53,101
+Print receipt prints it.
+
+52
+00:03:57,301 --> 00:04:01,275
+When a refund of a payment succeeds, the customer is told, with the
+
+53
+00:04:01,275 --> 00:04:05,631
+amount, and that it can take a few business days to reach their statement.
+
+54
+00:04:06,381 --> 00:04:10,247
+A receipt for a payment made in a provider's test mode carries a
+
+55
+00:04:10,247 --> 00:04:13,341
+Test payment badge, unless you turn the badge off.
+
+56
+00:04:14,091 --> 00:04:17,002
+Pay links use your site's public address.
+
+57
+00:04:17,002 --> 00:04:21,461
+Set the Base url under Settings, General, before you rely on them.
+
+58
+00:04:25,661 --> 00:04:27,187
+A service business:
+
+59
+00:04:27,187 --> 00:04:32,071
+send an invoice with a pay link, and the customer pays without signing in.
+
+60
+00:04:32,821 --> 00:04:35,010
+A company that pays slowly:
+
+61
+00:04:35,010 --> 00:04:39,521
+reminders carry the same link, so the newest one always works.
+
+62
+00:04:40,271 --> 00:04:41,351
+A bookkeeper:
+
+63
+00:04:41,351 --> 00:04:44,251
+every payment has a numbered receipt to file.
+
+64
+00:04:45,001 --> 00:04:45,778
+A shop:
+
+65
+00:04:45,778 --> 00:04:50,141
+customers print their own invoices and receipts from their account.
+
+66
+00:04:52,141 --> 00:04:57,104
+With invoices and receipts, you ask for payment clearly, and prove it arrived.
+
+67
+00:04:57,104 --> 00:04:58,641
+Thanks for watching.
+

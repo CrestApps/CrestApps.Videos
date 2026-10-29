@@ -1,0 +1,20 @@
+1
+00:00:03,191 --> 00:00:06,680
+The customer opens the link, with no account or password.
+
+2
+00:00:06,680 --> 00:00:10,503
+The page shows what the payment is for, the Amount due, the Due
+
+3
+00:00:10,503 --> 00:00:13,771
+on date, and a Pay button, with the invoice under it.
+
+4
+00:00:14,225 --> 00:00:16,951
+Pay opens checkout with the balance ready.
+
+5
+00:00:16,951 --> 00:00:21,495
+A customer who decides not to pay now has a Back to the payment page link.
+

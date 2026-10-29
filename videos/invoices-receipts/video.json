@@ -1,0 +1,96 @@
+{
+  "title": "Invoices and Receipts: Pay Links, Branding, Numbers and Refund Notices | CrestApps for Orchard Core",
+  "description": "An invoice tells a customer what they owe and gives them a link to pay it; a receipt proves a payment arrived. The CrestApps Transactions and Receipts features give every invoice a number (INV-1001) and a pay link that works without signing in for 60 days, send a numbered receipt (R-1001) after every payment, send refund notices, and print cleanly with your business's name, logo, address and footer.\n\nIn this video:\n• Why invoices and receipts, and how numbers, links and notices fit together\n• Branding invoices and receipts\n• Sending an invoice, and printing it or copying its pay link\n• The customer paying from the link, with no account\n• Recording a payment and the numbered receipt\n• Refund notices, the test payment badge and the Base url\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Invoicing",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "invoices",
+    "receipts",
+    "pay link",
+    "payment reminders",
+    "refund notice",
+    "invoice number",
+    "printable invoice",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why invoices and receipts"
+    },
+    {
+      "time": "0:47",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:22",
+      "title": "Brand them"
+    },
+    {
+      "time": "1:59",
+      "title": "Send an invoice"
+    },
+    {
+      "time": "2:46",
+      "title": "The customer pays from the link"
+    },
+    {
+      "time": "3:08",
+      "title": "Receipts"
+    },
+    {
+      "time": "3:54",
+      "title": "Refund notices, links and badges"
+    },
+    {
+      "time": "4:22",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:51",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/invoices-and-receipts"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/transactions"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Transactions"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/invoices-and-receipts.md",
+    "src/CrestApps.Docs/docs/modules/transactions.md"
+  ],
+  "length": "5:00"
+}
