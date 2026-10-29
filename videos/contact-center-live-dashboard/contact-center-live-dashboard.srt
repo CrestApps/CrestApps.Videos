@@ -1,0 +1,264 @@
+1
+00:00:01,000 --> 00:00:05,666
+The live dashboard is the supervisor's real-time view of the contact center.
+
+2
+00:00:05,666 --> 00:00:09,593
+This video shows how to read it, how to filter the agent board,
+
+3
+00:00:09,593 --> 00:00:12,780
+and what a supervisor can do from an agent's card.
+
+4
+00:00:17,380 --> 00:00:21,494
+A queue that is backing up, an agent stuck on one long call,
+
+5
+00:00:21,494 --> 00:00:23,801
+a service level about to break.
+
+6
+00:00:23,801 --> 00:00:28,040
+A supervisor needs to see these now, not in tomorrow's report.
+
+7
+00:00:28,790 --> 00:00:33,872
+The live dashboard shows how many people are waiting, which agents are free,
+
+8
+00:00:33,872 --> 00:00:35,545
+and who is on a call.
+
+9
+00:00:35,545 --> 00:00:40,131
+From an agent's card, a supervisor can step into the call, coach the
+
+10
+00:00:40,131 --> 00:00:42,300
+agent, or take the call over.
+
+11
+00:00:46,500 --> 00:00:51,436
+The dashboard shows the queues and campaigns on your own agent entitlement record,
+
+12
+00:00:51,436 --> 00:00:54,970
+and you can only act on agents and calls in those queues.
+
+13
+00:00:55,720 --> 00:01:02,626
+A supervisor without an entitlement record sees an empty dashboard, even with the Administrator role.
+
+14
+00:01:02,626 --> 00:01:06,950
+Give each supervisor a record with the queues they supervise.
+
+15
+00:01:11,181 --> 00:01:14,307
+Open Interaction Center, Live dashboard.
+
+16
+00:01:14,307 --> 00:01:18,860
+The status at the top says Connected while live updates work.
+
+17
+00:01:18,860 --> 00:01:22,461
+The page refreshes by itself every ten seconds.
+
+18
+00:01:22,992 --> 00:01:28,122
+The summary shows the total waiting across your queues, the available agents, the
+
+19
+00:01:28,122 --> 00:01:29,832
+agents, and the queues.
+
+20
+00:01:30,387 --> 00:01:32,274
+Each queue has a tile:
+
+21
+00:01:32,274 --> 00:01:40,088
+waiting, signed-in agents, available, busy and not-ready agents, the longest wait, and service level breaches.
+
+22
+00:01:40,088 --> 00:01:45,275
+A tile turns amber when the longest wait passes half the threshold, and
+
+23
+00:01:45,275 --> 00:01:46,757
+red on a breach.
+
+24
+00:01:47,261 --> 00:01:51,892
+When the dialer is on, a banner above the summary says what it is doing.
+
+25
+00:01:51,892 --> 00:01:56,700
+The Why isn't this dialing panel explains why work is not being dispatched.
+
+26
+00:01:56,700 --> 00:01:58,541
+Here, no work is waiting.
+
+27
+00:02:02,796 --> 00:02:07,317
+The agent board has one card per agent, with presence, a status badge,
+
+28
+00:02:07,317 --> 00:02:11,600
+the active interactions, and the queues the agent is signed in to.
+
+29
+00:02:11,600 --> 00:02:14,456
+Here the one agent is Available, and idle.
+
+30
+00:02:14,943 --> 00:02:19,665
+Filter by Agent name, by Signed-in queue, and by Status:
+
+31
+00:02:19,665 --> 00:02:23,853
+Available, Busy, On a call, Not ready or Offline.
+
+32
+00:02:23,853 --> 00:02:26,519
+Busy groups everyone at work:
+
+33
+00:02:26,519 --> 00:02:29,413
+Reserved, On a call and Wrap-up.
+
+34
+00:02:29,868 --> 00:02:32,468
+The header counts the agents that match.
+
+35
+00:02:32,468 --> 00:02:35,578
+The browser remembers your filters for next time.
+
+36
+00:02:39,778 --> 00:02:43,463
+These actions need an agent on a call, and a real call cannot
+
+37
+00:02:43,463 --> 00:02:46,598
+be placed on this site, so they are described here.
+
+38
+00:02:46,598 --> 00:02:50,888
+You hear the call on your own soft phone, so keep it open and signed in.
+
+39
+00:02:51,638 --> 00:02:55,068
+On the card of an agent who is on a call, Listen lets
+
+40
+00:02:55,068 --> 00:02:57,800
+you hear the call while nobody hears you.
+
+41
+00:02:57,800 --> 00:03:01,173
+Whisper lets only the agent hear you, to coach them.
+
+42
+00:03:01,173 --> 00:03:04,138
+Barge joins the call, and everyone hears you.
+
+43
+00:03:04,888 --> 00:03:09,224
+Click another mode to change how you are heard, and Stop when you are done.
+
+44
+00:03:09,224 --> 00:03:11,258
+Only your part of the call ends.
+
+45
+00:03:11,258 --> 00:03:15,808
+An agent who has paused the recording to take card details cannot be monitored.
+
+46
+00:03:20,008 --> 00:03:24,300
+Take over hands the call to you and releases the agent, for example
+
+47
+00:03:24,300 --> 00:03:26,711
+when a customer asks for a manager.
+
+48
+00:03:26,711 --> 00:03:30,828
+You need an agent profile of your own, and your soft phone open.
+
+49
+00:03:31,578 --> 00:03:36,311
+The more actions menu on an agent's card offers End call, Transfer, and
+
+50
+00:03:36,311 --> 00:03:40,492
+Start recording or Stop recording, under your company's rules.
+
+51
+00:03:40,492 --> 00:03:44,918
+A transfer goes to a queue, an available agent, or a phone number.
+
+52
+00:03:45,668 --> 00:03:49,685
+The same menu can Set Available, Set Not ready or Set Break for
+
+53
+00:03:49,685 --> 00:03:53,935
+an agent, Sign out of queues, and send a short Message that appears
+
+54
+00:03:53,935 --> 00:03:55,798
+on the agent's soft phone.
+
+55
+00:03:59,998 --> 00:04:05,654
+Monitor the Contact Center in real time lets you watch, listen, whisper, barge
+
+56
+00:04:05,654 --> 00:04:07,338
+and send a message.
+
+57
+00:04:08,088 --> 00:04:13,504
+Take over, end, transfer and record live Contact Center calls, and set agents'
+
+58
+00:04:13,504 --> 00:04:15,955
+state, covers the other actions.
+
+59
+00:04:15,955 --> 00:04:18,212
+The Supervisor role has both.
+
+60
+00:04:18,212 --> 00:04:22,468
+Every action is recorded in the audit trail under your name.
+
+61
+00:04:26,668 --> 00:04:30,798
+A wallboard on the floor, showing waiting counts and breaches.
+
+62
+00:04:31,548 --> 00:04:37,258
+A supervisor who sees a queue backing up, and asks agents to return from a break.
+
+63
+00:04:38,008 --> 00:04:42,108
+Coaching a new agent on a hard call, by whispering.
+
+64
+00:04:42,858 --> 00:04:46,388
+Taking over a call when a customer asks for a manager.
+
+65
+00:04:48,388 --> 00:04:52,673
+Watch the tiles, filter the board, and step in when it matters.
+
+66
+00:04:52,673 --> 00:04:54,288
+Thanks for watching.
+

@@ -1,0 +1,244 @@
+{
+  "title": "The live dashboard",
+  "output": "contact-center-live-dashboard",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "SLA": "S.L.A."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The live dashboard",
+      "subtitle": "Watch the floor in real time",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The live dashboard is the supervisor's real-time view of the contact center. This video shows how to read it, how to filter the agent board, and what a supervisor can do from an agent's card."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a live dashboard",
+      "subtitle": "See problems while they happen",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A queue that is backing up, an agent stuck on one long call, a service level about to break. A supervisor needs to see these now, not in tomorrow's report."
+            },
+            {
+              "id": "why-2",
+              "text": "The live dashboard shows how many people are waiting, which agents are free, and who is on a call. From an agent's card, a supervisor can step into the call, coach the agent, or take the call over."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "You see your own queues",
+      "subtitle": "Entitlements decide what the dashboard shows",
+      "clips": [
+        {
+          "id": "02-own",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "own-1",
+              "text": "The dashboard shows the queues and campaigns on your own agent entitlement record, and you can only act on agents and calls in those queues."
+            },
+            {
+              "id": "own-2",
+              "text": "A supervisor without an entitlement record sees an empty dashboard, even with the Administrator role. Give each supervisor a record with the queues they supervise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Reading the dashboard",
+      "subtitle": "Summary, queues and the dialer",
+      "clips": [
+        {
+          "id": "03-reading",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rd-1",
+              "text": "Open Interaction Center, Live dashboard. The status at the top says Connected while live updates work. The page refreshes by itself every ten seconds."
+            },
+            {
+              "id": "rd-2",
+              "text": "The summary shows the total waiting across your queues, the available agents, the agents, and the queues."
+            },
+            {
+              "id": "rd-3",
+              "text": "Each queue has a tile: waiting, signed-in agents, available, busy and not-ready agents, the longest wait, and service level breaches. A tile turns amber when the longest wait passes half the threshold, and red on a breach."
+            },
+            {
+              "id": "rd-4",
+              "text": "When the dialer is on, a banner above the summary says what it is doing. The Why isn't this dialing panel explains why work is not being dispatched. Here, no work is waiting."
+            }
+          ]
+        }
+      ],
+      "short": "reading"
+    },
+    {
+      "id": "04",
+      "title": "The agent board",
+      "subtitle": "One card per agent, with filters",
+      "clips": [
+        {
+          "id": "04-board",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "brd-1",
+              "text": "The agent board has one card per agent, with presence, a status badge, the active interactions, and the queues the agent is signed in to. Here the one agent is Available, and idle."
+            },
+            {
+              "id": "brd-2",
+              "text": "Filter by Agent name, by Signed-in queue, and by Status: Available, Busy, On a call, Not ready or Offline. Busy groups everyone at work: Reserved, On a call and Wrap-up."
+            },
+            {
+              "id": "brd-3",
+              "text": "The header counts the agents that match. The browser remembers your filters for next time."
+            }
+          ]
+        }
+      ],
+      "short": "board"
+    },
+    {
+      "id": "05",
+      "title": "Listen, whisper or barge",
+      "subtitle": "Step into a live call",
+      "clips": [
+        {
+          "id": "05-listen",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "lis-1",
+              "text": "These actions need an agent on a call, and a real call cannot be placed on this site, so they are described here. You hear the call on your own soft phone, so keep it open and signed in."
+            },
+            {
+              "id": "lis-2",
+              "text": "On the card of an agent who is on a call, Listen lets you hear the call while nobody hears you. Whisper lets only the agent hear you, to coach them. Barge joins the call, and everyone hears you."
+            },
+            {
+              "id": "lis-3",
+              "text": "Click another mode to change how you are heard, and Stop when you are done. Only your part of the call ends. An agent who has paused the recording to take card details cannot be monitored."
+            }
+          ]
+        }
+      ],
+      "short": "listen"
+    },
+    {
+      "id": "06",
+      "title": "Take over and intervene",
+      "subtitle": "Take over, end, transfer, record",
+      "clips": [
+        {
+          "id": "06-takeover",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tko-1",
+              "text": "Take over hands the call to you and releases the agent, for example when a customer asks for a manager. You need an agent profile of your own, and your soft phone open."
+            },
+            {
+              "id": "tko-2",
+              "text": "The more actions menu on an agent's card offers End call, Transfer, and Start recording or Stop recording, under your company's rules. A transfer goes to a queue, an available agent, or a phone number."
+            },
+            {
+              "id": "tko-3",
+              "text": "The same menu can Set Available, Set Not ready or Set Break for an agent, Sign out of queues, and send a short Message that appears on the agent's soft phone."
+            }
+          ]
+        }
+      ],
+      "short": "takeover"
+    },
+    {
+      "id": "07",
+      "title": "Who can do what",
+      "subtitle": "Two permissions",
+      "clips": [
+        {
+          "id": "07-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "Monitor the Contact Center in real time lets you watch, listen, whisper, barge and send a message."
+            },
+            {
+              "id": "who-2",
+              "text": "Take over, end, transfer and record live Contact Center calls, and set agents' state, covers the other actions. The Supervisor role has both. Every action is recorded in the audit trail under your name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Where the dashboard helps",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A wallboard on the floor, showing waiting counts and breaches."
+            },
+            {
+              "id": "use-2",
+              "text": "A supervisor who sees a queue backing up, and asks agents to return from a break."
+            },
+            {
+              "id": "use-3",
+              "text": "Coaching a new agent on a hard call, by whispering."
+            },
+            {
+              "id": "use-4",
+              "text": "Taking over a call when a customer asks for a manager."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Watch the tiles, filter the board, and step in when it matters. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

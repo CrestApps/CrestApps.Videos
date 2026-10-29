@@ -1,0 +1,36 @@
+1
+00:00:03,255 --> 00:00:07,776
+The agent board has one card per agent, with presence, a status badge,
+
+2
+00:00:07,776 --> 00:00:12,060
+the active interactions, and the queues the agent is signed in to.
+
+3
+00:00:12,060 --> 00:00:14,915
+Here the one agent is Available, and idle.
+
+4
+00:00:15,402 --> 00:00:20,124
+Filter by Agent name, by Signed-in queue, and by Status:
+
+5
+00:00:20,124 --> 00:00:24,313
+Available, Busy, On a call, Not ready or Offline.
+
+6
+00:00:24,313 --> 00:00:26,978
+Busy groups everyone at work:
+
+7
+00:00:26,978 --> 00:00:29,872
+Reserved, On a call and Wrap-up.
+
+8
+00:00:30,327 --> 00:00:32,928
+The header counts the agents that match.
+
+9
+00:00:32,928 --> 00:00:36,037
+The browser remembers your filters for next time.
+

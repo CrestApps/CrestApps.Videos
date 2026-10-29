@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.231 --> 00:00:06.357
+Open Interaction Center, Live dashboard.
+
+00:00:06.357 --> 00:00:10.910
+The status at the top says Connected while live updates work.
+
+00:00:10.910 --> 00:00:14.511
+The page refreshes by itself every ten seconds.
+
+00:00:15.042 --> 00:00:20.172
+The summary shows the total waiting across your queues, the available agents, the
+
+00:00:20.172 --> 00:00:21.882
+agents, and the queues.
+
+00:00:22.437 --> 00:00:24.324
+Each queue has a tile:
+
+00:00:24.324 --> 00:00:32.138
+waiting, signed-in agents, available, busy and not-ready agents, the longest wait, and service level breaches.
+
+00:00:32.138 --> 00:00:37.325
+A tile turns amber when the longest wait passes half the threshold, and
+
+00:00:37.325 --> 00:00:38.807
+red on a breach.
+
+00:00:39.311 --> 00:00:43.942
+When the dialer is on, a banner above the summary says what it is doing.
+
+00:00:43.942 --> 00:00:48.750
+The Why isn't this dialing panel explains why work is not being dispatched.
+
+00:00:48.750 --> 00:00:50.591
+Here, no work is waiting.
+
