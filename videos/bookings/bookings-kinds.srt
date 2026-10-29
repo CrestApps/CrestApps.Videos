@@ -1,0 +1,32 @@
+1
+00:00:03,201 --> 00:00:05,957
+Choose Nights, such as a room or a rental.
+
+2
+00:00:05,957 --> 00:00:10,263
+The buyer picks a check-in and a check-out, from the Fewest nights to
+
+3
+00:00:10,263 --> 00:00:12,101
+the Most nights you allow.
+
+4
+00:00:12,569 --> 00:00:17,562
+A weekend price replaces the product's price for Friday and Saturday nights.
+
+5
+00:00:17,562 --> 00:00:21,519
+Days ahead is how far ahead nights and times can be booked.
+
+6
+00:00:21,973 --> 00:00:24,640
+Choose A time, such as an appointment.
+
+7
+00:00:24,640 --> 00:00:28,702
+Tick the days you are open, set when the first slot opens and
+
+8
+00:00:28,702 --> 00:00:32,703
+when the last one closes, and how many Minutes a slot lasts.
+

@@ -1,0 +1,308 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.259
+Some things are sold for a date:
+
+00:00:03.259 --> 00:00:07.658
+a seat on a tour, a room for a few nights, an hour with a therapist.
+
+00:00:07.658 --> 00:00:12.294
+This video shows how the Bookings module sells them, with a capacity for
+
+00:00:12.294 --> 00:00:17.585
+each date, deposits, cancellation rules, requests you confirm first, and a list and
+
+00:00:17.585 --> 00:00:20.200
+calendar of everything that is booked.
+
+00:00:24.800 --> 00:00:27.831
+A shirt can be sold until the shelf is empty.
+
+00:00:27.831 --> 00:00:31.457
+A tour, a room or an appointment can only be sold for a
+
+00:00:31.457 --> 00:00:35.380
+date, and each date has room for a limited number of people.
+
+00:00:36.130 --> 00:00:38.018
+Prices follow the booking:
+
+00:00:38.018 --> 00:00:41.734
+per person for a tour, per room for a stay, with a higher
+
+00:00:41.734 --> 00:00:44.270
+price in high season or on a weekend.
+
+00:00:45.020 --> 00:00:48.798
+Buyers expect to pay a deposit now and the rest later, and to
+
+00:00:48.798 --> 00:00:50.602
+know what canceling costs.
+
+00:00:50.602 --> 00:00:53.760
+You need to see what is booked, and who is coming.
+
+00:00:54.510 --> 00:00:58.900
+The Bookings module sells all of this from the same catalog, cart and
+
+00:00:58.900 --> 00:01:01.300
+checkout as the rest of your store.
+
+00:01:05.500 --> 00:01:08.159
+You add the Booking part to a product.
+
+00:01:08.159 --> 00:01:09.911
+It says what is booked:
+
+00:01:09.911 --> 00:01:12.510
+a date with seats, nights, or a time.
+
+00:01:13.260 --> 00:01:18.039
+Each date has a capacity, and a date that is full cannot be bought.
+
+00:01:18.039 --> 00:01:20.920
+A tour has its own list of departures.
+
+00:01:21.670 --> 00:01:27.544
+A deposit, a cancellation policy, a request to confirm first, and travelers' details
+
+00:01:27.544 --> 00:01:30.090
+are settings on the same product.
+
+00:01:30.840 --> 00:01:36.331
+Every booking appears under Commerce, Bookings, in a list and a calendar, where
+
+00:01:36.331 --> 00:01:38.980
+you confirm, complete or cancel it.
+
+00:01:43.172 --> 00:01:45.741
+Open the product and find Booking.
+
+00:01:45.741 --> 00:01:50.752
+What's booked is a date with seats, such as a tour, an event or a class.
+
+00:01:51.207 --> 00:01:53.987
+Capacity is how much each date holds:
+
+00:01:53.987 --> 00:01:56.507
+here twelve seats on a departure.
+
+00:01:56.960 --> 00:02:00.259
+The price is per person is ticked for a price such as a
+
+00:02:00.259 --> 00:02:02.963
+tour's, charged for everyone in the booking.
+
+00:02:02.963 --> 00:02:06.370
+Leave it unticked for a price per room, whoever is in it.
+
+00:02:06.823 --> 00:02:10.701
+Under Options, add what a unit can be, such as a Double room
+
+00:02:10.701 --> 00:02:13.463
+for two people and a Single room for one.
+
+00:02:13.463 --> 00:02:18.633
+An option can add to the price once, such as a single supplement of three hundred.
+
+00:02:19.086 --> 00:02:22.421
+For a tour, Manage dates adds its departures.
+
+00:02:22.421 --> 00:02:26.476
+Publish the product first, then add its dates from here.
+
+00:02:30.670 --> 00:02:34.236
+Manage dates lists the departures buyers can choose.
+
+00:02:34.236 --> 00:02:38.908
+Each shows its date, how many are booked, paid and held, its capacity,
+
+00:02:38.908 --> 00:02:41.490
+its price, and whether it is closed.
+
+00:02:41.952 --> 00:02:44.103
+Click Add date to add a departure.
+
+00:02:44.103 --> 00:02:47.598
+Give it a Date, its own Capacity, and, if you like, its own
+
+00:02:47.598 --> 00:02:50.232
+Price, such as a higher one in high season.
+
+00:02:50.691 --> 00:02:51.656
+Click Save.
+
+00:02:51.656 --> 00:02:56.086
+A date left at the product's own capacity and price shows The product's,
+
+00:02:56.086 --> 00:02:58.301
+and a full date cannot be bought.
+
+00:03:02.502 --> 00:03:05.258
+Choose Nights, such as a room or a rental.
+
+00:03:05.258 --> 00:03:09.564
+The buyer picks a check-in and a check-out, from the Fewest nights to
+
+00:03:09.564 --> 00:03:11.402
+the Most nights you allow.
+
+00:03:11.870 --> 00:03:16.862
+A weekend price replaces the product's price for Friday and Saturday nights.
+
+00:03:16.862 --> 00:03:20.820
+Days ahead is how far ahead nights and times can be booked.
+
+00:03:21.274 --> 00:03:23.941
+Choose A time, such as an appointment.
+
+00:03:23.941 --> 00:03:28.003
+Tick the days you are open, set when the first slot opens and
+
+00:03:28.003 --> 00:03:32.004
+when the last one closes, and how many Minutes a slot lasts.
+
+00:03:36.198 --> 00:03:40.895
+Enter a Deposit, as a percentage, and Rest due, in days before the date.
+
+00:03:40.895 --> 00:03:44.088
+At checkout the buyer can choose Pay a deposit:
+
+00:03:44.088 --> 00:03:48.063
+they pay that share now, and the rest is charged to the same
+
+00:03:48.063 --> 00:03:49.448
+card on its date.
+
+00:03:49.902 --> 00:03:54.338
+Under Cancellation policy, add a rule for each step, such as a ten
+
+00:03:54.338 --> 00:03:59.267
+percent fee when canceled at least sixty days before, and fifty percent at
+
+00:03:59.267 --> 00:04:01.177
+least thirty days before.
+
+00:04:01.177 --> 00:04:04.442
+Closer than the last rule, nothing is refunded.
+
+00:04:04.895 --> 00:04:09.413
+Tick Confirm each booking before it's paid for bookings you accept one by one.
+
+00:04:09.413 --> 00:04:14.255
+The buyer's cart then offers Request to book, and you send the quote from the order.
+
+00:04:14.708 --> 00:04:19.252
+Tick Ask for each traveler's details at checkout to ask for each person's
+
+00:04:19.252 --> 00:04:22.818
+name, or any field you add to the Traveler content type.
+
+00:04:27.010 --> 00:04:31.481
+On the product's page, the buyer chooses a Date and an Option, and
+
+00:04:31.481 --> 00:04:34.710
+sees the deposit, and the cancellation policy.
+
+00:04:35.962 --> 00:04:39.548
+A date with its own price shows it, and a date that is
+
+00:04:39.548 --> 00:04:41.102
+full is not offered.
+
+00:04:41.559 --> 00:04:45.597
+At checkout, a booking that asks for travelers' details has a field for
+
+00:04:45.597 --> 00:04:49.162
+each person, in the Contact step, so that every name is on the
+
+00:04:49.162 --> 00:04:53.199
+booking and on the booking's page in your admin, where you can read it.
+
+00:04:54.269 --> 00:04:58.722
+The Find a date page lets shoppers enter dates and how many people.
+
+00:04:58.722 --> 00:05:03.969
+It lists what has room then, and links each to its product with the date chosen.
+
+00:05:08.153 --> 00:05:10.088
+Open Commerce, Bookings.
+
+00:05:10.088 --> 00:05:16.023
+It lists bookings from today on, with the product, the buyer, the status and the date.
+
+00:05:16.477 --> 00:05:23.453
+Filter by status, such as Requested, Confirmed, Completed, No-shows or Canceled, show any
+
+00:05:23.453 --> 00:05:26.537
+date, or search by buyer or product.
+
+00:05:26.990 --> 00:05:30.490
+Calendar shows each day's dates with what is taken.
+
+00:05:34.676 --> 00:05:36.769
+Click a booking to open it.
+
+00:05:36.769 --> 00:05:41.589
+It shows its status, the buyer, what was booked, the price, the order,
+
+00:05:41.589 --> 00:05:43.746
+and each traveler's details.
+
+00:05:44.200 --> 00:05:48.353
+A paid booking is Confirmed, and the buyer gets an email.
+
+00:05:48.353 --> 00:05:53.100
+After the date, mark it Complete, or No-show if they did not come.
+
+00:05:53.551 --> 00:05:57.730
+Cancel shows how many days before the date it is, what the policy
+
+00:05:57.730 --> 00:06:00.731
+keeps, and what is refunded of what was paid.
+
+00:06:01.186 --> 00:06:05.053
+Change the Refund to give back more or less, add a Reason, and
+
+00:06:05.053 --> 00:06:06.816
+click Cancel the booking.
+
+00:06:06.816 --> 00:06:10.512
+The money goes back to how they paid, what is still owed is
+
+00:06:10.512 --> 00:06:14.266
+let go, the date is free again, and the buyer gets an email.
+
+00:06:18.466 --> 00:06:19.950
+A tour operator:
+
+00:06:19.950 --> 00:06:25.956
+departures with seats, a deposit now and the rest later, and a cancellation policy.
+
+00:06:26.706 --> 00:06:28.959
+A small hotel or a rental:
+
+00:06:28.959 --> 00:06:33.326
+rooms by the night, a weekend price, and a minimum stay.
+
+00:06:34.076 --> 00:06:35.759
+A clinic or a studio:
+
+00:06:35.759 --> 00:06:39.936
+appointments by the hour, in the days and hours you are open.
+
+00:06:40.686 --> 00:06:42.850
+A guide who vets each guest:
+
+00:06:42.850 --> 00:06:47.116
+requests you confirm first, with a quote sent from the order.
+
+00:06:49.116 --> 00:06:53.659
+With the Bookings module, you sell dates, nights and times with a capacity
+
+00:06:53.659 --> 00:06:56.499
+for each, and see everything that is booked.
+
+00:06:56.499 --> 00:06:57.976
+Thanks for watching.
+
