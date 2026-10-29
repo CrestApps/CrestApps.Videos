@@ -1,0 +1,80 @@
+{
+  "title": "Report Builder Formulas: Calculated Fields, Labels and Rates | CrestApps for Orchard Core",
+  "description": "The data of a report rarely has the number you need: minutes instead of seconds, a Long or Short label, an answer rate. A calculated field in the CrestApps Report Builder works it out with a formula, like a spreadsheet. This video builds five calculated fields.\n\nIn this video:\n• Why formulas\n• Adding a calculated field: label, name, formula, Check and Apply\n• Dragging it onto Columns\n• Labels with IF, filling gaps with COALESCE, and dates with DATEDIFF\n• Formulas that work once per group: an answer rate for each queue\n• The Functions list, and what Check says when a formula is wrong",
+  "hashtags": [
+    "OrchardCore",
+    "Reports",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "report builder",
+    "formulas",
+    "calculated fields",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why formulas"
+    },
+    {
+      "time": "0:49",
+      "title": "Add a calculated field"
+    },
+    {
+      "time": "1:35",
+      "title": "Labels, text and dates"
+    },
+    {
+      "time": "2:23",
+      "title": "Once per group"
+    },
+    {
+      "time": "3:00",
+      "title": "Where formulas fit"
+    },
+    {
+      "time": "3:27",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/report-builder/columns-and-formulas"
+    },
+    {
+      "label": "Formula reference",
+      "url": "https://orchardcore.crestapps.com/docs/modules/report-builder/formulas"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports.Builder"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/report-builder/columns-and-formulas.md",
+    "src/CrestApps.Docs/docs/modules/report-builder/formulas.md"
+  ],
+  "length": "3:41"
+}

@@ -1,0 +1,41 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:05.127
+This report lists calls.
+
+00:00:05.127 --> 00:00:08.913
+In the Data pane, under Calculated fields, click New.
+
+00:00:09.365 --> 00:00:14.443
+Enter a Label, such as Wait in minutes, and a Name that formulas will use:
+
+00:00:14.443 --> 00:00:18.189
+a letter first, then letters, digits and underscores.
+
+00:00:18.189 --> 00:00:20.665
+The name cannot be changed later.
+
+00:00:21.154 --> 00:00:22.653
+Write the Formula.
+
+00:00:22.653 --> 00:00:28.021
+Click a field in the Fields list, and it is written for you, in square brackets.
+
+00:00:28.021 --> 00:00:29.894
+Then divide it by sixty.
+
+00:00:30.346 --> 00:00:31.445
+Click Check.
+
+00:00:31.445 --> 00:00:35.416
+The builder shows the type of the result, or what is wrong.
+
+00:00:35.416 --> 00:00:36.516
+Click Apply.
+
+00:00:36.966 --> 00:00:40.321
+The new field is listed under Calculated fields.
+
+00:00:40.321 --> 00:00:44.546
+Drag it onto Columns, and the preview shows it for every call.
+

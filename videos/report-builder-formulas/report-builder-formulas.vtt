@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.383
+The data of a report rarely has the number you need:
+
+00:00:04.383 --> 00:00:08.583
+minutes instead of seconds, a Long or Short label, an answer rate.
+
+00:00:08.583 --> 00:00:12.840
+A calculated field works it out with a formula, like a spreadsheet.
+
+00:00:12.840 --> 00:00:16.340
+This video builds five of them, in the Report Builder.
+
+00:00:20.940 --> 00:00:23.507
+A report shows what is stored:
+
+00:00:23.507 --> 00:00:26.289
+seconds of waiting, dates, names.
+
+00:00:26.289 --> 00:00:30.710
+People ask for minutes, labels, ages in days, and rates.
+
+00:00:31.460 --> 00:00:34.949
+A calculated field is a formula with a name.
+
+00:00:34.949 --> 00:00:41.160
+Once it exists, you drag it onto columns, filters and visuals like any other field.
+
+00:00:41.910 --> 00:00:44.492
+A formula never stops the report:
+
+00:00:44.492 --> 00:00:48.730
+dividing by zero or a missing value gives an empty result.
+
+00:00:52.933 --> 00:00:54.857
+This report lists calls.
+
+00:00:54.857 --> 00:00:58.643
+In the Data pane, under Calculated fields, click New.
+
+00:00:59.095 --> 00:01:04.173
+Enter a Label, such as Wait in minutes, and a Name that formulas will use:
+
+00:01:04.173 --> 00:01:07.919
+a letter first, then letters, digits and underscores.
+
+00:01:07.919 --> 00:01:10.395
+The name cannot be changed later.
+
+00:01:10.884 --> 00:01:12.383
+Write the Formula.
+
+00:01:12.383 --> 00:01:17.751
+Click a field in the Fields list, and it is written for you, in square brackets.
+
+00:01:17.751 --> 00:01:19.624
+Then divide it by sixty.
+
+00:01:20.076 --> 00:01:21.175
+Click Check.
+
+00:01:21.175 --> 00:01:25.146
+The builder shows the type of the result, or what is wrong.
+
+00:01:25.146 --> 00:01:26.246
+Click Apply.
+
+00:01:26.696 --> 00:01:30.051
+The new field is listed under Calculated fields.
+
+00:01:30.051 --> 00:01:34.276
+Drag it onto Columns, and the preview shows it for every call.
+
+00:01:38.479 --> 00:01:40.543
+A formula can give a label.
+
+00:01:40.543 --> 00:01:46.233
+This one answers Long when the talk time is ten minutes or more, and Short otherwise.
+
+00:01:46.233 --> 00:01:47.859
+Text goes in quotes.
+
+00:01:53.926 --> 00:01:55.905
+A formula can fill a gap.
+
+00:01:55.905 --> 00:02:01.266
+COALESCE gives the queue name, or Outbound campaigns when a call has no queue.
+
+00:02:10.975 --> 00:02:13.403
+And a formula can work with dates.
+
+00:02:13.403 --> 00:02:16.681
+DATEDIFF counts the days from the call to today.
+
+00:02:16.681 --> 00:02:22.085
+The Functions list explains every function, and a click writes it into the formula.
+
+00:02:26.288 --> 00:02:30.734
+A formula that uses an aggregate function, such as SUM or COUNT, is
+
+00:02:30.734 --> 00:02:32.987
+worked out once for each group.
+
+00:02:32.987 --> 00:02:35.788
+This report counts calls for each queue.
+
+00:02:37.018 --> 00:02:40.912
+The answer rate adds one for each call that has an answer time,
+
+00:02:40.912 --> 00:02:43.226
+and divides by the number of calls.
+
+00:02:43.226 --> 00:02:47.853
+Inside such a formula, every field must be inside an aggregate function, and
+
+00:02:47.853 --> 00:02:49.998
+Check tells you when one is not.
+
+00:02:50.452 --> 00:02:54.747
+Apply it, drag it onto Columns, and give it the format P zero,
+
+00:02:54.747 --> 00:02:56.894
+so it shows as a percentage.
+
+00:02:56.894 --> 00:02:59.042
+Each queue now has its rate.
+
+00:03:03.242 --> 00:03:04.995
+Minutes, not seconds:
+
+00:03:04.995 --> 00:03:09.672
+divide the seconds, and give the column a format with one decimal.
+
+00:03:10.422 --> 00:03:12.226
+A label to group by:
+
+00:03:12.226 --> 00:03:18.682
+Large and Small orders, Long and Short calls, or Business and Personal email addresses.
+
+00:03:19.432 --> 00:03:21.448
+A rate once per group:
+
+00:03:21.448 --> 00:03:26.632
+answered over offered, converted over created, refunded over sold.
+
+00:03:28.632 --> 00:03:31.584
+A calculated field is a formula with a name.
+
+00:03:31.584 --> 00:03:35.127
+Check it, apply it, and drag it wherever a field goes.
+
+00:03:35.127 --> 00:03:38.906
+Other features of the site can add functions of their own.
+
+00:03:38.906 --> 00:03:40.442
+Thanks for watching.
+

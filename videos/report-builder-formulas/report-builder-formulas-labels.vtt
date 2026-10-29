@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:05.267
+A formula can give a label.
+
+00:00:05.267 --> 00:00:10.957
+This one answers Long when the talk time is ten minutes or more, and Short otherwise.
+
+00:00:10.957 --> 00:00:12.583
+Text goes in quotes.
+
+00:00:18.650 --> 00:00:20.629
+A formula can fill a gap.
+
+00:00:20.629 --> 00:00:25.990
+COALESCE gives the queue name, or Outbound campaigns when a call has no queue.
+
+00:00:35.699 --> 00:00:38.127
+And a formula can work with dates.
+
+00:00:38.127 --> 00:00:41.406
+DATEDIFF counts the days from the call to today.
+
+00:00:41.406 --> 00:00:46.809
+The Functions list explains every function, and a click writes it into the formula.
+

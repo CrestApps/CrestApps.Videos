@@ -1,0 +1,182 @@
+{
+  "title": "Report Builder formulas",
+  "output": "report-builder-formulas",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "IFS": "I.F.S.",
+    "COUNT": "count",
+    "COALESCE": "co-ale-ess"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Report Builder formulas",
+      "subtitle": "Calculated fields that work like a spreadsheet",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The data of a report rarely has the number you need: minutes instead of seconds, a Long or Short label, an answer rate. A calculated field works it out with a formula, like a spreadsheet. This video builds five of them, in the Report Builder."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why formulas",
+      "subtitle": "The value the data does not have",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A report shows what is stored: seconds of waiting, dates, names. People ask for minutes, labels, ages in days, and rates."
+            },
+            {
+              "id": "why-2",
+              "text": "A calculated field is a formula with a name. Once it exists, you drag it onto columns, filters and visuals like any other field."
+            },
+            {
+              "id": "why-3",
+              "text": "A formula never stops the report: dividing by zero or a missing value gives an empty result."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Add a calculated field",
+      "subtitle": "Label, name, formula, check and apply",
+      "short": "add",
+      "clips": [
+        {
+          "id": "02-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "This report lists calls. In the Data pane, under Calculated fields, click New."
+            },
+            {
+              "id": "add-2",
+              "text": "Enter a Label, such as Wait in minutes, and a Name that formulas will use: a letter first, then letters, digits and underscores. The name cannot be changed later."
+            },
+            {
+              "id": "add-3",
+              "text": "Write the Formula. Click a field in the Fields list, and it is written for you, in square brackets. Then divide it by sixty."
+            },
+            {
+              "id": "add-4",
+              "text": "Click Check. The builder shows the type of the result, or what is wrong. Click Apply."
+            },
+            {
+              "id": "add-5",
+              "text": "The new field is listed under Calculated fields. Drag it onto Columns, and the preview shows it for every call."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Labels, text and dates",
+      "subtitle": "IF, COALESCE and DATEDIFF",
+      "short": "labels",
+      "clips": [
+        {
+          "id": "03-labels",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lab-1",
+              "text": "A formula can give a label. This one answers Long when the talk time is ten minutes or more, and Short otherwise. Text goes in quotes."
+            },
+            {
+              "id": "lab-2",
+              "text": "A formula can fill a gap. COALESCE gives the queue name, or Outbound campaigns when a call has no queue."
+            },
+            {
+              "id": "lab-3",
+              "text": "And a formula can work with dates. DATEDIFF counts the days from the call to today. The Functions list explains every function, and a click writes it into the formula."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Once per group",
+      "subtitle": "Rates and shares",
+      "short": "groups",
+      "clips": [
+        {
+          "id": "04-groups",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "grp-1",
+              "text": "A formula that uses an aggregate function, such as SUM or COUNT, is worked out once for each group. This report counts calls for each queue."
+            },
+            {
+              "id": "grp-2",
+              "text": "The answer rate adds one for each call that has an answer time, and divides by the number of calls. Inside such a formula, every field must be inside an aggregate function, and Check tells you when one is not."
+            },
+            {
+              "id": "grp-3",
+              "text": "Apply it, drag it onto Columns, and give it the format P zero, so it shows as a percentage. Each queue now has its rate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Where formulas fit",
+      "subtitle": "Use cases",
+      "clips": [
+        {
+          "id": "05-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Minutes, not seconds: divide the seconds, and give the column a format with one decimal."
+            },
+            {
+              "id": "use-2",
+              "text": "A label to group by: Large and Small orders, Long and Short calls, or Business and Personal email addresses."
+            },
+            {
+              "id": "use-3",
+              "text": "A rate once per group: answered over offered, converted over created, refunded over sold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Report Builder formulas",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A calculated field is a formula with a name. Check it, apply it, and drag it wherever a field goes. Other features of the site can add functions of their own. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
