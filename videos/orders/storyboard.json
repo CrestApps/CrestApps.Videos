@@ -1,0 +1,323 @@
+{
+  "title": "Orders",
+  "output": "orders",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Orders",
+      "subtitle": "One record for every sale",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An order is the record of a sale: who bought what, what they paid, and what happens next. This video shows why orders exist, how they fit together, and how to find, manage, refund, cancel and create orders, and how returns, gift cards and the order emails work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why orders",
+      "subtitle": "One record for every sale",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every sale has to be remembered: who bought what, what they paid, and what happens next. Without one record, you piece it together from payment emails and messages."
+            },
+            {
+              "id": "why-2",
+              "text": "An order is that record. It holds the items, the totals, the customer, the payment and the shipments, and it follows the sale from payment to delivery."
+            },
+            {
+              "id": "why-3",
+              "text": "When something goes wrong, the order is where you fix it: refund it, cancel it, add a note, or send the buyer their confirmation again."
+            },
+            {
+              "id": "why-4",
+              "text": "Customers get their paperwork from the same record: a confirmation email, an invoice, a packing slip and receipts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Orders, returns, gift cards and settings",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Commerce, Orders lists every order. Each order page shows the items, the shipments and the notes, with Refund, Cancel and Send the confirmation again beside them."
+            },
+            {
+              "id": "how-2",
+              "text": "Create order makes an order for a buyer who has not used the checkout, such as a customer on the phone."
+            },
+            {
+              "id": "how-3",
+              "text": "Returns lets buyers ask to send items back, and Gift cards issues cards that pay for orders."
+            },
+            {
+              "id": "how-4",
+              "text": "Settings, Commerce holds Orders, Emails, Receipts and Returns, which decide what is sent and how it looks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Find orders",
+      "subtitle": "The list, search and filters",
+      "clips": [
+        {
+          "id": "03-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Commerce, Orders. Every order is listed with its status, such as Paid or Payment due, its date, how many items it has, its total, and the customer."
+            },
+            {
+              "id": "list-2",
+              "text": "Search by order number or by the customer's email. Type a buyer's email address, and the list narrows to their orders."
+            },
+            {
+              "id": "list-3",
+              "text": "The two drop-downs on the right narrow the list by channel and by status. Export CSV downloads the list as a spreadsheet."
+            },
+            {
+              "id": "list-4",
+              "text": "Click an order to open it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "An order",
+      "subtitle": "Items, shipments, paperwork and notes",
+      "clips": [
+        {
+          "id": "04-order",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ord-1",
+              "text": "The order page opens with its items, each with its SKU, quantity and price, then the subtotal, the shipping, and the total paid. A badge shows that the order is Paid."
+            },
+            {
+              "id": "ord-2",
+              "text": "Shipments shows what has been sent. Nothing has shipped yet, and Create shipment packs items, with a carrier and a tracking number."
+            },
+            {
+              "id": "ord-3",
+              "text": "Invoice and Packing slip open printable pages. The invoice is for the customer, and the packing slip, which has no prices, goes in the box."
+            },
+            {
+              "id": "ord-4",
+              "text": "Under Notes, type a note and click Add note. Notes stay with the order for your team."
+            },
+            {
+              "id": "ord-5",
+              "text": "Further down are the order's details: its number, when it was placed and paid, where it ships, and the customer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Refund, cancel and resend",
+      "subtitle": "Fix what goes wrong",
+      "clips": [
+        {
+          "id": "05-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "man-1",
+              "text": "Refund returns money. Amount starts at what can still be refunded. Enter a smaller amount for a partial refund, give a Reason, and click Refund."
+            },
+            {
+              "id": "man-2",
+              "text": "Put the items back in stock is only for a full refund, because after a partial refund the customer keeps the goods."
+            },
+            {
+              "id": "man-3",
+              "text": "An order that is still waiting for payment, such as a bank transfer, can be canceled. Open it, enter the reason under Why, and click Cancel order."
+            },
+            {
+              "id": "man-4",
+              "text": "Send the confirmation again emails the order's confirmation to the customer, for a buyer who lost it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Create an order for a buyer",
+      "subtitle": "Phone sales and quotes",
+      "clips": [
+        {
+          "id": "06-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cre-1",
+              "text": "Create order makes an order for someone who has not used the checkout, such as a customer on the phone. Click it."
+            },
+            {
+              "id": "cre-2",
+              "text": "Enter the buyer's Email and Name, and choose the products under Add products."
+            },
+            {
+              "id": "cre-3",
+              "text": "Add a Note for the buyer, and a Pay by date if the order is due on a day. Update prices works out the totals, and Save draft keeps the order."
+            },
+            {
+              "id": "cre-4",
+              "text": "A draft is not sent yet. It shows a Pay link for the buyer, and Send invoice emails it. Once the buyer pays, the order is marked Paid like any other."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Returns",
+      "subtitle": "Let buyers send items back",
+      "clips": [
+        {
+          "id": "07-returns",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ret-1",
+              "text": "Commerce, Returns lists the return requests that buyers make from their orders. Each one is approved or declined, received, and put back in stock."
+            },
+            {
+              "id": "ret-2",
+              "text": "Settings, Commerce, Returns sets the Return window in days, the Reasons buyers can choose, whether they can ask for something else instead, and the Return instructions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Gift cards",
+      "subtitle": "Cards that pay for orders",
+      "clips": [
+        {
+          "id": "08-gift",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "gift-1",
+              "text": "Commerce, Gift cards lists the cards you have issued. Click Issue gift card."
+            },
+            {
+              "id": "gift-2",
+              "text": "Enter the Amount. Leave the Code empty for the site to make one. Add the Recipient's name and email, a Message, and an Expires date if the card should run out."
+            },
+            {
+              "id": "gift-3",
+              "text": "Email the card sends the code to the recipient once your site's email is set up; here it is left unticked. Click Issue. The card shows what is left on it, and buyers type its code at checkout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Order settings and emails",
+      "subtitle": "What is sent, and how it looks",
+      "clips": [
+        {
+          "id": "09-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Settings, Commerce, Orders. Send order confirmations emails the buyer after every order, and Take quote requests lets buyers ask for a price first."
+            },
+            {
+              "id": "set-2",
+              "text": "Email buyers who leave a checkout sends a reminder after a delay. The order bump offers one more product at checkout, at a discount, under its own Headline."
+            },
+            {
+              "id": "set-3",
+              "text": "Settings, Commerce, Emails lets you write your own emails: a Layout around them, and for each email Use my template, a Subject and a Body."
+            },
+            {
+              "id": "set-4",
+              "text": "Settings, Commerce, Receipts sets what receipts and invoices print: the Header title, the Business name, a Logo URL, the address and contact details, and the Footer text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Four ways to use orders",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Support: a customer writes in, and you find their order by email, read its notes, and refund part of it."
+            },
+            {
+              "id": "use-2",
+              "text": "Phone sales: Create order, and the buyer pays through a link, with no account."
+            },
+            {
+              "id": "use-3",
+              "text": "Bank transfers: an order waits as Payment due until you record the payment, and then shows as Paid."
+            },
+            {
+              "id": "use-4",
+              "text": "Gifts: issue a gift card by hand for an apology or a prize, and let it pay for a later order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "One record for every sale, with everything you need to fix it, and the paperwork your customers expect. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
