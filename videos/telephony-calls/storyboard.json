@@ -1,0 +1,270 @@
+{
+  "title": "Placing and handling calls",
+  "output": "telephony-calls",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Placing and handling calls",
+      "subtitle": "Dial, answer, hold, transfer and conference",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "All the call controls live in the soft phone. This video shows how to dial a number and an extension, and describes how to answer, hold, add a call, transfer and merge calls into a conference."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "About this video",
+      "subtitle": "What is shown, and what is described",
+      "clips": [
+        {
+          "id": "01-about",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "abt-1",
+              "text": "A phone in the browser must do what a desk phone does: dial, answer, hold, transfer and conference."
+            },
+            {
+              "id": "abt-2",
+              "text": "The site used for this video has no connected phone provider, and never places a call. So the keypad and extension dialing are shown as they are, and the controls that appear only during a live call are described on slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Dial a phone number",
+      "subtitle": "The Keypad tab",
+      "clips": [
+        {
+          "id": "02-dial",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dl-1",
+              "text": "Choose the Keypad tab. Type the number in international form, starting with a plus. Or pick the country flag first, and type the national number."
+            },
+            {
+              "id": "dl-2",
+              "text": "The number is formatted as you type, and turned into a full international number before it is dialed. The green Call button, or Enter, places the call. This video does not press it."
+            }
+          ]
+        }
+      ],
+      "short": "dial"
+    },
+    {
+      "id": "03",
+      "title": "What you hear while it rings",
+      "subtitle": "Ringback, and refused numbers",
+      "clips": [
+        {
+          "id": "03-ring",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rng-1",
+              "text": "While the number rings, the phone plays a ringback tone in your headset, and the status reads Ringing. The tone stops when the other person answers, and the timer starts."
+            },
+            {
+              "id": "rng-2",
+              "text": "The phone refuses some numbers before anything is dialed: emergency numbers, premium-rate numbers, and short numbers your administrator has not allowed. Use another phone for emergency calls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Call an extension",
+      "subtitle": "A colleague, by number or by name",
+      "clips": [
+        {
+          "id": "04-extension",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ext-1",
+              "text": "Click Dial extension. The country flag disappears, and the field reads Search a name, or enter an extension."
+            },
+            {
+              "id": "ext-2",
+              "text": "Type an extension number, and the phone shows who it rings. Or start typing a name: the people who match are listed with their extension. Click one to call them."
+            },
+            {
+              "id": "ext-3",
+              "text": "Click Dial phone number to go back to ordinary numbers. Extension calls are internal, so do-not-call lists do not apply. If your colleague does not answer, you are sent to their voicemail."
+            }
+          ]
+        }
+      ],
+      "short": "extension"
+    },
+    {
+      "id": "05",
+      "title": "Answer an incoming call",
+      "subtitle": "The Incoming call window",
+      "clips": [
+        {
+          "id": "05-answer",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ans-1",
+              "text": "An incoming call opens the Incoming call window in the soft phone, even when the panel is closed. It shows the caller, the queue or who transferred the call, and any matched records."
+            },
+            {
+              "id": "ans-2",
+              "text": "Answer connects the call. Answer and open also opens a matched record. Voicemail sends the caller to voicemail, and Ignore declines the call on this phone."
+            },
+            {
+              "id": "ans-3",
+              "text": "A call from a queue arrives as an offer first, with a countdown, in My workspace and the agent bar."
+            }
+          ]
+        }
+      ],
+      "short": "answer"
+    },
+    {
+      "id": "06",
+      "title": "During a call",
+      "subtitle": "Mute, hold, keypad and hang up",
+      "clips": [
+        {
+          "id": "06-during",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dur-1",
+              "text": "Mute stops the other person hearing you. Hold puts them on hold, and Resume brings them back. Keypad sends key presses, for example to pick an option in another company's phone menu."
+            },
+            {
+              "id": "dur-2",
+              "text": "Hang up ends the selected call, and is the only red button. With two or more calls, End all ends every call after you confirm, and Active calls lists them."
+            },
+            {
+              "id": "dur-3",
+              "text": "Add call puts the current call on hold, and opens the keypad for the second one. Back to call, or Escape, takes the held call off hold."
+            }
+          ]
+        }
+      ],
+      "short": "during"
+    },
+    {
+      "id": "07",
+      "title": "Transfer a call",
+      "subtitle": "Blind and warm",
+      "clips": [
+        {
+          "id": "07-transfer",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "trf-1",
+              "text": "Transfer opens the transfer panel in place of the keypad. Blind sends the call straight to them. Warm lets you speak to them before the call is handed over."
+            },
+            {
+              "id": "trf-2",
+              "text": "Pick the destination from the Directory, or type an extension, a name or a phone number. For a Contact Center call, the panel lists Agents, Queues and Outside numbers."
+            },
+            {
+              "id": "trf-3",
+              "text": "In a warm transfer, click Complete transfer to hand the caller over, or Cancel transfer to go back to the caller. If the person does not answer within thirty seconds, the caller comes back to you."
+            },
+            {
+              "id": "trf-4",
+              "text": "The buttons depend on your phone system. Asterisk supports blind transfer. Telnyx supports the consult as well."
+            }
+          ]
+        }
+      ],
+      "short": "transfer"
+    },
+    {
+      "id": "08",
+      "title": "Conference calls",
+      "subtitle": "Merge, leave or end",
+      "clips": [
+        {
+          "id": "08-conference",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "cnf-1",
+              "text": "With two or more calls up, tick the calls in Active calls and click Merge calls. They are listed as a conference, and each participant has their own hang-up button."
+            },
+            {
+              "id": "cnf-2",
+              "text": "Leave drops you out while the others stay connected. End for all ends the call for everyone, after you confirm."
+            },
+            {
+              "id": "cnf-3",
+              "text": "A queue or campaign call puts you in wrap-up until you complete the activity. A direct call, or a call you dialed yourself, skips wrap-up."
+            }
+          ]
+        }
+      ],
+      "short": "conference"
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where these controls help",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Calling a customer back from the Recent tab."
+            },
+            {
+              "id": "use-2",
+              "text": "Asking a colleague for help, by typing their name in Dial extension."
+            },
+            {
+              "id": "use-3",
+              "text": "A warm transfer to a specialist, so the customer does not repeat the story."
+            },
+            {
+              "id": "use-4",
+              "text": "A conference with a customer and a manager."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Dial from the keypad or by extension, and use hold, transfer and conference during a call. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

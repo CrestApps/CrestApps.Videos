@@ -1,0 +1,209 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.219
+All the call controls live in the soft phone.
+
+00:00:04.219 --> 00:00:08.954
+This video shows how to dial a number and an extension, and describes
+
+00:00:08.954 --> 00:00:14.130
+how to answer, hold, add a call, transfer and merge calls into a conference.
+
+00:00:18.730 --> 00:00:23.061
+A phone in the browser must do what a desk phone does:
+
+00:00:23.061 --> 00:00:26.670
+dial, answer, hold, transfer and conference.
+
+00:00:27.420 --> 00:00:32.659
+The site used for this video has no connected phone provider, and never places a call.
+
+00:00:32.659 --> 00:00:36.759
+So the keypad and extension dialing are shown as they are, and the
+
+00:00:36.759 --> 00:00:41.030
+controls that appear only during a live call are described on slides.
+
+00:00:45.231 --> 00:00:46.910
+Choose the Keypad tab.
+
+00:00:46.910 --> 00:00:50.865
+Type the number in international form, starting with a plus.
+
+00:00:50.865 --> 00:00:54.881
+Or pick the country flag first, and type the national number.
+
+00:00:55.336 --> 00:00:59.740
+The number is formatted as you type, and turned into a full international
+
+00:00:59.740 --> 00:01:01.579
+number before it is dialed.
+
+00:01:01.579 --> 00:01:04.645
+The green Call button, or Enter, places the call.
+
+00:01:04.645 --> 00:01:06.596
+This video does not press it.
+
+00:01:10.796 --> 00:01:15.174
+While the number rings, the phone plays a ringback tone in your headset,
+
+00:01:15.174 --> 00:01:17.139
+and the status reads Ringing.
+
+00:01:17.139 --> 00:01:21.236
+The tone stops when the other person answers, and the timer starts.
+
+00:01:21.986 --> 00:01:25.492
+The phone refuses some numbers before anything is dialed:
+
+00:01:25.492 --> 00:01:31.058
+emergency numbers, premium-rate numbers, and short numbers your administrator has not allowed.
+
+00:01:31.058 --> 00:01:33.506
+Use another phone for emergency calls.
+
+00:01:37.722 --> 00:01:39.496
+Click Dial extension.
+
+00:01:39.496 --> 00:01:45.542
+The country flag disappears, and the field reads Search a name, or enter an extension.
+
+00:01:46.011 --> 00:01:49.696
+Type an extension number, and the phone shows who it rings.
+
+00:01:49.696 --> 00:01:51.341
+Or start typing a name:
+
+00:01:51.341 --> 00:01:54.686
+the people who match are listed with their extension.
+
+00:01:54.686 --> 00:01:56.331
+Click one to call them.
+
+00:01:56.840 --> 00:02:00.398
+Click Dial phone number to go back to ordinary numbers.
+
+00:02:00.398 --> 00:02:04.482
+Extension calls are internal, so do-not-call lists do not apply.
+
+00:02:04.482 --> 00:02:08.740
+If your colleague does not answer, you are sent to their voicemail.
+
+00:02:12.940 --> 00:02:17.680
+An incoming call opens the Incoming call window in the soft phone, even
+
+00:02:17.680 --> 00:02:19.589
+when the panel is closed.
+
+00:02:19.589 --> 00:02:25.130
+It shows the caller, the queue or who transferred the call, and any matched records.
+
+00:02:25.880 --> 00:02:27.878
+Answer connects the call.
+
+00:02:27.878 --> 00:02:31.100
+Answer and open also opens a matched record.
+
+00:02:31.100 --> 00:02:36.900
+Voicemail sends the caller to voicemail, and Ignore declines the call on this phone.
+
+00:02:37.650 --> 00:02:41.926
+A call from a queue arrives as an offer first, with a countdown,
+
+00:02:41.926 --> 00:02:44.370
+in My workspace and the agent bar.
+
+00:02:48.570 --> 00:02:51.318
+Mute stops the other person hearing you.
+
+00:02:51.318 --> 00:02:54.784
+Hold puts them on hold, and Resume brings them back.
+
+00:02:54.784 --> 00:03:00.400
+Keypad sends key presses, for example to pick an option in another company's phone menu.
+
+00:03:01.150 --> 00:03:05.384
+Hang up ends the selected call, and is the only red button.
+
+00:03:05.384 --> 00:03:10.075
+With two or more calls, End all ends every call after you confirm,
+
+00:03:10.075 --> 00:03:12.290
+and Active calls lists them.
+
+00:03:13.040 --> 00:03:18.159
+Add call puts the current call on hold, and opens the keypad for the second one.
+
+00:03:18.159 --> 00:03:21.730
+Back to call, or Escape, takes the held call off hold.
+
+00:03:25.930 --> 00:03:29.410
+Transfer opens the transfer panel in place of the keypad.
+
+00:03:29.410 --> 00:03:31.840
+Blind sends the call straight to them.
+
+00:03:31.840 --> 00:03:35.430
+Warm lets you speak to them before the call is handed over.
+
+00:03:36.180 --> 00:03:42.570
+Pick the destination from the Directory, or type an extension, a name or a phone number.
+
+00:03:42.570 --> 00:03:48.280
+For a Contact Center call, the panel lists Agents, Queues and Outside numbers.
+
+00:03:49.030 --> 00:03:53.494
+In a warm transfer, click Complete transfer to hand the caller over, or
+
+00:03:53.494 --> 00:03:56.218
+Cancel transfer to go back to the caller.
+
+00:03:56.218 --> 00:04:01.320
+If the person does not answer within thirty seconds, the caller comes back to you.
+
+00:04:02.070 --> 00:04:04.902
+The buttons depend on your phone system.
+
+00:04:04.902 --> 00:04:07.304
+Asterisk supports blind transfer.
+
+00:04:07.304 --> 00:04:09.890
+Telnyx supports the consult as well.
+
+00:04:14.090 --> 00:04:19.230
+With two or more calls up, tick the calls in Active calls and click Merge calls.
+
+00:04:19.230 --> 00:04:24.550
+They are listed as a conference, and each participant has their own hang-up button.
+
+00:04:25.300 --> 00:04:28.461
+Leave drops you out while the others stay connected.
+
+00:04:28.461 --> 00:04:31.950
+End for all ends the call for everyone, after you confirm.
+
+00:04:32.700 --> 00:04:37.808
+A queue or campaign call puts you in wrap-up until you complete the activity.
+
+00:04:37.808 --> 00:04:41.870
+A direct call, or a call you dialed yourself, skips wrap-up.
+
+00:04:46.070 --> 00:04:49.070
+Calling a customer back from the Recent tab.
+
+00:04:49.820 --> 00:04:54.310
+Asking a colleague for help, by typing their name in Dial extension.
+
+00:04:55.060 --> 00:05:00.390
+A warm transfer to a specialist, so the customer does not repeat the story.
+
+00:05:01.140 --> 00:05:04.550
+A conference with a customer and a manager.
+
+00:05:06.550 --> 00:05:12.876
+Dial from the keypad or by extension, and use hold, transfer and conference during a call.
+
+00:05:12.876 --> 00:05:14.590
+Thanks for watching.
+

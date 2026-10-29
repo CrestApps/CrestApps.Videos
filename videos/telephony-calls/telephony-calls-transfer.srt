@@ -1,0 +1,44 @@
+1
+00:00:03,200 --> 00:00:06,680
+Transfer opens the transfer panel in place of the keypad.
+
+2
+00:00:06,680 --> 00:00:09,110
+Blind sends the call straight to them.
+
+3
+00:00:09,110 --> 00:00:12,700
+Warm lets you speak to them before the call is handed over.
+
+4
+00:00:13,450 --> 00:00:19,840
+Pick the destination from the Directory, or type an extension, a name or a phone number.
+
+5
+00:00:19,840 --> 00:00:25,550
+For a Contact Center call, the panel lists Agents, Queues and Outside numbers.
+
+6
+00:00:26,300 --> 00:00:30,764
+In a warm transfer, click Complete transfer to hand the caller over, or
+
+7
+00:00:30,764 --> 00:00:33,488
+Cancel transfer to go back to the caller.
+
+8
+00:00:33,488 --> 00:00:38,590
+If the person does not answer within thirty seconds, the caller comes back to you.
+
+9
+00:00:39,340 --> 00:00:42,172
+The buttons depend on your phone system.
+
+10
+00:00:42,172 --> 00:00:44,574
+Asterisk supports blind transfer.
+
+11
+00:00:44,574 --> 00:00:47,160
+Telnyx supports the consult as well.
+

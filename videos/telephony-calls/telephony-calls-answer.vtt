@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:07.941
+An incoming call opens the Incoming call window in the soft phone, even
+
+00:00:07.941 --> 00:00:09.849
+when the panel is closed.
+
+00:00:09.849 --> 00:00:15.390
+It shows the caller, the queue or who transferred the call, and any matched records.
+
+00:00:16.140 --> 00:00:18.138
+Answer connects the call.
+
+00:00:18.138 --> 00:00:21.360
+Answer and open also opens a matched record.
+
+00:00:21.360 --> 00:00:27.160
+Voicemail sends the caller to voicemail, and Ignore declines the call on this phone.
+
+00:00:27.910 --> 00:00:32.186
+A call from a queue arrives as an offer first, with a countdown,
+
+00:00:32.186 --> 00:00:34.630
+in My workspace and the agent bar.
+
