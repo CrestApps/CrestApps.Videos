@@ -1,0 +1,300 @@
+1
+00:00:01,000 --> 00:00:05,100
+The content of your own site, such as help articles, products or news,
+
+2
+00:00:05,100 --> 00:00:07,258
+can be knowledge for an assistant.
+
+3
+00:00:07,258 --> 00:00:11,466
+This video shows how a data source turns a content index into knowledge,
+
+4
+00:00:11,466 --> 00:00:15,619
+keeps it in step when the content changes, and lets an assistant answer
+
+5
+00:00:15,619 --> 00:00:17,130
+from it, with sources.
+
+6
+00:00:21,730 --> 00:00:25,913
+Large or changing content does not fit as uploaded files.
+
+7
+00:00:25,913 --> 00:00:30,560
+Nobody wants to upload every article again each time it changes.
+
+8
+00:00:31,310 --> 00:00:35,334
+Your site already keeps that content in a search index, so the content
+
+9
+00:00:35,334 --> 00:00:36,710
+is ready to be read.
+
+10
+00:00:37,460 --> 00:00:42,381
+A data source reads that index, splits the content into passages, and keeps
+
+11
+00:00:42,381 --> 00:00:45,480
+the knowledge in step as the content changes.
+
+12
+00:00:46,230 --> 00:00:51,890
+The assistant then answers from the passages, and lists numbered sources under its answer.
+
+13
+00:00:56,090 --> 00:00:59,640
+The source index is the content index of your site.
+
+14
+00:00:59,640 --> 00:01:03,750
+It already exists, or you create it from your content types.
+
+15
+00:01:04,500 --> 00:01:07,530
+The knowledge base index is the destination.
+
+16
+00:01:07,530 --> 00:01:11,650
+It stores the passages that the assistant searches by meaning.
+
+17
+00:01:12,400 --> 00:01:17,044
+The data source links the two, and maps which fields hold the content,
+
+18
+00:01:17,044 --> 00:01:19,550
+the title and the key of each item.
+
+19
+00:01:20,300 --> 00:01:24,930
+A profile then chooses the data source, and the assistant answers from it.
+
+20
+00:01:29,133 --> 00:01:31,471
+First, the content index.
+
+21
+00:01:31,471 --> 00:01:38,033
+Open Search, Indexes, click Add index, and click Add on Content in Elasticsearch.
+
+22
+00:01:38,486 --> 00:01:43,525
+Enter an Index Name and a Name, and tick the content types to index.
+
+23
+00:01:43,525 --> 00:01:45,228
+Here it is Article.
+
+24
+00:01:45,228 --> 00:01:46,386
+Click Save.
+
+25
+00:01:49,813 --> 00:01:52,714
+The index fills from the content items.
+
+26
+00:01:52,714 --> 00:01:57,873
+To fill it again at any time, open its Actions menu and click Synchronize.
+
+27
+00:02:02,063 --> 00:02:03,929
+Next, the destination.
+
+28
+00:02:03,929 --> 00:02:09,793
+Click Add index again, and click Add on AI Knowledge Base Index for Elasticsearch.
+
+29
+00:02:10,245 --> 00:02:15,220
+Enter an Index Name and a Name, pick the Embedding deployment, which cannot
+
+30
+00:02:15,220 --> 00:02:17,615
+be changed later, and click Save.
+
+31
+00:02:21,828 --> 00:02:29,148
+Open Artificial Intelligence, Data Sources, click Add Data Source, and click Add on Search Index Profile.
+
+32
+00:02:29,611 --> 00:02:30,766
+Enter a Name.
+
+33
+00:02:30,766 --> 00:02:36,967
+Choose the Source index, the content index, and the Destination index, the knowledge base index.
+
+34
+00:02:36,967 --> 00:02:40,311
+The destination cannot be changed after you save.
+
+35
+00:02:40,798 --> 00:02:46,283
+In Field Mapping, the Content field is the text to search and split into passages.
+
+36
+00:02:46,283 --> 00:02:49,338
+The editor picks the full text of the item.
+
+37
+00:02:49,791 --> 00:02:54,037
+The Title field is the name shown in the sources under an answer.
+
+38
+00:02:54,037 --> 00:02:59,298
+The Key field identifies each item, so the site can update or remove its passages.
+
+39
+00:02:59,298 --> 00:03:01,331
+You can change the defaults.
+
+40
+00:03:01,784 --> 00:03:02,846
+Click Save.
+
+41
+00:03:02,846 --> 00:03:06,344
+The data source starts filling its knowledge base.
+
+42
+00:03:10,537 --> 00:03:15,570
+The data source keeps its knowledge base in step with the source index.
+
+43
+00:03:15,570 --> 00:03:20,277
+To rebuild it by hand, open its Actions menu and click Sync index.
+
+44
+00:03:20,727 --> 00:03:23,556
+The passages are created in the background.
+
+45
+00:03:23,556 --> 00:03:26,847
+When they are ready, the assistant can search them.
+
+46
+00:03:31,048 --> 00:03:35,918
+Open the profile, open the Knowledge tab, and choose the data source.
+
+47
+00:03:36,371 --> 00:03:38,721
+Filter searches only some entries.
+
+48
+00:03:38,721 --> 00:03:43,068
+It is an expression that your technical team writes, and one that is
+
+49
+00:03:43,068 --> 00:03:44,771
+not valid is not saved.
+
+50
+00:03:45,227 --> 00:03:50,303
+Restrict answers to retrieved data only keeps the assistant to your content.
+
+51
+00:03:50,303 --> 00:03:52,717
+When nothing matches, it says so.
+
+52
+00:03:53,171 --> 00:03:58,732
+Strictness is how closely a passage must match the question, from one to five.
+
+53
+00:03:58,732 --> 00:04:02,506
+Retrieved documents is how many passages come back.
+
+54
+00:04:02,506 --> 00:04:03,631
+Click Save.
+
+55
+00:04:07,813 --> 00:04:10,656
+Now ask a question that an article answers:
+
+56
+00:04:10,656 --> 00:04:13,093
+how long does express shipping take?
+
+57
+00:04:13,548 --> 00:04:15,993
+The assistant answers from the article.
+
+58
+00:04:15,993 --> 00:04:18,328
+The statement carries a small number.
+
+59
+00:04:18,779 --> 00:04:23,289
+Under the answer, the numbered source names the article that the answer came from.
+
+60
+00:04:27,490 --> 00:04:32,935
+Profiles that leave Strictness and Retrieved documents empty use the site defaults.
+
+61
+00:04:32,935 --> 00:04:37,830
+Open Settings, Artificial Intelligence, and find the Data Sources section.
+
+62
+00:04:38,301 --> 00:04:43,186
+Default strictness and Default top documents are the values that every data source
+
+63
+00:04:43,186 --> 00:04:45,961
+uses when a profile does not choose its own.
+
+64
+00:04:50,161 --> 00:04:51,320
+Help articles:
+
+65
+00:04:51,320 --> 00:04:55,491
+the assistant answers from the articles that your editors publish.
+
+66
+00:04:56,241 --> 00:04:57,108
+Products:
+
+67
+00:04:57,108 --> 00:05:00,631
+it knows the catalog, and the answer names the product.
+
+68
+00:05:01,381 --> 00:05:02,939
+News and policies:
+
+69
+00:05:02,939 --> 00:05:05,991
+change a page, and the knowledge follows.
+
+70
+00:05:06,741 --> 00:05:08,110
+Several sources:
+
+71
+00:05:08,110 --> 00:05:12,091
+more than one data source can feed a knowledge base index.
+
+72
+00:05:14,091 --> 00:05:18,283
+Index your content, link it to a knowledge base with a data source,
+
+73
+00:05:18,283 --> 00:05:20,178
+and choose it on a profile.
+
+74
+00:05:20,178 --> 00:05:23,738
+The assistant then answers from your site, with sources.
+
+75
+00:05:23,738 --> 00:05:25,231
+Thanks for watching.
+

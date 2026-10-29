@@ -1,0 +1,108 @@
+{
+  "name": "contoso-articles",
+  "displayName": "Contoso help articles",
+  "description": "A content type and four help articles for the demo site.",
+  "steps": [
+    {
+      "name": "feature",
+      "enable": [
+        "OrchardCore.Contents",
+        "OrchardCore.Html",
+        "OrchardCore.Title"
+      ]
+    },
+    {
+      "name": "ContentDefinition",
+      "ContentTypes": [
+        {
+          "Name": "Article",
+          "DisplayName": "Article",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "HtmlBodyPart",
+              "Name": "HtmlBodyPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1",
+                  "Editor": "Wysiwyg"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "ContentParts": []
+    },
+    {
+      "name": "content",
+      "data": [
+        {
+          "ContentItemId": "4a1articlereturns000000000001",
+          "ContentItemVersionId": "4a1articlereturns000000000002",
+          "ContentType": "Article",
+          "DisplayText": "How returns work",
+          "Latest": true,
+          "Published": true,
+          "Owner": "admin",
+          "Author": "admin",
+          "TitlePart": { "Title": "How returns work" },
+          "HtmlBodyPart": { "Html": "<p>You can return most items within 45 days of delivery. Start the return from the Orders page of your account and print the prepaid label. Refunds reach the original payment method within 5 business days after the warehouse receives the item.</p>" }
+        },
+        {
+          "ContentItemId": "4a1articleshipping0000000001",
+          "ContentItemVersionId": "4a1articleshipping0000000002",
+          "ContentType": "Article",
+          "DisplayText": "Shipping options",
+          "Latest": true,
+          "Published": true,
+          "Owner": "admin",
+          "Author": "admin",
+          "TitlePart": { "Title": "Shipping options" },
+          "HtmlBodyPart": { "Html": "<p>Standard shipping takes 3 to 5 business days. Express shipping takes 1 to 2 business days and costs 12 dollars. Orders placed before 2 PM ship the same day, and you receive a tracking number by email.</p>" }
+        },
+        {
+          "ContentItemId": "4a1articlewarranty0000000001",
+          "ContentItemVersionId": "4a1articlewarranty0000000002",
+          "ContentType": "Article",
+          "DisplayText": "Warranty coverage",
+          "Latest": true,
+          "Published": true,
+          "Owner": "admin",
+          "Author": "admin",
+          "TitlePart": { "Title": "Warranty coverage" },
+          "HtmlBodyPart": { "Html": "<p>Every Contoso product has a two-year limited warranty that covers defects in materials and workmanship. Accidental damage, water damage and normal wear are not covered. Start a claim from your order and keep the original receipt.</p>" }
+        },
+        {
+          "ContentItemId": "4a1articleaccount0000000001",
+          "ContentItemVersionId": "4a1articleaccount0000000002",
+          "ContentType": "Article",
+          "DisplayText": "Managing your account",
+          "Latest": true,
+          "Published": true,
+          "Owner": "admin",
+          "Author": "admin",
+          "TitlePart": { "Title": "Managing your account" },
+          "HtmlBodyPart": { "Html": "<p>Create an account with your email address to track orders and save addresses. To reset your password, choose Forgot password on the sign-in page. You can close your account at any time from the account settings page.</p>" }
+        }
+      ]
+    }
+  ]
+}

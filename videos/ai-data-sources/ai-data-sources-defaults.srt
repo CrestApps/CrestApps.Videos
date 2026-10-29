@@ -1,0 +1,16 @@
+1
+00:00:03,200 --> 00:00:08,646
+Profiles that leave Strictness and Retrieved documents empty use the site defaults.
+
+2
+00:00:08,646 --> 00:00:13,540
+Open Settings, Artificial Intelligence, and find the Data Sources section.
+
+3
+00:00:14,012 --> 00:00:18,897
+Default strictness and Default top documents are the values that every data source
+
+4
+00:00:18,897 --> 00:00:21,672
+uses when a profile does not choose its own.
+

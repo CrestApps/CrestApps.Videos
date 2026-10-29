@@ -1,0 +1,16 @@
+1
+00:00:03,191 --> 00:00:05,057
+Next, the destination.
+
+2
+00:00:05,057 --> 00:00:10,921
+Click Add index again, and click Add on AI Knowledge Base Index for Elasticsearch.
+
+3
+00:00:11,372 --> 00:00:16,347
+Enter an Index Name and a Name, pick the Embedding deployment, which cannot
+
+4
+00:00:16,347 --> 00:00:18,742
+be changed later, and click Save.
+

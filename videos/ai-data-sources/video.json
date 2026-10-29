@@ -1,0 +1,102 @@
+{
+  "title": "AI Data Sources: Answers From Your Site's Content | CrestApps for Orchard Core",
+  "description": "The content of your own site, such as help articles, products or news, can be knowledge for an AI assistant. A CrestApps AI data source turns a content index into a knowledge base, keeps it in step as the content changes, and lets an assistant answer from it, with numbered sources.\n\nIn this video:\n• Why large and changing content needs a data source instead of uploads\n• How the source index, the knowledge base index and the data source fit together\n• Indexing your content, and creating the AI Knowledge Base index\n• Creating a Search Index Profile data source and its field mapping\n• Syncing the data source\n• Choosing the data source on a profile: Filter, Restrict answers to retrieved data only, Strictness and Retrieved documents\n• An answer with its sources, and the site-wide defaults",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "RAG",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI data sources",
+    "AI knowledge base",
+    "RAG",
+    "retrieval-augmented generation",
+    "AI assistant",
+    "Elasticsearch",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why data sources"
+    },
+    {
+      "time": "0:52",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:25",
+      "title": "Index your content"
+    },
+    {
+      "time": "1:58",
+      "title": "Create the knowledge base index"
+    },
+    {
+      "time": "2:18",
+      "title": "Create a data source"
+    },
+    {
+      "time": "3:07",
+      "title": "Keep it in step"
+    },
+    {
+      "time": "3:27",
+      "title": "Give the assistant the data source"
+    },
+    {
+      "time": "4:04",
+      "title": "Ask a question"
+    },
+    {
+      "time": "4:24",
+      "title": "Site-wide defaults"
+    },
+    {
+      "time": "4:47",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:13",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/knowledge"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/data-sources"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.DataSources"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/knowledge.md",
+    "src/CrestApps.Docs/docs/ai/data-sources/index.md"
+  ],
+  "length": "5:26"
+}
