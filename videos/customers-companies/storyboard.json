@@ -1,0 +1,479 @@
+{
+  "title": "Customers and Companies",
+  "output": "customers-companies",
+  "spoken": {
+    "VAT": "V.A.T."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Customers and Companies",
+      "subtitle": "Know who buys from you, and sell to businesses",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Everyone who buys from your store is a customer, and some of them are businesses. This video shows how the Customers and Companies modules keep track of who they are, how to reach them and what they are owed, and how to sell to a business on account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why customers and companies",
+      "subtitle": "A list of emails is not enough",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Everyone who buys from your store is a customer: a person or a business, with an account on your site or as a guest. To serve them you need to know how to address them, where to send their orders, and whether they want to hear from you."
+            },
+            {
+              "id": "why-2",
+              "text": "Businesses buy differently. Several people buy for one company, it often pays an invoice later, expects its own prices, and wants a manager to approve the larger orders."
+            },
+            {
+              "id": "why-3",
+              "text": "Shoppers expect to keep an address book, to be rewarded when they come back, and to ask what you hold on them, or to have it erased."
+            },
+            {
+              "id": "why-4",
+              "text": "The Customers and Companies modules cover all of this from one place in the admin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Customers, accounts, companies and rewards",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A customer record keeps what your store needs: how to address them, their company and tax id, their address book, and whether they accept marketing."
+            },
+            {
+              "id": "how-2",
+              "text": "The sign in, the password and the email stay on the user account. A customer with an account gets their record the first time they order. A guest who checks out without an account gets a guest customer of their own."
+            },
+            {
+              "id": "how-3",
+              "text": "A company is a business you sell to, with its buyers, payment terms, shipping locations and price list."
+            },
+            {
+              "id": "how-4",
+              "text": "Store Credit, Loyalty Points, Referrals and Checkout details are separate features you turn on, to reward customers who come back and to ask buyers for your own details at checkout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Find a customer",
+      "subtitle": "Search and filter the list",
+      "clips": [
+        {
+          "id": "03-find",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "find-1",
+              "text": "Open Commerce, Customers. The people and businesses that bought from you are listed with the most recently active first. A badge marks a guest or a business, and each row shows an email and when they were last active."
+            },
+            {
+              "id": "find-2",
+              "text": "Type the start of a name, a company or an email in the search box and press Enter to find one customer."
+            },
+            {
+              "id": "find-3",
+              "text": "The list beside the count narrows what is shown: customers With an account, Guests, Businesses, Disabled ones, or All customers. Choose Businesses to see the companies that buy from you."
+            }
+          ]
+        }
+      ],
+      "short": "find"
+    },
+    {
+      "id": "04",
+      "title": "Add and edit a customer",
+      "subtitle": "For someone who orders outside the site",
+      "clips": [
+        {
+          "id": "04-edit",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "edit-1",
+              "text": "To add a customer you deal with outside the site, such as someone who orders by phone, click Add customer."
+            },
+            {
+              "id": "edit-2",
+              "text": "Choose the Kind, Person or Business, and type the first and last name. The Display name is how the store addresses them. Leave it empty to use their name."
+            },
+            {
+              "id": "edit-3",
+              "text": "A business also has a Company and a Tax id. Tick Exempt from tax for a reseller or a charity you hold a certificate for, and note Why they are exempt. When they check out signed in, no tax is charged. A guest is always taxed."
+            },
+            {
+              "id": "edit-4",
+              "text": "Add an Email and a Phone so you can reach them. Tick Accepts marketing only when they agreed to news and offers. Order and payment messages are always sent."
+            },
+            {
+              "id": "edit-5",
+              "text": "Click Save. The customer opens with their Orders, Store credit, Addresses and Privacy sections below. The Status field lets you mark a customer Disabled when you stop doing business with them. They keep their history."
+            }
+          ]
+        }
+      ],
+      "short": "edit"
+    },
+    {
+      "id": "05",
+      "title": "The address book",
+      "subtitle": "Addresses that follow each country's rules",
+      "clips": [
+        {
+          "id": "05-addresses",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "addr-1",
+              "text": "Open a customer to see their address book. One address can be the default billing address and one the default shipping address. They are the ones offered first when the customer buys."
+            },
+            {
+              "id": "addr-2",
+              "text": "Click Add address. Choose the Country first, because the rest of the form follows it."
+            },
+            {
+              "id": "addr-3",
+              "text": "Choose United Kingdom, and the form asks for a Post town and a Postal code. Choose United States, and it asks for a State, from a list, and a ZIP code."
+            },
+            {
+              "id": "addr-4",
+              "text": "Fill in the street and the city, choose the State, and enter the ZIP code. Give the address a Label such as Warehouse, tick Default shipping address to make it the one offered first, and click Save."
+            },
+            {
+              "id": "addr-5",
+              "text": "The address is checked against its country, so a postal code has to look like that country's. Orders keep their own copy of an address, so changing or deleting one never changes a past order."
+            }
+          ]
+        }
+      ],
+      "short": "addresses"
+    },
+    {
+      "id": "06",
+      "title": "Store credit and loyalty points",
+      "subtitle": "Reward the customers who come back",
+      "clips": [
+        {
+          "id": "06-credit",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "credit-1",
+              "text": "Open a customer with an account, such as Jamie Chen. Store credit is money the store owes a customer, such as a refund you give as credit. It pays toward their next orders, after tax."
+            },
+            {
+              "id": "credit-2",
+              "text": "Under Store credit, enter an Amount, check the Currency, and give a Reason, such as Late delivery. Click Change."
+            },
+            {
+              "id": "credit-3",
+              "text": "The balance updates, and the latest changes are listed with when, what, the change and the balance after it. A negative amount takes credit away. A guest cannot have credit, because it is spent when they sign in."
+            },
+            {
+              "id": "credit-4",
+              "text": "Loyalty points work the same way. Under Rewards, enter the Points to give, and a Reason, and click Change. The section shows the points and what they are worth."
+            }
+          ]
+        }
+      ],
+      "short": "credit"
+    },
+    {
+      "id": "07",
+      "title": "Settings",
+      "subtitle": "Checkout, privacy, address suggestions and rewards",
+      "clips": [
+        {
+          "id": "07-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Customers. Billing address at checkout decides whether the Contact step asks for one: Optional, Required, or Off."
+            },
+            {
+              "id": "set-2",
+              "text": "Under Privacy, Erase inactive guests after and Anonymize guest orders after say how many months you keep guests' personal data. Enter zero to keep it."
+            },
+            {
+              "id": "set-3",
+              "text": "Settings, Address suggestions has a field for a Google Places API key. With a key, every address form suggests addresses as the street is typed. Without one, shoppers type their address themselves."
+            },
+            {
+              "id": "set-4",
+              "text": "Settings, Commerce, Rewards sets up loyalty points. Give the program a name that buyers see, the Points per unit spent, What a point is worth, and the Fewest points to spend."
+            },
+            {
+              "id": "set-5",
+              "text": "Settings, Commerce, Referrals gives every signed-in customer a link to share. Choose What a friend gets, a single-use coupon code, and What the customer gets: nothing, store credit or loyalty points."
+            },
+            {
+              "id": "set-6",
+              "text": "Set the Least a friend's first order spends, so rewards go only to real purchases. A customer is rewarded once per friend, never for their own order, and the reward is taken back if that order is canceled."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "08",
+      "title": "Privacy requests",
+      "subtitle": "Download, or erase, what you hold",
+      "clips": [
+        {
+          "id": "08-privacy",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "priv-1",
+              "text": "People can ask what you hold on them. Open the customer and scroll to Privacy. Download data gives you a file with everything the store holds on them, to send to the person who asked."
+            },
+            {
+              "id": "priv-2",
+              "text": "Erase personal data removes their name, email, phone and addresses, and the personal details of their orders. The orders themselves stay, because your accounts and tax records need them."
+            },
+            {
+              "id": "priv-3",
+              "text": "Let's erase Avery Stone. Click Erase personal data, and confirm. It cannot be undone."
+            },
+            {
+              "id": "priv-4",
+              "text": "The customer now says that their personal data was erased, and can no longer be edited. Each download and erasure is listed under Privacy, with when it happened and who did it."
+            }
+          ]
+        }
+      ],
+      "short": "privacy"
+    },
+    {
+      "id": "09",
+      "title": "My Account",
+      "subtitle": "What a signed-in customer sees",
+      "clips": [
+        {
+          "id": "09-account",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "acct-1",
+              "text": "A signed-in customer manages their own details on the Account details page of their account. I buy for says whether they buy for Myself or for A business. They edit their name, the name we call them by, their phone, and whether they want news and offers. Their email is changed on the account."
+            },
+            {
+              "id": "acct-2",
+              "text": "Addresses lists their address book. They add, edit and delete addresses the same way you do in the admin."
+            },
+            {
+              "id": "acct-3",
+              "text": "With Store Credit on, Store credit shows what they have and how it changed. With Loyalty Points on, Rewards shows their points."
+            },
+            {
+              "id": "acct-4",
+              "text": "With Referrals on, Refer a friend shows their link to share. A friend who opens it can get a discount, and the customer is rewarded."
+            }
+          ]
+        }
+      ],
+      "short": "account"
+    },
+    {
+      "id": "10",
+      "title": "Price lists",
+      "subtitle": "Their own prices for a company",
+      "clips": [
+        {
+          "id": "10-pricelist",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pl-1",
+              "text": "A price list gives the companies on it their own prices. Open Commerce, Price lists, and click Add price list."
+            },
+            {
+              "id": "pl-2",
+              "text": "Name it, such as Wholesale. Only your staff see the name. Percentage off everything else gives every product that is not on the list a discount."
+            },
+            {
+              "id": "pl-3",
+              "text": "Under Prices by S.K.U., enter a S.K.U. and its price on each line, apart by a comma. Paste them from a spreadsheet if you have many."
+            },
+            {
+              "id": "pl-4",
+              "text": "Click Save. A product on the list costs its price there, and any other costs your price less the percentage. A buyer always pays the lower of the list's price and yours."
+            }
+          ]
+        }
+      ],
+      "short": "pricelist"
+    },
+    {
+      "id": "11",
+      "title": "Add a company",
+      "subtitle": "Buyers, payment terms and locations",
+      "clips": [
+        {
+          "id": "11-company",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "co-1",
+              "text": "Open Commerce, Companies. The businesses you sell to are listed here. Click Add company."
+            },
+            {
+              "id": "co-2",
+              "text": "Enter its Name, a Tax or VAT number that is printed on its invoices, and a Billing email that gets its invoices too."
+            },
+            {
+              "id": "co-3",
+              "text": "Under Buyers, enter the User name or email of each person. They need a user account first. Choose Buyer or Admin. An admin sees all of the company's orders and approves orders. Give a buyer an Order limit if their bigger orders need approval."
+            },
+            {
+              "id": "co-4",
+              "text": "Under Payment terms, Net days says that what the company does not pay at checkout is invoiced, due in that many days. Deposit is the part paid at checkout. Credit limit is the most the company may owe at once."
+            },
+            {
+              "id": "co-5",
+              "text": "A Monthly budget sends the orders beyond it in a month to an admin for approval. Tick Buyers give a purchase order number to require one on every order, and print it on the invoice."
+            },
+            {
+              "id": "co-6",
+              "text": "Choose the company's Price list, so its buyers pay Wholesale prices. Under Locations, name a place it has orders shipped to, such as Head office, and enter the address. Its buyers pick one at checkout."
+            },
+            {
+              "id": "co-7",
+              "text": "The On switch lets you turn a company off, so its buyers buy for themselves again. Click Save. The company appears in the list."
+            }
+          ]
+        }
+      ],
+      "short": "company"
+    },
+    {
+      "id": "12",
+      "title": "Approvals and budgets",
+      "subtitle": "A manager approves the larger orders",
+      "clips": [
+        {
+          "id": "12-approvals",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "appr-1",
+              "text": "Two settings send an order to the company's admins before it can be paid: a buyer's Order limit, and the company's Monthly budget. An admin's own orders never need approval."
+            },
+            {
+              "id": "appr-2",
+              "text": "At checkout, a company buyer gets a Company step after shipping, where they enter the purchase order number. If the order needs approval, the step says why and offers Ask for approval."
+            },
+            {
+              "id": "appr-3",
+              "text": "The company's admins are emailed. An admin approves or rejects the order from the Company page of their account, and can leave a note for the buyer. The buyer is emailed either way."
+            },
+            {
+              "id": "appr-4",
+              "text": "An approved order offers Pay now. A rejected order is canceled. What the company owes on account is shown on its Company page, and in Transactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Punchout",
+      "subtitle": "Let a procurement system shop at your store",
+      "clips": [
+        {
+          "id": "13-punchout",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "punch-1",
+              "text": "Punchout lets a company's procurement system, such as S.A.P., open your store. The buyer fills a cart, and it goes back to their system, where it is approved and ordered."
+            },
+            {
+              "id": "punch-2",
+              "text": "On the company, tick Its procurement system shops here by punchout, and enter the Punchout buyer: a user who only buys for the company, and is listed under Buyers."
+            },
+            {
+              "id": "punch-3",
+              "text": "After you save, the company's punchout key and punchout address are shown once. Give them to the company to set up in its system. To stop a key working, tick Make a new key, or turn punchout off."
+            }
+          ]
+        }
+      ],
+      "short": "punchout"
+    },
+    {
+      "id": "14",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "14-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop that sells to the public: guests check out quickly, and customers with accounts keep their addresses, their points and their store credit."
+            },
+            {
+              "id": "use-2",
+              "text": "A wholesaler: set up each reseller as a company, with a Wholesale price list, net thirty payment terms, and a purchase order number on every order."
+            },
+            {
+              "id": "use-3",
+              "text": "A buying team: give each buyer an order limit and the company a monthly budget, so a manager approves the larger orders."
+            },
+            {
+              "id": "use-4",
+              "text": "A privacy request: find the customer, download their data to send to them, or erase their personal data and keep your accounts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "The Customers and Companies modules keep everyone who buys from you in one place, and let you sell to a business on its own terms. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.176 --> 00:00:05.902
+Open a customer to see their address book.
+
+00:00:05.902 --> 00:00:11.013
+One address can be the default billing address and one the default shipping address.
+
+00:00:11.013 --> 00:00:14.476
+They are the ones offered first when the customer buys.
+
+00:00:14.931 --> 00:00:16.311
+Click Add address.
+
+00:00:16.311 --> 00:00:20.451
+Choose the Country first, because the rest of the form follows it.
+
+00:00:20.905 --> 00:00:26.280
+Choose United Kingdom, and the form asks for a Post town and a Postal code.
+
+00:00:26.280 --> 00:00:31.655
+Choose United States, and it asks for a State, from a list, and a ZIP code.
+
+00:00:32.106 --> 00:00:36.483
+Fill in the street and the city, choose the State, and enter the ZIP code.
+
+00:00:36.483 --> 00:00:40.970
+Give the address a Label such as Warehouse, tick Default shipping address to
+
+00:00:40.970 --> 00:00:43.816
+make it the one offered first, and click Save.
+
+00:00:44.267 --> 00:00:48.448
+The address is checked against its country, so a postal code has to
+
+00:00:48.448 --> 00:00:50.223
+look like that country's.
+
+00:00:50.223 --> 00:00:54.518
+Orders keep their own copy of an address, so changing or deleting one
+
+00:00:54.518 --> 00:00:56.407
+never changes a past order.
+

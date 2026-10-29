@@ -1,0 +1,48 @@
+1
+00:00:03,169 --> 00:00:05,522
+People can ask what you hold on them.
+
+2
+00:00:05,522 --> 00:00:08,038
+Open the customer and scroll to Privacy.
+
+3
+00:00:08,038 --> 00:00:12,250
+Download data gives you a file with everything the store holds on them,
+
+4
+00:00:12,250 --> 00:00:14,329
+to send to the person who asked.
+
+5
+00:00:14,787 --> 00:00:20,178
+Erase personal data removes their name, email, phone and addresses, and the personal
+
+6
+00:00:20,178 --> 00:00:21,976
+details of their orders.
+
+7
+00:00:21,976 --> 00:00:26,887
+The orders themselves stay, because your accounts and tax records need them.
+
+8
+00:00:27,341 --> 00:00:29,530
+Let's erase Avery Stone.
+
+9
+00:00:29,530 --> 00:00:32,814
+Click Erase personal data, and confirm.
+
+10
+00:00:32,814 --> 00:00:34,711
+It cannot be undone.
+
+11
+00:00:35,173 --> 00:00:40,673
+The customer now says that their personal data was erased, and can no longer be edited.
+
+12
+00:00:40,673 --> 00:00:46,233
+Each download and erasure is listed under Privacy, with when it happened and who did it.
+

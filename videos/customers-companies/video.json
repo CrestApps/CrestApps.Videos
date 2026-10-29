@@ -1,0 +1,132 @@
+{
+  "title": "Customers and Companies: Know Who Buys From You, and Sell to Businesses | CrestApps for Orchard Core",
+  "description": "A list of emails is not enough to run a store. You need to know who your customers are, how to address them and where to send their orders, and when you sell to businesses you need companies with several buyers, their own prices, payment terms and approvals. The CrestApps Customers and Companies modules keep all of this in the admin of your Orchard Core site.\n\nIn this video:\n• Why customers and companies, and how they fit together\n• Finding, adding and editing a customer\n• The address book that follows each country's rules\n• Store credit and loyalty points\n• Settings for checkout, privacy, address suggestions, rewards and referrals\n• Privacy requests: download or erase what you hold\n• What a signed-in customer sees in My Account\n• Price lists for companies\n• Adding a company: buyers, payment terms, locations and a purchase order number\n• Approvals, budgets and punchout\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "customers",
+    "companies",
+    "B2B ecommerce",
+    "price lists",
+    "store credit",
+    "loyalty points",
+    "referrals",
+    "address book",
+    "privacy request",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why customers and companies"
+    },
+    {
+      "time": "1:02",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:49",
+      "title": "Find a customer"
+    },
+    {
+      "time": "2:28",
+      "title": "Add and edit a customer"
+    },
+    {
+      "time": "3:31",
+      "title": "The address book"
+    },
+    {
+      "time": "4:28",
+      "title": "Store credit and loyalty points"
+    },
+    {
+      "time": "5:19",
+      "title": "Settings"
+    },
+    {
+      "time": "6:41",
+      "title": "Privacy requests"
+    },
+    {
+      "time": "7:28",
+      "title": "My Account"
+    },
+    {
+      "time": "8:17",
+      "title": "Price lists"
+    },
+    {
+      "time": "9:00",
+      "title": "Add a company"
+    },
+    {
+      "time": "10:25",
+      "title": "Approvals and budgets"
+    },
+    {
+      "time": "11:16",
+      "title": "Punchout"
+    },
+    {
+      "time": "11:56",
+      "title": "Use cases"
+    },
+    {
+      "time": "12:39",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Customers user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/customers"
+    },
+    {
+      "label": "Companies user manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/companies"
+    },
+    {
+      "label": "Customers technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/customers"
+    },
+    {
+      "label": "Companies technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/companies"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Customers"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/customers.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/companies.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/store-credit-and-rewards.md",
+    "src/CrestApps.Docs/docs/modules/customers.md",
+    "src/CrestApps.Docs/docs/modules/companies.md"
+  ],
+  "length": "12:51"
+}
