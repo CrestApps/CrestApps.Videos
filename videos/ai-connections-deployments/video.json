@@ -1,0 +1,91 @@
+{
+  "title": "AI Connections and Deployments: Connect Your Site to an AI Service | CrestApps for Orchard Core",
+  "description": "Before anyone can chat with an AI assistant, search documents with AI, or hold a spoken conversation, your Orchard Core site has to reach an AI service and know which model to use for each job. The CrestApps AI module keeps that in one place: you add a connection once, add a deployment for each model, and choose the default models, so every profile and feature picks a model by name.\n\nIn this video:\n• Why the provider is set up once instead of in every profile\n• How connections, deployments and default deployments fit together\n• Adding a connection with an endpoint and an API key\n• Adding chat and embedding deployments\n• Model capabilities, including reasoning effort\n• Choosing the default chat, utility and embedding models\n• Which capability each feature needs",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI provider",
+    "Azure OpenAI",
+    "OpenAI",
+    "AI deployments",
+    "model capabilities",
+    "embedding model",
+    "AI chatbot",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why connections and deployments"
+    },
+    {
+      "time": "0:58",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:39",
+      "title": "Add a connection"
+    },
+    {
+      "time": "2:34",
+      "title": "Add a deployment"
+    },
+    {
+      "time": "3:33",
+      "title": "Model capabilities"
+    },
+    {
+      "time": "4:18",
+      "title": "Choose the default models"
+    },
+    {
+      "time": "4:59",
+      "title": "Match the model to the job"
+    },
+    {
+      "time": "5:42",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/connections"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/providers"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.ConnectionManagement"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/connections.md",
+    "src/CrestApps.Docs/docs/ai/providers/index.md"
+  ],
+  "length": "5:56"
+}

@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:03.189 --> 00:00:06.541
+Open Artificial Intelligence, Provider Connections.
+
+00:00:06.541 --> 00:00:12.069
+The connections of the site are listed here, and below them the ones from configuration.
+
+00:00:12.522 --> 00:00:14.182
+Click Add Connection.
+
+00:00:14.182 --> 00:00:18.734
+The window lists one provider for each provider feature you enabled.
+
+00:00:18.734 --> 00:00:20.702
+Click Add on Azure OpenAI.
+
+00:00:21.152 --> 00:00:23.030
+Give the connection a Title.
+
+00:00:23.030 --> 00:00:27.172
+The Technical name is filled in from it, and cannot be changed later.
+
+00:00:27.624 --> 00:00:33.235
+Paste the Endpoint from your provider's portal, and choose how the site signs in:
+
+00:00:33.235 --> 00:00:37.364
+default authentication, a managed identity, or an API key.
+
+00:00:37.879 --> 00:00:40.093
+With an API key, paste it here.
+
+00:00:40.093 --> 00:00:45.299
+When you edit the connection later, leave the field blank to keep the stored key.
+
+00:00:45.752 --> 00:00:46.737
+Click Save.
+
+00:00:46.737 --> 00:00:51.026
+The site checks the fields, but it does not contact the provider, so
+
+00:00:51.026 --> 00:00:54.272
+a wrong key shows up the first time someone chats.
+
