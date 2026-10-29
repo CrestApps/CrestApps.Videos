@@ -1,0 +1,299 @@
+{
+  "title": "Store credit, loyalty points and referrals",
+  "output": "store-credit-loyalty-referrals",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Store credit, loyalty points and referrals",
+      "subtitle": "Credit, points and referrals",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The customers who come back are worth rewarding. This video shows store credit, loyalty points and referrals: how to give them, how buyers spend them at checkout, and what they see in their account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why reward customers",
+      "subtitle": "Credit, points and referrals",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Winning a customer costs far more than keeping one. The ones who come back are worth rewarding."
+            },
+            {
+              "id": "why-2",
+              "text": "Three features do it. Store credit is money you owe a customer, such as a refund kept as credit. Loyalty points are earned on what they buy. Referrals reward them for bringing a friend."
+            },
+            {
+              "id": "why-3",
+              "text": "Each one pays toward later orders at checkout, after tax, like a gift card."
+            },
+            {
+              "id": "why-4",
+              "text": "They belong to a customer's account, so only signed in buyers earn and spend them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it fits together",
+      "subtitle": "Customers, checkout and the buyer's account",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You give or take credit and points on the customer's page, with a reason that is kept."
+            },
+            {
+              "id": "how-2",
+              "text": "At checkout, a signed in buyer sees a box for each, and puts it toward the order."
+            },
+            {
+              "id": "how-3",
+              "text": "Under My account, buyers see their credit, their rewards and their referral link."
+            },
+            {
+              "id": "how-4",
+              "text": "Settings, Commerce, Rewards and Referrals set the rules."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Give store credit",
+      "subtitle": "On a customer's page",
+      "clips": [
+        {
+          "id": "03-credit",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "crd-1",
+              "text": "Open Commerce, Customers, and open a customer with an account. Guests cannot be given credit, because credit is spent when the customer signs in."
+            },
+            {
+              "id": "crd-2",
+              "text": "Under Store credit, enter an Amount, check the Currency, which starts with your checkout currency, and give a Reason, such as Late delivery. Click Change."
+            },
+            {
+              "id": "crd-3",
+              "text": "A positive amount gives credit, and a negative one takes it away. Every change is kept below, with when, what, the change and the balance after it. Credit is kept for each currency, and never goes below zero."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Refund as store credit",
+      "subtitle": "Keep the money in your store",
+      "clips": [
+        {
+          "id": "04-refund",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ref-1",
+              "text": "When you refund an order whose buyer has an account, the Refund form on the order has a box to give it as store credit."
+            },
+            {
+              "id": "ref-2",
+              "text": "Tick it, and the refund is added to the buyer's credit instead of going back to their card. The order counts it as refunded, and its notes say how much went back as store credit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Store credit at checkout",
+      "subtitle": "Use my store credit",
+      "clips": [
+        {
+          "id": "05-spend",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "spd-1",
+              "text": "On the Payment step, a signed in buyer with credit in the order's currency sees a Store credit box. Use my store credit puts it toward the order, up to what is due."
+            },
+            {
+              "id": "spd-2",
+              "text": "The box shows how much is used and what is left, and the summary shows the credit under the total. Under My account, Store credit lists their balance and every change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Loyalty points",
+      "subtitle": "The program and a customer's points",
+      "clips": [
+        {
+          "id": "06-points",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pts-1",
+              "text": "Open Settings, Commerce, Rewards. Program name is what buyers see. Points per unit spent is how many points each dollar earns, on goods after discounts, not shipping or tax."
+            },
+            {
+              "id": "pts-2",
+              "text": "What a point is worth is its value at checkout, so 0.01 makes 100 points worth one dollar. Fewest points to spend is how many a buyer needs before they can spend them. Click Save."
+            },
+            {
+              "id": "pts-3",
+              "text": "On a customer's page, the section named after your program shows their points and what they are worth. Enter Points and a Reason, and click Change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Points at checkout",
+      "subtitle": "Earn, spend and take back",
+      "clips": [
+        {
+          "id": "07-spend",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pnt-1",
+              "text": "Under My account, Rewards shows the buyer's points, what they are worth, how they earn and spend them, and every change."
+            },
+            {
+              "id": "pnt-2",
+              "text": "At checkout, Use my points pays toward the order, and only the points needed are spent. Points are earned when the order is placed, taken back when it is canceled, and a matching share is taken back on a refund."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Set up referrals",
+      "subtitle": "What a friend gets, what the customer gets",
+      "clips": [
+        {
+          "id": "08-setup",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Referrals. What a friend gets is nothing, or one of your coupons. Each friend gets a single use code from it. Tick Only the generated codes work on that coupon, so its own code cannot be shared."
+            },
+            {
+              "id": "set-2",
+              "text": "What the customer gets is nothing, store credit, or loyalty points, for each friend's first order. Set the amount, and the least a friend's first order spends. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Refer a friend",
+      "subtitle": "The link and the reward",
+      "clips": [
+        {
+          "id": "09-refer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rfr-1",
+              "text": "Each signed in customer gets a referral link under Refer a friend in their account, with a Copy button. It shows what a friend gets and what they get."
+            }
+          ]
+        },
+        {
+          "id": "09-friend",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rfr-2",
+              "text": "A friend who opens the link sees a welcome, with their discount waiting in the promotion code box at checkout. They can buy as a guest."
+            }
+          ]
+        },
+        {
+          "id": "09-reward",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rfr-3",
+              "text": "When the friend's first order is placed, the customer is rewarded, once, and the reward is taken back if the order is canceled. The customer's account lists the friends who bought through the link, by first name, with the reward for each."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "Four ways to use rewards",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Make a customer whole after a late delivery with store credit."
+            },
+            {
+              "id": "use-2",
+              "text": "Refund as credit, so the money stays in your store."
+            },
+            {
+              "id": "use-3",
+              "text": "A rewards program that gives points on every order."
+            },
+            {
+              "id": "use-4",
+              "text": "Growth through friends, with a coupon for the friend and credit for the customer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Give credit, reward every order with points, and let customers bring their friends. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
