@@ -1,0 +1,325 @@
+{
+  "title": "Company approvals and pay on account",
+  "output": "company-approvals",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Company approvals and pay on account",
+      "subtitle": "Sell to businesses the way they buy",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Businesses buy on account, quote a purchase order number, and want a manager to approve the bigger orders. This video shows how a company buys from your store, how an admin approves an order, and how the company pays."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why companies buy differently",
+      "subtitle": "Accounts, approvals and invoices",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A business buyer spends the company's money, so the company wants a say in what is bought."
+            },
+            {
+              "id": "why-2",
+              "text": "It wants the order tied to its purchase order number, so accounting can match the invoice."
+            },
+            {
+              "id": "why-3",
+              "text": "And it wants to pay later: a small deposit now, and the rest on an invoice."
+            },
+            {
+              "id": "why-4",
+              "text": "Companies do all of that, and the buyer shops and checks out as usual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Buyers, admins and terms",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A company has buyers and admins, who sign in as themselves."
+            },
+            {
+              "id": "how-2",
+              "text": "Its terms say how it pays: net days, a deposit, a credit limit, and a purchase order."
+            },
+            {
+              "id": "how-3",
+              "text": "An order limit, or a monthly budget, sends bigger orders to an admin to approve."
+            },
+            {
+              "id": "how-4",
+              "text": "Once approved, the buyer pays the deposit, and the rest goes on account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set the terms",
+      "subtitle": "Order limit, deposit, credit limit and budget",
+      "clips": [
+        {
+          "id": "03-terms",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "terms-1",
+              "text": "Open Commerce, Companies, and open the company. Northwind Traders already has an admin, Riley, and a buyer, Morgan."
+            },
+            {
+              "id": "terms-2",
+              "text": "Give a buyer an Order limit. Morgan may place orders up to three hundred dollars; a bigger order waits for a company admin to approve it."
+            },
+            {
+              "id": "terms-3",
+              "text": "Under Payment terms, Net days is how long the company has to pay its invoice. Deposit is the part paid at checkout, here twenty percent. Credit limit is the most the company may owe at once: an order goes on account only as far as the limit allows, and the rest is paid at checkout."
+            },
+            {
+              "id": "terms-4",
+              "text": "Monthly budget sends any order that would take the month past it to an admin too. And Buyers give a purchase order number makes the number required."
+            },
+            {
+              "id": "terms-5",
+              "text": "Click Save. The company is saved, and its row shows its terms."
+            }
+          ]
+        }
+      ],
+      "short": "terms"
+    },
+    {
+      "id": "04",
+      "title": "The buyer's checkout",
+      "subtitle": "A company order that needs approval",
+      "clips": [
+        {
+          "id": "04-buyer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "buyer-1",
+              "text": "Now Morgan, the buyer, signs in, and adds a watch to the cart. Morgan changes the quantity to three, so the order comes to three hundred eighty-seven dollars. That is over Morgan's order limit of three hundred."
+            },
+            {
+              "id": "buyer-2",
+              "text": "Checkout starts as usual, with the Contact step and the Shipping step. Morgan fills in the contact details, then the address where the order goes, and chooses a shipping rate. A company buyer does nothing different here: the extra step comes after shipping, and it is the one that matters."
+            },
+            {
+              "id": "buyer-3",
+              "text": "Then comes a Company step. It says Morgan is ordering for Northwind Traders, and that a company admin has to approve this order first, because it is over the order limit. The company requires a purchase order number, so Morgan types it in."
+            },
+            {
+              "id": "buyer-4",
+              "text": "Morgan ticks Ask for approval, and continues. The company's admins are emailed, and the page says the order is waiting for their approval."
+            },
+            {
+              "id": "buyer-5",
+              "text": "Under Morgan's orders, the order says it is waiting for approval, and why. It cannot be paid until an admin approves it."
+            }
+          ]
+        }
+      ],
+      "short": "buyer"
+    },
+    {
+      "id": "05",
+      "title": "The admin approves",
+      "subtitle": "From the company page",
+      "clips": [
+        {
+          "id": "05-approve",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "approve-1",
+              "text": "Riley is a company admin. Riley's Company page, under Your account, lists the orders waiting for approval: who asked, why, and what is in the order."
+            },
+            {
+              "id": "approve-2",
+              "text": "Riley can add a note for the buyer, such as why it was approved, and then click Approve. Reject would cancel the order instead, so the buyer would have to start again. The buyer is emailed either way, with the note."
+            },
+            {
+              "id": "approve-3",
+              "text": "The page also shows the company's monthly budget and what has been spent, and every order of the company, with its purchase order number."
+            }
+          ]
+        }
+      ],
+      "short": "approve"
+    },
+    {
+      "id": "06",
+      "title": "Pay on account",
+      "subtitle": "A deposit now, the rest on an invoice",
+      "clips": [
+        {
+          "id": "06-pay",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pay-1",
+              "text": "Morgan is emailed that the order is approved. Under Morgan's orders, the order now says Riley approved it: pay it to place it. Morgan clicks Pay now."
+            },
+            {
+              "id": "pay-2",
+              "text": "Checkout opens at the Company step again. Morgan enters the purchase order number, and continues to the payment step."
+            },
+            {
+              "id": "pay-3",
+              "text": "Beside the payment methods is a Pay on account box. It says Morgan pays a twenty percent deposit now, and the rest, three hundred sixteen dollars, goes on Northwind Traders's account, due in thirty days. Morgan clicks Pay on account, and the order shows what is on account, and that only the seventy-nine dollar deposit is due now."
+            },
+            {
+              "id": "pay-4",
+              "text": "Morgan picks a payment method for the deposit, here a bank transfer, whose instructions appear below. Then Morgan clicks Pay now, and the order is placed, with the deposit due and the rest on account."
+            },
+            {
+              "id": "pay-5",
+              "text": "The company's page now shows what Northwind owes on account. Under Balances and invoices, Morgan finds the invoice, which is due in thirty days."
+            }
+          ]
+        }
+      ],
+      "short": "pay"
+    },
+    {
+      "id": "07",
+      "title": "What the company owes",
+      "subtitle": "Transactions, on account",
+      "clips": [
+        {
+          "id": "07-owed",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "owed-1",
+              "text": "Staff see it under Commerce, Transactions. The order made two transactions: the twenty percent deposit, to be paid by bank transfer, and the rest, from the source company-terms, put on Northwind Traders's account with its purchase order number, due in thirty days."
+            },
+            {
+              "id": "owed-2",
+              "text": "Open the one on account. Its timeline says it was put on Northwind's account, due in thirty days. When the company pays, enter the amount and a reference under Record an offline payment."
+            },
+            {
+              "id": "owed-3",
+              "text": "Click Record payment, and confirm that it counts as received. The transaction shows what is paid, and what is still outstanding, so you always know what the company owes."
+            }
+          ]
+        }
+      ],
+      "short": "owed"
+    },
+    {
+      "id": "08",
+      "title": "Quotes with a purchase order",
+      "subtitle": "Ask for a price first",
+      "clips": [
+        {
+          "id": "08-quote",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "quote-1",
+              "text": "A buyer who wants a price first can ask for a quote. When quote requests are turned on, under Settings, Commerce, Orders, a signed-in buyer sees Request a quote on the cart. Morgan wants twenty of these watches."
+            },
+            {
+              "id": "quote-2",
+              "text": "Morgan writes a message, such as how many are needed and by when, and gives the purchase order number. The cart is emptied, and the request shows under Morgan's orders. Staff then price it and send the quote, and the company pays it like any order."
+            }
+          ]
+        }
+      ],
+      "short": "quote"
+    },
+    {
+      "id": "09",
+      "title": "Punchout",
+      "subtitle": "Ordering from the company's own system",
+      "clips": [
+        {
+          "id": "09-punch",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "punch-1",
+              "text": "A company's procurement system, such as SAP, can open your store by punchout, and the buyer fills a cart at the company's prices."
+            },
+            {
+              "id": "punch-2",
+              "text": "On the cart, Transfer to your procurement system sends the items, quantities, prices and SKUs back, to be approved and ordered there. You turn punchout on in the company, as the Customers and Companies video shows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A trade supplier: a purchase order, a small deposit, and an invoice due in thirty days."
+            },
+            {
+              "id": "use-2",
+              "text": "A multi-site business: buyers order up to a limit, and a manager approves the rest."
+            },
+            {
+              "id": "use-3",
+              "text": "A monthly budget: orders that would pass it wait for an admin."
+            },
+            {
+              "id": "use-4",
+              "text": "A large order: a quote with a purchase order, paid at the price you send."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With companies, your business customers buy the way their business works: on account, with approvals, against a purchase order. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

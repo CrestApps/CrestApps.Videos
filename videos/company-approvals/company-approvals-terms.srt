@@ -1,0 +1,56 @@
+1
+00:00:03,204 --> 00:00:06,766
+Open Commerce, Companies, and open the company.
+
+2
+00:00:06,766 --> 00:00:11,674
+Northwind Traders already has an admin, Riley, and a buyer, Morgan.
+
+3
+00:00:12,127 --> 00:00:14,116
+Give a buyer an Order limit.
+
+4
+00:00:14,116 --> 00:00:18,737
+Morgan may place orders up to three hundred dollars; a bigger order waits
+
+5
+00:00:18,737 --> 00:00:21,077
+for a company admin to approve it.
+
+6
+00:00:21,531 --> 00:00:26,570
+Under Payment terms, Net days is how long the company has to pay its invoice.
+
+7
+00:00:26,570 --> 00:00:30,456
+Deposit is the part paid at checkout, here twenty percent.
+
+8
+00:00:30,456 --> 00:00:34,038
+Credit limit is the most the company may owe at once:
+
+9
+00:00:34,038 --> 00:00:38,106
+an order goes on account only as far as the limit allows, and
+
+10
+00:00:38,106 --> 00:00:40,231
+the rest is paid at checkout.
+
+11
+00:00:40,685 --> 00:00:45,555
+Monthly budget sends any order that would take the month past it to an admin too.
+
+12
+00:00:45,555 --> 00:00:49,585
+And Buyers give a purchase order number makes the number required.
+
+13
+00:00:50,036 --> 00:00:51,237
+Click Save.
+
+14
+00:00:51,237 --> 00:00:55,196
+The company is saved, and its row shows its terms.
+

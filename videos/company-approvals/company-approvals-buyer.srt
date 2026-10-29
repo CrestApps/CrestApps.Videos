@@ -1,0 +1,64 @@
+1
+00:00:03,291 --> 00:00:07,630
+Now Morgan, the buyer, signs in, and adds a watch to the cart.
+
+2
+00:00:07,630 --> 00:00:14,074
+Morgan changes the quantity to three, so the order comes to three hundred eighty-seven dollars.
+
+3
+00:00:14,074 --> 00:00:17,711
+That is over Morgan's order limit of three hundred.
+
+4
+00:00:18,183 --> 00:00:22,670
+Checkout starts as usual, with the Contact step and the Shipping step.
+
+5
+00:00:22,670 --> 00:00:27,453
+Morgan fills in the contact details, then the address where the order goes,
+
+6
+00:00:27,453 --> 00:00:29,461
+and chooses a shipping rate.
+
+7
+00:00:29,461 --> 00:00:32,413
+A company buyer does nothing different here:
+
+8
+00:00:32,413 --> 00:00:36,783
+the extra step comes after shipping, and it is the one that matters.
+
+9
+00:00:37,233 --> 00:00:39,071
+Then comes a Company step.
+
+10
+00:00:39,071 --> 00:00:43,665
+It says Morgan is ordering for Northwind Traders, and that a company admin
+
+11
+00:00:43,665 --> 00:00:47,914
+has to approve this order first, because it is over the order limit.
+
+12
+00:00:47,914 --> 00:00:52,163
+The company requires a purchase order number, so Morgan types it in.
+
+13
+00:00:52,618 --> 00:00:55,763
+Morgan ticks Ask for approval, and continues.
+
+14
+00:00:55,763 --> 00:01:01,808
+The company's admins are emailed, and the page says the order is waiting for their approval.
+
+15
+00:01:02,261 --> 00:01:07,183
+Under Morgan's orders, the order says it is waiting for approval, and why.
+
+16
+00:01:07,183 --> 00:01:10,321
+It cannot be paid until an admin approves it.
+

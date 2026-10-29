@@ -1,0 +1,64 @@
+1
+00:00:03,227 --> 00:00:06,293
+Morgan is emailed that the order is approved.
+
+2
+00:00:06,293 --> 00:00:10,260
+Under Morgan's orders, the order now says Riley approved it:
+
+3
+00:00:10,260 --> 00:00:11,763
+pay it to place it.
+
+4
+00:00:11,763 --> 00:00:13,447
+Morgan clicks Pay now.
+
+5
+00:00:13,901 --> 00:00:16,670
+Checkout opens at the Company step again.
+
+6
+00:00:16,670 --> 00:00:21,441
+Morgan enters the purchase order number, and continues to the payment step.
+
+7
+00:00:21,893 --> 00:00:25,230
+Beside the payment methods is a Pay on account box.
+
+8
+00:00:25,230 --> 00:00:29,621
+It says Morgan pays a twenty percent deposit now, and the rest, three
+
+9
+00:00:29,621 --> 00:00:34,714
+hundred sixteen dollars, goes on Northwind Traders's account, due in thirty days.
+
+10
+00:00:34,714 --> 00:00:39,105
+Morgan clicks Pay on account, and the order shows what is on account,
+
+11
+00:00:39,105 --> 00:00:42,793
+and that only the seventy-nine dollar deposit is due now.
+
+12
+00:00:43,248 --> 00:00:49,549
+Morgan picks a payment method for the deposit, here a bank transfer, whose instructions appear below.
+
+13
+00:00:49,549 --> 00:00:53,966
+Then Morgan clicks Pay now, and the order is placed, with the deposit
+
+14
+00:00:53,966 --> 00:00:55,968
+due and the rest on account.
+
+15
+00:00:56,420 --> 00:01:00,682
+The company's page now shows what Northwind owes on account.
+
+16
+00:01:00,682 --> 00:01:06,430
+Under Balances and invoices, Morgan finds the invoice, which is due in thirty days.
+
