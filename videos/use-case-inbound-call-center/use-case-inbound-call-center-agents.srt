@@ -1,0 +1,24 @@
+1
+00:00:03,228 --> 00:00:07,106
+Give each agent their queues under Agent entitlements.
+
+2
+00:00:07,106 --> 00:00:11,758
+Open the entitlement of an agent, and add Sales to Allowed queues.
+
+3
+00:00:11,758 --> 00:00:16,670
+The queue's priority and delay say how the agent backs up other teams.
+
+4
+00:00:16,670 --> 00:00:20,288
+Skills decide who can take work that requires one.
+
+5
+00:00:20,748 --> 00:00:25,235
+Supervisors see only the queues on their own entitlement record.
+
+6
+00:00:25,235 --> 00:00:29,528
+An empty live dashboard almost always means a missing record.
+

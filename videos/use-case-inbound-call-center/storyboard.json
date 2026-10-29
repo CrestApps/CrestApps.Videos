@@ -1,0 +1,289 @@
+{
+  "title": "Run an Inbound Call Center",
+  "output": "use-case-inbound-call-center",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "Telnyx": "Tel nix",
+    "IVR": "I.V.R."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Inbound Call Center",
+      "subtitle": "From a number to the right person",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An inbound call center answers the customers who call you. This video follows the whole story: the features to turn on, the order to set things up, and what each person does. Calls never connect on this demo site, so the live parts are shown with slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Who it is for",
+      "subtitle": "And what you get",
+      "clips": [
+        {
+          "id": "01-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "This is for managers and administrators who set up a phone line for customers, and for the supervisors and agents who run it."
+            },
+            {
+              "id": "who-2",
+              "text": "A customer who calls your number hears a welcome and, if you want one, a keypad menu. The call waits in the right queue, with hold music and updates on their place in line, and is offered to a free agent with the right skills."
+            },
+            {
+              "id": "who-3",
+              "text": "After hours, callers hear a closed message, and are held, sent to voicemail, moved to another queue, or refused, as you choose."
+            },
+            {
+              "id": "who-4",
+              "text": "Agents answer in the soft phone and record the outcome. Supervisors watch the queues live, listen in, and read reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "Features, roles and a provider",
+      "clips": [
+        {
+          "id": "02-before",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "before-1",
+              "text": "Your administrator turns on the features in Tools, Features. Telephony and your provider come first. Then Contact Center Work Distribution for queues, Inbound Entry Points, and Inbound Voice. Agents need Contact Center Agents, and supervisors need Supervision and the Live Dashboard."
+            }
+          ]
+        },
+        {
+          "id": "02b-needs",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "need-1",
+              "text": "Contact Center Agent Entitlements is recommended once you have more than one team. A phone provider account, with the numbers customers will call, comes first, and the Agent role needs the permission to use the telephony soft phone. Supervisors have the Supervisor role."
+            }
+          ]
+        }
+      ],
+      "short": "before"
+    },
+    {
+      "id": "03",
+      "title": "The set-up order",
+      "subtitle": "Numbers, hours, queues, route, people",
+      "clips": [
+        {
+          "id": "03-order",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "order-1",
+              "text": "Start with what customers dial. List your numbers, set your opening hours, and upload hold music and prompts if you want them."
+            },
+            {
+              "id": "order-2",
+              "text": "Then the places calls wait. Create a queue for each team, such as Sales and Support."
+            },
+            {
+              "id": "order-3",
+              "text": "Then the people. Decide who works each queue with agent entitlements, skills and break reasons."
+            },
+            {
+              "id": "order-4",
+              "text": "Then route the number. An entry point sends the number to a queue, with a welcome message, a closed action and voicemail."
+            },
+            {
+              "id": "order-5",
+              "text": "Last, the house rules, the phone apps, and training for agents and supervisors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Numbers and opening hours",
+      "subtitle": "What customers dial, and when you answer",
+      "clips": [
+        {
+          "id": "04-numbers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "num-1",
+              "text": "Add each number customers call under Omnichannel Addresses, with Voice calls ticked. These are the numbers the entry points route."
+            },
+            {
+              "id": "num-2",
+              "text": "Create a business hours calendar with your weekly hours and holidays. A queue or an entry point that uses it is closed outside those hours. A disabled calendar never closes anything."
+            }
+          ]
+        }
+      ],
+      "short": "numbers"
+    },
+    {
+      "id": "05",
+      "title": "The queue",
+      "subtitle": "Where callers wait",
+      "clips": [
+        {
+          "id": "05-queue",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "queue-1",
+              "text": "Create a queue for each team under Queues. Give it a Name, such as Sales. The routing strategy decides which free agent gets the next call."
+            },
+            {
+              "id": "queue-2",
+              "text": "The business hours calendar and the after-hours action say what happens outside opening hours. The service level threshold is how long a caller should wait."
+            },
+            {
+              "id": "queue-3",
+              "text": "The overflow queue takes callers after a wait, and the hold music, the announcements and the callback key set what callers hear while they wait. Save the queue."
+            }
+          ]
+        }
+      ],
+      "short": "queue"
+    },
+    {
+      "id": "06",
+      "title": "Route the number",
+      "subtitle": "An entry point",
+      "clips": [
+        {
+          "id": "06-route",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "route-1",
+              "text": "Add a Voice calls entry point under Inbound entry points. Give it a Name, and pick the number it answers. A number is answered by one enabled entry point for each channel."
+            },
+            {
+              "id": "route-2",
+              "text": "Set Route to a queue, and pick Sales. Pick the business hours calendar, and the closed action, such as voicemail."
+            },
+            {
+              "id": "route-3",
+              "text": "Write the welcome message callers hear, and the closed message. Choose where voicemail goes. A keypad menu can be built in the same form, when callers should choose a department. Save."
+            }
+          ]
+        }
+      ],
+      "short": "route"
+    },
+    {
+      "id": "07",
+      "title": "The agents",
+      "subtitle": "Queues and entitlements",
+      "clips": [
+        {
+          "id": "07-agents",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "agent-1",
+              "text": "Give each agent their queues under Agent entitlements. Open the entitlement of an agent, and add Sales to Allowed queues. The queue's priority and delay say how the agent backs up other teams. Skills decide who can take work that requires one."
+            },
+            {
+              "id": "agent-2",
+              "text": "Supervisors see only the queues on their own entitlement record. An empty live dashboard almost always means a missing record."
+            }
+          ]
+        }
+      ],
+      "short": "agents"
+    },
+    {
+      "id": "08",
+      "title": "What each person does",
+      "subtitle": "Agents and supervisors",
+      "clips": [
+        {
+          "id": "08-roles",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "role-1",
+              "text": "Each agent installs the phone app, signs in to their queues from the Work tab of the soft phone, sets themselves Available, and records a voicemail greeting."
+            },
+            {
+              "id": "role-2",
+              "text": "When a call arrives, the agent's bar shows the offer with a countdown. The agent accepts, talks, hangs up, and lands in Wrap-up until they complete the activity with a disposition."
+            },
+            {
+              "id": "role-3",
+              "text": "A supervisor sees the call on the live dashboard, while it waits and while it is connected, and can listen, whisper or barge in, and work the shared voicemail."
+            },
+            {
+              "id": "role-4",
+              "text": "Call insights, Queue usage and Agent productivity show how the line performs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Check it, and tips",
+      "subtitle": "Before the first real call",
+      "clips": [
+        {
+          "id": "09-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "To check that it works, have an agent sign in to the queue and be Available. Call the number from another phone during opening hours, and listen for the welcome message and the menu."
+            },
+            {
+              "id": "tip-2",
+              "text": "Call again with no agent available, to hear the hold music and the announcements. Call outside opening hours to hear the closed message and the closed action."
+            },
+            {
+              "id": "tip-3",
+              "text": "Start with one queue and one entry point. Test them, and add menus and overflow after. Clone a queue or an entry point from its Actions menu to make a similar one quickly."
+            },
+            {
+              "id": "tip-4",
+              "text": "Callbacks need the Contact Center Outbound Dialer feature. To let an AI answer the line instead, see the use case about letting the AI answer your customers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "List the numbers, open the queues, route each number, and give your agents their queues. Customers who call reach the right person, and supervisors can watch it live. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

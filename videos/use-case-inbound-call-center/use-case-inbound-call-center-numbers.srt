@@ -1,0 +1,20 @@
+1
+00:00:03,172 --> 00:00:08,381
+Add each number customers call under Omnichannel Addresses, with Voice calls ticked.
+
+2
+00:00:08,381 --> 00:00:11,332
+These are the numbers the entry points route.
+
+3
+00:00:11,801 --> 00:00:16,612
+Create a business hours calendar with your weekly hours and holidays.
+
+4
+00:00:16,612 --> 00:00:21,423
+A queue or an entry point that uses it is closed outside those hours.
+
+5
+00:00:21,423 --> 00:00:24,501
+A disabled calendar never closes anything.
+
