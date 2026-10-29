@@ -1,0 +1,24 @@
+1
+00:00:03,192 --> 00:00:07,776
+Open the profile of an assistant, and its Capabilities tab.
+
+2
+00:00:07,776 --> 00:00:11,231
+Under A2A Connections, tick the connection.
+
+3
+00:00:11,231 --> 00:00:16,802
+Each agent that the host offers becomes something the assistant can call.
+
+4
+00:00:17,262 --> 00:00:21,798
+Under Agents, tick the agents of this site that the assistant may call.
+
+5
+00:00:21,798 --> 00:00:24,802
+Always-available agents are already included.
+
+6
+00:00:25,257 --> 00:00:27,127
+Click Save.
+

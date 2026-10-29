@@ -1,0 +1,94 @@
+{
+  "title": "Agent-to-Agent (A2A): Specialist AI Agents Across Systems | CrestApps for Orchard Core",
+  "description": "Some jobs are best done by a specialist. In CrestApps for Orchard Core, an Agent profile is a specialist with its own instructions, the A2A Host offers your agents to other systems over the Agent-to-Agent protocol, and the A2A Client lets your assistants call the agents of other systems.\n\nIn this video:\n• Why specialist agents beat one assistant that does everything\n• How Agent profiles, the A2A Host and the A2A Client fit together\n• Creating an Agent profile: description, availability and instructions\n• How your site offers its agents to other systems\n• Adding an A2A connection to another system's host\n• Giving an assistant the connection, and asking a specialist a question\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "A2A",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "Agent-to-Agent",
+    "A2A",
+    "AI agents",
+    "multi-agent",
+    "AI assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why agents"
+    },
+    {
+      "time": "0:53",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:31",
+      "title": "Create an agent"
+    },
+    {
+      "time": "2:21",
+      "title": "Offer your agents"
+    },
+    {
+      "time": "2:54",
+      "title": "Connect to another system"
+    },
+    {
+      "time": "3:43",
+      "title": "Give an assistant the agents"
+    },
+    {
+      "time": "4:11",
+      "title": "Ask a specialist"
+    },
+    {
+      "time": "4:26",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:00",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/a2a"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/a2a"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.A2A"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/a2a.md",
+    "src/CrestApps.Docs/docs/user-manual/ai/tools-and-agents.md",
+    "src/CrestApps.Docs/docs/ai/a2a/index.md"
+  ],
+  "length": "5:16"
+}
