@@ -1,0 +1,68 @@
+WEBVTT
+
+00:00:03.242 --> 00:00:06.795
+Open Reports, Operations, Dialer activity and health.
+
+00:00:06.795 --> 00:00:11.431
+Dialer right now is live, and shows the State, how many paced campaigns
+
+00:00:11.431 --> 00:00:16.309
+have work waiting, and how many are stalled, idle, holding back or dialing.
+
+00:00:16.309 --> 00:00:20.042
+The date range only changes the counts and charts below.
+
+00:00:20.690 --> 00:00:23.798
+Campaign queues has one row for each campaign.
+
+00:00:23.798 --> 00:00:28.519
+It shows the Dialer state, when the last cycle started and completed, the
+
+00:00:28.519 --> 00:00:31.926
+Last outcome and, under Why, what the dialer found.
+
+00:00:31.926 --> 00:00:36.707
+Cycles, Calls placed, Routed to an agent and No agent available count what
+
+00:00:36.707 --> 00:00:38.380
+happened in the range.
+
+00:00:38.839 --> 00:00:44.053
+Dialer profiles shows each profile's Mode, its last cycle, and the calls it
+
+00:00:44.053 --> 00:00:47.207
+placed, answered, abandoned and suppressed.
+
+00:00:47.207 --> 00:00:53.386
+Below, charts show calls and campaign routing decisions over time, and Suppressed attempts
+
+00:00:53.386 --> 00:00:56.669
+by reason counts why records were not dialed.
+
+00:00:58.269 --> 00:01:00.604
+The state tells you at a glance.
+
+00:01:00.604 --> 00:01:04.046
+Dialing means calls were placed in the last cycle.
+
+00:01:04.046 --> 00:01:07.427
+Idle means work is due but no agent is available.
+
+00:01:07.427 --> 00:01:12.713
+Holding back means a rule, such as the abandonment policy, kept it from dialing.
+
+00:01:12.713 --> 00:01:15.479
+Nothing to call means no record is due.
+
+00:01:16.229 --> 00:01:21.026
+Starting means work arrived and the first cycle has not finished.
+
+00:01:21.026 --> 00:01:26.565
+Stalled means work is due but no cycle has completed for about five minutes.
+
+00:01:26.565 --> 00:01:32.308
+Not pacing means the pacing lock was not acquired, so every cycle skips itself.
+
+00:01:32.308 --> 00:01:35.889
+Stalled and not pacing need your administrator.
+

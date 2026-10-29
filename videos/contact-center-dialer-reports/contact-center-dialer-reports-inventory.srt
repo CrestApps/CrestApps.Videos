@@ -1,0 +1,12 @@
+1
+00:00:03,254 --> 00:00:07,219
+Dialer queue inventory is the live view of what is loaded.
+
+2
+00:00:07,219 --> 00:00:11,555
+It shows each campaign's waiting, reserved and assigned records.
+
+3
+00:00:11,555 --> 00:00:15,954
+Use it to confirm that a load arrived, and how much work is left.
+

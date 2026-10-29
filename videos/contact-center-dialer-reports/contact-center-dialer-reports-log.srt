@@ -1,0 +1,104 @@
+1
+00:00:03,300 --> 00:00:07,111
+Open Reports, Queue and Routing, Dialer decision log.
+
+2
+00:00:07,111 --> 00:00:14,023
+The summary counts Decisions, Routing decisions, Assigned, Not assigned, Suppressions and Activities.
+
+3
+00:00:14,023 --> 00:00:18,610
+Decisions by reason groups them, so you see the main cause first.
+
+4
+00:00:19,070 --> 00:00:23,901
+Queues with work due now shows each queue with records waiting and due,
+
+5
+00:00:23,901 --> 00:00:27,477
+when it last made a routing decision, and a Status.
+
+6
+00:00:27,477 --> 00:00:33,250
+It reads Deciding, or says that no routing decision was made in the last quarter hour.
+
+7
+00:00:33,715 --> 00:00:35,763
+Decisions lists each one.
+
+8
+00:00:35,763 --> 00:00:38,207
+Kind is Routing or Suppression.
+
+9
+00:00:38,207 --> 00:00:41,775
+Outcome is Assigned, Not assigned or Suppressed.
+
+10
+00:00:41,775 --> 00:00:47,192
+Reason says why, and Candidates lists every agent that was weighed, with why
+
+11
+00:00:47,192 --> 00:00:49,505
+each was or was not eligible.
+
+12
+00:00:49,958 --> 00:00:55,249
+To follow one record, type its Activity ID in the filters and apply them.
+
+13
+00:00:55,249 --> 00:00:58,062
+To follow one agent, pick the agent.
+
+14
+00:00:58,062 --> 00:01:03,353
+Campaign, Queue and Reason narrow the list, and the report shows the most
+
+15
+00:01:03,353 --> 00:01:06,568
+recent rows, up to five hundred on screen.
+
+16
+00:01:08,168 --> 00:01:11,668
+A suppression names why a record was not dialed:
+
+17
+00:01:11,668 --> 00:01:16,399
+No number to dial, Out of attempts, Waiting out the retry delay, Do
+
+18
+00:01:16,399 --> 00:01:20,028
+not call, or On the national do-not-call registry.
+
+19
+00:01:20,778 --> 00:01:27,332
+Others are Outside the calling window, Abandonment rate cap reached, Compliance check unavailable,
+
+20
+00:01:27,332 --> 00:01:29,349
+and Number not in service.
+
+21
+00:01:29,349 --> 00:01:32,373
+Compliance check unavailable is temporary:
+
+22
+00:01:32,373 --> 00:01:34,768
+the record is tried again later.
+
+23
+00:01:35,518 --> 00:01:40,249
+A routing decision that did not assign says No agents available, or No
+
+24
+00:01:40,249 --> 00:01:43,299
+available agent matched the routing policy.
+
+25
+00:01:43,299 --> 00:01:45,727
+The first means nobody was ready.
+
+26
+00:01:45,727 --> 00:01:51,578
+The second means agents were ready, but skills, capacity or entitlements ruled them out.
+

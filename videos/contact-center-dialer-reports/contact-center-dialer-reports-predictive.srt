@@ -1,0 +1,28 @@
+1
+00:00:03,200 --> 00:00:07,616
+A Predictive profile that over-dials has one more place to look.
+
+2
+00:00:07,616 --> 00:00:13,484
+On the profile's Predictive pacing card, Last pacing decision shows, for each campaign,
+
+3
+00:00:13,484 --> 00:00:18,594
+when the last cycle ran, whether it over-dialed, reserved an agent per call
+
+4
+00:00:18,594 --> 00:00:20,550
+or did not dial, and why.
+
+5
+00:00:21,300 --> 00:00:25,680
+It also shows how many calls were placed of those allowed, the free
+
+6
+00:00:25,680 --> 00:00:31,200
+agents, the calls ringing without an agent, the answer rate and the abandonment rates.
+
+7
+00:00:31,200 --> 00:00:35,820
+The table is read only, and it appears after the first over-dial cycle.
+
