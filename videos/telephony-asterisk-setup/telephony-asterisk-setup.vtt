@@ -1,0 +1,161 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.554
+Asterisk is a phone system your company runs itself.
+
+00:00:04.554 --> 00:00:09.089
+This video walks through the Asterisk tab of the telephony settings:
+
+00:00:09.089 --> 00:00:15.400
+the connection to Asterisk, voicemail, audio in the browser, and what Asterisk can and cannot do.
+
+00:00:20.000 --> 00:00:23.313
+The platform controls Asterisk through its A.R.I.
+
+00:00:23.313 --> 00:00:24.277
+interface:
+
+00:00:24.277 --> 00:00:28.313
+it places calls, answers them, holds them and transfers them.
+
+00:00:28.313 --> 00:00:32.650
+Your phone team gives you the address, a user name and a password.
+
+00:00:33.400 --> 00:00:36.772
+Agents talk through the browser, which needs more:
+
+00:00:36.772 --> 00:00:41.409
+a secure web socket address, a domain, servers that help audio find its
+
+00:00:41.409 --> 00:00:47.250
+way across the network, and a database where Asterisk finds the browser's temporary logins.
+
+00:00:51.550 --> 00:00:56.403
+Open Settings, Communication, Telephony, and choose the Asterisk tab.
+
+00:00:56.403 --> 00:00:58.732
+Tick Enable Asterisk provider.
+
+00:00:58.732 --> 00:01:03.972
+The rest of the fields appear, and Asterisk becomes the default provider if
+
+00:01:03.972 --> 00:01:05.590
+none is chosen yet.
+
+00:01:06.078 --> 00:01:10.220
+ARI base URL is the address of Asterisk's web interface.
+
+00:01:10.220 --> 00:01:14.094
+ARI user name and ARI password sign the platform in.
+
+00:01:14.094 --> 00:01:19.638
+The password is stored encrypted, and the box stays empty when you come back.
+
+00:01:20.097 --> 00:01:22.744
+Stasis application name is required.
+
+00:01:22.744 --> 00:01:26.841
+It must match the application your dialplan hands calls to.
+
+00:01:26.841 --> 00:01:31.883
+When several sites share one Asterisk server, give each site its own name,
+
+00:01:31.883 --> 00:01:35.287
+so one site never receives another site's calls.
+
+00:01:35.800 --> 00:01:42.601
+Endpoint template turns a dialed number into an Asterisk endpoint, with the number placeholder in braces.
+
+00:01:42.601 --> 00:01:47.257
+Outbound caller id is shown on outbound calls, and Dial timeout is how
+
+00:01:47.257 --> 00:01:49.340
+long Asterisk keeps ringing.
+
+00:01:53.560 --> 00:01:58.534
+Voicemail context is the dialplan context a ringing call continues into when the
+
+00:01:58.534 --> 00:02:00.732
+agent chooses Send to voicemail.
+
+00:02:00.732 --> 00:02:05.649
+Voicemail extension template picks the extension, and can use the queue name or
+
+00:02:05.649 --> 00:02:07.500
+the recipient's user name.
+
+00:02:07.962 --> 00:02:12.296
+Voicemail priority is where in that extension the call starts.
+
+00:02:12.296 --> 00:02:16.629
+Fill all three, and the soft phone shows its voicemail button.
+
+00:02:16.629 --> 00:02:19.942
+Leave them empty, and the button stays hidden.
+
+00:02:24.242 --> 00:02:29.070
+SIP WebSocket URL is the secure address the browser connects to, and SIP
+
+00:02:29.070 --> 00:02:31.483
+domain builds each browser login.
+
+00:02:31.483 --> 00:02:34.082
+Both are required for browser audio.
+
+00:02:34.587 --> 00:02:39.238
+ICE server URLs list the servers that help audio cross firewalls.
+
+00:02:39.238 --> 00:02:45.527
+TURN shared secret lets the platform hand the browser short-lived credentials for a relay.
+
+00:02:45.527 --> 00:02:50.047
+ICE transport policy chooses direct paths, or forces the relay.
+
+00:02:50.527 --> 00:02:56.783
+Browser audio codecs lists the audio formats the browser may use, in order of preference.
+
+00:02:56.783 --> 00:03:02.840
+PJSIP credential lifetime and PJSIP contact expiration decide how long a browser login
+
+00:03:02.840 --> 00:03:04.947
+and its registration last.
+
+00:03:05.468 --> 00:03:10.853
+The PJSIP Realtime fields name the database Asterisk reads its endpoints from:
+
+00:03:10.853 --> 00:03:15.470
+the provider, the connection string, and an optional table prefix.
+
+00:03:15.470 --> 00:03:18.548
+The connection string is stored encrypted.
+
+00:03:22.748 --> 00:03:28.875
+Through Asterisk, an agent can dial, hang up, answer or reject, hold, mute,
+
+00:03:28.875 --> 00:03:33.187
+transfer blind, merge calls and send keypad digits.
+
+00:03:33.187 --> 00:03:39.088
+Calls can be recorded, and a supervisor can listen, whisper or barge in.
+
+00:03:39.838 --> 00:03:42.640
+AI voice calls need the Telnyx provider:
+
+00:03:42.640 --> 00:03:45.259
+Asterisk cannot place or answer them.
+
+00:03:45.259 --> 00:03:49.766
+And this demo site points at an address that nothing answers, so the
+
+00:03:49.766 --> 00:03:53.178
+soft phone shows Ready, but a call never connects.
+
+00:03:55.178 --> 00:03:59.647
+Give the platform the address and the application name, add voicemail if you
+
+00:03:59.647 --> 00:04:02.590
+use it, then the browser audio fields, and save.
+
+00:04:02.590 --> 00:04:04.008
+Thanks for watching.
+

@@ -1,0 +1,56 @@
+1
+00:00:03,300 --> 00:00:08,153
+Open Settings, Communication, Telephony, and choose the Asterisk tab.
+
+2
+00:00:08,153 --> 00:00:10,482
+Tick Enable Asterisk provider.
+
+3
+00:00:10,482 --> 00:00:15,722
+The rest of the fields appear, and Asterisk becomes the default provider if
+
+4
+00:00:15,722 --> 00:00:17,340
+none is chosen yet.
+
+5
+00:00:17,828 --> 00:00:21,970
+ARI base URL is the address of Asterisk's web interface.
+
+6
+00:00:21,970 --> 00:00:25,844
+ARI user name and ARI password sign the platform in.
+
+7
+00:00:25,844 --> 00:00:31,388
+The password is stored encrypted, and the box stays empty when you come back.
+
+8
+00:00:31,847 --> 00:00:34,494
+Stasis application name is required.
+
+9
+00:00:34,494 --> 00:00:38,591
+It must match the application your dialplan hands calls to.
+
+10
+00:00:38,591 --> 00:00:43,633
+When several sites share one Asterisk server, give each site its own name,
+
+11
+00:00:43,633 --> 00:00:47,037
+so one site never receives another site's calls.
+
+12
+00:00:47,550 --> 00:00:54,351
+Endpoint template turns a dialed number into an Asterisk endpoint, with the number placeholder in braces.
+
+13
+00:00:54,351 --> 00:00:59,007
+Outbound caller id is shown on outbound calls, and Dial timeout is how
+
+14
+00:00:59,007 --> 00:01:01,090
+long Asterisk keeps ringing.
+

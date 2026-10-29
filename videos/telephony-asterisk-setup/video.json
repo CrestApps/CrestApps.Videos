@@ -1,0 +1,82 @@
+{
+  "title": "Asterisk Setup: Connect Your Own Phone System | CrestApps for Orchard Core",
+  "description": "Asterisk is a phone system your company runs itself. This video walks through the Asterisk tab of the telephony settings in CrestApps for Orchard Core: the connection to Asterisk's ARI web interface, voicemail, audio in the browser, and what Asterisk can and cannot do.\n\nIn this video:\n• What Asterisk needs\n• Enabling the provider, the ARI address, the Stasis application name, the endpoint template\n• Voicemail routing\n• Browser audio: SIP WebSocket, ICE and TURN, codecs, PJSIP Realtime\n• What Asterisk can do",
+  "hashtags": [
+    "OrchardCore",
+    "Asterisk",
+    "Telephony",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "Asterisk",
+    "ARI",
+    "telephony",
+    "soft phone",
+    "WebRTC",
+    "PJSIP",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "What Asterisk needs"
+    },
+    {
+      "time": "0:48",
+      "title": "Connect call control"
+    },
+    {
+      "time": "1:50",
+      "title": "Voicemail"
+    },
+    {
+      "time": "2:20",
+      "title": "Audio in the browser"
+    },
+    {
+      "time": "3:19",
+      "title": "What Asterisk can do"
+    },
+    {
+      "time": "3:54",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/telephony-settings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony/asterisk"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Asterisk"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/telephony-settings.md"
+  ],
+  "length": "4:05"
+}
