@@ -1,0 +1,95 @@
+{
+  "title": "Soft Phone Apps: Browser Extension and Windows App | CrestApps for Orchard Core",
+  "description": "A phone that lives inside a web page loses its call when you reload or leave the page, and cannot ring when the page is closed. The CrestApps soft phone apps, a browser extension and a Windows app, open your site's phone in a window of its own and keep a background connection that rings for incoming calls. This video shows the administrator steps on the site, and describes how to set up each app.\n\nIn this video:\n• Why phone apps, and where each one runs\n• The administrator's steps: the feature, the permission and the site domain\n• The soft phone page that the apps open\n• Setting up the browser extension\n• Setting up the Windows app\n• The kill switch, managed installs and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "soft phone",
+    "browser extension",
+    "Windows app",
+    "Chrome",
+    "Firefox",
+    "telephony",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why phone apps"
+    },
+    {
+      "time": "0:42",
+      "title": "Two apps"
+    },
+    {
+      "time": "1:25",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:59",
+      "title": "The page the apps open"
+    },
+    {
+      "time": "2:17",
+      "title": "The browser extension"
+    },
+    {
+      "time": "3:07",
+      "title": "The Windows app"
+    },
+    {
+      "time": "3:58",
+      "title": "Good to know"
+    },
+    {
+      "time": "4:20",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:47",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/phone-apps"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/telephony"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Telephony (Soft Phone Extension)"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/phone-apps.md",
+    "src/CrestApps.Docs/docs/telephony/index.md"
+  ],
+  "length": "4:57"
+}

@@ -1,0 +1,48 @@
+1
+00:00:03,200 --> 00:00:04,756
+Run the installer.
+
+2
+00:00:04,756 --> 00:00:09,100
+It installs for your user only, with no administrator rights.
+
+3
+00:00:09,100 --> 00:00:12,730
+The portable zip and the Microsoft Store work too.
+
+4
+00:00:13,480 --> 00:00:18,195
+Enter your site's domain when asked, and choose whether to start with Windows,
+
+5
+00:00:18,195 --> 00:00:20,945
+play a ringtone, and keep the phone on top.
+
+6
+00:00:20,945 --> 00:00:23,920
+Then sign in to the site inside the app window.
+
+7
+00:00:24,670 --> 00:00:27,037
+The app lives in the system tray.
+
+8
+00:00:27,037 --> 00:00:30,739
+Right-click its icon for Open phone, Settings and Quit.
+
+9
+00:00:30,739 --> 00:00:35,230
+Closing the phone window keeps the app running, so calls still ring.
+
+10
+00:00:35,980 --> 00:00:41,331
+Incoming calls raise a Windows notification and a call window with the caller,
+
+11
+00:00:41,331 --> 00:00:45,917
+the queue and matched records, with Answer, Decline and Voicemail.
+
+12
+00:00:45,917 --> 00:00:49,420
+Settings has a General tab and a Diagnostics tab.
+

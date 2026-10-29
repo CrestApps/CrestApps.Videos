@@ -1,0 +1,247 @@
+{
+  "title": "The soft phone apps",
+  "output": "telephony-phone-apps",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "M.S.I.X.": "M.S.I.X.",
+    "Intune": "in tune",
+    "ARM64": "A.R.M. sixty four",
+    "x64": "x sixty four"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The soft phone apps",
+      "subtitle": "A browser extension and a Windows app",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The soft phone apps keep calls going while you move between pages, and ring for incoming calls even when the phone window is closed. This video shows the administrator steps on the site, and describes how to set up the browser extension and the Windows app."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why phone apps",
+      "subtitle": "A phone that does not live in a page",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A phone that lives inside a web page loses its call when you reload or leave the page. And it cannot ring when the page is closed."
+            },
+            {
+              "id": "why-2",
+              "text": "The phone apps fix this. Each opens your site's phone in its own window, and keeps a background connection that rings for incoming calls, even while the phone window is closed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Two apps",
+      "subtitle": "Where each one runs",
+      "clips": [
+        {
+          "id": "02-apps",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "app-1",
+              "text": "The browser extension runs in Chrome 116 or later, and Firefox 140 or later. Get it from the Chrome Web Store or Firefox Add-ons."
+            },
+            {
+              "id": "app-2",
+              "text": "The Windows app runs on Windows 10, version 1809 or later, on x64 and ARM64. Get the installer, the portable zip or the M.S.I.X. from the GitHub releases, or the Microsoft Store."
+            },
+            {
+              "id": "app-3",
+              "text": "Both show your site's own soft phone page, so the call controls are the ones in Placing and handling calls. They talk only to your site, and use your normal site sign-in, with no separate password."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Before you start",
+      "subtitle": "The administrator's steps",
+      "clips": [
+        {
+          "id": "03-admin",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "adm-1",
+              "text": "In Tools, Features, search for Soft Phone. Turn on Telephony Soft Phone Extension. It adds the soft phone page that the apps open."
+            },
+            {
+              "id": "adm-2",
+              "text": "Then give your users the Use the telephony soft phone permission. Open the role your agents have, and search for it in Search permissions. The Contact Center's Agent role does not have it by default, so add it there."
+            },
+            {
+              "id": "adm-3",
+              "text": "Finally, tell your users the site's domain, for example phone dot example dot com."
+            }
+          ]
+        }
+      ],
+      "short": "admin"
+    },
+    {
+      "id": "04",
+      "title": "The page the apps open",
+      "subtitle": "Your site's soft phone",
+      "clips": [
+        {
+          "id": "04-page",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pg-1",
+              "text": "Both apps open the soft phone page of your site. Here it is in a browser: the keypad, and the Recent, Voicemail and Work tabs. The apps add the window, the tray icon and the incoming call popup around it."
+            }
+          ]
+        }
+      ],
+      "short": "page"
+    },
+    {
+      "id": "05",
+      "title": "The browser extension",
+      "subtitle": "Chrome and Firefox",
+      "clips": [
+        {
+          "id": "05-extension",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ext-1",
+              "text": "Install CrestApps Soft Phone from the Chrome Web Store or Firefox Add-ons."
+            },
+            {
+              "id": "ext-2",
+              "text": "Open the extension's options, type your site's domain without https, and click Save and grant access. The browser asks for access to that one site only."
+            },
+            {
+              "id": "ext-3",
+              "text": "Sign in to the site in the same browser, then click Open Soft Phone. The phone opens in its own window, which remembers its size and position. Pin the toolbar button to keep it one click away."
+            },
+            {
+              "id": "ext-4",
+              "text": "An incoming call gives you a popup with Answer, Decline and Voicemail, a ringtone, and a desktop notification. The options page also has Enable diagnostics, which adds Run connection test and Simulate incoming call."
+            }
+          ]
+        }
+      ],
+      "short": "extension"
+    },
+    {
+      "id": "06",
+      "title": "The Windows app",
+      "subtitle": "Installed for your user",
+      "clips": [
+        {
+          "id": "06-windows",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "win-1",
+              "text": "Run the installer. It installs for your user only, with no administrator rights. The portable zip and the Microsoft Store work too."
+            },
+            {
+              "id": "win-2",
+              "text": "Enter your site's domain when asked, and choose whether to start with Windows, play a ringtone, and keep the phone on top. Then sign in to the site inside the app window."
+            },
+            {
+              "id": "win-3",
+              "text": "The app lives in the system tray. Right-click its icon for Open phone, Settings and Quit. Closing the phone window keeps the app running, so calls still ring."
+            },
+            {
+              "id": "win-4",
+              "text": "Incoming calls raise a Windows notification and a call window with the caller, the queue and matched records, with Answer, Decline and Voicemail. Settings has a General tab and a Diagnostics tab."
+            }
+          ]
+        }
+      ],
+      "short": "windows"
+    },
+    {
+      "id": "07",
+      "title": "Good to know",
+      "subtitle": "The switch, and managed installs",
+      "clips": [
+        {
+          "id": "07-notes",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "nts-1",
+              "text": "The Enable the soft phone setting hides only the phone inside the page. The apps keep working while the Soft Phone Extension feature is on. Turn that feature off to stop them."
+            },
+            {
+              "id": "nts-2",
+              "text": "IT departments can push and lock the site domain and other settings through Group Policy or Intune."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Where the apps help",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "An agent who works in the CRM all day, and keeps the call going while moving between records."
+            },
+            {
+              "id": "use-2",
+              "text": "A team that must hear every call, even with the phone window closed."
+            },
+            {
+              "id": "use-3",
+              "text": "A company that rolls the Windows app out with Intune, with the site domain already set."
+            },
+            {
+              "id": "use-4",
+              "text": "A remote worker who uses the extension in the browser they already have."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the feature, give people the permission, and install the app that suits them. Thanks for watching, and thank you for your time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

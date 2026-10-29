@@ -1,0 +1,36 @@
+1
+00:00:03,200 --> 00:00:08,430
+Install CrestApps Soft Phone from the Chrome Web Store or Firefox Add-ons.
+
+2
+00:00:09,180 --> 00:00:16,302
+Open the extension's options, type your site's domain without https, and click Save and grant access.
+
+3
+00:00:16,302 --> 00:00:20,030
+The browser asks for access to that one site only.
+
+4
+00:00:20,780 --> 00:00:25,298
+Sign in to the site in the same browser, then click Open Soft Phone.
+
+5
+00:00:25,298 --> 00:00:30,122
+The phone opens in its own window, which remembers its size and position.
+
+6
+00:00:30,122 --> 00:00:33,480
+Pin the toolbar button to keep it one click away.
+
+7
+00:00:34,230 --> 00:00:39,342
+An incoming call gives you a popup with Answer, Decline and Voicemail, a
+
+8
+00:00:39,342 --> 00:00:42,160
+ringtone, and a desktop notification.
+
+9
+00:00:42,160 --> 00:00:49,370
+The options page also has Enable diagnostics, which adds Run connection test and Simulate incoming call.
+

@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.295 --> 00:00:06.428
+In Tools, Features, search for Soft Phone.
+
+00:00:06.428 --> 00:00:09.366
+Turn on Telephony Soft Phone Extension.
+
+00:00:09.366 --> 00:00:12.825
+It adds the soft phone page that the apps open.
+
+00:00:13.339 --> 00:00:17.348
+Then give your users the Use the telephony soft phone permission.
+
+00:00:17.348 --> 00:00:21.753
+Open the role your agents have, and search for it in Search permissions.
+
+00:00:21.753 --> 00:00:26.439
+The Contact Center's Agent role does not have it by default, so add it there.
+
+00:00:26.912 --> 00:00:32.572
+Finally, tell your users the site's domain, for example phone dot example dot com.
+
