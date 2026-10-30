@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.186 --> 00:00:10.157
+Open the plan's content type, under Content Definition, Content Types, and add the Tenant Onboarding part.
+
+00:00:10.157 --> 00:00:12.086
+Click Add Selected Parts.
+
+00:00:12.537 --> 00:00:14.431
+Open a plan of that type.
+
+00:00:14.431 --> 00:00:19.013
+Under Tenant Onboarding, pick the Recipe the new site is set up from:
+
+00:00:19.013 --> 00:00:20.296
+it is required.
+
+00:00:20.296 --> 00:00:21.334
+Here, Blog.
+
+00:00:21.334 --> 00:00:25.427
+Set the price and billing terms as for any plan, and publish.
+
+00:00:27.018 --> 00:00:33.682
+New sites are created on the database chosen on the Tenant Onboarding tab of Settings, Subscriptions.
+
+00:00:33.682 --> 00:00:35.738
+The buyer never chooses it.
+
+00:00:35.738 --> 00:00:40.409
+Sqlite, a file per site, is the default and needs no database server.
+
+00:00:40.409 --> 00:00:46.388
+Other providers need a connection string, which is stored encrypted and never shown again.
+

@@ -1,0 +1,257 @@
+{
+  "title": "Selling sites",
+  "output": "selling-sites",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Selling sites",
+      "subtitle": "A subscription that sells a whole website",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "What if your product is a whole website? With Selling Sites, a subscription plan sells a website: the buyer names their new site and its administrator during checkout, pays, and gets a running site of their own a minute or two later. This video shows how to set up a plan that sells a site, what the buyer sees, and how to watch, and fix, the creation of the sites."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why sell sites",
+      "subtitle": "A site, not just a product",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Agencies, platforms and software services sell sites, not just products."
+            },
+            {
+              "id": "why-2",
+              "text": "A buyer wants a site of their own, with their own administrator, soon after paying."
+            },
+            {
+              "id": "why-3",
+              "text": "And a failed setup must never lose the sale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Plan, checkout, creation",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A site plan is an ordinary subscription plan with the Tenant Onboarding part, and the recipe the new site is set up from."
+            },
+            {
+              "id": "how-2",
+              "text": "At checkout, a Your new site step asks for the site's name, title, address and administrator."
+            },
+            {
+              "id": "how-3",
+              "text": "After payment, the site is created in the background, and the buyer follows it on My Sites."
+            },
+            {
+              "id": "how-4",
+              "text": "Administrators see every job under Site provisioning, and can retry a site that could not be created."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up a plan",
+      "subtitle": "Tenant Onboarding",
+      "clips": [
+        {
+          "id": "03-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "plan-1",
+              "text": "Open the plan's content type, under Content Definition, Content Types, and add the Tenant Onboarding part. Click Add Selected Parts."
+            },
+            {
+              "id": "plan-2",
+              "text": "Open a plan of that type. Under Tenant Onboarding, pick the Recipe the new site is set up from: it is required. Here, Blog. Set the price and billing terms as for any plan, and publish."
+            }
+          ]
+        },
+        {
+          "id": "04-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "db-1",
+              "text": "New sites are created on the database chosen on the Tenant Onboarding tab of Settings, Subscriptions. The buyer never chooses it. Sqlite, a file per site, is the default and needs no database server. Other providers need a connection string, which is stored encrypted and never shown again."
+            }
+          ]
+        }
+      ],
+      "short": "plan"
+    },
+    {
+      "id": "04",
+      "title": "The buyer signs up",
+      "subtitle": "Your new site",
+      "clips": [
+        {
+          "id": "05-buy",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "buy-1",
+              "text": "On the Plans page, a buyer clicks Sign up. Checkout adds a Your new site step, before the payment step, for the details of the site the buyer is buying."
+            },
+            {
+              "id": "buy-2",
+              "text": "Site name identifies the site and cannot be changed later. Site title is what visitors see, and can change at any time. URL prefix is the part of the address after your domain. Custom domains are optional. And Site template starts on the plan's recipe."
+            },
+            {
+              "id": "buy-3",
+              "text": "Under Site administrator, the buyer enters the user name, email and password they will sign in to their new site with. Everything the buyer can fix is checked before they pay: a taken name, a prefix that belongs to another site, or passwords that do not match."
+            },
+            {
+              "id": "buy-4",
+              "text": "Then the buyer pays. Here with Pay Later, as this demonstration site has no card provider."
+            }
+          ]
+        }
+      ],
+      "short": "buy"
+    },
+    {
+      "id": "05",
+      "title": "My Sites",
+      "subtitle": "The buyer follows the creation",
+      "clips": [
+        {
+          "id": "06-sites",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sites-1",
+              "text": "On My Sites, in the buyer's account, the site is listed with its Site name and when it was bought. While it is being created, a note says a new site usually takes a minute or two to appear, and the page refreshes when you reload it."
+            }
+          ]
+        }
+      ],
+      "short": "sites"
+    },
+    {
+      "id": "06",
+      "title": "Site provisioning",
+      "subtitle": "Watch and retry",
+      "clips": [
+        {
+          "id": "07-provisioning",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prov-1",
+              "text": "Administrators see every sold site under Subscriptions, Site provisioning: the site name, its status, the owner, when it was bought, and the attempts. The site checks for waiting jobs every minute. Waiting means it is paid for and waiting its turn. Created means the site exists, and the buyer can sign in. To try a waiting job now, click Retry now, and confirm."
+            }
+          ]
+        },
+        {
+          "id": "08-ready",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ready-1",
+              "text": "Back on My Sites, the site is Ready. Open takes the buyer to it, to sign in with the administrator account entered at checkout."
+            }
+          ]
+        }
+      ],
+      "short": "provisioning"
+    },
+    {
+      "id": "07",
+      "title": "Statuses and fixing a site",
+      "subtitle": "Retrying, abandoned, and when it ends",
+      "clips": [
+        {
+          "id": "09-status",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "stat-1",
+              "text": "On My Sites, a buyer sees Being created, Retrying, Ready, or Needs help. For a site that needs help, the page says it could not be finished, and to contact support."
+            },
+            {
+              "id": "stat-2",
+              "text": "Under Site provisioning, a job is Waiting, Being created, Created, Retrying, with a longer wait after each failure, or Abandoned, after five failures. Retry now starts a fresh count."
+            },
+            {
+              "id": "stat-3",
+              "text": "An abandoned job needs a person: the administrator password the buyer entered is discarded, so Retry now is not offered. Create the site by hand under Tenants, optionally type its address, click Mark as created, or refund the purchase."
+            },
+            {
+              "id": "stat-4",
+              "text": "A sold site runs as long as the subscription is current, including the period paid after cancelling and the grace period after a failed payment. After that the site is disabled, not deleted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How businesses put it to work",
+      "clips": [
+        {
+          "id": "10-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "An agency: a starter site for every new client, on a monthly plan."
+            },
+            {
+              "id": "use-2",
+              "text": "A software service: a running tenant for every subscriber."
+            },
+            {
+              "id": "use-3",
+              "text": "A blogging platform: a blog of their own for each member."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With Selling Sites, every subscription can come with a site of its own, created for you, and fixable when it needs help. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.567
+What if your product is a whole website?
+
+00:00:03.567 --> 00:00:07.027
+With Selling Sites, a subscription plan sells a website:
+
+00:00:07.027 --> 00:00:11.771
+the buyer names their new site and its administrator during checkout, pays, and
+
+00:00:11.771 --> 00:00:15.175
+gets a running site of their own a minute or two later.
+
+00:00:15.175 --> 00:00:18.635
+This video shows how to set up a plan that sells a site,
+
+00:00:18.635 --> 00:00:23.100
+what the buyer sees, and how to watch, and fix, the creation of the sites.
+
+00:00:27.700 --> 00:00:33.050
+Agencies, platforms and software services sell sites, not just products.
+
+00:00:33.800 --> 00:00:39.200
+A buyer wants a site of their own, with their own administrator, soon after paying.
+
+00:00:39.950 --> 00:00:43.190
+And a failed setup must never lose the sale.
+
+00:00:47.390 --> 00:00:52.037
+A site plan is an ordinary subscription plan with the Tenant Onboarding part,
+
+00:00:52.037 --> 00:00:54.780
+and the recipe the new site is set up from.
+
+00:00:55.530 --> 00:01:02.440
+At checkout, a Your new site step asks for the site's name, title, address and administrator.
+
+00:01:03.190 --> 00:01:08.542
+After payment, the site is created in the background, and the buyer follows
+
+00:01:08.542 --> 00:01:09.930
+it on My Sites.
+
+00:01:10.680 --> 00:01:15.613
+Administrators see every job under Site provisioning, and can retry a site that
+
+00:01:15.613 --> 00:01:17.180
+could not be created.
+
+00:01:21.366 --> 00:01:28.337
+Open the plan's content type, under Content Definition, Content Types, and add the Tenant Onboarding part.
+
+00:01:28.337 --> 00:01:30.266
+Click Add Selected Parts.
+
+00:01:30.717 --> 00:01:32.611
+Open a plan of that type.
+
+00:01:32.611 --> 00:01:37.193
+Under Tenant Onboarding, pick the Recipe the new site is set up from:
+
+00:01:37.193 --> 00:01:38.476
+it is required.
+
+00:01:38.476 --> 00:01:39.514
+Here, Blog.
+
+00:01:39.514 --> 00:01:43.607
+Set the price and billing terms as for any plan, and publish.
+
+00:01:45.198 --> 00:01:51.862
+New sites are created on the database chosen on the Tenant Onboarding tab of Settings, Subscriptions.
+
+00:01:51.862 --> 00:01:53.918
+The buyer never chooses it.
+
+00:01:53.918 --> 00:01:58.589
+Sqlite, a file per site, is the default and needs no database server.
+
+00:01:58.589 --> 00:02:04.568
+Other providers need a connection string, which is stored encrypted and never shown again.
+
+00:02:08.764 --> 00:02:11.604
+On the Plans page, a buyer clicks Sign up.
+
+00:02:11.604 --> 00:02:15.983
+Checkout adds a Your new site step, before the payment step, for the
+
+00:02:15.983 --> 00:02:18.704
+details of the site the buyer is buying.
+
+00:02:19.157 --> 00:02:23.324
+Site name identifies the site and cannot be changed later.
+
+00:02:23.324 --> 00:02:27.621
+Site title is what visitors see, and can change at any time.
+
+00:02:27.621 --> 00:02:31.657
+URL prefix is the part of the address after your domain.
+
+00:02:31.657 --> 00:02:33.871
+Custom domains are optional.
+
+00:02:33.871 --> 00:02:37.257
+And Site template starts on the plan's recipe.
+
+00:02:37.707 --> 00:02:43.073
+Under Site administrator, the buyer enters the user name, email and password they
+
+00:02:43.073 --> 00:02:45.663
+will sign in to their new site with.
+
+00:02:45.663 --> 00:02:49.487
+Everything the buyer can fix is checked before they pay:
+
+00:02:49.487 --> 00:02:55.037
+a taken name, a prefix that belongs to another site, or passwords that do not match.
+
+00:02:55.488 --> 00:02:57.156
+Then the buyer pays.
+
+00:02:57.156 --> 00:03:01.968
+Here with Pay Later, as this demonstration site has no card provider.
+
+00:03:06.170 --> 00:03:10.135
+On My Sites, in the buyer's account, the site is listed with its
+
+00:03:10.135 --> 00:03:12.344
+Site name and when it was bought.
+
+00:03:12.344 --> 00:03:16.252
+While it is being created, a note says a new site usually takes
+
+00:03:16.252 --> 00:03:20.500
+a minute or two to appear, and the page refreshes when you reload it.
+
+00:03:24.690 --> 00:03:29.872
+Administrators see every sold site under Subscriptions, Site provisioning:
+
+00:03:29.872 --> 00:03:35.120
+the site name, its status, the owner, when it was bought, and the attempts.
+
+00:03:35.120 --> 00:03:38.489
+The site checks for waiting jobs every minute.
+
+00:03:38.489 --> 00:03:42.116
+Waiting means it is paid for and waiting its turn.
+
+00:03:42.116 --> 00:03:46.198
+Created means the site exists, and the buyer can sign in.
+
+00:03:46.198 --> 00:03:50.150
+To try a waiting job now, click Retry now, and confirm.
+
+00:03:51.746 --> 00:03:54.281
+Back on My Sites, the site is Ready.
+
+00:03:54.281 --> 00:04:00.076
+Open takes the buyer to it, to sign in with the administrator account entered at checkout.
+
+00:04:04.276 --> 00:04:09.415
+On My Sites, a buyer sees Being created, Retrying, Ready, or Needs help.
+
+00:04:09.415 --> 00:04:13.566
+For a site that needs help, the page says it could not be
+
+00:04:13.566 --> 00:04:16.136
+finished, and to contact support.
+
+00:04:16.886 --> 00:04:22.958
+Under Site provisioning, a job is Waiting, Being created, Created, Retrying, with a
+
+00:04:22.958 --> 00:04:27.871
+longer wait after each failure, or Abandoned, after five failures.
+
+00:04:27.871 --> 00:04:30.396
+Retry now starts a fresh count.
+
+00:04:31.146 --> 00:04:33.579
+An abandoned job needs a person:
+
+00:04:33.579 --> 00:04:39.533
+the administrator password the buyer entered is discarded, so Retry now is not offered.
+
+00:04:39.533 --> 00:04:44.911
+Create the site by hand under Tenants, optionally type its address, click Mark
+
+00:04:44.911 --> 00:04:47.536
+as created, or refund the purchase.
+
+00:04:48.286 --> 00:04:52.687
+A sold site runs as long as the subscription is current, including the
+
+00:04:52.687 --> 00:04:57.262
+period paid after cancelling and the grace period after a failed payment.
+
+00:04:57.262 --> 00:05:00.216
+After that the site is disabled, not deleted.
+
+00:05:04.416 --> 00:05:05.563
+An agency:
+
+00:05:05.563 --> 00:05:09.936
+a starter site for every new client, on a monthly plan.
+
+00:05:10.686 --> 00:05:12.302
+A software service:
+
+00:05:12.302 --> 00:05:15.146
+a running tenant for every subscriber.
+
+00:05:15.896 --> 00:05:17.345
+A blogging platform:
+
+00:05:17.345 --> 00:05:19.686
+a blog of their own for each member.
+
+00:05:21.686 --> 00:05:25.992
+With Selling Sites, every subscription can come with a site of its own,
+
+00:05:25.992 --> 00:05:29.012
+created for you, and fixable when it needs help.
+
+00:05:29.012 --> 00:05:30.466
+Thanks for watching.
+

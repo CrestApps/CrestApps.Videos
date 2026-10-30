@@ -1,0 +1,95 @@
+{
+  "title": "Selling Sites: Sell a Whole Website as a Subscription | CrestApps for Orchard Core",
+  "description": "With the CrestApps Selling Sites feature, a subscription plan sells a whole website: the buyer names their new site and its administrator during checkout, pays, and gets a running Orchard Core site of their own a minute or two later. This video shows how to add the Tenant Onboarding part to a plan, the database new sites use, the Your new site checkout step, My Sites for the buyer, and Site provisioning for administrators, with Retry now and what to do with an abandoned job.\n\nIn this video:\n• Why sell sites, and how the plan, checkout and creation fit together\n• Setting up a plan with Tenant Onboarding, and the database for new sites\n• The buyer signing up: the Your new site step\n• My Sites: following the creation\n• Site provisioning: watching, Retry now, and Mark as created\n• Statuses, and what happens when the subscription ends\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "SaaS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "selling websites",
+    "multi-tenant SaaS",
+    "tenant provisioning",
+    "subscription sites",
+    "SaaS",
+    "site builder",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:24",
+      "title": "Why sell sites"
+    },
+    {
+      "time": "0:44",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:18",
+      "title": "Set up a plan"
+    },
+    {
+      "time": "2:05",
+      "title": "The buyer signs up"
+    },
+    {
+      "time": "3:03",
+      "title": "My Sites"
+    },
+    {
+      "time": "3:21",
+      "title": "Site provisioning"
+    },
+    {
+      "time": "4:01",
+      "title": "Statuses and fixing a site"
+    },
+    {
+      "time": "5:01",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:20",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/sites"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/subscriptions"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Subscriptions.Tenants"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/sites.md",
+    "src/CrestApps.Docs/docs/modules/subscriptions.md"
+  ],
+  "length": "5:32"
+}
