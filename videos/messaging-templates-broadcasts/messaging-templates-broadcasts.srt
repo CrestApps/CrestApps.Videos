@@ -1,0 +1,304 @@
+1
+00:00:01,000 --> 00:00:05,053
+Some texts you write again and again, and some texts you want to
+
+2
+00:00:05,053 --> 00:00:07,195
+send to many customers at once.
+
+3
+00:00:07,195 --> 00:00:11,421
+This video shows the two tools of the messaging workspace for that:
+
+4
+00:00:11,421 --> 00:00:17,153
+templates, which are canned responses, and broadcasts, which send one message to many people.
+
+5
+00:00:17,153 --> 00:00:20,800
+It also explains what happens when a customer texts STOP.
+
+6
+00:00:25,400 --> 00:00:28,412
+Agents answer the same questions all day:
+
+7
+00:00:28,412 --> 00:00:32,770
+when the shop opens, where it is, what the return policy says.
+
+8
+00:00:33,520 --> 00:00:39,101
+Typing those answers again is slow, and every agent words them a little differently.
+
+9
+00:00:39,101 --> 00:00:43,070
+A template gives everyone the same answer, one click away.
+
+10
+00:00:43,820 --> 00:00:47,742
+And when the shop has news for many customers, such as a sale,
+
+11
+00:00:47,742 --> 00:00:50,511
+you do not want to send each text by hand.
+
+12
+00:00:50,511 --> 00:00:52,530
+A broadcast sends it for you.
+
+13
+00:00:56,733 --> 00:00:58,880
+Open Messaging, Templates.
+
+14
+00:00:58,880 --> 00:01:02,906
+This is the list of canned responses, and it is empty.
+
+15
+00:01:02,906 --> 00:01:04,583
+Click Add template.
+
+16
+00:01:05,034 --> 00:01:09,065
+Give the template a Name that agents will recognize, and write the Body,
+
+17
+00:01:09,065 --> 00:01:12,114
+which is the text that will be inserted into a reply.
+
+18
+00:01:12,569 --> 00:01:13,512
+Click Save.
+
+19
+00:01:13,512 --> 00:01:18,005
+The template joins the list, with the beginning of its text under the name.
+
+20
+00:01:18,005 --> 00:01:22,444
+Anyone who can use the messaging workspace can insert it, and managing the
+
+21
+00:01:22,444 --> 00:01:25,939
+list needs the Manage the messaging workspace permission.
+
+22
+00:01:30,131 --> 00:01:32,670
+In the inbox, open a conversation.
+
+23
+00:01:32,670 --> 00:01:38,001
+Above the message box, the list Insert a canned response holds your templates.
+
+24
+00:01:38,456 --> 00:01:41,787
+Pick one, and its text fills the message box.
+
+25
+00:01:41,787 --> 00:01:43,420
+It is only a draft:
+
+26
+00:01:43,420 --> 00:01:47,796
+you can change it, add the customer's name, and then send it.
+
+27
+00:01:51,982 --> 00:01:55,417
+Open Messaging, Broadcasts, and click New broadcast.
+
+28
+00:01:55,417 --> 00:02:00,332
+Each person receives the message as their own one-to-one text, and cannot see
+
+29
+00:02:00,332 --> 00:02:01,930
+who else received it.
+
+30
+00:02:01,930 --> 00:02:05,542
+You need the Send group messages permission to do this.
+
+31
+00:02:05,992 --> 00:02:09,394
+Give the broadcast a Name that only your team sees.
+
+32
+00:02:09,394 --> 00:02:13,214
+Under Send from, choose the number that sends the message.
+
+33
+00:02:13,214 --> 00:02:15,422
+The number decides the channel.
+
+34
+00:02:15,877 --> 00:02:20,399
+Under Recipients, search your contacts and leads by name or by number, and
+
+35
+00:02:20,399 --> 00:02:22,150
+pick as many as you like.
+
+36
+00:02:22,150 --> 00:02:25,767
+Only people who have a number on this channel are offered.
+
+37
+00:02:30,573 --> 00:02:35,677
+Under Additional addresses, add numbers that are not in your contacts, one per
+
+38
+00:02:35,677 --> 00:02:37,742
+line or separated by commas.
+
+39
+00:02:37,742 --> 00:02:41,873
+Write them in international format, starting with a plus sign.
+
+40
+00:02:42,327 --> 00:02:45,347
+Write the Message, and click Queue broadcast.
+
+41
+00:02:49,080 --> 00:02:53,529
+The list shows the broadcast with its channel, the number it is sent
+
+42
+00:02:53,529 --> 00:02:59,240
+from, its status, how many recipients it has, and how many messages were sent and failed.
+
+43
+00:02:59,240 --> 00:03:04,230
+It starts as Queued, because the system sends the messages in the background.
+
+44
+00:03:04,230 --> 00:03:08,679
+When every recipient has been handled, the status becomes Completed.
+
+45
+00:03:08,679 --> 00:03:13,730
+Failed counts the messages the provider refused, and the people who opted out.
+
+46
+00:03:13,730 --> 00:03:18,720
+A queued broadcast cannot be cancelled, so read it twice before you queue it.
+
+47
+00:03:22,920 --> 00:03:26,011
+Every recipient gets a private conversation.
+
+48
+00:03:26,011 --> 00:03:31,080
+When a customer replies, the reply arrives in the inbox like any other text.
+
+49
+00:03:31,830 --> 00:03:36,211
+If the provider does not accept a message, it is tried again after
+
+50
+00:03:36,211 --> 00:03:40,470
+one, five, fifteen and sixty minutes before it is marked failed.
+
+51
+00:03:41,220 --> 00:03:46,436
+A broadcast does not wait for quiet hours, and it does not check your do-not-call lists.
+
+52
+00:03:46,436 --> 00:03:49,600
+Send it only to people who agreed to hear from you.
+
+53
+00:03:53,800 --> 00:03:59,542
+A customer who texts STOP, or one of the words that mean the same, is unsubscribed.
+
+54
+00:03:59,542 --> 00:04:04,574
+The conversation is closed, the contact is marked Do not S.M.S., and the
+
+55
+00:04:04,574 --> 00:04:07,220
+customer receives one confirmation.
+
+56
+00:04:07,970 --> 00:04:11,102
+A customer who texts START is subscribed again.
+
+57
+00:04:11,102 --> 00:04:15,358
+This works only for people who opted out, so an ordinary yes stays
+
+58
+00:04:15,358 --> 00:04:17,190
+part of the conversation.
+
+59
+00:04:17,940 --> 00:04:23,362
+A customer who texts HELP receives the help reply, which tells them how to unsubscribe.
+
+60
+00:04:23,362 --> 00:04:27,560
+None of these keywords triggers the auto-reply of the entry point.
+
+61
+00:04:28,310 --> 00:04:31,636
+A broadcast does not reach people who opted out.
+
+62
+00:04:31,636 --> 00:04:35,454
+Their message is marked failed at once, with the reason:
+
+63
+00:04:35,454 --> 00:04:37,980
+The contact has opted out of S.M.S.
+
+64
+00:04:39,576 --> 00:04:41,971
+Here is a customer who texted STOP.
+
+65
+00:04:41,971 --> 00:04:46,468
+The thread shows the word, and says that the conversation is closed and
+
+66
+00:04:46,468 --> 00:04:48,045
+cannot be replied to.
+
+67
+00:04:48,045 --> 00:04:52,076
+The customer will not receive broadcasts until they text START.
+
+68
+00:04:56,276 --> 00:05:01,224
+A bike shop saves its opening hours, its address and its return policy
+
+69
+00:05:01,224 --> 00:05:04,936
+as templates, so every agent gives the same answer.
+
+70
+00:05:05,686 --> 00:05:10,221
+A clinic broadcasts a closing notice to its patients the day before a
+
+71
+00:05:10,221 --> 00:05:13,366
+holiday, and answers the replies in the inbox.
+
+72
+00:05:14,116 --> 00:05:18,220
+A shop announces a weekend sale to the customers who asked for offers,
+
+73
+00:05:18,220 --> 00:05:20,596
+and leaves out everyone who opted out.
+
+74
+00:05:22,596 --> 00:05:27,240
+Save your common answers as templates, and use a broadcast when many customers
+
+75
+00:05:27,240 --> 00:05:28,788
+need the same message.
+
+76
+00:05:28,788 --> 00:05:30,226
+Thanks for watching.
+

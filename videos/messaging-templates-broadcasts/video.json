@@ -1,0 +1,90 @@
+{
+  "title": "Messaging Templates and Broadcasts: Canned Replies and Group Texts | CrestApps for Orchard Core",
+  "description": "Some texts you write again and again, and some you want to send to many customers at once. This video shows the two tools of the messaging workspace of CrestApps for Orchard Core for that: templates, which are canned responses, and broadcasts, which send one message to many people. It also explains what happens when a customer texts STOP.\n\nIn this video:\n• Why templates and broadcasts save time\n• Creating a template and inserting it into a reply\n• Sending a broadcast to contacts and to extra numbers\n• Status, counts, retries, and what a broadcast skips\n• STOP, START and HELP, and people who opted out\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "SMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "SMS templates",
+    "SMS broadcast",
+    "canned responses",
+    "shared inbox",
+    "contact center",
+    "customer support",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:22",
+      "title": "Why templates and broadcasts"
+    },
+    {
+      "time": "0:53",
+      "title": "Create a template"
+    },
+    {
+      "time": "1:26",
+      "title": "Use a template in a reply"
+    },
+    {
+      "time": "1:48",
+      "title": "Send a broadcast"
+    },
+    {
+      "time": "3:19",
+      "title": "After you queue it"
+    },
+    {
+      "time": "3:50",
+      "title": "When a customer says STOP"
+    },
+    {
+      "time": "4:53",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:21",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/messaging"
+    },
+    {
+      "label": "Technical guide: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/messaging-workspace"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Messaging"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/messaging.md",
+    "src/CrestApps.Docs/docs/omnichannel/messaging-workspace.md"
+  ],
+  "length": "5:32"
+}

@@ -1,0 +1,240 @@
+{
+  "title": "Messaging: Templates and Broadcasts",
+  "output": "messaging-templates-broadcasts",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Messaging: Templates and Broadcasts",
+      "subtitle": "Answer faster, and text many customers at once",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some texts you write again and again, and some texts you want to send to many customers at once. This video shows the two tools of the messaging workspace for that: templates, which are canned responses, and broadcasts, which send one message to many people. It also explains what happens when a customer texts STOP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why templates and broadcasts",
+      "subtitle": "Less typing, the same words every time",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Agents answer the same questions all day: when the shop opens, where it is, what the return policy says."
+            },
+            {
+              "id": "why-2",
+              "text": "Typing those answers again is slow, and every agent words them a little differently. A template gives everyone the same answer, one click away."
+            },
+            {
+              "id": "why-3",
+              "text": "And when the shop has news for many customers, such as a sale, you do not want to send each text by hand. A broadcast sends it for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create a template",
+      "subtitle": "A canned response for your team",
+      "clips": [
+        {
+          "id": "02-template",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tem-1",
+              "text": "Open Messaging, Templates. This is the list of canned responses, and it is empty. Click Add template."
+            },
+            {
+              "id": "tem-2",
+              "text": "Give the template a Name that agents will recognize, and write the Body, which is the text that will be inserted into a reply."
+            },
+            {
+              "id": "tem-3",
+              "text": "Click Save. The template joins the list, with the beginning of its text under the name. Anyone who can use the messaging workspace can insert it, and managing the list needs the Manage the messaging workspace permission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Use a template in a reply",
+      "subtitle": "Insert it, adjust it, send it",
+      "clips": [
+        {
+          "id": "03-insert",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ins-1",
+              "text": "In the inbox, open a conversation. Above the message box, the list Insert a canned response holds your templates."
+            },
+            {
+              "id": "ins-2",
+              "text": "Pick one, and its text fills the message box. It is only a draft: you can change it, add the customer's name, and then send it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Send a broadcast",
+      "subtitle": "One message, many one-to-one conversations",
+      "clips": [
+        {
+          "id": "04-broadcast",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bro-1",
+              "text": "Open Messaging, Broadcasts, and click New broadcast. Each person receives the message as their own one-to-one text, and cannot see who else received it. You need the Send group messages permission to do this."
+            },
+            {
+              "id": "bro-2",
+              "text": "Give the broadcast a Name that only your team sees. Under Send from, choose the number that sends the message. The number decides the channel."
+            },
+            {
+              "id": "bro-3",
+              "text": "Under Recipients, search your contacts and leads by name or by number, and pick as many as you like. Only people who have a number on this channel are offered."
+            },
+            {
+              "id": "bro-4",
+              "text": "Under Additional addresses, add numbers that are not in your contacts, one per line or separated by commas. Write them in international format, starting with a plus sign."
+            },
+            {
+              "id": "bro-5",
+              "text": "Write the Message, and click Queue broadcast."
+            },
+            {
+              "id": "bro-6",
+              "text": "The list shows the broadcast with its channel, the number it is sent from, its status, how many recipients it has, and how many messages were sent and failed. It starts as Queued, because the system sends the messages in the background. When every recipient has been handled, the status becomes Completed. Failed counts the messages the provider refused, and the people who opted out. A queued broadcast cannot be cancelled, so read it twice before you queue it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "After you queue it",
+      "subtitle": "Replies, retries and what a broadcast skips",
+      "clips": [
+        {
+          "id": "05-after",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "aft-1",
+              "text": "Every recipient gets a private conversation. When a customer replies, the reply arrives in the inbox like any other text."
+            },
+            {
+              "id": "aft-2",
+              "text": "If the provider does not accept a message, it is tried again after one, five, fifteen and sixty minutes before it is marked failed."
+            },
+            {
+              "id": "aft-3",
+              "text": "A broadcast does not wait for quiet hours, and it does not check your do-not-call lists. Send it only to people who agreed to hear from you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "When a customer says STOP",
+      "subtitle": "Keywords, and the people who opted out",
+      "clips": [
+        {
+          "id": "06-keywords",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kw-1",
+              "text": "A customer who texts STOP, or one of the words that mean the same, is unsubscribed. The conversation is closed, the contact is marked Do not S.M.S., and the customer receives one confirmation."
+            },
+            {
+              "id": "kw-2",
+              "text": "A customer who texts START is subscribed again. This works only for people who opted out, so an ordinary yes stays part of the conversation."
+            },
+            {
+              "id": "kw-3",
+              "text": "A customer who texts HELP receives the help reply, which tells them how to unsubscribe. None of these keywords triggers the auto-reply of the entry point."
+            },
+            {
+              "id": "kw-4",
+              "text": "A broadcast does not reach people who opted out. Their message is marked failed at once, with the reason: The contact has opted out of S.M.S."
+            }
+          ]
+        },
+        {
+          "id": "06-stop",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "stp-1",
+              "text": "Here is a customer who texted STOP. The thread shows the word, and says that the conversation is closed and cannot be replied to. The customer will not receive broadcasts until they text START."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Where templates and broadcasts help",
+      "clips": [
+        {
+          "id": "07-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A bike shop saves its opening hours, its address and its return policy as templates, so every agent gives the same answer."
+            },
+            {
+              "id": "use-2",
+              "text": "A clinic broadcasts a closing notice to its patients the day before a holiday, and answers the replies in the inbox."
+            },
+            {
+              "id": "use-3",
+              "text": "A shop announces a weekend sale to the customers who asked for offers, and leaves out everyone who opted out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Save your common answers as templates, and use a broadcast when many customers need the same message. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
