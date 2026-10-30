@@ -1,0 +1,48 @@
+1
+00:00:03,192 --> 00:00:07,117
+Here is a file with six events, and two of them have no
+
+2
+00:00:07,117 --> 00:00:09,497
+title, which every event needs.
+
+3
+00:00:09,497 --> 00:00:11,106
+Import it as usual.
+
+4
+00:00:11,106 --> 00:00:14,452
+The import goes through the file and finishes.
+
+5
+00:00:20,998 --> 00:00:23,194
+The four good rows are imported.
+
+6
+00:00:23,194 --> 00:00:27,760
+The entry shows how many records imported and how many had errors, groups
+
+7
+00:00:27,760 --> 00:00:32,095
+the errors by reason, here two rows that did not pass validation, and
+
+8
+00:00:32,095 --> 00:00:34,811
+its status says it completed with errors.
+
+9
+00:00:34,811 --> 00:00:39,551
+Its Actions menu has Download errors, which gives you only the skipped rows,
+
+10
+00:00:39,551 --> 00:00:43,770
+in the same format as your upload, with an Errors column that gives
+
+11
+00:00:43,770 --> 00:00:45,273
+the reason for each.
+
+12
+00:00:45,273 --> 00:00:47,758
+Fix them, and import that file again.
+

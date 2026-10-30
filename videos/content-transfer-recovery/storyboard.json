@@ -1,0 +1,160 @@
+{
+  "title": "Content Transfer: Errors, Stalled Imports and Cleanup",
+  "output": "content-transfer-recovery",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "When an Import Goes Wrong",
+      "subtitle": "Errors, retries and cleanup",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows what to do when an import does not go perfectly: how the import reports rows it could not save, how a stalled import is recovered, and how to clean up the import list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why recovery matters",
+      "subtitle": "Big files rarely import perfectly",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A real file has surprises: a missing title, a number that is not a number, a date nobody can read."
+            },
+            {
+              "id": "why-2",
+              "text": "The import saves every row it can, and tells you which rows it could not save, and why."
+            },
+            {
+              "id": "why-3",
+              "text": "So you fix only those rows and import them again, instead of starting over, and nobody has to scan a big file by eye to find the one bad line."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Import a file with bad rows",
+      "subtitle": "The import finishes, with errors",
+      "clips": [
+        {
+          "id": "02-errors",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "errors-1",
+              "text": "Here is a file with six events, and two of them have no title, which every event needs. Import it as usual. The import goes through the file and finishes."
+            },
+            {
+              "id": "errors-2",
+              "text": "The four good rows are imported. The entry shows how many records imported and how many had errors, groups the errors by reason, here two rows that did not pass validation, and its status says it completed with errors. Its Actions menu has Download errors, which gives you only the skipped rows, in the same format as your upload, with an Errors column that gives the reason for each. Fix them, and import that file again."
+            }
+          ]
+        }
+      ],
+      "short": "errors"
+    },
+    {
+      "id": "03",
+      "title": "Clean up the list",
+      "subtitle": "Remove entries in bulk",
+      "clips": [
+        {
+          "id": "03-remove",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "remove-1",
+              "text": "Entries stay in the list so that you can look back at what was imported. When you no longer need one, choose Delete from its Actions menu and confirm. That removes the entry and its uploaded file, but never the content that was imported. You can also tick several entries and remove them at once."
+            }
+          ]
+        }
+      ],
+      "short": "remove"
+    },
+    {
+      "id": "04",
+      "title": "Stalled imports and exports",
+      "subtitle": "What happens when the server stops",
+      "clips": [
+        {
+          "id": "04-stall",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "stall-1",
+              "text": "If the server restarts during an import, the entry can be left Processing. After ten minutes without progress it is shown as Failed, and Resume on a failed entry continues from where it stopped."
+            },
+            {
+              "id": "stall-2",
+              "text": "A large export is queued and built in the background. When it is ready, you are notified, and you download the file from the export list."
+            },
+            {
+              "id": "stall-3",
+              "text": "Imports and exports run in order, so a second big file waits its turn instead of slowing the site. A background task also picks up waiting imports, and resumes a stalled one, so you rarely need to do anything by hand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "05-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Import a big file without fear of one bad row."
+            },
+            {
+              "id": "use-2",
+              "text": "Fix only the rows that failed."
+            },
+            {
+              "id": "use-3",
+              "text": "Recover an import that was interrupted."
+            },
+            {
+              "id": "use-4",
+              "text": "Keep the import list tidy, so the entries you see are the ones that still matter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Read the errors, fix the rows, resume what stalled, and remove what you no longer need. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

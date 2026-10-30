@@ -1,0 +1,168 @@
+1
+00:00:01,000 --> 00:00:05,072
+This video shows what to do when an import does not go perfectly:
+
+2
+00:00:05,072 --> 00:00:09,258
+how the import reports rows it could not save, how a stalled import
+
+3
+00:00:09,258 --> 00:00:12,470
+is recovered, and how to clean up the import list.
+
+4
+00:00:17,070 --> 00:00:19,219
+A real file has surprises:
+
+5
+00:00:19,219 --> 00:00:24,390
+a missing title, a number that is not a number, a date nobody can read.
+
+6
+00:00:25,140 --> 00:00:28,720
+The import saves every row it can, and tells you which rows it
+
+7
+00:00:28,720 --> 00:00:30,300
+could not save, and why.
+
+8
+00:00:31,050 --> 00:00:35,142
+So you fix only those rows and import them again, instead of starting
+
+9
+00:00:35,142 --> 00:00:38,415
+over, and nobody has to scan a big file by eye to find
+
+10
+00:00:38,415 --> 00:00:39,670
+the one bad line.
+
+11
+00:00:43,862 --> 00:00:47,787
+Here is a file with six events, and two of them have no
+
+12
+00:00:47,787 --> 00:00:50,167
+title, which every event needs.
+
+13
+00:00:50,167 --> 00:00:51,776
+Import it as usual.
+
+14
+00:00:51,776 --> 00:00:55,122
+The import goes through the file and finishes.
+
+15
+00:01:01,668 --> 00:01:03,864
+The four good rows are imported.
+
+16
+00:01:03,864 --> 00:01:08,430
+The entry shows how many records imported and how many had errors, groups
+
+17
+00:01:08,430 --> 00:01:12,765
+the errors by reason, here two rows that did not pass validation, and
+
+18
+00:01:12,765 --> 00:01:15,481
+its status says it completed with errors.
+
+19
+00:01:15,481 --> 00:01:20,221
+Its Actions menu has Download errors, which gives you only the skipped rows,
+
+20
+00:01:20,221 --> 00:01:24,440
+in the same format as your upload, with an Errors column that gives
+
+21
+00:01:24,440 --> 00:01:25,943
+the reason for each.
+
+22
+00:01:25,943 --> 00:01:28,428
+Fix them, and import that file again.
+
+23
+00:01:32,631 --> 00:01:37,321
+Entries stay in the list so that you can look back at what was imported.
+
+24
+00:01:37,321 --> 00:01:42,312
+When you no longer need one, choose Delete from its Actions menu and confirm.
+
+25
+00:01:42,312 --> 00:01:47,843
+That removes the entry and its uploaded file, but never the content that was imported.
+
+26
+00:01:47,843 --> 00:01:51,691
+You can also tick several entries and remove them at once.
+
+27
+00:01:55,891 --> 00:02:00,516
+If the server restarts during an import, the entry can be left Processing.
+
+28
+00:02:00,516 --> 00:02:04,967
+After ten minutes without progress it is shown as Failed, and Resume on
+
+29
+00:02:04,967 --> 00:02:08,031
+a failed entry continues from where it stopped.
+
+30
+00:02:08,781 --> 00:02:12,321
+A large export is queued and built in the background.
+
+31
+00:02:12,321 --> 00:02:17,661
+When it is ready, you are notified, and you download the file from the export list.
+
+32
+00:02:18,411 --> 00:02:22,400
+Imports and exports run in order, so a second big file waits its
+
+33
+00:02:22,400 --> 00:02:24,622
+turn instead of slowing the site.
+
+34
+00:02:24,622 --> 00:02:29,237
+A background task also picks up waiting imports, and resumes a stalled one,
+
+35
+00:02:29,237 --> 00:02:31,971
+so you rarely need to do anything by hand.
+
+36
+00:02:36,171 --> 00:02:40,181
+Import a big file without fear of one bad row.
+
+37
+00:02:40,931 --> 00:02:43,431
+Fix only the rows that failed.
+
+38
+00:02:44,181 --> 00:02:46,921
+Recover an import that was interrupted.
+
+39
+00:02:47,671 --> 00:02:52,731
+Keep the import list tidy, so the entries you see are the ones that still matter.
+
+40
+00:02:54,731 --> 00:03:00,054
+Read the errors, fix the rows, resume what stalled, and remove what you no longer need.
+
+41
+00:03:00,054 --> 00:03:04,403
+The user manual and the technical guide are linked in the description.
+
+42
+00:03:04,403 --> 00:03:05,891
+Thanks for watching.
+
