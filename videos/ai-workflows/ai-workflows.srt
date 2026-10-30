@@ -1,0 +1,252 @@
+1
+00:00:01,000 --> 00:00:04,343
+Orchard Core workflows automate work without code.
+
+2
+00:00:04,343 --> 00:00:08,104
+The AI features add two tasks that ask an AI model for an
+
+3
+00:00:08,104 --> 00:00:13,417
+answer, and four events that start a workflow when something happens in an AI chat.
+
+4
+00:00:13,417 --> 00:00:18,133
+This video builds a workflow that summarizes every chat when it ends, and
+
+5
+00:00:18,133 --> 00:00:20,700
+explains the outcomes and the events.
+
+6
+00:00:25,300 --> 00:00:28,029
+Two tasks ask an AI model for an answer:
+
+7
+00:00:28,029 --> 00:00:31,884
+one that uses an AI profile, and one that sets up the model
+
+8
+00:00:31,884 --> 00:00:34,850
+and the instructions inside the task itself.
+
+9
+00:00:35,600 --> 00:00:40,115
+Four events start a workflow when something happens in an AI chat:
+
+10
+00:00:40,115 --> 00:00:44,693
+a chat closes, a field is collected, all fields are collected, or a
+
+11
+00:00:44,693 --> 00:00:46,950
+closed chat has been analyzed.
+
+12
+00:00:47,700 --> 00:00:50,003
+Every AI task has three outcomes:
+
+13
+00:00:50,003 --> 00:00:54,314
+Done when the AI answered, Drew Blank when the answer is empty, and
+
+14
+00:00:54,314 --> 00:00:56,618
+Failed when something went wrong.
+
+15
+00:00:56,618 --> 00:00:58,980
+You decide what each one leads to.
+
+16
+00:01:03,167 --> 00:01:06,802
+Open Design, Workflows, and click Create Workflow.
+
+17
+00:01:06,802 --> 00:01:11,281
+Give it a Name, such as Summarize closed chats, and click Save.
+
+18
+00:01:11,281 --> 00:01:14,137
+The editor opens with an empty canvas.
+
+19
+00:01:18,328 --> 00:01:19,667
+Click Add Event.
+
+20
+00:01:19,667 --> 00:01:23,806
+Under AI Chat you find the four events that start from a chat.
+
+21
+00:01:23,806 --> 00:01:26,058
+Each one has one outcome, Done.
+
+22
+00:01:26,508 --> 00:01:30,668
+Add AI Chat Session Closed, which starts when a chat ends.
+
+23
+00:01:30,668 --> 00:01:35,218
+Its one field, Profile, can stay on Any profile, or you can pick
+
+24
+00:01:35,218 --> 00:01:39,183
+one profile to react only to the chats of that profile.
+
+25
+00:01:39,183 --> 00:01:40,288
+Click Save.
+
+26
+00:01:44,498 --> 00:01:51,028
+Click Add Task, find AI Completion using Profile under Artificial Intelligence, and click Add.
+
+27
+00:01:52,129 --> 00:01:58,334
+Profiles is the AI profile that answers, with its model, instructions, knowledge and tools.
+
+28
+00:01:58,334 --> 00:02:02,556
+Result property name is the name the answer is stored under.
+
+29
+00:02:02,556 --> 00:02:07,609
+Start it with AI and a dash, so that it does not clash with another task.
+
+30
+00:02:08,072 --> 00:02:11,236
+Prompt template is the message sent to the AI.
+
+31
+00:02:11,236 --> 00:02:15,009
+You can mix your own text with values from the workflow.
+
+32
+00:02:15,009 --> 00:02:16,043
+Click Save.
+
+33
+00:02:16,043 --> 00:02:20,242
+The task shows its three outcomes, Done, Drew Blank and Failed.
+
+34
+00:02:24,441 --> 00:02:28,822
+On the canvas, drag the task away from the event, then drag from
+
+35
+00:02:28,822 --> 00:02:32,513
+the outcome of the event to the task to connect them.
+
+36
+00:02:32,513 --> 00:02:35,141
+When the chat closes, the task runs.
+
+37
+00:02:35,594 --> 00:02:40,383
+Connect Failed and Drew Blank to something useful, such as a notification to
+
+38
+00:02:40,383 --> 00:02:44,121
+an administrator, so that a workflow never stops silently.
+
+39
+00:02:44,121 --> 00:02:46,924
+Then click Save, and turn the workflow on.
+
+40
+00:02:51,126 --> 00:02:57,142
+The other task, AI Completion using Direct Config, sets up the model right inside the task.
+
+41
+00:02:57,142 --> 00:03:01,298
+Its editor has the settings of a chat interaction, over tabs:
+
+42
+00:03:01,298 --> 00:03:07,004
+Content, with the prompt, the deployments, the instructions and the tuning values, and
+
+43
+00:03:07,004 --> 00:03:09,175
+Capabilities, with the tools.
+
+44
+00:03:09,175 --> 00:03:13,206
+A Knowledge tab appears when the knowledge features are on.
+
+45
+00:03:17,406 --> 00:03:22,104
+AI Chat Session Closed starts when a chat ends, because the AI detected
+
+46
+00:03:22,104 --> 00:03:27,656
+a goodbye, or because the visitor stopped replying for the profile's inactivity time.
+
+47
+00:03:28,406 --> 00:03:33,051
+AI Chat Session Field Extracted starts when the AI collected a value for
+
+48
+00:03:33,051 --> 00:03:37,576
+one of the profile's data extraction fields, such as an email address.
+
+49
+00:03:38,326 --> 00:03:44,634
+AI Chat Session All Fields Extracted starts when every data extraction field has a value.
+
+50
+00:03:44,634 --> 00:03:46,626
+It starts once per chat.
+
+51
+00:03:47,376 --> 00:03:52,530
+AI Chat Session Post-Processed starts when the AI finished analyzing a closed chat
+
+52
+00:03:52,530 --> 00:03:57,216
+with the profile's post-session tasks, such as a summary or a disposition.
+
+53
+00:04:01,416 --> 00:04:03,425
+Send new leads to sales.
+
+54
+00:04:03,425 --> 00:04:09,184
+The assistant collects a visitor's name, email and question, and when all fields
+
+55
+00:04:09,184 --> 00:04:13,536
+are extracted, an email task sends them to your sales team.
+
+56
+00:04:14,286 --> 00:04:16,068
+Summarize closed chats.
+
+57
+00:04:16,068 --> 00:04:20,738
+A post-session task writes a short summary, and a workflow saves it or
+
+58
+00:04:20,738 --> 00:04:23,626
+sends it when the chat is post-processed.
+
+59
+00:04:24,376 --> 00:04:26,152
+Tag incoming requests.
+
+60
+00:04:26,152 --> 00:04:31,227
+A direct config task answers with one word, Sales, Support or Billing, and
+
+61
+00:04:31,227 --> 00:04:34,526
+the workflow routes the request on the answer.
+
+62
+00:04:36,526 --> 00:04:41,233
+AI tasks and chat events turn what visitors say into automatic work.
+
+63
+00:04:41,233 --> 00:04:42,886
+Thanks for watching.
+
