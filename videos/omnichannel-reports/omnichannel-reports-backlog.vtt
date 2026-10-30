@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.185 --> 00:00:06.528
+Activity backlog looks at all work still open.
+
+00:00:06.528 --> 00:00:11.800
+Unassigned has no owner, Overdue is past its scheduled time, and Reserved is
+
+00:00:11.800 --> 00:00:13.985
+held for an agent right now.
+
+00:00:14.436 --> 00:00:19.340
+Activity aging puts the same work into age bands, from under an hour
+
+00:00:19.340 --> 00:00:20.997
+to over seven days.
+
+00:00:20.997 --> 00:00:24.376
+A heavy last band is old work nobody touches.
+
+00:00:24.827 --> 00:00:29.539
+Overdue workload by user shows who holds the late work, how much is
+
+00:00:29.539 --> 00:00:32.767
+unassigned, and its average and maximum age.
+

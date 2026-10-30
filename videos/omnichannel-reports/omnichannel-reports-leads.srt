@@ -1,0 +1,24 @@
+1
+00:00:03,274 --> 00:00:09,532
+Lead funnel shows leads created in the period by their current status, and the conversion rate.
+
+2
+00:00:09,532 --> 00:00:12,754
+The three CRM reports use the date range only.
+
+3
+00:00:13,230 --> 00:00:18,625
+Lead conversion by source and list shows, for each, how many leads converted,
+
+4
+00:00:18,625 --> 00:00:21,680
+the rate and the average time to convert.
+
+5
+00:00:22,203 --> 00:00:27,595
+Opportunity pipeline lists open deals by stage with amount and weighted amount, using
+
+6
+00:00:27,595 --> 00:00:33,223
+the stage's probability, then the win rate and amount won for deals closed in the period.
+

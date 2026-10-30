@@ -1,0 +1,24 @@
+1
+00:00:03,196 --> 00:00:08,769
+Dialer call detail lists one row per number the dialer worked, with contact,
+
+2
+00:00:08,769 --> 00:00:12,915
+campaign, last disposition, attempts, agent and status.
+
+3
+00:00:12,915 --> 00:00:16,586
+It opens on the Dialer source, a page at a time.
+
+4
+00:00:17,041 --> 00:00:22,501
+AI handoff and containment counts the conversations an AI profile finished itself and
+
+5
+00:00:22,501 --> 00:00:26,461
+those it passed to a live agent, with the rates, the time to
+
+6
+00:00:26,461 --> 00:00:28,321
+escalate and the reasons.
+

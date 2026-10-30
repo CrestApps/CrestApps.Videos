@@ -1,0 +1,17 @@
+WEBVTT
+
+00:00:03.201 --> 00:00:06.203
+Activity summary is the daily view:
+
+00:00:06.203 --> 00:00:12.134
+total, completed with its rate, pending, in progress, failed and cancelled.
+
+00:00:12.134 --> 00:00:15.941
+Bars split them by source, channel and status.
+
+00:00:16.391 --> 00:00:22.271
+Campaign performance has one row per campaign, and a second table per campaign group.
+
+00:00:22.721 --> 00:00:30.181
+Disposition breakdown counts completed activities by the disposition chosen, and its share of all completions.
+

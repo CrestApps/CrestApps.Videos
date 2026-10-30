@@ -1,0 +1,16 @@
+1
+00:00:03,188 --> 00:00:08,636
+Four campaign reports break each campaign down by source, channel, disposition and number
+
+2
+00:00:08,636 --> 00:00:11,848
+of attempts, with the completion rate of each row.
+
+3
+00:00:12,299 --> 00:00:18,059
+Customer workload has one row per customer, to spot someone contacted too often.
+
+4
+00:00:18,510 --> 00:00:23,550
+Address usage compares your sales line, support line and text line.
+

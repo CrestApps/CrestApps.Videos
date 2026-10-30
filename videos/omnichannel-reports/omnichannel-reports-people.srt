@@ -1,0 +1,24 @@
+1
+00:00:03,190 --> 00:00:09,604
+Assigned user performance gives each person's activities, outcomes and completion rate.
+
+2
+00:00:09,604 --> 00:00:12,500
+Work nobody owns appears as Not set.
+
+3
+00:00:12,951 --> 00:00:18,561
+User completion time shows the average, median and maximum time finished work took.
+
+4
+00:00:18,561 --> 00:00:22,911
+Daily user productivity gives the same for each person and day.
+
+5
+00:00:23,362 --> 00:00:28,867
+Activity creation by user shows who or what created the work, for audits.
+
+6
+00:00:28,867 --> 00:00:32,142
+Not set is work with no recorded creator.
+

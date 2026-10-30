@@ -1,0 +1,106 @@
+{
+  "title": "Omnichannel Reports: Which Report Answers Which Question | CrestApps for Orchard Core",
+  "description": "Your own to-do list shows only your own work. The omnichannel reports in CrestApps for Orchard Core show how much work is open, who is behind, which campaign works and how leads become deals, from the first activity to the closed opportunity.\n\nIn this video:\n• Where the reports are, their filters and the permission they need\n• Volume and completion: Activity summary, Campaign performance, Disposition breakdown\n• Backlog and age: Activity backlog, Activity aging, Overdue workload by user\n• Workload grouped by source, channel, kind, assignment, urgency and attempts\n• People: assigned user, completion time, daily productivity and creators\n• Campaign mixes, customer workload and address usage\n• Dialer call detail and AI handoff and containment\n• Lead funnel, lead conversion and the opportunity pipeline\n• The omnichannel and messaging data sets of the Report Builder\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "CRM",
+    "Reports",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "omnichannel reports",
+    "CRM reports",
+    "campaign performance",
+    "lead conversion",
+    "opportunity pipeline",
+    "AI containment rate",
+    "report builder",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why these reports"
+    },
+    {
+      "time": "0:43",
+      "title": "Where the reports are"
+    },
+    {
+      "time": "1:23",
+      "title": "Volume and completion"
+    },
+    {
+      "time": "1:54",
+      "title": "Backlog and age"
+    },
+    {
+      "time": "2:28",
+      "title": "Workload by group"
+    },
+    {
+      "time": "3:21",
+      "title": "People"
+    },
+    {
+      "time": "3:54",
+      "title": "Campaigns, customers and addresses"
+    },
+    {
+      "time": "4:18",
+      "title": "Dialer and AI"
+    },
+    {
+      "time": "4:48",
+      "title": "Leads and deals"
+    },
+    {
+      "time": "5:22",
+      "title": "In the Report Builder"
+    },
+    {
+      "time": "6:13",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:48",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/reports"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/reports.md"
+  ],
+  "length": "6:59"
+}
