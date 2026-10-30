@@ -56,7 +56,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Business Hours Calendars: Define When You Are Open](videos/contact-center-business-hours) | 3:48 | [https://youtu.be/nn6Vu1TFkFY](https://youtu.be/nn6Vu1TFkFY) | CrestApps/CrestApps.OrchardCore |
 | [Call Flows: Inbound, Outbound and Callback Calls Step by Step](videos/contact-center-call-flows) | 6:01 | [https://youtu.be/G4FUvCrR66M](https://youtu.be/G4FUvCrR66M) | CrestApps/CrestApps.OrchardCore |
 | [Call Recordings: Search, Play and Read the Transcript](videos/contact-center-call-recordings) | 5:20 | [https://youtu.be/2Fpqa4djxiA](https://youtu.be/2Fpqa4djxiA) | CrestApps/CrestApps.OrchardCore |
-| [Campaigns and Campaign Groups: Name the Work and Roll It Up](videos/contact-center-campaigns) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Campaigns and Campaign Groups: Name the Work and Roll It Up](videos/contact-center-campaigns) | 4:50 | [https://youtu.be/s5Kxd4x46_k](https://youtu.be/s5Kxd4x46_k) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Configuration: Export a Plan and Replay It](videos/contact-center-configuration-deployment) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dashboard Diagnostics: Alerts, Free Agent and Why the Dialer Is Not Dialing](videos/contact-center-dashboard-diagnostics) | 5:46 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dialer Modes Compared: Preview, Power, Progressive and Predictive](videos/contact-center-dialer-modes-compared) | 7:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
