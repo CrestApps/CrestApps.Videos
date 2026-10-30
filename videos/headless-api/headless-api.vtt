@@ -1,0 +1,281 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.282
+Your store can sell from more than its own pages.
+
+00:00:04.282 --> 00:00:08.578
+The commerce API lets your own storefront, a phone app, a point of
+
+00:00:08.578 --> 00:00:13.411
+sale or a back-office system sell from the same products, prices, carts and
+
+00:00:13.411 --> 00:00:15.380
+stock, with the same rules.
+
+00:00:15.380 --> 00:00:17.528
+Your developers build the app.
+
+00:00:17.528 --> 00:00:21.526
+This video shows what you set up in the admin so it can work:
+
+00:00:21.526 --> 00:00:26.180
+the features, the documentation pages, sign-in, and cross-origin access.
+
+00:00:30.780 --> 00:00:37.160
+Some stores want their own website, in any framework, that shows products and checks buyers out.
+
+00:00:37.910 --> 00:00:41.576
+Others want a phone app, a point of sale at the counter, or
+
+00:00:41.576 --> 00:00:45.130
+a warehouse and accounting system connected to the store.
+
+00:00:45.880 --> 00:00:48.703
+All of them can use the commerce API:
+
+00:00:48.703 --> 00:00:54.020
+the same products, prices, coupons, tax and stock holds as your storefront.
+
+00:00:58.220 --> 00:01:01.112
+Each commerce module has an API feature.
+
+00:01:01.112 --> 00:01:03.690
+You turn on the ones the app needs.
+
+00:01:04.440 --> 00:01:10.680
+The OpenAPI feature documents the API for developers, in explorer pages they can use.
+
+00:01:11.430 --> 00:01:15.949
+Apps and servers sign in through your site's own sign-in server, and get
+
+00:01:15.949 --> 00:01:18.150
+a token to send with every call.
+
+00:01:18.900 --> 00:01:24.490
+A storefront on another address needs your site to allow it, with a CORS policy.
+
+00:01:28.676 --> 00:01:31.889
+Under Tools, Features, search for API.
+
+00:01:31.889 --> 00:01:35.613
+Each commerce module has its own API feature:
+
+00:01:35.613 --> 00:01:41.893
+the Catalog API, Cart API, Checkout API, Orders API, Customers API, Shipping API
+
+00:01:41.893 --> 00:01:45.107
+and Inventory API, plus Point of Sale.
+
+00:01:45.107 --> 00:01:49.196
+For a typical headless store, turn on all of them.
+
+00:01:49.649 --> 00:01:51.969
+Each needs its module on first.
+
+00:01:51.969 --> 00:01:56.231
+Here the Inventory API, which says what is in stock at each of
+
+00:01:56.231 --> 00:01:58.488
+your locations, is not on yet.
+
+00:01:58.488 --> 00:01:59.679
+Click Enable.
+
+00:02:03.882 --> 00:02:09.072
+To show developers the API, turn on OpenAPI on the same Features page,
+
+00:02:09.072 --> 00:02:11.258
+and one or more explorers.
+
+00:02:11.258 --> 00:02:16.244
+Swagger UI and Scalar UI let developers try calls from the browser.
+
+00:02:16.244 --> 00:02:18.156
+ReDoc UI is read-only.
+
+00:02:18.156 --> 00:02:20.342
+Click Enable on Scalar UI.
+
+00:02:20.792 --> 00:02:26.090
+On the OpenAPI settings page, Allow anonymous access to the API schema opens
+
+00:02:26.090 --> 00:02:28.287
+the description to everyone.
+
+00:02:28.287 --> 00:02:34.296
+By default, only a signed-in user with the View OpenAPI Content permission can read it.
+
+00:02:34.296 --> 00:02:39.012
+Leave it off on a live store unless you want your API to be public.
+
+00:02:39.464 --> 00:02:45.366
+The explorers open at slash swagger, slash scalar, and slash redoc on your site.
+
+00:02:45.366 --> 00:02:48.111
+The commerce API is grouped there:
+
+00:02:48.111 --> 00:02:55.797
+Catalog, Cart, Checkout, Inventory, Account, and for staff, Orders, Customers, Coupons, Stock, Fulfillment
+
+00:02:55.797 --> 00:02:57.444
+and Point of Sale.
+
+00:03:01.635 --> 00:03:03.280
+Guests need no sign-in:
+
+00:03:03.280 --> 00:03:07.363
+what a shopper does before they have an account works without one.
+
+00:03:07.363 --> 00:03:11.332
+Everything else signs in through your site's own sign-in server.
+
+00:03:11.332 --> 00:03:16.436
+Turn on the OpenID features, and under Authorization Server, the token endpoint, and
+
+00:03:16.436 --> 00:03:20.405
+the authorization endpoint for apps that sign buyers in, are on.
+
+00:03:20.856 --> 00:03:25.998
+Allow authorization code flow, with Require proof key for code exchange, is for
+
+00:03:25.998 --> 00:03:27.873
+apps that sign people in.
+
+00:03:27.873 --> 00:03:30.959
+Allow client credentials flow is for servers.
+
+00:03:30.959 --> 00:03:34.226
+Allow refresh token flow keeps an app signed in.
+
+00:03:34.226 --> 00:03:37.916
+Then click Save, and the site may restart for a moment.
+
+00:03:37.200 --> 00:03:42.971
+Then, under Token Validation, choose this tenant as the one whose tokens are accepted.
+
+00:03:42.971 --> 00:03:47.110
+Without this, every app that has signed in is still refused.
+
+00:03:51.316 --> 00:03:55.723
+An app that buyers sign in to, such as a storefront or a phone app.
+
+00:03:55.723 --> 00:04:00.250
+Under Applications, add one with a Client Id, a Display Name, and the
+
+00:04:00.250 --> 00:04:05.019
+Public type, because an app in a phone or a browser cannot keep a secret.
+
+00:04:05.019 --> 00:04:09.848
+Tick the authorization code flow, PKCE and the refresh token flow, and add
+
+00:04:09.848 --> 00:04:12.986
+the redirect address your developers give you.
+
+00:04:13.438 --> 00:04:15.914
+Allow the profile and roles scopes.
+
+00:04:15.914 --> 00:04:21.894
+The roles scope tells the API the person's roles, which is where staff permissions come from.
+
+00:04:21.894 --> 00:04:22.558
+Save.
+
+00:04:23.009 --> 00:04:26.919
+A server that works on the store's behalf has no person signing in.
+
+00:04:26.919 --> 00:04:30.991
+First create a role for it, such as Warehouse integration, and give it
+
+00:04:30.991 --> 00:04:32.919
+only the permissions it needs.
+
+00:04:33.370 --> 00:04:38.134
+Then add an application of the Confidential type, with a Client Id and
+
+00:04:38.134 --> 00:04:39.952
+a strong Client Secret.
+
+00:04:39.952 --> 00:04:44.402
+Tick the client credentials flow, and choose the role it acts as.
+
+00:04:44.402 --> 00:04:48.978
+Save, and give the secret only to whoever runs the server, never to
+
+00:04:48.978 --> 00:04:50.670
+an app or a web page.
+
+00:04:54.872 --> 00:04:59.372
+A storefront that runs in the browser, on another address than your site,
+
+00:04:59.372 --> 00:05:01.309
+needs your site to allow it.
+
+00:05:01.309 --> 00:05:06.321
+Turn on the CORS feature, and under Security, Cross-Origin Resource Sharing, add a
+
+00:05:06.321 --> 00:05:10.821
+policy for your storefront's address, such as a name, the origin, and the
+
+00:05:10.821 --> 00:05:12.929
+headers and methods it may use.
+
+00:05:12.929 --> 00:05:15.492
+Click Add Origin to add it to the list.
+
+00:05:15.492 --> 00:05:20.391
+The policy applies when the tenant reloads, so give your developers the policy's
+
+00:05:20.391 --> 00:05:22.612
+name and the address you allowed.
+
+00:05:26.812 --> 00:05:32.402
+A guest, not signed in, can browse products and stock, fill a cart, and check out.
+
+00:05:33.152 --> 00:05:37.836
+A signed-in buyer can do all of that, plus their account, orders, returns
+
+00:05:37.836 --> 00:05:41.452
+and shipments, and store credit and points at checkout.
+
+00:05:42.202 --> 00:05:47.970
+Staff, or a server, can work with orders, customers, stock, coupons and shipments,
+
+00:05:47.970 --> 00:05:51.902
+with the same permissions as the matching admin pages.
+
+00:05:52.652 --> 00:05:59.126
+The API cannot change your store's setup, such as products, prices, payment providers or taxes.
+
+00:05:59.126 --> 00:06:02.396
+It has no place for your own checkout fields.
+
+00:06:02.396 --> 00:06:05.793
+And it cannot tell other systems what happened:
+
+00:06:05.793 --> 00:06:07.652
+for that, use webhooks.
+
+00:06:11.852 --> 00:06:13.946
+A headless storefront:
+
+00:06:13.946 --> 00:06:17.012
+your own website, in any framework.
+
+00:06:17.762 --> 00:06:22.062
+A phone app buyers sign in to, to shop and follow their orders.
+
+00:06:22.812 --> 00:06:25.072
+A point of sale at the counter.
+
+00:06:25.822 --> 00:06:27.861
+A back-office integration:
+
+00:06:27.861 --> 00:06:32.322
+a warehouse that ships orders, or accounting that reads refunds.
+
+00:06:34.322 --> 00:06:38.934
+With the commerce API, your products and rules work wherever you sell.
+
+00:06:38.934 --> 00:06:40.512
+Thanks for watching.
+

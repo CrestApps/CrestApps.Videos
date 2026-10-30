@@ -1,0 +1,275 @@
+{
+  "title": "Headless API",
+  "output": "headless-api",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Headless API",
+      "subtitle": "Sell from your own storefront, app or system",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Your store can sell from more than its own pages. The commerce API lets your own storefront, a phone app, a point of sale or a back-office system sell from the same products, prices, carts and stock, with the same rules. Your developers build the app. This video shows what you set up in the admin so it can work: the features, the documentation pages, sign-in, and cross-origin access."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a commerce API",
+      "subtitle": "Beyond your own pages",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some stores want their own website, in any framework, that shows products and checks buyers out."
+            },
+            {
+              "id": "why-2",
+              "text": "Others want a phone app, a point of sale at the counter, or a warehouse and accounting system connected to the store."
+            },
+            {
+              "id": "why-3",
+              "text": "All of them can use the commerce API: the same products, prices, coupons, tax and stock holds as your storefront."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Features, explorers, sign-in and access",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "Each commerce module has an API feature. You turn on the ones the app needs."
+            },
+            {
+              "id": "how-2",
+              "text": "The OpenAPI feature documents the API for developers, in explorer pages they can use."
+            },
+            {
+              "id": "how-3",
+              "text": "Apps and servers sign in through your site's own sign-in server, and get a token to send with every call."
+            },
+            {
+              "id": "how-4",
+              "text": "A storefront on another address needs your site to allow it, with a CORS policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Turn on the features",
+      "subtitle": "One API feature per module",
+      "clips": [
+        {
+          "id": "03-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feat-1",
+              "text": "Under Tools, Features, search for API. Each commerce module has its own API feature: the Catalog API, Cart API, Checkout API, Orders API, Customers API, Shipping API and Inventory API, plus Point of Sale. For a typical headless store, turn on all of them."
+            },
+            {
+              "id": "feat-2",
+              "text": "Each needs its module on first. Here the Inventory API, which says what is in stock at each of your locations, is not on yet. Click Enable."
+            }
+          ]
+        }
+      ],
+      "short": "features"
+    },
+    {
+      "id": "04",
+      "title": "Show developers the API",
+      "subtitle": "OpenAPI and its explorers",
+      "clips": [
+        {
+          "id": "04-explorers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "To show developers the API, turn on OpenAPI on the same Features page, and one or more explorers. Swagger UI and Scalar UI let developers try calls from the browser. ReDoc UI is read-only. Click Enable on Scalar UI."
+            },
+            {
+              "id": "exp-2",
+              "text": "On the OpenAPI settings page, Allow anonymous access to the API schema opens the description to everyone. By default, only a signed-in user with the View OpenAPI Content permission can read it. Leave it off on a live store unless you want your API to be public."
+            },
+            {
+              "id": "exp-3",
+              "text": "The explorers open at slash swagger, slash scalar, and slash redoc on your site. The commerce API is grouped there: Catalog, Cart, Checkout, Inventory, Account, and for staff, Orders, Customers, Coupons, Stock, Fulfillment and Point of Sale."
+            }
+          ]
+        }
+      ],
+      "short": "explorers"
+    },
+    {
+      "id": "05",
+      "title": "The sign-in server",
+      "subtitle": "Endpoints, flows and token validation",
+      "clips": [
+        {
+          "id": "05-server",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "srv-1",
+              "text": "Guests need no sign-in: what a shopper does before they have an account works without one. Everything else signs in through your site's own sign-in server. Turn on the OpenID features, and under Authorization Server, the token endpoint, and the authorization endpoint for apps that sign buyers in, are on."
+            },
+            {
+              "id": "srv-2",
+              "text": "Allow authorization code flow, with Require proof key for code exchange, is for apps that sign people in. Allow client credentials flow is for servers. Allow refresh token flow keeps an app signed in. Then click Save, and the site may restart for a moment."
+            },
+            {
+              "id": "srv-3",
+              "text": "Then, under Token Validation, choose this tenant as the one whose tokens are accepted. Without this, every app that has signed in is still refused."
+            }
+          ]
+        }
+      ],
+      "short": "server"
+    },
+    {
+      "id": "06",
+      "title": "Apps and servers",
+      "subtitle": "Public and confidential clients",
+      "clips": [
+        {
+          "id": "06-apps",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "app-1",
+              "text": "An app that buyers sign in to, such as a storefront or a phone app. Under Applications, add one with a Client Id, a Display Name, and the Public type, because an app in a phone or a browser cannot keep a secret. Tick the authorization code flow, PKCE and the refresh token flow, and add the redirect address your developers give you."
+            },
+            {
+              "id": "app-2",
+              "text": "Allow the profile and roles scopes. The roles scope tells the API the person's roles, which is where staff permissions come from. Save."
+            },
+            {
+              "id": "app-3",
+              "text": "A server that works on the store's behalf has no person signing in. First create a role for it, such as Warehouse integration, and give it only the permissions it needs."
+            },
+            {
+              "id": "app-4",
+              "text": "Then add an application of the Confidential type, with a Client Id and a strong Client Secret. Tick the client credentials flow, and choose the role it acts as. Save, and give the secret only to whoever runs the server, never to an app or a web page."
+            }
+          ]
+        }
+      ],
+      "short": "apps"
+    },
+    {
+      "id": "07",
+      "title": "A storefront on another address",
+      "subtitle": "CORS",
+      "clips": [
+        {
+          "id": "07-cors",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cors-1",
+              "text": "A storefront that runs in the browser, on another address than your site, needs your site to allow it. Turn on the CORS feature, and under Security, Cross-Origin Resource Sharing, add a policy for your storefront's address, such as a name, the origin, and the headers and methods it may use. Click Add Origin to add it to the list. The policy applies when the tenant reloads, so give your developers the policy's name and the address you allowed."
+            }
+          ]
+        }
+      ],
+      "short": "cors"
+    },
+    {
+      "id": "08",
+      "title": "Who can do what",
+      "subtitle": "Callers and limits",
+      "clips": [
+        {
+          "id": "08-callers",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "caller-1",
+              "text": "A guest, not signed in, can browse products and stock, fill a cart, and check out."
+            },
+            {
+              "id": "caller-2",
+              "text": "A signed-in buyer can do all of that, plus their account, orders, returns and shipments, and store credit and points at checkout."
+            },
+            {
+              "id": "caller-3",
+              "text": "Staff, or a server, can work with orders, customers, stock, coupons and shipments, with the same permissions as the matching admin pages."
+            },
+            {
+              "id": "caller-4",
+              "text": "The API cannot change your store's setup, such as products, prices, payment providers or taxes. It has no place for your own checkout fields. And it cannot tell other systems what happened: for that, use webhooks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A headless storefront: your own website, in any framework."
+            },
+            {
+              "id": "use-2",
+              "text": "A phone app buyers sign in to, to shop and follow their orders."
+            },
+            {
+              "id": "use-3",
+              "text": "A point of sale at the counter."
+            },
+            {
+              "id": "use-4",
+              "text": "A back-office integration: a warehouse that ships orders, or accounting that reads refunds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With the commerce API, your products and rules work wherever you sell. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
