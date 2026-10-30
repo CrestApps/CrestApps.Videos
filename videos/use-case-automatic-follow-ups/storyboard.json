@@ -1,0 +1,200 @@
+{
+  "title": "Follow Up Automatically",
+  "output": "use-case-automatic-follow-ups",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "AI": "A.I.",
+    "STOP": "STOP",
+    "CRM": "C.R.M."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Follow Up Automatically",
+      "subtitle": "A use case of CrestApps for Orchard Core",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "When a customer goes quiet in an automated text conversation, the conversation dies. A cadence keeps it alive, with follow-ups that go out only during your business hours. This use case shows how to set it up. It is a recap, and it points to the videos that show each screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Who it is for and what you get",
+      "subtitle": "Conversations that do not die",
+      "clips": [
+        {
+          "id": "01-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "This is for managers who run automated text outreach. The AI texts your contacts and holds the conversation."
+            },
+            {
+              "id": "who-2",
+              "text": "When a customer stops replying, a cadence sends the next follow-up after the silence you chose, for example after an hour, and again after a day. Each follow-up is your own fixed text, or is written by the AI from the conversation."
+            },
+            {
+              "id": "who-3",
+              "text": "Follow-ups go out only while your business hours calendar is open, in the customer's own time zone."
+            },
+            {
+              "id": "who-4",
+              "text": "A customer who replies, or texts STOP, is never nudged again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "What cadences follow",
+      "clips": [
+        {
+          "id": "02-need",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "need-1",
+              "text": "Cadences follow up automated text conversations, the ones the AI starts from an automatic activity load. They do not send messages in conversations that agents have in the messaging workspace."
+            },
+            {
+              "id": "need-2",
+              "text": "You need an SMS provider and a texting number, an AI provider connection, and the feature SMS Omnichannel Automation, which also turns on Omnichannel Management and Contact Center Business Hours."
+            },
+            {
+              "id": "need-3",
+              "text": "The manager needs Manage cadences, Manage business hours, Manage activity batches, Manage subject flows and Manage dispositions, and access to AI profiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set it up",
+      "subtitle": "Profile, outcomes, number, hours",
+      "clips": [
+        {
+          "id": "03-setup",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "First, create the AI profile under Artificial Intelligence, Profiles, with a text messaging starting point such as Qualify leads by text. Make sure Start the conversation automatically is on."
+            },
+            {
+              "id": "setup-2",
+              "text": "Second, create an outbound subject, its dispositions, and a subject flow. On each flow action, fill in when to choose this disposition, so that the AI knows which outcome to pick."
+            },
+            {
+              "id": "setup-3",
+              "text": "Third, the number the AI sends from must be on Omnichannel Addresses with Text messages ticked. Fourth, create the business hours calendar that says when follow-ups may be sent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Build the cadence, and load",
+      "subtitle": "Steps, load, review",
+      "clips": [
+        {
+          "id": "04-work",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "work-1",
+              "text": "Under Cadences, add a step for each follow-up, with how many minutes of silence come first, and a defined message or AI-generated text."
+            },
+            {
+              "id": "work-2",
+              "text": "Create an automatic activity load with the subject, the campaign, the AI profile, SMS as the channel and your texting number. Under the AI options, pick the cadence as Re-engagement, pick the business hours calendar, and choose a reply delay. Then choose Load activities."
+            },
+            {
+              "id": "work-3",
+              "text": "Each finished conversation is completed with a disposition and a summary. Open Review AI conversation on the contact's activity to read it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Check that it works",
+      "subtitle": "With your own phone",
+      "clips": [
+        {
+          "id": "05-chk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "Make a test contact with your own mobile number, and load a small automatic batch for just that contact, with a cadence whose first step is a few minutes. Within about five minutes, your phone receives the opening message."
+            },
+            {
+              "id": "chk-2",
+              "text": "Do not reply. After the first step's minutes, while the calendar is open, the follow-up arrives."
+            },
+            {
+              "id": "chk-3",
+              "text": "Reply to the follow-up. The AI answers, and because you replied, no more follow-ups are sent. Load another test batch for yourself and text STOP: no follow-up is ever sent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Tips",
+      "subtitle": "Good to know",
+      "clips": [
+        {
+          "id": "06-tip",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "The number of steps is the most follow-ups a customer will ever get. After the last step, the conversation ends on its normal no-response timeout."
+            },
+            {
+              "id": "tip-2",
+              "text": "Each step's minutes are counted from the last message the automation sent, not from the start of the conversation. The cadence is copied onto each activity when the load runs, so editing it later does not change conversations in progress."
+            },
+            {
+              "id": "tip-3",
+              "text": "Use AI guidance on an AI-generated step to steer its tone, for example keep it short and friendly, and offer a call back."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A cadence, your business hours, and an automatic load: follow-ups that go out at the right time, and stop when the customer answers. Watch the videos on automated SMS and cadences for each screen. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
