@@ -1,0 +1,86 @@
+{
+  "title": "Omnichannel Subjects: Outbound and Inbound, Manual and Automated | CrestApps for Orchard Core",
+  "description": "A subject is what a call or a message is about. Create an outbound subject for calls you make and an inbound subject for calls customers make, add the fields an agent fills in, and see the settings of an automated subject: AI profile, goal, handoff and opt-out words.\n\nIn this video:\n• Why subjects\n• Creating an outbound subject with the Omnichannel Subject part\n• Adding fields to a subject\n• Creating an inbound subject: manual or automated, phone or SMS\n• Settings of an automated subject and its live agent handoff\n• What subjects are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "subjects",
+    "omnichannel subject",
+    "inbound outbound",
+    "contact center",
+    "call subjects",
+    "subject settings",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why subjects"
+    },
+    {
+      "time": "0:51",
+      "title": "Create an outbound subject"
+    },
+    {
+      "time": "1:40",
+      "title": "Add fields"
+    },
+    {
+      "time": "2:11",
+      "title": "Create an inbound subject"
+    },
+    {
+      "time": "2:50",
+      "title": "Automated subjects"
+    },
+    {
+      "time": "3:27",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:50",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/subjects"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/subjects.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "4:07"
+}

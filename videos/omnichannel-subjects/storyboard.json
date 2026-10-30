@@ -1,0 +1,194 @@
+{
+  "title": "Omnichannel Subjects",
+  "output": "omnichannel-subjects",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Subjects",
+      "subtitle": "What a call or a message is about",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows how to create subjects in the Omnichannel contact center: an outbound subject for calls you make, an inbound subject for calls customers make, the fields an agent fills in, and the settings of an automated subject."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why subjects",
+      "subtitle": "One subject for each goal",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A subject is what a conversation is about: a sales call, a support request, a welcome call. Each one has its own fields, campaign and flow."
+            },
+            {
+              "id": "why-2",
+              "text": "A subject is either outbound, work you start, or inbound, work the customer starts. Inbound work can be manual, logged by an agent, or automated, answered by an AI."
+            },
+            {
+              "id": "why-3",
+              "text": "Because the subject carries the fields and the flow, every activity of that kind is handled the same way."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create an outbound subject",
+      "subtitle": "A content type with the Omnichannel Subject part",
+      "clips": [
+        {
+          "id": "02-type",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "type-1",
+              "text": "Open Interaction Center, Management, Subject Flows. With no subjects yet, the page asks you to create a content type. A subject is a content type with the Omnichannel Subject part. Enter its display name and click Create."
+            },
+            {
+              "id": "type-2",
+              "text": "On the Add Parts page, click Add and Configure next to Omnichannel Subject. The subject's settings open straight away."
+            },
+            {
+              "id": "type-3",
+              "text": "Direction is Outbound by default. Pick a default campaign, used when an activity is created outside a load, for example by hand. Require a disposition is on, because the disposition is what runs the subject flow. Leave it on unless the subject is a one-way notice. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "type"
+    },
+    {
+      "id": "03",
+      "title": "Add fields",
+      "subtitle": "What the agent fills in",
+      "clips": [
+        {
+          "id": "03-field",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "field-1",
+              "text": "The Subject Flows list shows each subject with a badge for its direction, and Missing flow until it has an action. Edit Settings reopens the settings, Edit Content Type opens the whole type, and Manage Flow opens the flow. Open Edit Content Type, and click Add Field."
+            },
+            {
+              "id": "field-2",
+              "text": "Give the field a name, pick its type, here a text field, and save. The agent fills in the fields of the subject while completing the activity."
+            }
+          ]
+        }
+      ],
+      "short": "field"
+    },
+    {
+      "id": "04",
+      "title": "Create an inbound subject",
+      "subtitle": "Manual or automated, phone or SMS",
+      "clips": [
+        {
+          "id": "04-inbound",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inbound-1",
+              "text": "Click Add Subject, create another content type, and add the Omnichannel Subject part the same way."
+            },
+            {
+              "id": "inbound-2",
+              "text": "Choose Inbound, and two more settings appear. Interaction type is Manual, when an agent logs the call, or Automated, when an AI answers. Channel is Phone or SMS. For outbound subjects these are chosen when the activities are loaded."
+            },
+            {
+              "id": "inbound-3",
+              "text": "The list now shows the inbound subject next to the outbound one, both marked Missing flow. Next, give each subject a flow."
+            }
+          ]
+        }
+      ],
+      "short": "inbound"
+    },
+    {
+      "id": "05",
+      "title": "Automated subjects",
+      "subtitle": "The AI settings",
+      "clips": [
+        {
+          "id": "05-auto",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "auto-1",
+              "text": "An automated inbound subject also asks for the address it answers on, and with the AI features on, the AI profile, the subject goal, and the speech models and voice for calls."
+            },
+            {
+              "id": "auto-2",
+              "text": "It can let the AI update the contact or the subject, sets the no-response timeout, the response delay, and the words that opt a customer out, like STOP."
+            },
+            {
+              "id": "auto-3",
+              "text": "A Live agent handoff card lets the AI pass the conversation to a person in a queue when the customer asks for one, is a ready lead, or is frustrated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "One outbound subject for each kind of call your team makes."
+            },
+            {
+              "id": "use-2",
+              "text": "An inbound subject to log the calls customers make."
+            },
+            {
+              "id": "use-3",
+              "text": "Fields that capture exactly what each conversation needs."
+            },
+            {
+              "id": "use-4",
+              "text": "Automated subjects for an AI to answer texts and calls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create a subject for each goal of a conversation, give it the fields it needs, and then build its flow, so that every outcome has a next step. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
