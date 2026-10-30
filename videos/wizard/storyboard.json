@@ -1,0 +1,212 @@
+{
+  "title": "The Wizard Part, Settings, Access and Resuming",
+  "output": "wizard",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The Wizard",
+      "subtitle": "Settings, access and resuming a visit",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video goes deeper into the CrestApps Wizard: every setting of the Wizard part, how visitors resume where they left off, who may start and continue a wizard, and the workflow events a wizard raises."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a wizard",
+      "subtitle": "A long form, one step at a time",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A long form puts visitors off. A wizard asks for one step at a time, with a progress bar, and creates content items from the answers."
+            },
+            {
+              "id": "why-2",
+              "text": "Each step is an ordinary content type, so it has its own fields. The wizard type holds the steps, in order."
+            },
+            {
+              "id": "why-3",
+              "text": "A visitor who leaves can come back and continue, and you decide who may start one and what happens to the answers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The Wizard part settings",
+      "subtitle": "Steps, display, access and completion",
+      "clips": [
+        {
+          "id": "02-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "settings-1",
+              "text": "Open Design, Content Definition, Content Types, edit the type that will host the wizard, and click Add Parts. Next to Wizard, click Add and Configure."
+            },
+            {
+              "id": "settings-2",
+              "text": "Contained content types are the kinds of step this wizard can have. Choose Content types and tick them, or choose Stereotype to allow every content type that has a stereotype you type."
+            },
+            {
+              "id": "settings-3",
+              "text": "Display type is how the steps are shown when the wizard item itself is displayed. Collapse contained steps shows them collapsed when you edit a wizard. Requires an authenticated user makes visitors sign in first. Completion policy decides what happens to the answers when the wizard finishes: create and publish the content items, create them as drafts, or do not keep them. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "settings"
+    },
+    {
+      "id": "03",
+      "title": "Build a wizard",
+      "subtitle": "The steps, in order",
+      "clips": [
+        {
+          "id": "03-build",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "build-1",
+              "text": "Create a content item of the wizard type, give it a title, and click Add step to add each step. Each step card has its own fields, which can start with a default value."
+            },
+            {
+              "id": "build-2",
+              "text": "The order of the cards is the order of the steps, and you can drag a card to change it. Publish the wizard."
+            }
+          ]
+        }
+      ],
+      "short": "build"
+    },
+    {
+      "id": "04",
+      "title": "Resume a visit",
+      "subtitle": "Pick up where you left off",
+      "clips": [
+        {
+          "id": "04-resume",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "resume-1",
+              "text": "A visitor opens the wizard, with a progress bar at the top, fills in the first step, and clicks Next."
+            },
+            {
+              "id": "resume-2",
+              "text": "Now they are on the second step, and they leave, for example to read something else."
+            },
+            {
+              "id": "resume-3",
+              "text": "When they open the wizard again, it resumes on the second step, and Previous still shows their earlier answers. The wizard remembers the session in the visitor's browser, so nothing is lost."
+            }
+          ]
+        }
+      ],
+      "short": "resume"
+    },
+    {
+      "id": "05",
+      "title": "Who can take part",
+      "subtitle": "Permissions",
+      "clips": [
+        {
+          "id": "05-access",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "access-1",
+              "text": "Two permissions control who can take part: Start a wizard and Continue a wizard. Open a role, search for wizard, and you find them under the Wizard category. The Anonymous role has both by default, so a public wizard works for visitors. Remove them to restrict a wizard, or tick Requires an authenticated user on the wizard type to make visitors sign in first."
+            }
+          ]
+        }
+      ],
+      "short": "access"
+    },
+    {
+      "id": "06",
+      "title": "Workflow events",
+      "subtitle": "React to what visitors do",
+      "clips": [
+        {
+          "id": "06-events",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "events-1",
+              "text": "With Workflows on, a wizard raises four events: Wizard Started when a new session begins, and Wizard Step Displayed when a step is shown."
+            },
+            {
+              "id": "events-2",
+              "text": "Wizard Completed is raised when a session finishes, and Wizard Failed when it fails. Each can be limited to one wizard type."
+            },
+            {
+              "id": "events-3",
+              "text": "Every event carries the session, the wizard type, the current step and the status, so a workflow can send a welcome email or notify your team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Event and workshop registrations."
+            },
+            {
+              "id": "use-2",
+              "text": "Customer onboarding."
+            },
+            {
+              "id": "use-3",
+              "text": "Surveys that are too long for one page."
+            },
+            {
+              "id": "use-4",
+              "text": "Intake forms that visitors may finish later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose the steps, decide who may take part, and let visitors resume where they stopped. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

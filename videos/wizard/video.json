@@ -1,0 +1,90 @@
+{
+  "title": "The CrestApps Wizard: Settings, Resuming, Access and Workflow Events | CrestApps for Orchard Core",
+  "description": "A wizard asks visitors for information one step at a time. Go through every setting of the Wizard part, see how a visitor resumes where they left off, who may start and continue a wizard, and the four workflow events a wizard raises.\n\nIn this video:\n• Why a wizard\n• The Wizard part settings: contained types, display type, collapse, authentication and completion policy\n• Building a wizard from steps\n• Resuming a visit\n• Start and continue permissions\n• Workflow events\n• What wizards are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "wizard",
+    "stepper",
+    "multi-step form",
+    "resume",
+    "wizard permissions",
+    "workflow events",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why a wizard"
+    },
+    {
+      "time": "0:46",
+      "title": "The Wizard part settings"
+    },
+    {
+      "time": "1:39",
+      "title": "Build a wizard"
+    },
+    {
+      "time": "2:02",
+      "title": "Resume a visit"
+    },
+    {
+      "time": "2:32",
+      "title": "Who can take part"
+    },
+    {
+      "time": "3:00",
+      "title": "Workflow events"
+    },
+    {
+      "time": "3:33",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:50",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/wizard"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/wizard"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Wizard"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/wizard.md",
+    "src/CrestApps.Docs/docs/modules/wizard.md"
+  ],
+  "length": "4:04"
+}

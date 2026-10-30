@@ -1,0 +1,24 @@
+1
+00:00:03,207 --> 00:00:07,283
+A visitor opens the wizard, with a progress bar at the top, fills
+
+2
+00:00:07,283 --> 00:00:09,637
+in the first step, and clicks Next.
+
+3
+00:00:10,908 --> 00:00:15,828
+Now they are on the second step, and they leave, for example to read something else.
+
+4
+00:00:16,493 --> 00:00:20,897
+When they open the wizard again, it resumes on the second step, and
+
+5
+00:00:20,897 --> 00:00:23,854
+Previous still shows their earlier answers.
+
+6
+00:00:23,854 --> 00:00:28,923
+The wizard remembers the session in the visitor's browser, so nothing is lost.
+

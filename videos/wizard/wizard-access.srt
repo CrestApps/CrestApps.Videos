@@ -1,0 +1,24 @@
+1
+00:00:03,195 --> 00:00:06,135
+Two permissions control who can take part:
+
+2
+00:00:06,135 --> 00:00:08,769
+Start a wizard and Continue a wizard.
+
+3
+00:00:08,769 --> 00:00:13,792
+Open a role, search for wizard, and you find them under the Wizard category.
+
+4
+00:00:13,792 --> 00:00:18,937
+The Anonymous role has both by default, so a public wizard works for visitors.
+
+5
+00:00:18,937 --> 00:00:23,898
+Remove them to restrict a wizard, or tick Requires an authenticated user on
+
+6
+00:00:23,898 --> 00:00:27,145
+the wizard type to make visitors sign in first.
+

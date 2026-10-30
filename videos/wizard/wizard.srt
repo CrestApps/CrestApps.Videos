@@ -1,0 +1,212 @@
+1
+00:00:01,000 --> 00:00:04,330
+This video goes deeper into the CrestApps Wizard:
+
+2
+00:00:04,330 --> 00:00:09,174
+every setting of the Wizard part, how visitors resume where they left off,
+
+3
+00:00:09,174 --> 00:00:14,200
+who may start and continue a wizard, and the workflow events a wizard raises.
+
+4
+00:00:18,800 --> 00:00:21,066
+A long form puts visitors off.
+
+5
+00:00:21,066 --> 00:00:25,095
+A wizard asks for one step at a time, with a progress bar,
+
+6
+00:00:25,095 --> 00:00:28,180
+and creates content items from the answers.
+
+7
+00:00:28,930 --> 00:00:33,456
+Each step is an ordinary content type, so it has its own fields.
+
+8
+00:00:33,456 --> 00:00:36,560
+The wizard type holds the steps, in order.
+
+9
+00:00:37,310 --> 00:00:41,865
+A visitor who leaves can come back and continue, and you decide who
+
+10
+00:00:41,865 --> 00:00:45,110
+may start one and what happens to the answers.
+
+11
+00:00:49,311 --> 00:00:54,932
+Open Design, Content Definition, Content Types, edit the type that will host the
+
+12
+00:00:54,932 --> 00:00:57,154
+wizard, and click Add Parts.
+
+13
+00:00:57,154 --> 00:01:00,161
+Next to Wizard, click Add and Configure.
+
+14
+00:01:00,612 --> 00:01:05,018
+Contained content types are the kinds of step this wizard can have.
+
+15
+00:01:05,018 --> 00:01:10,148
+Choose Content types and tick them, or choose Stereotype to allow every content
+
+16
+00:01:10,148 --> 00:01:12,682
+type that has a stereotype you type.
+
+17
+00:01:13,134 --> 00:01:18,417
+Display type is how the steps are shown when the wizard item itself is displayed.
+
+18
+00:01:18,417 --> 00:01:22,971
+Collapse contained steps shows them collapsed when you edit a wizard.
+
+19
+00:01:22,971 --> 00:01:26,978
+Requires an authenticated user makes visitors sign in first.
+
+20
+00:01:26,978 --> 00:01:32,139
+Completion policy decides what happens to the answers when the wizard finishes:
+
+21
+00:01:32,139 --> 00:01:37,422
+create and publish the content items, create them as drafts, or do not keep them.
+
+22
+00:01:37,422 --> 00:01:38,454
+Click Save.
+
+23
+00:01:42,659 --> 00:01:46,924
+Create a content item of the wizard type, give it a title, and
+
+24
+00:01:46,924 --> 00:01:49,307
+click Add step to add each step.
+
+25
+00:01:49,307 --> 00:01:54,199
+Each step card has its own fields, which can start with a default value.
+
+26
+00:01:54,922 --> 00:01:58,241
+The order of the cards is the order of the steps, and you
+
+27
+00:01:58,241 --> 00:02:00,085
+can drag a card to change it.
+
+28
+00:02:00,085 --> 00:02:01,402
+Publish the wizard.
+
+29
+00:02:05,608 --> 00:02:09,685
+A visitor opens the wizard, with a progress bar at the top, fills
+
+30
+00:02:09,685 --> 00:02:12,038
+in the first step, and clicks Next.
+
+31
+00:02:13,310 --> 00:02:18,230
+Now they are on the second step, and they leave, for example to read something else.
+
+32
+00:02:18,894 --> 00:02:23,299
+When they open the wizard again, it resumes on the second step, and
+
+33
+00:02:23,299 --> 00:02:26,256
+Previous still shows their earlier answers.
+
+34
+00:02:26,256 --> 00:02:31,324
+The wizard remembers the session in the visitor's browser, so nothing is lost.
+
+35
+00:02:35,519 --> 00:02:38,459
+Two permissions control who can take part:
+
+36
+00:02:38,459 --> 00:02:41,093
+Start a wizard and Continue a wizard.
+
+37
+00:02:41,093 --> 00:02:46,116
+Open a role, search for wizard, and you find them under the Wizard category.
+
+38
+00:02:46,116 --> 00:02:51,261
+The Anonymous role has both by default, so a public wizard works for visitors.
+
+39
+00:02:51,261 --> 00:02:56,223
+Remove them to restrict a wizard, or tick Requires an authenticated user on
+
+40
+00:02:56,223 --> 00:02:59,469
+the wizard type to make visitors sign in first.
+
+41
+00:03:03,269 --> 00:03:06,793
+With Workflows on, a wizard raises four events:
+
+42
+00:03:06,793 --> 00:03:13,109
+Wizard Started when a new session begins, and Wizard Step Displayed when a step is shown.
+
+43
+00:03:13,859 --> 00:03:19,553
+Wizard Completed is raised when a session finishes, and Wizard Failed when it fails.
+
+44
+00:03:19,553 --> 00:03:22,399
+Each can be limited to one wizard type.
+
+45
+00:03:23,149 --> 00:03:28,096
+Every event carries the session, the wizard type, the current step and the
+
+46
+00:03:28,096 --> 00:03:32,609
+status, so a workflow can send a welcome email or notify your team.
+
+47
+00:03:36,809 --> 00:03:39,689
+Event and workshop registrations.
+
+48
+00:03:40,439 --> 00:03:42,189
+Customer onboarding.
+
+49
+00:03:42,939 --> 00:03:45,889
+Surveys that are too long for one page.
+
+50
+00:03:46,639 --> 00:03:49,949
+Intake forms that visitors may finish later.
+
+51
+00:03:51,949 --> 00:03:57,181
+Choose the steps, decide who may take part, and let visitors resume where they stopped.
+
+52
+00:03:57,181 --> 00:04:01,457
+The user manual and the technical guide are linked in the description.
+
+53
+00:04:01,457 --> 00:04:02,919
+Thanks for watching.
+

@@ -1,0 +1,24 @@
+1
+00:00:03,205 --> 00:00:07,470
+Create a content item of the wizard type, give it a title, and
+
+2
+00:00:07,470 --> 00:00:09,853
+click Add step to add each step.
+
+3
+00:00:09,853 --> 00:00:14,745
+Each step card has its own fields, which can start with a default value.
+
+4
+00:00:15,468 --> 00:00:18,787
+The order of the cards is the order of the steps, and you
+
+5
+00:00:18,787 --> 00:00:20,631
+can drag a card to change it.
+
+6
+00:00:20,631 --> 00:00:21,948
+Publish the wizard.
+
