@@ -1,0 +1,264 @@
+1
+00:00:01,000 --> 00:00:07,624
+Kits, sets, suggestions and side by side comparison make a bigger basket and an easier choice.
+
+2
+00:00:07,624 --> 00:00:12,659
+This video shows how to sell a bundle, group products, add upsells and
+
+3
+00:00:12,659 --> 00:00:16,170
+cross-sells, and let shoppers compare products.
+
+4
+00:00:20,770 --> 00:00:24,477
+A shop sells more when shoppers see what goes together.
+
+5
+00:00:24,477 --> 00:00:28,670
+A kit, a set and a few good suggestions make the basket bigger.
+
+6
+00:00:29,420 --> 00:00:33,910
+Shoppers also choose faster when they can put products side by side.
+
+7
+00:00:34,660 --> 00:00:36,293
+And stock stays right:
+
+8
+00:00:36,293 --> 00:00:40,025
+a kit sells its parts, so the parts are counted, and a kit
+
+9
+00:00:40,025 --> 00:00:42,940
+never promises more than the parts can make.
+
+10
+00:00:43,690 --> 00:00:47,870
+Each of these is a separate feature that you turn on only when you need it.
+
+11
+00:00:52,070 --> 00:00:56,197
+A bundle is several products sold as one product, at its own price,
+
+12
+00:00:56,197 --> 00:00:57,780
+such as a starter kit.
+
+13
+00:00:58,530 --> 00:01:03,343
+A grouped product shows several products on one page, each with a quantity,
+
+14
+00:01:03,343 --> 00:01:06,790
+and one Add to cart adds the ones the shopper chose.
+
+15
+00:01:07,540 --> 00:01:10,123
+Upsells are better or bigger choices.
+
+16
+00:01:10,123 --> 00:01:13,366
+Cross-sells are things that go with the product.
+
+17
+00:01:13,366 --> 00:01:17,330
+Related products and recently viewed products need no setup.
+
+18
+00:01:18,080 --> 00:01:21,100
+Compare sets up to four products side by side.
+
+19
+00:01:25,287 --> 00:01:28,539
+Create a product, and look for the Bundle section.
+
+20
+00:01:28,539 --> 00:01:31,907
+Under Made of, choose the products the bundle holds.
+
+21
+00:01:32,358 --> 00:01:38,384
+Search for a product by name and choose it, then say how many each bundle holds.
+
+22
+00:01:38,384 --> 00:01:42,798
+This kit holds two ceramic mugs and a hardcover notebook.
+
+23
+00:01:50,964 --> 00:01:53,628
+Give the kit a title and its own price.
+
+24
+00:01:53,628 --> 00:01:58,304
+The price is what the shopper pays, whatever the parts cost on their own.
+
+25
+00:01:58,756 --> 00:02:00,965
+Do not count the kit's own stock.
+
+26
+00:02:00,965 --> 00:02:06,006
+Its stock is worked out from its parts, so leave Count stock unticked, and publish.
+
+27
+00:02:06,457 --> 00:02:10,363
+On the shop, the kit shows Only 2 left, because four mugs make
+
+28
+00:02:10,363 --> 00:02:13,177
+two kits, and its page lists what is in it.
+
+29
+00:02:15,327 --> 00:02:20,148
+Selling a kit takes each part from stock, and canceling or refunding the
+
+30
+00:02:20,148 --> 00:02:21,817
+order puts them back.
+
+31
+00:02:21,817 --> 00:02:24,907
+In Inventory, the mugs are counted as usual.
+
+32
+00:02:29,099 --> 00:02:33,369
+For a set, use the Grouped products section on a new product.
+
+33
+00:02:33,819 --> 00:02:37,338
+Under Products in this group, choose the products.
+
+34
+00:02:37,338 --> 00:02:40,919
+This set has a lamp, a notebook and a water bottle.
+
+35
+00:02:53,844 --> 00:02:55,464
+Give the set a title.
+
+36
+00:02:55,464 --> 00:02:59,304
+It has no price of its own, and no stock to count, because
+
+37
+00:02:59,304 --> 00:03:01,944
+the products in it are what is bought.
+
+38
+00:03:01,944 --> 00:03:03,084
+Then publish.
+
+39
+00:03:03,540 --> 00:03:08,886
+The set's page lists each product with its price and stock, and a quantity for each.
+
+40
+00:03:08,886 --> 00:03:13,400
+The shopper types how many of each, and one Add to cart adds them all.
+
+41
+00:03:17,669 --> 00:03:25,249
+With Product Recommendations on, a product's editor has a Recommendations section, with Upsells and Cross-sells.
+
+42
+00:03:25,704 --> 00:03:28,379
+Upsells are better or bigger choices.
+
+43
+00:03:28,379 --> 00:03:31,739
+Cross-sells are things that go with the product.
+
+44
+00:03:31,739 --> 00:03:36,218
+For the ceramic mug, the water bottle is an upsell, and a notebook
+
+45
+00:03:36,218 --> 00:03:38,271
+and a lamp are cross-sells.
+
+46
+00:03:38,271 --> 00:03:39,454
+Then publish.
+
+47
+00:03:50,122 --> 00:03:53,862
+The mug's page shows the upsell under You may also like.
+
+48
+00:03:58,295 --> 00:04:03,204
+Below it, Recently viewed shows the products the shopper looked at before, kept
+
+49
+00:04:03,204 --> 00:04:04,764
+in their own browser.
+
+50
+00:04:04,764 --> 00:04:10,365
+Related products, from the product's categories, show the same way, when it has categories.
+
+51
+00:04:10,817 --> 00:04:16,557
+In the cart, the cross-sells show as Frequently bought together, a click from the order.
+
+52
+00:04:20,758 --> 00:04:26,278
+With Product Comparison on, each card and product page has a Compare tick box.
+
+53
+00:04:26,728 --> 00:04:30,344
+A shopper ticks up to four products, and a bar at the bottom
+
+54
+00:04:30,344 --> 00:04:31,988
+of the page counts them.
+
+55
+00:04:33,484 --> 00:04:37,987
+Compare opens a page that sets them side by side, with the prices
+
+56
+00:04:37,987 --> 00:04:42,744
+and stock, and a row for each specification, so the differences show.
+
+57
+00:04:46,944 --> 00:04:48,211
+A starter kit:
+
+58
+00:04:48,211 --> 00:04:51,124
+a bundle of a few products at one price.
+
+59
+00:04:51,874 --> 00:04:53,634
+A matching collection:
+
+60
+00:04:53,634 --> 00:04:57,154
+a grouped product, with a quantity for each piece.
+
+61
+00:04:57,904 --> 00:04:59,283
+A bigger basket:
+
+62
+00:04:59,283 --> 00:05:01,164
+cross-sells in the cart.
+
+63
+00:05:01,914 --> 00:05:03,265
+A hard choice:
+
+64
+00:05:03,265 --> 00:05:06,574
+compare, with a row for each specification.
+
+65
+00:05:08,574 --> 00:05:12,102
+A bundle, a group, suggestions and compare.
+
+66
+00:05:12,102 --> 00:05:13,974
+Thanks for watching.
+

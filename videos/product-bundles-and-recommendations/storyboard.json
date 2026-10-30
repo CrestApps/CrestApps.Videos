@@ -1,0 +1,254 @@
+{
+  "title": "Product bundles and recommendations",
+  "output": "product-bundles-and-recommendations",
+  "spoken": {
+    "SKU": "S.K.U."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Product bundles and recommendations",
+      "subtitle": "Sell more, and help shoppers choose",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Kits, sets, suggestions and side by side comparison make a bigger basket and an easier choice. This video shows how to sell a bundle, group products, add upsells and cross-sells, and let shoppers compare products."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why bundles and recommendations",
+      "subtitle": "Sell more, and help shoppers choose",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A shop sells more when shoppers see what goes together. A kit, a set and a few good suggestions make the basket bigger."
+            },
+            {
+              "id": "why-2",
+              "text": "Shoppers also choose faster when they can put products side by side."
+            },
+            {
+              "id": "why-3",
+              "text": "And stock stays right: a kit sells its parts, so the parts are counted, and a kit never promises more than the parts can make."
+            },
+            {
+              "id": "why-4",
+              "text": "Each of these is a separate feature that you turn on only when you need it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The four features",
+      "subtitle": "Bundles, groups, recommendations and compare",
+      "clips": [
+        {
+          "id": "02-kinds",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kind-1",
+              "text": "A bundle is several products sold as one product, at its own price, such as a starter kit."
+            },
+            {
+              "id": "kind-2",
+              "text": "A grouped product shows several products on one page, each with a quantity, and one Add to cart adds the ones the shopper chose."
+            },
+            {
+              "id": "kind-3",
+              "text": "Upsells are better or bigger choices. Cross-sells are things that go with the product. Related products and recently viewed products need no setup."
+            },
+            {
+              "id": "kind-4",
+              "text": "Compare sets up to four products side by side."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Sell a bundle",
+      "subtitle": "Made of, and the stock",
+      "clips": [
+        {
+          "id": "03-bundle",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bun-1",
+              "text": "Create a product, and look for the Bundle section. Under Made of, choose the products the bundle holds."
+            },
+            {
+              "id": "bun-2",
+              "text": "Search for a product by name and choose it, then say how many each bundle holds. This kit holds two ceramic mugs and a hardcover notebook."
+            },
+            {
+              "id": "bun-3",
+              "text": "Give the kit a title and its own price. The price is what the shopper pays, whatever the parts cost on their own."
+            },
+            {
+              "id": "bun-3b",
+              "text": "Do not count the kit's own stock. Its stock is worked out from its parts, so leave Count stock unticked, and publish."
+            },
+            {
+              "id": "bun-4",
+              "text": "On the shop, the kit shows Only 2 left, because four mugs make two kits, and its page lists what is in it."
+            },
+            {
+              "id": "bun-5",
+              "text": "Selling a kit takes each part from stock, and canceling or refunding the order puts them back. In Inventory, the mugs are counted as usual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Group products",
+      "subtitle": "One page, one Add to cart",
+      "clips": [
+        {
+          "id": "04-grouped",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "grp-1",
+              "text": "For a set, use the Grouped products section on a new product."
+            },
+            {
+              "id": "grp-2",
+              "text": "Under Products in this group, choose the products. This set has a lamp, a notebook and a water bottle."
+            },
+            {
+              "id": "grp-3",
+              "text": "Give the set a title. It has no price of its own, and no stock to count, because the products in it are what is bought. Then publish."
+            },
+            {
+              "id": "grp-4",
+              "text": "The set's page lists each product with its price and stock, and a quantity for each. The shopper types how many of each, and one Add to cart adds them all."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Upsells and cross-sells",
+      "subtitle": "Suggestions that sell",
+      "clips": [
+        {
+          "id": "05-recs",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rec-1",
+              "text": "With Product Recommendations on, a product's editor has a Recommendations section, with Upsells and Cross-sells."
+            },
+            {
+              "id": "rec-2",
+              "text": "Upsells are better or bigger choices. Cross-sells are things that go with the product. For the ceramic mug, the water bottle is an upsell, and a notebook and a lamp are cross-sells. Then publish."
+            },
+            {
+              "id": "rec-3",
+              "text": "The mug's page shows the upsell under You may also like."
+            },
+            {
+              "id": "rec-4",
+              "text": "Below it, Recently viewed shows the products the shopper looked at before, kept in their own browser. Related products, from the product's categories, show the same way, when it has categories."
+            },
+            {
+              "id": "rec-5",
+              "text": "In the cart, the cross-sells show as Frequently bought together, a click from the order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Compare products",
+      "subtitle": "Side by side",
+      "clips": [
+        {
+          "id": "06-compare",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cmp-1",
+              "text": "With Product Comparison on, each card and product page has a Compare tick box."
+            },
+            {
+              "id": "cmp-2",
+              "text": "A shopper ticks up to four products, and a bar at the bottom of the page counts them."
+            },
+            {
+              "id": "cmp-3",
+              "text": "Compare opens a page that sets them side by side, with the prices and stock, and a row for each specification, so the differences show."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Four ways to use them",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A starter kit: a bundle of a few products at one price."
+            },
+            {
+              "id": "use-2",
+              "text": "A matching collection: a grouped product, with a quantity for each piece."
+            },
+            {
+              "id": "use-3",
+              "text": "A bigger basket: cross-sells in the cart."
+            },
+            {
+              "id": "use-4",
+              "text": "A hard choice: compare, with a row for each specification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A bundle, a group, suggestions and compare. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
