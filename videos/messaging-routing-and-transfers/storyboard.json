@@ -1,0 +1,201 @@
+{
+  "title": "Messaging: Routing and Transfers",
+  "output": "messaging-routing-and-transfers",
+  "spoken": {
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Messaging: Routing and Transfers",
+      "subtitle": "Who answers a text, and how a conversation changes hands",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "When a customer texts your business, someone has to be given the conversation. This video shows how a queue hands out conversations, with a shared pool or with routing, and how an agent transfers a conversation to a colleague or back to the queue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why routing matters",
+      "subtitle": "The right person, without a scramble",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A text that lands in a shared list can be answered by anyone, which means that sometimes it is answered by no one."
+            },
+            {
+              "id": "why-2",
+              "text": "A busy team wants the text to reach a free person, and wants it to move on when that person does not pick it up."
+            },
+            {
+              "id": "why-3",
+              "text": "And a conversation sometimes needs another person, for a question that belongs to a different skill, without the customer starting again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How a conversation reaches an agent",
+      "subtitle": "Shared pool and routed distribution",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "An inbound entry point sends the texts of a number to an agent or to a queue. A text to an agent's personal number goes straight to that agent."
+            },
+            {
+              "id": "how-2",
+              "text": "A queue can use a shared pool. Every agent of the queue sees the conversation, and the first to claim it owns it."
+            },
+            {
+              "id": "how-3",
+              "text": "A queue can also use routed distribution. The conversation is pushed to one available agent who has the inbox open, and who has the fewest conversations."
+            },
+            {
+              "id": "how-4",
+              "text": "If the agent does not pick it up within five minutes, it is routed to another agent. After two such moves, it falls back to the shared pool, so it is never lost."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Choose how a queue hands out conversations",
+      "subtitle": "The entry point and the Available switch",
+      "clips": [
+        {
+          "id": "03-modes",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mod-1",
+              "text": "Open Interaction Center, Management, Inbound entry points, and edit the entry point of a number. Route to chooses a queue, a specific agent, or an AI assistant."
+            },
+            {
+              "id": "mod-2",
+              "text": "Target queue is the queue it routes to. Queue distribution chooses between Shared pool, where agents claim to own, and Routed, where one available agent is given the conversation."
+            },
+            {
+              "id": "mod-3",
+              "text": "In the inbox, the Available switch decides whether you accept routed conversations. Routed distribution only gives conversations to agents who are available and have the inbox open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Transfer to a person",
+      "subtitle": "Hand a conversation to a colleague",
+      "clips": [
+        {
+          "id": "04-person",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "per-1",
+              "text": "A conversation nobody holds must be claimed first. Open it and click Claim, then click Transfer."
+            },
+            {
+              "id": "per-2",
+              "text": "Choose A person, and pick a colleague from the list. The list offers only people who can use the messaging workspace, and never you."
+            },
+            {
+              "id": "per-3",
+              "text": "Add a Note for the recipient, up to five hundred characters. The note stays in the history for other agents, and the customer never sees it."
+            },
+            {
+              "id": "per-4",
+              "text": "Click Transfer. It is the same conversation, so its whole history goes with it, and the thread says who transferred it to whom. The new owner gets a notice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Send it back to a queue",
+      "subtitle": "Return a conversation to the shared pool",
+      "clips": [
+        {
+          "id": "05-queue",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "que-1",
+              "text": "Sometimes you cannot help, and nobody in particular should. Claim a conversation, click Transfer, and choose Back to a queue."
+            },
+            {
+              "id": "que-2",
+              "text": "Pick the queue, add a note if it helps, and click Transfer. The conversation goes back to that queue's shared inbox for any member to claim."
+            },
+            {
+              "id": "que-3",
+              "text": "Only the agent who holds a conversation can transfer it. A supervisor with permission to view all conversations can transfer any of them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Use cases",
+      "subtitle": "Where routing and transfers help",
+      "clips": [
+        {
+          "id": "06-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A busy support team turns on routed distribution, so each new text goes to the agent with the lightest load."
+            },
+            {
+              "id": "use-2",
+              "text": "A frontline agent transfers a billing question to a colleague, and leaves a note so the customer does not have to repeat it."
+            },
+            {
+              "id": "use-3",
+              "text": "An agent going to lunch turns Available off, and sends the conversations they cannot finish back to the queue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose how a queue hands out conversations, and move a conversation to the right person when it needs one. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

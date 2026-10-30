@@ -1,0 +1,86 @@
+{
+  "title": "Messaging Routing and Transfers: Who Answers a Text | CrestApps for Orchard Core",
+  "description": "When a customer texts your business, someone has to be given the conversation. This video shows how a queue of CrestApps for Orchard Core hands out conversations, with a shared pool or with routed distribution, and how an agent transfers a conversation to a colleague, with a note, or back to the queue.\n\nIn this video:\n• Why routing and transfers matter\n• Shared pool and routed distribution, and what happens when nobody picks a conversation up\n• The inbound entry point and the Available switch\n• Transferring a conversation to a person, with a note for the recipient\n• Sending a conversation back to a queue\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "SMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "messaging routing",
+    "SMS",
+    "shared inbox",
+    "transfer conversation",
+    "contact center",
+    "customer support",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why routing matters"
+    },
+    {
+      "time": "0:45",
+      "title": "How a conversation reaches an agent"
+    },
+    {
+      "time": "1:30",
+      "title": "Choose how a queue hands out conversations"
+    },
+    {
+      "time": "2:11",
+      "title": "Transfer to a person"
+    },
+    {
+      "time": "2:51",
+      "title": "Send it back to a queue"
+    },
+    {
+      "time": "3:23",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:50",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/messaging"
+    },
+    {
+      "label": "Technical guide: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/messaging-workspace"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Messaging.RoutedDistribution"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/messaging.md",
+    "src/CrestApps.Docs/docs/omnichannel/messaging-workspace.md"
+  ],
+  "length": "4:01"
+}
