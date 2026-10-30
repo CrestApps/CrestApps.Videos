@@ -1,0 +1,40 @@
+1
+00:00:03,196 --> 00:00:07,114
+Under Commerce, Memberships, you see every membership:
+
+2
+00:00:07,114 --> 00:00:10,445
+who, which one, its status, and when it ends.
+
+3
+00:00:10,445 --> 00:00:14,886
+Filter by Active, Expired or Ended early, or search by member.
+
+4
+00:00:09,871 --> 00:00:14,157
+A membership ends on its end date, when its order is canceled, or
+
+5
+00:00:14,157 --> 00:00:16,632
+when its order is refunded in full.
+
+6
+00:00:16,632 --> 00:00:19,107
+To end one yourself, click End now.
+
+7
+00:00:19,107 --> 00:00:20,616
+It refunds nothing.
+
+8
+00:00:20,616 --> 00:00:24,902
+The membership is Ended early, and the member is taken out of the
+
+9
+00:00:24,902 --> 00:00:29,791
+roles it gave them, unless another membership still gives them those roles.
+
+10
+00:00:30,985 --> 00:00:35,685
+Jamie's Memberships page now shows the membership as Ended early.
+

@@ -1,0 +1,250 @@
+{
+  "title": "Memberships",
+  "output": "memberships",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Memberships",
+      "subtitle": "Sell access, and open the door",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A membership turns a purchase into access. Someone buys it, becomes a member, and the content meant for members opens to them. This video shows how to sell a membership, keep content for members, what a member sees, and how memberships end."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why memberships",
+      "subtitle": "Access worth paying for",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Some of what you publish is worth paying for: guides, articles, downloads."
+            },
+            {
+              "id": "why-2",
+              "text": "A membership sells access: for a year, for a month, or for good."
+            },
+            {
+              "id": "why-3",
+              "text": "Buying it should open the door at once, and ending it should close it, without anyone editing user roles by hand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Product, roles and content",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A membership is a product with the Membership part. It names the roles members are put in, and how many days it lasts."
+            },
+            {
+              "id": "how-2",
+              "text": "Content is kept for members with the Role Picker, which says which roles can see an item."
+            },
+            {
+              "id": "how-3",
+              "text": "Buying makes the buyer a member. Buying again while still a member adds the days to when it ends."
+            },
+            {
+              "id": "how-4",
+              "text": "It ends on its end date, when its order is canceled or fully refunded, or when you choose End now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Sell a membership",
+      "subtitle": "A role, a product and the days",
+      "clips": [
+        {
+          "id": "03-sell",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sell-1",
+              "text": "To try it, open Tools, Recipes, and run the Memberships sample. It adds a Member role, a members' article, and an Annual Membership at forty-nine dollars. Click Run, and confirm."
+            },
+            {
+              "id": "sell-2",
+              "text": "Under Access Control, Roles, the Member role is the one members are put in. Add a role like this for each kind of member."
+            },
+            {
+              "id": "sell-3",
+              "text": "Open the Annual Membership product. Under Membership, tick the roles members are in, here Member, and enter how many Days a membership lasts: three hundred sixty-five, or zero for a membership that does not end."
+            }
+          ]
+        }
+      ],
+      "short": "sell"
+    },
+    {
+      "id": "04",
+      "title": "Keep content for members",
+      "subtitle": "The Role Picker",
+      "clips": [
+        {
+          "id": "04-members",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mem-1",
+              "text": "To keep content for members, with Content Access Control on, give the content type the Role Picker part, and tick that it restricts who sees the content. On each item, Who can see it chooses the roles, here Member. Administrators see everything."
+            }
+          ]
+        },
+        {
+          "id": "04-guest",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mem-2",
+              "text": "Anyone else who opens it, such as a visitor who is not signed in, is asked to sign in. A signed-in user who is not a member is told they do not have access."
+            }
+          ]
+        }
+      ],
+      "short": "members"
+    },
+    {
+      "id": "05",
+      "title": "Buy a membership",
+      "subtitle": "Checkout",
+      "clips": [
+        {
+          "id": "05-buy",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "buy-1",
+              "text": "Jamie opens the Annual Membership, forty-nine dollars, and adds it to the cart. Memberships are for an account, so buyers sign in to buy one, and then check out."
+            },
+            {
+              "id": "buy-2",
+              "text": "Jamie gives the contact details and a billing address, and pays by bank transfer. When the money arrives and the order is paid, Jamie is a member."
+            }
+          ]
+        }
+      ],
+      "short": "buy"
+    },
+    {
+      "id": "06",
+      "title": "What a member sees",
+      "subtitle": "Account and content",
+      "clips": [
+        {
+          "id": "06-member",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "member-1",
+              "text": "Now Jamie's account has a Memberships page, with the membership and when it ends. Jamie signs in again, so the new role applies."
+            },
+            {
+              "id": "member-2",
+              "text": "And the members' article opens: Jamie can now read what only members can see."
+            }
+          ]
+        }
+      ],
+      "short": "member"
+    },
+    {
+      "id": "07",
+      "title": "Manage and end memberships",
+      "subtitle": "Commerce, Memberships",
+      "clips": [
+        {
+          "id": "07-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "manage-1",
+              "text": "Under Commerce, Memberships, you see every membership: who, which one, its status, and when it ends. Filter by Active, Expired or Ended early, or search by member."
+            },
+            {
+              "id": "manage-2",
+              "text": "A membership ends on its end date, when its order is canceled, or when its order is refunded in full. To end one yourself, click End now. It refunds nothing. The membership is Ended early, and the member is taken out of the roles it gave them, unless another membership still gives them those roles."
+            }
+          ]
+        },
+        {
+          "id": "08-after",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "after-1",
+              "text": "Jamie's Memberships page now shows the membership as Ended early."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How sites put it to work",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A club: an annual membership for guides and routes only members see."
+            },
+            {
+              "id": "use-2",
+              "text": "A publication: a monthly membership for premium articles."
+            },
+            {
+              "id": "use-3",
+              "text": "A course site: a lifetime membership, with zero days, for the whole library."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With memberships, a purchase opens the door, and ending it closes it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
