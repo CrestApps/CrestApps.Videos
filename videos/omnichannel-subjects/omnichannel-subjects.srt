@@ -1,0 +1,208 @@
+1
+00:00:01,000 --> 00:00:05,619
+This video shows how to create subjects in the Omnichannel contact center:
+
+2
+00:00:05,619 --> 00:00:10,468
+an outbound subject for calls you make, an inbound subject for calls customers
+
+3
+00:00:10,468 --> 00:00:15,260
+make, the fields an agent fills in, and the settings of an automated subject.
+
+4
+00:00:19,860 --> 00:00:22,913
+A subject is what a conversation is about:
+
+5
+00:00:22,913 --> 00:00:26,349
+a sales call, a support request, a welcome call.
+
+6
+00:00:26,349 --> 00:00:29,720
+Each one has its own fields, campaign and flow.
+
+7
+00:00:30,470 --> 00:00:36,939
+A subject is either outbound, work you start, or inbound, work the customer starts.
+
+8
+00:00:36,939 --> 00:00:43,190
+Inbound work can be manual, logged by an agent, or automated, answered by an AI.
+
+9
+00:00:43,940 --> 00:00:48,514
+Because the subject carries the fields and the flow, every activity of that
+
+10
+00:00:48,514 --> 00:00:50,490
+kind is handled the same way.
+
+11
+00:00:54,675 --> 00:00:58,552
+Open Interaction Center, Management, Subject Flows.
+
+12
+00:00:58,552 --> 00:01:03,381
+With no subjects yet, the page asks you to create a content type.
+
+13
+00:01:03,381 --> 00:01:08,007
+A subject is a content type with the Omnichannel Subject part.
+
+14
+00:01:08,007 --> 00:01:11,135
+Enter its display name and click Create.
+
+15
+00:01:11,586 --> 00:01:16,622
+On the Add Parts page, click Add and Configure next to Omnichannel Subject.
+
+16
+00:01:16,622 --> 00:01:19,606
+The subject's settings open straight away.
+
+17
+00:01:20,057 --> 00:01:22,544
+Direction is Outbound by default.
+
+18
+00:01:22,544 --> 00:01:27,583
+Pick a default campaign, used when an activity is created outside a load,
+
+19
+00:01:27,583 --> 00:01:29,241
+for example by hand.
+
+20
+00:01:29,241 --> 00:01:34,917
+Require a disposition is on, because the disposition is what runs the subject flow.
+
+21
+00:01:34,917 --> 00:01:38,552
+Leave it on unless the subject is a one-way notice.
+
+22
+00:01:38,552 --> 00:01:39,637
+Click Save.
+
+23
+00:01:43,842 --> 00:01:48,617
+The Subject Flows list shows each subject with a badge for its direction,
+
+24
+00:01:48,617 --> 00:01:51,397
+and Missing flow until it has an action.
+
+25
+00:01:51,397 --> 00:01:56,535
+Edit Settings reopens the settings, Edit Content Type opens the whole type, and
+
+26
+00:01:56,535 --> 00:01:58,530
+Manage Flow opens the flow.
+
+27
+00:01:58,530 --> 00:02:01,552
+Open Edit Content Type, and click Add Field.
+
+28
+00:02:02,002 --> 00:02:06,190
+Give the field a name, pick its type, here a text field, and save.
+
+29
+00:02:06,190 --> 00:02:10,902
+The agent fills in the fields of the subject while completing the activity.
+
+30
+00:02:15,105 --> 00:02:21,465
+Click Add Subject, create another content type, and add the Omnichannel Subject part the same way.
+
+31
+00:02:22,591 --> 00:02:26,040
+Choose Inbound, and two more settings appear.
+
+32
+00:02:26,040 --> 00:02:32,533
+Interaction type is Manual, when an agent logs the call, or Automated, when an AI answers.
+
+33
+00:02:32,533 --> 00:02:34,562
+Channel is Phone or SMS.
+
+34
+00:02:34,562 --> 00:02:39,701
+For outbound subjects these are chosen when the activities are loaded.
+
+35
+00:02:40,153 --> 00:02:46,736
+The list now shows the inbound subject next to the outbound one, both marked Missing flow.
+
+36
+00:02:46,736 --> 00:02:49,273
+Next, give each subject a flow.
+
+37
+00:02:53,473 --> 00:02:58,180
+An automated inbound subject also asks for the address it answers on, and
+
+38
+00:02:58,180 --> 00:03:02,470
+with the AI features on, the AI profile, the subject goal, and the
+
+39
+00:03:02,470 --> 00:03:04,853
+speech models and voice for calls.
+
+40
+00:03:05,603 --> 00:03:09,816
+It can let the AI update the contact or the subject, sets the
+
+41
+00:03:09,816 --> 00:03:15,853
+no-response timeout, the response delay, and the words that opt a customer out, like STOP.
+
+42
+00:03:16,603 --> 00:03:20,981
+A Live agent handoff card lets the AI pass the conversation to a
+
+43
+00:03:20,981 --> 00:03:25,109
+person in a queue when the customer asks for one, is a ready
+
+44
+00:03:25,109 --> 00:03:26,923
+lead, or is frustrated.
+
+45
+00:03:31,123 --> 00:03:34,843
+One outbound subject for each kind of call your team makes.
+
+46
+00:03:35,593 --> 00:03:39,333
+An inbound subject to log the calls customers make.
+
+47
+00:03:40,083 --> 00:03:44,163
+Fields that capture exactly what each conversation needs.
+
+48
+00:03:44,913 --> 00:03:49,013
+Automated subjects for an AI to answer texts and calls.
+
+49
+00:03:51,013 --> 00:03:55,232
+Create a subject for each goal of a conversation, give it the fields
+
+50
+00:03:55,232 --> 00:03:59,737
+it needs, and then build its flow, so that every outcome has a next step.
+
+51
+00:03:59,737 --> 00:04:04,070
+The user manual and the technical guide are linked in the description.
+
+52
+00:04:04,070 --> 00:04:05,553
+Thanks for watching.
+

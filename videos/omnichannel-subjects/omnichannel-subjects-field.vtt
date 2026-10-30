@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.205 --> 00:00:07.980
+The Subject Flows list shows each subject with a badge for its direction,
+
+00:00:07.980 --> 00:00:10.761
+and Missing flow until it has an action.
+
+00:00:10.761 --> 00:00:15.898
+Edit Settings reopens the settings, Edit Content Type opens the whole type, and
+
+00:00:15.898 --> 00:00:17.893
+Manage Flow opens the flow.
+
+00:00:17.893 --> 00:00:20.915
+Open Edit Content Type, and click Add Field.
+
+00:00:21.365 --> 00:00:25.553
+Give the field a name, pick its type, here a text field, and save.
+
+00:00:25.553 --> 00:00:30.265
+The agent fills in the fields of the subject while completing the activity.
+

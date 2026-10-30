@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.185 --> 00:00:07.062
+Open Interaction Center, Management, Subject Flows.
+
+00:00:07.062 --> 00:00:11.891
+With no subjects yet, the page asks you to create a content type.
+
+00:00:11.891 --> 00:00:16.517
+A subject is a content type with the Omnichannel Subject part.
+
+00:00:16.517 --> 00:00:19.645
+Enter its display name and click Create.
+
+00:00:20.096 --> 00:00:25.132
+On the Add Parts page, click Add and Configure next to Omnichannel Subject.
+
+00:00:25.132 --> 00:00:28.116
+The subject's settings open straight away.
+
+00:00:28.567 --> 00:00:31.054
+Direction is Outbound by default.
+
+00:00:31.054 --> 00:00:36.093
+Pick a default campaign, used when an activity is created outside a load,
+
+00:00:36.093 --> 00:00:37.751
+for example by hand.
+
+00:00:37.751 --> 00:00:43.427
+Require a disposition is on, because the disposition is what runs the subject flow.
+
+00:00:43.427 --> 00:00:47.062
+Leave it on unless the subject is a one-way notice.
+
+00:00:47.062 --> 00:00:48.147
+Click Save.
+

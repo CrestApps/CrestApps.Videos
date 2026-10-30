@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.203 --> 00:00:09.563
+Click Add Subject, create another content type, and add the Omnichannel Subject part the same way.
+
+00:00:10.690 --> 00:00:14.139
+Choose Inbound, and two more settings appear.
+
+00:00:14.139 --> 00:00:20.631
+Interaction type is Manual, when an agent logs the call, or Automated, when an AI answers.
+
+00:00:20.631 --> 00:00:22.660
+Channel is Phone or SMS.
+
+00:00:22.660 --> 00:00:27.800
+For outbound subjects these are chosen when the activities are loaded.
+
+00:00:28.251 --> 00:00:34.834
+The list now shows the inbound subject next to the outbound one, both marked Missing flow.
+
+00:00:34.834 --> 00:00:37.371
+Next, give each subject a flow.
+
