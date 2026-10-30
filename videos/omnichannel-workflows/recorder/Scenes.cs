@@ -20,7 +20,6 @@ public static partial class Scenes
 
     private static readonly (string Name, Func<IBrowser, string, IReadOnlyDictionary<string, double>, Task> Record)[] s_clips =
     [
-        ("explore", ExploreAsync),
         ("02-create", CreateAsync),
         ("03-event", EventAsync),
         ("04-picker", PickerAsync),
