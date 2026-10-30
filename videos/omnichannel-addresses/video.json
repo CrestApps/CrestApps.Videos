@@ -1,0 +1,86 @@
+{
+  "title": "Omnichannel Addresses: The Numbers Your Business Owns | CrestApps for Orchard Core",
+  "description": "An omnichannel address is a number your business owns. See the address list, add a phone number used for text messages, choose its SMS provider and the agents who text from it, and clone a number. A slide explains voice calls and the caller ID precedence.\n\nIn this video:\n• Why addresses\n• The address list: kind, use and provider\n• Adding an address: kind, number, use and agents\n• Cloning a number\n• Voice calls and caller ID\n• What addresses are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "omnichannel addresses",
+    "phone numbers",
+    "sms numbers",
+    "caller id",
+    "contact center",
+    "agents numbers",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why addresses"
+    },
+    {
+      "time": "0:44",
+      "title": "The address list"
+    },
+    {
+      "time": "1:06",
+      "title": "Add an address"
+    },
+    {
+      "time": "2:02",
+      "title": "Clone a number"
+    },
+    {
+      "time": "2:29",
+      "title": "Voice calls and caller ID"
+    },
+    {
+      "time": "3:08",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:29",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/channel-endpoints"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/channel-endpoints.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "3:42"
+}

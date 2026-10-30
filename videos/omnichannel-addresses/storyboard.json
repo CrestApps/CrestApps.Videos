@@ -1,0 +1,186 @@
+{
+  "title": "Omnichannel Addresses",
+  "output": "omnichannel-addresses",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel Addresses",
+      "subtitle": "The numbers your business owns",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows Omnichannel Addresses, the list of phone numbers your business owns: what each is used for, how to add one, which agents call or text from it, and how to clone a number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why addresses",
+      "subtitle": "One list for every number",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Your business owns numbers, and each has a job. Agents dial out from them, automatic texts are sent from them, and incoming calls and texts are matched to them."
+            },
+            {
+              "id": "why-2",
+              "text": "Each address is listed once, with a checkbox for each thing it is used for: voice calls, text messages, or both."
+            },
+            {
+              "id": "why-3",
+              "text": "So you manage a number in one place, and every feature that needs a number picks from this list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The address list",
+      "subtitle": "Kind, use and provider",
+      "clips": [
+        {
+          "id": "02-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "Open Interaction Center, Management, Omnichannel Addresses. Each row is an address, with badges for its kind, what it is used for, its number, and its SMS provider. Here, one number is for calls, and another for calls and texts."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "03",
+      "title": "Add an address",
+      "subtitle": "Kind, number, use and agents",
+      "clips": [
+        {
+          "id": "03-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "Click Add Address, and pick the kind, such as a phone number. Only kinds that something on your site can use are offered. If none is, the page asks you to enable a feature that uses addresses, like Contact Center Voice or SMS Messaging Channel."
+            },
+            {
+              "id": "add-2",
+              "text": "Enter a name people will recognize, and the number in international format. Under Used for, tick what the number is used for. Voice calls appears with Contact Center Voice, and Text messages with the SMS Messaging Channel. Here, text messages."
+            },
+            {
+              "id": "add-3",
+              "text": "The settings for each use appear while it is ticked. For text messages, pick the SMS provider that owns the number, or leave it on the tenant default, and pick the agents who text from it. Each agent texts from one number. Add a description, and click Save."
+            }
+          ]
+        }
+      ],
+      "short": "add"
+    },
+    {
+      "id": "04",
+      "title": "Clone a number",
+      "subtitle": "A number set up like another",
+      "clips": [
+        {
+          "id": "04-clone",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "clone-1",
+              "text": "To add a number set up like an existing one, open the address's Actions menu and choose Clone. The form opens with the kind, what it is used for, the description and the SMS provider."
+            },
+            {
+              "id": "clone-2",
+              "text": "Enter the new number and a name, and click Save. The number and its agents are not copied, because each agent dials and texts from one number."
+            }
+          ]
+        }
+      ],
+      "short": "clone"
+    },
+    {
+      "id": "05",
+      "title": "Voice calls and caller ID",
+      "subtitle": "How a number is chosen",
+      "clips": [
+        {
+          "id": "05-voice",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "voice-1",
+              "text": "For voice calls, you also pick the agents who dial from the number. Agents on no number's list use the default numbers chosen under Settings, Contact Center."
+            },
+            {
+              "id": "voice-2",
+              "text": "The number a customer sees is the first that applies: the load's Dial from number, the agent's own line, the dialer profile's caller ID, then the provider's default."
+            },
+            {
+              "id": "voice-3",
+              "text": "Which entry point answers a number's calls or texts is set on the entry point. An address is never deleted, and a number is listed once, so tick both uses on the same address."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "List every number the business owns in one place."
+            },
+            {
+              "id": "use-2",
+              "text": "Give each agent the number they call or text from."
+            },
+            {
+              "id": "use-3",
+              "text": "Choose the number an automatic text campaign sends from."
+            },
+            {
+              "id": "use-4",
+              "text": "Clone a number to set up a new line in seconds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Keep one address for each number, tick what it is used for, and assign the agents who use it. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
