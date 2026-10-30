@@ -1,0 +1,5 @@
+ContentItemId,TitlePart_Title,AutoroutePart_Path,ProductPart_Price,ProductPart_CompareAtPrice,ProductPart_SalePrice,ProductPart_SaleStartsUtc,ProductPart_SaleEndsUtc,ProductPart_Sku,ProductPart_Currency,ProductPart_ExternalUrl,ProductPart_ExternalButtonText,ProductPart_MinQuantity,ProductPart_MaxQuantity,ProductPart_QuantityStep,HtmlBodyPart_Html
+,Stainless Steel Pan,products/stainless-steel-pan,39,,,,,PAN-SS-001,USD,,,,,,<p>A heavy based pan for every hob.</p>
+,Bamboo Cutting Board,products/bamboo-cutting-board,22,28,,,,BRD-BAM-001,USD,,,,,,<p>A board that is kind to knives.</p>
+,Cotton Tote Bag,products/cotton-tote-bag,12,,,,,TOTE-CTN-001,USD,,,,,,<p>A strong bag for the market.</p>
+,Wooden Spoon,products/wooden-spoon,6,,,,,BRD-BAM-001,USD,,,,,,<p>This row repeats the SKU of the cutting board.</p>

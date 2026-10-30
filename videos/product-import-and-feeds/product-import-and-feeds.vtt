@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.348
+A spreadsheet is the quickest way to fill or change a catalog, and
+
+00:00:05.348 --> 00:00:07.582
+a feed puts it in shopping ads.
+
+00:00:07.582 --> 00:00:12.292
+This video shows how to export and import products, how SKUs match rows,
+
+00:00:12.292 --> 00:00:16.580
+how to move from another store, and how to publish product feeds.
+
+00:00:21.180 --> 00:00:25.346
+Typing a hundred products one at a time is slow, and a spreadsheet
+
+00:00:25.346 --> 00:00:27.950
+is the format most stores already have.
+
+00:00:28.700 --> 00:00:34.240
+Moving from Shopify or WooCommerce means moving a catalog, not retyping it.
+
+00:00:34.990 --> 00:00:39.726
+Product import and export read and write a CSV file, with a column
+
+00:00:39.726 --> 00:00:44.330
+for each product detail, and match rows to your products by SKU.
+
+00:00:45.080 --> 00:00:50.143
+A product feed publishes your products to Google, Meta and TikTok shopping, with
+
+00:00:50.143 --> 00:00:52.380
+the details those shops ask for.
+
+00:00:56.580 --> 00:01:02.960
+Content Transfer adds Bulk Import and Bulk Export, for products like any other content.
+
+00:01:03.710 --> 00:01:05.572
+Each product is a row.
+
+00:01:05.572 --> 00:01:09.162
+Its price, SKU, sale dates and more are columns.
+
+00:01:09.162 --> 00:01:11.290
+A template shows them all.
+
+00:01:12.040 --> 00:01:16.017
+An export has the same columns, so you can change prices in a
+
+00:01:16.017 --> 00:01:18.570
+spreadsheet and import the file back.
+
+00:01:19.320 --> 00:01:24.731
+Product Feeds publishes the catalog to shopping ads, and the Product Feed part
+
+00:01:24.731 --> 00:01:27.050
+adds brand, GTIN and category.
+
+00:01:31.253 --> 00:01:33.447
+Open Content, Bulk Export.
+
+00:01:33.447 --> 00:01:38.384
+Choose the Product type and the CSV format, and click Export Data.
+
+00:01:38.384 --> 00:01:41.263
+The file has a row for each product.
+
+00:02:02.388 --> 00:02:05.941
+Change what you need in a spreadsheet, such as the prices.
+
+00:02:05.941 --> 00:02:10.049
+The file includes the content item id of each product, which is what
+
+00:02:10.049 --> 00:02:12.158
+lets an import update a product.
+
+00:02:16.348 --> 00:02:21.343
+Open Content, Bulk Import, click Import, and choose Product.
+
+00:02:21.343 --> 00:02:25.808
+Download template, CSV shows every column to fill in.
+
+00:02:26.259 --> 00:02:27.586
+Choose your file.
+
+00:02:27.586 --> 00:02:33.006
+Tick Publish imported content to publish the products as they come in, and click Upload.
+
+00:02:33.006 --> 00:02:36.119
+The import appears in the list, with its status.
+
+00:02:36.570 --> 00:02:40.865
+Rows are matched to your products by SKU, so an import does not
+
+00:02:40.865 --> 00:02:42.484
+add a product twice.
+
+00:02:42.484 --> 00:02:46.718
+A row whose SKU an earlier row used is skipped, and the import
+
+00:02:46.718 --> 00:02:48.710
+says which row it repeats.
+
+00:02:52.893 --> 00:02:56.987
+With Product Feeds on, open Settings, Commerce, Product feeds.
+
+00:02:56.987 --> 00:03:01.261
+It shows the feed's address, how many products are in it, and why
+
+00:03:01.261 --> 00:03:04.633
+any are left out, such as a product with no photo.
+
+00:03:05.084 --> 00:03:10.167
+Set the default brand, the condition, a default Google product category, and whether
+
+00:03:10.167 --> 00:03:12.877
+to include products that are out of stock.
+
+00:03:12.877 --> 00:03:17.904
+Give Google Merchant Center, Meta or TikTok the feed's address as a scheduled feed.
+
+00:03:18.354 --> 00:03:22.719
+The Product Feed part, added to a product type, adds a brand, a
+
+00:03:22.719 --> 00:03:27.401
+GTIN, an MPN, a condition and a Google category to each product, and
+
+00:03:27.401 --> 00:03:30.374
+a way to keep a product out of the feeds.
+
+00:03:34.574 --> 00:03:40.741
+Export your products from Shopify or WooCommerce, and import the file as your product type.
+
+00:03:40.741 --> 00:03:42.394
+It is read as it is.
+
+00:03:43.144 --> 00:03:47.662
+Variants come in when the type has the Product variants part with options
+
+00:03:47.662 --> 00:03:49.035
+of the same names.
+
+00:03:49.035 --> 00:03:53.324
+Otherwise the product comes in as one product, from its lowest price.
+
+00:03:54.074 --> 00:03:59.798
+Categories and brands go to taxonomy fields named like Category and Brand, matched
+
+00:03:59.798 --> 00:04:01.684
+to their terms by name.
+
+00:04:02.434 --> 00:04:04.424
+Images are not downloaded.
+
+00:04:04.424 --> 00:04:07.284
+Add product photos in the media library.
+
+00:04:11.484 --> 00:04:12.700
+A new catalog:
+
+00:04:12.700 --> 00:04:15.254
+fill in the template, and import it.
+
+00:04:16.004 --> 00:04:17.608
+A price change:
+
+00:04:17.608 --> 00:04:21.884
+export, edit the prices, and import the file back.
+
+00:04:22.634 --> 00:04:24.731
+A move from another store:
+
+00:04:24.731 --> 00:04:26.304
+import its export.
+
+00:04:27.054 --> 00:04:28.321
+Shopping ads:
+
+00:04:28.321 --> 00:04:31.854
+publish a feed, and give its address to Google.
+
+00:04:33.854 --> 00:04:37.176
+Export, edit, import, and publish a feed.
+
+00:04:37.176 --> 00:04:39.014
+Thanks for watching.
+
