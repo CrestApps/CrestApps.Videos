@@ -1,0 +1,52 @@
+1
+00:00:03,200 --> 00:00:07,210
+Click Add Address, and pick the kind, such as a phone number.
+
+2
+00:00:07,210 --> 00:00:11,100
+Only kinds that something on your site can use are offered.
+
+3
+00:00:11,100 --> 00:00:14,990
+If none is, the page asks you to enable a feature that uses
+
+4
+00:00:14,990 --> 00:00:19,060
+addresses, like Contact Center Voice or SMS Messaging Channel.
+
+5
+00:00:19,511 --> 00:00:24,954
+Enter a name people will recognize, and the number in international format.
+
+6
+00:00:24,954 --> 00:00:28,650
+Under Used for, tick what the number is used for.
+
+7
+00:00:28,650 --> 00:00:35,504
+Voice calls appears with Contact Center Voice, and Text messages with the SMS Messaging Channel.
+
+8
+00:00:35,504 --> 00:00:37,251
+Here, text messages.
+
+9
+00:00:37,702 --> 00:00:41,194
+The settings for each use appear while it is ticked.
+
+10
+00:00:41,194 --> 00:00:45,831
+For text messages, pick the SMS provider that owns the number, or leave
+
+11
+00:00:45,831 --> 00:00:49,985
+it on the tenant default, and pick the agents who text from it.
+
+12
+00:00:49,985 --> 00:00:52,334
+Each agent texts from one number.
+
+13
+00:00:52,334 --> 00:00:54,742
+Add a description, and click Save.
+
