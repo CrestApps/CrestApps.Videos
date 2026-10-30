@@ -1,0 +1,96 @@
+{
+  "title": "AI Chat Widgets: An Assistant in the Admin and on Your Website | CrestApps for Orchard Core",
+  "description": "A chat widget is a small chat window that floats in the corner of the page. This video shows the two widgets of CrestApps for Orchard Core: the admin widget, which gives your staff an assistant on every admin page, and the website widget, which puts an assistant in front of your visitors.\n\nIn this video:\n• The admin widget and the website widget, and the chat profile behind both\n• The features to turn on\n• Setting up and using the admin widget\n• Adding the Artificial Intelligence Chat widget to a zone of your site\n• The permission your visitors need\n• What visitors see, and how a public assistant is protected\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI chat widget",
+    "AI assistant",
+    "chatbot",
+    "website chat",
+    "admin assistant",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:25",
+      "title": "Two widgets, one profile"
+    },
+    {
+      "time": "1:03",
+      "title": "Turn on the features"
+    },
+    {
+      "time": "1:31",
+      "title": "Set up the admin widget"
+    },
+    {
+      "time": "2:02",
+      "title": "Use the admin widget"
+    },
+    {
+      "time": "2:47",
+      "title": "Add a chat box to your website"
+    },
+    {
+      "time": "3:28",
+      "title": "Let visitors chat"
+    },
+    {
+      "time": "3:57",
+      "title": "What visitors see"
+    },
+    {
+      "time": "4:25",
+      "title": "Protect a public assistant"
+    },
+    {
+      "time": "5:04",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:31",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Chat widgets",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/chat-widgets"
+    },
+    {
+      "label": "Technical guide: AI chat",
+      "url": "https://orchardcore.crestapps.com/docs/ai/chat"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat.AdminWidget"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/chat-widgets.md"
+  ],
+  "length": "5:40"
+}

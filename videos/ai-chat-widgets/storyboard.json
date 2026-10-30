@@ -1,0 +1,252 @@
+{
+  "title": "AI Chat Widgets",
+  "output": "ai-chat-widgets",
+  "spoken": {
+    "AI": "A.I."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Chat Widgets",
+      "subtitle": "An assistant on every admin page, and on your website",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A chat widget is a small chat window that floats in the corner of the page. This video shows the two widgets: the admin widget, which gives your staff an assistant on every admin page, and the website widget, which puts an assistant in front of your visitors. It covers the features, the settings, the permission your visitors need, and how the public assistant is protected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Two widgets, one profile",
+      "subtitle": "Both talk to a chat profile",
+      "clips": [
+        {
+          "id": "01-two",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "two-1",
+              "text": "The admin widget floats on every admin page. Your staff can ask a question without leaving what they are doing, and with the right tools the assistant can even act on the site."
+            },
+            {
+              "id": "two-2",
+              "text": "The website widget is an ordinary Orchard Core widget that you place in a zone of your site, for example to answer questions about your products or opening hours."
+            },
+            {
+              "id": "two-3",
+              "text": "Both talk to an AI profile of the type Chat. Create the profile first. Its instructions, chat mode, file uploads, read-aloud and ratings all apply inside the widget too."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn on the features",
+      "subtitle": "Admin Widget, Widgets and Layers",
+      "clips": [
+        {
+          "id": "02-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fea-1",
+              "text": "The admin widget is the feature AI Chat Admin Widget. It depends on AI Chat and on Orchard Core AI Agent, which are enabled together with it. Search for it in Tools, Features."
+            },
+            {
+              "id": "fea-2",
+              "text": "The website widget needs no AI feature of its own beyond AI Chat. It is a widget, so the Widgets and Layers features of Orchard Core must be on. Many sites have them already."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up the admin widget",
+      "subtitle": "Settings, Artificial Intelligence, Admin Widget",
+      "clips": [
+        {
+          "id": "03-admin",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "adm-1",
+              "text": "Open Settings, Artificial Intelligence, and find the Admin Widget section. Chat profile chooses the profile the widget talks to. Choose No profile, disabled, to hide the widget completely."
+            },
+            {
+              "id": "adm-2",
+              "text": "Once you pick a profile, Max history sessions says how many past chats the history list shows, from one to fifty, and Primary color sets the color of the header and the button. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Use the admin widget",
+      "subtitle": "On every admin page",
+      "clips": [
+        {
+          "id": "04-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "usg-1",
+              "text": "The widget now shows on every admin page, for each signed-in user who is allowed to use that profile. Click the round robot button, Open AI Assistant, in the bottom right corner."
+            },
+            {
+              "id": "usg-2",
+              "text": "Type your question and press Enter. The widget has the same message box as the chat page, with attachments, voice, read-aloud, copy and ratings when the profile allows them."
+            },
+            {
+              "id": "usg-3",
+              "text": "In the header, New chat starts over, and Chat history lists your recent chats so that you can reopen one. Drag the header to move the window, and drag its edge to resize it. The widget remembers its place on the next page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Add a chat box to your website",
+      "subtitle": "The Artificial Intelligence Chat widget",
+      "clips": [
+        {
+          "id": "05-website",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "web-1",
+              "text": "Open Design, Widgets. Make sure a layer is active on the pages where the chat should appear. A layer whose rule is a Boolean condition set to true shows on every page, and many sites have one named Always."
+            },
+            {
+              "id": "web-2",
+              "text": "In the zone where the widget should live, for example Footer, click Add Widget and choose Artificial Intelligence Chat."
+            },
+            {
+              "id": "web-3",
+              "text": "Profile chooses the chat profile, and it is required. Total history chat to show is how many past chats a signed-in visitor can reopen. Set it to zero to hide the history. Pick the layer, and publish the widget."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Let visitors chat",
+      "subtitle": "The Anonymous role needs one permission",
+      "clips": [
+        {
+          "id": "06-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rol-1",
+              "text": "Visitors who are not signed in use the Anonymous role, and the widget shows only to people whose role may use the profile. Open Access Control, Roles, edit Anonymous, and find the permission Query AI profile for your public profile."
+            },
+            {
+              "id": "rol-2",
+              "text": "Grant only that one profile. Do not grant Query any AI profile to the Anonymous role, because that opens every profile to the public."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "What visitors see",
+      "subtitle": "On your website",
+      "clips": [
+        {
+          "id": "07-visitor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vis-1",
+              "text": "On a page of the site, a round chat button sits in the bottom right corner. Clicking it opens a chat window titled AI Chat, with the welcome message of the profile and a message box."
+            },
+            {
+              "id": "vis-2",
+              "text": "A visitor types a question and sees the answer as it is written. A chat is saved only once the visitor sends a first message, never just because someone opened a page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Protect a public assistant",
+      "subtitle": "Limits, blocked tricks and cookies",
+      "clips": [
+        {
+          "id": "08-protect",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "pro-1",
+              "text": "A public assistant is open to anyone, so the site limits how many messages a visitor can send, and how many chats a visitor can start, in a short time. A visitor over the limit is asked to wait a few minutes."
+            },
+            {
+              "id": "pro-2",
+              "text": "Messages that try to trick the assistant into ignoring its instructions are blocked. A cookie recognizes a visitor across visits, for the analytics and the limits."
+            },
+            {
+              "id": "pro-3",
+              "text": "Keep a public assistant focused. Give it clear instructions about what it may talk about, and restrict its answers to your own content when it should answer only from that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where a widget helps",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop puts a website assistant in the footer, to answer questions about opening hours, returns and repairs around the clock."
+            },
+            {
+              "id": "use-2",
+              "text": "An editor keeps the admin assistant open while writing, and asks it how a setting works without leaving the page."
+            },
+            {
+              "id": "use-3",
+              "text": "A support lead gives the admin assistant tools, so that staff can list content or check a setting by asking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose a profile, turn on a widget, and give visitors the one permission they need. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
