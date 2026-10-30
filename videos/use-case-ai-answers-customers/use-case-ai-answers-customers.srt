@@ -1,0 +1,236 @@
+1
+00:00:01,000 --> 00:00:05,030
+An AI agent can answer the texts and calls that customers send to
+
+2
+00:00:05,030 --> 00:00:09,798
+your numbers, around the clock, and hand the customer to a person when needed.
+
+3
+00:00:09,798 --> 00:00:12,352
+It can also reach out to a list itself.
+
+4
+00:00:12,352 --> 00:00:15,020
+This use case shows how it fits together.
+
+5
+00:00:15,020 --> 00:00:19,050
+It is a recap, and it points to the videos that show each screen.
+
+6
+00:00:23,650 --> 00:00:27,787
+This is for managers and AI content managers who want an AI agent
+
+7
+00:00:27,787 --> 00:00:29,186
+on the front line.
+
+8
+00:00:29,186 --> 00:00:33,264
+It answers every text or call to a number you choose, greets the
+
+9
+00:00:33,264 --> 00:00:35,770
+customer, and holds the conversation.
+
+10
+00:00:36,520 --> 00:00:42,180
+Or the AI starts the conversations itself, texting or calling the contacts you load.
+
+11
+00:00:42,930 --> 00:00:47,393
+At the end, the AI picks an outcome from your dispositions and saves
+
+12
+00:00:47,393 --> 00:00:52,700
+a summary, and your subject flow runs, just as if an agent had completed the work.
+
+13
+00:00:53,450 --> 00:00:57,992
+When the customer asks for a person, looks like a qualified lead, or
+
+14
+00:00:57,992 --> 00:01:01,982
+is frustrated, the AI can hand them to an agent in a queue.
+
+15
+00:01:01,982 --> 00:01:04,990
+You can read every conversation afterwards.
+
+16
+00:01:09,190 --> 00:01:13,062
+You need an AI provider connection and a chat deployment.
+
+17
+00:01:13,062 --> 00:01:16,750
+Your administrator or AI content manager sets that up.
+
+18
+00:01:17,500 --> 00:01:23,557
+For texts, you need an SMS provider and the features SMS Omnichannel Automation
+
+19
+00:01:23,557 --> 00:01:25,838
+and SMS Messaging Channel.
+
+20
+00:01:25,838 --> 00:01:31,610
+For calls, you need Telnyx as the phone provider and Telnyx AI Voice Agent.
+
+21
+00:01:32,360 --> 00:01:36,790
+To answer your numbers, you need Contact Center Inbound Entry Points.
+
+22
+00:01:36,790 --> 00:01:41,397
+For hand-off to a person, you need Work Distribution for the queues, and
+
+23
+00:01:41,397 --> 00:01:43,760
+the messaging workspace for texts.
+
+24
+00:01:47,960 --> 00:01:53,520
+First, create the AI profile under Artificial Intelligence, Profiles, and pick a starting
+
+25
+00:01:53,520 --> 00:01:58,027
+point, such as Customer care by text or Answer calls at the front desk.
+
+26
+00:01:58,027 --> 00:02:03,060
+Name your business, and fill in the about the business part of the instructions.
+
+27
+00:02:03,810 --> 00:02:10,410
+Second, and optionally, attach documents or data sources, so that it answers from your own knowledge.
+
+28
+00:02:11,160 --> 00:02:18,140
+Third, the number must be on Omnichannel Addresses, with Voice calls or Text messages ticked.
+
+29
+00:02:18,890 --> 00:02:25,669
+Fourth, give the number an inbound, automated subject, with dispositions and a subject flow.
+
+30
+00:02:25,669 --> 00:02:29,958
+To allow hand-off, turn on Allow the AI to hand off to a
+
+31
+00:02:29,958 --> 00:02:34,800
+live agent, pick the handoff queue, and choose when to escalate.
+
+32
+00:02:39,000 --> 00:02:41,997
+Make sure agents work the handoff queue.
+
+33
+00:02:41,997 --> 00:02:47,470
+Calls ring an agent in the queue, and texts appear in the messaging workspace.
+
+34
+00:02:48,220 --> 00:02:53,319
+Under Inbound entry points, edit the number's entry point, set Route to to
+
+35
+00:02:53,319 --> 00:02:58,100
+AI agent for texts or AI voice agent for calls, and pick the profile.
+
+36
+00:02:58,100 --> 00:03:03,390
+Pick a business hours calendar if the AI should answer only at certain times.
+
+37
+00:03:04,140 --> 00:03:08,769
+Or create an automatic activity load with the profile, the channel and the
+
+38
+00:03:08,769 --> 00:03:12,010
+number, and add a cadence to follow up on silence.
+
+39
+00:03:12,760 --> 00:03:18,183
+Open a contact's activities and click Review AI conversation to read the transcript.
+
+40
+00:03:18,183 --> 00:03:22,702
+The AI handoff and containment report shows how often the AI handed a
+
+41
+00:03:22,702 --> 00:03:24,570
+conversation to a person.
+
+42
+00:03:28,770 --> 00:03:33,589
+Call or text the number from your own phone while the entry point is open.
+
+43
+00:03:33,589 --> 00:03:37,865
+The AI greets you, or replies to your text after its usual pause.
+
+44
+00:03:37,865 --> 00:03:41,660
+Ask a question about your business, and check the answer.
+
+45
+00:03:42,410 --> 00:03:44,339
+Ask to speak to a person.
+
+46
+00:03:44,339 --> 00:03:49,816
+If hand-off is allowed, a text conversation appears in the messaging workspace, or
+
+47
+00:03:49,816 --> 00:03:52,990
+the call rings an agent in the handoff queue.
+
+48
+00:03:53,740 --> 00:04:00,080
+End the conversation, then open your contact's activities and read it with Review AI conversation.
+
+49
+00:04:04,280 --> 00:04:08,000
+An entry point that is closed does not use the AI.
+
+50
+00:04:08,000 --> 00:04:14,310
+Calls go to voicemail, or are refused, and texts go to people with the closed auto-reply.
+
+51
+00:04:15,060 --> 00:04:18,709
+A text goes to people instead of the AI when a person already
+
+52
+00:04:18,709 --> 00:04:22,849
+has an open conversation with the customer on that number, or when the
+
+53
+00:04:22,849 --> 00:04:26,770
+customer's last AI conversation there ended less than an hour ago.
+
+54
+00:04:27,520 --> 00:04:31,322
+Start with a test number and a few colleagues before you point your
+
+55
+00:04:31,322 --> 00:04:32,780
+main number at the AI.
+
+56
+00:04:34,780 --> 00:04:39,545
+A profile, a number, outcomes and a hand-off queue, and the AI is
+
+57
+00:04:39,545 --> 00:04:41,155
+on the front line.
+
+58
+00:04:41,155 --> 00:04:46,255
+Watch the videos on automated SMS and the AI hand-off for each screen.
+
+59
+00:04:46,255 --> 00:04:48,000
+Thanks for watching.
+
