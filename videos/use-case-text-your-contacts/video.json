@@ -1,0 +1,85 @@
+{
+  "title": "Use case: Text Your Contacts | CrestApps for Orchard Core",
+  "description": "Customers text your numbers, your agents answer from a shared inbox, and your supervisors send the same message to many people. This use case shows how the parts fit together, from the provider to a broadcast. It is a recap, and it points to the videos that show each screen.\n\nIn this video:\n• Who it is for and what you get\n• Before you start\n• Connect and route\n• Answer and send\n• Check that it works\n• Tips",
+  "hashtags": [
+    "OrchardCore",
+    "CRM",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "use case",
+    "SMS",
+    "messaging",
+    "shared inbox",
+    "broadcast",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Who it is for and what you get"
+    },
+    {
+      "time": "1:02",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:47",
+      "title": "Connect and route"
+    },
+    {
+      "time": "2:35",
+      "title": "Answer and send"
+    },
+    {
+      "time": "3:01",
+      "title": "Check that it works"
+    },
+    {
+      "time": "3:35",
+      "title": "Tips"
+    },
+    {
+      "time": "4:06",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Text Your Contacts",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/text-your-contacts"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/messaging-workspace"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Messaging"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/text-your-contacts.md"
+  ],
+  "length": "4:25"
+}

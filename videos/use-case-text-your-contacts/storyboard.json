@@ -1,0 +1,200 @@
+{
+  "title": "Text Your Contacts",
+  "output": "use-case-text-your-contacts",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "AI": "A.I.",
+    "STOP": "STOP",
+    "CRM": "C.R.M."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Text Your Contacts",
+      "subtitle": "A use case of CrestApps for Orchard Core",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Customers text your numbers, your agents answer from a shared inbox, and your supervisors send the same message to many people. This use case shows how the parts fit together, from the provider to a broadcast. It is a recap, and it points to the videos that show each screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Who it is for and what you get",
+      "subtitle": "Two-way texting with customers",
+      "clips": [
+        {
+          "id": "01-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "This is for managers who set up two-way texting, and for the agents and supervisors who answer. Customers who text your numbers land in a shared inbox, or with one agent, depending on the number."
+            },
+            {
+              "id": "who-2",
+              "text": "Agents claim conversations, reply, send pictures, transfer to a colleague or a queue, and close them. They also start new conversations from their own texting number, and reuse canned responses."
+            },
+            {
+              "id": "who-3",
+              "text": "Supervisors send the same message to many customers as a broadcast, and each reply comes back as its own conversation. Customers who text STOP are opted out automatically."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "Provider, features and permissions",
+      "clips": [
+        {
+          "id": "02-need",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "need-1",
+              "text": "You need an SMS provider account, such as Twilio or Telnyx, with numbers that can text. Your administrator sets that up with IT."
+            },
+            {
+              "id": "need-2",
+              "text": "The administrator turns on SMS Messaging Channel, which turns on the messaging workspace, Contact Center Inbound Entry Points, Omnichannel Management and Content Transfer. Routed Distribution is optional, for one conversation to one available agent."
+            },
+            {
+              "id": "need-3",
+              "text": "Agents need Use the messaging workspace, and the Agent role has it. Whoever sends broadcasts and writes templates needs Send group messages and Manage the messaging workspace, and the Supervisor role has them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Connect and route",
+      "subtitle": "Provider, contacts, numbers, entry points",
+      "clips": [
+        {
+          "id": "03-setup",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "First, the administrator picks the default SMS provider and fills in its settings under Settings, Communication, SMS."
+            },
+            {
+              "id": "setup-2",
+              "text": "Second, set up the contact type and import your list under Content, Import. Contacts who should not get texts can be marked Do not SMS."
+            },
+            {
+              "id": "setup-3",
+              "text": "Third, add each number under Omnichannel Addresses with Text messages ticked, pick its provider, and pick the agents who text from this number."
+            },
+            {
+              "id": "setup-4",
+              "text": "Fourth, add a Text messages entry point for each number. Send its texts to a queue or to one agent, choose shared pool or routed distribution, and write the auto-reply and the closed auto-reply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Answer and send",
+      "subtitle": "Templates, inbox, broadcasts",
+      "clips": [
+        {
+          "id": "04-work",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "work-1",
+              "text": "Write templates, which are canned responses, under Messaging, Templates."
+            },
+            {
+              "id": "work-2",
+              "text": "Agents filter, claim, reply, transfer, close and reopen conversations, and start new ones, under Messaging, Inbox."
+            },
+            {
+              "id": "work-3",
+              "text": "Supervisors send one message to many contacts under Messaging, Broadcasts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Check that it works",
+      "subtitle": "From your own phone",
+      "clips": [
+        {
+          "id": "05-chk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "Text one of your numbers from a mobile phone. The conversation appears in the inbox, under Unassigned for a shared queue, or with the agent for a personal number. If the entry point has an auto-reply, your phone receives it."
+            },
+            {
+              "id": "chk-2",
+              "text": "Claim the conversation, reply, and check that your phone receives the reply. Then start a new conversation to your phone from an agent's number."
+            },
+            {
+              "id": "chk-3",
+              "text": "Text STOP from your phone and check that you receive the confirmation. Text START to opt back in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Tips",
+      "subtitle": "Good to know",
+      "clips": [
+        {
+          "id": "06-tip",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "A number with no enabled text entry point still receives texts. They land in the unassigned inbox. With routed distribution, agents turn on the Available switch to receive conversations."
+            },
+            {
+              "id": "tip-2",
+              "text": "A banner warns agents during the customer's quiet hours. It does not stop them sending."
+            },
+            {
+              "id": "tip-3",
+              "text": "A broadcast cannot be cancelled once it is queued, so send a test to yourself first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A provider, numbers, entry points, an inbox, templates and broadcasts: that is two-way texting. Watch the messaging videos for each screen: the inbox, routing and transfers, templates and broadcasts, and setup. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
