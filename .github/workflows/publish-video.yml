@@ -153,7 +153,11 @@ jobs:
           git checkout -q -B "$branch"
           git add "$DOCS_VIDEO_MAP"
           git commit -m "Link the $title video ($version) in the documentation"
-          git push origin "$branch"
+          # The docs branch also receives commits from other people while videos publish: rebase and retry.
+          for attempt in 1 2 3 4 5 6; do
+            git pull --rebase origin "$branch" && git push origin "$branch" && break
+            sleep $((attempt * 5))
+          done
 
           body=$(printf '%s\n\n%s\n\n%s\n\n%s\n' \
             "Points \`<YouTube video=\"$slug\" />\` at $url ($title, $version), published from [$GITHUB_REPOSITORY $TAG]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/tag/$TAG)." \
