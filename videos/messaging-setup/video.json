@@ -1,0 +1,99 @@
+{
+  "title": "Messaging Setup: Connect SMS and Start Receiving Texts | CrestApps for Orchard Core",
+  "description": "Before your team can answer customers' texts, the site has to be connected to an SMS provider and told where each number's texts should go. This video walks through the whole setup in CrestApps for Orchard Core, from the features to a test text.\n\nIn this video:\n• The six things the setup needs\n• Turning on SMS Messaging Channel\n• Connecting the SMS provider and giving it the webhook address\n• Sending a test text\n• Adding your numbers and choosing a provider for each\n• The text entry point: queue, distribution, auto-reply and closed auto-reply\n• Permissions for the messaging workspace\n• The Base URL for pictures, and other providers\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "SMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "SMS setup",
+    "Twilio",
+    "Telnyx",
+    "Azure Communication Services",
+    "shared inbox",
+    "contact center",
+    "customer support",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "What the setup needs"
+    },
+    {
+      "time": "1:05",
+      "title": "Turn on the features"
+    },
+    {
+      "time": "1:39",
+      "title": "Connect the provider"
+    },
+    {
+      "time": "2:26",
+      "title": "Send a test text"
+    },
+    {
+      "time": "2:44",
+      "title": "Add your numbers"
+    },
+    {
+      "time": "3:22",
+      "title": "Say where the texts go"
+    },
+    {
+      "time": "4:02",
+      "title": "Give the right people access"
+    },
+    {
+      "time": "4:35",
+      "title": "Pictures and other providers"
+    },
+    {
+      "time": "5:22",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:47",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/messaging"
+    },
+    {
+      "label": "Technical guide: Messaging workspace",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/messaging-workspace"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Messaging.Sms"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/messaging.md",
+    "src/CrestApps.Docs/docs/omnichannel/messaging-workspace.md"
+  ],
+  "length": "5:59"
+}
