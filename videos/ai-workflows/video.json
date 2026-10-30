@@ -1,0 +1,91 @@
+{
+  "title": "AI in Workflows: Automate with AI Tasks and Chat Events | CrestApps for Orchard Core",
+  "description": "Orchard Core workflows automate work without code. The AI features of CrestApps for Orchard Core add two tasks that ask an AI model for an answer, and four events that start a workflow when something happens in an AI chat. This video builds a workflow that summarizes every chat when it ends, and explains the outcomes and the events.\n\nIn this video:\n• What the AI adds to workflows: two tasks, four events, three outcomes\n• Creating a workflow\n• Starting it from an AI chat event\n• Adding the AI Completion using Profile task\n• Connecting the steps on the canvas\n• AI Completion using Direct Config\n• The four chat events, and use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI workflows",
+    "workflow automation",
+    "AI completion",
+    "AI chat events",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:22",
+      "title": "What the AI adds to workflows"
+    },
+    {
+      "time": "1:00",
+      "title": "Create a workflow"
+    },
+    {
+      "time": "1:15",
+      "title": "Start it from an AI chat"
+    },
+    {
+      "time": "1:41",
+      "title": "Add an AI task"
+    },
+    {
+      "time": "2:21",
+      "title": "Connect the steps"
+    },
+    {
+      "time": "2:47",
+      "title": "Without a profile"
+    },
+    {
+      "time": "3:14",
+      "title": "The four chat events"
+    },
+    {
+      "time": "3:58",
+      "title": "Use cases"
+    },
+    {
+      "time": "4:35",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: AI in workflows",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/workflows"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/workflows"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "OrchardCore.Workflows"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/workflows.md"
+  ],
+  "length": "4:44"
+}

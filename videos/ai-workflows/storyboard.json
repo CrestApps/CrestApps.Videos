@@ -1,0 +1,223 @@
+{
+  "title": "AI in Workflows",
+  "output": "ai-workflows",
+  "spoken": {
+    "AI": "A.I."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI in Workflows",
+      "subtitle": "Ask an AI for an answer, automatically",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Orchard Core workflows automate work without code. The AI features add two tasks that ask an AI model for an answer, and four events that start a workflow when something happens in an AI chat. This video builds a workflow that summarizes every chat when it ends, and explains the outcomes and the events."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What the AI adds to workflows",
+      "subtitle": "Two tasks, four events, three outcomes",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "wf-1",
+              "text": "Two tasks ask an AI model for an answer: one that uses an AI profile, and one that sets up the model and the instructions inside the task itself."
+            },
+            {
+              "id": "wf-2",
+              "text": "Four events start a workflow when something happens in an AI chat: a chat closes, a field is collected, all fields are collected, or a closed chat has been analyzed."
+            },
+            {
+              "id": "wf-3",
+              "text": "Every AI task has three outcomes: Done when the AI answered, Drew Blank when the answer is empty, and Failed when something went wrong. You decide what each one leads to."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create a workflow",
+      "subtitle": "Design, Workflows",
+      "clips": [
+        {
+          "id": "02-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cre-1",
+              "text": "Open Design, Workflows, and click Create Workflow. Give it a Name, such as Summarize closed chats, and click Save. The editor opens with an empty canvas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Start it from an AI chat",
+      "subtitle": "The AI Chat events",
+      "clips": [
+        {
+          "id": "03-event",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "evt-1",
+              "text": "Click Add Event. Under AI Chat you find the four events that start from a chat. Each one has one outcome, Done."
+            },
+            {
+              "id": "evt-2",
+              "text": "Add AI Chat Session Closed, which starts when a chat ends. Its one field, Profile, can stay on Any profile, or you can pick one profile to react only to the chats of that profile. Click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Add an AI task",
+      "subtitle": "AI Completion using Profile",
+      "clips": [
+        {
+          "id": "04-task",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tsk-1",
+              "text": "Click Add Task, find AI Completion using Profile under Artificial Intelligence, and click Add."
+            },
+            {
+              "id": "tsk-2",
+              "text": "Profiles is the AI profile that answers, with its model, instructions, knowledge and tools. Result property name is the name the answer is stored under. Start it with AI and a dash, so that it does not clash with another task."
+            },
+            {
+              "id": "tsk-3",
+              "text": "Prompt template is the message sent to the AI. You can mix your own text with values from the workflow. Click Save. The task shows its three outcomes, Done, Drew Blank and Failed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Connect the steps",
+      "subtitle": "From the event to the task",
+      "clips": [
+        {
+          "id": "05-connect",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "con-1",
+              "text": "On the canvas, drag the task away from the event, then drag from the outcome of the event to the task to connect them. When the chat closes, the task runs."
+            },
+            {
+              "id": "con-2",
+              "text": "Connect Failed and Drew Blank to something useful, such as a notification to an administrator, so that a workflow never stops silently. Then click Save, and turn the workflow on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Without a profile",
+      "subtitle": "AI Completion using Direct Config",
+      "clips": [
+        {
+          "id": "06-direct",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dir-1",
+              "text": "The other task, AI Completion using Direct Config, sets up the model right inside the task. Its editor has the settings of a chat interaction, over tabs: Content, with the prompt, the deployments, the instructions and the tuning values, and Capabilities, with the tools. A Knowledge tab appears when the knowledge features are on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "The four chat events",
+      "subtitle": "When each one starts",
+      "clips": [
+        {
+          "id": "07-events",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "evs-1",
+              "text": "AI Chat Session Closed starts when a chat ends, because the AI detected a goodbye, or because the visitor stopped replying for the profile's inactivity time."
+            },
+            {
+              "id": "evs-2",
+              "text": "AI Chat Session Field Extracted starts when the AI collected a value for one of the profile's data extraction fields, such as an email address."
+            },
+            {
+              "id": "evs-3",
+              "text": "AI Chat Session All Fields Extracted starts when every data extraction field has a value. It starts once per chat."
+            },
+            {
+              "id": "evs-4",
+              "text": "AI Chat Session Post-Processed starts when the AI finished analyzing a closed chat with the profile's post-session tasks, such as a summary or a disposition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "What to automate",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Send new leads to sales. The assistant collects a visitor's name, email and question, and when all fields are extracted, an email task sends them to your sales team."
+            },
+            {
+              "id": "use-2",
+              "text": "Summarize closed chats. A post-session task writes a short summary, and a workflow saves it or sends it when the chat is post-processed."
+            },
+            {
+              "id": "use-3",
+              "text": "Tag incoming requests. A direct config task answers with one word, Sales, Support or Billing, and the workflow routes the request on the answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "AI tasks and chat events turn what visitors say into automatic work. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
