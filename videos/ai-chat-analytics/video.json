@@ -1,0 +1,83 @@
+{
+  "title": "AI Chat Analytics: Resolution, Ratings, Extracted Data and Conversion Goals | CrestApps for Orchard Core",
+  "description": "How well does your CrestApps AI assistant do? The AI chat reports answer how much it is used, whether it solves problems, whether people like it, what it collected and whether chats reach your goals. This video tours the Session Analytics, Extracted Data and Conversion Goals reports, and the profile settings that fill them.\n\nIn this video:\n• The questions the reports answer\n• Turning on session metrics, resolution detection, conversion metrics and data extraction\n• AI Chat Session Analytics: usage, time of day, segmentation, tokens, resolution, conversion and feedback\n• AI Chat Extracted Data\n• AI Chat Conversion Goals\n• Turning the figures into fixes",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI analytics",
+    "chat analytics",
+    "AI assistant",
+    "customer satisfaction",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Five questions"
+    },
+    {
+      "time": "0:53",
+      "title": "Collect the data"
+    },
+    {
+      "time": "1:35",
+      "title": "Session analytics"
+    },
+    {
+      "time": "2:57",
+      "title": "Extracted data"
+    },
+    {
+      "time": "3:27",
+      "title": "Conversion goals"
+    },
+    {
+      "time": "3:55",
+      "title": "Using the numbers"
+    },
+    {
+      "time": "4:24",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: analytics",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/analytics"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/chat-analytics"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.Chat.Analytics"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/analytics.md",
+    "src/CrestApps.Docs/docs/ai/chat-analytics.md"
+  ],
+  "length": "4:34"
+}

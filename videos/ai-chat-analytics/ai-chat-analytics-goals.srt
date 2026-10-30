@@ -1,0 +1,24 @@
+1
+00:00:03,201 --> 00:00:06,362
+Open AI Chat Conversion Goals in the same menu.
+
+2
+00:00:06,362 --> 00:00:10,894
+It shows how each finished chat scored against the goals that you set.
+
+3
+00:00:10,894 --> 00:00:14,651
+Choose the AI profile, which is required, and click Show.
+
+4
+00:00:15,102 --> 00:00:19,664
+Each row has the session date, the session ID, the total points, and
+
+5
+00:00:19,664 --> 00:00:21,576
+one column for each goal.
+
+6
+00:00:21,576 --> 00:00:26,262
+Chats with a low score show where the assistant fails to guide people.
+

@@ -1,0 +1,197 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.256
+How many people use your assistant?
+
+00:00:03.256 --> 00:00:05.181
+Does it solve their problems?
+
+00:00:05.181 --> 00:00:08.702
+Do they like the answers, and what did it learn from them?
+
+00:00:08.702 --> 00:00:11.068
+This video shows the AI chat reports:
+
+00:00:11.068 --> 00:00:16.239
+the Session Analytics report, the Extracted Data report and the Conversion Goals report,
+
+00:00:16.239 --> 00:00:18.330
+and the settings that fill them.
+
+00:00:22.930 --> 00:00:25.291
+How much is it used, and when?
+
+00:00:25.291 --> 00:00:28.374
+How long are the chats, and who has them:
+
+00:00:28.374 --> 00:00:31.260
+signed-in users or anonymous visitors?
+
+00:00:32.010 --> 00:00:33.951
+Does it solve the problem?
+
+00:00:33.951 --> 00:00:37.650
+The AI can judge each finished chat as resolved or not.
+
+00:00:38.400 --> 00:00:39.911
+Do people like it?
+
+00:00:39.911 --> 00:00:44.760
+A thumbs up or thumbs down on an answer feeds the satisfaction figures.
+
+00:00:45.510 --> 00:00:48.335
+What did it collect, such as an email address?
+
+00:00:48.335 --> 00:00:52.300
+And did a chat reach the goals that you set, such as a booked demo?
+
+00:00:56.499 --> 00:01:00.854
+The reports hold only what was collected, and only from the moment that
+
+00:01:00.854 --> 00:01:02.607
+collection was turned on.
+
+00:01:02.607 --> 00:01:06.679
+Open a chat profile, and open its Data Processing and Metrics tab.
+
+00:01:07.131 --> 00:01:12.315
+Enable session metrics collects the numbers, and adds thumbs up and thumbs down
+
+00:01:12.315 --> 00:01:14.084
+buttons to the answers.
+
+00:01:14.084 --> 00:01:19.391
+Enable AI resolution detection lets the AI judge if each chat solved the problem.
+
+00:01:19.841 --> 00:01:25.375
+Enable conversion metrics scores each chat against your goals, and Enable data extraction
+
+00:01:25.375 --> 00:01:27.763
+collects the details that you name.
+
+00:01:27.763 --> 00:01:32.657
+A chat counts as finished after its inactivity timeout, and the results appear
+
+00:01:32.657 --> 00:01:34.171
+a few minutes later.
+
+00:01:38.378 --> 00:01:43.597
+Open Reports, Artificial Intelligence Reports, and AI Chat Session Analytics.
+
+00:01:43.597 --> 00:01:47.811
+Choose a Date range, such as the last 30 days, and a profile,
+
+00:01:47.811 --> 00:01:50.138
+or any profile, and click Show.
+
+00:01:50.589 --> 00:01:55.649
+Conversation and Usage shows the Total Sessions and the Unique Visitors, the Containment
+
+00:01:55.649 --> 00:02:00.170
+Rate, the share of chats that the assistant handled alone, and the Abandonment
+
+00:02:00.170 --> 00:02:03.669
+Rate, the share where the person left without a resolution.
+
+00:02:04.119 --> 00:02:08.699
+It also shows how long chats last and how many messages they have,
+
+00:02:08.699 --> 00:02:10.989
+and how many people come back.
+
+00:02:10.989 --> 00:02:15.759
+Resolved, Abandoned and Active Sessions count the chats by their end.
+
+00:02:16.211 --> 00:02:19.275
+The usage by time of day and by day of the week show
+
+00:02:19.275 --> 00:02:23.291
+when people chat, so that you can have staff ready for the busy hours.
+
+00:02:23.741 --> 00:02:28.242
+User Segmentation separates signed-in users from anonymous visitors.
+
+00:02:28.242 --> 00:02:33.046
+Model and System Performance shows the response time and the tokens used:
+
+00:02:33.046 --> 00:02:37.851
+the input tokens that are sent, and the output tokens that the AI writes.
+
+00:02:38.302 --> 00:02:43.638
+Resolution and Conversion shows how many finished chats the AI judged resolved, and
+
+00:02:43.638 --> 00:02:46.216
+the average score against your goals.
+
+00:02:46.216 --> 00:02:48.435
+User Feedback shows the thumbs:
+
+00:02:48.435 --> 00:02:52.392
+the satisfaction rate, and how many chats were rated at all.
+
+00:02:52.843 --> 00:02:56.923
+Export as CSV downloads the chats behind the report.
+
+00:03:01.126 --> 00:03:06.265
+Open Reports, Artificial Intelligence Reports, and AI Chat Extracted Data.
+
+00:03:06.265 --> 00:03:10.569
+It lists what the assistant collected, one row for each chat.
+
+00:03:10.569 --> 00:03:14.616
+Choose the AI profile, which is required, and click Show.
+
+00:03:15.068 --> 00:03:19.562
+Each row has the session date, the session ID, and one column for
+
+00:03:19.562 --> 00:03:23.360
+each detail that you named, such as the email address.
+
+00:03:23.360 --> 00:03:26.778
+Export as CSV is how leads reach another system.
+
+00:03:30.979 --> 00:03:34.139
+Open AI Chat Conversion Goals in the same menu.
+
+00:03:34.139 --> 00:03:38.672
+It shows how each finished chat scored against the goals that you set.
+
+00:03:38.672 --> 00:03:42.429
+Choose the AI profile, which is required, and click Show.
+
+00:03:42.879 --> 00:03:47.442
+Each row has the session date, the session ID, the total points, and
+
+00:03:47.442 --> 00:03:49.353
+one column for each goal.
+
+00:03:49.353 --> 00:03:54.039
+Chats with a low score show where the assistant fails to guide people.
+
+00:03:58.239 --> 00:04:00.167
+Read some unresolved chats.
+
+00:04:00.167 --> 00:04:04.139
+They show the questions that your knowledge cannot answer yet.
+
+00:04:04.889 --> 00:04:11.849
+A high abandonment rate, or many thumbs down, points to instructions or knowledge that need work.
+
+00:04:12.599 --> 00:04:17.113
+Some AI services do not report tokens for every answer, so the token
+
+00:04:17.113 --> 00:04:19.675
+figures can be lower than your bill.
+
+00:04:19.675 --> 00:04:23.639
+The usage report is the place to compare with your invoice.
+
+00:04:25.639 --> 00:04:29.435
+Turn on the metrics, let the chats come in, and read the reports
+
+00:04:29.435 --> 00:04:31.170
+to improve your assistant.
+
+00:04:31.170 --> 00:04:32.579
+Thanks for watching.
+

@@ -1,0 +1,207 @@
+{
+  "title": "AI Chat Analytics",
+  "output": "ai-chat-analytics",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Chat Analytics",
+      "subtitle": "How well does your assistant do?",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "How many people use your assistant? Does it solve their problems? Do they like the answers, and what did it learn from them? This video shows the AI chat reports: the Session Analytics report, the Extracted Data report and the Conversion Goals report, and the settings that fill them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Five questions",
+      "subtitle": "What the reports answer",
+      "clips": [
+        {
+          "id": "01-questions",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "q-1",
+              "text": "How much is it used, and when? How long are the chats, and who has them: signed-in users or anonymous visitors?"
+            },
+            {
+              "id": "q-2",
+              "text": "Does it solve the problem? The AI can judge each finished chat as resolved or not."
+            },
+            {
+              "id": "q-3",
+              "text": "Do people like it? A thumbs up or thumbs down on an answer feeds the satisfaction figures."
+            },
+            {
+              "id": "q-4",
+              "text": "What did it collect, such as an email address? And did a chat reach the goals that you set, such as a booked demo?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Collect the data",
+      "subtitle": "Data Processing and Metrics",
+      "clips": [
+        {
+          "id": "02-collect",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "col-1",
+              "text": "The reports hold only what was collected, and only from the moment that collection was turned on. Open a chat profile, and open its Data Processing and Metrics tab."
+            },
+            {
+              "id": "col-2",
+              "text": "Enable session metrics collects the numbers, and adds thumbs up and thumbs down buttons to the answers. Enable AI resolution detection lets the AI judge if each chat solved the problem."
+            },
+            {
+              "id": "col-3",
+              "text": "Enable conversion metrics scores each chat against your goals, and Enable data extraction collects the details that you name. A chat counts as finished after its inactivity timeout, and the results appear a few minutes later."
+            }
+          ]
+        }
+      ],
+      "short": "collect"
+    },
+    {
+      "id": "03",
+      "title": "Session analytics",
+      "subtitle": "Reports, Artificial Intelligence Reports",
+      "clips": [
+        {
+          "id": "03-session",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ses-1",
+              "text": "Open Reports, Artificial Intelligence Reports, and AI Chat Session Analytics. Choose a Date range, such as the last 30 days, and a profile, or any profile, and click Show."
+            },
+            {
+              "id": "ses-2",
+              "text": "Conversation and Usage shows the Total Sessions and the Unique Visitors, the Containment Rate, the share of chats that the assistant handled alone, and the Abandonment Rate, the share where the person left without a resolution."
+            },
+            {
+              "id": "ses-3",
+              "text": "It also shows how long chats last and how many messages they have, and how many people come back. Resolved, Abandoned and Active Sessions count the chats by their end."
+            },
+            {
+              "id": "ses-4",
+              "text": "The usage by time of day and by day of the week show when people chat, so that you can have staff ready for the busy hours."
+            },
+            {
+              "id": "ses-5",
+              "text": "User Segmentation separates signed-in users from anonymous visitors. Model and System Performance shows the response time and the tokens used: the input tokens that are sent, and the output tokens that the AI writes."
+            },
+            {
+              "id": "ses-6",
+              "text": "Resolution and Conversion shows how many finished chats the AI judged resolved, and the average score against your goals. User Feedback shows the thumbs: the satisfaction rate, and how many chats were rated at all."
+            },
+            {
+              "id": "ses-7",
+              "text": "Export as CSV downloads the chats behind the report."
+            }
+          ]
+        }
+      ],
+      "short": "session"
+    },
+    {
+      "id": "04",
+      "title": "Extracted data",
+      "subtitle": "What the assistant collected",
+      "clips": [
+        {
+          "id": "04-extracted",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ext-1",
+              "text": "Open Reports, Artificial Intelligence Reports, and AI Chat Extracted Data. It lists what the assistant collected, one row for each chat. Choose the AI profile, which is required, and click Show."
+            },
+            {
+              "id": "ext-2",
+              "text": "Each row has the session date, the session ID, and one column for each detail that you named, such as the email address. Export as CSV is how leads reach another system."
+            }
+          ]
+        }
+      ],
+      "short": "extracted"
+    },
+    {
+      "id": "05",
+      "title": "Conversion goals",
+      "subtitle": "How chats scored",
+      "clips": [
+        {
+          "id": "05-goals",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "goa-1",
+              "text": "Open AI Chat Conversion Goals in the same menu. It shows how each finished chat scored against the goals that you set. Choose the AI profile, which is required, and click Show."
+            },
+            {
+              "id": "goa-2",
+              "text": "Each row has the session date, the session ID, the total points, and one column for each goal. Chats with a low score show where the assistant fails to guide people."
+            }
+          ]
+        }
+      ],
+      "short": "goals"
+    },
+    {
+      "id": "06",
+      "title": "Using the numbers",
+      "subtitle": "From figures to fixes",
+      "clips": [
+        {
+          "id": "06-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Read some unresolved chats. They show the questions that your knowledge cannot answer yet."
+            },
+            {
+              "id": "tip-2",
+              "text": "A high abandonment rate, or many thumbs down, points to instructions or knowledge that need work."
+            },
+            {
+              "id": "tip-3",
+              "text": "Some AI services do not report tokens for every answer, so the token figures can be lower than your bill. The usage report is the place to compare with your invoice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the metrics, let the chats come in, and read the reports to improve your assistant. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

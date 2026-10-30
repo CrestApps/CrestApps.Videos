@@ -1,0 +1,76 @@
+1
+00:00:03,207 --> 00:00:08,426
+Open Reports, Artificial Intelligence Reports, and AI Chat Session Analytics.
+
+2
+00:00:08,426 --> 00:00:12,640
+Choose a Date range, such as the last 30 days, and a profile,
+
+3
+00:00:12,640 --> 00:00:14,967
+or any profile, and click Show.
+
+4
+00:00:15,418 --> 00:00:20,477
+Conversation and Usage shows the Total Sessions and the Unique Visitors, the Containment
+
+5
+00:00:20,477 --> 00:00:24,999
+Rate, the share of chats that the assistant handled alone, and the Abandonment
+
+6
+00:00:24,999 --> 00:00:28,498
+Rate, the share where the person left without a resolution.
+
+7
+00:00:28,948 --> 00:00:33,528
+It also shows how long chats last and how many messages they have,
+
+8
+00:00:33,528 --> 00:00:35,818
+and how many people come back.
+
+9
+00:00:35,818 --> 00:00:40,588
+Resolved, Abandoned and Active Sessions count the chats by their end.
+
+10
+00:00:41,039 --> 00:00:44,104
+The usage by time of day and by day of the week show
+
+11
+00:00:44,104 --> 00:00:48,119
+when people chat, so that you can have staff ready for the busy hours.
+
+12
+00:00:48,570 --> 00:00:53,071
+User Segmentation separates signed-in users from anonymous visitors.
+
+13
+00:00:53,071 --> 00:00:57,875
+Model and System Performance shows the response time and the tokens used:
+
+14
+00:00:57,875 --> 00:01:02,680
+the input tokens that are sent, and the output tokens that the AI writes.
+
+15
+00:01:03,131 --> 00:01:08,467
+Resolution and Conversion shows how many finished chats the AI judged resolved, and
+
+16
+00:01:08,467 --> 00:01:11,045
+the average score against your goals.
+
+17
+00:01:11,045 --> 00:01:13,264
+User Feedback shows the thumbs:
+
+18
+00:01:13,264 --> 00:01:17,221
+the satisfaction rate, and how many chats were rated at all.
+
+19
+00:01:17,672 --> 00:01:21,752
+Export as CSV downloads the chats behind the report.
+

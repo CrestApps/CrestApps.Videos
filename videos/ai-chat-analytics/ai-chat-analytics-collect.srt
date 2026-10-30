@@ -1,0 +1,40 @@
+1
+00:00:03,199 --> 00:00:07,554
+The reports hold only what was collected, and only from the moment that
+
+2
+00:00:07,554 --> 00:00:09,307
+collection was turned on.
+
+3
+00:00:09,307 --> 00:00:13,379
+Open a chat profile, and open its Data Processing and Metrics tab.
+
+4
+00:00:13,831 --> 00:00:19,015
+Enable session metrics collects the numbers, and adds thumbs up and thumbs down
+
+5
+00:00:19,015 --> 00:00:20,784
+buttons to the answers.
+
+6
+00:00:20,784 --> 00:00:26,091
+Enable AI resolution detection lets the AI judge if each chat solved the problem.
+
+7
+00:00:26,541 --> 00:00:32,075
+Enable conversion metrics scores each chat against your goals, and Enable data extraction
+
+8
+00:00:32,075 --> 00:00:34,463
+collects the details that you name.
+
+9
+00:00:34,463 --> 00:00:39,357
+A chat counts as finished after its inactivity timeout, and the results appear
+
+10
+00:00:39,357 --> 00:00:40,871
+a few minutes later.
+

@@ -1,0 +1,24 @@
+1
+00:00:03,202 --> 00:00:08,342
+Open Reports, Artificial Intelligence Reports, and AI Chat Extracted Data.
+
+2
+00:00:08,342 --> 00:00:12,645
+It lists what the assistant collected, one row for each chat.
+
+3
+00:00:12,645 --> 00:00:16,692
+Choose the AI profile, which is required, and click Show.
+
+4
+00:00:17,145 --> 00:00:21,639
+Each row has the session date, the session ID, and one column for
+
+5
+00:00:21,639 --> 00:00:25,437
+each detail that you named, such as the email address.
+
+6
+00:00:25,437 --> 00:00:28,855
+Export as CSV is how leads reach another system.
+
