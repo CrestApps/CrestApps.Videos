@@ -1,0 +1,59 @@
+WEBVTT
+
+00:00:03.208 --> 00:00:07.783
+On the import page for a type, the upload requirements come first.
+
+00:00:07.783 --> 00:00:12.168
+Download template gives a file with every column already named.
+
+00:00:12.168 --> 00:00:14.900
+The ContentItemId column is optional.
+
+00:00:14.900 --> 00:00:18.840
+Leave it empty to create an item, or fill it in with the
+
+00:00:18.840 --> 00:00:21.954
+id of an existing item to update that item.
+
+00:00:21.954 --> 00:00:25.068
+The title is the only required column here.
+
+00:00:25.519 --> 00:00:27.050
+Parts come first.
+
+00:00:27.050 --> 00:00:30.779
+The HTML body and the Markdown body take the text.
+
+00:00:30.779 --> 00:00:34.574
+The alias and the URL path take the item's address.
+
+00:00:34.574 --> 00:00:39.235
+The archive and publish dates schedule the item, and are in UTC.
+
+00:00:39.235 --> 00:00:41.699
+A Liquid part takes a template.
+
+00:00:42.149 --> 00:00:46.902
+Then the type's own fields, named after the part and the field.
+
+00:00:46.902 --> 00:00:51.380
+A text field takes text, and a number field takes a number.
+
+00:00:51.380 --> 00:00:54.686
+Date and time fields take dates and times.
+
+00:00:54.686 --> 00:00:57.579
+A boolean field takes True or False.
+
+00:00:58.030 --> 00:01:03.579
+A multiple text field takes all its values in one cell, separated by a bar.
+
+00:01:03.579 --> 00:01:07.004
+A link has its URL, its text and its target.
+
+00:01:07.004 --> 00:01:09.607
+A YouTube field has its address.
+
+00:01:09.607 --> 00:01:14.950
+A content picker takes the ids of the items to link, separated by a bar.
+
