@@ -77,7 +77,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "Mc3LBWBQAbU",
+    "url": "https://youtu.be/Mc3LBWBQAbU",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter (Agents)"
