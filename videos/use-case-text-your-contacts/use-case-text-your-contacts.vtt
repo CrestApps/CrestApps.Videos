@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.885
+Customers text your numbers, your agents answer from a shared inbox, and your
+
+00:00:05.885 --> 00:00:09.121
+supervisors send the same message to many people.
+
+00:00:09.121 --> 00:00:14.242
+This use case shows how the parts fit together, from the provider to a broadcast.
+
+00:00:14.242 --> 00:00:18.420
+It is a recap, and it points to the videos that show each screen.
+
+00:00:23.020 --> 00:00:27.140
+This is for managers who set up two-way texting, and for the agents
+
+00:00:27.140 --> 00:00:29.002
+and supervisors who answer.
+
+00:00:29.002 --> 00:00:33.122
+Customers who text your numbers land in a shared inbox, or with one
+
+00:00:33.122 --> 00:00:35.210
+agent, depending on the number.
+
+00:00:35.960 --> 00:00:43.038
+Agents claim conversations, reply, send pictures, transfer to a colleague or a queue, and close them.
+
+00:00:43.038 --> 00:00:49.520
+They also start new conversations from their own texting number, and reuse canned responses.
+
+00:00:50.270 --> 00:00:55.330
+Supervisors send the same message to many customers as a broadcast, and each
+
+00:00:55.330 --> 00:00:58.231
+reply comes back as its own conversation.
+
+00:00:58.231 --> 00:01:01.810
+Customers who text STOP are opted out automatically.
+
+00:01:06.010 --> 00:01:12.125
+You need an SMS provider account, such as Twilio or Telnyx, with numbers that can text.
+
+00:01:12.125 --> 00:01:15.150
+Your administrator sets that up with IT.
+
+00:01:15.900 --> 00:01:22.045
+The administrator turns on SMS Messaging Channel, which turns on the messaging workspace,
+
+00:01:22.045 --> 00:01:27.672
+Contact Center Inbound Entry Points, Omnichannel Management and Content Transfer.
+
+00:01:27.672 --> 00:01:33.040
+Routed Distribution is optional, for one conversation to one available agent.
+
+00:01:33.790 --> 00:01:37.962
+Agents need Use the messaging workspace, and the Agent role has it.
+
+00:01:37.962 --> 00:01:43.221
+Whoever sends broadcasts and writes templates needs Send group messages and Manage the
+
+00:01:43.221 --> 00:01:46.650
+messaging workspace, and the Supervisor role has them.
+
+00:01:50.850 --> 00:01:56.396
+First, the administrator picks the default SMS provider and fills in its settings
+
+00:01:56.396 --> 00:01:59.010
+under Settings, Communication, SMS.
+
+00:01:59.760 --> 00:02:05.419
+Second, set up the contact type and import your list under Content, Import.
+
+00:02:05.419 --> 00:02:09.960
+Contacts who should not get texts can be marked Do not SMS.
+
+00:02:10.710 --> 00:02:16.218
+Third, add each number under Omnichannel Addresses with Text messages ticked, pick its
+
+00:02:16.218 --> 00:02:19.930
+provider, and pick the agents who text from this number.
+
+00:02:20.680 --> 00:02:24.760
+Fourth, add a Text messages entry point for each number.
+
+00:02:24.760 --> 00:02:29.169
+Send its texts to a queue or to one agent, choose shared pool
+
+00:02:29.169 --> 00:02:34.500
+or routed distribution, and write the auto-reply and the closed auto-reply.
+
+00:02:38.700 --> 00:02:43.430
+Write templates, which are canned responses, under Messaging, Templates.
+
+00:02:44.180 --> 00:02:53.760
+Agents filter, claim, reply, transfer, close and reopen conversations, and start new ones, under Messaging, Inbox.
+
+00:02:54.510 --> 00:03:00.080
+Supervisors send one message to many contacts under Messaging, Broadcasts.
+
+00:03:04.280 --> 00:03:07.163
+Text one of your numbers from a mobile phone.
+
+00:03:07.163 --> 00:03:11.912
+The conversation appears in the inbox, under Unassigned for a shared queue, or
+
+00:03:11.912 --> 00:03:14.342
+with the agent for a personal number.
+
+00:03:14.342 --> 00:03:18.130
+If the entry point has an auto-reply, your phone receives it.
+
+00:03:18.880 --> 00:03:23.758
+Claim the conversation, reply, and check that your phone receives the reply.
+
+00:03:23.758 --> 00:03:28.100
+Then start a new conversation to your phone from an agent's number.
+
+00:03:28.850 --> 00:03:33.023
+Text STOP from your phone and check that you receive the confirmation.
+
+00:03:33.023 --> 00:03:34.780
+Text START to opt back in.
+
+00:03:38.980 --> 00:03:43.407
+A number with no enabled text entry point still receives texts.
+
+00:03:43.407 --> 00:03:45.973
+They land in the unassigned inbox.
+
+00:03:45.973 --> 00:03:51.940
+With routed distribution, agents turn on the Available switch to receive conversations.
+
+00:03:52.690 --> 00:03:56.454
+A banner warns agents during the customer's quiet hours.
+
+00:03:56.454 --> 00:03:58.640
+It does not stop them sending.
+
+00:03:59.390 --> 00:04:05.050
+A broadcast cannot be cancelled once it is queued, so send a test to yourself first.
+
+00:04:07.050 --> 00:04:11.983
+A provider, numbers, entry points, an inbox, templates and broadcasts:
+
+00:04:11.983 --> 00:04:13.930
+that is two-way texting.
+
+00:04:13.930 --> 00:04:17.110
+Watch the messaging videos for each screen:
+
+00:04:17.110 --> 00:04:22.043
+the inbox, routing and transfers, templates and broadcasts, and setup.
+
+00:04:22.043 --> 00:04:23.730
+Thanks for watching.
+
