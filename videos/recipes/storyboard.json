@@ -1,0 +1,173 @@
+{
+  "title": "Recipes: Run, Check and Export a Site Setup",
+  "output": "recipes",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Recipes",
+      "subtitle": "Run, check and export a site setup",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows recipes in the admin: the catalog of ready-made recipes and how to run one, the editor that checks a recipe you paste in, and how to export your own setup as a recipe with a deployment plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why recipes",
+      "subtitle": "The same setup, every time",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Setting up a site by hand is slow, and no two sites end up the same."
+            },
+            {
+              "id": "why-2",
+              "text": "A recipe is a ready-made script that creates content types, settings, roles and sample content in one go."
+            },
+            {
+              "id": "why-3",
+              "text": "Run one to start a site, try a feature with sample content, or move a setup from a test site to a live one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The recipe catalog",
+      "subtitle": "Find a recipe and run it",
+      "clips": [
+        {
+          "id": "02-catalog",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "catalog-1",
+              "text": "Open Tools, Recipes. Every recipe has a name, tags and a description of what it creates. The CrestApps Recipes feature adds the descriptions, so you know what a recipe does before you run it."
+            },
+            {
+              "id": "catalog-2",
+              "text": "Type in the search box to find a recipe by name or tag. Here, the recipes about SQL."
+            },
+            {
+              "id": "catalog-3",
+              "text": "Click Run, and confirm. A recipe changes the site, so read the description first, and try it on a copy of the site when you are not sure. The page reports the result when the recipe is done."
+            }
+          ]
+        }
+      ],
+      "short": "catalog"
+    },
+    {
+      "id": "03",
+      "title": "The recipe editor",
+      "subtitle": "Suggestions and checks as you type",
+      "clips": [
+        {
+          "id": "03-editor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "editor-1",
+              "text": "To run a recipe you have, open Tools, Deployments, JSON Import. The editor suggests the names of the steps as you type, so you do not have to remember them."
+            },
+            {
+              "id": "editor-2",
+              "text": "It also describes each setting, and underlines a mistake before anything runs. When the recipe looks right, click Import."
+            }
+          ]
+        }
+      ],
+      "short": "editor"
+    },
+    {
+      "id": "04",
+      "title": "Export your own setup",
+      "subtitle": "A deployment plan",
+      "clips": [
+        {
+          "id": "04-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "plan-1",
+              "text": "To turn the setup of one site into a recipe for another, open Configuration, Import and Export, Deployment Plans. Add a plan, and give it a name."
+            },
+            {
+              "id": "plan-2",
+              "text": "Click Add Step. Each step is a kind of setup you can export, such as content types, settings, roles, users or templates. Add the steps you want, here all the roles."
+            },
+            {
+              "id": "plan-3",
+              "text": "Add the users step too, to carry the people of the site, then check the plan. A step can have options of its own, and a plan can have as many steps as it needs."
+            },
+            {
+              "id": "plan-4",
+              "text": "Click Execute, and choose to export the plan to a file. The file is a recipe that you can import on another site, in the JSON Import editor you just saw."
+            }
+          ]
+        }
+      ],
+      "short": "plan"
+    },
+    {
+      "id": "05",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "05-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Start every new site the same way."
+            },
+            {
+              "id": "use-2",
+              "text": "Try a feature with sample content."
+            },
+            {
+              "id": "use-3",
+              "text": "Move a setup from a test site to a live site."
+            },
+            {
+              "id": "use-4",
+              "text": "Keep a copy of a configuration you can restore."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Run a recipe from the catalog, check one you wrote in the editor, and export your own setup with a deployment plan, so the next site is ready in minutes. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

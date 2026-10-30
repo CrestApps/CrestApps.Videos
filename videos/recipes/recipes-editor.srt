@@ -1,0 +1,20 @@
+1
+00:00:03,197 --> 00:00:07,249
+To run a recipe you have, open Tools, Deployments, JSON Import.
+
+2
+00:00:07,249 --> 00:00:11,242
+The editor suggests the names of the steps as you type, so you
+
+3
+00:00:11,242 --> 00:00:13,297
+do not have to remember them.
+
+4
+00:00:14,505 --> 00:00:19,729
+It also describes each setting, and underlines a mistake before anything runs.
+
+5
+00:00:19,729 --> 00:00:22,715
+When the recipe looks right, click Import.
+

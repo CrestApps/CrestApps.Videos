@@ -1,0 +1,52 @@
+1
+00:00:03,198 --> 00:00:07,643
+To turn the setup of one site into a recipe for another, open
+
+2
+00:00:07,643 --> 00:00:11,424
+Configuration, Import and Export, Deployment Plans.
+
+3
+00:00:11,424 --> 00:00:13,878
+Add a plan, and give it a name.
+
+4
+00:00:14,329 --> 00:00:15,672
+Click Add Step.
+
+5
+00:00:15,672 --> 00:00:19,892
+Each step is a kind of setup you can export, such as content
+
+6
+00:00:19,892 --> 00:00:23,026
+types, settings, roles, users or templates.
+
+7
+00:00:23,026 --> 00:00:26,159
+Add the steps you want, here all the roles.
+
+8
+00:00:26,609 --> 00:00:31,636
+Add the users step too, to carry the people of the site, then check the plan.
+
+9
+00:00:31,636 --> 00:00:35,331
+A step can have options of its own, and a plan can have
+
+10
+00:00:35,331 --> 00:00:37,269
+as many steps as it needs.
+
+11
+00:00:37,720 --> 00:00:41,402
+Click Execute, and choose to export the plan to a file.
+
+12
+00:00:41,402 --> 00:00:45,386
+The file is a recipe that you can import on another site, in
+
+13
+00:00:45,386 --> 00:00:47,920
+the JSON Import editor you just saw.
+

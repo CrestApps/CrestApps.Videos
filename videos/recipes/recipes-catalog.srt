@@ -1,0 +1,40 @@
+1
+00:00:03,201 --> 00:00:04,820
+Open Tools, Recipes.
+
+2
+00:00:04,820 --> 00:00:09,365
+Every recipe has a name, tags and a description of what it creates.
+
+3
+00:00:09,365 --> 00:00:14,596
+The CrestApps Recipes feature adds the descriptions, so you know what a recipe
+
+4
+00:00:14,596 --> 00:00:16,401
+does before you run it.
+
+5
+00:00:16,852 --> 00:00:21,199
+Type in the search box to find a recipe by name or tag.
+
+6
+00:00:21,199 --> 00:00:23,622
+Here, the recipes about SQL.
+
+7
+00:00:24,074 --> 00:00:25,676
+Click Run, and confirm.
+
+8
+00:00:25,676 --> 00:00:29,766
+A recipe changes the site, so read the description first, and try it
+
+9
+00:00:29,766 --> 00:00:32,529
+on a copy of the site when you are not sure.
+
+10
+00:00:32,529 --> 00:00:35,734
+The page reports the result when the recipe is done.
+
