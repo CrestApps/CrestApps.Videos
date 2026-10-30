@@ -1,0 +1,88 @@
+{
+  "title": "Store Reports and Admin Dashboard Widgets: Sales, Stock and Tax | CrestApps for Orchard Core",
+  "description": "Reports answer what the store sold, to whom, and what needs doing. CrestApps has sales, product, customer, tax, refund, dispute, stock and shipping reports with a period picker and CSV, Excel and PDF export, dashboard widgets for each, and ready-made reports to copy and change in the Report Builder.\n\nIn this video:\n• Why store reports, and where each one comes from\n• Running a report: the period picker, Show and Export\n• A tour of the order, stock and shipping reports\n• Putting reports on the admin dashboard as widgets\n• Reports to adapt: the recipe and the Report Builder",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "ecommerce reports",
+    "sales report",
+    "dashboard widgets",
+    "VAT OSS",
+    "Report Builder",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why store reports"
+    },
+    {
+      "time": "0:48",
+      "title": "Reports from each part of the store"
+    },
+    {
+      "time": "1:24",
+      "title": "Run a report"
+    },
+    {
+      "time": "2:15",
+      "title": "The order, stock and shipping reports"
+    },
+    {
+      "time": "3:55",
+      "title": "Put reports on the dashboard"
+    },
+    {
+      "time": "4:58",
+      "title": "Reports to adapt"
+    },
+    {
+      "time": "5:35",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:58",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Carts and orders (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/carts-and-orders"
+    },
+    {
+      "label": "Reports (technical guide)",
+      "url": "https://orchardcore.crestapps.com/docs/modules/reports"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Reports"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/carts-and-orders.md"
+  ],
+  "length": "6:07"
+}

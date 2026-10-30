@@ -1,0 +1,239 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.129
+Reports answer what the store sold, to whom, and what needs doing.
+
+00:00:05.129 --> 00:00:09.315
+This video shows how to run and export the commerce reports, how to
+
+00:00:09.315 --> 00:00:13.960
+put them on the dashboard, and how to start your own from a ready made one.
+
+00:00:18.560 --> 00:00:22.962
+Reports answer the questions a store owner asks every week:
+
+00:00:22.962 --> 00:00:28.110
+how much did we sell, and of what, by day, by category and by country.
+
+00:00:28.860 --> 00:00:33.098
+They tell you who buys, whether they come back, and how many checkouts
+
+00:00:33.098 --> 00:00:34.380
+end in a payment.
+
+00:00:35.130 --> 00:00:37.278
+They show what needs doing:
+
+00:00:37.278 --> 00:00:42.550
+orders still to ship, stock running low, and payments disputed with a bank.
+
+00:00:43.300 --> 00:00:47.360
+You see the answer on screen, and export it when you want a file.
+
+00:00:51.560 --> 00:00:54.337
+The order reports come with Orders:
+
+00:00:54.337 --> 00:00:58.400
+sales, products, customers, tax, refunds and disputes.
+
+00:00:59.150 --> 00:01:02.774
+Inventory adds stock on hand and stock movements.
+
+00:01:02.774 --> 00:01:05.080
+Shipping adds shipping times.
+
+00:01:05.830 --> 00:01:09.378
+Digital downloads and product reviews add a report each:
+
+00:01:09.378 --> 00:01:13.440
+the links used, and the ratings and reviews waiting for approval.
+
+00:01:14.190 --> 00:01:19.296
+Subscriptions add new and expiring subscriptions and the revenue they bring.
+
+00:01:19.296 --> 00:01:22.970
+A report shows up in the menu when its feature is on.
+
+00:01:27.158 --> 00:01:31.138
+With Reports turned on, open Reports, Commerce, Sales.
+
+00:01:31.138 --> 00:01:35.384
+At the top, the date range is a drop down of presets, such
+
+00:01:35.384 --> 00:01:39.498
+as today, last month or this quarter, or your own dates.
+
+00:01:39.948 --> 00:01:42.821
+Choose Last 30 Days and click Show.
+
+00:01:42.821 --> 00:01:45.343
+The figures answer the basics:
+
+00:01:45.343 --> 00:01:52.138
+orders, items sold, the average order value, discounts, shipping, tax, refunds and the net.
+
+00:01:52.590 --> 00:01:56.233
+Scroll down for the chart, with the day by day sales.
+
+00:01:56.233 --> 00:02:02.840
+Each currency gets its own figures, because amounts in different currencies are never added together.
+
+00:02:03.291 --> 00:02:07.866
+Export gives the report as a CSV file, an Excel workbook or a
+
+00:02:07.866 --> 00:02:10.187
+PDF, laid out like the page.
+
+00:02:10.187 --> 00:02:14.351
+The Excel and PDF choices come with their own features.
+
+00:02:18.552 --> 00:02:23.666
+Sales by product shows how many of each product sold, and for how much.
+
+00:02:23.666 --> 00:02:27.452
+Sales by category shows the same for each category.
+
+00:02:29.173 --> 00:02:33.879
+Customers shows first time and returning buyers, and your top buyers.
+
+00:02:33.879 --> 00:02:38.648
+Cohorts and retention groups buyers by the month of their first order.
+
+00:02:38.648 --> 00:02:42.853
+Checkouts shows how many checkouts were paid, failed or left.
+
+00:02:47.225 --> 00:02:51.919
+Sales by country, tax on orders, and the VAT one stop shop report,
+
+00:02:51.919 --> 00:02:57.135
+which gives the figures of the European union return, by country and rate.
+
+00:03:05.256 --> 00:03:08.872
+Discounts shows what each promotion code took off.
+
+00:03:08.872 --> 00:03:11.971
+Refunds lists each refund with its reason.
+
+00:03:11.971 --> 00:03:17.396
+Disputes lists the payments a buyer disputed with their bank, open ones first.
+
+00:03:23.892 --> 00:03:28.187
+Orders to ship lists paid orders that are not shipped in full, oldest
+
+00:03:28.187 --> 00:03:30.649
+first, with the days each has waited.
+
+00:03:30.649 --> 00:03:33.112
+It is the list to start the day with.
+
+00:03:33.563 --> 00:03:38.250
+With Inventory on, Stock on hand lists every counted item, out of stock
+
+00:03:38.250 --> 00:03:43.120
+and low first, and Stock movements shows what each item received, sold and
+
+00:03:43.120 --> 00:03:46.163
+got back, and how many days its stock lasts.
+
+00:03:46.615 --> 00:03:51.454
+With Shipping on, Shipping times shows how long orders waited to ship, and
+
+00:03:51.454 --> 00:03:54.055
+how long deliveries took, by carrier.
+
+00:03:58.271 --> 00:04:02.888
+With the Admin Dashboard on, open Manage Dashboard and Add Widget.
+
+00:04:02.888 --> 00:04:07.698
+There is a ready made widget for each report, such as sales overview,
+
+00:04:07.698 --> 00:04:11.931
+top selling products, orders to ship, refunds and low stock.
+
+00:04:12.388 --> 00:04:16.503
+A Sales Overview widget has a period that moves with the clock, so
+
+00:04:16.503 --> 00:04:19.933
+last 30 days is always the 30 days up to now, a choice
+
+00:04:19.933 --> 00:04:24.048
+of figures, tables or charts, and how long it keeps what it shows,
+
+00:04:24.048 --> 00:04:26.048
+so the dashboard stays quick.
+
+00:04:28.472 --> 00:04:31.809
+Top Selling Products is a widget in the same way.
+
+00:04:31.809 --> 00:04:33.872
+Give it a title and publish.
+
+00:04:37.689 --> 00:04:40.934
+The Report widget shows any report you may view.
+
+00:04:40.934 --> 00:04:44.359
+Choose the report, and its period and what to show.
+
+00:04:50.215 --> 00:04:51.701
+Open the dashboard.
+
+00:04:51.701 --> 00:04:55.982
+Each widget shows its report, and a person sees a widget only when
+
+00:04:55.982 --> 00:04:57.825
+they may view its report.
+
+00:05:02.012 --> 00:05:05.372
+To build your own, start from a ready made one.
+
+00:05:05.372 --> 00:05:07.908
+Under Tools, Recipes, run Reports:
+
+00:05:07.908 --> 00:05:09.746
+store reports to adapt.
+
+00:05:09.746 --> 00:05:15.262
+It turns on the Report Builder and adds the order reports as reports of your own.
+
+00:05:15.712 --> 00:05:17.768
+Open Reports, Report Builder.
+
+00:05:17.768 --> 00:05:22.292
+The store reports are in the Store group, and they are yours to change.
+
+00:05:22.766 --> 00:05:27.819
+Run one, or choose Edit to change what it shows, and save it as your own.
+
+00:05:27.819 --> 00:05:34.406
+The inventory, reviews, downloads, shipping and subscriptions features have recipes of their own.
+
+00:05:38.606 --> 00:05:39.934
+A weekly look:
+
+00:05:39.934 --> 00:05:43.186
+sales and orders to ship, on the dashboard.
+
+00:05:43.936 --> 00:05:45.330
+The tax return:
+
+00:05:45.330 --> 00:05:48.116
+the one stop shop report, as a file.
+
+00:05:48.866 --> 00:05:50.247
+Your own report:
+
+00:05:50.247 --> 00:05:52.946
+copy a ready made one, and change it.
+
+00:05:53.696 --> 00:05:55.448
+Your accountant:
+
+00:05:55.448 --> 00:05:57.756
+export to Excel or PDF.
+
+00:05:59.756 --> 00:06:04.385
+Run, export, put them on the dashboard, and adapt your own.
+
+00:06:04.385 --> 00:06:06.236
+Thanks for watching.
+
