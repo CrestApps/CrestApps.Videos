@@ -1,0 +1,185 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.291
+A till app is what your staff use at the counter.
+
+00:00:04.291 --> 00:00:08.419
+This video follows one day at the till, step by step, and shows
+
+00:00:08.419 --> 00:00:11.830
+what each step leaves for the manager in the admin:
+
+00:00:11.830 --> 00:00:15.420
+the shift, the sales, the cash drawer and the returns.
+
+00:00:20.020 --> 00:00:25.113
+The till is an app that signs staff in and sells through the commerce API.
+
+00:00:25.113 --> 00:00:30.460
+The same products, prices, coupons, gift cards and stock as your online store.
+
+00:00:31.210 --> 00:00:33.799
+No till app ships in this solution.
+
+00:00:33.799 --> 00:00:38.599
+Your developers, or a partner, build one, or adapt one, using the API.
+
+00:00:38.599 --> 00:00:43.020
+What the site gives is the registers, the shifts, and the rules.
+
+00:00:43.770 --> 00:00:48.394
+Every shift, sale and cash movement says who made it, because staff sign
+
+00:00:48.394 --> 00:00:50.350
+in with their own accounts.
+
+00:00:54.550 --> 00:00:55.169
+One.
+
+00:00:55.169 --> 00:00:59.691
+Staff pick a register and open a shift, counting the opening float:
+
+00:00:59.691 --> 00:01:02.230
+the cash that starts in the drawer.
+
+00:01:02.980 --> 00:01:03.562
+Two.
+
+00:01:03.562 --> 00:01:05.073
+They ring up a sale:
+
+00:01:05.073 --> 00:01:09.609
+scan or search for products, change quantities, add a discount code or a
+
+00:01:09.609 --> 00:01:13.040
+gift card, and choose the customer, if they want one.
+
+00:01:13.790 --> 00:01:14.540
+Three.
+
+00:01:14.540 --> 00:01:16.290
+They take the payment:
+
+00:01:16.290 --> 00:01:21.229
+cash, with change given, a card on the counter terminal with its approval
+
+00:01:21.229 --> 00:01:25.230
+code, a card on a Stripe reader, a gift card or a balance,
+
+00:01:25.230 --> 00:01:26.730
+or a mix of these.
+
+00:01:27.480 --> 00:01:28.226
+Four.
+
+00:01:28.226 --> 00:01:32.093
+The receipt is printed, or emailed to the customer.
+
+00:01:32.093 --> 00:01:32.839
+Five.
+
+00:01:32.839 --> 00:01:35.145
+Cash is put in or taken out:
+
+00:01:35.145 --> 00:01:38.740
+change, banking at noon, and a reason for each.
+
+00:01:39.490 --> 00:01:40.148
+Six.
+
+00:01:40.148 --> 00:01:42.518
+Returns are taken at the till:
+
+00:01:42.518 --> 00:01:46.599
+choose the sale, the items, and how the money goes back.
+
+00:01:46.599 --> 00:01:47.389
+Seven.
+
+00:01:47.389 --> 00:01:51.470
+At closing, staff count the drawer, and close the shift.
+
+00:01:55.676 --> 00:01:59.828
+In the admin, Commerce, Registers lists your registers:
+
+00:01:59.828 --> 00:02:04.456
+each with its store address, whether it is on, and its shifts.
+
+00:02:04.909 --> 00:02:08.909
+Under Shifts, the shift open at the till right now is listed.
+
+00:02:08.909 --> 00:02:09.745
+Open it:
+
+00:02:09.745 --> 00:02:14.163
+it shows the sales so far, the opening float the shift started with,
+
+00:02:14.163 --> 00:02:17.029
+and the cash that should be in the drawer.
+
+00:02:21.218 --> 00:02:23.549
+A closed shift shows its sales:
+
+00:02:23.549 --> 00:02:27.769
+how many, the total, the cash kept, what was paid by card, by
+
+00:02:27.769 --> 00:02:30.918
+gift card or balance, and what was refunded.
+
+00:02:31.371 --> 00:02:32.903
+And its cash drawer.
+
+00:02:32.903 --> 00:02:37.087
+The opening float, plus the cash put in, less what was taken out,
+
+00:02:37.087 --> 00:02:40.151
+gives the cash that should be there, Expected.
+
+00:02:40.151 --> 00:02:43.628
+What staff counted is next to it, and the Difference.
+
+00:02:43.628 --> 00:02:48.991
+Each cash movement is listed with who made it, and why, and the shift's closing note.
+
+00:02:53.197 --> 00:02:57.324
+Every register sale is a paid order, marked with its register.
+
+00:02:57.324 --> 00:03:02.059
+It appears in Commerce, Orders like any other order, with its lines, tax
+
+00:03:02.059 --> 00:03:05.337
+and payments, and the customer if there was one.
+
+00:03:05.787 --> 00:03:09.600
+A return at the till shows as a refund on the order, in
+
+00:03:09.600 --> 00:03:13.100
+the same shift, so the drawer and the books agree.
+
+00:03:13.100 --> 00:03:19.037
+Under Orders, a sale that was returned is marked Refunded, and its page shows the refund.
+
+00:03:22.837 --> 00:03:24.721
+A shop with a counter:
+
+00:03:24.721 --> 00:03:28.017
+online and in-store sales, one stock count.
+
+00:03:28.767 --> 00:03:30.356
+A market stall:
+
+00:03:30.356 --> 00:03:33.307
+a tablet, cash and a card reader.
+
+00:03:34.057 --> 00:03:35.584
+Several stores:
+
+00:03:35.584 --> 00:03:39.217
+a register for each, and one set of reports.
+
+00:03:41.217 --> 00:03:45.817
+With registers and shifts, a day at the till adds up, to the cent.
+
+00:03:45.817 --> 00:03:47.477
+Thanks for watching.
+

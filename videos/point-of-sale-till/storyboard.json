@@ -1,0 +1,190 @@
+{
+  "title": "Point of sale: a day at the till",
+  "output": "point-of-sale-till",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "A day at the till",
+      "subtitle": "Point of sale, step by step",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A till app is what your staff use at the counter. This video follows one day at the till, step by step, and shows what each step leaves for the manager in the admin: the shift, the sales, the cash drawer and the returns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "The till app",
+      "subtitle": "What the site gives you",
+      "clips": [
+        {
+          "id": "01-app",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "app-1",
+              "text": "The till is an app that signs staff in and sells through the commerce API. The same products, prices, coupons, gift cards and stock as your online store."
+            },
+            {
+              "id": "app-2",
+              "text": "No till app ships in this solution. Your developers, or a partner, build one, or adapt one, using the API. What the site gives is the registers, the shifts, and the rules."
+            },
+            {
+              "id": "app-3",
+              "text": "Every shift, sale and cash movement says who made it, because staff sign in with their own accounts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "A day at the till",
+      "subtitle": "Open, sell, count",
+      "clips": [
+        {
+          "id": "02-day",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "day-1",
+              "text": "One. Staff pick a register and open a shift, counting the opening float: the cash that starts in the drawer."
+            },
+            {
+              "id": "day-2",
+              "text": "Two. They ring up a sale: scan or search for products, change quantities, add a discount code or a gift card, and choose the customer, if they want one."
+            },
+            {
+              "id": "day-3",
+              "text": "Three. They take the payment: cash, with change given, a card on the counter terminal with its approval code, a card on a Stripe reader, a gift card or a balance, or a mix of these."
+            },
+            {
+              "id": "day-4",
+              "text": "Four. The receipt is printed, or emailed to the customer. Five. Cash is put in or taken out: change, banking at noon, and a reason for each."
+            },
+            {
+              "id": "day-5",
+              "text": "Six. Returns are taken at the till: choose the sale, the items, and how the money goes back. Seven. At closing, staff count the drawer, and close the shift."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The register and the open shift",
+      "subtitle": "What the manager sees during the day",
+      "clips": [
+        {
+          "id": "03-open",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "open-1",
+              "text": "In the admin, Commerce, Registers lists your registers: each with its store address, whether it is on, and its shifts."
+            },
+            {
+              "id": "open-2",
+              "text": "Under Shifts, the shift open at the till right now is listed. Open it: it shows the sales so far, the opening float the shift started with, and the cash that should be in the drawer."
+            }
+          ]
+        }
+      ],
+      "short": "open"
+    },
+    {
+      "id": "04",
+      "title": "Closing the shift",
+      "subtitle": "Counted against expected",
+      "clips": [
+        {
+          "id": "04-closed",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "closed-1",
+              "text": "A closed shift shows its sales: how many, the total, the cash kept, what was paid by card, by gift card or balance, and what was refunded."
+            },
+            {
+              "id": "closed-2",
+              "text": "And its cash drawer. The opening float, plus the cash put in, less what was taken out, gives the cash that should be there, Expected. What staff counted is next to it, and the Difference. Each cash movement is listed with who made it, and why, and the shift's closing note."
+            }
+          ]
+        }
+      ],
+      "short": "closed"
+    },
+    {
+      "id": "05",
+      "title": "The sales and the returns",
+      "subtitle": "Orders from the till",
+      "clips": [
+        {
+          "id": "05-sales",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sales-1",
+              "text": "Every register sale is a paid order, marked with its register. It appears in Commerce, Orders like any other order, with its lines, tax and payments, and the customer if there was one."
+            },
+            {
+              "id": "sales-2",
+              "text": "A return at the till shows as a refund on the order, in the same shift, so the drawer and the books agree. Under Orders, a sale that was returned is marked Refunded, and its page shows the refund."
+            }
+          ]
+        }
+      ],
+      "short": "sales"
+    },
+    {
+      "id": "06",
+      "title": "Use cases",
+      "subtitle": "How shops put it to work",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop with a counter: online and in-store sales, one stock count."
+            },
+            {
+              "id": "use-2",
+              "text": "A market stall: a tablet, cash and a card reader."
+            },
+            {
+              "id": "use-3",
+              "text": "Several stores: a register for each, and one set of reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With registers and shifts, a day at the till adds up, to the cent. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
