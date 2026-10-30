@@ -1,0 +1,85 @@
+{
+  "title": "Use case: Turn Leads into Deals | CrestApps for Orchard Core",
+  "description": "A purchased list, a trade-show scan or a web form gives you prospects, not customers. This use case shows how to keep them apart as leads, call and text them, convert the ones that qualify, and follow the deals. It is a recap, and it points to the videos that show each screen.\n\nIn this video:\n• Who it is for and what you get\n• Before you start\n• Set it up\n• Work the leads\n• Check that it works\n• Tips",
+  "hashtags": [
+    "OrchardCore",
+    "CRM",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "use case",
+    "leads",
+    "CRM",
+    "sales pipeline",
+    "opportunities",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Who it is for and what you get"
+    },
+    {
+      "time": "1:03",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:38",
+      "title": "Set it up"
+    },
+    {
+      "time": "2:30",
+      "title": "Work the leads"
+    },
+    {
+      "time": "3:28",
+      "title": "Check that it works"
+    },
+    {
+      "time": "3:58",
+      "title": "Tips"
+    },
+    {
+      "time": "4:32",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Turn Leads into Deals",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/leads-to-deals"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/crm"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Crm"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/leads-to-deals.md"
+  ],
+  "length": "4:49"
+}
