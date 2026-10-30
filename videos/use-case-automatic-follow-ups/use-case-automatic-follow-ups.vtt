@@ -1,0 +1,173 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:06.576
+When a customer goes quiet in an automated text conversation, the conversation dies.
+
+00:00:06.576 --> 00:00:12.277
+A cadence keeps it alive, with follow-ups that go out only during your business hours.
+
+00:00:12.277 --> 00:00:14.941
+This use case shows how to set it up.
+
+00:00:14.941 --> 00:00:19.340
+It is a recap, and it points to the videos that show each screen.
+
+00:00:23.940 --> 00:00:27.510
+This is for managers who run automated text outreach.
+
+00:00:27.510 --> 00:00:31.140
+The AI texts your contacts and holds the conversation.
+
+00:00:31.890 --> 00:00:37.125
+When a customer stops replying, a cadence sends the next follow-up after the
+
+00:00:37.125 --> 00:00:41.850
+silence you chose, for example after an hour, and again after a day.
+
+00:00:41.850 --> 00:00:47.660
+Each follow-up is your own fixed text, or is written by the AI from the conversation.
+
+00:00:48.410 --> 00:00:52.978
+Follow-ups go out only while your business hours calendar is open, in the
+
+00:00:52.978 --> 00:00:54.770
+customer's own time zone.
+
+00:00:55.520 --> 00:01:00.180
+A customer who replies, or texts STOP, is never nudged again.
+
+00:01:04.380 --> 00:01:11.273
+Cadences follow up automated text conversations, the ones the AI starts from an automatic activity load.
+
+00:01:11.273 --> 00:01:17.100
+They do not send messages in conversations that agents have in the messaging workspace.
+
+00:01:17.850 --> 00:01:22.650
+You need an SMS provider and a texting number, an AI provider connection,
+
+00:01:22.650 --> 00:01:28.483
+and the feature SMS Omnichannel Automation, which also turns on Omnichannel Management and
+
+00:01:28.483 --> 00:01:30.670
+Contact Center Business Hours.
+
+00:01:31.420 --> 00:01:38.599
+The manager needs Manage cadences, Manage business hours, Manage activity batches, Manage subject
+
+00:01:38.599 --> 00:01:42.990
+flows and Manage dispositions, and access to AI profiles.
+
+00:01:47.190 --> 00:01:53.286
+First, create the AI profile under Artificial Intelligence, Profiles, with a text messaging
+
+00:01:53.286 --> 00:01:56.492
+starting point such as Qualify leads by text.
+
+00:01:56.492 --> 00:02:00.200
+Make sure Start the conversation automatically is on.
+
+00:02:00.950 --> 00:02:06.241
+Second, create an outbound subject, its dispositions, and a subject flow.
+
+00:02:06.241 --> 00:02:11.264
+On each flow action, fill in when to choose this disposition, so that
+
+00:02:11.264 --> 00:02:14.010
+the AI knows which outcome to pick.
+
+00:02:14.760 --> 00:02:21.518
+Third, the number the AI sends from must be on Omnichannel Addresses with Text messages ticked.
+
+00:02:21.518 --> 00:02:27.340
+Fourth, create the business hours calendar that says when follow-ups may be sent.
+
+00:02:31.540 --> 00:02:36.767
+Under Cadences, add a step for each follow-up, with how many minutes of
+
+00:02:36.767 --> 00:02:41.450
+silence come first, and a defined message or AI-generated text.
+
+00:02:42.200 --> 00:02:47.689
+Create an automatic activity load with the subject, the campaign, the AI profile,
+
+00:02:47.689 --> 00:02:50.781
+SMS as the channel and your texting number.
+
+00:02:50.781 --> 00:02:56.208
+Under the AI options, pick the cadence as Re-engagement, pick the business hours
+
+00:02:56.208 --> 00:02:58.795
+calendar, and choose a reply delay.
+
+00:02:58.795 --> 00:03:00.940
+Then choose Load activities.
+
+00:03:01.690 --> 00:03:06.546
+Each finished conversation is completed with a disposition and a summary.
+
+00:03:06.546 --> 00:03:10.910
+Open Review AI conversation on the contact's activity to read it.
+
+00:03:15.110 --> 00:03:19.063
+Make a test contact with your own mobile number, and load a small
+
+00:03:19.063 --> 00:03:24.296
+automatic batch for just that contact, with a cadence whose first step is a few minutes.
+
+00:03:24.296 --> 00:03:28.360
+Within about five minutes, your phone receives the opening message.
+
+00:03:29.110 --> 00:03:30.300
+Do not reply.
+
+00:03:30.300 --> 00:03:35.810
+After the first step's minutes, while the calendar is open, the follow-up arrives.
+
+00:03:36.560 --> 00:03:38.392
+Reply to the follow-up.
+
+00:03:38.392 --> 00:03:43.129
+The AI answers, and because you replied, no more follow-ups are sent.
+
+00:03:43.129 --> 00:03:46.729
+Load another test batch for yourself and text STOP:
+
+00:03:46.729 --> 00:03:48.750
+no follow-up is ever sent.
+
+00:03:52.950 --> 00:03:57.296
+The number of steps is the most follow-ups a customer will ever get.
+
+00:03:57.296 --> 00:04:02.170
+After the last step, the conversation ends on its normal no-response timeout.
+
+00:04:02.920 --> 00:04:07.636
+Each step's minutes are counted from the last message the automation sent, not
+
+00:04:07.636 --> 00:04:09.937
+from the start of the conversation.
+
+00:04:09.937 --> 00:04:14.260
+The cadence is copied onto each activity when the load runs, so editing
+
+00:04:14.260 --> 00:04:17.460
+it later does not change conversations in progress.
+
+00:04:18.210 --> 00:04:22.879
+Use AI guidance on an AI-generated step to steer its tone, for example
+
+00:04:22.879 --> 00:04:26.320
+keep it short and friendly, and offer a call back.
+
+00:04:28.320 --> 00:04:32.132
+A cadence, your business hours, and an automatic load:
+
+00:04:32.132 --> 00:04:37.405
+follow-ups that go out at the right time, and stop when the customer answers.
+
+00:04:37.405 --> 00:04:41.788
+Watch the videos on automated SMS and cadences for each screen.
+
+00:04:41.788 --> 00:04:43.440
+Thanks for watching.
+

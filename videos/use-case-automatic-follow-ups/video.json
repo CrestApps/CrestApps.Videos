@@ -1,0 +1,85 @@
+{
+  "title": "Use case: Follow Up Automatically | CrestApps for Orchard Core",
+  "description": "When a customer goes quiet in an automated text conversation, the conversation dies. A cadence keeps it alive, with follow-ups that go out only during your business hours. This use case shows how to set it up. It is a recap, and it points to the videos that show each screen.\n\nIn this video:\n• Who it is for and what you get\n• Before you start\n• Set it up\n• Build the cadence, and load\n• Check that it works\n• Tips",
+  "hashtags": [
+    "OrchardCore",
+    "CRM",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "use case",
+    "cadence",
+    "follow-up",
+    "SMS automation",
+    "business hours",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Who it is for and what you get"
+    },
+    {
+      "time": "1:01",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:44",
+      "title": "Set it up"
+    },
+    {
+      "time": "2:28",
+      "title": "Build the cadence, and load"
+    },
+    {
+      "time": "3:11",
+      "title": "Check that it works"
+    },
+    {
+      "time": "3:49",
+      "title": "Tips"
+    },
+    {
+      "time": "4:27",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Follow Up Automatically",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/automatic-follow-ups"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/cadences"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Sms"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/automatic-follow-ups.md"
+  ],
+  "length": "4:45"
+}
