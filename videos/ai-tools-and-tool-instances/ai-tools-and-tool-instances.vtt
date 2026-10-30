@@ -1,0 +1,257 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.212
+Out of the box, an AI assistant can only talk.
+
+00:00:04.212 --> 00:00:05.632
+Tools let it act:
+
+00:00:05.632 --> 00:00:09.585
+look up an order, search your documentation, list content.
+
+00:00:09.585 --> 00:00:14.155
+This video shows the built-in tools, who is allowed to use them, and
+
+00:00:14.155 --> 00:00:19.220
+how you create your own tool instances, without code, from ready-made kinds.
+
+00:00:23.820 --> 00:00:26.427
+A tool is an action the AI can take.
+
+00:00:26.427 --> 00:00:30.524
+The AI decides by itself when to use one, and you give tools
+
+00:00:30.524 --> 00:00:34.310
+to an assistant on the Capabilities tab of its profile.
+
+00:00:35.060 --> 00:00:39.192
+Built-in tools come with the Orchard Core AI Agent feature.
+
+00:00:39.192 --> 00:00:40.908
+They act on the site:
+
+00:00:40.908 --> 00:00:45.930
+they search and change content, manage features, look up users, and more.
+
+00:00:46.680 --> 00:00:50.936
+Tool instances are tools you set up yourself, such as a lookup in
+
+00:00:50.936 --> 00:00:54.473
+your order system, or a search of your documentation.
+
+00:00:54.473 --> 00:00:58.130
+Each one becomes its own tool, with its own permission.
+
+00:01:02.321 --> 00:01:05.147
+Open the profile and its Capabilities tab.
+
+00:01:05.147 --> 00:01:09.327
+The Tools section lists the actions the AI can take on this site,
+
+00:01:09.327 --> 00:01:14.919
+grouped by category, such as Content Management, Features Management or Users Management.
+
+00:01:14.919 --> 00:01:18.451
+Some only appear when the matching site feature is on.
+
+00:01:18.902 --> 00:01:21.385
+Search tools finds a tool by name.
+
+00:01:21.385 --> 00:01:24.116
+Tick a tool to give it to the profile.
+
+00:01:24.116 --> 00:01:28.896
+Select All Tools ticks every tool, and each category has its own Select
+
+00:01:28.896 --> 00:01:30.882
+All, but choose with care.
+
+00:01:31.333 --> 00:01:32.716
+Tools really act.
+
+00:01:32.716 --> 00:01:37.409
+A profile with Delete Content Item can delete content when someone asks.
+
+00:01:37.409 --> 00:01:42.221
+Give a public website assistant no tool that changes anything, and give an
+
+00:01:42.221 --> 00:01:45.349
+admin assistant only the tools its users need.
+
+00:01:45.349 --> 00:01:46.673
+Then click Save.
+
+00:01:50.873 --> 00:01:55.083
+Using a profile and using its tools are two separate permissions.
+
+00:01:55.083 --> 00:01:58.938
+A person can use a tool only when their role has Access any
+
+00:01:58.938 --> 00:02:01.963
+AI tool, or the permission for that one tool.
+
+00:02:02.713 --> 00:02:06.469
+A tool that the person may not use is quietly left out, and
+
+00:02:06.469 --> 00:02:08.722
+the assistant answers without it.
+
+00:02:08.722 --> 00:02:12.363
+That often looks like a vague answer, or I can't do that.
+
+00:02:13.113 --> 00:02:19.145
+Access any AI tool is powerful and is given only to administrators by default.
+
+00:02:19.145 --> 00:02:22.233
+Prefer to grant the individual tools.
+
+00:02:26.429 --> 00:02:30.093
+Open Access Control, Roles, and edit a role.
+
+00:02:30.093 --> 00:02:35.077
+In the AI section, Access any AI tool opens every tool, and it
+
+00:02:35.077 --> 00:02:37.569
+is marked Security Critical.
+
+00:02:38.026 --> 00:02:42.528
+Below it, each tool has its own permission, Access AI tool and the
+
+00:02:42.528 --> 00:02:43.966
+name of the tool.
+
+00:02:43.966 --> 00:02:49.906
+Tick only the tools that role needs, and every tool instance you create appears here too.
+
+00:02:54.106 --> 00:02:59.475
+Open Artificial Intelligence, Tool Instances, and click Add Tool Instance.
+
+00:02:59.475 --> 00:03:03.166
+Available Sources lists the kinds you can create:
+
+00:03:03.166 --> 00:03:08.870
+an HTTP API Request, three kinds of documentation search, and a website search.
+
+00:03:08.870 --> 00:03:13.836
+A data source search appears when the AI Data Sources feature is on.
+
+00:03:14.287 --> 00:03:19.812
+Click Add on HTTP API Request, to call a web service such as your order system.
+
+00:03:19.812 --> 00:03:24.427
+Give it a Name, which the AI turns into the tool's function name,
+
+00:03:24.427 --> 00:03:26.767
+so it cannot be changed later.
+
+00:03:27.223 --> 00:03:31.649
+The Description tells the AI what the tool is for and when to use it.
+
+00:03:31.649 --> 00:03:36.960
+Be specific, for example, looks up the status of a customer's order by order number.
+
+00:03:36.960 --> 00:03:41.621
+When there are several instances of the same kind, the description is the
+
+00:03:41.621 --> 00:03:43.923
+only way the AI tells them apart.
+
+00:03:44.378 --> 00:03:46.921
+Fill in the fields of the kind:
+
+00:03:46.921 --> 00:03:53.586
+the Base URL, the HTTP method, a timeout, and the Authentication type with its credentials.
+
+00:03:53.586 --> 00:03:56.404
+Your technical team provides these.
+
+00:03:56.404 --> 00:04:01.558
+A secret such as an API key is stored securely and never shown again.
+
+00:04:02.012 --> 00:04:03.112
+Click Save.
+
+00:04:03.112 --> 00:04:07.962
+The instance now appears in the list, ready to be given to a profile.
+
+00:04:12.162 --> 00:04:16.588
+Open the Capabilities tab of a profile, a profile template or a chat
+
+00:04:16.588 --> 00:04:19.159
+interaction, and find Tool Instances.
+
+00:04:19.159 --> 00:04:21.552
+Tick the instance, and click Save.
+
+00:04:21.552 --> 00:04:24.422
+People also need the permission to use it.
+
+00:04:28.622 --> 00:04:33.993
+HTTP API Request calls a web service, such as an order or booking system.
+
+00:04:33.993 --> 00:04:37.256
+Documentation search comes in three kinds:
+
+00:04:37.256 --> 00:04:42.762
+from a site's sitemap, from a search index file, or from Algolia DocSearch.
+
+00:04:43.512 --> 00:04:48.025
+Website search uses a site's own live search, such as a WordPress site,
+
+00:04:48.025 --> 00:04:50.018
+and only needs the Base URL.
+
+00:04:50.018 --> 00:04:54.354
+Data source search lets the AI search one of your data sources, only
+
+00:04:54.354 --> 00:04:55.702
+when it needs to.
+
+00:04:56.452 --> 00:05:01.152
+A data source search cannot force the AI to answer only from your data.
+
+00:05:01.152 --> 00:05:05.852
+When answers must come from your content, attach the data source on the
+
+00:05:05.852 --> 00:05:11.712
+Knowledge tab of the profile, and turn on Restrict answers to retrieved data only instead.
+
+00:05:12.462 --> 00:05:17.170
+With the MCP server feature on, you can also share tools and tool
+
+00:05:17.170 --> 00:05:19.623
+instances with outside AI apps.
+
+00:05:19.623 --> 00:05:25.922
+Nothing is shared until you pick it, under Settings, Artificial Intelligence, MCP Server.
+
+00:05:30.122 --> 00:05:34.387
+A shop gives its assistant an order lookup instance, so customers can ask
+
+00:05:34.387 --> 00:05:38.112
+where their order is, and the assistant calls the order system.
+
+00:05:38.862 --> 00:05:44.017
+A software company gives its support assistant a documentation search, so answers come
+
+00:05:44.017 --> 00:05:45.922
+from the public help center.
+
+00:05:46.672 --> 00:05:51.271
+An administrator gives an admin assistant only the tools to list content and
+
+00:05:51.271 --> 00:05:54.972
+check features, and grants those tools to the editors' role.
+
+00:05:56.972 --> 00:05:58.924
+Tools let an assistant act.
+
+00:05:58.924 --> 00:06:03.834
+Choose them with care, grant them with the right permissions, and create your
+
+00:06:03.834 --> 00:06:06.614
+own tool instances from ready-made kinds.
+
+00:06:06.614 --> 00:06:08.152
+Thanks for watching.
+

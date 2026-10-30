@@ -1,0 +1,246 @@
+{
+  "title": "AI Tools and Tool Instances",
+  "output": "ai-tools-and-tool-instances",
+  "spoken": {
+    "AI": "A.I.",
+    "API": "A.P.I.",
+    "URL": "U.R.L.",
+    "MCP": "M.C.P."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Tools and Tool Instances",
+      "subtitle": "Let an assistant act, not only talk",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Out of the box, an AI assistant can only talk. Tools let it act: look up an order, search your documentation, list content. This video shows the built-in tools, who is allowed to use them, and how you create your own tool instances, without code, from ready-made kinds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What a tool is",
+      "subtitle": "Built-in tools, tool instances, permissions",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "A tool is an action the AI can take. The AI decides by itself when to use one, and you give tools to an assistant on the Capabilities tab of its profile."
+            },
+            {
+              "id": "what-2",
+              "text": "Built-in tools come with the Orchard Core AI Agent feature. They act on the site: they search and change content, manage features, look up users, and more."
+            },
+            {
+              "id": "what-3",
+              "text": "Tool instances are tools you set up yourself, such as a lookup in your order system, or a search of your documentation. Each one becomes its own tool, with its own permission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Give a profile its tools",
+      "subtitle": "The Capabilities tab",
+      "clips": [
+        {
+          "id": "02-tools",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tol-1",
+              "text": "Open the profile and its Capabilities tab. The Tools section lists the actions the AI can take on this site, grouped by category, such as Content Management, Features Management or Users Management. Some only appear when the matching site feature is on."
+            },
+            {
+              "id": "tol-2",
+              "text": "Search tools finds a tool by name. Tick a tool to give it to the profile. Select All Tools ticks every tool, and each category has its own Select All, but choose with care."
+            },
+            {
+              "id": "tol-3",
+              "text": "Tools really act. A profile with Delete Content Item can delete content when someone asks. Give a public website assistant no tool that changes anything, and give an admin assistant only the tools its users need. Then click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Who can use a tool",
+      "subtitle": "Two separate permissions",
+      "clips": [
+        {
+          "id": "03-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "Using a profile and using its tools are two separate permissions. A person can use a tool only when their role has Access any AI tool, or the permission for that one tool."
+            },
+            {
+              "id": "who-2",
+              "text": "A tool that the person may not use is quietly left out, and the assistant answers without it. That often looks like a vague answer, or I can't do that."
+            },
+            {
+              "id": "who-3",
+              "text": "Access any AI tool is powerful and is given only to administrators by default. Prefer to grant the individual tools."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Grant the permissions",
+      "subtitle": "Access Control, Roles",
+      "clips": [
+        {
+          "id": "04-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rol-1",
+              "text": "Open Access Control, Roles, and edit a role. In the AI section, Access any AI tool opens every tool, and it is marked Security Critical."
+            },
+            {
+              "id": "rol-2",
+              "text": "Below it, each tool has its own permission, Access AI tool and the name of the tool. Tick only the tools that role needs, and every tool instance you create appears here too."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Create a tool instance",
+      "subtitle": "Artificial Intelligence, Tool Instances",
+      "clips": [
+        {
+          "id": "05-instance",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ins-1",
+              "text": "Open Artificial Intelligence, Tool Instances, and click Add Tool Instance. Available Sources lists the kinds you can create: an HTTP API Request, three kinds of documentation search, and a website search. A data source search appears when the AI Data Sources feature is on."
+            },
+            {
+              "id": "ins-2",
+              "text": "Click Add on HTTP API Request, to call a web service such as your order system. Give it a Name, which the AI turns into the tool's function name, so it cannot be changed later."
+            },
+            {
+              "id": "ins-3",
+              "text": "The Description tells the AI what the tool is for and when to use it. Be specific, for example, looks up the status of a customer's order by order number. When there are several instances of the same kind, the description is the only way the AI tells them apart."
+            },
+            {
+              "id": "ins-4",
+              "text": "Fill in the fields of the kind: the Base URL, the HTTP method, a timeout, and the Authentication type with its credentials. Your technical team provides these. A secret such as an API key is stored securely and never shown again."
+            },
+            {
+              "id": "ins-5",
+              "text": "Click Save. The instance now appears in the list, ready to be given to a profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Use a tool instance",
+      "subtitle": "Tick it on the Capabilities tab",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "usi-1",
+              "text": "Open the Capabilities tab of a profile, a profile template or a chat interaction, and find Tool Instances. Tick the instance, and click Save. People also need the permission to use it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "The kinds of tool instances",
+      "subtitle": "Choose the one that fits",
+      "clips": [
+        {
+          "id": "07-kinds",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kin-1",
+              "text": "HTTP API Request calls a web service, such as an order or booking system. Documentation search comes in three kinds: from a site's sitemap, from a search index file, or from Algolia DocSearch."
+            },
+            {
+              "id": "kin-2",
+              "text": "Website search uses a site's own live search, such as a WordPress site, and only needs the Base URL. Data source search lets the AI search one of your data sources, only when it needs to."
+            },
+            {
+              "id": "kin-3",
+              "text": "A data source search cannot force the AI to answer only from your data. When answers must come from your content, attach the data source on the Knowledge tab of the profile, and turn on Restrict answers to retrieved data only instead."
+            },
+            {
+              "id": "kin-4",
+              "text": "With the MCP server feature on, you can also share tools and tool instances with outside AI apps. Nothing is shared until you pick it, under Settings, Artificial Intelligence, MCP Server."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Where tools help",
+      "clips": [
+        {
+          "id": "08-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop gives its assistant an order lookup instance, so customers can ask where their order is, and the assistant calls the order system."
+            },
+            {
+              "id": "use-2",
+              "text": "A software company gives its support assistant a documentation search, so answers come from the public help center."
+            },
+            {
+              "id": "use-3",
+              "text": "An administrator gives an admin assistant only the tools to list content and check features, and grants those tools to the editors' role."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Tools let an assistant act. Choose them with care, grant them with the right permissions, and create your own tool instances from ready-made kinds. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

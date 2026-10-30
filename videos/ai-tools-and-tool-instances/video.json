@@ -1,0 +1,91 @@
+{
+  "title": "AI Tools and Tool Instances: Let an Assistant Take Action | CrestApps for Orchard Core",
+  "description": "Out of the box, an AI assistant can only talk. Tools let it act: look up an order, search your documentation, list content. This video shows the built-in tools of CrestApps for Orchard Core, who is allowed to use them, and how you create your own tool instances, without code, from ready-made kinds.\n\nIn this video:\n• What a tool is: built-in tools, tool instances, permissions\n• Giving a profile its tools on the Capabilities tab\n• The two permissions: Access any AI tool, and Access AI tool for one tool\n• Creating an HTTP API Request tool instance\n• Using a tool instance in a profile\n• The kinds of tool instances, and sharing tools with other AI apps\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI tools",
+    "tool instances",
+    "AI agent",
+    "function calling",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "What a tool is"
+    },
+    {
+      "time": "0:59",
+      "title": "Give a profile its tools"
+    },
+    {
+      "time": "1:47",
+      "title": "Who can use a tool"
+    },
+    {
+      "time": "2:23",
+      "title": "Grant the permissions"
+    },
+    {
+      "time": "2:50",
+      "title": "Create a tool instance"
+    },
+    {
+      "time": "4:09",
+      "title": "Use a tool instance"
+    },
+    {
+      "time": "4:25",
+      "title": "The kinds of tool instances"
+    },
+    {
+      "time": "5:26",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:56",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Tools and agents",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/tools-and-agents"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/tool-instances"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.ToolInstances"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/tools-and-agents.md"
+  ],
+  "length": "6:10"
+}
