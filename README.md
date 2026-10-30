@@ -50,7 +50,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Agent Offers, Calls and Wrap-Up in the Contact Center](videos/contact-center-agent-calls) | 4:52 | [https://youtu.be/9wSR9ldcpCs](https://youtu.be/9wSR9ldcpCs) | CrestApps/CrestApps.OrchardCore |
 | [Agent States: Reason Codes for Lunch, Meetings and Training](videos/contact-center-agent-states) | 3:48 | [https://youtu.be/Mc3LBWBQAbU](https://youtu.be/Mc3LBWBQAbU) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Agent Walkthroughs: Calls, Messages and Activities](videos/contact-center-agent-walkthroughs) | 13:57 | [https://youtu.be/B6T-s_80exw](https://youtu.be/B6T-s_80exw) | CrestApps/CrestApps.OrchardCore |
-| [The Agent Workspace: Sign In, Presence and the Agent Bar](videos/contact-center-agent-workspace) | 4:18 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [The Agent Workspace: Sign In, Presence and the Agent Bar](videos/contact-center-agent-workspace) | 4:18 | [https://youtu.be/DO8Vd2rmUxc](https://youtu.be/DO8Vd2rmUxc) | CrestApps/CrestApps.OrchardCore |
 | [AI Outbound Calls: Let an AI Voice Agent Call Your Contacts](videos/contact-center-ai-outbound-calls) | 6:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Voice Agent for Inbound Calls: Answer Your Phone with AI](videos/contact-center-ai-voice-agent-inbound) | 6:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Business Hours Calendars: Define When You Are Open](videos/contact-center-business-hours) | 3:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
