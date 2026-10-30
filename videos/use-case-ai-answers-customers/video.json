@@ -1,0 +1,85 @@
+{
+  "title": "Use case: Let the AI Answer Your Customers | CrestApps for Orchard Core",
+  "description": "An AI agent can answer the texts and calls that customers send to your numbers, around the clock, and hand the customer to a person when needed. It can also reach out to a list itself. This use case shows how it fits together. It is a recap, and it points to the videos that show each screen.\n\nIn this video:\n• Who it is for and what you get\n• Before you start\n• Set up the AI\n• Point the number, and review\n• Check that it works\n• Tips",
+  "hashtags": [
+    "OrchardCore",
+    "CRM",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "use case",
+    "AI agent",
+    "SMS",
+    "automation",
+    "live agent hand-off",
+    "contact center",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Who it is for and what you get"
+    },
+    {
+      "time": "1:06",
+      "title": "Before you start"
+    },
+    {
+      "time": "1:44",
+      "title": "Set up the AI"
+    },
+    {
+      "time": "2:35",
+      "title": "Point the number, and review"
+    },
+    {
+      "time": "3:25",
+      "title": "Check that it works"
+    },
+    {
+      "time": "4:01",
+      "title": "Tips"
+    },
+    {
+      "time": "4:33",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: Let the AI Answer Your Customers",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/use-cases/ai-answers-customers"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/sms"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Sms"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/use-cases/ai-answers-customers.md"
+  ],
+  "length": "4:50"
+}

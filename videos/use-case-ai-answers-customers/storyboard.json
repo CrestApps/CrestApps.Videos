@@ -1,0 +1,208 @@
+{
+  "title": "Let the AI Answer Your Customers",
+  "output": "use-case-ai-answers-customers",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "AI": "A.I.",
+    "STOP": "STOP",
+    "CRM": "C.R.M."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Let the AI Answer Your Customers",
+      "subtitle": "A use case of CrestApps for Orchard Core",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An AI agent can answer the texts and calls that customers send to your numbers, around the clock, and hand the customer to a person when needed. It can also reach out to a list itself. This use case shows how it fits together. It is a recap, and it points to the videos that show each screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Who it is for and what you get",
+      "subtitle": "An AI on the front line",
+      "clips": [
+        {
+          "id": "01-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "This is for managers and AI content managers who want an AI agent on the front line. It answers every text or call to a number you choose, greets the customer, and holds the conversation."
+            },
+            {
+              "id": "who-2",
+              "text": "Or the AI starts the conversations itself, texting or calling the contacts you load."
+            },
+            {
+              "id": "who-3",
+              "text": "At the end, the AI picks an outcome from your dispositions and saves a summary, and your subject flow runs, just as if an agent had completed the work."
+            },
+            {
+              "id": "who-4",
+              "text": "When the customer asks for a person, looks like a qualified lead, or is frustrated, the AI can hand them to an agent in a queue. You can read every conversation afterwards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "AI, channels and queues",
+      "clips": [
+        {
+          "id": "02-need",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "need-1",
+              "text": "You need an AI provider connection and a chat deployment. Your administrator or AI content manager sets that up."
+            },
+            {
+              "id": "need-2",
+              "text": "For texts, you need an SMS provider and the features SMS Omnichannel Automation and SMS Messaging Channel. For calls, you need Telnyx as the phone provider and Telnyx AI Voice Agent."
+            },
+            {
+              "id": "need-3",
+              "text": "To answer your numbers, you need Contact Center Inbound Entry Points. For hand-off to a person, you need Work Distribution for the queues, and the messaging workspace for texts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set up the AI",
+      "subtitle": "Profile, knowledge, number, outcomes",
+      "clips": [
+        {
+          "id": "03-setup",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "First, create the AI profile under Artificial Intelligence, Profiles, and pick a starting point, such as Customer care by text or Answer calls at the front desk. Name your business, and fill in the about the business part of the instructions."
+            },
+            {
+              "id": "setup-2",
+              "text": "Second, and optionally, attach documents or data sources, so that it answers from your own knowledge."
+            },
+            {
+              "id": "setup-3",
+              "text": "Third, the number must be on Omnichannel Addresses, with Voice calls or Text messages ticked."
+            },
+            {
+              "id": "setup-4",
+              "text": "Fourth, give the number an inbound, automated subject, with dispositions and a subject flow. To allow hand-off, turn on Allow the AI to hand off to a live agent, pick the handoff queue, and choose when to escalate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Point the number, and review",
+      "subtitle": "Entry point, outreach, review",
+      "clips": [
+        {
+          "id": "04-work",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "work-1",
+              "text": "Make sure agents work the handoff queue. Calls ring an agent in the queue, and texts appear in the messaging workspace."
+            },
+            {
+              "id": "work-2",
+              "text": "Under Inbound entry points, edit the number's entry point, set Route to to AI agent for texts or AI voice agent for calls, and pick the profile. Pick a business hours calendar if the AI should answer only at certain times."
+            },
+            {
+              "id": "work-3",
+              "text": "Or create an automatic activity load with the profile, the channel and the number, and add a cadence to follow up on silence."
+            },
+            {
+              "id": "work-4",
+              "text": "Open a contact's activities and click Review AI conversation to read the transcript. The AI handoff and containment report shows how often the AI handed a conversation to a person."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Check that it works",
+      "subtitle": "Text or call your own number",
+      "clips": [
+        {
+          "id": "05-chk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "Call or text the number from your own phone while the entry point is open. The AI greets you, or replies to your text after its usual pause. Ask a question about your business, and check the answer."
+            },
+            {
+              "id": "chk-2",
+              "text": "Ask to speak to a person. If hand-off is allowed, a text conversation appears in the messaging workspace, or the call rings an agent in the handoff queue."
+            },
+            {
+              "id": "chk-3",
+              "text": "End the conversation, then open your contact's activities and read it with Review AI conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Tips",
+      "subtitle": "Good to know",
+      "clips": [
+        {
+          "id": "06-tip",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "An entry point that is closed does not use the AI. Calls go to voicemail, or are refused, and texts go to people with the closed auto-reply."
+            },
+            {
+              "id": "tip-2",
+              "text": "A text goes to people instead of the AI when a person already has an open conversation with the customer on that number, or when the customer's last AI conversation there ended less than an hour ago."
+            },
+            {
+              "id": "tip-3",
+              "text": "Start with a test number and a few colleagues before you point your main number at the AI."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A profile, a number, outcomes and a hand-off queue, and the AI is on the front line. Watch the videos on automated SMS and the AI hand-off for each screen. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
