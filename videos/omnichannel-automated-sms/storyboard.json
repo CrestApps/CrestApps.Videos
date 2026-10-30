@@ -1,0 +1,245 @@
+{
+  "title": "Omnichannel Automated SMS",
+  "output": "omnichannel-automated-sms",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel Automated SMS",
+      "subtitle": "Let the AI text your leads and customers",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The first text to a new lead does not have to come from a person. This video shows how an AI profile qualifies leads by text: the profile, the automatic activity load, what the load creates, and how the AI answers customers who text you first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why automate texts",
+      "subtitle": "The AI holds the conversation",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An automatic activity load creates activities that an AI profile works by itself. It sends the opening text, holds the whole conversation, and completes the activity with a disposition and a summary."
+            },
+            {
+              "id": "why-2",
+              "text": "You decide how it behaves: how long it waits before replying, which cadence follows up when a customer goes quiet, and when those follow-ups may be sent."
+            },
+            {
+              "id": "why-3",
+              "text": "And you stay in control. The AI stops when a customer opts out, and it can hand a customer to a live agent when the subject allows it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The AI profile",
+      "subtitle": "Start from Qualify leads by text",
+      "clips": [
+        {
+          "id": "02-profile",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "profile-1",
+              "text": "First, the AI profile. Under Artificial Intelligence, Profiles, click Add Profile. The Text messaging starting points include Qualify leads by text, which fills in the opening message and the instructions for you."
+            },
+            {
+              "id": "profile-2",
+              "text": "Choose it. The title and the technical name are filled in for you, and you can change them. Pick a chat deployment, then click Create profile. The profile opens in the full editor."
+            },
+            {
+              "id": "profile-3",
+              "text": "Start the conversation automatically is on, and the opening message is the first text the customer receives. Put your business name in it, and fill in the About the business section of the instructions, before you use the profile."
+            }
+          ]
+        }
+      ],
+      "short": "profile"
+    },
+    {
+      "id": "03",
+      "title": "The automatic load",
+      "subtitle": "Profile, delay, follow-ups and hours",
+      "clips": [
+        {
+          "id": "03-load",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "load-1",
+              "text": "Now the load. Open Load Activities, click Add Activity Load, and choose Automatic. Give it a title, then pick the subject type, the campaign and the AI profile."
+            },
+            {
+              "id": "load-2",
+              "text": "Allow the AI to update the contact or the subject lets it save what it learns, such as a corrected email. The reply delay can be none, fixed or random, so replies do not arrive instantly. Here the AI waits twenty seconds."
+            },
+            {
+              "id": "load-3",
+              "text": "Re-engagement is the cadence that follows up when the customer goes quiet. Business hours limit those follow-ups to the hours the calendar is open, in the customer's time zone. Then choose SMS as the channel, and the address the texts come from."
+            },
+            {
+              "id": "load-4",
+              "text": "Choose the contact type and save. The load is saved, but nothing is sent yet."
+            }
+          ]
+        }
+      ],
+      "short": "load"
+    },
+    {
+      "id": "04",
+      "title": "Run the load",
+      "subtitle": "One automated activity per contact",
+      "clips": [
+        {
+          "id": "04-result",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "result-1",
+              "text": "From the load's menu, choose Load activities. The load starts in the background, and its row shows how many activities are loaded so far. When it finishes, the row shows how many contacts matched, and why any were skipped. An automated activity is created for each matching contact."
+            },
+            {
+              "id": "result-2",
+              "text": "In the activity list, each of these is worked by the AI profile. A background task picks up the due activities every five minutes and sends the opening text. Every send checks the contact's opt-out first."
+            }
+          ]
+        }
+      ],
+      "short": "result"
+    },
+    {
+      "id": "05",
+      "title": "Opt-outs, timeouts and delays",
+      "subtitle": "What stops or paces a conversation",
+      "clips": [
+        {
+          "id": "05-rules",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rules-1",
+              "text": "When a customer texts an opt-out keyword, such as STOP, the activity is cancelled and the contact is marked Do not SMS. The keywords are set on the subject."
+            },
+            {
+              "id": "rules-2",
+              "text": "When the subject has a no-response timeout and the customer does not answer in time, the activity is marked failed."
+            },
+            {
+              "id": "rules-3",
+              "text": "The reply delay chosen on the load wins. The subject's response delay applies only when the load has none."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Texts customers send",
+      "subtitle": "Route a number to the AI",
+      "clips": [
+        {
+          "id": "06-inbound",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inbound-1",
+              "text": "The AI can also answer customers who text you first. Under Inbound entry points, add a Text messages entry point, and pick the number customers text."
+            },
+            {
+              "id": "inbound-2",
+              "text": "On the Routing card, Route to offers a queue, a specific agent, or an AI agent. Choose AI agent and pick the profile, and the first text from a customer starts an automated conversation."
+            }
+          ]
+        }
+      ],
+      "short": "inbound"
+    },
+    {
+      "id": "07",
+      "title": "When the conversation ends",
+      "subtitle": "Disposition, summary and transcript",
+      "clips": [
+        {
+          "id": "07-end",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "end-1",
+              "text": "When the conversation ends, the AI picks a disposition from your hints and what the customer said, and saves a summary as the activity's notes. The subject flow then runs just as if an agent had completed it."
+            },
+            {
+              "id": "end-2",
+              "text": "To read the conversation, open the contact, click List Activities, and look under Completed Activities. Review AI conversation opens the full transcript. It is read-only, with no reply box."
+            },
+            {
+              "id": "end-3",
+              "text": "If the subject allows live agent handoff, the AI can pass the customer to the handoff queue when they ask for a person. The handoff is the subject of the next video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Qualify new leads by text as soon as they arrive."
+            },
+            {
+              "id": "use-2",
+              "text": "Confirm appointments, or care for customers who ask a question."
+            },
+            {
+              "id": "use-3",
+              "text": "Follow up on quiet customers, only while the showroom is open."
+            },
+            {
+              "id": "use-4",
+              "text": "Answer a sales line by text, and hand over only the customers who are ready."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set up the profile once, load it on a list, and let the AI do the first conversation, so your people talk to the customers who are ready. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

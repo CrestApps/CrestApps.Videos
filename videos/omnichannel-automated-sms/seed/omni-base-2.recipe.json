@@ -1,0 +1,27 @@
+{
+  "name": "OmnichannelVideoBase2",
+  "displayName": "OmnichannelVideoBase2",
+  "description": "Fake dealership setup for the omnichannel videos.",
+  "author": "CrestApps",
+  "steps": [
+    {
+      "name": "OmnichannelCampaign",
+      "Campaigns": [
+        {
+          "DisplayText": "Spring Sales Event",
+          "Description": "Calls to customers about the spring sales event.",
+          "CampaignGroupId": "@group:Dealership@",
+          "InteractionType": "Manual",
+          "Channel": "Phone"
+        },
+        {
+          "DisplayText": "Service Reminders",
+          "Description": "Reminders that a car is due for service.",
+          "CampaignGroupId": "@group:Dealership@",
+          "InteractionType": "Manual",
+          "Channel": "Phone"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.204 --> 00:00:06.491
+From the load's menu, choose Load activities.
+
+00:00:06.491 --> 00:00:11.518
+The load starts in the background, and its row shows how many activities
+
+00:00:11.518 --> 00:00:13.065
+are loaded so far.
+
+00:00:13.065 --> 00:00:18.865
+When it finishes, the row shows how many contacts matched, and why any were skipped.
+
+00:00:18.865 --> 00:00:23.054
+An automated activity is created for each matching contact.
+
+00:00:23.506 --> 00:00:27.935
+In the activity list, each of these is worked by the AI profile.
+
+00:00:27.935 --> 00:00:34.136
+A background task picks up the due activities every five minutes and sends the opening text.
+
+00:00:34.136 --> 00:00:37.426
+Every send checks the contact's opt-out first.
+
