@@ -54,7 +54,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Outbound Calls: Let an AI Voice Agent Call Your Contacts](videos/contact-center-ai-outbound-calls) | 6:48 | [https://youtu.be/2AbD_YD-Usc](https://youtu.be/2AbD_YD-Usc) | CrestApps/CrestApps.OrchardCore |
 | [AI Voice Agent for Inbound Calls: Answer Your Phone with AI](videos/contact-center-ai-voice-agent-inbound) | 6:00 | [https://youtu.be/yQD8cV9XLFU](https://youtu.be/yQD8cV9XLFU) | CrestApps/CrestApps.OrchardCore |
 | [Business Hours Calendars: Define When You Are Open](videos/contact-center-business-hours) | 3:48 | [https://youtu.be/nn6Vu1TFkFY](https://youtu.be/nn6Vu1TFkFY) | CrestApps/CrestApps.OrchardCore |
-| [Call Flows: Inbound, Outbound and Callback Calls Step by Step](videos/contact-center-call-flows) | 6:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Call Flows: Inbound, Outbound and Callback Calls Step by Step](videos/contact-center-call-flows) | 6:01 | [https://youtu.be/G4FUvCrR66M](https://youtu.be/G4FUvCrR66M) | CrestApps/CrestApps.OrchardCore |
 | [Call Recordings: Search, Play and Read the Transcript](videos/contact-center-call-recordings) | 5:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Campaigns and Campaign Groups: Name the Work and Roll It Up](videos/contact-center-campaigns) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Configuration: Export a Plan and Replay It](videos/contact-center-configuration-deployment) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
