@@ -1,0 +1,28 @@
+1
+00:00:03,190 --> 00:00:08,004
+To keep content for members, with Content Access Control on, give the content
+
+2
+00:00:08,004 --> 00:00:12,703
+type the Role Picker part, and tick that it restricts who sees the content.
+
+3
+00:00:12,703 --> 00:00:16,532
+On each item, Who can see it chooses the roles, here Member.
+
+4
+00:00:16,532 --> 00:00:18,620
+Administrators see everything.
+
+5
+00:00:19,805 --> 00:00:23,592
+Anyone else who opens it, such as a visitor who is not signed
+
+6
+00:00:23,592 --> 00:00:25,287
+in, is asked to sign in.
+
+7
+00:00:25,287 --> 00:00:29,525
+A signed-in user who is not a member is told they do not have access.
+

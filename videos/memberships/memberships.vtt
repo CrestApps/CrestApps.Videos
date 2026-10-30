@@ -1,0 +1,182 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.970
+A membership turns a purchase into access.
+
+00:00:03.970 --> 00:00:09.477
+Someone buys it, becomes a member, and the content meant for members opens to them.
+
+00:00:09.477 --> 00:00:14.366
+This video shows how to sell a membership, keep content for members, what
+
+00:00:14.366 --> 00:00:17.150
+a member sees, and how memberships end.
+
+00:00:21.750 --> 00:00:24.744
+Some of what you publish is worth paying for:
+
+00:00:24.744 --> 00:00:26.740
+guides, articles, downloads.
+
+00:00:27.490 --> 00:00:29.692
+A membership sells access:
+
+00:00:29.692 --> 00:00:32.650
+for a year, for a month, or for good.
+
+00:00:33.400 --> 00:00:37.401
+Buying it should open the door at once, and ending it should close
+
+00:00:37.401 --> 00:00:40.290
+it, without anyone editing user roles by hand.
+
+00:00:44.490 --> 00:00:48.087
+A membership is a product with the Membership part.
+
+00:00:48.087 --> 00:00:52.630
+It names the roles members are put in, and how many days it lasts.
+
+00:00:53.380 --> 00:00:57.576
+Content is kept for members with the Role Picker, which says which roles
+
+00:00:57.576 --> 00:00:58.760
+can see an item.
+
+00:00:59.510 --> 00:01:01.646
+Buying makes the buyer a member.
+
+00:01:01.646 --> 00:01:05.580
+Buying again while still a member adds the days to when it ends.
+
+00:01:06.330 --> 00:01:10.266
+It ends on its end date, when its order is canceled or fully
+
+00:01:10.266 --> 00:01:12.830
+refunded, or when you choose End now.
+
+00:01:17.012 --> 00:01:21.714
+To try it, open Tools, Recipes, and run the Memberships sample.
+
+00:01:21.714 --> 00:01:28.256
+It adds a Member role, a members' article, and an Annual Membership at forty-nine dollars.
+
+00:01:28.256 --> 00:01:30.232
+Click Run, and confirm.
+
+00:01:29.562 --> 00:01:34.631
+Under Access Control, Roles, the Member role is the one members are put in.
+
+00:01:34.631 --> 00:01:37.822
+Add a role like this for each kind of member.
+
+00:01:33.133 --> 00:01:35.618
+Open the Annual Membership product.
+
+00:01:35.618 --> 00:01:40.527
+Under Membership, tick the roles members are in, here Member, and enter how
+
+00:01:40.527 --> 00:01:42.648
+many Days a membership lasts:
+
+00:01:42.648 --> 00:01:47.193
+three hundred sixty-five, or zero for a membership that does not end.
+
+00:01:50.983 --> 00:01:55.798
+To keep content for members, with Content Access Control on, give the content
+
+00:01:55.798 --> 00:02:00.496
+type the Role Picker part, and tick that it restricts who sees the content.
+
+00:02:00.496 --> 00:02:04.325
+On each item, Who can see it chooses the roles, here Member.
+
+00:02:04.325 --> 00:02:06.413
+Administrators see everything.
+
+00:02:07.599 --> 00:02:11.385
+Anyone else who opens it, such as a visitor who is not signed
+
+00:02:11.385 --> 00:02:13.080
+in, is asked to sign in.
+
+00:02:13.080 --> 00:02:17.319
+A signed-in user who is not a member is told they do not have access.
+
+00:02:21.121 --> 00:02:26.458
+Jamie opens the Annual Membership, forty-nine dollars, and adds it to the cart.
+
+00:02:26.458 --> 00:02:31.921
+Memberships are for an account, so buyers sign in to buy one, and then check out.
+
+00:02:29.357 --> 00:02:34.981
+Jamie gives the contact details and a billing address, and pays by bank transfer.
+
+00:02:34.981 --> 00:02:39.507
+When the money arrives and the order is paid, Jamie is a member.
+
+00:02:43.407 --> 00:02:48.877
+Now Jamie's account has a Memberships page, with the membership and when it ends.
+
+00:02:48.877 --> 00:02:52.147
+Jamie signs in again, so the new role applies.
+
+00:02:51.366 --> 00:02:53.717
+And the members' article opens:
+
+00:02:53.717 --> 00:02:56.956
+Jamie can now read what only members can see.
+
+00:03:00.752 --> 00:03:04.670
+Under Commerce, Memberships, you see every membership:
+
+00:03:04.670 --> 00:03:08.001
+who, which one, its status, and when it ends.
+
+00:03:08.001 --> 00:03:12.442
+Filter by Active, Expired or Ended early, or search by member.
+
+00:03:07.428 --> 00:03:11.713
+A membership ends on its end date, when its order is canceled, or
+
+00:03:11.713 --> 00:03:14.188
+when its order is refunded in full.
+
+00:03:14.188 --> 00:03:16.663
+To end one yourself, click End now.
+
+00:03:16.663 --> 00:03:18.172
+It refunds nothing.
+
+00:03:18.172 --> 00:03:22.458
+The membership is Ended early, and the member is taken out of the
+
+00:03:22.458 --> 00:03:27.348
+roles it gave them, unless another membership still gives them those roles.
+
+00:03:28.542 --> 00:03:33.242
+Jamie's Memberships page now shows the membership as Ended early.
+
+00:03:37.442 --> 00:03:38.228
+A club:
+
+00:03:38.228 --> 00:03:42.222
+an annual membership for guides and routes only members see.
+
+00:03:42.972 --> 00:03:44.292
+A publication:
+
+00:03:44.292 --> 00:03:47.462
+a monthly membership for premium articles.
+
+00:03:48.212 --> 00:03:49.476
+A course site:
+
+00:03:49.476 --> 00:03:53.712
+a lifetime membership, with zero days, for the whole library.
+
+00:03:55.712 --> 00:04:00.382
+With memberships, a purchase opens the door, and ending it closes it.
+
+00:04:00.382 --> 00:04:02.002
+Thanks for watching.
+

@@ -1,0 +1,95 @@
+{
+  "title": "Memberships: Sell Access and Open Content to Members | CrestApps for Orchard Core",
+  "description": "A membership turns a purchase into access. With the CrestApps Memberships feature, a product puts its buyer in a role for a year, a month or for good; the Role Picker keeps content for members; buying again adds days; and a membership ends on its end date, when its order is canceled or refunded in full, or when you choose End now.\n\nIn this video:\n• Why memberships, and how product, roles and content fit together\n• Selling a membership: the Memberships sample, a role and the days\n• Keeping content for members with the Role Picker\n• Buying a membership, and what a member sees\n• Managing and ending memberships\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Memberships",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "memberships",
+    "members only content",
+    "role picker",
+    "paid membership",
+    "subscription alternative",
+    "content access control",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why memberships"
+    },
+    {
+      "time": "0:41",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:13",
+      "title": "Sell a membership"
+    },
+    {
+      "time": "1:47",
+      "title": "Keep content for members"
+    },
+    {
+      "time": "2:18",
+      "title": "Buy a membership"
+    },
+    {
+      "time": "2:40",
+      "title": "What a member sees"
+    },
+    {
+      "time": "2:57",
+      "title": "Manage and end memberships"
+    },
+    {
+      "time": "3:34",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:54",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/memberships"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/memberships"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Memberships"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/memberships.md",
+    "src/CrestApps.Docs/docs/modules/memberships.md"
+  ],
+  "length": "4:03"
+}
