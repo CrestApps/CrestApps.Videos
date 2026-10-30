@@ -1,0 +1,24 @@
+1
+00:00:03,193 --> 00:00:06,401
+In the parent's site, open All clients.
+
+2
+00:00:06,401 --> 00:00:10,465
+Each row shows the name, the address and the state.
+
+3
+00:00:10,465 --> 00:00:13,174
+The State menu narrows the list:
+
+4
+00:00:13,174 --> 00:00:19,803
+Running, Suspended, Setting up, Setup failed, Pending removal, and Changed by platform.
+
+5
+00:00:20,255 --> 00:00:25,212
+The Sort menu orders the list by name, by newest first, or by state.
+
+6
+00:00:25,212 --> 00:00:29,835
+Here, the State menu shows only the clients whose setup failed.
+

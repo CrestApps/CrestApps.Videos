@@ -1,0 +1,239 @@
+{
+  "title": "Tenant Hierarchy: Everyday Operations",
+  "output": "tenant-hierarchy-operations",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Tenant Hierarchy Operations",
+      "subtitle": "Running a list of client sites day to day",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows the everyday operations of the tenant hierarchy: finding and sorting the clients of a parent, fixing a setup that failed, suspending and resuming several clients at once, favorites, and what the platform administrator does when something changes above the parent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why operations matter",
+      "subtitle": "Many sites, one list",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A firm that runs a site for each client soon has dozens of sites, and some of them need attention every day."
+            },
+            {
+              "id": "why-2",
+              "text": "The list of clients is where the parent's team finds a site, sees its state, and acts on one or many at a time."
+            },
+            {
+              "id": "why-3",
+              "text": "Above the parent, the platform administrator keeps the whole hierarchy in order: who is a parent, who belongs to whom, and what happens when a parent disappears."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Find and sort the clients",
+      "subtitle": "State filter, search and sort",
+      "clips": [
+        {
+          "id": "02-list",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "list-1",
+              "text": "In the parent's site, open All clients. Each row shows the name, the address and the state. The State menu narrows the list: Running, Suspended, Setting up, Setup failed, Pending removal, and Changed by platform."
+            },
+            {
+              "id": "list-2",
+              "text": "The Sort menu orders the list by name, by newest first, or by state. Here, the State menu shows only the clients whose setup failed."
+            }
+          ]
+        }
+      ],
+      "short": "list"
+    },
+    {
+      "id": "03",
+      "title": "Fix a setup that failed",
+      "subtitle": "Retry, or discard",
+      "clips": [
+        {
+          "id": "03-failed",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "failed-1",
+              "text": "A client whose site could not be created shows Setup failed, with two buttons. Retry runs the setup again. Discard gives up on it."
+            },
+            {
+              "id": "failed-2",
+              "text": "Discard asks you to confirm, and then the address becomes free again, so you can add the client again with the same name."
+            }
+          ]
+        }
+      ],
+      "short": "failed"
+    },
+    {
+      "id": "04",
+      "title": "Act on several clients",
+      "subtitle": "Suspend, Resume, Reload and Remove",
+      "clips": [
+        {
+          "id": "04-bulk",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bulk-1",
+              "text": "Tick the clients you want, and open the Actions menu. Suspend, Resume, Reload and Remove apply to every client you ticked. Remove is only for suspended clients."
+            },
+            {
+              "id": "bulk-2",
+              "text": "Here, two clients are suspended at once. Nobody can use their sites, including their own staff, until they are resumed, and the State menu lists them."
+            },
+            {
+              "id": "bulk-3",
+              "text": "Tick them all and choose Resume, and both are open for business again."
+            }
+          ]
+        }
+      ],
+      "short": "bulk"
+    },
+    {
+      "id": "05",
+      "title": "Favorites and signing out",
+      "subtitle": "Open a client in one click",
+      "clips": [
+        {
+          "id": "05-switch",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "switch-1",
+              "text": "Open a client lists your clients with an Open link that signs you in without a password. Click the star next to a client to make it a favorite, and favorites, with the clients you opened recently, are listed first."
+            },
+            {
+              "id": "switch-2",
+              "text": "Sign out of every client ends every session you have open in your clients, on every device. Use it when you leave a shared computer, or when someone leaves your team."
+            }
+          ]
+        }
+      ],
+      "short": "switch"
+    },
+    {
+      "id": "06",
+      "title": "What the platform does",
+      "subtitle": "Orphans, moving and making ordinary",
+      "clips": [
+        {
+          "id": "06-platform",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "platform-1",
+              "text": "The platform administrator sees every parent on the Tenant Hierarchy screen, with its clients underneath. A client whose parent no longer exists is an orphan, and is listed apart, with Move and Make ordinary."
+            },
+            {
+              "id": "platform-2",
+              "text": "Make ordinary turns the orphan into an ordinary tenant, which keeps its address and its data."
+            },
+            {
+              "id": "platform-3",
+              "text": "On a parent's page, each client has a Move menu. Pick another parent and click Move. The client's address changes, every open session from the old parent ends, and the old parent is not asked."
+            },
+            {
+              "id": "platform-4",
+              "text": "A parent that has no clients can be made an ordinary tenant again with Make ordinary, and it keeps its data and its address. A parent that still has clients cannot be removed by accident."
+            }
+          ]
+        }
+      ],
+      "short": "platform"
+    },
+    {
+      "id": "07",
+      "title": "Changed by the platform",
+      "subtitle": "Clearing it from the list",
+      "clips": [
+        {
+          "id": "07-changed",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "changed-1",
+              "text": "Back in the parent's site, a client that the platform made an ordinary tenant, behind the parent's back, is now in the state Changed by platform, and the parent no longer controls it. The client the platform moved is not in this list at all any more."
+            },
+            {
+              "id": "changed-2",
+              "text": "Click Remove from list to clear it, and the list is tidy again."
+            }
+          ]
+        }
+      ],
+      "short": "changed"
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Pause the sites of clients who have not paid, and resume them when they do."
+            },
+            {
+              "id": "use-2",
+              "text": "Find the sites that need attention with the state filter."
+            },
+            {
+              "id": "use-3",
+              "text": "Keep your most important clients one click away."
+            },
+            {
+              "id": "use-4",
+              "text": "Keep the hierarchy tidy after a parent changes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Filter, fix, act on several clients at once, and let the platform keep the hierarchy in order. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

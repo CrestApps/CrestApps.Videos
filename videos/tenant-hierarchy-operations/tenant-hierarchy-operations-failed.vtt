@@ -1,0 +1,17 @@
+WEBVTT
+
+00:00:03.201 --> 00:00:08.408
+A client whose site could not be created shows Setup failed, with two buttons.
+
+00:00:08.408 --> 00:00:10.454
+Retry runs the setup again.
+
+00:00:10.454 --> 00:00:12.251
+Discard gives up on it.
+
+00:00:12.702 --> 00:00:17.110
+Discard asks you to confirm, and then the address becomes free again, so
+
+00:00:17.110 --> 00:00:20.162
+you can add the client again with the same name.
+
