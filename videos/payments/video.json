@@ -57,19 +57,19 @@
       "title": "Reminders"
     },
     {
-      "time": "4:26",
+      "time": "4:35",
       "title": "Payments and refunds"
     },
     {
-      "time": "5:08",
+      "time": "5:16",
       "title": "Webhooks"
     },
     {
-      "time": "5:59",
+      "time": "6:08",
       "title": "Use cases"
     },
     {
-      "time": "6:34",
+      "time": "6:43",
       "title": "Wrap-up"
     }
   ],
@@ -114,5 +114,5 @@
     "src/CrestApps.Docs/docs/modules/pay-later.md",
     "src/CrestApps.Docs/docs/modules/commerce-webhooks.md"
   ],
-  "length": "6:44"
+  "length": "6:53"
 }

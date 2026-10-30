@@ -180,7 +180,7 @@
             },
             {
               "id": "rem-2",
-              "text": "First reminder delay says how many days after a balance is created, Reminder interval how often after that, Maximum reminders when to stop, and Remind before the due date sends one ahead of time."
+              "text": "First reminder delay says how many days after the due date the first reminder is sent, and zero sends it on the due date. A balance with no due date is counted from the day it was created. Reminder interval says how often after that, Maximum reminders when to stop, and Remind before the due date sends one ahead of time."
             }
           ]
         }
