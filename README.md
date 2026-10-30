@@ -47,7 +47,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Commerce Automation: Emails and Actions When Orders, Stock and Shipments Change](videos/commerce-automation) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Store Reports and Admin Dashboard Widgets: Sales, Stock and Tax](videos/commerce-reports-dashboard) | 6:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Company Approvals and Pay on Account: Sell to Businesses](videos/company-approvals) | 7:31 | [https://youtu.be/xUzr3LvXWG0](https://youtu.be/xUzr3LvXWG0) | CrestApps/CrestApps.OrchardCore |
-| [Agent Offers, Calls and Wrap-Up in the Contact Center](videos/contact-center-agent-calls) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Agent Offers, Calls and Wrap-Up in the Contact Center](videos/contact-center-agent-calls) | 4:52 | [https://youtu.be/9wSR9ldcpCs](https://youtu.be/9wSR9ldcpCs) | CrestApps/CrestApps.OrchardCore |
 | [Agent States: Reason Codes for Lunch, Meetings and Training](videos/contact-center-agent-states) | 3:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Agent Walkthroughs: Calls, Messages and Activities](videos/contact-center-agent-walkthroughs) | 13:57 | [https://youtu.be/B6T-s_80exw](https://youtu.be/B6T-s_80exw) | CrestApps/CrestApps.OrchardCore |
 | [The Agent Workspace: Sign In, Presence and the Agent Bar](videos/contact-center-agent-workspace) | 4:18 | not uploaded | CrestApps/CrestApps.OrchardCore |

@@ -78,7 +78,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "9wSR9ldcpCs",
+    "url": "https://youtu.be/9wSR9ldcpCs",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter (Agents, Real-Time, Voice)"
