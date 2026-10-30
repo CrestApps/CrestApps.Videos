@@ -211,166 +211,174 @@ The transaction now reads Paid, and the payment you recorded is on its Timeline.
 The order it belongs to is paid as well.
 
 54
-00:04:04,894 --> 00:04:08,742
+00:04:04,784 --> 00:04:08,633
 Settings, Commerce, Transactions sets the reminders.
 
 55
-00:04:08,742 --> 00:04:12,524
+00:04:08,633 --> 00:04:12,414
 Enable scheduled reminders sends them on their own.
 
 56
-00:04:12,992 --> 00:04:17,962
-First reminder delay says how many days after a balance is created, Reminder
+00:04:12,868 --> 00:04:17,418
+First reminder delay says how many days after the due date the first
 
 57
-00:04:17,962 --> 00:04:23,175
-interval how often after that, Maximum reminders when to stop, and Remind before
+00:04:17,418 --> 00:04:20,985
+reminder is sent, and zero sends it on the due date.
 
 58
-00:04:23,175 --> 00:04:25,782
-the due date sends one ahead of time.
+00:04:20,985 --> 00:04:25,413
+A balance with no due date is counted from the day it was created.
 
 59
-00:04:30,082 --> 00:04:36,115
-Commerce, Payments lists every payment, with its amount, its state, its method and
+00:04:25,413 --> 00:04:30,702
+Reminder interval says how often after that, Maximum reminders when to stop, and
 
 60
-00:04:36,115 --> 00:04:38,445
-the gateway's own reference.
+00:04:30,702 --> 00:04:34,208
+Remind before the due date sends one ahead of time.
 
 61
-00:04:38,445 --> 00:04:41,942
-Two drop-downs filter by state and by method.
+00:04:38,508 --> 00:04:44,540
+Commerce, Payments lists every payment, with its amount, its state, its method and
 
 62
-00:04:43,810 --> 00:04:46,525
-Refund gives money back on a payment.
+00:04:44,540 --> 00:04:46,871
+the gateway's own reference.
 
 63
-00:04:46,525 --> 00:04:50,883
-The page shows what was collected and what is already refunded.
+00:04:46,871 --> 00:04:50,368
+Two drop-downs filter by state and by method.
 
 64
-00:04:50,883 --> 00:04:56,693
-Enter the Amount to refund, give a Reason such as damage in transit, and click Refund.
+00:04:52,235 --> 00:04:54,951
+Refund gives money back on a payment.
 
 65
-00:04:56,693 --> 00:04:59,220
-The page then returns to the list.
+00:04:54,951 --> 00:04:59,309
+The page shows what was collected and what is already refunded.
 
 66
-00:05:00,360 --> 00:05:05,102
-Commerce, Refunds lists the refunds that were made, so the money that went
+00:04:59,309 --> 00:05:05,119
+Enter the Amount to refund, give a Reason such as damage in transit, and click Refund.
 
 67
-00:05:05,102 --> 00:05:06,940
-back is always on record.
+00:05:05,119 --> 00:05:07,645
+The page then returns to the list.
 
 68
-00:05:11,152 --> 00:05:16,592
-Commerce, Webhooks sends a message to another system the moment something happens, such
+00:05:08,786 --> 00:05:13,528
+Commerce, Refunds lists the refunds that were made, so the money that went
 
 69
-00:05:16,592 --> 00:05:18,289
-as an order being paid.
+00:05:13,528 --> 00:05:15,366
+back is always on record.
 
 70
-00:05:18,289 --> 00:05:19,692
-Click Add webhook.
+00:05:19,578 --> 00:05:25,018
+Commerce, Webhooks sends a message to another system the moment something happens, such
 
 71
-00:05:20,232 --> 00:05:23,938
-Give it a Name and the URL that receives the messages.
+00:05:25,018 --> 00:05:26,714
+as an order being paid.
 
 72
-00:05:23,938 --> 00:05:26,902
-On turns it on or off without deleting it.
+00:05:26,714 --> 00:05:28,118
+Click Add webhook.
 
 73
-00:05:27,826 --> 00:05:32,421
-Tick the events to send, such as Order paid and Shipment shipped, or
+00:05:28,658 --> 00:05:32,364
+Give it a Name and the URL that receives the messages.
 
 74
-00:05:32,421 --> 00:05:34,967
-Every event, those added later too.
+00:05:32,364 --> 00:05:35,328
+On turns it on or off without deleting it.
 
 75
-00:05:34,967 --> 00:05:36,706
-Then save the webhook.
+00:05:36,252 --> 00:05:40,847
+Tick the events to send, such as Order paid and Shipment shipped, or
 
 76
-00:05:37,228 --> 00:05:38,822
-The webhook is saved.
+00:05:40,847 --> 00:05:43,393
+Every event, those added later too.
 
 77
-00:05:38,822 --> 00:05:43,661
-Copy its signing secret into the system that receives the messages, and that
+00:05:43,393 --> 00:05:45,132
+Then save the webhook.
 
 78
-00:05:43,661 --> 00:05:46,848
-system now hears about each event as it happens.
+00:05:45,654 --> 00:05:47,248
+The webhook is saved.
 
 79
-00:05:47,303 --> 00:05:52,159
-Further down are the signing secret, which the receiver uses to check each
+00:05:47,248 --> 00:05:52,087
+Copy its signing secret into the system that receives the messages, and that
 
 80
-00:05:52,159 --> 00:05:57,015
-message, a New secret button, and Deliveries, which logs what was sent and
+00:05:52,087 --> 00:05:55,274
+system now hears about each event as it happens.
 
 81
-00:05:57,015 --> 00:05:58,653
-what was tried again.
+00:05:55,729 --> 00:06:00,585
+Further down are the signing secret, which the receiver uses to check each
 
 82
-00:06:02,853 --> 00:06:04,417
-Try before you sell:
+00:06:00,585 --> 00:06:05,440
+message, a New secret button, and Deliveries, which logs what was sent and
 
 83
-00:06:04,417 --> 00:06:08,868
-use Stripe's test keys for a whole trial sale, then switch on Enable
+00:06:05,440 --> 00:06:07,079
+what was tried again.
 
 84
-00:06:08,868 --> 00:06:10,913
-Production when you go live.
+00:06:11,279 --> 00:06:12,843
+Try before you sell:
 
 85
-00:06:11,663 --> 00:06:13,092
-Invoice customers:
+00:06:12,843 --> 00:06:17,294
+use Stripe's test keys for a whole trial sale, then switch on Enable
 
 86
-00:06:13,092 --> 00:06:17,737
-a bank transfer order waits as Payment due, and Record payment closes it
+00:06:17,294 --> 00:06:19,339
+Production when you go live.
 
 87
-00:06:17,737 --> 00:06:19,463
-when the money arrives.
+00:06:20,089 --> 00:06:21,518
+Invoice customers:
 
 88
-00:06:20,213 --> 00:06:21,627
-Chase late payers:
+00:06:21,518 --> 00:06:26,162
+a bank transfer order waits as Payment due, and Record payment closes it
 
 89
-00:06:21,627 --> 00:06:26,693
-scheduled reminders write to customers who have not paid, so you do not have to.
+00:06:26,162 --> 00:06:27,889
+when the money arrives.
 
 90
-00:06:27,443 --> 00:06:30,119
-Tell your warehouse and your accountant:
+00:06:28,639 --> 00:06:30,053
+Chase late payers:
 
 91
-00:06:30,119 --> 00:06:33,783
-webhooks send order and shipment events to their systems.
+00:06:30,053 --> 00:06:35,119
+scheduled reminders write to customers who have not paid, so you do not have to.
 
 92
-00:06:35,783 --> 00:06:39,728
-Take the money, record it against the order, give it back when you
+00:06:35,869 --> 00:06:38,545
+Tell your warehouse and your accountant:
 
 93
-00:06:39,728 --> 00:06:41,919
-must, and tell your other systems.
+00:06:38,545 --> 00:06:42,209
+webhooks send order and shipment events to their systems.
 
 94
-00:06:41,919 --> 00:06:43,343
+00:06:44,209 --> 00:06:48,153
+Take the money, record it against the order, give it back when you
+
+95
+00:06:48,153 --> 00:06:50,345
+must, and tell your other systems.
+
+96
+00:06:50,345 --> 00:06:51,769
 Thanks for watching.
 
