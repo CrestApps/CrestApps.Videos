@@ -1,0 +1,244 @@
+1
+00:00:01,000 --> 00:00:06,527
+A purchased list, a trade-show scan or a web form gives you prospects, not customers.
+
+2
+00:00:06,527 --> 00:00:10,597
+This use case shows how to keep them apart as leads, call and
+
+3
+00:00:10,597 --> 00:00:14,788
+text them, convert the ones that qualify, and follow the deals.
+
+4
+00:00:14,788 --> 00:00:19,100
+It is a recap, and it points to the videos that show each screen.
+
+5
+00:00:23,700 --> 00:00:28,159
+This is for managers and sales teams who work lists of prospects.
+
+6
+00:00:28,159 --> 00:00:34,690
+Prospects live as leads, apart from your contacts, so your contact list holds only real customers.
+
+7
+00:00:35,440 --> 00:00:40,021
+Agents and the dialer call and text leads exactly like contacts, and the
+
+8
+00:00:40,021 --> 00:00:44,250
+outcome of each attempt moves the lead through your lead statuses.
+
+9
+00:00:45,000 --> 00:00:47,519
+A lead that qualifies is converted.
+
+10
+00:00:47,519 --> 00:00:52,066
+It becomes a contact, or merges into one who already has its number,
+
+11
+00:00:52,066 --> 00:00:56,060
+joins an account, and can open an opportunity for the deal.
+
+12
+00:00:56,810 --> 00:01:02,930
+Reports then show your lead funnel, which sources and lists convert best, and your pipeline.
+
+13
+00:01:07,130 --> 00:01:13,317
+Your administrator turns on Omnichannel CRM, which also turns on Omnichannel Management, and
+
+14
+00:01:13,317 --> 00:01:16,599
+Content Transfer to import lists, and Reports.
+
+15
+00:01:16,599 --> 00:01:20,450
+The Omnichannel CRM starter recipe is the quickest way.
+
+16
+00:01:21,200 --> 00:01:24,921
+Agents need Convert leads, and the Agent role has it.
+
+17
+00:01:24,921 --> 00:01:29,650
+The manager needs Manage lead statuses and Manage opportunity stages.
+
+18
+00:01:30,400 --> 00:01:34,756
+To call or text leads, you also need the features of an outbound
+
+19
+00:01:34,756 --> 00:01:37,120
+calling campaign, or of texting.
+
+20
+00:01:41,320 --> 00:01:42,858
+First, turn it on.
+
+21
+00:01:42,858 --> 00:01:48,306
+The Omnichannel CRM starter recipe adds a Lead type that converts into Contact,
+
+22
+00:01:48,306 --> 00:01:52,600
+a Sales Opportunity type, and a starting set of lead sources.
+
+23
+00:01:53,350 --> 00:01:57,466
+Second, review your lists under Interaction Center, Management:
+
+24
+00:01:57,466 --> 00:02:02,418
+the lead statuses, which are open, closed or converted, the lead sources, and
+
+25
+00:02:02,418 --> 00:02:05,520
+the opportunity stages with their probability.
+
+26
+00:02:06,270 --> 00:02:11,047
+Third, import the list under Content, Import, with the lead type.
+
+27
+00:02:11,047 --> 00:02:15,285
+Give the rows a list name, a lead source, a status and an
+
+28
+00:02:15,285 --> 00:02:20,600
+owner, and skip numbers that already belong to a contact or an open lead.
+
+29
+00:02:21,350 --> 00:02:26,830
+Fourth, open Leads to see your open leads, and search them by status,
+
+30
+00:02:26,830 --> 00:02:29,460
+source, list, rating or owner.
+
+31
+00:02:33,660 --> 00:02:38,178
+Create an activity load with the lead type as the record type, and
+
+32
+00:02:38,178 --> 00:02:42,571
+use the lead filters to pick, for example, one list's hot leads.
+
+33
+00:02:42,571 --> 00:02:47,278
+A dialer load calls them, a manual load gives agents their lists, and
+
+34
+00:02:47,278 --> 00:02:50,290
+an automatic load sends AI texts or calls.
+
+35
+00:02:51,040 --> 00:02:55,624
+On the subject flow, set the lead status on each action, so that
+
+36
+00:02:55,624 --> 00:02:59,750
+no answer moves the lead to Working, Contacted by itself.
+
+37
+00:03:00,500 --> 00:03:03,060
+Open the lead and click Convert Lead.
+
+38
+00:03:03,060 --> 00:03:07,822
+Pick or create the contact and the account, and tick Create an opportunity
+
+39
+00:03:07,822 --> 00:03:09,310
+to record the deal.
+
+40
+00:03:10,060 --> 00:03:16,150
+Track opportunities under Interaction Center, Opportunities, moving each one through its stages, and
+
+41
+00:03:16,150 --> 00:03:19,540
+see each company's contacts and deals under Accounts.
+
+42
+00:03:20,290 --> 00:03:25,408
+Use the Lead funnel, Lead conversion by source and list, and Opportunity pipeline
+
+43
+00:03:25,408 --> 00:03:27,350
+reports to see how it goes.
+
+44
+00:03:31,550 --> 00:03:35,487
+Import a small test list of two or three leads, with your own
+
+45
+00:03:35,487 --> 00:03:39,130
+number on one of them, and find them by their list name.
+
+46
+00:03:39,880 --> 00:03:43,190
+Convert one lead with Create an opportunity ticked.
+
+47
+00:03:43,190 --> 00:03:47,603
+The lead leaves the Leads list and shows a Converted banner that links
+
+48
+00:03:47,603 --> 00:03:51,900
+to the new contact, and the opportunity appears under Opportunities.
+
+49
+00:03:52,650 --> 00:03:55,109
+Run the Lead funnel report for today.
+
+50
+00:03:55,109 --> 00:03:57,110
+It counts the converted lead.
+
+51
+00:04:01,310 --> 00:04:04,689
+A converted lead is read-only and never loaded again.
+
+52
+00:04:04,689 --> 00:04:08,984
+Its history and open work move to the contact, and you cannot convert
+
+53
+00:04:08,984 --> 00:04:12,420
+a lead while a call or message with it is in progress.
+
+54
+00:04:13,170 --> 00:04:17,707
+When a number belongs to both a contact and a lead, inbound calls
+
+55
+00:04:17,707 --> 00:04:19,880
+and texts match the contact.
+
+56
+00:04:19,880 --> 00:04:23,970
+Keep Skip leads that are already contacts ticked on loads.
+
+57
+00:04:24,720 --> 00:04:28,899
+To act when a lead converts, for example to send a welcome email,
+
+58
+00:04:28,899 --> 00:04:31,900
+use a workflow that starts on Lead Converted.
+
+59
+00:04:33,900 --> 00:04:39,440
+Leads kept apart, worked like contacts, converted when they qualify, and measured.
+
+60
+00:04:39,440 --> 00:04:46,113
+Watch the videos on leads, on accounts and opportunities, and on loading activities for each screen.
+
+61
+00:04:46,113 --> 00:04:47,750
+Thanks for watching.
+

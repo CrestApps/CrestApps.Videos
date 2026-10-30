@@ -1,0 +1,212 @@
+{
+  "title": "Turn Leads into Deals",
+  "output": "use-case-leads-to-deals",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "AI": "A.I.",
+    "STOP": "STOP",
+    "CRM": "C.R.M."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Turn Leads into Deals",
+      "subtitle": "A use case of CrestApps for Orchard Core",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A purchased list, a trade-show scan or a web form gives you prospects, not customers. This use case shows how to keep them apart as leads, call and text them, convert the ones that qualify, and follow the deals. It is a recap, and it points to the videos that show each screen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Who it is for and what you get",
+      "subtitle": "Prospects stay apart from customers",
+      "clips": [
+        {
+          "id": "01-who",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "who-1",
+              "text": "This is for managers and sales teams who work lists of prospects. Prospects live as leads, apart from your contacts, so your contact list holds only real customers."
+            },
+            {
+              "id": "who-2",
+              "text": "Agents and the dialer call and text leads exactly like contacts, and the outcome of each attempt moves the lead through your lead statuses."
+            },
+            {
+              "id": "who-3",
+              "text": "A lead that qualifies is converted. It becomes a contact, or merges into one who already has its number, joins an account, and can open an opportunity for the deal."
+            },
+            {
+              "id": "who-4",
+              "text": "Reports then show your lead funnel, which sources and lists convert best, and your pipeline."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Before you start",
+      "subtitle": "Features, permissions and channels",
+      "clips": [
+        {
+          "id": "02-need",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "need-1",
+              "text": "Your administrator turns on Omnichannel CRM, which also turns on Omnichannel Management, and Content Transfer to import lists, and Reports. The Omnichannel CRM starter recipe is the quickest way."
+            },
+            {
+              "id": "need-2",
+              "text": "Agents need Convert leads, and the Agent role has it. The manager needs Manage lead statuses and Manage opportunity stages."
+            },
+            {
+              "id": "need-3",
+              "text": "To call or text leads, you also need the features of an outbound calling campaign, or of texting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Set it up",
+      "subtitle": "Turn it on, review the lists, import",
+      "clips": [
+        {
+          "id": "03-setup",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "First, turn it on. The Omnichannel CRM starter recipe adds a Lead type that converts into Contact, a Sales Opportunity type, and a starting set of lead sources."
+            },
+            {
+              "id": "setup-2",
+              "text": "Second, review your lists under Interaction Center, Management: the lead statuses, which are open, closed or converted, the lead sources, and the opportunity stages with their probability."
+            },
+            {
+              "id": "setup-3",
+              "text": "Third, import the list under Content, Import, with the lead type. Give the rows a list name, a lead source, a status and an owner, and skip numbers that already belong to a contact or an open lead."
+            },
+            {
+              "id": "setup-4",
+              "text": "Fourth, open Leads to see your open leads, and search them by status, source, list, rating or owner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Work the leads",
+      "subtitle": "Call, text, convert, measure",
+      "clips": [
+        {
+          "id": "04-work",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "work-1",
+              "text": "Create an activity load with the lead type as the record type, and use the lead filters to pick, for example, one list's hot leads. A dialer load calls them, a manual load gives agents their lists, and an automatic load sends AI texts or calls."
+            },
+            {
+              "id": "work-2",
+              "text": "On the subject flow, set the lead status on each action, so that no answer moves the lead to Working, Contacted by itself."
+            },
+            {
+              "id": "work-3",
+              "text": "Open the lead and click Convert Lead. Pick or create the contact and the account, and tick Create an opportunity to record the deal."
+            },
+            {
+              "id": "work-4",
+              "text": "Track opportunities under Interaction Center, Opportunities, moving each one through its stages, and see each company's contacts and deals under Accounts."
+            },
+            {
+              "id": "work-5",
+              "text": "Use the Lead funnel, Lead conversion by source and list, and Opportunity pipeline reports to see how it goes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Check that it works",
+      "subtitle": "A small test list",
+      "clips": [
+        {
+          "id": "05-chk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chk-1",
+              "text": "Import a small test list of two or three leads, with your own number on one of them, and find them by their list name."
+            },
+            {
+              "id": "chk-2",
+              "text": "Convert one lead with Create an opportunity ticked. The lead leaves the Leads list and shows a Converted banner that links to the new contact, and the opportunity appears under Opportunities."
+            },
+            {
+              "id": "chk-3",
+              "text": "Run the Lead funnel report for today. It counts the converted lead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Tips",
+      "subtitle": "Good to know",
+      "clips": [
+        {
+          "id": "06-tip",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "A converted lead is read-only and never loaded again. Its history and open work move to the contact, and you cannot convert a lead while a call or message with it is in progress."
+            },
+            {
+              "id": "tip-2",
+              "text": "When a number belongs to both a contact and a lead, inbound calls and texts match the contact. Keep Skip leads that are already contacts ticked on loads."
+            },
+            {
+              "id": "tip-3",
+              "text": "To act when a lead converts, for example to send a welcome email, use a workflow that starts on Lead Converted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Leads kept apart, worked like contacts, converted when they qualify, and measured. Watch the videos on leads, on accounts and opportunities, and on loading activities for each screen. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
