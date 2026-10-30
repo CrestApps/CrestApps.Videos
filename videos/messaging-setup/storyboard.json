@@ -1,0 +1,263 @@
+{
+  "title": "Messaging: Setting Up Text Messages",
+  "output": "messaging-setup",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "URL": "U.R.L."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Messaging: Setting Up Text Messages",
+      "subtitle": "From a new site to the first customer text",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Before your team can answer customers' texts, the site needs to be connected to an SMS provider, and told where each number's texts should go. This video walks through that setup, from the features to a test text: the provider, the numbers, the entry point, the permissions, and the address used for pictures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What the setup needs",
+      "subtitle": "Six things, in this order",
+      "clips": [
+        {
+          "id": "01-need",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "need-1",
+              "text": "First, turn on the features. One feature, SMS Messaging Channel, brings the inbox and everything it needs."
+            },
+            {
+              "id": "need-2",
+              "text": "Second, connect an SMS provider such as Twilio, and choose the default one. Third, add each of your numbers as a text address."
+            },
+            {
+              "id": "need-3",
+              "text": "Fourth, add an entry point, which says where the texts of a number go, to an agent or to a queue. Fifth, give the right roles their permissions."
+            },
+            {
+              "id": "need-4",
+              "text": "Last, give your provider the webhook address of the site, so that customers' texts and delivery receipts arrive. Then send a test text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn on the features",
+      "subtitle": "SMS Messaging Channel",
+      "clips": [
+        {
+          "id": "02-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fea-1",
+              "text": "Open Tools, Features, and search for messaging. Enable SMS Messaging Channel. It enables the Messaging Workspace, the channel addresses, the work queues and the provider webhook inbox together with it."
+            },
+            {
+              "id": "fea-2",
+              "text": "Omnichannel Messaging Routed Distribution is optional. Enable it only when you want a queue to hand out conversations to the least busy available agent. Enabling the workspace on its own gives you an inbox with nothing to send or receive on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Connect the provider",
+      "subtitle": "Settings, Communication, SMS",
+      "clips": [
+        {
+          "id": "03-provider",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pro-1",
+              "text": "Open Settings, Communication, SMS. On the Providers tab, Default SMS provider chooses the provider that sends texts for every number that does not name its own."
+            },
+            {
+              "id": "pro-2",
+              "text": "Each provider you enable adds a tab. On the Twilio tab, tick Enable Twilio Provider, and enter the Phone Number, the Account SID and the Auth Token that Twilio gives you. The token is never shown again."
+            },
+            {
+              "id": "pro-3",
+              "text": "The Webhook URL field shows the address to give Twilio. In the Twilio console, set the number's incoming message to this address. Customers' texts and delivery receipts then reach the inbox. The site must be reachable from the internet for this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Send a test text",
+      "subtitle": "Check the provider before your team relies on it",
+      "clips": [
+        {
+          "id": "04-test",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tst-1",
+              "text": "Open Tools, Testing, SMS Test. Pick a provider, type a phone number in international format, and click Send. A notice says whether the provider accepted the text. Use a number you can check."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Add your numbers",
+      "subtitle": "Omnichannel Addresses",
+      "clips": [
+        {
+          "id": "05-numbers",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "num-1",
+              "text": "Open Interaction Center, Management, Omnichannel Addresses, and edit a number. The Phone number is the number in international format. Under Used for, Text messages makes it a text address."
+            },
+            {
+              "id": "num-2",
+              "text": "Provider chooses which provider owns this number. Leave it on Use the tenant-default provider, or pin the number to one provider when you use more than one."
+            },
+            {
+              "id": "num-3",
+              "text": "Agents who text from this number lists the people who may send texts from it. Leave it empty when the number is a department number that a queue answers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Say where the texts go",
+      "subtitle": "The text entry point",
+      "clips": [
+        {
+          "id": "06-entry",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ent-1",
+              "text": "Open Interaction Center, Management, Inbound entry points, and edit the entry point of the number. Numbers lists the numbers it answers, and Route to chooses an agent, a queue or an AI agent."
+            },
+            {
+              "id": "ent-2",
+              "text": "For a queue, Target queue chooses the queue, and Queue distribution chooses the shared pool or routed distribution, as the routing video explains."
+            },
+            {
+              "id": "ent-3",
+              "text": "Auto-reply sends a short answer to a customer who writes, at most once a day per conversation. Closed auto-reply answers when the Business hours calendar says you are closed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Give the right people access",
+      "subtitle": "Permissions",
+      "clips": [
+        {
+          "id": "07-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rol-1",
+              "text": "Open Access Control, Roles and edit the role of your agents. Use the messaging workspace opens the inbox, and one of the view permissions decides which conversations a person sees: their own, their queues' unclaimed ones, or all of them."
+            },
+            {
+              "id": "rol-2",
+              "text": "Send group messages lets a person send broadcasts, and Manage the messaging workspace lets a person manage templates. The permissions cover every channel, and there is no permission for a single channel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Pictures and other providers",
+      "subtitle": "The site address, and Telnyx and Azure",
+      "clips": [
+        {
+          "id": "08-base",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bas-1",
+              "text": "Customers can send pictures, and agents can send them too. The provider downloads each picture from your site, so the site must be reachable from the internet. The link is built from the Base URL in Settings, General, and from the address of the request when it is empty."
+            }
+          ]
+        },
+        {
+          "id": "08-others",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "oth-1",
+              "text": "Twilio is not the only choice. Telnyx and Azure Communication Services add their own tab and their own webhook, and a number can be pinned to any enabled provider."
+            },
+            {
+              "id": "oth-2",
+              "text": "Azure Event Grid, which receives Azure Communication Services events, and Azure Blob Storage, which keeps message pictures, have no screen in the admin. They are set up in the site's configuration, with your developer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Where this setup helps",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop connects one number, points it at a Support queue, and answers texts from a shared inbox the same day."
+            },
+            {
+              "id": "use-2",
+              "text": "A company with two brands pins each number to its own provider, and routes each to its own queue."
+            },
+            {
+              "id": "use-3",
+              "text": "A team tests a new number with the SMS Test page before it tells customers about it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Features, provider, numbers, entry point and permissions: five steps from a new site to an inbox that works. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
