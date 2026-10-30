@@ -1,0 +1,244 @@
+{
+  "title": "AI Usage Analytics",
+  "output": "ai-usage-analytics",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "AI Usage Analytics",
+      "subtitle": "What does your AI cost, and where does it go?",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "What does your AI cost, and where does it go? This video shows the AI Usage Analytics report: every request that is sent to an AI service, grouped by model, feature and purpose, the chat completions, the talk time of automated phone calls, and how to build your own usage reports in the Report Builder."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Four questions",
+      "subtitle": "What the report answers",
+      "clips": [
+        {
+          "id": "01-questions",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "q-1",
+              "text": "Which models does your site use, and how many requests does each one get? One answer can take several requests, and every one of them is counted."
+            },
+            {
+              "id": "q-2",
+              "text": "Which feature made the requests: chat, text messages, voice calls, the API or workflows? And why: to answer, to search, to index documents?"
+            },
+            {
+              "id": "q-3",
+              "text": "How many tokens, cached tokens, audio minutes, spoken characters and images? These are the units that your AI provider bills in."
+            },
+            {
+              "id": "q-4",
+              "text": "And how long do the automated AI phone calls last, and how many are handed to a person?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn it on",
+      "subtitle": "Tools, Features",
+      "clips": [
+        {
+          "id": "02-enable",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "en-1",
+              "text": "Usage is recorded only while the AI Usage Analytics feature is on, so nothing used before that can be reported. Enable it under Tools, Features. The report then appears under Reports, Billing and Usage."
+            },
+            {
+              "id": "en-2",
+              "text": "To build your own reports from the same records, also enable the Report Builder, which brings Data Pipelines with it. The usage records are indexed by AI Chat Session Analytics, so that feature must be on as well."
+            }
+          ]
+        }
+      ],
+      "short": "enable"
+    },
+    {
+      "id": "03",
+      "title": "Run the report",
+      "subtitle": "Reports, Billing & Usage",
+      "clips": [
+        {
+          "id": "03-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "Open Reports, Billing and Usage, and AI Usage Analytics. Choose a Date range, such as the last 30 days, and if you like, one AI profile. Then click Show. The report needs the View AI Chat Analytics permission, the same one as the chat reports."
+            },
+            {
+              "id": "run-2",
+              "text": "Metered usage counts every request that was sent to an AI service, one row for each provider, model and kind: chat, embeddings, images, speech, or realtime voice. One reply can take several requests, such as searching your knowledge and then writing the answer, and each one is counted."
+            },
+            {
+              "id": "run-3",
+              "text": "Next to the requests are the tokens in and out, and the cached input, which providers usually bill at a discount. Reasoning, audio, minutes, characters and images are the other units, and a dash means that the model is not billed in that unit. These are the figures to compare with your provider's bill."
+            },
+            {
+              "id": "run-4",
+              "text": "Audio usage covers only speech to text and text to speech, with the hours of audio, the characters and the size. This site has none, so the page says so."
+            },
+            {
+              "id": "run-5",
+              "text": "Chat completions shows the provider calls, the chat sessions, the chat interactions and the total tokens. The table gives the calls, sessions, input, output and tokens, and the average latency, for each user and model."
+            },
+            {
+              "id": "run-6",
+              "text": "The Voice section covers automated AI phone calls. It stays empty here, because this site has made none."
+            }
+          ]
+        }
+      ],
+      "short": "run"
+    },
+    {
+      "id": "04",
+      "title": "Group the figures",
+      "subtitle": "Four group-bys",
+      "clips": [
+        {
+          "id": "04-groups",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "grp-1",
+              "text": "Group metered usage by Model and category to see which feature made the requests. Chat sessions, chat interactions, text messages, voice calls, the API, workflows and other agents each get their own rows."
+            },
+            {
+              "id": "grp-2",
+              "text": "Model and purpose shows why the requests were made: to answer, to search, to index documents, to transcribe, to summarize, and more. Services that you add can name their own."
+            },
+            {
+              "id": "grp-3",
+              "text": "Group completions by AI profile to see which assistant used the tokens, and how many chat sessions it had. That is the table to read when you want to know which assistant is the most expensive."
+            },
+            {
+              "id": "grp-4",
+              "text": "Or group them by connection, to see which AI service account was used. A connection holds the address and the key of an AI service, and several profiles can share one. The other choices are user and model, model, and deployment."
+            },
+            {
+              "id": "grp-5",
+              "text": "Voice calls can be grouped by deployment, AI profile, campaign, channel, engine or day, and audio usage by model, voice or language."
+            }
+          ]
+        }
+      ],
+      "short": "groups"
+    },
+    {
+      "id": "05",
+      "title": "Voice figures",
+      "subtitle": "Automated AI phone calls",
+      "clips": [
+        {
+          "id": "05-voice",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "vo-1",
+              "text": "Calls is the number of automated calls, and AI minutes is how long the callers heard the assistant."
+            },
+            {
+              "id": "vo-2",
+              "text": "Caller minutes is how long the caller spoke, and silence minutes is how long nobody did, on the calls where this can be measured."
+            },
+            {
+              "id": "vo-3",
+              "text": "Average call is the average length of the assistant's part of a call, and handoff rate is the share of calls that were handed to a live agent."
+            },
+            {
+              "id": "vo-4",
+              "text": "Barge-ins per call shows how often callers talked over the assistant. A figure that a kind of call cannot measure is left out, not counted as zero."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Report Builder",
+      "subtitle": "Your own usage reports",
+      "clips": [
+        {
+          "id": "06-builder",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rb-1",
+              "text": "The usage records are also data sets of the AI chat data source, so the Report Builder can build your own reports from them, such as the tokens of each model. Create a new report, and click Add data set."
+            },
+            {
+              "id": "rb-2",
+              "text": "Under AI chat you find AI completion usage, with one row for each request that was sent to an AI service, and AI voice usage, with one row for each phone call. Chat sessions and Chat session metrics are there too. Add AI completion usage."
+            },
+            {
+              "id": "rb-3",
+              "text": "Drag Model and Total token count to the columns, and the preview shows the tokens of each model. A calculated field with your provider's prices turns them into an estimated cost."
+            }
+          ]
+        }
+      ],
+      "short": "builder"
+    },
+    {
+      "id": "07",
+      "title": "Using the numbers",
+      "subtitle": "From figures to decisions",
+      "clips": [
+        {
+          "id": "07-tips",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "tip-1",
+              "text": "Compare the metered usage with your provider's invoice. The tables count requests, so they match what is billed, not only what the chats show."
+            },
+            {
+              "id": "tip-2",
+              "text": "Watch the cached input and the model of each feature. A cheaper model for searching or summarizing can cut the bill without touching the answers."
+            },
+            {
+              "id": "tip-3",
+              "text": "Usage is recorded only from the moment the feature is on, so turn it on early, and keep it on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the usage analytics, let your assistants work, and read where the tokens go. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

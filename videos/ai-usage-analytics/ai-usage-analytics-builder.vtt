@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:03.153 --> 00:00:07.122
+The usage records are also data sets of the AI chat data source,
+
+00:00:07.122 --> 00:00:11.261
+so the Report Builder can build your own reports from them, such as
+
+00:00:11.261 --> 00:00:13.018
+the tokens of each model.
+
+00:00:13.018 --> 00:00:15.853
+Create a new report, and click Add data set.
+
+00:00:16.303 --> 00:00:20.803
+Under AI chat you find AI completion usage, with one row for each
+
+00:00:20.803 --> 00:00:25.239
+request that was sent to an AI service, and AI voice usage, with
+
+00:00:25.239 --> 00:00:27.393
+one row for each phone call.
+
+00:00:27.393 --> 00:00:31.132
+Chat sessions and Chat session metrics are there too.
+
+00:00:31.132 --> 00:00:33.033
+Add AI completion usage.
+
+00:00:33.484 --> 00:00:37.997
+Drag Model and Total token count to the columns, and the preview shows
+
+00:00:37.997 --> 00:00:39.838
+the tokens of each model.
+
+00:00:39.838 --> 00:00:45.004
+A calculated field with your provider's prices turns them into an estimated cost.
+

@@ -1,0 +1,88 @@
+{
+  "title": "AI Usage Analytics: Models, Tokens, Voice Calls and Report Builder Data Sets | CrestApps for Orchard Core",
+  "description": "What does your AI cost, and where does it go? The AI Usage Analytics report of CrestApps shows every request that is sent to an AI service, per model, feature and purpose, the chat completions, and the talk time of automated AI phone calls. This video shows how to turn it on, read the tables, group the figures, and build your own usage reports in the Report Builder.\n\nIn this video:\n• The questions the report answers\n• Turning on AI Usage Analytics\n• Metered usage, audio usage, chat completions and voice\n• The four group-bys\n• The voice figures\n• The AI chat data sets of the Report Builder\n• Using the numbers",
+  "hashtags": [
+    "OrchardCore",
+    "AI",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI usage",
+    "AI cost",
+    "tokens",
+    "AI analytics",
+    "Report Builder",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Four questions"
+    },
+    {
+      "time": "1:00",
+      "title": "Turn it on"
+    },
+    {
+      "time": "1:32",
+      "title": "Run the report"
+    },
+    {
+      "time": "3:08",
+      "title": "Group the figures"
+    },
+    {
+      "time": "4:21",
+      "title": "Voice figures"
+    },
+    {
+      "time": "4:59",
+      "title": "Report Builder"
+    },
+    {
+      "time": "5:45",
+      "title": "Using the numbers"
+    },
+    {
+      "time": "6:15",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual: analytics",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/ai/analytics"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/ai/usage-analytics"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.AI.UsageAnalytics"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/ai/analytics.md",
+    "src/CrestApps.Docs/docs/ai/usage-analytics.md"
+  ],
+  "length": "6:24"
+}

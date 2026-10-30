@@ -1,0 +1,64 @@
+1
+00:00:03,222 --> 00:00:09,051
+Group metered usage by Model and category to see which feature made the requests.
+
+2
+00:00:09,051 --> 00:00:15,483
+Chat sessions, chat interactions, text messages, voice calls, the API, workflows and other
+
+3
+00:00:15,483 --> 00:00:17,962
+agents each get their own rows.
+
+4
+00:00:18,427 --> 00:00:22,213
+Model and purpose shows why the requests were made:
+
+5
+00:00:22,213 --> 00:00:27,925
+to answer, to search, to index documents, to transcribe, to summarize, and more.
+
+6
+00:00:27,925 --> 00:00:31,047
+Services that you add can name their own.
+
+7
+00:00:31,506 --> 00:00:35,976
+Group completions by AI profile to see which assistant used the tokens, and
+
+8
+00:00:35,976 --> 00:00:37,962
+how many chat sessions it had.
+
+9
+00:00:37,962 --> 00:00:41,770
+That is the table to read when you want to know which assistant
+
+10
+00:00:41,770 --> 00:00:43,316
+is the most expensive.
+
+11
+00:00:43,986 --> 00:00:48,668
+Or group them by connection, to see which AI service account was used.
+
+12
+00:00:48,668 --> 00:00:52,981
+A connection holds the address and the key of an AI service, and
+
+13
+00:00:52,981 --> 00:00:55,260
+several profiles can share one.
+
+14
+00:00:55,260 --> 00:00:59,326
+The other choices are user and model, model, and deployment.
+
+15
+00:01:01,118 --> 00:01:07,407
+Voice calls can be grouped by deployment, AI profile, campaign, channel, engine or
+
+16
+00:01:07,407 --> 00:01:11,338
+day, and audio usage by model, voice or language.
+

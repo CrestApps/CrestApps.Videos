@@ -1,0 +1,360 @@
+1
+00:00:01,000 --> 00:00:04,015
+What does your AI cost, and where does it go?
+
+2
+00:00:04,015 --> 00:00:07,148
+This video shows the AI Usage Analytics report:
+
+3
+00:00:07,148 --> 00:00:11,641
+every request that is sent to an AI service, grouped by model, feature
+
+4
+00:00:11,641 --> 00:00:16,607
+and purpose, the chat completions, the talk time of automated phone calls, and
+
+5
+00:00:16,607 --> 00:00:20,390
+how to build your own usage reports in the Report Builder.
+
+6
+00:00:24,990 --> 00:00:29,998
+Which models does your site use, and how many requests does each one get?
+
+7
+00:00:29,998 --> 00:00:34,880
+One answer can take several requests, and every one of them is counted.
+
+8
+00:00:35,630 --> 00:00:38,485
+Which feature made the requests:
+
+9
+00:00:38,485 --> 00:00:43,067
+chat, text messages, voice calls, the API or workflows?
+
+10
+00:00:43,067 --> 00:00:44,119
+And why:
+
+11
+00:00:44,119 --> 00:00:47,650
+to answer, to search, to index documents?
+
+12
+00:00:48,400 --> 00:00:53,981
+How many tokens, cached tokens, audio minutes, spoken characters and images?
+
+13
+00:00:53,981 --> 00:00:57,860
+These are the units that your AI provider bills in.
+
+14
+00:00:58,610 --> 00:00:59,117
+And how long do the automated AI phone calls last, and how many
+
+15
+00:00:59,117 --> 00:00:59,330
+are handed to a person?
+
+16
+00:01:03,574 --> 00:01:08,360
+Usage is recorded only while the AI Usage Analytics feature is on, so
+
+17
+00:01:08,360 --> 00:01:11,359
+nothing used before that can be reported.
+
+18
+00:01:11,359 --> 00:01:13,784
+Enable it under Tools, Features.
+
+19
+00:01:13,784 --> 00:01:17,804
+The report then appears under Reports, Billing and Usage.
+
+20
+00:01:18,256 --> 00:01:22,672
+To build your own reports from the same records, also enable the Report
+
+21
+00:01:22,672 --> 00:01:25,597
+Builder, which brings Data Pipelines with it.
+
+22
+00:01:25,597 --> 00:01:30,242
+The usage records are indexed by AI Chat Session Analytics, so that feature
+
+23
+00:01:30,242 --> 00:01:31,676
+must be on as well.
+
+24
+00:01:35,921 --> 00:01:39,887
+Open Reports, Billing and Usage, and AI Usage Analytics.
+
+25
+00:01:39,887 --> 00:01:43,918
+Choose a Date range, such as the last 30 days, and if you
+
+26
+00:01:43,918 --> 00:01:45,645
+like, one AI profile.
+
+27
+00:01:45,645 --> 00:01:47,053
+Then click Show.
+
+28
+00:01:47,053 --> 00:01:53,131
+The report needs the View AI Chat Analytics permission, the same one as the chat reports.
+
+29
+00:01:53,585 --> 00:01:58,321
+Metered usage counts every request that was sent to an AI service, one
+
+30
+00:01:58,321 --> 00:02:01,062
+row for each provider, model and kind:
+
+31
+00:02:01,062 --> 00:02:04,676
+chat, embeddings, images, speech, or realtime voice.
+
+32
+00:02:04,676 --> 00:02:09,910
+One reply can take several requests, such as searching your knowledge and then
+
+33
+00:02:09,910 --> 00:02:13,025
+writing the answer, and each one is counted.
+
+34
+00:02:13,482 --> 00:02:17,421
+Next to the requests are the tokens in and out, and the cached
+
+35
+00:02:17,421 --> 00:02:20,666
+input, which providers usually bill at a discount.
+
+36
+00:02:20,666 --> 00:02:25,648
+Reasoning, audio, minutes, characters and images are the other units, and a dash
+
+37
+00:02:25,648 --> 00:02:28,776
+means that the model is not billed in that unit.
+
+38
+00:02:28,776 --> 00:02:32,542
+These are the figures to compare with your provider's bill.
+
+39
+00:02:32,995 --> 00:02:37,876
+Audio usage covers only speech to text and text to speech, with the
+
+40
+00:02:37,876 --> 00:02:41,219
+hours of audio, the characters and the size.
+
+41
+00:02:41,219 --> 00:02:44,295
+This site has none, so the page says so.
+
+42
+00:02:44,772 --> 00:02:52,092
+Chat completions shows the provider calls, the chat sessions, the chat interactions and the total tokens.
+
+43
+00:02:52,092 --> 00:02:57,631
+The table gives the calls, sessions, input, output and tokens, and the average
+
+44
+00:02:57,631 --> 00:03:00,202
+latency, for each user and model.
+
+45
+00:03:00,655 --> 00:03:04,102
+The Voice section covers automated AI phone calls.
+
+46
+00:03:04,102 --> 00:03:07,735
+It stays empty here, because this site has made none.
+
+47
+00:03:11,957 --> 00:03:17,786
+Group metered usage by Model and category to see which feature made the requests.
+
+48
+00:03:17,786 --> 00:03:24,218
+Chat sessions, chat interactions, text messages, voice calls, the API, workflows and other
+
+49
+00:03:24,218 --> 00:03:26,697
+agents each get their own rows.
+
+50
+00:03:27,161 --> 00:03:30,947
+Model and purpose shows why the requests were made:
+
+51
+00:03:30,947 --> 00:03:36,660
+to answer, to search, to index documents, to transcribe, to summarize, and more.
+
+52
+00:03:36,660 --> 00:03:39,781
+Services that you add can name their own.
+
+53
+00:03:40,240 --> 00:03:44,711
+Group completions by AI profile to see which assistant used the tokens, and
+
+54
+00:03:44,711 --> 00:03:46,697
+how many chat sessions it had.
+
+55
+00:03:46,697 --> 00:03:50,505
+That is the table to read when you want to know which assistant
+
+56
+00:03:50,505 --> 00:03:52,050
+is the most expensive.
+
+57
+00:03:52,721 --> 00:03:57,403
+Or group them by connection, to see which AI service account was used.
+
+58
+00:03:57,403 --> 00:04:01,716
+A connection holds the address and the key of an AI service, and
+
+59
+00:04:01,716 --> 00:04:03,995
+several profiles can share one.
+
+60
+00:04:03,995 --> 00:04:08,061
+The other choices are user and model, model, and deployment.
+
+61
+00:04:09,852 --> 00:04:16,142
+Voice calls can be grouped by deployment, AI profile, campaign, channel, engine or
+
+62
+00:04:16,142 --> 00:04:20,072
+day, and audio usage by model, voice or language.
+
+63
+00:04:24,272 --> 00:04:28,344
+Calls is the number of automated calls, and AI minutes is how long
+
+64
+00:04:28,344 --> 00:04:30,492
+the callers heard the assistant.
+
+65
+00:04:31,242 --> 00:04:35,769
+Caller minutes is how long the caller spoke, and silence minutes is how
+
+66
+00:04:35,769 --> 00:04:39,472
+long nobody did, on the calls where this can be measured.
+
+67
+00:04:40,222 --> 00:04:44,281
+Average call is the average length of the assistant's part of a call,
+
+68
+00:04:44,281 --> 00:04:48,502
+and handoff rate is the share of calls that were handed to a live agent.
+
+69
+00:04:49,252 --> 00:04:53,743
+Barge-ins per call shows how often callers talked over the assistant.
+
+70
+00:04:53,743 --> 00:04:58,712
+A figure that a kind of call cannot measure is left out, not counted as zero.
+
+71
+00:05:02,865 --> 00:05:06,834
+The usage records are also data sets of the AI chat data source,
+
+72
+00:05:06,834 --> 00:05:10,973
+so the Report Builder can build your own reports from them, such as
+
+73
+00:05:10,973 --> 00:05:12,731
+the tokens of each model.
+
+74
+00:05:12,731 --> 00:05:15,565
+Create a new report, and click Add data set.
+
+75
+00:05:16,016 --> 00:05:20,515
+Under AI chat you find AI completion usage, with one row for each
+
+76
+00:05:20,515 --> 00:05:24,951
+request that was sent to an AI service, and AI voice usage, with
+
+77
+00:05:24,951 --> 00:05:27,106
+one row for each phone call.
+
+78
+00:05:27,106 --> 00:05:30,845
+Chat sessions and Chat session metrics are there too.
+
+79
+00:05:30,845 --> 00:05:32,746
+Add AI completion usage.
+
+80
+00:05:33,197 --> 00:05:37,710
+Drag Model and Total token count to the columns, and the preview shows
+
+81
+00:05:37,710 --> 00:05:39,551
+the tokens of each model.
+
+82
+00:05:39,551 --> 00:05:44,717
+A calculated field with your provider's prices turns them into an estimated cost.
+
+83
+00:05:48,917 --> 00:05:52,314
+Compare the metered usage with your provider's invoice.
+
+84
+00:05:52,314 --> 00:05:57,437
+The tables count requests, so they match what is billed, not only what the chats show.
+
+85
+00:05:58,187 --> 00:06:01,689
+Watch the cached input and the model of each feature.
+
+86
+00:06:01,689 --> 00:06:07,447
+A cheaper model for searching or summarizing can cut the bill without touching the answers.
+
+87
+00:06:08,197 --> 00:06:12,186
+Usage is recorded only from the moment the feature is on, so turn
+
+88
+00:06:12,186 --> 00:06:14,097
+it on early, and keep it on.
+
+89
+00:06:16,097 --> 00:06:21,256
+Turn on the usage analytics, let your assistants work, and read where the tokens go.
+
+90
+00:06:21,256 --> 00:06:22,747
+Thanks for watching.
+

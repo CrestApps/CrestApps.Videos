@@ -1,0 +1,92 @@
+1
+00:00:03,245 --> 00:00:07,211
+Open Reports, Billing and Usage, and AI Usage Analytics.
+
+2
+00:00:07,211 --> 00:00:11,242
+Choose a Date range, such as the last 30 days, and if you
+
+3
+00:00:11,242 --> 00:00:12,969
+like, one AI profile.
+
+4
+00:00:12,969 --> 00:00:14,377
+Then click Show.
+
+5
+00:00:14,377 --> 00:00:20,455
+The report needs the View AI Chat Analytics permission, the same one as the chat reports.
+
+6
+00:00:20,909 --> 00:00:25,645
+Metered usage counts every request that was sent to an AI service, one
+
+7
+00:00:25,645 --> 00:00:28,386
+row for each provider, model and kind:
+
+8
+00:00:28,386 --> 00:00:32,000
+chat, embeddings, images, speech, or realtime voice.
+
+9
+00:00:32,000 --> 00:00:37,234
+One reply can take several requests, such as searching your knowledge and then
+
+10
+00:00:37,234 --> 00:00:40,349
+writing the answer, and each one is counted.
+
+11
+00:00:40,806 --> 00:00:44,745
+Next to the requests are the tokens in and out, and the cached
+
+12
+00:00:44,745 --> 00:00:47,990
+input, which providers usually bill at a discount.
+
+13
+00:00:47,990 --> 00:00:52,972
+Reasoning, audio, minutes, characters and images are the other units, and a dash
+
+14
+00:00:52,972 --> 00:00:56,100
+means that the model is not billed in that unit.
+
+15
+00:00:56,100 --> 00:00:59,866
+These are the figures to compare with your provider's bill.
+
+16
+00:01:00,319 --> 00:01:05,200
+Audio usage covers only speech to text and text to speech, with the
+
+17
+00:01:05,200 --> 00:01:08,543
+hours of audio, the characters and the size.
+
+18
+00:01:08,543 --> 00:01:11,619
+This site has none, so the page says so.
+
+19
+00:01:12,096 --> 00:01:19,416
+Chat completions shows the provider calls, the chat sessions, the chat interactions and the total tokens.
+
+20
+00:01:19,416 --> 00:01:24,955
+The table gives the calls, sessions, input, output and tokens, and the average
+
+21
+00:01:24,955 --> 00:01:27,526
+latency, for each user and model.
+
+22
+00:01:27,979 --> 00:01:31,426
+The Voice section covers automated AI phone calls.
+
+23
+00:01:31,426 --> 00:01:35,059
+It stays empty here, because this site has made none.
+

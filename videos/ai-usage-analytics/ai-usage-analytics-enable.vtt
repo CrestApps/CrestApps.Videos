@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.244 --> 00:00:08.030
+Usage is recorded only while the AI Usage Analytics feature is on, so
+
+00:00:08.030 --> 00:00:11.029
+nothing used before that can be reported.
+
+00:00:11.029 --> 00:00:13.454
+Enable it under Tools, Features.
+
+00:00:13.454 --> 00:00:17.474
+The report then appears under Reports, Billing and Usage.
+
+00:00:17.926 --> 00:00:22.342
+To build your own reports from the same records, also enable the Report
+
+00:00:22.342 --> 00:00:25.267
+Builder, which brings Data Pipelines with it.
+
+00:00:25.267 --> 00:00:29.912
+The usage records are indexed by AI Chat Session Analytics, so that feature
+
+00:00:29.912 --> 00:00:31.346
+must be on as well.
+
