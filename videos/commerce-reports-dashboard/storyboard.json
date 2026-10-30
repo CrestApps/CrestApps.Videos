@@ -1,0 +1,261 @@
+{
+  "title": "Commerce reports and dashboard",
+  "output": "commerce-reports-dashboard",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "PDF": "P.D.F.",
+    "OSS": "O.S.S.",
+    "VAT": "vat"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Commerce reports and dashboard",
+      "subtitle": "What your store sold, and what needs doing",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Reports answer what the store sold, to whom, and what needs doing. This video shows how to run and export the commerce reports, how to put them on the dashboard, and how to start your own from a ready made one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why store reports",
+      "subtitle": "What the store can answer",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Reports answer the questions a store owner asks every week: how much did we sell, and of what, by day, by category and by country."
+            },
+            {
+              "id": "why-2",
+              "text": "They tell you who buys, whether they come back, and how many checkouts end in a payment."
+            },
+            {
+              "id": "why-3",
+              "text": "They show what needs doing: orders still to ship, stock running low, and payments disputed with a bank."
+            },
+            {
+              "id": "why-4",
+              "text": "You see the answer on screen, and export it when you want a file."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Reports from each part of the store",
+      "subtitle": "Turn on a feature, get its reports",
+      "clips": [
+        {
+          "id": "02-more",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "more-1",
+              "text": "The order reports come with Orders: sales, products, customers, tax, refunds and disputes."
+            },
+            {
+              "id": "more-2",
+              "text": "Inventory adds stock on hand and stock movements. Shipping adds shipping times."
+            },
+            {
+              "id": "more-3",
+              "text": "Digital downloads and product reviews add a report each: the links used, and the ratings and reviews waiting for approval."
+            },
+            {
+              "id": "more-4",
+              "text": "Subscriptions add new and expiring subscriptions and the revenue they bring. A report shows up in the menu when its feature is on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Run a report",
+      "subtitle": "Period, Show and Export",
+      "clips": [
+        {
+          "id": "03-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "With Reports turned on, open Reports, Commerce, Sales. At the top, the date range is a drop down of presets, such as today, last month or this quarter, or your own dates."
+            },
+            {
+              "id": "run-2",
+              "text": "Choose Last 30 Days and click Show. The figures answer the basics: orders, items sold, the average order value, discounts, shipping, tax, refunds and the net."
+            },
+            {
+              "id": "run-3",
+              "text": "Scroll down for the chart, with the day by day sales. Each currency gets its own figures, because amounts in different currencies are never added together."
+            },
+            {
+              "id": "run-4",
+              "text": "Export gives the report as a CSV file, an Excel workbook or a PDF, laid out like the page. The Excel and PDF choices come with their own features."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The order, stock and shipping reports",
+      "subtitle": "A tour",
+      "clips": [
+        {
+          "id": "04-tour",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "tour-1",
+              "text": "Sales by product shows how many of each product sold, and for how much. Sales by category shows the same for each category."
+            },
+            {
+              "id": "tour-2",
+              "text": "Customers shows first time and returning buyers, and your top buyers. Cohorts and retention groups buyers by the month of their first order. Checkouts shows how many checkouts were paid, failed or left."
+            },
+            {
+              "id": "tour-3",
+              "text": "Sales by country, tax on orders, and the VAT one stop shop report, which gives the figures of the European union return, by country and rate."
+            },
+            {
+              "id": "tour-4",
+              "text": "Discounts shows what each promotion code took off. Refunds lists each refund with its reason. Disputes lists the payments a buyer disputed with their bank, open ones first."
+            },
+            {
+              "id": "tour-5",
+              "text": "Orders to ship lists paid orders that are not shipped in full, oldest first, with the days each has waited. It is the list to start the day with."
+            },
+            {
+              "id": "tour-6",
+              "text": "With Inventory on, Stock on hand lists every counted item, out of stock and low first, and Stock movements shows what each item received, sold and got back, and how many days its stock lasts."
+            },
+            {
+              "id": "tour-7",
+              "text": "With Shipping on, Shipping times shows how long orders waited to ship, and how long deliveries took, by carrier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Put reports on the dashboard",
+      "subtitle": "Widgets",
+      "clips": [
+        {
+          "id": "05-dashboard",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dash-1",
+              "text": "With the Admin Dashboard on, open Manage Dashboard and Add Widget. There is a ready made widget for each report, such as sales overview, top selling products, orders to ship, refunds and low stock."
+            },
+            {
+              "id": "dash-2",
+              "text": "A Sales Overview widget has a period that moves with the clock, so last 30 days is always the 30 days up to now, a choice of figures, tables or charts, and how long it keeps what it shows, so the dashboard stays quick."
+            },
+            {
+              "id": "dash-3",
+              "text": "Top Selling Products is a widget in the same way. Give it a title and publish."
+            },
+            {
+              "id": "dash-4",
+              "text": "The Report widget shows any report you may view. Choose the report, and its period and what to show."
+            },
+            {
+              "id": "dash-5",
+              "text": "Open the dashboard. Each widget shows its report, and a person sees a widget only when they may view its report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Reports to adapt",
+      "subtitle": "Copy one and change it",
+      "clips": [
+        {
+          "id": "06-adapt",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ada-1",
+              "text": "To build your own, start from a ready made one. Under Tools, Recipes, run Reports: store reports to adapt. It turns on the Report Builder and adds the order reports as reports of your own."
+            },
+            {
+              "id": "ada-2",
+              "text": "Open Reports, Report Builder. The store reports are in the Store group, and they are yours to change."
+            },
+            {
+              "id": "ada-3",
+              "text": "Run one, or choose Edit to change what it shows, and save it as your own. The inventory, reviews, downloads, shipping and subscriptions features have recipes of their own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Use cases",
+      "subtitle": "Four ways to use reports",
+      "clips": [
+        {
+          "id": "07-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A weekly look: sales and orders to ship, on the dashboard."
+            },
+            {
+              "id": "use-2",
+              "text": "The tax return: the one stop shop report, as a file."
+            },
+            {
+              "id": "use-3",
+              "text": "Your own report: copy a ready made one, and change it."
+            },
+            {
+              "id": "use-4",
+              "text": "Your accountant: export to Excel or PDF."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Run, export, put them on the dashboard, and adapt your own. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
