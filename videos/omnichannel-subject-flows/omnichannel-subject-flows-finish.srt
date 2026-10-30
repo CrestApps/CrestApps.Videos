@@ -1,0 +1,44 @@
+1
+00:00:03,191 --> 00:00:09,836
+Open Interaction Center, Management, Subject Flows, and click Manage Flow next to the subject.
+
+2
+00:00:09,836 --> 00:00:11,564
+A new flow is empty.
+
+3
+00:00:11,564 --> 00:00:14,355
+Click Add Action, and pick the type:
+
+4
+00:00:14,355 --> 00:00:19,871
+Finish, Try Again, New Activity, or Convert Lead, which appears with the CRM.
+
+5
+00:00:20,322 --> 00:00:23,942
+Finish completes the activity and nothing else happens.
+
+6
+00:00:23,942 --> 00:00:27,680
+Pick the disposition it responds to, here Not Interested.
+
+7
+00:00:27,680 --> 00:00:32,901
+When to choose this disposition is guidance the AI reads when it picks an outcome.
+
+8
+00:00:32,901 --> 00:00:36,046
+It starts as the disposition's own description.
+
+9
+00:00:36,046 --> 00:00:41,267
+Show communication preferences lets the action flag the contact, here Do not call,
+
+10
+00:00:41,267 --> 00:00:44,175
+and with the CRM, set the status of a lead.
+
+11
+00:00:44,175 --> 00:00:45,302
+Click Create.
+

@@ -1,0 +1,24 @@
+1
+00:00:03,207 --> 00:00:08,149
+New Activity creates a new activity, for the same subject or another one.
+
+2
+00:00:08,149 --> 00:00:12,716
+Pick Interested, and the target subject, here Test Drive Follow-up.
+
+3
+00:00:12,716 --> 00:00:18,347
+The new activity takes its campaign, channel and interaction type from that subject.
+
+4
+00:00:18,797 --> 00:00:23,262
+Set its urgency, and the hours until it is scheduled, here 48.
+
+5
+00:00:23,262 --> 00:00:29,237
+A disposition can have several actions, for example Finish and New Activity together.
+
+6
+00:00:29,688 --> 00:00:35,108
+Back in the list, the Missing flow badge is gone, because the subject now has actions.
+
