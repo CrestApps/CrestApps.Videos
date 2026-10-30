@@ -13,8 +13,10 @@ Everything kept here is what's needed to make a video again, or to change how it
 | Video | Length | YouTube | Source |
 | --- | --- | --- | --- |
 | [Agent-to-Agent (A2A): Specialist AI Agents Across Systems](videos/ai-a2a) | 5:16 | [https://youtu.be/Yf0FfborI2o](https://youtu.be/Yf0FfborI2o) | CrestApps/CrestApps.OrchardCore |
+| [AI Agents: Specialists Your AI Assistant Can Call](videos/ai-agents) | 3:22 | [https://youtu.be/jXRlmWtw-00](https://youtu.be/jXRlmWtw-00) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat: Talk to Your Assistants in the Admin and on Your Website](videos/ai-chat) | 8:05 | [https://youtu.be/a2S4QqdEbLc](https://youtu.be/a2S4QqdEbLc) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Interactions: Try Any Model and Set It Up as You Chat](videos/ai-chat-interactions) | 6:30 | [https://youtu.be/jkkWgJwaFEE](https://youtu.be/jkkWgJwaFEE) | CrestApps/CrestApps.OrchardCore |
+| [AI Chat Widgets: An Assistant in the Admin and on Your Website](videos/ai-chat-widgets) | 5:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Connections and Deployments: Connect Your Site to an AI Service](videos/ai-connections-deployments) | 5:56 | [https://youtu.be/X0tP_6Bdzs4](https://youtu.be/X0tP_6Bdzs4) | CrestApps/CrestApps.OrchardCore |
 | [AI Data Extraction and Post-Session Processing: Learn From Every Chat](videos/ai-data-extraction-post-session) | 3:34 | [https://youtu.be/JiL7Sa_1x1I](https://youtu.be/JiL7Sa_1x1I) | CrestApps/CrestApps.OrchardCore |
 | [AI Data Sources: Answers From Your Site's Content](videos/ai-data-sources) | 5:26 | [https://youtu.be/LDs71B6_6m8](https://youtu.be/LDs71B6_6m8) | CrestApps/CrestApps.OrchardCore |
@@ -35,11 +37,15 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Realtime Voice: Set Up a Spoken Conversation With Your AI Assistant](videos/ai-realtime-voice) | 4:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Site Settings: A Tour of Settings, Artificial Intelligence](videos/ai-site-settings) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Tools and Tool Instances: Let an Assistant Take Action](videos/ai-tools-and-tool-instances) | 6:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices](videos/commerce) | 10:30 | [https://youtu.be/YQHVdIucYgI](https://youtu.be/YQHVdIucYgI) | CrestApps/CrestApps.OrchardCore |
+| [Commerce Automation: Emails and Actions When Orders, Stock and Shipments Change](videos/commerce-automation) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Store Reports and Admin Dashboard Widgets: Sales, Stock and Tax](videos/commerce-reports-dashboard) | 6:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Company Approvals and Pay on Account: Sell to Businesses](videos/company-approvals) | 7:31 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Agent Offers, Calls and Wrap-Up in the Contact Center](videos/contact-center-agent-calls) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Agent States: Reason Codes for Lunch, Meetings and Training](videos/contact-center-agent-states) | 3:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -74,30 +80,59 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Contact Center Troubleshooting: Menus, Phones, Audio, Dialer, Reports](videos/contact-center-troubleshooting) | 7:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Voice Media: Hold Music and Prompts for Your Queues](videos/contact-center-voice-media) | 5:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Voicemail: Greetings, Inboxes and Shared Boxes](videos/contact-center-voicemail) | 5:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Contact Import and Export: Duplicates, Countries and Last Activity](videos/contact-import-and-export) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Content Access Control: Let Only the Right Roles View a Page](videos/content-access-control) | 4:26 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Phone and Address Fields: Contact Details That Follow the Country](videos/content-fields) | 5:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Bulk Import and Export: Move Many Content Items With CSV or Excel](videos/content-transfer) | 7:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Content Transfer Columns: What Each Part and Field Expects in an Import File](videos/content-transfer-columns) | 3:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Content Transfer Recovery: Errors, Stalled Imports and Cleanup](videos/content-transfer-recovery) | 3:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Coupons and Discounts: Codes, Automatic Offers and Buy X Get Y](videos/coupons-and-discounts) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Customers and Companies: Know Who Buys From You, and Sell to Businesses](videos/customers-companies) | 12:51 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Customers, Guests and Privacy: Merged Accounts, Retention and Checkout Fields](videos/customers-guests-privacy) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Do Not Call Lists: Never Call a Number You Must Not Call](videos/do-not-call-lists) | 7:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Digital Downloads: Sell Files and Deliver Them Safely](videos/downloads) | 5:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Fundraising: Run a Donation Campaign With Tax Receipts](videos/fundraising) | 5:14 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Gift Cards: Sell, Issue and Pay with a Code](videos/gift-cards) | 6:21 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Headless Commerce API: Admin Setup for Your Own Storefront, App or Integration](videos/headless-api) | 6:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Installment Plans: Sell on a Payment Plan with a Down Payment and Scheduled Payments](videos/installment-plans) | 6:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Inventory: Count Stock, Locations and Purchase Orders](videos/inventory) | 6:22 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Invoices and Receipts: Pay Links, Branding, Numbers and Refund Notices](videos/invoices-receipts) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Marketing: Email Your Customers by What They Bought](videos/marketing) | 5:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Marketplace and Classifieds: Let Other People Sell on Your Site](videos/marketplace-classifieds) | 8:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Markets: Sell Abroad in the Shopper's Currency](videos/markets) | 5:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Memberships: Sell Access and Open Content to Members](videos/memberships) | 4:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [The Messaging Inbox: Answer Customers' Texts as a Team](videos/messaging-inbox) | 5:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Messaging Routing and Transfers: Who Answers a Text](videos/messaging-routing-and-transfers) | 4:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Messaging Setup: Connect SMS and Start Receiving Texts](videos/messaging-setup) | 5:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Messaging Templates and Broadcasts: Canned Replies and Group Texts](videos/messaging-templates-broadcasts) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Management 2.0 Walkthroughs](videos/omnichannel-2-walkthroughs) | 6:43 | [https://youtu.be/YPLb7Wf9f-4](https://youtu.be/YPLb7Wf9f-4) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Accounts and Opportunities: Companies, Deals and CRM Reports](videos/omnichannel-accounts-opportunities) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Activities: Work, Complete and Log Calls and Texts](videos/omnichannel-activities) | 5:19 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Addresses: The Numbers Your Business Owns](videos/omnichannel-addresses) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Manage Activities in Bulk: Filter, Reassign, Reprioritize and Purge](videos/omnichannel-bulk-activities) | 4:09 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Cadences: Automatic Follow-ups for Quiet Customers](videos/omnichannel-cadences) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Contacts: Tie Every Call and Text to a Person](videos/omnichannel-contacts) | 4:55 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel CRM Setup: Leads, Accounts and Opportunities in Minutes](videos/omnichannel-crm-setup) | 5:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Leads: Work Prospects and Convert the Ones That Qualify](videos/omnichannel-leads) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Load Activities: Turn a List of Contacts Into Work](videos/omnichannel-load-activities) | 4:49 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Subject Flows: What Happens After Each Disposition](videos/omnichannel-subject-flows) | 4:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Subjects: Outbound and Inbound, Manual and Automated](videos/omnichannel-subjects) | 4:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Orders: Find, Refund, Cancel and Create Orders](videos/orders) | 7:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [Payments: Stripe, Offline Payments, Refunds and Webhooks](videos/payments) | 6:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Quotes, Order Bump, Add Items and Disputes in Your Store](videos/orders-quotes-disputes) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Payments: Stripe, Offline Payments, Refunds and Webhooks](videos/payments) | 6:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Phone Number Verification: Know Which Numbers Are Real](videos/phone-number-verification) | 7:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Point of Sale: Sell at the Counter with the Same Store](videos/point-of-sale) | 7:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [Products: Prices, Sales and Shop Pages for Your Store](videos/products) | 8:47 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Point of Sale: A Day at the Till, Step by Step, and What the Manager Sees](videos/point-of-sale-till) | 3:48 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Bundles, Grouped Products, Upsells and Compare](videos/product-bundles-and-recommendations) | 5:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Import, Export and Feeds: CSV, Shopify and Google Shopping](videos/product-import-and-feeds) | 4:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Listings and Attributes: Filters, Sorts, Search and Layout](videos/product-listings-and-attributes) | 5:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Search Indexes: Lucene, Elasticsearch and Azure AI Search](videos/product-search-indexes) | 3:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Variants and Prices: Sizes, Colors, SKUs and Recurring Prices](videos/product-variants-and-prices) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Products: Prices, Sales and Shop Pages for Your Store](videos/products) | 8:54 | [https://youtu.be/y04hQZp-s3s](https://youtu.be/y04hQZp-s3s) | CrestApps/CrestApps.OrchardCore |
+| [Purchase Orders and Stock Alerts: Reorder Before You Run Out](videos/purchase-orders-and-stock-alerts) | 4:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Recipes: Run, Check and Export a Site Setup](videos/recipes) | 3:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Builder: Drag-and-Drop Reports Over Your Site's Data](videos/report-builder) | 13:01 | [https://youtu.be/QRosrn4BE90](https://youtu.be/QRosrn4BE90) | [CrestApps/CrestApps.OrchardCore#814](https://github.com/CrestApps/CrestApps.OrchardCore/pull/814) |
+| [Report Builder Administration: Permissions, Moving Reports and Large Data](videos/report-builder-administration) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Builder Dashboards: Queries, Containers and Click to Filter](videos/report-builder-dashboards) | 4:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Builder Formulas: Calculated Fields, Labels and Rates](videos/report-builder-formulas) | 3:41 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Groups and PDF Export in the Report Builder](videos/report-builder-groups-and-pdf) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -107,13 +142,16 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Shipments and Labels: Ship, Track and Deliver Orders](videos/shipments-and-labels) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Shipping: Zones, Methods, Pickup and Shipments for Your Store](videos/shipping) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Site Administration Walkthroughs: Fields, Roles, Users and Imports](videos/site-administration-walkthroughs) | 5:14 | [https://youtu.be/f1en3LF024s](https://youtu.be/f1en3LF024s) | CrestApps/CrestApps.OrchardCore |
 | [Wizards, Recipes and Shared Resources: Guided Steps and Quick Setups](videos/site-wizard-recipes) | 5:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Store Credit, Loyalty Points and Referrals](videos/store-credit-loyalty-referrals) | 5:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Stripe: Cards, Apple Pay, Google Pay, Saved Cards and Disputes](videos/stripe-wallets-cards-disputes) | 4:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Subscriptions and Memberships: Plans, Sign-up and Agreements](videos/subscriptions) | 5:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Subscriptions: Pause, Resume, Cancel and the Whole Lifecycle](videos/subscriptions-lifecycle) | 4:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Taxation: Categories, Jurisdictions and Rules for Your Store](videos/taxation) | 6:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Telephony: Make and Take Calls from the Browser](videos/telephony) | 9:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Asterisk Setup: Connect Your Own Phone System](videos/telephony-asterisk-setup) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -123,10 +161,17 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Soft Phone Administration: Provider, Diagnostics and Click to Dial](videos/telephony-soft-phone-administration) | 3:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Telnyx Settings: Connect, Noise Suppression and Answering Machine Detection](videos/telephony-telnyx-settings) | 3:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Tenant Hierarchy: Parent Tenants That Create and Open Their Own Sites](videos/tenant-hierarchy) | 8:53 | [https://youtu.be/eL-gcGqRWxw](https://youtu.be/eL-gcGqRWxw) | [CrestApps/CrestApps.OrchardCore#818](https://github.com/CrestApps/CrestApps.OrchardCore/pull/818) |
+| [Tenant Hierarchy Operations: Filter, Fix and Manage Client Sites](videos/tenant-hierarchy-operations) | 4:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Time Zones: Friendly Names Instead of Hundreds of Technical Ones](videos/time-zones) | 4:13 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Use case: Let the AI Answer Your Customers](videos/use-case-ai-answers-customers) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Use case: Follow Up Automatically](videos/use-case-automatic-follow-ups) | 4:45 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Run an Inbound Call Center: Numbers, Queues, Routing and Agents](videos/use-case-inbound-call-center) | 6:38 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Use case: Turn Leads into Deals](videos/use-case-leads-to-deals) | 4:49 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Run an Outbound Calling Campaign: From a Contact List to Reports](videos/use-case-outbound-calling-campaign) | 6:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Use case: Text Your Contacts](videos/use-case-text-your-contacts) | 4:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Users and Roles: Manage Access, Names and Avatars](videos/users-roles) | 6:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Commerce Webhooks: Tell Another System When Orders, Shipments and Stock Change](videos/webhooks) | 5:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [The CrestApps Wizard: Settings, Resuming, Access and Workflow Events](videos/wizard) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
 <!-- videos:end -->
 
 This table is generated from each video's `video.json` by `python tools/youtube/youtube.py index`.
