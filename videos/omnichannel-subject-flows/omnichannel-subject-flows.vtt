@@ -1,0 +1,155 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.177
+This video shows how to build a subject flow:
+
+00:00:04.177 --> 00:00:10.034
+the actions that run when an agent, or the AI, completes an activity with a disposition.
+
+00:00:10.034 --> 00:00:14.769
+It covers the Finish, Try Again and New Activity actions, and what the
+
+00:00:14.769 --> 00:00:16.700
+Convert Lead action adds.
+
+00:00:21.300 --> 00:00:25.546
+When a call ends, somebody has to decide what happens next.
+
+00:00:25.546 --> 00:00:30.250
+Try again tomorrow, book a follow-up, or stop calling this person.
+
+00:00:31.000 --> 00:00:34.715
+A subject flow puts that decision in one place.
+
+00:00:34.715 --> 00:00:38.010
+Each disposition has one or more actions.
+
+00:00:38.760 --> 00:00:43.564
+So agents only pick the outcome, and the follow-up work is created for
+
+00:00:43.564 --> 00:00:45.840
+them, the same way every time.
+
+00:00:50.031 --> 00:00:56.676
+Open Interaction Center, Management, Subject Flows, and click Manage Flow next to the subject.
+
+00:00:56.676 --> 00:00:58.404
+A new flow is empty.
+
+00:00:58.404 --> 00:01:01.195
+Click Add Action, and pick the type:
+
+00:01:01.195 --> 00:01:06.711
+Finish, Try Again, New Activity, or Convert Lead, which appears with the CRM.
+
+00:01:07.162 --> 00:01:10.782
+Finish completes the activity and nothing else happens.
+
+00:01:10.782 --> 00:01:14.520
+Pick the disposition it responds to, here Not Interested.
+
+00:01:14.520 --> 00:01:19.741
+When to choose this disposition is guidance the AI reads when it picks an outcome.
+
+00:01:19.741 --> 00:01:22.886
+It starts as the disposition's own description.
+
+00:01:22.886 --> 00:01:28.107
+Show communication preferences lets the action flag the contact, here Do not call,
+
+00:01:28.107 --> 00:01:31.015
+and with the CRM, set the status of a lead.
+
+00:01:31.015 --> 00:01:32.142
+Click Create.
+
+00:01:36.349 --> 00:01:40.943
+Try Again creates a new try of the same activity, with the attempt
+
+00:01:40.943 --> 00:01:42.602
+count raised by one.
+
+00:01:42.602 --> 00:01:47.579
+Pick No Answer, and set the maximum attempts, here three tries in total.
+
+00:01:48.029 --> 00:01:53.667
+The assignment type keeps the same owner, or gives the follow-up to a specific user.
+
+00:01:53.667 --> 00:01:58.678
+Default schedule hours says how many hours later it is scheduled, here 24.
+
+00:01:58.678 --> 00:02:02.249
+The agent can change the date on the Complete page.
+
+00:02:02.249 --> 00:02:03.439
+Click Create.
+
+00:02:07.646 --> 00:02:12.588
+New Activity creates a new activity, for the same subject or another one.
+
+00:02:12.588 --> 00:02:17.155
+Pick Interested, and the target subject, here Test Drive Follow-up.
+
+00:02:17.155 --> 00:02:22.786
+The new activity takes its campaign, channel and interaction type from that subject.
+
+00:02:23.236 --> 00:02:27.701
+Set its urgency, and the hours until it is scheduled, here 48.
+
+00:02:27.701 --> 00:02:33.676
+A disposition can have several actions, for example Finish and New Activity together.
+
+00:02:34.127 --> 00:02:39.547
+Back in the list, the Missing flow badge is gone, because the subject now has actions.
+
+00:02:43.739 --> 00:02:48.068
+With the CRM on, Convert Lead converts a lead when an activity ends
+
+00:02:48.068 --> 00:02:49.966
+with a chosen disposition.
+
+00:02:49.966 --> 00:02:56.134
+It chooses the account, whether to create an opportunity, and what happens to the open activities.
+
+00:02:56.134 --> 00:03:00.879
+It runs before the other actions, so a follow-up lands on the new contact.
+
+00:03:05.079 --> 00:03:09.418
+When the agent picks a disposition on the Complete page, a preview lists
+
+00:03:09.418 --> 00:03:11.199
+the actions that will run.
+
+00:03:11.949 --> 00:03:16.651
+Each follow-up shows a Schedule at date and Preparation notes, which become the
+
+00:03:16.651 --> 00:03:18.809
+instructions of the new activity.
+
+00:03:19.559 --> 00:03:24.946
+If you change the flow, activities already scheduled keep working, and new completions
+
+00:03:24.946 --> 00:03:26.469
+use the new actions.
+
+00:03:30.669 --> 00:03:34.629
+Retry unanswered calls a few times, then stop.
+
+00:03:35.379 --> 00:03:39.149
+Book a follow-up automatically when a customer is interested.
+
+00:03:39.899 --> 00:03:43.019
+Stop calling people who say they are not interested.
+
+00:03:43.769 --> 00:03:46.629
+Convert a lead the moment it qualifies.
+
+00:03:48.629 --> 00:03:53.026
+Give every disposition an action, and the next step happens by itself.
+
+00:03:53.026 --> 00:03:57.424
+The user manual and the technical guide are linked in the description.
+
+00:03:57.424 --> 00:03:58.929
+Thanks for watching.
+

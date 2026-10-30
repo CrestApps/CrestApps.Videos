@@ -1,0 +1,28 @@
+1
+00:00:03,207 --> 00:00:07,801
+Try Again creates a new try of the same activity, with the attempt
+
+2
+00:00:07,801 --> 00:00:09,460
+count raised by one.
+
+3
+00:00:09,460 --> 00:00:14,437
+Pick No Answer, and set the maximum attempts, here three tries in total.
+
+4
+00:00:14,887 --> 00:00:20,525
+The assignment type keeps the same owner, or gives the follow-up to a specific user.
+
+5
+00:00:20,525 --> 00:00:25,536
+Default schedule hours says how many hours later it is scheduled, here 24.
+
+6
+00:00:25,536 --> 00:00:29,107
+The agent can change the date on the Complete page.
+
+7
+00:00:29,107 --> 00:00:30,297
+Click Create.
+

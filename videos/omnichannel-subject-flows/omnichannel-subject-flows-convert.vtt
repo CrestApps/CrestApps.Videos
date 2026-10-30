@@ -1,0 +1,14 @@
+WEBVTT
+
+00:00:03.192 --> 00:00:07.521
+With the CRM on, Convert Lead converts a lead when an activity ends
+
+00:00:07.521 --> 00:00:09.419
+with a chosen disposition.
+
+00:00:09.419 --> 00:00:15.587
+It chooses the account, whether to create an opportunity, and what happens to the open activities.
+
+00:00:15.587 --> 00:00:20.332
+It runs before the other actions, so a follow-up lands on the new contact.
+
