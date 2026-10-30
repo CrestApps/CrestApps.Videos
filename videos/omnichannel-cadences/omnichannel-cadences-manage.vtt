@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.191 --> 00:00:06.626
+The list shows each cadence with its number of steps.
+
+00:00:06.626 --> 00:00:10.761
+Open one to change its steps, collapse a step to read the others,
+
+00:00:10.761 --> 00:00:14.371
+or clear Enabled to stop it sending without deleting it.
+
+00:00:14.371 --> 00:00:15.361
+Click Save.
+
+00:00:20.173 --> 00:00:24.871
+Unlike campaigns, a cadence can be deleted, and you confirm first.
+
+00:00:24.871 --> 00:00:31.006
+Deleting or editing a cadence does not change conversations already in progress, because
+
+00:00:31.006 --> 00:00:35.313
+the cadence is copied onto each activity when its load runs.
+

@@ -1,0 +1,172 @@
+{
+  "title": "Omnichannel Cadences",
+  "output": "omnichannel-cadences",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Cadences",
+      "subtitle": "Follow-ups for customers who stop replying",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows cadences, the reusable series of follow-up messages that nudge a customer who stops replying to an automated text conversation. You will build one with a defined message and an AI-written message, and see how it is used."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why cadences",
+      "subtitle": "A nudge, then another",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "In an automated text conversation, customers often go quiet. One well-timed nudge can bring them back."
+            },
+            {
+              "id": "why-2",
+              "text": "A cadence is the list of nudges and the silence to wait before each one. You build it once and use it on as many automatic loads as you like."
+            },
+            {
+              "id": "why-3",
+              "text": "A customer who replies, or texts STOP, is never nudged."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Build a cadence",
+      "subtitle": "Steps, delays and messages",
+      "clips": [
+        {
+          "id": "02-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "create-1",
+              "text": "Open Interaction Center, Management, Cadences, and click Add cadence. Enter a name and a description. Leave Enabled ticked, because a disabled cadence never sends follow-ups."
+            },
+            {
+              "id": "create-2",
+              "text": "Click Add step. After minutes is how long the customer must stay silent, counted from the last message the automation sent. A defined message sends your exact text. Here, after an hour, a friendly check-in."
+            },
+            {
+              "id": "create-3",
+              "text": "Add a second step. For an AI-generated step, the AI writes the message from the conversation, and the guidance is optional. Leave it empty to let the AI decide what to write. Here, after a further day, the AI offers two test-drive times. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "create"
+    },
+    {
+      "id": "03",
+      "title": "Edit, disable and delete",
+      "subtitle": "Keep the list tidy",
+      "clips": [
+        {
+          "id": "03-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "manage-1",
+              "text": "The list shows each cadence with its number of steps. Open one to change its steps, collapse a step to read the others, or clear Enabled to stop it sending without deleting it. Click Save."
+            },
+            {
+              "id": "manage-2",
+              "text": "Unlike campaigns, a cadence can be deleted, and you confirm first. Deleting or editing a cadence does not change conversations already in progress, because the cadence is copied onto each activity when its load runs."
+            }
+          ]
+        }
+      ],
+      "short": "manage"
+    },
+    {
+      "id": "04",
+      "title": "How a cadence is used",
+      "subtitle": "Timing and business hours",
+      "clips": [
+        {
+          "id": "04-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "The clock restarts every time the automation sends a message, so the delays add up. Steps of 60 and 1440 send the first nudge after an hour of silence and the next one a further day later."
+            },
+            {
+              "id": "use-2",
+              "text": "The number of steps is the most nudges a customer will ever get. After the last one, the conversation ends on its normal no-response timeout."
+            },
+            {
+              "id": "use-3",
+              "text": "To use a cadence, pick it under Re-engagement on an Automatic activity load. Pick a business hours calendar on the same load to send nudges only while you are open, in the customer's time zone."
+            },
+            {
+              "id": "use-4",
+              "text": "A cadence is copied onto each activity when the load runs, so editing it later does not change conversations already in progress. Cadences can be deleted, and copied to another site with a deployment plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "05-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "uses-1",
+              "text": "Bring back leads who stopped replying to a text."
+            },
+            {
+              "id": "uses-2",
+              "text": "Space nudges by hours or days, not all at once."
+            },
+            {
+              "id": "uses-3",
+              "text": "Let the AI write each nudge from the conversation."
+            },
+            {
+              "id": "uses-4",
+              "text": "Send nudges only during business hours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Build a cadence once, attach it to your automatic loads, and let the follow-ups run on their own. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
