@@ -1,0 +1,149 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.532
+This video shows what is special about importing and exporting contacts:
+
+00:00:05.532 --> 00:00:10.414
+how the import skips duplicate phone numbers, how it reads local phone numbers
+
+00:00:10.414 --> 00:00:16.050
+with the right country, and how an export can carry each contact's last completed activity.
+
+00:00:20.650 --> 00:00:25.028
+A contact is called and texted, so the same phone number twice means
+
+00:00:25.028 --> 00:00:27.750
+the same person twice in your call list.
+
+00:00:28.500 --> 00:00:33.043
+A list from a spreadsheet often has people you already have, or the
+
+00:00:33.043 --> 00:00:34.910
+same person on two rows.
+
+00:00:35.660 --> 00:00:41.420
+So the contact import can skip duplicates, and reads local numbers with the country you choose.
+
+00:00:45.622 --> 00:00:48.545
+Open Content, Import, and choose Contact.
+
+00:00:48.545 --> 00:00:51.096
+A contact type adds import options.
+
+00:00:51.096 --> 00:00:54.579
+Ignore duplicate by phone number is on by default.
+
+00:00:54.579 --> 00:00:58.187
+It imports only the first row for each phone number.
+
+00:00:58.187 --> 00:01:03.350
+Later duplicates in the file, and numbers that already exist in the database,
+
+00:01:03.350 --> 00:01:06.212
+are skipped and added to the error file.
+
+00:01:06.662 --> 00:01:10.398
+Compare with decides which records count as existing:
+
+00:01:10.398 --> 00:01:15.147
+every contact, only contacts of this type, or every contact and lead.
+
+00:01:15.147 --> 00:01:19.263
+Leads are left out by default, so a customer who was once a
+
+00:01:19.263 --> 00:01:21.352
+lead can still be imported.
+
+00:01:21.803 --> 00:01:25.708
+Lead country is the country that local phone numbers belong to.
+
+00:01:25.708 --> 00:01:30.067
+A number that is not in international format is read with this country,
+
+00:01:30.067 --> 00:01:35.161
+so keep one country per file unless every number is already in international format.
+
+00:01:35.161 --> 00:01:39.463
+The same numbers are used to infer a time zone when the file has none.
+
+00:01:39.914 --> 00:01:41.177
+Upload the file.
+
+00:01:41.177 --> 00:01:45.080
+Here, two new people are imported, and three rows are skipped:
+
+00:01:45.080 --> 00:01:49.329
+one has the number of an existing contact, one repeats a number from
+
+00:01:49.329 --> 00:01:53.175
+the file, and one has the number of another existing contact.
+
+00:01:53.175 --> 00:01:56.734
+The skipped rows are in the error file, with the reason.
+
+00:02:00.927 --> 00:02:05.123
+Open Content, Export, and choose the Contact type.
+
+00:02:05.123 --> 00:02:11.267
+Besides the usual filters, a contact type shows a CRM last activity section.
+
+00:02:11.718 --> 00:02:16.879
+Tick Include last completed activity information, and choose a subject, and the file
+
+00:02:16.879 --> 00:02:21.237
+appends each contact's most recent completed activity of that subject:
+
+00:02:21.237 --> 00:02:26.971
+the agent's note, the completion date, the disposition, the subject, and the subject's fields.
+
+00:02:26.971 --> 00:02:31.387
+Tick Include only contacts with a last activity record to leave out the
+
+00:02:31.387 --> 00:02:33.107
+contacts that have none.
+
+00:02:33.107 --> 00:02:36.318
+This is a quick way to prepare the next call list.
+
+00:02:40.518 --> 00:02:45.645
+A contact import can also check each number against the national do-not-call registries
+
+00:02:45.645 --> 00:02:46.858
+you have set up.
+
+00:02:47.608 --> 00:02:52.364
+Rows the import leaves out on purpose are counted as errors, with the
+
+00:02:52.364 --> 00:02:55.218
+reason, so nothing disappears silently.
+
+00:02:55.968 --> 00:03:00.254
+A lead import has the same checks, plus its own options such as
+
+00:03:00.254 --> 00:03:02.738
+the list name and the lead status.
+
+00:03:06.938 --> 00:03:11.788
+Load a purchased or exported list without creating duplicate people.
+
+00:03:12.538 --> 00:03:14.698
+Clean up a list before calling it.
+
+00:03:15.448 --> 00:03:19.428
+Get the last result of every contact into a spreadsheet.
+
+00:03:20.178 --> 00:03:23.318
+Prepare the next call list from the last outcome.
+
+00:03:25.318 --> 00:03:29.941
+Skip the duplicates, set the country, and export the last activity, so your
+
+00:03:29.941 --> 00:03:33.366
+contact list stays clean and your calls stay targeted.
+
+00:03:33.366 --> 00:03:37.704
+The user manual and the technical guide are linked in the description.
+
+00:03:37.704 --> 00:03:39.188
+Thanks for watching.
+

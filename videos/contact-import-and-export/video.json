@@ -1,0 +1,82 @@
+{
+  "title": "Contact Import and Export: Duplicates, Countries and Last Activity | CrestApps for Orchard Core",
+  "description": "Importing contacts is different from importing other content. Skip duplicate phone numbers, choose what to compare with, set the country of local numbers, read the errors, and export each contact's last completed activity for the next call list.\n\nIn this video:\n• Why contacts are different\n• Ignore duplicate by phone number, Compare with and Lead country\n• Importing a file with duplicates and reading the result\n• Exporting the last completed activity\n• Do-not-call checks and leads\n• What it is for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "contact import",
+    "duplicate phone numbers",
+    "lead country",
+    "last activity export",
+    "omnichannel",
+    "csv import",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why contacts are different"
+    },
+    {
+      "time": "0:42",
+      "title": "Skip duplicate phone numbers"
+    },
+    {
+      "time": "1:57",
+      "title": "Export the last activity"
+    },
+    {
+      "time": "2:37",
+      "title": "Do not call lists and leads"
+    },
+    {
+      "time": "3:03",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:24",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/import-and-export"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/content-transfer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContentTransfer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/import-and-export.md",
+    "src/CrestApps.Docs/docs/modules/content-transfer.md"
+  ],
+  "length": "3:40"
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Contact Import and Export",
+  "output": "contact-import-and-export",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Importing and Exporting Contacts",
+      "subtitle": "Duplicates, countries and last activity",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows what is special about importing and exporting contacts: how the import skips duplicate phone numbers, how it reads local phone numbers with the right country, and how an export can carry each contact's last completed activity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why contacts are different",
+      "subtitle": "A phone number identifies a person",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A contact is called and texted, so the same phone number twice means the same person twice in your call list."
+            },
+            {
+              "id": "why-2",
+              "text": "A list from a spreadsheet often has people you already have, or the same person on two rows."
+            },
+            {
+              "id": "why-3",
+              "text": "So the contact import can skip duplicates, and reads local numbers with the country you choose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Skip duplicate phone numbers",
+      "subtitle": "Ignore duplicates and compare with",
+      "clips": [
+        {
+          "id": "02-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "import-1",
+              "text": "Open Content, Import, and choose Contact. A contact type adds import options. Ignore duplicate by phone number is on by default. It imports only the first row for each phone number. Later duplicates in the file, and numbers that already exist in the database, are skipped and added to the error file."
+            },
+            {
+              "id": "import-2",
+              "text": "Compare with decides which records count as existing: every contact, only contacts of this type, or every contact and lead. Leads are left out by default, so a customer who was once a lead can still be imported."
+            },
+            {
+              "id": "import-3",
+              "text": "Lead country is the country that local phone numbers belong to. A number that is not in international format is read with this country, so keep one country per file unless every number is already in international format. The same numbers are used to infer a time zone when the file has none."
+            },
+            {
+              "id": "import-4",
+              "text": "Upload the file. Here, two new people are imported, and three rows are skipped: one has the number of an existing contact, one repeats a number from the file, and one has the number of another existing contact. The skipped rows are in the error file, with the reason."
+            }
+          ]
+        }
+      ],
+      "short": "import"
+    },
+    {
+      "id": "03",
+      "title": "Export the last activity",
+      "subtitle": "What happened last, on every row",
+      "clips": [
+        {
+          "id": "03-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "export-1",
+              "text": "Open Content, Export, and choose the Contact type. Besides the usual filters, a contact type shows a CRM last activity section."
+            },
+            {
+              "id": "export-2",
+              "text": "Tick Include last completed activity information, and choose a subject, and the file appends each contact's most recent completed activity of that subject: the agent's note, the completion date, the disposition, the subject, and the subject's fields. Tick Include only contacts with a last activity record to leave out the contacts that have none. This is a quick way to prepare the next call list."
+            }
+          ]
+        }
+      ],
+      "short": "export"
+    },
+    {
+      "id": "04",
+      "title": "Do not call lists and leads",
+      "subtitle": "Other things the import checks",
+      "clips": [
+        {
+          "id": "04-checks",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "checks-1",
+              "text": "A contact import can also check each number against the national do-not-call registries you have set up."
+            },
+            {
+              "id": "checks-2",
+              "text": "Rows the import leaves out on purpose are counted as errors, with the reason, so nothing disappears silently."
+            },
+            {
+              "id": "checks-3",
+              "text": "A lead import has the same checks, plus its own options such as the list name and the lead status."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "05-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Load a purchased or exported list without creating duplicate people."
+            },
+            {
+              "id": "use-2",
+              "text": "Clean up a list before calling it."
+            },
+            {
+              "id": "use-3",
+              "text": "Get the last result of every contact into a spreadsheet."
+            },
+            {
+              "id": "use-4",
+              "text": "Prepare the next call list from the last outcome."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Skip the duplicates, set the country, and export the last activity, so your contact list stays clean and your calls stay targeted. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
