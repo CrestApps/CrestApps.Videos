@@ -1,0 +1,236 @@
+1
+00:00:01,000 --> 00:00:04,963
+This video shows the everyday operations of the tenant hierarchy:
+
+2
+00:00:04,963 --> 00:00:09,316
+finding and sorting the clients of a parent, fixing a setup that failed,
+
+3
+00:00:09,316 --> 00:00:14,953
+suspending and resuming several clients at once, favorites, and what the platform administrator
+
+4
+00:00:14,953 --> 00:00:17,800
+does when something changes above the parent.
+
+5
+00:00:22,400 --> 00:00:26,197
+A firm that runs a site for each client soon has dozens of
+
+6
+00:00:26,197 --> 00:00:29,460
+sites, and some of them need attention every day.
+
+7
+00:00:30,210 --> 00:00:34,691
+The list of clients is where the parent's team finds a site, sees
+
+8
+00:00:34,691 --> 00:00:37,910
+its state, and acts on one or many at a time.
+
+9
+00:00:38,660 --> 00:00:43,810
+Above the parent, the platform administrator keeps the whole hierarchy in order:
+
+10
+00:00:43,810 --> 00:00:48,960
+who is a parent, who belongs to whom, and what happens when a parent disappears.
+
+11
+00:00:53,153 --> 00:00:56,361
+In the parent's site, open All clients.
+
+12
+00:00:56,361 --> 00:01:00,425
+Each row shows the name, the address and the state.
+
+13
+00:01:00,425 --> 00:01:03,134
+The State menu narrows the list:
+
+14
+00:01:03,134 --> 00:01:09,763
+Running, Suspended, Setting up, Setup failed, Pending removal, and Changed by platform.
+
+15
+00:01:10,215 --> 00:01:15,172
+The Sort menu orders the list by name, by newest first, or by state.
+
+16
+00:01:15,172 --> 00:01:19,795
+Here, the State menu shows only the clients whose setup failed.
+
+17
+00:01:23,996 --> 00:01:29,203
+A client whose site could not be created shows Setup failed, with two buttons.
+
+18
+00:01:29,203 --> 00:01:31,248
+Retry runs the setup again.
+
+19
+00:01:31,248 --> 00:01:33,046
+Discard gives up on it.
+
+20
+00:01:33,496 --> 00:01:37,904
+Discard asks you to confirm, and then the address becomes free again, so
+
+21
+00:01:37,904 --> 00:01:40,956
+you can add the client again with the same name.
+
+22
+00:01:45,157 --> 00:01:49,163
+Tick the clients you want, and open the Actions menu.
+
+23
+00:01:49,163 --> 00:01:54,187
+Suspend, Resume, Reload and Remove apply to every client you ticked.
+
+24
+00:01:54,187 --> 00:01:57,107
+Remove is only for suspended clients.
+
+25
+00:01:57,558 --> 00:02:00,266
+Here, two clients are suspended at once.
+
+26
+00:02:00,266 --> 00:02:05,209
+Nobody can use their sites, including their own staff, until they are resumed,
+
+27
+00:02:05,209 --> 00:02:07,328
+and the State menu lists them.
+
+28
+00:02:17,444 --> 00:02:21,904
+Tick them all and choose Resume, and both are open for business again.
+
+29
+00:02:26,094 --> 00:02:29,749
+Open a client lists your clients with an Open link that signs you
+
+30
+00:02:29,749 --> 00:02:31,191
+in without a password.
+
+31
+00:02:31,191 --> 00:02:34,486
+Click the star next to a client to make it a favorite, and
+
+32
+00:02:34,486 --> 00:02:38,194
+favorites, with the clients you opened recently, are listed first.
+
+33
+00:02:38,644 --> 00:02:42,959
+Sign out of every client ends every session you have open in your
+
+34
+00:02:42,959 --> 00:02:44,843
+clients, on every device.
+
+35
+00:02:44,843 --> 00:02:49,704
+Use it when you leave a shared computer, or when someone leaves your team.
+
+36
+00:02:53,881 --> 00:03:00,804
+The platform administrator sees every parent on the Tenant Hierarchy screen, with its clients underneath.
+
+37
+00:03:00,804 --> 00:03:05,294
+A client whose parent no longer exists is an orphan, and is listed
+
+38
+00:03:05,294 --> 00:03:07,851
+apart, with Move and Make ordinary.
+
+39
+00:03:08,303 --> 00:03:15,023
+Make ordinary turns the orphan into an ordinary tenant, which keeps its address and its data.
+
+40
+00:03:16,950 --> 00:03:20,461
+On a parent's page, each client has a Move menu.
+
+41
+00:03:20,461 --> 00:03:23,127
+Pick another parent and click Move.
+
+42
+00:03:23,127 --> 00:03:28,589
+The client's address changes, every open session from the old parent ends, and
+
+43
+00:03:28,589 --> 00:03:30,800
+the old parent is not asked.
+
+44
+00:03:31,931 --> 00:03:36,121
+A parent that has no clients can be made an ordinary tenant again
+
+45
+00:03:36,121 --> 00:03:39,898
+with Make ordinary, and it keeps its data and its address.
+
+46
+00:03:39,898 --> 00:03:43,911
+A parent that still has clients cannot be removed by accident.
+
+47
+00:03:48,111 --> 00:03:52,323
+Back in the parent's site, a client that the platform made an ordinary
+
+48
+00:03:52,323 --> 00:03:56,757
+tenant, behind the parent's back, is now in the state Changed by platform,
+
+49
+00:03:56,757 --> 00:03:59,140
+and the parent no longer controls it.
+
+50
+00:03:59,140 --> 00:04:03,131
+The client the platform moved is not in this list at all any more.
+
+51
+00:04:03,581 --> 00:04:07,681
+Click Remove from list to clear it, and the list is tidy again.
+
+52
+00:04:11,881 --> 00:04:16,581
+Pause the sites of clients who have not paid, and resume them when they do.
+
+53
+00:04:17,331 --> 00:04:20,621
+Find the sites that need attention with the state filter.
+
+54
+00:04:21,371 --> 00:04:24,751
+Keep your most important clients one click away.
+
+55
+00:04:25,501 --> 00:04:29,081
+Keep the hierarchy tidy after a parent changes.
+
+56
+00:04:31,081 --> 00:04:35,582
+Filter, fix, act on several clients at once, and let the platform keep
+
+57
+00:04:35,582 --> 00:04:37,300
+the hierarchy in order.
+
+58
+00:04:37,300 --> 00:04:41,801
+The user manual and the technical guide are linked in the description.
+
+59
+00:04:41,801 --> 00:04:43,341
+Thanks for watching.
+

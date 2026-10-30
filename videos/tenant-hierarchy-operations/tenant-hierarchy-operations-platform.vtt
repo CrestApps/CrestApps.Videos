@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:03.177 --> 00:00:10.100
+The platform administrator sees every parent on the Tenant Hierarchy screen, with its clients underneath.
+
+00:00:10.100 --> 00:00:14.590
+A client whose parent no longer exists is an orphan, and is listed
+
+00:00:14.590 --> 00:00:17.147
+apart, with Move and Make ordinary.
+
+00:00:17.598 --> 00:00:24.318
+Make ordinary turns the orphan into an ordinary tenant, which keeps its address and its data.
+
+00:00:26.246 --> 00:00:29.757
+On a parent's page, each client has a Move menu.
+
+00:00:29.757 --> 00:00:32.423
+Pick another parent and click Move.
+
+00:00:32.423 --> 00:00:37.885
+The client's address changes, every open session from the old parent ends, and
+
+00:00:37.885 --> 00:00:40.096
+the old parent is not asked.
+
+00:00:41.226 --> 00:00:45.416
+A parent that has no clients can be made an ordinary tenant again
+
+00:00:45.416 --> 00:00:49.193
+with Make ordinary, and it keeps its data and its address.
+
+00:00:49.193 --> 00:00:53.206
+A parent that still has clients cannot be removed by accident.
+

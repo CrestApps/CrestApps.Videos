@@ -1,0 +1,94 @@
+{
+  "title": "Tenant Hierarchy Operations: Filter, Fix and Manage Client Sites | CrestApps for Orchard Core",
+  "description": "Run the list of client sites of a parent tenant day to day: filter by state, sort, fix a setup that failed, suspend and resume several clients at once, use favorites and sign out of every client, and see what the platform does with orphans, moves and parents without clients.\n\nIn this video:\n• Why operations matter\n• Finding and sorting the clients, and the state filter\n• Fixing a setup that failed: Retry or Discard\n• Bulk Suspend, Resume, Reload and Remove\n• Favorites and signing out of every client\n• What the platform does: orphans, moving and making ordinary\n• Clients changed by the platform\n• What it is for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "tenant hierarchy",
+    "child tenants",
+    "multi tenant",
+    "orchard core tenants",
+    "bulk suspend",
+    "orphaned tenants",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why operations matter"
+    },
+    {
+      "time": "0:50",
+      "title": "Find and sort the clients"
+    },
+    {
+      "time": "1:20",
+      "title": "Fix a setup that failed"
+    },
+    {
+      "time": "1:42",
+      "title": "Act on several clients"
+    },
+    {
+      "time": "2:22",
+      "title": "Favorites and signing out"
+    },
+    {
+      "time": "2:50",
+      "title": "What the platform does"
+    },
+    {
+      "time": "3:44",
+      "title": "Changed by the platform"
+    },
+    {
+      "time": "4:08",
+      "title": "What to use it for"
+    },
+    {
+      "time": "4:30",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual for a parent",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/child-tenants"
+    },
+    {
+      "label": "User manual for the platform",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/tenant-hierarchy"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.TenantHierarchy"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/child-tenants.md",
+    "src/CrestApps.Docs/docs/user-manual/administration/tenant-hierarchy.md"
+  ],
+  "length": "4:44"
+}
