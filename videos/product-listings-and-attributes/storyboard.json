@@ -1,0 +1,245 @@
+{
+  "title": "Product listings and attributes",
+  "output": "product-listings-and-attributes",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Product listings and attributes",
+      "subtitle": "Let shoppers find the right product",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Filters, sorts and search come from the fields of your product types. This video shows how to choose what a field is for, how to set up a listing page with its filters, sorts, layout and paging, and what visitors see."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why listings and attributes",
+      "subtitle": "Let shoppers find the right product",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A catalog of nine products is easy to browse. A catalog of nine hundred is only as good as its filters, its sorts and its search."
+            },
+            {
+              "id": "why-2",
+              "text": "What shoppers filter on depends on what you sell: a shirt's color and size, a home's bedrooms, a car's year and mileage."
+            },
+            {
+              "id": "why-3",
+              "text": "In CrestApps, those are the fields of your product types. You choose which ones take part, and a listing page offers them as filters, sorts and search."
+            },
+            {
+              "id": "why-4",
+              "text": "The same fields can show as chips on a product's card, and in its specification table."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it fits together",
+      "subtitle": "Fields, listings and visitors",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "A field of a product type has a Product listing section: Filterable, Sortable, Searchable, and where its value is shown."
+            },
+            {
+              "id": "how-2",
+              "text": "A listing page, under Commerce, Product Listings, chooses which product types it lists, which filters and sorts it offers, and how it looks."
+            },
+            {
+              "id": "how-3",
+              "text": "Visitors filter, sort, search, switch between grid and list, and page through the products."
+            },
+            {
+              "id": "how-4",
+              "text": "A taxonomy gives categories and brands, one filter for each level of its tree."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Choose what a field is for",
+      "subtitle": "The Product listing section",
+      "clips": [
+        {
+          "id": "03-field",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fld-1",
+              "text": "Open Content, Content Definition, Content Types, and edit a product type. To give it something to filter on, click Add Field, and add a Text field named Brand."
+            },
+            {
+              "id": "fld-2",
+              "text": "Click Edit next to the field. In the Product listing section, tick what the field is for: Filterable, so visitors can filter by it, Sortable, Searchable for the keyword search, Show on product cards, and Show in specifications. A Listing label is the name visitors see."
+            },
+            {
+              "id": "fld-3",
+              "text": "Number fields also take a format and a unit, such as mi or sq ft. Text and taxonomy fields can have swatch colors, one for each value. Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Fill in the value",
+      "subtitle": "On each product",
+      "clips": [
+        {
+          "id": "04-value",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "val-1",
+              "text": "On a product, the new field is in the editor. Enter the brand, and publish. The price, the type, whether it is featured and whether it is in stock are always available to filter and sort by, without any field."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Set up the listing page",
+      "subtitle": "Filters, sorts, layout and paging",
+      "clips": [
+        {
+          "id": "05-listing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lst-1",
+              "text": "Open Commerce, Product Listings, and edit the listing. Products chooses every product type, or only the ones you tick. Leave Offer a filter for every filterable field ticked to offer one filter for each, or untick it to choose the filters yourself, with a Kind and a Style for each."
+            },
+            {
+              "id": "lst-2",
+              "text": "Sorting lets visitors change the sort. Leave the standard sorts ticked, or choose them. The Default sort is the order visitors see first."
+            },
+            {
+              "id": "lst-3",
+              "text": "Layout and paging chooses a grid or a list, the shape of the images, the page sizes, and how visitors move through the products: numbered pages, a Load more button, or infinite scroll. Keyword search adds a search box. Click Publish."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What visitors see",
+      "subtitle": "Filter, sort and switch",
+      "clips": [
+        {
+          "id": "06-visitors",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vis-1",
+              "text": "On the shop, the Brand field is a filter, with a count for each value, and a chip on each product's card."
+            },
+            {
+              "id": "vis-2",
+              "text": "Visitors sort by the new field, switch between grid and list, and move through the products with the paging you chose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "More to know",
+      "subtitle": "Ranges, swatches, taxonomies and samples",
+      "clips": [
+        {
+          "id": "07-more",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "mor-1",
+              "text": "A number can be filtered by a range, with ready made ranges worked out from your products, or ones you type, such as up to 25, 25 to 75, and 75 and up."
+            },
+            {
+              "id": "mor-2",
+              "text": "Text and taxonomy values can be drawn as color swatches. A taxonomy such as Make and model gives a filter for each level, and Shown after makes Model appear once a Make is picked."
+            },
+            {
+              "id": "mor-3",
+              "text": "Each product type's page, its layout and its search engine details can be set, and a keyword search can use a search index instead of the database."
+            },
+            {
+              "id": "mor-4",
+              "text": "The real estate and vehicle samples show listings with their own fields, filters and layouts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to use listings",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A shop: brand, size and color filters, with the price range."
+            },
+            {
+              "id": "use-2",
+              "text": "Homes: bedrooms and square feet as ranges, in a list layout."
+            },
+            {
+              "id": "use-3",
+              "text": "Cars: make then model, year and mileage."
+            },
+            {
+              "id": "use-4",
+              "text": "A short list of plans: no filters, only the products."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Choose the fields, set up the listing, and let shoppers find what they want. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

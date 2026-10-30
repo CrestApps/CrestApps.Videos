@@ -1,0 +1,91 @@
+{
+  "title": "Product Listings and Attributes: Filters, Sorts, Search and Layout | CrestApps for Orchard Core",
+  "description": "Filters, sorts and search come from the fields of your product types. CrestApps lets you choose what a field is for, such as Filterable, Sortable, Searchable and shown on product cards, then set up a listing page with its filters, sorts, layout and paging, so shoppers can find the right product.\n\nIn this video:\n• Why listings and attributes, and how fields, listings and visitors fit together\n• Choosing what a field is for: the Product listing section\n• Filling in the value on a product\n• Setting up the listing page: filters, sorts, layout and paging\n• What visitors see: filters, chips, sorting and Load more\n• Ranges, swatches, taxonomies and the samples",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "product listings",
+    "product filters",
+    "faceted search",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why listings and attributes"
+    },
+    {
+      "time": "0:57",
+      "title": "How it fits together"
+    },
+    {
+      "time": "1:33",
+      "title": "Choose what a field is for"
+    },
+    {
+      "time": "2:22",
+      "title": "Fill in the value"
+    },
+    {
+      "time": "2:40",
+      "title": "Set up the listing page"
+    },
+    {
+      "time": "3:31",
+      "title": "What visitors see"
+    },
+    {
+      "time": "3:50",
+      "title": "More to know"
+    },
+    {
+      "time": "4:36",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:02",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Product listings (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/product-listings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/products"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Products.Listing"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/product-listings.md"
+  ],
+  "length": "5:11"
+}
