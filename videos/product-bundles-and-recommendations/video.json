@@ -1,0 +1,89 @@
+{
+  "title": "Product Bundles, Grouped Products, Upsells and Compare | CrestApps for Orchard Core",
+  "description": "Kits, sets, suggestions and side by side comparison make a bigger basket and an easier choice. CrestApps sells a bundle at its own price with its stock worked out from its parts, groups products on one page with one Add to cart, adds upsells and cross-sells, and lets shoppers compare up to four products.\n\nIn this video:\n• Why bundles and recommendations, and the four features\n• Selling a bundle: Made of, its own price and its stock\n• Grouping products on one page\n• Upsells, cross-sells, related and recently viewed products\n• Comparing products side by side",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "product bundles",
+    "upsell",
+    "cross-sell",
+    "product comparison",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why bundles and recommendations"
+    },
+    {
+      "time": "0:48",
+      "title": "The four features"
+    },
+    {
+      "time": "1:22",
+      "title": "Sell a bundle"
+    },
+    {
+      "time": "2:25",
+      "title": "Group products"
+    },
+    {
+      "time": "3:14",
+      "title": "Upsells and cross-sells"
+    },
+    {
+      "time": "4:17",
+      "title": "Compare products"
+    },
+    {
+      "time": "4:43",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:07",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Products and currencies (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/products-and-currencies"
+    },
+    {
+      "label": "Product listings (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/product-listings"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Products.Bundles"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/products-and-currencies.md",
+    "src/CrestApps.Docs/docs/user-manual/commerce/product-listings.md"
+  ],
+  "length": "5:15"
+}
