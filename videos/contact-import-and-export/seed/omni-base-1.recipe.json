@@ -1,0 +1,90 @@
+{
+  "name": "OmnichannelVideoBase1",
+  "displayName": "OmnichannelVideoBase1",
+  "description": "Fake dealership setup for the omnichannel videos.",
+  "author": "CrestApps",
+  "steps": [
+    {
+      "name": "OmnichannelDisposition",
+      "Dispositions": [
+        {
+          "Name": "Interested",
+          "Description": "The customer wants to hear more.",
+          "CaptureDate": false,
+          "Outcome": "None"
+        },
+        {
+          "Name": "Not Interested",
+          "Description": "The customer does not want the offer.",
+          "CaptureDate": false,
+          "Outcome": "None"
+        },
+        {
+          "Name": "No Answer",
+          "Description": "Nobody picked up.",
+          "CaptureDate": false,
+          "Outcome": "NoAnswer"
+        },
+        {
+          "Name": "Call Back Later",
+          "Description": "The customer asked to be called at another time.",
+          "CaptureDate": true,
+          "Outcome": "None"
+        },
+        {
+          "Name": "Test Drive Booked",
+          "Description": "The customer booked a test drive.",
+          "CaptureDate": true,
+          "Outcome": "None"
+        },
+        {
+          "Name": "Wrong Number",
+          "Description": "The number does not belong to the customer.",
+          "CaptureDate": false,
+          "Outcome": "NotInService"
+        },
+        {
+          "Name": "Left Voicemail",
+          "Description": "The call went to voicemail.",
+          "CaptureDate": false,
+          "Outcome": "AnsweringMachine"
+        }
+      ]
+    },
+    {
+      "name": "OmnichannelCampaignGroup",
+      "CampaignGroups": [
+        {
+          "DisplayText": "Dealership",
+          "Description": "Everything the sales floor calls about."
+        }
+      ]
+    },
+    {
+      "name": "OmnichannelChannelEndpoint",
+      "ChannelEndpoints": [
+        {
+          "DisplayText": "Main line",
+          "Channel": "Phone",
+          "AddressType": "PhoneNumber",
+          "Capabilities": [
+            "Phone"
+          ],
+          "Value": "+15125550100",
+          "Description": "The dealership's main number."
+        },
+        {
+          "DisplayText": "Sales line",
+          "Channel": "Phone",
+          "AddressType": "PhoneNumber",
+          "Capabilities": [
+            "Phone",
+            "SMS"
+          ],
+          "Value": "+15125550111",
+          "Description": "Used by the sales team to call and text."
+        }
+      ]
+    }
+  ]
+}

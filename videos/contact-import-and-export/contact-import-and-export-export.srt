@@ -1,0 +1,32 @@
+1
+00:00:03,193 --> 00:00:07,389
+Open Content, Export, and choose the Contact type.
+
+2
+00:00:07,389 --> 00:00:13,533
+Besides the usual filters, a contact type shows a CRM last activity section.
+
+3
+00:00:13,984 --> 00:00:19,145
+Tick Include last completed activity information, and choose a subject, and the file
+
+4
+00:00:19,145 --> 00:00:23,503
+appends each contact's most recent completed activity of that subject:
+
+5
+00:00:23,503 --> 00:00:29,237
+the agent's note, the completion date, the disposition, the subject, and the subject's fields.
+
+6
+00:00:29,237 --> 00:00:33,653
+Tick Include only contacts with a last activity record to leave out the
+
+7
+00:00:33,653 --> 00:00:35,373
+contacts that have none.
+
+8
+00:00:35,373 --> 00:00:38,584
+This is a quick way to prepare the next call list.
+

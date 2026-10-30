@@ -1,0 +1,76 @@
+1
+00:00:03,202 --> 00:00:06,125
+Open Content, Import, and choose Contact.
+
+2
+00:00:06,125 --> 00:00:08,676
+A contact type adds import options.
+
+3
+00:00:08,676 --> 00:00:12,159
+Ignore duplicate by phone number is on by default.
+
+4
+00:00:12,159 --> 00:00:15,767
+It imports only the first row for each phone number.
+
+5
+00:00:15,767 --> 00:00:20,930
+Later duplicates in the file, and numbers that already exist in the database,
+
+6
+00:00:20,930 --> 00:00:23,792
+are skipped and added to the error file.
+
+7
+00:00:24,242 --> 00:00:27,978
+Compare with decides which records count as existing:
+
+8
+00:00:27,978 --> 00:00:32,727
+every contact, only contacts of this type, or every contact and lead.
+
+9
+00:00:32,727 --> 00:00:36,843
+Leads are left out by default, so a customer who was once a
+
+10
+00:00:36,843 --> 00:00:38,932
+lead can still be imported.
+
+11
+00:00:39,383 --> 00:00:43,288
+Lead country is the country that local phone numbers belong to.
+
+12
+00:00:43,288 --> 00:00:47,647
+A number that is not in international format is read with this country,
+
+13
+00:00:47,647 --> 00:00:52,741
+so keep one country per file unless every number is already in international format.
+
+14
+00:00:52,741 --> 00:00:57,043
+The same numbers are used to infer a time zone when the file has none.
+
+15
+00:00:57,494 --> 00:00:58,757
+Upload the file.
+
+16
+00:00:58,757 --> 00:01:02,660
+Here, two new people are imported, and three rows are skipped:
+
+17
+00:01:02,660 --> 00:01:06,909
+one has the number of an existing contact, one repeats a number from
+
+18
+00:01:06,909 --> 00:01:10,755
+the file, and one has the number of another existing contact.
+
+19
+00:01:10,755 --> 00:01:14,314
+The skipped rows are in the error file, with the reason.
+
