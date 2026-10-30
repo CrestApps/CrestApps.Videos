@@ -298,7 +298,7 @@
             },
             {
               "id": "feed-3",
-              "text": "For a large catalog, turn on Product Search with Lucene, Elasticsearch or Azure AI Search under Configuration, Features. Listings then rank keyword matches with that index."
+              "text": "For a large catalog, turn on Product Search with Lucene, Elasticsearch or Azure AI Search under Configuration, Features. A listing does not use it yet: you also create the index under Search, Indexes, and choose that index on the listing. Then the listing ranks keyword matches with it."
             }
           ]
         }
