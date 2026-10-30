@@ -1,0 +1,96 @@
+{
+  "title": "Commerce Webhooks: Tell Another System When Orders, Shipments and Stock Change | CrestApps for Orchard Core",
+  "description": "A webhook tells another system the moment something happens in your store. The CrestApps Commerce Webhooks feature posts signed JSON messages to an address you choose when an order is placed, paid, canceled or refunded, a shipment ships or is delivered, stock changes or runs out, or a customer is created, retries failed deliveries up to eight times over about two days, and keeps a log of every delivery.\n\nIn this video:\n• Why webhooks, and how events, a secret and a log fit together\n• Adding a webhook: name, address and events\n• The events you can send\n• What the receiver checks: headers and the signature\n• The deliveries log: Send a test event and Send again, and the retry schedule\n• New secret, and removing a webhook\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "Webhooks",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "webhooks",
+    "order events",
+    "signed webhooks",
+    "HMAC signature",
+    "retries",
+    "ecommerce integration",
+    "stock events",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:22",
+      "title": "Why webhooks"
+    },
+    {
+      "time": "0:48",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:21",
+      "title": "Add a webhook"
+    },
+    {
+      "time": "2:12",
+      "title": "The events"
+    },
+    {
+      "time": "2:47",
+      "title": "What the receiver checks"
+    },
+    {
+      "time": "3:20",
+      "title": "Deliveries and retries"
+    },
+    {
+      "time": "4:54",
+      "title": "The secret, and removing a webhook"
+    },
+    {
+      "time": "5:20",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:42",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/webhooks"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/commerce-webhooks"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Commerce.Webhooks"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/webhooks.md",
+    "src/CrestApps.Docs/docs/modules/commerce-webhooks.md"
+  ],
+  "length": "5:53"
+}

@@ -1,0 +1,60 @@
+1
+00:00:03,193 --> 00:00:05,275
+Open Commerce, Webhooks.
+
+2
+00:00:05,275 --> 00:00:09,857
+It lists your webhooks, and says how many events each sends.
+
+3
+00:00:09,857 --> 00:00:11,523
+Click Add webhook.
+
+4
+00:00:11,974 --> 00:00:15,066
+Give it a Name, such as the system it feeds:
+
+5
+00:00:15,066 --> 00:00:16,055
+Warehouse.
+
+6
+00:00:16,055 --> 00:00:20,075
+Enter the URL of the receiver, which must start with https.
+
+7
+00:00:20,075 --> 00:00:24,094
+The On switch stops it sending, without losing the webhook.
+
+8
+00:00:24,548 --> 00:00:26,147
+Choose the events.
+
+9
+00:00:26,147 --> 00:00:29,946
+Every event, those added later too, sends them all.
+
+10
+00:00:29,946 --> 00:00:31,879
+Or choose at least one:
+
+11
+00:00:31,879 --> 00:00:35,878
+here, Order paid, Order canceled and Shipment shipped.
+
+12
+00:00:35,878 --> 00:00:39,478
+Stock, customer and refund events are there too.
+
+13
+00:00:39,929 --> 00:00:41,030
+Click Save.
+
+14
+00:00:41,030 --> 00:00:45,696
+The webhook is added, and its page opens, with its signing secret.
+
+15
+00:00:45,696 --> 00:00:49,909
+Copy the secret into the system that receives the messages.
+

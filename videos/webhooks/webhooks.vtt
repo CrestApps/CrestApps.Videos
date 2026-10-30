@@ -1,0 +1,272 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.591
+When something happens in your store, another system often needs to know:
+
+00:00:05.591 --> 00:00:09.368
+the warehouse, your accounting software, your mailing list.
+
+00:00:09.368 --> 00:00:12.158
+A webhook tells it, the moment it happens.
+
+00:00:12.158 --> 00:00:15.993
+This video shows how to add one, the events it can send, how
+
+00:00:15.993 --> 00:00:20.700
+messages are signed and retried, and how to read the log of every delivery.
+
+00:00:25.300 --> 00:00:31.110
+A warehouse should hear about a paid order at once, not by asking every few minutes.
+
+00:00:31.860 --> 00:00:34.676
+Accounting needs orders and refunds.
+
+00:00:34.676 --> 00:00:37.291
+A marketplace needs stock counts.
+
+00:00:37.291 --> 00:00:40.040
+A mailing list needs new customers.
+
+00:00:40.790 --> 00:00:44.750
+A webhook sends each of these as a short message to an address
+
+00:00:44.750 --> 00:00:47.080
+you choose, the moment it happens.
+
+00:00:51.280 --> 00:00:56.660
+You add a webhook with a name, the receiver's address, and the events it should send.
+
+00:00:57.410 --> 00:01:01.711
+Each message is signed with the webhook's secret, so the receiver can tell
+
+00:01:01.711 --> 00:01:03.700
+it really came from your store.
+
+00:01:04.450 --> 00:01:09.026
+If the receiver does not answer with a success, the message is tried
+
+00:01:09.026 --> 00:01:12.180
+again, up to eight times over about two days.
+
+00:01:12.930 --> 00:01:14.924
+A log shows every message:
+
+00:01:14.924 --> 00:01:19.163
+whether it was delivered, how many tries, and what went wrong.
+
+00:01:19.163 --> 00:01:20.970
+You can send one again.
+
+00:01:25.163 --> 00:01:27.245
+Open Commerce, Webhooks.
+
+00:01:27.245 --> 00:01:31.827
+It lists your webhooks, and says how many events each sends.
+
+00:01:31.827 --> 00:01:33.493
+Click Add webhook.
+
+00:01:33.944 --> 00:01:37.036
+Give it a Name, such as the system it feeds:
+
+00:01:37.036 --> 00:01:38.025
+Warehouse.
+
+00:01:38.025 --> 00:01:42.045
+Enter the URL of the receiver, which must start with https.
+
+00:01:42.045 --> 00:01:46.064
+The On switch stops it sending, without losing the webhook.
+
+00:01:46.518 --> 00:01:48.117
+Choose the events.
+
+00:01:48.117 --> 00:01:51.916
+Every event, those added later too, sends them all.
+
+00:01:51.916 --> 00:01:53.849
+Or choose at least one:
+
+00:01:53.849 --> 00:01:57.848
+here, Order paid, Order canceled and Shipment shipped.
+
+00:01:57.848 --> 00:02:01.448
+Stock, customer and refund events are there too.
+
+00:02:01.899 --> 00:02:03.000
+Click Save.
+
+00:02:03.000 --> 00:02:07.666
+The webhook is added, and its page opens, with its signing secret.
+
+00:02:07.666 --> 00:02:11.879
+Copy the secret into the system that receives the messages.
+
+00:02:16.079 --> 00:02:17.325
+Order events:
+
+00:02:17.325 --> 00:02:24.211
+Order placed, Order paid, Order canceled with its reason, and Order refunded, once for each refund.
+
+00:02:24.211 --> 00:02:30.049
+An order placed to pay offline is sent when it is placed, before the money arrives.
+
+00:02:30.799 --> 00:02:32.156
+Shipment events:
+
+00:02:32.156 --> 00:02:36.969
+Shipment shipped, with its carrier and tracking, and Shipment delivered.
+
+00:02:37.719 --> 00:02:38.969
+Stock events:
+
+00:02:38.969 --> 00:02:42.854
+Stock changed, Stock running low, and Stock sold out.
+
+00:02:42.854 --> 00:02:46.739
+And Customer created, when a customer record is made.
+
+00:02:50.939 --> 00:02:57.079
+Every message carries the event's id and name, when this try was signed, and a signature.
+
+00:02:57.829 --> 00:03:02.041
+The signature is a keyed hash of the timestamp and the message, made
+
+00:03:02.041 --> 00:03:03.749
+with the signing secret.
+
+00:03:03.749 --> 00:03:08.019
+The receiver works out the same hash, and refuses a message that does
+
+00:03:08.019 --> 00:03:10.069
+not match, or that is too old.
+
+00:03:10.819 --> 00:03:15.071
+The secret belongs in the receiver's settings, never in a web page.
+
+00:03:15.071 --> 00:03:19.149
+The Technical Manual shows the check written out for developers.
+
+00:03:23.350 --> 00:03:26.415
+To see a delivery, something has to happen.
+
+00:03:26.415 --> 00:03:28.417
+Here an order is canceled:
+
+00:03:28.417 --> 00:03:32.420
+on the order's page, a reason under Why, and Cancel order.
+
+00:03:33.573 --> 00:03:37.719
+Under the webhook, Deliveries lists every message, newest first:
+
+00:03:37.719 --> 00:03:42.458
+the event, whether it is Pending, Delivered or Failed, when it was raised,
+
+00:03:42.458 --> 00:03:46.131
+how many attempts, when it is tried next, and the error.
+
+00:03:46.131 --> 00:03:51.403
+Here the receiver's address does not exist, so the message waits to be tried again.
+
+00:03:51.855 --> 00:03:55.275
+Send a test event checks that the receiver is set up.
+
+00:03:55.275 --> 00:03:59.334
+It sends a ping to this webhook only, signed like any other, and
+
+00:03:59.334 --> 00:04:02.175
+the log shows whether the receiver took it.
+
+00:04:02.625 --> 00:04:07.511
+Send again sends a message now, for example once you have fixed the receiver.
+
+00:04:07.511 --> 00:04:08.748
+It starts over:
+
+00:04:08.748 --> 00:04:12.515
+if it fails again, it is tried again on the same schedule.
+
+00:04:14.115 --> 00:04:18.294
+A message is sent right after the change that raised it, so a
+
+00:04:18.294 --> 00:04:21.039
+slow receiver never slows your buyers.
+
+00:04:21.039 --> 00:04:25.779
+The receiver has fifteen seconds to answer with a success such as 200.
+
+00:04:25.779 --> 00:04:27.775
+A redirect does not count.
+
+00:04:28.525 --> 00:04:33.892
+Otherwise it is tried again after one minute, five minutes, thirty minutes, two
+
+00:04:33.892 --> 00:04:37.616
+hours, six hours, twelve hours and twenty-four hours:
+
+00:04:37.616 --> 00:04:39.195
+eight tries in all.
+
+00:04:39.195 --> 00:04:43.298
+If the last one fails, it is Failed, and is not tried again
+
+00:04:43.298 --> 00:04:45.255
+unless you send it again.
+
+00:04:46.005 --> 00:04:50.634
+So the receiver should answer quickly, drop repeats by their id, and not
+
+00:04:50.634 --> 00:04:53.185
+depend on messages arriving in order.
+
+00:04:57.386 --> 00:05:01.941
+If the secret may have leaked, click New secret next to the signing secret.
+
+00:05:01.941 --> 00:05:06.608
+Deliveries are signed with the new secret from then on, including retries, so
+
+00:05:06.608 --> 00:05:09.026
+put it in the receiver straight away.
+
+00:05:09.477 --> 00:05:13.786
+Delete, on the webhook's page, removes the webhook and its log:
+
+00:05:13.786 --> 00:05:15.847
+nothing more is sent to it.
+
+00:05:15.847 --> 00:05:19.657
+Delivered and failed messages are kept for thirty days.
+
+00:05:23.857 --> 00:05:25.096
+A warehouse:
+
+00:05:25.096 --> 00:05:28.057
+send every paid order, and shipments.
+
+00:05:28.807 --> 00:05:29.896
+Accounting:
+
+00:05:29.896 --> 00:05:32.907
+record orders and refunds as they happen.
+
+00:05:33.657 --> 00:05:35.003
+A marketplace:
+
+00:05:35.003 --> 00:05:37.157
+keep stock counts in step.
+
+00:05:37.907 --> 00:05:39.390
+A mailing list:
+
+00:05:39.390 --> 00:05:41.367
+add each new customer.
+
+00:05:43.367 --> 00:05:48.527
+With webhooks, the right system hears about the right moment, signed, and tried
+
+00:05:48.527 --> 00:05:50.288
+again until it answers.
+
+00:05:50.288 --> 00:05:51.867
+Thanks for watching.
+

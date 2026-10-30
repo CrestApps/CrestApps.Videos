@@ -1,0 +1,74 @@
+WEBVTT
+
+00:00:03.202 --> 00:00:06.267
+To see a delivery, something has to happen.
+
+00:00:06.267 --> 00:00:08.268
+Here an order is canceled:
+
+00:00:08.268 --> 00:00:12.272
+on the order's page, a reason under Why, and Cancel order.
+
+00:00:13.424 --> 00:00:17.571
+Under the webhook, Deliveries lists every message, newest first:
+
+00:00:17.571 --> 00:00:22.310
+the event, whether it is Pending, Delivered or Failed, when it was raised,
+
+00:00:22.310 --> 00:00:25.982
+how many attempts, when it is tried next, and the error.
+
+00:00:25.982 --> 00:00:31.254
+Here the receiver's address does not exist, so the message waits to be tried again.
+
+00:00:31.706 --> 00:00:35.127
+Send a test event checks that the receiver is set up.
+
+00:00:35.127 --> 00:00:39.185
+It sends a ping to this webhook only, signed like any other, and
+
+00:00:39.185 --> 00:00:42.026
+the log shows whether the receiver took it.
+
+00:00:42.477 --> 00:00:47.363
+Send again sends a message now, for example once you have fixed the receiver.
+
+00:00:47.363 --> 00:00:48.599
+It starts over:
+
+00:00:48.599 --> 00:00:52.367
+if it fails again, it is tried again on the same schedule.
+
+00:00:53.967 --> 00:00:58.146
+A message is sent right after the change that raised it, so a
+
+00:00:58.146 --> 00:01:00.890
+slow receiver never slows your buyers.
+
+00:01:00.890 --> 00:01:05.631
+The receiver has fifteen seconds to answer with a success such as 200.
+
+00:01:05.631 --> 00:01:07.627
+A redirect does not count.
+
+00:01:08.377 --> 00:01:13.743
+Otherwise it is tried again after one minute, five minutes, thirty minutes, two
+
+00:01:13.743 --> 00:01:17.468
+hours, six hours, twelve hours and twenty-four hours:
+
+00:01:17.468 --> 00:01:19.046
+eight tries in all.
+
+00:01:19.046 --> 00:01:23.150
+If the last one fails, it is Failed, and is not tried again
+
+00:01:23.150 --> 00:01:25.107
+unless you send it again.
+
+00:01:25.857 --> 00:01:30.485
+So the receiver should answer quickly, drop repeats by their id, and not
+
+00:01:30.485 --> 00:01:33.037
+depend on messages arriving in order.
+

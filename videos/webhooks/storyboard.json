@@ -1,0 +1,274 @@
+{
+  "title": "Webhooks",
+  "output": "webhooks",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Webhooks",
+      "subtitle": "Tell another system, the moment it happens",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "When something happens in your store, another system often needs to know: the warehouse, your accounting software, your mailing list. A webhook tells it, the moment it happens. This video shows how to add one, the events it can send, how messages are signed and retried, and how to read the log of every delivery."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why webhooks",
+      "subtitle": "No more asking every few minutes",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A warehouse should hear about a paid order at once, not by asking every few minutes."
+            },
+            {
+              "id": "why-2",
+              "text": "Accounting needs orders and refunds. A marketplace needs stock counts. A mailing list needs new customers."
+            },
+            {
+              "id": "why-3",
+              "text": "A webhook sends each of these as a short message to an address you choose, the moment it happens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Events, a secret and a log",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "You add a webhook with a name, the receiver's address, and the events it should send."
+            },
+            {
+              "id": "how-2",
+              "text": "Each message is signed with the webhook's secret, so the receiver can tell it really came from your store."
+            },
+            {
+              "id": "how-3",
+              "text": "If the receiver does not answer with a success, the message is tried again, up to eight times over about two days."
+            },
+            {
+              "id": "how-4",
+              "text": "A log shows every message: whether it was delivered, how many tries, and what went wrong. You can send one again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add a webhook",
+      "subtitle": "Name, address and events",
+      "clips": [
+        {
+          "id": "03-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "Open Commerce, Webhooks. It lists your webhooks, and says how many events each sends. Click Add webhook."
+            },
+            {
+              "id": "add-2",
+              "text": "Give it a Name, such as the system it feeds: Warehouse. Enter the URL of the receiver, which must start with https. The On switch stops it sending, without losing the webhook."
+            },
+            {
+              "id": "add-3",
+              "text": "Choose the events. Every event, those added later too, sends them all. Or choose at least one: here, Order paid, Order canceled and Shipment shipped. Stock, customer and refund events are there too."
+            },
+            {
+              "id": "add-4",
+              "text": "Click Save. The webhook is added, and its page opens, with its signing secret. Copy the secret into the system that receives the messages."
+            }
+          ]
+        }
+      ],
+      "short": "add"
+    },
+    {
+      "id": "04",
+      "title": "The events",
+      "subtitle": "What you can send",
+      "clips": [
+        {
+          "id": "04-events",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ev-1",
+              "text": "Order events: Order placed, Order paid, Order canceled with its reason, and Order refunded, once for each refund. An order placed to pay offline is sent when it is placed, before the money arrives."
+            },
+            {
+              "id": "ev-2",
+              "text": "Shipment events: Shipment shipped, with its carrier and tracking, and Shipment delivered."
+            },
+            {
+              "id": "ev-3",
+              "text": "Stock events: Stock changed, Stock running low, and Stock sold out. And Customer created, when a customer record is made."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "What the receiver checks",
+      "subtitle": "Headers and the signature",
+      "clips": [
+        {
+          "id": "05-sign",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "sig-1",
+              "text": "Every message carries the event's id and name, when this try was signed, and a signature."
+            },
+            {
+              "id": "sig-2",
+              "text": "The signature is a keyed hash of the timestamp and the message, made with the signing secret. The receiver works out the same hash, and refuses a message that does not match, or that is too old."
+            },
+            {
+              "id": "sig-3",
+              "text": "The secret belongs in the receiver's settings, never in a web page. The Technical Manual shows the check written out for developers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Deliveries and retries",
+      "subtitle": "See every message",
+      "clips": [
+        {
+          "id": "06-deliveries",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "del-1",
+              "text": "To see a delivery, something has to happen. Here an order is canceled: on the order's page, a reason under Why, and Cancel order."
+            },
+            {
+              "id": "del-2",
+              "text": "Under the webhook, Deliveries lists every message, newest first: the event, whether it is Pending, Delivered or Failed, when it was raised, how many attempts, when it is tried next, and the error. Here the receiver's address does not exist, so the message waits to be tried again."
+            },
+            {
+              "id": "del-3",
+              "text": "Send a test event checks that the receiver is set up. It sends a ping to this webhook only, signed like any other, and the log shows whether the receiver took it."
+            },
+            {
+              "id": "del-4",
+              "text": "Send again sends a message now, for example once you have fixed the receiver. It starts over: if it fails again, it is tried again on the same schedule."
+            }
+          ]
+        },
+        {
+          "id": "07-retries",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ret-1",
+              "text": "A message is sent right after the change that raised it, so a slow receiver never slows your buyers. The receiver has fifteen seconds to answer with a success such as 200. A redirect does not count."
+            },
+            {
+              "id": "ret-2",
+              "text": "Otherwise it is tried again after one minute, five minutes, thirty minutes, two hours, six hours, twelve hours and twenty-four hours: eight tries in all. If the last one fails, it is Failed, and is not tried again unless you send it again."
+            },
+            {
+              "id": "ret-3",
+              "text": "So the receiver should answer quickly, drop repeats by their id, and not depend on messages arriving in order."
+            }
+          ]
+        }
+      ],
+      "short": "deliveries"
+    },
+    {
+      "id": "07",
+      "title": "The secret, and removing a webhook",
+      "subtitle": "New secret and Delete",
+      "clips": [
+        {
+          "id": "08-secret",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sec-1",
+              "text": "If the secret may have leaked, click New secret next to the signing secret. Deliveries are signed with the new secret from then on, including retries, so put it in the receiver straight away."
+            },
+            {
+              "id": "sec-2",
+              "text": "Delete, on the webhook's page, removes the webhook and its log: nothing more is sent to it. Delivered and failed messages are kept for thirty days."
+            }
+          ]
+        }
+      ],
+      "short": "secret"
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How stores put it to work",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A warehouse: send every paid order, and shipments."
+            },
+            {
+              "id": "use-2",
+              "text": "Accounting: record orders and refunds as they happen."
+            },
+            {
+              "id": "use-3",
+              "text": "A marketplace: keep stock counts in step."
+            },
+            {
+              "id": "use-4",
+              "text": "A mailing list: add each new customer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With webhooks, the right system hears about the right moment, signed, and tried again until it answers. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
