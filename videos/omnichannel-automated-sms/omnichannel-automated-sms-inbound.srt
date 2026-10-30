@@ -1,0 +1,20 @@
+1
+00:00:03,205 --> 00:00:06,990
+The AI can also answer customers who text you first.
+
+2
+00:00:06,990 --> 00:00:13,645
+Under Inbound entry points, add a Text messages entry point, and pick the number customers text.
+
+3
+00:00:14,095 --> 00:00:19,932
+On the Routing card, Route to offers a queue, a specific agent, or an AI agent.
+
+4
+00:00:19,932 --> 00:00:24,670
+Choose AI agent and pick the profile, and the first text from a
+
+5
+00:00:24,670 --> 00:00:27,965
+customer starts an automated conversation.
+

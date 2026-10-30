@@ -1,0 +1,48 @@
+1
+00:00:03,193 --> 00:00:04,896
+First, the AI profile.
+
+2
+00:00:04,896 --> 00:00:08,849
+Under Artificial Intelligence, Profiles, click Add Profile.
+
+3
+00:00:08,849 --> 00:00:14,079
+The Text messaging starting points include Qualify leads by text, which fills in
+
+4
+00:00:14,079 --> 00:00:17,423
+the opening message and the instructions for you.
+
+5
+00:00:17,875 --> 00:00:18,790
+Choose it.
+
+6
+00:00:18,790 --> 00:00:23,711
+The title and the technical name are filled in for you, and you can change them.
+
+7
+00:00:23,711 --> 00:00:26,915
+Pick a chat deployment, then click Create profile.
+
+8
+00:00:26,915 --> 00:00:29,375
+The profile opens in the full editor.
+
+9
+00:00:31,769 --> 00:00:36,333
+Start the conversation automatically is on, and the opening message is the first
+
+10
+00:00:36,333 --> 00:00:38,084
+text the customer receives.
+
+11
+00:00:38,084 --> 00:00:41,799
+Put your business name in it, and fill in the About the business
+
+12
+00:00:41,799 --> 00:00:45,089
+section of the instructions, before you use the profile.
+

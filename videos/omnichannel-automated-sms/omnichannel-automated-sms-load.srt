@@ -1,0 +1,52 @@
+1
+00:00:03,191 --> 00:00:04,445
+Now the load.
+
+2
+00:00:04,445 --> 00:00:09,331
+Open Load Activities, click Add Activity Load, and choose Automatic.
+
+3
+00:00:09,331 --> 00:00:14,811
+Give it a title, then pick the subject type, the campaign and the AI profile.
+
+4
+00:00:15,261 --> 00:00:19,678
+Allow the AI to update the contact or the subject lets it save
+
+5
+00:00:19,678 --> 00:00:22,796
+what it learns, such as a corrected email.
+
+6
+00:00:22,796 --> 00:00:28,448
+The reply delay can be none, fixed or random, so replies do not arrive instantly.
+
+7
+00:00:28,448 --> 00:00:30,981
+Here the AI waits twenty seconds.
+
+8
+00:00:31,433 --> 00:00:36,095
+Re-engagement is the cadence that follows up when the customer goes quiet.
+
+9
+00:00:36,095 --> 00:00:40,815
+Business hours limit those follow-ups to the hours the calendar is open, in
+
+10
+00:00:40,815 --> 00:00:42,621
+the customer's time zone.
+
+11
+00:00:42,621 --> 00:00:46,933
+Then choose SMS as the channel, and the address the texts come from.
+
+12
+00:00:47,384 --> 00:00:49,937
+Choose the contact type and save.
+
+13
+00:00:49,937 --> 00:00:53,144
+The load is saved, but nothing is sent yet.
+

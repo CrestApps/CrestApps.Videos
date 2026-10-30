@@ -1,0 +1,94 @@
+{
+  "title": "Omnichannel Automated SMS: Let an AI Profile Qualify Leads by Text | CrestApps for Orchard Core",
+  "description": "The first text to a new lead does not have to come from a person. An automatic activity load gives each contact to an AI profile that sends the opening text, holds the conversation, follows up when the customer goes quiet, and completes the activity with a disposition and a summary. The same profile can answer the customers who text you first.\n\nIn this video:\n• Why automate texts, and what the AI profile does\n• Starting an AI profile from Qualify leads by text\n• The automatic activity load: AI profile, reply delay, re-engagement cadence, business hours, channel and address\n• Loading the activities, and the background task that sends the opening text\n• Opt-outs, no-response timeouts and reply delays\n• Routing a text entry point to an AI agent\n• Disposition, summary, Review AI conversation and live agent handoff",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "automated SMS",
+    "AI text messages",
+    "SMS automation",
+    "lead qualification",
+    "AI agent",
+    "omnichannel SMS",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why automate texts"
+    },
+    {
+      "time": "0:56",
+      "title": "The AI profile"
+    },
+    {
+      "time": "1:42",
+      "title": "The automatic load"
+    },
+    {
+      "time": "2:36",
+      "title": "Run the load"
+    },
+    {
+      "time": "3:14",
+      "title": "Opt-outs, timeouts and delays"
+    },
+    {
+      "time": "3:46",
+      "title": "Texts customers send"
+    },
+    {
+      "time": "4:15",
+      "title": "When the conversation ends"
+    },
+    {
+      "time": "4:59",
+      "title": "What to use it for"
+    },
+    {
+      "time": "5:23",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/automated-ai"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/sms"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Sms"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/automated-ai.md",
+    "src/CrestApps.Docs/docs/omnichannel/sms.md"
+  ],
+  "length": "5:35"
+}
