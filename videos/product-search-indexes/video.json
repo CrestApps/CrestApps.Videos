@@ -1,0 +1,92 @@
+{
+  "title": "Product Search Indexes: Lucene, Elasticsearch and Azure AI Search | CrestApps for Orchard Core",
+  "description": "A listing searches your database by default. For a large catalog, or when the best match should come first, a listing can search a search server instead. This video shows the three steps: turn on a product search feature, create the index under Search, Indexes, and choose it on the listing, and what visitors see.\n\nIn this video:\n• Why a search index, and the three steps: feature, index, listing\n• Turning on Product Search (Lucene)\n• Creating the index under Search, Indexes\n• Choosing the index on the listing\n• What visitors see, the database fallback and the other engines",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "product search",
+    "Lucene",
+    "Elasticsearch",
+    "Azure AI Search",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:12",
+      "title": "Why a search index"
+    },
+    {
+      "time": "0:50",
+      "title": "The three steps"
+    },
+    {
+      "time": "1:25",
+      "title": "Turn on the feature"
+    },
+    {
+      "time": "1:39",
+      "title": "Create the index"
+    },
+    {
+      "time": "1:57",
+      "title": "Choose it on the listing"
+    },
+    {
+      "time": "2:14",
+      "title": "What visitors see"
+    },
+    {
+      "time": "2:37",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:15",
+      "title": "Use cases"
+    },
+    {
+      "time": "3:35",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Product listings (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/product-listings"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/products"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Products.Lucene"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/product-listings.md"
+  ],
+  "length": "3:43"
+}

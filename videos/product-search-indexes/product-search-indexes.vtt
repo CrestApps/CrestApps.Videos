@@ -1,0 +1,155 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.760
+A listing searches your database by default.
+
+00:00:03.760 --> 00:00:07.844
+This video shows how to turn on a product search feature, create the
+
+00:00:07.844 --> 00:00:11.100
+index, choose it on a listing, and what visitors see.
+
+00:00:15.700 --> 00:00:19.098
+By default, a listing searches your database.
+
+00:00:19.098 --> 00:00:22.230
+For most catalogs, that is exactly right.
+
+00:00:22.980 --> 00:00:27.440
+A large catalog, or one where the best match should come first, can
+
+00:00:27.440 --> 00:00:29.700
+search a search server instead.
+
+00:00:30.450 --> 00:00:34.771
+The visitors see the same filters, counts, sorts and pages.
+
+00:00:34.771 --> 00:00:39.623
+Keyword search matches the start of words, such as fo for Ford, and
+
+00:00:39.623 --> 00:00:41.950
+ranks the best matches first.
+
+00:00:42.700 --> 00:00:45.453
+Turning on a search feature is not enough.
+
+00:00:45.453 --> 00:00:49.010
+You also create the index, and choose it on the listing.
+
+00:00:53.210 --> 00:00:56.335
+First, turn on a product search feature:
+
+00:00:56.335 --> 00:00:59.527
+Elasticsearch, Lucene or Azure AI Search.
+
+00:00:59.527 --> 00:01:04.350
+Lucene keeps its index on your own server and needs nothing else.
+
+00:01:05.100 --> 00:01:09.327
+Second, under Search, Indexes, add a products index, and save.
+
+00:01:09.327 --> 00:01:12.560
+It fills with your products in the background.
+
+00:01:13.310 --> 00:01:18.370
+Third, edit a listing, pick the index under Search index, and publish.
+
+00:01:19.120 --> 00:01:24.380
+Elasticsearch and Azure AI Search need their connection set up first.
+
+00:01:28.584 --> 00:01:32.367
+Open Tools, Features, and search for Product Search.
+
+00:01:32.367 --> 00:01:35.629
+Click Enable next to Product Search, Lucene.
+
+00:01:35.629 --> 00:01:38.304
+Lucene itself is turned on with it.
+
+00:01:42.499 --> 00:01:44.396
+Open Search, Indexes.
+
+00:01:44.396 --> 00:01:47.349
+Next to Products, Lucene, click Add.
+
+00:01:49.049 --> 00:01:51.805
+Enter a name for the index, and click Save.
+
+00:01:51.805 --> 00:01:56.869
+The index fills with your products in the background, and the list shows its status.
+
+00:02:01.052 --> 00:02:04.616
+Open Commerce, Product Listings, and edit the listing.
+
+00:02:04.616 --> 00:02:09.309
+Under Search index, which is shown once an index exists, choose the index
+
+00:02:09.309 --> 00:02:11.864
+you created, instead of the database.
+
+00:02:11.864 --> 00:02:13.052
+Click Publish.
+
+00:02:17.252 --> 00:02:19.972
+On the shop, visitors search as before.
+
+00:02:19.972 --> 00:02:24.262
+Type the start of a word, and the listing shows the products that
+
+00:02:24.262 --> 00:02:27.042
+match, with the same filters and counts.
+
+00:02:27.494 --> 00:02:31.633
+Each change to a product reaches the index when it is published, and
+
+00:02:31.633 --> 00:02:36.274
+the index rebuilds itself when you change your product types or their fields.
+
+00:02:40.474 --> 00:02:45.716
+If the search server cannot be reached, the listing searches the database instead,
+
+00:02:45.716 --> 00:02:47.264
+so it keeps working.
+
+00:02:48.014 --> 00:02:54.565
+Elasticsearch and Azure AI Search work the same way, with Products, Elasticsearch and
+
+00:02:54.565 --> 00:02:57.444
+Products, Azure AI Search indexes.
+
+00:02:58.194 --> 00:03:02.985
+The listing's keyword search can be turned off, and a listing with no
+
+00:03:02.985 --> 00:03:06.114
+filters and no search has no filters panel.
+
+00:03:06.864 --> 00:03:10.132
+A search index is not needed for a small shop.
+
+00:03:10.132 --> 00:03:14.594
+Add one when the database search is slow, or the ranking matters.
+
+00:03:18.794 --> 00:03:20.411
+A large catalog:
+
+00:03:20.411 --> 00:03:22.174
+search stays fast.
+
+00:03:22.924 --> 00:03:26.184
+A shop where the best match should come first.
+
+00:03:26.934 --> 00:03:31.444
+A site that already runs Elasticsearch or Azure AI Search.
+
+00:03:32.194 --> 00:03:33.361
+A small shop:
+
+00:03:33.361 --> 00:03:34.834
+keep the database.
+
+00:03:36.834 --> 00:03:40.830
+Turn on the feature, create the index, and choose it on the listing.
+
+00:03:40.830 --> 00:03:42.234
+Thanks for watching.
+

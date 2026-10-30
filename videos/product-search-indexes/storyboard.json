@@ -1,0 +1,233 @@
+{
+  "title": "Product search indexes",
+  "output": "product-search-indexes",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Product search indexes",
+      "subtitle": "Search that ranks the best match first",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A listing searches your database by default. This video shows how to turn on a product search feature, create the index, choose it on a listing, and what visitors see."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why a search index",
+      "subtitle": "Search that ranks the best match first",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "By default, a listing searches your database. For most catalogs, that is exactly right."
+            },
+            {
+              "id": "why-2",
+              "text": "A large catalog, or one where the best match should come first, can search a search server instead."
+            },
+            {
+              "id": "why-3",
+              "text": "The visitors see the same filters, counts, sorts and pages. Keyword search matches the start of words, such as fo for Ford, and ranks the best matches first."
+            },
+            {
+              "id": "why-4",
+              "text": "Turning on a search feature is not enough. You also create the index, and choose it on the listing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The three steps",
+      "subtitle": "Feature, index, listing",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "First, turn on a product search feature: Elasticsearch, Lucene or Azure AI Search. Lucene keeps its index on your own server and needs nothing else."
+            },
+            {
+              "id": "how-2",
+              "text": "Second, under Search, Indexes, add a products index, and save. It fills with your products in the background."
+            },
+            {
+              "id": "how-3",
+              "text": "Third, edit a listing, pick the index under Search index, and publish."
+            },
+            {
+              "id": "how-4",
+              "text": "Elasticsearch and Azure AI Search need their connection set up first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Turn on the feature",
+      "subtitle": "Product Search (Lucene)",
+      "clips": [
+        {
+          "id": "03-feature",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fea-1",
+              "text": "Open Tools, Features, and search for Product Search. Click Enable next to Product Search, Lucene. Lucene itself is turned on with it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Create the index",
+      "subtitle": "Search, Indexes, Add",
+      "clips": [
+        {
+          "id": "04-index",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "idx-1",
+              "text": "Open Search, Indexes. Next to Products, Lucene, click Add."
+            },
+            {
+              "id": "idx-2",
+              "text": "Enter a name for the index, and click Save. The index fills with your products in the background, and the list shows its status."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Choose it on the listing",
+      "subtitle": "The Search index setting",
+      "clips": [
+        {
+          "id": "05-listing",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lst-1",
+              "text": "Open Commerce, Product Listings, and edit the listing. Under Search index, which is shown once an index exists, choose the index you created, instead of the database. Click Publish."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What visitors see",
+      "subtitle": "Keyword search",
+      "clips": [
+        {
+          "id": "06-visitors",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vis-1",
+              "text": "On the shop, visitors search as before. Type the start of a word, and the listing shows the products that match, with the same filters and counts."
+            },
+            {
+              "id": "vis-2",
+              "text": "Each change to a product reaches the index when it is published, and the index rebuilds itself when you change your product types or their fields."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Good to know",
+      "subtitle": "Fallback and the other engines",
+      "clips": [
+        {
+          "id": "07-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kno-1",
+              "text": "If the search server cannot be reached, the listing searches the database instead, so it keeps working."
+            },
+            {
+              "id": "kno-2",
+              "text": "Elasticsearch and Azure AI Search work the same way, with Products, Elasticsearch and Products, Azure AI Search indexes."
+            },
+            {
+              "id": "kno-3",
+              "text": "The listing's keyword search can be turned off, and a listing with no filters and no search has no filters panel."
+            },
+            {
+              "id": "kno-4",
+              "text": "A search index is not needed for a small shop. Add one when the database search is slow, or the ranking matters."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "Four ways to use a search index",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A large catalog: search stays fast."
+            },
+            {
+              "id": "use-2",
+              "text": "A shop where the best match should come first."
+            },
+            {
+              "id": "use-3",
+              "text": "A site that already runs Elasticsearch or Azure AI Search."
+            },
+            {
+              "id": "use-4",
+              "text": "A small shop: keep the database."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the feature, create the index, and choose it on the listing. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
