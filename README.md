@@ -37,7 +37,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Realtime Voice: Set Up a Spoken Conversation With Your AI Assistant](videos/ai-realtime-voice) | 4:42 | [https://youtu.be/-cuUgCEB_wc](https://youtu.be/-cuUgCEB_wc) | CrestApps/CrestApps.OrchardCore |
 | [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | [https://youtu.be/M7qNeIcrasU](https://youtu.be/M7qNeIcrasU) | CrestApps/CrestApps.OrchardCore |
 | [AI Site Settings: A Tour of Settings, Artificial Intelligence](videos/ai-site-settings) | 3:40 | [https://youtu.be/MhyG13Wmmuk](https://youtu.be/MhyG13Wmmuk) | CrestApps/CrestApps.OrchardCore |
-| [AI Tools and Tool Instances: Let an Assistant Take Action](videos/ai-tools-and-tool-instances) | 6:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Tools and Tool Instances: Let an Assistant Take Action](videos/ai-tools-and-tool-instances) | 6:10 | [https://youtu.be/nJI61orbkyM](https://youtu.be/nJI61orbkyM) | CrestApps/CrestApps.OrchardCore |
 | [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
