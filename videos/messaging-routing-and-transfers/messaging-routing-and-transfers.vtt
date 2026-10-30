@@ -1,0 +1,161 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.664
+When a customer texts your business, someone has to be given the conversation.
+
+00:00:05.664 --> 00:00:09.995
+This video shows how a queue hands out conversations, with a shared pool
+
+00:00:09.995 --> 00:00:14.381
+or with routing, and how an agent transfers a conversation to a colleague
+
+00:00:14.381 --> 00:00:15.880
+or back to the queue.
+
+00:00:20.480 --> 00:00:24.430
+A text that lands in a shared list can be answered by anyone,
+
+00:00:24.430 --> 00:00:27.850
+which means that sometimes it is answered by no one.
+
+00:00:28.600 --> 00:00:31.948
+A busy team wants the text to reach a free person, and wants
+
+00:00:31.948 --> 00:00:34.840
+it to move on when that person does not pick it up.
+
+00:00:35.590 --> 00:00:40.810
+And a conversation sometimes needs another person, for a question that belongs to
+
+00:00:40.810 --> 00:00:44.470
+a different skill, without the customer starting again.
+
+00:00:48.670 --> 00:00:52.664
+An inbound entry point sends the texts of a number to an agent
+
+00:00:52.664 --> 00:00:53.839
+or to a queue.
+
+00:00:53.839 --> 00:00:58.010
+A text to an agent's personal number goes straight to that agent.
+
+00:00:58.760 --> 00:01:00.969
+A queue can use a shared pool.
+
+00:01:00.969 --> 00:01:06.370
+Every agent of the queue sees the conversation, and the first to claim it owns it.
+
+00:01:07.120 --> 00:01:09.957
+A queue can also use routed distribution.
+
+00:01:09.957 --> 00:01:14.725
+The conversation is pushed to one available agent who has the inbox open,
+
+00:01:14.725 --> 00:01:17.320
+and who has the fewest conversations.
+
+00:01:18.070 --> 00:01:22.106
+If the agent does not pick it up within five minutes, it is
+
+00:01:22.106 --> 00:01:23.969
+routed to another agent.
+
+00:01:23.969 --> 00:01:29.060
+After two such moves, it falls back to the shared pool, so it is never lost.
+
+00:01:33.254 --> 00:01:40.412
+Open Interaction Center, Management, Inbound entry points, and edit the entry point of a number.
+
+00:01:40.412 --> 00:01:45.254
+Route to chooses a queue, a specific agent, or an AI assistant.
+
+00:01:45.710 --> 00:01:48.546
+Target queue is the queue it routes to.
+
+00:01:48.546 --> 00:01:54.345
+Queue distribution chooses between Shared pool, where agents claim to own, and Routed,
+
+00:01:54.345 --> 00:01:58.000
+where one available agent is given the conversation.
+
+00:01:58.455 --> 00:02:03.860
+In the inbox, the Available switch decides whether you accept routed conversations.
+
+00:02:03.860 --> 00:02:10.115
+Routed distribution only gives conversations to agents who are available and have the inbox open.
+
+00:02:14.307 --> 00:02:18.415
+A conversation nobody holds must be claimed first.
+
+00:02:18.415 --> 00:02:22.157
+Open it and click Claim, then click Transfer.
+
+00:02:22.608 --> 00:02:25.861
+Choose A person, and pick a colleague from the list.
+
+00:02:25.861 --> 00:02:30.628
+The list offers only people who can use the messaging workspace, and never you.
+
+00:02:31.080 --> 00:02:35.171
+Add a Note for the recipient, up to five hundred characters.
+
+00:02:35.171 --> 00:02:40.440
+The note stays in the history for other agents, and the customer never sees it.
+
+00:02:40.896 --> 00:02:42.086
+Click Transfer.
+
+00:02:42.086 --> 00:02:46.222
+It is the same conversation, so its whole history goes with it, and
+
+00:02:46.222 --> 00:02:48.999
+the thread says who transferred it to whom.
+
+00:02:48.999 --> 00:02:50.926
+The new owner gets a notice.
+
+00:02:55.116 --> 00:02:59.097
+Sometimes you cannot help, and nobody in particular should.
+
+00:02:59.097 --> 00:03:03.446
+Claim a conversation, click Transfer, and choose Back to a queue.
+
+00:03:03.898 --> 00:03:07.816
+Pick the queue, add a note if it helps, and click Transfer.
+
+00:03:07.816 --> 00:03:12.998
+The conversation goes back to that queue's shared inbox for any member to claim.
+
+00:03:13.449 --> 00:03:17.219
+Only the agent who holds a conversation can transfer it.
+
+00:03:17.219 --> 00:03:22.449
+A supervisor with permission to view all conversations can transfer any of them.
+
+00:03:26.649 --> 00:03:31.651
+A busy support team turns on routed distribution, so each new text goes
+
+00:03:31.651 --> 00:03:34.379
+to the agent with the lightest load.
+
+00:03:35.129 --> 00:03:39.521
+A frontline agent transfers a billing question to a colleague, and leaves a
+
+00:03:39.521 --> 00:03:42.449
+note so the customer does not have to repeat it.
+
+00:03:43.199 --> 00:03:47.692
+An agent going to lunch turns Available off, and sends the conversations they
+
+00:03:47.692 --> 00:03:49.749
+cannot finish back to the queue.
+
+00:03:51.749 --> 00:03:56.057
+Choose how a queue hands out conversations, and move a conversation to the
+
+00:03:56.057 --> 00:03:58.049
+right person when it needs one.
+
+00:03:58.049 --> 00:03:59.449
+Thanks for watching.
+
