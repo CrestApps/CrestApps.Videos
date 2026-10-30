@@ -1,0 +1,52 @@
+1
+00:00:03,202 --> 00:00:08,393
+To show developers the API, turn on OpenAPI on the same Features page,
+
+2
+00:00:08,393 --> 00:00:10,579
+and one or more explorers.
+
+3
+00:00:10,579 --> 00:00:15,564
+Swagger UI and Scalar UI let developers try calls from the browser.
+
+4
+00:00:15,564 --> 00:00:17,477
+ReDoc UI is read-only.
+
+5
+00:00:17,477 --> 00:00:19,662
+Click Enable on Scalar UI.
+
+6
+00:00:20,113 --> 00:00:25,411
+On the OpenAPI settings page, Allow anonymous access to the API schema opens
+
+7
+00:00:25,411 --> 00:00:27,608
+the description to everyone.
+
+8
+00:00:27,608 --> 00:00:33,616
+By default, only a signed-in user with the View OpenAPI Content permission can read it.
+
+9
+00:00:33,616 --> 00:00:38,333
+Leave it off on a live store unless you want your API to be public.
+
+10
+00:00:38,785 --> 00:00:44,687
+The explorers open at slash swagger, slash scalar, and slash redoc on your site.
+
+11
+00:00:44,687 --> 00:00:47,432
+The commerce API is grouped there:
+
+12
+00:00:47,432 --> 00:00:55,118
+Catalog, Cart, Checkout, Inventory, Account, and for staff, Orders, Customers, Coupons, Stock, Fulfillment
+
+13
+00:00:55,118 --> 00:00:56,765
+and Point of Sale.
+

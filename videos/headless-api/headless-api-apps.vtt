@@ -1,0 +1,50 @@
+WEBVTT
+
+00:00:03.206 --> 00:00:07.612
+An app that buyers sign in to, such as a storefront or a phone app.
+
+00:00:07.612 --> 00:00:12.140
+Under Applications, add one with a Client Id, a Display Name, and the
+
+00:00:12.140 --> 00:00:16.908
+Public type, because an app in a phone or a browser cannot keep a secret.
+
+00:00:16.908 --> 00:00:21.737
+Tick the authorization code flow, PKCE and the refresh token flow, and add
+
+00:00:21.737 --> 00:00:24.876
+the redirect address your developers give you.
+
+00:00:25.328 --> 00:00:27.804
+Allow the profile and roles scopes.
+
+00:00:27.804 --> 00:00:33.783
+The roles scope tells the API the person's roles, which is where staff permissions come from.
+
+00:00:33.783 --> 00:00:34.448
+Save.
+
+00:00:34.899 --> 00:00:38.809
+A server that works on the store's behalf has no person signing in.
+
+00:00:38.809 --> 00:00:42.880
+First create a role for it, such as Warehouse integration, and give it
+
+00:00:42.880 --> 00:00:44.809
+only the permissions it needs.
+
+00:00:45.260 --> 00:00:50.024
+Then add an application of the Confidential type, with a Client Id and
+
+00:00:50.024 --> 00:00:51.841
+a strong Client Secret.
+
+00:00:51.841 --> 00:00:56.292
+Tick the client credentials flow, and choose the role it acts as.
+
+00:00:56.292 --> 00:01:00.867
+Save, and give the secret only to whoever runs the server, never to
+
+00:01:00.867 --> 00:01:02.560
+an app or a web page.
+

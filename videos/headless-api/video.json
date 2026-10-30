@@ -1,0 +1,102 @@
+{
+  "title": "Headless Commerce API: Admin Setup for Your Own Storefront, App or Integration | CrestApps for Orchard Core",
+  "description": "The CrestApps commerce API lets your own storefront, a phone app, a point of sale or a back-office system sell from the same products, prices, carts and stock as your Orchard Core store. This video shows what you set up in the admin so it can work: the API features, the OpenAPI explorers (Swagger UI, Scalar UI and ReDoc UI), the anonymous schema setting, the OpenID sign-in server, public and confidential applications, and a CORS policy for a storefront on another address.\n\nIn this video:\n• Why a commerce API, and how features, explorers, sign-in and CORS fit together\n• Turning on the API features\n• OpenAPI and its explorers, and anonymous access to the schema\n• The OpenID sign-in server: endpoints, flows and token validation\n• A public app for buyers, and a confidential application for a server\n• A CORS policy for a storefront on another address\n• Who can do what, and what the API cannot do\n• Use cases",
+  "hashtags": [
+    "OrchardCore",
+    "HeadlessCommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "headless commerce",
+    "commerce API",
+    "OpenAPI",
+    "Swagger",
+    "OpenID Connect",
+    "PKCE",
+    "client credentials",
+    "CORS",
+    "headless storefront",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:27",
+      "title": "Why a commerce API"
+    },
+    {
+      "time": "0:55",
+      "title": "How it is organized"
+    },
+    {
+      "time": "1:25",
+      "title": "Turn on the features"
+    },
+    {
+      "time": "2:00",
+      "title": "Show developers the API"
+    },
+    {
+      "time": "2:58",
+      "title": "The sign-in server"
+    },
+    {
+      "time": "3:48",
+      "title": "Apps and servers"
+    },
+    {
+      "time": "4:51",
+      "title": "A storefront on another address"
+    },
+    {
+      "time": "5:23",
+      "title": "Who can do what"
+    },
+    {
+      "time": "6:08",
+      "title": "Use cases"
+    },
+    {
+      "time": "6:33",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/headless-api"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/commerce-api"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders.Api"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/headless-api.md",
+    "src/CrestApps.Docs/docs/modules/commerce-api.md"
+  ],
+  "length": "6:42"
+}

@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.202 --> 00:00:07.702
+A storefront that runs in the browser, on another address than your site,
+
+00:00:07.702 --> 00:00:09.639
+needs your site to allow it.
+
+00:00:09.639 --> 00:00:14.651
+Turn on the CORS feature, and under Security, Cross-Origin Resource Sharing, add a
+
+00:00:14.651 --> 00:00:19.151
+policy for your storefront's address, such as a name, the origin, and the
+
+00:00:19.151 --> 00:00:21.259
+headers and methods it may use.
+
+00:00:21.259 --> 00:00:23.822
+Click Add Origin to add it to the list.
+
+00:00:23.822 --> 00:00:28.720
+The policy applies when the tenant reloads, so give your developers the policy's
+
+00:00:28.720 --> 00:00:30.942
+name and the address you allowed.
+

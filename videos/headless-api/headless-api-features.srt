@@ -1,0 +1,36 @@
+1
+00:00:03,186 --> 00:00:06,399
+Under Tools, Features, search for API.
+
+2
+00:00:06,399 --> 00:00:10,123
+Each commerce module has its own API feature:
+
+3
+00:00:10,123 --> 00:00:16,403
+the Catalog API, Cart API, Checkout API, Orders API, Customers API, Shipping API
+
+4
+00:00:16,403 --> 00:00:19,617
+and Inventory API, plus Point of Sale.
+
+5
+00:00:19,617 --> 00:00:23,706
+For a typical headless store, turn on all of them.
+
+6
+00:00:24,159 --> 00:00:26,479
+Each needs its module on first.
+
+7
+00:00:26,479 --> 00:00:30,741
+Here the Inventory API, which says what is in stock at each of
+
+8
+00:00:30,741 --> 00:00:32,998
+your locations, is not on yet.
+
+9
+00:00:32,998 --> 00:00:34,189
+Click Enable.
+

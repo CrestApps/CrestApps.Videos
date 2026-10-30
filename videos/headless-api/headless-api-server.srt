@@ -1,0 +1,48 @@
+1
+00:00:03,191 --> 00:00:04,836
+Guests need no sign-in:
+
+2
+00:00:04,836 --> 00:00:08,919
+what a shopper does before they have an account works without one.
+
+3
+00:00:08,919 --> 00:00:12,888
+Everything else signs in through your site's own sign-in server.
+
+4
+00:00:12,888 --> 00:00:17,992
+Turn on the OpenID features, and under Authorization Server, the token endpoint, and
+
+5
+00:00:17,992 --> 00:00:21,961
+the authorization endpoint for apps that sign buyers in, are on.
+
+6
+00:00:22,412 --> 00:00:27,554
+Allow authorization code flow, with Require proof key for code exchange, is for
+
+7
+00:00:27,554 --> 00:00:29,429
+apps that sign people in.
+
+8
+00:00:29,429 --> 00:00:32,515
+Allow client credentials flow is for servers.
+
+9
+00:00:32,515 --> 00:00:35,782
+Allow refresh token flow keeps an app signed in.
+
+10
+00:00:35,782 --> 00:00:39,472
+Then click Save, and the site may restart for a moment.
+
+11
+00:00:38,756 --> 00:00:44,527
+Then, under Token Validation, choose this tenant as the one whose tokens are accepted.
+
+12
+00:00:44,527 --> 00:00:48,666
+Without this, every app that has signed in is still refused.
+
