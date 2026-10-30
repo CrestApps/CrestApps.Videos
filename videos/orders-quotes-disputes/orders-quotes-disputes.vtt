@@ -1,0 +1,236 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.884
+Some orders are not an ordinary checkout.
+
+00:00:03.884 --> 00:00:08.548
+This video shows how to take quote requests and answer them, add items
+
+00:00:08.548 --> 00:00:12.904
+to a paid order, offer an order bump and a recovery email, export
+
+00:00:12.904 --> 00:00:16.770
+orders, and what a dispute and a risky payment look like.
+
+00:00:21.370 --> 00:00:23.568
+Not every sale is a checkout.
+
+00:00:23.568 --> 00:00:27.398
+A big order for a trade buyer needs a price of its own,
+
+00:00:27.398 --> 00:00:29.030
+and that is a quote.
+
+00:00:29.780 --> 00:00:34.164
+A paid order sometimes grows, when the buyer calls to add something, and
+
+00:00:34.164 --> 00:00:35.850
+you can add items to it.
+
+00:00:36.600 --> 00:00:41.166
+Every checkout can earn more, with an order bump on the payment step,
+
+00:00:41.166 --> 00:00:43.540
+and an email to a buyer who left.
+
+00:00:44.290 --> 00:00:46.785
+And a store needs to see the risks:
+
+00:00:46.785 --> 00:00:50.070
+disputed payments, and payments that look risky.
+
+00:00:54.271 --> 00:00:56.356
+Open Settings, Commerce, Orders.
+
+00:00:56.356 --> 00:01:00.306
+Tick Take quote requests, and signed in buyers can ask for a quote
+
+00:01:00.306 --> 00:01:01.951
+instead of checking out.
+
+00:01:02.402 --> 00:01:06.921
+Tick Email buyers who leave a checkout, to send a recovery email to
+
+00:01:06.921 --> 00:01:10.573
+a buyer who gave their email and left without paying.
+
+00:01:10.573 --> 00:01:14.472
+Send it after sets how long to wait, one hour by default.
+
+00:01:14.923 --> 00:01:18.876
+An order bump offers one more product on the payment step.
+
+00:01:18.876 --> 00:01:23.200
+Choose the product offered, a discount and a headline, and save.
+
+00:01:23.200 --> 00:01:27.833
+Buyers tick one box to add it, and the total changes before they pay.
+
+00:01:32.028 --> 00:01:37.478
+A signed in buyer with ten notebooks in the cart sees Request a quote, under Checkout.
+
+00:01:38.462 --> 00:01:42.491
+They write what they need, such as the quantity and the date, and
+
+00:01:42.491 --> 00:01:45.783
+give a purchase order number, then send the request.
+
+00:01:45.783 --> 00:01:49.642
+Their cart is emptied, and the quote shows under their orders.
+
+00:01:53.831 --> 00:01:56.132
+The request is a draft order.
+
+00:01:56.132 --> 00:01:59.813
+In Commerce, Orders, filter by Drafts and open it.
+
+00:01:59.813 --> 00:02:03.823
+It shows the buyer's message and purchase order number.
+
+00:02:03.823 --> 00:02:04.941
+Click Edit.
+
+00:02:10.629 --> 00:02:14.460
+Under Price each, enter the price you offer for a line.
+
+00:02:14.460 --> 00:02:17.098
+Leave it blank for your usual price.
+
+00:02:17.098 --> 00:02:19.799
+Pay by is the date the quote expires.
+
+00:02:20.251 --> 00:02:23.951
+Click Update prices to see the totals, and Save draft.
+
+00:02:27.694 --> 00:02:29.036
+Click Send quote.
+
+00:02:29.036 --> 00:02:33.412
+The buyer is emailed the prices and until when they are offered, with
+
+00:02:33.412 --> 00:02:35.338
+a Review and accept button.
+
+00:02:35.338 --> 00:02:40.414
+The order says the quote was emailed, and shows a pay link you can send yourself.
+
+00:02:44.615 --> 00:02:48.557
+The buyer finds the quote under their orders, ready to pay, with the
+
+00:02:48.557 --> 00:02:51.435
+prices you set and the date it is offered until.
+
+00:02:56.668 --> 00:02:58.969
+Accepting a quote means paying it.
+
+00:02:58.969 --> 00:03:01.787
+Shipping and tax are added at the checkout.
+
+00:03:01.787 --> 00:03:06.446
+The prices you set are final, so automatic promotions do not come off them.
+
+00:03:06.446 --> 00:03:10.242
+The buyer can also turn it down, and an expired quote can be
+
+00:03:10.242 --> 00:03:13.808
+offered again by changing its date and sending it again.
+
+00:03:18.015 --> 00:03:22.557
+A paid order cannot be changed, but on its page, Add items starts
+
+00:03:22.557 --> 00:03:24.925
+a new order for the same buyer.
+
+00:03:25.710 --> 00:03:29.174
+It says that the items are added to the paid order.
+
+00:03:29.174 --> 00:03:32.455
+Fill it in, and send its invoice like any other.
+
+00:03:32.455 --> 00:03:35.129
+Its page links back to the paid order.
+
+00:03:35.129 --> 00:03:39.990
+To take items off a paid order, refund them, or let the buyer return them.
+
+00:03:44.199 --> 00:03:49.464
+The orders list searches by order number or email, and filters by status,
+
+00:03:49.464 --> 00:03:54.329
+such as paid, awaiting payment, canceled or drafts, and by channel.
+
+00:03:54.779 --> 00:04:00.188
+Export CSV downloads the orders the list shows, with its search and filters.
+
+00:04:00.188 --> 00:04:04.409
+Each line of an order is a row, and the order's totals are
+
+00:04:04.409 --> 00:04:08.959
+on its first row, so adding up a column counts each order once.
+
+00:04:13.159 --> 00:04:17.843
+When a buyer disputes a card payment with their bank, Stripe tells your site.
+
+00:04:17.843 --> 00:04:21.794
+The order shows a red Disputed box, and the orders list marks it
+
+00:04:21.794 --> 00:04:23.599
+Disputed while it is open.
+
+00:04:24.349 --> 00:04:28.495
+The box says why the buyer disputed it, and its status, such as
+
+00:04:28.495 --> 00:04:31.979
+needs your response, and a note records each change.
+
+00:04:32.729 --> 00:04:36.323
+Stripe also rates each card payment for fraud risk.
+
+00:04:36.323 --> 00:04:40.798
+An elevated or highest rating shows a warning on the order, and a
+
+00:04:40.798 --> 00:04:42.689
+Risky badge in the list.
+
+00:04:43.439 --> 00:04:44.997
+Look before you ship:
+
+00:04:44.997 --> 00:04:48.746
+do the addresses and the email fit, and is it a large first
+
+00:04:48.746 --> 00:04:50.822
+order of easy to resell goods?
+
+00:04:50.822 --> 00:04:53.879
+Refund and cancel it if it does not look right.
+
+00:04:58.079 --> 00:04:59.396
+A trade buyer:
+
+00:04:59.396 --> 00:05:01.699
+a quote with your own prices.
+
+00:05:02.449 --> 00:05:03.746
+A phone order:
+
+00:05:03.746 --> 00:05:05.949
+add items to the paid order.
+
+00:05:06.699 --> 00:05:07.986
+A small extra:
+
+00:05:07.986 --> 00:05:10.559
+an order bump on the payment step.
+
+00:05:11.309 --> 00:05:12.760
+A left checkout:
+
+00:05:12.760 --> 00:05:15.199
+a recovery email after an hour.
+
+00:05:17.199 --> 00:05:21.545
+Quotes, extra items, the bump and the recovery email.
+
+00:05:21.545 --> 00:05:23.459
+Thanks for watching.
+
