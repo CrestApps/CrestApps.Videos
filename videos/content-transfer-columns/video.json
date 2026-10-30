@@ -1,0 +1,82 @@
+{
+  "title": "Content Transfer Columns: What Each Part and Field Expects in an Import File | CrestApps for Orchard Core",
+  "description": "The import page lists the exact columns a file can have for a content type. Read the Columns Requirements table: the update column, the required title, the body, alias, URL and schedule columns, and the column of every field type, then import a file with two events.\n\nIn this video:\n• Why the table matters\n• Reading the Columns Requirements table\n• Importing a file of events\n• Export, edit and import again\n• What the import is for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "content import",
+    "csv import",
+    "import columns",
+    "bulk import",
+    "content transfer",
+    "export edit reimport",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why the table matters"
+    },
+    {
+      "time": "0:43",
+      "title": "Read the table"
+    },
+    {
+      "time": "1:59",
+      "title": "Import a file"
+    },
+    {
+      "time": "2:35",
+      "title": "Export, edit, import again"
+    },
+    {
+      "time": "3:06",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:24",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/import-and-export"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/content-transfer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContentTransfer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/import-and-export.md",
+    "src/CrestApps.Docs/docs/modules/content-transfer.md"
+  ],
+  "length": "3:35"
+}

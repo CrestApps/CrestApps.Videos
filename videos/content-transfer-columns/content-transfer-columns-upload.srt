@@ -1,0 +1,28 @@
+1
+00:00:03,201 --> 00:00:06,883
+Here is a file with two events, using those columns:
+
+2
+00:00:06,883 --> 00:00:11,645
+the title, the alias and path, the location, the number of seats, the
+
+3
+00:00:11,645 --> 00:00:16,661
+dates and times, whether the event is featured, the speakers, and a link.
+
+4
+00:00:17,111 --> 00:00:19,573
+Choose the file and click Upload.
+
+5
+00:00:19,573 --> 00:00:25,441
+The import runs in the background, and the Import and Export page follows its progress.
+
+6
+00:00:28,035 --> 00:00:32,605
+When it has finished, the events are content items like any other, with
+
+7
+00:00:32,605 --> 00:00:35,215
+every field filled in from its column.
+

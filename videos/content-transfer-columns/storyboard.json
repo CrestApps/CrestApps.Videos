@@ -1,0 +1,176 @@
+{
+  "title": "Content Transfer: The Columns of an Import File",
+  "output": "content-transfer-columns",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "The Columns of an Import File",
+      "subtitle": "What each part and field expects",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows the Columns Requirements table of a content import: which columns a file can have for each part and field of a content type, what each value looks like, and how to update items you already have."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why the table matters",
+      "subtitle": "The file must match the type",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "An import file is a table. Its first row names the columns, and each column feeds one part or field of the content type."
+            },
+            {
+              "id": "why-2",
+              "text": "Every content type has its own columns, because its parts and fields are its own. The import page lists exactly the columns of the type you picked."
+            },
+            {
+              "id": "why-3",
+              "text": "Read the table, and you know the file you need. Anything not in it is ignored."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Read the table",
+      "subtitle": "Template, update column and required title",
+      "clips": [
+        {
+          "id": "02-table",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "table-1",
+              "text": "On the import page for a type, the upload requirements come first. Download template gives a file with every column already named. The ContentItemId column is optional. Leave it empty to create an item, or fill it in with the id of an existing item to update that item. The title is the only required column here."
+            },
+            {
+              "id": "table-2",
+              "text": "Parts come first. The HTML body and the Markdown body take the text. The alias and the URL path take the item's address. The archive and publish dates schedule the item, and are in UTC. A Liquid part takes a template."
+            },
+            {
+              "id": "table-3",
+              "text": "Then the type's own fields, named after the part and the field. A text field takes text, and a number field takes a number. Date and time fields take dates and times. A boolean field takes True or False."
+            },
+            {
+              "id": "table-4",
+              "text": "A multiple text field takes all its values in one cell, separated by a bar. A link has its URL, its text and its target. A YouTube field has its address. A content picker takes the ids of the items to link, separated by a bar."
+            }
+          ]
+        }
+      ],
+      "short": "table"
+    },
+    {
+      "id": "03",
+      "title": "Import a file",
+      "subtitle": "Two events from a file",
+      "clips": [
+        {
+          "id": "03-upload",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "upload-1",
+              "text": "Here is a file with two events, using those columns: the title, the alias and path, the location, the number of seats, the dates and times, whether the event is featured, the speakers, and a link."
+            },
+            {
+              "id": "upload-2",
+              "text": "Choose the file and click Upload. The import runs in the background, and the Import and Export page follows its progress."
+            },
+            {
+              "id": "upload-3",
+              "text": "When it has finished, the events are content items like any other, with every field filled in from its column."
+            }
+          ]
+        }
+      ],
+      "short": "upload"
+    },
+    {
+      "id": "04",
+      "title": "Export, edit, import again",
+      "subtitle": "Update many items at once",
+      "clips": [
+        {
+          "id": "04-update",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "update-1",
+              "text": "Export the items of a type, and the file has the same columns, with ContentItemId filled in for every row."
+            },
+            {
+              "id": "update-2",
+              "text": "Change the values you want in a spreadsheet, and import the file. Each row with an id updates its item, and rows without one create new items."
+            },
+            {
+              "id": "update-3",
+              "text": "The table of a type is the contract in both directions, so a file you exported can always be imported again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "05-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Load a catalog of items from a spreadsheet."
+            },
+            {
+              "id": "use-2",
+              "text": "Fix a field on many items at once."
+            },
+            {
+              "id": "use-3",
+              "text": "Schedule items to publish later, in bulk."
+            },
+            {
+              "id": "use-4",
+              "text": "Move content between sites."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Open the table, name the columns, and import. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

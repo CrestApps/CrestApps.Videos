@@ -1,0 +1,196 @@
+1
+00:00:01,000 --> 00:00:05,202
+This video shows the Columns Requirements table of a content import:
+
+2
+00:00:05,202 --> 00:00:08,836
+which columns a file can have for each part and field of a
+
+3
+00:00:08,836 --> 00:00:13,890
+content type, what each value looks like, and how to update items you already have.
+
+4
+00:00:18,490 --> 00:00:20,528
+An import file is a table.
+
+5
+00:00:20,528 --> 00:00:25,112
+Its first row names the columns, and each column feeds one part or
+
+6
+00:00:25,112 --> 00:00:27,150
+field of the content type.
+
+7
+00:00:27,900 --> 00:00:32,762
+Every content type has its own columns, because its parts and fields are its own.
+
+8
+00:00:32,762 --> 00:00:36,730
+The import page lists exactly the columns of the type you picked.
+
+9
+00:00:37,480 --> 00:00:40,523
+Read the table, and you know the file you need.
+
+10
+00:00:40,523 --> 00:00:42,590
+Anything not in it is ignored.
+
+11
+00:00:46,798 --> 00:00:51,373
+On the import page for a type, the upload requirements come first.
+
+12
+00:00:51,373 --> 00:00:55,758
+Download template gives a file with every column already named.
+
+13
+00:00:55,758 --> 00:00:58,490
+The ContentItemId column is optional.
+
+14
+00:00:58,490 --> 00:01:02,430
+Leave it empty to create an item, or fill it in with the
+
+15
+00:01:02,430 --> 00:01:05,544
+id of an existing item to update that item.
+
+16
+00:01:05,544 --> 00:01:08,658
+The title is the only required column here.
+
+17
+00:01:09,109 --> 00:01:10,640
+Parts come first.
+
+18
+00:01:10,640 --> 00:01:14,369
+The HTML body and the Markdown body take the text.
+
+19
+00:01:14,369 --> 00:01:18,164
+The alias and the URL path take the item's address.
+
+20
+00:01:18,164 --> 00:01:22,825
+The archive and publish dates schedule the item, and are in UTC.
+
+21
+00:01:22,825 --> 00:01:25,289
+A Liquid part takes a template.
+
+22
+00:01:25,739 --> 00:01:30,492
+Then the type's own fields, named after the part and the field.
+
+23
+00:01:30,492 --> 00:01:34,970
+A text field takes text, and a number field takes a number.
+
+24
+00:01:34,970 --> 00:01:38,276
+Date and time fields take dates and times.
+
+25
+00:01:38,276 --> 00:01:41,169
+A boolean field takes True or False.
+
+26
+00:01:41,620 --> 00:01:47,169
+A multiple text field takes all its values in one cell, separated by a bar.
+
+27
+00:01:47,169 --> 00:01:50,594
+A link has its URL, its text and its target.
+
+28
+00:01:50,594 --> 00:01:53,197
+A YouTube field has its address.
+
+29
+00:01:53,197 --> 00:01:58,540
+A content picker takes the ids of the items to link, separated by a bar.
+
+30
+00:02:02,741 --> 00:02:06,423
+Here is a file with two events, using those columns:
+
+31
+00:02:06,423 --> 00:02:11,185
+the title, the alias and path, the location, the number of seats, the
+
+32
+00:02:11,185 --> 00:02:16,201
+dates and times, whether the event is featured, the speakers, and a link.
+
+33
+00:02:16,652 --> 00:02:19,113
+Choose the file and click Upload.
+
+34
+00:02:19,113 --> 00:02:24,982
+The import runs in the background, and the Import and Export page follows its progress.
+
+35
+00:02:27,576 --> 00:02:32,145
+When it has finished, the events are content items like any other, with
+
+36
+00:02:32,145 --> 00:02:34,756
+every field filled in from its column.
+
+37
+00:02:38,956 --> 00:02:43,489
+Export the items of a type, and the file has the same columns,
+
+38
+00:02:43,489 --> 00:02:46,756
+with ContentItemId filled in for every row.
+
+39
+00:02:47,506 --> 00:02:52,072
+Change the values you want in a spreadsheet, and import the file.
+
+40
+00:02:52,072 --> 00:02:57,346
+Each row with an id updates its item, and rows without one create new items.
+
+41
+00:02:58,096 --> 00:03:01,917
+The table of a type is the contract in both directions, so a
+
+42
+00:03:01,917 --> 00:03:04,986
+file you exported can always be imported again.
+
+43
+00:03:09,186 --> 00:03:12,086
+Load a catalog of items from a spreadsheet.
+
+44
+00:03:12,836 --> 00:03:15,886
+Fix a field on many items at once.
+
+45
+00:03:16,636 --> 00:03:19,876
+Schedule items to publish later, in bulk.
+
+46
+00:03:20,626 --> 00:03:23,096
+Move content between sites.
+
+47
+00:03:25,096 --> 00:03:27,959
+Open the table, name the columns, and import.
+
+48
+00:03:27,959 --> 00:03:32,226
+The user manual and the technical guide are linked in the description.
+
+49
+00:03:32,226 --> 00:03:33,686
+Thanks for watching.
+
