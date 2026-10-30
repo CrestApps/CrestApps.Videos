@@ -1,0 +1,86 @@
+{
+  "title": "Omnichannel Manage Activities in Bulk: Filter, Reassign, Reprioritize and Purge | CrestApps for Orchard Core",
+  "description": "Manage Activities is the manager's view of all open work. Filter the activities by contact and by activity, then apply one action to the selected rows or to every match: assign, reschedule, purge, set instructions or urgency, change subject, source or campaign.\n\nIn this video:\n• Why bulk actions\n• Filtering the open activities\n• Applying an action to selected rows or to every match\n• Change Source with its Interaction type, and Purge\n• What bulk actions leave alone: live dialer calls\n• What bulk actions are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "manage activities",
+    "bulk actions",
+    "reassign activities",
+    "contact center manager",
+    "omnichannel",
+    "purge activities",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Why bulk actions"
+    },
+    {
+      "time": "0:45",
+      "title": "Filter the activities"
+    },
+    {
+      "time": "1:33",
+      "title": "Apply an action"
+    },
+    {
+      "time": "2:19",
+      "title": "Change source and purge"
+    },
+    {
+      "time": "2:47",
+      "title": "Dialer work and campaigns"
+    },
+    {
+      "time": "3:27",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:52",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/bulk-activities"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/management"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/bulk-activities.md",
+    "src/CrestApps.Docs/docs/omnichannel/management.md"
+  ],
+  "length": "4:09"
+}

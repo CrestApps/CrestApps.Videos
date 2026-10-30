@@ -1,0 +1,326 @@
+{
+  "name": "OmnichannelVideoBase3",
+  "displayName": "OmnichannelVideoBase3",
+  "description": "Fake dealership setup for the omnichannel videos.",
+  "author": "CrestApps",
+  "steps": [
+    {
+      "name": "ContentDefinition",
+      "ContentTypes": [
+        {
+          "Name": "SalesCall",
+          "DisplayName": "Sales Call",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Securable": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "OmnichannelSubjectPart",
+              "Name": "OmnichannelSubjectPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                },
+                "OmnichannelSubjectPartSettings": {
+                  "Direction": 0,
+                  "InteractionType": 0,
+                  "Channel": "Phone",
+                  "DefaultCampaignId": "@campaign:Spring Sales Event@",
+                  "RequireDisposition": true
+                }
+              }
+            },
+            {
+              "PartName": "SalesCallDetails",
+              "Name": "SalesCallDetails",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "TestDriveFollowUp",
+          "DisplayName": "Test Drive Follow-up",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Securable": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "OmnichannelSubjectPart",
+              "Name": "OmnichannelSubjectPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                },
+                "OmnichannelSubjectPartSettings": {
+                  "Direction": 0,
+                  "InteractionType": 0,
+                  "Channel": "Phone",
+                  "DefaultCampaignId": "@campaign:Spring Sales Event@",
+                  "RequireDisposition": true
+                }
+              }
+            },
+            {
+              "PartName": "TestDriveDetails",
+              "Name": "TestDriveDetails",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "DealershipInquiry",
+          "DisplayName": "Dealership Inquiry",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Securable": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "OmnichannelSubjectPart",
+              "Name": "OmnichannelSubjectPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                },
+                "OmnichannelSubjectPartSettings": {
+                  "Direction": 1,
+                  "InteractionType": 0,
+                  "Channel": "Phone",
+                  "DefaultCampaignId": "@campaign:Spring Sales Event@",
+                  "RequireDisposition": true
+                }
+              }
+            },
+            {
+              "PartName": "InquiryDetails",
+              "Name": "InquiryDetails",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "ContentParts": [
+        {
+          "Name": "SalesCallDetails",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "TextField",
+              "Name": "VehicleOfInterest",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Vehicle of interest",
+                  "Position": "0"
+                },
+                "TextFieldSettings": {
+                  "Required": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "TestDriveDetails",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "TextField",
+              "Name": "PreferredDay",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Preferred day",
+                  "Position": "0"
+                },
+                "TextFieldSettings": {
+                  "Required": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "InquiryDetails",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "TextField",
+              "Name": "Question",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Question",
+                  "Position": "0"
+                },
+                "TextFieldSettings": {
+                  "Required": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OmnichannelSubjectAction",
+      "SubjectActions": [
+        {
+          "Source": "TryAgain",
+          "DisplayText": "Try again tomorrow",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:No Answer@",
+          "Properties": {
+            "TryAgainActionMetadata": {
+              "MaxAttempt": 3,
+              "UrgencyLevel": 0,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 24
+            }
+          }
+        },
+        {
+          "Source": "TryAgain",
+          "DisplayText": "Try again in two days",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:Left Voicemail@",
+          "Properties": {
+            "TryAgainActionMetadata": {
+              "MaxAttempt": 3,
+              "UrgencyLevel": 0,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 48
+            }
+          }
+        },
+        {
+          "Source": "TryAgain",
+          "DisplayText": "Call back when asked",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:Call Back Later@",
+          "Properties": {
+            "TryAgainActionMetadata": {
+              "MaxAttempt": 5,
+              "UrgencyLevel": 0,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 4
+            }
+          }
+        },
+        {
+          "Source": "NewActivity",
+          "DisplayText": "Offer a test drive",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:Interested@",
+          "Properties": {
+            "NewActivityActionMetadata": {
+              "SubjectContentType": "TestDriveFollowUp",
+              "UrgencyLevel": 4,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 48
+            }
+          }
+        },
+        {
+          "Source": "NewActivity",
+          "DisplayText": "Confirm the test drive",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:Test Drive Booked@",
+          "Properties": {
+            "NewActivityActionMetadata": {
+              "SubjectContentType": "TestDriveFollowUp",
+              "UrgencyLevel": 4,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 24
+            }
+          }
+        },
+        {
+          "Source": "Finish",
+          "DisplayText": "Close the call",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:Not Interested@",
+          "SetDoNotCall": true
+        },
+        {
+          "Source": "Finish",
+          "DisplayText": "Close the call",
+          "SubjectContentType": "SalesCall",
+          "DispositionId": "@disp:Wrong Number@"
+        },
+        {
+          "Source": "TryAgain",
+          "DisplayText": "Try again tomorrow",
+          "SubjectContentType": "TestDriveFollowUp",
+          "DispositionId": "@disp:No Answer@",
+          "Properties": {
+            "TryAgainActionMetadata": {
+              "MaxAttempt": 2,
+              "UrgencyLevel": 0,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 24
+            }
+          }
+        },
+        {
+          "Source": "Finish",
+          "DisplayText": "Close the call",
+          "SubjectContentType": "TestDriveFollowUp",
+          "DispositionId": "@disp:Interested@"
+        },
+        {
+          "Source": "Finish",
+          "DisplayText": "Close the call",
+          "SubjectContentType": "TestDriveFollowUp",
+          "DispositionId": "@disp:Not Interested@"
+        },
+        {
+          "Source": "NewActivity",
+          "DisplayText": "Call to confirm the test drive",
+          "SubjectContentType": "DealershipInquiry",
+          "DispositionId": "@disp:Test Drive Booked@",
+          "Properties": {
+            "NewActivityActionMetadata": {
+              "SubjectContentType": "TestDriveFollowUp",
+              "UrgencyLevel": 4,
+              "AssignmentType": 0,
+              "DefaultScheduleHours": 48
+            }
+          }
+        },
+        {
+          "Source": "Finish",
+          "DisplayText": "Close the inquiry",
+          "SubjectContentType": "DealershipInquiry",
+          "DispositionId": "@disp:Interested@"
+        },
+        {
+          "Source": "Finish",
+          "DisplayText": "Close the inquiry",
+          "SubjectContentType": "DealershipInquiry",
+          "DispositionId": "@disp:Not Interested@"
+        }
+      ]
+    }
+  ]
+}

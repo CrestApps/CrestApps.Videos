@@ -1,0 +1,190 @@
+{
+  "title": "Omnichannel Manage Activities in Bulk",
+  "output": "omnichannel-bulk-activities",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Manage Activities in Bulk",
+      "subtitle": "Filter open work, then change it all at once",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows Manage Activities, the manager's view of all open work: how to filter the activities, and how to reassign, reschedule, re-prioritize, move or purge many of them with one action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why bulk actions",
+      "subtitle": "Fix many activities, not one by one",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Plans change. An agent is away, a campaign is cancelled, or a list needs to be called first. Opening activities one at a time would take hours."
+            },
+            {
+              "id": "why-2",
+              "text": "Manage Activities shows every open activity, whoever owns it, and lets you filter it down to exactly the ones you want."
+            },
+            {
+              "id": "why-3",
+              "text": "Then one action changes all of them, and it never touches a call that is already live."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Filter the activities",
+      "subtitle": "Contact filters and activity filters",
+      "clips": [
+        {
+          "id": "02-filter",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "filter-1",
+              "text": "Open Interaction Center, Management, Manage Activities. Every open activity is listed, not only yours. Each row shows whether it is manual or automated work, its source, the campaign, and who it is assigned to."
+            },
+            {
+              "id": "filter-2",
+              "text": "Open the filter panel. Contact filters find the people: their status, phone number, time zones, or when they were marked Do not call. Activity filters narrow the work: attempts, subject, channel, source, interaction type, status, assignment, campaign, urgency, dates, owners and a limit. Here, the subject Test Drive Follow-up and High urgency."
+            }
+          ]
+        }
+      ],
+      "short": "filter"
+    },
+    {
+      "id": "03",
+      "title": "Apply an action",
+      "subtitle": "Selected rows, or every match",
+      "clips": [
+        {
+          "id": "03-apply",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "apply-1",
+              "text": "Tick the activities you want on the page. Here, two sales calls."
+            },
+            {
+              "id": "apply-2",
+              "text": "Pick an action. Assign shares activities between users and resets them. Reschedule moves their date. Purge removes them for good. Set Instructions and Set Urgency Level change what the agent sees. Change Subject, Clear Assignment, Change Source and Change Campaign move the work. Here, Set Urgency Level to High, then Execute Action."
+            },
+            {
+              "id": "apply-3",
+              "text": "To act on every result of the filter, including other pages, tick Apply to all matching activities. Here, every sales call gets the same instructions."
+            }
+          ]
+        }
+      ],
+      "short": "apply"
+    },
+    {
+      "id": "04",
+      "title": "Change source and purge",
+      "subtitle": "Careful actions",
+      "clips": [
+        {
+          "id": "04-source",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "source-1",
+              "text": "Change Source sets the source to Manual or Automatic. It also has an Interaction type selector, to keep the current type or make the work manual or automated. By default it clears the assignment, so the work can be routed again."
+            },
+            {
+              "id": "source-2",
+              "text": "Purge marks the activities purged with your name and the time, and it cannot be undone, so it asks you to confirm first."
+            }
+          ]
+        }
+      ],
+      "short": "source"
+    },
+    {
+      "id": "05",
+      "title": "Dialer work and campaigns",
+      "subtitle": "What is protected",
+      "clips": [
+        {
+          "id": "05-dialer",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "dialer-1",
+              "text": "An activity the dialer is dialing, ringing an agent with, or that an agent is on a call for is left unchanged by every bulk action, Purge included. The message says how many, so you can run the action again when the calls end."
+            },
+            {
+              "id": "dialer-2",
+              "text": "With the outbound dialer on, Change Dialer Profile appears as a tenth action. It turns assigned work into dialer work, and moving dialer work to another campaign moves its dialer queue with it."
+            },
+            {
+              "id": "dialer-3",
+              "text": "A campaign's waiting dialer activities must all use one dialer profile, so move one profile's activities at a time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "06-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Reassign an absent agent's activities to the rest of the team."
+            },
+            {
+              "id": "use-2",
+              "text": "Raise the urgency of everything for one campaign."
+            },
+            {
+              "id": "use-3",
+              "text": "Move activities to a new subject or campaign when plans change."
+            },
+            {
+              "id": "use-4",
+              "text": "Purge work that is no longer needed, after a filter shows exactly what it is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Filter to exactly the activities you mean, pick one action, and apply it to the selection or to every match, so a change of plan takes a minute. The user manual and the technical guide are linked in the description. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
