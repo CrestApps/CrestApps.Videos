@@ -1,0 +1,96 @@
+{
+  "title": "Quotes, Order Bump, Add Items and Disputes in Your Store | CrestApps for Orchard Core",
+  "description": "Not every order is an ordinary checkout. CrestApps takes quote requests and answers them with your own prices, adds items to a paid order, offers an order bump and a recovery email to buyers who leave, exports orders to CSV, and shows disputes and risky payments on the order.\n\nIn this video:\n• Why more than an ordinary order\n• Settings: quote requests, the recovery email and the order bump\n• A buyer asks for a quote, and you price and send it\n• The buyer accepts by paying\n• Adding items to a paid order, and exporting orders\n• What a dispute and a risky payment look like",
+  "hashtags": [
+    "OrchardCore",
+    "Ecommerce",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "quote requests",
+    "order bump",
+    "abandoned checkout email",
+    "chargebacks",
+    "ecommerce",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why more than an ordinary order"
+    },
+    {
+      "time": "0:51",
+      "title": "Settings for quotes, bump and recovery"
+    },
+    {
+      "time": "1:28",
+      "title": "A buyer asks for a quote"
+    },
+    {
+      "time": "1:50",
+      "title": "You price and send the quote"
+    },
+    {
+      "time": "2:41",
+      "title": "The buyer accepts by paying"
+    },
+    {
+      "time": "3:14",
+      "title": "Add items to a paid order"
+    },
+    {
+      "time": "3:41",
+      "title": "Find and export orders"
+    },
+    {
+      "time": "4:09",
+      "title": "Disputes and risky payments"
+    },
+    {
+      "time": "4:54",
+      "title": "Use cases"
+    },
+    {
+      "time": "5:16",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "Carts and orders (user manual)",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/commerce/carts-and-orders"
+    },
+    {
+      "label": "Orders (technical guide)",
+      "url": "https://orchardcore.crestapps.com/docs/modules/carts-and-orders"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Orders"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/commerce/carts-and-orders.md"
+  ],
+  "length": "5:24"
+}

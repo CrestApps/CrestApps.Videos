@@ -1,0 +1,268 @@
+{
+  "title": "Orders, quotes and disputes",
+  "output": "orders-quotes-disputes",
+  "spoken": {
+    "CSV": "C.S.V."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Orders, quotes and disputes",
+      "subtitle": "Quotes, extra items and risk",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Some orders are not an ordinary checkout. This video shows how to take quote requests and answer them, add items to a paid order, offer an order bump and a recovery email, export orders, and what a dispute and a risky payment look like."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why more than an ordinary order",
+      "subtitle": "Quotes, extra items and risk",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Not every sale is a checkout. A big order for a trade buyer needs a price of its own, and that is a quote."
+            },
+            {
+              "id": "why-2",
+              "text": "A paid order sometimes grows, when the buyer calls to add something, and you can add items to it."
+            },
+            {
+              "id": "why-3",
+              "text": "Every checkout can earn more, with an order bump on the payment step, and an email to a buyer who left."
+            },
+            {
+              "id": "why-4",
+              "text": "And a store needs to see the risks: disputed payments, and payments that look risky."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Settings for quotes, bump and recovery",
+      "subtitle": "Settings, Commerce, Orders",
+      "clips": [
+        {
+          "id": "03-settings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Settings, Commerce, Orders. Tick Take quote requests, and signed in buyers can ask for a quote instead of checking out."
+            },
+            {
+              "id": "set-2",
+              "text": "Tick Email buyers who leave a checkout, to send a recovery email to a buyer who gave their email and left without paying. Send it after sets how long to wait, one hour by default."
+            },
+            {
+              "id": "set-3",
+              "text": "An order bump offers one more product on the payment step. Choose the product offered, a discount and a headline, and save. Buyers tick one box to add it, and the total changes before they pay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "A buyer asks for a quote",
+      "subtitle": "Request a quote",
+      "clips": [
+        {
+          "id": "04-ask",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ask-1",
+              "text": "A signed in buyer with ten notebooks in the cart sees Request a quote, under Checkout."
+            },
+            {
+              "id": "ask-2",
+              "text": "They write what they need, such as the quantity and the date, and give a purchase order number, then send the request. Their cart is emptied, and the quote shows under their orders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "You price and send the quote",
+      "subtitle": "Price each, Pay by and Send quote",
+      "clips": [
+        {
+          "id": "05-quote",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "quo-1",
+              "text": "The request is a draft order. In Commerce, Orders, filter by Drafts and open it. It shows the buyer's message and purchase order number. Click Edit."
+            },
+            {
+              "id": "quo-2",
+              "text": "Under Price each, enter the price you offer for a line. Leave it blank for your usual price. Pay by is the date the quote expires."
+            },
+            {
+              "id": "quo-3",
+              "text": "Click Update prices to see the totals, and Save draft."
+            },
+            {
+              "id": "quo-4",
+              "text": "Click Send quote. The buyer is emailed the prices and until when they are offered, with a Review and accept button. The order says the quote was emailed, and shows a pay link you can send yourself."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "The buyer accepts by paying",
+      "subtitle": "Review and accept",
+      "clips": [
+        {
+          "id": "05b-accept",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "acc-1",
+              "text": "The buyer finds the quote under their orders, ready to pay, with the prices you set and the date it is offered until."
+            },
+            {
+              "id": "acc-2",
+              "text": "Accepting a quote means paying it. Shipping and tax are added at the checkout. The prices you set are final, so automatic promotions do not come off them. The buyer can also turn it down, and an expired quote can be offered again by changing its date and sending it again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Add items to a paid order",
+      "subtitle": "A new order for the same buyer",
+      "clips": [
+        {
+          "id": "06-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "A paid order cannot be changed, but on its page, Add items starts a new order for the same buyer."
+            },
+            {
+              "id": "add-2",
+              "text": "It says that the items are added to the paid order. Fill it in, and send its invoice like any other. Its page links back to the paid order. To take items off a paid order, refund them, or let the buyer return them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Find and export orders",
+      "subtitle": "Search, filter and Export CSV",
+      "clips": [
+        {
+          "id": "07-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "The orders list searches by order number or email, and filters by status, such as paid, awaiting payment, canceled or drafts, and by channel."
+            },
+            {
+              "id": "exp-2",
+              "text": "Export CSV downloads the orders the list shows, with its search and filters. Each line of an order is a row, and the order's totals are on its first row, so adding up a column counts each order once."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Disputes and risky payments",
+      "subtitle": "Seen on the order",
+      "clips": [
+        {
+          "id": "08-risk",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "risk-1",
+              "text": "When a buyer disputes a card payment with their bank, Stripe tells your site. The order shows a red Disputed box, and the orders list marks it Disputed while it is open."
+            },
+            {
+              "id": "risk-2",
+              "text": "The box says why the buyer disputed it, and its status, such as needs your response, and a note records each change."
+            },
+            {
+              "id": "risk-3",
+              "text": "Stripe also rates each card payment for fraud risk. An elevated or highest rating shows a warning on the order, and a Risky badge in the list."
+            },
+            {
+              "id": "risk-4",
+              "text": "Look before you ship: do the addresses and the email fit, and is it a large first order of easy to resell goods? Refund and cancel it if it does not look right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Use cases",
+      "subtitle": "Four ways to use them",
+      "clips": [
+        {
+          "id": "09-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A trade buyer: a quote with your own prices."
+            },
+            {
+              "id": "use-2",
+              "text": "A phone order: add items to the paid order."
+            },
+            {
+              "id": "use-3",
+              "text": "A small extra: an order bump on the payment step."
+            },
+            {
+              "id": "use-4",
+              "text": "A left checkout: a recovery email after an hour."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Quotes, extra items, the bump and the recovery email. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
