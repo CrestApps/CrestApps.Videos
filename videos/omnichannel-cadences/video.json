@@ -1,0 +1,82 @@
+{
+  "title": "Omnichannel Cadences: Automatic Follow-ups for Quiet Customers | CrestApps for Orchard Core",
+  "description": "A cadence is a reusable series of follow-up messages for automated text conversations. Build one with a defined message and an AI-written message, disable or delete it, and see how the clock, the business hours and the automatic load decide when each follow-up is sent.\n\nIn this video:\n• Why cadences\n• Building a cadence: steps, delays and messages\n• Editing, disabling and deleting a cadence\n• How the timing works and where a cadence is used\n• What cadences are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "cadences",
+    "sms follow-up",
+    "re-engagement",
+    "automated sms",
+    "omnichannel",
+    "ai follow-up",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why cadences"
+    },
+    {
+      "time": "0:45",
+      "title": "Build a cadence"
+    },
+    {
+      "time": "1:36",
+      "title": "Edit, disable and delete"
+    },
+    {
+      "time": "2:13",
+      "title": "How a cadence is used"
+    },
+    {
+      "time": "3:07",
+      "title": "What to use it for"
+    },
+    {
+      "time": "3:28",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/cadences"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/omnichannel/cadences"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/cadences.md",
+    "src/CrestApps.Docs/docs/omnichannel/cadences.md"
+  ],
+  "length": "3:42"
+}
