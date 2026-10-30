@@ -1,0 +1,14 @@
+WEBVTT
+
+00:00:03.205 --> 00:00:07.670
+The CRM adds one event and one task, under Omnichannel CRM.
+
+00:00:07.670 --> 00:00:12.685
+Lead Converted starts a workflow whenever a lead becomes a contact.
+
+00:00:13.135 --> 00:00:18.329
+Convert Lead converts a lead, for example when a web form says it qualified.
+
+00:00:18.329 --> 00:00:24.915
+Account, Create an opportunity, Opportunity type and Other open activities decide what it creates.
+

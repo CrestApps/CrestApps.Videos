@@ -1,0 +1,319 @@
+{
+  "title": "Omnichannel Workflows: Contact Center and CRM Automation | CrestApps for Orchard Core",
+  "output": "omnichannel-workflows",
+  "spoken": {
+    "SMS": "S.M.S.",
+    "CRM": "C.R.M.",
+    "AI": "A.I.",
+    "If/Else": "If Else"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel Workflows",
+      "subtitle": "React to contact center and CRM events without code",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Workflows let your contact center and CRM react to what happens, with no code. This video builds one, then tours every task, the CRM event and task, and the runs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why workflows",
+      "subtitle": "Follow-up that happens every time",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A contact center produces moments that need follow-up: a call nobody answered, a dialer attempt that rang out, a lead that qualifies. A workflow handles each one: an event starts it, tasks do the work, and outcomes decide what is next."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create a workflow",
+      "subtitle": "Design, Workflows",
+      "short": "create",
+      "clips": [
+        {
+          "id": "02-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cre-1",
+              "text": "Open Design, Workflows. The list shows every workflow on the site. To make a new one, click Create Workflow."
+            },
+            {
+              "id": "cre-2",
+              "text": "Name it for what it does, here Text customers the dialer could not reach, and click Save."
+            },
+            {
+              "id": "cre-3",
+              "text": "Add Event adds what starts the workflow, and Add Task adds a step. These modules add two event categories: Contact Center, and Omnichannel CRM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The Contact Center Event",
+      "subtitle": "One event, every kind of contact center news",
+      "short": "event",
+      "clips": [
+        {
+          "id": "03-event",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "evt-1",
+              "text": "Add the Contact Center Event. Its one setting is Event type: leave Any event type to react to everything, or choose one kind."
+            },
+            {
+              "id": "evt-2",
+              "text": "The list is grouped: Interaction, Activity, Routing and queues, Agent, Offer, Dialer, Callback, Call, Shared voicemail, Recording, Supervision and Secure capture."
+            },
+            {
+              "id": "evt-3",
+              "text": "Pick Dialer attempt completed, which fires after every call the dialer places, answered or not. Click Save."
+            },
+            {
+              "id": "evt-4",
+              "text": "The event has two outcomes. Matched is the type you chose, and Ignored is any other event. Connect the tasks you want to Matched."
+            }
+          ]
+        },
+        {
+          "id": "03-values",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "val-1",
+              "text": "The event hands the workflow its details: the kind of event, the call or conversation, who acted, the agent, and its own data, such as the number the dialer called. Liquid fields read them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Add a task",
+      "subtitle": "Send a text from a workflow",
+      "short": "task",
+      "clips": [
+        {
+          "id": "04-picker",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pick-1",
+              "text": "Click Add Task. Under Contact Center there are ten."
+            },
+            {
+              "id": "pick-2",
+              "text": "Enqueue Activity, Find Agent Numbers, Schedule Callback, Schedule Dialer Retry, Send Text Message, Set Agent Presence, Start Call Recording, Place Call or Send Message, Stop Call Recording, and Hand Off to Live Agent."
+            }
+          ]
+        },
+        {
+          "id": "04-sms",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sms-1",
+              "text": "Add Send Text Message. From is one of your own text numbers. To is the customer's number, and a placeholder reads the number the dialer called."
+            },
+            {
+              "id": "sms-2",
+              "text": "Message is the text. Agent is optional: name one so the customer's reply reaches them, or leave it empty. Click Save."
+            },
+            {
+              "id": "sms-3",
+              "text": "Drag from the Matched outcome of the event to the task, and save. This workflow reacts to dialer calls, so it needs a real phone provider, and never runs on this demo site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Every contact center task",
+      "subtitle": "The settings of each task",
+      "short": "settings",
+      "clips": [
+        {
+          "id": "05-forms",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "frm-1",
+              "text": "Place Call or Send Message starts an automated activity now: a phone activity is dialed, a text activity is sent its first message. The one setting is the Activity."
+            },
+            {
+              "id": "frm-2",
+              "text": "Set Agent Presence puts an agent into a Status such as Available or Break. The reserved, busy and wrap-up states are missing, because the platform sets them."
+            },
+            {
+              "id": "frm-3",
+              "text": "Find Agent Numbers looks up the numbers an agent calls and texts from. Leave User name empty for the default numbers."
+            },
+            {
+              "id": "frm-4",
+              "text": "Enqueue Activity puts an activity on a queue so routing can pick an agent. Priority keeps the queue's default, or runs from Lowest to Highest."
+            },
+            {
+              "id": "frm-5",
+              "text": "Hand Off to Live Agent moves an automated conversation to people. Reason and Summary tell the agent why, and what was said. An empty Queue uses the subject flow's."
+            },
+            {
+              "id": "frm-6",
+              "text": "Schedule Callback books a callback to a Destination number. A Delay of zero minutes makes it due now. The rest is optional."
+            },
+            {
+              "id": "frm-7",
+              "text": "Schedule Dialer Retry makes the dialer call a contact again. An empty Delay in minutes uses the dialer profile's retry delay."
+            },
+            {
+              "id": "frm-8",
+              "text": "Start Call Recording and Stop Call Recording each take the Interaction to act on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "The CRM event and task",
+      "subtitle": "Lead Converted and Convert Lead",
+      "short": "crm",
+      "clips": [
+        {
+          "id": "06-crm",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "crm-1",
+              "text": "The CRM adds one event and one task, under Omnichannel CRM. Lead Converted starts a workflow whenever a lead becomes a contact."
+            },
+            {
+              "id": "crm-2",
+              "text": "Convert Lead converts a lead, for example when a web form says it qualified. Account, Create an opportunity, Opportunity type and Other open activities decide what it creates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Outcomes",
+      "subtitle": "Connect what happens next",
+      "short": "outcomes",
+      "clips": [
+        {
+          "id": "07-outcomes",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "out-1",
+              "text": "Every task ends in an outcome you wire to the next task. Place Call or Send Message ends in Done, Already Started or Failed, so it never calls a customer twice."
+            },
+            {
+              "id": "out-2",
+              "text": "Most tasks end in Done or Failed. Find Agent Numbers adds NotFound. Hand Off to Live Agent ends in Connected, Waiting In Queue, Callback Scheduled or Failed."
+            },
+            {
+              "id": "out-3",
+              "text": "Schedule Dialer Retry ends in Scheduled, Exhausted or Failed. Call recording can end in Indeterminate, when the change is unconfirmed. Convert Lead ends in Converted or Failed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Runs",
+      "subtitle": "See what a workflow did",
+      "short": "runs",
+      "clips": [
+        {
+          "id": "08-runs",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "A workflow this site can run is Look up agent numbers. It starts on Agent presence changed, then runs Find Agent Numbers."
+            },
+            {
+              "id": "run-2",
+              "text": "To raise that event, change presence in the soft phone: open the phone, open the presence menu, and choose Available."
+            },
+            {
+              "id": "run-3",
+              "text": "Instances lists every run with its status and time. Every contact center event starts a run, and one for another kind of event ends at Ignored."
+            },
+            {
+              "id": "run-4",
+              "text": "Open a run to see its path through the workflow. Restart runs it again, and Delete removes it. Settings, Workflow Trimming removes old runs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Where it helps",
+      "subtitle": "Workflows to start from",
+      "short": "uses",
+      "clips": [
+        {
+          "id": "09-uses",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Record every call: start on Call connected, then Start Call Recording. Follow up on a missed call: start on Dialer attempt completed, then send a text."
+            },
+            {
+              "id": "use-2",
+              "text": "Escalate an automated conversation with Hand Off to Live Agent. Welcome a new customer with Convert Lead, then Lead Converted."
+            },
+            {
+              "id": "use-3",
+              "text": "A workflow cannot transfer a live call or pick a particular agent. Use Enqueue Activity, and routing chooses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Events start the workflow, tasks do the work, and outcomes decide what happens next. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

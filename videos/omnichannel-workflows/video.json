@@ -1,0 +1,102 @@
+{
+  "title": "Omnichannel Workflows: Contact Center and CRM Automation | CrestApps for Orchard Core",
+  "description": "A contact center produces moments that need follow-up: a call nobody answered, a dialer attempt that rang out, a lead that qualifies. Workflows in CrestApps for Orchard Core react to those events and act on them with no code: send a text, schedule a callback, queue an activity, hand a conversation to a person, control call recording, or convert a lead.\n\nIn this video:\n• Why workflows, and how one is put together\n• Creating a workflow in Design, Workflows\n• The Contact Center Event: Event type, its groups, and the Matched and Ignored outcomes\n• Adding a task, and building a Send Text Message workflow\n• The settings of every contact center task\n• The CRM event Lead Converted and the Convert Lead task\n• How each task ends, and the runs of a workflow\n• Workflows to start from, and what stays with people\n\nThe demo site has no phone or text provider connected, so the workflow that needs a real dialer call is built but not run.",
+  "hashtags": [
+    "OrchardCore",
+    "ContactCenter",
+    "Workflows",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "workflows",
+    "contact center",
+    "CRM",
+    "automation",
+    "send text message",
+    "callback",
+    "call recording",
+    "lead conversion",
+    "no code",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Why workflows"
+    },
+    {
+      "time": "0:35",
+      "title": "Create a workflow"
+    },
+    {
+      "time": "1:08",
+      "title": "The Contact Center Event"
+    },
+    {
+      "time": "2:07",
+      "title": "Add a task"
+    },
+    {
+      "time": "3:06",
+      "title": "Every contact center task"
+    },
+    {
+      "time": "4:28",
+      "title": "The CRM event and task"
+    },
+    {
+      "time": "4:54",
+      "title": "Outcomes"
+    },
+    {
+      "time": "5:37",
+      "title": "Runs"
+    },
+    {
+      "time": "6:19",
+      "title": "Where it helps"
+    },
+    {
+      "time": "6:52",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/workflows"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/contact-center/workflows"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContactCenter"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/workflows.md",
+    "src/CrestApps.Docs/docs/user-manual/leads-accounts-opportunities.md",
+    "src/CrestApps.Docs/docs/contact-center/workflows.md"
+  ],
+  "length": "7:02"
+}

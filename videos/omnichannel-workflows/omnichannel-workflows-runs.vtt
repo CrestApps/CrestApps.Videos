@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:07.009
+A workflow this site can run is Look up agent numbers.
+
+00:00:07.009 --> 00:00:11.580
+It starts on Agent presence changed, then runs Find Agent Numbers.
+
+00:00:12.030 --> 00:00:15.814
+To raise that event, change presence in the soft phone:
+
+00:00:15.814 --> 00:00:19.970
+open the phone, open the presence menu, and choose Available.
+
+00:00:20.420 --> 00:00:23.983
+Instances lists every run with its status and time.
+
+00:00:23.983 --> 00:00:28.610
+Every contact center event starts a run, and one for another kind of
+
+00:00:28.610 --> 00:00:30.360
+event ends at Ignored.
+
+00:00:30.811 --> 00:00:34.234
+Open a run to see its path through the workflow.
+
+00:00:34.234 --> 00:00:37.468
+Restart runs it again, and Delete removes it.
+
+00:00:37.468 --> 00:00:40.701
+Settings, Workflow Trimming removes old runs.
+

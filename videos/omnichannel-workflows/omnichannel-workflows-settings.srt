@@ -1,0 +1,72 @@
+1
+00:00:03,209 --> 00:00:07,396
+Place Call or Send Message starts an automated activity now:
+
+2
+00:00:07,396 --> 00:00:12,218
+a phone activity is dialed, a text activity is sent its first message.
+
+3
+00:00:12,218 --> 00:00:14,629
+The one setting is the Activity.
+
+4
+00:00:15,090 --> 00:00:20,175
+Set Agent Presence puts an agent into a Status such as Available or Break.
+
+5
+00:00:20,175 --> 00:00:25,770
+The reserved, busy and wrap-up states are missing, because the platform sets them.
+
+6
+00:00:26,238 --> 00:00:30,756
+Find Agent Numbers looks up the numbers an agent calls and texts from.
+
+7
+00:00:30,756 --> 00:00:33,848
+Leave User name empty for the default numbers.
+
+8
+00:00:34,299 --> 00:00:39,633
+Enqueue Activity puts an activity on a queue so routing can pick an agent.
+
+9
+00:00:39,633 --> 00:00:44,499
+Priority keeps the queue's default, or runs from Lowest to Highest.
+
+10
+00:00:44,950 --> 00:00:49,385
+Hand Off to Live Agent moves an automated conversation to people.
+
+11
+00:00:49,385 --> 00:00:53,320
+Reason and Summary tell the agent why, and what was said.
+
+12
+00:00:53,320 --> 00:00:56,130
+An empty Queue uses the subject flow's.
+
+13
+00:00:56,580 --> 00:01:00,780
+Schedule Callback books a callback to a Destination number.
+
+14
+00:01:00,780 --> 00:01:03,816
+A Delay of zero minutes makes it due now.
+
+15
+00:01:03,816 --> 00:01:05,560
+The rest is optional.
+
+16
+00:01:06,011 --> 00:01:10,470
+Schedule Dialer Retry makes the dialer call a contact again.
+
+17
+00:01:10,470 --> 00:01:15,201
+An empty Delay in minutes uses the dialer profile's retry delay.
+
+18
+00:01:15,653 --> 00:01:20,813
+Start Call Recording and Stop Call Recording each take the Interaction to act on.
+
