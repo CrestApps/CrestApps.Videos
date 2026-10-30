@@ -1,0 +1,23 @@
+WEBVTT
+
+00:00:03.212 --> 00:00:05.759
+Handoff needs a queue to hand to.
+
+00:00:05.759 --> 00:00:10.657
+Under Interaction Center, Queues, click Add Queue and give it a name.
+
+00:00:10.657 --> 00:00:12.812
+Here it is the Sales queue.
+
+00:00:13.264 --> 00:00:19.140
+Under Hours and overflow, choose a business hours calendar, here the showroom hours.
+
+00:00:19.140 --> 00:00:23.318
+While the queue is closed, a call handed over is not held:
+
+00:00:23.318 --> 00:00:25.799
+a callback is scheduled instead.
+
+00:00:25.799 --> 00:00:26.844
+Then save.
+

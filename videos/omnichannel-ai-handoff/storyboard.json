@@ -1,0 +1,232 @@
+{
+  "title": "Omnichannel AI Handoff",
+  "output": "omnichannel-ai-handoff",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel AI Handoff",
+      "subtitle": "From the AI to a live agent",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An AI that answers texts and calls should not trap a customer who needs a person. This video shows how an AI conversation is handed to a live agent: the queue, the subject's handoff settings, where a text lands, what happens to a call, and the summary the agent reads."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why hand off",
+      "subtitle": "The AI starts, a person finishes",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "The AI is good at the first questions. When a customer asks for a person, is ready to buy, or is frustrated, a live agent should take over."
+            },
+            {
+              "id": "why-2",
+              "text": "Live agent handoff passes the conversation from the AI to a queue of people, and the agent sees what the AI already learned."
+            },
+            {
+              "id": "why-3",
+              "text": "It is set on the subject, so every conversation of that subject follows the same rules."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The handoff queue",
+      "subtitle": "Where the conversation goes",
+      "clips": [
+        {
+          "id": "02-queue",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "queue-1",
+              "text": "Handoff needs a queue to hand to. Under Interaction Center, Queues, click Add Queue and give it a name. Here it is the Sales queue."
+            },
+            {
+              "id": "queue-2",
+              "text": "Under Hours and overflow, choose a business hours calendar, here the showroom hours. While the queue is closed, a call handed over is not held: a callback is scheduled instead. Then save."
+            }
+          ]
+        }
+      ],
+      "short": "queue"
+    },
+    {
+      "id": "03",
+      "title": "The subject's handoff settings",
+      "subtitle": "Queue and conditions",
+      "clips": [
+        {
+          "id": "03-subject",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "subject-1",
+              "text": "Now the subject. Open the Dealership Inquiry subject's Omnichannel Subject settings. Make it automated on the SMS channel, and pick the address customers text."
+            },
+            {
+              "id": "subject-2",
+              "text": "Under AI configuration, choose the AI profile and write the subject goal in plain words. The no-response timeout and the reply delay pace the conversation."
+            },
+            {
+              "id": "subject-3",
+              "text": "The Live agent handoff card is the switch. Turn on Allow the AI to hand off to a live agent, choose the Sales queue, and tick when: the customer asks for a human, is a qualified, ready lead, or is frustrated. Then save."
+            }
+          ]
+        }
+      ],
+      "short": "subject"
+    },
+    {
+      "id": "04",
+      "title": "When the AI hands off",
+      "subtitle": "Three conditions and one queue",
+      "clips": [
+        {
+          "id": "04-when",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "when-1",
+              "text": "The AI hands off in three cases: the customer asks for a human, the customer is a qualified, ready lead, or the customer is frustrated or the AI cannot help. Tick only the cases you want."
+            },
+            {
+              "id": "when-2",
+              "text": "Without a queue, or with none of the cases ticked, the AI never hands off. Handing off a text conversation also needs the Messaging workspace."
+            },
+            {
+              "id": "when-3",
+              "text": "The AI tells the customer, in its own words, that it is connecting them to a person."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Texts land in the inbox",
+      "subtitle": "With the transcript",
+      "clips": [
+        {
+          "id": "05-inbox",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inbox-1",
+              "text": "A text conversation handed over appears in the Messaging inbox, for the agents who serve the queue. The agent claims it, reads what the AI and the customer said, and replies from the same conversation. The inbox is empty here because the AI has not handed anything over yet."
+            }
+          ]
+        }
+      ],
+      "short": "inbox"
+    },
+    {
+      "id": "06",
+      "title": "Calls ring the queue",
+      "subtitle": "Busy, free or closed",
+      "clips": [
+        {
+          "id": "06-calls",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "calls-1",
+              "text": "A call handed over rings the agents of the queue. The AI first tells the caller it is connecting them."
+            },
+            {
+              "id": "calls-2",
+              "text": "When nobody in the queue is free, the caller hears that they are in the queue, and holds until an agent answers."
+            },
+            {
+              "id": "calls-3",
+              "text": "When the queue is closed, a callback is booked instead. The caller hears that someone will call back, and the call ends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "What the agent reads",
+      "subtitle": "The AI assistant's summary",
+      "clips": [
+        {
+          "id": "07-summary",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "summary-1",
+              "text": "The agent who takes the activity starts from the AI assistant's summary: a blue banner on the Complete page with what the AI learned, and when it wrote it. It is not part of the agent's notes."
+            },
+            {
+              "id": "summary-2",
+              "text": "On the completed activity, Review AI conversation opens the full transcript, read-only. The activity records that the AI handed the customer over."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "What to use it for",
+      "subtitle": "Four typical uses",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Let the AI answer a sales line, and take over when a customer is ready to buy."
+            },
+            {
+              "id": "use-2",
+              "text": "Hand a frustrated customer to a person at once."
+            },
+            {
+              "id": "use-3",
+              "text": "Book a callback for the calls that arrive after hours, instead of losing them."
+            },
+            {
+              "id": "use-4",
+              "text": "Keep one queue for each team, and hand each subject to the right one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Let the AI do the first conversation, and give it a queue to hand to, so a person takes over exactly when it matters. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
