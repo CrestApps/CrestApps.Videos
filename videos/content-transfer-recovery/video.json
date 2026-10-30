@@ -1,0 +1,82 @@
+{
+  "title": "Content Transfer Recovery: Errors, Stalled Imports and Cleanup | CrestApps for Orchard Core",
+  "description": "Big files rarely import perfectly. See how an import saves every row it can, reports the rows that did not pass validation, lets you download only those rows to fix them, and how stalled imports resume and old entries are deleted.\n\nIn this video:\n• Why recovery matters\n• Importing a file with rows that fail\n• Download errors and fix them\n• Deleting entries from the list\n• Stalled imports, queued exports and the queue\n• What recovery is for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "import errors",
+    "resume import",
+    "stalled import",
+    "content transfer",
+    "csv import",
+    "download errors",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:13",
+      "title": "Why recovery matters"
+    },
+    {
+      "time": "0:40",
+      "title": "Import a file with bad rows"
+    },
+    {
+      "time": "1:29",
+      "title": "Clean up the list"
+    },
+    {
+      "time": "1:52",
+      "title": "Stalled imports and exports"
+    },
+    {
+      "time": "2:33",
+      "title": "What to use it for"
+    },
+    {
+      "time": "2:53",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/import-and-export"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/content-transfer"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.ContentTransfer"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/import-and-export.md",
+    "src/CrestApps.Docs/docs/modules/content-transfer.md"
+  ],
+  "length": "3:07"
+}
