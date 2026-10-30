@@ -1,0 +1,24 @@
+1
+00:00:03,201 --> 00:00:06,698
+Change Source sets the source to Manual or Automatic.
+
+2
+00:00:06,698 --> 00:00:11,144
+It also has an Interaction type selector, to keep the current type or
+
+3
+00:00:11,144 --> 00:00:13,515
+make the work manual or automated.
+
+4
+00:00:13,515 --> 00:00:17,961
+By default it clears the assignment, so the work can be routed again.
+
+5
+00:00:18,412 --> 00:00:23,124
+Purge marks the activities purged with your name and the time, and it
+
+6
+00:00:23,124 --> 00:00:26,642
+cannot be undone, so it asks you to confirm first.
+
