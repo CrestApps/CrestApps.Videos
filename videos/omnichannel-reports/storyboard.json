@@ -1,0 +1,339 @@
+{
+  "title": "Omnichannel Reports",
+  "output": "omnichannel-reports",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "PDF": "P.D.F.",
+    "SMS": "S.M.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Omnichannel Reports",
+      "subtitle": "Which report answers which question",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The omnichannel reports show how your team's calls, texts and follow-ups are going, from first lead to closed deal. This video shows which report answers which question, and how the Report Builder reads the same data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why these reports",
+      "subtitle": "Numbers instead of a to-do list",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Every call, text and follow-up is an activity. A personal list cannot show how much work is open, who is behind, or which campaign works."
+            },
+            {
+              "id": "why-2",
+              "text": "The omnichannel reports answer those questions from your activities, campaigns, dispositions, leads and opportunities. These slides only introduce the ideas; every report is shown on the real pages."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Where the reports are",
+      "subtitle": "Categories, filters and permission",
+      "clips": [
+        {
+          "id": "02-where",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "Open Reports in the admin menu. The omnichannel reports sit in several categories, most of them under CRM and Campaigns."
+            },
+            {
+              "id": "where-2",
+              "text": "Open Activity summary. The activity reports share the filters Date range, Campaign group, Campaign, Channel, Source, Status and Disposition. Show runs the report, and Export saves it."
+            }
+          ]
+        },
+        {
+          "id": "02b-permission",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "Each report needs the View Omnichannel reports permission, set per role under Access Control, Roles. Administrators and Supervisors have it by default."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Volume and completion",
+      "subtitle": "How much work there is and how it ends",
+      "clips": [
+        {
+          "id": "03-volume",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "vol-1",
+              "text": "Activity summary is the daily view: total, completed with its rate, pending, in progress, failed and cancelled. Bars split them by source, channel and status."
+            },
+            {
+              "id": "vol-2",
+              "text": "Campaign performance has one row per campaign, and a second table per campaign group."
+            },
+            {
+              "id": "vol-3",
+              "text": "Disposition breakdown counts completed activities by the disposition chosen, and its share of all completions."
+            }
+          ]
+        }
+      ],
+      "short": "volume"
+    },
+    {
+      "id": "04",
+      "title": "Backlog and age",
+      "subtitle": "What is still open and how late it is",
+      "clips": [
+        {
+          "id": "04-backlog",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "back-1",
+              "text": "Activity backlog looks at all work still open. Unassigned has no owner, Overdue is past its scheduled time, and Reserved is held for an agent right now."
+            },
+            {
+              "id": "back-2",
+              "text": "Activity aging puts the same work into age bands, from under an hour to over seven days. A heavy last band is old work nobody touches."
+            },
+            {
+              "id": "back-3",
+              "text": "Overdue workload by user shows who holds the late work, how much is unassigned, and its average and maximum age."
+            }
+          ]
+        }
+      ],
+      "short": "backlog"
+    },
+    {
+      "id": "05",
+      "title": "Workload by group",
+      "subtitle": "The same table, grouped different ways",
+      "clips": [
+        {
+          "id": "05-groupings",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "grp-1",
+              "text": "Several reports share one table and change the grouping. Activity source performance groups by origin: manual, automatic by AI, callback, or a dialer mode, with the outcomes, completion rate and average attempts."
+            },
+            {
+              "id": "grp-2",
+              "text": "CRM channel performance groups by Phone or SMS, Activity kind performance by call or text, and Contact type workload by Lead or Contact."
+            },
+            {
+              "id": "grp-3",
+              "text": "Activity assignment performance groups by assignment status, and Activity urgency performance by urgency, to check that urgent work finishes first."
+            },
+            {
+              "id": "grp-4",
+              "text": "Activity attempt analysis shows how many attempts each activity needed and how many completed. Scheduled completion performance compares work finished on schedule with late work."
+            }
+          ]
+        }
+      ],
+      "short": "groupings"
+    },
+    {
+      "id": "06",
+      "title": "People",
+      "subtitle": "Who does the work and how long it takes",
+      "clips": [
+        {
+          "id": "06-people",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ppl-1",
+              "text": "Assigned user performance gives each person's activities, outcomes and completion rate. Work nobody owns appears as Not set."
+            },
+            {
+              "id": "ppl-2",
+              "text": "User completion time shows the average, median and maximum time finished work took. Daily user productivity gives the same for each person and day."
+            },
+            {
+              "id": "ppl-3",
+              "text": "Activity creation by user shows who or what created the work, for audits. Not set is work with no recorded creator."
+            }
+          ]
+        }
+      ],
+      "short": "people"
+    },
+    {
+      "id": "07",
+      "title": "Campaigns, customers and addresses",
+      "subtitle": "Mixes, workload per customer and per number",
+      "clips": [
+        {
+          "id": "07-campaigns",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "camp-1",
+              "text": "Four campaign reports break each campaign down by source, channel, disposition and number of attempts, with the completion rate of each row."
+            },
+            {
+              "id": "camp-2",
+              "text": "Customer workload has one row per customer, to spot someone contacted too often."
+            },
+            {
+              "id": "camp-3",
+              "text": "Address usage compares your sales line, support line and text line."
+            }
+          ]
+        }
+      ],
+      "short": "campaigns"
+    },
+    {
+      "id": "08",
+      "title": "Dialer and AI",
+      "subtitle": "Every dialed number, and what the AI handled",
+      "clips": [
+        {
+          "id": "08-dialer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dial-1",
+              "text": "Dialer call detail lists one row per number the dialer worked, with contact, campaign, last disposition, attempts, agent and status. It opens on the Dialer source, a page at a time."
+            },
+            {
+              "id": "dial-2",
+              "text": "AI handoff and containment counts the conversations an AI profile finished itself and those it passed to a live agent, with the rates, the time to escalate and the reasons."
+            }
+          ]
+        }
+      ],
+      "short": "dialer"
+    },
+    {
+      "id": "09",
+      "title": "Leads and deals",
+      "subtitle": "Funnel, conversion and pipeline",
+      "clips": [
+        {
+          "id": "09-leads",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "lead-1",
+              "text": "Lead funnel shows leads created in the period by their current status, and the conversion rate. The three CRM reports use the date range only."
+            },
+            {
+              "id": "lead-2",
+              "text": "Lead conversion by source and list shows, for each, how many leads converted, the rate and the average time to convert."
+            },
+            {
+              "id": "lead-3",
+              "text": "Opportunity pipeline lists open deals by stage with amount and weighted amount, using the stage's probability, then the win rate and amount won for deals closed in the period."
+            }
+          ]
+        }
+      ],
+      "short": "leads"
+    },
+    {
+      "id": "10",
+      "title": "In the Report Builder",
+      "subtitle": "The same data, your own report",
+      "clips": [
+        {
+          "id": "10-builder",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rb-1",
+              "text": "The Report Builder reads the same records. Open Reports, Report Builder, New Report, then Add data set."
+            },
+            {
+              "id": "rb-2",
+              "text": "The Omnichannel source offers Activities, Dispositions, Campaigns, Campaign groups and Activity batches. Contacts, leads and opportunities are under Content items."
+            },
+            {
+              "id": "rb-3",
+              "text": "Add Activities. The window then lists related data sets, such as the activity's disposition and campaign, which are joined for you."
+            },
+            {
+              "id": "rb-4",
+              "text": "The Messaging source offers Conversations and Messages, with each outbound text's delivery status but never its text. Add Messages."
+            },
+            {
+              "id": "rb-5",
+              "text": "Drag Delivery status and Number of rows onto Columns, and the preview counts texts by delivery status."
+            }
+          ]
+        }
+      ],
+      "short": "builder"
+    },
+    {
+      "id": "11",
+      "title": "Use cases",
+      "subtitle": "Three ways teams use these reports",
+      "clips": [
+        {
+          "id": "11-uses",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Morning stand-up: a supervisor opens Activity backlog, then Overdue workload by user, and reassigns late work before anyone dials."
+            },
+            {
+              "id": "use-2",
+              "text": "Campaign review: compare Campaign performance, Campaign disposition mix and Lead conversion to decide which campaign to repeat."
+            },
+            {
+              "id": "use-3",
+              "text": "AI rollout: watch AI handoff and containment. A falling containment rate, or a common escalation reason, shows where the AI profile needs better instructions."
+            }
+          ]
+        }
+      ],
+      "short": "uses"
+    },
+    {
+      "id": "99",
+      "title": "Omnichannel Reports",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "The omnichannel reports turn activities, campaigns, leads and deals into numbers you can act on. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

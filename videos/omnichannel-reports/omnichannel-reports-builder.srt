@@ -1,0 +1,48 @@
+1
+00:00:03,181 --> 00:00:06,394
+The Report Builder reads the same records.
+
+2
+00:00:06,394 --> 00:00:10,811
+Open Reports, Report Builder, New Report, then Add data set.
+
+3
+00:00:12,160 --> 00:00:19,398
+The Omnichannel source offers Activities, Dispositions, Campaigns, Campaign groups and Activity batches.
+
+4
+00:00:19,398 --> 00:00:23,610
+Contacts, leads and opportunities are under Content items.
+
+5
+00:00:24,073 --> 00:00:25,308
+Add Activities.
+
+6
+00:00:25,308 --> 00:00:30,303
+The window then lists related data sets, such as the activity's disposition and
+
+7
+00:00:30,303 --> 00:00:32,713
+campaign, which are joined for you.
+
+8
+00:00:33,163 --> 00:00:40,023
+The Messaging source offers Conversations and Messages, with each outbound text's delivery status
+
+9
+00:00:40,023 --> 00:00:41,688
+but never its text.
+
+10
+00:00:41,688 --> 00:00:42,953
+Add Messages.
+
+11
+00:00:43,404 --> 00:00:48,353
+Drag Delivery status and Number of rows onto Columns, and the preview counts
+
+12
+00:00:48,353 --> 00:00:50,224
+texts by delivery status.
+

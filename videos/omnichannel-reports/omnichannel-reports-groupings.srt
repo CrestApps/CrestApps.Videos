@@ -1,0 +1,40 @@
+1
+00:00:03,180 --> 00:00:07,358
+Several reports share one table and change the grouping.
+
+2
+00:00:07,358 --> 00:00:10,794
+Activity source performance groups by origin:
+
+3
+00:00:10,794 --> 00:00:16,724
+manual, automatic by AI, callback, or a dialer mode, with the outcomes, completion
+
+4
+00:00:16,724 --> 00:00:18,880
+rate and average attempts.
+
+5
+00:00:19,332 --> 00:00:25,381
+CRM channel performance groups by Phone or SMS, Activity kind performance by call
+
+6
+00:00:25,381 --> 00:00:29,552
+or text, and Contact type workload by Lead or Contact.
+
+7
+00:00:30,011 --> 00:00:36,516
+Activity assignment performance groups by assignment status, and Activity urgency performance by urgency,
+
+8
+00:00:36,516 --> 00:00:39,271
+to check that urgent work finishes first.
+
+9
+00:00:39,721 --> 00:00:46,044
+Activity attempt analysis shows how many attempts each activity needed and how many completed.
+
+10
+00:00:46,044 --> 00:00:51,671
+Scheduled completion performance compares work finished on schedule with late work.
+
