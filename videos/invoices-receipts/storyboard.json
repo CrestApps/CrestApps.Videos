@@ -1,0 +1,249 @@
+{
+  "title": "Invoices and receipts",
+  "output": "invoices-receipts",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Invoices and receipts",
+      "subtitle": "Ask for the money, and prove it arrived",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An invoice tells a customer what they owe, and gives them a link to pay it. A receipt proves that a payment arrived. This video shows how to brand them, send an invoice, how a customer pays from the link, and how receipts and refund notices reach the customer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why invoices and receipts",
+      "subtitle": "Clear requests, clear proof",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Customers who pay later need to know exactly what they owe, to whom, and by when."
+            },
+            {
+              "id": "why-2",
+              "text": "They want to pay without hunting for a password, even from a forwarded email."
+            },
+            {
+              "id": "why-3",
+              "text": "And when a payment arrives, they want proof, with a number they can quote."
+            },
+            {
+              "id": "why-4",
+              "text": "Invoices and receipts give you all of that, with your business's name and details on every one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "How it is organized",
+      "subtitle": "Numbers, links and notices",
+      "clips": [
+        {
+          "id": "02-how",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "how-1",
+              "text": "An invoice gets its number, such as INV-1001, the first time the customer is told about a payment they pay themselves."
+            },
+            {
+              "id": "how-2",
+              "text": "Every reminder and invoice carries a pay link that works without signing in, for sixty days."
+            },
+            {
+              "id": "how-3",
+              "text": "A receipt, such as R-1001, is sent after every payment, however it was paid. A refund sends a refund notice."
+            },
+            {
+              "id": "how-4",
+              "text": "All of them print cleanly, with one set of branding settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Brand them",
+      "subtitle": "Your name, address and footer",
+      "clips": [
+        {
+          "id": "03-brand",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "brand-1",
+              "text": "Invoices and receipts share one set of branding settings. Open Settings, Commerce, Receipts. The Business name, Business address and Logo URL are shown at the top. The contact email, phone, website and footer text are printed at the bottom."
+            },
+            {
+              "id": "brand-2",
+              "text": "Header title is the heading of every receipt, Payment receipt unless you change it. Invoices always say Invoice. The test-payment badge marks receipts for payments made in a provider's test mode. Click Save."
+            }
+          ]
+        }
+      ],
+      "short": "brand"
+    },
+    {
+      "id": "04",
+      "title": "Send an invoice",
+      "subtitle": "From the transaction",
+      "clips": [
+        {
+          "id": "04-invoice",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "inv-1",
+              "text": "Open Commerce, Transactions, and a payment the customer pays themselves, such as a bank transfer waiting for its money. On its page, Send invoice sends the customer the invoice now, with a link that pays it."
+            },
+            {
+              "id": "inv-2",
+              "text": "The transaction now has an invoice number, shown as Invoice. Open it. The invoice carries your logo, name and address, the invoice number and date, who it is billed to, its status, the lines, the total and the due date, and your footer."
+            },
+            {
+              "id": "inv-3",
+              "text": "Print invoice prints only the invoice, without the site's menus. Under Payment link, Copy puts the customer's pay link on the clipboard, to paste into a reply. It works for sixty days."
+            }
+          ]
+        }
+      ],
+      "short": "invoice"
+    },
+    {
+      "id": "05",
+      "title": "The customer pays from the link",
+      "subtitle": "No account, no password",
+      "clips": [
+        {
+          "id": "05-pay",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pay-1",
+              "text": "The customer opens the link, with no account or password. The page shows what the payment is for, the Amount due, the Due on date, and a Pay button, with the invoice under it."
+            },
+            {
+              "id": "pay-2",
+              "text": "Pay opens checkout with the balance ready. A customer who decides not to pay now has a Back to the payment page link."
+            }
+          ]
+        }
+      ],
+      "short": "pay"
+    },
+    {
+      "id": "06",
+      "title": "Receipts",
+      "subtitle": "Proof of every payment",
+      "clips": [
+        {
+          "id": "06-receipt",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rcpt-1",
+              "text": "When the money arrives, open the transaction, enter the amount and a reference under Record an offline payment, and click Record payment, and confirm."
+            },
+            {
+              "id": "rcpt-2",
+              "text": "With Send Payment Receipts on, the customer is sent a receipt after every payment: online, charged to a card, or recorded by hand. Each receipt has its own number, such as R-1001. In the transaction's timeline, the payment links to its receipt with View receipt."
+            },
+            {
+              "id": "rcpt-3",
+              "text": "View receipt opens it: your branding, the receipt number and date, who it is billed to, the amount paid, and notes such as Paid offline. Print receipt prints it."
+            }
+          ]
+        }
+      ],
+      "short": "receipt"
+    },
+    {
+      "id": "07",
+      "title": "Refund notices, links and badges",
+      "subtitle": "Details worth knowing",
+      "clips": [
+        {
+          "id": "07-more",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "more-1",
+              "text": "When a refund of a payment succeeds, the customer is told, with the amount, and that it can take a few business days to reach their statement."
+            },
+            {
+              "id": "more-2",
+              "text": "A receipt for a payment made in a provider's test mode carries a Test payment badge, unless you turn the badge off."
+            },
+            {
+              "id": "more-3",
+              "text": "Pay links use your site's public address. Set the Base url under Settings, General, before you rely on them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Use cases",
+      "subtitle": "How businesses put it to work",
+      "clips": [
+        {
+          "id": "08-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "A service business: send an invoice with a pay link, and the customer pays without signing in."
+            },
+            {
+              "id": "use-2",
+              "text": "A company that pays slowly: reminders carry the same link, so the newest one always works."
+            },
+            {
+              "id": "use-3",
+              "text": "A bookkeeper: every payment has a numbered receipt to file."
+            },
+            {
+              "id": "use-4",
+              "text": "A shop: customers print their own invoices and receipts from their account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Thanks for watching",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "With invoices and receipts, you ask for payment clearly, and prove it arrived. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
