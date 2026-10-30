@@ -1,0 +1,16 @@
+1
+00:00:03,202 --> 00:00:07,166
+On My Sites, in the buyer's account, the site is listed with its
+
+2
+00:00:07,166 --> 00:00:09,375
+Site name and when it was bought.
+
+3
+00:00:09,375 --> 00:00:13,284
+While it is being created, a note says a new site usually takes
+
+4
+00:00:13,284 --> 00:00:17,532
+a minute or two to appear, and the page refreshes when you reload it.
+

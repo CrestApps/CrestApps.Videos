@@ -1,0 +1,56 @@
+1
+00:00:03,196 --> 00:00:06,036
+On the Plans page, a buyer clicks Sign up.
+
+2
+00:00:06,036 --> 00:00:10,415
+Checkout adds a Your new site step, before the payment step, for the
+
+3
+00:00:10,415 --> 00:00:13,136
+details of the site the buyer is buying.
+
+4
+00:00:13,589 --> 00:00:17,756
+Site name identifies the site and cannot be changed later.
+
+5
+00:00:17,756 --> 00:00:22,053
+Site title is what visitors see, and can change at any time.
+
+6
+00:00:22,053 --> 00:00:26,089
+URL prefix is the part of the address after your domain.
+
+7
+00:00:26,089 --> 00:00:28,303
+Custom domains are optional.
+
+8
+00:00:28,303 --> 00:00:31,689
+And Site template starts on the plan's recipe.
+
+9
+00:00:32,139 --> 00:00:37,504
+Under Site administrator, the buyer enters the user name, email and password they
+
+10
+00:00:37,504 --> 00:00:40,095
+will sign in to their new site with.
+
+11
+00:00:40,095 --> 00:00:43,918
+Everything the buyer can fix is checked before they pay:
+
+12
+00:00:43,918 --> 00:00:49,469
+a taken name, a prefix that belongs to another site, or passwords that do not match.
+
+13
+00:00:49,920 --> 00:00:51,588
+Then the buyer pays.
+
+14
+00:00:51,588 --> 00:00:56,400
+Here with Pay Later, as this demonstration site has no card provider.
+

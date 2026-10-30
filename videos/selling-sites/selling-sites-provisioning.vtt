@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.190 --> 00:00:08.372
+Administrators see every sold site under Subscriptions, Site provisioning:
+
+00:00:08.372 --> 00:00:13.620
+the site name, its status, the owner, when it was bought, and the attempts.
+
+00:00:13.620 --> 00:00:16.989
+The site checks for waiting jobs every minute.
+
+00:00:16.989 --> 00:00:20.617
+Waiting means it is paid for and waiting its turn.
+
+00:00:20.617 --> 00:00:24.698
+Created means the site exists, and the buyer can sign in.
+
+00:00:24.698 --> 00:00:28.650
+To try a waiting job now, click Retry now, and confirm.
+
+00:00:30.246 --> 00:00:32.781
+Back on My Sites, the site is Ready.
+
+00:00:32.781 --> 00:00:38.576
+Open takes the buyer to it, to sign in with the administrator account entered at checkout.
+
