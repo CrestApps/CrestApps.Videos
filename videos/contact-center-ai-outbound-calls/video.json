@@ -85,7 +85,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "2AbD_YD-Usc",
+    "url": "https://youtu.be/2AbD_YD-Usc",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Telnyx.AiVoice"
