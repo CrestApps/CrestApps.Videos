@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:03.204 --> 00:00:04.633
+Click Add Task.
+
+00:00:04.633 --> 00:00:07.424
+Under Contact Center there are ten.
+
+00:00:07.926 --> 00:00:14.920
+Enqueue Activity, Find Agent Numbers, Schedule Callback, Schedule Dialer Retry, Send Text Message,
+
+00:00:14.920 --> 00:00:20.636
+Set Agent Presence, Start Call Recording, Place Call or Send Message, Stop Call
+
+00:00:20.636 --> 00:00:23.596
+Recording, and Hand Off to Live Agent.
+
+00:00:25.206 --> 00:00:26.879
+Add Send Text Message.
+
+00:00:26.879 --> 00:00:29.448
+From is one of your own text numbers.
+
+00:00:29.448 --> 00:00:34.706
+To is the customer's number, and a placeholder reads the number the dialer called.
+
+00:00:37.553 --> 00:00:39.268
+Message is the text.
+
+00:00:39.268 --> 00:00:40.851
+Agent is optional:
+
+00:00:40.851 --> 00:00:45.532
+name one so the customer's reply reaches them, or leave it empty.
+
+00:00:45.532 --> 00:00:46.653
+Click Save.
+
+00:00:47.497 --> 00:00:51.504
+Drag from the Matched outcome of the event to the task, and save.
+
+00:00:51.504 --> 00:00:55.906
+This workflow reacts to dialer calls, so it needs a real phone provider,
+
+00:00:55.906 --> 00:00:58.107
+and never runs on this demo site.
+

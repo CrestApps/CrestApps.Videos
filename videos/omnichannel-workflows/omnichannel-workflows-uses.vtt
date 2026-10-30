@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:04.733
+Record every call:
+
+00:00:04.733 --> 00:00:08.376
+start on Call connected, then Start Call Recording.
+
+00:00:08.376 --> 00:00:10.484
+Follow up on a missed call:
+
+00:00:10.484 --> 00:00:14.190
+start on Dialer attempt completed, then send a text.
+
+00:00:14.940 --> 00:00:19.422
+Escalate an automated conversation with Hand Off to Live Agent.
+
+00:00:19.422 --> 00:00:23.840
+Welcome a new customer with Convert Lead, then Lead Converted.
+
+00:00:24.590 --> 00:00:29.402
+A workflow cannot transfer a live call or pick a particular agent.
+
+00:00:29.402 --> 00:00:32.610
+Use Enqueue Activity, and routing chooses.
+

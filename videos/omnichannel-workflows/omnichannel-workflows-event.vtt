@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:03.192 --> 00:00:05.451
+Add the Contact Center Event.
+
+00:00:05.451 --> 00:00:07.775
+Its one setting is Event type:
+
+00:00:07.775 --> 00:00:12.292
+leave Any event type to react to everything, or choose one kind.
+
+00:00:12.742 --> 00:00:14.706
+The list is grouped:
+
+00:00:14.706 --> 00:00:23.389
+Interaction, Activity, Routing and queues, Agent, Offer, Dialer, Callback, Call, Shared voicemail, Recording,
+
+00:00:23.389 --> 00:00:26.182
+Supervision and Secure capture.
+
+00:00:26.645 --> 00:00:33.689
+Pick Dialer attempt completed, which fires after every call the dialer places, answered or not.
+
+00:00:33.689 --> 00:00:34.875
+Click Save.
+
+00:00:35.327 --> 00:00:37.336
+The event has two outcomes.
+
+00:00:37.336 --> 00:00:41.477
+Matched is the type you chose, and Ignored is any other event.
+
+00:00:41.477 --> 00:00:44.157
+Connect the tasks you want to Matched.
+
+00:00:45.757 --> 00:00:48.474
+The event hands the workflow its details:
+
+00:00:48.474 --> 00:00:52.867
+the kind of event, the call or conversation, who acted, the agent, and
+
+00:00:52.867 --> 00:00:56.163
+its own data, such as the number the dialer called.
+
+00:00:56.163 --> 00:00:57.897
+Liquid fields read them.
+

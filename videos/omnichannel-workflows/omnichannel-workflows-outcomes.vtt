@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:03.200 --> 00:00:07.251
+Every task ends in an outcome you wire to the next task.
+
+00:00:07.251 --> 00:00:12.217
+Place Call or Send Message ends in Done, Already Started or Failed, so
+
+00:00:12.217 --> 00:00:14.700
+it never calls a customer twice.
+
+00:00:15.450 --> 00:00:18.214
+Most tasks end in Done or Failed.
+
+00:00:18.214 --> 00:00:20.978
+Find Agent Numbers adds NotFound.
+
+00:00:20.978 --> 00:00:27.710
+Hand Off to Live Agent ends in Connected, Waiting In Queue, Callback Scheduled or Failed.
+
+00:00:28.460 --> 00:00:33.073
+Schedule Dialer Retry ends in Scheduled, Exhausted or Failed.
+
+00:00:33.073 --> 00:00:38.444
+Call recording can end in Indeterminate, when the change is unconfirmed.
+
+00:00:38.444 --> 00:00:41.680
+Convert Lead ends in Converted or Failed.
+
