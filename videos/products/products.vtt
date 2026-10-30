@@ -306,72 +306,78 @@ Under Bundle, Made of lists the products in a kit, sold at the
 00:07:10.855 --> 00:07:14.572
 bundle's own price, with stock worked out from its parts.
 
-00:07:18.779 --> 00:07:21.694
+00:07:18.760 --> 00:07:21.675
 Open Settings, Commerce, Product feeds.
 
-00:07:21.694 --> 00:07:27.006
+00:07:21.675 --> 00:07:26.987
 It publishes your catalog to Google Merchant Center, Meta and TikTok, and as
 
-00:07:27.006 --> 00:07:30.439
+00:07:26.987 --> 00:07:30.420
 a spreadsheet, and it lists the feed addresses.
 
-00:07:30.893 --> 00:07:35.231
+00:07:30.872 --> 00:07:35.211
 The page says how many products the feed holds, and warns about any
 
-00:07:35.231 --> 00:07:38.619
+00:07:35.211 --> 00:07:38.598
 it would refuse, such as a product without a photo.
 
-00:07:38.619 --> 00:07:43.373
+00:07:38.598 --> 00:07:43.352
 You can set a Brand, a Condition, and a Feed key to keep the feed private.
 
-00:07:43.878 --> 00:07:49.281
+00:07:43.805 --> 00:07:49.148
 For a large catalog, turn on Product Search with Lucene, Elasticsearch or Azure
 
-00:07:49.281 --> 00:07:52.204
+00:07:49.148 --> 00:07:52.039
 AI Search under Configuration, Features.
 
-00:07:52.204 --> 00:07:55.828
-Listings then rank keyword matches with that index.
+00:07:52.039 --> 00:07:54.302
+A listing does not use it yet:
 
-00:08:00.028 --> 00:08:00.832
+00:07:54.302 --> 00:08:00.084
+you also create the index under Search, Indexes, and choose that index on the listing.
+
+00:08:00.084 --> 00:08:03.415
+Then the listing ranks keyword matches with it.
+
+00:08:07.615 --> 00:08:08.419
 A shop:
 
-00:08:00.832 --> 00:08:05.780
+00:08:08.419 --> 00:08:13.368
 goods with pictures, SKUs and sale prices, shown on a listing with filters
 
-00:08:05.780 --> 00:08:08.688
+00:08:13.368 --> 00:08:16.275
 and sorting, and bought through the cart.
 
-00:08:09.438 --> 00:08:11.393
+00:08:17.025 --> 00:08:18.981
 Listings without a cart:
 
-00:08:11.393 --> 00:08:15.825
+00:08:18.981 --> 00:08:23.413
 homes or cars set to Listing only, with a hidden price or Call
 
-00:08:15.825 --> 00:08:18.368
+00:08:23.413 --> 00:08:25.955
 for price, and an inquiry button.
 
-00:08:19.118 --> 00:08:20.136
+00:08:26.705 --> 00:08:27.724
 Wholesale:
 
-00:08:20.136 --> 00:08:26.248
+00:08:27.724 --> 00:08:33.835
 a minimum quantity, packs, volume discounts, and a role discount for your trade customers.
 
-00:08:26.998 --> 00:08:28.309
+00:08:34.585 --> 00:08:35.896
 Gifts and kits:
 
-00:08:28.309 --> 00:08:34.177
+00:08:35.896 --> 00:08:41.764
 add-ons for engraving or wrapping, bundles for starter kits, and upsells and cross-sells
 
-00:08:34.177 --> 00:08:35.738
+00:08:41.764 --> 00:08:43.325
 to raise the order.
 
-00:08:37.738 --> 00:08:42.187
+00:08:45.325 --> 00:08:49.774
 Keep the price with the content, choose how each product sells, and let
 
-00:08:42.187 --> 00:08:44.035
+00:08:49.774 --> 00:08:51.623
 the shop page do the rest.
 
-00:08:44.035 --> 00:08:45.538
+00:08:51.623 --> 00:08:53.125
 Thanks for watching.
 
