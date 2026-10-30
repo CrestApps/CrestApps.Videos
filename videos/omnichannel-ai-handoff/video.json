@@ -1,0 +1,94 @@
+{
+  "title": "Omnichannel AI Handoff: Pass an AI Conversation to a Live Agent | CrestApps for Orchard Core",
+  "description": "An AI that answers texts and calls should not trap a customer who needs a person. The subject's Live agent handoff settings let the AI pass a conversation to a queue of people when the customer asks for one, is ready to buy, or is frustrated. A text lands in the Messaging inbox, a call rings the queue or books a callback after hours, and the agent starts from the AI assistant's summary.\n\nIn this video:\n• Why the AI hands a conversation to a person\n• Creating the handoff queue with business hours\n• The subject's AI configuration and the Live agent handoff card: queue and conditions\n• The three cases the AI hands off, and when it never does\n• Where a handed-over text lands: the Messaging inbox\n• What a call experiences: ringing the queue, holding, and an after-hours callback\n• The AI assistant's summary banner and Review AI conversation",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "AI handoff",
+    "live agent handoff",
+    "AI SMS",
+    "contact center queue",
+    "omnichannel subjects",
+    "after-hours callback",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why hand off"
+    },
+    {
+      "time": "0:49",
+      "title": "The handoff queue"
+    },
+    {
+      "time": "1:17",
+      "title": "The subject's handoff settings"
+    },
+    {
+      "time": "2:01",
+      "title": "When the AI hands off"
+    },
+    {
+      "time": "2:35",
+      "title": "Texts land in the inbox"
+    },
+    {
+      "time": "2:57",
+      "title": "Calls ring the queue"
+    },
+    {
+      "time": "3:24",
+      "title": "What the agent reads"
+    },
+    {
+      "time": "3:51",
+      "title": "What to use it for"
+    },
+    {
+      "time": "4:16",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/subjects"
+    },
+    {
+      "label": "Automated AI SMS and voice",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/automated-ai"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Omnichannel.Sms"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/subjects.md",
+    "src/CrestApps.Docs/docs/user-manual/automated-ai.md"
+  ],
+  "length": "4:28"
+}

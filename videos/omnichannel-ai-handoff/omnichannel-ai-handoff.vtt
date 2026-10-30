@@ -1,0 +1,182 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:06.289
+An AI that answers texts and calls should not trap a customer who needs a person.
+
+00:00:06.289 --> 00:00:10.667
+This video shows how an AI conversation is handed to a live agent:
+
+00:00:10.667 --> 00:00:15.773
+the queue, the subject's handoff settings, where a text lands, what happens to
+
+00:00:15.773 --> 00:00:18.570
+a call, and the summary the agent reads.
+
+00:00:23.170 --> 00:00:25.983
+The AI is good at the first questions.
+
+00:00:25.983 --> 00:00:30.011
+When a customer asks for a person, is ready to buy, or is
+
+00:00:30.011 --> 00:00:33.080
+frustrated, a live agent should take over.
+
+00:00:33.830 --> 00:00:38.292
+Live agent handoff passes the conversation from the AI to a queue of
+
+00:00:38.292 --> 00:00:41.970
+people, and the agent sees what the AI already learned.
+
+00:00:42.720 --> 00:00:48.480
+It is set on the subject, so every conversation of that subject follows the same rules.
+
+00:00:52.692 --> 00:00:55.239
+Handoff needs a queue to hand to.
+
+00:00:55.239 --> 00:01:00.137
+Under Interaction Center, Queues, click Add Queue and give it a name.
+
+00:01:00.137 --> 00:01:02.292
+Here it is the Sales queue.
+
+00:01:02.744 --> 00:01:08.620
+Under Hours and overflow, choose a business hours calendar, here the showroom hours.
+
+00:01:08.620 --> 00:01:12.798
+While the queue is closed, a call handed over is not held:
+
+00:01:12.798 --> 00:01:15.279
+a callback is scheduled instead.
+
+00:01:15.279 --> 00:01:16.324
+Then save.
+
+00:01:20.525 --> 00:01:21.915
+Now the subject.
+
+00:01:21.915 --> 00:01:26.529
+Open the Dealership Inquiry subject's Omnichannel Subject settings.
+
+00:01:26.529 --> 00:01:31.585
+Make it automated on the SMS channel, and pick the address customers text.
+
+00:01:32.035 --> 00:01:38.598
+Under AI configuration, choose the AI profile and write the subject goal in plain words.
+
+00:01:38.598 --> 00:01:43.625
+The no-response timeout and the reply delay pace the conversation.
+
+00:01:44.076 --> 00:01:47.293
+The Live agent handoff card is the switch.
+
+00:01:47.293 --> 00:01:51.449
+Turn on Allow the AI to hand off to a live agent, choose
+
+00:01:51.449 --> 00:01:53.928
+the Sales queue, and tick when:
+
+00:01:53.928 --> 00:01:59.424
+the customer asks for a human, is a qualified, ready lead, or is frustrated.
+
+00:01:59.424 --> 00:02:00.496
+Then save.
+
+00:02:04.696 --> 00:02:07.077
+The AI hands off in three cases:
+
+00:02:07.077 --> 00:02:11.901
+the customer asks for a human, the customer is a qualified, ready lead,
+
+00:02:11.901 --> 00:02:15.534
+or the customer is frustrated or the AI cannot help.
+
+00:02:15.534 --> 00:02:17.726
+Tick only the cases you want.
+
+00:02:18.476 --> 00:02:23.721
+Without a queue, or with none of the cases ticked, the AI never hands off.
+
+00:02:23.721 --> 00:02:28.506
+Handing off a text conversation also needs the Messaging workspace.
+
+00:02:29.256 --> 00:02:33.387
+The AI tells the customer, in its own words, that it is connecting
+
+00:02:33.387 --> 00:02:34.706
+them to a person.
+
+00:02:38.915 --> 00:02:43.855
+A text conversation handed over appears in the Messaging inbox, for the agents
+
+00:02:43.855 --> 00:02:45.383
+who serve the queue.
+
+00:02:45.383 --> 00:02:49.558
+The agent claims it, reads what the AI and the customer said, and
+
+00:02:49.558 --> 00:02:51.969
+replies from the same conversation.
+
+00:02:51.969 --> 00:02:56.555
+The inbox is empty here because the AI has not handed anything over yet.
+
+00:03:00.755 --> 00:03:03.802
+A call handed over rings the agents of the queue.
+
+00:03:03.802 --> 00:03:07.015
+The AI first tells the caller it is connecting them.
+
+00:03:07.765 --> 00:03:11.755
+When nobody in the queue is free, the caller hears that they are
+
+00:03:11.755 --> 00:03:14.775
+in the queue, and holds until an agent answers.
+
+00:03:15.525 --> 00:03:19.167
+When the queue is closed, a callback is booked instead.
+
+00:03:19.167 --> 00:03:23.345
+The caller hears that someone will call back, and the call ends.
+
+00:03:27.545 --> 00:03:31.738
+The agent who takes the activity starts from the AI assistant's summary:
+
+00:03:31.738 --> 00:03:35.501
+a blue banner on the Complete page with what the AI learned, and
+
+00:03:35.501 --> 00:03:36.738
+when it wrote it.
+
+00:03:36.738 --> 00:03:38.995
+It is not part of the agent's notes.
+
+00:03:39.745 --> 00:03:46.042
+On the completed activity, Review AI conversation opens the full transcript, read-only.
+
+00:03:46.042 --> 00:03:50.375
+The activity records that the AI handed the customer over.
+
+00:03:54.575 --> 00:03:58.784
+Let the AI answer a sales line, and take over when a customer
+
+00:03:58.784 --> 00:04:00.165
+is ready to buy.
+
+00:04:00.915 --> 00:04:04.705
+Hand a frustrated customer to a person at once.
+
+00:04:05.455 --> 00:04:10.305
+Book a callback for the calls that arrive after hours, instead of losing them.
+
+00:04:11.055 --> 00:04:15.925
+Keep one queue for each team, and hand each subject to the right one.
+
+00:04:17.925 --> 00:04:21.658
+Let the AI do the first conversation, and give it a queue to
+
+00:04:21.658 --> 00:04:25.165
+hand to, so a person takes over exactly when it matters.
+
+00:04:25.165 --> 00:04:26.635
+Thanks for watching.
+

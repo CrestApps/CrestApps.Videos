@@ -1,0 +1,40 @@
+1
+00:00:03,201 --> 00:00:04,592
+Now the subject.
+
+2
+00:00:04,592 --> 00:00:09,205
+Open the Dealership Inquiry subject's Omnichannel Subject settings.
+
+3
+00:00:09,205 --> 00:00:14,261
+Make it automated on the SMS channel, and pick the address customers text.
+
+4
+00:00:14,712 --> 00:00:21,275
+Under AI configuration, choose the AI profile and write the subject goal in plain words.
+
+5
+00:00:21,275 --> 00:00:26,302
+The no-response timeout and the reply delay pace the conversation.
+
+6
+00:00:26,753 --> 00:00:29,970
+The Live agent handoff card is the switch.
+
+7
+00:00:29,970 --> 00:00:34,125
+Turn on Allow the AI to hand off to a live agent, choose
+
+8
+00:00:34,125 --> 00:00:36,605
+the Sales queue, and tick when:
+
+9
+00:00:36,605 --> 00:00:42,101
+the customer asks for a human, is a qualified, ready lead, or is frustrated.
+
+10
+00:00:42,101 --> 00:00:43,173
+Then save.
+
