@@ -1,0 +1,140 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.491
+This video shows recipes in the admin:
+
+00:00:03.491 --> 00:00:07.738
+the catalog of ready-made recipes and how to run one, the editor that
+
+00:00:07.738 --> 00:00:11.588
+checks a recipe you paste in, and how to export your own setup
+
+00:00:11.588 --> 00:00:13.910
+as a recipe with a deployment plan.
+
+00:00:18.510 --> 00:00:23.670
+Setting up a site by hand is slow, and no two sites end up the same.
+
+00:00:24.420 --> 00:00:30.297
+A recipe is a ready-made script that creates content types, settings, roles and
+
+00:00:30.297 --> 00:00:32.440
+sample content in one go.
+
+00:00:33.190 --> 00:00:37.172
+Run one to start a site, try a feature with sample content, or
+
+00:00:37.172 --> 00:00:40.100
+move a setup from a test site to a live one.
+
+00:00:44.301 --> 00:00:45.920
+Open Tools, Recipes.
+
+00:00:45.920 --> 00:00:50.465
+Every recipe has a name, tags and a description of what it creates.
+
+00:00:50.465 --> 00:00:55.696
+The CrestApps Recipes feature adds the descriptions, so you know what a recipe
+
+00:00:55.696 --> 00:00:57.501
+does before you run it.
+
+00:00:57.952 --> 00:01:02.299
+Type in the search box to find a recipe by name or tag.
+
+00:01:02.299 --> 00:01:04.722
+Here, the recipes about SQL.
+
+00:01:05.174 --> 00:01:06.776
+Click Run, and confirm.
+
+00:01:06.776 --> 00:01:10.866
+A recipe changes the site, so read the description first, and try it
+
+00:01:10.866 --> 00:01:13.629
+on a copy of the site when you are not sure.
+
+00:01:13.629 --> 00:01:16.834
+The page reports the result when the recipe is done.
+
+00:01:21.031 --> 00:01:25.083
+To run a recipe you have, open Tools, Deployments, JSON Import.
+
+00:01:25.083 --> 00:01:29.076
+The editor suggests the names of the steps as you type, so you
+
+00:01:29.076 --> 00:01:31.131
+do not have to remember them.
+
+00:01:32.338 --> 00:01:37.563
+It also describes each setting, and underlines a mistake before anything runs.
+
+00:01:37.563 --> 00:01:40.548
+When the recipe looks right, click Import.
+
+00:01:44.747 --> 00:01:49.191
+To turn the setup of one site into a recipe for another, open
+
+00:01:49.191 --> 00:01:52.972
+Configuration, Import and Export, Deployment Plans.
+
+00:01:52.972 --> 00:01:55.427
+Add a plan, and give it a name.
+
+00:01:55.877 --> 00:01:57.220
+Click Add Step.
+
+00:01:57.220 --> 00:02:01.441
+Each step is a kind of setup you can export, such as content
+
+00:02:01.441 --> 00:02:04.574
+types, settings, roles, users or templates.
+
+00:02:04.574 --> 00:02:07.707
+Add the steps you want, here all the roles.
+
+00:02:08.158 --> 00:02:13.185
+Add the users step too, to carry the people of the site, then check the plan.
+
+00:02:13.185 --> 00:02:16.880
+A step can have options of its own, and a plan can have
+
+00:02:16.880 --> 00:02:18.818
+as many steps as it needs.
+
+00:02:19.269 --> 00:02:22.951
+Click Execute, and choose to export the plan to a file.
+
+00:02:22.951 --> 00:02:26.934
+The file is a recipe that you can import on another site, in
+
+00:02:26.934 --> 00:02:29.469
+the JSON Import editor you just saw.
+
+00:02:33.669 --> 00:02:36.359
+Start every new site the same way.
+
+00:02:37.109 --> 00:02:39.799
+Try a feature with sample content.
+
+00:02:40.549 --> 00:02:43.859
+Move a setup from a test site to a live site.
+
+00:02:44.609 --> 00:02:47.919
+Keep a copy of a configuration you can restore.
+
+00:02:49.919 --> 00:02:53.660
+Run a recipe from the catalog, check one you wrote in the editor,
+
+00:02:53.660 --> 00:02:57.454
+and export your own setup with a deployment plan, so the next site
+
+00:02:57.454 --> 00:02:58.824
+is ready in minutes.
+
+00:02:58.824 --> 00:03:02.829
+The user manual and the technical guide are linked in the description.
+
+00:03:02.829 --> 00:03:04.199
+Thanks for watching.
+

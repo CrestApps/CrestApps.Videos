@@ -1,0 +1,82 @@
+{
+  "title": "Recipes: Run, Check and Export a Site Setup | CrestApps for Orchard Core",
+  "description": "A recipe sets a site up from a ready-made script. Browse and run the catalog under Tools, Recipes, paste your own into the JSON editor that suggests steps and underlines mistakes, and build a deployment plan to export the setup of one site as a recipe for another.\n\nIn this video:\n• Why recipes\n• The recipe catalog: names, tags, descriptions and Run\n• The recipe editor with suggestions and checks\n• Exporting your own setup with a deployment plan\n• What recipes are for",
+  "hashtags": [
+    "OrchardCore",
+    "CMS",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "recipes",
+    "recipe json",
+    "deployment plan",
+    "site setup",
+    "json import",
+    "export recipe",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why recipes"
+    },
+    {
+      "time": "0:41",
+      "title": "The recipe catalog"
+    },
+    {
+      "time": "1:17",
+      "title": "The recipe editor"
+    },
+    {
+      "time": "1:41",
+      "title": "Export your own setup"
+    },
+    {
+      "time": "2:30",
+      "title": "What to use it for"
+    },
+    {
+      "time": "2:48",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/administration/recipes"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/recipes"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Recipes"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/administration/recipes.md",
+    "src/CrestApps.Docs/docs/modules/recipes.md"
+  ],
+  "length": "3:05"
+}
