@@ -1,0 +1,82 @@
+{
+  "title": "Scheduling: Book, Confirm, Move and Cancel Appointments | CrestApps for Orchard Core",
+  "description": "Your staff book appointments for customers by phone, in person or by email. The Scheduling module for Orchard Core lets them book an open time, confirm a request, move an appointment, cancel it and close it, with every change on the resource's calendar.\n\nThis video shows each of those steps on screen.\n\nIn this video:\n• The statuses of an appointment: held, requested, confirmed, completed, no-show, cancelled and expired\n• Booking an appointment for a customer from an appointment type\n• Managing it: the customer's manage link, confirm, took place, no-show, move and cancel\n• The appointments list with its search and status filter\n• How appointments show on the resource's calendar",
+  "hashtags": [
+    "OrchardCore",
+    "Scheduling",
+    "Appointments",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "scheduling",
+    "appointments",
+    "booking",
+    "calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS",
+    "book appointment",
+    "reschedule",
+    "cancel appointment"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "The life of an appointment"
+    },
+    {
+      "time": "0:42",
+      "title": "Book an appointment for a customer"
+    },
+    {
+      "time": "1:28",
+      "title": "Manage an appointment"
+    },
+    {
+      "time": "2:19",
+      "title": "Appointments on the calendar"
+    },
+    {
+      "time": "2:43",
+      "title": "Everyday use"
+    },
+    {
+      "time": "3:20",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/scheduling"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/scheduling"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Scheduling"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/scheduling.md",
+    "src/CrestApps.Docs/docs/modules/scheduling.md"
+  ],
+  "length": "3:32"
+}
