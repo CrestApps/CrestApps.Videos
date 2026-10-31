@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.698
+A calendar is only useful to the people who can reach it.
+
+00:00:04.698 --> 00:00:09.628
+This video creates a calendar, shows how its visibility and its sharing decide
+
+00:00:09.628 --> 00:00:14.500
+who sees what, explains the access levels, and shows the permissions that let
+
+00:00:14.500 --> 00:00:17.200
+people use, create and manage calendars.
+
+00:00:21.806 --> 00:00:24.565
+Open Calendars, then Manage Calendars.
+
+00:00:24.565 --> 00:00:29.832
+The list shows the calendars you can see, with a search box and a Type filter.
+
+00:00:29.832 --> 00:00:32.591
+Choose Add calendar and pick the type.
+
+00:00:32.591 --> 00:00:35.726
+Here it is a General calendar for a project.
+
+00:00:37.060 --> 00:00:41.216
+Give the calendar a Name and a Description, and choose the Color its
+
+00:00:41.216 --> 00:00:42.676
+events are drawn in.
+
+00:00:42.676 --> 00:00:46.213
+The Time zone is the one new events of this calendar use.
+
+00:00:46.213 --> 00:00:49.470
+Leave it on the site's time zone to follow the site.
+
+00:00:49.943 --> 00:00:55.899
+Visibility decides who sees the calendar besides its owner and the people it is shared with.
+
+00:00:55.899 --> 00:00:58.208
+Private shows it to nobody else.
+
+00:00:58.208 --> 00:01:02.340
+Shared lets everyone see when it is busy, but not the details.
+
+00:01:02.340 --> 00:01:04.893
+Public lets everyone see its events.
+
+00:01:04.893 --> 00:01:08.113
+Enabled keeps the calendar open for new events.
+
+00:01:08.564 --> 00:01:14.602
+The Sharing section shares the calendar with users and roles, each at one of four levels.
+
+00:01:14.602 --> 00:01:19.369
+See free/busy time shows when the calendar is busy, and nothing else.
+
+00:01:19.369 --> 00:01:22.484
+Here the Support Team role gets that level.
+
+00:01:22.935 --> 00:01:26.235
+See events adds the events and their details.
+
+00:01:26.235 --> 00:01:28.047
+Jamie gets that level.
+
+00:01:28.047 --> 00:01:33.806
+Add and change events lets people add, change and cancel events, and Maria gets it.
+
+00:01:33.806 --> 00:01:39.305
+Manage, the highest level, also changes the calendar and who it is shared with.
+
+00:01:39.768 --> 00:01:42.600
+Each level includes the ones before it.
+
+00:01:42.600 --> 00:01:48.328
+The person who creates a calendar, and the calendar administrators, always manage it.
+
+00:01:48.328 --> 00:01:53.868
+Under Overlaps, Limit overlapping events refuses a busy event when the calendar is
+
+00:01:53.868 --> 00:01:56.764
+already full, which is how a room works.
+
+00:01:56.764 --> 00:01:59.344
+A project calendar doesn't need it.
+
+00:01:59.344 --> 00:02:00.478
+Choose Save.
+
+00:02:04.646 --> 00:02:06.641
+Jamie was given See events.
+
+00:02:06.641 --> 00:02:12.080
+Project Falcon is listed with his other calendars, and its events show their titles.
+
+00:02:12.080 --> 00:02:16.553
+Clicking one opens its details, but there is no Edit, because he can
+
+00:02:16.553 --> 00:02:18.306
+only read the calendar.
+
+00:02:19.896 --> 00:02:24.587
+Alex belongs to the Support Team, which was given See free/busy time.
+
+00:02:24.587 --> 00:02:28.902
+The calendar is listed for him too, but its events show only as
+
+00:02:28.902 --> 00:02:31.779
+Busy, with their times and nothing else.
+
+00:02:31.779 --> 00:02:36.406
+Anyone who can't open an event sees it this way wherever it appears.
+
+00:02:40.608 --> 00:02:45.039
+Calendar permissions are on the role page, under Access Control, Roles.
+
+00:02:45.039 --> 00:02:50.103
+Use calendars lets someone have a personal calendar and reach the calendars shared
+
+00:02:50.103 --> 00:02:53.211
+with them, and everyone who is signed in has it.
+
+00:02:53.211 --> 00:02:57.988
+Create calendars lets someone create calendars, and the creator manages them.
+
+00:02:58.438 --> 00:03:03.701
+View all calendars gives read access to every calendar, and Manage all calendars
+
+00:03:03.701 --> 00:03:05.966
+gives full access to every one.
+
+00:03:05.966 --> 00:03:08.658
+Give these two to administrators only.
+
+00:03:09.109 --> 00:03:14.868
+List anyone's calendar events lets someone see anyone's schedule, and View anyone's calendar
+
+00:03:14.868 --> 00:03:19.746
+events lets them open the events of any calendar instead of seeing busy time.
+
+00:03:19.746 --> 00:03:24.389
+The own versions, for a person's own schedule and the events they created
+
+00:03:24.389 --> 00:03:26.799
+or attend, come with Use calendars.
+
+00:03:28.799 --> 00:03:33.423
+Create the calendar, choose its visibility, share it at the level each person
+
+00:03:33.423 --> 00:03:36.710
+needs, and give roles only the permissions they need.
+
+00:03:36.710 --> 00:03:38.159
+Thanks for watching.
+
