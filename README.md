@@ -15,6 +15,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Agent-to-Agent (A2A): Specialist AI Agents Across Systems](videos/ai-a2a) | 5:16 | [https://youtu.be/Yf0FfborI2o](https://youtu.be/Yf0FfborI2o) | CrestApps/CrestApps.OrchardCore |
 | [AI Agents: Specialists Your AI Assistant Can Call](videos/ai-agents) | 3:22 | [https://youtu.be/jXRlmWtw-00](https://youtu.be/jXRlmWtw-00) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat: Talk to Your Assistants in the Admin and on Your Website](videos/ai-chat) | 8:05 | [https://youtu.be/a2S4QqdEbLc](https://youtu.be/a2S4QqdEbLc) | CrestApps/CrestApps.OrchardCore |
+| [AI Chat Analytics: Resolution, Ratings, Extracted Data and Conversion Goals](videos/ai-chat-analytics) | 4:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Interactions: Try Any Model and Set It Up as You Chat](videos/ai-chat-interactions) | 6:30 | [https://youtu.be/jkkWgJwaFEE](https://youtu.be/jkkWgJwaFEE) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Widgets: An Assistant in the Admin and on Your Website](videos/ai-chat-widgets) | 5:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Connections and Deployments: Connect Your Site to an AI Service](videos/ai-connections-deployments) | 5:56 | [https://youtu.be/X0tP_6Bdzs4](https://youtu.be/X0tP_6Bdzs4) | CrestApps/CrestApps.OrchardCore |
@@ -38,8 +39,10 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | [https://youtu.be/M7qNeIcrasU](https://youtu.be/M7qNeIcrasU) | CrestApps/CrestApps.OrchardCore |
 | [AI Site Settings: A Tour of Settings, Artificial Intelligence](videos/ai-site-settings) | 3:40 | [https://youtu.be/MhyG13Wmmuk](https://youtu.be/MhyG13Wmmuk) | CrestApps/CrestApps.OrchardCore |
 | [AI Tools and Tool Instances: Let an Assistant Take Action](videos/ai-tools-and-tool-instances) | 6:10 | [https://youtu.be/nJI61orbkyM](https://youtu.be/nJI61orbkyM) | CrestApps/CrestApps.OrchardCore |
+| [AI Usage Analytics: Models, Tokens, Voice Calls and Report Builder Data Sets](videos/ai-usage-analytics) | 6:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | [https://youtu.be/tdW6KZU7df4](https://youtu.be/tdW6KZU7df4) | CrestApps/CrestApps.OrchardCore |
+| [AI in Workflows: Automate with AI Tasks and Chat Events](videos/ai-workflows) | 4:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | [https://youtu.be/XjLNpgWezec](https://youtu.be/XjLNpgWezec) | CrestApps/CrestApps.OrchardCore |
 | [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | [https://youtu.be/ZX7sgNCkQTs](https://youtu.be/ZX7sgNCkQTs) | CrestApps/CrestApps.OrchardCore |
@@ -109,14 +112,18 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Omnichannel Accounts and Opportunities: Companies, Deals and CRM Reports](videos/omnichannel-accounts-opportunities) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Activities: Work, Complete and Log Calls and Texts](videos/omnichannel-activities) | 5:19 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Addresses: The Numbers Your Business Owns](videos/omnichannel-addresses) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel AI Handoff: Pass an AI Conversation to a Live Agent](videos/omnichannel-ai-handoff) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Automated SMS: Let an AI Profile Qualify Leads by Text](videos/omnichannel-automated-sms) | 5:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Manage Activities in Bulk: Filter, Reassign, Reprioritize and Purge](videos/omnichannel-bulk-activities) | 4:09 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Cadences: Automatic Follow-ups for Quiet Customers](videos/omnichannel-cadences) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Contacts: Tie Every Call and Text to a Person](videos/omnichannel-contacts) | 4:55 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel CRM Setup: Leads, Accounts and Opportunities in Minutes](videos/omnichannel-crm-setup) | 5:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Leads: Work Prospects and Convert the Ones That Qualify](videos/omnichannel-leads) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Load Activities: Turn a List of Contacts Into Work](videos/omnichannel-load-activities) | 4:49 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Reports: Which Report Answers Which Question](videos/omnichannel-reports) | 6:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Subject Flows: What Happens After Each Disposition](videos/omnichannel-subject-flows) | 4:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Subjects: Outbound and Inbound, Manual and Automated](videos/omnichannel-subjects) | 4:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Workflows: Contact Center and CRM Automation](videos/omnichannel-workflows) | 7:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Orders: Find, Refund, Cancel and Create Orders](videos/orders) | 7:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Quotes, Order Bump, Add Items and Disputes in Your Store](videos/orders-quotes-disputes) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Payments: Stripe, Offline Payments, Refunds and Webhooks](videos/payments) | 6:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -142,6 +149,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: Resources and Appointment Types for Bookable Time](videos/scheduling-people-rooms-appointment-types) | 4:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Shipments and Labels: Ship, Track and Deliver Orders](videos/shipments-and-labels) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
