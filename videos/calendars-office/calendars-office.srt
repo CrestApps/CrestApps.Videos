@@ -1,0 +1,248 @@
+1
+00:00:01,000 --> 00:00:04,898
+An office calendar shows who is in an office, and which desks are
+
+2
+00:00:04,898 --> 00:00:07,479
+booked, up to the number of desks it has.
+
+3
+00:00:07,479 --> 00:00:11,102
+This video shows how to set one up, how people mark the days
+
+4
+00:00:11,102 --> 00:00:15,055
+they are in, book a desk and register a visitor, what happens when
+
+5
+00:00:15,055 --> 00:00:18,020
+the office is full, and how to close the office.
+
+6
+00:00:22,620 --> 00:00:26,092
+When people work in the office on some days and from home on
+
+7
+00:00:26,092 --> 00:00:30,300
+others, nobody knows who will be in, or whether there will be a desk free.
+
+8
+00:00:31,050 --> 00:00:34,727
+An office calendar answers both questions on one page.
+
+9
+00:00:34,727 --> 00:00:38,465
+People mark the days they are in, book a desk for a few
+
+10
+00:00:38,465 --> 00:00:41,590
+hours, and register the visitors they expect.
+
+11
+00:00:42,340 --> 00:00:44,453
+The calendar has a desk count.
+
+12
+00:00:44,453 --> 00:00:48,444
+Once that many people are in the office, or have booked a desk
+
+13
+00:00:48,444 --> 00:00:53,550
+at the same time, the next booking is refused, so the office is never overbooked.
+
+14
+00:00:54,300 --> 00:00:56,435
+There are four kinds of events:
+
+15
+00:00:56,435 --> 00:00:59,783
+In office, Desk booking, Visitor, and Office closed.
+
+16
+00:00:59,783 --> 00:01:03,880
+Each one behaves a little differently, and you will see all four.
+
+17
+00:01:08,062 --> 00:01:11,849
+Office calendars come with the Office Calendars feature.
+
+18
+00:01:11,849 --> 00:01:16,063
+Open Calendars, then Manage Calendars, and choose Add calendar.
+
+19
+00:01:16,063 --> 00:01:18,812
+Office is one of the types in the list.
+
+20
+00:01:19,263 --> 00:01:21,361
+Here is the Lisbon office.
+
+21
+00:01:21,361 --> 00:01:22,540
+Choose Edit.
+
+22
+00:01:22,540 --> 00:01:27,980
+Besides the name, color, time zone and visibility that every calendar has, an
+
+23
+00:01:27,980 --> 00:01:32,633
+office has an Address, and a Contact, such as the office manager.
+
+24
+00:01:33,084 --> 00:01:39,068
+Under Overlaps, the office limits overlapping events, and Events that may overlap holds
+
+25
+00:01:39,068 --> 00:01:40,741
+the number of desks.
+
+26
+00:01:40,741 --> 00:01:43,186
+A new office starts with twenty.
+
+27
+00:01:43,186 --> 00:01:44,794
+This one has three.
+
+28
+00:01:45,284 --> 00:01:48,919
+Visibility is Public, so everyone can see who is in.
+
+29
+00:01:48,919 --> 00:01:52,242
+Shared would show only when the office is busy.
+
+30
+00:01:52,242 --> 00:01:54,624
+Choose Save to keep the changes.
+
+31
+00:01:58,825 --> 00:02:03,982
+Open Calendars, then Calendar, and go to the week of the second of November.
+
+32
+00:02:03,982 --> 00:02:07,693
+Jamie Chen and Sam Patel are in the office on Monday.
+
+33
+00:02:07,693 --> 00:02:12,725
+An In office event lasts the whole day, and it names the person who is in.
+
+34
+00:02:13,177 --> 00:02:17,927
+Choose New event, and pick the Lisbon office and the Desk booking kind.
+
+35
+00:02:18,377 --> 00:02:23,589
+A desk booking lasts four hours by default, and it also names a person.
+
+36
+00:02:23,589 --> 00:02:27,717
+Give it a title, set the times, and invite Riley Ortiz.
+
+37
+00:02:28,168 --> 00:02:29,389
+Choose Save.
+
+38
+00:02:29,389 --> 00:02:34,748
+Riley is the third person in on Monday, so all three desks are now taken.
+
+39
+00:02:35,200 --> 00:02:38,456
+Now register a visitor for the same morning.
+
+40
+00:02:38,456 --> 00:02:42,167
+A visitor needs no person, only a title and a time.
+
+41
+00:02:42,167 --> 00:02:46,790
+Choose New event, pick the Visitor kind, and fill in the details.
+
+42
+00:02:47,242 --> 00:02:51,611
+When you choose Save, the office is full, so the event is refused.
+
+43
+00:02:51,611 --> 00:02:55,859
+The message says the Lisbon office is already full at that time.
+
+44
+00:02:55,859 --> 00:02:59,622
+Pick another time, or ask someone to move their booking.
+
+45
+00:03:03,922 --> 00:03:06,333
+An Office closed event is different.
+
+46
+00:03:06,333 --> 00:03:10,123
+It shows on the calendar, but it leaves the time free, so it
+
+47
+00:03:10,123 --> 00:03:11,673
+never uses up a desk.
+
+48
+00:03:11,673 --> 00:03:16,382
+Here is the office closed on the twenty-fourth and twenty-fifth of December.
+
+49
+00:03:16,856 --> 00:03:18,838
+Click it to see the details.
+
+50
+00:03:18,838 --> 00:03:23,035
+When the office shuts for a holiday, add one all-day event for the
+
+51
+00:03:23,035 --> 00:03:25,716
+days it is closed, and everyone sees it.
+
+52
+00:03:29,916 --> 00:03:32,673
+The desk count counts busy events.
+
+53
+00:03:32,673 --> 00:03:36,670
+In office, Desk booking and Visitor all take a desk.
+
+54
+00:03:36,670 --> 00:03:40,736
+An event marked as Free, and Office closed, never do.
+
+55
+00:03:41,486 --> 00:03:45,575
+New events use the office's own time zone, so a desk booked in
+
+56
+00:03:45,575 --> 00:03:47,380
+Lisbon is a Lisbon time.
+
+57
+00:03:47,380 --> 00:03:50,146
+Everyone sees it in their own time zone.
+
+58
+00:03:50,896 --> 00:03:55,026
+Who can see the office is up to its visibility and its sharing.
+
+59
+00:03:55,026 --> 00:03:58,796
+A disabled office keeps its events but takes no new ones.
+
+60
+00:04:00,796 --> 00:04:04,914
+An office calendar keeps who is in, and which desks are booked, on
+
+61
+00:04:04,914 --> 00:04:08,289
+one page, and refuses the booking that would not fit.
+
+62
+00:04:08,289 --> 00:04:09,776
+Thanks for watching.
+

@@ -1,0 +1,184 @@
+{
+  "title": "Office Calendars",
+  "output": "calendars-office",
+  "spoken": {
+    "Lisbon": "Lisbon"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Office Calendars",
+      "subtitle": "Who is in the office, and which desks are free",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An office calendar shows who is in an office, and which desks are booked, up to the number of desks it has. This video shows how to set one up, how people mark the days they are in, book a desk and register a visitor, what happens when the office is full, and how to close the office."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why an office calendar",
+      "subtitle": "Know who is in, and never overbook the desks",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "When people work in the office on some days and from home on others, nobody knows who will be in, or whether there will be a desk free."
+            },
+            {
+              "id": "why-2",
+              "text": "An office calendar answers both questions on one page. People mark the days they are in, book a desk for a few hours, and register the visitors they expect."
+            },
+            {
+              "id": "why-3",
+              "text": "The calendar has a desk count. Once that many people are in the office, or have booked a desk at the same time, the next booking is refused, so the office is never overbooked."
+            },
+            {
+              "id": "why-4",
+              "text": "There are four kinds of events: In office, Desk booking, Visitor, and Office closed. Each one behaves a little differently, and you will see all four."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Set up an office",
+      "subtitle": "An address, a contact, and the number of desks",
+      "clips": [
+        {
+          "id": "02-setup",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "Office calendars come with the Office Calendars feature. Open Calendars, then Manage Calendars, and choose Add calendar. Office is one of the types in the list."
+            },
+            {
+              "id": "setup-2",
+              "text": "Here is the Lisbon office. Choose Edit. Besides the name, color, time zone and visibility that every calendar has, an office has an Address, and a Contact, such as the office manager."
+            },
+            {
+              "id": "setup-3",
+              "text": "Under Overlaps, the office limits overlapping events, and Events that may overlap holds the number of desks. A new office starts with twenty. This one has three."
+            },
+            {
+              "id": "setup-4",
+              "text": "Visibility is Public, so everyone can see who is in. Shared would show only when the office is busy. Choose Save to keep the changes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "In the office, at a desk, or a visitor",
+      "subtitle": "Book the desks, up to the desk count",
+      "clips": [
+        {
+          "id": "03-book",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "book-1",
+              "text": "Open Calendars, then Calendar, and go to the week of the second of November. Jamie Chen and Sam Patel are in the office on Monday. An In office event lasts the whole day, and it names the person who is in."
+            },
+            {
+              "id": "book-2",
+              "text": "Choose New event, and pick the Lisbon office and the Desk booking kind."
+            },
+            {
+              "id": "book-3",
+              "text": "A desk booking lasts four hours by default, and it also names a person. Give it a title, set the times, and invite Riley Ortiz."
+            },
+            {
+              "id": "book-4",
+              "text": "Choose Save. Riley is the third person in on Monday, so all three desks are now taken."
+            },
+            {
+              "id": "book-5",
+              "text": "Now register a visitor for the same morning. A visitor needs no person, only a title and a time. Choose New event, pick the Visitor kind, and fill in the details."
+            },
+            {
+              "id": "book-6",
+              "text": "When you choose Save, the office is full, so the event is refused. The message says the Lisbon office is already full at that time. Pick another time, or ask someone to move their booking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Close the office",
+      "subtitle": "A day off that leaves the desks free",
+      "clips": [
+        {
+          "id": "04-closed",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "closed-1",
+              "text": "An Office closed event is different. It shows on the calendar, but it leaves the time free, so it never uses up a desk. Here is the office closed on the twenty-fourth and twenty-fifth of December."
+            },
+            {
+              "id": "closed-2",
+              "text": "Click it to see the details. When the office shuts for a holiday, add one all-day event for the days it is closed, and everyone sees it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Good to know",
+      "subtitle": "What the desk count counts",
+      "clips": [
+        {
+          "id": "05-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "know-1",
+              "text": "The desk count counts busy events. In office, Desk booking and Visitor all take a desk. An event marked as Free, and Office closed, never do."
+            },
+            {
+              "id": "know-2",
+              "text": "New events use the office's own time zone, so a desk booked in Lisbon is a Lisbon time. Everyone sees it in their own time zone."
+            },
+            {
+              "id": "know-3",
+              "text": "Who can see the office is up to its visibility and its sharing. A disabled office keeps its events but takes no new ones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Office Calendars",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "An office calendar keeps who is in, and which desks are booked, on one page, and refuses the booking that would not fit. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
