@@ -1,0 +1,175 @@
+{
+  "title": "Repeating events and attendees in Calendars",
+  "output": "calendars-events-recurrence-attendees",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Repeating events and attendees",
+      "subtitle": "Repeats, invitations, answers, status and visibility",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Most meetings repeat, and most meetings have people. This video shows how to make an event repeat daily, weekly, monthly or yearly, how to change or cancel one occurrence or the whole series, how to invite people and guests, how invited people answer, and how status, busy or free, and visibility change what others see."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Repeating events",
+      "subtitle": "Daily, weekly, monthly and yearly",
+      "short": "repeat",
+      "clips": [
+        {
+          "id": "01-repeat",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "Add an event as usual, then look at the Repeat section of the editor. Repeats offers Does not repeat, Daily, Weekly, Monthly and Yearly, and every says how many days, weeks, months or years apart. Here a coaching session repeats weekly."
+            },
+            {
+              "id": "rep-2",
+              "text": "A weekly event repeats on the days you tick, here Tuesday and Thursday. A monthly event repeats on the same day of the month, or on the same weekday of the same week, such as the second Tuesday."
+            },
+            {
+              "id": "rep-3",
+              "text": "Under Ends, choose Never, a date, or a number of occurrences. This one ends after eight. For a pattern these choices don't cover, a custom rule, which is an iCalendar repeat rule, takes over. Choose Save."
+            },
+            {
+              "id": "rep-4",
+              "text": "The series shows on every Tuesday and Thursday it covers. The Month view shows the whole run at a glance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Change or cancel a repeating event",
+      "subtitle": "This occurrence, this and following, or all",
+      "short": "series",
+      "clips": [
+        {
+          "id": "02-series",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ser-1",
+              "text": "Open any occurrence of a repeating event and choose Edit. The editor asks you to apply the changes, or the cancellation, to This occurrence, This and following, or All occurrences."
+            },
+            {
+              "id": "ser-2",
+              "text": "Keep This occurrence and change the time, and only that day moves. The rest of the series stays as it was."
+            },
+            {
+              "id": "ser-3",
+              "text": "Choose This and following to change a day and every day after it. The series ends before that day, and a new series starts with your changes."
+            },
+            {
+              "id": "ser-4",
+              "text": "To cancel one day, open the occurrence, keep This occurrence, and choose Cancel. Just that day disappears from the series. Choosing All occurrences cancels the whole event instead. To change how the event repeats, edit the series from its first occurrence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Invite people and guests",
+      "subtitle": "Attendees and their answers",
+      "short": "invite",
+      "clips": [
+        {
+          "id": "03-invite",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "att-1",
+              "text": "The Attendees section of the editor invites people. Under People, choose Invite users, search by name, and pick one or more users of the site. Here Maria invites Jamie and Sam to a customer workshop."
+            },
+            {
+              "id": "att-2",
+              "text": "Guests are people outside the site. Type one per line, as an email address, or as a name followed by the address in angle brackets. With Calendar Invitations turned on, people with an email address are also emailed."
+            },
+            {
+              "id": "att-3",
+              "text": "After saving, open the event again. Answers lists everyone invited, with a check mark for accepted, a question mark for maybe, a cross for declined, and an empty circle for no answer yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Answer an invitation",
+      "subtitle": "Accept, Maybe or Decline",
+      "short": "respond",
+      "clips": [
+        {
+          "id": "04-respond",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "resp-1",
+              "text": "Jamie opens the event he was invited to. At the top the editor says You are invited, and shows his current answer, which he has not given yet."
+            },
+            {
+              "id": "resp-2",
+              "text": "Accept, Maybe and Decline record his answer at once. The Answers list shows it, and so it does for the organizer and everyone else who opens the event."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Status, busy or free, and visibility",
+      "subtitle": "What others see",
+      "short": "status",
+      "clips": [
+        {
+          "id": "05-status",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "stat-1",
+              "text": "Status is Confirmed, Tentative or Cancelled. Show as is Busy, or Free for an event that is shown but leaves the time free, such as an optional lunch. A free event doesn't count when people look for a time that suits everyone."
+            },
+            {
+              "id": "stat-2",
+              "text": "Visibility is Same as the calendar, Public, or Private. For a private event, others who can only see the calendar's busy time see that the time is taken, and nothing else."
+            },
+            {
+              "id": "stat-3",
+              "text": "Some kinds of events need approval, such as time off on a calendar that another module adds. They are created as Tentative, and someone who manages the calendar opens the event and chooses Confirm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Events that repeat and have people",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Repeat an event on the days you choose, change one day or the rest of the series, invite people and guests, and let them answer. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
