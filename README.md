@@ -150,6 +150,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: Workflows, the AI Assistant and Deployment](videos/scheduling-workflows-and-ai) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Shipments and Labels: Ship, Track and Deliver Orders](videos/shipments-and-labels) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |

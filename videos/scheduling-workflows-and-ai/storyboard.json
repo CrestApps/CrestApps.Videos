@@ -1,0 +1,162 @@
+{
+  "title": "Scheduling: workflows, AI and moving it",
+  "output": "scheduling-workflows-and-ai",
+  "spoken": {
+    "AI": "A.I.",
+    "AI Services": "A.I. Services"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Scheduling: workflows, AI and moving it",
+      "subtitle": "Connect appointments to the rest of your site",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows how Scheduling connects to the rest of your site: workflows that react to appointments, the A.I. tools that let an assistant book for customers, how to copy scheduling to another site, and what to check when something doesn't work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Workflows",
+      "subtitle": "Events and tasks for appointments",
+      "short": "workflows",
+      "clips": [
+        {
+          "id": "01-workflows",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wf-1",
+              "text": "With the Workflows feature on, open Workflows and choose Create Workflow. Give it a name, such as Confirmed appointments, and save it."
+            },
+            {
+              "id": "wf-2",
+              "text": "The editor lists its activities by category. Open the Scheduling category. Its events are Appointment Requested, Confirmed, Rescheduled, Cancelled, Completed and Marked No-Show, Reservation Hold Expired, and Waitlist Slot Available."
+            },
+            {
+              "id": "wf-3",
+              "text": "Click Appointment Confirmed to start the workflow with it. In its settings, you can limit it to some appointment types, and left empty it applies to all of them."
+            },
+            {
+              "id": "wf-4",
+              "text": "The same category has the tasks: find open times, book, confirm, reschedule and cancel an appointment, get one, and add a customer to the waitlist."
+            },
+            {
+              "id": "wf-5",
+              "text": "Together they send a confirmation email when an appointment is confirmed, a text message an hour before it starts, or an email to a waiting customer when a time frees up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The AI assistant",
+      "subtitle": "Let customers book through chat",
+      "short": "ai",
+      "clips": [
+        {
+          "id": "02-ai",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ai-1",
+              "text": "With Scheduling and AI Services both on, an AI assistant can book appointments. Open Artificial Intelligence, Profiles, choose Add Profile, and start a profile."
+            },
+            {
+              "id": "ai-2",
+              "text": "On the Capabilities tab, the Tools list has a Scheduling group: List appointment types, Find appointment slots, Book appointment and Change appointment. Tick the ones this assistant may use."
+            }
+          ]
+        },
+        {
+          "id": "02b-ai-rules",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "ai-3",
+              "text": "The assistant lists only the appointment types that customers can book themselves, finds open times, and books one. To move or cancel an appointment, the customer gives the code from their manage link, or the email or phone number they booked with."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Copy scheduling to another site",
+      "subtitle": "A deployment plan",
+      "short": "deployment",
+      "clips": [
+        {
+          "id": "03-deploy",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dep-1",
+              "text": "To copy scheduling to another site, open Tools, Deployments, Plans, and create a plan. Add the Calendars step first, with Include events, so the resources' calendars and the appointments' events come along."
+            },
+            {
+              "id": "dep-2",
+              "text": "Then add the Scheduling step. It takes the appointment types and the people, rooms and equipment. Tick Include appointments for every appointment, with the customers' names, emails and phone numbers, and Include the waitlist for the waitlist."
+            },
+            {
+              "id": "dep-3",
+              "text": "Importing creates what is missing and updates what is there, matched by id. Customers' links to move or cancel are not exported: an imported appointment keeps the link it already had."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "When something doesn't work",
+      "subtitle": "Troubleshooting",
+      "short": "troubleshooting",
+      "clips": [
+        {
+          "id": "04-trouble",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "trouble-1",
+              "text": "No times are offered? Check that the appointment type has resources, that they take appointments, that their hours cover the day, and that the day is within the minimum notice and the booking limit. Something busy on a calendar closes times too."
+            },
+            {
+              "id": "trouble-2",
+              "text": "The booking page isn't found? The appointment type needs Can be booked, Customers can book it themselves and a Booking page address, and the Scheduling Self-Service feature must be on."
+            },
+            {
+              "id": "trouble-3",
+              "text": "A staff member with shifts is never offered? Their Shift calendar must be chosen, and the Shift events there must name them as an attendee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Scheduling",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Workflows tell your customers, the AI assistant books for them, and a deployment plan moves it all to another site. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
