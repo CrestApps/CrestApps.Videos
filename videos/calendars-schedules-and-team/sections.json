@@ -1,0 +1,14 @@
+{
+  "schedule": {
+    "start": 18,
+    "end": 74
+  },
+  "freebusy": {
+    "start": 73,
+    "end": 105
+  },
+  "team": {
+    "start": 104,
+    "end": 170
+  }
+}
