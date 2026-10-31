@@ -1,0 +1,227 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.125
+A data set is one table, file, index or API path that a
+
+00:00:05.125 --> 00:00:10.468
+connection reads, and it is what reports and data pipelines actually use.
+
+00:00:10.468 --> 00:00:14.729
+This video adds data sets from a file and from a web API,
+
+00:00:14.729 --> 00:00:19.260
+reviews the fields the site discovers, and previews the rows.
+
+00:00:23.860 --> 00:00:26.587
+A connection reaches a system.
+
+00:00:26.587 --> 00:00:29.768
+A data set picks one resource in it:
+
+00:00:29.768 --> 00:00:34.010
+a file, an API path, a table or view, or an index.
+
+00:00:34.760 --> 00:00:40.067
+Every data set has a name, and a technical name that reports and pipelines store.
+
+00:00:40.067 --> 00:00:43.300
+The technical name can't change after you save.
+
+00:00:44.050 --> 00:00:46.624
+A data set is read live or imported.
+
+00:00:46.624 --> 00:00:50.301
+A live data set asks the system every time it is read.
+
+00:00:50.301 --> 00:00:54.714
+An imported one copies its rows into the site on a schedule, which
+
+00:00:54.714 --> 00:00:56.430
+the next video covers.
+
+00:00:57.180 --> 00:01:00.171
+The site also reads the data set's fields:
+
+00:01:00.171 --> 00:01:04.222
+their names, their types, and which of them identify a row.
+
+00:01:04.222 --> 00:01:06.590
+You review them before you save.
+
+00:01:10.810 --> 00:01:15.047
+Open Tools, Data Connectors, Data Sets, and click Add Data Set.
+
+00:01:15.047 --> 00:01:17.134
+Pick the connection to read.
+
+00:01:17.134 --> 00:01:21.800
+They are grouped by kind on the left, and Filter searches their names.
+
+00:01:22.299 --> 00:01:24.166
+Enter a Name, Customers.
+
+00:01:24.166 --> 00:01:28.584
+The technical name is made from the name when you leave it empty.
+
+00:01:28.584 --> 00:01:33.190
+In Resource, start typing and choose from what the connection lists:
+
+00:01:33.190 --> 00:01:35.119
+here, the customers file.
+
+00:01:35.577 --> 00:01:40.523
+Under Access, choose Live, so reports always read the file as it is now.
+
+00:01:40.523 --> 00:01:43.566
+The settings for files say how to read it:
+
+00:01:43.566 --> 00:01:49.717
+the delimiter, whether the first row names the columns, and for an Excel file, which sheet.
+
+00:01:50.175 --> 00:01:51.929
+Click Discover fields.
+
+00:01:51.929 --> 00:01:57.130
+The site reads the file and lists its columns, each with the type it guessed.
+
+00:01:57.130 --> 00:02:01.390
+The customer ID is an integer, the since column is a date, and
+
+00:02:01.390 --> 00:02:05.275
+the postal code stays text, so its leading zero is kept.
+
+00:02:05.725 --> 00:02:10.871
+Clear Show to hide a field from reports, as with the email address here.
+
+00:02:10.871 --> 00:02:15.292
+Change a Name or Display name, or a Type, for example to read
+
+00:02:15.292 --> 00:02:16.809
+text as a number.
+
+00:02:16.809 --> 00:02:20.834
+And tick Identifier on the field that identifies a row:
+
+00:02:20.834 --> 00:02:22.285
+the customer ID.
+
+00:02:22.736 --> 00:02:27.632
+Pick a Default date field if reports should filter by a date by default:
+
+00:02:27.632 --> 00:02:28.385
+Since.
+
+00:02:28.385 --> 00:02:29.766
+Then click Save.
+
+00:02:33.966 --> 00:02:39.414
+The list shows each data set, how it is read, and how many fields it has.
+
+00:02:39.414 --> 00:02:42.586
+Open Actions on a row and click Preview.
+
+00:02:43.037 --> 00:02:47.989
+The preview shows the first rows exactly as reports and pipelines read them.
+
+00:02:47.989 --> 00:02:52.157
+The email column is gone, and the postal codes keep their zero.
+
+00:02:52.621 --> 00:02:54.704
+Edit opens the data set again.
+
+00:02:54.704 --> 00:03:00.083
+The technical name is locked, because reports, pipelines and read permissions store it,
+
+00:03:00.083 --> 00:03:03.843
+and the page shows the permission that reads this data set.
+
+00:03:03.843 --> 00:03:05.751
+Everything else can change.
+
+00:03:09.928 --> 00:03:12.640
+Now a data set for the Sales API.
+
+00:03:12.640 --> 00:03:17.369
+For a web API, the resource is a path on the connection's base
+
+00:03:17.369 --> 00:03:19.385
+URL, here slash orders.
+
+00:03:19.385 --> 00:03:22.028
+Name it Orders, and choose Live.
+
+00:03:22.480 --> 00:03:25.832
+The settings below belong to the connector.
+
+00:03:25.832 --> 00:03:30.416
+The method is GET, or POST with a JSON body, and the response
+
+00:03:30.416 --> 00:03:33.153
+format is JSON, CSV or JSON Lines.
+
+00:03:33.153 --> 00:03:37.532
+The records path says where the rows are in a JSON answer:
+
+00:03:37.532 --> 00:03:39.380
+here, data dot items.
+
+00:03:39.840 --> 00:03:43.356
+Pages says how the API splits a long answer:
+
+00:03:43.356 --> 00:03:48.981
+by page number, by offset, with a cursor, or with a link to the next page.
+
+00:03:48.981 --> 00:03:54.535
+This one uses page numbers, and the page size is set to twenty five rows.
+
+00:03:54.535 --> 00:03:57.770
+Most pages stops a read that never ends.
+
+00:03:58.221 --> 00:03:59.949
+Click Discover fields.
+
+00:03:59.949 --> 00:04:04.270
+Tick Identifier on the order ID, pick the ordered on date as the
+
+00:04:04.270 --> 00:04:06.431
+default date field, and save.
+
+00:04:09.832 --> 00:04:13.708
+The preview shows orders from every page of the API.
+
+00:04:13.708 --> 00:04:17.852
+A live data set asks the API again each time it is read.
+
+00:04:22.040 --> 00:04:27.535
+A SQL Server data set reads a table or a view, or one custom query instead:
+
+00:04:27.535 --> 00:04:31.741
+a single select statement, such as a join of two tables.
+
+00:04:31.741 --> 00:04:34.930
+Query timeout limits how long it may run.
+
+00:04:35.382 --> 00:04:39.671
+An Elasticsearch data set reads an index, an alias or a pattern.
+
+00:04:39.671 --> 00:04:44.266
+The query picks the documents to read, and the scroll keep alive says
+
+00:04:44.266 --> 00:04:47.882
+how long the cluster holds a read open between pages.
+
+00:04:54.856 --> 00:05:00.206
+Both can also be imported on a schedule, with the refresh settings of the next video.
+
+00:05:02.206 --> 00:05:06.974
+A data set picks one resource of a connection, gets its fields reviewed,
+
+00:05:06.974 --> 00:05:10.031
+and is previewed exactly as reports read it.
+
+00:05:10.031 --> 00:05:13.026
+Next, keep an imported data set up to date.
+
+00:05:13.026 --> 00:05:14.616
+Thanks for watching.
+
