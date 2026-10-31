@@ -1,0 +1,171 @@
+{
+  "title": "Calendars: Features and Deployment",
+  "output": "calendars-deployment-and-features",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Calendars: Features and Deployment",
+      "subtitle": "Turn on what you need, and copy calendars between sites",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows which calendar feature to turn on for each job, how to copy calendars, their events and their categories to another site with a deployment plan, what the import does and does not do, and what to check when something does not work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Which feature to turn on",
+      "subtitle": "Each feature adds one thing",
+      "clips": [
+        {
+          "id": "01-features",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "feat-1",
+              "text": "Open Tools, then Features, and search for Calendars. Each feature adds one thing, so you turn on only what you need."
+            },
+            {
+              "id": "feat-2",
+              "text": "Calendars is the base: the calendar view, shared and personal calendars, events, sharing, and the recipe and deployment steps. Team, Resource and Office Calendars each add kinds of calendars: teams, rooms and equipment, and offices."
+            },
+            {
+              "id": "feat-3",
+              "text": "Calendar Reminders adds the on-screen reminders. Calendar Invitations emails invitations, and needs email. Calendar Feeds adds subscription addresses, and export and import. External Calendars shows another calendar, read only."
+            },
+            {
+              "id": "feat-4",
+              "text": "Calendars API adds web endpoints for other systems, and has no screen of its own. It is off here. Each feature lists what it depends on, so you can see what a feature needs before you enable it."
+            }
+          ]
+        },
+        {
+          "id": "02-which",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "which-1",
+              "text": "To share company and personal calendars, turn on Calendars. For teams, add Team Calendars, which also adds the page that shows when a team is free."
+            },
+            {
+              "id": "which-2",
+              "text": "To book meeting rooms and equipment, add Resource Calendars. To track who is in an office, and book desks, add Office Calendars."
+            },
+            {
+              "id": "which-3",
+              "text": "For invitations, reminders, subscriptions and external calendars, add Calendar Invitations, Calendar Reminders, Calendar Feeds, or External Calendars."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Copy calendars to another site",
+      "subtitle": "A deployment plan with the Calendars step",
+      "clips": [
+        {
+          "id": "03-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "plan-1",
+              "text": "Open Tools, Deployments, Plans, and choose Add Deployment Plan. Name it Copy calendars."
+            },
+            {
+              "id": "plan-2",
+              "text": "Choose Add Step, and find Calendars in the list."
+            },
+            {
+              "id": "plan-3",
+              "text": "Include events takes every calendar's events. Include categories, ticked by default, takes everyone's categories, so the events keep their colors. Tick Include events, and choose Create."
+            },
+            {
+              "id": "plan-4",
+              "text": "Choose Execute. File Download exports the plan as a file. Import it on the other site with Package Import, under Deployments, or send it with a remote deployment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "What the import does",
+      "subtitle": "Safe to repeat, with two exceptions",
+      "clips": [
+        {
+          "id": "04-import",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "The import creates what is missing and updates what is already there, matched by each record's identifier. Importing the same file twice does not duplicate anything."
+            },
+            {
+              "id": "imp-2",
+              "text": "A calendar needs the feature of its kind to be on at the other site. A room needs Resource Calendars, for example."
+            },
+            {
+              "id": "imp-3",
+              "text": "Imported events are not checked for overlaps, and they send no invitations. A recipe with the Calendars step behaves the same way. For the exact shape, export first and start from that file."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Troubleshooting",
+      "subtitle": "When something does not work",
+      "clips": [
+        {
+          "id": "05-trouble",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "fix-1",
+              "text": "You cannot see a calendar: it is private and not shared with you. Ask its owner to share it, or to make it shared or public."
+            },
+            {
+              "id": "fix-2",
+              "text": "You can see the time but not the event: you can only see free and busy time, or the event is private."
+            },
+            {
+              "id": "fix-3",
+              "text": "An event is refused as already booked, or as already full: a room, a piece of equipment or the office has no room left at that time. Choose another time."
+            },
+            {
+              "id": "fix-4",
+              "text": "No invitation email arrives: check that email works, that Calendar Invitations is on, and that the site has a Base url. Without it, there are no answer links."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Calendars: Features and Deployment",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Turn on the features you need, and move calendars between sites with a deployment plan. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
