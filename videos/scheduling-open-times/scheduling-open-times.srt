@@ -1,0 +1,248 @@
+1
+00:00:01,000 --> 00:00:04,646
+Scheduling offers a time only when it is really free.
+
+2
+00:00:04,646 --> 00:00:07,922
+This video shows how open times are worked out:
+
+3
+00:00:07,922 --> 00:00:12,371
+working hours and days off, busy time on a calendar, the free time
+
+4
+00:00:12,371 --> 00:00:15,461
+around appointments, and the booking limits.
+
+5
+00:00:15,461 --> 00:00:18,860
+It also shows what to check when no times appear.
+
+6
+00:00:23,460 --> 00:00:29,453
+A time is offered when the whole appointment fits inside the working hours of the resource.
+
+7
+00:00:29,453 --> 00:00:34,520
+With All resources together, it must fit inside the hours of every resource.
+
+8
+00:00:35,270 --> 00:00:39,469
+It must also be clear of anything busy on the resource's calendar, and
+
+9
+00:00:39,469 --> 00:00:42,176
+for a staff member, on their own calendars.
+
+10
+00:00:42,176 --> 00:00:46,099
+The free time before and after the appointment has to be clear as
+
+11
+00:00:46,099 --> 00:00:50,630
+well, and so does the free time around appointments that are already booked.
+
+12
+00:00:51,380 --> 00:00:53,897
+Finally, the booking limits apply:
+
+13
+00:00:53,897 --> 00:00:59,247
+the minimum notice, how far ahead customers can book, the most appointments per
+
+14
+00:00:59,247 --> 00:01:01,890
+day, and the places left in a class.
+
+15
+00:01:06,094 --> 00:01:10,115
+Open Calendars, Appointments and choose Book an appointment.
+
+16
+00:01:10,115 --> 00:01:14,564
+Pick Initial consultation, choose a Tuesday, and choose Show times.
+
+17
+00:01:15,014 --> 00:01:15,546
+Dr.
+
+18
+00:01:15,546 --> 00:01:19,443
+Maya Chen works from nine to twelve and from one to five, so
+
+19
+00:01:19,443 --> 00:01:22,100
+the times fall inside those two ranges.
+
+20
+00:01:22,100 --> 00:01:26,824
+The lunch break has none, and the times step by the value set on the type.
+
+21
+00:01:27,277 --> 00:01:31,484
+The appointment itself has to fit inside the hours, but its free time
+
+22
+00:01:31,484 --> 00:01:34,400
+after only has to be clear of other busy time.
+
+23
+00:01:34,400 --> 00:01:37,597
+So the last time of a range can run into the break.
+
+24
+00:01:38,049 --> 00:01:39,291
+Now a day off.
+
+25
+00:01:39,291 --> 00:01:43,760
+December 24th is listed as closed on her resource, so there are no
+
+26
+00:01:43,760 --> 00:01:45,249
+open times at all.
+
+27
+00:01:45,702 --> 00:01:50,811
+Physiotherapy takes Omar Hassan and Treatment room 1 together, so a time is
+
+28
+00:01:50,811 --> 00:01:53,208
+offered only when both are free.
+
+29
+00:01:53,208 --> 00:01:56,552
+Omar works on Mondays, so a Monday shows times.
+
+30
+00:01:57,004 --> 00:02:01,518
+On a Tuesday he doesn't work, and with All resources together nothing is
+
+31
+00:02:01,518 --> 00:02:04,064
+offered, even though the room is free.
+
+32
+00:02:08,257 --> 00:02:12,267
+Anything busy on a resource's calendar closes its times.
+
+33
+00:02:12,267 --> 00:02:15,629
+Open Calendar, choose New event, and under Dr.
+
+34
+00:02:15,629 --> 00:02:17,957
+Maya Chen choose Blocked time.
+
+35
+00:02:18,408 --> 00:02:21,796
+Give it a title, such as Staff meeting, and set it from two
+
+36
+00:02:21,796 --> 00:02:24,768
+to three in the afternoon on Tuesday, then save it.
+
+37
+00:02:26,089 --> 00:02:30,639
+Back on the booking page, the times from one thirty to two thirty are gone.
+
+38
+00:02:30,639 --> 00:02:34,684
+The one thirty visit would end at two o'clock, but its ten minutes
+
+39
+00:02:34,684 --> 00:02:37,269
+of free time would run into the meeting.
+
+40
+00:02:37,721 --> 00:02:39,189
+Now book a visit.
+
+41
+00:02:39,189 --> 00:02:44,681
+Choose ten o'clock, enter the customer's name, email and phone, and choose Book.
+
+42
+00:02:46,160 --> 00:02:49,708
+A booked appointment keeps its free time clear too.
+
+43
+00:02:49,708 --> 00:02:54,004
+Back on the same day, nine thirty, ten and ten thirty are gone.
+
+44
+00:02:54,004 --> 00:02:57,490
+Nine o'clock and eleven o'clock are still offered.
+
+45
+00:03:01,690 --> 00:03:05,253
+The booking rules of the appointment type add limits.
+
+46
+00:03:05,253 --> 00:03:09,480
+Open Calendars, Appointment Types and edit Initial consultation.
+
+47
+00:03:09,480 --> 00:03:12,680
+Minimum notice hides times that start too soon.
+
+48
+00:03:13,133 --> 00:03:16,621
+Book up to hides times that are too far ahead, and Most per
+
+49
+00:03:16,621 --> 00:03:20,699
+resource per day stops one resource taking more than that many of this
+
+50
+00:03:20,699 --> 00:03:21,773
+type in a day.
+
+51
+00:03:22,224 --> 00:03:24,036
+A class works differently.
+
+52
+00:03:24,036 --> 00:03:27,999
+The Yoga class has eight places, so each of its times stays open
+
+53
+00:03:27,999 --> 00:03:30,604
+until the eighth customer has booked it.
+
+54
+00:03:34,804 --> 00:03:38,367
+If a day shows no times, check the appointment type first.
+
+55
+00:03:38,367 --> 00:03:42,932
+It needs Resources, and each of them must have Takes appointments ticked and
+
+56
+00:03:42,932 --> 00:03:45,104
+working hours that cover the day.
+
+57
+00:03:45,854 --> 00:03:48,696
+Then check the limits, and anything busy:
+
+58
+00:03:48,696 --> 00:03:53,111
+a blocked time or event on the resource's calendar, or on the staff
+
+59
+00:03:53,111 --> 00:03:56,074
+member's own calendars, closes those times.
+
+60
+00:03:58,074 --> 00:04:02,592
+A time is offered only when the hours, the calendars, the free time
+
+61
+00:04:02,592 --> 00:04:07,605
+and the limits all agree, so the same person or room is never booked twice.
+
+62
+00:04:07,605 --> 00:04:09,214
+Thanks for watching.
+

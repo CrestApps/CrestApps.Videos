@@ -1,0 +1,81 @@
+{
+  "title": "Calendars in Workflows and AI: Automate and Ask | CrestApps for Orchard Core",
+  "description": "The Orchard Core calendar adds events and tasks to the workflow editor, and six calendar tools to AI profiles. Workflows can react to calendar changes and create, move, find and cancel events, and AI assistants can read your calendar, find free time and book for you, with your access.\n\nIn this video:\n• Why connect the calendar to workflows and AI\n• Calendar events and tasks in the workflow editor\n• A workflow that reacts to an Out of office event\n• The six calendar tools of an AI profile and an example conversation\n• Limits: workflows ignoring their own changes, Reminders, AI feature",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "workflows",
+    "AI",
+    "assistant",
+    "automation",
+    "tools",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core",
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Why connect them"
+    },
+    {
+      "time": "1:01",
+      "title": "Calendar activities in the workflow editor"
+    },
+    {
+      "time": "2:09",
+      "title": "Run it"
+    },
+    {
+      "time": "2:43",
+      "title": "The AI assistant"
+    },
+    {
+      "time": "3:59",
+      "title": "Good to know"
+    },
+    {
+      "time": "4:30",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "produced": "2026-10-31",
+  "length": "4:42"
+}

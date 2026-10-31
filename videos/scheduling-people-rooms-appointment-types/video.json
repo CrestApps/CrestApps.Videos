@@ -1,0 +1,77 @@
+{
+  "title": "Scheduling: Resources and Appointment Types for Bookable Time | CrestApps for Orchard Core",
+  "description": "Customers want an appointment, but the time depends on who is working, which room is free and what is already booked. The Scheduling module for Orchard Core books appointments with your staff, rooms and equipment and offers only times that are really free.\n\nThis video shows how to set it up: the people, rooms and equipment that take appointments, and the appointment types that describe each kind of appointment.\n\nIn this video:\n• Why Scheduling, and its two building blocks\n• Adding a staff member and a room as resources: user, calendar, time zone, working hours and days off\n• Describing an appointment type: length, free time around it, resources, who gets it, places and booking rules\n• Where appointments go: the resource's Appointments calendar",
+  "hashtags": [
+    "OrchardCore",
+    "Scheduling",
+    "Appointments",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "scheduling",
+    "appointments",
+    "booking",
+    "calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS",
+    "resources",
+    "appointment types"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Why Scheduling"
+    },
+    {
+      "time": "0:55",
+      "title": "Add the people, rooms and equipment"
+    },
+    {
+      "time": "2:22",
+      "title": "Describe an appointment type"
+    },
+    {
+      "time": "3:49",
+      "title": "Where appointments go"
+    },
+    {
+      "time": "4:14",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/scheduling"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/scheduling"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Scheduling"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/scheduling.md",
+    "src/CrestApps.Docs/docs/modules/scheduling.md"
+  ],
+  "length": "4:25"
+}

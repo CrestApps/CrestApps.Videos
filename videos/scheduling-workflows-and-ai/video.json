@@ -1,0 +1,78 @@
+{
+  "title": "Scheduling: Workflows, the AI Assistant and Deployment | CrestApps for Orchard Core",
+  "description": "Appointments rarely stand alone: customers need an email, an assistant can take bookings in chat, and a second site needs the same setup. The Scheduling module for Orchard Core connects to workflows, to the AI tools of CrestApps, and to deployment plans.\n\nThis video shows each of them on screen, and what to check when times or booking pages don't appear.\n\nIn this video:\n• Workflows: the Scheduling events and tasks in the editor\n• The AI assistant: the Scheduling tools of an AI profile, and what customers can ask\n• Copying scheduling to another site with a deployment plan\n• Troubleshooting: no times, a missing booking page, staff on shifts",
+  "hashtags": [
+    "OrchardCore",
+    "Scheduling",
+    "Appointments",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "scheduling",
+    "appointments",
+    "booking",
+    "calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS",
+    "workflows",
+    "AI assistant",
+    "deployment"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Workflows"
+    },
+    {
+      "time": "1:18",
+      "title": "The AI assistant"
+    },
+    {
+      "time": "2:02",
+      "title": "Copy scheduling to another site"
+    },
+    {
+      "time": "2:50",
+      "title": "When something doesn't work"
+    },
+    {
+      "time": "3:31",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/scheduling"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/scheduling"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Scheduling"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/scheduling.md",
+    "src/CrestApps.Docs/docs/modules/scheduling.md"
+  ],
+  "length": "3:42"
+}

@@ -1,0 +1,182 @@
+{
+  "title": "Data connectors: deployment and permissions",
+  "output": "data-connectors-deployment-and-permissions",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Deployment and permissions",
+      "subtitle": "Who manages data connectors, and moving them",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video covers who may manage connections and data sets, and how to copy them to another site, such as from staging to the live site, with a deployment plan. It ends with what to check when something does not work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "The permissions",
+      "subtitle": "Five permissions, three jobs",
+      "clips": [
+        {
+          "id": "01-perms",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "perms-1",
+              "text": "Five permissions cover data connectors. Manage data connections and their credentials is for creating, editing, testing and deleting connections. It is security critical, because a connection holds credentials."
+            },
+            {
+              "id": "perms-2",
+              "text": "Manage connected data sets is for data sets. Refresh imported data sets lets someone run Refresh now, and is included in the manage permission."
+            },
+            {
+              "id": "perms-3",
+              "text": "Read every connected data set, or Read the connected data set with one name, decide who can use a data set in reports and pipelines. Administrators have the first four by default."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Set them on a role",
+      "subtitle": "Access Control, Roles",
+      "clips": [
+        {
+          "id": "02-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "roles-1",
+              "text": "Open a role in Access Control, Roles, and find the Data Connectors group. Manage data connections and their credentials is marked security critical: give it only to the people who look after the connections."
+            },
+            {
+              "id": "roles-2",
+              "text": "Manage connected data sets lets a person create, edit, preview and delete data sets. Allow it and save the role. When you open the role again, Refresh imported data sets is effective too, because the manage permission includes it."
+            },
+            {
+              "id": "roles-3",
+              "text": "Refresh imported data sets can also be given alone, to someone who may only refresh."
+            },
+            {
+              "id": "roles-4",
+              "text": "And Read every connected data set includes the read permission of each data set. That is the permission the reports and pipelines video used."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Copy them with a deployment plan",
+      "subtitle": "Connections first, then data sets",
+      "clips": [
+        {
+          "id": "03-plan",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "plan-1",
+              "text": "To copy connections and data sets to another site, use a deployment plan. Under Deployments, Plans, click Add Deployment Plan, and give it a name."
+            },
+            {
+              "id": "plan-2",
+              "text": "Click Add Step, open the Data group, and add Data Connections. Leave Include all connections ticked, or clear it and tick the connections to copy."
+            },
+            {
+              "id": "plan-3",
+              "text": "Then add Connected Data Sets in the same way. Keep the connections first: each data set needs its connection on the other site."
+            },
+            {
+              "id": "plan-4",
+              "text": "Execute the plan to download its file, or to send it to another site."
+            },
+            {
+              "id": "plan-5",
+              "text": "On the other site, import the file in Package Import. That site needs the Deployment and Recipes features on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "On the other site",
+      "subtitle": "What arrives, and what does not",
+      "clips": [
+        {
+          "id": "04-other",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "other-1",
+              "text": "A connection or data set with the same identifier or technical name is updated, and the others are created."
+            },
+            {
+              "id": "other-2",
+              "text": "Passwords, keys and secrets are not copied, because they are encrypted for the site that holds them. Open each copied connection, type its secrets, and click Save and test."
+            },
+            {
+              "id": "other-3",
+              "text": "Imported data sets don't bring their rows. Each one starts its first import on the other site within a minute, from its own connection."
+            },
+            {
+              "id": "other-4",
+              "text": "The other site needs the same connector features turned on, and it must be able to reach the systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "When something does not work",
+      "subtitle": "What to check",
+      "clips": [
+        {
+          "id": "05-check",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "check-1",
+              "text": "If a data set is missing from reports, check that it is enabled. A disabled data set is not listed to reports and pipelines."
+            },
+            {
+              "id": "check-2",
+              "text": "Check that its fields were read, with Discover fields, and that your role is allowed to read it."
+            },
+            {
+              "id": "check-3",
+              "text": "An imported data set shows no rows until its first refresh succeeds. Open its History for the error: the last good rows stay available while you fix it. And if a check says the host is on the site's own network, ask your administrator to allow it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Deployment and permissions",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Give the manage permissions to the few who look after connections, copy them with a plan, type the secrets again on the other site, and check the history when a refresh fails. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

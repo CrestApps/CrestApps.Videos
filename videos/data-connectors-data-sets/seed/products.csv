@@ -1,0 +1,9 @@
+Sku,Product,Category,Price,InStock
+SKU-001,Trail Backpack,Bags,116.02,false
+SKU-002,Rain Jacket,Clothing,204.21,true
+SKU-003,Camp Stove,Cooking,159.68,false
+SKU-004,Water Bottle,Accessories,258.29,true
+SKU-005,Headlamp,Lighting,269.07,true
+SKU-006,Sleeping Bag,Camping,292.21,true
+SKU-007,Trekking Poles,Gear,159.23,true
+SKU-008,Tent 2P,Camping,145.65,false

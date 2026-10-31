@@ -1,0 +1,144 @@
+{
+  "title": "Bookings on the calendar",
+  "output": "bookings-on-the-calendar",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Bookings on the calendar",
+      "subtitle": "Every booking, next to the rest of your schedule",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "When Bookings and Calendars are both on, every booking is also an event on a shared calendar, and a calendar can close the dates of a booking product. This video shows the Bookings calendar, how to add older bookings to the calendar, and how to block dates with a calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why it helps",
+      "subtitle": "One calendar for every booking",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Bookings sells dates, nights and times, and the Bookings page keeps a calendar of what is booked. With the Calendars feature on, the same bookings also appear on the shared calendar, next to the rest of your team's schedule. There is no extra feature to turn on."
+            },
+            {
+              "id": "why-2",
+              "text": "One calendar called Bookings holds them all. Each event is named after the product and the buyer, and lasts as long as the booking. It is tentative while the booking is held or requested, confirmed once it is booked, and cancelled when the booking is cancelled or expires."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The Bookings calendar",
+      "subtitle": "See, open and sync bookings",
+      "short": "calendar",
+      "clips": [
+        {
+          "id": "02-calendar",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "bc-1",
+              "text": "Open Commerce, Bookings, Calendar. It shows each month's dates and times, with the places taken out of the places available. Use the arrows to move to another month."
+            },
+            {
+              "id": "bc-2",
+              "text": "Choose Open in calendar to see the same bookings on the shared calendar, where they sit next to everything else on your calendars."
+            },
+            {
+              "id": "bc-3",
+              "text": "Open a booking's event. It shows the product, the buyer and the time. It can only be changed from the booking itself, so the calendar and the orders always agree."
+            },
+            {
+              "id": "bc-4",
+              "text": "Back on the Bookings calendar, Sync to calendar adds the events of every booking from today on, held ones included. It is meant for bookings made before Calendars was turned on, and running it again changes only what differs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Block dates with a calendar",
+      "subtitle": "Keep a room, a guide or a vehicle from being sold twice",
+      "short": "block",
+      "clips": [
+        {
+          "id": "03-block",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "blk-1",
+              "text": "A calendar can also close the dates of a booking product. Edit a product, such as the Alpine Lakes Tour, and find Block with calendar in its booking settings."
+            },
+            {
+              "id": "blk-2",
+              "text": "Choose a calendar, and anything busy on it closes the times of this product, and the dates or nights when it is busy that day. Use it to keep one guide or one vehicle from being sold twice across products, or to close dates that a team calendar marks as out of office."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Everyday use",
+      "subtitle": "What your team gets",
+      "short": "use-cases",
+      "clips": [
+        {
+          "id": "04-use",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "Your team sees what is booked in one place, next to meetings, time off and the rest of the schedule, without opening each order."
+            },
+            {
+              "id": "use-2",
+              "text": "A held or requested booking shows as tentative. Once it is booked its event is confirmed, and a cancelled booking's event is cancelled, so the calendar shows what is real."
+            },
+            {
+              "id": "use-3",
+              "text": "The Bookings calendar is private at first. Share it with your staff under Calendars, Manage Calendars, so guides and the front desk see the same dates."
+            },
+            {
+              "id": "use-4",
+              "text": "And when a guide, a room or a vehicle is shared by several products, Block with calendar keeps the same day from being sold twice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Bookings on the calendar",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Every booking shows on the calendar, and a calendar can close what Bookings sells. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
