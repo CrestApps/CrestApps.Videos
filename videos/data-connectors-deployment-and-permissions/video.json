@@ -1,0 +1,76 @@
+{
+  "title": "Data Connectors: Permissions, Deployment Plans and Troubleshooting | CrestApps for Orchard Core",
+  "description": "Who may manage connections and data sets, and how to copy them to another site, such as from staging to live, with a deployment plan. See the five permissions, how Manage connected data sets includes the refresh permission, the Data Connections and Connected Data Sets deployment steps, what to re-enter on the other site, and what to check when something does not work.\n\nIn this video:\n• The five permissions of Data Connectors\n• Setting them on a role in Access Control > Roles\n• A deployment plan with Data Connections first, then Connected Data Sets\n• What arrives on the other site: secrets are not copied, imported rows are not copied\n• Troubleshooting: enabled, fields, permissions and the refresh history",
+  "hashtags": [
+    "OrchardCore",
+    "DataConnectors",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "data connectors",
+    "permissions",
+    "deployment plans",
+    "deployment",
+    "staging",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "The permissions"
+    },
+    {
+      "time": "0:56",
+      "title": "Set them on a role"
+    },
+    {
+      "time": "1:46",
+      "title": "Copy them with a deployment plan"
+    },
+    {
+      "time": "2:34",
+      "title": "On the other site"
+    },
+    {
+      "time": "3:14",
+      "title": "When something does not work"
+    },
+    {
+      "time": "3:49",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/data-connectors"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.DataConnectors"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/data-connectors.md"
+  ],
+  "length": "4:04"
+}
