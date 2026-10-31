@@ -1,0 +1,161 @@
+{
+  "title": "Categories and colors in Calendars",
+  "output": "calendars-categories-and-colors",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Categories and colors",
+      "subtitle": "Color-code your events and filter by category",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Categories color-code your events so you can read a week at a glance, and filter them so you can hide what you don't need. This video shows how an event gets its color, how to make categories and put events in them, how to filter the calendar by category, and what happens when a category is deleted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "How an event gets its color",
+      "subtitle": "Four colors, in order",
+      "short": "colors",
+      "clips": [
+        {
+          "id": "01-order",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "order-1",
+              "text": "Every event is drawn in one color, chosen in this order. The event's own color comes first, when you tick Use its own color. Next comes the color of its category."
+            },
+            {
+              "id": "order-2",
+              "text": "An event with neither takes the color of its kind of event, such as a meeting or a holiday. Last comes the color of its calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Make a category",
+      "subtitle": "Your own, and shared ones",
+      "short": "make",
+      "clips": [
+        {
+          "id": "02-make",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "make-1",
+              "text": "Open Calendars, then Categories. The list shows your categories, and the shared ones with an Everyone badge. Company holiday and Training are shared, so everyone can use them. Choose Add category."
+            },
+            {
+              "id": "make-2",
+              "text": "Give the category a Name and a Color, and choose Save. Maria makes Sales calls, in orange, and Admin work, in gray. These two are hers, and nobody else sees them. Both then appear in the list, ready to use."
+            }
+          ]
+        },
+        {
+          "id": "03-shared",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "shared-1",
+              "text": "People who can manage all calendars also see Everyone can use it. Tick it, and the category is shared: everyone sees it and can use it, such as a company holiday. Only people who manage all calendars can change a shared category."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Put events in categories",
+      "subtitle": "The category's color, or the event's own",
+      "short": "use",
+      "clips": [
+        {
+          "id": "04-use",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "use-1",
+              "text": "In the event editor, Category lists your categories and the shared ones. Maria picks Sales calls for her customer lunch and saves. The event is now drawn in the color of its category."
+            },
+            {
+              "id": "use-2",
+              "text": "Another event can keep its own color. The pricing workshop is also in Sales calls, but Use its own color is ticked, with a green. The event's own color wins over its category's."
+            },
+            {
+              "id": "use-3",
+              "text": "Events with no category and no color of their own, like the pipeline review, keep the color of their kind of event or of their calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Filter by category",
+      "subtitle": "Show or hide what you need",
+      "short": "filter",
+      "clips": [
+        {
+          "id": "05-filter",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "filt-1",
+              "text": "The calendar lists your categories under Categories, with No category at the end. Untick a category to hide its events. Here Sales calls disappears, and ticking it brings it back."
+            },
+            {
+              "id": "filt-2",
+              "text": "Untick No category to hide every event that has no category. Your choice is remembered in this browser, so the calendar opens the same way next time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Delete a category",
+      "subtitle": "The events are kept",
+      "short": "delete",
+      "clips": [
+        {
+          "id": "06-delete",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "del-1",
+              "text": "To delete a category, open its Actions menu and choose Delete, then confirm. The events that used it are kept, and they show again in the color of their kind of event, unless they have a color of their own."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Read your week at a glance",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Make a category for each kind of work, put events in it, and filter the calendar by it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
