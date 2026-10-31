@@ -160,6 +160,7 @@ public static partial class Scenes
             var after = scene.Page.Locator("#BufferAfterMinutes");
             await scene.ClickAsync(after, pauseAfter: 200);
             await after.FillAsync("10");
+            await after.BlurAsync(); // a focused number box would change with the mouse wheel
             await scene.HighlightAsync(after);
         });
 
@@ -167,7 +168,6 @@ public static partial class Scenes
 
         await scene.StepAsync("type-3", async () =>
         {
-            await scene.ScrollAsync(0, 560);
             await scene.ClickAsync(scene.Page.Locator("button[data-id='ResourceIds']"), pauseAfter: 600);
             await scene.ClickAsync(scene.Page.Locator(".dropdown-menu.show .dropdown-item").Filter(new() { HasTextString = "Dr. Maya Chen" }).First, pauseAfter: 500);
             await scene.ClickAsync(scene.Page.Locator(".dropdown-menu.show .dropdown-item").Filter(new() { HasTextString = "Treatment room 1" }).First, pauseAfter: 500);

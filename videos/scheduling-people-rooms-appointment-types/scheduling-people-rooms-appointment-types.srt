@@ -47,234 +47,234 @@ With both in place, the site offers only times that are really free,
 and the same person or room can never be booked twice.
 
 13
-00:00:59,073 --> 00:01:02,201
+00:00:59,093 --> 00:01:02,221
 Open Calendars, Scheduling Resources.
 
 14
-00:01:02,201 --> 00:01:05,693
+00:01:02,221 --> 00:01:05,713
 The list is empty, so choose Add resource.
 
 15
-00:01:06,144 --> 00:01:07,768
+00:01:06,164 --> 00:01:07,788
 Start with a person.
 
 16
-00:01:07,768 --> 00:01:09,267
+00:01:07,788 --> 00:01:09,287
 Type the name, Dr.
 
 17
-00:01:09,267 --> 00:01:12,515
+00:01:09,287 --> 00:01:12,535
 Maya Chen, and leave the kind on Staff member.
 
 18
-00:01:12,515 --> 00:01:15,764
+00:01:12,535 --> 00:01:15,784
 The other kinds are Room, Equipment and Other.
 
 19
-00:01:16,217 --> 00:01:19,114
+00:01:16,237 --> 00:01:19,134
 For a staff member, choose the user they are.
 
 20
-00:01:19,114 --> 00:01:23,715
+00:01:19,134 --> 00:01:23,735
 Their own calendars then count too, so a meeting on their personal calendar
 
 21
-00:01:23,715 --> 00:01:25,987
+00:01:23,735 --> 00:01:26,007
 keeps that time from being booked.
 
 22
-00:01:26,437 --> 00:01:28,761
+00:01:26,459 --> 00:01:28,783
 Calendar is where appointments go.
 
 23
-00:01:28,761 --> 00:01:33,351
+00:01:28,783 --> 00:01:33,372
 Leave it on Make a new calendar and the site creates one for this person.
 
 24
-00:01:33,351 --> 00:01:36,430
+00:01:33,372 --> 00:01:36,451
 Time zone is the zone the working hours are in.
 
 25
-00:01:36,430 --> 00:01:41,077
+00:01:36,451 --> 00:01:41,099
 Untick Takes appointments to stop offering a resource without deleting it.
 
 26
-00:01:41,529 --> 00:01:43,981
+00:01:41,552 --> 00:01:44,004
 Working hours take one line per day.
 
 27
-00:01:43,981 --> 00:01:47,659
+00:01:44,004 --> 00:01:47,682
 Two ranges on a line leave a gap, here a lunch break, and
 
 28
-00:01:47,659 --> 00:01:50,169
+00:01:47,682 --> 00:01:50,192
 a day that isn't listed is a day off.
 
 29
-00:01:50,622 --> 00:01:53,821
+00:01:50,648 --> 00:01:53,846
 Days off and changed days take one line each:
 
 30
-00:01:53,821 --> 00:01:56,894
+00:01:53,846 --> 00:01:56,920
 a closed day, or shorter hours on one date.
 
 31
-00:01:56,894 --> 00:02:03,103
+00:01:56,920 --> 00:02:03,129
 Hours can also come from shifts on a calendar, which suits staff who are scheduled elsewhere.
 
 32
-00:02:03,103 --> 00:02:04,232
+00:02:03,129 --> 00:02:04,258
 Choose Save.
 
 33
-00:02:04,683 --> 00:02:07,546
+00:02:04,708 --> 00:02:07,571
 Rooms and equipment are resources too.
 
 34
-00:02:07,546 --> 00:02:10,604
+00:02:07,571 --> 00:02:10,629
 Add Treatment room 1, with the kind Room.
 
 35
-00:02:10,604 --> 00:02:14,573
+00:02:10,629 --> 00:02:14,598
 It has no user, and its hours are written the same way.
 
 36
-00:02:15,023 --> 00:02:17,593
+00:02:15,048 --> 00:02:17,618
 Each resource appears in the list.
 
 37
-00:02:17,593 --> 00:02:21,383
+00:02:17,618 --> 00:02:21,408
 Deleting one keeps its calendar and its appointments.
 
 38
-00:02:25,587 --> 00:02:30,005
+00:02:25,612 --> 00:02:30,030
 Open Calendars, Appointment Types and choose Add appointment type.
 
 39
-00:02:30,005 --> 00:02:32,950
+00:02:30,030 --> 00:02:32,975
 The General card holds what customers see:
 
 40
-00:02:32,950 --> 00:02:37,491
+00:02:32,975 --> 00:02:37,516
 the Name, a Description, the Location, a Color for its events on the
 
 41
-00:02:37,491 --> 00:02:39,577
+00:02:37,516 --> 00:02:39,602
 calendar, and Can be booked.
 
 42
-00:02:40,028 --> 00:02:44,070
+00:02:40,052 --> 00:02:44,094
 The Time card sets the Length of an appointment, and how far apart
 
 43
-00:02:44,070 --> 00:02:45,979
+00:02:44,094 --> 00:02:46,002
 the offered start times are.
 
 44
-00:02:45,979 --> 00:02:50,694
+00:02:46,002 --> 00:02:50,718
 Free time before and after is time the resource needs around each appointment,
 
 45
-00:02:50,694 --> 00:02:52,154
+00:02:50,718 --> 00:02:52,177
 such as cleaning up.
 
 46
-00:02:52,154 --> 00:02:54,118
+00:02:52,177 --> 00:02:54,142
 Other plans can't fall in it.
 
 47
-00:02:54,571 --> 00:02:58,127
+00:02:54,594 --> 00:02:58,150
 Under Who, choose the Resources that take this appointment.
 
 48
-00:02:58,127 --> 00:02:59,824
+00:02:58,150 --> 00:02:59,847
 Pick decides who gets it.
 
 49
-00:02:59,824 --> 00:03:03,708
+00:02:59,847 --> 00:03:03,731
 Any free resource takes the first one that is free, and Share out
 
 50
-00:03:03,708 --> 00:03:07,101
+00:03:03,731 --> 00:03:07,124
 gives it to the one with the fewest recent appointments.
 
 51
-00:03:07,556 --> 00:03:12,988
+00:03:07,579 --> 00:03:13,011
 All resources together needs every resource at once, such as a doctor and a room.
 
 52
-00:03:12,988 --> 00:03:18,046
+00:03:13,011 --> 00:03:18,069
 Places per appointment above one makes a class that several customers book.
 
 53
-00:03:18,498 --> 00:03:23,162
+00:03:18,522 --> 00:03:23,185
 Booking rules set the minimum notice, how many days ahead customers can book,
 
 54
-00:03:23,162 --> 00:03:27,207
+00:03:23,185 --> 00:03:27,230
 the most appointments per resource per day, and how long a time is
 
 55
-00:03:27,207 --> 00:03:29,678
+00:03:27,230 --> 00:03:29,702
 held for someone who is still booking.
 
 56
-00:03:30,130 --> 00:03:34,573
+00:03:30,155 --> 00:03:34,598
 Tick Bookings wait for someone to confirm them to review requests first.
 
 57
-00:03:34,573 --> 00:03:39,016
+00:03:34,598 --> 00:03:39,041
 Customers can book it themselves puts the type on a public booking page,
 
 58
-00:03:39,016 --> 00:03:40,725
+00:03:39,041 --> 00:03:40,750
 at the address you type.
 
 59
-00:03:40,725 --> 00:03:41,750
+00:03:40,750 --> 00:03:41,775
 Choose Save.
 
 60
-00:03:42,201 --> 00:03:45,853
+00:03:42,225 --> 00:03:45,877
 The type appears in the list, with a Book button for booking it.
 
 61
-00:03:45,853 --> 00:03:48,201
+00:03:45,877 --> 00:03:48,225
 Deleting a type keeps its appointments.
 
 62
-00:03:52,396 --> 00:03:56,543
+00:03:52,426 --> 00:03:56,573
 Every resource has its own calendar, of the Appointments type.
 
 63
-00:03:56,543 --> 00:04:00,202
+00:03:56,573 --> 00:04:00,232
 Open Calendars, Calendar, and tick the calendar of Dr.
 
 64
-00:04:00,202 --> 00:04:03,556
+00:04:00,232 --> 00:04:03,586
 Maya Chen or of the room to see its appointments.
 
 65
-00:04:04,008 --> 00:04:08,081
+00:04:04,038 --> 00:04:08,112
 Anything you add to that calendar, such as a Blocked time event, keeps
 
 66
-00:04:08,081 --> 00:04:09,904
+00:04:08,112 --> 00:04:09,934
 that time from being booked.
 
 67
-00:04:09,904 --> 00:04:13,388
+00:04:09,934 --> 00:04:13,418
 The next video shows exactly how open times are worked out.
 
 68
-00:04:15,388 --> 00:04:20,003
+00:04:15,418 --> 00:04:20,033
 Resources say who and what can take appointments, and appointment types say how
 
 69
-00:04:20,003 --> 00:04:22,446
+00:04:20,033 --> 00:04:22,477
 long they last and how they are booked.
 
 70
-00:04:22,446 --> 00:04:23,858
+00:04:22,477 --> 00:04:23,888
 Thanks for watching.
 
