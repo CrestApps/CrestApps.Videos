@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.559
+Calendar Feeds let other calendar apps follow a calendar from your site, and
+
+00:00:05.559 --> 00:00:08.116
+let you move events in and out as files.
+
+00:00:08.116 --> 00:00:12.396
+This video shows how to make a private subscription address, how to add
+
+00:00:12.396 --> 00:00:16.288
+it to Outlook, Google Calendar or a phone, and how to export and
+
+00:00:16.288 --> 00:00:17.900
+import a calendar file.
+
+00:00:22.500 --> 00:00:27.912
+People keep other calendars too, in Outlook, in Google Calendar, and on their phone.
+
+00:00:27.912 --> 00:00:31.160
+Copying events by hand between them never lasts.
+
+00:00:31.910 --> 00:00:36.671
+A subscription address lets those apps follow a calendar from your site, and
+
+00:00:36.671 --> 00:00:38.936
+keep it up to date by themselves.
+
+00:00:38.936 --> 00:00:40.736
+It runs in one direction:
+
+00:00:40.736 --> 00:00:42.710
+the apps read your calendar.
+
+00:00:43.460 --> 00:00:45.703
+Files move events both ways.
+
+00:00:45.703 --> 00:00:50.981
+Export a calendar as a calendar file, or import one from another calendar.
+
+00:00:50.981 --> 00:00:55.270
+Events that are already there are updated, not added twice.
+
+00:00:59.461 --> 00:01:02.464
+Open Calendars, then Manage Calendars.
+
+00:01:02.464 --> 00:01:06.831
+On a calendar's Actions menu, choose Subscription address.
+
+00:01:07.283 --> 00:01:10.503
+A calendar has no address until you make one.
+
+00:01:10.503 --> 00:01:15.303
+Choose Make an address, and the secret address appears, ready to copy.
+
+00:01:15.754 --> 00:01:21.095
+Choose Copy, and paste it into Google Calendar, under Other calendars, From URL.
+
+00:01:21.095 --> 00:01:24.510
+In Outlook, use Add calendar, Subscribe from web.
+
+00:01:24.510 --> 00:01:26.622
+Phones have the same option.
+
+00:01:26.622 --> 00:01:30.534
+The app then shows the events, and keeps them up to date.
+
+00:01:30.985 --> 00:01:35.167
+Anyone who has the address can see the events, so share it only
+
+00:01:35.167 --> 00:01:36.865
+with people you trust.
+
+00:01:36.865 --> 00:01:40.683
+Choose Make a new address, and the old one stops working.
+
+00:01:40.683 --> 00:01:43.895
+Remove the address, and the feed is turned off.
+
+00:01:45.493 --> 00:01:48.283
+Private events are never shown in full.
+
+00:01:48.283 --> 00:01:53.058
+When an event's Visibility is Private, others see only that the time is
+
+00:01:53.058 --> 00:01:58.143
+busy, and the feed writes it as busy time, without the title or the details.
+
+00:02:02.343 --> 00:02:07.699
+On the same Actions menu, Export .ics downloads the calendar as a calendar
+
+00:02:07.699 --> 00:02:10.913
+file, with its events and how they repeat.
+
+00:02:12.522 --> 00:02:17.190
+Import .ics adds the events of a calendar file, such as one exported
+
+00:02:17.190 --> 00:02:19.586
+from Google Calendar or Outlook.
+
+00:02:19.586 --> 00:02:22.172
+Choose the file, and choose Import.
+
+00:02:24.583 --> 00:02:29.719
+A message says how many events were added, changed and left unchanged.
+
+00:02:29.719 --> 00:02:33.773
+The calendar opens, with the three events of the file.
+
+00:02:34.227 --> 00:02:38.226
+Here is a newer version of the same file, with the vendor demo
+
+00:02:38.226 --> 00:02:39.873
+moved to the next day.
+
+00:02:39.873 --> 00:02:41.167
+Import it again.
+
+00:02:41.623 --> 00:02:44.801
+One event is changed, and two are unchanged.
+
+00:02:44.801 --> 00:02:51.476
+The vendor demo moved, and nothing was added twice, because events are matched by their identifier.
+
+00:02:51.476 --> 00:02:54.273
+Importing the same file twice is safe.
+
+00:02:58.473 --> 00:03:04.248
+The Calendar Feeds feature adds the subscription address, and the export and import.
+
+00:03:04.248 --> 00:03:06.943
+Imported events send no invitations.
+
+00:03:07.693 --> 00:03:11.130
+Make a new address if one is shared by mistake.
+
+00:03:11.130 --> 00:03:13.983
+The old address stops working at once.
+
+00:03:14.733 --> 00:03:18.184
+Following a calendar this way is one direction.
+
+00:03:18.184 --> 00:03:23.264
+Signing in to Google Calendar or Microsoft 365 to keep calendars in step
+
+00:03:23.264 --> 00:03:25.413
+both ways is not available.
+
+00:03:27.413 --> 00:03:31.492
+Make an address to let other apps follow a calendar, and use calendar
+
+00:03:31.492 --> 00:03:33.559
+files to move events in and out.
+
+00:03:33.559 --> 00:03:34.973
+Thanks for watching.
+

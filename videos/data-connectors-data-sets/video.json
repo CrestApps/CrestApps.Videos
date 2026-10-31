@@ -1,0 +1,78 @@
+{
+  "title": "Connected Data Sets: Files, Web APIs, SQL Server and Elasticsearch | CrestApps for Orchard Core",
+  "description": "A data set is one table, file, index or API path that a connection reads, and it is what reports and data pipelines use. Review the fields the site discovers, preview the rows exactly as reports read them, and choose between live and imported.\n\nIn this video:\n• What a data set is, and why its technical name is fixed\n• A data set from a media library file: resource, how to read it, discovered fields, identifiers and the default date\n• Preview and edit\n• A data set from a web API: records path, pages and page size\n• The SQL Server and Elasticsearch settings: custom query, query and scroll",
+  "hashtags": [
+    "OrchardCore",
+    "DataConnectors",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "data connectors",
+    "data sets",
+    "reports",
+    "data pipelines",
+    "HTTP API",
+    "SQL Server",
+    "Elasticsearch",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "What a data set is"
+    },
+    {
+      "time": "1:07",
+      "title": "A data set from a file"
+    },
+    {
+      "time": "2:30",
+      "title": "Preview and edit"
+    },
+    {
+      "time": "3:06",
+      "title": "A data set from a web API"
+    },
+    {
+      "time": "4:18",
+      "title": "SQL Server and Elasticsearch"
+    },
+    {
+      "time": "5:01",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/data-connectors"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.DataConnectors"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/data-connectors.md"
+  ],
+  "length": "5:16"
+}

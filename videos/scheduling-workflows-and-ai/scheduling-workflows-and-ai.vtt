@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.079
+This video shows how Scheduling connects to the rest of your site:
+
+00:00:05.079 --> 00:00:08.025
+workflows that react to appointments, the A.I.
+
+00:00:08.025 --> 00:00:12.501
+tools that let an assistant book for customers, how to copy scheduling to
+
+00:00:12.501 --> 00:00:16.240
+another site, and what to check when something doesn't work.
+
+00:00:20.845 --> 00:00:25.563
+With the Workflows feature on, open Workflows and choose Create Workflow.
+
+00:00:25.563 --> 00:00:29.505
+Give it a name, such as Confirmed appointments, and save it.
+
+00:00:29.956 --> 00:00:33.134
+The editor lists its activities by category.
+
+00:00:33.134 --> 00:00:35.359
+Open the Scheduling category.
+
+00:00:35.359 --> 00:00:42.986
+Its events are Appointment Requested, Confirmed, Rescheduled, Cancelled, Completed and Marked No-Show, Reservation
+
+00:00:42.986 --> 00:00:46.036
+Hold Expired, and Waitlist Slot Available.
+
+00:00:46.486 --> 00:00:49.618
+Click Appointment Confirmed to start the workflow with it.
+
+00:00:49.618 --> 00:00:53.287
+In its settings, you can limit it to some appointment types, and left
+
+00:00:53.287 --> 00:00:55.146
+empty it applies to all of them.
+
+00:00:55.598 --> 00:00:58.139
+The same category has the tasks:
+
+00:00:58.139 --> 00:01:04.024
+find open times, book, confirm, reschedule and cancel an appointment, get one, and
+
+00:01:04.024 --> 00:01:06.498
+add a customer to the waitlist.
+
+00:01:06.950 --> 00:01:11.768
+Together they send a confirmation email when an appointment is confirmed, a text
+
+00:01:11.768 --> 00:01:15.858
+message an hour before it starts, or an email to a waiting customer
+
+00:01:15.858 --> 00:01:17.370
+when a time frees up.
+
+00:01:21.579 --> 00:01:27.032
+With Scheduling and AI Services both on, an AI assistant can book appointments.
+
+00:01:27.032 --> 00:01:32.549
+Open Artificial Intelligence, Profiles, choose Add Profile, and start a profile.
+
+00:01:33.000 --> 00:01:37.100
+On the Capabilities tab, the Tools list has a Scheduling group:
+
+00:01:37.100 --> 00:01:42.685
+List appointment types, Find appointment slots, Book appointment and Change appointment.
+
+00:01:42.685 --> 00:01:45.240
+Tick the ones this assistant may use.
+
+00:01:46.840 --> 00:01:52.089
+The assistant lists only the appointment types that customers can book themselves, finds
+
+00:01:52.089 --> 00:01:53.876
+open times, and books one.
+
+00:01:53.876 --> 00:01:58.231
+To move or cancel an appointment, the customer gives the code from their
+
+00:01:58.231 --> 00:02:01.860
+manage link, or the email or phone number they booked with.
+
+00:02:06.062 --> 00:02:11.441
+To copy scheduling to another site, open Tools, Deployments, Plans, and create a plan.
+
+00:02:11.441 --> 00:02:16.586
+Add the Calendars step first, with Include events, so the resources' calendars and
+
+00:02:16.586 --> 00:02:19.042
+the appointments' events come along.
+
+00:02:21.527 --> 00:02:23.596
+Then add the Scheduling step.
+
+00:02:23.596 --> 00:02:27.913
+It takes the appointment types and the people, rooms and equipment.
+
+00:02:27.913 --> 00:02:33.707
+Tick Include appointments for every appointment, with the customers' names, emails and phone
+
+00:02:33.707 --> 00:02:37.077
+numbers, and Include the waitlist for the waitlist.
+
+00:02:37.528 --> 00:02:42.502
+Importing creates what is missing and updates what is there, matched by id.
+
+00:02:42.502 --> 00:02:46.063
+Customers' links to move or cancel are not exported:
+
+00:02:46.063 --> 00:02:49.748
+an imported appointment keeps the link it already had.
+
+00:02:53.948 --> 00:02:55.418
+No times are offered?
+
+00:02:55.418 --> 00:03:00.429
+Check that the appointment type has resources, that they take appointments, that their
+
+00:03:00.429 --> 00:03:04.350
+hours cover the day, and that the day is within the minimum notice
+
+00:03:04.350 --> 00:03:05.875
+and the booking limit.
+
+00:03:05.875 --> 00:03:08.708
+Something busy on a calendar closes times too.
+
+00:03:09.458 --> 00:03:11.381
+The booking page isn't found?
+
+00:03:11.381 --> 00:03:15.997
+The appointment type needs Can be booked, Customers can book it themselves and
+
+00:03:15.997 --> 00:03:20.448
+a Booking page address, and the Scheduling Self-Service feature must be on.
+
+00:03:21.198 --> 00:03:24.085
+A staff member with shifts is never offered?
+
+00:03:24.085 --> 00:03:28.646
+Their Shift calendar must be chosen, and the Shift events there must name
+
+00:03:28.646 --> 00:03:30.148
+them as an attendee.
+
+00:03:32.148 --> 00:03:36.912
+Workflows tell your customers, the AI assistant books for them, and a deployment
+
+00:03:36.912 --> 00:03:39.127
+plan moves it all to another site.
+
+00:03:39.127 --> 00:03:40.568
+Thanks for watching.
+

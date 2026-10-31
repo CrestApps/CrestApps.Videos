@@ -1,0 +1,153 @@
+{
+  "title": "Calendar Reminders",
+  "output": "calendars-reminders",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Calendar Reminders",
+      "subtitle": "A reminder on screen before an event starts",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Calendar Reminders show a reminder on screen before an event starts, and keep it there until you dismiss it. This video shows how to set a reminder on an event, who sees it, what it looks like, and the workflow events that fire at the same moments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why reminders",
+      "subtitle": "An event you cannot miss by looking away",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "When you are busy in another part of the site, it is easy to miss that a meeting is about to start."
+            },
+            {
+              "id": "why-2",
+              "text": "With the Calendar Reminders feature turned on, an event can remind you on screen before it starts, on every admin page you have open."
+            },
+            {
+              "id": "why-3",
+              "text": "The reminder stays until you dismiss it, so you cannot miss it just by looking away for a moment."
+            },
+            {
+              "id": "why-4",
+              "text": "The calendar's owner is reminded, and so is each invited user who has not declined. On someone else's calendar, only the people invited see it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Set a reminder",
+      "subtitle": "The Remind setting of an event",
+      "clips": [
+        {
+          "id": "02-set",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "set-1",
+              "text": "Open Calendars, then Calendar, and choose New event. Pick your own calendar and the Meeting kind."
+            },
+            {
+              "id": "set-2",
+              "text": "Give the event a title, and start it a few minutes from now. On the General card, the Remind setting says how long before the start to remind people."
+            },
+            {
+              "id": "set-3",
+              "text": "You can choose No reminder, When it starts, 5, 10, 15 or 30 minutes before, 1 or 2 hours before, or 1 day before. An event that takes time reminds 10 minutes before unless you change it. Here, choose 5 minutes before."
+            },
+            {
+              "id": "set-4",
+              "text": "Choose Save. The reminder now waits for its time. All-day events do not remind."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The reminder on screen",
+      "subtitle": "Stays on every page until you dismiss it",
+      "clips": [
+        {
+          "id": "03-show",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "show-1",
+              "text": "Open pages check for reminders every minute. When the reminder is due, it appears at the top right of the page, and says how soon the event starts."
+            },
+            {
+              "id": "show-2",
+              "text": "It shows on every admin page of the calendar's owner. Go to another page, and it is still there."
+            },
+            {
+              "id": "show-3",
+              "text": "Choose Open calendar to see the event on its day."
+            },
+            {
+              "id": "show-4",
+              "text": "Choose Dismiss, and the reminder is gone. Dismissing it on one page removes it from every other page and tab that is open."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Workflows",
+      "subtitle": "Act at the same moments, without anyone watching",
+      "clips": [
+        {
+          "id": "04-flow",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "flow-1",
+              "text": "Calendar Reminders also runs in the background every minute. It notices when an event is about to start, and when it has ended, once for each occurrence of the event."
+            },
+            {
+              "id": "flow-2",
+              "text": "A workflow can start at those moments, with the Calendar Event Starting Soon event, where you set the minutes before the start, and the Calendar Event Completed event."
+            },
+            {
+              "id": "flow-3",
+              "text": "For example, email the attendees fifteen minutes before a meeting. Building workflows with calendar events is covered in the video about calendars in workflows and AI."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Calendar Reminders",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Set the Remind setting on an event, and its people see a reminder that stays until they dismiss it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

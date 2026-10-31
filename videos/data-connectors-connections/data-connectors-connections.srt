@@ -1,0 +1,300 @@
+1
+00:00:01,000 --> 00:00:05,493
+Data connectors bring data from other systems into your site, so reports and
+
+2
+00:00:05,493 --> 00:00:08,780
+data pipelines can use it next to the site's own data.
+
+3
+00:00:08,780 --> 00:00:10,862
+This video is about connections:
+
+4
+00:00:10,862 --> 00:00:14,424
+the kinds of system you can reach, how to add one and check
+
+5
+00:00:14,424 --> 00:00:18,040
+it, how secrets are kept, and what a failed check tells you.
+
+6
+00:00:22,640 --> 00:00:26,207
+Reports often need data that lives somewhere else:
+
+7
+00:00:26,207 --> 00:00:31,430
+a sales system's web API, a spreadsheet someone exports every week, a search
+
+8
+00:00:31,430 --> 00:00:33,150
+index, or a database.
+
+9
+00:00:33,900 --> 00:00:37,606
+A connection is how the site reaches one of those systems.
+
+10
+00:00:37,606 --> 00:00:41,892
+You set it up once, with its address and credentials, and every data
+
+11
+00:00:41,892 --> 00:00:44,150
+set that reads from it shares it.
+
+12
+00:00:44,900 --> 00:00:48,005
+There are four kinds of connection:
+
+13
+00:00:48,005 --> 00:00:53,610
+SQL Server, HTTP API, Elasticsearch, and files in the media library.
+
+14
+00:00:54,360 --> 00:01:00,311
+A data set then picks one table, API path, index or file from the connection.
+
+15
+00:01:00,311 --> 00:01:05,330
+Data sets have their own video; this one stays with connections.
+
+16
+00:01:09,499 --> 00:01:13,561
+Connections live under Tools, Data Connectors, Connections.
+
+17
+00:01:13,561 --> 00:01:16,749
+This site has none yet, and the list says so.
+
+18
+00:01:17,203 --> 00:01:18,794
+Click Add Connection.
+
+19
+00:01:18,794 --> 00:01:23,271
+The site asks which kind of system the connection should reach, with a
+
+20
+00:01:23,271 --> 00:01:24,743
+card for each kind.
+
+21
+00:01:24,743 --> 00:01:27,983
+When the list grows, type in Filter to narrow it.
+
+22
+00:01:32,178 --> 00:01:36,217
+The simplest kind reads files from the media library.
+
+23
+00:01:36,217 --> 00:01:41,421
+In Media, Library, a folder named demo data holds a customers file and
+
+24
+00:01:41,421 --> 00:01:44,296
+a products file, both in CSV format.
+
+25
+00:01:44,296 --> 00:01:49,089
+Excel files upload as they are; for CSV, JSON and JSON Lines, an
+
+26
+00:01:49,089 --> 00:01:54,498
+administrator first allows those file types in the site's media settings.
+
+27
+00:01:54,949 --> 00:01:59,221
+Back in the connections, add a Media library files connection.
+
+28
+00:01:59,221 --> 00:02:03,745
+Give it a name, Demo files, and the folder it may read, demo data.
+
+29
+00:02:03,745 --> 00:02:08,269
+Its data sets can read any file in that folder and its subfolders.
+
+30
+00:02:08,719 --> 00:02:10,468
+Click Save and test.
+
+31
+00:02:10,468 --> 00:02:14,367
+The site saves the connection and checks it at once.
+
+32
+00:02:14,367 --> 00:02:18,199
+The green message says it found two readable files.
+
+33
+00:02:22,399 --> 00:02:25,175
+Next, a connection to a web API.
+
+34
+00:02:25,175 --> 00:02:30,726
+Add an HTTP API connection, name it Sales API, and enter its Base URL:
+
+35
+00:02:30,726 --> 00:02:33,939
+the address every request starts with.
+
+36
+00:02:34,390 --> 00:02:40,543
+Authentication offers none, an API key, basic, a bearer token, OAuth 2.0, or
+
+37
+00:02:40,543 --> 00:02:45,496
+OpenID Connect, and the fields below change with the choice.
+
+38
+00:02:45,496 --> 00:02:48,798
+This API wants a key, so pick API key.
+
+39
+00:02:48,798 --> 00:02:54,127
+The header name is filled in with a common choice, and you change
+
+40
+00:02:54,127 --> 00:02:56,828
+it if the API expects another.
+
+41
+00:02:56,828 --> 00:02:58,630
+Then type the key.
+
+42
+00:02:59,080 --> 00:03:00,548
+Click Save and test.
+
+43
+00:03:00,548 --> 00:03:02,411
+This time the check is red.
+
+44
+00:03:02,411 --> 00:03:06,194
+The site is not allowed to reach a server on its own network,
+
+45
+00:03:06,194 --> 00:03:08,509
+unless its administrator allows it.
+
+46
+00:03:08,509 --> 00:03:10,994
+The message is for your administrator:
+
+47
+00:03:10,994 --> 00:03:13,140
+nothing in this form can fix it.
+
+48
+00:03:17,331 --> 00:03:22,269
+Once the administrator has allowed the address, open the connection again.
+
+49
+00:03:22,269 --> 00:03:24,799
+The key's box doesn't show the key.
+
+50
+00:03:24,799 --> 00:03:29,120
+It says the key is saved, and to leave the box empty to keep it.
+
+51
+00:03:29,120 --> 00:03:34,181
+Passwords, keys and secrets are stored encrypted, and are never shown again.
+
+52
+00:03:34,632 --> 00:03:38,963
+Leave a secret box empty to keep the stored secret, or type a
+
+53
+00:03:38,963 --> 00:03:40,773
+new one to replace it.
+
+54
+00:03:40,773 --> 00:03:42,842
+Click Save and test again.
+
+55
+00:03:43,293 --> 00:03:47,353
+Now the message is green, and says what the server answered.
+
+56
+00:03:51,543 --> 00:03:55,567
+Each connection in the list shows its kind and technical name.
+
+57
+00:03:55,567 --> 00:03:58,584
+Open Actions on a row to see what you can do:
+
+58
+00:03:58,584 --> 00:04:04,383
+Test checks a saved connection again, without opening it, and the result appears at the top.
+
+59
+00:04:04,834 --> 00:04:09,154
+Add data set starts a data set that reads from this connection.
+
+60
+00:04:09,606 --> 00:04:12,010
+And Delete removes a connection.
+
+61
+00:04:12,010 --> 00:04:14,731
+But not while data sets read from it:
+
+62
+00:04:14,731 --> 00:04:19,666
+the site refuses, and tells you to remove or move those data sets first.
+
+63
+00:04:23,866 --> 00:04:30,051
+An Elasticsearch connection takes the cluster's URL and one of four ways to authenticate.
+
+64
+00:04:30,051 --> 00:04:32,916
+OpenSearch clusters work the same way.
+
+65
+00:04:33,367 --> 00:04:38,700
+A SQL Server connection takes the server's name, the database, and how to sign in:
+
+66
+00:04:38,700 --> 00:04:43,549
+with a SQL Server login, with the site's Windows account, with a Microsoft
+
+67
+00:04:43,549 --> 00:04:47,307
+Entra identity, or with the identity of the site's host.
+
+68
+00:04:47,829 --> 00:04:52,503
+It can also encrypt the traffic, trust a certificate the site can't check,
+
+69
+00:04:52,503 --> 00:04:57,529
+and read from a read-only replica, so reports don't slow the main database down.
+
+70
+00:04:57,988 --> 00:05:02,206
+Give every connection a login that can only read what reports need:
+
+71
+00:05:02,206 --> 00:05:05,498
+a data set reads with the rights of its connection.
+
+72
+00:05:07,498 --> 00:05:11,731
+A connection is set up once per system, checked with Save and test,
+
+73
+00:05:11,731 --> 00:05:13,760
+and keeps its secrets hidden.
+
+74
+00:05:13,760 --> 00:05:16,311
+Next, add data sets that read from it.
+
+75
+00:05:16,311 --> 00:05:17,818
+Thanks for watching.
+
