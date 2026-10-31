@@ -1,0 +1,176 @@
+1
+00:00:01,000 --> 00:00:05,413
+This video shows how your staff book an appointment for a customer, and
+
+2
+00:00:05,413 --> 00:00:08,852
+how they confirm, move, cancel and close appointments.
+
+3
+00:00:08,852 --> 00:00:14,010
+It also shows where appointments appear on the calendar, and what each status means.
+
+4
+00:00:18,610 --> 00:00:23,342
+An appointment is Confirmed when it is booked, or Requested when its appointment
+
+5
+00:00:23,342 --> 00:00:25,708
+type waits for someone to confirm it.
+
+6
+00:00:25,708 --> 00:00:30,110
+A Held time is kept for a short while for a customer who is still booking.
+
+7
+00:00:30,860 --> 00:00:36,789
+After the time, an appointment is Completed, or marked No-show when the customer didn't come.
+
+8
+00:00:36,789 --> 00:00:41,520
+A cancelled appointment is Cancelled, and a hold that ran out is Expired.
+
+9
+00:00:45,725 --> 00:00:51,130
+Open Calendars, Appointment Types and choose Book next to the Ultrasound scan.
+
+10
+00:00:51,130 --> 00:00:53,575
+Choose the Day, then Show times.
+
+11
+00:00:54,026 --> 00:00:56,311
+The open times are buttons.
+
+12
+00:00:56,311 --> 00:01:01,366
+Pick one, then fill in the customer's Name, Email, Phone and Notes.
+
+13
+00:01:03,161 --> 00:01:04,236
+Choose Book.
+
+14
+00:01:04,236 --> 00:01:09,074
+This type waits for someone to confirm it, so the appointment is Requested.
+
+15
+00:01:09,074 --> 00:01:14,151
+If someone took the time a moment before, you are told so and can pick another.
+
+16
+00:01:14,605 --> 00:01:19,284
+You can also open Calendars, Appointments and choose Book an appointment.
+
+17
+00:01:19,284 --> 00:01:24,555
+There you choose the Appointment type from a list, and the rest works the same way:
+
+18
+00:01:24,555 --> 00:01:27,635
+a Day, open times, and the customer's details.
+
+19
+00:01:31,835 --> 00:01:36,670
+The appointment's page shows its time, resource, customer, place and notes.
+
+20
+00:01:36,670 --> 00:01:41,505
+Below it is the customer's manage link, which you can send to the customer.
+
+21
+00:01:41,957 --> 00:01:44,744
+A requested appointment waits for you.
+
+22
+00:01:44,744 --> 00:01:48,417
+Choose Confirm, and its status changes to Confirmed.
+
+23
+00:01:48,870 --> 00:01:53,267
+Took place and No-show close an appointment once its time has passed, and
+
+24
+00:01:53,267 --> 00:01:56,050
+Cancel appointment takes an optional reason.
+
+25
+00:01:56,502 --> 00:02:02,212
+To move an appointment, choose another Day, pick one of its open times, and choose Move.
+
+26
+00:02:02,801 --> 00:02:06,508
+To cancel it, type a reason and choose Cancel appointment.
+
+27
+00:02:06,508 --> 00:02:10,911
+The time is free again, and the appointment can't be changed any more.
+
+28
+00:02:11,363 --> 00:02:18,153
+Calendars, Appointments lists every appointment, with a search by customer and a Status filter.
+
+29
+00:02:22,343 --> 00:02:27,139
+Every appointment is also an event on the calendar of its resource, tentative
+
+30
+00:02:27,139 --> 00:02:29,219
+while it is held or requested.
+
+31
+00:02:29,219 --> 00:02:33,263
+Open Calendars, Calendar, and go to the week of the appointment.
+
+32
+00:02:33,715 --> 00:02:38,390
+Appointments can only be changed on their own page, not by dragging them
+
+33
+00:02:38,390 --> 00:02:42,525
+on the calendar, so the calendar and the bookings always agree.
+
+34
+00:02:46,725 --> 00:02:50,870
+When a customer calls to change a time, search for them by name,
+
+35
+00:02:50,870 --> 00:02:54,778
+open the appointment, and move it to a time that suits them.
+
+36
+00:02:54,778 --> 00:02:58,864
+The old time is free again at once, and the next person waiting
+
+37
+00:02:58,864 --> 00:03:00,285
+can be offered it.
+
+38
+00:03:01,035 --> 00:03:06,555
+For appointment types that wait for confirmation, filter the list by the Requested
+
+39
+00:03:06,555 --> 00:03:10,445
+status each morning, and confirm or cancel each request.
+
+40
+00:03:11,195 --> 00:03:16,360
+After each visit, mark the appointment Took place, or No-show when the customer
+
+41
+00:03:16,360 --> 00:03:19,885
+didn't come, so the list shows what really happened.
+
+42
+00:03:21,885 --> 00:03:27,168
+Staff can book, confirm, move and cancel appointments from one page, and every
+
+43
+00:03:27,168 --> 00:03:29,370
+change shows on the calendar.
+
+44
+00:03:29,370 --> 00:03:31,005
+Thanks for watching.
+

@@ -1,0 +1,85 @@
+{
+  "title": "Calendar Invitations: Email Invites, Answers and Updates | CrestApps for Orchard Core",
+  "description": "With Calendar Invitations on, Orchard Core emails the people invited to a calendar event: an invitation with a calendar file and Accept, Maybe and Decline links, then updates and cancellations. Guests answer from the email without signing in.\n\nIn this video:\n• What is sent, and to whom\n• Setting up email and the site's Base url\n• Inviting a user of the site and a guest\n• Answering from the email, and seeing the answer on the event\n• Updates and cancellations",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "invitations",
+    "email",
+    "ics",
+    "RSVP",
+    "SMTP",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core",
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "What is sent"
+    },
+    {
+      "time": "1:03",
+      "title": "Set up email"
+    },
+    {
+      "time": "1:49",
+      "title": "Invite people"
+    },
+    {
+      "time": "2:26",
+      "title": "Answer from the email"
+    },
+    {
+      "time": "2:57",
+      "title": "Changes and cancellations"
+    },
+    {
+      "time": "3:37",
+      "title": "Good to know"
+    },
+    {
+      "time": "4:04",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars.Invitations"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "produced": "2026-10-31",
+  "length": "4:15"
+}

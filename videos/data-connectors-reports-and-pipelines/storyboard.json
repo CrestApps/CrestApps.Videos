@@ -1,0 +1,149 @@
+{
+  "title": "Connected data in reports and pipelines",
+  "output": "data-connectors-reports-and-pipelines",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Connected data in use",
+      "subtitle": "Reports, pipelines and permissions",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A data set only matters when something reads it. This video uses a live and an imported data set in the Report Builder and in a data pipeline, and shows the permissions that decide who can pick them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Where data sets appear",
+      "subtitle": "Wherever you pick a data source",
+      "clips": [
+        {
+          "id": "01-where",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "where-1",
+              "text": "A connected data set shows up wherever you pick a data source: in the Report Builder, and in the Read a data source step of a data pipeline."
+            },
+            {
+              "id": "where-2",
+              "text": "Live data sets are listed under Connected data, live. Imported ones are under Connected data, imported. Each is shown with the connection it reads."
+            },
+            {
+              "id": "where-3",
+              "text": "A report on a live data set reads the other system when it runs. A report on an imported data set reads the last copy, so it stays fast, and it works while the source is down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "In the Report Builder",
+      "subtitle": "A live and an imported data set",
+      "clips": [
+        {
+          "id": "02-report",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "rep-1",
+              "text": "In Reports, Report Builder, click New Report, then Add data set. Next to Content items and Users, the groups now include Connected data, live, and Connected data, imported."
+            },
+            {
+              "id": "rep-2",
+              "text": "Under live, there are the Orders and Customers data sets. Add Orders, and its fields appear in the Data panel: the ones you chose to show."
+            },
+            {
+              "id": "rep-3",
+              "text": "Drag Region into the columns, then the number of rows. The preview reads the API live, and shows how many orders each region has."
+            },
+            {
+              "id": "rep-4",
+              "text": "An imported data set works the same way. Its card says when its copy was imported, because that is the data the report will read."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "In a data pipeline",
+      "subtitle": "The Read a data source step",
+      "clips": [
+        {
+          "id": "03-pipeline",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "pipe-1",
+              "text": "In Tools, Data Pipelines, click Add Pipeline and give it a name. The designer opens, ready for a source."
+            },
+            {
+              "id": "pipe-2",
+              "text": "Choose Read a data source. The same list opens, with the same groups, so a pipeline can read a live data set or an imported one."
+            },
+            {
+              "id": "pipe-3",
+              "text": "Pick Imported orders. The step now reads the copy, and the steps after it can filter, group and send the rows on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Who can read a data set",
+      "subtitle": "Permissions in Roles",
+      "clips": [
+        {
+          "id": "04-roles",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "Only people who can read a data set see it in a report or a pipeline. In Access Control, Roles, open a role and look for Read every connected data set."
+            },
+            {
+              "id": "perm-2",
+              "text": "Or give a role just one data set: tick Read the connected data set, with that data set's name."
+            },
+            {
+              "id": "perm-3",
+              "text": "The rule is the same for live and imported data sets, so importing data never shows it to more people. Without the permission, the data set is not listed at all."
+            },
+            {
+              "id": "perm-4",
+              "text": "Reading is separate from managing. Manage data connections and Manage connected data sets are for the people who set the connections up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Connected data in use",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Connected data sets appear next to the site's own data in reports and pipelines, and one permission rule decides who can read them. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

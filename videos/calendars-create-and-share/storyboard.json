@@ -1,0 +1,133 @@
+{
+  "title": "Create and share a calendar",
+  "output": "calendars-create-and-share",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Create and share a calendar",
+      "subtitle": "Visibility, sharing levels and permissions",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A calendar is only useful to the people who can reach it. This video creates a calendar, shows how its visibility and its sharing decide who sees what, explains the access levels, and shows the permissions that let people use, create and manage calendars."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Create and share a calendar",
+      "subtitle": "Visibility, sharing levels and overlaps",
+      "short": "create",
+      "clips": [
+        {
+          "id": "01-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "create-1",
+              "text": "Open Calendars, then Manage Calendars. The list shows the calendars you can see, with a search box and a Type filter. Choose Add calendar and pick the type. Here it is a General calendar for a project."
+            },
+            {
+              "id": "create-2",
+              "text": "Give the calendar a Name and a Description, and choose the Color its events are drawn in. The Time zone is the one new events of this calendar use. Leave it on the site's time zone to follow the site."
+            },
+            {
+              "id": "create-3",
+              "text": "Visibility decides who sees the calendar besides its owner and the people it is shared with. Private shows it to nobody else. Shared lets everyone see when it is busy, but not the details. Public lets everyone see its events. Enabled keeps the calendar open for new events."
+            },
+            {
+              "id": "share-1",
+              "text": "The Sharing section shares the calendar with users and roles, each at one of four levels. See free/busy time shows when the calendar is busy, and nothing else. Here the Support Team role gets that level."
+            },
+            {
+              "id": "share-2",
+              "text": "See events adds the events and their details. Jamie gets that level. Add and change events lets people add, change and cancel events, and Maria gets it. Manage, the highest level, also changes the calendar and who it is shared with."
+            },
+            {
+              "id": "share-3",
+              "text": "Each level includes the ones before it. The person who creates a calendar, and the calendar administrators, always manage it. Under Overlaps, Limit overlapping events refuses a busy event when the calendar is already full, which is how a room works. A project calendar doesn't need it. Choose Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "What each person sees",
+      "subtitle": "Details, or only busy time",
+      "short": "see",
+      "clips": [
+        {
+          "id": "02-jamie",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "jam-1",
+              "text": "Jamie was given See events. Project Falcon is listed with his other calendars, and its events show their titles. Clicking one opens its details, but there is no Edit, because he can only read the calendar."
+            }
+          ]
+        },
+        {
+          "id": "03-alex",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "alex-1",
+              "text": "Alex belongs to the Support Team, which was given See free/busy time. The calendar is listed for him too, but its events show only as Busy, with their times and nothing else. Anyone who can't open an event sees it this way wherever it appears."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The calendar permissions",
+      "subtitle": "Use, create, view all and manage all",
+      "short": "permissions",
+      "clips": [
+        {
+          "id": "04-permissions",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "perm-1",
+              "text": "Calendar permissions are on the role page, under Access Control, Roles. Use calendars lets someone have a personal calendar and reach the calendars shared with them, and everyone who is signed in has it. Create calendars lets someone create calendars, and the creator manages them."
+            },
+            {
+              "id": "perm-2",
+              "text": "View all calendars gives read access to every calendar, and Manage all calendars gives full access to every one. Give these two to administrators only."
+            },
+            {
+              "id": "perm-3",
+              "text": "List anyone's calendar events lets someone see anyone's schedule, and View anyone's calendar events lets them open the events of any calendar instead of seeing busy time. The own versions, for a person's own schedule and the events they created or attend, come with Use calendars."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Share with the right people",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Create the calendar, choose its visibility, share it at the level each person needs, and give roles only the permissions they need. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

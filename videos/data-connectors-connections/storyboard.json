@@ -1,0 +1,228 @@
+{
+  "title": "Data connections",
+  "output": "data-connectors-connections",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "SQL": "sequel",
+    "API": "A.P.I.",
+    "Elasticsearch": "Elastic search",
+    "OpenSearch": "Open Search",
+    "Entra": "Entra",
+    "OAuth": "O Auth"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Data connections",
+      "subtitle": "Reach other systems from your site",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Data connectors bring data from other systems into your site, so reports and data pipelines can use it next to the site's own data. This video is about connections: the kinds of system you can reach, how to add one and check it, how secrets are kept, and what a failed check tells you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why connections",
+      "subtitle": "One setup per system",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Reports often need data that lives somewhere else: a sales system's web API, a spreadsheet someone exports every week, a search index, or a database."
+            },
+            {
+              "id": "why-2",
+              "text": "A connection is how the site reaches one of those systems. You set it up once, with its address and credentials, and every data set that reads from it shares it."
+            },
+            {
+              "id": "why-3",
+              "text": "There are four kinds of connection: SQL Server, HTTP API, Elasticsearch, and files in the media library."
+            },
+            {
+              "id": "why-4",
+              "text": "A data set then picks one table, API path, index or file from the connection. Data sets have their own video; this one stays with connections."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Open the connections",
+      "subtitle": "Tools, Data Connectors",
+      "clips": [
+        {
+          "id": "02-open",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "open-1",
+              "text": "Connections live under Tools, Data Connectors, Connections. This site has none yet, and the list says so."
+            },
+            {
+              "id": "open-2",
+              "text": "Click Add Connection. The site asks which kind of system the connection should reach, with a card for each kind. When the list grows, type in Filter to narrow it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Files in the media library",
+      "subtitle": "The simplest kind",
+      "clips": [
+        {
+          "id": "03-files",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "files-1",
+              "text": "The simplest kind reads files from the media library. In Media, Library, a folder named demo data holds a customers file and a products file, both in CSV format. Excel files upload as they are; for CSV, JSON and JSON Lines, an administrator first allows those file types in the site's media settings."
+            },
+            {
+              "id": "files-2",
+              "text": "Back in the connections, add a Media library files connection. Give it a name, Demo files, and the folder it may read, demo data. Its data sets can read any file in that folder and its subfolders."
+            },
+            {
+              "id": "files-3",
+              "text": "Click Save and test. The site saves the connection and checks it at once. The green message says it found two readable files."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "A web API",
+      "subtitle": "Address, authentication and the first check",
+      "clips": [
+        {
+          "id": "04-http",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "http-1",
+              "text": "Next, a connection to a web API. Add an HTTP API connection, name it Sales API, and enter its Base URL: the address every request starts with."
+            },
+            {
+              "id": "http-2",
+              "text": "Authentication offers none, an API key, basic, a bearer token, OAuth 2.0, or OpenID Connect, and the fields below change with the choice. This API wants a key, so pick API key. The header name is filled in with a common choice, and you change it if the API expects another. Then type the key."
+            },
+            {
+              "id": "http-3",
+              "text": "Click Save and test. This time the check is red. The site is not allowed to reach a server on its own network, unless its administrator allows it. The message is for your administrator: nothing in this form can fix it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Secrets stay secret",
+      "subtitle": "Fix the check and test again",
+      "clips": [
+        {
+          "id": "05-fix",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fix-1",
+              "text": "Once the administrator has allowed the address, open the connection again. The key's box doesn't show the key. It says the key is saved, and to leave the box empty to keep it. Passwords, keys and secrets are stored encrypted, and are never shown again."
+            },
+            {
+              "id": "fix-2",
+              "text": "Leave a secret box empty to keep the stored secret, or type a new one to replace it. Click Save and test again."
+            },
+            {
+              "id": "fix-3",
+              "text": "Now the message is green, and says what the server answered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Test, add data sets, delete",
+      "subtitle": "The actions of a connection",
+      "clips": [
+        {
+          "id": "06-manage",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "manage-1",
+              "text": "Each connection in the list shows its kind and technical name. Open Actions on a row to see what you can do: Test checks a saved connection again, without opening it, and the result appears at the top."
+            },
+            {
+              "id": "manage-2",
+              "text": "Add data set starts a data set that reads from this connection."
+            },
+            {
+              "id": "manage-3",
+              "text": "And Delete removes a connection. But not while data sets read from it: the site refuses, and tells you to remove or move those data sets first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Elasticsearch and SQL Server",
+      "subtitle": "The other two kinds",
+      "clips": [
+        {
+          "id": "07-kinds",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "kinds-1",
+              "text": "An Elasticsearch connection takes the cluster's URL and one of four ways to authenticate. OpenSearch clusters work the same way."
+            },
+            {
+              "id": "kinds-2",
+              "text": "A SQL Server connection takes the server's name, the database, and how to sign in: with a SQL Server login, with the site's Windows account, with a Microsoft Entra identity, or with the identity of the site's host."
+            },
+            {
+              "id": "kinds-3",
+              "text": "It can also encrypt the traffic, trust a certificate the site can't check, and read from a read-only replica, so reports don't slow the main database down."
+            },
+            {
+              "id": "kinds-4",
+              "text": "Give every connection a login that can only read what reports need: a data set reads with the rights of its connection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Connections",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A connection is set up once per system, checked with Save and test, and keeps its secrets hidden. Next, add data sets that read from it. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

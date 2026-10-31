@@ -1,0 +1,244 @@
+1
+00:00:01,000 --> 00:00:04,463
+Most meetings repeat, and most meetings have people.
+
+2
+00:00:04,463 --> 00:00:09,001
+This video shows how to make an event repeat daily, weekly, monthly or
+
+3
+00:00:09,001 --> 00:00:13,599
+yearly, how to change or cancel one occurrence or the whole series, how
+
+4
+00:00:13,599 --> 00:00:18,495
+to invite people and guests, how invited people answer, and how status, busy
+
+5
+00:00:18,495 --> 00:00:21,660
+or free, and visibility change what others see.
+
+6
+00:00:26,261 --> 00:00:31,079
+Add an event as usual, then look at the Repeat section of the editor.
+
+7
+00:00:31,079 --> 00:00:36,668
+Repeats offers Does not repeat, Daily, Weekly, Monthly and Yearly, and every says
+
+8
+00:00:36,668 --> 00:00:39,880
+how many days, weeks, months or years apart.
+
+9
+00:00:39,880 --> 00:00:42,771
+Here a coaching session repeats weekly.
+
+10
+00:00:43,222 --> 00:00:47,992
+A weekly event repeats on the days you tick, here Tuesday and Thursday.
+
+11
+00:00:47,992 --> 00:00:52,019
+A monthly event repeats on the same day of the month, or on
+
+12
+00:00:52,019 --> 00:00:56,232
+the same weekday of the same week, such as the second Tuesday.
+
+13
+00:00:56,682 --> 00:01:01,381
+Under Ends, choose Never, a date, or a number of occurrences.
+
+14
+00:01:01,381 --> 00:01:03,625
+This one ends after eight.
+
+15
+00:01:03,625 --> 00:01:08,745
+For a pattern these choices don't cover, a custom rule, which is an
+
+16
+00:01:08,745 --> 00:01:11,550
+iCalendar repeat rule, takes over.
+
+17
+00:01:11,550 --> 00:01:12,812
+Choose Save.
+
+18
+00:01:13,264 --> 00:01:17,446
+The series shows on every Tuesday and Thursday it covers.
+
+19
+00:01:17,446 --> 00:01:20,964
+The Month view shows the whole run at a glance.
+
+20
+00:01:25,164 --> 00:01:29,130
+Open any occurrence of a repeating event and choose Edit.
+
+21
+00:01:29,130 --> 00:01:33,915
+The editor asks you to apply the changes, or the cancellation, to This
+
+22
+00:01:33,915 --> 00:01:37,504
+occurrence, This and following, or All occurrences.
+
+23
+00:01:37,955 --> 00:01:42,342
+Keep This occurrence and change the time, and only that day moves.
+
+24
+00:01:42,342 --> 00:01:45,085
+The rest of the series stays as it was.
+
+25
+00:01:45,535 --> 00:01:50,122
+Choose This and following to change a day and every day after it.
+
+26
+00:01:50,122 --> 00:01:55,355
+The series ends before that day, and a new series starts with your changes.
+
+27
+00:01:55,806 --> 00:02:00,979
+To cancel one day, open the occurrence, keep This occurrence, and choose Cancel.
+
+28
+00:02:00,979 --> 00:02:03,805
+Just that day disappears from the series.
+
+29
+00:02:03,805 --> 00:02:07,594
+Choosing All occurrences cancels the whole event instead.
+
+30
+00:02:07,594 --> 00:02:12,466
+To change how the event repeats, edit the series from its first occurrence.
+
+31
+00:02:16,667 --> 00:02:20,243
+The Attendees section of the editor invites people.
+
+32
+00:02:20,243 --> 00:02:25,073
+Under People, choose Invite users, search by name, and pick one or more
+
+33
+00:02:25,073 --> 00:02:26,578
+users of the site.
+
+34
+00:02:26,578 --> 00:02:30,467
+Here Maria invites Jamie and Sam to a customer workshop.
+
+35
+00:02:37,911 --> 00:02:40,492
+Guests are people outside the site.
+
+36
+00:02:40,492 --> 00:02:44,711
+Type one per line, as an email address, or as a name followed
+
+37
+00:02:44,711 --> 00:02:47,167
+by the address in angle brackets.
+
+38
+00:02:47,167 --> 00:02:52,771
+With Calendar Invitations turned on, people with an email address are also emailed.
+
+39
+00:02:53,221 --> 00:02:55,970
+After saving, open the event again.
+
+40
+00:02:55,970 --> 00:03:01,668
+Answers lists everyone invited, with a check mark for accepted, a question mark
+
+41
+00:03:01,668 --> 00:03:06,831
+for maybe, a cross for declined, and an empty circle for no answer yet.
+
+42
+00:03:11,021 --> 00:03:13,600
+Jamie opens the event he was invited to.
+
+43
+00:03:13,600 --> 00:03:17,581
+At the top the editor says You are invited, and shows his current
+
+44
+00:03:17,581 --> 00:03:19,881
+answer, which he has not given yet.
+
+45
+00:03:20,332 --> 00:03:24,076
+Accept, Maybe and Decline record his answer at once.
+
+46
+00:03:24,076 --> 00:03:28,530
+The Answers list shows it, and so it does for the organizer and
+
+47
+00:03:28,530 --> 00:03:31,112
+everyone else who opens the event.
+
+48
+00:03:35,300 --> 00:03:38,422
+Status is Confirmed, Tentative or Cancelled.
+
+49
+00:03:38,422 --> 00:03:42,231
+Show as is Busy, or Free for an event that is shown but
+
+50
+00:03:42,231 --> 00:03:45,603
+leaves the time free, such as an optional lunch.
+
+51
+00:03:45,603 --> 00:03:50,660
+A free event doesn't count when people look for a time that suits everyone.
+
+52
+00:03:51,111 --> 00:03:55,010
+Visibility is Same as the calendar, Public, or Private.
+
+53
+00:03:55,010 --> 00:03:59,802
+For a private event, others who can only see the calendar's busy time
+
+54
+00:03:59,802 --> 00:04:03,061
+see that the time is taken, and nothing else.
+
+55
+00:04:03,512 --> 00:04:07,561
+Some kinds of events need approval, such as time off on a calendar
+
+56
+00:04:07,561 --> 00:04:09,304
+that another module adds.
+
+57
+00:04:09,304 --> 00:04:13,972
+They are created as Tentative, and someone who manages the calendar opens the
+
+58
+00:04:13,972 --> 00:04:15,772
+event and chooses Confirm.
+
+59
+00:04:17,772 --> 00:04:21,642
+Repeat an event on the days you choose, change one day or the
+
+60
+00:04:21,642 --> 00:04:25,800
+rest of the series, invite people and guests, and let them answer.
+
+61
+00:04:25,800 --> 00:04:27,302
+Thanks for watching.
+

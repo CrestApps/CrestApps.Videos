@@ -1,0 +1,157 @@
+{
+  "title": "External Calendars",
+  "output": "calendars-external",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "External Calendars",
+      "subtitle": "Show another calendar's events in yours, read only",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "External Calendars show the events of another calendar inside one of yours, kept up to date by the site. This video shows how to subscribe a calendar to an iCalendar address, how often it is read, what the events look like, and what happens when an address cannot be used."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why external calendars",
+      "subtitle": "See other people's calendars next to your own",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Partners, vendors and other teams publish their calendars somewhere else. You want to see them next to your own events, without copying anything by hand."
+            },
+            {
+              "id": "why-2",
+              "text": "With the External Calendars feature on, a calendar can follow a secret iCalendar address, such as the one Google Calendar or Outlook shows in a calendar's settings."
+            },
+            {
+              "id": "why-3",
+              "text": "The events are copied in, kept up to date, and removed here when they are removed there. They cannot be changed here, because the other calendar owns them."
+            },
+            {
+              "id": "why-4",
+              "text": "Signing in to Google Calendar or Microsoft 365 to keep calendars in step both ways is not available. The address is the only link."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Subscribe a calendar",
+      "subtitle": "An address, and how often to read it",
+      "clips": [
+        {
+          "id": "02-subscribe",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sub-1",
+              "text": "Open Manage Calendars, and add a General calendar. Name it Partner events. Its editor has a Subscription card, with a box to keep this calendar in step with an external calendar. Tick it."
+            },
+            {
+              "id": "sub-2",
+              "text": "Keep the provider on iCalendar address, and paste the external calendar's address. It must start with https, http or webcal."
+            },
+            {
+              "id": "sub-3",
+              "text": "Every sets how often the calendar is read, at least every five minutes. The site looks for calendars that are due once every five minutes. Choose Save."
+            },
+            {
+              "id": "sub-4",
+              "text": "Now try an address that cannot be used, one on this same machine. Add another calendar, Broken feed, with a page of this site as its address, and save it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "What happens next",
+      "subtitle": "Events arrive, and failures are explained",
+      "clips": [
+        {
+          "id": "03-result",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "res-1",
+              "text": "A few minutes later, the first read has happened. Open the Partner events calendar, and look at the Subscription card. Last synchronized shows when it last worked, and what it did."
+            },
+            {
+              "id": "res-2",
+              "text": "Open the calendar. The partner's events are here, in the calendar's color."
+            },
+            {
+              "id": "res-3",
+              "text": "Click an event. You can read it, but there is no Edit button, because the other calendar owns it. Change it there, and it changes here at the next read."
+            },
+            {
+              "id": "res-4",
+              "text": "Now the broken feed. Its Last synchronized shows why it failed. Addresses on the local network cannot be subscribed to, so a calendar cannot be used to reach private systems on your network."
+            },
+            {
+              "id": "res-5",
+              "text": "After each failure in a row, the site waits longer before it tries again, up to thirty-two times the interval. The events already in the calendar stay, and one failing address never blocks the others."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Good to know",
+      "subtitle": "What to remember",
+      "clips": [
+        {
+          "id": "04-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "know-1",
+              "text": "Use the address the other calendar publishes for sharing, and treat it like a password. Anyone who has it can read that calendar."
+            },
+            {
+              "id": "know-2",
+              "text": "The address must be reachable from the internet. Addresses on private or local networks are refused."
+            },
+            {
+              "id": "know-3",
+              "text": "To stop following a calendar, untick the box. Subscribing is one direction only, and nothing you do here changes the other calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "External Calendars",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Paste a calendar's address, and its events appear in yours and stay up to date. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

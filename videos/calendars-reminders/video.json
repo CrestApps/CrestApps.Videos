@@ -1,0 +1,76 @@
+{
+  "title": "Calendar Reminders: On-Screen Alerts Before Events Start | CrestApps for Orchard Core",
+  "description": "With Calendar Reminders on, an Orchard Core calendar event can remind its owner and invited users on screen before it starts. The reminder stays on every admin page until it is dismissed, and workflows can act at the same moments.\n\nIn this video:\n• Why reminders\n• Setting the Remind option on an event\n• The reminder on screen: stays on every page, Open calendar, Dismiss\n• Workflow events: Starting Soon and Completed",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "reminders",
+    "notifications",
+    "events",
+    "workflows",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core",
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why reminders"
+    },
+    {
+      "time": "0:54",
+      "title": "Set a reminder"
+    },
+    {
+      "time": "1:39",
+      "title": "The reminder on screen"
+    },
+    {
+      "time": "2:14",
+      "title": "Workflows"
+    },
+    {
+      "time": "2:52",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars.Reminders"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "produced": "2026-10-31",
+  "length": "3:02"
+}

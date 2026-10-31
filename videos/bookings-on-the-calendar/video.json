@@ -1,0 +1,67 @@
+{
+  "title": "Bookings on the Calendar: See Every Booking and Block Dates | CrestApps for Orchard Core",
+  "description": "Tours, rooms and appointments you sell with CrestApps Bookings are easy to lose among your team's other plans. When Bookings and Calendars are both on, every booking is also an event on a shared calendar, and a calendar can close the dates of a booking product.\n\nThis video shows the Bookings calendar, how to add older bookings to the calendar with Sync to calendar, and how Block with calendar keeps a guide, a room or a vehicle from being sold twice.\n\nIn this video:\n• Why bookings on the shared calendar help, and what each event shows\n• The Bookings calendar under Commerce, Bookings, and opening it on the shared calendar\n• Sync to calendar for bookings made before Calendars was turned on\n• Block with calendar on a booking product",
+  "hashtags": [
+    "OrchardCore",
+    "Bookings",
+    "Calendar",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS",
+    "bookings",
+    "commerce",
+    "tours",
+    "calendar sync"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why it helps"
+    },
+    {
+      "time": "0:58",
+      "title": "The Bookings calendar"
+    },
+    {
+      "time": "1:47",
+      "title": "Block dates with a calendar"
+    },
+    {
+      "time": "2:19",
+      "title": "Everyday use"
+    }
+  ],
+  "links": [
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/bookings"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Bookings"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/modules/bookings.md"
+  ],
+  "length": "3:12"
+}

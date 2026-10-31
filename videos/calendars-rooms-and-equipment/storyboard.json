@@ -1,0 +1,111 @@
+{
+  "title": "Rooms and equipment in Calendars",
+  "output": "calendars-rooms-and-equipment",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Rooms and equipment",
+      "subtitle": "Book a meeting room or a projector in a calendar",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Meeting rooms and shared equipment are booked the same way as meetings. This video shows how to add a Room and an Equipment calendar, how to book them by inviting them to an event, what happens when a room is already taken, and how to book or close a room straight on its own calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Add a room and equipment",
+      "subtitle": "Seats, location and one booking at a time",
+      "short": "create",
+      "clips": [
+        {
+          "id": "01-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "room-1",
+              "text": "Room and Equipment calendars come with Resource Calendars. Open Manage Calendars, choose Add calendar, and then Room. Give it a Name, and fill in its Location, how many Seats it has, and what it is Equipped with. Rooms and equipment both come with the Resource Calendars feature, which your administrator turns on."
+            },
+            {
+              "id": "room-2",
+              "text": "A room starts as a Public calendar, so everyone sees when it is booked. Limit overlapping events starts ticked, with one event at a time. That limit is what makes a second booking for the same time refused. Choose Save. To retire a room later, untick Enabled: a disabled calendar keeps its events but takes no new bookings."
+            },
+            {
+              "id": "equip-1",
+              "text": "An Equipment calendar is the same without seats. Here it is a demo projector, which also takes one booking at a time. Equipment is booked the same way as a room: it appears in the same Rooms and equipment list of an event, and one event can book a room and its projector together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Book a room",
+      "subtitle": "Invite the room to an event",
+      "short": "book",
+      "clips": [
+        {
+          "id": "02-book",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "book-1",
+              "text": "To book a room, add an event as usual. Under Attendees, open Rooms and equipment, pick the Boardroom, and choose Save. The room is booked for the time of the event."
+            },
+            {
+              "id": "book-2",
+              "text": "The room has a calendar of its own. Tick the Boardroom in the list on the side, and its bookings show for everyone who can see it. A booking that the room has declined does not count against its limit. Anyone who can see the room can look here to find a free time."
+            },
+            {
+              "id": "book-3",
+              "text": "Now another event at the same time in the same room. When it is saved, it is refused, and the editor stays open with a message saying that the room is already booked. The message names the room and the time that is taken, so you know what to change. Equipment, such as the projector, is refused the same way. Choose another time or another room, and save again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Book or close a room on its own calendar",
+      "subtitle": "Booking and Maintenance",
+      "short": "direct",
+      "clips": [
+        {
+          "id": "03-direct",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "dir-1",
+              "text": "People who can change a room's calendar can add to it directly. New event lists the room with its two kinds of events: Booking, for a use of the room, and Maintenance, for the time it is out of use. The same limit applies, so maintenance blocks bookings of that time too. Because bookings and maintenance live on the room's calendar, anyone who can see the room can check when it is free before choosing a time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Book the right room",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Add a calendar for each room and item, invite them to events to book them, and let the limit of one at a time keep the bookings apart. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
