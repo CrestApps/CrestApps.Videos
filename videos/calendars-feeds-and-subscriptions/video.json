@@ -1,0 +1,80 @@
+{
+  "title": "Calendar Feeds: Subscription Addresses, Export and Import | CrestApps for Orchard Core",
+  "description": "Calendar Feeds let Outlook, Google Calendar and phones follow an Orchard Core calendar through a private subscription address, and let you export a calendar as an .ics file or import one. Re-importing a file updates events by their identifier instead of adding them twice.\n\nIn this video:\n• Why feeds: a subscription address, and calendar files\n• Making, copying, replacing and removing the subscription address\n• Private events show as busy time\n• Exporting a calendar as an .ics file\n• Importing an .ics file, and importing it again",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "ics",
+    "iCalendar",
+    "subscription",
+    "feed",
+    "export",
+    "import",
+    "Outlook",
+    "Google Calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core",
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why feeds"
+    },
+    {
+      "time": "0:56",
+      "title": "The subscription address"
+    },
+    {
+      "time": "1:59",
+      "title": "Export and import"
+    },
+    {
+      "time": "2:55",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:26",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars.Feeds"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "produced": "2026-10-31",
+  "length": "3:36"
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Refreshing Imported Data Sets: Schedules, Refresh Now, History and Failures | CrestApps for Orchard Core",
+  "description": "An imported data set keeps a copy of another system's rows inside your Orchard Core site, so reports are fast and keep working when the source is down. See how to set one up, refresh it on a schedule or by hand, read its history, and what happens when a refresh fails: the last good rows stay.\n\nIn this video:\n• Why import: live versus imported\n• Creating an imported data set and its first import\n• Refresh every, Refresh reads and the field-change policy\n• Refresh now and the refresh history\n• A failed refresh keeps the old rows\n• Refreshing only the changed rows, for SQL Server and Elasticsearch",
+  "hashtags": [
+    "OrchardCore",
+    "DataConnectors",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "data connectors",
+    "imported data sets",
+    "data refresh",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:17",
+      "title": "Why import"
+    },
+    {
+      "time": "0:55",
+      "title": "Create an imported data set"
+    },
+    {
+      "time": "1:52",
+      "title": "Refresh now and the history"
+    },
+    {
+      "time": "2:27",
+      "title": "When a refresh fails"
+    },
+    {
+      "time": "3:03",
+      "title": "Only the changed rows"
+    },
+    {
+      "time": "3:52",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/data-connectors"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.DataConnectors"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/data-connectors.md"
+  ],
+  "length": "4:04"
+}

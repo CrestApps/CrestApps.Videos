@@ -1,0 +1,160 @@
+1
+00:00:01,000 --> 00:00:04,635
+To plan a meeting, you need to know when people are free.
+
+2
+00:00:04,635 --> 00:00:09,135
+This video shows how to look at one person's schedule or everyone's, how
+
+3
+00:00:09,135 --> 00:00:13,578
+busy and free time are decided, how the Team Availability page lays out
+
+4
+00:00:13,578 --> 00:00:17,270
+a team's day, and how to find a time that everyone shares.
+
+5
+00:00:21,873 --> 00:00:26,379
+Under the calendar list, Whose schedule shows the events of other people.
+
+6
+00:00:26,379 --> 00:00:28,603
+Choose Everyone, and choose Show.
+
+7
+00:00:28,603 --> 00:00:34,649
+The calendar now shows the events on everyone's own calendars, and the events they attend, together.
+
+8
+00:00:34,649 --> 00:00:38,642
+This helps a manager see a team's workload, or check a busy week
+
+9
+00:00:38,642 --> 00:00:40,353
+before moving a meeting.
+
+10
+00:00:40,804 --> 00:00:47,067
+To follow one person, choose Choose people, search for a name, pick Jamie, and choose Show.
+
+11
+00:00:47,067 --> 00:00:52,684
+The calendar shows his own calendars and the events he attends, and nothing else.
+
+12
+00:00:56,753 --> 00:01:01,679
+Events you are not allowed to open show as Busy, with their time and no title.
+
+13
+00:01:01,679 --> 00:01:06,957
+Whose schedule only appears for people with the permission to list anyone's calendar
+
+14
+00:01:06,957 --> 00:01:12,353
+events, and opening the details needs the permission to view anyone's calendar events.
+
+15
+00:01:16,553 --> 00:01:20,892
+Whether someone is free is worked out from all of their calendars, and
+
+16
+00:01:20,892 --> 00:01:23,919
+from the events they attend on other calendars.
+
+17
+00:01:23,919 --> 00:01:27,973
+An event that is confirmed and shown as Busy makes the time busy.
+
+18
+00:01:28,723 --> 00:01:31,502
+A tentative event shows as tentative.
+
+19
+00:01:31,502 --> 00:01:35,961
+An event shown as Free, and kinds of events that leave the time
+
+20
+00:01:35,961 --> 00:01:41,195
+free, such as a holiday, a reminder or a milestone, don't make anyone busy.
+
+21
+00:01:41,195 --> 00:01:43,263
+A cancelled event is gone.
+
+22
+00:01:47,463 --> 00:01:51,963
+With Team Calendars on, open Calendars, then Team Availability.
+
+23
+00:01:51,963 --> 00:01:58,093
+Choose the team's calendar, the Day, and the Meeting length in minutes, and choose Show.
+
+24
+00:01:58,544 --> 00:02:02,949
+Every member of the team gets a row, with a cell for each half hour.
+
+25
+00:02:02,949 --> 00:02:07,354
+Red is busy, yellow is tentative, and green is free, worked out from
+
+26
+00:02:07,354 --> 00:02:09,557
+all of that person's calendars.
+
+27
+00:02:09,557 --> 00:02:14,259
+Here the quarterly planning makes all three busy at one in the afternoon,
+
+28
+00:02:14,259 --> 00:02:18,604
+and Sam's dentist appointment, which is tentative, shows in yellow.
+
+29
+00:02:19,056 --> 00:02:23,248
+Under the grid, When everyone is free lists the gaps long enough for
+
+30
+00:02:23,248 --> 00:02:25,854
+the meeting that all of the team shares.
+
+31
+00:02:25,854 --> 00:02:30,046
+Ask for a longer meeting, and the shorter gaps drop out of the list.
+
+32
+00:02:30,496 --> 00:02:33,142
+Pick another day and choose Show again.
+
+33
+00:02:33,142 --> 00:02:37,022
+With more than one team calendar, you choose the team first.
+
+34
+00:02:37,022 --> 00:02:41,079
+Once you have found a gap, add the event to the team's calendar
+
+35
+00:02:41,079 --> 00:02:42,725
+and invite the people.
+
+36
+00:02:42,725 --> 00:02:46,429
+The page shows the times in the time zone of the site, so
+
+37
+00:02:46,429 --> 00:02:48,546
+everyone reads the same hours.
+
+38
+00:02:50,546 --> 00:02:54,906
+Look at one schedule or everyone's, read the busy and free time, and
+
+39
+00:02:54,906 --> 00:02:58,854
+let Team Availability list the gaps that suit the whole team.
+
+40
+00:02:58,854 --> 00:03:00,386
+Thanks for watching.
+

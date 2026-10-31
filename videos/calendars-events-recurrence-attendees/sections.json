@@ -1,0 +1,22 @@
+{
+  "repeat": {
+    "start": 23,
+    "end": 82
+  },
+  "series": {
+    "start": 81,
+    "end": 134
+  },
+  "invite": {
+    "start": 133,
+    "end": 188
+  },
+  "respond": {
+    "start": 187,
+    "end": 213
+  },
+  "status": {
+    "start": 212,
+    "end": 257
+  }
+}

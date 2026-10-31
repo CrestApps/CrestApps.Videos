@@ -1,0 +1,178 @@
+{
+  "title": "Scheduling: people, rooms and appointment types",
+  "output": "scheduling-people-rooms-appointment-types",
+  "spoken": {
+    "Dr.": "Doctor"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Scheduling: people, rooms and appointment types",
+      "subtitle": "Set up what customers can book",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Scheduling books appointments with the people, rooms and equipment of your business, and offers only the times that are really free. This video shows how to add the people, rooms and equipment that take appointments, and how to describe each kind of appointment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why Scheduling",
+      "subtitle": "One time, one person, one room",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A clinic, a studio or a service team has the same problem. Customers want a time, and that time depends on who is working, which room is free, and what is already booked."
+            },
+            {
+              "id": "why-2",
+              "text": "Scheduling answers it with two things you set up once. Resources are the people, rooms and equipment that take appointments. Appointment types describe each kind of appointment and who can take it."
+            },
+            {
+              "id": "why-3",
+              "text": "With both in place, the site offers only times that are really free, and the same person or room can never be booked twice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Add the people, rooms and equipment",
+      "subtitle": "Scheduling resources",
+      "short": "resources",
+      "clips": [
+        {
+          "id": "02-resources",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "res-1",
+              "text": "Open Calendars, Scheduling Resources. The list is empty, so choose Add resource."
+            },
+            {
+              "id": "res-2",
+              "text": "Start with a person. Type the name, Dr. Maya Chen, and leave the kind on Staff member. The other kinds are Room, Equipment and Other."
+            },
+            {
+              "id": "res-3",
+              "text": "For a staff member, choose the user they are. Their own calendars then count too, so a meeting on their personal calendar keeps that time from being booked."
+            },
+            {
+              "id": "res-4",
+              "text": "Calendar is where appointments go. Leave it on Make a new calendar and the site creates one for this person. Time zone is the zone the working hours are in. Untick Takes appointments to stop offering a resource without deleting it."
+            },
+            {
+              "id": "res-5",
+              "text": "Working hours take one line per day. Two ranges on a line leave a gap, here a lunch break, and a day that isn't listed is a day off."
+            },
+            {
+              "id": "res-6",
+              "text": "Days off and changed days take one line each: a closed day, or shorter hours on one date. Hours can also come from shifts on a calendar, which suits staff who are scheduled elsewhere. Choose Save."
+            },
+            {
+              "id": "res-7",
+              "text": "Rooms and equipment are resources too. Add Treatment room 1, with the kind Room. It has no user, and its hours are written the same way."
+            },
+            {
+              "id": "res-8",
+              "text": "Each resource appears in the list. Deleting one keeps its calendar and its appointments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Describe an appointment type",
+      "subtitle": "Length, who takes it, and the booking rules",
+      "short": "types",
+      "clips": [
+        {
+          "id": "03-types",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "type-1",
+              "text": "Open Calendars, Appointment Types and choose Add appointment type. The General card holds what customers see: the Name, a Description, the Location, a Color for its events on the calendar, and Can be booked."
+            },
+            {
+              "id": "type-2",
+              "text": "The Time card sets the Length of an appointment, and how far apart the offered start times are. Free time before and after is time the resource needs around each appointment, such as cleaning up. Other plans can't fall in it."
+            },
+            {
+              "id": "type-3",
+              "text": "Under Who, choose the Resources that take this appointment. Pick decides who gets it. Any free resource takes the first one that is free, and Share out gives it to the one with the fewest recent appointments."
+            },
+            {
+              "id": "type-4",
+              "text": "All resources together needs every resource at once, such as a doctor and a room. Places per appointment above one makes a class that several customers book."
+            },
+            {
+              "id": "type-5",
+              "text": "Booking rules set the minimum notice, how many days ahead customers can book, the most appointments per resource per day, and how long a time is held for someone who is still booking."
+            },
+            {
+              "id": "type-6",
+              "text": "Tick Bookings wait for someone to confirm them to review requests first. Customers can book it themselves puts the type on a public booking page, at the address you type. Choose Save."
+            },
+            {
+              "id": "type-7",
+              "text": "The type appears in the list, with a Book button for booking it. Deleting a type keeps its appointments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Where appointments go",
+      "subtitle": "Every resource has a calendar",
+      "short": "calendar",
+      "clips": [
+        {
+          "id": "04-calendar",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cal-1",
+              "text": "Every resource has its own calendar, of the Appointments type. Open Calendars, Calendar, and tick the calendar of Dr. Maya Chen or of the room to see its appointments."
+            },
+            {
+              "id": "cal-2",
+              "text": "Anything you add to that calendar, such as a Blocked time event, keeps that time from being booked. The next video shows exactly how open times are worked out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Scheduling",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Resources say who and what can take appointments, and appointment types say how long they last and how they are booked. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Scheduling: How Open Times Are Worked Out | CrestApps for Orchard Core",
+  "description": "Why does a time show up, or not? The Scheduling module for Orchard Core offers a time only when it is really free: inside the working hours, clear of busy time on the calendars, clear of the free time around appointments, and within the booking limits.\n\nThis video shows each rule on screen, and what to check when no times appear.\n\nIn this video:\n• The rules: working hours, busy time, free time around appointments, and limits\n• Working hours, lunch breaks and days off, and booking with all resources together\n• Blocked time on a calendar, and the free time a booked appointment keeps clear\n• Minimum notice, how far ahead, the most per day and places in a class\n• What to check when no times appear",
+  "hashtags": [
+    "OrchardCore",
+    "Scheduling",
+    "Appointments",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "scheduling",
+    "appointments",
+    "booking",
+    "calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS",
+    "open times",
+    "availability"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "The rules"
+    },
+    {
+      "time": "1:02",
+      "title": "Working hours and days off"
+    },
+    {
+      "time": "2:05",
+      "title": "Busy time and free time"
+    },
+    {
+      "time": "2:58",
+      "title": "Booking limits"
+    },
+    {
+      "time": "3:31",
+      "title": "When no times appear"
+    },
+    {
+      "time": "3:57",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/scheduling"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/scheduling"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Scheduling"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/scheduling.md",
+    "src/CrestApps.Docs/docs/modules/scheduling.md"
+  ],
+  "length": "4:10"
+}

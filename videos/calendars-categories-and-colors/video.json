@@ -1,0 +1,81 @@
+{
+  "title": "Calendars: Color-Code Events with Categories | CrestApps for Orchard Core",
+  "description": "How to color-code and filter events with categories in the Calendars module of CrestApps for Orchard Core.\n\nIn this video:\n• The order that decides an event's color: its own color, its category, its kind of event, its calendar\n• Making your own categories and shared ones\n• Putting events in a category, or giving an event its own color\n• Filtering the calendar by category\n• Deleting a category",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "calendars",
+    "categories",
+    "colors",
+    "filter",
+    "color coding",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "How an event gets its color"
+    },
+    {
+      "time": "0:43",
+      "title": "Make a category"
+    },
+    {
+      "time": "1:33",
+      "title": "Put events in categories"
+    },
+    {
+      "time": "2:11",
+      "title": "Filter by category"
+    },
+    {
+      "time": "2:39",
+      "title": "Delete a category"
+    },
+    {
+      "time": "2:55",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "length": "3:05",
+  "produced": "2026-10-31"
+}

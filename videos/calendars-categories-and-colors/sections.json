@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "start": 19,
+    "end": 44
+  },
+  "make": {
+    "start": 43,
+    "end": 94
+  },
+  "use": {
+    "start": 93,
+    "end": 132
+  },
+  "filter": {
+    "start": 131,
+    "end": 160
+  },
+  "delete": {
+    "start": 159,
+    "end": 176
+  }
+}

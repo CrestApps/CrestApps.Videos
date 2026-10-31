@@ -1,0 +1,119 @@
+{
+  "title": "Schedules and team availability in Calendars",
+  "output": "calendars-schedules-and-team",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Schedules and team availability",
+      "subtitle": "See who is busy, and find a time that suits everyone",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "To plan a meeting, you need to know when people are free. This video shows how to look at one person's schedule or everyone's, how busy and free time are decided, how the Team Availability page lays out a team's day, and how to find a time that everyone shares."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Whose schedule",
+      "subtitle": "One person, several people, or everyone",
+      "short": "schedule",
+      "clips": [
+        {
+          "id": "01-schedule",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sch-1",
+              "text": "Under the calendar list, Whose schedule shows the events of other people. Choose Everyone, and choose Show. The calendar now shows the events on everyone's own calendars, and the events they attend, together. This helps a manager see a team's workload, or check a busy week before moving a meeting."
+            },
+            {
+              "id": "sch-2",
+              "text": "To follow one person, choose Choose people, search for a name, pick Jamie, and choose Show. The calendar shows his own calendars and the events he attends, and nothing else."
+            },
+            {
+              "id": "sch-3",
+              "text": "Events you are not allowed to open show as Busy, with their time and no title. Whose schedule only appears for people with the permission to list anyone's calendar events, and opening the details needs the permission to view anyone's calendar events."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Busy and free",
+      "subtitle": "How the time is counted",
+      "short": "freebusy",
+      "clips": [
+        {
+          "id": "02-freebusy",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "fb-1",
+              "text": "Whether someone is free is worked out from all of their calendars, and from the events they attend on other calendars. An event that is confirmed and shown as Busy makes the time busy."
+            },
+            {
+              "id": "fb-2",
+              "text": "A tentative event shows as tentative. An event shown as Free, and kinds of events that leave the time free, such as a holiday, a reminder or a milestone, don't make anyone busy. A cancelled event is gone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Team availability",
+      "subtitle": "Find a time that suits everyone",
+      "short": "team",
+      "clips": [
+        {
+          "id": "03-team",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "team-1",
+              "text": "With Team Calendars on, open Calendars, then Team Availability. Choose the team's calendar, the Day, and the Meeting length in minutes, and choose Show."
+            },
+            {
+              "id": "team-2",
+              "text": "Every member of the team gets a row, with a cell for each half hour. Red is busy, yellow is tentative, and green is free, worked out from all of that person's calendars. Here the quarterly planning makes all three busy at one in the afternoon, and Sam's dentist appointment, which is tentative, shows in yellow."
+            },
+            {
+              "id": "team-3",
+              "text": "Under the grid, When everyone is free lists the gaps long enough for the meeting that all of the team shares. Ask for a longer meeting, and the shorter gaps drop out of the list."
+            },
+            {
+              "id": "team-4",
+              "text": "Pick another day and choose Show again. With more than one team calendar, you choose the team first. Once you have found a gap, add the event to the team's calendar and invite the people. The page shows the times in the time zone of the site, so everyone reads the same hours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Find the time",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Look at one schedule or everyone's, read the busy and free time, and let Team Availability list the gaps that suit the whole team. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
