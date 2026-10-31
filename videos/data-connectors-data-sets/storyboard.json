@@ -1,0 +1,196 @@
+{
+  "title": "Connected data sets",
+  "output": "data-connectors-data-sets",
+  "spoken": {
+    "CSV": "C.S.V.",
+    "SQL": "sequel",
+    "API": "A.P.I.",
+    "Elasticsearch": "Elastic search",
+    "JSON": "Jason"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Connected data sets",
+      "subtitle": "The rows reports and pipelines read",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "A data set is one table, file, index or API path that a connection reads, and it is what reports and data pipelines actually use. This video adds data sets from a file and from a web API, reviews the fields the site discovers, and previews the rows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What a data set is",
+      "subtitle": "One resource of a connection",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "A connection reaches a system. A data set picks one resource in it: a file, an API path, a table or view, or an index."
+            },
+            {
+              "id": "what-2",
+              "text": "Every data set has a name, and a technical name that reports and pipelines store. The technical name can't change after you save."
+            },
+            {
+              "id": "what-3",
+              "text": "A data set is read live or imported. A live data set asks the system every time it is read. An imported one copies its rows into the site on a schedule, which the next video covers."
+            },
+            {
+              "id": "what-4",
+              "text": "The site also reads the data set's fields: their names, their types, and which of them identify a row. You review them before you save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "A data set from a file",
+      "subtitle": "Pick the resource, review the fields",
+      "clips": [
+        {
+          "id": "02-file",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "file-1",
+              "text": "Open Tools, Data Connectors, Data Sets, and click Add Data Set. Pick the connection to read. They are grouped by kind on the left, and Filter searches their names."
+            },
+            {
+              "id": "file-2",
+              "text": "Enter a Name, Customers. The technical name is made from the name when you leave it empty. In Resource, start typing and choose from what the connection lists: here, the customers file."
+            },
+            {
+              "id": "file-3",
+              "text": "Under Access, choose Live, so reports always read the file as it is now. The settings for files say how to read it: the delimiter, whether the first row names the columns, and for an Excel file, which sheet."
+            },
+            {
+              "id": "file-4",
+              "text": "Click Discover fields. The site reads the file and lists its columns, each with the type it guessed. The customer ID is an integer, the since column is a date, and the postal code stays text, so its leading zero is kept."
+            },
+            {
+              "id": "file-5",
+              "text": "Clear Show to hide a field from reports, as with the email address here. Change a Name or Display name, or a Type, for example to read text as a number. And tick Identifier on the field that identifies a row: the customer ID."
+            },
+            {
+              "id": "file-6",
+              "text": "Pick a Default date field if reports should filter by a date by default: Since. Then click Save."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Preview and edit",
+      "subtitle": "See the rows as reports see them",
+      "clips": [
+        {
+          "id": "03-preview",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "prev-1",
+              "text": "The list shows each data set, how it is read, and how many fields it has. Open Actions on a row and click Preview."
+            },
+            {
+              "id": "prev-2",
+              "text": "The preview shows the first rows exactly as reports and pipelines read them. The email column is gone, and the postal codes keep their zero."
+            },
+            {
+              "id": "prev-3",
+              "text": "Edit opens the data set again. The technical name is locked, because reports, pipelines and read permissions store it, and the page shows the permission that reads this data set. Everything else can change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "A data set from a web API",
+      "subtitle": "Records path and pages",
+      "clips": [
+        {
+          "id": "04-api",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "api-1",
+              "text": "Now a data set for the Sales API. For a web API, the resource is a path on the connection's base URL, here slash orders. Name it Orders, and choose Live."
+            },
+            {
+              "id": "api-2",
+              "text": "The settings below belong to the connector. The method is GET, or POST with a JSON body, and the response format is JSON, CSV or JSON Lines. The records path says where the rows are in a JSON answer: here, data dot items."
+            },
+            {
+              "id": "api-3",
+              "text": "Pages says how the API splits a long answer: by page number, by offset, with a cursor, or with a link to the next page. This one uses page numbers, and the page size is set to twenty five rows. Most pages stops a read that never ends."
+            },
+            {
+              "id": "api-4",
+              "text": "Click Discover fields. Tick Identifier on the order ID, pick the ordered on date as the default date field, and save."
+            },
+            {
+              "id": "api-5",
+              "text": "The preview shows orders from every page of the API. A live data set asks the API again each time it is read."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "SQL Server and Elasticsearch",
+      "subtitle": "The other two connectors",
+      "clips": [
+        {
+          "id": "05-others",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "oth-1",
+              "text": "A SQL Server data set reads a table or a view, or one custom query instead: a single select statement, such as a join of two tables. Query timeout limits how long it may run."
+            },
+            {
+              "id": "oth-2",
+              "text": "An Elasticsearch data set reads an index, an alias or a pattern. The query picks the documents to read, and the scroll keep alive says how long the cluster holds a read open between pages."
+            },
+            {
+              "id": "oth-3",
+              "text": "Both can also be imported on a schedule, with the refresh settings of the next video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Data sets",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A data set picks one resource of a connection, gets its fields reviewed, and is previewed exactly as reports read it. Next, keep an imported data set up to date. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+1
+00:00:01,000 --> 00:00:04,995
+This video shows which calendar feature to turn on for each job, how
+
+2
+00:00:04,995 --> 00:00:09,369
+to copy calendars, their events and their categories to another site with a
+
+3
+00:00:09,369 --> 00:00:13,256
+deployment plan, what the import does and does not do, and what to
+
+4
+00:00:13,256 --> 00:00:15,470
+check when something does not work.
+
+5
+00:00:20,060 --> 00:00:23,559
+Open Tools, then Features, and search for Calendars.
+
+6
+00:00:23,559 --> 00:00:27,720
+Each feature adds one thing, so you turn on only what you need.
+
+7
+00:00:30,177 --> 00:00:32,092
+Calendars is the base:
+
+8
+00:00:32,092 --> 00:00:39,545
+the calendar view, shared and personal calendars, events, sharing, and the recipe and deployment steps.
+
+9
+00:00:39,545 --> 00:00:44,332
+Team, Resource and Office Calendars each add kinds of calendars:
+
+10
+00:00:44,332 --> 00:00:47,477
+teams, rooms and equipment, and offices.
+
+11
+00:00:47,929 --> 00:00:51,524
+Calendar Reminders adds the on-screen reminders.
+
+12
+00:00:51,524 --> 00:00:55,718
+Calendar Invitations emails invitations, and needs email.
+
+13
+00:00:55,718 --> 00:01:00,511
+Calendar Feeds adds subscription addresses, and export and import.
+
+14
+00:01:00,511 --> 00:01:04,439
+External Calendars shows another calendar, read only.
+
+15
+00:01:04,890 --> 00:01:09,949
+Calendars API adds web endpoints for other systems, and has no screen of its own.
+
+16
+00:01:09,949 --> 00:01:11,169
+It is off here.
+
+17
+00:01:11,169 --> 00:01:15,007
+Each feature lists what it depends on, so you can see what a
+
+18
+00:01:15,007 --> 00:01:17,390
+feature needs before you enable it.
+
+19
+00:01:18,990 --> 00:01:23,193
+To share company and personal calendars, turn on Calendars.
+
+20
+00:01:23,193 --> 00:01:28,172
+For teams, add Team Calendars, which also adds the page that shows when
+
+21
+00:01:28,172 --> 00:01:29,530
+a team is free.
+
+22
+00:01:30,280 --> 00:01:34,521
+To book meeting rooms and equipment, add Resource Calendars.
+
+23
+00:01:34,521 --> 00:01:39,210
+To track who is in an office, and book desks, add Office Calendars.
+
+24
+00:01:39,960 --> 00:01:48,976
+For invitations, reminders, subscriptions and external calendars, add Calendar Invitations, Calendar Reminders, Calendar
+
+25
+00:01:48,976 --> 00:01:51,480
+Feeds, or External Calendars.
+
+26
+00:01:55,671 --> 00:02:00,403
+Open Tools, Deployments, Plans, and choose Add Deployment Plan.
+
+27
+00:02:00,403 --> 00:02:02,391
+Name it Copy calendars.
+
+28
+00:02:05,305 --> 00:02:08,975
+Choose Add Step, and find Calendars in the list.
+
+29
+00:02:11,170 --> 00:02:14,316
+Include events takes every calendar's events.
+
+30
+00:02:14,316 --> 00:02:20,854
+Include categories, ticked by default, takes everyone's categories, so the events keep their colors.
+
+31
+00:02:20,854 --> 00:02:23,630
+Tick Include events, and choose Create.
+
+32
+00:02:24,081 --> 00:02:25,320
+Choose Execute.
+
+33
+00:02:25,320 --> 00:02:28,094
+File Download exports the plan as a file.
+
+34
+00:02:28,094 --> 00:02:32,875
+Import it on the other site with Package Import, under Deployments, or send
+
+35
+00:02:32,875 --> 00:02:34,881
+it with a remote deployment.
+
+36
+00:02:39,081 --> 00:02:43,946
+The import creates what is missing and updates what is already there, matched
+
+37
+00:02:43,946 --> 00:02:45,939
+by each record's identifier.
+
+38
+00:02:45,939 --> 00:02:49,691
+Importing the same file twice does not duplicate anything.
+
+39
+00:02:50,441 --> 00:02:54,733
+A calendar needs the feature of its kind to be on at the other site.
+
+40
+00:02:54,733 --> 00:02:57,691
+A room needs Resource Calendars, for example.
+
+41
+00:02:58,441 --> 00:03:03,631
+Imported events are not checked for overlaps, and they send no invitations.
+
+42
+00:03:03,631 --> 00:03:07,476
+A recipe with the Calendars step behaves the same way.
+
+43
+00:03:07,476 --> 00:03:11,641
+For the exact shape, export first and start from that file.
+
+44
+00:03:15,841 --> 00:03:17,859
+You cannot see a calendar:
+
+45
+00:03:17,859 --> 00:03:20,635
+it is private and not shared with you.
+
+46
+00:03:20,635 --> 00:03:24,671
+Ask its owner to share it, or to make it shared or public.
+
+47
+00:03:25,421 --> 00:03:28,226
+You can see the time but not the event:
+
+48
+00:03:28,226 --> 00:03:32,401
+you can only see free and busy time, or the event is private.
+
+49
+00:03:33,151 --> 00:03:37,339
+An event is refused as already booked, or as already full:
+
+50
+00:03:37,339 --> 00:03:42,510
+a room, a piece of equipment or the office has no room left at that time.
+
+51
+00:03:42,510 --> 00:03:44,211
+Choose another time.
+
+52
+00:03:44,961 --> 00:03:47,031
+No invitation email arrives:
+
+53
+00:03:47,031 --> 00:03:51,903
+check that email works, that Calendar Invitations is on, and that the site
+
+54
+00:03:51,903 --> 00:03:53,182
+has a Base url.
+
+55
+00:03:53,182 --> 00:03:55,861
+Without it, there are no answer links.
+
+56
+00:03:57,861 --> 00:04:03,035
+Turn on the features you need, and move calendars between sites with a deployment plan.
+
+57
+00:04:03,035 --> 00:04:04,481
+Thanks for watching.
+

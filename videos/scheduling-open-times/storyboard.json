@@ -1,0 +1,188 @@
+{
+  "title": "Scheduling: how open times are worked out",
+  "output": "scheduling-open-times",
+  "spoken": {
+    "Dr.": "Doctor"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Scheduling: how open times are worked out",
+      "subtitle": "Hours, busy time, free time and limits",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Scheduling offers a time only when it is really free. This video shows how open times are worked out: working hours and days off, busy time on a calendar, the free time around appointments, and the booking limits. It also shows what to check when no times appear."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "The rules",
+      "subtitle": "What makes a time bookable",
+      "clips": [
+        {
+          "id": "01-rules",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "rules-1",
+              "text": "A time is offered when the whole appointment fits inside the working hours of the resource. With All resources together, it must fit inside the hours of every resource."
+            },
+            {
+              "id": "rules-2",
+              "text": "It must also be clear of anything busy on the resource's calendar, and for a staff member, on their own calendars. The free time before and after the appointment has to be clear as well, and so does the free time around appointments that are already booked."
+            },
+            {
+              "id": "rules-3",
+              "text": "Finally, the booking limits apply: the minimum notice, how far ahead customers can book, the most appointments per day, and the places left in a class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Working hours and days off",
+      "subtitle": "Which times appear on a day",
+      "short": "hours",
+      "clips": [
+        {
+          "id": "02-hours",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "hours-1",
+              "text": "Open Calendars, Appointments and choose Book an appointment. Pick Initial consultation, choose a Tuesday, and choose Show times."
+            },
+            {
+              "id": "hours-2",
+              "text": "Dr. Maya Chen works from nine to twelve and from one to five, so the times fall inside those two ranges. The lunch break has none, and the times step by the value set on the type."
+            },
+            {
+              "id": "hours-3",
+              "text": "The appointment itself has to fit inside the hours, but its free time after only has to be clear of other busy time. So the last time of a range can run into the break."
+            },
+            {
+              "id": "hours-4",
+              "text": "Now a day off. December 24th is listed as closed on her resource, so there are no open times at all."
+            },
+            {
+              "id": "hours-5",
+              "text": "Physiotherapy takes Omar Hassan and Treatment room 1 together, so a time is offered only when both are free. Omar works on Mondays, so a Monday shows times."
+            },
+            {
+              "id": "hours-6",
+              "text": "On a Tuesday he doesn't work, and with All resources together nothing is offered, even though the room is free."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Busy time and free time",
+      "subtitle": "Blocked time, and booked appointments",
+      "short": "busy",
+      "clips": [
+        {
+          "id": "03-busy",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "busy-1",
+              "text": "Anything busy on a resource's calendar closes its times. Open Calendar, choose New event, and under Dr. Maya Chen choose Blocked time."
+            },
+            {
+              "id": "busy-2",
+              "text": "Give it a title, such as Staff meeting, and set it from two to three in the afternoon on Tuesday, then save it."
+            },
+            {
+              "id": "busy-3",
+              "text": "Back on the booking page, the times from one thirty to two thirty are gone. The one thirty visit would end at two o'clock, but its ten minutes of free time would run into the meeting."
+            },
+            {
+              "id": "busy-4",
+              "text": "Now book a visit. Choose ten o'clock, enter the customer's name, email and phone, and choose Book."
+            },
+            {
+              "id": "busy-5",
+              "text": "A booked appointment keeps its free time clear too. Back on the same day, nine thirty, ten and ten thirty are gone. Nine o'clock and eleven o'clock are still offered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Booking limits",
+      "subtitle": "Notice, how far ahead, per day and places",
+      "short": "limits",
+      "clips": [
+        {
+          "id": "04-limits",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "limits-1",
+              "text": "The booking rules of the appointment type add limits. Open Calendars, Appointment Types and edit Initial consultation. Minimum notice hides times that start too soon."
+            },
+            {
+              "id": "limits-2",
+              "text": "Book up to hides times that are too far ahead, and Most per resource per day stops one resource taking more than that many of this type in a day."
+            },
+            {
+              "id": "limits-3",
+              "text": "A class works differently. The Yoga class has eight places, so each of its times stays open until the eighth customer has booked it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "When no times appear",
+      "subtitle": "What to check",
+      "short": "troubleshooting",
+      "clips": [
+        {
+          "id": "05-trouble",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "trouble-1",
+              "text": "If a day shows no times, check the appointment type first. It needs Resources, and each of them must have Takes appointments ticked and working hours that cover the day."
+            },
+            {
+              "id": "trouble-2",
+              "text": "Then check the limits, and anything busy: a blocked time or event on the resource's calendar, or on the staff member's own calendars, closes those times."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Scheduling",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "A time is offered only when the hours, the calendars, the free time and the limits all agree, so the same person or room is never booked twice. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

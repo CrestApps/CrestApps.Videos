@@ -1,0 +1,140 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.244
+Meeting rooms and shared equipment are booked the same way as meetings.
+
+00:00:05.244 --> 00:00:09.157
+This video shows how to add a Room and an Equipment calendar, how
+
+00:00:09.157 --> 00:00:12.904
+to book them by inviting them to an event, what happens when a
+
+00:00:12.904 --> 00:00:16.707
+room is already taken, and how to book or close a room straight
+
+00:00:16.707 --> 00:00:18.140
+on its own calendar.
+
+00:00:22.746 --> 00:00:26.409
+Room and Equipment calendars come with Resource Calendars.
+
+00:00:26.409 --> 00:00:30.072
+Open Manage Calendars, choose Add calendar, and then Room.
+
+00:00:30.072 --> 00:00:33.792
+Give it a Name, and fill in its Location, how many Seats it
+
+00:00:33.792 --> 00:00:36.081
+has, and what it is Equipped with.
+
+00:00:36.081 --> 00:00:42.206
+Rooms and equipment both come with the Resource Calendars feature, which your administrator turns on.
+
+00:00:42.657 --> 00:00:47.658
+A room starts as a Public calendar, so everyone sees when it is booked.
+
+00:00:47.658 --> 00:00:52.269
+Limit overlapping events starts ticked, with one event at a time.
+
+00:00:52.269 --> 00:00:57.075
+That limit is what makes a second booking for the same time refused.
+
+00:00:57.075 --> 00:00:58.244
+Choose Save.
+
+00:00:58.244 --> 00:01:01.166
+To retire a room later, untick Enabled:
+
+00:01:01.166 --> 00:01:05.647
+a disabled calendar keeps its events but takes no new bookings.
+
+00:01:06.098 --> 00:01:09.362
+An Equipment calendar is the same without seats.
+
+00:01:09.362 --> 00:01:13.836
+Here it is a demo projector, which also takes one booking at a time.
+
+00:01:13.836 --> 00:01:16.799
+Equipment is booked the same way as a room:
+
+00:01:16.799 --> 00:01:21.031
+it appears in the same Rooms and equipment list of an event, and
+
+00:01:21.031 --> 00:01:24.598
+one event can book a room and its projector together.
+
+00:01:28.797 --> 00:01:31.626
+To book a room, add an event as usual.
+
+00:01:31.626 --> 00:01:37.089
+Under Attendees, open Rooms and equipment, pick the Boardroom, and choose Save.
+
+00:01:37.089 --> 00:01:40.367
+The room is booked for the time of the event.
+
+00:01:46.247 --> 00:01:48.510
+The room has a calendar of its own.
+
+00:01:48.510 --> 00:01:52.430
+Tick the Boardroom in the list on the side, and its bookings show
+
+00:01:52.430 --> 00:01:54.307
+for everyone who can see it.
+
+00:01:54.307 --> 00:01:58.503
+A booking that the room has declined does not count against its limit.
+
+00:01:58.503 --> 00:02:02.257
+Anyone who can see the room can look here to find a free time.
+
+00:02:02.707 --> 00:02:06.143
+Now another event at the same time in the same room.
+
+00:02:06.143 --> 00:02:10.231
+When it is saved, it is refused, and the editor stays open with
+
+00:02:10.231 --> 00:02:13.490
+a message saying that the room is already booked.
+
+00:02:13.490 --> 00:02:17.459
+The message names the room and the time that is taken, so you
+
+00:02:17.459 --> 00:02:18.999
+know what to change.
+
+00:02:18.999 --> 00:02:22.791
+Equipment, such as the projector, is refused the same way.
+
+00:02:22.791 --> 00:02:26.227
+Choose another time or another room, and save again.
+
+00:02:30.429 --> 00:02:34.189
+People who can change a room's calendar can add to it directly.
+
+00:02:34.189 --> 00:02:37.459
+New event lists the room with its two kinds of events:
+
+00:02:37.459 --> 00:02:41.273
+Booking, for a use of the room, and Maintenance, for the time it
+
+00:02:41.273 --> 00:02:42.363
+is out of use.
+
+00:02:42.363 --> 00:02:46.614
+The same limit applies, so maintenance blocks bookings of that time too.
+
+00:02:46.614 --> 00:02:51.301
+Because bookings and maintenance live on the room's calendar, anyone who can see
+
+00:02:51.301 --> 00:02:54.789
+the room can check when it is free before choosing a time.
+
+00:02:56.789 --> 00:03:00.739
+Add a calendar for each room and item, invite them to events to
+
+00:03:00.739 --> 00:03:05.090
+book them, and let the limit of one at a time keep the bookings apart.
+
+00:03:05.090 --> 00:03:06.579
+Thanks for watching.
+

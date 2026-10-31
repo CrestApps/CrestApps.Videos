@@ -1,0 +1,171 @@
+{
+  "title": "Feeds and Subscriptions",
+  "output": "calendars-feeds-and-subscriptions",
+  "spoken": {
+    ".ics": " dot I.C.S."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Feeds and Subscriptions",
+      "subtitle": "Follow a calendar from other apps, and move events as files",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Calendar Feeds let other calendar apps follow a calendar from your site, and let you move events in and out as files. This video shows how to make a private subscription address, how to add it to Outlook, Google Calendar or a phone, and how to export and import a calendar file."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why feeds",
+      "subtitle": "Two ways to share a calendar with other apps",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "People keep other calendars too, in Outlook, in Google Calendar, and on their phone. Copying events by hand between them never lasts."
+            },
+            {
+              "id": "why-2",
+              "text": "A subscription address lets those apps follow a calendar from your site, and keep it up to date by themselves. It runs in one direction: the apps read your calendar."
+            },
+            {
+              "id": "why-3",
+              "text": "Files move events both ways. Export a calendar as a calendar file, or import one from another calendar. Events that are already there are updated, not added twice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The subscription address",
+      "subtitle": "A secret address for each calendar",
+      "clips": [
+        {
+          "id": "02-address",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "addr-1",
+              "text": "Open Calendars, then Manage Calendars. On a calendar's Actions menu, choose Subscription address."
+            },
+            {
+              "id": "addr-2",
+              "text": "A calendar has no address until you make one. Choose Make an address, and the secret address appears, ready to copy."
+            },
+            {
+              "id": "addr-3",
+              "text": "Choose Copy, and paste it into Google Calendar, under Other calendars, From URL. In Outlook, use Add calendar, Subscribe from web. Phones have the same option. The app then shows the events, and keeps them up to date."
+            },
+            {
+              "id": "addr-4",
+              "text": "Anyone who has the address can see the events, so share it only with people you trust. Choose Make a new address, and the old one stops working. Remove the address, and the feed is turned off."
+            }
+          ]
+        },
+        {
+          "id": "03-private",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "priv-1",
+              "text": "Private events are never shown in full. When an event's Visibility is Private, others see only that the time is busy, and the feed writes it as busy time, without the title or the details."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Export and import",
+      "subtitle": "Move events as calendar files",
+      "clips": [
+        {
+          "id": "04-export",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "exp-1",
+              "text": "On the same Actions menu, Export .ics downloads the calendar as a calendar file, with its events and how they repeat."
+            }
+          ]
+        },
+        {
+          "id": "05-import",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "Import .ics adds the events of a calendar file, such as one exported from Google Calendar or Outlook. Choose the file, and choose Import."
+            },
+            {
+              "id": "imp-2",
+              "text": "A message says how many events were added, changed and left unchanged. The calendar opens, with the three events of the file."
+            },
+            {
+              "id": "imp-3",
+              "text": "Here is a newer version of the same file, with the vendor demo moved to the next day. Import it again."
+            },
+            {
+              "id": "imp-4",
+              "text": "One event is changed, and two are unchanged. The vendor demo moved, and nothing was added twice, because events are matched by their identifier. Importing the same file twice is safe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Good to know",
+      "subtitle": "What feeds do, and do not do",
+      "clips": [
+        {
+          "id": "06-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "know-1",
+              "text": "The Calendar Feeds feature adds the subscription address, and the export and import. Imported events send no invitations."
+            },
+            {
+              "id": "know-2",
+              "text": "Make a new address if one is shared by mistake. The old address stops working at once."
+            },
+            {
+              "id": "know-3",
+              "text": "Following a calendar this way is one direction. Signing in to Google Calendar or Microsoft 365 to keep calendars in step both ways is not available."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Feeds and Subscriptions",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Make an address to let other apps follow a calendar, and use calendar files to move events in and out. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
