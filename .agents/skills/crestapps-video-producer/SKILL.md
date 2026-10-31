@@ -40,7 +40,7 @@ The full specification, with every value and the reasons behind them, is in `ref
 - Python 3.11+ with `pip install pillow pygments imageio-ffmpeg "edge-tts>=7.3.1"` (ffmpeg comes with `imageio-ffmpeg`).
   Older `edge-tts` releases are refused by the speech service with HTTP 403.
 - .NET 10 SDK, for the recorder (Playwright for .NET; run `pwsh <bin>/playwright.ps1 install chromium` once).
-- A local site with realistic, fake data to record: see `references/recording.md`.
+- A local site with realistic, fake data to record: see `references/recording.md`; admin in TheAdmin, front end in TheTheme, never the Blog theme.
 - Internet access for the voice (`edge-tts` calls the Microsoft Edge speech service).
 - For publishing: `pip install -r tools/youtube/requirements.txt`, and the one-time sign-in in `tools/youtube/README.md`.
 

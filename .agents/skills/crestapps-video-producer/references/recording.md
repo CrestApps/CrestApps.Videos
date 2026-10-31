@@ -15,6 +15,10 @@ Record a local site with realistic but fake data, never a production site:
   copy).
 - A copied site can still hold real names, emails or numbers in old records. Set `VIDEO_INIT_SCRIPT` to a script that
   replaces them with fake ones in every page (text, attributes and input values), and check the result by OCR.
+- Themes: record the admin in **TheAdmin** and the public front end in **TheTheme**, the defaults for everything
+  CrestApps designs. Never record the front end in the Blog theme (`TheBlogTheme`): it is a blog layout and often
+  looks wrong for the page being shown. Before recording, check **Design > Themes** that TheTheme is the current
+  site theme and TheAdmin the current admin theme, and set them if the copy has anything else.
 - Use fake names such as "Jamie Chen" and `customer@example.com`; never record real people, accounts, credentials or
   tokens.
 
