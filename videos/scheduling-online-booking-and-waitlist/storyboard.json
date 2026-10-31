@@ -1,0 +1,178 @@
+{
+  "title": "Scheduling: online booking and the waitlist",
+  "output": "scheduling-online-booking-and-waitlist",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Scheduling: online booking and the waitlist",
+      "subtitle": "Let customers book, move and cancel themselves",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "This video shows how customers book appointments on their own, from a public page of your site, and how they move or cancel them with a link. It also shows the waitlist, which keeps customers in line for a time that is taken."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why online booking",
+      "subtitle": "Customers choose, staff keep control",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Customers book at any hour, without a phone call. They see only the times that are really free, so the same person or room is never booked twice."
+            },
+            {
+              "id": "why-2",
+              "text": "Each appointment type has its own page. A customer picks a day and a time, and receives a private link to move or cancel the appointment. Staff keep control: a type can wait for confirmation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Turn it on",
+      "subtitle": "The feature and the booking page address",
+      "short": "setup",
+      "clips": [
+        {
+          "id": "02-setup",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "setup-1",
+              "text": "Online booking needs the Scheduling Self-Service feature. Open Tools, Features, search for Scheduling, and check that Scheduling Self-Service is enabled."
+            },
+            {
+              "id": "setup-2",
+              "text": "Then each appointment type decides whether it is offered. Edit Physiotherapy session. Customers can book it themselves puts it on a public page, and the Booking page address is the end of that page's address."
+            },
+            {
+              "id": "setup-3",
+              "text": "The page is at slash book, slash physiotherapy. Add that address to your site's menu, or link to it from your pages."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "What the customer sees",
+      "subtitle": "Book, then move or cancel",
+      "short": "customer",
+      "clips": [
+        {
+          "id": "03-customer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "cust-1",
+              "text": "A customer opens the page, which shows the description, the length and the place. They choose a Day, then Show times. The times are in the site's time zone."
+            },
+            {
+              "id": "cust-2",
+              "text": "They pick a time, and enter their Name, Email, Phone and any Notes."
+            },
+            {
+              "id": "cust-3",
+              "text": "Choose Book. The customer lands on a Your appointment page. Its address is their manage link, so they should keep it."
+            },
+            {
+              "id": "cust-4",
+              "text": "On that page they can move the appointment: choose another day and time, then Move. Cancel my appointment cancels it."
+            },
+            {
+              "id": "cust-5",
+              "text": "Some appointment types wait for confirmation, such as the Ultrasound scan. The customer books it the same way: a day, a time, and their details."
+            },
+            {
+              "id": "cust-6",
+              "text": "This time the page says the request has been received, and staff confirm it later, as the previous video showed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The waitlist",
+      "subtitle": "Keep customers in line for a taken time",
+      "short": "waitlist",
+      "clips": [
+        {
+          "id": "04-waitlist",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wait-1",
+              "text": "When a customer wants a time that is taken, add them to the waitlist. Open Calendars, Waitlist, choose the Appointment type, the first and last day they can come, and their name and email. Then choose Add."
+            },
+            {
+              "id": "wait-2",
+              "text": "The customer is listed as Waiting. Remove takes a customer off the list."
+            },
+            {
+              "id": "wait-3",
+              "text": "Now the customer who had the time cancels. Cancelling or moving an appointment frees its time."
+            },
+            {
+              "id": "wait-4",
+              "text": "The customer who has waited longest, and can come on that day, is marked Notified, and a workflow can tell them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Telling the customer",
+      "subtitle": "Scheduling sends no email by itself",
+      "short": "emails",
+      "clips": [
+        {
+          "id": "05-email",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "mail-1",
+              "text": "Scheduling doesn't send email by itself. To send the confirmation with the manage link, a workflow starts on the Appointment Confirmed event and sends an email. The next video builds it."
+            },
+            {
+              "id": "mail-2",
+              "text": "The same way, a workflow on Waitlist Slot Available can email a waiting customer when a time frees up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Scheduling",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Customers book, move and cancel on their own, the waitlist fills the gaps, and your staff stay in control. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
