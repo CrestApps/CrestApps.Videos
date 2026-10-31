@@ -1,0 +1,81 @@
+{
+  "title": "Calendars: Open Your Calendar, Add Events, See Schedules | CrestApps for Orchard Core",
+  "description": "The Calendars module of CrestApps for Orchard Core keeps company events, your own meetings, team schedules and room bookings in one place. This video shows the kinds of calendars and how to use the calendar view.\n\nIn this video:\n• The kinds of calendars: General, Personal, Team, Room, Equipment and Office\n• Opening the calendar, choosing which calendars to show, and the day, week, month and agenda views\n• Adding an event with the New event button or by dragging across the times\n• Changing, moving, resizing, cancelling and deleting an event\n• Seeing someone else's schedule with Whose schedule",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "calendars",
+    "agenda",
+    "schedule",
+    "events",
+    "team calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:21",
+      "title": "Kinds of calendars"
+    },
+    {
+      "time": "1:11",
+      "title": "Open the calendar"
+    },
+    {
+      "time": "2:05",
+      "title": "Add an event"
+    },
+    {
+      "time": "3:08",
+      "title": "Change, move, cancel and delete"
+    },
+    {
+      "time": "3:56",
+      "title": "See someone else's schedule"
+    },
+    {
+      "time": "4:31",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "length": "4:46",
+  "produced": "2026-10-31"
+}

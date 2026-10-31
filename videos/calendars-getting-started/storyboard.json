@@ -1,0 +1,185 @@
+{
+  "title": "Getting started with Calendars",
+  "output": "calendars-getting-started",
+  "spoken": {
+    "maria.lopez": "maria dot lopez"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Getting started with Calendars",
+      "subtitle": "Open your calendar, add events and see schedules",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Calendars keep everyone's time in one place: company events, your own meetings, a team's schedule, and the rooms people book. This video shows the kinds of calendars, how to open the calendar and read your week, how to add, change, cancel and delete an event, and how to look at someone else's schedule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Kinds of calendars",
+      "subtitle": "What each type is for",
+      "short": "kinds",
+      "clips": [
+        {
+          "id": "01-kinds",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "kinds-1",
+              "text": "Every calendar has a type that says what it is for. A General calendar is shared and belongs to nobody in particular, such as a company calendar. A Personal calendar is your own, and everyone gets one."
+            },
+            {
+              "id": "kinds-2",
+              "text": "A Team calendar belongs to a role, so everyone in the team sees it and can add to it. Room and Equipment calendars hold the bookings of a meeting room or of something you reserve, and an Office calendar shows who is in the office."
+            },
+            {
+              "id": "kinds-3",
+              "text": "Each type offers its own kinds of events. A personal calendar has Event, Meeting, Focus time and Out of office, and a team calendar adds On call and Milestone. Which types you can choose depends on the features your administrator turned on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Open the calendar",
+      "subtitle": "Your calendars, the views and the time zone",
+      "short": "open",
+      "clips": [
+        {
+          "id": "02-open",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "open-1",
+              "text": "Open Calendars, then Calendar. The first time anyone opens it, a personal calendar named after them is created. Maria sees hers, maria.lopez, next to the shared Company calendar and her team's Sales Team calendar."
+            },
+            {
+              "id": "open-2",
+              "text": "The list on the side shows every calendar you can see, each with the color of its events. Tick a calendar to show its events, and untick it to hide them. The browser remembers your choice."
+            },
+            {
+              "id": "open-3",
+              "text": "Day, Week, Month and Agenda change the layout. Month shows the whole month at once, and Agenda lists the events one after the other."
+            },
+            {
+              "id": "open-4",
+              "text": "The arrows move back and forward, and Today comes back to today. Times are shown in your time zone, from your user profile or the site, so they match the rest of the site wherever you are."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Add an event",
+      "subtitle": "From the button or by dragging",
+      "short": "add",
+      "clips": [
+        {
+          "id": "03-add",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "add-1",
+              "text": "To add an event, choose New event. When you can add to more than one calendar, you first pick the calendar and the kind of event. Let's add a meeting to Maria's own calendar."
+            },
+            {
+              "id": "add-2",
+              "text": "The editor opens in a window over the calendar. Give the event a Title, check the Kind of event, and set when it Starts and Ends. A Category can color the event and lets you filter it."
+            },
+            {
+              "id": "add-3",
+              "text": "Further down are the time zone, the Location and a Description, the Status, and Show as, which can mark an event as Free so it doesn't block your time. Visibility can make an event private, so others only see that you are busy."
+            },
+            {
+              "id": "add-4",
+              "text": "Choose Save. The window closes and the calendar shows the new event on Friday afternoon."
+            },
+            {
+              "id": "add-5",
+              "text": "You can also drag across the times you want. The editor opens with those times already filled in, so only the title is left to type. Choose Save, and the new event is on the calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Change, move, cancel and delete",
+      "subtitle": "Everything from the calendar itself",
+      "short": "change",
+      "clips": [
+        {
+          "id": "04-change",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "change-1",
+              "text": "Click an event to see its calendar, its kind and its status. Edit opens it in the same window."
+            },
+            {
+              "id": "change-2",
+              "text": "Change what you need, here the time it starts and ends, and choose Save. The event moves on the calendar."
+            },
+            {
+              "id": "change-3",
+              "text": "You can also drag an event to another day to move it, or drag its bottom edge to make it longer or shorter. If a move isn't allowed, the event goes back and you are told why."
+            },
+            {
+              "id": "change-4",
+              "text": "To cancel an event, open it, choose Edit, and then Cancel event. It no longer shows on the calendar, and the people invited are told. Delete, next to it at the bottom of the editor, removes an event for good, and a repeating event goes with all of its occurrences."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "See someone else's schedule",
+      "subtitle": "Whose schedule",
+      "short": "schedule",
+      "clips": [
+        {
+          "id": "05-schedule",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "sched-1",
+              "text": "Maria is a manager, so she also has Whose schedule under the calendar list. Choose people, pick one or more users in the box that appears, and choose Show. The calendar shows the events on their own calendars and the events they attend. Moving to next week shows when they are busy."
+            },
+            {
+              "id": "sched-2",
+              "text": "The events she isn't allowed to open appear as Busy, with their time but no title. Back to my calendars returns to her own calendars. Only people with the right permission see Whose schedule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "That is the calendar",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Pick the calendars to show, switch the view, add events from a click or a drag, change, cancel or delete them, and look at other people's schedules when you are allowed to. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
