@@ -1,0 +1,82 @@
+{
+  "title": "Scheduling: Online Booking and the Waitlist | CrestApps for Orchard Core",
+  "description": "Customers book appointments at any hour when your site shows them only the times that are really free. The Scheduling module for Orchard Core gives each appointment type a public booking page, a private link to move or cancel, and a waitlist for times that are taken.\n\nThis video shows how to turn online booking on, what the customer sees, and how the waitlist works.\n\nIn this video:\n• Why online booking, and what stays under your control\n• Turning it on: the Scheduling Self-Service feature and the booking page address\n• What the customer sees: choosing a day and time, the Your appointment page, moving and cancelling\n• Appointment types that wait for confirmation\n• The waitlist: adding a customer, and notifying the one who waited longest when a time frees up\n• Telling customers by email with a workflow",
+  "hashtags": [
+    "OrchardCore",
+    "Scheduling",
+    "Appointments",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "scheduling",
+    "appointments",
+    "booking",
+    "calendar",
+    "ASP.NET Core",
+    ".NET",
+    "CMS",
+    "online booking",
+    "waitlist",
+    "self-service"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:15",
+      "title": "Why online booking"
+    },
+    {
+      "time": "0:43",
+      "title": "Turn it on"
+    },
+    {
+      "time": "1:19",
+      "title": "What the customer sees"
+    },
+    {
+      "time": "2:17",
+      "title": "The waitlist"
+    },
+    {
+      "time": "2:56",
+      "title": "Telling the customer"
+    },
+    {
+      "time": "3:20",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/scheduling"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/scheduling"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Scheduling"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/scheduling.md",
+    "src/CrestApps.Docs/docs/modules/scheduling.md"
+  ],
+  "length": "3:30"
+}

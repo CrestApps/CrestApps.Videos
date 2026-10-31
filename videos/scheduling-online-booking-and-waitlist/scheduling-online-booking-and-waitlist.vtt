@@ -1,0 +1,161 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.566
+This video shows how customers book appointments on their own, from a public
+
+00:00:05.566 --> 00:00:09.464
+page of your site, and how they move or cancel them with a link.
+
+00:00:09.464 --> 00:00:14.420
+It also shows the waitlist, which keeps customers in line for a time that is taken.
+
+00:00:19.020 --> 00:00:22.364
+Customers book at any hour, without a phone call.
+
+00:00:22.364 --> 00:00:26.621
+They see only the times that are really free, so the same person
+
+00:00:26.621 --> 00:00:28.810
+or room is never booked twice.
+
+00:00:29.560 --> 00:00:32.233
+Each appointment type has its own page.
+
+00:00:32.233 --> 00:00:36.272
+A customer picks a day and a time, and receives a private link
+
+00:00:36.272 --> 00:00:38.648
+to move or cancel the appointment.
+
+00:00:38.648 --> 00:00:40.133
+Staff keep control:
+
+00:00:40.133 --> 00:00:42.450
+a type can wait for confirmation.
+
+00:00:46.652 --> 00:00:50.497
+Online booking needs the Scheduling Self-Service feature.
+
+00:00:50.497 --> 00:00:56.662
+Open Tools, Features, search for Scheduling, and check that Scheduling Self-Service is enabled.
+
+00:00:57.116 --> 00:01:00.668
+Then each appointment type decides whether it is offered.
+
+00:01:00.668 --> 00:01:02.528
+Edit Physiotherapy session.
+
+00:01:02.528 --> 00:01:06.587
+Customers can book it themselves puts it on a public page, and the
+
+00:01:06.587 --> 00:01:10.026
+Booking page address is the end of that page's address.
+
+00:01:10.479 --> 00:01:13.984
+The page is at slash book, slash physiotherapy.
+
+00:01:13.984 --> 00:01:18.879
+Add that address to your site's menu, or link to it from your pages.
+
+00:01:23.086 --> 00:01:28.620
+A customer opens the page, which shows the description, the length and the place.
+
+00:01:28.620 --> 00:01:31.227
+They choose a Day, then Show times.
+
+00:01:31.227 --> 00:01:34.026
+The times are in the site's time zone.
+
+00:01:34.476 --> 00:01:39.496
+They pick a time, and enter their Name, Email, Phone and any Notes.
+
+00:01:43.885 --> 00:01:44.959
+Choose Book.
+
+00:01:44.959 --> 00:01:48.064
+The customer lands on a Your appointment page.
+
+00:01:48.064 --> 00:01:51.825
+Its address is their manage link, so they should keep it.
+
+00:01:52.276 --> 00:01:55.176
+On that page they can move the appointment:
+
+00:01:55.176 --> 00:01:57.838
+choose another day and time, then Move.
+
+00:01:57.838 --> 00:02:00.146
+Cancel my appointment cancels it.
+
+00:02:00.598 --> 00:02:05.183
+Some appointment types wait for confirmation, such as the Ultrasound scan.
+
+00:02:05.183 --> 00:02:07.533
+The customer books it the same way:
+
+00:02:07.533 --> 00:02:09.768
+a day, a time, and their details.
+
+00:02:10.218 --> 00:02:14.416
+This time the page says the request has been received, and staff confirm
+
+00:02:14.416 --> 00:02:16.838
+it later, as the previous video showed.
+
+00:02:21.034 --> 00:02:25.597
+When a customer wants a time that is taken, add them to the waitlist.
+
+00:02:25.597 --> 00:02:30.951
+Open Calendars, Waitlist, choose the Appointment type, the first and last day they
+
+00:02:30.951 --> 00:02:33.446
+can come, and their name and email.
+
+00:02:33.446 --> 00:02:34.784
+Then choose Add.
+
+00:02:35.237 --> 00:02:37.714
+The customer is listed as Waiting.
+
+00:02:37.714 --> 00:02:40.377
+Remove takes a customer off the list.
+
+00:02:40.835 --> 00:02:43.953
+Now the customer who had the time cancels.
+
+00:02:43.953 --> 00:02:47.655
+Cancelling or moving an appointment frees its time.
+
+00:02:48.106 --> 00:02:52.222
+The customer who has waited longest, and can come on that day, is
+
+00:02:52.222 --> 00:02:55.236
+marked Notified, and a workflow can tell them.
+
+00:02:59.436 --> 00:03:02.054
+Scheduling doesn't send email by itself.
+
+00:03:02.054 --> 00:03:06.436
+To send the confirmation with the manage link, a workflow starts on the
+
+00:03:06.436 --> 00:03:09.452
+Appointment Confirmed event and sends an email.
+
+00:03:09.452 --> 00:03:11.216
+The next video builds it.
+
+00:03:11.966 --> 00:03:16.756
+The same way, a workflow on Waitlist Slot Available can email a waiting
+
+00:03:16.756 --> 00:03:18.996
+customer when a time frees up.
+
+00:03:20.996 --> 00:03:25.695
+Customers book, move and cancel on their own, the waitlist fills the gaps,
+
+00:03:25.695 --> 00:03:27.869
+and your staff stay in control.
+
+00:03:27.869 --> 00:03:29.396
+Thanks for watching.
+
