@@ -1,0 +1,82 @@
+{
+  "title": "Calendars: Repeating Events, Attendees and Invitations | CrestApps for Orchard Core",
+  "description": "How events repeat and how people are invited in the Calendars module of CrestApps for Orchard Core.\n\nIn this video:\n• Making an event repeat daily, weekly, monthly or yearly, and ending the series\n• Changing or cancelling one occurrence, this and following, or all occurrences\n• Inviting users and guests, and reading their answers\n• Answering an invitation with Accept, Maybe or Decline\n• Status, busy or free, and visibility",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "calendars",
+    "recurring events",
+    "recurrence",
+    "attendees",
+    "invitations",
+    "RSVP",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:23",
+      "title": "Repeating events"
+    },
+    {
+      "time": "1:21",
+      "title": "Change or cancel a repeating event"
+    },
+    {
+      "time": "2:13",
+      "title": "Invite people and guests"
+    },
+    {
+      "time": "3:07",
+      "title": "Answer an invitation"
+    },
+    {
+      "time": "3:32",
+      "title": "Status, busy or free, and visibility"
+    },
+    {
+      "time": "4:16",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "length": "4:28",
+  "produced": "2026-10-31"
+}

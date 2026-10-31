@@ -1,0 +1,268 @@
+1
+00:00:01,000 --> 00:00:03,933
+Calendars keep everyone's time in one place:
+
+2
+00:00:03,933 --> 00:00:08,978
+company events, your own meetings, a team's schedule, and the rooms people book.
+
+3
+00:00:08,978 --> 00:00:13,378
+This video shows the kinds of calendars, how to open the calendar and
+
+4
+00:00:13,378 --> 00:00:17,660
+read your week, how to add, change, cancel and delete an event, and
+
+5
+00:00:17,660 --> 00:00:20,300
+how to look at someone else's schedule.
+
+6
+00:00:24,900 --> 00:00:28,499
+Every calendar has a type that says what it is for.
+
+7
+00:00:28,499 --> 00:00:34,749
+A General calendar is shared and belongs to nobody in particular, such as a company calendar.
+
+8
+00:00:34,749 --> 00:00:38,600
+A Personal calendar is your own, and everyone gets one.
+
+9
+00:00:39,350 --> 00:00:43,303
+A Team calendar belongs to a role, so everyone in the team sees
+
+10
+00:00:43,303 --> 00:00:44,850
+it and can add to it.
+
+11
+00:00:44,850 --> 00:00:49,204
+Room and Equipment calendars hold the bookings of a meeting room or of
+
+12
+00:00:49,204 --> 00:00:53,730
+something you reserve, and an Office calendar shows who is in the office.
+
+13
+00:00:54,480 --> 00:00:57,298
+Each type offers its own kinds of events.
+
+14
+00:00:57,298 --> 00:01:02,035
+A personal calendar has Event, Meeting, Focus time and Out of office, and
+
+15
+00:01:02,035 --> 00:01:04,973
+a team calendar adds On call and Milestone.
+
+16
+00:01:04,973 --> 00:01:10,130
+Which types you can choose depends on the features your administrator turned on.
+
+17
+00:01:14,303 --> 00:01:16,699
+Open Calendars, then Calendar.
+
+18
+00:01:16,699 --> 00:01:22,422
+The first time anyone opens it, a personal calendar named after them is created.
+
+19
+00:01:22,422 --> 00:01:29,543
+Maria sees hers, maria.lopez, next to the shared Company calendar and her team's Sales Team calendar.
+
+20
+00:01:29,994 --> 00:01:34,087
+The list on the side shows every calendar you can see, each with
+
+21
+00:01:34,087 --> 00:01:35,841
+the color of its events.
+
+22
+00:01:35,841 --> 00:01:39,876
+Tick a calendar to show its events, and untick it to hide them.
+
+23
+00:01:39,876 --> 00:01:42,214
+The browser remembers your choice.
+
+24
+00:01:42,665 --> 00:01:46,356
+Day, Week, Month and Agenda change the layout.
+
+25
+00:01:46,356 --> 00:01:52,815
+Month shows the whole month at once, and Agenda lists the events one after the other.
+
+26
+00:01:53,267 --> 00:01:57,268
+The arrows move back and forward, and Today comes back to today.
+
+27
+00:01:57,268 --> 00:02:01,269
+Times are shown in your time zone, from your user profile or the
+
+28
+00:02:01,269 --> 00:02:04,927
+site, so they match the rest of the site wherever you are.
+
+29
+00:02:09,101 --> 00:02:11,400
+To add an event, choose New event.
+
+30
+00:02:11,400 --> 00:02:15,309
+When you can add to more than one calendar, you first pick the
+
+31
+00:02:15,309 --> 00:02:17,436
+calendar and the kind of event.
+
+32
+00:02:17,436 --> 00:02:20,311
+Let's add a meeting to Maria's own calendar.
+
+33
+00:02:20,783 --> 00:02:23,872
+The editor opens in a window over the calendar.
+
+34
+00:02:23,872 --> 00:02:27,778
+Give the event a Title, check the Kind of event, and set when
+
+35
+00:02:27,778 --> 00:02:29,235
+it Starts and Ends.
+
+36
+00:02:29,235 --> 00:02:32,733
+A Category can color the event and lets you filter it.
+
+37
+00:02:33,209 --> 00:02:37,986
+Further down are the time zone, the Location and a Description, the Status,
+
+38
+00:02:37,986 --> 00:02:42,763
+and Show as, which can mark an event as Free so it doesn't block your time.
+
+39
+00:02:42,763 --> 00:02:47,539
+Visibility can make an event private, so others only see that you are busy.
+
+40
+00:02:47,990 --> 00:02:49,137
+Choose Save.
+
+41
+00:02:49,137 --> 00:02:54,300
+The window closes and the calendar shows the new event on Friday afternoon.
+
+42
+00:02:55,742 --> 00:02:58,636
+You can also drag across the times you want.
+
+43
+00:02:58,636 --> 00:03:03,036
+The editor opens with those times already filled in, so only the title
+
+44
+00:03:03,036 --> 00:03:04,310
+is left to type.
+
+45
+00:03:04,310 --> 00:03:07,552
+Choose Save, and the new event is on the calendar.
+
+46
+00:03:11,756 --> 00:03:15,917
+Click an event to see its calendar, its kind and its status.
+
+47
+00:03:15,917 --> 00:03:18,376
+Edit opens it in the same window.
+
+48
+00:03:18,826 --> 00:03:23,378
+Change what you need, here the time it starts and ends, and choose Save.
+
+49
+00:03:23,378 --> 00:03:25,596
+The event moves on the calendar.
+
+50
+00:03:26,049 --> 00:03:29,557
+You can also drag an event to another day to move it, or
+
+51
+00:03:29,557 --> 00:03:32,725
+drag its bottom edge to make it longer or shorter.
+
+52
+00:03:32,725 --> 00:03:36,799
+If a move isn't allowed, the event goes back and you are told why.
+
+53
+00:03:37,249 --> 00:03:41,624
+To cancel an event, open it, choose Edit, and then Cancel event.
+
+54
+00:03:41,624 --> 00:03:46,248
+It no longer shows on the calendar, and the people invited are told.
+
+55
+00:03:46,248 --> 00:03:50,622
+Delete, next to it at the bottom of the editor, removes an event
+
+56
+00:03:50,622 --> 00:03:55,059
+for good, and a repeating event goes with all of its occurrences.
+
+57
+00:03:59,260 --> 00:04:03,943
+Maria is a manager, so she also has Whose schedule under the calendar list.
+
+58
+00:04:03,943 --> 00:04:08,858
+Choose people, pick one or more users in the box that appears, and choose Show.
+
+59
+00:04:08,858 --> 00:04:13,831
+The calendar shows the events on their own calendars and the events they attend.
+
+60
+00:04:13,831 --> 00:04:16,780
+Moving to next week shows when they are busy.
+
+61
+00:04:18,476 --> 00:04:23,731
+The events she isn't allowed to open appear as Busy, with their time but no title.
+
+62
+00:04:23,731 --> 00:04:27,075
+Back to my calendars returns to her own calendars.
+
+63
+00:04:27,075 --> 00:04:30,836
+Only people with the right permission see Whose schedule.
+
+64
+00:04:32,836 --> 00:04:37,062
+Pick the calendars to show, switch the view, add events from a click
+
+65
+00:04:37,062 --> 00:04:41,288
+or a drag, change, cancel or delete them, and look at other people's
+
+66
+00:04:41,288 --> 00:04:43,572
+schedules when you are allowed to.
+
+67
+00:04:43,572 --> 00:04:45,056
+Thanks for watching.
+

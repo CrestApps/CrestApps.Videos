@@ -1,0 +1,167 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.685
+Calendar Invitations email the people you invite to an event, and let them
+
+00:00:05.685 --> 00:00:07.442
+answer from the message.
+
+00:00:07.442 --> 00:00:11.073
+This video shows what is sent and to whom, how to set up
+
+00:00:11.073 --> 00:00:14.997
+email, how to invite a user and a guest, how a guest answers,
+
+00:00:14.997 --> 00:00:18.570
+and what happens when an event changes or is cancelled.
+
+00:00:23.170 --> 00:00:27.432
+When someone is invited to an event, they are emailed an invitation, with
+
+00:00:27.432 --> 00:00:31.640
+a calendar file they can add to Outlook, Google Calendar or their phone.
+
+00:00:32.390 --> 00:00:38.978
+When the title, time, place or repeat pattern changes, the people already invited get an update.
+
+00:00:38.978 --> 00:00:43.500
+When the event is cancelled or deleted, they get a cancellation.
+
+00:00:44.250 --> 00:00:48.246
+An invitation has Accept, Maybe and Decline links.
+
+00:00:48.246 --> 00:00:52.170
+Guests answer from the email, without signing in.
+
+00:00:52.920 --> 00:00:56.695
+The emails go to attendees that have an email address:
+
+00:00:56.695 --> 00:00:58.959
+users of the site, and guests.
+
+00:00:58.959 --> 00:01:02.860
+The organizer, and anyone who declined, are not emailed.
+
+00:01:06.991 --> 00:01:12.470
+Invitations need the Calendar Invitations feature, and email that works.
+
+00:01:12.470 --> 00:01:18.511
+Open the Settings menu, then Communication, choose Email, and open the SMTP tab.
+
+00:01:18.963 --> 00:01:23.251
+Tick Enable SMTP Provider, and enter a sender email address.
+
+00:01:23.251 --> 00:01:29.097
+On a real site, you choose the Network delivery method and fill in your mail server.
+
+00:01:29.097 --> 00:01:34.554
+For this demo, the Specified pickup directory writes each message to a folder,
+
+00:01:34.554 --> 00:01:36.503
+so nothing is ever sent.
+
+00:01:36.961 --> 00:01:37.658
+Save.
+
+00:01:37.658 --> 00:01:41.395
+Then open the general settings, and set the Base url.
+
+00:01:41.395 --> 00:01:45.828
+The Accept, Maybe and Decline links in the email point to it, so
+
+00:01:45.828 --> 00:01:48.361
+without it the email has no links.
+
+00:01:52.563 --> 00:01:57.688
+Open Calendars, then Calendar, and add a Meeting to the Company calendar.
+
+00:01:57.688 --> 00:02:00.673
+Call it Launch review, and set its time.
+
+00:02:01.123 --> 00:02:05.698
+On the Attendees card, choose Invite users, and pick Sam Patel.
+
+00:02:05.698 --> 00:02:09.543
+Sam is emailed at the address on their user profile.
+
+00:02:09.994 --> 00:02:14.176
+Add a guest, someone outside the site, in the Guests box.
+
+00:02:14.176 --> 00:02:19.354
+Type a name and an email address in angle brackets, one person per line.
+
+00:02:19.805 --> 00:02:20.933
+Choose Save.
+
+00:02:20.933 --> 00:02:25.065
+Each attendee is emailed their own invitation straight away.
+
+00:02:29.227 --> 00:02:35.856
+Here is the invitation as the guest receives it, taken from the message the site wrote.
+
+00:02:35.856 --> 00:02:40.203
+It has the title, the time, and the three answer links.
+
+00:02:40.203 --> 00:02:43.767
+The calendar file is attached as invite.ics.
+
+00:02:44.222 --> 00:02:46.041
+The guest chooses Accept.
+
+00:02:46.041 --> 00:02:49.502
+A page thanks them, and they did not have to sign in.
+
+00:02:49.952 --> 00:02:56.122
+Back in the event, under Attendees, the Answers list now shows the guest as accepted.
+
+00:03:00.314 --> 00:03:03.047
+Open the event, and move it an hour later.
+
+00:03:03.047 --> 00:03:08.454
+When you choose Save, the people already invited are emailed an update with the new time.
+
+00:03:09.646 --> 00:03:11.494
+Now choose Cancel event.
+
+00:03:11.494 --> 00:03:17.036
+Everyone invited is emailed a cancellation, and the event is taken off the calendar.
+
+00:03:18.622 --> 00:03:20.194
+This is the update.
+
+00:03:20.194 --> 00:03:26.732
+Its subject starts with Updated, and its calendar file replaces the event in the guest's calendar.
+
+00:03:27.183 --> 00:03:29.297
+And this is the cancellation.
+
+00:03:29.297 --> 00:03:33.645
+It says that the event has been cancelled, it has no answer links,
+
+00:03:33.645 --> 00:03:36.423
+and its calendar file removes the event.
+
+00:03:40.623 --> 00:03:46.483
+Changes made by recipes, deployment plans and imports never send invitations.
+
+00:03:47.233 --> 00:03:52.094
+If email is not set up, or a message fails, the event is still saved.
+
+00:03:52.094 --> 00:03:55.463
+The failure is only written to the site's log.
+
+00:03:56.213 --> 00:04:00.880
+Without the site's Base url, an email has no answer links, but its
+
+00:04:00.880 --> 00:04:02.953
+calendar file still works.
+
+00:04:04.953 --> 00:04:09.119
+Invite people to an event, and they are emailed an invitation they can
+
+00:04:09.119 --> 00:04:12.188
+answer, followed by every update and cancellation.
+
+00:04:12.188 --> 00:04:13.613
+Thanks for watching.
+

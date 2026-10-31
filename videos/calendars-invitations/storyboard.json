@@ -1,0 +1,212 @@
+{
+  "title": "Calendar Invitations",
+  "output": "calendars-invitations",
+  "spoken": {
+    "ics": "I.C.S.",
+    "SMTP": "S.M.T.P."
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Calendar Invitations",
+      "subtitle": "Invite people by email, and let them answer from the message",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "Calendar Invitations email the people you invite to an event, and let them answer from the message. This video shows what is sent and to whom, how to set up email, how to invite a user and a guest, how a guest answers, and what happens when an event changes or is cancelled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "What is sent",
+      "subtitle": "Invitation, update and cancellation",
+      "clips": [
+        {
+          "id": "01-what",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "what-1",
+              "text": "When someone is invited to an event, they are emailed an invitation, with a calendar file they can add to Outlook, Google Calendar or their phone."
+            },
+            {
+              "id": "what-2",
+              "text": "When the title, time, place or repeat pattern changes, the people already invited get an update. When the event is cancelled or deleted, they get a cancellation."
+            },
+            {
+              "id": "what-3",
+              "text": "An invitation has Accept, Maybe and Decline links. Guests answer from the email, without signing in."
+            },
+            {
+              "id": "what-4",
+              "text": "The emails go to attendees that have an email address: users of the site, and guests. The organizer, and anyone who declined, are not emailed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Set up email",
+      "subtitle": "The feature, a sender, and the site's address",
+      "clips": [
+        {
+          "id": "02-mail",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mail-1",
+              "text": "Invitations need the Calendar Invitations feature, and email that works. Open the Settings menu, then Communication, choose Email, and open the SMTP tab."
+            },
+            {
+              "id": "mail-2",
+              "text": "Tick Enable SMTP Provider, and enter a sender email address. On a real site, you choose the Network delivery method and fill in your mail server. For this demo, the Specified pickup directory writes each message to a folder, so nothing is ever sent."
+            },
+            {
+              "id": "mail-3",
+              "text": "Save. Then open the general settings, and set the Base url. The Accept, Maybe and Decline links in the email point to it, so without it the email has no links."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Invite people",
+      "subtitle": "A user of the site, and a guest",
+      "clips": [
+        {
+          "id": "03-invite",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "invite-1",
+              "text": "Open Calendars, then Calendar, and add a Meeting to the Company calendar. Call it Launch review, and set its time."
+            },
+            {
+              "id": "invite-2",
+              "text": "On the Attendees card, choose Invite users, and pick Sam Patel. Sam is emailed at the address on their user profile."
+            },
+            {
+              "id": "invite-3",
+              "text": "Add a guest, someone outside the site, in the Guests box. Type a name and an email address in angle brackets, one person per line."
+            },
+            {
+              "id": "invite-4",
+              "text": "Choose Save. Each attendee is emailed their own invitation straight away."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Answer from the email",
+      "subtitle": "Accept, Maybe or Decline, without signing in",
+      "clips": [
+        {
+          "id": "04-answer",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "answer-1",
+              "text": "Here is the invitation as the guest receives it, taken from the message the site wrote. It has the title, the time, and the three answer links. The calendar file is attached as invite.ics."
+            },
+            {
+              "id": "answer-2",
+              "text": "The guest chooses Accept. A page thanks them, and they did not have to sign in."
+            },
+            {
+              "id": "answer-3",
+              "text": "Back in the event, under Attendees, the Answers list now shows the guest as accepted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Changes and cancellations",
+      "subtitle": "Everyone invited stays informed",
+      "clips": [
+        {
+          "id": "05-change",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "change-1",
+              "text": "Open the event, and move it an hour later. When you choose Save, the people already invited are emailed an update with the new time."
+            },
+            {
+              "id": "change-2",
+              "text": "Now choose Cancel event. Everyone invited is emailed a cancellation, and the event is taken off the calendar."
+            }
+          ]
+        },
+        {
+          "id": "05-mails",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "mails-1",
+              "text": "This is the update. Its subject starts with Updated, and its calendar file replaces the event in the guest's calendar."
+            },
+            {
+              "id": "mails-2",
+              "text": "And this is the cancellation. It says that the event has been cancelled, it has no answer links, and its calendar file removes the event."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Good to know",
+      "subtitle": "When no email is sent",
+      "clips": [
+        {
+          "id": "06-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "know-1",
+              "text": "Changes made by recipes, deployment plans and imports never send invitations."
+            },
+            {
+              "id": "know-2",
+              "text": "If email is not set up, or a message fails, the event is still saved. The failure is only written to the site's log."
+            },
+            {
+              "id": "know-3",
+              "text": "Without the site's Base url, an email has no answer links, but its calendar file still works."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Calendar Invitations",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Invite people to an event, and they are emailed an invitation they can answer, followed by every update and cancellation. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
