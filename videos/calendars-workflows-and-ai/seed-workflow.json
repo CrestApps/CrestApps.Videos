@@ -1,0 +1,59 @@
+{
+ "steps": [
+  {
+   "name": "WorkflowType",
+   "data": [
+    {
+     "WorkflowTypeId": "wf-cover00000000001",
+     "Name": "Plan cover for time off",
+     "IsEnabled": true,
+     "IsSingleInstance": false,
+     "DeleteFinishedWorkflows": false,
+     "Activities": [
+      {
+       "ActivityId": "act-start0000001",
+       "Name": "CalendarEventCreatedEvent",
+       "X": 120,
+       "Y": 120,
+       "IsStart": true,
+       "Properties": {
+        "CalendarIds": [],
+        "CalendarTypes": [
+         "Team"
+        ],
+        "EventTypes": "OutOfOffice",
+        "IgnoreWorkflowChanges": true
+       }
+      },
+      {
+       "ActivityId": "act-create0000001",
+       "Name": "CreateCalendarEventTask",
+       "X": 520,
+       "Y": 120,
+       "IsStart": false,
+       "Properties": {
+        "CalendarId": "cal-design00000001",
+        "EventType": "Meeting",
+        "Title": "Cover plan: {{ Workflow.Input.Title }}",
+        "Start": "{{ Workflow.Input.StartUtc }}",
+        "End": "",
+        "Location": "",
+        "Description": "Made by a workflow when {{ Workflow.Input.Title }} was added.",
+        "Attendees": "",
+        "OutputName": ""
+       }
+      }
+     ],
+     "Transitions": [
+      {
+       "Id": 1,
+       "SourceActivityId": "act-start0000001",
+       "SourceOutcomeName": "Done",
+       "DestinationActivityId": "act-create0000001"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
