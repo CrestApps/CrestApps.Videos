@@ -1,0 +1,85 @@
+{
+  "title": "Data Connections: Reach SQL Server, Web APIs, Elasticsearch and Files | CrestApps for Orchard Core",
+  "description": "Data Connectors bring data from other systems into your Orchard Core site, so reports and data pipelines can use it next to the site's own data. A connection is set up once per system and shared by every data set that reads from it.\n\nIn this video:\n• Why connections, and the four kinds: SQL Server, HTTP API, Elasticsearch and media library files\n• Adding a connection and checking it with Save and test\n• A files connection, and a web API connection with an API key\n• What a failed check tells you, and why secrets are never shown again\n• Test, Add data set and Delete, and why a connection in use can't be deleted\n• The Elasticsearch and SQL Server forms",
+  "hashtags": [
+    "OrchardCore",
+    "DataConnectors",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "data connectors",
+    "data connections",
+    "HTTP API",
+    "SQL Server",
+    "Elasticsearch",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why connections"
+    },
+    {
+      "time": "1:06",
+      "title": "Open the connections"
+    },
+    {
+      "time": "1:29",
+      "title": "Files in the media library"
+    },
+    {
+      "time": "2:19",
+      "title": "A web API"
+    },
+    {
+      "time": "3:14",
+      "title": "Secrets stay secret"
+    },
+    {
+      "time": "3:48",
+      "title": "Test, add data sets, delete"
+    },
+    {
+      "time": "4:20",
+      "title": "Elasticsearch and SQL Server"
+    },
+    {
+      "time": "5:06",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/data-connectors"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.DataConnectors"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/data-connectors.md"
+  ],
+  "length": "5:19"
+}

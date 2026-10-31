@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.193
+The calendar works with workflows and with AI assistants.
+
+00:00:05.193 --> 00:00:11.249
+Workflows can start when an event changes, and can add, move, find and cancel events.
+
+00:00:11.249 --> 00:00:16.307
+An AI assistant can read your calendar, find free time, and book, move
+
+00:00:16.307 --> 00:00:18.437
+and cancel events for you.
+
+00:00:18.437 --> 00:00:20.300
+This video shows both.
+
+00:00:24.900 --> 00:00:27.401
+Much of calendar work is routine.
+
+00:00:27.401 --> 00:00:31.056
+Someone books time off, and a cover plan is needed.
+
+00:00:31.056 --> 00:00:35.480
+A meeting is about to start, and its attendees need the agenda.
+
+00:00:36.230 --> 00:00:39.406
+Workflows watch for those moments, and act.
+
+00:00:39.406 --> 00:00:44.850
+The calendar adds events, tasks and a free time search to the workflow editor.
+
+00:00:45.600 --> 00:00:50.376
+AI assistants do the other kind of routine work, the questions people ask.
+
+00:00:50.376 --> 00:00:52.107
+What is on my calendar?
+
+00:00:52.107 --> 00:00:53.480
+When can we meet?
+
+00:00:53.480 --> 00:00:55.510
+Move that meeting to Friday.
+
+00:00:56.260 --> 00:01:00.170
+Both act with the access of a person, and never beyond it.
+
+00:01:04.363 --> 00:01:06.841
+Open Workflows, and edit a workflow.
+
+00:01:06.841 --> 00:01:11.147
+The Activities panel lists everything you can drag onto the canvas.
+
+00:01:11.147 --> 00:01:14.923
+Search for Calendar, and the calendar's activities appear.
+
+00:01:15.374 --> 00:01:19.339
+The Events tab shows the events that can start a workflow:
+
+00:01:19.339 --> 00:01:26.154
+an event created, updated, cancelled or deleted, an attendee invited, and an attendee's answer received.
+
+00:01:26.154 --> 00:01:30.924
+With Calendar Reminders on, there are also Starting Soon and Completed.
+
+00:01:31.374 --> 00:01:34.718
+The Tasks tab shows what a workflow can do:
+
+00:01:34.718 --> 00:01:41.404
+create, update, cancel, get and find events, add and remove an attendee, and find free time.
+
+00:01:41.855 --> 00:01:45.095
+This workflow starts with Calendar Event Created.
+
+00:01:45.095 --> 00:01:46.508
+Open its settings.
+
+00:01:46.508 --> 00:01:51.869
+It can be limited to some calendars, some types of calendar, and some kinds of event.
+
+00:01:51.869 --> 00:01:55.875
+Here it only reacts to Out of office events on team calendars.
+
+00:01:56.326 --> 00:01:58.953
+The second step is Create Calendar Event.
+
+00:01:58.953 --> 00:02:01.972
+It adds a meeting to the design team's calendar.
+
+00:02:01.972 --> 00:02:06.333
+Its text fields take values from the event that started the workflow, so
+
+00:02:06.333 --> 00:02:08.346
+the meeting is named after it.
+
+00:02:12.547 --> 00:02:17.607
+Add an Out of office event for Riley Ortiz on the design team's calendar.
+
+00:02:26.170 --> 00:02:28.921
+Open Workflows, then Instances.
+
+00:02:28.921 --> 00:02:33.010
+The workflow started by itself, and has finished.
+
+00:02:33.461 --> 00:02:36.798
+On the calendar, the cover plan meeting is there.
+
+00:02:36.798 --> 00:02:42.561
+The workflow created it, and a change made by a workflow never starts the workflow again.
+
+00:02:46.764 --> 00:02:51.257
+With the AI features on, an AI profile can use calendar tools.
+
+00:02:51.257 --> 00:02:55.552
+Open Artificial Intelligence, Profiles, and edit a profile.
+
+00:02:55.552 --> 00:02:59.914
+On the Capabilities tab, the Calendar group lists six tools.
+
+00:03:00.364 --> 00:03:06.743
+List calendars, Find calendar events, Find free time, Create calendar event, Move calendar
+
+00:03:06.743 --> 00:03:09.334
+event, and Cancel calendar event.
+
+00:03:09.334 --> 00:03:14.184
+Tick the ones this assistant may use, or select them all, and save.
+
+00:03:15.784 --> 00:03:19.083
+Here is an example of what people can then ask.
+
+00:03:19.083 --> 00:03:23.999
+The assistant uses Find calendar events to answer what is on the calendar
+
+00:03:23.999 --> 00:03:27.234
+this week, for up to sixty-two days at a time.
+
+00:03:27.984 --> 00:03:33.080
+Asked to find thirty minutes with Sam on Thursday, it uses Find free time.
+
+00:03:33.080 --> 00:03:37.411
+That looks at the people, and at calendars such as a room, for
+
+00:03:37.411 --> 00:03:39.194
+up to thirty-one days.
+
+00:03:39.944 --> 00:03:43.499
+Asked to book it, it uses Create calendar event.
+
+00:03:43.499 --> 00:03:49.884
+Asked to move or cancel the meeting, it uses Move calendar event and Cancel calendar event.
+
+00:03:50.634 --> 00:03:54.494
+The tools act for the person who is signed in, with that person's
+
+00:03:54.494 --> 00:03:56.124
+access to each calendar.
+
+00:03:56.124 --> 00:03:58.624
+They refuse anyone who is not signed in.
+
+00:04:02.824 --> 00:04:07.282
+Changes made by a workflow are recorded as made by a workflow, and
+
+00:04:07.282 --> 00:04:12.234
+workflows ignore them by default, so a workflow cannot start itself again.
+
+00:04:12.984 --> 00:04:16.781
+Starting Soon and Completed need Calendar Reminders.
+
+00:04:16.781 --> 00:04:20.904
+They run once for every occurrence, even after a restart.
+
+00:04:21.654 --> 00:04:23.861
+AI tools need the AI feature.
+
+00:04:23.861 --> 00:04:29.094
+Appointment booking for customers has its own tools, covered with Scheduling.
+
+00:04:31.094 --> 00:04:35.828
+Workflows react to the calendar and change it, and AI assistants read it
+
+00:04:35.828 --> 00:04:39.167
+and book on your behalf, always with your access.
+
+00:04:39.167 --> 00:04:40.744
+Thanks for watching.
+

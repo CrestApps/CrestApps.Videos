@@ -1,0 +1,76 @@
+{
+  "title": "Calendars: Which Features to Turn On, and How to Copy Calendars | CrestApps for Orchard Core",
+  "description": "A guide to the Orchard Core calendar features (Calendars, Team, Resource, Office, Reminders, Invitations, Feeds, External, API), how to copy calendars, events and categories to another site with a deployment plan, what the import does and does not do, and what to check when something does not work.\n\nIn this video:\n• Which feature to turn on for each job\n• Copying calendars, events and categories with a deployment plan\n• What the import does: matched by id, no overlap check, no invitations\n• Troubleshooting",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "features",
+    "deployment plan",
+    "recipe",
+    "troubleshooting",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core",
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:16",
+      "title": "Which feature to turn on"
+    },
+    {
+      "time": "1:52",
+      "title": "Copy calendars to another site"
+    },
+    {
+      "time": "2:35",
+      "title": "What the import does"
+    },
+    {
+      "time": "3:12",
+      "title": "Troubleshooting"
+    },
+    {
+      "time": "3:56",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "produced": "2026-10-31",
+  "length": "4:05"
+}

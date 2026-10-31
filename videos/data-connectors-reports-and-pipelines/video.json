@@ -1,0 +1,72 @@
+{
+  "title": "Connected Data in Reports and Pipelines: Live, Imported and Permissions | CrestApps for Orchard Core",
+  "description": "Connected data sets appear next to your site's own data wherever you pick a data source. See a live and an imported data set used in the Report Builder and in a data pipeline, and the permissions that decide who can read each one.\n\nIn this video:\n• Where connected data sets appear: Connected data (live) and Connected data (imported)\n• Building a report on a live data set, and what an imported data set's card shows\n• The Read a data source step of a data pipeline\n• Read every connected data set, or Read the connected data set for one data set, in Access Control > Roles\n• One rule for live and imported data",
+  "hashtags": [
+    "OrchardCore",
+    "DataConnectors",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "data connectors",
+    "report builder",
+    "data pipelines",
+    "permissions",
+    "reports",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:14",
+      "title": "Where data sets appear"
+    },
+    {
+      "time": "0:51",
+      "title": "In the Report Builder"
+    },
+    {
+      "time": "1:40",
+      "title": "In a data pipeline"
+    },
+    {
+      "time": "2:11",
+      "title": "Who can read a data set"
+    },
+    {
+      "time": "2:53",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/data-connectors"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "youtube": {},
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.DataConnectors"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/data-connectors.md"
+  ],
+  "length": "3:04"
+}

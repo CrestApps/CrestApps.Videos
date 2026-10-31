@@ -1,0 +1,204 @@
+1
+00:00:01,000 --> 00:00:05,912
+External Calendars show the events of another calendar inside one of yours, kept
+
+2
+00:00:05,912 --> 00:00:07,568
+up to date by the site.
+
+3
+00:00:07,568 --> 00:00:12,080
+This video shows how to subscribe a calendar to an iCalendar address, how
+
+4
+00:00:12,080 --> 00:00:16,192
+often it is read, what the events look like, and what happens when
+
+5
+00:00:16,192 --> 00:00:18,020
+an address cannot be used.
+
+6
+00:00:22,620 --> 00:00:27,153
+Partners, vendors and other teams publish their calendars somewhere else.
+
+7
+00:00:27,153 --> 00:00:32,030
+You want to see them next to your own events, without copying anything by hand.
+
+8
+00:00:32,780 --> 00:00:37,827
+With the External Calendars feature on, a calendar can follow a secret iCalendar
+
+9
+00:00:37,827 --> 00:00:43,050
+address, such as the one Google Calendar or Outlook shows in a calendar's settings.
+
+10
+00:00:43,800 --> 00:00:47,771
+The events are copied in, kept up to date, and removed here when
+
+11
+00:00:47,771 --> 00:00:49,416
+they are removed there.
+
+12
+00:00:49,416 --> 00:00:53,500
+They cannot be changed here, because the other calendar owns them.
+
+13
+00:00:54,250 --> 00:00:59,582
+Signing in to Google Calendar or Microsoft 365 to keep calendars in step
+
+14
+00:00:59,582 --> 00:01:01,838
+both ways is not available.
+
+15
+00:01:01,838 --> 00:01:04,230
+The address is the only link.
+
+16
+00:01:08,421 --> 00:01:11,752
+Open Manage Calendars, and add a General calendar.
+
+17
+00:01:11,752 --> 00:01:13,477
+Name it Partner events.
+
+18
+00:01:13,477 --> 00:01:17,879
+Its editor has a Subscription card, with a box to keep this calendar
+
+19
+00:01:17,879 --> 00:01:20,258
+in step with an external calendar.
+
+20
+00:01:20,258 --> 00:01:21,091
+Tick it.
+
+21
+00:01:21,544 --> 00:01:28,415
+Keep the provider on iCalendar address, and paste the external calendar's address.
+
+22
+00:01:28,415 --> 00:01:32,084
+It must start with https, http or webcal.
+
+23
+00:01:32,534 --> 00:01:37,459
+Every sets how often the calendar is read, at least every five minutes.
+
+24
+00:01:37,459 --> 00:01:42,063
+The site looks for calendars that are due once every five minutes.
+
+25
+00:01:42,063 --> 00:01:43,214
+Choose Save.
+
+26
+00:01:43,665 --> 00:01:47,896
+Now try an address that cannot be used, one on this same machine.
+
+27
+00:01:47,896 --> 00:01:52,186
+Add another calendar, Broken feed, with a page of this site as its
+
+28
+00:01:52,186 --> 00:01:53,795
+address, and save it.
+
+29
+00:01:57,997 --> 00:02:01,022
+A few minutes later, the first read has happened.
+
+30
+00:02:01,022 --> 00:02:05,092
+Open the Partner events calendar, and look at the Subscription card.
+
+31
+00:02:05,092 --> 00:02:08,777
+Last synchronized shows when it last worked, and what it did.
+
+32
+00:02:09,227 --> 00:02:10,650
+Open the calendar.
+
+33
+00:02:10,650 --> 00:02:14,267
+The partner's events are here, in the calendar's color.
+
+34
+00:02:14,717 --> 00:02:15,930
+Click an event.
+
+35
+00:02:15,930 --> 00:02:20,953
+You can read it, but there is no Edit button, because the other calendar owns it.
+
+36
+00:02:20,953 --> 00:02:24,417
+Change it there, and it changes here at the next read.
+
+37
+00:02:24,868 --> 00:02:26,384
+Now the broken feed.
+
+38
+00:02:26,384 --> 00:02:29,185
+Its Last synchronized shows why it failed.
+
+39
+00:02:29,185 --> 00:02:33,969
+Addresses on the local network cannot be subscribed to, so a calendar cannot
+
+40
+00:02:33,969 --> 00:02:37,178
+be used to reach private systems on your network.
+
+41
+00:02:37,629 --> 00:02:42,183
+After each failure in a row, the site waits longer before it tries
+
+42
+00:02:42,183 --> 00:02:45,282
+again, up to thirty-two times the interval.
+
+43
+00:02:45,282 --> 00:02:51,289
+The events already in the calendar stay, and one failing address never blocks the others.
+
+44
+00:02:55,489 --> 00:03:00,764
+Use the address the other calendar publishes for sharing, and treat it like a password.
+
+45
+00:03:00,764 --> 00:03:03,429
+Anyone who has it can read that calendar.
+
+46
+00:03:04,179 --> 00:03:07,381
+The address must be reachable from the internet.
+
+47
+00:03:07,381 --> 00:03:10,759
+Addresses on private or local networks are refused.
+
+48
+00:03:11,509 --> 00:03:14,684
+To stop following a calendar, untick the box.
+
+49
+00:03:14,684 --> 00:03:20,409
+Subscribing is one direction only, and nothing you do here changes the other calendar.
+
+50
+00:03:22,409 --> 00:03:27,540
+Paste a calendar's address, and its events appear in yours and stay up to date.
+
+51
+00:03:27,540 --> 00:03:29,109
+Thanks for watching.
+

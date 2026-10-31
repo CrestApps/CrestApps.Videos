@@ -1,0 +1,73 @@
+{
+  "title": "Calendars: Create a Calendar and Share It with the Right People | CrestApps for Orchard Core",
+  "description": "How to create a calendar and share it in the Calendars module of CrestApps for Orchard Core.\n\nIn this video:\n• Creating a calendar: name, color, time zone, visibility\n• Sharing with users and roles at four levels, from busy time only to full management\n• What a person with each level sees\n• The calendar permissions of a role",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "calendars",
+    "sharing",
+    "permissions",
+    "free busy",
+    "visibility",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:18",
+      "title": "Create and share a calendar"
+    },
+    {
+      "time": "2:01",
+      "title": "What each person sees"
+    },
+    {
+      "time": "2:37",
+      "title": "The calendar permissions"
+    },
+    {
+      "time": "3:27",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "length": "3:39",
+  "produced": "2026-10-31"
+}
