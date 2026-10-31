@@ -46,6 +46,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | [https://youtu.be/XjLNpgWezec](https://youtu.be/XjLNpgWezec) | CrestApps/CrestApps.OrchardCore |
 | [Bookings on the Calendar: See Every Booking and Block Dates](videos/bookings-on-the-calendar) | 3:12 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Book Meeting Rooms and Equipment](videos/calendars-rooms-and-equipment) | 3:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | [https://youtu.be/ZX7sgNCkQTs](https://youtu.be/ZX7sgNCkQTs) | CrestApps/CrestApps.OrchardCore |
 | [CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices](videos/commerce) | 10:30 | [https://youtu.be/YQHVdIucYgI](https://youtu.be/YQHVdIucYgI) | CrestApps/CrestApps.OrchardCore |
 | [Commerce Automation: Emails and Actions When Orders, Stock and Shipments Change](videos/commerce-automation) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |

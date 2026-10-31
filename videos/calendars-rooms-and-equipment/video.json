@@ -1,0 +1,73 @@
+{
+  "title": "Calendars: Book Meeting Rooms and Equipment | CrestApps for Orchard Core",
+  "description": "How to book meeting rooms and equipment with the Calendars module of CrestApps for Orchard Core.\n\nIn this video:\n• Adding a Room and an Equipment calendar: location, seats and equipment\n• Booking a room by inviting it to an event\n• The overlap limit that refuses a second booking for the same time\n• Booking or closing a room on its own calendar with Booking and Maintenance",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "DotNet",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "calendars",
+    "meeting rooms",
+    "room booking",
+    "equipment",
+    "resources",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Add a room and equipment"
+    },
+    {
+      "time": "1:25",
+      "title": "Book a room"
+    },
+    {
+      "time": "2:27",
+      "title": "Book or close a room on its own calendar"
+    },
+    {
+      "time": "2:55",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "length": "3:08",
+  "produced": "2026-10-31"
+}
