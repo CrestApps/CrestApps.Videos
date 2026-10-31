@@ -1,0 +1,176 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.438
+An imported data set keeps a copy of the other system's rows inside
+
+00:00:05.438 --> 00:00:08.782
+your site, and refreshes that copy on a schedule.
+
+00:00:08.782 --> 00:00:12.795
+This video shows how to set one up, refresh it by hand, read
+
+00:00:12.795 --> 00:00:16.260
+its history, and what happens when a refresh fails.
+
+00:00:20.860 --> 00:00:25.471
+A live data set asks the other system every time a report reads it.
+
+00:00:25.471 --> 00:00:30.840
+An imported data set copies the rows into your site, and reports read the copy.
+
+00:00:31.590 --> 00:00:36.320
+Reports are faster, and they keep working when the other system is down or slow.
+
+00:00:37.070 --> 00:00:39.464
+The copy is replaced as a whole.
+
+00:00:39.464 --> 00:00:44.251
+A refresh publishes its rows only when every one has been written, and
+
+00:00:44.251 --> 00:00:46.960
+a refresh that fails changes nothing.
+
+00:00:47.710 --> 00:00:51.763
+So the question is only how fresh the copy needs to be, and
+
+00:00:51.763 --> 00:00:54.070
+the refresh settings answer it.
+
+00:00:58.273 --> 00:01:02.862
+Add a data set for the Sales API, name it Imported orders, and
+
+00:01:02.862 --> 00:01:05.494
+set its resource to slash orders.
+
+00:01:05.494 --> 00:01:07.923
+Under Access, choose Imported.
+
+00:01:08.374 --> 00:01:10.437
+A Refresh section appears.
+
+00:01:10.437 --> 00:01:14.498
+Refresh every says how many minutes pass between imports.
+
+00:01:14.498 --> 00:01:17.722
+Leave it empty to refresh only when you ask.
+
+00:01:17.722 --> 00:01:20.752
+Refresh reads is every row for a web API.
+
+00:01:20.752 --> 00:01:25.071
+And a policy says what to do when the source's fields change:
+
+00:01:25.071 --> 00:01:30.164
+add the new ones and carry on, or fail the refresh until you review them.
+
+00:01:30.615 --> 00:01:32.988
+The rest is as for a live data set:
+
+00:01:32.988 --> 00:01:37.501
+the connector's settings, then Discover fields, an identifier, and Save.
+
+00:01:37.501 --> 00:01:41.899
+The list says the first import is waiting to run, because a background
+
+00:01:41.899 --> 00:01:44.155
+task picks it up within a minute.
+
+00:01:44.605 --> 00:01:47.735
+Once it has run, the list shows the result:
+
+00:01:47.735 --> 00:01:51.375
+it succeeded, how many rows it published, and when.
+
+00:01:55.572 --> 00:01:57.506
+The source has new orders.
+
+00:01:57.506 --> 00:02:00.949
+Open Actions on the data set and click Refresh now.
+
+00:02:00.949 --> 00:02:05.962
+The site queues the refresh, and the background task runs it within a minute.
+
+00:02:06.413 --> 00:02:10.003
+The list now shows more rows from the latest refresh.
+
+00:02:10.003 --> 00:02:13.593
+Reports read the new copy as soon as it is published.
+
+00:02:14.045 --> 00:02:16.424
+Open Actions and click History.
+
+00:02:16.424 --> 00:02:21.309
+Each entry shows when the refresh ran, who or what started it, whether
+
+00:02:21.309 --> 00:02:26.645
+it read every row, how many rows it read and published, and how long it took.
+
+00:02:30.847 --> 00:02:33.211
+Now the sales API is down.
+
+00:02:33.211 --> 00:02:35.427
+Click Refresh now again.
+
+00:02:35.877 --> 00:02:38.912
+The list shows the refresh failed, and why.
+
+00:02:38.912 --> 00:02:43.248
+But it still says how many rows the last good refresh published:
+
+00:02:43.248 --> 00:02:46.097
+a refresh that fails never removes rows.
+
+00:02:46.547 --> 00:02:51.637
+Preview still shows the rows, so reports keep working while you fix the source.
+
+00:02:52.297 --> 00:02:58.200
+The history keeps the failed entry with its error, next to the refreshes that worked.
+
+00:02:58.200 --> 00:03:02.157
+When the API is back, the next refresh publishes again.
+
+00:03:06.352 --> 00:03:11.607
+For SQL Server and Elasticsearch, Refresh reads can be limited to only the
+
+00:03:11.607 --> 00:03:14.366
+rows changed since the last refresh.
+
+00:03:14.366 --> 00:03:17.322
+That is much lighter for a large table.
+
+00:03:17.773 --> 00:03:21.407
+It needs a field that grows when a row changes, such as a
+
+00:03:21.407 --> 00:03:23.944
+modification date or a version number.
+
+00:03:23.944 --> 00:03:28.212
+Pick it under Changed rows have a larger, and tick Identifier on the
+
+00:03:28.212 --> 00:03:32.653
+fields that identify a row, so changed rows replace their old versions.
+
+00:03:33.105 --> 00:03:36.823
+A row deleted at the source stays in the copy until the next
+
+00:03:36.823 --> 00:03:38.795
+refresh that reads every row.
+
+00:03:39.246 --> 00:03:42.916
+And when the source's fields change, the policy decides:
+
+00:03:42.916 --> 00:03:47.001
+add the new fields and keep the removed ones empty, or fail the
+
+00:03:47.001 --> 00:03:51.146
+refresh and keep the published rows until you review the fields.
+
+00:03:53.146 --> 00:03:57.639
+Import what must be fast and always available, refresh it on the schedule
+
+00:03:57.639 --> 00:04:01.337
+that fits, and read the history when something looks wrong.
+
+00:04:01.337 --> 00:04:02.816
+Thanks for watching.
+
