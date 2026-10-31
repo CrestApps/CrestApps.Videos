@@ -1,0 +1,184 @@
+1
+00:00:01,000 --> 00:00:05,395
+When Bookings and Calendars are both on, every booking is also an event
+
+2
+00:00:05,395 --> 00:00:10,189
+on a shared calendar, and a calendar can close the dates of a booking product.
+
+3
+00:00:10,189 --> 00:00:14,641
+This video shows the Bookings calendar, how to add older bookings to the
+
+4
+00:00:14,641 --> 00:00:17,780
+calendar, and how to block dates with a calendar.
+
+5
+00:00:22,380 --> 00:00:27,315
+Bookings sells dates, nights and times, and the Bookings page keeps a calendar
+
+6
+00:00:27,315 --> 00:00:28,725
+of what is booked.
+
+7
+00:00:28,725 --> 00:00:33,425
+With the Calendars feature on, the same bookings also appear on the shared
+
+8
+00:00:33,425 --> 00:00:36,774
+calendar, next to the rest of your team's schedule.
+
+9
+00:00:36,774 --> 00:00:39,300
+There is no extra feature to turn on.
+
+10
+00:00:40,050 --> 00:00:42,938
+One calendar called Bookings holds them all.
+
+11
+00:00:42,938 --> 00:00:47,038
+Each event is named after the product and the buyer, and lasts as
+
+12
+00:00:47,038 --> 00:00:48,539
+long as the booking.
+
+13
+00:00:48,539 --> 00:00:53,102
+It is tentative while the booking is held or requested, confirmed once it
+
+14
+00:00:53,102 --> 00:00:57,260
+is booked, and cancelled when the booking is cancelled or expires.
+
+15
+00:01:01,463 --> 00:01:03,925
+Open Commerce, Bookings, Calendar.
+
+16
+00:01:03,925 --> 00:01:09,772
+It shows each month's dates and times, with the places taken out of the places available.
+
+17
+00:01:09,772 --> 00:01:12,603
+Use the arrows to move to another month.
+
+18
+00:01:13,054 --> 00:01:17,313
+Choose Open in calendar to see the same bookings on the shared calendar,
+
+19
+00:01:17,313 --> 00:01:20,754
+where they sit next to everything else on your calendars.
+
+20
+00:01:21,207 --> 00:01:22,948
+Open a booking's event.
+
+21
+00:01:22,948 --> 00:01:26,011
+It shows the product, the buyer and the time.
+
+22
+00:01:26,011 --> 00:01:30,395
+It can only be changed from the booking itself, so the calendar and
+
+23
+00:01:30,395 --> 00:01:32,197
+the orders always agree.
+
+24
+00:01:32,647 --> 00:01:37,055
+Back on the Bookings calendar, Sync to calendar adds the events of every
+
+25
+00:01:37,055 --> 00:01:39,767
+booking from today on, held ones included.
+
+26
+00:01:39,767 --> 00:01:44,231
+It is meant for bookings made before Calendars was turned on, and running
+
+27
+00:01:44,231 --> 00:01:46,547
+it again changes only what differs.
+
+28
+00:01:50,749 --> 00:01:54,424
+A calendar can also close the dates of a booking product.
+
+29
+00:01:54,424 --> 00:01:58,624
+Edit a product, such as the Alpine Lakes Tour, and find Block with
+
+30
+00:01:58,624 --> 00:02:00,899
+calendar in its booking settings.
+
+31
+00:02:01,350 --> 00:02:05,581
+Choose a calendar, and anything busy on it closes the times of this
+
+32
+00:02:05,581 --> 00:02:09,290
+product, and the dates or nights when it is busy that day.
+
+33
+00:02:09,290 --> 00:02:13,173
+Use it to keep one guide or one vehicle from being sold twice
+
+34
+00:02:13,173 --> 00:02:18,100
+across products, or to close dates that a team calendar marks as out of office.
+
+35
+00:02:22,300 --> 00:02:26,438
+Your team sees what is booked in one place, next to meetings, time
+
+36
+00:02:26,438 --> 00:02:30,290
+off and the rest of the schedule, without opening each order.
+
+37
+00:02:31,040 --> 00:02:34,169
+A held or requested booking shows as tentative.
+
+38
+00:02:34,169 --> 00:02:38,833
+Once it is booked its event is confirmed, and a cancelled booking's event
+
+39
+00:02:38,833 --> 00:02:42,080
+is cancelled, so the calendar shows what is real.
+
+40
+00:02:42,830 --> 00:02:45,733
+The Bookings calendar is private at first.
+
+41
+00:02:45,733 --> 00:02:50,753
+Share it with your staff under Calendars, Manage Calendars, so guides and the
+
+42
+00:02:50,753 --> 00:02:52,930
+front desk see the same dates.
+
+43
+00:02:53,680 --> 00:02:57,579
+And when a guide, a room or a vehicle is shared by several
+
+44
+00:02:57,579 --> 00:03:02,270
+products, Block with calendar keeps the same day from being sold twice.
+
+45
+00:03:04,270 --> 00:03:09,256
+Every booking shows on the calendar, and a calendar can close what Bookings sells.
+
+46
+00:03:09,256 --> 00:03:10,730
+Thanks for watching.
+

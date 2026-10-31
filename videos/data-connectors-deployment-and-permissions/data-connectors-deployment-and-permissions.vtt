@@ -1,0 +1,167 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:05.123
+This video covers who may manage connections and data sets, and how to
+
+00:00:05.123 --> 00:00:08.974
+copy them to another site, such as from staging to the live site,
+
+00:00:08.974 --> 00:00:10.547
+with a deployment plan.
+
+00:00:10.547 --> 00:00:13.910
+It ends with what to check when something does not work.
+
+00:00:18.510 --> 00:00:21.210
+Five permissions cover data connectors.
+
+00:00:21.210 --> 00:00:27.870
+Manage data connections and their credentials is for creating, editing, testing and deleting connections.
+
+00:00:27.870 --> 00:00:32.070
+It is security critical, because a connection holds credentials.
+
+00:00:32.820 --> 00:00:36.031
+Manage connected data sets is for data sets.
+
+00:00:36.031 --> 00:00:42.710
+Refresh imported data sets lets someone run Refresh now, and is included in the manage permission.
+
+00:00:43.460 --> 00:00:48.250
+Read every connected data set, or Read the connected data set with one
+
+00:00:48.250 --> 00:00:52.473
+name, decide who can use a data set in reports and pipelines.
+
+00:00:52.473 --> 00:00:55.750
+Administrators have the first four by default.
+
+00:00:59.952 --> 00:01:04.653
+Open a role in Access Control, Roles, and find the Data Connectors group.
+
+00:01:04.653 --> 00:01:09.414
+Manage data connections and their credentials is marked security critical:
+
+00:01:09.414 --> 00:01:13.222
+give it only to the people who look after the connections.
+
+00:01:13.673 --> 00:01:19.260
+Manage connected data sets lets a person create, edit, preview and delete data sets.
+
+00:01:19.260 --> 00:01:21.308
+Allow it and save the role.
+
+00:01:21.308 --> 00:01:26.274
+When you open the role again, Refresh imported data sets is effective too,
+
+00:01:26.274 --> 00:01:29.253
+because the manage permission includes it.
+
+00:01:29.704 --> 00:01:35.564
+Refresh imported data sets can also be given alone, to someone who may only refresh.
+
+00:01:36.014 --> 00:01:41.202
+And Read every connected data set includes the read permission of each data set.
+
+00:01:41.202 --> 00:01:45.184
+That is the permission the reports and pipelines video used.
+
+00:01:49.357 --> 00:01:54.077
+To copy connections and data sets to another site, use a deployment plan.
+
+00:01:54.077 --> 00:01:58.737
+Under Deployments, Plans, click Add Deployment Plan, and give it a name.
+
+00:01:59.192 --> 00:02:03.653
+Click Add Step, open the Data group, and add Data Connections.
+
+00:02:03.653 --> 00:02:09.492
+Leave Include all connections ticked, or clear it and tick the connections to copy.
+
+00:02:11.331 --> 00:02:14.438
+Then add Connected Data Sets in the same way.
+
+00:02:14.438 --> 00:02:16.448
+Keep the connections first:
+
+00:02:16.448 --> 00:02:20.041
+each data set needs its connection on the other site.
+
+00:02:20.492 --> 00:02:25.362
+Execute the plan to download its file, or to send it to another site.
+
+00:02:25.812 --> 00:02:29.622
+On the other site, import the file in Package Import.
+
+00:02:29.622 --> 00:02:33.562
+That site needs the Deployment and Recipes features on.
+
+00:02:37.762 --> 00:02:42.322
+A connection or data set with the same identifier or technical name is
+
+00:02:42.322 --> 00:02:44.842
+updated, and the others are created.
+
+00:02:45.592 --> 00:02:50.855
+Passwords, keys and secrets are not copied, because they are encrypted for the
+
+00:02:50.855 --> 00:02:52.547
+site that holds them.
+
+00:02:52.547 --> 00:02:57.372
+Open each copied connection, type its secrets, and click Save and test.
+
+00:02:58.122 --> 00:03:00.786
+Imported data sets don't bring their rows.
+
+00:03:00.786 --> 00:03:04.837
+Each one starts its first import on the other site within a minute,
+
+00:03:04.837 --> 00:03:06.502
+from its own connection.
+
+00:03:07.252 --> 00:03:11.363
+The other site needs the same connector features turned on, and it must
+
+00:03:11.363 --> 00:03:13.232
+be able to reach the systems.
+
+00:03:17.415 --> 00:03:21.807
+If a data set is missing from reports, check that it is enabled.
+
+00:03:21.807 --> 00:03:25.885
+A disabled data set is not listed to reports and pipelines.
+
+00:03:26.335 --> 00:03:30.588
+Check that its fields were read, with Discover fields, and that your role
+
+00:03:30.588 --> 00:03:32.095
+is allowed to read it.
+
+00:03:32.547 --> 00:03:36.952
+An imported data set shows no rows until its first refresh succeeds.
+
+00:03:36.952 --> 00:03:39.154
+Open its History for the error:
+
+00:03:39.154 --> 00:03:42.547
+the last good rows stay available while you fix it.
+
+00:03:42.547 --> 00:03:46.357
+And if a check says the host is on the site's own network,
+
+00:03:46.357 --> 00:03:48.797
+ask your administrator to allow it.
+
+00:03:50.797 --> 00:03:55.305
+Give the manage permissions to the few who look after connections, copy them
+
+00:03:55.305 --> 00:03:59.154
+with a plan, type the secrets again on the other site, and check
+
+00:03:59.154 --> 00:04:01.298
+the history when a refresh fails.
+
+00:04:01.298 --> 00:04:02.727
+Thanks for watching.
+

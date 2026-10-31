@@ -1,0 +1,196 @@
+{
+  "title": "Calendars in Workflows and AI",
+  "output": "calendars-workflows-and-ai",
+  "spoken": {},
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Calendars in Workflows and AI",
+      "subtitle": "Automate the calendar, and let an assistant use it",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "The calendar works with workflows and with AI assistants. Workflows can start when an event changes, and can add, move, find and cancel events. An AI assistant can read your calendar, find free time, and book, move and cancel events for you. This video shows both."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why connect them",
+      "subtitle": "Do the routine work without a person",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "Much of calendar work is routine. Someone books time off, and a cover plan is needed. A meeting is about to start, and its attendees need the agenda."
+            },
+            {
+              "id": "why-2",
+              "text": "Workflows watch for those moments, and act. The calendar adds events, tasks and a free time search to the workflow editor."
+            },
+            {
+              "id": "why-3",
+              "text": "AI assistants do the other kind of routine work, the questions people ask. What is on my calendar? When can we meet? Move that meeting to Friday."
+            },
+            {
+              "id": "why-4",
+              "text": "Both act with the access of a person, and never beyond it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Calendar activities in the workflow editor",
+      "subtitle": "Events that start a workflow, and tasks that act",
+      "clips": [
+        {
+          "id": "02-editor",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "wf-1",
+              "text": "Open Workflows, and edit a workflow. The Activities panel lists everything you can drag onto the canvas. Search for Calendar, and the calendar's activities appear."
+            },
+            {
+              "id": "wf-2",
+              "text": "The Events tab shows the events that can start a workflow: an event created, updated, cancelled or deleted, an attendee invited, and an attendee's answer received. With Calendar Reminders on, there are also Starting Soon and Completed."
+            },
+            {
+              "id": "wf-3",
+              "text": "The Tasks tab shows what a workflow can do: create, update, cancel, get and find events, add and remove an attendee, and find free time."
+            },
+            {
+              "id": "wf-4",
+              "text": "This workflow starts with Calendar Event Created. Open its settings. It can be limited to some calendars, some types of calendar, and some kinds of event. Here it only reacts to Out of office events on team calendars."
+            },
+            {
+              "id": "wf-5",
+              "text": "The second step is Create Calendar Event. It adds a meeting to the design team's calendar. Its text fields take values from the event that started the workflow, so the meeting is named after it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Run it",
+      "subtitle": "An out of office event starts the workflow",
+      "clips": [
+        {
+          "id": "03-run",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "run-1",
+              "text": "Add an Out of office event for Riley Ortiz on the design team's calendar."
+            },
+            {
+              "id": "run-2",
+              "text": "Open Workflows, then Instances. The workflow started by itself, and has finished."
+            },
+            {
+              "id": "run-3",
+              "text": "On the calendar, the cover plan meeting is there. The workflow created it, and a change made by a workflow never starts the workflow again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The AI assistant",
+      "subtitle": "Six calendar tools for AI profiles",
+      "clips": [
+        {
+          "id": "04-tools",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "ai-1",
+              "text": "With the AI features on, an AI profile can use calendar tools. Open Artificial Intelligence, Profiles, and edit a profile. On the Capabilities tab, the Calendar group lists six tools."
+            },
+            {
+              "id": "ai-2",
+              "text": "List calendars, Find calendar events, Find free time, Create calendar event, Move calendar event, and Cancel calendar event. Tick the ones this assistant may use, or select them all, and save."
+            }
+          ]
+        },
+        {
+          "id": "05-chat",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "chat-1",
+              "text": "Here is an example of what people can then ask. The assistant uses Find calendar events to answer what is on the calendar this week, for up to sixty-two days at a time."
+            },
+            {
+              "id": "chat-2",
+              "text": "Asked to find thirty minutes with Sam on Thursday, it uses Find free time. That looks at the people, and at calendars such as a room, for up to thirty-one days."
+            },
+            {
+              "id": "chat-3",
+              "text": "Asked to book it, it uses Create calendar event. Asked to move or cancel the meeting, it uses Move calendar event and Cancel calendar event."
+            },
+            {
+              "id": "chat-4",
+              "text": "The tools act for the person who is signed in, with that person's access to each calendar. They refuse anyone who is not signed in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Good to know",
+      "subtitle": "Limits and neighbors",
+      "clips": [
+        {
+          "id": "06-know",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "know-1",
+              "text": "Changes made by a workflow are recorded as made by a workflow, and workflows ignore them by default, so a workflow cannot start itself again."
+            },
+            {
+              "id": "know-2",
+              "text": "Starting Soon and Completed need Calendar Reminders. They run once for every occurrence, even after a restart."
+            },
+            {
+              "id": "know-3",
+              "text": "AI tools need the AI feature. Appointment booking for customers has its own tools, covered with Scheduling."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Calendars in Workflows and AI",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Workflows react to the calendar and change it, and AI assistants read it and book on your behalf, always with your access. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

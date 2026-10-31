@@ -1,0 +1,186 @@
+{
+  "title": "Refreshing imported data sets",
+  "output": "data-connectors-refresh",
+  "spoken": {
+    "SQL": "sequel",
+    "API": "A.P.I.",
+    "Elasticsearch": "Elastic search"
+  },
+  "chapters": [
+    {
+      "id": "00",
+      "title": "Keep imported data fresh",
+      "subtitle": "Refresh, history and failures",
+      "clips": [
+        {
+          "id": "00-intro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "intro",
+              "text": "An imported data set keeps a copy of the other system's rows inside your site, and refreshes that copy on a schedule. This video shows how to set one up, refresh it by hand, read its history, and what happens when a refresh fails."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "Why import",
+      "subtitle": "A copy that keeps working",
+      "clips": [
+        {
+          "id": "01-why",
+          "kind": "slide",
+          "steps": [
+            {
+              "id": "why-1",
+              "text": "A live data set asks the other system every time a report reads it. An imported data set copies the rows into your site, and reports read the copy."
+            },
+            {
+              "id": "why-2",
+              "text": "Reports are faster, and they keep working when the other system is down or slow."
+            },
+            {
+              "id": "why-3",
+              "text": "The copy is replaced as a whole. A refresh publishes its rows only when every one has been written, and a refresh that fails changes nothing."
+            },
+            {
+              "id": "why-4",
+              "text": "So the question is only how fresh the copy needs to be, and the refresh settings answer it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Create an imported data set",
+      "subtitle": "Access, schedule and the first import",
+      "clips": [
+        {
+          "id": "02-create",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "imp-1",
+              "text": "Add a data set for the Sales API, name it Imported orders, and set its resource to slash orders. Under Access, choose Imported."
+            },
+            {
+              "id": "imp-2",
+              "text": "A Refresh section appears. Refresh every says how many minutes pass between imports. Leave it empty to refresh only when you ask. Refresh reads is every row for a web API. And a policy says what to do when the source's fields change: add the new ones and carry on, or fail the refresh until you review them."
+            },
+            {
+              "id": "imp-3",
+              "text": "The rest is as for a live data set: the connector's settings, then Discover fields, an identifier, and Save. The list says the first import is waiting to run, because a background task picks it up within a minute."
+            },
+            {
+              "id": "imp-4",
+              "text": "Once it has run, the list shows the result: it succeeded, how many rows it published, and when."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Refresh now and the history",
+      "subtitle": "Pull the new rows on demand",
+      "clips": [
+        {
+          "id": "03-now",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "now-1",
+              "text": "The source has new orders. Open Actions on the data set and click Refresh now. The site queues the refresh, and the background task runs it within a minute."
+            },
+            {
+              "id": "now-2",
+              "text": "The list now shows more rows from the latest refresh. Reports read the new copy as soon as it is published."
+            },
+            {
+              "id": "now-3",
+              "text": "Open Actions and click History. Each entry shows when the refresh ran, who or what started it, whether it read every row, how many rows it read and published, and how long it took."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "When a refresh fails",
+      "subtitle": "The last good rows stay",
+      "clips": [
+        {
+          "id": "04-fail",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "fail-1",
+              "text": "Now the sales API is down. Click Refresh now again."
+            },
+            {
+              "id": "fail-2",
+              "text": "The list shows the refresh failed, and why. But it still says how many rows the last good refresh published: a refresh that fails never removes rows."
+            },
+            {
+              "id": "fail-3",
+              "text": "Preview still shows the rows, so reports keep working while you fix the source."
+            },
+            {
+              "id": "fail-4",
+              "text": "The history keeps the failed entry with its error, next to the refreshes that worked. When the API is back, the next refresh publishes again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Only the changed rows",
+      "subtitle": "For SQL Server and Elasticsearch",
+      "clips": [
+        {
+          "id": "05-more",
+          "kind": "clip",
+          "steps": [
+            {
+              "id": "more-1",
+              "text": "For SQL Server and Elasticsearch, Refresh reads can be limited to only the rows changed since the last refresh. That is much lighter for a large table."
+            },
+            {
+              "id": "more-2",
+              "text": "It needs a field that grows when a row changes, such as a modification date or a version number. Pick it under Changed rows have a larger, and tick Identifier on the fields that identify a row, so changed rows replace their old versions."
+            },
+            {
+              "id": "more-3",
+              "text": "A row deleted at the source stays in the copy until the next refresh that reads every row."
+            },
+            {
+              "id": "more-4",
+              "text": "And when the source's fields change, the policy decides: add the new fields and keep the removed ones empty, or fail the refresh and keep the published rows until you review the fields."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Refresh",
+      "subtitle": "orchardcore.crestapps.com",
+      "clips": [
+        {
+          "id": "99-outro",
+          "kind": "card",
+          "steps": [
+            {
+              "id": "outro",
+              "text": "Import what must be fast and always available, refresh it on the schedule that fits, and read the history when something looks wrong. Thanks for watching."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
