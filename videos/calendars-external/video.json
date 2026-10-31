@@ -1,0 +1,77 @@
+{
+  "title": "External Calendars: Show an iCalendar Feed Read-Only | CrestApps for Orchard Core",
+  "description": "With External Calendars on, an Orchard Core calendar can follow a secret iCalendar (.ics) address and show its events read only, kept up to date by the site. This video shows subscribing, the refresh interval, what the events look like, and how addresses on the local network are refused.\n\nIn this video:\n• Why external calendars, and what is not available (two-way sync)\n• Subscribing a calendar to an iCalendar address\n• Last synchronized, the events and their read-only details\n• A refused address, and how the site backs off after failures",
+  "hashtags": [
+    "OrchardCore",
+    "Calendars",
+    "CrestApps"
+  ],
+  "tags": [
+    "Orchard Core",
+    "CrestApps",
+    "calendar",
+    "external calendar",
+    "iCalendar",
+    "ics",
+    "subscription",
+    "read only",
+    "ASP.NET Core",
+    ".NET",
+    "CMS"
+  ],
+  "categoryId": "28",
+  "privacyStatus": "public",
+  "playlists": [
+    "CrestApps for Orchard Core",
+    "CrestApps User Manual"
+  ],
+  "chapters": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:19",
+      "title": "Why external calendars"
+    },
+    {
+      "time": "1:05",
+      "title": "Subscribe a calendar"
+    },
+    {
+      "time": "1:54",
+      "title": "What happens next"
+    },
+    {
+      "time": "2:52",
+      "title": "Good to know"
+    },
+    {
+      "time": "3:21",
+      "title": "Wrap-up"
+    }
+  ],
+  "links": [
+    {
+      "label": "User manual",
+      "url": "https://orchardcore.crestapps.com/docs/user-manual/calendars/calendars"
+    },
+    {
+      "label": "Technical guide",
+      "url": "https://orchardcore.crestapps.com/docs/modules/calendars"
+    },
+    {
+      "label": "CrestApps for Orchard Core",
+      "url": "https://orchardcore.crestapps.com"
+    }
+  ],
+  "source": {
+    "repository": "CrestApps/CrestApps.OrchardCore",
+    "feature": "CrestApps.OrchardCore.Calendars.External"
+  },
+  "embeddedIn": [
+    "src/CrestApps.Docs/docs/user-manual/calendars/calendars.md"
+  ],
+  "produced": "2026-10-31",
+  "length": "3:30"
+}
