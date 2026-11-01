@@ -138,12 +138,22 @@ def description(video):
     return text
 
 
+def youtube_title(video):
+    """The title YouTube shows: video.json's title, without the " | CrestApps for Orchard Core" suffix when the whole is over 100 characters."""
+    title = video["title"]
+
+    if len(title) > 100 and " | " in title:
+        title = title.rsplit(" | ", 1)[0]
+
+    return title
+
+
 def snippet(video):
-    if len(video["title"]) > 100:
-        raise SystemExit(f'The title is {len(video["title"])} characters; YouTube allows 100.')
+    if len(youtube_title(video)) > 100:
+        raise SystemExit(f'The title is {len(youtube_title(video))} characters; YouTube allows 100.')
 
     return {
-        "title": video["title"],
+        "title": youtube_title(video),
         "description": description(video),
         "tags": video.get("tags", []),
         "categoryId": video.get("categoryId", "28"),
