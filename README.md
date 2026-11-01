@@ -56,7 +56,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Calendar Invitations: Email Invites, Answers and Updates](videos/calendars-invitations) | 4:15 | [https://youtu.be/zcrhFFTVGlQ](https://youtu.be/zcrhFFTVGlQ) | CrestApps/CrestApps.OrchardCore |
 | [Office Calendars: Who Is In and Which Desks Are Free](videos/calendars-office) | 4:11 | [https://youtu.be/fgqhK8V2NoQ](https://youtu.be/fgqhK8V2NoQ) | CrestApps/CrestApps.OrchardCore |
 | [Calendar Reminders: On-Screen Alerts Before Events Start](videos/calendars-reminders) | 3:02 | [https://youtu.be/ADyi2Zh2q9s](https://youtu.be/ADyi2Zh2q9s) | CrestApps/CrestApps.OrchardCore |
-| [Calendars: Book Meeting Rooms and Equipment](videos/calendars-rooms-and-equipment) | 3:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Book Meeting Rooms and Equipment](videos/calendars-rooms-and-equipment) | 3:08 | [https://youtu.be/skikDpkHnR0](https://youtu.be/skikDpkHnR0) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: See Schedules and Find a Time with Team Availability](videos/calendars-schedules-and-team) | 3:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Calendars in Workflows and AI: Automate and Ask](videos/calendars-workflows-and-ai) | 4:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | [https://youtu.be/ZX7sgNCkQTs](https://youtu.be/ZX7sgNCkQTs) | CrestApps/CrestApps.OrchardCore |
