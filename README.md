@@ -54,7 +54,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Calendar Feeds: Subscription Addresses, Export and Import](videos/calendars-feeds-and-subscriptions) | 3:36 | [https://youtu.be/aYUX5DzIzC0](https://youtu.be/aYUX5DzIzC0) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Open Your Calendar, Add Events, See Schedules](videos/calendars-getting-started) | 4:46 | [https://youtu.be/WRJVk_dI8yM](https://youtu.be/WRJVk_dI8yM) | CrestApps/CrestApps.OrchardCore |
 | [Calendar Invitations: Email Invites, Answers and Updates](videos/calendars-invitations) | 4:15 | [https://youtu.be/zcrhFFTVGlQ](https://youtu.be/zcrhFFTVGlQ) | CrestApps/CrestApps.OrchardCore |
-| [Office Calendars: Who Is In and Which Desks Are Free](videos/calendars-office) | 4:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Office Calendars: Who Is In and Which Desks Are Free](videos/calendars-office) | 4:11 | [https://youtu.be/fgqhK8V2NoQ](https://youtu.be/fgqhK8V2NoQ) | CrestApps/CrestApps.OrchardCore |
 | [Calendar Reminders: On-Screen Alerts Before Events Start](videos/calendars-reminders) | 3:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Book Meeting Rooms and Equipment](videos/calendars-rooms-and-equipment) | 3:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Calendars: See Schedules and Find a Time with Team Availability](videos/calendars-schedules-and-team) | 3:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
