@@ -48,7 +48,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Color-Code Events with Categories](videos/calendars-categories-and-colors) | 3:05 | [https://youtu.be/VBxA0Nt7iQ0](https://youtu.be/VBxA0Nt7iQ0) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Create a Calendar and Share It with the Right People](videos/calendars-create-and-share) | 3:39 | [https://youtu.be/B4kW2MzzHss](https://youtu.be/B4kW2MzzHss) | CrestApps/CrestApps.OrchardCore |
-| [Calendars: Which Features to Turn On, and How to Copy Calendars](videos/calendars-deployment-and-features) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Which Features to Turn On, and How to Copy Calendars](videos/calendars-deployment-and-features) | 4:05 | [https://youtu.be/HgFlNjeYSvY](https://youtu.be/HgFlNjeYSvY) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Repeating Events, Attendees and Invitations](videos/calendars-events-recurrence-attendees) | 4:28 | [https://youtu.be/Hcaog-jIK3s](https://youtu.be/Hcaog-jIK3s) | CrestApps/CrestApps.OrchardCore |
 | [External Calendars: Show an iCalendar Feed Read-Only](videos/calendars-external) | 3:30 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Calendar Feeds: Subscription Addresses, Export and Import](videos/calendars-feeds-and-subscriptions) | 3:36 | [https://youtu.be/aYUX5DzIzC0](https://youtu.be/aYUX5DzIzC0) | CrestApps/CrestApps.OrchardCore |
