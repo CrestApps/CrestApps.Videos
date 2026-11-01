@@ -77,7 +77,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Contact Center Configuration: Export a Plan and Replay It](videos/contact-center-configuration-deployment) | 5:33 | [https://youtu.be/pv4guBJvTXI](https://youtu.be/pv4guBJvTXI) | CrestApps/CrestApps.OrchardCore |
 | [Dashboard Diagnostics: Alerts, Free Agent and Why the Dialer Is Not Dialing](videos/contact-center-dashboard-diagnostics) | 5:46 | [https://youtu.be/MU8AGzeyP9c](https://youtu.be/MU8AGzeyP9c) | CrestApps/CrestApps.OrchardCore |
 | [Dialer Modes Compared: Preview, Power, Progressive and Predictive](videos/contact-center-dialer-modes-compared) | 7:00 | [https://youtu.be/BUnyaBmRJ10](https://youtu.be/BUnyaBmRJ10) | CrestApps/CrestApps.OrchardCore |
-| [Dialer Pacing: Abandoned Calls, Predictive Dialing and Retries](videos/contact-center-dialer-pacing) | 6:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Dialer Pacing: Abandoned Calls, Predictive Dialing and Retries](videos/contact-center-dialer-pacing) | 6:56 | [https://youtu.be/TbLt30uaCRU](https://youtu.be/TbLt30uaCRU) | CrestApps/CrestApps.OrchardCore |
 | [Dialer Profiles: Preview, Power, Progressive and Predictive Dialing](videos/contact-center-dialer-profiles) | 6:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dialer Reports: See What the Dialer Did and Why](videos/contact-center-dialer-reports) | 5:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Dispositions: The Outcome of Every Activity](videos/contact-center-dispositions) | 5:02 | not uploaded | CrestApps/CrestApps.OrchardCore |

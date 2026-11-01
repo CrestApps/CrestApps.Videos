@@ -75,7 +75,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "TbLt30uaCRU",
+    "url": "https://youtu.be/TbLt30uaCRU",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter.Dialer.Paced"
