@@ -79,7 +79,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "ERmm2L9vZyA",
+    "url": "https://youtu.be/ERmm2L9vZyA",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "OrchardCore.Workflows"

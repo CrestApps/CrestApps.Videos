@@ -42,7 +42,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Usage Analytics: Models, Tokens, Voice Calls and Report Builder Data Sets](videos/ai-usage-analytics) | 6:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | [https://youtu.be/tdW6KZU7df4](https://youtu.be/tdW6KZU7df4) | CrestApps/CrestApps.OrchardCore |
-| [AI in Workflows: Automate with AI Tasks and Chat Events](videos/ai-workflows) | 4:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI in Workflows: Automate with AI Tasks and Chat Events](videos/ai-workflows) | 4:44 | [https://youtu.be/ERmm2L9vZyA](https://youtu.be/ERmm2L9vZyA) | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | [https://youtu.be/XjLNpgWezec](https://youtu.be/XjLNpgWezec) | CrestApps/CrestApps.OrchardCore |
 | [Bookings on the Calendar: See Every Booking and Block Dates](videos/bookings-on-the-calendar) | 3:12 | [https://youtu.be/6JXKZB01bN0](https://youtu.be/6JXKZB01bN0) | CrestApps/CrestApps.OrchardCore |
 | [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
