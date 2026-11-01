@@ -44,9 +44,21 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | [https://youtu.be/tdW6KZU7df4](https://youtu.be/tdW6KZU7df4) | CrestApps/CrestApps.OrchardCore |
 | [AI in Workflows: Automate with AI Tasks and Chat Events](videos/ai-workflows) | 4:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | [https://youtu.be/XjLNpgWezec](https://youtu.be/XjLNpgWezec) | CrestApps/CrestApps.OrchardCore |
-| [Bookings on the Calendar: See Every Booking and Block Dates](videos/bookings-on-the-calendar) | 3:12 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Bookings on the Calendar: See Every Booking and Block Dates](videos/bookings-on-the-calendar) | 3:12 | [https://youtu.be/6JXKZB01bN0](https://youtu.be/6JXKZB01bN0) | CrestApps/CrestApps.OrchardCore |
 | [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Color-Code Events with Categories](videos/calendars-categories-and-colors) | 3:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Create a Calendar and Share It with the Right People](videos/calendars-create-and-share) | 3:39 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Which Features to Turn On, and How to Copy Calendars](videos/calendars-deployment-and-features) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Repeating Events, Attendees and Invitations](videos/calendars-events-recurrence-attendees) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [External Calendars: Show an iCalendar Feed Read-Only](videos/calendars-external) | 3:30 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendar Feeds: Subscription Addresses, Export and Import](videos/calendars-feeds-and-subscriptions) | 3:36 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: Open Your Calendar, Add Events, See Schedules](videos/calendars-getting-started) | 4:46 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendar Invitations: Email Invites, Answers and Updates](videos/calendars-invitations) | 4:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Office Calendars: Who Is In and Which Desks Are Free](videos/calendars-office) | 4:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendar Reminders: On-Screen Alerts Before Events Start](videos/calendars-reminders) | 3:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Book Meeting Rooms and Equipment](videos/calendars-rooms-and-equipment) | 3:08 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars: See Schedules and Find a Time with Team Availability](videos/calendars-schedules-and-team) | 3:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Calendars in Workflows and AI: Automate and Ask](videos/calendars-workflows-and-ai) | 4:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | [https://youtu.be/ZX7sgNCkQTs](https://youtu.be/ZX7sgNCkQTs) | CrestApps/CrestApps.OrchardCore |
 | [CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices](videos/commerce) | 10:30 | [https://youtu.be/YQHVdIucYgI](https://youtu.be/YQHVdIucYgI) | CrestApps/CrestApps.OrchardCore |
 | [Commerce Automation: Emails and Actions When Orders, Stock and Shipments Change](videos/commerce-automation) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -94,6 +106,11 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Coupons and Discounts: Codes, Automatic Offers and Buy X Get Y](videos/coupons-and-discounts) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Customers and Companies: Know Who Buys From You, and Sell to Businesses](videos/customers-companies) | 12:51 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Customers, Guests and Privacy: Merged Accounts, Retention and Checkout Fields](videos/customers-guests-privacy) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Data Connections: Reach SQL Server, Web APIs, Elasticsearch and Files](videos/data-connectors-connections) | 5:19 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Connected Data Sets: Files, Web APIs, SQL Server and Elasticsearch](videos/data-connectors-data-sets) | 5:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Data Connectors: Permissions, Deployment Plans and Troubleshooting](videos/data-connectors-deployment-and-permissions) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Refreshing Imported Data Sets: Schedules, Refresh Now, History and Failures](videos/data-connectors-refresh) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Connected Data in Reports and Pipelines: Live, Imported and Permissions](videos/data-connectors-reports-and-pipelines) | 3:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Do Not Call Lists: Never Call a Number You Must Not Call](videos/do-not-call-lists) | 7:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Digital Downloads: Sell Files and Deliver Them Safely](videos/downloads) | 5:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Fundraising: Run a Donation Campaign With Tax Receipts](videos/fundraising) | 5:14 | not uploaded | CrestApps/CrestApps.OrchardCore |
@@ -151,6 +168,10 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: Book, Confirm, Move and Cancel Appointments](videos/scheduling-book-and-manage) | 3:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: Online Booking and the Waitlist](videos/scheduling-online-booking-and-waitlist) | 3:30 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: How Open Times Are Worked Out](videos/scheduling-open-times) | 4:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: Resources and Appointment Types for Bookable Time](videos/scheduling-people-rooms-appointment-types) | 4:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Workflows, the AI Assistant and Deployment](videos/scheduling-workflows-and-ai) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |

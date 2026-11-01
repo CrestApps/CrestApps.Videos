@@ -63,5 +63,10 @@
   "embeddedIn": [
     "src/CrestApps.Docs/docs/modules/bookings.md"
   ],
-  "length": "3:12"
+  "length": "3:12",
+  "youtube": {
+    "id": "6JXKZB01bN0",
+    "url": "https://youtu.be/6JXKZB01bN0",
+    "version": "v1"
+  }
 }
