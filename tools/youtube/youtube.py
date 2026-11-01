@@ -91,11 +91,34 @@ def check_chapters(video):
         raise SystemExit(f"YouTube shows no chapters when one is shorter than 10 seconds: {', '.join(short)}. Merge it into the chapter before it.")
 
 
+def merge_short_chapters(video):
+    """Folds every chapter shorter than 10 seconds into the one before it (the first folds into the next), so YouTube
+    still shows the chapters. The chapters in video.json, which the docs read, stay as they are."""
+    chapters = list(video["chapters"])
+    end = to_seconds(video["length"]) if video.get("length") else None
+    i = 0
+
+    while len(chapters) > 3 and i < len(chapters):
+        start = to_seconds(chapters[i]["time"])
+        next_start = to_seconds(chapters[i + 1]["time"]) if i + 1 < len(chapters) else end
+
+        if next_start is not None and next_start - start < 10:
+            if i == 0:
+                chapters[1] = {**chapters[1], "time": chapters[0]["time"]}
+            del chapters[i]
+            i = max(i - 1, 0)
+        else:
+            i += 1
+
+    return {**video, "chapters": chapters}
+
+
 def description(video):
     """The description YouTube shows: the text, then the chapters, the links and the hashtags."""
     parts = [video["description"].strip()]
 
     if video.get("chapters"):
+        video = merge_short_chapters(video)
         check_chapters(video)
         parts.append("Chapters:\n" + "\n".join(f'{c["time"]} {c["title"]}' for c in video["chapters"]))
 
