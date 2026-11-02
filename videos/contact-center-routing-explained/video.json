@@ -82,7 +82,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "CK3CWk3N1QU",
+    "url": "https://youtu.be/CK3CWk3N1QU",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter.WorkDistribution"
