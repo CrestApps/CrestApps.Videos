@@ -82,7 +82,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Dialer Reports: See What the Dialer Did and Why](videos/contact-center-dialer-reports) | 5:54 | [https://youtu.be/tH_YHeMKIDU](https://youtu.be/tH_YHeMKIDU) | CrestApps/CrestApps.OrchardCore |
 | [Dispositions: The Outcome of Every Activity](videos/contact-center-dispositions) | 5:02 | [https://youtu.be/TwLaVmopCYg](https://youtu.be/TwLaVmopCYg) | CrestApps/CrestApps.OrchardCore |
 | [Inbound Entry Points: Route Calls and Texts to the Right Queue](videos/contact-center-entry-points-ivr) | 7:02 | [https://youtu.be/OwaVP2rRMsQ](https://youtu.be/OwaVP2rRMsQ) | CrestApps/CrestApps.OrchardCore |
-| [IVR Menus: Let Callers Press a Key to Reach the Right Team](videos/contact-center-ivr-menus) | 6:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [IVR Menus: Let Callers Press a Key to Reach the Right Team](videos/contact-center-ivr-menus) | 6:29 | [https://youtu.be/jnAvSGOVroQ](https://youtu.be/jnAvSGOVroQ) | CrestApps/CrestApps.OrchardCore |
 | [The Live Dashboard: Watch Queues and Agents in Real Time](videos/contact-center-live-dashboard) | 4:55 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Numbers Not In Service: Skip Dead Numbers Automatically](videos/contact-center-numbers-not-in-service) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Queues: Decide Who Takes the Next Call, and What Callers Hear](videos/contact-center-queues) | 5:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
