@@ -70,7 +70,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "9E3qt3gbGuQ",
+    "url": "https://youtu.be/9E3qt3gbGuQ",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.AI.Chat.Analytics"

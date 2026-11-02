@@ -15,7 +15,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Agent-to-Agent (A2A): Specialist AI Agents Across Systems](videos/ai-a2a) | 5:16 | [https://youtu.be/Yf0FfborI2o](https://youtu.be/Yf0FfborI2o) | CrestApps/CrestApps.OrchardCore |
 | [AI Agents: Specialists Your AI Assistant Can Call](videos/ai-agents) | 3:22 | [https://youtu.be/jXRlmWtw-00](https://youtu.be/jXRlmWtw-00) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat: Talk to Your Assistants in the Admin and on Your Website](videos/ai-chat) | 8:05 | [https://youtu.be/a2S4QqdEbLc](https://youtu.be/a2S4QqdEbLc) | CrestApps/CrestApps.OrchardCore |
-| [AI Chat Analytics: Resolution, Ratings, Extracted Data and Conversion Goals](videos/ai-chat-analytics) | 4:34 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Chat Analytics: Resolution, Ratings, Extracted Data and Conversion Goals](videos/ai-chat-analytics) | 4:34 | [https://youtu.be/9E3qt3gbGuQ](https://youtu.be/9E3qt3gbGuQ) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Interactions: Try Any Model and Set It Up as You Chat](videos/ai-chat-interactions) | 6:30 | [https://youtu.be/jkkWgJwaFEE](https://youtu.be/jkkWgJwaFEE) | CrestApps/CrestApps.OrchardCore |
 | [AI Chat Widgets: An Assistant in the Admin and on Your Website](videos/ai-chat-widgets) | 5:40 | [https://youtu.be/21zqk72pLI8](https://youtu.be/21zqk72pLI8) | CrestApps/CrestApps.OrchardCore |
 | [AI Connections and Deployments: Connect Your Site to an AI Service](videos/ai-connections-deployments) | 5:56 | [https://youtu.be/X0tP_6Bdzs4](https://youtu.be/X0tP_6Bdzs4) | CrestApps/CrestApps.OrchardCore |
