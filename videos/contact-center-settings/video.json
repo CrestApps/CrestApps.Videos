@@ -42,7 +42,11 @@
       "title": "Wrap-up"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "wwxACePkPXY",
+    "url": "https://youtu.be/wwxACePkPXY",
+    "version": "v1"
+  },
   "title": "Contact Center Settings: Recording, Consent and Transfers | CrestApps for Orchard Core",
   "description": "Some contact center rules cannot be left to each queue or each agent: whether a call is recorded, what the caller is told, which outside numbers agents may transfer to, and how card details are captured. The Contact Center settings in CrestApps for Orchard Core hold them in one place, in four tabs.\n\nIn this video:\n• Why the rules are site-wide\n• Default numbers for calls and texts\n• Recording governance: consent model, disclosure, retention, legal hold and pausing\n• How the recording disclosure is given on inbound, AI and outbound calls\n• External transfer destinations\n• Secure data capture for card and bank details\n• Use cases",
   "hashtags": [
