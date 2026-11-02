@@ -86,7 +86,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [The Live Dashboard: Watch Queues and Agents in Real Time](videos/contact-center-live-dashboard) | 4:55 | [https://youtu.be/ROep295X9Rs](https://youtu.be/ROep295X9Rs) | CrestApps/CrestApps.OrchardCore |
 | [Numbers Not In Service: Skip Dead Numbers Automatically](videos/contact-center-numbers-not-in-service) | 5:24 | [https://youtu.be/F_-vZDykP84](https://youtu.be/F_-vZDykP84) | CrestApps/CrestApps.OrchardCore |
 | [Queues: Decide Who Takes the Next Call, and What Callers Hear](videos/contact-center-queues) | 5:53 | [https://youtu.be/Mnn9Xkm1KGY](https://youtu.be/Mnn9Xkm1KGY) | CrestApps/CrestApps.OrchardCore |
-| [Contact Center Reports: Run, Filter, Read and Export](videos/contact-center-reports) | 6:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Contact Center Reports: Run, Filter, Read and Export](videos/contact-center-reports) | 6:54 | [https://youtu.be/-Ru-cUqW69o](https://youtu.be/-Ru-cUqW69o) | CrestApps/CrestApps.OrchardCore |
 | [The Contact Center Report Catalog: Which Report Answers Which Question](videos/contact-center-reports-catalog) | 6:44 | [https://youtu.be/KsQhq21PAjI](https://youtu.be/KsQhq21PAjI) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Roles and Permissions: Agent, Supervisor, Who Sees What](videos/contact-center-roles-and-permissions) | 5:30 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Routing Explained: How a Waiting Call Finds an Agent](videos/contact-center-routing-explained) | 6:58 | not uploaded | CrestApps/CrestApps.OrchardCore |
