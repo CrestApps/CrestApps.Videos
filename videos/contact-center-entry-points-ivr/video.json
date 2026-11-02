@@ -94,7 +94,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "OwaVP2rRMsQ",
+    "url": "https://youtu.be/OwaVP2rRMsQ",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter (Inbound Entry Points)"
