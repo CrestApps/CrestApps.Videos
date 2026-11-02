@@ -39,7 +39,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI Roles and Permissions: Who Can Do What With AI](videos/ai-roles-permissions) | 3:31 | [https://youtu.be/M7qNeIcrasU](https://youtu.be/M7qNeIcrasU) | CrestApps/CrestApps.OrchardCore |
 | [AI Site Settings: A Tour of Settings, Artificial Intelligence](videos/ai-site-settings) | 3:40 | [https://youtu.be/MhyG13Wmmuk](https://youtu.be/MhyG13Wmmuk) | CrestApps/CrestApps.OrchardCore |
 | [AI Tools and Tool Instances: Let an Assistant Take Action](videos/ai-tools-and-tool-instances) | 6:10 | [https://youtu.be/nJI61orbkyM](https://youtu.be/nJI61orbkyM) | CrestApps/CrestApps.OrchardCore |
-| [AI Usage Analytics: Models, Tokens, Voice Calls and Report Builder Data Sets](videos/ai-usage-analytics) | 6:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [AI Usage Analytics: Models, Tokens, Voice Calls and Report Builder Data Sets](videos/ai-usage-analytics) | 6:24 | [https://youtu.be/xj8zAkkehKc](https://youtu.be/xj8zAkkehKc) | CrestApps/CrestApps.OrchardCore |
 | [AI Walkthroughs: Providers, Chat, Knowledge, Agents and Widgets](videos/ai-walkthroughs) | 11:34 | [https://youtu.be/rgGJJM3-u2c](https://youtu.be/rgGJJM3-u2c) | CrestApps/CrestApps.OrchardCore |
 | [AI Web Crawlers: Answers From Your Website, With Links](videos/ai-web-crawlers) | 5:15 | [https://youtu.be/tdW6KZU7df4](https://youtu.be/tdW6KZU7df4) | CrestApps/CrestApps.OrchardCore |
 | [AI in Workflows: Automate with AI Tasks and Chat Events](videos/ai-workflows) | 4:44 | [https://youtu.be/ERmm2L9vZyA](https://youtu.be/ERmm2L9vZyA) | CrestApps/CrestApps.OrchardCore |
