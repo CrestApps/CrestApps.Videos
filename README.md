@@ -62,7 +62,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Carts and Checkout: Turn a Shopper's Picks into a Paid Order](videos/carts-checkout) | 5:48 | [https://youtu.be/ZX7sgNCkQTs](https://youtu.be/ZX7sgNCkQTs) | CrestApps/CrestApps.OrchardCore |
 | [CrestApps Commerce: Payments, Subscriptions, Payment Plans and Invoices](videos/commerce) | 10:30 | [https://youtu.be/YQHVdIucYgI](https://youtu.be/YQHVdIucYgI) | CrestApps/CrestApps.OrchardCore |
 | [Commerce Automation: Emails and Actions When Orders, Stock and Shipments Change](videos/commerce-automation) | 5:33 | [https://youtu.be/m_rMaKKnGV8](https://youtu.be/m_rMaKKnGV8) | CrestApps/CrestApps.OrchardCore |
-| [Store Reports and Admin Dashboard Widgets: Sales, Stock and Tax](videos/commerce-reports-dashboard) | 6:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Store Reports and Admin Dashboard Widgets: Sales, Stock and Tax](videos/commerce-reports-dashboard) | 6:07 | [https://youtu.be/WuvYNntjbs0](https://youtu.be/WuvYNntjbs0) | CrestApps/CrestApps.OrchardCore |
 | [Company Approvals and Pay on Account: Sell to Businesses](videos/company-approvals) | 7:31 | [https://youtu.be/xUzr3LvXWG0](https://youtu.be/xUzr3LvXWG0) | CrestApps/CrestApps.OrchardCore |
 | [Agent Offers, Calls and Wrap-Up in the Contact Center](videos/contact-center-agent-calls) | 4:52 | [https://youtu.be/9wSR9ldcpCs](https://youtu.be/9wSR9ldcpCs) | CrestApps/CrestApps.OrchardCore |
 | [Agent States: Reason Codes for Lunch, Meetings and Training](videos/contact-center-agent-states) | 3:48 | [https://youtu.be/Mc3LBWBQAbU](https://youtu.be/Mc3LBWBQAbU) | CrestApps/CrestApps.OrchardCore |
