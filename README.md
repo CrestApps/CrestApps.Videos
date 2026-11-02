@@ -45,7 +45,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [AI in Workflows: Automate with AI Tasks and Chat Events](videos/ai-workflows) | 4:44 | [https://youtu.be/ERmm2L9vZyA](https://youtu.be/ERmm2L9vZyA) | CrestApps/CrestApps.OrchardCore |
 | [Bookings: Sell Tours, Rooms and Appointments by Date](videos/bookings) | 6:59 | [https://youtu.be/XjLNpgWezec](https://youtu.be/XjLNpgWezec) | CrestApps/CrestApps.OrchardCore |
 | [Bookings on the Calendar: See Every Booking and Block Dates](videos/bookings-on-the-calendar) | 3:12 | [https://youtu.be/6JXKZB01bN0](https://youtu.be/6JXKZB01bN0) | CrestApps/CrestApps.OrchardCore |
-| [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Buyer Account and Guest Orders: Find an Order With or Without an Account](videos/buyer-account-guest-orders) | 5:25 | [https://youtu.be/m2D3rtOm1e4](https://youtu.be/m2D3rtOm1e4) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Color-Code Events with Categories](videos/calendars-categories-and-colors) | 3:05 | [https://youtu.be/VBxA0Nt7iQ0](https://youtu.be/VBxA0Nt7iQ0) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Create a Calendar and Share It with the Right People](videos/calendars-create-and-share) | 3:39 | [https://youtu.be/B4kW2MzzHss](https://youtu.be/B4kW2MzzHss) | CrestApps/CrestApps.OrchardCore |
 | [Calendars: Which Features to Turn On, and How to Copy Calendars](videos/calendars-deployment-and-features) | 4:05 | [https://youtu.be/HgFlNjeYSvY](https://youtu.be/HgFlNjeYSvY) | CrestApps/CrestApps.OrchardCore |
