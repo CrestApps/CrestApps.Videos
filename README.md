@@ -90,7 +90,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [The Contact Center Report Catalog: Which Report Answers Which Question](videos/contact-center-reports-catalog) | 6:44 | [https://youtu.be/KsQhq21PAjI](https://youtu.be/KsQhq21PAjI) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Roles and Permissions: Agent, Supervisor, Who Sees What](videos/contact-center-roles-and-permissions) | 5:30 | [https://youtu.be/1y7Wu2pj--E](https://youtu.be/1y7Wu2pj--E) | CrestApps/CrestApps.OrchardCore |
 | [Routing Explained: How a Waiting Call Finds an Agent](videos/contact-center-routing-explained) | 6:58 | [https://youtu.be/CK3CWk3N1QU](https://youtu.be/CK3CWk3N1QU) | CrestApps/CrestApps.OrchardCore |
-| [Contact Center Secure Data Capture: Let the Customer Type the Card Number](videos/contact-center-secure-capture) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Contact Center Secure Data Capture: Let the Customer Type the Card Number](videos/contact-center-secure-capture) | 4:50 | [https://youtu.be/UjC5nWbCxYA](https://youtu.be/UjC5nWbCxYA) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Settings: Recording, Consent and Transfers](videos/contact-center-settings) | 6:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Setup Walkthroughs: Numbers, Queues, IVR and Campaigns](videos/contact-center-setup-walkthroughs) | 23:17 | [https://youtu.be/nMQ4AC7VtWA](https://youtu.be/nMQ4AC7VtWA) | CrestApps/CrestApps.OrchardCore |
 | [Skills and Agent Entitlements: Send Work to the Right Agent](videos/contact-center-skills-entitlements) | 4:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
