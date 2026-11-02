@@ -77,7 +77,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "7iDnqM1NYQQ",
+    "url": "https://youtu.be/7iDnqM1NYQQ",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter (Work Distribution, Agent Entitlements)"

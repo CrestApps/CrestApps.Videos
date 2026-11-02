@@ -93,7 +93,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Contact Center Secure Data Capture: Let the Customer Type the Card Number](videos/contact-center-secure-capture) | 4:50 | [https://youtu.be/UjC5nWbCxYA](https://youtu.be/UjC5nWbCxYA) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Settings: Recording, Consent and Transfers](videos/contact-center-settings) | 6:56 | [https://youtu.be/wwxACePkPXY](https://youtu.be/wwxACePkPXY) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Setup Walkthroughs: Numbers, Queues, IVR and Campaigns](videos/contact-center-setup-walkthroughs) | 23:17 | [https://youtu.be/nMQ4AC7VtWA](https://youtu.be/nMQ4AC7VtWA) | CrestApps/CrestApps.OrchardCore |
-| [Skills and Agent Entitlements: Send Work to the Right Agent](videos/contact-center-skills-entitlements) | 4:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Skills and Agent Entitlements: Send Work to the Right Agent](videos/contact-center-skills-entitlements) | 4:15 | [https://youtu.be/7iDnqM1NYQQ](https://youtu.be/7iDnqM1NYQQ) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Troubleshooting: Menus, Phones, Audio, Dialer, Reports](videos/contact-center-troubleshooting) | 7:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Voice Media: Hold Music and Prompts for Your Queues](videos/contact-center-voice-media) | 5:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Voicemail: Greetings, Inboxes and Shared Boxes](videos/contact-center-voicemail) | 5:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
