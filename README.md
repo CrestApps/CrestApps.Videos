@@ -84,7 +84,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Inbound Entry Points: Route Calls and Texts to the Right Queue](videos/contact-center-entry-points-ivr) | 7:02 | [https://youtu.be/OwaVP2rRMsQ](https://youtu.be/OwaVP2rRMsQ) | CrestApps/CrestApps.OrchardCore |
 | [IVR Menus: Let Callers Press a Key to Reach the Right Team](videos/contact-center-ivr-menus) | 6:29 | [https://youtu.be/jnAvSGOVroQ](https://youtu.be/jnAvSGOVroQ) | CrestApps/CrestApps.OrchardCore |
 | [The Live Dashboard: Watch Queues and Agents in Real Time](videos/contact-center-live-dashboard) | 4:55 | [https://youtu.be/ROep295X9Rs](https://youtu.be/ROep295X9Rs) | CrestApps/CrestApps.OrchardCore |
-| [Numbers Not In Service: Skip Dead Numbers Automatically](videos/contact-center-numbers-not-in-service) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Numbers Not In Service: Skip Dead Numbers Automatically](videos/contact-center-numbers-not-in-service) | 5:24 | [https://youtu.be/F_-vZDykP84](https://youtu.be/F_-vZDykP84) | CrestApps/CrestApps.OrchardCore |
 | [Queues: Decide Who Takes the Next Call, and What Callers Hear](videos/contact-center-queues) | 5:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Reports: Run, Filter, Read and Export](videos/contact-center-reports) | 6:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [The Contact Center Report Catalog: Which Report Answers Which Question](videos/contact-center-reports-catalog) | 6:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
