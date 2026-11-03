@@ -106,7 +106,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Coupons and Discounts: Codes, Automatic Offers and Buy X Get Y](videos/coupons-and-discounts) | 6:37 | [https://youtu.be/PGbrLjv4Lso](https://youtu.be/PGbrLjv4Lso) | CrestApps/CrestApps.OrchardCore |
 | [Customers and Companies: Know Who Buys From You, and Sell to Businesses](videos/customers-companies) | 12:51 | [https://youtu.be/TLjF4DOBCWA](https://youtu.be/TLjF4DOBCWA) | CrestApps/CrestApps.OrchardCore |
 | [Customers, Guests and Privacy: Merged Accounts, Retention and Checkout Fields](videos/customers-guests-privacy) | 4:50 | [https://youtu.be/4ZUAwMdNuZY](https://youtu.be/4ZUAwMdNuZY) | CrestApps/CrestApps.OrchardCore |
-| [Data Connections: Reach SQL Server, Web APIs, Elasticsearch and Files](videos/data-connectors-connections) | 5:19 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Data Connections: Reach SQL Server, Web APIs, Elasticsearch and Files](videos/data-connectors-connections) | 5:19 | [https://youtu.be/34gxQHs9rhg](https://youtu.be/34gxQHs9rhg) | CrestApps/CrestApps.OrchardCore |
 | [Connected Data Sets: Files, Web APIs, SQL Server and Elasticsearch](videos/data-connectors-data-sets) | 5:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Data Connectors: Permissions, Deployment Plans and Troubleshooting](videos/data-connectors-deployment-and-permissions) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Refreshing Imported Data Sets: Schedules, Refresh Now, History and Failures](videos/data-connectors-refresh) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
