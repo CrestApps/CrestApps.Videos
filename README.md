@@ -110,7 +110,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Connected Data Sets: Files, Web APIs, SQL Server and Elasticsearch](videos/data-connectors-data-sets) | 5:16 | [https://youtu.be/vnAktyRVQKQ](https://youtu.be/vnAktyRVQKQ) | CrestApps/CrestApps.OrchardCore |
 | [Data Connectors: Permissions, Deployment Plans and Troubleshooting](videos/data-connectors-deployment-and-permissions) | 4:04 | [https://youtu.be/UWq1ZGGD4Io](https://youtu.be/UWq1ZGGD4Io) | CrestApps/CrestApps.OrchardCore |
 | [Refreshing Imported Data Sets: Schedules, Refresh Now, History and Failures](videos/data-connectors-refresh) | 4:04 | [https://youtu.be/DlN8LOV_zLM](https://youtu.be/DlN8LOV_zLM) | CrestApps/CrestApps.OrchardCore |
-| [Connected Data in Reports and Pipelines: Live, Imported and Permissions](videos/data-connectors-reports-and-pipelines) | 3:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Connected Data in Reports and Pipelines: Live, Imported and Permissions](videos/data-connectors-reports-and-pipelines) | 3:04 | [https://youtu.be/R4E1JfMprKw](https://youtu.be/R4E1JfMprKw) | CrestApps/CrestApps.OrchardCore |
 | [Do Not Call Lists: Never Call a Number You Must Not Call](videos/do-not-call-lists) | 7:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Digital Downloads: Sell Files and Deliver Them Safely](videos/downloads) | 5:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Fundraising: Run a Donation Campaign With Tax Receipts](videos/fundraising) | 5:14 | not uploaded | CrestApps/CrestApps.OrchardCore |
