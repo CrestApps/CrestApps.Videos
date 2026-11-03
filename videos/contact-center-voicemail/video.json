@@ -76,7 +76,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "N-aWnUd-bbI",
+    "url": "https://youtu.be/N-aWnUd-bbI",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter.InboundVoice"
