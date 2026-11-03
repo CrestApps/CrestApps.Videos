@@ -95,7 +95,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Contact Center Setup Walkthroughs: Numbers, Queues, IVR and Campaigns](videos/contact-center-setup-walkthroughs) | 23:17 | [https://youtu.be/nMQ4AC7VtWA](https://youtu.be/nMQ4AC7VtWA) | CrestApps/CrestApps.OrchardCore |
 | [Skills and Agent Entitlements: Send Work to the Right Agent](videos/contact-center-skills-entitlements) | 4:15 | [https://youtu.be/7iDnqM1NYQQ](https://youtu.be/7iDnqM1NYQQ) | CrestApps/CrestApps.OrchardCore |
 | [Contact Center Troubleshooting: Menus, Phones, Audio, Dialer, Reports](videos/contact-center-troubleshooting) | 7:01 | [https://youtu.be/hgdkWtLwk2s](https://youtu.be/hgdkWtLwk2s) | CrestApps/CrestApps.OrchardCore |
-| [Voice Media: Hold Music and Prompts for Your Queues](videos/contact-center-voice-media) | 5:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Voice Media: Hold Music and Prompts for Your Queues](videos/contact-center-voice-media) | 5:23 | [https://youtu.be/jedMnuxwBp0](https://youtu.be/jedMnuxwBp0) | CrestApps/CrestApps.OrchardCore |
 | [Voicemail: Greetings, Inboxes and Shared Boxes](videos/contact-center-voicemail) | 5:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Contact Import and Export: Duplicates, Countries and Last Activity](videos/contact-import-and-export) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Content Access Control: Let Only the Right Roles View a Page](videos/content-access-control) | 4:26 | not uploaded | CrestApps/CrestApps.OrchardCore |

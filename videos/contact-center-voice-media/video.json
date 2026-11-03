@@ -42,7 +42,11 @@
       "title": "Wrap-up"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "jedMnuxwBp0",
+    "url": "https://youtu.be/jedMnuxwBp0",
+    "version": "v1"
+  },
   "title": "Voice Media: Hold Music and Prompts for Your Queues | CrestApps for Orchard Core",
   "description": "The audio your phone system plays, hold music for queues and recorded prompts for phone menus, has to sound the same for every caller, and a copy kept only at one phone provider is lost when you change provider. The voice media library in CrestApps for Orchard Core keeps a master copy of each clip on your site and sends a copy to your provider.\n\nIn this video:\n• Why a voice media library\n• Adding a clip\n• What the Master copy, Provider copy only and No audio badges mean\n• Replacing, protecting and re-syncing a clip\n• Using a clip on a queue or in a phone menu\n• Deleting a clip, and moving to another site\n• Use cases",
   "hashtags": [
