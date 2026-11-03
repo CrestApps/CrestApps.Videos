@@ -100,7 +100,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Contact Import and Export: Duplicates, Countries and Last Activity](videos/contact-import-and-export) | 3:40 | [https://youtu.be/eA5m0Glc5Ro](https://youtu.be/eA5m0Glc5Ro) | CrestApps/CrestApps.OrchardCore |
 | [Content Access Control: Let Only the Right Roles View a Page](videos/content-access-control) | 4:26 | [https://youtu.be/U_GPnT7d9Hw](https://youtu.be/U_GPnT7d9Hw) | CrestApps/CrestApps.OrchardCore |
 | [Phone and Address Fields: Contact Details That Follow the Country](videos/content-fields) | 5:59 | [https://youtu.be/ruVFcizp_jg](https://youtu.be/ruVFcizp_jg) | CrestApps/CrestApps.OrchardCore |
-| [Bulk Import and Export: Move Many Content Items With CSV or Excel](videos/content-transfer) | 7:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Bulk Import and Export: Move Many Content Items With CSV or Excel](videos/content-transfer) | 7:28 | [https://youtu.be/jt9eX5cxvQI](https://youtu.be/jt9eX5cxvQI) | CrestApps/CrestApps.OrchardCore |
 | [Content Transfer Columns: What Each Part and Field Expects in an Import File](videos/content-transfer-columns) | 3:35 | [https://youtu.be/UegQ0OeeHpE](https://youtu.be/UegQ0OeeHpE) | CrestApps/CrestApps.OrchardCore |
 | [Content Transfer Recovery: Errors, Stalled Imports and Cleanup](videos/content-transfer-recovery) | 3:07 | [https://youtu.be/52Ng8JD-M9M](https://youtu.be/52Ng8JD-M9M) | CrestApps/CrestApps.OrchardCore |
 | [Coupons and Discounts: Codes, Automatic Offers and Buy X Get Y](videos/coupons-and-discounts) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
