@@ -155,7 +155,12 @@ jobs:
           git commit -m "Link the $title video ($version) in the documentation"
           # The docs branch also receives commits from other people while videos publish: rebase and retry.
           for attempt in 1 2 3 4 5 6; do
-            git pull --rebase origin "$branch" && git push origin "$branch" && break
+            # The standing branch is gone once its pull request is merged: the first video after that creates it again.
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+              git pull --rebase origin "$branch" && git push origin "$branch" && break
+            else
+              git push origin "$branch" && break
+            fi
             sleep $((attempt * 5))
           done
 
