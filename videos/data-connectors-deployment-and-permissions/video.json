@@ -64,7 +64,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "UWq1ZGGD4Io",
+    "url": "https://youtu.be/UWq1ZGGD4Io",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.DataConnectors"

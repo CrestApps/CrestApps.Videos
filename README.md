@@ -108,7 +108,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Customers, Guests and Privacy: Merged Accounts, Retention and Checkout Fields](videos/customers-guests-privacy) | 4:50 | [https://youtu.be/4ZUAwMdNuZY](https://youtu.be/4ZUAwMdNuZY) | CrestApps/CrestApps.OrchardCore |
 | [Data Connections: Reach SQL Server, Web APIs, Elasticsearch and Files](videos/data-connectors-connections) | 5:19 | [https://youtu.be/34gxQHs9rhg](https://youtu.be/34gxQHs9rhg) | CrestApps/CrestApps.OrchardCore |
 | [Connected Data Sets: Files, Web APIs, SQL Server and Elasticsearch](videos/data-connectors-data-sets) | 5:16 | [https://youtu.be/vnAktyRVQKQ](https://youtu.be/vnAktyRVQKQ) | CrestApps/CrestApps.OrchardCore |
-| [Data Connectors: Permissions, Deployment Plans and Troubleshooting](videos/data-connectors-deployment-and-permissions) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Data Connectors: Permissions, Deployment Plans and Troubleshooting](videos/data-connectors-deployment-and-permissions) | 4:04 | [https://youtu.be/UWq1ZGGD4Io](https://youtu.be/UWq1ZGGD4Io) | CrestApps/CrestApps.OrchardCore |
 | [Refreshing Imported Data Sets: Schedules, Refresh Now, History and Failures](videos/data-connectors-refresh) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Connected Data in Reports and Pipelines: Live, Imported and Permissions](videos/data-connectors-reports-and-pipelines) | 3:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Do Not Call Lists: Never Call a Number You Must Not Call](videos/do-not-call-lists) | 7:56 | not uploaded | CrestApps/CrestApps.OrchardCore |
