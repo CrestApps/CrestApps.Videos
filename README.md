@@ -104,7 +104,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Content Transfer Columns: What Each Part and Field Expects in an Import File](videos/content-transfer-columns) | 3:35 | [https://youtu.be/UegQ0OeeHpE](https://youtu.be/UegQ0OeeHpE) | CrestApps/CrestApps.OrchardCore |
 | [Content Transfer Recovery: Errors, Stalled Imports and Cleanup](videos/content-transfer-recovery) | 3:07 | [https://youtu.be/52Ng8JD-M9M](https://youtu.be/52Ng8JD-M9M) | CrestApps/CrestApps.OrchardCore |
 | [Coupons and Discounts: Codes, Automatic Offers and Buy X Get Y](videos/coupons-and-discounts) | 6:37 | [https://youtu.be/PGbrLjv4Lso](https://youtu.be/PGbrLjv4Lso) | CrestApps/CrestApps.OrchardCore |
-| [Customers and Companies: Know Who Buys From You, and Sell to Businesses](videos/customers-companies) | 12:51 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Customers and Companies: Know Who Buys From You, and Sell to Businesses](videos/customers-companies) | 12:51 | [https://youtu.be/TLjF4DOBCWA](https://youtu.be/TLjF4DOBCWA) | CrestApps/CrestApps.OrchardCore |
 | [Customers, Guests and Privacy: Merged Accounts, Retention and Checkout Fields](videos/customers-guests-privacy) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Data Connections: Reach SQL Server, Web APIs, Elasticsearch and Files](videos/data-connectors-connections) | 5:19 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Connected Data Sets: Files, Web APIs, SQL Server and Elasticsearch](videos/data-connectors-data-sets) | 5:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
