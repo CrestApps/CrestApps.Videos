@@ -113,7 +113,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Connected Data in Reports and Pipelines: Live, Imported and Permissions](videos/data-connectors-reports-and-pipelines) | 3:04 | [https://youtu.be/R4E1JfMprKw](https://youtu.be/R4E1JfMprKw) | CrestApps/CrestApps.OrchardCore |
 | [Do Not Call Lists: Never Call a Number You Must Not Call](videos/do-not-call-lists) | 7:56 | [https://youtu.be/_TpY5tEpzBc](https://youtu.be/_TpY5tEpzBc) | CrestApps/CrestApps.OrchardCore |
 | [Digital Downloads: Sell Files and Deliver Them Safely](videos/downloads) | 5:11 | [https://youtu.be/Nq_HJ8uxs8k](https://youtu.be/Nq_HJ8uxs8k) | CrestApps/CrestApps.OrchardCore |
-| [Fundraising: Run a Donation Campaign With Tax Receipts](videos/fundraising) | 5:14 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Fundraising: Run a Donation Campaign With Tax Receipts](videos/fundraising) | 5:14 | [https://youtu.be/cadjonCpk1k](https://youtu.be/cadjonCpk1k) | CrestApps/CrestApps.OrchardCore |
 | [Gift Cards: Sell, Issue and Pay with a Code](videos/gift-cards) | 6:21 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Headless Commerce API: Admin Setup for Your Own Storefront, App or Integration](videos/headless-api) | 6:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Installment Plans: Sell on a Payment Plan with a Down Payment and Scheduled Payments](videos/installment-plans) | 6:54 | not uploaded | CrestApps/CrestApps.OrchardCore |
