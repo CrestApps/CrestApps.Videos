@@ -88,7 +88,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "_TpY5tEpzBc",
+    "url": "https://youtu.be/_TpY5tEpzBc",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.DncRegistry"
