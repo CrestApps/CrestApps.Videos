@@ -118,7 +118,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Headless Commerce API: Admin Setup for Your Own Storefront, App or Integration](videos/headless-api) | 6:42 | [https://youtu.be/_bFQhJF-o7Q](https://youtu.be/_bFQhJF-o7Q) | CrestApps/CrestApps.OrchardCore |
 | [Installment Plans: Sell on a Payment Plan with a Down Payment and Scheduled Payments](videos/installment-plans) | 6:54 | [https://youtu.be/g620lrumKBQ](https://youtu.be/g620lrumKBQ) | CrestApps/CrestApps.OrchardCore |
 | [Inventory: Count Stock, Locations and Purchase Orders](videos/inventory) | 6:22 | [https://youtu.be/qEK6G7kwt1U](https://youtu.be/qEK6G7kwt1U) | CrestApps/CrestApps.OrchardCore |
-| [Invoices and Receipts: Pay Links, Branding, Numbers and Refund Notices](videos/invoices-receipts) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Invoices and Receipts: Pay Links, Branding, Numbers and Refund Notices](videos/invoices-receipts) | 5:00 | [https://youtu.be/Xp0unBwsDBc](https://youtu.be/Xp0unBwsDBc) | CrestApps/CrestApps.OrchardCore |
 | [Marketing: Email Your Customers by What They Bought](videos/marketing) | 5:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Marketplace and Classifieds: Let Other People Sell on Your Site](videos/marketplace-classifieds) | 8:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Markets: Sell Abroad in the Shopper's Currency](videos/markets) | 5:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
