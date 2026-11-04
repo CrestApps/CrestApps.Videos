@@ -81,7 +81,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "xdfR2l9_4s4",
+    "url": "https://youtu.be/xdfR2l9_4s4",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Omnichannel.Sms"
