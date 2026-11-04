@@ -130,7 +130,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Omnichannel Management 2.0 Walkthroughs](videos/omnichannel-2-walkthroughs) | 6:43 | [https://youtu.be/YPLb7Wf9f-4](https://youtu.be/YPLb7Wf9f-4) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Accounts and Opportunities: Companies, Deals and CRM Reports](videos/omnichannel-accounts-opportunities) | 4:28 | [https://youtu.be/_lmSYRe75h4](https://youtu.be/_lmSYRe75h4) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Activities: Work, Complete and Log Calls and Texts](videos/omnichannel-activities) | 5:19 | [https://youtu.be/o8cWTXlrHPs](https://youtu.be/o8cWTXlrHPs) | CrestApps/CrestApps.OrchardCore |
-| [Omnichannel Addresses: The Numbers Your Business Owns](videos/omnichannel-addresses) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Addresses: The Numbers Your Business Owns](videos/omnichannel-addresses) | 3:42 | [https://youtu.be/y75n24Q5Txg](https://youtu.be/y75n24Q5Txg) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel AI Handoff: Pass an AI Conversation to a Live Agent](videos/omnichannel-ai-handoff) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Automated SMS: Let an AI Profile Qualify Leads by Text](videos/omnichannel-automated-sms) | 5:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Manage Activities in Bulk: Filter, Reassign, Reprioritize and Purge](videos/omnichannel-bulk-activities) | 4:09 | not uploaded | CrestApps/CrestApps.OrchardCore |
