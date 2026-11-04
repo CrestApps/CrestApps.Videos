@@ -73,7 +73,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "3sWxOIFLPwk",
+    "url": "https://youtu.be/3sWxOIFLPwk",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Omnichannel.Managements"
