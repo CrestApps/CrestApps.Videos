@@ -123,7 +123,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Marketplace and Classifieds: Let Other People Sell on Your Site](videos/marketplace-classifieds) | 8:16 | [https://youtu.be/jopsy233MWw](https://youtu.be/jopsy233MWw) | CrestApps/CrestApps.OrchardCore |
 | [Markets: Sell Abroad in the Shopper's Currency](videos/markets) | 5:20 | [https://youtu.be/PlR1IpEAn8E](https://youtu.be/PlR1IpEAn8E) | CrestApps/CrestApps.OrchardCore |
 | [Memberships: Sell Access and Open Content to Members](videos/memberships) | 4:03 | [https://youtu.be/46pt22gW-pI](https://youtu.be/46pt22gW-pI) | CrestApps/CrestApps.OrchardCore |
-| [The Messaging Inbox: Answer Customers' Texts as a Team](videos/messaging-inbox) | 5:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [The Messaging Inbox: Answer Customers' Texts as a Team](videos/messaging-inbox) | 5:43 | [https://youtu.be/Tk8ChfZiVNs](https://youtu.be/Tk8ChfZiVNs) | CrestApps/CrestApps.OrchardCore |
 | [Messaging Routing and Transfers: Who Answers a Text](videos/messaging-routing-and-transfers) | 4:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Messaging Setup: Connect SMS and Start Receiving Texts](videos/messaging-setup) | 5:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Messaging Templates and Broadcasts: Canned Replies and Group Texts](videos/messaging-templates-broadcasts) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
