@@ -124,7 +124,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Markets: Sell Abroad in the Shopper's Currency](videos/markets) | 5:20 | [https://youtu.be/PlR1IpEAn8E](https://youtu.be/PlR1IpEAn8E) | CrestApps/CrestApps.OrchardCore |
 | [Memberships: Sell Access and Open Content to Members](videos/memberships) | 4:03 | [https://youtu.be/46pt22gW-pI](https://youtu.be/46pt22gW-pI) | CrestApps/CrestApps.OrchardCore |
 | [The Messaging Inbox: Answer Customers' Texts as a Team](videos/messaging-inbox) | 5:43 | [https://youtu.be/Tk8ChfZiVNs](https://youtu.be/Tk8ChfZiVNs) | CrestApps/CrestApps.OrchardCore |
-| [Messaging Routing and Transfers: Who Answers a Text](videos/messaging-routing-and-transfers) | 4:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Messaging Routing and Transfers: Who Answers a Text](videos/messaging-routing-and-transfers) | 4:01 | [https://youtu.be/AM62j75B4YE](https://youtu.be/AM62j75B4YE) | CrestApps/CrestApps.OrchardCore |
 | [Messaging Setup: Connect SMS and Start Receiving Texts](videos/messaging-setup) | 5:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Messaging Templates and Broadcasts: Canned Replies and Group Texts](videos/messaging-templates-broadcasts) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Management 2.0 Walkthroughs](videos/omnichannel-2-walkthroughs) | 6:43 | [https://youtu.be/YPLb7Wf9f-4](https://youtu.be/YPLb7Wf9f-4) | CrestApps/CrestApps.OrchardCore |
