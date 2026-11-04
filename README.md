@@ -120,7 +120,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Inventory: Count Stock, Locations and Purchase Orders](videos/inventory) | 6:22 | [https://youtu.be/qEK6G7kwt1U](https://youtu.be/qEK6G7kwt1U) | CrestApps/CrestApps.OrchardCore |
 | [Invoices and Receipts: Pay Links, Branding, Numbers and Refund Notices](videos/invoices-receipts) | 5:00 | [https://youtu.be/Xp0unBwsDBc](https://youtu.be/Xp0unBwsDBc) | CrestApps/CrestApps.OrchardCore |
 | [Marketing: Email Your Customers by What They Bought](videos/marketing) | 5:59 | [https://youtu.be/Z1LdW9YGNB4](https://youtu.be/Z1LdW9YGNB4) | CrestApps/CrestApps.OrchardCore |
-| [Marketplace and Classifieds: Let Other People Sell on Your Site](videos/marketplace-classifieds) | 8:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Marketplace and Classifieds: Let Other People Sell on Your Site](videos/marketplace-classifieds) | 8:16 | [https://youtu.be/jopsy233MWw](https://youtu.be/jopsy233MWw) | CrestApps/CrestApps.OrchardCore |
 | [Markets: Sell Abroad in the Shopper's Currency](videos/markets) | 5:20 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Memberships: Sell Access and Open Content to Members](videos/memberships) | 4:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [The Messaging Inbox: Answer Customers' Texts as a Team](videos/messaging-inbox) | 5:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
