@@ -126,7 +126,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [The Messaging Inbox: Answer Customers' Texts as a Team](videos/messaging-inbox) | 5:43 | [https://youtu.be/Tk8ChfZiVNs](https://youtu.be/Tk8ChfZiVNs) | CrestApps/CrestApps.OrchardCore |
 | [Messaging Routing and Transfers: Who Answers a Text](videos/messaging-routing-and-transfers) | 4:01 | [https://youtu.be/AM62j75B4YE](https://youtu.be/AM62j75B4YE) | CrestApps/CrestApps.OrchardCore |
 | [Messaging Setup: Connect SMS and Start Receiving Texts](videos/messaging-setup) | 5:59 | [https://youtu.be/qglLcS_dp8s](https://youtu.be/qglLcS_dp8s) | CrestApps/CrestApps.OrchardCore |
-| [Messaging Templates and Broadcasts: Canned Replies and Group Texts](videos/messaging-templates-broadcasts) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Messaging Templates and Broadcasts: Canned Replies and Group Texts](videos/messaging-templates-broadcasts) | 5:32 | [https://youtu.be/nBWsEwCUFsQ](https://youtu.be/nBWsEwCUFsQ) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Management 2.0 Walkthroughs](videos/omnichannel-2-walkthroughs) | 6:43 | [https://youtu.be/YPLb7Wf9f-4](https://youtu.be/YPLb7Wf9f-4) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Accounts and Opportunities: Companies, Deals and CRM Reports](videos/omnichannel-accounts-opportunities) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Activities: Work, Complete and Log Calls and Texts](videos/omnichannel-activities) | 5:19 | not uploaded | CrestApps/CrestApps.OrchardCore |
