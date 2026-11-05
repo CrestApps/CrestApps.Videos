@@ -139,7 +139,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Omnichannel CRM Setup: Leads, Accounts and Opportunities in Minutes](videos/omnichannel-crm-setup) | 5:01 | [https://youtu.be/LuZ6Yjl9ikM](https://youtu.be/LuZ6Yjl9ikM) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Leads: Work Prospects and Convert the Ones That Qualify](videos/omnichannel-leads) | 5:33 | [https://youtu.be/QqCau1DKjUo](https://youtu.be/QqCau1DKjUo) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Load Activities: Turn a List of Contacts Into Work](videos/omnichannel-load-activities) | 4:49 | [https://youtu.be/BsTj_FAhpKI](https://youtu.be/BsTj_FAhpKI) | CrestApps/CrestApps.OrchardCore |
-| [Omnichannel Reports: Which Report Answers Which Question](videos/omnichannel-reports) | 6:59 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Reports: Which Report Answers Which Question](videos/omnichannel-reports) | 6:59 | [https://youtu.be/nHSbWKNsM5A](https://youtu.be/nHSbWKNsM5A) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Subject Flows: What Happens After Each Disposition](videos/omnichannel-subject-flows) | 4:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Subjects: Outbound and Inbound, Manual and Automated](videos/omnichannel-subjects) | 4:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Workflows: Contact Center and CRM Automation](videos/omnichannel-workflows) | 7:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
