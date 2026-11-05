@@ -79,7 +79,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "QOQuK-uZCqE",
+    "url": "https://youtu.be/QOQuK-uZCqE",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.PhoneNumbers.Verifications"
