@@ -99,7 +99,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "s2T5Wkvik8c",
+    "url": "https://youtu.be/s2T5Wkvik8c",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Transactions, CrestApps.OrchardCore.Stripe, CrestApps.OrchardCore.PayLater and CrestApps.OrchardCore.Commerce.Webhooks"
