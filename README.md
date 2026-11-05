@@ -144,7 +144,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Omnichannel Subjects: Outbound and Inbound, Manual and Automated](videos/omnichannel-subjects) | 4:07 | [https://youtu.be/4aoKdOZecFA](https://youtu.be/4aoKdOZecFA) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Workflows: Contact Center and CRM Automation](videos/omnichannel-workflows) | 7:02 | [https://youtu.be/VaRSjW6yL1A](https://youtu.be/VaRSjW6yL1A) | CrestApps/CrestApps.OrchardCore |
 | [Orders: Find, Refund, Cancel and Create Orders](videos/orders) | 7:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [Quotes, Order Bump, Add Items and Disputes in Your Store](videos/orders-quotes-disputes) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Quotes, Order Bump, Add Items and Disputes in Your Store](videos/orders-quotes-disputes) | 5:24 | [https://youtu.be/KPJZuiGCjkY](https://youtu.be/KPJZuiGCjkY) | CrestApps/CrestApps.OrchardCore |
 | [Payments: Stripe, Offline Payments, Refunds and Webhooks](videos/payments) | 6:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Phone Number Verification: Know Which Numbers Are Real](videos/phone-number-verification) | 7:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Point of Sale: Sell at the Counter with the Same Store](videos/point-of-sale) | 7:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
