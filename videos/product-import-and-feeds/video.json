@@ -77,7 +77,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "uiXMfW_OLXQ",
+    "url": "https://youtu.be/uiXMfW_OLXQ",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContentTransfer"
