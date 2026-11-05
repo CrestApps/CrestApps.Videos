@@ -95,7 +95,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "HzERrW-lhiA",
+    "url": "https://youtu.be/HzERrW-lhiA",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Orders and CrestApps.OrchardCore.Receipts"
