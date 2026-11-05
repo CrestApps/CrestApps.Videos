@@ -141,7 +141,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Omnichannel Load Activities: Turn a List of Contacts Into Work](videos/omnichannel-load-activities) | 4:49 | [https://youtu.be/BsTj_FAhpKI](https://youtu.be/BsTj_FAhpKI) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Reports: Which Report Answers Which Question](videos/omnichannel-reports) | 6:59 | [https://youtu.be/nHSbWKNsM5A](https://youtu.be/nHSbWKNsM5A) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Subject Flows: What Happens After Each Disposition](videos/omnichannel-subject-flows) | 4:00 | [https://youtu.be/dY7qYWvuUpA](https://youtu.be/dY7qYWvuUpA) | CrestApps/CrestApps.OrchardCore |
-| [Omnichannel Subjects: Outbound and Inbound, Manual and Automated](videos/omnichannel-subjects) | 4:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Subjects: Outbound and Inbound, Manual and Automated](videos/omnichannel-subjects) | 4:07 | [https://youtu.be/4aoKdOZecFA](https://youtu.be/4aoKdOZecFA) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Workflows: Contact Center and CRM Automation](videos/omnichannel-workflows) | 7:02 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Orders: Find, Refund, Cancel and Create Orders](videos/orders) | 7:03 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Quotes, Order Bump, Add Items and Disputes in Your Store](videos/orders-quotes-disputes) | 5:24 | not uploaded | CrestApps/CrestApps.OrchardCore |
