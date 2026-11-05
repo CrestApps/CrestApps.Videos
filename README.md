@@ -135,7 +135,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Omnichannel Automated SMS: Let an AI Profile Qualify Leads by Text](videos/omnichannel-automated-sms) | 5:35 | [https://youtu.be/JS57XO3IdwU](https://youtu.be/JS57XO3IdwU) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Manage Activities in Bulk: Filter, Reassign, Reprioritize and Purge](videos/omnichannel-bulk-activities) | 4:09 | [https://youtu.be/3sWxOIFLPwk](https://youtu.be/3sWxOIFLPwk) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Cadences: Automatic Follow-ups for Quiet Customers](videos/omnichannel-cadences) | 3:42 | [https://youtu.be/lOSM4zqwR7U](https://youtu.be/lOSM4zqwR7U) | CrestApps/CrestApps.OrchardCore |
-| [Omnichannel Contacts: Tie Every Call and Text to a Person](videos/omnichannel-contacts) | 4:55 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Omnichannel Contacts: Tie Every Call and Text to a Person](videos/omnichannel-contacts) | 4:55 | [https://youtu.be/I1dAb4itTlA](https://youtu.be/I1dAb4itTlA) | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel CRM Setup: Leads, Accounts and Opportunities in Minutes](videos/omnichannel-crm-setup) | 5:01 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Leads: Work Prospects and Convert the Ones That Qualify](videos/omnichannel-leads) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Omnichannel Load Activities: Turn a List of Contacts Into Work](videos/omnichannel-load-activities) | 4:49 | not uploaded | CrestApps/CrestApps.OrchardCore |
