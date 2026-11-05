@@ -152,7 +152,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Product Bundles, Grouped Products, Upsells and Compare](videos/product-bundles-and-recommendations) | 5:15 | [https://youtu.be/_1Ai16kiVbs](https://youtu.be/_1Ai16kiVbs) | CrestApps/CrestApps.OrchardCore |
 | [Product Import, Export and Feeds: CSV, Shopify and Google Shopping](videos/product-import-and-feeds) | 4:40 | [https://youtu.be/uiXMfW_OLXQ](https://youtu.be/uiXMfW_OLXQ) | CrestApps/CrestApps.OrchardCore |
 | [Product Listings and Attributes: Filters, Sorts, Search and Layout](videos/product-listings-and-attributes) | 5:11 | [https://youtu.be/vdcHsYrEa1s](https://youtu.be/vdcHsYrEa1s) | CrestApps/CrestApps.OrchardCore |
-| [Product Search Indexes: Lucene, Elasticsearch and Azure AI Search](videos/product-search-indexes) | 3:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Search Indexes: Lucene, Elasticsearch and Azure AI Search](videos/product-search-indexes) | 3:43 | [https://youtu.be/wAcVL4Gcd0M](https://youtu.be/wAcVL4Gcd0M) | CrestApps/CrestApps.OrchardCore |
 | [Product Variants and Prices: Sizes, Colors, SKUs and Recurring Prices](videos/product-variants-and-prices) | 4:28 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Products: Prices, Sales and Shop Pages for Your Store](videos/products) | 8:54 | [https://youtu.be/y04hQZp-s3s](https://youtu.be/y04hQZp-s3s) | CrestApps/CrestApps.OrchardCore |
 | [Purchase Orders and Stock Alerts: Reorder Before You Run Out](videos/purchase-orders-and-stock-alerts) | 4:33 | not uploaded | CrestApps/CrestApps.OrchardCore |

@@ -80,7 +80,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "wAcVL4Gcd0M",
+    "url": "https://youtu.be/wAcVL4Gcd0M",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Products.Lucene"
