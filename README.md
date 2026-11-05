@@ -149,7 +149,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Phone Number Verification: Know Which Numbers Are Real](videos/phone-number-verification) | 7:01 | [https://youtu.be/QOQuK-uZCqE](https://youtu.be/QOQuK-uZCqE) | CrestApps/CrestApps.OrchardCore |
 | [Point of Sale: Sell at the Counter with the Same Store](videos/point-of-sale) | 7:07 | [https://youtu.be/LpA6cG-NbIo](https://youtu.be/LpA6cG-NbIo) | CrestApps/CrestApps.OrchardCore |
 | [Point of Sale: A Day at the Till, Step by Step, and What the Manager Sees](videos/point-of-sale-till) | 3:48 | [https://youtu.be/HNvneGREEaE](https://youtu.be/HNvneGREEaE) | CrestApps/CrestApps.OrchardCore |
-| [Product Bundles, Grouped Products, Upsells and Compare](videos/product-bundles-and-recommendations) | 5:15 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Product Bundles, Grouped Products, Upsells and Compare](videos/product-bundles-and-recommendations) | 5:15 | [https://youtu.be/_1Ai16kiVbs](https://youtu.be/_1Ai16kiVbs) | CrestApps/CrestApps.OrchardCore |
 | [Product Import, Export and Feeds: CSV, Shopify and Google Shopping](videos/product-import-and-feeds) | 4:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Listings and Attributes: Filters, Sorts, Search and Layout](videos/product-listings-and-attributes) | 5:11 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Search Indexes: Lucene, Elasticsearch and Azure AI Search](videos/product-search-indexes) | 3:43 | not uploaded | CrestApps/CrestApps.OrchardCore |
