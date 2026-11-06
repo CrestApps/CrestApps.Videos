@@ -176,7 +176,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | [https://youtu.be/0bnu2jU3qHM](https://youtu.be/0bnu2jU3qHM) | CrestApps/CrestApps.OrchardCore |
 | [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | [https://youtu.be/HBnPwzZLVEg](https://youtu.be/HBnPwzZLVEg) | CrestApps/CrestApps.OrchardCore |
 | [Shipments and Labels: Ship, Track and Deliver Orders](videos/shipments-and-labels) | 4:52 | [https://youtu.be/iDdgzTXOKhw](https://youtu.be/iDdgzTXOKhw) | CrestApps/CrestApps.OrchardCore |
-| [Shipping: Zones, Methods, Pickup and Shipments for Your Store](videos/shipping) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Shipping: Zones, Methods, Pickup and Shipments for Your Store](videos/shipping) | 5:33 | [https://youtu.be/Ik7CZJ5HBxI](https://youtu.be/Ik7CZJ5HBxI) | CrestApps/CrestApps.OrchardCore |
 | [Site Administration Walkthroughs: Fields, Roles, Users and Imports](videos/site-administration-walkthroughs) | 5:14 | [https://youtu.be/f1en3LF024s](https://youtu.be/f1en3LF024s) | CrestApps/CrestApps.OrchardCore |
 | [Wizards, Recipes and Shared Resources: Guided Steps and Quick Setups](videos/site-wizard-recipes) | 5:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Store Credit, Loyalty Points and Referrals](videos/store-credit-loyalty-referrals) | 5:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
