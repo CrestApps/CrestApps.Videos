@@ -170,7 +170,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | [https://youtu.be/bFGcjOY0htU](https://youtu.be/bFGcjOY0htU) | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Book, Confirm, Move and Cancel Appointments](videos/scheduling-book-and-manage) | 3:32 | [https://youtu.be/4a-UeJOTCxg](https://youtu.be/4a-UeJOTCxg) | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Online Booking and the Waitlist](videos/scheduling-online-booking-and-waitlist) | 3:30 | [https://youtu.be/3QgBemXGSlI](https://youtu.be/3QgBemXGSlI) | CrestApps/CrestApps.OrchardCore |
-| [Scheduling: How Open Times Are Worked Out](videos/scheduling-open-times) | 4:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: How Open Times Are Worked Out](videos/scheduling-open-times) | 4:10 | [https://youtu.be/xtl8h87a-rE](https://youtu.be/xtl8h87a-rE) | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Resources and Appointment Types for Bookable Time](videos/scheduling-people-rooms-appointment-types) | 4:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Workflows, the AI Assistant and Deployment](videos/scheduling-workflows-and-ai) | 3:42 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
