@@ -179,7 +179,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Shipping: Zones, Methods, Pickup and Shipments for Your Store](videos/shipping) | 5:33 | [https://youtu.be/Ik7CZJ5HBxI](https://youtu.be/Ik7CZJ5HBxI) | CrestApps/CrestApps.OrchardCore |
 | [Site Administration Walkthroughs: Fields, Roles, Users and Imports](videos/site-administration-walkthroughs) | 5:14 | [https://youtu.be/f1en3LF024s](https://youtu.be/f1en3LF024s) | CrestApps/CrestApps.OrchardCore |
 | [Wizards, Recipes and Shared Resources: Guided Steps and Quick Setups](videos/site-wizard-recipes) | 5:50 | [https://youtu.be/zUdxT1apl6o](https://youtu.be/zUdxT1apl6o) | CrestApps/CrestApps.OrchardCore |
-| [Store Credit, Loyalty Points and Referrals](videos/store-credit-loyalty-referrals) | 5:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Store Credit, Loyalty Points and Referrals](videos/store-credit-loyalty-referrals) | 5:40 | [https://youtu.be/Fj5tPfvyvt4](https://youtu.be/Fj5tPfvyvt4) | CrestApps/CrestApps.OrchardCore |
 | [Stripe: Cards, Apple Pay, Google Pay, Saved Cards and Disputes](videos/stripe-wallets-cards-disputes) | 4:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Subscriptions and Memberships: Plans, Sign-up and Agreements](videos/subscriptions) | 5:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Subscriptions: Pause, Resume, Cancel and the Whole Lifecycle](videos/subscriptions-lifecycle) | 4:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
