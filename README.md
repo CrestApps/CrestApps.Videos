@@ -163,7 +163,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Report Builder Formulas: Calculated Fields, Labels and Rates](videos/report-builder-formulas) | 3:41 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Groups and PDF Export in the Report Builder](videos/report-builder-groups-and-pdf) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Builder Workflows: Email, Export and Share Reports Automatically](videos/report-builder-workflows) | 4:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [Report Subscriptions: Email a Report Every Day, Week or Month](videos/report-subscriptions) | 5:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Report Subscriptions: Email a Report Every Day, Week or Month](videos/report-subscriptions) | 5:50 | [https://youtu.be/sZD3-LrShi4](https://youtu.be/sZD3-LrShi4) | CrestApps/CrestApps.OrchardCore |
 | [Report Widgets: Put Reports on the Admin Dashboard](videos/reports-dashboard-widgets) | 4:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
