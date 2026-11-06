@@ -79,7 +79,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "P3Fi92V5thM",
+    "url": "https://youtu.be/P3Fi92V5thM",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Orders.Returns"
