@@ -168,7 +168,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | [https://youtu.be/HNpqiUj_gNE](https://youtu.be/HNpqiUj_gNE) | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | [https://youtu.be/P3Fi92V5thM](https://youtu.be/P3Fi92V5thM) | CrestApps/CrestApps.OrchardCore |
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | [https://youtu.be/bFGcjOY0htU](https://youtu.be/bFGcjOY0htU) | CrestApps/CrestApps.OrchardCore |
-| [Scheduling: Book, Confirm, Move and Cancel Appointments](videos/scheduling-book-and-manage) | 3:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Scheduling: Book, Confirm, Move and Cancel Appointments](videos/scheduling-book-and-manage) | 3:32 | [https://youtu.be/4a-UeJOTCxg](https://youtu.be/4a-UeJOTCxg) | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Online Booking and the Waitlist](videos/scheduling-online-booking-and-waitlist) | 3:30 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: How Open Times Are Worked Out](videos/scheduling-open-times) | 4:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Resources and Appointment Types for Bookable Time](videos/scheduling-people-rooms-appointment-types) | 4:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
