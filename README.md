@@ -164,7 +164,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Report Groups and PDF Export in the Report Builder](videos/report-builder-groups-and-pdf) | 3:40 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Builder Workflows: Email, Export and Share Reports Automatically](videos/report-builder-workflows) | 4:07 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Subscriptions: Email a Report Every Day, Week or Month](videos/report-subscriptions) | 5:50 | [https://youtu.be/sZD3-LrShi4](https://youtu.be/sZD3-LrShi4) | CrestApps/CrestApps.OrchardCore |
-| [Report Widgets: Put Reports on the Admin Dashboard](videos/reports-dashboard-widgets) | 4:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Report Widgets: Put Reports on the Admin Dashboard](videos/reports-dashboard-widgets) | 4:29 | [https://youtu.be/0i5Iv4UKuZg](https://youtu.be/0i5Iv4UKuZg) | CrestApps/CrestApps.OrchardCore |
 | [Reports: Run, Filter and Export to CSV, Excel and PDF](videos/reports-run-and-export) | 6:37 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Returns and Exchanges: Approve, Receive and Refund](videos/returns) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Product Reviews: Let Buyers Rate What They Bought](videos/reviews) | 5:29 | not uploaded | CrestApps/CrestApps.OrchardCore |
