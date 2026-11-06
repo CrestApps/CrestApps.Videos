@@ -74,5 +74,10 @@
     "src/CrestApps.Docs/docs/user-manual/calendars/scheduling.md",
     "src/CrestApps.Docs/docs/modules/scheduling.md"
   ],
-  "length": "3:42"
+  "length": "3:42",
+  "youtube": {
+    "id": "c8jBlDySw2c",
+    "url": "https://youtu.be/c8jBlDySw2c",
+    "version": "v1"
+  }
 }
