@@ -155,7 +155,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Product Search Indexes: Lucene, Elasticsearch and Azure AI Search](videos/product-search-indexes) | 3:43 | [https://youtu.be/wAcVL4Gcd0M](https://youtu.be/wAcVL4Gcd0M) | CrestApps/CrestApps.OrchardCore |
 | [Product Variants and Prices: Sizes, Colors, SKUs and Recurring Prices](videos/product-variants-and-prices) | 4:28 | [https://youtu.be/MhdnY72BbjI](https://youtu.be/MhdnY72BbjI) | CrestApps/CrestApps.OrchardCore |
 | [Products: Prices, Sales and Shop Pages for Your Store](videos/products) | 8:54 | [https://youtu.be/y04hQZp-s3s](https://youtu.be/y04hQZp-s3s) | CrestApps/CrestApps.OrchardCore |
-| [Purchase Orders and Stock Alerts: Reorder Before You Run Out](videos/purchase-orders-and-stock-alerts) | 4:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Purchase Orders and Stock Alerts: Reorder Before You Run Out](videos/purchase-orders-and-stock-alerts) | 4:33 | [https://youtu.be/xuXJSSgM2fU](https://youtu.be/xuXJSSgM2fU) | CrestApps/CrestApps.OrchardCore |
 | [Recipes: Run, Check and Export a Site Setup](videos/recipes) | 3:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Report Builder: Drag-and-Drop Reports Over Your Site's Data](videos/report-builder) | 13:01 | [https://youtu.be/QRosrn4BE90](https://youtu.be/QRosrn4BE90) | [CrestApps/CrestApps.OrchardCore#814](https://github.com/CrestApps/CrestApps.OrchardCore/pull/814) |
 | [Report Builder Administration: Permissions, Moving Reports and Large Data](videos/report-builder-administration) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
