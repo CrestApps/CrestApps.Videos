@@ -174,7 +174,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Scheduling: Resources and Appointment Types for Bookable Time](videos/scheduling-people-rooms-appointment-types) | 4:25 | [https://youtu.be/eyv91yZlgyA](https://youtu.be/eyv91yZlgyA) | CrestApps/CrestApps.OrchardCore |
 | [Scheduling: Workflows, the AI Assistant and Deployment](videos/scheduling-workflows-and-ai) | 3:42 | [https://youtu.be/c8jBlDySw2c](https://youtu.be/c8jBlDySw2c) | CrestApps/CrestApps.OrchardCore |
 | [Selling Sites: Sell a Whole Website as a Subscription](videos/selling-sites) | 5:32 | [https://youtu.be/0bnu2jU3qHM](https://youtu.be/0bnu2jU3qHM) | CrestApps/CrestApps.OrchardCore |
-| [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Set Up Your Store: From a New Site to a First Sale](videos/set-up-your-store) | 5:00 | [https://youtu.be/HBnPwzZLVEg](https://youtu.be/HBnPwzZLVEg) | CrestApps/CrestApps.OrchardCore |
 | [Shipments and Labels: Ship, Track and Deliver Orders](videos/shipments-and-labels) | 4:52 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Shipping: Zones, Methods, Pickup and Shipments for Your Store](videos/shipping) | 5:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Site Administration Walkthroughs: Fields, Roles, Users and Imports](videos/site-administration-walkthroughs) | 5:14 | [https://youtu.be/f1en3LF024s](https://youtu.be/f1en3LF024s) | CrestApps/CrestApps.OrchardCore |
