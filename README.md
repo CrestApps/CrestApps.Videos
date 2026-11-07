@@ -182,7 +182,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Store Credit, Loyalty Points and Referrals](videos/store-credit-loyalty-referrals) | 5:40 | [https://youtu.be/Fj5tPfvyvt4](https://youtu.be/Fj5tPfvyvt4) | CrestApps/CrestApps.OrchardCore |
 | [Stripe: Cards, Apple Pay, Google Pay, Saved Cards and Disputes](videos/stripe-wallets-cards-disputes) | 4:37 | [https://youtu.be/Risxpz0rhnI](https://youtu.be/Risxpz0rhnI) | CrestApps/CrestApps.OrchardCore |
 | [Subscriptions and Memberships: Plans, Sign-up and Agreements](videos/subscriptions) | 5:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [Subscriptions: Pause, Resume, Cancel and the Whole Lifecycle](videos/subscriptions-lifecycle) | 4:33 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Subscriptions: Pause, Resume, Cancel and the Whole Lifecycle](videos/subscriptions-lifecycle) | 4:33 | [https://youtu.be/Lr63-rmJiII](https://youtu.be/Lr63-rmJiII) | CrestApps/CrestApps.OrchardCore |
 | [Taxation: Categories, Jurisdictions and Rules for Your Store](videos/taxation) | 6:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Telephony: Make and Take Calls from the Browser](videos/telephony) | 9:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Asterisk Setup: Connect Your Own Phone System](videos/telephony-asterisk-setup) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
