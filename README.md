@@ -192,7 +192,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Soft Phone Administration: Provider, Diagnostics and Click to Dial](videos/telephony-soft-phone-administration) | 3:23 | [https://youtu.be/3_ucRcACvm4](https://youtu.be/3_ucRcACvm4) | CrestApps/CrestApps.OrchardCore |
 | [Telnyx Settings: Connect, Noise Suppression and Answering Machine Detection](videos/telephony-telnyx-settings) | 3:35 | [https://youtu.be/519b6PC2mnI](https://youtu.be/519b6PC2mnI) | CrestApps/CrestApps.OrchardCore |
 | [Tenant Hierarchy: Parent Tenants That Create and Open Their Own Sites](videos/tenant-hierarchy) | 8:53 | [https://youtu.be/eL-gcGqRWxw](https://youtu.be/eL-gcGqRWxw) | [CrestApps/CrestApps.OrchardCore#818](https://github.com/CrestApps/CrestApps.OrchardCore/pull/818) |
-| [Tenant Hierarchy Operations: Filter, Fix and Manage Client Sites](videos/tenant-hierarchy-operations) | 4:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Tenant Hierarchy Operations: Filter, Fix and Manage Client Sites](videos/tenant-hierarchy-operations) | 4:44 | [https://youtu.be/LodfOgtrUcA](https://youtu.be/LodfOgtrUcA) | CrestApps/CrestApps.OrchardCore |
 | [Time Zones: Friendly Names Instead of Hundreds of Technical Ones](videos/time-zones) | 4:13 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Use case: Let the AI Answer Your Customers](videos/use-case-ai-answers-customers) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Use case: Follow Up Automatically](videos/use-case-automatic-follow-ups) | 4:45 | not uploaded | CrestApps/CrestApps.OrchardCore |
