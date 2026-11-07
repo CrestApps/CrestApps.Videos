@@ -196,7 +196,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Time Zones: Friendly Names Instead of Hundreds of Technical Ones](videos/time-zones) | 4:13 | [https://youtu.be/c6G6YLfq-Po](https://youtu.be/c6G6YLfq-Po) | CrestApps/CrestApps.OrchardCore |
 | [Use case: Let the AI Answer Your Customers](videos/use-case-ai-answers-customers) | 4:50 | [https://youtu.be/VGCOV9dY_o8](https://youtu.be/VGCOV9dY_o8) | CrestApps/CrestApps.OrchardCore |
 | [Use case: Follow Up Automatically](videos/use-case-automatic-follow-ups) | 4:45 | [https://youtu.be/V-SnzurggXc](https://youtu.be/V-SnzurggXc) | CrestApps/CrestApps.OrchardCore |
-| [Run an Inbound Call Center: Numbers, Queues, Routing and Agents](videos/use-case-inbound-call-center) | 6:38 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Run an Inbound Call Center: Numbers, Queues, Routing and Agents](videos/use-case-inbound-call-center) | 6:38 | [https://youtu.be/XBzWoylBsyw](https://youtu.be/XBzWoylBsyw) | CrestApps/CrestApps.OrchardCore |
 | [Use case: Turn Leads into Deals](videos/use-case-leads-to-deals) | 4:49 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Run an Outbound Calling Campaign: From a Contact List to Reports](videos/use-case-outbound-calling-campaign) | 6:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Use case: Text Your Contacts](videos/use-case-text-your-contacts) | 4:25 | not uploaded | CrestApps/CrestApps.OrchardCore |
