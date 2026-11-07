@@ -190,7 +190,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Soft Phone Apps: Browser Extension and Windows App](videos/telephony-phone-apps) | 4:57 | [https://youtu.be/BubjVXgP9KQ](https://youtu.be/BubjVXgP9KQ) | CrestApps/CrestApps.OrchardCore |
 | [Where Call Recordings Are Stored: Local Encryption and Azure Blob Storage](videos/telephony-recording-storage) | 2:32 | [https://youtu.be/RK8RXKEB5S4](https://youtu.be/RK8RXKEB5S4) | CrestApps/CrestApps.OrchardCore |
 | [Soft Phone Administration: Provider, Diagnostics and Click to Dial](videos/telephony-soft-phone-administration) | 3:23 | [https://youtu.be/3_ucRcACvm4](https://youtu.be/3_ucRcACvm4) | CrestApps/CrestApps.OrchardCore |
-| [Telnyx Settings: Connect, Noise Suppression and Answering Machine Detection](videos/telephony-telnyx-settings) | 3:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Telnyx Settings: Connect, Noise Suppression and Answering Machine Detection](videos/telephony-telnyx-settings) | 3:35 | [https://youtu.be/519b6PC2mnI](https://youtu.be/519b6PC2mnI) | CrestApps/CrestApps.OrchardCore |
 | [Tenant Hierarchy: Parent Tenants That Create and Open Their Own Sites](videos/tenant-hierarchy) | 8:53 | [https://youtu.be/eL-gcGqRWxw](https://youtu.be/eL-gcGqRWxw) | [CrestApps/CrestApps.OrchardCore#818](https://github.com/CrestApps/CrestApps.OrchardCore/pull/818) |
 | [Tenant Hierarchy Operations: Filter, Fix and Manage Client Sites](videos/tenant-hierarchy-operations) | 4:44 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Time Zones: Friendly Names Instead of Hundreds of Technical Ones](videos/time-zones) | 4:13 | not uploaded | CrestApps/CrestApps.OrchardCore |
