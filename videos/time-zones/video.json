@@ -71,7 +71,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "c6G6YLfq-Po",
+    "url": "https://youtu.be/c6G6YLfq-Po",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.TimeZones"
