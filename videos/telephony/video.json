@@ -91,7 +91,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "ZcXiZ1Vuu54",
+    "url": "https://youtu.be/ZcXiZ1Vuu54",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Telephony"
