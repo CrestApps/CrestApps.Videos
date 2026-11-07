@@ -68,7 +68,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "3_ucRcACvm4",
+    "url": "https://youtu.be/3_ucRcACvm4",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Telephony.SoftPhone"
