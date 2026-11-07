@@ -64,7 +64,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "RK8RXKEB5S4",
+    "url": "https://youtu.be/RK8RXKEB5S4",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Telephony.Azure"
