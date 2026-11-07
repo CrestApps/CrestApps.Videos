@@ -187,7 +187,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Telephony: Make and Take Calls from the Browser](videos/telephony) | 9:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Asterisk Setup: Connect Your Own Phone System](videos/telephony-asterisk-setup) | 4:05 | [https://youtu.be/j5Gk3vsm4mg](https://youtu.be/j5Gk3vsm4mg) | CrestApps/CrestApps.OrchardCore |
 | [Placing and Handling Calls from the Soft Phone](videos/telephony-calls) | 5:16 | [https://youtu.be/LYaucezOFfU](https://youtu.be/LYaucezOFfU) | CrestApps/CrestApps.OrchardCore |
-| [Soft Phone Apps: Browser Extension and Windows App](videos/telephony-phone-apps) | 4:57 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Soft Phone Apps: Browser Extension and Windows App](videos/telephony-phone-apps) | 4:57 | [https://youtu.be/BubjVXgP9KQ](https://youtu.be/BubjVXgP9KQ) | CrestApps/CrestApps.OrchardCore |
 | [Where Call Recordings Are Stored: Local Encryption and Azure Blob Storage](videos/telephony-recording-storage) | 2:32 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Soft Phone Administration: Provider, Diagnostics and Click to Dial](videos/telephony-soft-phone-administration) | 3:23 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Telnyx Settings: Connect, Noise Suppression and Answering Machine Detection](videos/telephony-telnyx-settings) | 3:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
