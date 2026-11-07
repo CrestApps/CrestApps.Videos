@@ -194,7 +194,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Tenant Hierarchy: Parent Tenants That Create and Open Their Own Sites](videos/tenant-hierarchy) | 8:53 | [https://youtu.be/eL-gcGqRWxw](https://youtu.be/eL-gcGqRWxw) | [CrestApps/CrestApps.OrchardCore#818](https://github.com/CrestApps/CrestApps.OrchardCore/pull/818) |
 | [Tenant Hierarchy Operations: Filter, Fix and Manage Client Sites](videos/tenant-hierarchy-operations) | 4:44 | [https://youtu.be/LodfOgtrUcA](https://youtu.be/LodfOgtrUcA) | CrestApps/CrestApps.OrchardCore |
 | [Time Zones: Friendly Names Instead of Hundreds of Technical Ones](videos/time-zones) | 4:13 | [https://youtu.be/c6G6YLfq-Po](https://youtu.be/c6G6YLfq-Po) | CrestApps/CrestApps.OrchardCore |
-| [Use case: Let the AI Answer Your Customers](videos/use-case-ai-answers-customers) | 4:50 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Use case: Let the AI Answer Your Customers](videos/use-case-ai-answers-customers) | 4:50 | [https://youtu.be/VGCOV9dY_o8](https://youtu.be/VGCOV9dY_o8) | CrestApps/CrestApps.OrchardCore |
 | [Use case: Follow Up Automatically](videos/use-case-automatic-follow-ups) | 4:45 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Run an Inbound Call Center: Numbers, Queues, Routing and Agents](videos/use-case-inbound-call-center) | 6:38 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Use case: Turn Leads into Deals](videos/use-case-leads-to-deals) | 4:49 | not uploaded | CrestApps/CrestApps.OrchardCore |
