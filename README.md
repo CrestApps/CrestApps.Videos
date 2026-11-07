@@ -185,7 +185,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Subscriptions: Pause, Resume, Cancel and the Whole Lifecycle](videos/subscriptions-lifecycle) | 4:33 | [https://youtu.be/Lr63-rmJiII](https://youtu.be/Lr63-rmJiII) | CrestApps/CrestApps.OrchardCore |
 | [Taxation: Categories, Jurisdictions and Rules for Your Store](videos/taxation) | 6:35 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Telephony: Make and Take Calls from the Browser](videos/telephony) | 9:10 | not uploaded | CrestApps/CrestApps.OrchardCore |
-| [Asterisk Setup: Connect Your Own Phone System](videos/telephony-asterisk-setup) | 4:05 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Asterisk Setup: Connect Your Own Phone System](videos/telephony-asterisk-setup) | 4:05 | [https://youtu.be/j5Gk3vsm4mg](https://youtu.be/j5Gk3vsm4mg) | CrestApps/CrestApps.OrchardCore |
 | [Placing and Handling Calls from the Soft Phone](videos/telephony-calls) | 5:16 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Soft Phone Apps: Browser Extension and Windows App](videos/telephony-phone-apps) | 4:57 | not uploaded | CrestApps/CrestApps.OrchardCore |
 | [Where Call Recordings Are Stored: Local Encryption and Azure Blob Storage](videos/telephony-recording-storage) | 2:32 | not uploaded | CrestApps/CrestApps.OrchardCore |

@@ -70,7 +70,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "j5Gk3vsm4mg",
+    "url": "https://youtu.be/j5Gk3vsm4mg",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.Asterisk"
