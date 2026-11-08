@@ -198,7 +198,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Use case: Follow Up Automatically](videos/use-case-automatic-follow-ups) | 4:45 | [https://youtu.be/V-SnzurggXc](https://youtu.be/V-SnzurggXc) | CrestApps/CrestApps.OrchardCore |
 | [Run an Inbound Call Center: Numbers, Queues, Routing and Agents](videos/use-case-inbound-call-center) | 6:38 | [https://youtu.be/XBzWoylBsyw](https://youtu.be/XBzWoylBsyw) | CrestApps/CrestApps.OrchardCore |
 | [Use case: Turn Leads into Deals](videos/use-case-leads-to-deals) | 4:49 | [https://youtu.be/MWqznjA180M](https://youtu.be/MWqznjA180M) | CrestApps/CrestApps.OrchardCore |
-| [Run an Outbound Calling Campaign: From a Contact List to Reports](videos/use-case-outbound-calling-campaign) | 6:53 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [Run an Outbound Calling Campaign: From a Contact List to Reports](videos/use-case-outbound-calling-campaign) | 6:53 | [https://youtu.be/kyXed-1tRxI](https://youtu.be/kyXed-1tRxI) | CrestApps/CrestApps.OrchardCore |
 | [Use case: Text Your Contacts](videos/use-case-text-your-contacts) | 4:25 | [https://youtu.be/P_WjYnYG4rA](https://youtu.be/P_WjYnYG4rA) | CrestApps/CrestApps.OrchardCore |
 | [Users and Roles: Manage Access, Names and Avatars](videos/users-roles) | 6:03 | [https://youtu.be/ACsj5JyaGfw](https://youtu.be/ACsj5JyaGfw) | CrestApps/CrestApps.OrchardCore |
 | [Commerce Webhooks: Tell Another System When Orders, Shipments and Stock Change](videos/webhooks) | 5:53 | [https://youtu.be/0oMUwHf6pOs](https://youtu.be/0oMUwHf6pOs) | CrestApps/CrestApps.OrchardCore |

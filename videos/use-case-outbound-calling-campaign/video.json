@@ -86,7 +86,11 @@
       "url": "https://orchardcore.crestapps.com"
     }
   ],
-  "youtube": {},
+  "youtube": {
+    "id": "kyXed-1tRxI",
+    "url": "https://youtu.be/kyXed-1tRxI",
+    "version": "v1"
+  },
   "source": {
     "repository": "CrestApps/CrestApps.OrchardCore",
     "feature": "CrestApps.OrchardCore.ContactCenter.Dialer"
