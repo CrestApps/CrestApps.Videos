@@ -55,6 +55,7 @@ recordings, frames, builds, MP4s) out of git. Commit only what is listed under "
 videos/<slug>/
   README.md         what the video covers, and how to record it again (the site, the seed data)
   video.json        the YouTube title, description, tags, chapters, links, playlists, and the YouTube id once published
+                    (playlists: always "CrestApps for Orchard Core" plus every topic playlist that fits — see "Playlists" in CONTRIBUTING.md)
   thumbnail.jpg     the YouTube thumbnail: the opening card (build/00-intro.png) saved as JPEG
   storyboard.json   the chapters, clips and narration (see references/storyboard.md)
   slides.py         the slides, if the storyboard has "slide" clips

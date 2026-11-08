@@ -46,6 +46,29 @@ rename it later.
 | `storyboard.json`, `slides.py`, `recorder/`, `durations.json` | narrated videos | Everything needed to make it again |
 | `reel.json` | reels | The screencasts, by their path in a source repository at a fixed commit |
 
+### Playlists
+
+Every public video belongs in `CrestApps for Orchard Core` **and** in each topic playlist that fits it, named in the
+`playlists` array of `video.json` (the publish workflow adds the video to them; `youtube.py playlists` adds videos that
+were published earlier and creates a playlist that doesn't exist yet). A video can be in more than one topic:
+
+| Playlist | What goes in it |
+| --- | --- |
+| `Artificial Intelligence` | AI chat, profiles, agents, tools, data sources, memory, MCP, voice, and the AI parts of other features |
+| `Contact Center` | queues, routing, agents, dialer, campaigns, IVR, dashboards, reports |
+| `Phones and Telephony` | telephony providers and soft phones, call recording and voice media, numbers |
+| `CRM and Omnichannel` | contacts, leads, accounts, opportunities, activities, cadences |
+| `Messaging and SMS` | the messaging inbox, routing, templates, broadcasts, automated texts |
+| `Commerce and Store` | products, carts, checkout, markets, discounts, POS, inventory, marketing, customers |
+| `Payments, Orders and Fulfillment` | orders, payments, returns, invoices, shipping, taxes |
+| `Subscriptions, Memberships and Fundraising` | recurring plans, memberships, donations |
+| `Calendars, Scheduling and Workforce` | calendars, scheduling and bookings, agent availability, time zones |
+| `Reports and Data` | reports, the report builder, data connectors, analytics |
+| `Site Administration and Setup` | users and roles, wizards and recipes, tenants, content transfer, deployment, settings |
+
+Videos with `privacyStatus` `unlisted` (the documentation reels) go only in `CrestApps User Manual`, never in a public
+playlist. Add a new topic playlist to this table when a video doesn't fit any of these.
+
 Never commit the MP4, audio files, `build/`, `clips/`, sign-ins (`state.json`) or a copy of a site's `App_Data`:
 `.gitignore` keeps them out, so don't force them in.
 
