@@ -202,7 +202,7 @@ Everything kept here is what's needed to make a video again, or to change how it
 | [Use case: Text Your Contacts](videos/use-case-text-your-contacts) | 4:25 | [https://youtu.be/P_WjYnYG4rA](https://youtu.be/P_WjYnYG4rA) | CrestApps/CrestApps.OrchardCore |
 | [Users and Roles: Manage Access, Names and Avatars](videos/users-roles) | 6:03 | [https://youtu.be/ACsj5JyaGfw](https://youtu.be/ACsj5JyaGfw) | CrestApps/CrestApps.OrchardCore |
 | [Commerce Webhooks: Tell Another System When Orders, Shipments and Stock Change](videos/webhooks) | 5:53 | [https://youtu.be/0oMUwHf6pOs](https://youtu.be/0oMUwHf6pOs) | CrestApps/CrestApps.OrchardCore |
-| [The CrestApps Wizard: Settings, Resuming, Access and Workflow Events](videos/wizard) | 4:04 | not uploaded | CrestApps/CrestApps.OrchardCore |
+| [The CrestApps Wizard: Settings, Resuming, Access and Workflow Events](videos/wizard) | 4:04 | [https://youtu.be/KSx8kzxY204](https://youtu.be/KSx8kzxY204) | CrestApps/CrestApps.OrchardCore |
 <!-- videos:end -->
 
 This table is generated from each video's `video.json` by `python tools/youtube/youtube.py index`.
