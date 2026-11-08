@@ -14,6 +14,7 @@ Commands:
   python tools/youtube/youtube.py chapters <slug> --build <dir> compute chapter times from an assembled build
   python tools/youtube/youtube.py description <slug>           print the description exactly as YouTube gets it
   python tools/youtube/youtube.py docs-map <slug> --map <json> write the YouTube id into a docs site's video map
+  python tools/youtube/youtube.py playlists [<slug>...]        put published public videos into the playlists of video.json
   python tools/youtube/youtube.py index                        rewrite the video table in README.md
 
 Authentication (see tools/youtube/README.md):
@@ -457,6 +458,50 @@ def cmd_docs_map(args):
     github_output(changed=str(changed).lower())
 
 
+def cmd_playlists(args):
+    """Puts every published, public video into the playlists its video.json names, creating the playlists that don't
+    exist and skipping the videos already in them. Never removes a video from a playlist. Stops at the first quota
+    error (each playlist entry costs 50 units): run it again the next day."""
+    from googleapiclient.errors import HttpError
+
+    youtube = service()
+    wanted = {}
+
+    for slug in args.slugs or slugs():
+        video = load(slug)
+        video_id = video.get("youtube", {}).get("id")
+
+        if video_id and video.get("privacyStatus", "public") == "public":
+            for title in video.get("playlists", []):
+                wanted.setdefault(title, []).append((slug, video_id))
+
+    ids = dict(zip(wanted, playlist_ids(youtube, list(wanted)))) if wanted else {}
+
+    try:
+        for title, videos in wanted.items():
+            have, page = set(), None
+            while True:
+                response = youtube.playlistItems().list(part="contentDetails", playlistId=ids[title], maxResults=50, pageToken=page).execute()
+                have |= {item["contentDetails"]["videoId"] for item in response.get("items", [])}
+                page = response.get("nextPageToken")
+                if not page:
+                    break
+
+            added = 0
+            for slug, video_id in videos:
+                if video_id not in have:
+                    youtube.playlistItems().insert(
+                        part="snippet",
+                        body={"snippet": {"playlistId": ids[title], "resourceId": {"kind": "youtube#video", "videoId": video_id}}},
+                    ).execute()
+                    added += 1
+            print(f"{title}: {len(videos)} videos, {added} added", flush=True)
+    except HttpError as error:
+        if "quotaExceeded" not in str(error):
+            raise
+        raise SystemExit("The YouTube quota is used up: run `playlists` again after it resets (the videos already added are skipped).")
+
+
 def cmd_index(args):
     rows = ["| Video | Length | YouTube | Source |", "| --- | --- | --- | --- |"]
 
@@ -520,6 +565,10 @@ def main():
     docs_map.add_argument("slug")
     docs_map.add_argument("--map", required=True, help="the docs site's videos.json")
     docs_map.set_defaults(run=cmd_docs_map)
+
+    playlists = commands.add_parser("playlists")
+    playlists.add_argument("slugs", nargs="*", help="default: every video")
+    playlists.set_defaults(run=cmd_playlists)
 
     commands.add_parser("index").set_defaults(run=cmd_index)
 
